@@ -15,10 +15,26 @@
         {
           "id": "A",
           "text": "Compared to youth-onset type 1 diabetes, youth-onset type 2 diabetes is associated with a lower risk of developing diabetic kidney disease (DKD) after similar diabetes durations."
+        },
+        {
+          "id": "B",
+          "text": "In youth-onset type 2 diabetes, DKD develops more aggressively and is associated with a higher prevalence of hypertension, retinopathy, and neuropathy."
+        },
+        {
+          "id": "C",
+          "text": "In the Pima Indian population, youth-onset type 2 diabetes has been shown to lead to significantly increased incidence of ESKD by middle age."
+        },
+        {
+          "id": "D",
+          "text": "The increasing prevalence of youth-onset type 2 diabetes globally is expected to contribute to higher rates of ESKD in mid-life populations in the future."
+        },
+        {
+          "id": "E",
+          "text": "Youth-onset type 2 diabetes is now seen in all major racial and ethnic groups in North America, with especially high prevalence among American Indian and First Nation youth."
         }
       ],
-      "sourceAnswerStatus": "absent",
-      "sourceProvidedAnswer": null,
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "A",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -43,8 +59,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "reconciliationNotes": "原始檔案無解答，兩組 NotebookLM 回答不一致 (D vs A)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "有爭議：原始答案給予 (A)，但 NotebookLM 推論為 (D vs A)。",
       "resolvedImages": []
     },
     {
@@ -55,10 +71,26 @@
         {
           "id": "A",
           "text": "Urinary epidermal growth factor (EGF) levels are positively correlated with eGFR and inversely with albuminuria in early diabetic kidney disease."
+        },
+        {
+          "id": "B",
+          "text": "Plasma concentrations of KIM-1 are stronger predictors of progressive renal decline in type 1 diabetes than urinary KIM-1 levels."
+        },
+        {
+          "id": "C",
+          "text": "TNF receptors (TNFR1 and TNFR2) are only weakly associated with renal outcomes and do not outperform traditional risk factors for DKD progression."
+        },
+        {
+          "id": "D",
+          "text": "Urinary monocyte chemoattractant protein-1 (MCP-1) levels are associated with interstitial expansion and predict early GFR decline in type 1 diabetes."
+        },
+        {
+          "id": "E",
+          "text": "Serum uric acid may act as a downstream marker of kidney damage rather than a direct causal factor in DKD progression, as suggested by Mendelian randomization studies."
         }
       ],
-      "sourceAnswerStatus": "absent",
-      "sourceProvidedAnswer": null,
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "C",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-3)",
@@ -83,8 +115,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始檔案無解答，兩組 NotebookLM 一致推論答案為 (D)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 推論為 (D vs D)。",
       "resolvedImages": []
     },
     {
@@ -95,10 +127,26 @@
         {
           "id": "A",
           "text": "A significant proportion of patients with DKD may develop reduced GFR without preceding albuminuria, particularly in women with type 2 diabetes and features such as obesity or hypertension."
+        },
+        {
+          "id": "B",
+          "text": "In the UKPDS, after the development of microalbuminuria, most patients transitioned steadily to macroalbuminuria and ESKD rather than dying during follow-up."
+        },
+        {
+          "id": "C",
+          "text": "Elevated albuminuria, even in the microalbuminuric range, is a strong predictor of all-cause mortality, cardiovascular death, stroke, and ESKD in both diabetic and nondiabetic populations."
+        },
+        {
+          "id": "D",
+          "text": "Diabetic retinopathy is nearly universal in patients with type 1 diabetes of >15 years duration and is more severe in those with proteinuria."
+        },
+        {
+          "id": "E",
+          "text": "Macrovascular disease is 2–5 times more common in patients with DKD than in those without, and cardiovascular events are the leading cause of death in DKD."
         }
       ],
-      "sourceAnswerStatus": "absent",
-      "sourceProvidedAnswer": null,
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "B",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-5)",
@@ -123,8 +171,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始檔案無解答，兩組 NotebookLM 一致推論答案為 (D)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 推論為 (D vs D)。",
       "resolvedImages": []
     },
     {
@@ -135,10 +183,26 @@
         {
           "id": "A",
           "text": "GBM thickening, mesangial expansion, podocyte loss, and reduced glomerular filtration surface area are seen in both type 1 and type 2 diabetes and progress with disease duration."
+        },
+        {
+          "id": "B",
+          "text": "Histological lesions in type 2 diabetes are generally more heterogeneous than in type 1 diabetes, particularly due to comorbid conditions like hypertension, aging, and atherosclerosis."
+        },
+        {
+          "id": "C",
+          "text": "In patients with type 2 diabetes, albumin excretion rate (AER) is a highly reliable surrogate marker for determining the underlying histologic category and severity of DKD."
+        },
+        {
+          "id": "D",
+          "text": "In type 2 diabetes, some patients may exhibit significant tubulointerstitial and vascular changes even in the absence of marked glomerular lesions."
+        },
+        {
+          "id": "E",
+          "text": "In Pima Indians with type 2 diabetes, histologic patterns of DKD and their association with albuminuria more closely resemble those observed in type 1 diabetes."
         }
       ],
-      "sourceAnswerStatus": "absent",
-      "sourceProvidedAnswer": null,
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "C",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-2)",
@@ -163,8 +227,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "reconciliationNotes": "原始檔案無解答，兩組 NotebookLM 回答不一致 (D vs A)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 推論為 (D vs A)。",
       "resolvedImages": []
     },
     {
@@ -175,10 +239,26 @@
         {
           "id": "A",
           "text": "In a biopsy study at Columbia University, approximately one-third of diabetic patients had DKD alone, one-third had non-diabetic kidney disease (NDKD) alone, and one-third had both DKD and NDKD."
+        },
+        {
+          "id": "B",
+          "text": "Among patients with NDKD alone, the most common diagnoses included FSGS, hypertensive nephrosclerosis, and acute tubular injury."
+        },
+        {
+          "id": "C",
+          "text": "In patients with both DKD and NDKD, acute tubular injury was the most frequent NDKD finding."
+        },
+        {
+          "id": "D",
+          "text": "The presence of interstitial eosinophilic aggregates in diabetic kidney biopsies is strongly correlated with clinical drug allergy and polypharmacy."
+        },
+        {
+          "id": "E",
+          "text": "A diabetes duration of ≥12 years is an independent predictor of having DKD alone rather than NDKD."
         }
       ],
-      "sourceAnswerStatus": "absent",
-      "sourceProvidedAnswer": null,
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "D",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-4)",
@@ -204,7 +284,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始檔案無解答，兩組 NotebookLM 一致推論答案為 (D)。",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": []
     }
   ]

@@ -276,6 +276,18 @@
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
+        },
+        {
+          "notebookTitle": "TSN：出題 (4-5)",
+          "databaseSufficiency": "INSUFFICIENT",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細分析與數據說明\n\n雖然 *notebook sources* 提供了關於 **peritoneal dialysis** 的 **technique survival** 及其衰退原因的詳細流行病學與臨床數據，但並未包含能夠明確指出全球或一般情況下 **annual technique failure rate** 具體百分比範圍的直接陳述 [1, 2]。\n\n根據 *notebook sources* 的實際記載，與此主題相關的定量數據與臨床分析如下：\n\n1.  **Technique Survival Rates**:\n    *   根據 *Chapter 81* 關於 *Oceania Region* 的記載，雖然 **patient survival** 在 **peritoneal dialysis (PD)** 與 **hemodialysis (HD)** 之間具有可比性，但 **PD** 的進一步推廣受到了相對較低的 **technique survival** 的限制。其 **3-year technique survival rate 僅為 49%** (95% CI: 45%–53%) [1]。\n2.  **Drivers of Technique Failure**:\n    *   在 **Australia**，**technique failure** 主要由 **infection**（佔 22%，例如 **peritonitis**）以及 **inadequate dialysis**（佔 13%，例如 **inadequate fluid ultrafiltration** 與 **solute clearance**）所驅動 [1]。\n    *   在 **New Zealand**，**infection** 亦是 **technique failure** 最常見的病因（佔 44%），其次為 **failure of dialysis function**（佔 23%）、**technical issues**（佔 19%）以及因 **patient preference** 而進行的 **change in modality**（佔 7%） [2]。\n\n由於現有文獻並未給出明確的 **annual technique failure rate** 單一標準化百分比範圍（如 1%–3%、7%–15%、20%–25% 或 30%–40%），為了維持僅依賴提供之資料來源的真實性承諾，本題無法在現有 *notebook sources* 基礎上選定單一正確選項。\n\n---\n\n### Citations & References\n\n*   **Chapter & Section**:\n    *   *Brenner & Rector's The Kidney*, Chapter 81, \"Oceania Region\"; Section: \"KIDNEY REPLACEMENT THERAPY\", Subsection: \"Peritoneal Dialysis\".\n*   **Figures, Tables, & Boxes**:\n    *   *Chapter 81*, Section on \"Peritoneal Dialysis\" (detailing the 3-year technique survival of 49% and its primary infectious and mechanical etiologies).",
+          "selectedOption": "UNKNOWN"
+        },
+        {
+          "notebookTitle": "TSN：出題 (1-1)",
+          "databaseSufficiency": "SUFFICIENT",
+          "rawResponse": "## Question 1\nWhat is the reported annual technique failure rate for patients on peritoneal dialysis due to complications such as peritonitis and catheter malfunction?\n\nA. 1% to 3%\nB. 7% to 15%\nC. 20% to 25%\nD. 30% to 40%\n\n**Correct Answer**: **B**\n\n---\n\n### 1. Answer Determination\n本題的正確選項為 **Option B (7% to 15%)**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 *Brenner & Rector's The Kidney* 的記載，`Peritoneal dialysis` 作為 `end-stage kidney disease` 的主要替代治療之一，其 `patient survival` 在許多大型研究中被證實與傳統的 `hemodialysis` 相當 [1, 2]。然而，`peritoneal dialysis` 的長期推廣與維持，主要受到較高且持續存在的 **`technique failure`** 所制約 [2, 3]。\n\n在多數國際大型透析登記註冊系統（如 `USRDS` 與 `ANZDATA`）中，**`peritoneal dialysis` 的預期 `annual technique failure rate`（年技術失敗率）一般介於 `7% to 15%` 之間**（這對應著第一年的 `technique survival` 通常維持在 85% 至 93% 左右）[2]。\n\n導致 `technique failure` 並迫使患者必須永久轉換至 `hemodialysis` 的關鍵臨床與病理生理機制包括：\n1.  **`Infections`（感染）**：\n    以 **`peritoneal dialysis-related peritonitis`** 為最主要的致病元兇 [2, 3]。在許多國家（如紐西蘭），`infection` 佔全體 `technique failure` 原因的 44% [3]。頻繁發作或難治性的 `peritonitis` 會引發巨噬細胞與細胞介質的持續釋放，導致 `peritoneal membrane` 發生進行性的 `fibrosis`（纖維化）與血管新生，進而喪失 `ultrafiltration capacity`（超濾功能）與 `solute clearance` [2, 4]。\n2.  **`Catheter Malfunction`（導管功能障礙）與 `Technical Issues`**：\n    包括導管移位（`catheter displacement`）、纖維蛋白塊或大網膜包繞造成的管腔阻塞、以及嚴重的 `pericatheter leaks`（滲漏），這些機械性併發症是導致早期（特別是前 6 個月內）`technique failure` 的重要原因 [3]。\n3.  **`Inadequate Dialysis`（透析不足）**：\n    隨著患者 `residual kidney function` 的進行性喪失，單純依賴腹膜清除溶質與水分的能力達到極限，造成 `volume overload`（體液過載）與毒素累積，最終不得不轉換為 `hemodialysis` [2, 5]。\n\n在一些具有高度專業腹膜透析照護與優良訓練系統的國家（如日本），其 `annual technique failure rate` 可控制在極低的 **`7% per year`** 左右；而在部分技術流失率較高的地區，3年的累計 `technique survival` 則僅有 **`49%`**（年均技術失敗率接近 15% 至 20%） [2]。因此，綜合全球流行病學數據，標準的年技術失敗率落於 **`7% to 15%`** 的範圍內。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **Option A: 1% to 3%**\n    *   *為何錯誤*：此數值在臨床實踐中是完全不切實際的。由於 `peritoneal dialysis` 導管長期與外界相通，且高度依賴患者或照顧者每日無菌操作的技術，因此不可避免地會伴隨 `peritonitis` [2] 與 `catheter-related infections` [6]。將年技術失敗率低估至 `1% to 3%` 僅可能出現在極少數、極短期且高度篩選的單一中心研究中，無法代表真實世界中大規模 `ESKD` 隊列的實際技術留存率。\n    *   *命題者設計意圖*：測試考生是否混淆了「單次、無併發症之 `peritonitis` 所直接導致的急性 `mortality rate`（通常低於 5%）」與整體的「`annual technique failure rate`」。\n\n*   **Option C: 20% to 25%**\n    *   *為何錯誤*：雖然在某些高風險亞群（例如合併嚴重 `cognitive impairment` 的高齡患者、或是 `PD patient volume` 極低且缺乏經驗的透析中心）中，第一年的技術失敗率可能會上升至 `20% to 25%` [2, 7]，但這並非全球主流指引與文獻所公認的整體 `annual technique failure rate` 標準。\n    *   *命題者設計意圖*：測試考生是否明白不同透析中心規模（`center volume`）與患者照護能力對技術留存率的影響，並檢驗其是否能區分高危特定隊列與整體平均隊列的數值差異。\n\n*   **Option D: 30% to 40%**\n    *   *為何錯誤*：此技術失敗率過高。若每年有 `30% to 40%` 的患者因併發症而被迫退出 `peritoneal dialysis`，則絕大多數患者在開始治療的 2 至 3 年內都將全數流失。在現代臨床中，由於 `Y-connector` 與 `twin-bag disconnect systems` 的普及，以及 exit-site 塗抹 `mupirocin` 等預防指引的落實，`peritonitis` 的發生率已顯著下降 [4]，技術留存時間已大大延長，因此該選項數值過於悲觀且不符合現代醫學事實。\n    *   *命題者設計意圖*：測試考生是否發生了時序上的混淆，將「3年或5年的 **`cumulative technique failure rate`**（在部分登記系統中確實可達 30% 至 50%）」[2] 誤當成了「**`annual technique failure rate`**」。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科醫師考試中，關於 `peritoneal dialysis` 的併發症與技術生存，常涉及以下幾組高難度的鑑別診斷與對比：\n\n1.  **`PD Technique Failure` vs. `HD Vascular Access Failure`**:\n    *   **`PD Technique Failure`**：其特徵是具有「不可逆性」。一旦發生嚴重且無法控制的 `refractory peritonitis` 導致必須移除 Tenckhoff 導管 [2]，或是腹膜因長期暴露於 `high glucose degradation products (GDPs)` 的透析液而發生硬化性腹膜炎（`encapsulating peritoneal sclerosis / EPS`）時 [4]，患者必須永久改變透析模式，轉為 `hemodialysis` [2, 3]。\n    *   **`HD Vascular Access Failure`**：雖然 `venous stenosis` [8] 或 `thrombosis` 也會導致 `AVF / AVG` 失效，但臨床上可以透過 `percutaneous transluminal angioplasty (PTA)` 或是重建新的血管通路來解決，病患通常仍能繼續留在 `hemodialysis` 模式中，不一定會導致整體透析技術的失敗。\n2.  **`Water Diuresis (High-volume PD)` vs. `Ultrafiltration Failure (membrane decay)`**:\n    *   這是評估 `PD` 患者容量控制不佳時的經典生理對比：\n        *   `Early leakage or catheter malfunction`：常在移植或置管早期發生，表現為排水不暢或腹壁硬結，通常可藉由 `laparoscopic revision` 或 `temporary rest` 來挽救 [3, 9]。\n        *   `Late peritoneal membrane decay`：常發生在透析 5 年以上，由於高糖腹膜透析液的長期化學刺激（`mesothelial-to-mesenchymal transition / EMT`），造成腹膜有效轉運面積增加（`high transporter status`），葡萄糖滲透壓梯度迅速消失，導致嚴重的 `ultrafiltration failure` [2, 4]。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**:\n    *   According to Chapter 81 (\"Oceania Region\") of *Brenner & Rector's The Kidney*, in the section **\"PERITONEAL DIALYSIS\"** (specifically describing technique survival, peritonitis rates, and the impact of catheter malfunction) [2, 3].\n    *   According to Chapter 64 (\"Peritoneal Dialysis\") of *Brenner & Rector's The Kidney*, in the sections **\"PERITONITIS\"**, **\"NONINFECTIOUS COMPLICATIONS\"**, and **\"PATIENT OUTCOMES\"** [1, 4, 6].\n    *   According to Chapter 25 (\"Sexual Function and Fertility\") of the *KDIGO 2009 Transplant Recipient Guideline*, under **Section 25.2**.\n\n*   **Figures, Tables, & Boxes**:\n    *   Referencing **Figure 81.6** (\"Peritoneal dialysis peritonitis rates across states and territories in Australia\") of *Brenner & Rector's The Kidney* [10].\n    *   Referencing **Figure 63.6** (\"Mortality rates for patients on hemodialysis and peritoneal dialysis\") of *Brenner & Rector's The Kidney* [11].\n    *   Referencing **Figure 23** (\"Unadjusted and adjusted all-cause death with peritoneal dialysis versus hemodialysis in autosomal dominant polycystic kidney disease\") of the *KDIGO 2025 ADPKD Guideline* [12].\n\n---\n📊 我可以為您建立一個詳細的臨床對比圖表，深入比較 Peritoneal Dialysis 與 Hemodialysis 在第一年、第三年及第五年的患者生存率（patient survival）與技術生存率（technique survival）的差異，並剖析其各自背後的核心失效機制（如 peritonitis vs. vascular access failure）。",
+          "selectedOption": "UNKNOWN"
         }
       ],
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
@@ -527,8 +539,8 @@
         }
       ],
       "sourceExplanation": "P.794",
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-2)",
@@ -553,10 +565,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationStatus": "MATCHED",
       "reconciliationNotes": "有爭議：原始檔案無解答，且 NotebookLM 兩次提問回答不一致 (A vs C)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:30:52.074Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "已根據原始試卷截圖更正：原始 Word/Docx 試卷將選項 (A) Ammonium chloride challenge test 標示為紅字正解。NLM 語意分析第一組亦選出 A，狀態更新為 MATCHED。"
     }
   ]
 }

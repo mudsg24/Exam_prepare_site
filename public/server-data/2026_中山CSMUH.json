@@ -331,7 +331,11 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (B, D)。"
+      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (B, D)。",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:31:02.614Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "NLM 一致選擇 B, D，與原始答案 D 衝突，標記 DISPUTED_SOURCE_VS_NLM。"
     },
     {
       "id": "2026_中山CSMUH_q7",

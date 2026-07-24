@@ -359,8 +359,8 @@
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "",
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "INVALID_FRAGMENT",
+      "qcStatus": "QC_INVALID_QUESTION",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -385,7 +385,12 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。"
+      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:30:15.606Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "1. 原始檔比對：經過查閱 `/Users/yuan/Projects/Exam/Exam_prepare_database/Processed/TSN 歷年交換題/2026 年交換題/2026北醫-練習題/hybrid_ocr/2026北醫-練習題.md`，發現 JSON 中的題幹被嚴重幻覺/錯置。原題幹為「...BP is 99/57 mmHg... sodium 123 mEq/L...」，完全不符合 JSON 中的「hydrochlorothiazide 25 mg daily... Na 138 mEq/L...」。因題幹已完全錯誤失真，故標註 isInvalidQuestion: true。\n2. NLM 語意驗證：泥谷 (4-1) 回答 (C)；Kuo (5-5) 明確指出四個選項皆錯，故回答 NONE。結果維持 DISPUTED_NLM_VS_NLM。",
+      "isInvalid": true
     },
     {
       "id": "2026北醫-練習題_q8",

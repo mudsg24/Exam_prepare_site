@@ -500,7 +500,11 @@
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 兩組皆推論為 (A)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:35:44.466Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "QC 通過。兩組 NLM 語意解析皆一致選出 (A) FMD 為支架相對禁忌，推理嚴密，與原始解答 (B) 衝突。"
     },
     {
       "id": "2025_成大___Quiz_for_Renovascular_hypertension_王明誠2025_05_29_q10",

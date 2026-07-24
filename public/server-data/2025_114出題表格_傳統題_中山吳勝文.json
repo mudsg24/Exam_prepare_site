@@ -372,7 +372,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (A)。"
+      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-24T18:32:15.608Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "經 100% LLM 語意閱讀，NLM 兩組皆推論正解為 A (應避免造影劑與 NSAID 以保護殘餘腎功能)。原始答案 D 存在爭議。"
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q8",
@@ -450,7 +455,7 @@
           "text": "Surgical intervention is considered for managing frequent stenosis site of AVF"
         }
       ],
-      "sourceAnswerStatus": "missing",
+      "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "AJKD Vol 75 , Iss 4 , Suppl 2 , April 2020, S91-S97",
       "nlmResponses": [
@@ -478,7 +483,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (A)。"
+      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-24T18:32:15.610Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "已根據原始試卷截圖更正：原始試卷明確標註 正確答案：( C )。NLM 語意分析推論為 (A)，標記 DISPUTED_SOURCE_VS_NLM。"
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q10",

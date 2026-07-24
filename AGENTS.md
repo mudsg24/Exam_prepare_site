@@ -18,9 +18,13 @@
 >    - **絕對禁止**使用 Regex 正則表達式腳本進行考題內文、選項、解答或解說之抓取與切分。
 >    - 所有的題目解析與結構化提取（包含題幹、選項、章節標籤 `Chapter`、原始解說 `Explanation`、頁碼出處），**一律必須派發 Subagents 透過 LLM 語言能力與語意理解進行判斷與抽離**。
 >
-> 2. **SOURCE-FILE PRIORITY RULE (原始檔優先，防二手資訊污染原則)**:
+> 2. **SOURCE-FILE PRIORITY & VISUAL/STYLE RECOGNIZE RULE (原始檔優先與視覺樣式辨識鐵律)**:
 >    - 只要試卷資料夾中存在原始檔（如 `_origin.docx`、`_origin.pdf`、`_origin.pptx` 或圖片檔），Subagents **一律必須直接讀取原始檔內文與標註**。
 >    - **絕不依賴 Mineru 轉出的 `.md` 或中間產物**，避免因 Mineru 轉檔遺漏選項、丟失格式或錯位而造成二手資訊污染。
+>    - **未抓到解答一律強制重開原檔視覺/樣式辨識 (Mandatory Visual/Style Re-reading for Missing Answers)**：
+>      - **凡是 `sourceProvidedAnswer` 缺失 (`null` / `missing` / `absent`) 的題目，一律必須強制派發 Subagents 重開原始檔案 (`_origin.docx`, `_origin.pdf`, `_origin.pptx` 或圖檔) 進行視覺與字型樣式辨識**。
+>      - **檢查標的**：(1) Word XML 字型顏色 (`w:color val="FF0000"` / `C00000` 紅字選項)；(2) 文字高亮 `<w:highlight>` 與底線；(3) 試卷末端 `正確答案：（ X ）` 印記；(4) PDF/圖片 Layout 視覺重讀。
+>      - 經視覺與樣式辨識成功補抓者，一律寫入 `sourceProvidedAnswer: "X"` 並將 `sourceAnswerStatus` 修正為 `"provided"`，絕不得讓原本有標註解答的題目淪為空值。
 >
 > 3. **ABSOLUTE BAN ON REGEX NLM OPTION EXTRACTION (全管道嚴禁 Regex 擷取選項 & 100% Subagent 語意分析)**:
 >    - **全管道（包含主 Session、腳本與 Subagents）絕對禁止**使用正則表達式 (Regex) 或字串比對去機械化擷取 NLM 回答中的選項字母 (A-E)。

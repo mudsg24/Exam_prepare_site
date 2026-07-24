@@ -61,7 +61,11 @@
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 檢索推論答案為 (A)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:30:21.289Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "題幹與選項無殘缺。NLM 一致推論為 (A) 給予 isotonic saline 是錯誤的處置。原始解答為 (D)。"
     },
     {
       "id": "2025_台大考訊_2025_q2",
@@ -113,10 +117,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:30:21.290Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "題幹與選項無殘缺。NLM 之間出現分歧，有 Run 認為無正解，有 Run 判定為 (D)。原始解答為 (D)。"
     },
     {
       "id": "2025_台大考訊_2025_q3",
@@ -391,7 +399,11 @@
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 檢索推論答案為 (B, D)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-24T18:30:21.292Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
+      "qcNotes": "題幹與選項無殘缺。NLM 一致判斷 B 與 D 兩者皆為不當處置（複選），但原始解答僅給 (B)。"
     }
   ]
 }

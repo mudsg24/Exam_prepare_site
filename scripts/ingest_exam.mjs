@@ -308,7 +308,7 @@ export function reconcileResponses(sourceAnswer, nlmList) {
 }
 
 // Main CLI logic
-export async function processDirectories(targetDirs, options = { dryRun: false }) {
+export async function processDirectories(targetDirs, options = { dryRun: false, force: false }) {
   if (!fs.existsSync(SERVER_DATA_DIR)) {
     fs.mkdirSync(SERVER_DATA_DIR, { recursive: true });
   }
@@ -331,6 +331,15 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
 
     const dirName = path.basename(rawDir);
     const paperTitle = cleanPaperTitle(dirName);
+    const paperId = paperTitle.replace(/[^a-zA-Z0-9_\u4e00-\u9fa5]/g, '_');
+    const paperJsonFile = path.join(SERVER_DATA_DIR, `${paperId}.json`);
+
+    const isAlreadyProcessed = manifest.some((m) => m.id === paperId) || fs.existsSync(paperJsonFile);
+    if (isAlreadyProcessed && !options.force) {
+      console.log(`[SKIP] Paper "${paperTitle}" (ID: ${paperId}) is already processed. Use --force to re-process.`);
+      continue;
+    }
+
     console.log(`Processing Paper: ${paperTitle} (Source: ${dirName})`);
 
     // Find .md file inside office/ or root
@@ -428,8 +437,6 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
     }
 
     // Save Paper JSON
-    const paperId = paperTitle.replace(/[^a-zA-Z0-9_\u4e00-\u9fa5]/g, '_');
-    const paperJsonFile = path.join(SERVER_DATA_DIR, `${paperId}.json`);
     const paperData = {
       id: paperId,
       title: paperTitle,
@@ -463,10 +470,11 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
 if (process.argv[1] && process.argv[1].endsWith('ingest_exam.mjs')) {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
-  const dirs = args.filter((a) => a !== '--dry-run');
+  const force = args.includes('--force');
+  const dirs = args.filter((a) => a !== '--dry-run' && a !== '--force');
   if (dirs.length > 0) {
-    processDirectories(dirs, { dryRun });
+    processDirectories(dirs, { dryRun, force });
   } else {
-    console.log('Usage: node scripts/ingest_exam.mjs [--dry-run] <dir1> <dir2> ...');
+    console.log('Usage: node scripts/ingest_exam.mjs [--dry-run] [--force] <dir1> <dir2> ...');
   }
 }

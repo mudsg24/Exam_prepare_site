@@ -20,11 +20,27 @@ export function extractNlmOption(rawText) {
   }
   text = text.replace(/\\n/g, '\n');
 
-  // Extract Answer Determination section or first 300 chars
-  const sectionMatch = text.match(/(?:###?\s*Answer\s*Determination|Answer\s*Determination)[:\s]*([\s\S]*?)(?=\n#{1,3}|\n2\.|Detailed\s+Rationale|$)/i);
-  const targetBlock = sectionMatch ? sectionMatch[1].slice(0, 300) : text.slice(0, 300);
+  // Priority 1: Match explicit "**Correct Answer**: B" or "Correct Option: B, D"
+  const mExplicit = text.match(/(?:\*{0,2}(?:Correct\s+Answer|Correct\s+Option|Ans|Answer|正確答案|正確選項|解答)\*{0,2})\s*[:：]\s*\*{0,2}\(?\s*([A-Ea-e](?:\s*[,&/與及]\s*[A-Ea-e])*)\s*\)?\*{0,2}/i);
+  if (mExplicit && mExplicit[1]) {
+    const matched = mExplicit[1].toUpperCase().replace(/\s*[,&/與及]\s*/g, ', ');
+    if (/^[A-E](,\s*[A-E])*$/.test(matched)) {
+      return matched;
+    }
+  }
 
-  // Check for explicit "No correct option" / "無答案" / "無適當選項" / "無一能"
+  // Priority 2: Extract Answer Determination section or Explanation block
+  const sectionMatch = text.match(/(?:###?\s*Answer\s*Determination|Answer\s*Determination)[:\s]*([\s\S]*?)(?=\n#{1,3}|\n2\.|Detailed\s+Rationale|$)/i);
+  let targetBlock = sectionMatch ? sectionMatch[1] : text;
+
+  if (!sectionMatch) {
+    const expMatch = text.match(/(?:\*\*Explanation\*\*|Explanation|解答說明|試題解析)[:\s]*([\s\S]*?)(?=\n###?\s*Distractor|\n###?\s*Citations|$)/i);
+    if (expMatch) {
+      targetBlock = expMatch[1];
+    }
+  }
+
+  // Priority 3: Check for explicit "No correct option" / "無答案" / "無適當選項" / "無一能"
   if (/(?:no\s+correct\s+option|no\s+valid\s+option|無解答|無適當選項|無正確答案|無一能|無一|無完全|題目瑕疵)/i.test(targetBlock)) {
     return 'NONE';
   }
@@ -32,19 +48,18 @@ export function extractNlmOption(rawText) {
     return 'ALL';
   }
 
-  // Find all option letters (A-E) mentioned in Answer Determination
+  // Priority 4: Find option letters (A-E) mentioned in Answer Determination
   const letterMatches = [...targetBlock.matchAll(/(?:option|選項|項|\()\s*\b([A-Ea-e])\b\s*\)?/gi)];
   if (letterMatches.length > 0) {
     const uniqueLetters = [...new Set(letterMatches.map(m => m[1].toUpperCase()))];
-    return uniqueLetters.join(', ');
+    if (uniqueLetters.length <= 3) {
+      return uniqueLetters.join(', ');
+    }
   }
 
-  // Fallback: match explicit single option pattern
-  const m1 = text.match(/(?:correct\s+option\s+is|correct\s+answer\s+is|statement\s+in\s+option)\s*\*{0,2}\(?([A-Ea-e])\)?\*{0,2}/i);
+  // Priority 5: Fallback single option match
+  const m1 = text.match(/(?:correct\s+option\s+is|correct\s+answer\s+is)\s*\*{0,2}\(?([A-Ea-e])\)?\*{0,2}/i);
   if (m1) return m1[1].toUpperCase();
-
-  const m2 = text.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\*{0,2}\(?\s*([A-Ea-e])\s*\)?\*{0,2}/i);
-  if (m2) return m2[1].toUpperCase();
 
   return null;
 }
@@ -410,7 +425,7 @@ export async function processDirectories(targetDirs, options = { dryRun: false, 
 
           const resList = [];
           if (run1) {
-            const optVal = extractNlmOption(run1.raw_response);
+            const optVal = run1.selectedOption || run1.selected_option || null;
             resList.push({
               notebookTitle: run1.notebook_title || 'Notebook #1',
               notebookId: run1.notebook_id || '',
@@ -424,7 +439,7 @@ export async function processDirectories(targetDirs, options = { dryRun: false, 
             });
           }
           if (run2) {
-            const optVal = extractNlmOption(run2.raw_response);
+            const optVal = run2.selectedOption || run2.selected_option || null;
             resList.push({
               notebookTitle: run2.notebook_title || 'Notebook #2',
               notebookId: run2.notebook_id || '',

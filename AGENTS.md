@@ -22,10 +22,10 @@
 >    - 只要試卷資料夾中存在原始檔（如 `_origin.docx`、`_origin.pdf`、`_origin.pptx` 或圖片檔），Subagents **一律必須直接讀取原始檔內文與標註**。
 >    - **絕不依賴 Mineru 轉出的 `.md` 或中間產物**，避免因 Mineru 轉檔遺漏選項、丟失格式或錯位而造成二手資訊污染。
 >
-> 3. **NO REGEX NLM OPTION EXTRACTION & MULTI-OPTION SUPPORT RULE (嚴禁 Regex 擷取 NLM 選項 & 完整支援多選/無答案)**:
->    - **絕對禁止**使用 Regex 正則表達式從 NLM 回答內文中配對擷取選項字母 (A-E)。
->    - 避免將醫學專有名詞或藥物縮寫（例如 (DDAVP) 中的 `D`、(CaSR) 中的 `C`、(AER) 中的 `A`）被 Regex 誤判定為 NLM 的選擇答案。
->    - **多選與無答案完整擷取義務**：NLM 最終判定答案（`selectedOption`）**一律必須由 Subagents 閱讀全文後以語意理解進行精準判定**。當 NLM 於 `Answer Determination` 指出題目包含多個正確選項（如 `(B) Megalin 與 (D) Clathrin` 複選題/多重解答）時，`selectedOption` 必須精準記錄為所有選項（如 `B, D`），**絕對禁止強行裁切只取第一個字母**；若 NLM 宣告無適當選項或題目瑕疵，應記錄為 `NONE`；若宣告一律給分，應記錄為 `ALL`。
+> 3. **ABSOLUTE BAN ON REGEX NLM OPTION EXTRACTION (全管道嚴禁 Regex 擷取選項 & 100% Subagent 語意分析)**:
+>    - **全管道（包含主 Session、腳本與 Subagents）絕對禁止**使用正則表達式 (Regex) 或字串比對去機械化擷取 NLM 回答中的選項字母 (A-E)。
+>    - 正則表達式缺乏臨床語意理解，極易將內文提及之專有名詞 (如 `CaSR`、`EABV`)、誘答剖析中的非正解字母 (如 `選項 (B) 屬於相對禁忌...` 被誤抓為正解)、或是題目瑕疵宣告 (如 `Option A, B, C, D 無一正確`) 錯判為多選或單選答案。
+>    - **100% Subagent 語意分析鐵律**：`selectedOption` **一律且只能由 Subagents 閱讀全文後以 LLM 語意能力進行邏輯研判**。正確選項為單選時輸出 `A`~`E`；複選題/多重解答時輸出 `B, D`；無解答/題目瑕疵時輸出 `NONE`；一律給分時輸出 `ALL`。腳本只接受 Subagent 語意判讀產出之 `selectedOption`，絕不進行機械化覆寫或猜測。
 >
 > 4. **DEDICATED QC SUBAGENT QUALITY GATE (專責 QC Subagent 驗證機制)**:
 >    - 在 Subagent 完成初次題目抽離與 NLM 解析後，**必須派發專責的 `QC Subagent`** 對產出的 JSON 進行 100% 嚴格品質檢核：

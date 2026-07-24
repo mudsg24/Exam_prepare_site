@@ -60,7 +60,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q2",
@@ -113,7 +114,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q3",
@@ -166,7 +168,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q4",
@@ -219,7 +222,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q5",
@@ -272,7 +276,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q6",
@@ -307,7 +312,7 @@
           "notebookTitle": "TSN：出題 (2-1)",
           "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
           "accountProfile": "sandbox0505",
-          "selectedOption": "B",
+          "selectedOption": "B, D",
           "rawResponse": "### 1. Answer Determination\n本題的正確選項為 **(B) Megalin** 與 **(D) Clathrin**。\n\n在 `Brenner & Rector's The Kidney` 原書的 `Board Review Questions` 中，本題屬於複選題（Select all that apply），其標準解答為 **(B)** 與 **(D)**。這兩個分子共同構成了近端小管重吸收濾過蛋白質的核心內吞機器。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n在生理狀態下，`glomerular filtration barrier` 會濾過少量的蛋白質（主要為 `albumin` 以及其他 `low-molecular-weight proteins`）。這些被濾過的蛋白質在抵達 `proximal tubule` 後，幾乎會被 `proximal tubule cells` 完全重吸收，以避免蛋白質從尿液中流失。此重吸收過程高度依賴於一種高效的 `receptor-mediated endocytosis` 機制。\n\n這個內吞作用的臨床與細胞生理機制如下：\n*   **Megalin (Option B)**：`megalin`（一種大小約為 `600 kDa` 的 `type I transmembrane glycoprotein`，屬於 `low-density lipoprotein receptor family`）與其輔助受體 `cubilin` 共同在 `proximal tubule cells` 的 `apical brush border membrane` 高度表達。`megalin` 作為多配體受體（`multiligand receptor`），能夠直接結合管腔中被濾過的 `albumin`、`low-molecular-weight proteins`（如 `beta-2 microglobulin`、`cystatin C`、`immunoglobulin light chains`）、`hormones`、`vitamins`（如 `vitamin D-binding protein`）等。\n*   **Clathrin (Option D)**：當配體與 `megalin-cubilin receptor complex` 結合後，會誘導受體聚集到特化的質膜區域，即由 **clathrin** 所包被的凹陷（**clathrin-coated pits**）。`clathrin` 作為主要的結構蛋白，負責在細胞膜內側組裝成晶格狀外殼，提供細胞膜向內凹陷變形所需的機械張力，最終促使這些凹陷脫離細胞膜，形成內吞囊泡（`endocytic vesicles`）。\n*   **Vesicular Trafficking & Lysosomal Degradation**：囊泡進入細胞後會脫去 `clathrin` 外殼，並與 `early endosomes` 融合。在 `endosomes` 內部的酸性環境（由 `vacuolar H+-ATPase` 介導酸化，並由 `ClC-5` 提供電中性通道）中，配體與 `megalin` 受體解離。解離後的 `megalin` 受體會經由 `dense apical tubules` 被循環回收（`receptor recycling`）至 `apical membrane` 再次利用。而釋放的蛋白質配體則會被送往 `lysosomes`，在溶酶體水解酶（如 `cathepsins`）的作用下被降解為 `amino acids`，最後釋放回 `peritubular capillaries`。\n\n因此，**Megalin** 作為關鍵的結合受體，而 **Clathrin** 作為介導細胞膜內吞的結構蛋白，兩者對於 `proximal tubule cells` 進行蛋白質的重吸收與轉運均是不可或缺的關鍵分子。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) Uromodulin**\n    *   **為何在此臨床情境下是錯誤的**：`uromodulin`（亦稱為 `Tamm-Horsfall protein`）是由 `thick ascending limb of the loop of Henle`（`TAL`）的上皮細胞所特異性分泌的 `glycosylphosphatidylincinnati-anchored glycoprotein`。它並未參與近端小管細胞對濾過蛋白質的重吸收過程。\n    *   **獨特臨床特徵與典型表現**：`uromodulin` 是正常人尿液中排泄量最豐富的蛋白質。其生理功能包括防止 `urinary tract infections`、抑制 `calcium oxalate crystal formation`（預防 `nephrolithiasis`），且是構成尿液中各類管型（`urinary casts`，如 `hyaline casts`）的基質蛋白。`UMOD` 基因的突變會導致 `autosomal dominant tubulointerstitial kidney disease`（`ADTKD-UMOD`），臨床上以 `early-onset gout`、`hyperuricemia` 和慢性進行性 `renal failure` 為典型表現。\n    *   **命題者設計意圖**：命題者使用 `uromodulin` 作為干擾項，旨在測試考生是否混淆了「尿液中含量最豐富的蛋白質（`uromodulin`）」與「參與近端小管重吸收濾過蛋白的受體系統（`megalin-clathrin pathway`）」。\n\n*   **(C) C3 complement**\n    *   **為何在此臨床情境下是錯誤的**：`C3 complement` 是 `complement system` 的核心成分，屬於免疫與發炎反應分子，並未參與生理狀態下近端小管對濾過蛋白質的正常重吸收。\n    *   **獨特臨床特徵與典型表現**：雖然 `C3 complement` 不參與蛋白質的吸收，但在 `nephrotic-range proteinuria` 等病理狀態下，過量濾過的 `complement proteins`（包括 `C3` 及其活化產物）在近端小管管腔積聚，會活化 `alternative complement pathway`。這會促使 `C5b-9 membrane attack complex`（`MAC`）在近端小管細胞的 `apical brush border` 沉積，激發 `interstitial inflammation` 與小管細胞 `apoptosis`，是導致 `progressive tubulointerstitial injury` 的重要發病機制。\n    *   **命題者設計意圖**：測試考生對於蛋白尿腎毒性機制中「病理性的補體活化損傷（`complement activation`）」與「生理性的蛋白質重吸收（`protein endocytosis`）」這兩個完全不同性質通路之間的鑑別能力。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在醫學專科與板考中，`megalin-clathrin` 介導的近端小管內吞作用，最常與以下具有相似臨床表現或重疊病生理機制的狀態進行對比鑑別：\n\n#### 1. Dent Disease type 1 (CLCN5 mutation) versus Dent Disease type 2 (OCRL1 mutation)\n這兩者是與近端小管 `endocytosis` 障礙最直接相關的遺傳性腎臟病，常在考題中進行對比：\n*   **Dent Disease type 1**：由 `CLCN5` 基因突變引起，該基因編碼 `ClC-5 chloride-proton exchanger`。`ClC-5` 負責與 `H+-ATPase` 協同維持 `endosomes` 內部的酸性環境（`endosomal acidification`）。當 `ClC-5` 功能喪失時，內吞體無法正常酸化，導致 `megalin` 受體與配體無法解離，受體無法回收至細胞表面，進而引發嚴重的 `low-molecular-weight proteinuria`（`LMW proteinuria`）、`hypercalciuria`、`nephrocalcinosis` 與進行性 `renal failure`。\n*   **Dent Disease type 2**：由 `OCRL1` 基因突變引起，編碼 `phosphatidylinositol 4,5-bisphosphate 5-phosphatase`（與 `Lowe syndrome` 相同突變基因，但臨床表現較輕，主要侷限於腎臟）。該酶負責調節 `trans-Golgi network` 與 `early endosomes` 之間的囊泡轉運。其突變同樣會干擾 `megalin-mediated endocytosis`，導致與 `type 1` 幾乎相同的 `LMW proteinuria` 表現。\n*   **鑑別關鍵**：`Type 2` 通常可能伴隨輕微的眼部或神經系統輕微異常（如發展遲緩），而 `Type 1` 則完全侷限於腎臟表現。\n\n#### 2. Glomerular Proteinuria versus Tubular Proteinuria\n這是評估蛋白尿來源時最重要的臨床與化驗鑑別診斷：\n*   **Glomerular Proteinuria**：由於 `glomerular filtration barrier`（包括 `podocyte slit diaphragm`、`GBM`、`endothelial glycocalyx`）受損，導致大分子蛋白質（主要為 `albumin`，其分子量為 `66 kDa`，以及 `immunoglobulins`，如 `IgG 150 kDa`）過度濾過，超過了近端小管的重吸收極限。臨床特徵為尿蛋白量通常極高（可達 `nephrotic-range`，即 $> 3.5\\text{ g/day}$），且尿液中以 `albumin` 為絕對主體（`uACR / uPCR` 接近 1）。\n*   **Tubular Proteinuria**：由於 `proximal tubule` 受到損傷（如 `ATN`、`interstitial nephritis`）或基因缺陷（如 `Dent disease`、`Fanconi syndrome`），導致 `megalin-mediated endocytosis` 受損。此時，雖然腎小球濾過屏障完好，但生理性濾過的小分子蛋白質（`low-molecular-weight proteins`，如 `beta-2 microglobulin 11.8 kDa`、`retinol-binding protein 21 kDa`、`alpha-1-microglobulin 27 kDa`、`light chains 22-44 kDa`）無法被重吸收而大量出現在尿液中。臨床特徵為總尿蛋白量通常較低（一般 $< 1\\text{ to } 2\\text{ g/day}$），且在尿液電泳中會發現大量 `non-albumin proteins`，其 `uACR / uPCR` 比例顯著偏低。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**:\n    *   根據 Brenner & Rector's The Kidney, Chapter 30, \"Pathophysiology of Proteinuria\" 之中的以下章節：\n        *   **\"RENAL HANDLING OF PROTEINS\"**\n        *   **\"TUBULAR INTERACTION WITH FILTERED PROTEINS\"** (詳細描述了 `megalin-cubilin receptor complex` 與 `clathrin-mediated endocytosis` 的細胞生理學)。\n        *   **\"PATHOGENESIS OF PROGRESSIVE INTERSTITIAL INJURY\"** 及其子章節 **\"COMPLEMENT ACTIVATION\"**。\n    *   根據 Brenner & Rector's The Kidney, Chapter 44, \"Inherited Disorders of the Renal Tubule\" 之中的以下章節：\n        *   **\"CLINICAL PRESENTATION OF RENAL FANCONI SYNDROME\"** 及其子章節 **\"LOW-MOLECULAR-WEIGHT PROTEINURIA\"** (詳細介紹了 `Dent disease` 及其 `CLCN5` 與 `OCRL1` 突變影響內吞作用的機制)。\n    *   根據 Brenner & Rector's The Kidney, Chapter 23, \"Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria\" 之中的以下章節：\n        *   **\"PROTEINURIA\"** 及其子章節 **\"Tubular/LMW proteins\"**。\n\n*   **Figures, Tables, & Boxes**:\n    *   **Figure 30.4**：*\"Transcellular transport of filtered albumin in proximal tubule cells\"* (詳細展示了 `megalin-cubilin` 受體結合、`clathrin-coated pits` 的形成、內吞囊泡融合、受體循環以及溶酶體降解的完整動態示意圖)。\n    *   **Figure 44.1**：*\"Receptor-mediated endocytosis of filtered proteins and endosomal acidification\"* (展示了 `H+-ATPase` 與 `ClC-5` 通道如何協同調節內吞體酸鹼度，並標示了 `Dent disease 1` 與 `Dent disease 2` 的突變靶點)。\n    *   **Chapter 30 Board Review Questions - Question 3**：本題的出處，其解答與分析完整說明了近端小管細胞透過 `clathrin` 與 `megalin` 吸收 `albumin` 的生理基礎，以及 `uromodulin` 與 `C3 complement` 的臨床特徵與病理意義。",
           "citations": [],
           "figureMentions": [],
@@ -318,14 +323,15 @@
           "notebookTitle": "TSN：出題 (2-2)",
           "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
           "accountProfile": "sandbox0505",
-          "selectedOption": "B",
+          "selectedOption": "B, D",
           "rawResponse": "### 1. Answer Determination\n\nBased on the provided notebook sources (specifically **Chapter 30 of Brenner & Rector's *The Kidney***), both **(B) Megalin** and **(D) Clathrin** are thought to be important in the absorption of filtered proteins by **proximal tubule cells**. \n\nTherefore, both **Option B** and **Option D** are correct.\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n在正常生理狀態下，雖然 **glomerular filtration barrier** 能有效阻隔大部分大分子蛋白質，但仍有少量的 **albumin** 及其他 **low-molecular-weight proteins** 會被過濾進入 **Bowman's space**。為了回收這些寶貴的蛋白質並避免流失，**proximal tubule cells** 具有極強的重吸收能力，其核心機制為 **receptor-mediated endocytosis**。\n\n此內吞作用的分子與細胞生理學步驟如下：\n1.  **Ligand Binding**：被濾過的蛋白質在 **proximal tubule** 的管腔側（**apical membrane**），會與表現於 **brush border** 上的多功能受體複合物 **megalin**-**cubilin** 結合。\n2.  **Vesicle Budding**：受體與配體（如 **albumin**）結合後，會召集內吞輔助蛋白，在質膜上形成由 **clathrin** 蛋白組成的包裹小窩（**clathrin-coated pits**），並隨後脫離細胞膜形成 **clathrin-coated vesicles**。\n3.  **Endosomal Acidification & Dissociation**：這些內吞小泡會脫去 **clathrin** 外殼並與 **early endosomes** 融合。在內吞體內部，經由 **vacuolar H+-ATPase** 主動泵入質子，並搭配 **ClC-5 chloride-proton exchanger** 進行電荷平衡，使內部環境酸化。酸性 pH 會促使蛋白質配體與 **megalin**-**cubilin** 受體解離。\n4.  **Receptor Recycling & Degradation**：解離後的受體會經由 **dense apical tubules** 重新循環回 **apical membrane** 釋放並重複使用；而脫離受體的蛋白質配體則被送往 **lysosomes**，經由溶酶體水解酶降解為 **amino acids**，最後經由 **basolateral membrane** 的轉運體釋放回系統循環，進入 **peritubular capillaries**。\n\n因此，**megalin**（作為引導配體結合與胞內信號轉導的跨膜受體）與 **clathrin**（作為內吞小泡物理結構與外殼組裝所必需的關鍵結構蛋白）皆是此蛋白吸收途徑中不可或缺的關鍵分子。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) Uromodulin**:\n    *   **Clinical Features & Typical Presentations**：**uromodulin**（亦稱為 **Tamm-Horsfall protein**）是尿液中生理狀態下最豐富的蛋白質。它是由位於 **loop of Henle** 的 **thick ascending limb**（**TAL**）上皮細胞合成並分泌的跨膜糖蛋白（不表現於 **proximal tubule**）。其生理功能包括防止 **urinary tract infections**、抑制 **calcium oxalate crystal formation**（預防腎結石）以及藉由促進 **NKCC2** 與 **ROMK** 的頂端膜轉運來調節 **TAL** 的離子重吸收。在病理狀態下，**uromodulin** 構成了尿液中所有 **urinary casts**（如 **hyaline casts**、**granular casts**）的蛋白質基質骨架。基因 *UMOD* 突變會導致 **Autosomal Dominant Tubulointerstitial Kidney Disease**（**ADTKD-UMOD**），臨床特徵為早發性 **hyperuricemia**、**gout** 及緩慢進展的 **CKD**，但尿液檢查通常呈 bland 性（無明顯蛋白尿或血尿）。\n    *   **Why it is incorrect**：**uromodulin** 是由遠端管段（**TAL**）主動分泌進入尿液的，它在 **proximal tubule** 的蛋白質重吸收中不扮演任何生理角色。\n    *   **Exam Author's Design**：考生往往只記得 **uromodulin** 是一種「由腎小管產生的尿蛋白」，而出題者利用此模糊認知，設下陷阱使粗心的考生誤將其當作參與 **proximal tubule** 蛋白吸收或運輸的受體蛋白。\n\n*   **(C) C3 complement**:\n    *   **Clinical Features & Typical Presentations**：**C3** 是補體活化途徑（**complement cascade**）的核心成分。在重度 **proteinuria** 狀態下，腎小球濾過屏障受損，導致血中大量的 **C3 complement**（以及其穩定因子 **properdin**）異常濾過至小管腔內。由於 **proximal tubule cells** 的頂端膜表面缺乏足夠的 **membrane-bound complement regulatory proteins**（如 **CD46**、**CD55**、**CD59**），濾過的 **C3** 會在管腔側自發性活化，並在 tubule cell 表面組裝成具高度細胞毒性的 **C5b-9**（亦即 **membrane attack complex**），引發 **tubulointerstitial inflammation**、**tubular cell apoptosis** 以及後續的 **tubulointerstitial fibrosis**。\n    *   **Why it is incorrect**：**C3 complement** 在此臨床情境下是一個介導蛋白尿相關腎毒性、導致腎小管間質損傷與 **nephron loss** 的「病理性損害因子」，而非維持生理蛋白吸收功能的分子。\n    *   **Exam Author's Design**：此干擾項旨在測試考生是否能清楚區分「病理性介導因子」與「生理性重吸收工具」。部分考生可能記得補體 **C3** 會沉積在蛋白尿患者的腎小管 **brush border** 上，因而容易被誤導，以為它與蛋白吸收過程存在正向的生理學聯結。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在 Nephrology 專科考試中，與 **proximal tubular endocytosis** 相關的病理生理機制與遺傳性疾病，最常被拿來做以下兩組高頻鑑別與對比：\n\n1.  **Megalin (*LRP2*) vs. Cubilin (*CUBN*)**:\n    *   **對比原因**：兩者共同在 **proximal tubule** 的頂端膜組成 tandem receptor 複合物以吸附尿中蛋白質，但其分子結構與作用模式大相徑庭。\n    *   **關鍵鑑別點**：\n        *   **Structure**：**megalin** 是一個巨型 600-kDa 的 type I single-pass transmembrane protein，其胞內段含有 **NPXY motifs**，能與 **clathrin** 內吞網絡直接交互作用以啟動 vesicles 的形成，且能進行 **regulated intramembrane proteolysis**（**RIP**）以調控基因轉錄；相反地，**cubilin** 是一個 460-kDa 的 **peripheral membrane protein**，它缺乏跨膜區與胞內尾部，因此它本身「無法獨自啟動內吞作用」，必須藉由與 **megalin**（或另一跨膜蛋白 **amnionless** 結合形成 **cubam complex**）交互作用，方能被拉入 **clathrin-coated pits**。\n        *   **Clinical Diseases**：*CUBN* 基因突變會導致 **Imerslund-Gräsbeck syndrome**（**megaloblastic anemia 1**），這是因為 **cubilin** 也是迴腸重吸收 **intrinsic factor-vitamin B12 complex** 的受體，患者會表現為維生素 B12 缺乏症與良性蛋白尿；而 *LRP2* 突變則會引起更廣泛的多器官發育異常綜合徵（如 Donnai-Barrow syndrome）。\n\n2.  **Dent Disease Type 1 vs. Dent Disease Type 2**:\n    *   **對比原因**：兩者皆為 X-linked recessive 疾病，且臨床上皆表現為 **Fanconi syndrome**（包括 LMW proteinuria、hypercalciuria、nephrocalcinosis 及早期進展性 CKD）。\n    *   **關鍵鑑別點**：\n        *   **Dent Disease Type 1**：由 *CLCN5* 基因突變引起，該基因編碼 **ClC-5 chloride-proton exchanger**。ClC-5 主要與 **vacuolar H+-ATPase** 協同作用於 **early endosomes**，藉由泵入氯離子來中和質子泵產生的正電荷。若 ClC-5 功能喪失，內吞體將無法正常酸化，導致配體無法與 **megalin-cubilin** 受體解離，進而阻斷了受體循環（**receptor recycling**），使整個 **receptor-mediated endocytosis** 崩潰，引發嚴重的 **LMW proteinuria**。\n        *   **Dent Disease Type 2**（通常與 Lowe syndrome 存在表型重疊）：由 *OCRL1* 基因突變引起，該基因編碼 **phosphatidylinositol 4,5-bisphosphate 5-phosphatase**。該酶主要定位于 **trans-Golgi network**，負責調節小泡在 **trans-Golgi network**、**early endosomes** 與 **clathrin-coated pits** 之間的轉運。其內吞受損機制在於小泡轉運障礙，而非單純的內吞體酸化失效。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**:\n    *   Brenner & Rector's *The Kidney*, Chapter 30: Pathophysiology of Proteinuria\n        *   Section: **TUBULAR HANDLING OF EXCESSIVE FILTERED PROTEINS** $\\rightarrow$ *REABSORPTION OF PROTEINS BY THE PROXIMAL TUBULE* (Specifically detailing **megalin**, **cubilin**, **clathrin**-mediated endocytosis, endosomal trafficking, and the degradation pathway).\n        *   Section: **TUBULAR HANDLING OF EXCESSIVE FILTERED PROTEINS** $\\rightarrow$ *EFFECTS OF PROTEIN FILTRATION ON PROXIMAL TUBULE CELLS* (Detailing **C3** complement alternative pathway activation and **C5b-9** assembly).\n    *   Brenner & Rector's *The Kidney*, Chapter 44: Inherited Disorders of the Renal Tubule\n        *   Section: **CLINICAL PRESENTATION OF RENAL FANCONI SYNDROME** $\\rightarrow$ *Dent disease* (Specifically detailing the role of **ClC-5**, **vacuolar H+-ATPase**, **OCRL1**, and the endosomal acidification pathway).\n    *   Brenner & Rector's *The Kidney*, Chapter 6: Transport of Sodium, Chloride, and Potassium\n        *   Section: **Uromodulin** (Detailing the synthesis, localization in **TAL**, and physiological functions).\n*   **Figures, Tables, & Boxes**:\n    *   **Figure 30.4**: Visualizing the macromolecular complex of **megalin** and **cubilin** in receptor-mediated endocytosis and the recycling of receptors by dense apical tubules.\n    *   **Figure 44.1**: Schematically illustrating the pathway of receptor-mediated endocytosis, vesicle acidification by **vacuolar H+-ATPase** and **ClC-5**, and the localization of **OCRL-1** in the **trans-Golgi network**.\n    *   **Table 35.2**: Detailing **ADTKD-UMOD** clinical characteristics, genetics, and pathology.\n    *   **Chapter 30 Board Review Question 3 & Rationale**: Confirms **megalin** and **clathrin** as the key molecules for proximal tubular protein absorption, while distinguishing them from **uromodulin**, **C3 complement**, and **nephrin**.",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 推論為 (B, D)。"
     },
     {
       "id": "2026_中山CSMUH_q7",
@@ -378,7 +384,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q8",
@@ -431,7 +438,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q9",
@@ -484,7 +492,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
     },
     {
       "id": "2026_中山CSMUH_q10",
@@ -519,7 +528,7 @@
           "notebookTitle": "TSN：出題 (3-4)",
           "notebookId": "d98cec85-72aa-4523-a5f7-6e1327029e13",
           "accountProfile": "b92401024",
-          "selectedOption": "C",
+          "selectedOption": null,
           "rawResponse": "**Correct Answer**: Option C (Reduced renal venous pressure)\n\n---\n\n### **Detailed Rationale & Correct Option Analysis**:\n\n在 `heart failure` 的病理生理學中，`heart` 與 `kidney` 之間存在著密切且複雜的雙向交互作用，這種協同受損的狀態在臨床上被定義為 `cardiorenal syndrome`。根據 Brenner & Rector's *The Kidney* 第 40 章（\"Cardiorenal Syndromes\"）所述，調控與決定 `cardiorenal syndrome` 患者 `glomerular filtration rate`（`GFR`）的最核心要素可分為「血液動力學因素（`hemodynamic variables`）」與「系統性調節因子（`systemic modulating factors`）」，後者即被定義為 `cardiorenal connectors`。\n\n當患者發生 `heart failure` 時，`cardiac output` 降低會直接導致 `renal blood flow`（`RBF`）與腎臟灌流壓下降。在早期，腎臟會透過 `efferent arteriolar vasoconstriction` 來提高 `filtration fraction`（`FF`），以代償並維持 `GFR`。然而，隨著心臟功能進一步惡化，這種代償機制將難以維持，導致 `GFR` 呈現高度的 `flow-dependent` 下降。\n\n除了前向灌流不足（`reduced forward perfusion`）外，後向充血（`backward congestion`）引發的 **`elevated central venous pressure`（`CVP`）** 與 **`increased renal venous pressure`** 是近年來被高度重視且確立的 `hemodynamic factor`：\n1. **RBF 依賴性效應 (RBF-dependent effect)**：當 `CVP` 升高時，會直接傳導至腎靜脈，導致 `renal venous pressure` 升高。這會使跨腎臟的灌流壓差（即 `mean arterial pressure` 與 `renal venous pressure` 之間的差值）顯著縮小，進而導致 `RBF` 降低與 `GFR` 惡化。\n2. **RBF 非依賴性效應 (RBF-independent effect)**：由於 `kidney` 是一個被 `renal capsule` 包覆的封閉器官（`encapsulated organ`），`renal venous pressure` 的升高會導致 `renal interstitial pressure` 急遽上升。這會直接傳導並增加 `Bowman's space pressure`（`PBS`），從而產生一個直接對抗 `glomerular capillary hydraulic pressure`（`PGC`）的反向壓力，甚至壓迫並導致 `renal tubules` 塌陷（`tubular collapse`），使 `GFR` 嚴重受損。\n\n因此，在 `heart failure` 患者中，病理生理學的實際改變是 **`increased renal venous pressure`（腎靜脈壓升高/腎充血）**，而非 `reduced renal venous pressure`（Option C）。Option C 的敘述與真實的病理生理完全相反，因此是錯誤的（NOT CORRECT），為本題的正解。\n\n---\n\n### **Distractor Option Analysis**:\n\n*   **(Option A) Renal blood flow and increased central venous pressure are the most important factors determining GFR**:\n    此敘述完全正確。根據 Brenner & Rector's *The Kidney* 第 40 章中 \"CARDIORENAL CONNECTORS\" 節段的開頭明示：*\"In patients with HF, it is likely that the hemodynamic variables, RBF and increased CVP, are the most important factors determining GFR.\"* 這兩個血液動力學變數共同決定了腎臟的前向灌流與後向充血程度。Exam author 使用此選項，旨在測試考生是否清楚 `cardiorenal syndrome` 中最根本的生理驅動力依然是這兩個核心的 `hemodynamic parameters`。\n\n*   **(Option B) Endothelial dysfunction, inflammation and sympathetic nervous system activation**:\n    此敘述完全正確。在 \"CARDIORENAL CONNECTORS\" 節段中明確定義，除了血液動力學因素外，還存在著多種系統性調控因子（`systemic modulating factors`）作為 `cardiorenal connectors`，其具體包括：`endothelial dysfunction`、`inflammation`、`sympathetic nervous system (SNS) activation`、`RAAS activation`，以及 `reactive oxygen species (ROS) activation`。這些因子不僅會直接損害 `glomerular filtration membrane`，還會透過調控血管收縮與舒張來間接影響 `RBF`。Exam author 設計此選項是為了評估考生是否能精準辨識出非血液動力學的體液及神經性 `cardiorenal connectors`。\n\n*   **(Option D) Glomerulosclerosis**:\n    此敘述在 `cardiorenal syndrome` 的病理背景下是正確的。雖然 `heart failure` 患者的腎功能受損主要是由動態的 `hemodynamic changes` 介導，但不論是屍檢還是腎臟切片（如 \"Tubulointerstitial Damage in Heart Failure\" 節段所述），患者的腎臟通常也伴隨有慢性結構性損傷，包括 `ischemic nephropathy`、`focal global glomerulosclerosis` 或 `glomerulosclerosis`。然而，正如第 40 章的 `Board Review Question 2` 之 `Rationale` 所強調：*\"Although glomerulosclerosis is probably present in patients with heart failure as well, the relative contribution to a reduced GFR is (probably) small.\"* \n    Exam author 選用此選項作為 distractor，是為了測試考生的細緻鑑別診斷能力，看考生是否會誤將這個「確實存在但對 GFR 減少貢獻度極小」的慢性病理改變，與 Option C 這種「方向性完全相反且不符合心衰竭充血生理」的絕對錯誤選項混淆。\n\n---\n\n### **Exam Differential Diagnosis & High-Yield Comparisons**:\n\n在醫學專科考試中，與本題密切相關的高頻對比與鑑別診斷包括：\n\n*   **Cardiorenal Syndrome Type 1 (Acute) vs. Type 2 (Chronic)**:\n    *   **Type 1 (Acute CRS)**：由急性心臟受損（如 `acute decompensated heart failure` 或 `cardiogenic shock`）迅速引發 `acute kidney injury`（`AKI`）。此時 `venous congestion` 與急性 `systemic hypotension` 為主要驅動力，治療上以積極 `decongestion`（如使用 `loop diuretics` 或 `ultrafiltration`）來降低 `CVP`，有時反而能因為緩解 `renal congestion` 而使 `GFR` 得到改善。\n    *   **Type 2 (Chronic CRS)**：慢性心臟功能不全（如 `chronic HFREF`）引發漸進性的 `chronic kidney disease`（`CKD`）。此時除了慢性 `RBF reduction` 外，長期的 `neurohormonal activation`、`sympathetic nervous system hyperactivity` 以及慢性 `low-grade inflammation` 等 `cardiorenal connectors` 扮演更關鍵的慢性纖維化與進展角色。\n\n*   **True AKI vs. Pseudo-Worsening Renal Function (Pseudo-WRF) in Heart Failure**:\n    *   在臨床治療 `acute heart failure` 的過程中，給予 `loop diuretics` 進行積極 `diuresis` 或開始/滴定 `RAAS inhibitors`（如 `ACE inhibitors` 或 `ARBs`）與 `SGLT2 inhibitors` 時，患者常會出現 `serum creatinine` 的微幅上升（通常 $<30\\%$ 或 `eGFR` 下降 $<20\\%$）。\n    *   **High-yield differential marker**：這種在心衰竭症狀改善（如 `hemoconcentration`、呼吸困難緩解、水腫消退）背景下發生的 `creatinine` 上升，被稱為 `pseudo-WRF`。它僅反映了 intraglomerular 壓力調控的暫時性 `hemodynamic adjustment`（如 `RAAS inhibitors` 擴張 `efferent arteriole` 導致 `PGC` 下降；`SGLT2 inhibitors` 收縮 `afferent arteriole`），並非代表腎小管上皮細胞的真實結構性損傷（此時 `urinary biomarkers` 如 `KIM-1`、`NGAL`、`NAG` 不會升高）。臨床上不應盲目停藥，因為患者長期的 `cardioprotective` 與 `renoprotective` 益處依然存在。\n\n---\n\n### **Citations & References**:\n\n*   **Brenner & Rector's The Kidney**:\n    *   **Chapter 40**: \"Cardiorenal Syndromes\"\n        *   Section: \"PATHOPHYSIOLOGY OF CONCOMITANT HEART FAILURE AND CHRONIC KIDNEY DISEASE\" \n            *   Subsection: \"RENAL HEMODYNAMICS\" $\\rightarrow$ \"RENAL BLOOD FLOW\" 以及 \"CENTRAL AND RENAL VENOUS PRESSURE\"。\n            *   Subsection: \"CARDIORENAL CONNECTORS\"（明確指出 `RBF`、`CVP` 的重要性以及 `systemic connectors` 的組成）。\n            *   Subsection: \"TUBULOINTERSTITIAL DAMAGE IN HEART FAILURE\"（討論心衰竭患者腎臟切片中的病理改變）。\n        *   Figures & Tables:\n            *   **Figure 40.2**: \"Factors involved in the cause of and association with outcomes of changes in renal function in heart failure\"（詳細描繪了 `congested kidney` 的成因與 `interstitial pressure` 的傳導路徑）。\n            *   **Figure 40.3**: \"Visual depiction of association among changes in renal function, clinical condition, and mortality risk\"（對比 `true AKI` 與 `pseudo-AKI / pseudo-WRF` 臨床預後的圖示）。\n            *   **Table 40.1**: \"Terminology of Cardiorenal Syndrome\"。\n        *   **Board Review Questions**: Chapter 40, Question 2 及其 `Rationale`。",
           "citations": [],
           "figureMentions": [],
@@ -537,7 +546,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
     }
   ]
 }

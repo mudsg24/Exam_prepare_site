@@ -241,13 +241,26 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
               </p>
             </div>
 
-            <div className="pt-2 border-t border-slate-200/60 dark:border-slate-800">
+            <div className="space-y-3 pt-2 border-t border-slate-200/60 dark:border-slate-800">
+              <div className="flex items-center gap-2">
+                {[10, 20, 50].map((count) => (
+                  <button
+                    key={count}
+                    disabled={stats.disputedCount === 0}
+                    onClick={() => onStartCustomPractice('disputed', count)}
+                    className="flex-1 py-2 px-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 text-xs font-bold border border-amber-500/30 transition-all disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                  >
+                    練 {count} 題
+                  </button>
+                ))}
+              </div>
+
               <button
                 disabled={stats.disputedCount === 0}
-                onClick={() => onStartCustomPractice('disputed')}
+                onClick={() => onStartCustomPractice('disputed', stats.disputedCount)}
                 className="w-full py-2.5 px-4 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold transition-all shadow disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5 cursor-pointer"
               >
-                <span>開始爭議題特訓 ({stats.disputedCount} 題)</span>
+                <span>特訓全站所有爭議題 ({stats.disputedCount} 題)</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>

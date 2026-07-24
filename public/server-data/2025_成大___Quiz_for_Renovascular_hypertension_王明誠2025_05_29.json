@@ -498,7 +498,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 推論為 (A)。",
+      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 兩組皆推論為 (A)。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED"
     },
@@ -557,5 +557,7 @@
       "resolvedImages": [],
       "qcStatus": "QC_PASSED"
     }
-  ]
+  ],
+  "highConfidenceCount": 9,
+  "disputedCount": 1
 }

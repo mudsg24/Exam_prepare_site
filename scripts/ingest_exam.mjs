@@ -10,58 +10,9 @@ export function cleanPaperTitle(rawName) {
   return rawName.replace(/\s*-\s*原檔$/i, '').trim();
 }
 
-export function extractNlmOption(rawText) {
-  if (!rawText) return null;
-  // Clean AskResult wrapper if present
-  let text = rawText;
-  if (text.includes('AskResult(') && text.includes('answer=')) {
-    const mAns = text.match(/answer=["']([\s\S]*?)["']\s*,\s*(?:conversation_id|turn_number|raw_response)=/);
-    if (mAns) text = mAns[1];
-  }
-  text = text.replace(/\\n/g, '\n');
-
-  // Priority 1: Match explicit "**Correct Answer**: B" or "Correct Option: B, D"
-  const mExplicit = text.match(/(?:\*{0,2}(?:Correct\s+Answer|Correct\s+Option|Ans|Answer|正確答案|正確選項|解答)\*{0,2})\s*[:：]\s*\*{0,2}\(?\s*([A-Ea-e](?:\s*[,&/與及]\s*[A-Ea-e])*)\s*\)?\*{0,2}/i);
-  if (mExplicit && mExplicit[1]) {
-    const matched = mExplicit[1].toUpperCase().replace(/\s*[,&/與及]\s*/g, ', ');
-    if (/^[A-E](,\s*[A-E])*$/.test(matched)) {
-      return matched;
-    }
-  }
-
-  // Priority 2: Extract Answer Determination section or Explanation block
-  const sectionMatch = text.match(/(?:###?\s*Answer\s*Determination|Answer\s*Determination)[:\s]*([\s\S]*?)(?=\n#{1,3}|\n2\.|Detailed\s+Rationale|$)/i);
-  let targetBlock = sectionMatch ? sectionMatch[1] : text;
-
-  if (!sectionMatch) {
-    const expMatch = text.match(/(?:\*\*Explanation\*\*|Explanation|解答說明|試題解析)[:\s]*([\s\S]*?)(?=\n###?\s*Distractor|\n###?\s*Citations|$)/i);
-    if (expMatch) {
-      targetBlock = expMatch[1];
-    }
-  }
-
-  // Priority 3: Check for explicit "No correct option" / "無答案" / "無適當選項" / "無一能"
-  if (/(?:no\s+correct\s+option|no\s+valid\s+option|無解答|無適當選項|無正確答案|無一能|無一|無完全|題目瑕疵)/i.test(targetBlock)) {
-    return 'NONE';
-  }
-  if (/(?:all\s+options\s+are\s+correct|一律給分|皆給分|全給分)/i.test(targetBlock)) {
-    return 'ALL';
-  }
-
-  // Priority 4: Find option letters (A-E) mentioned in Answer Determination
-  const letterMatches = [...targetBlock.matchAll(/(?:option|選項|項|\()\s*\b([A-Ea-e])\b\s*\)?/gi)];
-  if (letterMatches.length > 0) {
-    const uniqueLetters = [...new Set(letterMatches.map(m => m[1].toUpperCase()))];
-    if (uniqueLetters.length <= 3) {
-      return uniqueLetters.join(', ');
-    }
-  }
-
-  // Priority 5: Fallback single option match
-  const m1 = text.match(/(?:correct\s+option\s+is|correct\s+answer\s+is)\s*\*{0,2}\(?([A-Ea-e])\)?\*{0,2}/i);
-  if (m1) return m1[1].toUpperCase();
-
-  return null;
+// DEPRECATED REGEX EXTRACTION: Option extractions MUST be performed via Subagent LLM semantic parsing.
+export function extractNlmOption() {
+  throw new Error('[AGENTS.md GOVERNANCE VIOLATION] Regex option extraction is strictly banned. NLM selectedOption must be determined by Subagent semantic reading.');
 }
 
 

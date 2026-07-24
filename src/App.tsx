@@ -299,7 +299,7 @@ export const App: React.FC = () => {
   }, [allPapersMap, attemptState]);
 
   // Launch Custom Practice Session
-  const handleStartCustomPractice = (type: CustomPracticeType, count: number = 10) => {
+  const handleStartCustomPractice = (type: CustomPracticeType, count?: number) => {
     const allQuestions: ExamQuestion[] = [];
     Object.values(allPapersMap).forEach((paper) => {
       const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
@@ -328,7 +328,8 @@ export const App: React.FC = () => {
       return;
     }
 
-    const selectedQuestions = allQuestions.slice(0, count).map((q, idx) => ({
+    const limitCount = count !== undefined ? count : allQuestions.length;
+    const selectedQuestions = allQuestions.slice(0, limitCount).map((q, idx) => ({
       ...q,
       number: idx + 1,
     }));

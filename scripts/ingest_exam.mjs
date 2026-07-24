@@ -12,18 +12,28 @@ export function cleanPaperTitle(rawName) {
 
 export function extractNlmOption(rawText) {
   if (!rawText) return null;
-  const m = rawText.match(/(?:correct option is|\*\*Correct Answer\*\*|single correct option is|Answer|解答|選項|\boption\b)[^\n]*?\b\(([A-Ea-e])\)/i);
-  if (m) return m[1].toUpperCase();
-  const m2 = rawText.match(/\*\*\(([A-Ea-e])\)\*\*/i);
+  // Clean AskResult wrapper if present
+  let text = rawText;
+  if (text.includes('AskResult(') && text.includes('answer=')) {
+    const mAns = text.match(/answer=["']([\s\S]*?)["']\s*,\s*(?:conversation_id|turn_number|raw_response)=/);
+    if (mAns) text = mAns[1];
+  }
+  text = text.replace(/\\n/g, '\n');
+
+  // Match explicit "The correct option is (C)" or "Option (C) is INCORRECT" in Answer Determination section
+  const m1 = text.match(/(?:correct\s+option\s+is|correct\s+answer\s+is|statement\s+in\s+option)\s*\*{0,2}\(?([A-Ea-e])\)?\*{0,2}/i);
+  if (m1) return m1[1].toUpperCase();
+
+  const m2 = text.match(/(?:###\s*Answer\s*Determination|Answer\s*Determination)[\s\S]*?\b([A-E])\b/i);
   if (m2) return m2[1].toUpperCase();
-  const m3 = rawText.match(/\*\*([A-Ea-e])\*\*/i);
+
+  // Match explicit Answer: C
+  const m3 = text.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\*{0,2}\(?\s*([A-Ea-e])\s*\)?\*{0,2}/i);
   if (m3) return m3[1].toUpperCase();
-  const m4 = rawText.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\(?\s*([A-Ea-e])\s*\)?/i);
-  if (m4) return m4[1].toUpperCase();
-  const m5 = rawText.match(/\(([A-Ea-e])\)\s+[A-Z0-9]/i);
-  if (m5) return m5[1].toUpperCase();
+
   return null;
 }
+
 
 // Parse markdown file into questions array
 export function parseExamMarkdown(mdContent, paperTitle) {
@@ -450,7 +460,7 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
 }
 
 // Run if called from CLI directly
-if (process.argv[1].endsWith('ingest_exam.mjs')) {
+if (process.argv[1] && process.argv[1].endsWith('ingest_exam.mjs')) {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
   const dirs = args.filter((a) => a !== '--dry-run');

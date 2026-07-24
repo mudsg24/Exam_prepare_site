@@ -12,7 +12,7 @@
 ## Mandatory Question Extraction Governance Rule
 
 > [!CRITICAL]
-> **STRICT QUESTION EXTRACTION GOVERNANCE RULES (考題抽離三大強制規範)**:
+> **STRICT QUESTION EXTRACTION & NLM PARSING GOVERNANCE RULES (考題抽離與 NLM 解析四大強制規範)**:
 > 
 > 1. **NO REGEX QUESTION PARSING RULE (嚴禁使用 Regex 抓取題目)**:
 >    - **絕對禁止**使用 Regex 正則表達式腳本進行考題內文、選項或答案之抓取與切分。
@@ -22,13 +22,19 @@
 >    - 只要試卷資料夾中存在原始檔（如 `_origin.docx`、`_origin.pdf`、`_origin.pptx` 或圖片檔），Subagents **一律必須直接讀取原始檔內文與標註**。
 >    - **絕不依賴 Mineru 轉出的 `.md` 或中間產物**，避免因 Mineru 轉檔遺漏選項、丟失格式或錯位而造成二手資訊污染。
 >
-> 3. **DEDICATED QC SUBAGENT QUALITY GATE (專責 QC Subagent 驗證機制)**:
->    - 在 Subagent 完成初次題目抽離後，**必須派發專責的 `QC Subagent`** 對抽離出的 JSON 進行 100% 嚴格品質檢核：
+> 3. **NO REGEX NLM OPTION EXTRACTION RULE (嚴禁使用 Regex 擷取 NLM 所選選項)**:
+>    - **絕對禁止**使用 Regex 正則表達式從 NLM 回答內文中配對擷取選項字母 (A-E)。
+>    - 避免將醫學專有名詞或藥物縮寫（例如 (DDAVP) 中的 `D`、(CaSR) 中的 `C`、(AER) 中的 `A`）被 Regex 誤判定為 NLM 的選擇答案。
+>    - NLM 最終判定答案（`selectedOption`）**一律必須由 Subagents 閱讀全文後以語意理解進行精準判定**。
+>
+> 4. **DEDICATED QC SUBAGENT QUALITY GATE (專責 QC Subagent 驗證機制)**:
+>    - 在 Subagent 完成初次題目抽離與 NLM 解析後，**必須派發專責的 `QC Subagent`** 對產出的 JSON 進行 100% 嚴格品質檢核：
 >      - **選項完整度 (Options Integrity)**: 驗證每道題目是否皆具備完整的 A-E / A-D 選項，絕對不可遺漏選項。
 >      - **解說嚴格隔離 (Explanation Isolation)**: 驗證題幹 (Stem) 中零混入 Explanation 或 Page 備註文字。
 >      - **HTML 語法乾淨化 (Clean HTML)**: 驗證 `<em>`, `<strong>` 標籤已完整轉換為 Markdown 語法或淨化。
+>      - **NLM 解答精準度 (NLM Option Precision)**: 驗證 `selectedOption` 與 NLM 內文 `Answer Determination` 標明之選項完全一致，無專有名詞誤判（如把 DDAVP 誤判為 D）。
 >      - **解答精準對映 (Ground Truth Accuracy)**: 驗證原始答案與對照表已精準擷取。
->    - 只有通過 QC Subagent 標註為 `QC_PASSED` 的題目，方可獲准派發進行 NotebookLM 雙重提問。
+>    - 只有通過 QC Subagent 標註為 `QC_PASSED` 的題目，方可獲准寫入網站資料庫。
 
 ## Single Source of Truth (SSOT) Data Sources
 

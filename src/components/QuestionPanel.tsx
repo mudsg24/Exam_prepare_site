@@ -16,6 +16,16 @@ interface QuestionPanelProps {
   isSubmitted: boolean;
 }
 
+function renderFormattedText(text: string) {
+  if (!text) return null;
+  // Convert <em> and <strong> tags to clean HTML or text
+  const cleanHtml = text
+    .replace(/<em\b[^>]*>(.*?)<\/em>/gi, '<em class="italic text-cyan-300 font-semibold">$1</em>')
+    .replace(/<strong\b[^>]*>(.*?)<\/strong>/gi, '<strong class="font-bold text-amber-300 underline decoration-amber-500/50">$1</strong>');
+
+  return <span dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
+}
+
 export const QuestionPanel: React.FC<QuestionPanelProps> = ({
   question,
   currentIndex,
@@ -65,9 +75,10 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
         {/* Stem Content */}
         <div className="mb-6">
           <div className="text-base text-slate-100 font-medium leading-relaxed whitespace-pre-line selection:bg-cyan-500 selection:text-slate-950">
-            {question.stem}
+            {renderFormattedText(question.stem)}
           </div>
         </div>
+
 
         {/* Radio Options List */}
         <div className="space-y-3 mb-6">
@@ -110,8 +121,9 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
 
                 {/* Option Text */}
                 <div className="flex-1 pt-0.5 text-sm leading-relaxed">
-                  {opt.text}
+                  {renderFormattedText(opt.text)}
                 </div>
+
 
                 {/* Post-submission Indicators */}
                 {isSubmitted && isSourceCorrect && (

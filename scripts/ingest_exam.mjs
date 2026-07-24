@@ -361,14 +361,29 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
           const run1 = nlmResults.find((r) => r.q_id === `${q.id}_run1`);
           const run2 = nlmResults.find((r) => r.q_id === `${q.id}_run2`);
 
+export function extractNlmOption(rawText) {
+  if (!rawText) return null;
+  const m = rawText.match(/(?:correct option is|\*\*Correct Answer\*\*|single correct option is|Answer|解答|選項|\boption\b)[^\n]*?\b\(([A-Ea-e])\)/i);
+  if (m) return m[1].toUpperCase();
+  const m2 = rawText.match(/\*\*\(([A-Ea-e])\)\*\*/i);
+  if (m2) return m2[1].toUpperCase();
+  const m3 = rawText.match(/\*\*([A-Ea-e])\*\*/i);
+  if (m3) return m3.toUpperCase();
+  const m4 = rawText.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\(?\s*([A-Ea-e])\s*\)?/i);
+  if (m4) return m4[1].toUpperCase();
+  const m5 = rawText.match(/\(([A-Ea-e])\)\s+[A-Z0-9]/i);
+  if (m5) return m5[1].toUpperCase();
+  return null;
+}
+
           const resList = [];
           if (run1) {
-            const optMatch = run1.raw_response?.match(/(?:Answer|解答|選項)\s*:\s*\(?\s*([A-Ea-e])\s*\)?/i);
+            const optVal = extractNlmOption(run1.raw_response);
             resList.push({
               notebookTitle: run1.notebook_title || 'Notebook #1',
               notebookId: run1.notebook_id || '',
               accountProfile: run1.account_profile || '',
-              selectedOption: optMatch ? optMatch[1].toUpperCase() : null,
+              selectedOption: optVal,
               rawResponse: run1.raw_response || '',
               citations: [],
               figureMentions: [],
@@ -377,12 +392,12 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
             });
           }
           if (run2) {
-            const optMatch = run2.raw_response?.match(/(?:Answer|解答|選項)\s*:\s*\(?\s*([A-Ea-e])\s*\)?/i);
+            const optVal = extractNlmOption(run2.raw_response);
             resList.push({
               notebookTitle: run2.notebook_title || 'Notebook #2',
               notebookId: run2.notebook_id || '',
               accountProfile: run2.account_profile || '',
-              selectedOption: optMatch ? optMatch[1].toUpperCase() : null,
+              selectedOption: optVal,
               rawResponse: run2.raw_response || '',
               citations: [],
               figureMentions: [],
@@ -390,6 +405,7 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
               error: run2.error || null,
             });
           }
+
 
           q.nlmResponses = resList;
           const rec = reconcileResponses(q.sourceProvidedAnswer, resList);

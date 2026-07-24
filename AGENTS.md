@@ -9,6 +9,18 @@
 - **Lupin/Codex**: Primary workspace developer and repository structure maintainer.
 - **Tonks/Antigravity**: Supportive partner and reviewer agent. Manages quality verification, review memos, and skill workflows.
 
+## Mandatory Question Extraction Governance Rule
+
+> [!CRITICAL]
+> **NO REGEX QUESTION PARSING RULE (嚴禁使用 Regex 抓取題目)**:
+> - **絕對禁止**使用 Regex 正則表達式腳本進行考題內文、選項或答案之抓取與切分。
+> - 所有的題目解析與結構化提取，**一律必須派發 Subagents 透過 LLM 語言能力與語意理解進行判斷與抽離**。
+> - Subagent 抽離時必須達成：
+>   1. 乾淨切分題幹 (Stem) 與選項 (Options A/B/C/D/E)。
+>   2. 嚴格隔離解說 (Explanation)，**絕不得**將解說文字拼接混入題幹中。
+>   3. 清理 HTML 標籤（如將 `<em>` 轉為 `*`，`<strong>` 轉為 `**`），避免前端顯示原始 HTML 碼。
+>   4. 精準對映正文或底部對照表之原始解答 (Ground Truth Answer)。
+
 ## Single Source of Truth (SSOT) Data Sources
 
 1. **Processed Exam Questions**:
@@ -39,4 +51,4 @@
 
 ## Key Skills
 
-- `/tn-exam-prepare`: Ingestion skill for scanning question directories, requesting Yuan confirmation, dispatching dual NLM asking via `/tn-nlm-asking-mcqs`, matching images, and updating the web database.
+- `/tn-exam-prepare`: Ingestion skill for scanning question directories, requesting Yuan confirmation, dispatching subagents for semantic question extraction (No Regex!), dispatching dual NLM asking via `/tn-nlm-asking-mcqs`, matching images, and updating the web database.

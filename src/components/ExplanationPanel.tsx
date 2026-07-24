@@ -1,10 +1,42 @@
 import React, { useState } from 'react';
 import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, FileText, Sparkles } from 'lucide-react';
+import { marked } from 'marked';
 import { ExamQuestion, ResolvedImage } from '../types/exam';
 
 interface ExplanationPanelProps {
   question: ExamQuestion;
   onOpenImage: (image: ResolvedImage) => void;
+}
+
+function cleanNlmResponseText(raw: string): string {
+  if (!raw) return '';
+  let cleaned = raw;
+  // If wrapped in AskResult(...)
+  if (cleaned.includes('AskResult(') && cleaned.includes('answer=')) {
+    const m = cleaned.match(/answer=["']([\s\S]*?)["']\s*,\s*(?:conversation_id|turn_number|raw_response)=/);
+    if (m) {
+      cleaned = m[1];
+    }
+  }
+  // Replace escaped \n with actual newlines
+  cleaned = cleaned.replace(/\\n/g, '\n').replace(/\\"/g, '"');
+  return cleaned.trim();
+}
+
+function renderMarkdownContent(content: string) {
+  if (!content) return null;
+  const cleaned = cleanNlmResponseText(content);
+  try {
+    const html = marked.parse(cleaned, { async: false }) as string;
+    return (
+      <div
+        className="prose prose-invert max-w-none text-xs text-slate-200 leading-relaxed space-y-3 font-sans selection:bg-cyan-500 selection:text-slate-950"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    );
+  } catch (e) {
+    return <div className="whitespace-pre-line text-xs text-slate-300">{cleaned}</div>;
+  }
 }
 
 export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({ question, onOpenImage }) => {
@@ -89,10 +121,11 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({ question, on
                 </span>
               </div>
 
-              {/* Detailed Raw Explanation */}
-              <div className="text-xs text-slate-300 leading-relaxed whitespace-pre-line bg-slate-950/40 p-3 rounded-lg border border-slate-800/60 font-sans selection:bg-cyan-500 selection:text-slate-950">
-                {nlmResponses[activeNlmTab].rawResponse}
+              {/* Detailed Formatted Explanation */}
+              <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
+                {renderMarkdownContent(nlmResponses[activeNlmTab].rawResponse)}
               </div>
+
 
               {/* Citations List */}
               {nlmResponses[activeNlmTab].citations?.length > 0 && (

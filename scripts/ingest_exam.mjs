@@ -10,6 +10,21 @@ export function cleanPaperTitle(rawName) {
   return rawName.replace(/\s*-\s*原檔$/i, '').trim();
 }
 
+export function extractNlmOption(rawText) {
+  if (!rawText) return null;
+  const m = rawText.match(/(?:correct option is|\*\*Correct Answer\*\*|single correct option is|Answer|解答|選項|\boption\b)[^\n]*?\b\(([A-Ea-e])\)/i);
+  if (m) return m[1].toUpperCase();
+  const m2 = rawText.match(/\*\*\(([A-Ea-e])\)\*\*/i);
+  if (m2) return m2[1].toUpperCase();
+  const m3 = rawText.match(/\*\*([A-Ea-e])\*\*/i);
+  if (m3) return m3[1].toUpperCase();
+  const m4 = rawText.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\(?\s*([A-Ea-e])\s*\)?/i);
+  if (m4) return m4[1].toUpperCase();
+  const m5 = rawText.match(/\(([A-Ea-e])\)\s+[A-Z0-9]/i);
+  if (m5) return m5[1].toUpperCase();
+  return null;
+}
+
 // Parse markdown file into questions array
 export function parseExamMarkdown(mdContent, paperTitle) {
   const questions = [];
@@ -210,9 +225,6 @@ export function parseExamMarkdown(mdContent, paperTitle) {
   return questions;
 }
 
-
-
-
 // Prepare 2x NLM asking JSON payload
 export function buildDualNlmPayload(questions) {
   const payloadQuestions = [];
@@ -251,6 +263,7 @@ export function reconcileResponses(sourceAnswer, nlmList) {
 
   const nlmAgreed = nlmAnswers.every((ans) => ans === nlmAnswers[0]);
   const nlmPrimaryAns = nlmAnswers[0];
+  const joinStr = nlmAnswers.join(' vs ');
 
   if (sourceAnswer) {
     if (nlmAgreed && nlmPrimaryAns === sourceAnswer) {
@@ -266,7 +279,7 @@ export function reconcileResponses(sourceAnswer, nlmList) {
     } else {
       return {
         status: 'DISPUTED_NLM_VS_NLM',
-        notes: `有爭議：NotebookLM 兩次提問回答不一致 (${nlmAnswers.join(' vs ')})，原始答案為 (${sourceAnswer})。`,
+        notes: `有爭議：NotebookLM 兩次提問回答不一致 (${joinStr})，原始答案為 (${sourceAnswer})。`,
       };
     }
   } else {
@@ -278,7 +291,7 @@ export function reconcileResponses(sourceAnswer, nlmList) {
     } else {
       return {
         status: 'DISPUTED_NLM_VS_NLM',
-        notes: `原始檔案無解答，兩組 NotebookLM 回答不一致 (${nlmAnswers.join(' vs ')})。`,
+        notes: `原始檔案無解答，兩組 NotebookLM 回答不一致 (${joinStr})。`,
       };
     }
   }
@@ -361,21 +374,6 @@ export async function processDirectories(targetDirs, options = { dryRun: false }
           const run1 = nlmResults.find((r) => r.q_id === `${q.id}_run1`);
           const run2 = nlmResults.find((r) => r.q_id === `${q.id}_run2`);
 
-export function extractNlmOption(rawText) {
-  if (!rawText) return null;
-  const m = rawText.match(/(?:correct option is|\*\*Correct Answer\*\*|single correct option is|Answer|解答|選項|\boption\b)[^\n]*?\b\(([A-Ea-e])\)/i);
-  if (m) return m[1].toUpperCase();
-  const m2 = rawText.match(/\*\*\(([A-Ea-e])\)\*\*/i);
-  if (m2) return m2[1].toUpperCase();
-  const m3 = rawText.match(/\*\*([A-Ea-e])\*\*/i);
-  if (m3) return m3.toUpperCase();
-  const m4 = rawText.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\(?\s*([A-Ea-e])\s*\)?/i);
-  if (m4) return m4[1].toUpperCase();
-  const m5 = rawText.match(/\(([A-Ea-e])\)\s+[A-Z0-9]/i);
-  if (m5) return m5[1].toUpperCase();
-  return null;
-}
-
           const resList = [];
           if (run1) {
             const optVal = extractNlmOption(run1.raw_response);
@@ -405,7 +403,6 @@ export function extractNlmOption(rawText) {
               error: run2.error || null,
             });
           }
-
 
           q.nlmResponses = resList;
           const rec = reconcileResponses(q.sourceProvidedAnswer, resList);

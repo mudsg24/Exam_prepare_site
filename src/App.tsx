@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { QuestionMatrix } from './components/QuestionMatrix';
 import { QuestionPanel } from './components/QuestionPanel';
 import { ExplanationPanel } from './components/ExplanationPanel';
-import { ImageModal } from './components/ImageModal';
+import { ImageModal, DisplayableImage } from './components/ImageModal';
 import { DashboardView } from './components/DashboardView';
 import {
   ExamManifestItem,
@@ -11,6 +11,7 @@ import {
   ExamQuestion,
   OptionId,
   ResolvedImage,
+  AttachedImage,
   UserAttemptState,
   ThemeMode,
   AppView,
@@ -117,7 +118,7 @@ export const App: React.FC = () => {
   const [currentPaper, setCurrentPaper] = useState<ExamPaper>(MOCK_PAPER);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [filterMode, setFilterMode] = useState<'all' | 'disputed' | 'wrong'>('all');
-  const [modalImage, setModalImage] = useState<ResolvedImage | null>(null);
+  const [modalImage, setModalImage] = useState<DisplayableImage | null>(null);
 
   // User Attempt State per Paper (LocalStorage)
   const [attemptState, setAttemptState] = useState<UserAttemptState>(() => {
@@ -547,6 +548,7 @@ export const App: React.FC = () => {
                   onNext={() => setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1))}
                   isSubmitted={isEffectiveSubmitted}
                   themeMode={themeMode}
+                  onOpenAttachedImage={(img) => setModalImage(img)}
                 />
 
                 {/* Show Explanation Panel in Work Mode or post-submission */}

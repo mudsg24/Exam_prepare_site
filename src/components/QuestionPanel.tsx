@@ -1,6 +1,6 @@
 import React from 'react';
-import { Star, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
-import { ExamQuestion, OptionId, ThemeMode } from '../types/exam';
+import { Star, ChevronLeft, ChevronRight, CheckCircle2, Image as ImageIcon } from 'lucide-react';
+import { ExamQuestion, OptionId, ThemeMode, AttachedImage } from '../types/exam';
 import { DisputeBadge } from './DisputeBadge';
 import { renderKaTeXInString } from '../utils/katexRenderer';
 
@@ -16,6 +16,7 @@ interface QuestionPanelProps {
   onNext: () => void;
   isSubmitted: boolean;
   themeMode?: ThemeMode;
+  onOpenAttachedImage?: (img: AttachedImage) => void;
 }
 
 function renderFormattedText(text: string, isLight: boolean) {
@@ -43,6 +44,7 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
   onNext,
   isSubmitted,
   themeMode = 'light',
+  onOpenAttachedImage,
 }) => {
   const isLight = themeMode === 'light';
 
@@ -87,12 +89,49 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
         </div>
 
         {/* Question Stem Content */}
-        <div className="mb-6">
+        <div className="mb-6 space-y-4">
           <div className={`text-base md:text-[17px] font-medium leading-relaxed whitespace-pre-line selection:bg-sky-500 selection:text-white ${
             isLight ? 'text-slate-900' : 'text-slate-100'
           }`}>
             {renderFormattedText(question.stem, isLight)}
           </div>
+
+          {/* Question Attached Figures */}
+          {question.attachedImages && question.attachedImages.length > 0 && (
+            <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-3">
+              <div className="flex items-center gap-2 text-xs font-bold text-sky-600 dark:text-sky-400">
+                <ImageIcon className="w-4 h-4" />
+                <span>考題隨附圖表 / 影像切片 ({question.attachedImages.length} 張圖)</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {question.attachedImages.map((img) => (
+                  <button
+                    key={img.id}
+                    onClick={() => onOpenAttachedImage && onOpenAttachedImage(img)}
+                    className={`group p-2.5 rounded-2xl border text-left flex flex-col justify-between overflow-hidden transition-all cursor-pointer ${
+                      isLight
+                        ? 'bg-slate-50 border-slate-200 hover:border-sky-400 hover:shadow-md'
+                        : 'bg-slate-950 border-slate-800 hover:border-sky-500/50'
+                    }`}
+                  >
+                    <div className="h-44 w-full rounded-xl bg-slate-950/80 overflow-hidden mb-2 border border-slate-800 flex items-center justify-center">
+                      <img
+                        src={img.relPath}
+                        alt={img.caption || '考題附圖'}
+                        className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
+                      />
+                    </div>
+                    <div className="px-1 flex items-center justify-between">
+                      <span className={`text-xs font-semibold truncate ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
+                        {img.caption || '點擊放大圖片'}
+                      </span>
+                      <span className="text-[11px] text-sky-500 font-mono font-medium">放大觀看 🔍</span>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Options List */}

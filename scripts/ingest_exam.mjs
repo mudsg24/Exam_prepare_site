@@ -53,7 +53,7 @@ export function parseExamMarkdown(mdContent, paperTitle) {
   const numToLetter = { '1': 'A', '2': 'B', '3': 'C', '4': 'D', '5': 'E' };
 
   function pushQuestion() {
-    if (currentStemLines.length > 0 && currentOptions.length > 0) {
+    if (currentStemLines.length > 0 && currentOptions.length >= 4) {
       let stem = currentStemLines.join('\n').trim();
       if (currentVignette) {
         stem = `${currentVignette}\n\n${stem}`;
@@ -80,6 +80,7 @@ export function parseExamMarkdown(mdContent, paperTitle) {
         reconciliationStatus: 'UNVERIFIED',
         reconciliationNotes: '',
         resolvedImages: [],
+        attachedImages: [],
         qcVerified: false,
         qcStatus: 'UNVERIFIED',
         qcVerifiedAt: null,

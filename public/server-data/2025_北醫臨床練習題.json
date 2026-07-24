@@ -54,7 +54,39 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q1_1",
+          "fileName": "2eeec70cdf56edd9dda3f5375b4d66f575ddcc8ad1b5120ede506cc4a929c7a7.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/2eeec70cdf56edd9dda3f5375b4d66f575ddcc8ad1b5120ede506cc4a929c7a7.jpg",
+          "caption": "圖 1-1"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q1_2",
+          "fileName": "7a4687ff6c7d60d27ea6d82dd03f62bf87c25264e22d1ddc6549e4dc0239de23.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/7a4687ff6c7d60d27ea6d82dd03f62bf87c25264e22d1ddc6549e4dc0239de23.jpg",
+          "caption": "圖 1-2"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q1_3",
+          "fileName": "6bfeaff277b248e2bb429edce1725dd6d387eeda903778030a3b6afbcb0b5191.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/6bfeaff277b248e2bb429edce1725dd6d387eeda903778030a3b6afbcb0b5191.jpg",
+          "caption": "圖 1-3"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q1_4",
+          "fileName": "65213d800384623e490882cf33964b2ab3bf7e0f7b0ee5829141baac04141517.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/65213d800384623e490882cf33964b2ab3bf7e0f7b0ee5829141baac04141517.jpg",
+          "caption": "圖 1-4"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q1_5",
+          "fileName": "fd46f70952d65a663ed1a835f10050f13f8d322f45803284fbc493a4caf682db.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/fd46f70952d65a663ed1a835f10050f13f8d322f45803284fbc493a4caf682db.jpg",
+          "caption": "圖 1-5"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q2",
@@ -118,7 +150,39 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:32:15.614Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM Run 3 精準推論正解為 (C) (Tolvaptan 給付標準)。與原始答案 C 一致。"
+      "qcNotes": "經 100% LLM 語意閱讀，NLM Run 3 精準推論正解為 (C) (Tolvaptan 給付標準)。與原始答案 C 一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q2_1",
+          "fileName": "232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
+          "caption": "圖 2-1"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q2_2",
+          "fileName": "3391f99045148c3f67bad6059abf931321f5ca19aefd6c10c4dce59f7b6883c7.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/3391f99045148c3f67bad6059abf931321f5ca19aefd6c10c4dce59f7b6883c7.jpg",
+          "caption": "圖 2-2"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q2_3",
+          "fileName": "200089873846a12dfb1bd4250097a51fb31fea6a6f42839922f390f44879db48.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/200089873846a12dfb1bd4250097a51fb31fea6a6f42839922f390f44879db48.jpg",
+          "caption": "圖 2-3"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q2_4",
+          "fileName": "011d3259cf989506de5511839c34c1561993dbdbfa397cdc30b8eab32856d4aa.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/011d3259cf989506de5511839c34c1561993dbdbfa397cdc30b8eab32856d4aa.jpg",
+          "caption": "圖 2-4"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q2_5",
+          "fileName": "b95389fba386b925538f1ddda5015db0e0c723e2059ff7fbed281cd8de5c3f29.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/b95389fba386b925538f1ddda5015db0e0c723e2059ff7fbed281cd8de5c3f29.jpg",
+          "caption": "圖 2-5"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q3",
@@ -171,7 +235,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q3_1",
+          "fileName": "326a37c75d3843d45ec72e56c7684099f5edf185366a40d1df3bf59346aff779.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/326a37c75d3843d45ec72e56c7684099f5edf185366a40d1df3bf59346aff779.jpg",
+          "caption": "圖 3-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q4",
@@ -674,7 +746,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q12_1",
+          "fileName": "349b12a50107c86a7abd482e96b37dc049102a9b55ad50d497f326b757ba6420.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/349b12a50107c86a7abd482e96b37dc049102a9b55ad50d497f326b757ba6420.jpg",
+          "caption": "圖 12-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q13",
@@ -732,7 +812,15 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.576Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC passed. 原始檔無殘片。NLM 1 推論為 B, D 複選，NLM 2 推論為 B。原始解答為 B。"
+      "qcNotes": "QC passed. 原始檔無殘片。NLM 1 推論為 B, D 複選，NLM 2 推論為 B。原始解答為 B。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q13_1",
+          "fileName": "0ba627ed2b4063e74cb29e751c06d36f7cf82955eae5c1bd881be77203803647.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/0ba627ed2b4063e74cb29e751c06d36f7cf82955eae5c1bd881be77203803647.jpg",
+          "caption": "圖 13-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q14",
@@ -949,7 +1037,33 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q17_1",
+          "fileName": "f3702294e960e4bd668fcb0e9df4e7c9137e2d97370d7c0b351df090892602fd.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/f3702294e960e4bd668fcb0e9df4e7c9137e2d97370d7c0b351df090892602fd.jpg",
+          "caption": "圖 17-1"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q17_2",
+          "fileName": "21c0b94ba273cbb33cf81f01a24f98cdd494498042e61366f0e795b413cc51b2.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/21c0b94ba273cbb33cf81f01a24f98cdd494498042e61366f0e795b413cc51b2.jpg",
+          "caption": "圖 17-2"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q17_3",
+          "fileName": "082de2c7075fdaecc1300aefb4d66eb58ef09f9a08bdc7375181b69a6049b8bc.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/082de2c7075fdaecc1300aefb4d66eb58ef09f9a08bdc7375181b69a6049b8bc.jpg",
+          "caption": "圖 17-3"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q17_4",
+          "fileName": "4b2113d36fb540886aa0c64b146f3ede74dc6745c74878cb0f71e4a1765aec8c.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/4b2113d36fb540886aa0c64b146f3ede74dc6745c74878cb0f71e4a1765aec8c.jpg",
+          "caption": "圖 17-4"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q18",
@@ -1296,7 +1410,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q23_1",
+          "fileName": "9f858b71a52916b6e88b7ee4618f0b413ee8b2a577bbc97e6cd69866c8b57d9a.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/9f858b71a52916b6e88b7ee4618f0b413ee8b2a577bbc97e6cd69866c8b57d9a.jpg",
+          "caption": "圖 23-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q24",
@@ -1354,7 +1476,15 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.808Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "純文字題。原始答案給予 (A)，但兩組 NLM 皆基於 AWARD-7 試驗實證強烈推論為 (C)。標記 DISPUTED_SOURCE_VS_NLM 供醫師審查。"
+      "qcNotes": "純文字題。原始答案給予 (A)，但兩組 NLM 皆基於 AWARD-7 試驗實證強烈推論為 (C)。標記 DISPUTED_SOURCE_VS_NLM 供醫師審查。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q24_1",
+          "fileName": "1114044af2b01d1ba154ca65d9023aa03fabf7b82d38f80583532d4d347e8d4f.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/1114044af2b01d1ba154ca65d9023aa03fabf7b82d38f80583532d4d347e8d4f.jpg",
+          "caption": "圖 24-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q25",
@@ -1465,7 +1595,21 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q26_1",
+          "fileName": "61d6908f9858fd66835af1d521e7c5d138473107943dbd5ee4447a087491b6a7.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/61d6908f9858fd66835af1d521e7c5d138473107943dbd5ee4447a087491b6a7.jpg",
+          "caption": "圖 26-1"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q26_2",
+          "fileName": "5bfd9e014db689cc39871af73d17e64bcb99c65701903d4a684e8852c6bf4af5.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/5bfd9e014db689cc39871af73d17e64bcb99c65701903d4a684e8852c6bf4af5.jpg",
+          "caption": "圖 26-2"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q27",
@@ -1677,7 +1821,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q30_1",
+          "fileName": "ed0fe3df52369c7642868e33e62536ef30b5236e9f138302a1a1880983ae3f2d.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/ed0fe3df52369c7642868e33e62536ef30b5236e9f138302a1a1880983ae3f2d.jpg",
+          "caption": "圖 30-1"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q31",
@@ -2633,7 +2785,21 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q47_1",
+          "fileName": "a7475dcd1257f53cf440c0b3c76fc967c1e3d47bd15976083edefed8c95ecdda.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/a7475dcd1257f53cf440c0b3c76fc967c1e3d47bd15976083edefed8c95ecdda.jpg",
+          "caption": "圖 47-1"
+        },
+        {
+          "id": "img_2025_北醫臨床練習題_q47_2",
+          "fileName": "465abb7537d1b4a989bb9a0299c7a00f4a17bd3d9b3288fec236387d769a6f88.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/465abb7537d1b4a989bb9a0299c7a00f4a17bd3d9b3288fec236387d769a6f88.jpg",
+          "caption": "圖 47-2"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q48",
@@ -2798,7 +2964,15 @@
       "qcVerifiedAt": "2026-07-24T18:30:44.420Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "原始檔案中包含病理切片圖片。純文字 JSON 缺乏切片圖像致使 NLM 產生猜測。本題嚴重依賴影像判讀，標記為 IMAGE_DEPENDENT_QUESTION。",
-      "isInvalid": true
+      "isInvalid": true,
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q50_1",
+          "fileName": "71a5ee4dc876de7faa93fc995319f1231344390a6668af8439b93c613c176e49.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/71a5ee4dc876de7faa93fc995319f1231344390a6668af8439b93c613c176e49.jpg",
+          "caption": "圖 50-1"
+        }
+      ]
     }
   ],
   "highConfidenceCount": 30,

@@ -39,6 +39,13 @@ export interface ResolvedImage {
   absPath: string;
 }
 
+export interface AttachedImage {
+  id: string;
+  fileName: string;
+  relPath: string;
+  caption?: string;
+}
+
 export interface ExamQuestion {
   id: string;
   number: number;
@@ -50,6 +57,7 @@ export interface ExamQuestion {
   reconciliationStatus: DisputeStatus;
   reconciliationNotes: string;
   resolvedImages: ResolvedImage[];
+  attachedImages?: AttachedImage[];
 }
 
 export interface ExamPaper {

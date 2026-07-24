@@ -234,7 +234,45 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": [
+        {
+          "id": "img_2025_機場快訊_q4_1",
+          "fileName": "f38f8372eee2542cb2f2c8c9ab2386e3ecb770331207093df854f348f6f32327.png",
+          "relPath": "/exam-images/2025_機場快訊/f38f8372eee2542cb2f2c8c9ab2386e3ecb770331207093df854f348f6f32327.png",
+          "caption": "圖 4-1"
+        },
+        {
+          "id": "img_2025_機場快訊_q4_2",
+          "fileName": "4193de71d0013a7152e350c63e533fd5e962ee65248e7dc932fe77072c6220f7.png",
+          "relPath": "/exam-images/2025_機場快訊/4193de71d0013a7152e350c63e533fd5e962ee65248e7dc932fe77072c6220f7.png",
+          "caption": "圖 4-2"
+        },
+        {
+          "id": "img_2025_機場快訊_q4_3",
+          "fileName": "19a4690fdfbb8fe3f486ce06b9c7ce86e1a5c350fddcfcd1f3a9011f2fd9cb0c.png",
+          "relPath": "/exam-images/2025_機場快訊/19a4690fdfbb8fe3f486ce06b9c7ce86e1a5c350fddcfcd1f3a9011f2fd9cb0c.png",
+          "caption": "圖 4-3"
+        },
+        {
+          "id": "img_2025_機場快訊_q4_4",
+          "fileName": "f3d2e2fe19e730bfdcd4154f685ee41cce8d8e224d710dd93dbd0d80f2edc96a.jpg",
+          "relPath": "/exam-images/2025_機場快訊/f3d2e2fe19e730bfdcd4154f685ee41cce8d8e224d710dd93dbd0d80f2edc96a.jpg",
+          "caption": "圖 4-4"
+        },
+        {
+          "id": "img_2025_機場快訊_q4_5",
+          "fileName": "c699f2dd6385121b2b7f151ebae0a54d9045eb8bd794e9374c4e1be35756fe43.jpg",
+          "relPath": "/exam-images/2025_機場快訊/c699f2dd6385121b2b7f151ebae0a54d9045eb8bd794e9374c4e1be35756fe43.jpg",
+          "caption": "圖 4-5"
+        },
+        {
+          "id": "img_2025_機場快訊_q4_6",
+          "fileName": "279b2cbf84fd61b19e19a19dc1f3ce080ab2507ddd05f4cae09e339c70995133.png",
+          "relPath": "/exam-images/2025_機場快訊/279b2cbf84fd61b19e19a19dc1f3ce080ab2507ddd05f4cae09e339c70995133.png",
+          "caption": "圖 4-6"
+        }
+      ]
     },
     {
       "id": "2025_機場快訊_q5",

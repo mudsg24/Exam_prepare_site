@@ -647,7 +647,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_部桃考訓_q12_1",
+          "fileName": "2a2b85c546967c499753627c1fd369e97e615d6d134ef5c8164fb8e1a5adfea8.png",
+          "relPath": "/exam-images/2025_部桃考訓/2a2b85c546967c499753627c1fd369e97e615d6d134ef5c8164fb8e1a5adfea8.png",
+          "caption": "圖 12-1"
+        }
+      ]
     },
     {
       "id": "2025_部桃考訓_q13",
@@ -753,7 +761,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_部桃考訓_q14_1",
+          "fileName": "3e8537c5a4bdd51b4fd0a769e5eb99c477912b893bbefd076bcf8e64d71a9993.png",
+          "relPath": "/exam-images/2025_部桃考訓/3e8537c5a4bdd51b4fd0a769e5eb99c477912b893bbefd076bcf8e64d71a9993.png",
+          "caption": "圖 14-1"
+        }
+      ]
     },
     {
       "id": "2025_部桃考訓_q15",
@@ -806,7 +822,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_部桃考訓_q15_1",
+          "fileName": "183cbdafb0a3f726373693999290737d222d10f7d4275bce6e583fe6804be383.png",
+          "relPath": "/exam-images/2025_部桃考訓/183cbdafb0a3f726373693999290737d222d10f7d4275bce6e583fe6804be383.png",
+          "caption": "圖 15-1"
+        }
+      ]
     },
     {
       "id": "2025_部桃考訓_q16",
@@ -970,7 +994,15 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": [
+        {
+          "id": "img_2025_部桃考訓_q18_1",
+          "fileName": "3090aed08984b931ce65f73ff0b72493bee3431d9e621e5dad015b1aad35d05e.png",
+          "relPath": "/exam-images/2025_部桃考訓/3090aed08984b931ce65f73ff0b72493bee3431d9e621e5dad015b1aad35d05e.png",
+          "caption": "圖 18-1"
+        }
+      ]
     },
     {
       "id": "2025_部桃考訓_q19",
@@ -1104,7 +1136,15 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:54.717Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 D (Domitazol)。覆寫原舊腳本 Regex 誤標之 UNKNOWN。"
+      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 D (Domitazol)。覆寫原舊腳本 Regex 誤標之 UNKNOWN。",
+      "attachedImages": [
+        {
+          "id": "img_2025_部桃考訓_q20_1",
+          "fileName": "c41a06bf0e145dc8461f40a49d2758c80f3315760e944d40b264ba1aa6523890.png",
+          "relPath": "/exam-images/2025_部桃考訓/c41a06bf0e145dc8461f40a49d2758c80f3315760e944d40b264ba1aa6523890.png",
+          "caption": "圖 20-1"
+        }
+      ]
     }
   ],
   "highConfidenceCount": 15,

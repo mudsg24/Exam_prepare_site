@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   BookOpen,
   CheckCircle2,
@@ -9,6 +9,7 @@ import {
   Award,
   Sparkles,
   ChevronRight,
+  Calendar,
 } from 'lucide-react';
 import {
   ExamManifestItem,
@@ -41,6 +42,17 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
     stats.completedQuestions > 0
       ? Math.round((stats.correctCount / stats.completedQuestions) * 100)
       : 0;
+
+  // Group manifest by year (2026 then 2025), and sort papers in each year descendingly by title
+  const groupedPapersByYear = useMemo(() => {
+    const years = Array.from(new Set(manifest.map((p) => p.year))).sort((a, b) => b - a);
+    return years.map((year) => {
+      const papers = manifest
+        .filter((p) => p.year === year)
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+      return { year, papers };
+    });
+  }, [manifest]);
 
   return (
     <div className="max-w-7xl mx-auto w-full p-4 md:p-6 space-y-8">
@@ -269,8 +281,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       </div>
 
       {/* 3. Paper Library Section */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
+      <div className="space-y-6">
+        <div className="flex items-center justify-between border-b pb-3 border-slate-200/60 dark:border-slate-800">
           <h3 className={`text-lg font-bold flex items-center gap-2 ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
             <FileText className="w-5 h-5 text-sky-500" />
             <span>歷年試卷與章節練習庫</span>
@@ -278,69 +290,82 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <span className="text-xs text-slate-500 font-mono">共 {manifest.length} 份試卷</span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {manifest.map((paper) => {
-            const prog = paperProgressMap[paper.id] || { total: paper.questionCount, answered: 0, correct: 0 };
-            const percent = prog.total > 0 ? Math.round((prog.answered / prog.total) * 100) : 0;
-            const isCompleted = prog.answered === prog.total && prog.total > 0;
+        {groupedPapersByYear.map(({ year, papers }) => (
+          <div key={year} className="space-y-4">
+            <div className="flex items-center justify-between pt-2">
+              <span className="px-3 py-1 rounded-xl bg-sky-500/10 text-sky-700 dark:text-sky-300 text-xs font-bold border border-sky-500/20 flex items-center gap-1.5 shadow-sm">
+                <Calendar className="w-3.5 h-3.5" />
+                <span>{year} 年試卷與章節練習庫</span>
+              </span>
+              <span className="text-xs text-slate-400 font-mono">{papers.length} 份試卷</span>
+            </div>
 
-            return (
-              <div
-                key={paper.id}
-                className={`glass-panel p-5 rounded-2xl border flex flex-col justify-between space-y-4 transition-all glass-card-hover ${
-                  isLight ? 'bg-white border-slate-200' : 'bg-slate-900/80 border-slate-800'
-                }`}
-              >
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between">
-                    <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">
-                      {paper.sourceCategory || 'TSN 考題'}
-                    </span>
-                    <span className="text-xs text-slate-400 font-mono">{paper.year} 年</span>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {papers.map((paper) => {
+                const prog = paperProgressMap[paper.id] || { total: paper.questionCount, answered: 0, correct: 0 };
+                const percent = prog.total > 0 ? Math.round((prog.answered / prog.total) * 100) : 0;
+                const isCompleted = prog.answered === prog.total && prog.total > 0;
 
-                  <h4 className={`text-sm font-bold leading-snug line-clamp-2 ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
-                    {paper.title}
-                  </h4>
-                </div>
-
-                <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-slate-800">
-                  {/* Progress info */}
-                  <div className="flex items-center justify-between text-xs">
-                    <span className="text-slate-500">
-                      進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
-                    </span>
-                    <span className="font-mono text-slate-500">{percent}%</span>
-                  </div>
-
-                  <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
-                    <div
-                      className={`h-full transition-all duration-300 ${
-                        isCompleted
-                          ? 'bg-emerald-500'
-                          : 'bg-gradient-to-r from-sky-500 to-blue-600'
-                      }`}
-                      style={{ width: `${percent}%` }}
-                    />
-                  </div>
-
-                  {/* Start Exam Button */}
-                  <button
-                    onClick={() => onSelectPaper(paper.id)}
-                    className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
-                      isCompleted
-                        ? 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700'
-                        : 'bg-sky-600 hover:bg-sky-500 text-white shadow-md'
+                return (
+                  <div
+                    key={paper.id}
+                    className={`glass-panel p-5 rounded-2xl border flex flex-col justify-between space-y-4 transition-all glass-card-hover ${
+                      isLight ? 'bg-white border-slate-200' : 'bg-slate-900/80 border-slate-800'
                     }`}
                   >
-                    <span>{isCompleted ? '重新練習試卷' : prog.answered > 0 ? '繼續答題' : '進入試卷答題'}</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+                    <div className="space-y-2">
+                      {paper.sourceCategory && !/^\d{4}\s*年交換題$/.test(paper.sourceCategory) && (
+                        <div className="flex items-center justify-between">
+                          <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">
+                            {paper.sourceCategory}
+                          </span>
+                        </div>
+                      )}
+
+                      <h4 className={`text-sm font-bold leading-snug line-clamp-2 ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
+                        {paper.title}
+                      </h4>
+                    </div>
+
+                    <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-slate-800">
+                      {/* Progress info */}
+                      <div className="flex items-center justify-between text-xs">
+                        <span className="text-slate-500">
+                          進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
+                        </span>
+                        <span className="font-mono text-slate-500">{percent}%</span>
+                      </div>
+
+                      <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
+                        <div
+                          className={`h-full transition-all duration-300 ${
+                            isCompleted
+                              ? 'bg-emerald-500'
+                              : 'bg-gradient-to-r from-sky-500 to-blue-600'
+                          }`}
+                          style={{ width: `${percent}%` }}
+                        />
+                      </div>
+
+                      {/* Start Exam Button */}
+                      <button
+                        onClick={() => onSelectPaper(paper.id)}
+                        className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                          isCompleted
+                            ? 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700'
+                            : 'bg-sky-600 hover:bg-sky-500 text-white shadow-md'
+                        }`}
+                      >
+                        <span>{isCompleted ? '重新練習試卷' : prog.answered > 0 ? '繼續答題' : '進入試卷答題'}</span>
+                        <ChevronRight className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

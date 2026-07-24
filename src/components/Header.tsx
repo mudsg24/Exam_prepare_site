@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import {
   Timer,
   AlertCircle,
@@ -58,6 +58,16 @@ export const Header: React.FC<HeaderProps> = ({
   onToggleStudyMode,
 }) => {
   const [currentTime, setCurrentTime] = useState<string>('');
+
+  const groupedPapersByYear = useMemo(() => {
+    const years = Array.from(new Set(manifest.map((p) => p.year))).sort((a, b) => b - a);
+    return years.map((year) => {
+      const papers = manifest
+        .filter((p) => p.year === year)
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+      return { year, papers };
+    });
+  }, [manifest]);
   const isLight = themeMode === 'light';
 
   useEffect(() => {
@@ -141,10 +151,14 @@ export const Header: React.FC<HeaderProps> = ({
               {manifest.length === 0 ? (
                 <option value="">載入試卷中...</option>
               ) : (
-                manifest.map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.title} ({item.questionCount} 題)
-                  </option>
+                groupedPapersByYear.map(({ year, papers }) => (
+                  <optgroup key={year} label={`${year} 年`}>
+                    {papers.map((item) => (
+                      <option key={item.id} value={item.id}>
+                        {item.title} ({item.questionCount} 題)
+                      </option>
+                    ))}
+                  </optgroup>
                 ))
               )}
             </select>

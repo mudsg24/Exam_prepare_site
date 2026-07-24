@@ -20,16 +20,31 @@ export function extractNlmOption(rawText) {
   }
   text = text.replace(/\\n/g, '\n');
 
-  // Match explicit "The correct option is (C)" or "Option (C) is INCORRECT" in Answer Determination section
+  // Extract Answer Determination section or first 300 chars
+  const sectionMatch = text.match(/(?:###?\s*Answer\s*Determination|Answer\s*Determination)[:\s]*([\s\S]*?)(?=\n#{1,3}|\n2\.|Detailed\s+Rationale|$)/i);
+  const targetBlock = sectionMatch ? sectionMatch[1].slice(0, 300) : text.slice(0, 300);
+
+  // Check for explicit "No correct option" / "無答案" / "無適當選項" / "無一能"
+  if (/(?:no\s+correct\s+option|no\s+valid\s+option|無解答|無適當選項|無正確答案|無一能|無一|無完全|題目瑕疵)/i.test(targetBlock)) {
+    return 'NONE';
+  }
+  if (/(?:all\s+options\s+are\s+correct|一律給分|皆給分|全給分)/i.test(targetBlock)) {
+    return 'ALL';
+  }
+
+  // Find all option letters (A-E) mentioned in Answer Determination
+  const letterMatches = [...targetBlock.matchAll(/(?:option|選項|項|\()\s*\b([A-Ea-e])\b\s*\)?/gi)];
+  if (letterMatches.length > 0) {
+    const uniqueLetters = [...new Set(letterMatches.map(m => m[1].toUpperCase()))];
+    return uniqueLetters.join(', ');
+  }
+
+  // Fallback: match explicit single option pattern
   const m1 = text.match(/(?:correct\s+option\s+is|correct\s+answer\s+is|statement\s+in\s+option)\s*\*{0,2}\(?([A-Ea-e])\)?\*{0,2}/i);
   if (m1) return m1[1].toUpperCase();
 
-  const m2 = text.match(/(?:###\s*Answer\s*Determination|Answer\s*Determination)[\s\S]*?\b([A-E])\b/i);
+  const m2 = text.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\*{0,2}\(?\s*([A-Ea-e])\s*\)?\*{0,2}/i);
   if (m2) return m2[1].toUpperCase();
-
-  // Match explicit Answer: C
-  const m3 = text.match(/(?:Answer|Ans|解答|選項)\s*[:：]?\s*\*{0,2}\(?\s*([A-Ea-e])\s*\)?\*{0,2}/i);
-  if (m3) return m3[1].toUpperCase();
 
   return null;
 }

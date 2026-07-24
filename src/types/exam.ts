@@ -16,7 +16,7 @@ export interface NlmResponseItem {
   notebookTitle: string;
   notebookId: string;
   accountProfile: string;
-  selectedOption: OptionId | null;
+  selectedOption: string | null;
   rawResponse: string;
   citations: NlmCitation[];
   figureMentions: string[];

@@ -441,12 +441,6 @@
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
-        },
-        {
-          "notebookTitle": "TSN：出題 (3-1)",
-          "databaseSufficiency": "INSUFFICIENT",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n在目前所提供的 `notebook sources` 中，雖然在 `KDIGO 2026 Clinical Practice Guideline for AKI/AKD (Public Review Draft)` 的 `references`（如 `Passage 798` 所列的文獻：`Neyra JA, Ortiz-Soriano VM, Ali D, et al. A Multidisciplinary Approach for the Management of Severe Hyponatremia in Patients Requiring Continuous Renal Replacement Therapy`）中，提及了關於 `severe hyponatremia` 接受 `continuous renal replacement therapy` (`CRRT`) 矯正的相關臨床研究，但**該文獻的具體內文、其所推薦之安全且便利的具體調配措施（如 sterile water 或者是 dextrose water 的調配與輸注比較）並未在現有的 source passages 中被詳細收錄。**\n\n此外，在 `Critical Care Nephrology`（如 `Passage 299`）中僅宏觀提及 `CRRT` 可用於管理 `hyponatremia` 以減輕 `cerebral edema`，但完全沒有涉及各個選項（A、B、C、D）在臨床技術層面上的比較、安全性或便利性的具體生理學與實證醫學討論。\n\n為了維持醫學專科考試與指引分析的最高嚴謹性，並遵循 **Database Limitation Guard**，本系統不對缺乏資料庫支持的選項進行主觀推測。",
-          "selectedOption": "NONE"
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",

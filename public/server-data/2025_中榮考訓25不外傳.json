@@ -32,8 +32,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-1)",
@@ -61,7 +61,21 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (B)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": [
+        {
+          "id": "img_2025_中榮考訓25不外傳_q1_1",
+          "fileName": "d915ca29d3285b056cc57aa51b20c500cf3baacb59287cd3a9e0864d83cb9c95.png",
+          "relPath": "/exam-images/2025_中榮考訓25不外傳/d915ca29d3285b056cc57aa51b20c500cf3baacb59287cd3a9e0864d83cb9c95.png",
+          "caption": "圖 1-1"
+        },
+        {
+          "id": "img_2025_中榮考訓25不外傳_q1_2",
+          "fileName": "cd4e804857f0fe8c0d33c3ffa9833a0de255f1dc040b00da49dc6698e287e390.png",
+          "relPath": "/exam-images/2025_中榮考訓25不外傳/cd4e804857f0fe8c0d33c3ffa9833a0de255f1dc040b00da49dc6698e287e390.png",
+          "caption": "圖 1-2"
+        }
+      ]
     },
     {
       "id": "2025_中榮考訓25不外傳_q2",
@@ -87,8 +101,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-3)",
@@ -116,7 +130,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (B)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_中榮考訓25不外傳_q3",
@@ -142,8 +157,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-5)",
@@ -171,7 +186,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (B)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_中榮考訓25不外傳_q4",
@@ -197,8 +213,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-2)",
@@ -226,7 +242,21 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (C)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": [
+        {
+          "id": "img_2025_中榮考訓25不外傳_q4_1",
+          "fileName": "a1a7a4084013f7ddf295a2a87c2d207524c496029c5650b2ef4216d40f00a68f.png",
+          "relPath": "/exam-images/2025_中榮考訓25不外傳/a1a7a4084013f7ddf295a2a87c2d207524c496029c5650b2ef4216d40f00a68f.png",
+          "caption": "圖 4-1"
+        },
+        {
+          "id": "img_2025_中榮考訓25不外傳_q4_2",
+          "fileName": "1716bb3011aab50b80949b3cf55c8a9113642f475fc98143e219db7c513f03b0.jpg",
+          "relPath": "/exam-images/2025_中榮考訓25不外傳/1716bb3011aab50b80949b3cf55c8a9113642f475fc98143e219db7c513f03b0.jpg",
+          "caption": "圖 4-2"
+        }
+      ]
     },
     {
       "id": "2025_中榮考訓25不外傳_q5",
@@ -252,8 +282,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-3)",
@@ -281,7 +311,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (C)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_中榮考訓25不外傳_q6",
@@ -307,8 +338,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-4)",
@@ -336,7 +367,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (B)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_中榮考訓25不外傳_q7",
@@ -362,8 +394,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -391,7 +423,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (D)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     }
   ]
 }

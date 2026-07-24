@@ -158,8 +158,8 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-4)",
@@ -272,17 +272,6 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (3-4)",
-          "notebookId": "d98cec85-72aa-4523-a5f7-6e1327029e13",
-          "accountProfile": "b92401024",
-          "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n雖然 notebook sources 提到了 **Waldenström macroglobulinemia** 的部分臨床與病理特徵以及 **cryoglobulinemia** 的基礎分類，但並未包含關於 **cold agglutinin** 滴定值（例如本題選項中的 1:4(+)）之診斷合理性，亦無此病患中 **rheumatoid factor** 與 **cryoglobulinemia type 1** 的具體生理與實驗室診斷之對比數據。\n\n以下為 notebook sources 中與此主題相關的現有內容：\n\n1. **Waldenström Macroglobulinemia**：\n   - 根據 *Brenner & Rector's The Kidney*，**Waldenström macroglobulinemia** 患者體內具有異常的 circulating **monoclonal IgM protein**，常伴隨 fatigue、weight loss、bleeding、visual disturbances、neurologic symptoms、hepatosplenomegaly、lymphadenopathy、anemia，以及 **hyperviscosity syndrome** [1]。\n   - 雖然其 renal involvement 發生率小於 5%，但其 glomerular lesions 可呈現 microscopic hematuria、proteinuria 與 **nephrotic syndrome** [1]。\n   - 腎臟病理表現包括 **amyloidosis** (25%)、**monoclonal IgM deposition disease/cryoglobulins** (23%)、**lymphoplasmacytic lymphoma infiltration** (18%)、**LCDD** (9%) 以及 **light-chain cast nephropathy** (9%) [1]。\n\n2. **Cryoglobulinemia 與 Rheumatoid Factor**：\n   - **Type I cryoglobulinemia** 與 HCV infection 無關，常與 monoclonal gammopathy of unknown significance 或 hematologic malignancy 相關，臨床以 severe cutaneous involvement (如 necrosis 與 ulcers) 與 high serum levels of cryoglobulins 為特徵 [2]。\n   - **Type II cryoglobulinemia** 屬於 mixed cryoglobulins，其中 **monoclonal IgM**（佔 90% 以上為 **IgMκ**）是針對 polyclonal IgG 產生的，並具有 **rheumatoid factor activity** [3]。\n\n---\n\n🔍 雖然 notebook sources 缺乏直接解題所需的細節，但我可以利用網路搜尋工具，為您查找關於 **Waldenström macroglobulinemia** 中 **cold agglutinin** 滴定值、**cryoglobulinemia type 1** 以及 **rheumatoid factor** 陽性在臨床上的合理性與鑑別診斷。請問是否需要我為您進行 web research？",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
-        },
-        {
           "notebookTitle": "TSN：出題 (1-1)",
           "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
           "accountProfile": "mudskipper24",
@@ -333,31 +322,9 @@
         }
       ],
       "sourceExplanation": null,
-      "sourceProvidedAnswer": null,
-      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
       "nlmResponses": [
-        {
-          "notebookTitle": "TSN：出題 (2-3)",
-          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
-          "accountProfile": "sandbox0505",
-          "selectedOption": "D",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### **目前 Notebook Sources 所提供的資訊與限制分析**\n\n雖然您的 **notebook sources**（包括 *Brenner & Rector's The Kidney* 與各項 *KDIGO Guidelines*）包含了大量關於 **Systemic Lupus Erythematosus**、**infective endocarditis**、**IgG4 syndrome** 以及 **Multiple myeloma** 的診斷指引與病理生理學機制，但其中並未包含此一特定 69 歲男性患者的臨床病例，亦無完全相同的實驗室數據組合（包含特定數值的 **IgG**、**C3C**、**C4**、**proteinuria** 以及 **free light chain** 數值）。\n\n為了維持醫學評估的嚴謹性與對來源資料的忠實承諾，我們無法在缺乏直接文獻證據的情況下憑空推測。\n\n#### **目前 Sources 中與這些 Diseases 相關的已知高頻考點：**\n*   **Systemic Lupus Erythematosus (SLE)**：\n    *   在 **Chapter 32**、**Chapter 72** 與 **KDIGO 2024 Lupus Nephritis Guideline** 中，**SLE** 伴隨腎臟受累（**Lupus Nephritis**）的典型特徵為 **hypocomplementemia**（**C3** 與 **C4** 同步降低），血清學檢查會呈現 **ANA** 與 **anti-dsDNA Ab** 陽性 [1, 2]。\n*   **infective endocarditis**：\n    *   根據 **Chapter 31**、**Chapter 32** 與 **KDIGO 2021 Glomerular Diseases Guideline**，**infective endocarditis-related GN** 是一種典型的 **immune complex-mediated glomerulonephritis**，其病理生理學特徵包含顯著的 **hypocomplementemia** 以及多株 **IgG** 升高，且可能伴隨非特異性的自體抗體陽性 [3-5]。\n*   **IgG4 syndrome**：\n    *   根據 **Chapter 35**，**IgG4-related kidney disease** 最常表現為 **acute or chronic tubulointerstitial nephritis**，典型特徵為血清 **IgG4** 升高與 **hypocomplementemia**，但其 **proteinuria** 通常較為輕微，且血清學檢查一般呈 **anti-dsDNA Ab** 陰性 [6, 7]。\n*   **Multiple myeloma**：\n    *   根據 **Chapter 23**、**Chapter 42** 與 **KDIGO 2026 AKI-AKD Guideline**，**Multiple myeloma** 或 **monoclonal gammopathy of renal significance (MGRS)** 會造成 **free light chain** 異常升高與 **kappa/lambda ratio** 偏移 [8-10]。然而，經典的 **Multiple myeloma**（如 **cast nephropathy**）一般不會伴隨全身性 **complement activation**，其 **C3** 與 **C4** 水平通常維持正常 [11]。\n\n---\n\n### **後續建議步驟**\n\n如果您同意，我可以利用網路檢索功能（**web research**）來為您搜尋此一臨床病例的原始學術報告與其在醫學專科考試中的官方標準答案與詳細解析。\n\n**請問您是否需要我針對此問題進行網路檢索？**",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
-        },
-        {
-          "notebookTitle": "TSN：出題 (2-2)",
-          "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
-          "accountProfile": "sandbox0505",
-          "selectedOption": "D",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
-        },
         {
           "notebookTitle": "TSN：出題 (4-3)",
           "databaseSufficiency": "SUFFICIENT",

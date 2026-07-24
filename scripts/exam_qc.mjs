@@ -10,11 +10,46 @@ const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');
  */
 export function isNlmResponseAnomalous(resp) {
   if (!resp) return true;
-  if (resp.databaseSufficiency === 'INSUFFICIENT') return true;
   if (!resp.rawResponse || typeof resp.rawResponse !== 'string') return true;
-  if (resp.rawResponse.trim().length < 200) return true;
-  if (resp.rawResponse.includes('[INSUFFICIENT_DATABASE_EVIDENCE]')) return true;
+  const raw = resp.rawResponse.trim();
+  if (raw.length < 200) return true;
+  if (raw.includes('[INSUFFICIENT_DATABASE_EVIDENCE]') || raw.includes('INSUFFICIENT_DATABASE_EVIDENCE')) return true;
+  if (resp.databaseSufficiency === 'INSUFFICIENT' && raw.length < 500) return true;
   return false;
+}
+
+/**
+ * Prune invalid/short/insufficient NLM responses from questions if at least 2 valid ones exist.
+ * @param {Object} paperData - Paper JSON object
+ * @returns {number} Count of pruned responses
+ */
+export function cleanAnomalousNlmResponses(paperData) {
+  let prunedCount = 0;
+  if (!paperData || !paperData.questions || !Array.isArray(paperData.questions)) {
+    return prunedCount;
+  }
+
+  for (const q of paperData.questions) {
+    if (!q.nlmResponses || !Array.isArray(q.nlmResponses)) {
+      continue;
+    }
+
+    const validResponses = q.nlmResponses.filter(r => !isNlmResponseAnomalous(r));
+    if (validResponses.length >= 2) {
+      const initialLength = q.nlmResponses.length;
+      q.nlmResponses = validResponses.slice(0, 2);
+      prunedCount += (initialLength - q.nlmResponses.length);
+    } else if (validResponses.length === 1 && q.nlmResponses.length > 1) {
+      // Keep valid response + first invalid if we need to show failure or re-ask
+      // If there are multiple invalid ones, prune down to valid + 1 invalid
+      const invalidResponses = q.nlmResponses.filter(r => isNlmResponseAnomalous(r));
+      const initialLength = q.nlmResponses.length;
+      q.nlmResponses = [validResponses[0], invalidResponses[0]];
+      prunedCount += (initialLength - q.nlmResponses.length);
+    }
+  }
+
+  return prunedCount;
 }
 
 /**
@@ -25,10 +60,6 @@ export function isNlmResponseAnomalous(resp) {
  */
 export function inspectQuestionForQc(q, options = {}) {
   const reasons = [];
-
-  if (options.force || !q.qcVerified) {
-    if (!q.qcVerified) reasons.push('UNVERIFIED_STATUS');
-  }
 
   // Check NLM responses
   let hasAnomalousNlm = false;
@@ -47,11 +78,14 @@ export function inspectQuestionForQc(q, options = {}) {
     }
   }
 
-  // Check reconciliation status
-  if (q.reconciliationStatus === 'DISPUTED_SOURCE_VS_NLM' || q.reconciliationStatus === 'DISPUTED_NLM_VS_NLM') {
-    reasons.push(`DISPUTED_STATUS_${q.reconciliationStatus}`);
-  } else if (q.reconciliationStatus === 'UNVERIFIED') {
-    reasons.push('UNVERIFIED_RECONCILIATION');
+  // Check verification & reconciliation status (only for unverified or when force is requested)
+  if (options.force || !q.qcVerified) {
+    if (!q.qcVerified) reasons.push('UNVERIFIED_STATUS');
+    if (q.reconciliationStatus === 'DISPUTED_SOURCE_VS_NLM' || q.reconciliationStatus === 'DISPUTED_NLM_VS_NLM') {
+      reasons.push(`DISPUTED_STATUS_${q.reconciliationStatus}`);
+    } else if (q.reconciliationStatus === 'UNVERIFIED') {
+      reasons.push('UNVERIFIED_RECONCILIATION');
+    }
   }
 
   const needsQc = reasons.length > 0;
@@ -60,7 +94,7 @@ export function inspectQuestionForQc(q, options = {}) {
 
 /**
  * Scan server-data directory for all papers and identify questions requiring QC.
- * @param {Object} options - { force: boolean, paperId: string }
+ * @param {Object} options - { force: boolean, paperId: string, clean: boolean }
  * @returns {Object} Report containing paper summaries and detailed question list
  */
 export function scanServerData(options = {}) {
@@ -70,12 +104,28 @@ export function scanServerData(options = {}) {
 
   const files = fs.readdirSync(SERVER_DATA_DIR).filter(f => f.endsWith('.json') && f !== 'exams_manifest.json' && f !== 'image_index.json');
 
+  let totalPruned = 0;
+
+  if (options.clean) {
+    for (const file of files) {
+      const filePath = path.join(SERVER_DATA_DIR, file);
+      const paperData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      const pruned = cleanAnomalousNlmResponses(paperData);
+      if (pruned > 0) {
+        fs.writeFileSync(filePath, JSON.stringify(paperData, null, 2), 'utf-8');
+        totalPruned += pruned;
+      }
+    }
+    console.log(`[PRUNING COMPLETED] Cleaned ${totalPruned} historical anomalous/duplicate NLM responses from server-data.`);
+  }
+
   const report = {
     totalPapers: files.length,
     totalQuestions: 0,
     verifiedQuestions: 0,
     anomalousNlmQuestions: 0,
     disputedQuestions: 0,
+    totalPruned,
     pendingQcQuestions: [],
     paperSummaries: []
   };
@@ -183,11 +233,12 @@ if (process.argv[1] && process.argv[1].endsWith('exam_qc.mjs')) {
   const args = process.argv.slice(2);
   const scanOnly = args.includes('--scan-only');
   const force = args.includes('--force');
+  const clean = args.includes('--clean');
   const paperArgIndex = args.indexOf('--paper');
   const paperId = paperArgIndex !== -1 ? args[paperArgIndex + 1] : null;
 
   console.log('=== TN-EXAM-QC AUDIT SCANNER ===');
-  const report = scanServerData({ force, paperId });
+  const report = scanServerData({ force, paperId, clean });
   console.log(`Total Papers Scanned: ${report.totalPapers}`);
   console.log(`Total Questions: ${report.totalQuestions}`);
   console.log(`Verified Questions (qcVerified: true): ${report.verifiedQuestions}`);
@@ -195,10 +246,11 @@ if (process.argv[1] && process.argv[1].endsWith('exam_qc.mjs')) {
   console.log(`Disputed Questions (Source vs NLM or NLM vs NLM): ${report.disputedQuestions}`);
   console.log(`Total Questions Requiring QC: ${report.pendingQcQuestions.length}`);
 
-  if (scanOnly) {
+  if (scanOnly || clean) {
     console.log('\n--- PAPER BREAKDOWN ---');
     for (const p of report.paperSummaries) {
       console.log(`- [${p.paperId}] Total: ${p.totalQuestions} | Verified: ${p.verifiedQuestions} | Pending QC: ${p.pendingQcQuestions}`);
     }
   }
 }
+

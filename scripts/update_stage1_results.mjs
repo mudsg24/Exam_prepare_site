@@ -3,15 +3,18 @@ import path from 'path';
 import { isNlmResponseAnomalous } from './exam_qc.mjs';
 
 const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');
-const STAGE1_OUTPUT = '/Users/yuan/.gemini/antigravity/brain/6c2c4f94-4003-4c33-96ae-b220b9633354/scratch/stage1_nlm_output.json';
+
+const args = process.argv.slice(2);
+const STAGE1_OUTPUT = args[0] || path.join(process.cwd(), 'scripts', 'stage1_nlm_output.json');
 
 if (!fs.existsSync(STAGE1_OUTPUT)) {
   console.error(`Stage 1 output file not found: ${STAGE1_OUTPUT}`);
+  console.error(`Usage: node scripts/update_stage1_results.mjs [path_to_stage1_nlm_output.json]`);
   process.exit(1);
 }
 
 const newNlmData = JSON.parse(fs.readFileSync(STAGE1_OUTPUT, 'utf-8'));
-console.log(`Loaded ${newNlmData.length} re-asked question responses from Stage 1 output.`);
+console.log(`Loaded ${newNlmData.length} re-asked question responses from ${STAGE1_OUTPUT}.`);
 
 // Group by paperId
 const paperMap = {};
@@ -22,7 +25,7 @@ for (const item of newNlmData) {
   if (!paperMap[paperId]) paperMap[paperId] = [];
   
   const mappedResp = {
-    notebookTitle: item.notebook_title || item.notebookTitle,
+    notebookTitle: item.notebook_title || item.notebookTitle || 'TSN NLM Gateway',
     databaseSufficiency: item.database_sufficiency || item.databaseSufficiency || 'SUFFICIENT',
     rawResponse: item.raw_response || item.rawResponse || '',
     selectedOption: item.selectedOption || item.selected_option || 'UNKNOWN'
@@ -49,21 +52,38 @@ for (const [paperId, items] of Object.entries(paperMap)) {
 
     if (!q.nlmResponses) q.nlmResponses = [];
     
-    // Replace or push the NLM response for this run
-    let found = false;
+    // Priority 1: Replace an existing anomalous response in place
+    let replaced = false;
     for (let i = 0; i < q.nlmResponses.length; i++) {
-      if (q.nlmResponses[i].notebookTitle === mappedResp.notebookTitle || q.nlmResponses.length === 1) {
+      if (isNlmResponseAnomalous(q.nlmResponses[i])) {
         q.nlmResponses[i] = mappedResp;
-        found = true;
+        replaced = true;
         break;
       }
     }
-    if (!found) {
-      q.nlmResponses.push(mappedResp);
+
+    // Priority 2: Match by notebookTitle
+    if (!replaced) {
+      for (let i = 0; i < q.nlmResponses.length; i++) {
+        if (q.nlmResponses[i].notebookTitle === mappedResp.notebookTitle) {
+          q.nlmResponses[i] = mappedResp;
+          replaced = true;
+          break;
+        }
+      }
+    }
+
+    // Priority 3: Cap at 2 responses max to prevent array explosion
+    if (!replaced) {
+      if (q.nlmResponses.length >= 2) {
+        q.nlmResponses[1] = mappedResp;
+      } else {
+        q.nlmResponses.push(mappedResp);
+      }
     }
     totalUpdated++;
 
-    // Check if any response remains anomalous (< 200 chars or INSUFFICIENT)
+    // Check if any response remains anomalous
     let isAnomalous = false;
     for (const resp of q.nlmResponses) {
       if (isNlmResponseAnomalous(resp)) {

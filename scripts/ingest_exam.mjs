@@ -80,6 +80,10 @@ export function parseExamMarkdown(mdContent, paperTitle) {
         reconciliationStatus: 'UNVERIFIED',
         reconciliationNotes: '',
         resolvedImages: [],
+        qcVerified: false,
+        qcStatus: 'UNVERIFIED',
+        qcVerifiedAt: null,
+        qcNotes: '',
       });
     }
     currentQNum = null;

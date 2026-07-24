@@ -67,3 +67,4 @@
 ## Key Skills
 
 - `/tn-exam-prepare`: Ingestion skill for scanning question directories, requesting Yuan confirmation, dispatching subagents for semantic question extraction directly from source files (No Regex! Source First!), executing dedicated QC Subagent verification, dispatching dual NLM asking via `/tn-nlm-asking-mcqs`, matching images, and updating the web database.
+- `/tn-exam-qc`: Dedicated quality control skill for scanning anomalous NLM answers (< 200 chars or `INSUFFICIENT`), triggering NLM re-asking, dispatching subagents for source-first and full-text semantic option re-evaluation, and persisting QC verification flags (`qcVerified: true`, `qcStatus`) in the web database.

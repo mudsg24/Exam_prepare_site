@@ -13,63 +13,204 @@ export function cleanPaperTitle(rawName) {
 // Parse markdown file into questions array
 export function parseExamMarkdown(mdContent, paperTitle) {
   const questions = [];
-  // Split by Question markers (題號 or 題目 with optional whitespace and full/half-width colons)
-  const blocks = mdContent.split(/(?=題號\s*[:：]|題目\s*[:：]|\bQuestion\s+\d+[:：]?)/i);
 
-  let qCount = 0;
-  for (const block of blocks) {
-    if (!block.trim() || !/題目\s*[:：]/i.test(block)) continue;
-    qCount++;
-
-    const numMatch = block.match(/題號\s*[:：]\s*_*([0-9]+)/i) || block.match(/Question\s+([0-9]+)/i);
-    const qNum = numMatch ? parseInt(numMatch[1], 10) : qCount;
-
-    // Extract Stem
-    let stem = '';
-    const stemMatch = block.match(/題目\s*[:：]\s*\n?([\s\S]*?)(?=答案\s*[:：]|\([A-Ea-e]\)|\([a-e]\)|正確答案\s*[:：]|$)/i);
-    if (stemMatch) {
-      stem = stemMatch[1].trim();
+  const bottomAnswers = {};
+  const rawLines = mdContent.split('\n');
+  
+  let bottomTableStartIndex = -1;
+  for (let i = rawLines.length - 1; i >= 0; i--) {
+    const line = rawLines[i].trim();
+    if (!line) continue;
+    const m = line.match(/^([0-9]+)\s*[\.\:]?\s*\(?\s*([A-Ea-e])\s*\)?$/);
+    if (m) {
+      bottomAnswers[parseInt(m[1], 10)] = m[2].toUpperCase();
+      bottomTableStartIndex = i;
+    } else if (line.includes('答案') || line.toLowerCase().includes('answer key')) {
+      bottomTableStartIndex = i;
+      break;
+    } else if (bottomTableStartIndex !== -1 && i < bottomTableStartIndex - 10) {
+      break;
     }
+  }
 
-    // Extract Options
-    const options = [];
-    const optRegex = /\(([A-Ea-e])\)\s*([\s\S]*?)(?=\([A-Ea-e]\)|正確答案\s*[:：]|出題原則|難易程度|$)/gi;
-    let m;
-    while ((m = optRegex.exec(block)) !== null) {
-      const optId = m[1].toUpperCase();
-      const optText = m[2].trim().replace(/\n+/g, ' ');
-      if (!options.some((o) => o.id === optId)) {
-        options.push({ id: optId, text: optText });
+  const lines = bottomTableStartIndex > -1 ? rawLines.slice(0, bottomTableStartIndex) : rawLines;
+
+  let currentChapter = '';
+  let currentVignette = '';
+  let currentQNum = null;
+  let currentStemLines = [];
+  let currentOptions = [];
+  let currentAnswer = null;
+  let currentExplanation = [];
+  let inExplanation = false;
+
+  const numToLetter = { '1': 'A', '2': 'B', '3': 'C', '4': 'D', '5': 'E' };
+
+  function pushQuestion() {
+    if (currentStemLines.length > 0 && currentOptions.length > 0) {
+      let stem = currentStemLines.join('\n').trim();
+      if (currentVignette) {
+        stem = `${currentVignette}\n\n${stem}`;
       }
-    }
+      if (currentChapter) {
+        stem = `[${currentChapter}] ${stem}`;
+      }
+      if (currentExplanation.length > 0) {
+        const exp = currentExplanation.join('\n').trim();
+        if (exp) stem = `${stem}\n\n*Explanation:* ${exp}`;
+      }
 
-    // Extract Ground Truth Answer
-    let sourceAnswerStatus = 'absent';
-    let sourceProvidedAnswer = null;
-    const ansMatch = block.match(/正確答案\s*[:：]\s*\(\s*([A-Ea-e])\s*\)/i) || block.match(/答案\s*[:：]\s*\(\s*([A-Ea-e])\s*\)/i);
-    if (ansMatch) {
-      sourceAnswerStatus = 'provided';
-      sourceProvidedAnswer = ansMatch[1].toUpperCase();
-    }
+      const qNum = currentQNum || (questions.length + 1);
+      const sourceProvidedAnswer = currentAnswer || bottomAnswers[qNum] || null;
 
-    if (stem && options.length > 0) {
       questions.push({
-        id: `${paperTitle.replace(/[^a-zA-Z0-9_\u4e00-\u9fa5]/g, '_')}_q${qNum}`,
+        id: `${paperTitle.replace(/[^a-zA-Z0-9_\u4e00-\u9fa5]/g, '_')}_q${questions.length + 1}`,
         number: qNum,
         stem,
-        options,
-        sourceAnswerStatus,
+        options: currentOptions,
+        sourceAnswerStatus: sourceProvidedAnswer ? 'provided' : 'absent',
         sourceProvidedAnswer,
         nlmResponses: [],
-        reconciliationStatus: sourceProvidedAnswer ? 'UNVERIFIED' : 'UNVERIFIED',
+        reconciliationStatus: 'UNVERIFIED',
         reconciliationNotes: '',
         resolvedImages: [],
       });
     }
+    currentQNum = null;
+    currentStemLines = [];
+    currentOptions = [];
+    currentAnswer = null;
+    currentExplanation = [];
+    inExplanation = false;
   }
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const lineTrim = line.trim();
+    if (!lineTrim) continue;
+
+    // Chapter header
+    const chapMatch = lineTrim.match(/^Chapter\s+([0-9\+]+)$/i);
+    if (chapMatch) {
+      pushQuestion();
+      currentChapter = lineTrim;
+      currentVignette = '';
+      continue;
+    }
+
+    // Answer line
+    const ansMatch = lineTrim.match(/^(?:Answer|Ans|正確答案|答案)\s*[:：]?\s*\(?\s*([A-Ea-e])\s*\)?(.*)$/i);
+    if (ansMatch) {
+      currentAnswer = ansMatch[1].toUpperCase();
+      inExplanation = true;
+      if (ansMatch[2] && ansMatch[2].trim()) {
+        currentExplanation.push(ansMatch[2].trim());
+      }
+      continue;
+    }
+
+    // Page line
+    if (lineTrim.match(/^Page\s*[:：]/i)) {
+      continue;
+    }
+
+    // Letter option: (A) text or A. text
+    const optLetterMatch = lineTrim.match(/^(?:\(([A-Ea-e])\)|([A-Ea-e])[\.\)])\s+(.*)$/);
+
+    // Number option: 1. text, 2. text ... 5. text
+    const optNumMatch = lineTrim.match(/^([1-5])[\.\)]\s+(.*)$/);
+
+    // Reset explanation mode if new question or option starts
+    if (inExplanation) {
+      if (optLetterMatch || lineTrim.match(/^(?:Question\s+[0-9]+|#[0-9]+\b|Quiz\b|[0-9]+\.\s+|Which|What|In|A|Among|The|According|Regarding|This)/i)) {
+        pushQuestion();
+        inExplanation = false;
+      }
+    }
+
+    const hasLetterOptions = currentOptions.some(o => ['A','B','C','D','E'].includes(o.id));
+
+    // Numbered Option check:
+    const isNumberedOption = !hasLetterOptions && optNumMatch && currentStemLines.length > 0 && !inExplanation && (
+      (optNumMatch[1] === '1' && currentOptions.length === 0) ||
+      (currentOptions.length > 0 && parseInt(optNumMatch[1], 10) === currentOptions.length + 1)
+    );
+
+    // Question header match
+    const qHeaderMatch = !isNumberedOption && !optLetterMatch && (
+      lineTrim.match(/^(?:Question\s+([0-9]+)|#([0-9]+)\b|題號\s*[:：]\s*([0-9]+))/i) ||
+      lineTrim.match(/^([0-9]+)\.\s+(.*)$/)
+    );
+
+    if (qHeaderMatch) {
+      pushQuestion();
+      const num = parseInt(qHeaderMatch[1] || qHeaderMatch[2] || qHeaderMatch[3] || qHeaderMatch[4], 10);
+      currentQNum = num;
+
+      let stemText = lineTrim.replace(/^(?:Question\s+[0-9]+|#[0-9]+\b|題號\s*[:：]\s*[0-9]+|[0-9]+\.)\s*/i, '').trim();
+      if (stemText) {
+        currentStemLines.push(stemText);
+      }
+      continue;
+    }
+
+    // Process Letter option
+    if (optLetterMatch) {
+      const letter = optLetterMatch[1] || optLetterMatch[2];
+      const text = optLetterMatch[3].trim();
+      const optId = letter.toUpperCase();
+
+      if (optId === 'A' && (currentOptions.length >= 3 || inExplanation)) {
+        pushQuestion();
+      }
+
+      currentOptions.push({ id: optId, text });
+      inExplanation = false;
+      continue;
+    }
+
+    // Process Numbered option
+    if (isNumberedOption) {
+      const num = optNumMatch[1];
+      const text = optNumMatch[2].trim();
+      const optId = numToLetter[num];
+
+      if (num === '1' && currentOptions.length >= 3) {
+        pushQuestion();
+      }
+
+      currentOptions.push({ id: optId, text });
+      continue;
+    }
+
+    if (inExplanation) {
+      currentExplanation.push(lineTrim);
+      continue;
+    }
+
+    if (currentOptions.length >= 5) {
+      pushQuestion();
+    }
+
+    if (currentStemLines.length > 0 || currentQNum !== null) {
+      currentStemLines.push(lineTrim);
+    } else if (lineTrim.match(/^(?:Quiz\b|Instructions\b)/i)) {
+      continue;
+    } else {
+      if (lineTrim.match(/^(?:Which|In|A|Among|The|What|According|Regarding|This)\b/i)) {
+        currentStemLines.push(lineTrim);
+      } else {
+        currentVignette = currentVignette ? `${currentVignette}\n${lineTrim}` : lineTrim;
+      }
+    }
+  }
+
+  pushQuestion();
 
   return questions;
 }
+
+
 
 
 // Prepare 2x NLM asking JSON payload

@@ -80,3 +80,20 @@ export interface UserAttemptState {
   isSubmitted: boolean;
   submittedAt: number | null;
 }
+
+export type ThemeMode = 'light' | 'dark';
+export type AppView = 'dashboard' | 'exam';
+export type StudyMode = 'practice' | 'work';
+
+export interface GlobalPracticeStats {
+  totalQuestions: number;
+  completedQuestions: number;
+  correctCount: number;
+  wrongCount: number;
+  unattemptedCount: number;
+  disputedCount: number;
+}
+
+export type CustomPracticeType = 'unattempted' | 'wrong' | 'disputed' | 'paper';
+
+

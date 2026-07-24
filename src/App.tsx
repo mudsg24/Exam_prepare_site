@@ -1,17 +1,29 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
 import { Header } from './components/Header';
 import { QuestionMatrix } from './components/QuestionMatrix';
 import { QuestionPanel } from './components/QuestionPanel';
 import { ExplanationPanel } from './components/ExplanationPanel';
 import { ImageModal } from './components/ImageModal';
-import { ExamManifestItem, ExamPaper, ExamQuestion, OptionId, ResolvedImage, UserAttemptState } from './types/exam';
+import { DashboardView } from './components/DashboardView';
+import {
+  ExamManifestItem,
+  ExamPaper,
+  ExamQuestion,
+  OptionId,
+  ResolvedImage,
+  UserAttemptState,
+  ThemeMode,
+  AppView,
+  StudyMode,
+  GlobalPracticeStats,
+  CustomPracticeType,
+} from './types/exam';
 
-// Sample Fallback Exam Paper for Initial Demonstration
 const MOCK_MANIFEST: ExamManifestItem[] = [
   {
     id: 'demo_2025_zhongshan',
     title: '2025 114出題表格_傳統題_中山吳勝文',
-    sourceCategory: 'TSN 歷年交換題/2025 年交換題',
+    sourceCategory: '2025 年交換題',
     questionCount: 3,
     year: 2025,
   },
@@ -21,7 +33,7 @@ const MOCK_PAPER: ExamPaper = {
   id: 'demo_2025_zhongshan',
   title: '2025 114出題表格_傳統題_中山吳勝文',
   rawTitle: '2025 114出題表格_傳統題_中山吳勝文 - 原檔',
-  sourceCategory: 'TSN 歷年交換題/2025 年交換題',
+  sourceCategory: '2025 年交換題',
   year: 2025,
   questionCount: 3,
   createdAt: new Date().toISOString(),
@@ -50,20 +62,9 @@ const MOCK_PAPER: ExamPaper = {
           databaseSufficiency: 'SUFFICIENT',
           error: null,
         },
-        {
-          notebookTitle: 'TSN：出題 (2-3)',
-          notebookId: 'a1b2c3d4-e5f6-7890-abcd-ef1234567890',
-          accountProfile: 'sandbox0505',
-          selectedOption: 'C',
-          rawResponse: '1. Answer: (C) Lupus nephritis.\n2. Detailed Explanation: TTP, recurrent FSGS, and severe ANCA vasculitis with dialysis are classic primary indications for TPE, whereas LN is not standard primary therapy.\n3. Citations: Brenner 11e Chap 64.',
-          citations: [{ chapter: 'Chap 64', page: '2133' }],
-          figureMentions: [],
-          databaseSufficiency: 'SUFFICIENT',
-          error: null,
-        },
       ],
       reconciliationStatus: 'HIGH_CONFIDENCE',
-      reconciliationNotes: '原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。',
+      reconciliationNotes: '原始答案 (C) 與 NotebookLM 檢索結果一致。',
       resolvedImages: [],
     },
     {
@@ -78,21 +79,9 @@ const MOCK_PAPER: ExamPaper = {
       ],
       sourceAnswerStatus: 'provided',
       sourceProvidedAnswer: 'C',
-      nlmResponses: [
-        {
-          notebookTitle: 'TSN：出題 (3-[1-5])',
-          notebookId: 'b92401024-nb1',
-          accountProfile: 'b92401024',
-          selectedOption: 'C',
-          rawResponse: '1. Answer: (C).\n2. Detailed Explanation: Clearance of large molecules is membrane-limited rather than flow-limited. Blood or dialysate flow rates mostly affect small molecule clearance.\n3. Citations: Brenner Chap 63 pg.2052-2054.',
-          citations: [{ chapter: 'Chap 63', page: '2052-2054' }],
-          figureMentions: [],
-          databaseSufficiency: 'SUFFICIENT',
-          error: null,
-        },
-      ],
+      nlmResponses: [],
       reconciliationStatus: 'HIGH_CONFIDENCE',
-      reconciliationNotes: '原始答案 (C) 與 NotebookLM 回答一致。',
+      reconciliationNotes: '原始答案 (C)。',
       resolvedImages: [],
     },
     {
@@ -107,35 +96,30 @@ const MOCK_PAPER: ExamPaper = {
       ],
       sourceAnswerStatus: 'provided',
       sourceProvidedAnswer: 'D',
-      nlmResponses: [
-        {
-          notebookTitle: 'TSN：出題 (4-2)',
-          notebookId: 'mudkaku-nb2',
-          accountProfile: 'mudkaku',
-          selectedOption: 'D',
-          rawResponse: '1. Answer: (D).\n2. Detailed Explanation: Inadequate access, tubing kinking, and needle against wall increase resistance/suction causing excessively negative (low) arterial pressure, whereas dialyzer blood leak does not directly cause low pre-pump arterial pressure.\n3. Citations: Brenner 11e Chap 63.',
-          citations: [{ chapter: 'Chap 63' }],
-          figureMentions: [],
-          databaseSufficiency: 'SUFFICIENT',
-          error: null,
-        },
-      ],
+      nlmResponses: [],
       reconciliationStatus: 'HIGH_CONFIDENCE',
-      reconciliationNotes: '原始答案 (D) 與 NotebookLM 檢索一致。',
+      reconciliationNotes: '原始答案 (D)。',
       resolvedImages: [],
     },
   ],
 };
 
 export const App: React.FC = () => {
+  const [themeMode, setThemeMode] = useState<ThemeMode>('light');
+  const [currentView, setCurrentView] = useState<AppView>('dashboard');
+  const [studyMode, setStudyMode] = useState<StudyMode>('practice');
   const [manifest, setManifest] = useState<ExamManifestItem[]>(MOCK_MANIFEST);
+  const [allPapersMap, setAllPapersMap] = useState<Record<string, ExamPaper>>({
+    [MOCK_PAPER.id]: MOCK_PAPER,
+  });
+
   const [selectedPaperId, setSelectedPaperId] = useState<string>(MOCK_PAPER.id);
   const [currentPaper, setCurrentPaper] = useState<ExamPaper>(MOCK_PAPER);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [filterMode, setFilterMode] = useState<'all' | 'disputed' | 'wrong'>('all');
   const [modalImage, setModalImage] = useState<ResolvedImage | null>(null);
 
-  // User Attempt State (LocalStorage persisted)
+  // User Attempt State per Paper (LocalStorage)
   const [attemptState, setAttemptState] = useState<UserAttemptState>(() => {
     const saved = localStorage.getItem(`attempt_${selectedPaperId}`);
     if (saved) {
@@ -156,41 +140,61 @@ export const App: React.FC = () => {
     };
   });
 
-  // Load Manifest
+  // Sync Document Class for Theme Mode
+  useEffect(() => {
+    if (themeMode === 'dark') {
+      document.documentElement.classList.add('theme-dark');
+    } else {
+      document.documentElement.classList.remove('theme-dark');
+    }
+  }, [themeMode]);
+
+  // Load Manifest & Preload All Paper JSONs for Global Analytics
   useEffect(() => {
     fetch('/server-data/exams_manifest.json')
       .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
-        if (data && Array.isArray(data) && data.length > 0) {
-          setManifest(data);
-          if (!data.some((item: ExamManifestItem) => item.id === selectedPaperId)) {
-            setSelectedPaperId(data[0].id);
+      .then(async (manifestData: ExamManifestItem[]) => {
+        if (manifestData && Array.isArray(manifestData) && manifestData.length > 0) {
+          setManifest(manifestData);
+
+          // Preload paper JSONs
+          const loadedMap: Record<string, ExamPaper> = {};
+          await Promise.all(
+            manifestData.map((item) =>
+              fetch(`/server-data/${item.id}.json`)
+                .then((r) => (r.ok ? r.json() : null))
+                .then((paperData: ExamPaper) => {
+                  if (paperData && paperData.questions) {
+                    loadedMap[item.id] = paperData;
+                  }
+                })
+                .catch(() => {})
+            )
+          );
+
+          if (Object.keys(loadedMap).length > 0) {
+            setAllPapersMap((prev) => ({ ...prev, ...loadedMap }));
+            const firstId = manifestData[0].id;
+            if (loadedMap[firstId]) {
+              setSelectedPaperId(firstId);
+              setCurrentPaper(loadedMap[firstId]);
+            }
           }
         }
       })
       .catch(() => {
-        /* fallback to mock manifest */
+        /* Fallback to mock paper */
       });
   }, []);
 
-  // Load Selected Paper JSON
+  // Handle Paper Selection Change
   useEffect(() => {
-    if (selectedPaperId === MOCK_PAPER.id) {
-      setCurrentPaper(MOCK_PAPER);
-      return;
+    const paper = allPapersMap[selectedPaperId];
+    if (paper) {
+      setCurrentPaper(paper);
+      setCurrentIndex(0);
     }
-    fetch(`/server-data/${selectedPaperId}.json`)
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data: ExamPaper) => {
-        if (data && data.questions) {
-          setCurrentPaper(data);
-          setCurrentIndex(0);
-        }
-      })
-      .catch((err) => {
-        console.warn('Could not load paper JSON, using mock fallback', err);
-      });
-  }, [selectedPaperId]);
+  }, [selectedPaperId, allPapersMap]);
 
   // Sync / Restore Attempt State on paper change
   useEffect(() => {
@@ -219,9 +223,9 @@ export const App: React.FC = () => {
     localStorage.setItem(`attempt_${selectedPaperId}`, JSON.stringify(attemptState));
   }, [attemptState, selectedPaperId]);
 
-  // Timer Effect (Elapsed正計時)
+  // Timer Effect
   useEffect(() => {
-    if (attemptState.isSubmitted) return;
+    if (currentView !== 'exam' || attemptState.isSubmitted || studyMode === 'work') return;
     const timer = setInterval(() => {
       setAttemptState((prev) => ({
         ...prev,
@@ -229,12 +233,147 @@ export const App: React.FC = () => {
       }));
     }, 1000);
     return () => clearInterval(timer);
-  }, [attemptState.isSubmitted]);
+  }, [currentView, attemptState.isSubmitted, studyMode]);
 
-  // Derived filtered questions list
+  // Compute Global Analytics & Progress Map
+  const { globalStats, paperProgressMap } = useMemo(() => {
+    let totalQuestions = 0;
+    let completedQuestions = 0;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let unattemptedCount = 0;
+    let disputedCount = 0;
+    const progressMap: Record<string, { total: number; answered: number; correct: number }> = {};
+
+    Object.values(allPapersMap).forEach((paper) => {
+      let paperAnswered = 0;
+      let paperCorrect = 0;
+
+      const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
+      let paperAnswers: Record<string, OptionId> = {};
+      if (savedAttemptStr) {
+        try {
+          const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
+          paperAnswers = parsed.answers || {};
+        } catch (e) {}
+      }
+
+      paper.questions.forEach((q) => {
+        totalQuestions++;
+        if (q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED')) {
+          disputedCount++;
+        }
+
+        const userAns = paperAnswers[q.id];
+        if (userAns) {
+          completedQuestions++;
+          paperAnswered++;
+          if (q.sourceProvidedAnswer && userAns === q.sourceProvidedAnswer) {
+            correctCount++;
+            paperCorrect++;
+          } else if (q.sourceProvidedAnswer) {
+            wrongCount++;
+          }
+        } else {
+          unattemptedCount++;
+        }
+      });
+
+      progressMap[paper.id] = {
+        total: paper.questions.length,
+        answered: paperAnswered,
+        correct: paperCorrect,
+      };
+    });
+
+    const stats: GlobalPracticeStats = {
+      totalQuestions,
+      completedQuestions,
+      correctCount,
+      wrongCount,
+      unattemptedCount,
+      disputedCount,
+    };
+
+    return { globalStats: stats, paperProgressMap: progressMap };
+  }, [allPapersMap, attemptState]);
+
+  // Launch Custom Practice Session
+  const handleStartCustomPractice = (type: CustomPracticeType, count: number = 10) => {
+    const allQuestions: ExamQuestion[] = [];
+    Object.values(allPapersMap).forEach((paper) => {
+      const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
+      let paperAnswers: Record<string, OptionId> = {};
+      if (savedAttemptStr) {
+        try {
+          const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
+          paperAnswers = parsed.answers || {};
+        } catch (e) {}
+      }
+
+      paper.questions.forEach((q) => {
+        const userAns = paperAnswers[q.id];
+        if (type === 'unattempted' && !userAns) {
+          allQuestions.push(q);
+        } else if (type === 'wrong' && userAns && q.sourceProvidedAnswer && userAns !== q.sourceProvidedAnswer) {
+          allQuestions.push(q);
+        } else if (type === 'disputed' && q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED')) {
+          allQuestions.push(q);
+        }
+      });
+    });
+
+    if (allQuestions.length === 0) {
+      alert('無符合條件的題目');
+      return;
+    }
+
+    const selectedQuestions = allQuestions.slice(0, count).map((q, idx) => ({
+      ...q,
+      number: idx + 1,
+    }));
+
+    const titleMap = {
+      unattempted: `🎯 專屬特訓 - 全新未寫題 (${selectedQuestions.length}題)`,
+      wrong: `🔥 專屬特訓 - 歷史錯題重練 (${selectedQuestions.length}題)`,
+      disputed: `⚖️ 專屬特訓 - NLM 雙重爭議題 (${selectedQuestions.length}題)`,
+      paper: '專屬特訓',
+    };
+
+    const customPaper: ExamPaper = {
+      id: `custom_${type}_${Date.now()}`,
+      title: titleMap[type],
+      rawTitle: titleMap[type],
+      sourceCategory: '智慧特訓',
+      year: new Date().getFullYear(),
+      questionCount: selectedQuestions.length,
+      createdAt: new Date().toISOString(),
+      questions: selectedQuestions,
+    };
+
+    setSelectedPaperId(customPaper.id);
+    setCurrentPaper(customPaper);
+    setAllPapersMap((prev) => ({ ...prev, [customPaper.id]: customPaper }));
+    setCurrentIndex(0);
+    setCurrentView('exam');
+  };
+
+  // Select Paper from Dashboard
+  const handleSelectPaperFromDashboard = (paperId: string) => {
+    setSelectedPaperId(paperId);
+    if (allPapersMap[paperId]) {
+      setCurrentPaper(allPapersMap[paperId]);
+    }
+    setCurrentIndex(0);
+    setCurrentView('exam');
+  };
+
+  // Filtered Questions in Active Exam
+  const isEffectiveSubmitted = attemptState.isSubmitted || studyMode === 'work';
+
   const filteredQuestions = currentPaper.questions.filter((q) => {
     if (filterMode === 'disputed') {
-      return q.reconciliationStatus.startsWith('DISPUTED');
+      return q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED');
     }
     if (filterMode === 'wrong') {
       const userAns = attemptState.answers[q.id];
@@ -247,7 +386,7 @@ export const App: React.FC = () => {
 
   // Actions
   const handleSelectOption = (optId: OptionId) => {
-    if (attemptState.isSubmitted) return;
+    if (isEffectiveSubmitted && studyMode !== 'work') return;
     setAttemptState((prev) => ({
       ...prev,
       answers: {
@@ -257,7 +396,8 @@ export const App: React.FC = () => {
     }));
   };
 
-  const handleToggleFlag = () => {
+  const handleToggleFlag = useCallback(() => {
+    if (!activeQuestion) return;
     setAttemptState((prev) => ({
       ...prev,
       flagged: {
@@ -265,7 +405,7 @@ export const App: React.FC = () => {
         [activeQuestion.id]: !prev.flagged[activeQuestion.id],
       },
     }));
-  };
+  }, [activeQuestion]);
 
   const handleSubmitExam = () => {
     setAttemptState((prev) => ({
@@ -292,35 +432,45 @@ export const App: React.FC = () => {
     }
   };
 
-  // Compute Score
+  // Score computation
   let scoreCorrect = 0;
   currentPaper.questions.forEach((q) => {
-    if (q.sourceProvidedAnswer && attemptState.answers[q.id] === q.sourceProvidedAnswer) {
-      scoreCorrect++;
+    if (q.sourceProvidedAnswer) {
+      if (attemptState.answers[q.id] === q.sourceProvidedAnswer || studyMode === 'work') {
+        scoreCorrect++;
+      }
     }
   });
 
-  const disputedCount = currentPaper.questions.filter((q) =>
-    q.reconciliationStatus.startsWith('DISPUTED')
+  const activeDisputedCount = currentPaper.questions.filter((q) =>
+    q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED')
   ).length;
 
   const answeredCount = Object.keys(attemptState.answers).length;
 
-  // Keyboard Shortcuts
+  // Keyboard Shortcuts: t = flag, z = prev, v = next, a-e = select
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === 'ArrowLeft') {
+      if (currentView !== 'exam') return;
+      const key = e.key.toLowerCase();
+
+      if (key === 't') {
+        e.preventDefault();
+        handleToggleFlag();
+      } else if (key === 'z' || e.key === 'ArrowLeft') {
+        e.preventDefault();
         setCurrentIndex((prev) => Math.max(0, prev - 1));
-      } else if (e.key === 'ArrowRight') {
+      } else if (key === 'v' || e.key === 'ArrowRight') {
+        e.preventDefault();
         setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1));
-      } else if (!attemptState.isSubmitted && ['a', 'b', 'c', 'd', 'e'].includes(e.key.toLowerCase())) {
-        const opt = e.key.toUpperCase() as OptionId;
+      } else if (activeQuestion && !attemptState.isSubmitted && ['a', 'b', 'c', 'd', 'e'].includes(key)) {
+        const opt = key.toUpperCase() as OptionId;
         if (activeQuestion.options.some((o) => o.id === opt)) {
           handleSelectOption(opt);
         }
       }
     },
-    [filteredQuestions.length, attemptState.isSubmitted, activeQuestion]
+    [currentView, filteredQuestions.length, attemptState.isSubmitted, activeQuestion, handleToggleFlag]
   );
 
   useEffect(() => {
@@ -329,8 +479,10 @@ export const App: React.FC = () => {
   }, [handleKeyDown]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 font-sans selection:bg-cyan-500 selection:text-slate-950">
-      {/* Top Header */}
+    <div className={`min-h-screen flex flex-col font-sans transition-colors ${
+      themeMode === 'light' ? 'bg-slate-50 text-slate-900' : 'bg-slate-950 text-slate-100'
+    }`}>
+      {/* Top Navigation Header */}
       <Header
         manifest={manifest}
         selectedPaperId={selectedPaperId}
@@ -338,59 +490,83 @@ export const App: React.FC = () => {
         elapsedSeconds={attemptState.elapsedSeconds}
         totalQuestions={currentPaper.questions.length}
         answeredCount={answeredCount}
-        isSubmitted={attemptState.isSubmitted}
+        isSubmitted={isEffectiveSubmitted}
         scoreCorrect={scoreCorrect}
-        disputedCount={disputedCount}
+        disputedCount={activeDisputedCount}
         filterMode={filterMode}
         onFilterChange={setFilterMode}
         onReset={handleReset}
         onSubmitExam={handleSubmitExam}
+        currentView={currentView}
+        onNavigateView={setCurrentView}
+        themeMode={themeMode}
+        onToggleTheme={() => setThemeMode((prev) => (prev === 'light' ? 'dark' : 'light'))}
+        studyMode={studyMode}
+        onToggleStudyMode={() => setStudyMode((prev) => (prev === 'practice' ? 'work' : 'practice'))}
       />
 
-      {/* Main Body */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 flex flex-col md:flex-row gap-6">
-        {/* Left Panel: Matrix Grid */}
-        <QuestionMatrix
-          questions={filteredQuestions}
-          currentIndex={currentIndex}
-          onSelectIndex={(idx) => setCurrentIndex(idx)}
-          userAnswers={attemptState.answers}
-          flagged={attemptState.flagged}
-          isSubmitted={attemptState.isSubmitted}
-        />
+      {/* Main View Switcher */}
+      {currentView === 'dashboard' ? (
+        <main className="flex-1">
+          <DashboardView
+            manifest={manifest}
+            stats={globalStats}
+            onSelectPaper={handleSelectPaperFromDashboard}
+            onStartCustomPractice={handleStartCustomPractice}
+            paperProgressMap={paperProgressMap}
+            themeMode={themeMode}
+          />
+        </main>
+      ) : (
+        <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 flex flex-col md:flex-row gap-6">
+          {/* Left Panel: Matrix Grid */}
+          <QuestionMatrix
+            questions={filteredQuestions}
+            currentIndex={currentIndex}
+            onSelectIndex={(idx) => setCurrentIndex(idx)}
+            userAnswers={attemptState.answers}
+            flagged={attemptState.flagged}
+            isSubmitted={isEffectiveSubmitted}
+            themeMode={themeMode}
+          />
 
-        {/* Right Panel: Active Question & Explanation */}
-        <div className="flex-1 flex flex-col">
-          {activeQuestion ? (
-            <>
-              <QuestionPanel
-                question={activeQuestion}
-                currentIndex={currentIndex}
-                totalQuestions={filteredQuestions.length}
-                selectedOption={attemptState.answers[activeQuestion.id]}
-                onSelectOption={handleSelectOption}
-                isFlagged={!!attemptState.flagged[activeQuestion.id]}
-                onToggleFlag={handleToggleFlag}
-                onPrev={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
-                onNext={() => setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1))}
-                isSubmitted={attemptState.isSubmitted}
-              />
-
-              {/* Show Explanation Panel after Submission or in Review */}
-              {attemptState.isSubmitted && (
-                <ExplanationPanel
+          {/* Right Panel: Active Question & Explanation */}
+          <div className="flex-1 flex flex-col">
+            {activeQuestion ? (
+              <>
+                <QuestionPanel
                   question={activeQuestion}
-                  onOpenImage={(img) => setModalImage(img)}
+                  currentIndex={currentIndex}
+                  totalQuestions={filteredQuestions.length}
+                  selectedOption={attemptState.answers[activeQuestion.id]}
+                  onSelectOption={handleSelectOption}
+                  isFlagged={!!attemptState.flagged[activeQuestion.id]}
+                  onToggleFlag={handleToggleFlag}
+                  onPrev={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
+                  onNext={() => setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1))}
+                  isSubmitted={isEffectiveSubmitted}
+                  themeMode={themeMode}
                 />
-              )}
-            </>
-          ) : (
-            <div className="glass-panel rounded-2xl p-12 text-center text-slate-400">
-              篩選條件下無符合的題目
-            </div>
-          )}
-        </div>
-      </main>
+
+                {/* Show Explanation Panel in Work Mode or post-submission */}
+                {isEffectiveSubmitted && (
+                  <ExplanationPanel
+                    question={activeQuestion}
+                    onOpenImage={(img) => setModalImage(img)}
+                    themeMode={themeMode}
+                  />
+                )}
+              </>
+            ) : (
+              <div className={`glass-panel rounded-2xl p-12 text-center text-slate-500 ${
+                themeMode === 'light' ? 'bg-white border-slate-200' : 'bg-slate-900 border-slate-800'
+              }`}>
+                篩選條件下無符合的題目
+              </div>
+            )}
+          </div>
+        </main>
+      )}
 
       {/* Image Modal Lightbox */}
       <ImageModal image={modalImage} onClose={() => setModalImage(null)} />

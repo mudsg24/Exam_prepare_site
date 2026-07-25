@@ -65,7 +65,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:35:44.460Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC 通過。兩組 NLM 皆憑語意解析選出 (D)，核對推理邏輯嚴密，與原始解答 (A) 產生爭議。"
+      "qcNotes": "QC 通過。兩組 NLM 皆憑語意解析選出 (D)，核對推理邏輯嚴密，與原始解答 (A) 產生爭議。",
+      "attachedImages": null
     },
     {
       "id": "2025_彰基重點_q5",
@@ -95,44 +96,35 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (3-1)",
-          "notebookId": "0a194d48-5384-45e4-a241-99e21d3a204e",
-          "accountProfile": "b92401024",
-          "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. Answer Determination\n由於目前的 `notebook sources` 缺乏足夠資訊以詳細分析並確認 `intra-peritoneal insulin` 於 `dialysate` 中對 `peritoneal dialysis` (`PD`) 患者所造成的特定肝臟病理變化（如 `hepatic subcapsular steatosis`），因此無法自資料庫中直接選出唯一的標準正確選項。\n\n然而，為了提供最嚴謹的學術支持，以下將根據 `notebook sources` 所包含的文獻，深入分析資料庫中關於 `peritoneal dialysis`、`diabetes`、`insulin` 及其相關臨床挑戰的既有內容。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (Based on Available Sources)\n雖然資料庫中沒有直接關於 `intra-peritoneal insulin` 誘發 `hepatic subcapsular steatosis` (`HSS`) 的具體論述，但 `notebook sources` 提供了以下高度相關的生理與病理學背景：\n\n*   **Insulin Resistance 與 CKD 代謝異常**：\n    根據 `Chapter 56 of Brenner & Rector's The Kidney` 關於 `Pancreatic Hormonal Disorders: Insulin Resistance` 的描述，`insulin resistance` (`IR`) 是 `CKD` 患者的共同特徵 [1]。在 `CKD` 體液環境中，`hyperparathyroidism` 與 `vitamin D deficiency` 皆可能共同介導 `insulin secretory abnormalities` [1]。當給予外源性 `insulin` 治療時，必須考量到患者本身因尿毒環境引發的受體敏感度降低與動態波動。\n*   **Peritoneal Dialysis 與血糖管理挑戰**：\n    根據 `Chapter 39 of Brenner & Rector's The Kidney` 的臨床指引，對於進入 `ESRD` 階段的糖尿病腎病變患者，維持穩定的血糖控制極其困難 [2]。使用以 `dextrose` 為基礎的 `PD solution` 會提供持續的腹膜葡萄糖負荷，導致患者在透析過程中面臨劇烈波動的 `blood glucose` [3, 4]。臨床醫師在嘗試強化血糖控制時，最主要的安全障礙即為 `severe hypoglycemia` 的風險 [2, 5]。\n\n---\n\n### 3. Distractor Option Analysis (Based on Available Sources)\n\n#### (A) Profound hypokalemia\n*   **機制分析**：`insulin` 會作用於骨骼肌及脂肪細胞，刺激 `Na+-K+-ATPase` 幫浦，促使 `potassium` 向細胞內轉移（`transcellular shift`） [6]。在正常生理或大量葡萄糖負荷狀態下（如高糖透析），伴隨 `insulin` 治療確實可能誘發 `hypokalemia` [6, 7]。然而，在 `ESRD` 且無剩餘腎功能的 `anuric` 患者中，更為常見且致命的臨床威脅是蓄積性的 `hyperkalemia` [7-9]。因此，單純的 `profound hypokalemia` 在此複雜的 `sepsis` 合併 `hypotension` 脈絡下，並非腎臟科醫師針對此特殊給藥途徑最特異的病理學擔憂。\n*   **命題意圖**：測試考生是否僅記得 `insulin` 會降血鉀的生理常識，而忽略了 `ESRD` 蓄積性高血鉀與 `intra-peritoneal` 特異性解剖學暴露的臨床對比。\n\n#### (B) Hepatic subcapsular steatosis (HSS)\n*   **機制分析**：在臨床實務與外部醫學文獻中，`HSS` 是 `intra-peritoneal insulin` 治療最著名的特異性併發症。當 `insulin` 直接加入 `dialysate` 經由腹膜吸收時，其會經由門脈系統（`portal circulation`）直接遞送至 `liver`。高濃度的 `insulin` 在肝臟表面（尤其是肝包膜下，`subcapsular`）會局部刺激脂肪生成（`lipogenesis`），導致局灶性的 `hepatic subcapsular steatosis`。儘管這在醫學考試中是經典的高頻考點，但由於本資料庫中並無此一病理學名詞的字面記載，故觸發 `Database Limitation Guard`。\n\n#### (C) Decreased the ultrafiltration from PD\n*   **機制分析**：在 `PD` 物質轉運動力學中，影響 `ultrafiltration` 的決定性因素是腹膜轉運類型（`peritoneal transport type`）與 `dialysate dextrose` 所建立的 `crystalloid osmotic gradient` [4]。雖然 `insulin` 能協助降低血糖，但加入 `intra-peritoneal insulin` 主要影響的是全身性的葡萄糖代謝與吸收，並不會自發性地減少腹膜小孔或超濾通道（如 `aquaporin-1`）的水分轉運能力。\n*   **命題意圖**：干擾混淆「高糖透析液可增加超濾」與「胰島素降低血糖是否會影響透析清除或超濾效能」這兩個不同維度物理轉運概念的考生。\n\n#### (D) Decreased the incidence of Encapsulating Peritoneal Sclerosis (EPS)\n*   **機制分析**：根據 `Chapter 64 of Brenner & Rector's The Kidney` 的文獻，`encapsulating peritoneal sclerosis` (`EPS`) 是一種極為嚴重且致命的 PD 晚期併發症，其發生與長期使用不具備良好生物相容性的高糖透析液（導致 `progressive peritoneal membrane fibrosis`）密切相關，且 `duration of PD > 5 years` 是其最強烈的危險因子 [4]。目前沒有任何生理或臨床實證顯示，在透析液中加入 `insulin` 能夠降低或影響 `EPS` 的發生率。\n*   **命題意圖**：利用 `EPS` 作為 `PD` 最具代表性的慢性嚴重硬指標併發症，來測試考生能否排除與急性血糖控制手段無關的慢性腹膜纖維化病理。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科醫學考試中，關於糖尿病透析患者的血糖調控與併發症，最常進行以下對比：\n\n#### Intraperitoneal (IP) Insulin vs. Subcutaneous (SC) Insulin in Peritoneal Dialysis\n*   **藥代動力學與解剖路徑對比**：\n    *   `IP Insulin`：直接加入 `dialysate` 中，經由腹膜吸收後進入 `portal vein`（門靜脈），直接抵達 `liver`，這在生理上高度模擬了胰腺分泌的內源性胰島素路徑（具有極佳的 `first-pass hepatic effect`），能更好地控制高糖透析液引發的餐後與透析中高血糖。然而，其缺點在於需要在無菌操作下多次加藥（增加 `peritonitis` 的風險 [10]），且長期局部高濃度暴露會顯著引發 **`Hepatic subcapsular steatosis`**。\n    *   `SC Insulin`：經由皮下注射，吸收後直接進入體循環（`systemic circulation`），其對肝臟的局部首渡效應較差，在重症 `sepsis` 或 `hypotension` 伴隨組織灌流不足（`hypoperfusion`）時，皮下吸收極度不穩定，容易引發致命的 `severe hypoglycemia` [2, 5] 或失控的 `hyperglycemia`。\n\n#### Peritoneal Dialysis-associated Peritonitis vs. Sepsis in ESRD Patients\n*   **臨床與實驗室指標之對比**：\n    *   `PD-associated Peritonitis`：典型表現為局部症狀，包括 `abdominal pain`、反跳痛，以及最重要的診斷指標——**`cloudy peritoneal effluent`**（透析液微小細胞計數 `WBC > 100/mm3` 且 `polymorphonuclear cells > 50%`） [10]。\n    *   `Systemic Sepsis`：由非腹膜感染（如 `urosepsis`、肺炎或導管相關感染）引起，患者呈現全身性發炎反應（`SIRS`），並伴隨 `hypotension` 與多器官功能障礙，而其 `peritoneal dialysate` 通常保持清澈（`clear effluent`）。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**:\n    *   Brenner & Rector's The Kidney, Chapter 64: \"Peritoneal Dialysis\" — Sections: \"Peritoneal Dialysis Solutions\", \"Determinants of Solute Clearance and Fluid Removal in Peritoneal Dialysis\", and \"Clearance Targets and Clinical Outcomes\".\n    *   Brenner & Rector's The Kidney, Chapter 39: \"Epidemiology of Diabetic Kidney Disease\" — Sections: \"Optimal Glycemic Control\" and \"Clinical Relevance: End-Stage Kidney Disease\".\n    *   Brenner & Rector's The Kidney, Chapter 56: \"Endocrine Aspects of Chronic Kidney Disease\" — Section: \"Pancreatic Hormonal Disorders: Insulin Resistance\".\n*   **Figures, Tables, & Boxes**:\n    *   Brenner & Rector's Chapter 80, **Figure 80.4**: \"Trends in chronic kidney disease related to diabetes and to glomerulonephritis...\"\n    *   Brenner & Rector's Chapter 56, **Figure 56.3**: \"Deranged somatotropic axis in chronic renal failure...\"\n    *   KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD, **Figure 23**: \"Treatment algorithm for selecting glucose-lowering drugs for patients with type 2 diabetes and chronic kidney disease.\"",
+          "notebookTitle": "TSN：出題 (4-4)",
+          "notebookId": "78712976-1a6e-4442-9b22-859cfb66fa55",
+          "accountProfile": "mudkaku",
+          "selectedOption": "B",
+          "rawResponse": "### 1. Answer Determination\n\n本題的正解為 **Option (B) Hepatic subcapsular steatosis (HSS)**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n對於接受 **peritoneal dialysis (PD)** 且合併有 **diabetes** 的 **ESRD** 患者，在 **dialysate** 中加入 **intra-peritoneal insulin** 是一種常見的 **glycemic control** 手段，其設計初衷是為了模擬生理狀態下 **pancreas** 分泌 **insulin** 直接進入 **portal circulation** 的路徑。然而，**nephrologist** 對此處置路徑最核心的解剖與病理生理學顧慮為 **Hepatic subcapsular steatosis (HSS)**：\n\n1. **直接解剖學接觸與被動擴散 (Direct Anatomic Contact and Passive Diffusion)**：\n   當含有高濃度 **insulin** 的 **dialysate** 被注入 **peritoneal cavity** 後，會直接浸潤並包覆 **liver** 的外表面。**insulin** 分子會直接透過被動擴散穿過 **Glisson's capsule**，進入緊鄰的 **liver parenchyma** 最外層，即 **subcapsular region**。\n\n2. **局部極高濃度效應 (Local Extreme Concentration Effect)**：\n   這種直接的局部接觸，導致 **subcapsular hepatocytes** 所暴露的 **insulin** 濃度，遠高於 **systemic circulation** 或甚至是正常的 **portal circulation** 濃度。\n\n3. **脂質代謝與生成通路過度活化 (Lipogenesis and Metabolic Pathway Overactivation)**：\n   高濃度的 **insulin** 在局部會強烈刺激 **subcapsular hepatocytes** 內部的 **lipogenesis**（例如活化 **SREBP-1c** 並促進 **fatty acid synthesis**），同時強烈抑制 **beta-oxidation** 以及阻斷 **VLDL** 的釋放。\n\n4. **局部脂肪變性之形成與可逆性 (Localized Steatosis and Reversibility)**：\n   上述局部代謝失衡最終導致脂肪在 **subcapsular hepatocytes** 內病理性過度沉積，在組織形態學上呈現局限性的 **microvesicular and macrovesicular steatosis**。此病變在臨床影像學（如 **ultrasound** 或 **CT**）上會呈現為特殊的 **subcapsular, scalloped, low-density or hyperechoic lesions**。當停用 **intra-peritoneal insulin** 後，此病變在數週至數月內通常是完全可逆的 (**reversible**)。\n\n因此，**Option (B)** 是 **nephrologist** 在此情境下最為關注且特異性極高、專屬於 **intra-peritoneal** 給藥途徑的併發症。\n\n---\n\n### 3. Distractor Option Analysis\n\n* **Option (A) Profound hypokalemia**：\n  * *排診原因*：雖然 **insulin** 會促進 **potassium** 轉移進入 **intracellular compartment**，但這主要是全身性系統效應。臨床上，**intra-peritoneal insulin** 經由腹膜屏障緩慢吸收，引發急性、致死性 **profound hypokalemia** 的風險，並不高於常規使用的系統性 **intravenous insulin** 或 **subcutaneous insulin**。此外，**hypokalemia** 在臨床上可以經由調整 **dialysate potassium concentration** 或給予口服/靜脈 **potassium supplementation** 來進行常規且容易的監測與校正，並不屬於因特殊給藥途徑（**intra-peritoneal**）所導致、難以避免的局部解剖結構性病理併發症。\n  * *出題意圖*：利用考生對於「**insulin** 會降血糖與降血鉀」的常規生理反射進行干擾，測試考生是否能區分「系統性代謝效應」與「給藥途徑特異性解剖併發症」的差別。\n\n* **Option (C) Decreased the ultrafiltration from PD**：\n  * *排診原因*：**intra-peritoneal insulin** 本身不會對 **peritoneal membrane** 產生直接的結構性毒性，亦不會干擾 **peritoneal transport characteristics** 或降低 **ultrafiltration**。相反地，如果能藉此改善嚴重的 **hyperglycemia**，降低 **systemic and peritoneal glucose gradient**，反而可能有助於優化 **ultrafiltration** 的效能。\n  * *出題意圖*：利用考生對於「**PD** 患者發生任何不良事件都可能與 **ultrafiltration failure** 有關」的盲目直覺設定陷阱，測試對 **insulin** 局部藥理作用的掌握。\n\n* **Option (D) Decreased the incidence of Encapsulation Peritoneal Sclerosis (EPS)**：\n  * *排診原因*：**EPS**（或稱為 **sclerosing encapsulating peritonitis**）是長期接受 **PD**、反覆發生 **peritonitis**、以及長期暴露於高濃度 **glucose degradation products (GDPs)** 與酸性 **dialysate** 環境下所導致的致死性慢性腹膜纖維化。使用 **intra-peritoneal insulin** 絕對不會降低 **EPS** 的發生率，兩者在病理生理學上毫無因果或保護性關聯。\n  * *出題意圖*：引入一個高難度的 **PD** 晚期嚴重併發症（**EPS**）作為偽保護性干擾項，考驗考生是否會因對罕見重症的定義模糊而發生錯誤聯想。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在 **nephrology** 專科考試與放射醫學考試中，關於 **Intra-peritoneal Insulin-Induced Hepatic Subcapsular Steatosis (HSS)** 具有以下最高頻的核心鑑別考點：\n\n#### 1. HSS vs. Hepatic Metastases\n* **HSS**：在 **computed tomography (CT)** 上呈現為沿著 **liver** 周邊、緊鄰 **Glisson's capsule** 分布的多發性、呈扇形（**scalloped**）或圓形之 **low-density lesions**。其特色為**無任何 mass effect**，且周圍的 **hepatic vasculature** 保持正常走行，無受壓或扭曲。最關鍵的臨床診斷依據在於**停用 intra-peritoneal insulin 後病灶會完全消退 (reversible)**。\n* **Hepatic Metastases**：呈現無規則分布於 **liver parenchyma** 內部的 **nodular lesions**，在造影下典型呈現 **target sign** 或 **ring enhancement**，伴隨顯著的 **mass effect**，且不會因停用任何腹腔給藥而緩解。\n\n#### 2. HSS vs. Focal Fatty Infiltration (FFI) / Focal Fatty Sparing (FFS)\n* **FFI/FFS**：其脂肪浸潤或保留通常發生在特定的解剖學易感區域（例如 **adjacent to the gallbladder fossa** 或者是 **portal bifurcation**），這與局部特殊的雙重血流灌注（如 **third inflow tract**）有關。\n* **HSS**：其病變完全不受上述血管解剖結構限制，而是**特異性且僅局限於直接與 dialysate 接觸的 liver 外表面 subcapsular hepatocytes** 區域。\n\n---\n\n### 5. Citations & References\n\n* **Chapter & Section**：\n  * *Brenner & Rector's The Kidney*, Chapter 64: **Peritoneal Dialysis**, under the section headers **COMPLICATIONS OF PERITONEAL DIALYSIS** and **METABOLIC COMPLICATIONS - Intraperitoneal Insulin Administration**.\n* **Figures, Tables, & Boxes**：\n  * *B&R Chapter 64*, **References on metabolic management in peritoneal dialysis**, detailing the risks associated with the portal delivery absorption of **intraperitoneal insulin** and its localized effects on the **liver**.",
           "citations": [],
           "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
-        },
-        {
-          "notebookTitle": "TSN：出題 (1-2)",
-          "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
-          "accountProfile": "mudskipper24",
-          "selectedOption": "NONE",
-          "rawResponse": "經過系統性地分析與檢索所有提供的 100 本 **notebook sources**（包括 **Brenner & Rector's The Kidney** 及各項 **KDIGO Guidelines**），並無任何關於 **peritoneal dialysis** 患者在接受 **intraperitoneal insulin** 治療時，可能誘發之臨床併發症（如 **hepatic subcapsular steatosis**）的相關病理生理學機制或安全性疑慮的記載。\n\n由於現有的文獻資料庫中缺乏足夠的資訊，為了維護醫學內容評估的嚴謹性與真實性，在此給予明確宣告：\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
+          "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
           "notebookTitle": "TSN：出題 (4-1)",
-          "databaseSufficiency": "INSUFFICIENT",
+          "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
+          "accountProfile": "mudkaku",
+          "selectedOption": "NONE",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
-          "selectedOption": "UNKNOWN"
-        },
-        {
-          "notebookTitle": "TSN：出題 (5-4)",
+          "citations": [],
+          "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
-          "rawResponse": "根據隨附的 `notebook sources` 進行深度檢索與評估，所有的來源段落中並未包含關於 `intraperitoneal insulin`（腹腔內胰島素）在 `peritoneal dialysate`（腹膜透析液）中引起 `hepatic subcapsular steatosis`（肝包膜下脂肪變性）或其相關臨床疑慮（如 `HSS`）的任何病理生理機轉與研究數據描述。\n\n因此，本題由於缺乏足夠的文獻證據支持，無法僅依賴隨附的 sources 做出具備追溯力的解答。根據 **Database Limitation Guard** 規範，特此宣告：\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**",
-          "selectedOption": "UNKNOWN"
+          "error": null
         }
       ],
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "reconciliationNotes": "NotebookLM 檢索無有效證據或無選定選項。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 最新提問結果完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_UNVERIFIED",
+      "qcVerified": false,
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_彰基重點_q6",
@@ -187,7 +179,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (D)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_彰基重點_q7",
@@ -242,7 +235,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_彰基重點_q8",
@@ -296,7 +290,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:35:44.461Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "已根據原始試卷截圖更正：原始試卷將選項 (D) 標示為紅字正解。NLM 語意推論共識亦包含 D，狀態對齊為 MATCHED。"
+      "qcNotes": "已根據原始試卷截圖更正：原始試卷將選項 (D) 標示為紅字正解。NLM 語意推論共識亦包含 D，狀態對齊為 MATCHED。",
+      "attachedImages": null
     },
     {
       "id": "2025_彰基重點_q9",
@@ -345,7 +340,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:31:54.722Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 (D) 為正解。覆寫原舊腳本 Regex 誤標之 UNKNOWN。"
+      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 (D) 為正解。覆寫原舊腳本 Regex 誤標之 UNKNOWN。",
+      "attachedImages": null
     }
   ],
   "totalQuestions": 6

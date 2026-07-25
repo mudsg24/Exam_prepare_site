@@ -61,7 +61,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q2",
@@ -115,7 +116,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q3",
@@ -169,7 +171,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q4",
@@ -223,7 +226,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q5",
@@ -277,7 +281,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q6",
@@ -331,7 +336,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q7",
@@ -359,38 +365,39 @@
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "",
-      "reconciliationStatus": "INVALID_FRAGMENT",
-      "qcStatus": "QC_INVALID_QUESTION",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_UNVERIFIED",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (4-1)",
-          "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
+          "notebookTitle": "TSN：出題 (4-4)",
+          "notebookId": "78712976-1a6e-4442-9b22-859cfb66fa55",
           "accountProfile": "mudkaku",
-          "selectedOption": "C",
-          "rawResponse": "### 1. Answer Determination\n在給定的選項中，若必須做出單一選擇，正確答案最接近 **(C) Surreptitious use of a loop diuretic**（在停藥後的 **post-diuretic phase** 或 **remote diuretic use** 狀態下）。\n\n然而，從最嚴確的臨床生理學角度分析，該患者的電解質異常最精確且直接的病因，是其正在服用的處方藥物 **hydrochlorothiazide** 所引起的 **remote diuretic use**（即 **post-diuretic phase**，此時利尿劑作用已消退，或患者因肌肉無力抽筋而自行停藥數日）[1, 2]。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n*   **臨床與電解質特徵 (Clinical and Electrolyte Characterization)**：\n    患者呈現 **hypokalemia**（K 2.6 mEq/L）與 **metabolic alkalosis**（HCO3 32 mEq/L）[1]，並伴隨明顯的近端肢體無力（**proximal lower extremity weakness** 4/5 力量，此為嚴重缺鉀的典型神經肌肉表現）[3, 4]。同時，其 **urine K** 為 35 mEq/L（在 **hypokalemia** 狀態下，**urine K** $>15\\text{ mEq/L}$ 或 **UK/UCr** 升高代表存在 **renal potassium wasting**）[5, 6]。\n\n*   **尿氯測定在鑑別診斷中的決定性作用 (Decisive Role of Urine Chloride)**：\n    在評估 **hypokalemic metabolic alkalosis** 的病因時，**urine chloride** 的數值是區分病因的最關鍵指標 [1, 2]：\n    *   該患者的 **urine chloride** 極低，僅為 8 mEq/L（$< 10\\text{ mEq/L}$），這在生理學上將其歸類為 **chloride-responsive metabolic alkalosis** [1, 7]。\n    *   在 **active diuretic use**（利尿劑藥效活性期）中，由於 **diuretic** 抑制了腎小管對氯離子的重吸收，**urine chloride** 必定會顯著升高（通常 $>20\\text{ mEq/L}$）[1, 2]。\n    *   然而，當利尿劑被清除、藥效消退或患者停藥後（即 **remote diuretic use** 或 **post-diuretic phase**），先前利尿引起的 **extracellular fluid (ECF) volume contraction** 會強力活化 **renin-angiotensin-aldosterone system (RAAS)** [8-10]。此時腎臟為了挽救血容量，會最大化重吸收鈉與氯離子，使 **urine chloride** 驟降至 $< 10\\text{ mEq/L}$（如同此患者的 8 mEq/L）[1, 2]。此時，高水平的 **aldosterone** 持續作用於 **ASDN** 的 **ENaC** 介導鈉重吸收，並進一步驅動 **potassium wasting** 與 **H+ secretion**，從而維持了 **hypokalemia** 與 **metabolic alkalosis** [9-11]。\n\n*   **與選項 (C) 的生理學偶聯 (Physiological Link to Option C)**：\n    患者有服用 **hydrochlorothiazide** 25 mg daily 的處方病史 [12]。然而，若患者在此處方之外，還存在 **surreptitious use of a loop diuretic**（例如為了減重或消除水腫而秘密加用 **furosemide**），並在就診前 1-2 天因不適而停止使用（進入 **remote phase**），同樣會表現出這種低於 10 mEq/L 的 **urine chloride** 以及嚴重的腎臟丟鉀與鹼中毒 [1, 2]。因此，在排除了其他完全不符合生理特徵的選項後，**(C) Surreptitious use of a loop diuretic**（在停藥狀態下）是與此容量/氯離子變遷生理機制相符的選項。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) Gitelman's syndrome**：\n    *   *為何錯誤*：**Gitelman's syndrome** 是一種體染色體隱性遺傳的鹽流失性小管病變（**salt-wasting tubulopathy**），由於 *SLC12A3* 基因突變導致 **DCT** 上的 **NCC** 功能永久喪失 [9, 13]。雖然其臨床表現（低血鉀、鹼中毒、肌肉抽筋與無力）與長期服用 **thiazides** 幾乎完全相同 [14, 15]，但由於這是腎臟內在的基因缺陷，其腎小管**無法**在容量收縮時保留氯離子 [16, 17]。因此，**Gitelman's syndrome** 患者的 **urine chloride** 會**持續性偏高**（**persistently high**，遠大於 20 mEq/L）[2, 16]，絕對不可能降至 8 mEq/L [2, 16]。\n    *   *命題意圖*：**Gitelman's syndrome** 常被稱為「天然的 thiazide 效應」[13]。命題者以此作為強干擾項，旨在測試考生是否明白「基因缺陷造成的持續性管道流失（**urine Cl** 居高不下）」與「外源性利尿劑清除後的腎臟強力代償保留（**urine Cl** 降至極低）」兩者在尿氯反應上的本質區別 [16]。\n\n*   **(B) Intermittent diarrhea**：\n    *   *為何錯誤*：雖然 **diarrhea** 會導致 **hypokalemia** [18]，但腸道流失的液體中含有大量的 **bicarbonate** 及其有機酸根等潛在鹼 [18]。因此，**diarrhea** 在酸鹼平衡上的經典改變是 **non-anion gap metabolic acidosis**（或稱 **hyperchloremic metabolic acidosis**）[19]，而絕非該患者所呈現的 **metabolic alkalosis**（HCO3 32 mEq/L）[1]。此外，患者明確陳述其 **no change in bowel habits** [12]。\n    *   *命題意圖*：此選項代表了非腎臟途徑液體流失的酸鹼表現。命題者以此測試考生對於不同消化道流失途徑（胃液流失呈鹼中毒，腸液流失呈酸中毒）的定位診斷邏輯 [1, 7]。\n\n*   **(D) Cushing syndrome**：\n    *   *為何錯誤*：**Cushing syndrome** 由於皮質醇分泌過多（**cortisol excess**），會飽和 **11β-HSD2** 酶，導致過剩的皮質醇直接活化 **mineralocorticoid receptor**，引發 **functional hypermineralocorticoidism** [20, 21]。這會導致容量擴張（**volume expansion**）與 **hypertension** [22, 23]。在此狀態下，由於 **ECF volume** 擴張，腎臟會通過 **pressure natriuresis** 機制抑制近端與遠端的氯離子重吸收，導致 **urine chloride** **持續偏高**（$>20\\text{ mEq/L}$，屬於 **chloride-unresponsive metabolic alkalosis**） [2, 7]。這與該患者低至 8 mEq/L 的尿氯特徵完全相反 [1, 2]。\n    *   *命題意圖*：測試考生是否能區分「容量收縮/缺氯型鹼中毒（**chloride-responsive**，尿氯 $<10\\text{ mEq/L}$）」與「容量擴張/鹽皮質激素過剩型鹼中毒（**chloride-unresponsive**，尿氯 $>20\\text{ mEq/L}$）」在容量狀態與尿液排泄指標上的對立表現 [2, 7]。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在醫學專科考試中，**Hypokalemic metabolic alkalosis with low vs. high Urine Chloride** 是最經典、最高頻的鑑別診斷考點，對比如下：\n\n*   **Chloride-Responsive (UCl < 10-15 mEq/L) vs. Chloride-Unresponsive (UCl > 20 mEq/L)** [1, 7]：\n    *   **Low Urine Chloride (< 10-15 mEq/L)** [7]：\n        代表體內嚴重缺氯且 **EABV** 減少，腎臟正在極力保留氯 [1, 2]。常見病因包括：\n        1.  **Vomiting / Gastric aspiration**（胃液丟失大量的 HCl） [1, 2]。\n        2.  **Remote diuretic use**（利尿劑藥效消退後或停藥後的代償期） [1, 2]。\n        3.  **Congenital chloridorrhea** [7, 24]。\n        這類患者對生理食鹽水補充反應良好（**saline-responsive**） [1, 7]。\n    *   **High Urine Chloride (> 20 mEq/L)** [7]：\n        代表腎臟無法保留氯，或者體內容量擴張 [2, 16]。常見病因包括：\n        1.  **Active diuretic use**（利尿劑正在發揮藥效期間） [1, 2]。\n        2.  **Bartter's syndrome**（**TAL** 上的 **NKCC2** 基因缺陷）與 **Gitelman's syndrome**（**DCT** 上的 **NCC** 基因缺陷） [9, 25, 26]。\n        3.  **Primary mineralocorticoid excess**（如 **primary aldosteronism**, **Cushing's syndrome**, **Liddle's syndrome**） [2, 9]。\n        這類患者對生理食鹽水反應極差（**saline-unresponsive**） [1, 7]。\n\n*   **Diuretics (Active vs. Remote/Post-diuretic phase)** [1, 2]：\n    *   這是臨床上最容易誤診的陷阱 [10, 27]。當患者在**活性期**採尿，**UCl** 必定 $>20\\text{ mEq/L}$ [1, 2]；若在**停藥期/消退期**採尿，由於容量收縮，**UCl** 會降至 $<10\\text{ mEq/L}$ [1, 2]。臨床上看見低尿氯時，必須詳細詢問近期是否服用或停用了 **diuretics** [10, 27]。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney, Chapter 16: Disorders of Acid-Base Balance*\n        *   Section: \"METABOLIC ALKALOSIS\" -> Subsections: \"Pathophysiology and Classification\" 及 \"Clinical Approach and Differential Diagnosis\" [7, 25]。\n        *   *Table 16.18*: \"Diagnosis of Metabolic Alkalosis\" [7]。\n    *   *Brenner & Rector's The Kidney, Chapter 24: Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine*\n        *   Section: \"RENAL EXCRETION OF POTASSIUM\" -> Subsection: \"Hypokalemia, metabolic alkalosis, and high renal excretion of K+\" [10, 11]。\n        *   Section: \"METABOLIC ALKALOSIS\" -> Subsection: \"Urine Chloride as a Diagnostic Tool\" [1, 2]。\n        *   *Table 24.3*: \"Urine Electrolyte Values in a Patient With a Contracted Effective Arterial Blood Volume\" [1]。\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 16.10**： \"Diagnostic algorithm for metabolic alkalosis, based on the spot urine Cl- and K+ concentrations\" [28, 29]。\n    *   **Flow Chart 24.9**：\"Hypokalemia, metabolic alkalosis, and high renal excretion of K+\"（展示當 EABV/BP 為 Low/Normal 且 Urine Cl 為 Low 時，鑑別診斷指向 Vomiting 或 **Remote diuretics**） [2]。\n    *   **Flow Chart 24.13**： 關於慢性低血鈉與鹼中毒的決策路徑 [30]。",
+          "selectedOption": "B",
+          "rawResponse": "### 1. Answer Determination\n\n本題的正解為 **Option (B) Intermittent diarrhea**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n本病患是一位 69 歲女性，臨床表現為 3 天的 **muscle cramping**、**weakness** 與 **fatigue**，且伴隨 **difficulty walking up stairs**（高度提示因 **severe hypokalemia** 引起之 **proximal muscle weakness**）。\n其 **arterial/venous blood chemistry** 生化特徵如下：\n*   **Serum potassium** ($K$) 為 2.6 mEq/L：呈現 **severe hypokalemia**。\n*   **Serum bicarbonate** ($HCO_3$) 為 32 mEq/L：呈現 **metabolic alkalosis**。\n*   **Serum chloride** ($Cl$) 為 96 mEq/L。\n*   **Urine potassium** ($U_K$) 為 35 mEq/L：在血清鉀如此低下的情況下，尿鉀排泄量依然 $> 20\\text{ mEq/L}$，代表存在持續性的 **renal potassium wasting**。\n*   **Urine chloride** ($U_{Cl}$) 為 8 mEq/L：數值極低（$< 10\\text{ to } 15\\text{ mEq/L}$），明確將此診斷分類為 **chloride-responsive metabolic alkalosis**（亦稱 **saline-responsive metabolic alkalosis**）。\n\n#### 臨床病理與生理學機轉（祕密性大腸病變如 villous adenoma 引起之 intermittent diarrhea）：\n1.  **腹瀉液中的電解質流失與體積收縮 (Secretory Loss and Volume Contraction)**：\n    *   在特定的 **secretory colonic processes**（最經典者為大腸的 **villous adenoma**）中，腫瘤上皮細胞會主動且大量地分泌富含 **potassium** 與 **chloride** 的黏液。\n    *   雖然患者主訴無明顯腹瀉症狀或症狀呈間歇性（**intermittent diarrhea**），但此種隱匿性或間歇性的消化道液體流失已造成嚴重的 **extracellular fluid volume contraction**（**EABV contraction**）與全身性 **chloride deficit**。\n2.  **腎臟對體積收縮與氯離子缺乏的代償 (Renal Compensation to Volume and Chloride Depletion)**：\n    *   當 **EABV** 顯著下降時，健全的腎臟會發揮最大程度的保鈉與保氯機制，透過近端小管（**proximal tubule**）與遠端腎單位極其 avid 地重吸收 **sodium chloride** ($NaCl$)。\n    *   這直接對應了患者極低的尿氯濃度（**Urine Cl = 8 mEq/L**），證實腎臟的保氯反應完全正常且處於最大代償狀態，屬於典型的 **chloride-responsive state**。\n3.  **繼發性副甲狀腺/醛固酮活化與腎臟排鉀 (Secondary Aldosterone Activation and Renal Potassium Wasting)**：\n    *   雖然最初的 **potassium** 流失源自胃腸道，但 **EABV contraction** 會強烈激活 **renin-angiotensin-aldosterone system (RAAS)**。\n    *   高濃度的 **aldosterone** 會作用於 **cortical collecting duct (CCD)** 的 **principal cells**，大幅增加管腔膜（**luminal membrane**）上 **epithelial sodium channel (ENaC)** 的數量與活性，促進鈉的主動重吸收。\n    *   此一電位性的鈉重吸收會增加管腔內的負電性，進而強烈驅動 **potassium** 經由 **ROMK channels** 被電性分泌至管腔中，造成顯著的 **renal potassium wasting**（**Urine K = 35 mEq/L**）。這會進一步加重並維持其 **severe hypokalemia**。\n4.  **維持代謝性鹼中毒 (Maintenance of Metabolic Alkalosis)**：\n    *   **EABV contraction**、**chloride depletion** 限制了小管液中陰離子的可得性，使得集合管無法正常透過 **pendrin (Cl-/HCO3- exchanger)** 進行 **bicarbonate secretion**；同時 **hypokalemia** 亦會刺激近端小管的 **ammoniagenesis**（氨生成）與 H+-ATPase 的排酸，使得 **metabolic alkalosis** 狀態得以持續維持。\n\n因此，結合低尿氯、高尿鉀、低血鉀與鹼中毒，**Option (B) Intermittent diarrhea** 是最契合該病患所有生化指標與病理生理機制的診斷。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **Option (A) Gitelman's syndrome（錯誤描述）**：\n    *   *為什麼錯誤*：**Gitelman's syndrome** 是由於 **SLC12A3 gene** 突變導致遠曲小管（**distal convoluted tubule, DCT**）上的 **thiazide-sensitive NaCl cotransporter (NCC)** 發生功能喪失型病變。雖然它也會呈現 **hypokalemia**, **metabolic alkalosis** 與 **renal potassium wasting**，但因其病變位於腎臟本身，其特徵是**持續性的腎臟鹽分流失（persistent renal salt wasting）**。因此，患者的 **urine chloride** 必然會**持續性升高（persistently high, Urine Cl > 15–20 mEq/L）**。本例病患的 **Urine Cl** 僅為 8 mEq/L，直接排除了此診斷。此外，**Gitelman's syndrome** 典型於青少年或年輕成年期即被診斷，極少在 69 歲高齡才新發呈現。\n    *   *出題意圖*：此選項利用其與 thiazide 藥效完全相同的生理表型（患者有使用 HCTZ 史）來進行高難度干擾，旨在測試考生是否能利用 **urine chloride** 的動態特性（**persistently high** vs. **low/intermittently high**）來精確區分遺傳性小管病變與獲得性體積收縮狀態。\n\n*   **Option (C) Surreptitious use of a loop diuretic（錯誤描述）**：\n    *   *為什麼錯誤*：在主動或近期服用 **loop diuretics**（如 **furosemide**）期間，由於抑制了粗上升支（**thick ascending limb, TAL**）的 **NKCC2** 轉運體，尿液中的鈉與氯排泄會大幅增加，其 **urine chloride** 會**顯著升高（Urine Cl > 20 mEq/L）**。只有在完全停藥且藥效耗盡後（**remote diuretic use**），**urine chloride** 才會因反彈性體積補償而降低。此外，該病患已經有明確的 **hydrochlorothiazide (HCTZ)** 處方，其臨床生化異常已可被既有的藥物完全解釋，並無任何臨床線索或動機需要懷疑 surreptitious（暗中偷服）另一種 loop diuretic。\n    *   *出題意圖*：測試考生對 **diuretics** 在不同給藥時間點（**recent use** vs. **remote use**）對尿液電解質排泄曲線產生的動態生理學影響之理解。\n\n*   **Option (D) Cushing syndrome（錯誤描述）**：\n    *   *為什麼錯誤*：**Cushing syndrome** 由於糖皮質激素（**glucocorticoids**）過度分泌，活化了 **mineralocorticoid receptors**，會導致 **volume expansion**（體積擴張）與 **hypertension**（高血壓）。這類患者在病理生理上屬於 **chloride-unresponsive metabolic alkalosis**，由於體內並無 **EABV contraction**，其腎臟並不會 avid 地重吸收氯，因此其 **urine chloride 必然是升高的（Urine Cl > 20 mEq/L）**。本例病患血壓正常（128/76 mmHg）且 **Urine Cl** 極低，完全不符合 **Cushing syndrome** 的特徵。\n    *   *出題意圖*：利用同樣可引發 **hypokalemic metabolic alkalosis** 的內分泌風暴進行干擾，測試考生是否能利用血壓（**hypertension**）與尿氯（**Urine Cl**）將 **chloride-responsive (volume-depleted)** 與 **chloride-unresponsive (volume-expanded)** 兩大病理分類進行決定性的切分。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科與內科醫學考試中，關於 **Hypokalemic Metabolic Alkalosis** 的鑑別診斷是難度最高、且必考的黃金考點：\n\n#### 1. Chloride-Responsive (UCl < 10 mEq/L) vs. Chloride-Unresponsive (UCl > 20 mEq/L)\n這是臨床與考場上的第一分水嶺：\n*   **Chloride-Responsive (Volume-Depleted / Contracted EABV)**：\n    *   *Mechanism*：機體丟失了大量的 $Cl^-$ 與水，腎臟處於極度缺氯與缺水狀態。\n    *   *Diseases*：**Vomiting (remote)**, **Diuretic use (remote)**, **Secretory diarrhea (e.g., villous adenoma)**, **Congenital chloridorrhea**。\n    *   *Therapy*：給予 **isotonic saline (NaCl)** 補足體積與氯離子後，鹼中毒即可迅速糾正。\n*   **Chloride-Unresponsive (Volume-Expanded / Normal or High EABV)**：\n    *   *Mechanism*：原發性鹽皮質激素效應過強，機體處於體積擴張與高血壓狀態，腎臟無缺氯表現。\n    *   *Diseases*：**Primary aldosteronism**, **Cushing syndrome**, **Liddle's syndrome**, **Licorice ingestion**。\n    *   *Therapy*：給予 **saline** 無法糾正，必須針對原發病或使用 **ENaC inhibitors (amiloride)** / **MR antagonists** 治療。\n\n#### 2. Secretory Diarrhea/Villous Adenoma vs. Surreptitious Vomiting\n兩者皆會呈現 **EABV contraction**, **hypokalemia**, **metabolic alkalosis**, 且 **Urine Cl- 均可以低於 10 mEq/L**：\n*   **關鍵鑑別指標 (Urine pH & Urine Na+)**：\n    *   **Surreptitious Vomiting (嘔吐)**：在嘔吐活動期，由於胃酸 ($HCl$) 大量丟失，碳酸氫根在小管液中超過了重吸收極限（**exceeded bicarbonate reabsorption capacity**），大量 $HCO_3^-$ 進入尿液。為了維持電中性，尿液中會伴隨排出大量的 $Na^+$ 與 $K^+$。因此，其 **urine pH 典型呈鹼性 (>7.0)**，且 **Urine Na+ 是升高的**，只有 **Urine Cl- 保持極低**。\n    *   **Secretory Diarrhea (腹瀉/腸道流失)**：腸道直接流失富含 $K^+$ 與 $Cl^-$ 的鹼性黏液，腎臟無額外排 $HCO_3^-$ 負擔。其 **urine pH 通常呈酸性 (<6.0)**，且腎臟會全力保留鈉與氯，因此 **Urine Na+ 與 Urine Cl- 兩者皆會呈極低狀態 (<10 mEq/L)**。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, Chapter 16: **Disorders of Acid-Base Balance**, under the section headers **METABOLIC ALKALOSIS - Saline-Responsive Alkalosis** (specifically discussing gastric loss, remote diuretic use, and **villous adenoma**), and **Table 16.18 Diagnosis of Metabolic Alkalosis**.\n    *   *Brenner & Rector's The Kidney*, Chapter 17: **Disorders of Potassium Balance**, under the section headers **CLINICAL APPROACH TO HYPOKALEMIA**, **Urinary Indices of Potassium Excretion**, and **Figure 17.11 The clinical approach to hypokalemia** (showing the detailed flowchart with $U_{Cl} < 20\\text{ mmol/L}$ vs. $> 20\\text{ mmol/L}$ and $U_K$ excretion thresholds).\n    *   *Brenner & Rector's The Kidney*, Chapter 24: **Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine**, under **Table 24.3 Urine Electrolyte Values in a Patient With a Contracted Effective Arterial Blood Volume**, and **Flow Chart 24.9**.\n\n*   **Figures, Tables, & Boxes**：\n    *   *B&R Chapter 16*, **Figure 16.10** (titled **Diagnostic algorithm for metabolic alkalosis, based on the spot urine Cl− and K+ concentrations**)：該圖清晰展示了當 $U_{Cl} < 20\\text{ mEq/L}$ 且 $U_K > 30\\text{ mEq/d}$ 時，在排除 vomiting、diuretics 等病因後，指向 **villous adenoma** 的診斷路徑。\n    *   *B&R Chapter 24*, **Table 24.3**：明確對比了 vomiting、diuretics 與 diarrhea / laxative abuse 在 recent 與 remote 狀態下的尿液 $Na^+$ 與 $Cl^-$ 排泄特徵。\n    *   *B&R Chapter 24*, **Flow Chart 24.9** (titled **Hypokalemia, metabolic alkalosis, and high renal excretion of K**)：定義了利用血壓、EABV、Urine Cl 以及 RAAS 軸線評估低血鉀鹼中毒的標準診斷邏輯。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (5-5)",
-          "notebookId": "9e85f4f8-356e-451b-ba72-d776b13807ea",
-          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-3)",
+          "notebookId": "a1812188-f954-462f-aebd-2dba1b420f49",
+          "accountProfile": "mudkaku",
           "selectedOption": "NONE",
-          "rawResponse": "## Question 152: Diuretic Non-compliance\n\nA 69-year-old woman is evaluated for 3 days of muscle cramping, weakness, and fatigue. She reports difficulty walking up stairs. She reports no fever, chills, nausea, or vomiting, and no change in bowel habits. Medical history is notable for hypertension treated with hydrochlorothiazide 25 mg daily. On physical examination, blood pressure is 128/76 mmHg, heart rate is 78/min. Cardiopulmonary exam is normal. Neurological examination shows 4/5 motor strength in proximal lower extremities. Lab studies: Na 138 mEq/L, K 2.6 mEq/L, Cl 96 mEq/L, HCO3 32 mEq/L, BUN 18 mg/dL, Cr 0.9 mg/dL. Urine K 35 mEq/L, Urine Cl 8 mEq/L. Which one is the MOST LIKELY explanation of this patient's electrolyte abnormalities?\n\nA. Gitelman's syndrome\n\nB. Intermittent diarrhea\n\nC. Surreptitious use of a loop diuretic\n\nD. Cushing syndrome\n\n\n**Correct Answer**: Non-compliance with hydrochlorothiazide (Remote diuretic use)\n\n\n**Explanation**:\n\n本患者臨床上表現為 *hypokalemia*（K 2.6 mEq/L）與 *metabolic alkalosis*（HCO3 32 mEq/L），並伴隨 *proximal lower extremity weakness*。其 *Urine K* 為 35 mEq/L（>20 mEq/L），證實電解質流失是由於 *renal potassium wasting* 所致。然而，其 *Urine Cl* 僅有 8 mEq/L（<10 mEq/L），這在臨床上屬於 *chloride-responsive metabolic alkalosis*，代表患者此時處於 *effective arterial blood volume (EABV)* 顯著收縮的狀態，且腎臟正積極保留並重吸收 *chloride*。\n\n根據 *Brenner & Rector's The Kidney* 的生理機制，患者平時處方服用 *hydrochlorothiazide* 25 mg daily。\n*   若患者**規律且持續服用**此藥物，*hydrochlorothiazide* 作為一種 *thiazide diuretic*，會阻斷 *distal convoluted tubule* 上的 *thiazide-sensitive sodium-chloride cotransporter (NCC)*，使其無法重吸收 *chloride*，這必然會導致尿液中排出大量的 *chloride*，其 *Urine Cl* 通常會顯著升高（>20 mEq/L）。\n*   然而，本患者目前的 *Urine Cl* 極低（8 mEq/L），這在生理學上代表患者此時**體內並無活性的藥物效應**。這只有在患者**自行停藥**（*non-compliance*）或處於停藥後的代償期（稱為 *postdiuretic phase* 或 *remote diuretic use*）時才會發生。在停藥後，為了代償先前的 *renal salt wasting*，腎小管會代償性地極度增加 *sodium* 與 *chloride* 的重吸收，造成 *low urinary Cl-*。由於患者否認有 *vomiting*，因此其最主要的診斷與病因即是 **non-compliance**（藥物順從性差，即 *remote diuretic use*）。\n\n在題目所提供的四個選項中，無一能完全正確描述此 *non-compliance / remote diuretic use* 生理狀態：\n\n*   **(A) Gitelman's syndrome** 是錯誤的，因為它是 *NCC* 的基因發生 *loss-of-function mutation*，相當於體內存在持續的 *thiazide* 效應。其 *Urine Cl* 會**持續升高**（*persistently high*, >20 mEq/L），而非降低。\n*   **(B) Intermittent diarrhea** 是錯誤的，因為腸道流失 *bicarbonate* 通常會引發 *non-anion gap (hyperchloremic) metabolic acidosis*，而非 *metabolic alkalosis*，且患者無此病史。\n*   **(C) Surreptitious use of a loop diuretic** 是錯誤的，因為活性期會導致 *high Urine Cl*。雖然在代謝後的 *remote phase* 會降低，但患者本身已處方 *hydrochlorothiazide*，臨床上首要考慮的是對現有處方藥物的 *non-compliance*。\n*   **(D) Cushing syndrome** 是錯誤的，因為它屬於 *chloride-resistant* 類型，通常伴隨 *hypertension*、*volume expansion* 與 *high Urine Cl*（>20 mEq/L）。\n\n***\n\n### Distractor Option Analysis (誘答選項分析)\n\n*   **Option A: Gitelman's syndrome**:\n    *Why incorrect*：*Gitelman's syndrome* 是由於 *SLC12A3* 基因突變導致 *NCC* 功能永久性喪失，其臨床表現（*hypokalemia*, *metabolic alkalosis*, *hypomagnesemia*, *hypocalciuria*）雖然與使用 *thiazide* 極其相似，但其最大區別在於其腎臟鹽分流失是持續性的。因此其 *Urine Cl* 會**持續高於** 20 mEq/L。本例患者的 *Urine Cl* 僅有 8 mEq/L，可直接排除此診斷。\n    *Unique features*：常在中青年時期發病，典型伴隨 *hypomagnesemia* 與 *hypocalciuria*。\n    *Author's intent*：測試考生是否混淆了遺傳性 *salt-wasting tubulopathies* 的「持續高尿氯」特徵與暫時性「遠期利尿劑停藥」後的生理代償反應。\n\n*   **Option B: Intermittent diarrhea**:\n    *Why incorrect*：*diarrhea* 會導致腸道大量流失鹼性液體（*bicarbonate*），這在臨床上會引發 *hyperchloremic metabolic acidosis*，其 *plasma HCO3* 應顯著降低，而本例患者為 32 mEq/L（*metabolic alkalosis*）。且患者明確否認有腹瀉等排便習慣改變。\n    *Unique features*：常伴隨 *hypokalemia* 與 *acidosis*，在少數罕見腸道病變（如 *congenital chloridorrhea*）中可見 *alkalosis*，但臨床表現與本例完全不符。\n    *Author's intent*：評估考生是否能透過酸鹼數值（*acidosis* vs. *alkalosis*）區分出消化道流失與腎臟流失。\n\n*   **Option C: Surreptitious use of a loop diuretic**:\n    *Why incorrect*：*loop diuretics* 會作用於 *thick ascending limb of Henle* 的 *NKCC2*。在藥物作用的活性期，其 *Urine Cl* 同樣會顯著升高。即使在停藥後的代謝期（*remote phase*）會出現 *low Urine Cl*，但患者本身已有高血壓且處方了 *hydrochlorothiazide*，因此最合理的臨床判斷是其對現有藥物的 **non-compliance**，而非偷偷去服用未處方的 *loop diuretic*。\n    *Unique features*：長期濫用 *loop diuretics* 典型可導致 *hypercalciuria* 與 *medullary nephrocalcinosis*。\n    *Author's intent*：測試考生是否明白當患者已處方 *thiazide* 時，*low Urine Cl* 代表的是現有藥物的「不依從（停藥）」生理狀態，並考驗考生臨床合理推論能力。\n\n*   **Option D: Cushing syndrome**:\n    *Why incorrect*：*Cushing syndrome* 由於過量的 *cortisol* 活化了腎臟的 *mineralocorticoid receptor*，會引發 *hypokalemic metabolic alkalosis*。然而，這種狀態是 *saline-unresponsive*（*chloride-resistant*）的，患者通常會有顯著的 *hypertension* 與 *volume expansion*，且其 *Urine Cl* 會持續高於 20 mEq/L。本例患者血壓偏低且 *Urine Cl* 極低，與其完全不符。\n    *Unique features*：典型具有 *centripetal obesity*、*moon face*、*resistant hypertension*。\n    *Author's intent*：測試考生能否利用 *Urine Cl* 的高低將 *metabolic alkalosis* 分類為 *chloride-responsive*（低尿氯）與 *chloride-unresponsive*（高尿氯）。\n\n***\n\n### Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與鑑別診斷比較)\n\n在專科醫師與資格考試中，*metabolic alkalosis* 的病因鑑別是最經典的考點，核心對比如下：\n\n1.  **Chloride-Responsive (Urine Cl < 10 mEq/L) vs. Chloride-Unresponsive (Urine Cl > 20 mEq/L)**:\n    *   *Chloride-Responsive*：代表患者體內 *EABV* 收縮，腎臟正極力重吸收 *chloride*（伴隨 *saline responsiveness*）。最常見病因為 *vomiting*、*nasogastric suction*、以及 **remote/prior diuretic use**（如本例患者自行停藥）。給予生理食鹽水後可快速糾正。\n    *   *Chloride-Unresponsive*：代表患者體內 *EABV* 擴張或存在原發性鹽皮質激素過多，腎臟不需保留 *chloride*。常見病因為 *primary aldosteronism*、*Cushing syndrome*、*Liddle syndrome*、以及 **active diuretic use**。\n2.  **Active Diuretic Use vs. Remote Diuretic Use (Non-compliance)**:\n    *   *Active Diuretic Use*：患者體內有利尿劑活性，阻斷了腎小管的 *sodium and chloride reabsorption*，表現為 **high Urine Cl (>20 mEq/L)**。\n    *   *Remote Diuretic Use (Non-compliance)*：利尿劑已被清除，但患者體內因之前的利尿效果仍處於 *volume contraction* 狀態，腎臟啟動強烈的補償性重吸收，表現為 **low Urine Cl (<10 mEq/L)**。這在臨床上常是診斷患者是否規律服藥的黃金指標。\n\n***\n\n### Citations & References (文獻引用)\n\n*   **B&R The Kidney, Chapter 24**: \"Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine\"\n    *   Section: \"Renal Excretion of Potassium\"\n    *   Section: \"Determining the Nephron Site Where There Is a Defect in Reabsorption of Sodium\"\n    *   Section: \"Low Rate of Excretion of Sodium and Chloride\"\n    *   **Table 24.3**: \"Urine Electrolyte Values in a Patient With a Contracted Effective Arterial Blood Volume\"\n    *   **Flow Chart 24.9**: \"Diagnostic algorithm for metabolic alkalosis, based on the spot urine Cl− and K+ concentrations\"\n    *   **Flow Chart 24.13**: \"Diagnostic approach for metabolic alkalosis\"\n*   **B&R The Kidney, Chapter 16**: \"Disorders of Acid-Base Balance\"\n    *   Section: \"Metabolic Alkalosis\" -> \"Diagnosis of Metabolic Alkalosis\"\n    *   **Table 16.18**: \"Diagnosis of Metabolic Alkalosis\"",
+          "rawResponse": "",
           "citations": [],
           "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT_DATABASE_EVIDENCE",
-          "error": null
+          "databaseSufficiency": "INSUFFICIENT",
+          "error": "chat.ask network error after retries: peer closed connection without sending complete message body (incomplete chunked read)"
         }
       ],
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。",
-      "qcVerified": true,
+      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 最新提問結果完全一致。",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-24T18:30:15.606Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "1. 原始檔比對：經過查閱 `/Users/yuan/Projects/Exam/Exam_prepare_database/Processed/TSN 歷年交換題/2026 年交換題/2026北醫-練習題/hybrid_ocr/2026北醫-練習題.md`，發現 JSON 中的題幹被嚴重幻覺/錯置。原題幹為「...BP is 99/57 mmHg... sodium 123 mEq/L...」，完全不符合 JSON 中的「hydrochlorothiazide 25 mg daily... Na 138 mEq/L...」。因題幹已完全錯誤失真，故標註 isInvalidQuestion: true。\n2. NLM 語意驗證：泥谷 (4-1) 回答 (C)；Kuo (5-5) 明確指出四個選項皆錯，故回答 NONE。結果維持 DISPUTED_NLM_VS_NLM。",
-      "isInvalid": true
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "isInvalid": true,
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q8",
@@ -445,32 +452,7 @@
         }
       ],
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2026北醫-練習題_q8_1",
-          "fileName": "4e111ed51c3d0c2fc0ee073bb2322e786448af52eb7bfa3452301dc248dc711d.jpg",
-          "relPath": "/exam-images/2026北醫-練習題/4e111ed51c3d0c2fc0ee073bb2322e786448af52eb7bfa3452301dc248dc711d.jpg",
-          "caption": "選項 (A)"
-        },
-        {
-          "id": "img_2026北醫-練習題_q8_2",
-          "fileName": "5856edc16cb9a73d5c026726be11659da7861a0a6e4482bb955ffe3ef98feee0.jpg",
-          "relPath": "/exam-images/2026北醫-練習題/5856edc16cb9a73d5c026726be11659da7861a0a6e4482bb955ffe3ef98feee0.jpg",
-          "caption": "選項 (B)"
-        },
-        {
-          "id": "img_2026北醫-練習題_q8_3",
-          "fileName": "804fb880146507d88547ee7fce9869315ad4f43fc08c40369ddcc85ec03727a9.jpg",
-          "relPath": "/exam-images/2026北醫-練習題/804fb880146507d88547ee7fce9869315ad4f43fc08c40369ddcc85ec03727a9.jpg",
-          "caption": "選項 (C)"
-        },
-        {
-          "id": "img_2026北醫-練習題_q8_4",
-          "fileName": "ff85a2f6ba9a1ffd29461a828ca3f6d501aac4a2227e42c71b90de6b5d823da2.jpg",
-          "relPath": "/exam-images/2026北醫-練習題/ff85a2f6ba9a1ffd29461a828ca3f6d501aac4a2227e42c71b90de6b5d823da2.jpg",
-          "caption": "選項 (D)"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2026北醫-練習題_q9",
@@ -524,7 +506,8 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     }
   ]
 }

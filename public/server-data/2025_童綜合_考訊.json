@@ -61,7 +61,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q2",
@@ -116,7 +117,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q3",
@@ -171,7 +173,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q4",
@@ -226,7 +229,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q5",
@@ -281,7 +285,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q6",
@@ -336,7 +341,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q7",
@@ -391,7 +397,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q8",
@@ -445,7 +452,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:30:52.081Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案答案為 (C)，NotebookLM 多數推論為 (C)，與原始答案一致。已確認題幹與選項無殘片瑕疵。已修正 Stage 1 因中英句型誤判的 UNKNOWN 為 C。"
+      "qcNotes": "原始檔案答案為 (C)，NotebookLM 多數推論為 (C)，與原始答案一致。已確認題幹與選項無殘片瑕疵。已修正 Stage 1 因中英句型誤判的 UNKNOWN 為 C。",
+      "attachedImages": null
     },
     {
       "id": "2025_童綜合_考訊_q9",
@@ -475,27 +483,35 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (1-2)",
-          "databaseSufficiency": "SUFFICIENT",
-          "rawResponse": "### **1. Answer Determination**\n本題的正解為 **Option B (Chloramine gas)**。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正解選項病理生理學分析)**\n\n*   **`chloramine gas` 的化學形成與氣味特徵**：\n    `chloramine gas`（包括 `monochloramine` [$\\text{NH}_2\\text{Cl}$]、`dichloramine` [$\\text{NHCl}_2$] 和 `trichloramine` [$\\text{NCl}_3$]）是極具揮發性與刺激性的含氮氣體。在日常生活或特定工作環境中，當含有 `sodium hypochlorite` 的氯系漂白水與含有 `ammonia` 的清潔劑意外混合時，便會迅速反應並釋放出高濃度的 `chloramine gas`。\n    由於其化學組成中含有氮（`nitrogen`），`chloramine gas` 散發著極其濃烈且具有高度辨識度的 **`ammonia-like odor`（類似氨氣的刺鼻氣味）**。在 `hot environment` 中（如通風不良、高溫的健身房或游泳池等），化學反應與氣體的揮發速率會顯著加快，使得人體在短時間內（如 30 分鐘）便會吸入致病劑量的毒性氣體。\n\n*   **`methemoglobinemia` 的病理生理學機制**：\n    *   **氧化應激（Oxidant Stress）**：`chloramine` 進入肺部後，會迅速跨越 `alveolar-capillary membrane` 進入血液循環。由於 `chloramine` 具有強烈的氧化性（`oxidizing properties`），它會攻擊 `erythrocytes` 中的 `hemoglobin`。\n    *   **鐵離子價態轉換**：它會將 `heme` 輔基中生理狀態下的二價 **`ferrous iron (Fe2+)`** 氧化為三價的 **`ferric iron (Fe3+)`**，從而將正常具有攜氧能力的 `hemoglobin` 轉化為無法攜帶氧氣的 **`methemoglobin`**。\n    *   **氧解離曲線左移（Left-shift of Oxygen-Dissociation Curve）**：`methemoglobin` 的存在還會異常增加剩餘 `ferrous iron` 對氧氣的親和力，導致 `oxygen-dissociation curve` 顯著左移，進一步阻礙氧氣在 `peripheral tissues` 的釋放，引發嚴重的組織缺氧。\n\n*   **臨床表現與輔助檢查的關聯性**：\n    *   **症狀學**：在 `methemoglobin` 濃度達到 **$10\\%$ 至 $20\\%$**（本例患者為 $15\\%$）時，患者會開始表現出組織缺氧的早期臨床症狀，包括 **`cyanosis`**、**`nausea`**、**`dizziness`** 以及因代償性通氣過度引起的 **`mild dyspnea`**。\n    *   **CXR 表現**：`chloramine gas` 具有中等的水溶性。在急性、非極高濃度的吸入暴露早期，其化學刺激主要引發全身性的 `hemoglobin` 氧化損害（即 $15\\%$ 的 `methemoglobin` 蓄積），而此時尚未進展到引發廣泛肺泡上皮滲出或嚴重 `pulmonary edema` 的階段。因此，**`CXR` 顯示為 `no active lung lesion`（無活動性肺部病變）**，這高度符合急性、輕中度 `chloramine gas` 毒性吸入的臨床演變特徵。\n    *   在腎臟醫學中，`chloramine` 也是一個經典的毒性物質（如 **Brenner & Rector's The Kidney, Chapter 63** 所示 [1]），若 `tap water` 中的 `chloramine` 未被透析系統妥善清除，將直接透過 `dialysate` 誘發維持性透析患者發生 **`methemoglobinemia` 與急性 `hemolysis`**。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項分析)**\n\n*   **Option A (Carbon monoxide) 錯誤原因**：\n    *   **物理與生理特徵不符**：`carbon monoxide (CO)` 是一種完全 **`colorless, odorless, and tasteless gas`（無色、無味、無刺激性氣體）**，因此患者不可能在暴露時聞到任何類似 `ammonia` 的刺激性氣味。\n    *   **血紅素結合物矛盾**：`carbon monoxide` 吸入人體後會與 `hemoglobin` 結合形成的是 **`carboxyhemoglobin (COHb)`**，其親和力高於氧氣 200 倍，但其並不會改變鐵離子的氧化價態，因而**不會產生 `methemoglobin`**。\n    *   **出題意圖**：測試考生是否會將「最常見的火災/室內吸入性中毒（`CO poisoning`）」與「會引發 `methemoglobinemia` 的特定刺激性化學氣體中毒」在氣味特徵與血紅素結合物上產生概念混淆。\n\n*   **Option C (Cyanide) 錯誤原因**：\n    *   **物理氣味不符**：`cyanide`（氰化物）通常具有特徵性的 **`bitter almond-like odor`（苦杏仁味）**（雖然人群中約有 $20\\% - 40\\%$ 的人因基因缺陷無法聞到此氣味），這與 `ammonia` 氣味有本質差異。\n    *   **病理學機制對立**：`cyanide` 的核心毒性是抑制線粒體電子傳遞鏈中的 **`cytochrome c oxidase (complex IV)`**，阻斷細胞對氧氣的利用，引起致命性的 `cellular asphyxiation` 與嚴重的 `lactic acidosis`。它本身**不會導致 `methemoglobin` 升高**（在臨床救治上，反而會給予 `sodium nitrite` 以主動誘導 `methemoglobin` 產生，利用其與 `cyanide` 的高親和力來螯合毒素）。\n    *   **出題意圖**：測試考生是否能區分「細胞窒息性毒物（`cyanide`）」與「直接血紅素氧化劑（`chloramine`）」在發病機制上的根本對立。\n\n*   **Option D (Nitrous oxide) 錯誤原因**：\n    *   **物理氣味不符**：`nitrous oxide`（一氧化二氮 / 俗稱笑氣，$\\text{N}_2\\text{O}$）是一種無色、**`sweet-smelling gas`（帶有甜味的氣體）**，在臨床上常用於 `general anesthesia` 的誘導或吸入性鎮痛，絕無 `ammonia` 的刺鼻味。\n    *   **無氧化效能**：`nitrous oxide` 吸入後主要通過影響中樞神經系統的受體發揮麻醉效應，在生理濃度下**不具備氧化 `hemoglobin` 鐵離子的活性**，不會引起 `methemoglobinemia`。\n    *   **出題意圖**：引誘那些對「氮氧化物（如會引起高高鐵血紅素血症的 `nitric oxide [NO]` 或 `nitrogen dioxide [NO2]`）」與「一氧化二氮（`nitrous oxide`）」在化學命名與生理活性上區分不清的考生落入陷阱。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試鑑別診斷)**\n\n在醫學專科與急重症醫學考試中，以下三種引發全身性缺氧的致命性吸入/中毒性疾病，是最常被放在同一個臨床場景中進行鑑別診斷的考點：\n\n| 鑑別維度 | **Acquired Methemoglobinemia** | **Carbon Monoxide Poisoning** | **Cyanide Poisoning** |\n| :--- | :--- | :--- | :--- |\n| **常見誘發因子** | **`chloramine gas`**、`nitrites/nitrates`、`dapsone`、`benzocaine/prilocaine` | 火災煙霧、通風不良的室內燒炭、熱水器燃燒不完全 | 火災煙霧（燃燒聚氨酯/塑料）、工業暴露、`sodium nitroprusside` 長期灌注 |\n| **特徵性氣味** | **`ammonia-like odor`** (若為 `chloramine` 引起) | **`completely odorless`** | **`bitter almond-like odor`** |\n| **動脈血氣分析 (ABG) 與 Oximetry 特徵** | **`normal PaO2`** 伴隨 **`falsely low SpO2`（通常在約 85% 達到飽和度平台）**，存在 `saturation gap` | **`normal PaO2`** 與 **`falsely normal SpO2`（常規脈搏血氧儀無法區分 COHb 與 O2Hb）** | **`normal PaO2 and SpO2`** 伴隨極其嚴重的 **`lactic acidosis`**（通常 $>10 \\text{ mmol/L}$） |\n| **血液視覺外觀** | 呈特徵性的 **`chocolate-brown color`（巧克力褐色 / 醬油色）** | 呈特徵性的 **`cherry-red color`（櫻桃紅色）** | 靜脈血呈 **`bright-red color`** (因組織無法利用氧氣，動靜脈血氧差極低) |\n| **首選解毒劑** | **`methylene blue`** (利用 `NADPH-dependent methemoglobin reductase` 進行還原) | **`100% normobaric oxygen`** 或者是 **`hyperbaric oxygen (HBO)`** | **`hydroxocobalamin`** 或是 `cyanide antidote kit` (`sodium nitrite` + `sodium thiosulfate`) |\n\n---\n\n### **5. Citations & References (文獻與指引引用)**\n\n*   **B&R The Kidney, Chapter 63 (\"Hemodialysis\")**：\n    *   Section: **\"DIALYSATE QUALITY AND TECHNICAL COMPLICATIONS\"** [1]：明確指出 `chloramines` 是由 `chlorine` 與 `ammonia` 組成的化合物，在 Municipal water 處理中常用，若透析用水未妥善清除，會引發嚴重的 **`methemoglobinemia` 與 `hemolysis`**（編號 336, 337 文獻）。\n\n*   **KDIGO 2026 AKI/AKD Guideline (Public Review Draft)**：\n    *   Chapter 3.11: **\"AKI under special conditions\"** [2, 3]：在 `Table 25 (\"Plant and chemical toxins causing AKI\")` 中，明確將 **`Methanol`**、**`Paraquat`** 以及 **`Copper sulphate`** 與 **`Chloramine gas`** 共同列為具有全身性、化學吸入性或氧化毒性並引發 `methemoglobinemia` 伴隨急性腎臟受損的關鍵環境化學毒物（編號 596, 597 文獻）。\n\n*   **B&R The Kidney, Chapter 24 (\"Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine\")**：\n    *   Section: **\"METABOLIC ACIDOSIS\"** [4]：在論述 `Posm gap` 與 `Anion gap` 時，詳細討論了各種化學毒物吸入（如 `ethylene glycol`、`methanol` 等）的全身性代謝反應與多器官功能受損的臨床路徑。\n\n---\n\n🔍 是否需要我為您建立一個關於「急診遇到低血氧飽和度（SpO2 < 90%）但 PaO2 正常患者時，如何利用 `Co-oximetry` 進行 MetHb、COHb 與 Sulfhemoglobin 的鑑別診斷與臨床處置決策樹」？",
-          "selectedOption": "UNKNOWN"
-        },
-        {
-          "notebookTitle": "TSN：出題 (5-3)",
-          "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
-          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (1-3)",
+          "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
+          "accountProfile": "mudskipper24",
           "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### **詳細說明 (Detailed Explanation)**\n\n根據本項目所提供的 `notebook sources`（包含 *Brenner & Rector's The Kidney*、多項 *KDIGO* 臨床指引等），雖然文獻中零星提及了 **`Methemoglobinemia`**（高鐵血紅蛋白血症）或 **`Chloramine`** 的部分相關學術研究，但**完全缺乏**此一 29 歲男性在炎熱環境下運動、吸入類似氨氣味氣體、隨後產生 15% 高鐵血紅蛋白血症與相關呼吸困難等臨床案例的任何記載。\n\n#### **文獻中與高鐵血紅蛋白、氯胺相關之記載：**\n1.  **Methemoglobinemia (高鐵血紅蛋白血症)**：\n    *   **Inhaled Nitric Oxide**：*KDIGO 2026 AKI-AKD Guideline (Public Review Draft)* 提及，對於兒童接受心肺旁路手術，常規吸入 **`nitric oxide`** 缺乏確切獲益且可能帶來潛在危害，其副作用包括 **`methemoglobinemia`** 與二氧化氮毒性 [1]。\n    *   **Rasburicase 誘發**：*Chapter 42 Onconephrology* 的文獻中，引用了關於 **`rasburicase-induced methemoglobinemia`** 的病例報告與治療流程 [2]。\n2.  **Chloramine (氯胺)**：\n    *   *Chapter 63 Hemodialysis* 的文獻中，僅提及在血液透析單元中因 **`chloramine`** 暴露而引起貧血爆發（`anemia outbreak due to chloramine exposure in a clean hemodialysis unit`）的案例，以及氯胺作為透析液中潛在污染物的危害 [3]。\n\n由於現有資料庫中不存有任何此臨床情境考題的對應內容，為了維持對資料庫真實性的嚴格承諾，本系統無法憑空推論或調用外部知識來解答此題。",
+          "rawResponse": "`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`\n\n---\n\n### 資料庫現有文獻證據盤點與侷限性分析 (Analysis of Existing Evidence and Database Limitations)\n\n經詳細檢索與比對 `Notebook Sources` 中所提供的文獻（包括 *Brenner & Rector's The Kidney* 的相關章節及各項 `KDIGO Guidelines`），現有資料庫並無收錄關於吸入特定毒性氣體（如 `Chloramine gas`）引發急性 `Methemoglobinemia` 的臨床情境、診斷指引或病理生理因果關係。\n\n雖然文獻中零星出現了與題幹中部分名詞相關的片段，但其脈絡與本題所測驗的毒物學情境完全不同：\n\n1. **`Methemoglobinemia`（高鐵血紅蛋白血症）**：\n   - 資料庫僅在 Chapter 42（Passage 357）提及了因腫瘤溶解治療藥物所引發的 **`Rasburicase-induced methemoglobinemia`**；以及在 Chapter 65（Passage 825）討論心臟手術後吸入 **`Nitric Oxide`**（非選項中的 `Nitrous oxide`）可能引發的副作用（包括 `Methemoglobinemia`）。\n   - 資料庫中**完全沒有**關於在炎熱環境下運動、聞到 `Ammonia` 氣味、以及吸入特定化學氣體導致 `Methemoglobin` 升高至 15% 的臨床病例或致病機制描述。\n\n2. **`Chloramine`（氯胺）**：\n   - 資料庫僅在 Chapter 63（Passage 498）提及了 **`Chloramine`** 作為 `Dialysate` 的 sneaky contaminant，在 `hemodialysis unit` 中因暴露而引發 `Anemia Outbreak`（主要是由於強氧化作用引發急性 `Hemolysis`，即溶血反應）。\n   - 文獻中**完全沒有**提及吸入外源性 **`Chloramine gas`** 引發急性 `Methemoglobinemia` 或其與 `ammonia-like smell` 之氣味關聯。\n\n3. **`Ammonia`（氨）**：\n   - 資料庫中的 `Ammonia` 均是在 Chapter 9、Chapter 10、Chapter 24 與 Chapter 38 的生理學範疇內討論，即腎臟內源性的 **`Ammonia Metabolism`**、**`Ammonia Production`** 與 **`Ammonia Excretion`**，並非探討外源性 `Ammonia` 或具備類似氣味之吸入性化學毒物的急性毒理學。\n\n由於提供的資料庫在 `Clinical Toxicology` 的化學吸入性中毒領域存在上述客觀資訊缺失，為確保醫學專科考試評估的嚴謹性與對學術事實的誠實性，特此提出證據不足聲明。\n\n---\n\n### 臨床毒物學之學術拓展（基於國際醫學共識之出題學術分析）\n\n為協助您後續的出題與教學設計，以下提供國際臨床醫學與毒物學界對於此類情境之主流學術共識供您參考：\n\n* **最可能的 `Causative Agent` 應為：(B) Chloramine gas**\n  - *臨床與生活情境*：在清潔環境、游泳池或炎熱多汗的運動場所，若將含有 `Sodium Hypochlorite` 的漂白水與含有 `Ammonia` 的清潔劑（或汗水中的 `Urea` 分解產生的 `Ammonia`）意外混合，會發生化學反應並釋放出具有強烈刺鼻、類似氨水氣味的 **`Chloramine gas`**（如 `Monochloramine` [ $NH_2Cl$ ]、`Dichloramine` [ $NHCl_2$ ]）。\n  - *病理生理與 Methemoglobin 升高機制*：吸入的 `Chloramine gas` 溶解於呼吸道粘膜，除了引發 `dizziness`、`dyspnea`、`nausea` 等黏膜刺激與缺氧症狀外，其具有極強的氧化性。當被吸收進入體循環後，會將紅血球內 `Hemoglobin` 的二價鐵離子（$Fe^{2+}$）氧化為三價鐵離子（$Fe^{3+}$），進而形成無法攜帶氧氣的 **`Metoglobin`**。當其比例達到 15% 時（正常 $<1\\%-2\\%$），患者會出現發紺、缺氧與組織灌注不足症狀。\n\n---\n\n### 文獻引用與參考 (Citations & References)\n\n* **Brenner & Rector's *The Kidney*, Chapter 63: *Hemodialysis***\n  - 參閱 Section: *Dialysate: Hazards Associated With Dialysis Water: Chloramine* (提及 `Chloramine` 在透析用水中引發 `Anemia` 與 `Hemolysis` 的風險)。\n* **Brenner & Rector's *The Kidney*, Chapter 42: *Onconephrology-Kidney Disease and Cancer***\n  - 參閱 Section: *Tumor Lysis Syndrome: Rasburicase-induced methemoglobinemia*.\n* **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) Public Review Draft (March 2026)**\n  - 參閱 Section 3.12: *Use of nitric oxide in children* (提及 `inhaled nitric oxide` 的 `Methemoglobinemia` 副作用)。\n\n---\n🔍 **Nudge**: 雖然本資料庫在吸入性毒物（Inhalation Toxicology）領域的資訊相對受限，但如果您正計劃設計一系列關於 **「腎臟科與重症加護病房中常見之藥物與毒物引發高鐵血紅蛋白血症（Drug-induced Methemoglobinemia in ICU/Nephrology）」** 的考題（例如由 `Dapsone`、`Prilocaine`、`Nitrites` 或 `Nafamostat` 引起的腎功能受損與高鐵血紅素血症，以及其如何干擾 `pulse oximetry` 的氧飽和度判讀），我可以為您整理一份**高難度重症腎臟毒物學臨床鑑別對照表與解毒劑（如 Methylene Blue 與 Vitamin C 在 AKI 患者中的計量限制）指引**，方便您在後續命題中參考。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
+        },
+        {
+          "notebookTitle": "TSN：出題 (1-5)",
+          "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+          "accountProfile": "mudskipper24",
+          "selectedOption": "NONE",
+          "rawResponse": "### 1. Answer Determination\n本題的正確選項為 **(B) Chloramine gas**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n*   **環境與化學特徵 (Chemical and Environmental Context)**：\n    在日常或工作環境中（例如在缺乏通風的 `hot environment` 中進行清潔工作），不當混合含有 `sodium hypochlorite` 的 `bleach` 與含有 `ammonia` 的清潔劑，是引發急性 `chloramine gas`（包含 `monochloramine` 與 `dichloramine`）吸入最經典的來源。`Chloramine gas` 本身由 `ammonia` 與 `chlorine` 化合而成，具有極度刺鼻且類似 `ammonia` 的氣味（符合 `smelling something like ammonia` 的描述）。\n*   **氧化損傷機轉 (Pathophysiology of Oxidative Injury)**：\n    `Chloramines` 屬於極強的 `oxidizing agents`。當患者吸入 `chloramine gas` 並經由 `respiratory tract` 與 `pulmonary capillaries` 快速吸收後，這些強氧化劑會直接作用於 `erythrocytes`。它們會將 `hemoglobin` 中正常的 `ferrous iron` ($Fe^{2+}$) 氧化為不具備攜氧能力的 `ferric iron` ($Fe^{3+}$)，進而大量形成 **`methemoglobin`**。\n*   **臨床表現與 Methemoglobin 水平之對應 (Clinical Symptoms and Methemoglobin Level)**：\n    在健康成人中，體內 `methemoglobin` 水平因內源性還原酵素（如 `NADH-methemoglobin reductase`）的作用，平時維持在 <1.5% 的極低水平。當吸入強氧化劑導致其濃度急劇上升至 **`15%`** 左右時，臨床上會開始出現組織缺氧症狀，表現為 `nausea`、`dizziness`、`mild dyspnea` 與代償性心搏過速。這與本例患者的臨床症狀與 `methemoglobin of 15%` 實驗室數據完全吻合。\n*   **影像學特徵 (Chest Radiography Findings)**：\n    吸入中度濃度的 `chloramine gas` 在發病初期，其對下呼吸道的直接物理損傷可能尚不足以引起顯著的肺泡滲出或實質病變。因此，患者在急診進行的 **`CXR`** 常顯示 **`no active lung lesion`**。然而，由於 `chloramine` 的中度水溶性，臨床上仍須密切追蹤以防範在 12 至 24 小時內發生延遲性 `noncardiogenic pulmonary edema`。\n\n---\n\n### 3. Distractor Option Analysis\n*   **(A) Carbon monoxide**：\n    *   *為何錯誤*：`Carbon monoxide` ($CO$) 是一種無色、無味、無刺激性的氣體，絕不會產生類似 `ammonia` 的刺鼻氣味。此外，`carbon monoxide` 中毒會導致體內形成 **`carboxyhemoglobin`**（`COHb`），而非 `methemoglobin`。\n    *   *出題者意圖*：測試考生是否會將同樣會引起細胞缺氧、`dizziness` 與 `dyspnea`，且均會使傳統 `pulse oximetry`（`SpO2`）呈現假性正常（因為傳統雙波長光學無法區分異常血紅素變體）的兩種經典毒性氣體（`carbon monoxide` 與 `methemoglobin-inducing agents`）在氣味、異常血紅素類別與病生理機轉上產生混淆。\n\n*   **(C) Cyanide**：\n    *   *為何錯誤*：`Cyanide` ($CN^-$) 典型呈現淡淡的 `bitter almond` 氣味（且多數人因基因限制無法聞到），絕非 `ammonia` 味。此外，`cyanide` 本身並**不會**直接引發 `methemoglobinemia`。\n    *   *臨床生理特徵*：`Cyanide` 的致毒機轉是直接抑制細胞線粒體內 `cytochrome c oxidase` 的 `ferric iron` ($Fe^{3+}$)，阻斷電子傳遞鏈以引發極嚴重的 `cellular asphyxiation`。\n    *   *出題者意圖*：在臨床解毒醫學中，為了治療 `cyanide poisoning`，通常會給予 `amyl nitrite` 或 `sodium nitrite` 以主動**誘發（`induce`）**治療性 `methemoglobinemia`（利用 `methemoglobin` 對 `cyanide` 的極高親和力，結合形成較無毒的 `cyanmethemoglobin`，從而解救線粒體呼吸鏈）。出題者利用此一「治療性誘發關係」，測試考生能否釐清「`cyanide` 本身不引發 `methemoglobin`，而是使用 `nitrites` 誘發 `methemoglobin` 來解毒」的邏輯。\n\n*   **(D) Nitrous oxide**：\n    *   *為何錯誤*：`Nitrous oxide` ($N_2O$) 是一種無色、略帶甜味的氣體，無刺激性，絕無 `ammonia` 的嗆鼻味，且吸入 `nitrous oxide` 不會引起 `methemoglobin` 的上升。\n    *   *臨床生理特徵*：`Nitrous oxide` 的臨床毒性主要是透過強烈氧化並破壞 `cobalamin`（即 `vitamin B12`）的鈷核心，使其永久失去活性，進而抑制 `methionine synthase`，導致 `megaloblastic anemia` 與脊髓的 `subacute combined degeneration`（`SCD`）。\n    *   *出題者意圖*：評估考生是否容易混淆同樣含有氮原子的吸入性氣體。例如：`nitrogen oxides`（如 $NO$、$NO_2$ 等強氧化劑，常在農倉與工業暴露中引發 `methemoglobinemia`）與 `nitrous oxide`（$N_2O$，不具備此氧化能力）這兩者在命名與病生理學上的巨大差異。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n在腎臟專科與毒物醫學考試中，以下概念常被放在一起進行高頻對比與鑑別：\n\n1.  **Carboxyhemoglobinemia (Carbon Monoxide) vs. Methemoglobinemia (Chloramine, Nitrites, etc.)**：\n    *   **診斷工具 (Diagnostic Tool)**：這兩種疾病都會導致常規 `pulse oximetry`（`SpO2`）呈現假性正常。鑑別診斷必須依靠 **`arterial blood gas` (ABG) 搭配 `co-oximetry`**（利用多波長光學精準測量 `COHb` 與 `methemoglobin` 的確切百分比）。在 `methemoglobinemia` 中，抽出的血液通常呈現特徵性的 `dark brown` 或 `chocolate-colored`。\n2.  **Acquired Methemoglobinemia vs. Hereditary Methemoglobinemia**：\n    *   `Acquired form`：起病急驟，多因強烈氧化劑（如 `chloramine gas`、`nitrites`、`dapsone` 或 `benzocaine`）暴露引起，當 `methemoglobin` >20% 且伴隨症狀時，首選 **`methylene blue`** 進行還原治療（或輔以 `ascorbic acid`）。\n    *   `Hereditary form`：主要由 `cytochrome b5 reductase` (Cb5R) 缺陷引起，患者通常呈慢性、無症狀的 `cyanosis`。\n3.  **Chloramine Toxicity in Dialysis Water (Brenner & Rector's Kidney-Specific High-Yield)**：\n    *   在血液透析實務中，若自來水（通常添加 `chloramines` 作為消毒劑）未經過活性碳過濾器（`activated carbon filters`）充分清除（需要至少 10 分鐘的接觸時間），漏過的 `chloramine` 會直接擴散穿過 `dialyzer membrane` 進入血液，引發嚴重的 **`methemoglobinemia` 伴隨急性 `hemolysis`**（溶血），這是透析用水安全品質控制中的核心考點。\n\n---\n\n### 5. Citations & References\n*   **Brenner & Rector's The Kidney**：\n    *   **Chapter 63: Hemodialysis**\n        *   *Section*: WATER TREATMENT FOR HEMODIALYSIS $\\rightarrow$ *Chloramines* (Passage [1]，明確指出自來水中的 `chloramines` 是由 `chlorine` 與 `ammonia` 結合而成。若水處理系統中的 `carbon beds` 未能發揮作用，直接擴散入血的 `chloramine` 會引發患者嚴重的 `methemoglobinemia` 與 `hemolysis`)。\n    *   **Chapter 23: Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria**\n        *   *Section*: *GLOMERULAR FILTRATION RATE* $\\rightarrow$ *Interference in Laboratory Measurement* (Passages [2], [3]，討論異常血紅素變體 [如 `carboxyhemoglobin` 與 `methemoglobin`] 對於常規氧合評估的干擾，與利用 `co-oximetry` 進行診斷的必要性)。\n    *   **Chapter 42: Onconephrology-Kidney Disease and Cancer**\n        *   *Section*: *TREATMENT-RELATED TOXICITIES* $\\rightarrow$ *Rasburicase* (Passage [4]，提及 `rasburicase` 在 `G6PD deficiency` 患者中會因強烈氧化應激而誘發 `methemoglobinemia`)。\n    *   **Chapter 67: Enhanced Elimination of Poisons**\n        *   *Section*: *METHEMOGLOBINEMIA-INDUCING AGENTS* (Passages [5], [6]，討論對於各類氧化性中毒合併 `methemoglobinemia` 時，如何評估清除率與進行解毒治療)。",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
         }
       ],
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "reconciliationNotes": "NotebookLM 檢索無有效證據或無選定選項。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "以原始解答 (B) 為準。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_UNVERIFIED",
+      "qcVerified": false,
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     }
   ]
 }

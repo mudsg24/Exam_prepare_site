@@ -61,7 +61,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q2",
@@ -116,7 +117,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q3",
@@ -171,7 +173,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q4",
@@ -226,7 +229,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q5",
@@ -281,7 +285,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q6",
@@ -336,7 +341,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q7",
@@ -391,7 +397,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q8",
@@ -421,36 +428,37 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (4-1)",
-          "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
-          "accountProfile": "mudkaku",
-          "selectedOption": "C",
-          "rawResponse": "### 1. Answer Determination\n正確選項為 **(C) Add another line to infuse dextrose water**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n*   **臨床挑戰與病理生理學背景 (Clinical Challenge and Pathophysiological Context)**：\n    當 `patients` 同時具有 `severe hyponatremia`（如 `serum sodium` $< 120\\text{ mmol/L}$）與需要進行 `renal replacement therapy` 的 `acute kidney injury (AKI)` 或 `anuria` 時，如何安全且緩慢地糾正 `serum sodium` 是臨床上的重大挑戰。\n    如果直接使用標準的商業 `CRRT solutions`（其 `sodium concentration` 通常為固定的 $140\\text{ mEq/L}$），由於極高的 `sodium gradient`，在啟動 `CRRT` 後會導致 `serum sodium` 發生極速、不可控的上升。這在細胞病理生理學上會引發腦細胞脫水、血腦屏障破壞，最終導致致死性或不可逆的 **osmotic demyelination syndrome (ODS)** [1, 2]。\n*   **Dextrose Water (D5W) 輸注的生理學基礎 (Physiological Mechanism of D5W Infusion)**：\n    由於 `dextrose` 進入體內後會迅速被代謝為 $CO_2$ 與 $H_2O$，因此 `5% dextrose in water (D5W)` 在生理學上等同於 `electrolyte-free water` [3]。\n    在進行 `CRRT` 時，藉由 **(C) Add another line to infuse dextrose water**（通常是通過外周/中央靜脈的 `intravenous line`，或直接連接於 `CRRT circuit` 的 `return limb`），可以直接向系統中引入精確控制的 `electrolyte-free water`。\n    這項做法能精確抵消由 `CRRT` 介導的 `sodium clearance` 效應，達到「鎖定（`clamp`）」並穩定調控 `serum sodium` 上升速度的目標，從而安全地將每日上升幅度限制在極為安全的範圍內（如 $4-6\\text{ mmol/L/24 hours}$） [2, 4]。\n*   **為何 (C) 是最安全且最便利的措施 (Why Option C is the Most Safe and Convenient)**：\n    1.  **Convenience (便利性高，無需複雜無菌調配)**：此方法可以直接使用標準、出廠預包裝的商業 `CRRT bags` 與標準 `D5W` 輸注液，**完全不需要**由 `compounding pharmacist` 或護理人員在病房內手動往 `CRRT fluid bags` 中注入液體，這極大地降低了因頻繁抽吸/注射而造成的 `microbial contamination` 與 `catheter-related infections` 的風險。\n    2.  **Safety (避免機器秤重警報)**：現代 `CRRT machines` 具有極為敏感的 `weight scales`（如 `Prismaflex` 系統），用以精確監測 `ultrafiltration` 與液體平衡。如果在 $5\\text{-L}$ 的袋子中直接加入液體，會因重量超限而頻繁觸發 `machine scale alarms` 甚至導致機器停機。使用獨立的 `infusion pump` 輸注 `D5W` 則完全不會干擾機器的秤重系統。\n    3.  **Electrolyte Stability (維持其他電解質與酸鹼平衡)**：商業 `CRRT solutions`（如 `PrismaSol`, `Biphozyl`）中除了鈉，還含有精確配比的 `potassium`, `calcium`, `magnesium`, 與 `bicarbonate` [5]。如果直接往袋子中加水稀釋（如 Option A 或 B），會不可避免地**等比例稀釋袋中所有其他關鍵電解質**，極易在患者體內誘發嚴重的 `hypokalemia`、`hypocalcemia`、`hypomagnesemia` 或惡化 `metabolic acidosis`。而單獨輸注 `D5W` 則能完全保留 `CRRT` 對其他電解質的穩定補充與清除效用。\n    4.  **Flexibility (便於動態滴定)**：臨床醫師只需根據每 2 至 4 小時監測一次的 `serum sodium` 數值，直接在病房調快或調慢 `D5W` 的 `infusion pump rate` 即可，具有極高的臨床操作彈性與安全性。\n\n---\n\n### 3. Distractor Option Analysis\n*   **(A) Add sterile water to dialysate fluid**：\n    *   *為何錯誤*：往一個 $5\\text{-L}$ 的商業 `CRRT bag` 中直接注射 `sterile water`（例如加入 $1\\text{-L}$ 將鈉稀釋至 $117\\text{ mEq/L}$），首先會因為袋子總重量增加，**直接觸發 CRRT 機器的 weight scale alarms**，導致治療頻繁中斷。其次，這會等比例稀釋袋中所有的 $K^+$, $Ca^{2+}$, $Mg^{2+}$ 與 $HCO_3^-$，誘發嚴重的系統性電解質紊亂，且在病房內直接向大容量透析袋內注射液體具有極高的 `bacterial contamination` 風險。\n    *   *命題意圖*：此選項是初學者最直覺的粗暴稀釋法。命題者以此測試考生是否缺乏 `CRRT` 臨床實際操作知識（如忽略了機器重量天平的硬體物理限制以及對其他電解質的稀釋效應）。\n*   **(B) Exchange sterile water with part of dialysate fluid**：\n    *   *為何錯誤*：雖然此方法（例如先從 $5\\text{-L}$ 的袋子中抽取並丟棄 $1\\text{-L}$ 透析液，再補回 $1\\text{-L}$ 的 `sterile water`）可以使總量維持在 $5\\text{-L}$，從而規避了 `machine weight scale alarms` 的問題。但是，這項操作**極度耗費護理人力（labor-intensive）**。護理師必須使用 $50\\text{-mL}$ 的針筒重複抽吸丟棄與注射 20 次，這極易出錯並在過程中造成嚴重的補體與細菌污染；同時，它依然無法解決對 $K^+$, $Ca^{2+}$, $Mg^{2+}$ 等其他必要溶質發生「危險稀釋」的致命缺陷。\n    *   *命題意圖*：此選項屬於高難度的「物理折衷誘答項」。考生若僅考慮到解決「秤重警報」，很容易誤選此項，而忽略了「護理操作可行性」與「多電解質稀釋危害」的綜合評估。\n*   **(D) Adjust effluent dosage for targeted serum Na**：\n    *   *為何錯誤*：`effluent dosage`（即 `CRRT` 的 `clearance / dose-intensity`，通常推薦為 $20-25\\text{ mL/kg/hour}$ [6]）是根據患者清除 `uremic toxins`、糾正 `acid-base balance` 與排除過剩鉀離子的代謝需求而設定的。如果單純為了減緩鈉的糾正速度而調低 `effluent dosage`，在一個 `anuric` 且伴隨 `hyperkalemia` 或 `severe uremia` 的 critically ill 患者中，會直接導致嚴重的 **under-dialysis**。這在臨床上會引起酸中毒惡化與致死性高血鉀，是絕對不可接受的。\n    *   *命題意圖*：測試考生是否混淆了「電解質濃度控制（`tonicity management`）」與「系統排毒容量（`clearance capacity`）」這兩個完全獨立的物理與生理維度。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n在腎臟專科醫學考試中，與 **CRRT-guided sodium correction in severe hyponatremia** 相關的概念，最常與以下主題進行對比與鑑別：\n\n*   **CRRT Sodium Clamping in Hyponatremia vs. Sodium Modeling in Chronic Hemodialysis (HD)**：\n    *   **CRRT Hyponatremia Clamping**：\n        *   *臨床目標*：為了預防 `ODS`，必須將 `serum sodium` 的糾正速度嚴格限制在極低水平（$< 6-8\\text{ mmol/L/day}$） [7]。其核心是「低鈉透析」或「高自由水補給」。\n    *   **Sodium Modeling in Chronic HD**：\n        *   *臨床目標*：為了預防 `intradialytic hypotension` 與 `muscle cramps`，在透析開始時有意使用高鈉透析液（如 $150-155\\text{ mEq/L}$），並在結束前逐步降至標準值（$135-140\\text{ mEq/L}$） [8]。這主要是利用高鈉建立短暫的跨細胞滲透梯度，促進組織水分向血管內移轉。兩者在鈉梯度的控制方向上完全相反。\n*   **Osmotic Demyelination Syndrome (ODS) Risk: Acute vs. Chronic Hyponatremia**：\n    *   **Acute Hyponatremia (< 48 hours, e.g., acute water intoxication in marathon runners)**：\n        *   *病理與治療*：此時腦細胞尚未完成排出細胞內有效溶質（如 `taurine`、`myoinositol`）的體積適應 [1]。因此，發生腦疝的風險極高，但**幾乎沒有發生 ODS 的風險**。臨床上可以且應當非常迅速地（使用 $3\\%\\text{ hypertonic saline}$）將血鈉提升 $4-6\\text{ mmol/L}$ 以挽救生命，無需特意限制速度 [9, 10]。\n    *   **Chronic Hyponatremia (>= 48 hours or unknown duration)**：\n        *   *病理與治療*：腦細胞已完成適應性縮小並與外周等滲。此時若發生快速血鈉上升，腦細胞會迅速失水皺縮，引發血腦屏障破壞與橋腦/橋腦外去髓鞘病變 [1]。此類患者必須嚴格執行緩慢糾正（$< 6-8\\text{ mmol/L/24 hours}$，高危人群如營養不良或低鉀者甚至應限制在 $< 4-6\\text{ mmol/L/24 hours}$） [2, 7]，這也是本題 CRRT 滴定技術的主要應用對象。\n\n---\n\n### 5. Citations & References\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney, Chapter 15: Disorders of Water Balance*\n        *   Section: \"HYPONATREMIA\" $\\rightarrow$ Subsection: \"HYPERTONIC SALINE\" (詳細討論血鈉糾正速度與 ODS 的病理生理關係)\n        *   Section: \"MONITORING SERUM SODIUM CONCENTRATION IN HYPONATREMIC PATIENTS\" (指出在高危人群中，每日糾正量應限制在 $4-6\\text{ mmol/L}$)\n        *   Section: \"SEVERE SYMPTOMS\" (探討急性與慢性症狀的初始處置分流)\n    *   *Brenner & Rector's The Kidney, Chapter 24: Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine*\n        *   Section: \"HYPONATREMIA\" $\\rightarrow$ Subsection: \"Concept 9\" (詳細論述腦細胞在低鈉下的滲透適應機制以及快速復鈉導致 ODS 的細胞學原理)\n        *   Section: \"MONITORING SERUM SODIUM CONCENTRATION IN HYPONATREMIC PATIENTS\" (指出為了預防快速復鈉，在 re-expansion 時應考慮使用 `DDAVP` 鎖定尿液自由水排泄，並指出小肌肉量/營養不良患者的特殊風險)\n    *   *Brenner & Rector's The Kidney, Chapter 65: Critical Care Nephrology*\n        *   Section: \"ACUTE KIDNEY INJURY IN THE CONTEXT OF CRITICAL ILLNESS\" $\\rightarrow$ Subsection: \"LIVER FAILURE\" (闡述 CRRT 在管理嚴重低鈉與預防腦水腫中的角色)\n        *   Section: \"CONTINUOUS RENAL REPLACEMENT THERAPY\" (分析 diffusive 與 convective 的清除動力學)\n    *   *KDIGO 2026 Acute Kidney Injury Guideline Draft (Chapter 5)*\n        *   Section: \"Replacement and dialysate solutions for RRT\" $\\rightarrow$ Practice Points 5.7.3 & 5.7.4 (強調透析與置換液組成必須根據電解質與酸鹼目標進行高度個體化與頻繁評估)\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 15.20**：\"Recommended goals and limits for correction of hyponatremia based on the risk of producing osmotic demyelination syndrome (ODS)\" (明確標示出高危人群 24 小時上限為 $8\\text{ mmol/L}$，極高危為 $4-6\\text{ mmol/L}$ 的安全邊界圖)\n    *   **Table 53 (KDIGO 2026)**：\"Composition of commercially available dialysate and replacement CRRT solutions\" (展示了主要商業液體中 $140\\text{ mmol/L}$ 的標準鈉濃度限制，突出了對嚴重低鈉患者進行稀釋調配的必要性)\n\n---\n After analyzing the safe correction of severe hyponatremia using CRRT, would you like me to prepare a high-yield diagnostic and treatment algorithm chart for managing dysnatremias in the ICU, detailing the precise infusion calculations for D5W or the exact compounding ratios for low-sodium dialysate bags?",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "SUFFICIENT",
-          "error": null
-        },
-        {
-          "notebookTitle": "TSN：出題 (4-2)",
-          "notebookId": "cfede8f7-956c-47ff-9848-508a8336fa2b",
+          "notebookTitle": "TSN：出題 (4-5)",
+          "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
           "accountProfile": "mudkaku",
           "selectedOption": "NONE",
-          "rawResponse": "根據提供之 `notebook sources`，雖然在 `severe hyponatremia` 的管理原則以及 `continuous renal replacement therapy`（或 `CRRT`）的應用上有相關的生理與臨床指引，但資料庫中並無充足的資訊來直接比較與評估題目所列之四種具體操作方法（Option A, B, C, D）的安全性與便利性。\n\n因此，本題輸出診斷限制守則之標準聲明如下：\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n以下為 `notebook sources` 中與此臨床情境相關的既有證據與涵蓋內容分析：\n\n---\n\n### 1. Notebook Sources 已涵蓋之臨床與生理學證據分析\n*   **Hyponatremia 的矯正原則與 ODS 風險 (Correction Principles of Hyponatremia and ODS Risk)**：\n    *   根據 *Brenner & Rector's The Kidney* 的記述，對於 `severe hyponatremia`（特別是伴隨嚴重神經學症狀者）的首選治療為 `hypertonic saline`，以期快速提升 `serum sodium concentration` [1, 2]。\n    *   然而，如果 `hyponatremia` 屬於 `chronic hyponatremia`（持續時間超過 48 小時），`brain cells` 已經通過排出細胞內溶質適應了低滲透壓狀態 [3]。此時若發生 `overcorrection`（過快矯正），會導致 `brain cells` 急劇脫水，破壞 `blood-brain barrier`，進而引發致命的 `osmotic demyelination syndrome`（或 `ODS`）[3, 4]。\n    *   在臨床管理上，針對 `chronic hyponatremia` 或高風險患者，第一天 `serum sodium` 的提升幅度被嚴格限制，多數專家建議在首個 24 小時內不應超過 4 to 6 mmol/L [5]，且在任何 24 小時內的最大安全極限為 8 mmol/L [6]。\n*   **CRRT 於 Hyponatremia 管理之應用 (Application of CRRT in Managing Hyponatremia)**：\n    *   在 `critical illness`（例如 `liver failure`）的脈絡下，患者極易合併 `hyponatremia`，而 `CRRT` 被指明可用於管理 `hyponatremia` 以防範 `cerebral edema` 惡化 [7]。\n*   **CRRT 處方液之無菌與個體化調配原則 (Sterility and Individualization of CRRT Fluids)**：\n    *   根據 `KDIGO 2026 AKI-AKD Guideline` 的規範，`CRRT dialysate and replacement solutions` 必須保持 `sterile` 狀態 [8]。\n    *   `Practice Point 5.7.3` 提到，`locally compounded dialysate and replacement CRRT solutions` 必須在標準的 `quality control processes` 下調配，或者直接選用 `commercially available` 的解決方案，以確保安全與調配靈活性 [8, 9]。\n    *   `Practice Point 5.7.4` 則強調，必須依據患者的 `serum electrolyte and acid-base parameters` 目標來個體化選擇 `dialysate and replacement CRRT solutions` 的特定化學組成，且須定時重新評估與調整，以防止發生併發之 `electrolyte disturbances` [10]。\n\n---\n\n### 2. Notebook Sources 缺乏之關鍵細節\n雖然上述文獻確立了 `hyponatremia` 的慢速矯正標準以及 `CRRT` 處方液的無菌個體化原則，但 `notebook sources` 內文並未提供以下細節：\n*   未提及在 `CRRT` 運作期間，如何透過具體物理手段調降標準 `dialysate` 內之鈉濃度（例如在 `dialysate bag` 中直接加入 `sterile water` 或以 `sterile water` 置換等量之 `dialysate`）。\n*   未比較直接稀釋 `dialysate`（Option A 與 B）與經由旁路另外架設 `infusion pump` 輸注 `dextrose water`（Option C）在預防 `bacterial contamination`、減少 `compounding errors` 以及避免稀釋其他關鍵電解質（如 `potassium`、`calcium`、`magnesium` 與 `phosphate`，進而引發 `hypokalemia`、`hypocalcemia`、`hypophosphatemia`）等層面的安全與便利性差異。\n*   未提及是否能單純依靠調整 `effluent dosage`（Option D）來在不改變處方液濃度的情況下達成目標 `serum sodium`。\n\n---\n\n### 3. 基於外部臨床醫學共識之高值解析 (High-Yield Clinical & Physiological Rationale)\n為了協助考生理解此臨床難題，以下補充說明在標準重症腎臟醫學（*Critical Care Nephrology*）共識中，各選項的優劣與決策邏輯：\n*   **Option (C) 為最安全且便利之做法之機制 (Mechanism of Option C as the Safest and Most Convenient Measure)**：\n    *   在臨床實務上，若要在使用標準鈉濃度（140 mEq/L）的 `CRRT` 過程中避免 `severe hyponatremia` 被過快矯正，**另外架設一條管路輸注 `dextrose water`（通常為 `D5W`）**（例如在 `post-filter` 端或經由患者的 `central venous catheter` 獨立輸入）是目前被認為最安全且便利的標準手段。\n    *   **便利性 (Convenience)**：此做法不需要護理人員在病房內手動抽取、調配或等量交換極大體積的 `dialysate bags`（每袋通常為 5 L，每天可能消耗 10 至 15 袋以上），大幅降低了臨床工作負荷。\n    *   **無菌安全性 (Sterility and Safety)**：避免了因頻繁手動穿刺與調配 `dialysate bag` 所引發的 `bacterial contamination`（細菌污染）風險，維持了系統的完全密閉與無菌。\n    *   **電解質安全性 (Electrolyte Safety)**：如果直接以 `sterile water` 稀釋 `dialysate`（Option A 或 B），在調降鈉濃度的同時，亦會成比例地稀釋處方液中其他重要的陽離子與陰離子，極易誘發嚴重的 `hypokalemia`、`hypocalcemia`、`hypomagnesemia` 與 `hypophosphatemia`。而使用獨立的 `dextrose water` 輸注管路，則能保持 `CRRT` 處方液中其他電解質的生理濃度不變。\n    *   **高度可調控性 (Titratability)**：臨床醫師僅需根據每 4 至 6 小時監測的 `serum sodium` 變化，在 `infusion pump` 上直接微調 `dextrose water` 的輸注流速（mL/h），即可精準調控電解質矯正速度，而不需要重新調配或更換整袋 `dialysate`。\n\n*   **其餘干擾項 (Distractor Options) 之病理生理缺陷**：\n    *   **(A) Add sterile water to dialysate fluid**：將 `sterile water` 直接加入 `dialysate bag` 會導致袋裝體積膨脹，除了增加 `contamination` 與 `compounding errors` 風險外，亦稀釋了其他電解質，且可能超出袋裝容量限制。\n    *   **(B) Exchange sterile water with part of dialysate fluid**：雖然此方法（如 *Yessayan* 早期提出）可維持 bag 內體積恆定，但每次調配皆需精確抽取並丟棄等量液體再補回 `sterile water`，操作步驟極其繁瑣，在急診或 ICU 忙碌環境下發生 `compounding errors` 與感染的機率極高。\n    *   **(D) Adjust effluent dosage for targeted serum Na**：單純調整 `effluent dosage`（如 `effluent rate`）只能改變溶質清除的整體效率（`clearance`），在 `dialysate` 與血清鈉存在極大濃度差的前提下，無法有效且單獨控制鈉離子的特定矯正速率，若無 hypotonic fluid 的補償，仍會發生急劇的 `overcorrection`。\n\n---\n\n### 4. Citations & References\n*   **Chapter Name & Section Headers (Brenner & Rector's The Kidney)**:\n    *   **Chapter 15, \"Disorders of Water Balance\"**\n        *   Section: `\"Assessment of Volume Status\"` -> `\"HYPONATREMIA\"` & Figure 15.20 `\"Recommended goals and limits for correction of hyponatremia\"`.\n    *   **Chapter 24, \"Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine\"**\n        *   Section: `\"HYPONATREMIA\"` -> subsections `\"Concept 9 (ODS Pathophysiology)\"`, `\"Clinical Case 5\"`, and `\"Clinical Case 6\"`.\n    *   **Chapter 65, \"Critical Care Nephrology\"**\n        *   Section: `\"ACUTE KIDNEY INJURY IN THE CONTEXT OF CRITICAL ILLNESS\"` -> `\"LIVER FAILURE\"` [7].\n*   **Guideline Reference**:\n    *   **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Public Review Draft - March 2026)**:\n        *   **Chapter 5, \"Renal Replacement Therapy\"** -> Sections `\"5.7 Replacement and dialysate solutions for RRT\"` [8-10].\n\n---\n📊 如果您對 `severe hyponatremia` 矯正時的 `sodium kinetic modeling` 數學推導公式有興趣，我可以為您詳細拆解 `D5W` 輸注流速的計算公式與臨床參數設定。",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細原因分析與文獻說明\n\n雖然在提供的 *notebook sources*（特別是 **Passage 787** 與 **Passage 788**）中，列出了數篇專門探討如何利用 **CRRT** 安全矯正 **severe hyponatremia** 暨 **dysnatremias** 的關鍵臨床指引與研究文獻，例如：\n\n1. **Neyra JA, Ortiz-Soriano VM, Ali D, et al. A Multidisciplinary Approach for the Management of Severe Hyponatremia in Patients Requiring Continuous Renal Replacement Therapy. Kidney Int Rep 2019; 4: 59-66.**\n2. **Yessayan L, Szamosfalvi B, Rosner MH. Management of dysnatremias with continuous renal replacement therapy. Semin Dial 2021; 34: 472-479.**\n3. **Tinawi M, Bastani B. A mathematical approach to severe hyponatremia and hypernatremia in renal replacement therapies. Semin Dial 2021; 34: 42-50.**\n4. **Yee J, Mohiuddin N, Gradinariu T, et al. Sodium-Based Osmotherapy in Continuous Renal Replacement Therapy: a Mathematical Approach. Kidney360 2020; 1: 281-291.**\n\n然而，現有的 **notebook sources** 僅於參考文獻列表中收錄了這些論文的標題，並未進一步 hydrated 或提供其具體內容與詳細的臨床操作協議。\n\n在臨床實踐中，利用 **CRRT** 矯正 **severe hyponatremia** 時，為了避免過快矯正引發致命的 **osmotic demyelination syndrome**，通常需要設法調降 **dialysate** 或 **replacement fluid** 的 **sodium concentration**。常見的調配或處置方式包括：\n*   在商用 **dialysate** 袋中加入特定比例的 **sterile water**。\n*   從商用 **dialysate** 袋中抽走一定體積後，再以 **sterile water** 進行等量置換（**exchange**）。\n*   透過額外管路（**another line**）以 **pre-blood pump** 方式直接輸注 **dextrose water**（如 **D5W**）。\n*   藉由複雜的數學公式（如 **tonicity balance**）調整 **effluent dosage**。\n\n由於 **notebook sources** 缺乏對上述各項操作的安全性（如避免調配污染、防範溶血風險等）及便利性之直接對比與推薦強度的具體文獻論述，作為一位嚴謹的醫學專科考試作者，必須明確指出目前的資料庫證據不足，無法僅憑提供的資料來源給出絕對無爭議的正解分析。\n\n---\n\n### 相關高頻考點與文獻指引 (Citations & References)\n\n*   **Chapter & Section**:\n    *   *Brenner & Rector's The Kidney*, Chapter 15, \"Disorders of Water Balance\"; Section: \"Treatment of Hyponatremia\", Subsection: \"HYPERTONIC SALINE\" (explaining the pathophysiologic consequences of rapid sodium shift and the risk of **osmotic demyelination syndrome**).\n    *   *Brenner & Rector's The Kidney*, Chapter 24, \"Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine\"; Section: \"HYPONATREMIA\", Subsection: \"Clinical Case 5\" (detailing the clinical risk of rapid **PNa** rise and the use of **DDAVP** to limit water diuresis).\n*   **Figures, Tables, & Boxes**:\n    *   **Figure 15.20** of Chapter 15: \"Recommended goals and limits for correction of hyponatremia based on the risk of producing osmotic demyelination syndrome (ODS)\".\n    *   **Figure 70.3** of Chapter 70 (or equivalent fluid assessment protocols in transplant/AKI settings).",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
+        },
+        {
+          "notebookTitle": "TSN：出題 (1-2)",
+          "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
+          "accountProfile": "mudskipper24",
+          "selectedOption": "C",
+          "rawResponse": "### **1. Answer Determination**\n\n本題的正解為 **Option (C) Add another line to infuse dextrose water**（意即在大體標準 `CRRT` 處方基礎上，額外開闢一條獨立輸液線灌注 `D5W`）。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正解選項病理生理學與臨床分析)**\n\n在 `ICU` 中，當 critically ill 合併有 `severe hyponatremia`（如 `serum sodium < 110–115 mEq/L`）的 `AKI` 患者需要接受 `CRRT` 治療時，臨床面臨的最大病理生理學挑戰在於如何避免過於快速地糾正 `hyponatremia`。\n\n* **過度快速糾正的風險（ODS/CPM）**：\n  市售成套的 `commercial CRRT solutions`（不論是 `dialysate` 還是 `replacement fluid`）其 `sodium` 濃度通常是固定的等張狀態（約 `140 mEq/L`）。如果直接對 `severe hyponatremia` 的患者啟動標準 `CRRT`，濾過器兩側巨大的 `sodium` 濃度梯度會產生強烈的 `diffusion` 與 `convection` 作用，導致患者的 `serum sodium` 在數小時內急劇飆升。這種快速的滲透壓波動會使腦細胞因急劇脫水而受損，極易誘發不可逆、致死性的 **`osmotic demyelination syndrome (ODS)`**（或稱 **`central pontine myelinolysis, CPM`**）。\n* **減緩糾正速率的三大臨床方案對比**：\n  為使 `serum sodium` 的糾正速率嚴格維持在安全範圍內（一般為 `4–6 mEq/L per 24 hours`，且 24 小時內絕對不超過 `8 mEq/L`），臨床上主要有三種降低治療中有效 `sodium` 濃度的調整方法：\n  1. **Method 1**：向 `commercial CRRT bags` 內直接注入 `sterile water` 進行稀釋（過度充填法）。\n  2. **Method 2**：先抽棄部分 `commercial CRRT fluids` 再補入等量 `sterile water` 進行稀釋（等容交換法）。\n  3. **Method 3 (Option C)**：在不更動標準 `CRRT` 處方與液袋的前提下，**額外開闢一條獨立管路持續灌注 `5% dextrose water (D5W)`**。\n\n* **為何 Option (C) 是最安全且最便利（Most Safe and Convenient / Easiest）的處置**：\n  * **完全避免無菌性破壞與配藥錯誤**：Method 1 與 Method 2 均需要在病房或配藥室對大量的 `5-L commercial bags` 進行反覆、多次的針劑抽取與注入。這不僅具有極高的 **`microbial contamination`（細菌污染）** 風險，更伴隨極高的人為 **`compounding/calculation errors`（調配與計算錯誤）**。一旦計算錯誤，極易導致嚴重的醫療事故。\n  * **防止其它關鍵電解質稀釋（Dyselectrolytemia）**：手動稀釋 `CRRT` 液袋（Method 1 & 2）在降低 `sodium` 的同時，也會成比例地稀釋袋內其它不可或缺的電解質。這會導致 `potassium`、`calcium`、`magnesium`、`bicarbonate` 以及 `phosphate` 稀釋，極易誘發嚴重的 **`refractory hypokalemia`、`hypocalcemia`、`hypomagnesemia`、`hypophosphatemia`** 以及酸鹼失衡。而 `D5W` 獨立輸注法（Option C）完全不破壞 `CRRT` 袋內原有的生理性電解質濃度，安全性極高。\n  * **極具臨床可調控性與便利性**：使用獨立的 **`infusion pump`** 灌注 `D5W`，臨床醫師與護理師可以根據每 4 至 6 小時複查的 `serum sodium` 監測數值，隨時、動態、極為便利地調整 `D5W` 的輸入流速（利用簡化的混合動力學數學公式計算流速）。若鈉離子上升過快，可立即調高 `D5W` 的流速；若上升太慢則可調低，而完全不需要重新更換、丟棄或手動重新配置昂貴的 `CRRT` 液袋。\n  * **容量管理的兼容性**：輸入 `D5W` 所帶來額外的液體體積（`fluid load`），可以非常輕易地在 `CRRT` 機器上通過調高 **`net ultrafiltration rate`（淨超濾率）** 來達到等容平衡，這在 `hemodynamically unstable` 的重症患者中極易實施，完全不影響整體的 **`solute clearance`（溶質清除率）**。\n\n因此，**Option (C)** 是臨床公認在搶救合併重度低鈉的急性腎衰竭時最為安全、便利、且最易於標準化執行的黃金處置手段。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項分析)**\n\n* **Option (A) Add sterile water to dialysate fluid 錯誤分析**：\n  此為前述之 Method 1。雖然此法能降低 `sodium` 濃度，但將 `sterile water` 直接注入 `5-L bag` 後會造成 **`bag overfilling`（液袋過度充填）**。市面上多數的主流 `CRRT` 機器（如 `Prismaflex` 系統）對於掛秤上的液袋重量與體積設有極為嚴格的監測限制與 **`weight scales sensor alarms`（重力傳感器警報）**。當液袋體積過度超出 5 L 時，常會頻繁觸發機器警報並導致治療中斷，極不便利；且同樣存在嚴重的電解質過度稀釋與感染風險。\n\n* **Option (B) Exchange sterile water with part of dialysate fluid 錯誤分析**：\n  此為前述之 Method 2。雖然在抽棄等量 `dialysate` 後補入 `sterile water` 能維持液袋的 5 L 總量、防範機器掛秤警報。但該程序**極其繁瑣且勞動強度極高**（例如稀釋至目標鈉濃度可能需要使用大針筒反覆抽棄並補入高達 `1 L` 的液體）。在病房高度忙碌的醫療環境下，極易發生 **`human error`（人為疏失）**、破壞無菌屏障、並嚴重稀釋 `bicarbonate`、`potassium`、`calcium` 與 `phosphate`，導致致命性心律不整或酸中毒，在安全與便利性上均顯著劣於 Option (C)。\n\n* **Option (D) Adjust effluent dosage for targeted serum Na 錯誤分析**：\n  試圖通過單純下調 **`effluent flow rate`（超濾液/廢液流速，即 RRT 的治療劑量）** 來減緩鈉的糾正，在病理生理學上是完全錯誤且極為危險的。\n  1. 只要 `commercial fluids` 的 `sodium` 濃度仍為高強度的 `140 mEq/L`，其與患者血中低鈉（如 `110 mEq/L`）之間的巨大擴散濃度梯度就依然存在，調整 `effluent` 無法阻斷這種物理性 `diffusion` 過程。\n  2. 下調 `effluent` 劑量（如低於指引推薦的 `20–25 mL/kg/h`）會直接**嚴重犧牲患者體內 uremic toxins（如 urea、creatinine、uric acid）的清除效率**，這會加重患者的 `uremic encephalopathy` 或 `hyperkalemia` 等危相。此法絕非針對 `hyponatremia` 的特異性安全管理手段。\n\n---\n\n### **4. Exam High-Yield Comparisons (專科檢定高頻對比考點)**\n\n在腎臟專科與重症醫學考試中，關於 `CRRT` 與水鹽平衡的處理，常考查以下極為經典的生理機制與鑑別對比：\n\n* **SIADH vs. Cerebral Salt Wasting (CSW) 的鑑別管理**：\n  * 兩者皆是腦部損傷（如 `tuberculous meningitis`、`subarachnoid hemorrhage`）後最常誘發的 `severe hyponatremia` 疾患。\n  * **`SIADH`**：屬於 **`euvolemic hyponatremia`**，主因是 `non-osmotic AVP release` 導致水滯留。臨床核心處置為 **`fluid restriction`** 或使用 **`vaptans`**。\n  * **`CSW`**：屬於 **`hypovolemic hyponatremia`**，主因是中樞性利鈉肽釋放引發的腎臟 **`renal salt wasting`（嚴重失鈉與脫水）**。臨床核心處置與 SIADH 完全相反，**必須給予大量 `normal saline` 進行 volume expansion**，並輔以 **`fludrocortisone`** 治療。\n* **急性症狀性糾正（Acute Symptomatic） vs. 慢性/未知病程糾正（Chronic/Unknown Duration）**：\n  * **`Acute / Severe Symptoms`**（如 `seizures`、`coma`、`respiratory distress`）：為了迅速逆轉致命的 **`brain edema`（腦水腫）**，必須一線使用 **`hypertonic saline (3% NaCl)`** 在 1–2 小時內將 `serum sodium` 快速拉升 `4–6 mEq/L`。\n  * **`Chronic / Minimal Symptoms`**：必須極度緩慢糾正（每 24 小時 `< 8 mEq/L`，對於高危人群如營養不良、低鉀者應限制在 `< 4–6 mEq/L`），以絕對防範 **`ODS / CPM`**。\n\n---\n\n### **5. Citations & References**\n\n* **Brenner & Rector's The Kidney (11th Edition)**：\n  * **Chapter 15 (\"Disorders of Water Balance\")**：\n    * Section: **\"HYPONATREMIA TREATMENT\"** -> **\"Vasopressin Receptor Antagonists\"** (Passage 33) 及 **\"Hypertonic Saline\"** (Passage 36)。\n    * **Figure 15.20**：*\"Recommended goals and limits for correction of hyponatremic patients...\"* (Passage 34)。\n  * **Chapter 65 (\"Critical Care Nephrology\")**：\n    * Section: **\"CONTINUOUS RENAL REPLACEMENT THERAPY - MODE OF CLEARANCE\"** (Passage 301)。\n    * Section: **\"Replacement and dialysate solutions for RRT\"** (Passage 404)。\n\n* **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Public Review Draft)**：\n  * **Chapter 5 (\"Renal Replacement Therapy\")**：\n    * **Practice Point 5.7.3**：*\"Locally compounded dialysate and replacement CRRT solutions should be prepared using standard quality control processes or commercially available solutions should be used...\"* (Passage 566)。\n    * **Practice Point 5.7.4**：*\"Base the choice of dialysate and replacement CRRT solutions with specific compositions upon the goals for serum electrolyte and acid-base parameters...\"* (Passage 567)。\n\n* **ISCCM Guidelines on Acute Kidney Injury and Renal Replacement Therapy (2022)**：\n  * Section: **\"RRT in dys-electrolytemia\"** \n    * **Fig 11A**: *\"Formula for administering 5% dextrose (D5W) as replacement fluid (RF) to manage hyponatremia during CRRT\"*.\n\n---\n\n📊 為使臨床護理與住院醫師在執行這項「D5W 獨立輸注防範低鈉過快糾正」的處置時更加精準與安全，是否需要我為您建立一個包含 **Neyra 混合動力公式**（針對不同 `effluent flow rate` 滴定 `D5W` 速度）以及每 4 小時血液鈉離子複查流程的 **Clinical Protocol Checklist**，以供您作為下一階段的出題參考與教材？",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (A)，但 NotebookLM 檢索推論答案為 (C)。",
+      "reconciliationNotes": "原始解答 (A) 與 NotebookLM 最新解析結果 (C) 存在歧異。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_UNVERIFIED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-24T18:30:52.077Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案答案為 (A)，但 NotebookLM 推論為 (C) 或證據不足，存在爭議。已確認題幹與選項無殘片瑕疵。"
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q9",
@@ -509,7 +517,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:30:52.079Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案答案為 (A)，NotebookLM 一致推論為 (D)，存在爭議。已確認題幹與選項無殘片瑕疵。"
+      "qcNotes": "原始檔案答案為 (A)，NotebookLM 一致推論為 (D)，存在爭議。已確認題幹與選項無殘片瑕疵。",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q10",
@@ -564,7 +573,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q11",
@@ -619,7 +629,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q12",
@@ -674,7 +685,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q13",
@@ -729,7 +741,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q14",
@@ -784,7 +797,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q15",
@@ -839,7 +853,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q16",
@@ -894,7 +909,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q17",
@@ -949,7 +965,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q18",
@@ -1004,7 +1021,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q19",
@@ -1059,7 +1077,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     },
     {
       "id": "2025_林長考訊_q20",
@@ -1114,7 +1133,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 檢索推論答案完全一致。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "attachedImages": null
     }
   ]
 }

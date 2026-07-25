@@ -5,6 +5,8 @@ const KDIGO_DIR = '/Users/yuan/Projects/PDF/Outputs/KDIGO';
 const BRENNER_DIR = '/Users/yuan/Projects/PDF/Outputs/2020 Brenner 11e';
 const OUTPUT_FILE = path.join(process.cwd(), 'public', 'server-data', 'image_index.json');
 
+const TARGET_REF_DIR = path.join(process.cwd(), 'public', 'reference-images');
+
 function scanDir(dirPath, sourceName) {
   const results = [];
   if (!fs.existsSync(dirPath)) {
@@ -19,12 +21,24 @@ function scanDir(dirPath, sourceName) {
       if (f.isDirectory()) {
         walk(fullPath);
       } else if (/\.(png|jpe?g|webp|gif|svg)$/i.test(f.name)) {
-        const relPath = path.relative(process.cwd(), fullPath);
+        const subRelPath = path.relative(dirPath, fullPath);
+        const webRelPath = `/reference-images/${sourceName}/${subRelPath.replace(/\\/g, '/')}`;
+        const targetCopyPath = path.join(TARGET_REF_DIR, sourceName, subRelPath);
+        
+        // Ensure destination directory exists and copy file
+        const targetDir = path.dirname(targetCopyPath);
+        if (!fs.existsSync(targetDir)) {
+          fs.mkdirSync(targetDir, { recursive: true });
+        }
+        if (!fs.existsSync(targetCopyPath)) {
+          fs.copyFileSync(fullPath, targetCopyPath);
+        }
+
         results.push({
           id: `${sourceName}_${f.name}`,
           title: f.name.replace(/\.[^/.]+$/, ''),
           bookSource: sourceName,
-          relPath: `/${relPath}`,
+          relPath: webRelPath,
           absPath: fullPath,
           filename: f.name,
         });
@@ -37,7 +51,7 @@ function scanDir(dirPath, sourceName) {
 }
 
 export function buildImageIndex() {
-  console.log('Indexing KDIGO & Brenner 11e images...');
+  console.log('Indexing and copying KDIGO & Brenner 11e images...');
   const kdigoImages = scanDir(KDIGO_DIR, 'KDIGO');
   const brennerImages = scanDir(BRENNER_DIR, 'Brenner 11e');
   const allImages = [...kdigoImages, ...brennerImages];
@@ -48,7 +62,7 @@ export function buildImageIndex() {
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allImages, null, 2), 'utf-8');
-  console.log(`[SUCCESS] Indexed ${allImages.length} images to ${OUTPUT_FILE}`);
+  console.log(`[SUCCESS] Indexed and copied ${allImages.length} images to ${OUTPUT_FILE}`);
   return allImages;
 }
 

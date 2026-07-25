@@ -659,14 +659,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_部桃考訓_q12_1",
-          "fileName": "a6618d81355a5aeec20c6e59d24bdca48040cd2ff6ada798447ebfe59390500a.png",
-          "relPath": "/exam-images/2025_部桃考訓/a6618d81355a5aeec20c6e59d24bdca48040cd2ff6ada798447ebfe59390500a.png",
-          "caption": "圖 12-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_部桃考訓_q13",
@@ -774,14 +767,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_部桃考訓_q14_1",
-          "fileName": "d585be00498ce4be3540c89e2abf8429a3dd50168d34cde8fbf7f8c1e09517f3.png",
-          "relPath": "/exam-images/2025_部桃考訓/d585be00498ce4be3540c89e2abf8429a3dd50168d34cde8fbf7f8c1e09517f3.png",
-          "caption": "圖 14-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_部桃考訓_q15",
@@ -835,14 +821,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_部桃考訓_q15_1",
-          "fileName": "194ba0bc0fc5889e3b37152fef772f3c9751cbed8417e6d85227747d427eff48.png",
-          "relPath": "/exam-images/2025_部桃考訓/194ba0bc0fc5889e3b37152fef772f3c9751cbed8417e6d85227747d427eff48.png",
-          "caption": "圖 15-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_部桃考訓_q16",
@@ -1063,14 +1042,7 @@
       "qcVerifiedAt": "2026-07-24T18:31:02.610Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "NLM 多數決為 A（從 rawResponse 語意精準擷取 A，覆寫原 UNKNOWN）。與原始答案 A 一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_部桃考訓_q19_1",
-          "fileName": "d6e3a5dc4353316060a0d4af9ceb460940207737e00f4a911a422973f0253b8c.png",
-          "relPath": "/exam-images/2025_部桃考訓/d6e3a5dc4353316060a0d4af9ceb460940207737e00f4a911a422973f0253b8c.png",
-          "caption": "圖 19-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_部桃考訓_q20",
@@ -1100,38 +1072,36 @@
       "sourceExplanation": "",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (2-4)",
-          "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
-          "accountProfile": "sandbox0505",
-          "selectedOption": "D",
-          "rawResponse": "### 1. Answer Determination (答案判定)\n\n本題的正解為 **(D) Domitazol**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (詳細原理解析與正解分析)\n\n根據臨床病史、病理生理學以及藥理學特徵，此患者 **urine color** 呈現異常（**blue** 或 **greenish-blue**）的最可能原因為服用 **Domitazol**，其詳細分析如下：\n\n1.  **特定臨床用藥背景 (Vietnam-Specific Clinical Context)**：\n    患者為一名剛從 Vietnam 返回的 business man，在當地因 **dysuria** 與 **nausea** 被診斷為 **UTI** 並給予藥物治療。在 Vietnam 的臨床實踐與 over-the-counter 市場中，**Domitazol**（以及 **Mictasol-bleu**）是極常被用於緩解 **lower urinary tract infection**（特別是 **cystitis**）相關 **dysuria** 的經典常用藥物。\n2.  **Domitazol 的藥理成分與尿液變色機轉 (Pharmacology and Mechanism of Urine Discoloration)**：\n    **Domitazol** 的主要活性成分包含 **monobromated camphor** 與 **methylene blue**：\n    *   **Monobromated camphor**：具備輕度的 **antiseptic** 與 **analgesic** 作用，可緩解尿道平滑肌痙攣並減輕 **dysuria**。\n    *   **Methylene blue**：是一種具備 **antiseptic** 功效的陽離子染料。**Methylene blue** 在體內經由腎臟進行過濾、分泌並排泄至尿液中。由於其本身呈深藍色，當其與正常尿液中的黃色色素（如 **urochrome**）混合時，會在物理與化學視覺上呈現經典的 **blue** 或 **greenish-blue** 尿液（即 **urine discoloration** 或 **pigmenturia**），這與圖中所提示的藍色/綠色色塊完全吻合。\n3.  **Urinalysis 與臨床表現之佐證 (Urinalysis and Clinical Findings)**：\n    患者的 **urinalysis** 顯示 **pH 7.0**、**nitrite 1+**、**occult blood 1+**，提示尿道確實存在 **UTI**。然而，其 **RBC (3-5/HPF)** 與 **WBC (0-5/HPF)** 均在接近正常的範圍內，且無 **crystals**，這代表雖然尿液顏色發生了劇烈變色，但並非由重度 **gross hematuria** 引起（因為 **occult blood 1+** 與 **RBC 3-5/HPF** 僅代表微量鏡下血尿，無法導致肉眼可見的顯著變色）。這更加證實了其異常顏色是由外源性藥物色素（即 **methylene blue**）所致，而非病理性的出血、**hemoglobinuria**、**myoglobinuria** 或膽汁淤積。\n\n因此，結合 Vietnam 旅遊與用藥史、**UTI** 診斷與藥物排泄特性，**(D) Domitazol** 為最可能的病因。\n\n---\n\n### 3. Distractor Option Analysis (干擾項分析)\n\n*   **Option (A) UTI with Pseudomonas infection**：\n    *   **臨床特徵與典型表現**：某些特定病原體（如 **Pseudomonas aeruginosa**）在 **UTI** 中會產生 **pyocyanin**（藍色色素）與 **pyoverdine**（黃綠色螢光色素），這些色素混合後會使尿液呈現 **green** 或 **blue-green**。\n    *   **為何錯誤**：由 **Pseudomonas** 引起的 **green urine** 臨床上幾乎僅見於長期置入 **indwelling urinary catheter**、接受 **urologic instrumentation** 或住院免疫不全的重症患者（例如 **purple urine bag syndrome** 相關變化）。本案為一名無慢性病的社區患者（community-dwelling patient）主訴急性 **dysuria**，且其 **urinalysis** 中的 **WBC** 僅為 0-5/HPF，不符合由 **Pseudomonas** 引起之急性尿路感染所應伴隨的顯著 **pyuria**（通常 **WBC** > 100/HPF）。\n    *   **出題意圖**：測試考生是否流於表面，僅因「尿液變綠/藍」就聯想到 **Pseudomonas** 感染，而忽略了社區型感染與導尿管相關感染在病生理學上的巨大差異。\n\n*   **Option (B) Phenazopyridine**：\n    *   **臨床特徵與典型表現**：**Phenazopyridine** 是一種常見的 **urinary tract analgesic**，用於緩解 **UTI** 引起的 **dysuria**、**burning sensation** 與 **urgency**。\n    *   **為何錯誤**：根據 Brenner & Rector's *The Kidney* 第 23 章 **Table 23.4 (Main Causes of Abnormal Color Changes in Urine)** 的明確記載，**Phenazopyridine** 引起的典型 **urine discoloration** 為 **red** 或 **orange**。這與本案中提示的藍色/綠色尿液特徵完全不符（**methylene blue** 導致的藍綠色 vs. **Phenazopyridine** 導致的橘紅色）。\n    *   **出題意圖**：這是最經典的藥物誘發尿液變色對比題。出題者利用這兩種最常用的遠端尿道止痛/消炎藥，測試考生能否精確區分其各自在臨床與排泄顏色上的獨特光譜特徵。\n\n*   **Option (C) Chronic bacterial prostatitis**：\n    *   **臨床特徵與典型表現**：好發於老年男性，臨床上可表現為反覆發作的 **UTI**、會陰部不適、**dysuria**，且 **kidney echo** 常用於輔助診斷，常可見到 **prostate calcification** 與 **benign prostatic hyperplasia** 的結構改變。\n    *   **為何錯誤**：雖然患者有 **prostate calcification** 且為 79 歲男性，這可能是他易患 **UTI** 的解剖學易感因子（**predisposing factor**）。然而，**chronic bacterial prostatitis** 本身除了可能伴隨鏡下血尿外，絕對不會直接引起尿液呈現深藍色或綠色的 **urine discoloration**。\n    *   **出題意圖**：此選項利用解剖學發現（**prostate calcification**）作為干擾線索，意圖誘使考生過度關注患者的老年男性特徵而誤入歧途，藉此考查考生能否抓住「尿液顏色異常」這一最核心的臨床突破口。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)\n\n在臨床與專科考試中，關於 **urine discoloration** (或 **abnormal urine color**) 的病因與鑑別診斷，最常考且高機率出現的考點包括：\n\n1.  **Methylene Blue (Domitazol) vs. Pseudomonas aeruginosa in Green/Blue Urine**:\n    *   **Methylene Blue**: 屬於藥物性或染料性原因。尿液呈 **blue** 或 **greenish-blue**，患者通常沒有嚴重的全身性感染症狀（如高熱、**urosepsis**），且 **urinalysis** 中不一定有大量的 **WBCs**。\n    *   **Pseudomonas aeruginosa**: 屬於感染性原因。多見於有 **urinary catheter** 的重症患者，尿液呈 **green** 且常伴隨嚴重的 **pyuria**、**leukocytosis** 與全身發炎反應。\n    *   **鑑別重點**：考試常透過臨床病史（有無插管、有無服用非處方藥物）與 **urinalysis WBC count** 來要求考生進行鑑別。\n2.  **Phenazopyridine vs. Hematuria vs. Myoglobinuria in Red/Orange Urine**:\n    *   **Phenazopyridine**: 藥物引起。**urinalysis dipstick** 可能因化學干擾呈現假陽性，但 **urine microscopy** 下「沒有」**RBCs**，且離心後尿液上清液（**supernatant**）仍保持明亮的 **orange-red**。\n    *   **Hematuria**: 腎臟或尿路出血。**urine microscopy** 下可見到大量的 **RBCs**，且離心後紅色色素沉澱於底部（**pellet**），上清液恢復澄清。\n    *   **Myoglobinuria**: 肌肉溶解（**rhabdomyolysis**）引起。**dipstick** 呈強陽性（因 **myoglobin** 具過氧化物酶活性），但 **urine microscopy** 下無 **RBCs**，且離心後上清液呈紅褐色，常伴隨極高的 **serum creatine kinase**。\n    *   **鑑別重點**：這是腎臟科考試中最著名的三向鑑別診斷（**triple differential diagnosis**），主要考查考生利用「有無鏡下紅血球」與「離心後變化」來判斷病因的能力。\n3.  **Alkaptonuria vs. Porphyria vs. Metronidazole in Urine Darkening**:\n    *   **Alkaptonuria (Homogentisic acid)**: 尿液解出時為正常黃色，但放置於空氣中（**standing**）或鹼化後，因氧化作用會逐漸轉變為 **black**。\n    *   **Porphyria (Porphobilinogen)**: 尿液放置在陽光下（**exposure to light**）會逐漸轉變為 **red-port wine color**。\n    *   **Metronidazole**: 服藥後尿液可能呈 **dark brown**。\n    *   **鑑別重點**：此考點強調「時間與光線暴露」對尿液顏色的動態影響，常出現在代謝性疾病與藥物不良反應的考題中。\n\n---\n\n### 5. Citations & References (引用文獻)\n\n*   **Chapter & Section**:\n    *   **Chapter 23 (Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria)** of *Brenner & Rector's The Kidney*, under the section header **URINALYSIS** (specifically discussing **Table 23.4: Main Causes of Abnormal Color Changes in Urine**).\n    *   **Chapter 36 (Urinary Tract Infection in Adults)** of *Brenner & Rector's The Kidney*, under the section header **DIAGNOSIS** (specifically discussing **clinical manifestation of lower urinary tract infection**).\n*   **Figures, Tables, & Boxes**:\n    *   **Table 23.4**: *\"Main Causes of Abnormal Color Changes in Urine\"*, which lists medications causing brown, red, green, and darkening urine (including **phenazopyridine**, **nitrofurantoin**, and **blue dyes**).\n    *   **Table 23.9**: *\"Causes of Hematuria\"*, distinguishing glomerular from nonglomerular etiologies of **hematuria**.",
+          "notebookTitle": "TSN：出題 (5-3)",
+          "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
+          "accountProfile": "kuonephro",
+          "selectedOption": "NONE",
+          "rawResponse": "### **1. Answer Determination (解答判定)**\n\n本題唯一的正確選項為 **(D) Domitazol**。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正解詳細臨床與藥理生理學分析)**\n\n本病例呈現了一位 79 歲男性，近期有越南旅遊史，因 `urinary tract infection` (UTI) 接受當地藥物治療，隨後出現異常的尿液顏色。\n\n#### **Step-by-Step Clinical & Pharmacological Rationale:**\n1.  **越南特有泌尿道治療藥物 Domitazol**：\n    *   **`Domitazol`** 是一種在越南極為常用且普遍的 `urinary antiseptic` 複方藥物，廣泛用於治療 `lower urinary tract infections`（如 `cystitis` 或 `urethritis`）。\n    *   其核心活性成分包含 **`Methylene blue`**（亞甲藍，一種帶有強烈色素的防腐殺菌劑）、`camphor monobromide`（具鎮痛與溫和防腐作用）以及 `malva purpurea`（錦葵粉，用於抗發炎與利尿）。\n2.  **Methylene blue 的藥物動力學與尿液染色生理機制**：\n    *   口服 **`Methylene blue`** 後，藥物會經由胃腸道迅速吸收，隨後在體內被還原並主要經由腎臟排泄（**`renal excretion`**）。\n    *   在腎小球濾過與小管排泄過程中，**`Methylene blue`** 會使其通過的尿液呈現非常特異性的 **`blue`** 或是 **`blue-green (greenish-blue)`**（藍綠色）。這種異常呈色屬於一種良性、暫時性且具高度特徵性的藥物副作用（**`pharmacological side effect`**），通常在停藥後 24 至 48 小時內即可完全消退並恢復正常尿色。\n3.  **偶聯患者臨床生化數據**：\n    *   患者的 `urinalysis` 顯示 `pH 7.0`、`nitrite 1+`、`occult blood 1+`，這與其 `urinary tract infection` 的診斷完全吻合。\n    *   然而，其 **`RBC 3-5/HPF`** 與 **`WBC 0-5/HPF`** 均處於極低的正常或輕微偏高範圍，且無 `casts` 或 `crystals`。\n    *   這項關鍵的乾淨尿沉渣（**`bland sediment`**）特徵直接排除了因重度活動性出血引起的 `gross hematuria`（呈粉紅色或深紅色）或是因重度感染化膿引起的 `pyuria`（呈乳白色混濁尿）。\n    *   結合患者「剛從越南回國、曾接受當地尿道炎藥物治療、隨後出現異常呈色」的特徵性病史，可以直接確立其尿液異常著色是由於服用越南當地的 **`Domitazol`** 所引起的 **`Methylene blue-induced urine discoloration`**。\n\n因此，選項 **(D)** 是最精準且最符合底層臨床藥理機制的病因學診斷。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項分析)**\n\n*   **(A) UTI with Pseudomonas infection**\n    *   *為何錯誤*：雖然 **`Pseudomonas aeruginosa`**（綠膿桿菌）感染是引起綠色或藍綠色尿液（**`greenish urine`**）的經典病原學原因（主要由於其能產生特殊的綠膿素 **`pyocyanin`** 與黃綠色色素 **`pyoverdine`**），但這類感染幾乎僅發生於長期置放 **`indwelling urinary catheters`**、合併尿路結構畸形、或是處於重症加護病房（**`ICU`**）發生 **`urosepsis`** 的患者（常伴隨 **`purple urine bag syndrome`**）。該患者為一社區活動之高齡商業人士，無任何置管史，且其尿液分析中 **`WBC 0-5/HPF`** 提示完全沒有顯著的 `pyuria`，這在生理上與嚴重的、能產生足夠色素使整杯尿液染色的綠膿桿菌尿路感染完全不符。\n    *   *Exam Author 命題意圖*：測試考生是否只死記硬背「綠色尿液等於綠膿桿菌」這一病理學教條，而忽略了結合患者無置管史、無顯著白血球尿（`pyuria`）以及明確的旅遊服藥史來進行綜合臨床判斷。\n\n*   **(B) Phenazopyridine**\n    *   *為何錯誤*：**`Phenazopyridine`** 是台灣與歐美臨床上最常開立的局部尿道止痛劑（**`urinary tract analgesic`**），用於緩解 `dysuria`。然而，**`Phenazopyridine`** 經由腎臟排泄時，其化學結構典型地會使尿液染成極為顯眼的**亮橘色或深紅色（`bright orange or orange-red`）**，而不是本例中的藍綠色。\n    *   *Exam Author 命題意圖*：利用同為「尿道炎常用止痛防腐藥且會改變尿色」的特點作為高難度干擾項，旨在評估考生對不同化學結構藥物在尿液中所產生的特異性呈色差異（`Phenazopyridine` 呈橘紅色 vs. `Methylene blue` 呈藍綠色）是否具備精準的藥理學鑑別能力。\n\n*   **(C) Chronic bacterial prostatitis**\n    *   *為何錯誤*：雖然高齡男性患者（79 歲）合併有超音波下的 `prostate calcification` 且出現持續的 `dysuria`，這在臨床上常需懷疑 **`chronic bacterial prostatitis`**。然而，前列腺炎本身不論多麼嚴重，其分泌物與病理改變均**絕對不會**導致尿液呈現藍綠色染色。它最多僅會引發鏡下血尿（`microscopic hematuria`）或因化膿出現混濁的 `cloudy urine`。\n    *   *Exam Author 命題意圖*：故意在題幹中加入「`prostate calcification`」這一高齡男性極為常見的隨機超音波伴隨發現，以此誘發考生產生「影像學過度解讀」的臨床盲點，測試考生是否能排除無關的解剖結構改變，直擊藥物呈色的本質。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)**\n\n在腎臟專科與執照考試中，尿液異常呈色（**`Urine Discoloration`**）的鑑別是評估臨床醫師基本功與診斷推理的黃金考點（參考 **Table 23.4**）：\n\n#### **High-Yield Comparison: Urine Color Changes and Etiologies**\n\n| 尿液呈色特徵 (Urine Color) | 藥物驅動因子 (Pharmacological Causes) | 病理學/生理學原因 (Pathological / Physiological Causes) |\n| :--- | :--- | :--- |\n| **`Orange to Bright Red`** | **`Phenazopyridine`**、**`Rifampin`**、`Sulfasalazine` | 脫水致極度濃縮尿、高胡蘿蔔素血症（`hypercarotenemia`） |\n| **`Blue to Green / Blue-Green`** | **`Methylene blue (Domitazol)`**、`Amitriptyline`、`Triamterene`、`Propofol` | **`Pseudomonas aeruginosa`** 感染、膽紅素經小管排泄氧化為膽綠素（**`biliverdin`**） |\n| **`Brown to Black (Cola-colored)`** | **`Metronidazole`**、`Methyldopa`、`Nitrofurantoin`、`Chloroquine`、`L-dopa` | **`Myoglobinuria`** (rhabdomyolysis)、**`Hemoglobinuria`** (severe intravascular hemolysis)、`Alkaptonuria`、`Melanoma` |\n| **`White / Milky`** | 腸道營養製劑中的藍色染料 | **`Chyluria`** (chyle in urine)、重度 **`Pyuria`** (severe UTI or renal abscess)、**`Amorphous phosphate`** 沉澱 |\n| **`Pink / Cloudiness`** | 無特定常用藥物 | **`Massive uric acid crystalluria`** (急性腫瘤溶解綜合徵或高尿酸尿症) |\n\n---\n\n### **5. Citations & References (精確引用與文獻出處)**\n\n*   **Brenner & Rector's The Kidney - Chapter 23:** *Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria*\n    *   **Section:** *Urinalysis* $\\rightarrow$ Subsection: *Color*.\n    *   **Table 23.4 (Page 738):** *Main Causes of Abnormal Color Changes in Urine* (明確標明了 **`Phenazopyridine`** 引起 **`Red`**；**`Rifampin`** 引起 **`Yellow-orange to red`**；以及 **`Triamterene`** 與某些染色成分引起 **`Green`** 尿色的藥物動力學依據).\n    *   **Section:** *Nonglomerular Hematuria* $\\rightarrow$ Subsection: *Urinary Tract Infection* / *Benign Prostatic Hypertrophy* (對比了前列腺 calcification 與 UTI 引起的鏡下血尿 RBC 數量分布特徵).\n*   **Brenner & Rector's The Kidney - Chapter 36:** *Urinary Tract Infection in Adults*\n    *   **Section:** *Diagnosis* $\\rightarrow$ (詳述了尿路感染診斷中 `urine culture` 陽性標準與臨床排除梗阻影像學指徵).\n*   **KDIGO 2026 AKI-AKD Guideline (Public Review Draft - March 2026):**\n    *   **Chapter 2.5:** *Urine Microscopy* $\\rightarrow$ **Table 4** (*Summary of Urine Sediment Findings in Different Syndromes*) (明確將 **`Maltese cross`**、`crystals`、`lipid droplets` 以及各類抗菌藥物如 `sulfonamides` 引起的結晶與顏色變異進行了系統性的表格化歸類).\n\n---\n\n### **6. Database Limitation Guard (數據與文獻限制聲明)**\n\n本篇關於多種臨床尿液呈色異常、越南進口藥物 **`Domitazol`** 內含之 **`Methylene blue`** 對尿液的染色通路、綠膿桿菌引發綠色尿之流行病學前提限制、以及 **`Phenazopyridine`** 引起橘黃色尿液的生化機制分析，均完全基於提供的 *Brenner & Rector's The Kidney*（第 23 & 36 章）及 *KDIGO 2026* 最新公眾諮詢草案等數據庫文獻進行撰寫，無任何超出此範圍之外的臨床臆測。\n\n---\n\n### 📊 Next Step Suggestion\nWould you like me to construct an integrated diagnostic decision-tree flowchart (aligned with Table 23.4 of the text) illustrating the **systematic clinical evaluation of abnormal urine colors**—specifically showing how to rule out pathologic life-threatening conditions (e.g., **rhabdomyolysis**, **intravascular hemolysis**, and **porphyria**) using simple bedside tests (**urine centrifugation**, **dipstick blood reaction**, and **microscopic sediment exam**)?",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (3-5)",
-          "databaseSufficiency": "SUFFICIENT",
-          "rawResponse": "### **1. Answer Determination**\n\n**Correct Option**: **Option D (Domitazol)**\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis**\n\n本題描述一位無慢性病史的 79 歲老年男性，自越南返國後因 `dysuria` 與 `nausea` 被診斷為 `urinary tract infection`（`UTI`）並在當地服藥，因症狀持續而至急診就醫。其 `urinalysis` 顯示 `pH 7.0`、`nitrite 1+`、`occult blood 1+`、`RBC 3-5/HPF`、`WBC 0-5/HPF`，且 `urine color` 呈現如圖所示的異常藍色/藍綠色（`input_file_40.png` 至 `input_file_44.png` 所顯示之藍色色塊）。結合其特殊的越南旅遊與服藥史，最可能的診斷為 **`Domitazol`** 引起的 **`urine discoloration`**。\n\n#### **臨床與藥理生理學機制分析 (Step-by-Step Clinical & Physiological Rationale)**：\n\n1. **`Domitazol` 的成分與藥理特性**：\n   * **`Domitazol`** 是越南當地極為普及且常作為非處方藥（`over-the-counter`）或基層醫療處方的 `UTI` 治療藥物。\n   * 該藥物的核心成分包含 **`methylene blue`**（20 mg）、**`camphor monobromide`**（20 mg）以及 **`Malva purpurea`** 複方。\n   * 其中，**`methylene blue`** 是一種陽離子染料，在口服吸收後會迅速進入體內循環，並經由腎臟進行 `glomerular filtration` 與 `tubular secretion` 排泄。\n\n2. **`Methylene Blue` 導致 `Urine Discoloration` 的機制**：\n   * 當 **`methylene blue`** 排入尿液中時，在未被還原的狀態下會呈現深藍色或藍綠色。\n   * 隨著尿液中 `methylene blue` 濃度的不同以及與尿液中正常黃色色素（如 `urochrome`）的物理混合，患者的尿液會呈現出非常特異性的 **`blue-green urine`** 或深藍色。\n   * 這種因藥物引起的 `urine discoloration` 屬於良性且暫時性的生理現象，通常在停藥後 24 至 48 小時內即可完全消退。\n\n3. **臨床診斷整合**：\n   * 患者在越南因 `UTI` 接受治療，並服用當地給予的專科藥物，隨後出現特異性的藍色尿液。此表現完全符合口服 `methylene blue` 複方製劑（即越南盛行的 **`Domitazol`**）後的典型排泄反應。因此，**Option D** 為最符合本題臨床情境的正確診斷。\n\n---\n\n### **3. Distractor Option Analysis**\n\n*   **Option (A) UTI with Pseudomonas infection 錯誤原因**：\n   *   **為何錯誤**：雖然 **`Pseudomonas aeruginosa`** 感染是臨床上少數會引發 **`green urine`** 或 **`blue-green urine`** 的病原體（其透過產生綠膿素 **`pyocyanin`** 與綠膿黃素 **`pyoverdine`** 等色素），但這種現象幾乎僅見於長期置放 **`indwelling catheter`**、發生阻塞性尿路病變或免疫高度抑制的住院患者中。本例患者為社區感染且無置放 `catheter` 史，更重要的是其尿液顏色變化是在「服用越南給予的 `UTI` 藥物」後立即發生，時間線高度指向藥物介導，而非極罕見的非管路性藍綠膿桿菌尿毒症。\n   *   **典型臨床表現**：常見於置放 `urinary catheter` 的慢性照護患者，尿袋或管路呈現特異性的紫色或藍綠色（`purple urine bag syndrome`）。\n   *   **命題作者意圖**：測試考生是否流於形式，僅因看到「藍綠色尿液」與「`UTI`」就直覺選擇綠膿桿菌感染，藉此篩選出能注意到「在越南服用特定藥物後發生」這一關鍵病史線索的考生。\n\n*   **Option (B) Phenazopyridine 錯誤原因**：\n   *   **為何錯誤**：**`Phenazopyridine`** 是一種廣泛用於緩解 `UTI` 所致 `dysuria` 的尿路止痛劑。然而，根據 *Brenner & Rector's The Kidney* 第 23 章 **Table 23.4** 的規範，**`Phenazopyridine`** 所導致的典型 `urine discoloration` 顏色為 **`orange-red`**（橘紅色或亮紅色），這與本題影像中明確呈現的藍色（`blue`）色素完全不符。\n   *   **典型臨床表現**：服用後會排出鮮豔的橘紅色尿液，且常會將隱形眼鏡或皮膚染成黃橙色。\n   *   **命題作者意圖**：考查考生對於不同尿路輔助藥物（`urinary analgesics/antiseptics`）在排泄色素學上的鑑別能力，對比橘紅色的 **`Phenazopyridine`** 與藍綠色的 **`Domitazol`**（`methylene blue`）。\n\n*   **Option (C) Chronic bacterial prostatitis 錯誤原因**：\n   *   **為何錯誤**：**`Chronic bacterial prostatitis`** 雖然是老年男性發生反覆性 `UTI`、`dysuria` 的常見病因，且超音波（`kidney echo`）下觀察到的 `prostate calcification` 亦高度支持此病理背景，但該疾病本身**絕對不會**導致尿液顏色變藍或變綠。患者的尿液顏色在無藥物干擾下仍會維持常規的琥珀色或淡黃色。\n   *   **典型臨床表現**：反覆發作的尿路感染，伴隨骨盆腔、陰囊或會陰部不適，`kidney echo` 常有攝護腺鈣化與實質不均勻。\n   *   **命題作者意圖**：引入攝護腺鈣化等干擾性影像學診斷，測試考生能否釐清「引起 `UTI` 的底層解剖結構因素（`prostate calcification`）」與「導致尿液染色異常的直接外源性物理化學因素（藥物）」之間的因果關係。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons**\n\n在腎臟專科與執照考試中，尿液顯色異常（`abnormal urine color`）是一項著重於病理生理與藥物代謝的經典考點：\n\n#### **1. Blue-Green Urine 的臨床鑑別診斷**\n當患者呈現藍色或綠色尿液時，必須進行系統性的病因篩檢：\n*   **外源性藥物與化學物**：\n    *   **`Methylene blue` (Domitazol)**：最常見的藥物病因，呈藍色或藍綠色。\n    *   **`Amitriptyline`**：抗憂鬱藥，其代謝產物會使尿液呈現藍綠色。\n    *   **`Triamterene`**：保鉀利尿劑，其分子本身具備螢光特性，在鹼性尿液中常使尿液呈現淡綠色。\n    *   **`Propofol`**：靜脈麻醉藥，在長時間或大劑量輸注後，因其酚類代謝物在腎臟排泄，會導致尿液呈特異性綠色。\n*   **感染性病因**：\n    *   **`Pseudomonas aeruginosa`**：產生 `pyocyanin` 導致綠色尿。\n*   **遺傳與代謝性病因**：\n    *   **`Hartnup disease`**（藍尿布綜合徵）：因 `tryptophan` 吸收障礙，腸道細菌將其轉化為 `indican`，經空氣氧化後在尿布上呈現藍色。\n\n#### **2. Red-Orange-Brown Urine 的臨床鑑別診斷 (高頻對比)**\n*   **`Hematuria` vs. `Hemoglobinuria` vs. `Myoglobinuria`**：\n    *   **鑑別關鍵**：利用 `urinalysis dipstick` 與 `urine microscopy` 進行分流：\n        *   **`Hematuria`**：`dipstick` 呈 `occult blood` 陽性，且 `microscopy` 下可見大量整體的 **`RBCs`**。離心後，上清液會恢復澄清，紅血球沉澱於底部。\n        *   **`Hemoglobinuria` / `Myoglobinuria`**：`dipstick` 呈強陽性，但 `microscopy` 下 **`no RBCs`**（或極少）。離心後上清液仍維持紅色/茶色不變。\n*   **藥物性紅色/橘色尿**：\n    *   **`Rifampin`**：經典的結核藥物，排泄呈黃橙色至紅色。\n    *   **`Phenazopyridine`**：尿路止痛藥，呈明亮的橘紅色。\n\n---\n\n### **5. Citations & References**\n\n*   **Chapter & Section**：\n    *   根據 *Brenner & Rector's The Kidney* **Chapter 23: Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria**。\n        *   Section: **URINALYSIS - Table 23.4: Main Causes of Abnormal Color Changes in Urine**（精準收錄了包括 `Phenazopyridine`、`Rifampin`、`nitrofurantoin`、`triamterene` 以及藍色染料等藥物與病理狀態對尿液顏色的特異性染色圖譜）。\n*   **Figures, Tables, & Boxes**：\n    *   **Table 23.4**：*Main Causes of Abnormal Color Changes in Urine*（明確標示 `Phenazopyridine` 導致紅色/橙色尿液，以及藍色染料與特定藥物引起綠色/藍色尿液的臨床對照）。",
-          "selectedOption": "NONE"
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "selectedOption": "NONE",
+          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### **來源文獻分析與限制說明 (Detailed Analysis of Database Limitations)**\n\n根據 **notebook sources**（包括 *Brenner & Rector's The Kidney* 與各項 *KDIGO Guidelines*）所提供的文獻資料，本題由於關鍵藥物資訊與病理機制的缺失，無法做出唯一且絕對正確的排他性診斷：\n\n1. **Domitazol 的文獻缺失**：\n   * **Domitazol**（一種在特定東南亞國家如越南常用的 `urinary tract antiseptic`，其成分通常含有 `methylene blue`、`camphor monobromide` 與 `salol`）**完全沒有（not mentioned）**出現在任何提供的 `notebook sources` 中。\n   * 雖然在臨床上，`methylene blue` 是導致 `urine discoloration` 呈現 `blue` 或 `blue-green` 的經典藥物原因，但由於文獻中缺乏對 `Domitazol` 及其化學成分、藥理學效應和特定尿液染色特徵的任何記載，因此無法依據現有來源將其確立為最可能的診斷。\n\n2. **現有文獻中關於 Urine Discoloration 的記載限制**：\n   * 根據 **Chapter 23 (\"Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria\")** 中的 **Table 23.4 (\"Main Causes of Abnormal Color Changes in Urine\")** [1]：\n     * 文獻中僅記載了 **phenazopyridine** 與 **phenytoin** 會導致 **red urine** [1]。\n     * 記載了 **rifampin** 會導致 **yellow-orange to red urine** [1]。\n     * 記載了 **chloroquine** 與 **nitrofurantoin** 會導致 **brown urine** [1]。\n     * 記載了 **triamterene** 與 **blue dyes of enteral feeds** 會導致 **green urine** [1]。\n     * 雖然此處提到了 **blue dyes**，但並未將其與 `Domitazol` 或特定的越南 `urinary tract infection (UTI)` 治療藥物相連結。\n\n3. **關於 Pseudomonas 與 Prostatitis 的記載限制**：\n   * 根據 **Chapter 36 (\"Urinary Tract Infection in Adults\")** [2]，雖然 `Pseudomonas aeruginosa` 是 `xanthogranulomatous pyelonephritis` 的常見致病菌之一（約佔 8%），但文獻中並未詳細討論 `Pseudomonas` 感染本身（因產生 `pyocyanin` 與 `pyoverdine`）在急性 `UTI` 患者中引發 `green urine` 的臨床比例或特異性表型。\n   * 同章節雖然提及了 `prostatitis` [3]，但未將其與特異性的 `urine discoloration` 進行病理生理學關聯。\n\n因此，在缺乏對 `Domitazol` 的學術描述及確切尿液顯色影像數據的情況下，本題無法在符合 `source-grounding` 的前提下進行最終解答。\n\n---\n\n### **Citations & References**\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney* 第 23 章 (\"**Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria**\")：\n        *   Section: \"**URINALYSIS**\" / \"**Table 23.4 Main Causes of Abnormal Color Changes in Urine**\" [1]。\n    *   *Brenner & Rector's The Kidney* 第 36 章 (\"**Urinary Tract Infection in Adults**\")：\n        *   Section: \"**XANTHOGRANULOMATOUS PYELONEPHRITIS**\" [2]。\n        *   Section: \"**DIAGNOSIS**\" [4]。\n\n---\n\n🔍 如果您需要，我可以啟動網路檢索（**web research**）為您確認此一越南旅遊史相關的特定 `UTI` 藥物顯色病例在各項醫學專科考試中的標準答案與藥理學解析。請問是否需要我進行檢索？",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "INSUFFICIENT",
+          "error": null
         }
       ],
-      "reconciliationStatus": "RESOLVED_BY_NLM",
-      "reconciliationNotes": "原始檔無提供答案，且 NotebookLM 兩組檢索結果不一致 (D vs NONE)。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "以原始解答 (D) 為準。",
+      "qcVerified": false,
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:31:54.717Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 D (Domitazol)。覆寫原舊腳本 Regex 誤標之 UNKNOWN。",
-      "attachedImages": [
-        {
-          "id": "img_2025_部桃考訓_q20_1",
-          "fileName": "60df6ecd4e3252d479cbd562b9aabdae07ee61d97391b763f5cf4c80d496bdb6.png",
-          "relPath": "/exam-images/2025_部桃考訓/60df6ecd4e3252d479cbd562b9aabdae07ee61d97391b763f5cf4c80d496bdb6.png",
-          "caption": "圖 20-1"
-        }
-      ]
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     }
   ],
   "highConfidenceCount": 15,

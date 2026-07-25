@@ -23,8 +23,14 @@ function renderFormattedText(text: string, isLight: boolean) {
   if (!text) return null;
   // First convert em/strong
   let cleanHtml = text
-    .replace(/<em\b[^>]*>(.*?)<\/em>/gi, '<em class="italic text-sky-600 dark:text-sky-300 font-semibold">$1</em>')
-    .replace(/<strong\b[^>]*>(.*?)<\/strong>/gi, '<strong class="font-bold text-amber-700 dark:text-amber-300 underline decoration-amber-500/50">$1</strong>');
+    .replace(/<em\b[^>]*>(.*?)<\/em>/gi, '<em class="italic text-sky-600 dark:text-sky-300 font-semibold">$1<\/em>')
+    .replace(/<strong\b[^>]*>(.*?)<\/strong>/gi, '<strong class="font-bold text-amber-700 dark:text-amber-300 underline decoration-amber-500/50">$1<\/strong>');
+
+  // Render Markdown images ![caption](url)
+  cleanHtml = cleanHtml.replace(
+    /!\[(.*?)\]\((.*?)\)/g,
+    '<div class="my-3 flex flex-col items-center"><img src="$2" alt="$1" class="max-h-96 max-w-full rounded-xl border border-slate-700/50 shadow-md object-contain" /><span class="text-xs text-slate-400 mt-1">$1<\/span><\/div>'
+  );
 
   // Render KaTeX Math
   cleanHtml = renderKaTeXInString(cleanHtml);
@@ -47,6 +53,21 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
   onOpenAttachedImage,
 }) => {
   const isLight = themeMode === 'light';
+
+  // Defensive normalization of attachedImages
+  const rawAttached = question.attachedImages || [];
+  const normalizedAttachedImages: AttachedImage[] = rawAttached.map((img: any, idx: number) => {
+    if (typeof img === 'string') {
+      const fileName = img.split('/').pop() || `image_${idx + 1}`;
+      return {
+        id: `img_${question.id}_${idx + 1}`,
+        fileName,
+        relPath: img,
+        caption: `考題附圖 ${idx + 1}`,
+      };
+    }
+    return img;
+  });
 
   return (
     <div
@@ -97,14 +118,14 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
           </div>
 
           {/* Question Attached Figures */}
-          {question.attachedImages && question.attachedImages.length > 0 && (
+          {normalizedAttachedImages.length > 0 && (
             <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-3">
               <div className="flex items-center gap-2 text-xs font-bold text-sky-600 dark:text-sky-400">
                 <ImageIcon className="w-4 h-4" />
-                <span>考題隨附圖表 / 影像切片 ({question.attachedImages.length} 張圖)</span>
+                <span>考題隨附圖表 / 影像切片 ({normalizedAttachedImages.length} 張圖)</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {question.attachedImages.map((img) => (
+                {normalizedAttachedImages.map((img) => (
                   <button
                     key={img.id}
                     onClick={() => onOpenAttachedImage && onOpenAttachedImage(img)}

@@ -55,38 +55,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q1_1",
-          "fileName": "2eeec70cdf56edd9dda3f5375b4d66f575ddcc8ad1b5120ede506cc4a929c7a7.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/2eeec70cdf56edd9dda3f5375b4d66f575ddcc8ad1b5120ede506cc4a929c7a7.jpg",
-          "caption": "圖 1-1"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q1_2",
-          "fileName": "7a4687ff6c7d60d27ea6d82dd03f62bf87c25264e22d1ddc6549e4dc0239de23.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/7a4687ff6c7d60d27ea6d82dd03f62bf87c25264e22d1ddc6549e4dc0239de23.jpg",
-          "caption": "圖 1-2"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q1_3",
-          "fileName": "6bfeaff277b248e2bb429edce1725dd6d387eeda903778030a3b6afbcb0b5191.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/6bfeaff277b248e2bb429edce1725dd6d387eeda903778030a3b6afbcb0b5191.jpg",
-          "caption": "圖 1-3"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q1_4",
-          "fileName": "65213d800384623e490882cf33964b2ab3bf7e0f7b0ee5829141baac04141517.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/65213d800384623e490882cf33964b2ab3bf7e0f7b0ee5829141baac04141517.jpg",
-          "caption": "圖 1-4"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q1_5",
-          "fileName": "fd46f70952d65a663ed1a835f10050f13f8d322f45803284fbc493a4caf682db.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/fd46f70952d65a663ed1a835f10050f13f8d322f45803284fbc493a4caf682db.jpg",
-          "caption": "圖 1-5"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q2",
@@ -116,62 +85,36 @@
       "sourceExplanation": "",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (2-1)",
-          "databaseSufficiency": "SUFFICIENT",
-          "rawResponse": "### 1. Answer Determination\n本題的單一正確選項（即**不屬於**台灣健康保險署對 `tolvaptan`（商品名：`Jinarc`）治療自體顯性多囊性腎臟病（`ADPKD`）初次使用之給付規定之項目）為 **(C) eGFR decline ≥2.0 ml/min/1.73m2/year for 5 years**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據台灣全民健康保險藥物給付項目及支付標準中關於心臟血管及腎臟藥物之給付規定（第 2.13.2 節，自民國 109 年 10 月 1 日修訂生效），`tolvaptan`（如 `Jinarc`）用於治療 `ADPKD` 慢性腎臟病成人患者的健保初次使用（`first use`）事前審查給付規定，必須符合以下所有臨床與病理學條件：\n\n1.  **Age and Professional Prescription**: 限腎臟專科醫師處方並經事前審查核准，病患年齡須在 **18歲以上，50歲以下**。\n2.  **Kidney Function and Stage**: 初次使用限用於已出現病情迅速惡化跡象之 **第3期慢性腎臟病（CKD stage 3）** 患者（意即 `eGFR` 介於 $30\\text{ to } 59\\text{ mL/min/1.73 m}^2$）。\n3.  **Imaging Confirmation**: 腎臟影像（如 `CT`、`MRI` 或 `ultrasound`）必須呈現 **雙側/瀰漫性水泡（bilateral/diffuse cysts）**。\n4.  **Evidence of Rapid Progression**: 病患之病情惡化跡象必須符合下列至少一項：\n    *   一年之內 `eGFR` 下降 $\\ge 5.0\\text{ mL/min/1.73 m}^2$（且排除脫水、藥物、感染、阻塞等誘因）。\n    *   **五年內 `eGFR` 每年下降 $\\ge 2.5\\text{ mL/min/1.73 m}^2$**（且排除其他誘因）。\n    *   `height-adjusted Total Kidney Volume`（`htTKV`）符合 **Mayo classification 1C–1E disease**。\n\n由於選項 (C) 指出之條件為 `eGFR decline ≥2.0 ml/min/1.73m2/year for 5 years`，與健保規範之實際門檻 **$\\ge 2.5\\text{ mL/min/1.73 m}^2/\\text{year}$** 不符。因此，選項 (C) 並非台灣健保給付之適應症指標，為本題正解。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) CKD stage 3**\n    *   **為何不選此項**：因為這確實是健保初次給付的必要條件。雖然在全球 `REPRISE` 臨床試驗中，`tolvaptan` 已被證實對 `CKD stage 4` 患者（`eGFR` 下降至 $25\\text{ mL/min/1.73 m}^2$）依然具備延緩腎功能惡化的臨床效益，且 `KDIGO 2025` 指南也建議對 `eGFR ≥25 mL/min/1.73 m2` 且有快速進展風險者啟動治療。然而，考量健保財務衝擊與資源分配，台灣健保署目前僅放寬給付於 **`CKD stage 3`** 的 `ADPKD` 患者。\n    *   **命題者設計意圖**：測試考生是否流於死記 `FDA` 或 `KDIGO` 指南之寬鬆適應症（`eGFR ≥25`），而忽略了台灣健保之本土化嚴格給付規範限制。\n\n*   **(B) eGFR decline ≥5.0 ml/min/1.73m2 within one year**\n    *   **為何不選此項**：因為這確實是健保給付中用以判定「病情迅速惡化」的兩大腎功能軌跡（`renal function trajectory`）指標之一。此項反映了短期內爆發性的功能喪失，必須排除 `acute kidney injury (AKI)`、`dehydration` 或 `infection` 等可逆因素。\n    *   **命題者設計意圖**：評估考生對於評估 `ADPKD` 迅速惡化（`rapid progression`）時，短期與長期 `eGFR decline` 雙軌臨界值定義的精確掌握。\n\n*   **(D) height adjusted Total Kidney Volume (htTKV) Mayo classification 1C-1E**\n    *   **為何不選此項**：因為這確實是健保給付認可的影像學進展風險判定標準。根據 `CRISP` 的長期觀察，`TKV` 和 `cyst volume` 是 `ADPKD` 腎功能惡化最強烈的預測因子。`Mayo Imaging Classification (MIC)` 依據 `htTKV` 隨年齡的增長率，將典型患者分為 1A 至 1E 五個亞群。其中 **1C、1D 與 1E** 分別對應每年大於 3.0%、4.5% 與 6.0% 的腎臟體積增長率，在臨床上被定義為 `rapid progressors`（預期在 60 歲前進展至 `kidney failure`），這也是健保與 `KDIGO` 共識推薦使用 `tolvaptan` 的影像學黃金標準。\n    *   **命題者設計意圖**：評估考生是否理解 `TKV` 在 `ADPKD` 預後評估中的核心病理生理學角色，以及 `Mayo Clinic` 影像分型（`MIC`）的臨床分期應用。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科與板考中，`ADPKD` 以及與其具有重疊影像或臨床表現的遺傳性腎臟病，常在以下幾個關鍵維度進行高難度的鑑別診斷與對比：\n\n#### 1. Autosomal Dominant Polycystic Kidney Disease (ADPKD) versus Autosomal Recessive Polycystic Kidney Disease (ARPKD)\n*   **遺傳與突變基因**：\n    *   `ADPKD`：由 `PKD1`（85%）或 `PKD2`（15%）突變引起。`PKD1` 突變患者的 `ESKD` 中位發病年齡較早（約 54 歲），而 `PKD2` 突變患者預後較好，中位發病年齡約 74 歲。\n    *   `ARPKD`：由 `PKHD1` 基因突變引起，為嬰幼兒與兒童期發病的罕見重症。\n*   **臨床與系統性表徵**：\n    *   `ADPKD`：典型在 30 至 40 歲後顯現，除了雙側巨大腎囊腫外，常合併 `polycystic liver disease`、`intracranial aneurysms`、`valvular heart disease` 以及 `colonic diverticula`。特別是 `acquired cystic kidney disease` 常見於透析患者並與 `renal cell carcinoma` 高度相關，而 `ADPKD` 本身與 `renal cell carcinoma` 的盛行率並無顯著因果相關（對照 **Passage 101**）。\n    *   `ARPKD`：表現為雙側對稱性的集合管梭形擴張（`fusiform dilation`），在新生兒期常伴隨 `congenital hepatic fibrosis`、`biliary dysgenesis` 與嚴重的 `portal hypertension`。\n\n#### 2. ADPKD versus Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD)\n*   **影像與囊腫表現**：\n    *   `ADPKD`：腎臟顯著增大，兩側腎臟皆佈滿大大小小的囊腫，實質完全被囊腫破壞。\n    *   `ADTKD`：為一組體染色體顯性遺傳的間質性疾病（包括 `UMOD`、`MUC1`、`REN` 突變）。其**腎臟體積正常或偏小**，在晚期可能僅出現少量非特異性的髓質微小囊腫（`medullary cysts`）。\n*   **臨床特徵（Gout & Hyperuricemia）**：\n    *   以最常見的 **`ADTKD-UMOD`**（尿調節素基因突變）為例，病患在青少年或青年期即表現出嚴重的 **`early-onset gout`** 與 **`hyperuricemia`**。這是由於 `UMOD` 缺陷導致 `Henle's loop` 段對尿調節素的分泌與排泄異常，繼而引起原發性 `renal uric acid clearance` 降低（`low fractional excretion of uric acid`，對照 **Passage 79**）。而 `ADPKD` 雖在晚期也可伴隨高尿酸，但絕無 `ADTKD-UMOD` 這種原發、極早發且突出的痛風家族史特徵。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter Name & Section Headers**:\n    *   根據 **Brenner & Rector's The Kidney**，第 45 章：**\"Cystic Diseases of the Kidney\"** 之中的以下章節：\n        *   **\"AUTOSOMAL DOMINANT POLYCYSTIC KIDNEY DISEASE\"**\n        *   **\"Clinical Manifestations - Renal Manifestations\"** (詳述了 `TKV` 與 `TKV-based growth rate` 作為預後核心的病理生理學基礎，Passage 106)。\n        *   **\"Treatment\"** 及其子項目 **\"TEMPO 3:4 and REPRISE trials\"** (詳細記載了兩大 pivotal 試驗的收案標準、eGFR 益處、以及對肝毒性監測的要求，Passage 107, 108)。\n        *   **\"Autosomal Dominant Tubulointerstitial Kidney Disease\"** (Passage 109)。\n    *   根據 **KDIGO 2025 Clinical Practice Guideline for the Evaluation, Management, and Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD)** 之中：\n        *   **\"Chapter 1: Nomenclature, diagnosis, prognosis, and prevalence\"** 及其 **\"Recommendation 1.4.2.1\"** (強烈推薦使用 `Mayo Imaging Classification` 預估 eGFR 軌跡，Passage 430, 444)。\n        *   **\"Chapter 4: Therapies to delay the progression of kidney disease\"** 及其 **\"Recommendation 4.1.1.1\"** 與 **\"Figure 25: KDIGO algorithm to decide in whom to prescribe tolvaptan\"** (明確條列了 eGFR 臨界值、Mayo 影像分類 1C-1E、與 1 年內 eGFR 下降大於 3 的標準，Passage 431, 432, 465)。\n    *   根據 **Taiwan National Health Insurance (NHI) Drug Reimbursement Regulations (全民健康保險藥物給付項目及支付標準第2節 2.13.2 Tolvaptan)** (Passage 2.13.2)。\n\n*   **Figures, Tables, & Boxes**:\n    *   **Figure 25 (KDIGO 2025 Guideline)**：*\"The Kidney Disease: Improving Global Outcomes algorithm to decide in whom to prescribe tolvaptan\"* (Passage 432, 465)。\n    *   **Figure 8 (KDIGO 2025 Guideline)**：*\"The Mayo Imaging Classification divides height-adjusted total kidney volume (htTKV)/age into 5 different classes\"* (Passage 445)。\n    *   **Figure 12 & 13 (KDIGO 2025 Guideline)**：*\"The Predicting Renal Outcome in Polycystic Kidney Disease (PROPKD) algorithm and score\"* (Passage 412, 453)。\n    *   **Figure 17.15 (Brenner Chapter 17)** / **Flow Chart 24.10 (Brenner Chapter 24)**：展示了痛風、高尿酸血症與腎功能不全在 `ADTKD-UMOD` 中的內在關聯。",
-          "selectedOption": "C"
+          "notebookTitle": "TSN：出題 (5-5)",
+          "notebookId": "9e85f4f8-356e-451b-ba72-d776b13807ea",
+          "accountProfile": "kuonephro",
+          "selectedOption": "NONE",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "INSUFFICIENT",
+          "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (1-3)",
-          "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
+          "notebookTitle": "TSN：出題 (1-1)",
+          "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
           "accountProfile": "mudskipper24",
           "selectedOption": "NONE",
-          "rawResponse": "`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`\n\n---\n\n### 1. Database Evidence Analysis (資料庫證據分析)\n\n經詳細檢索與分析所有提供的 `Notebook Sources`（包含 *Brenner & Rector's The Kidney* 各章節與最新發佈的 *KDIGO Guidelines*）：\n*   **缺失內容**：這些文獻皆屬於全球性的醫學教科書與國際臨床診療指引，其撰寫範疇僅限於全球通用的實證醫學共識。文獻中**完全沒有**記載 `Taiwan` 本地特有的 `National Health Insurance`（健保）對於 `Tolvaptan` 用於 `ADPKD` 患者之首度使用（`First Use`）的具體給付規定、審查標準與報銷適應症限制（例如健保規定之特定的 `eGFR` 下降速度或階段限制等細節）。\n*   **現有內容**：雖然資料庫缺乏 `Taiwan` 本地給付法規的資訊，但文獻中（特別是 **KDIGO 2025 ADPKD Guideline**）對於國際上使用 `Tolvaptan` 治療 `ADPKD` 的臨床指引推薦（`Indications`）有著極為詳盡的闡述，可提供出題與學術對比的參考。\n\n---\n\n### 2. KDIGO 2025 ADPKD Guideline 關於 Tolvaptan 臨床適應症規範\n\n根據 **Chapter 4 of KDIGO 2025 ADPKD Guideline (Section 4.1: Tolvaptan)**，國際指引對於啟動 `Tolvaptan` 治療的實證醫學推薦如下：\n\n*   **`eGFR` 門檻限制 (Recommendation 4.1.1.1)**：\n    指引推薦應在 `eGFR ≥ 25 mL/min/1.73 m2` 且合併有 `Rapid Disease Progression` 風險的 `ADPKD` 成人患者中啟動 `Tolvaptan` 治療 [1, 2]。\n*   **快速進展 (Rapid Disease Progression) 的評估指標**：\n    根據 `KDIGO` 的決策演算法（`Figure 25`），具備高進展風險可由以下任一指標判定 [1, 2]：\n    1.  **`Mayo Imaging Classification`（`MIC`）**：屬於 `Mayo Class 1C`、`Mayo Class 1D` 或 `Mayo Class 1E` 的典型影像表型 [1-3]。這代表經由 `MRI` 測得並校正後的 `htTKV` 估算之年增長率分別為 `3.0%–4.5%`（`1C`）、`4.5%–6.0%`（`1D`）與 `>6.0%`（`1E`） [3, 4]。\n    2.  **`Historical Rate of eGFR Decline`**：歷史 `eGFR` 下降速度 `≥ 3 mL/min/1.73 m2/year`（需由 3 至 5 年內的多點測量確立，且排除 `AKI`、`Uncontrolled Hypertension`、`Diabetic Nephropathy` 或 `Vascular Disease` 等其他臨床干擾因素） [1, 2, 5-7]。\n    3.  **`PROPKD Score`**：當臨床病史與 `MIC` 無法明確判定時，若基因與臨床評分所得之 `PROPKD Score > 6`（代表高度進展風險，其預測 `Kidney Failure` 發生於 60 歲前的 `Positive Predictive Value` 高達 90.9%），亦可作為啟動 `Tolvaptan` 的支持依據 [5, 8-10]。\n*   **關於 `CKD Stage 3` 的考量**：\n    大型臨床試驗如 `TEMPO 3:4`（收案對象主要為 `CKD Stage 1–3`）[11, 12] 與 `REPRISE`（收案對象主要為 `CKD Stage 2–4`）[13, 14] 均證實，對於處於 `CKD Stage 3` 的 `ADPKD` 患者，使用 `Tolvaptan` 能顯著延緩其 `eGFR` 下降速率並減少 `Kidney Pain` 等併發症 [14-16]。\n\n---\n\n### 3. Citations & References (文獻引用與參考)\n\n*   **KDIGO 2025 Clinical Practice Guideline for the Evaluation, Management, and Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD)**\n    *   **Chapter & Section**: *Chapter 4: Disease-modifying therapies: Section 4.1: Tolvaptan*\n    *   **Figures & Tables**:\n        *   **Figure 25**: *The Kidney Disease: Improving Global Outcomes algorithm to decide in whom to prescribe tolvaptan* (detailing the GFR ≥ 25 mL/min/1.73 m2, Mayo Class 1C–1E, and historical eGFR decline ≥ 3 mL/min/1.73 m2 per year criteria) [1, 2].\n        *   **Figure 26**: *Summary of the Tolvaptan Efficacy and Safety in Management of Autosomal Dominant Polycystic Kidney Disease and Its Outcomes (TEMPO 3:4) and Replicating Evidence of Preserved Renal Function: An Investigation of Tolvaptan Safety and Efficacy in ADPKD (REPRISE) trials* [15].\n        *   **Figure 8 (Chapter 1)**: *The Mayo Imaging Classification divides height-adjusted total kidney volume (htTKV)/age into 5 different classes* [4].\n        *   **Figure 12 (Chapter 1)**: *The Predicting Renal Outcome in Polycystic Kidney Disease (PROPKD) algorithm* [9].\n\n---\n📊 **Nudge**: 由於本題涉及台灣健保（Taiwan NHI）的給付規範，這屬於特定的在地化行政法規而非全球臨床指南。如果您需要，我們可以先透過合適的學術文獻檢索整理出台灣現行的 Samsca（Tolvaptan）健保給付適應症條文，並與上述 KDIGO 2025 國際指引進行並列比較，協助您完成這道考試題目。",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 補充說明 (Supplementary Explanation)\n\n雖然根據外部台灣衛生福利部中央健康保險署（NHI）的實際藥品給付規定，`tolvaptan`（如 `Jinarc`）用於自體顯性多囊性腎臟病（`ADPKD`）的健保初次使用給付條件包含：\n1. 限用於已出現病情迅速惡化跡象之 **`CKD stage 3`** 的 18 至 50 歲 `ADPKD` 患者。\n2. 且腎臟影像呈雙側/瀰漫性水泡。\n3. 病情須符合下列至少一項：\n   * 一年之內 `eGFR decline ≥ 5.0 mL/min/1.73m²`。\n   * **五年內 `eGFR` 每年平均下降 `≥ 2.5 mL/min/1.73m²`**（此處對比 **Option C** 的 `≥ 2.0`，故 Option C 是錯誤的/非健保給付適應症）。\n   * `htTKV` 符合 **`Mayo classification 1C–1E`**。\n\n然而，由於您提供的 **Notebook Sources**（包括 *Brenner & Rector's The Kidney* 與 *KDIGO Guidelines* 等學術文獻）僅記載了 `tolvaptan` 的國際臨床試驗數據（如 `TEMPO 3:4` 與 `REPRISE` 試驗）[1, 2] 及其在各國的核准概況 [1, 3]，**並未包含台灣健保（Taiwan NHI）特有的藥品給付與折抵標準細則**。\n\n為了嚴格遵守您的 **Database Limitation Guard** 以及 NotebookLM 僅依賴給定來源進行事實宣稱的誠信承諾，此處必須明確判定為資訊不足，並輸出規定的安全字串。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCHED",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (NONE)。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "以原始解答 (C) 為準。",
+      "qcVerified": false,
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:32:15.614Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM Run 3 精準推論正解為 (C) (Tolvaptan 給付標準)。與原始答案 C 一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q2_1",
-          "fileName": "232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
-          "caption": "圖 2-1"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q2_2",
-          "fileName": "3391f99045148c3f67bad6059abf931321f5ca19aefd6c10c4dce59f7b6883c7.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/3391f99045148c3f67bad6059abf931321f5ca19aefd6c10c4dce59f7b6883c7.jpg",
-          "caption": "圖 2-2"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q2_3",
-          "fileName": "200089873846a12dfb1bd4250097a51fb31fea6a6f42839922f390f44879db48.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/200089873846a12dfb1bd4250097a51fb31fea6a6f42839922f390f44879db48.jpg",
-          "caption": "圖 2-3"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q2_4",
-          "fileName": "011d3259cf989506de5511839c34c1561993dbdbfa397cdc30b8eab32856d4aa.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/011d3259cf989506de5511839c34c1561993dbdbfa397cdc30b8eab32856d4aa.jpg",
-          "caption": "圖 2-4"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q2_5",
-          "fileName": "b95389fba386b925538f1ddda5015db0e0c723e2059ff7fbed281cd8de5c3f29.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/b95389fba386b925538f1ddda5015db0e0c723e2059ff7fbed281cd8de5c3f29.jpg",
-          "caption": "圖 2-5"
-        }
-      ]
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q3",
@@ -225,14 +168,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q3_1",
-          "fileName": "326a37c75d3843d45ec72e56c7684099f5edf185366a40d1df3bf59346aff779.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/326a37c75d3843d45ec72e56c7684099f5edf185366a40d1df3bf59346aff779.jpg",
-          "caption": "圖 3-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q4",
@@ -285,7 +221,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:32:15.619Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 多數推論為 C (Magnesium ammonium phosphate / struvite stone)。原始答案 B 存在爭議。"
+      "qcNotes": "經 100% LLM 語意閱讀，NLM 多數推論為 C (Magnesium ammonium phosphate / struvite stone)。原始答案 B 存在爭議。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q5",
@@ -338,7 +275,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q6",
@@ -391,7 +329,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q7",
@@ -449,7 +388,15 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:32:15.626Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 一致推論為 B (Granulomatosis with polyangiitis / GPA)。原始答案 C 存在爭議。"
+      "qcNotes": "經 100% LLM 語意閱讀，NLM 一致推論為 B (Granulomatosis with polyangiitis / GPA)。原始答案 C 存在爭議。",
+      "attachedImages": [
+        {
+          "id": "img_2025_北醫臨床練習題_q7_1",
+          "fileName": "232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
+          "relPath": "/exam-images/2025_北醫臨床練習題/232f137ee60f2e18b457bc7b0f265c5baaa64ce3b5de17ecb24345e7bb0bfc6a.jpg",
+          "caption": "Figure 1 HE stain & Figure 2 ANCA stain"
+        }
+      ]
     },
     {
       "id": "2025_北醫臨床練習題_q8",
@@ -507,7 +454,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.564Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC passed. 原始檔無殘片。雙重語意校對確認 NLM 解析無誤。NLM 皆推論為 A (Vomiting related hyponatremia and Gitelman’s syndrome)。解說符合學理。"
+      "qcNotes": "QC passed. 原始檔無殘片。雙重語意校對確認 NLM 解析無誤。NLM 皆推論為 A (Vomiting related hyponatremia and Gitelman’s syndrome)。解說符合學理。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q9",
@@ -560,7 +508,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q10",
@@ -613,7 +562,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q11",
@@ -671,7 +621,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.570Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC passed. 原始檔無殘片。NLM 皆推論為 C。患者尿氯 <20 mEq/L、尿鉀 45 mEq/L 支持 surreptitious diuretic abuse，而原始解答標記 B 存在爭議。"
+      "qcNotes": "QC passed. 原始檔無殘片。NLM 皆推論為 C。患者尿氯 <20 mEq/L、尿鉀 45 mEq/L 支持 surreptitious diuretic abuse，而原始解答標記 B 存在爭議。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q12",
@@ -725,14 +676,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q12_1",
-          "fileName": "349b12a50107c86a7abd482e96b37dc049102a9b55ad50d497f326b757ba6420.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/349b12a50107c86a7abd482e96b37dc049102a9b55ad50d497f326b757ba6420.jpg",
-          "caption": "圖 12-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q13",
@@ -791,14 +735,7 @@
       "qcVerifiedAt": "2026-07-24T18:31:18.576Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "QC passed. 原始檔無殘片。NLM 1 推論為 B, D 複選，NLM 2 推論為 B。原始解答為 B。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q13_1",
-          "fileName": "0ba627ed2b4063e74cb29e751c06d36f7cf82955eae5c1bd881be77203803647.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/0ba627ed2b4063e74cb29e751c06d36f7cf82955eae5c1bd881be77203803647.jpg",
-          "caption": "圖 13-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q14",
@@ -856,7 +793,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.582Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC passed. 原始檔無殘片。原始解答 D (33.3 ml/kg/hr) 為 prescribed dose。NLM 點出 delivered dose 為 C (25.3 ml/kg/hr)。判定 NLM 推論正確。"
+      "qcNotes": "QC passed. 原始檔無殘片。原始解答 D (33.3 ml/kg/hr) 為 prescribed dose。NLM 點出 delivered dose 為 C (25.3 ml/kg/hr)。判定 NLM 推論正確。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q15",
@@ -909,7 +847,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q16",
@@ -962,7 +901,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q17",
@@ -1016,32 +956,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q17_1",
-          "fileName": "f3702294e960e4bd668fcb0e9df4e7c9137e2d97370d7c0b351df090892602fd.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/f3702294e960e4bd668fcb0e9df4e7c9137e2d97370d7c0b351df090892602fd.jpg",
-          "caption": "圖 17-1"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q17_2",
-          "fileName": "21c0b94ba273cbb33cf81f01a24f98cdd494498042e61366f0e795b413cc51b2.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/21c0b94ba273cbb33cf81f01a24f98cdd494498042e61366f0e795b413cc51b2.jpg",
-          "caption": "圖 17-2"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q17_3",
-          "fileName": "082de2c7075fdaecc1300aefb4d66eb58ef09f9a08bdc7375181b69a6049b8bc.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/082de2c7075fdaecc1300aefb4d66eb58ef09f9a08bdc7375181b69a6049b8bc.jpg",
-          "caption": "圖 17-3"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q17_4",
-          "fileName": "4b2113d36fb540886aa0c64b146f3ede74dc6745c74878cb0f71e4a1765aec8c.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/4b2113d36fb540886aa0c64b146f3ede74dc6745c74878cb0f71e4a1765aec8c.jpg",
-          "caption": "圖 17-4"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q18",
@@ -1099,7 +1014,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.587Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "QC passed. 原始檔無殘片。NLM 皆推論為 A。患者 PAC >20 且 PRA <0.1 併自發性低血鉀，免除 confirmatory test 直接做 CT。"
+      "qcNotes": "QC passed. 原始檔無殘片。NLM 皆推論為 A。患者 PAC >20 且 PRA <0.1 併自發性低血鉀，免除 confirmatory test 直接做 CT。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q19",
@@ -1158,7 +1074,8 @@
       "qcVerifiedAt": "2026-07-24T18:31:21.786Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "此為圖片題。原始 PDF Q15 提供病理切片影像 (IgG, C3 等螢光染色)，題幹缺乏圖片致使 NLM 誤判。標記為 isInvalidQuestion: true。",
-      "isInvalid": true
+      "isInvalid": true,
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q20",
@@ -1211,7 +1128,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q21",
@@ -1270,7 +1188,8 @@
       "qcVerifiedAt": "2026-07-24T18:31:21.796Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "此為圖片題。原始 PDF Q17 提供 EM (Intranuclear Virions) 與 Urine cytology 影像，題幹缺乏圖片致使 NLM 無法正確選出 (C)。標記為 isInvalidQuestion: true。",
-      "isInvalid": true
+      "isInvalid": true,
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q22",
@@ -1324,7 +1243,8 @@
       "qcVerifiedAt": "2026-07-24T18:31:21.802Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "此為圖片題。原始 PDF Q18 提供切片影像 (Linear IgG)，原始答案實為 (D)，萃取時 sourceProvidedAnswer 誤植為 (B)。標記為 isInvalidQuestion: true。",
-      "isInvalid": true
+      "isInvalid": true,
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q23",
@@ -1378,14 +1298,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q23_1",
-          "fileName": "9f858b71a52916b6e88b7ee4618f0b413ee8b2a577bbc97e6cd69866c8b57d9a.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/9f858b71a52916b6e88b7ee4618f0b413ee8b2a577bbc97e6cd69866c8b57d9a.jpg",
-          "caption": "圖 23-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q24",
@@ -1444,14 +1357,7 @@
       "qcVerifiedAt": "2026-07-24T18:31:21.808Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "純文字題。原始答案給予 (A)，但兩組 NLM 皆基於 AWARD-7 試驗實證強烈推論為 (C)。標記 DISPUTED_SOURCE_VS_NLM 供醫師審查。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q24_1",
-          "fileName": "1114044af2b01d1ba154ca65d9023aa03fabf7b82d38f80583532d4d347e8d4f.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/1114044af2b01d1ba154ca65d9023aa03fabf7b82d38f80583532d4d347e8d4f.jpg",
-          "caption": "圖 24-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q25",
@@ -1509,7 +1415,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.814Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "純文字題。原始 PDF Q21 答案實為 (C) FSGS，萃取時將 sourceProvidedAnswer 誤植為 (A)。兩組 NLM 皆正確語意推論出 (C)。"
+      "qcNotes": "純文字題。原始 PDF Q21 答案實為 (C) FSGS，萃取時將 sourceProvidedAnswer 誤植為 (A)。兩組 NLM 皆正確語意推論出 (C)。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q26",
@@ -1563,20 +1470,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q26_1",
-          "fileName": "61d6908f9858fd66835af1d521e7c5d138473107943dbd5ee4447a087491b6a7.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/61d6908f9858fd66835af1d521e7c5d138473107943dbd5ee4447a087491b6a7.jpg",
-          "caption": "圖 26-1"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q26_2",
-          "fileName": "5bfd9e014db689cc39871af73d17e64bcb99c65701903d4a684e8852c6bf4af5.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/5bfd9e014db689cc39871af73d17e64bcb99c65701903d4a684e8852c6bf4af5.jpg",
-          "caption": "圖 26-2"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q27",
@@ -1629,7 +1523,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q28",
@@ -1682,7 +1577,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q29",
@@ -1735,7 +1631,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q30",
@@ -1789,14 +1686,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q30_1",
-          "fileName": "ed0fe3df52369c7642868e33e62536ef30b5236e9f138302a1a1880983ae3f2d.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/ed0fe3df52369c7642868e33e62536ef30b5236e9f138302a1a1880983ae3f2d.jpg",
-          "caption": "圖 30-1"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q31",
@@ -1849,7 +1739,8 @@
       "qcStatus": "UNVERIFIED",
       "qcVerifiedAt": null,
       "qcVerifiedBy": null,
-      "qcNotes": ""
+      "qcNotes": "",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q32",
@@ -1879,22 +1770,22 @@
       "sourceExplanation": "血液透析及腹膜透析訪視作業評量標準說明 109 年度公告版 V1",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (1-4)",
-          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
+          "notebookTitle": "TSN：出題 (1-2)",
+          "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
           "accountProfile": "mudskipper24",
           "selectedOption": "A",
-          "rawResponse": "### 1. Answer Determination\n\n本題中的錯誤敘述（即正確答案）為 **(A) The dialysis water should be cultured within plate containing medium with tryptone glucose (TGEA) or Reasoners (R2A) at 37°C for 168 hours. The number of colonies should not exceed more than 300 CFU/mL**。\n\n***\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n在 **hemodialysis** 的臨床管理中，確保 **dialysis water** 的品質是預防病人發生醫源性併發症的最關鍵防線。**Taiwan Society of Nephrology** 採納了 **AAMI** 與 **ISO 13959** 的安全水質指引 [1, 2]，對微生物培養條件與數量限制有極為嚴格的科學規範。\n\n選項 **(A)** 在「培養溫度」、「培養時間與培養基的搭配」以及「菌落數量上限」三個維度上均存在嚴重的生理與微生物學錯誤：\n\n1.  **Microbiological Medium 與 Temperature 的錯配**：\n    *   在 **dialysis water** 的微生物監測中，所使用的 **tryptone glucose extract agar (TGEA)** 與 **Reasoners 2A (R2A)** 屬於 **low-nutrient media**（低營養培養基）[3]。這類培養基是專門設計用來分離和培養水中生長的慢速生長型、寡營養、耐冷或嗜冷性細菌（如 **Pseudomonas**、**Acinetobacter**、**nontuberculous mycobacteria**）[4]。\n    *   這類水生菌對高溫極為敏感，其標準的培養溫度必須設定在 **17°C 至 23°C**（即室溫環境），並持續培養 **168 hours**（7天）[3]。\n    *   如果在臨床檢驗中，將 **TGEA** 或 **R2A** 置於 **37°C** 的高溫箱中培養 168 小時，這會導致兩個致命後果：第一，高溫會直接抑制或殺死這些不耐熱的水生菌；第二，在 **37°C** 乾熱環境下持續放置 7 天，培養基的 **agar** 將會完全乾涸、龜裂並失去活性。\n    *   相反地，若要使用較高溫的 **35°C 至 37°C** 進行快速培養，則必須搭配高營養的 **tryptic soy agar (TSA)**，且培養時間僅能設定為 **48 hours** [3]。\n2.  **Colonies 菌落數量限制錯誤**：\n    *   根據目前的 **Taiwan Society of Nephrology** 與 **AAMI/ISO 13959** 指引，標準 **dialysis water** 與 **dialysate** 的 **bacterial count** 上限為 **<100 CFU/mL**，且當達到 **50 CFU/mL** 時即觸發 **action level**（必須立即採取消毒與系統維護措施）[1, 3]。\n    *   即使是多年前的舊版標準，其菌落數限制也是 <200 CFU/mL [1]，**從未**允許放寬至 **300 CFU/mL**。\n\n因此，選項 **(A)** 混淆了不同培養基的溫度配對，且寫錯了菌落數量限制，是完全錯誤（**NOT CORRECT**）的描述，為本題正解。\n\n***\n\n### 3. Distractor Option Analysis\n\n*   **Option (B) is CORRECT (敘述正確，故不選)**：\n    *   **生理機制與規範**：**AAMI/ISO 13959** 將標準 **dialysis water** 的 **endotoxin** 濃度安全上限從先前的 <2.0 EU/mL 顯著調降至 **<0.25 EU/mL**，並將其 **action level** 設定在 **0.125 EU/mL** [1]。檢測方法是以鱟試劑法（即 **Limulus amebocyte lysate [LAL] assay**）進行特異性定量 [5]。雖然在常規運作中，各透析中心多進行每月抽檢，但法規與學術指引（包括 **Taiwan Society of Nephrology**）要求的全面水質合規檢測（包含完整的化學與內毒素分析）之最低法定頻率為**至少每年一次（at least annually）**。\n    *   **設計意圖**：測試考生是否掌握 **endotoxin** 在新舊規範中的數值變革（2.0 EU/mL 降至 0.25 EU/mL）以及常用的 **LAL assay** 分析工具 [1, 5]。\n\n*   **Option (C) is CORRECT (敘述正確，故不選)**：\n    *   **生理機制與規範**：為防止水源受季節、工業污染或自來水廠加藥影響，**Taiwan Society of Nephrology** 規定，**reverse osmosis (RO)** 系統產出的 **product water** 與前端的 **source water** 必須**至少每年（at least annually）**進行一次化學污染物（**chemical contaminants**）的全面篩檢 [6, 7]。這些測試必須包含重金屬（如 **aluminum**, **lead**, **arsenic**）以及無機鹽和有毒離子（如 **fluoride**, **copper**, **zinc**），以防長期累積導致慢性蓄積中毒（例如 **aluminum** 累積會引起致命的 **dialysis dementia**、骨軟化與嚴重貧血） [6, 8, 9]。\n    *   **設計意圖**：測試考生是否理解化學毒物檢測的法定頻率與預防慢性系統性毒性的重要性。\n\n*   **Option (D) is CORRECT (敘述正確，故不選)**：\n    *   **生理機制與規範**：**chlorine** 與 **chloramines** 是城市自來水常用來消毒的添加物。其中 **chloramines** 在水中呈電中性，**reverse osmosis (RO) membrane** 對其去除效果極差，因此必須在前端透過 **activated carbon filtration**（雙活性碳罐）進行化學吸附清除 [6, 10]。指引要求，在每個透析班次（**shift**）開始前，必須監測活性碳罐出水端的 **total chlorine**（游離氯與氯胺之和）濃度，其安全值必須嚴格維持在 **<0.1 mg/L (0.1 ppm)** [6]。如果活性碳罐飽和失效，**chloramines** 穿透入 **dialysate** 中，將會直接穿過透析膜進入病人血中，強烈氧化紅血球膜上的 **hemoglobin**，引發急性的全身性 **hemolysis**、**methemoglobinemia** 與 **anemia**，會造成嚴重的低氧血症與心血管崩潰 [9]。\n    *   **設計意圖**：評估考生是否理解 **activated carbon filtration** 在去除 **chloramines** 中的核心角色，以及對 **chloramine toxicity** 引起的急性溶血災難與濃度監測極限（0.1 mg/L）的重視。\n\n***\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科醫師考試中，與 **dialysis water safety** 相關的考點通常集中在不同級別水質的規格對比，以及不同水質污染所致的臨床症狀鑑別：\n\n#### 1. Microbiological Quality Standards for Dialysis Fluids [3, 11]\n\n| 水質級別 | **Bacteria Count (CFU/mL)** | **Endotoxin Level (EU/mL)** | 臨床主要用途與特點 |\n| :--- | :--- | :--- | :--- |\n| **Standard Dialysis Water / Dialysate** | **< 100** (Action level: 50) | **< 0.25** (Action level: 0.125) | 用於標準 **hemodialysis (HD)** 療程。不需絕對無菌，因為完整膜可阻擋細菌 [1, 12]。 |\n| **Ultrapure Dialysate** | **< 0.1** | **< 0.03** | 推薦用於高通量透析，減少微發炎（**C-reactive protein** 下降、**ESA resistance** 改善） [1, 13]。 |\n| **Substitution Fluid for Infusion** | **Sterile (Undetectable)** | **Undetectable (< 0.03)** | 直接輸注進入人體體循環（如 **online HDF**），必須達到絕對無菌與超低內毒素 [11]。 |\n\n#### 2. Hazards Associated with Dialysis Water Contaminants [8, 9, 14]\n\n*   **Pyrogenic Reaction (Endotoxemia)**:\n    *   **病因**：**endotoxin** 碎片（如 **lipopolysaccharide**、**peptidoglycans**）因透析膜破損、**backfiltration** 或複用消毒不完全，跨膜進入病人血中 [13]。\n    *   **臨床表現**：透析開始後 30 至 60 分鐘內爆發急性的 **shaking chills**、**fever**、**hypotension** 伴隨噁心、嘔吐 [10]。\n*   **Chloramine Toxicity**:\n    *   **病因**：**activated carbon** 飽和使 **chloramines** 穿透至透析液 [10]。\n    *   **臨床表現**：急性、大規模的 intravascular **hemolysis**（高 **LDH**、低 **haptoglobin**、血紅素尿）與 **methemoglobinemia**，病人呈現顯著的 **pallor** 與 **cyanosis**，極易致死 [9]。\n*   **Hard Water Syndrome**:\n    *   **病因**：**softener** 樹脂失效，自來水中的高濃度 **calcium** 與 **magnesium** 未被交換而進入透析液 [14]。\n    *   **臨床表現**：嚴重的 **hypercalcemia** 與 **hypermagnesemia**，透析中出現急劇上升的 **hypertension**、全身肌肉無力、極度噁心與嘔吐 [14]。\n\n***\n\n### 5. Citations & References\n\n本題之臨床微生物學與水質安全標準分析完全基於下列 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines** 內容：\n\n*   **Brenner & Rector's The Kidney (11th Edition)**:\n    *   **Chapter Title**: Chapter 63: Hemodialysis\n        *   Section Header: **DIALYSATE** $\\rightarrow$ Subsection: **WATER TREATMENT** (詳細列出了 tap water 需經過軟化、碳罐、RO 等完整純化流程；Figure 63.18 提供了完整的 RO 水處理配置圖解)\n        *   Section Header: **DIALYSATE** $\\rightarrow$ Subsection: **Hazards Associated With Dialysis Water** (詳細描述了各類化學污染物如鋁、氯胺、氟化物的危害)\n        *   Section Header: **DIALYSATE** $\\rightarrow$ Subsection: **Microbiology of Hemodialysis Systems** (闡述了 AAMI/ISO 指引在 2009 年的調整，明確指出細菌數應為 <100 CFU/mL、內毒素應為 <0.25 EU/mL，並對比了 **ultrapure dialysate** 的規格：<0.1 CFU/mL 與 <0.03 EU/mL)\n        *   Section Header: **DIALYSATE** $\\rightarrow$ Subsection: **Monitoring Water Quality** (詳細說明了使用 **LAL assay** 監測內毒素以及培養基 [**TGEA**, **R2A**] 偵測微量污染的應用)\n*   **KDIGO Guidelines**:\n    *   **KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury**:\n        *   Chapter 5.7: **Replacement and dialysate solutions for RRT** $\\rightarrow$ Section 5.7.4 (指出透析液必須至少符合 AAMI 微生物與內毒素安全標準)\n        *   **Table 23**: titled *\"Microbiological quality standards of different regulatory agencies\"* (詳細對照了 **ANSI/AAMI/ISO** 與 **ERA-EDTA** 的水質規格：Water for dialysis 菌落應 <100 CFU/mL，內毒素應 <0.25 EU/mL 或 <0.5 EU/mL；並對比了 **ultrapure dialysate** 與 **substitution fluid** 的高規格限值)",
+          "rawResponse": "### **1. Answer Determination**\n根據 **Taiwan Society of Nephrology (TSN)** 與 **AAMI/ISO** 的血液透析用水安全品質指引，本題中敘述 **錯誤**（即本題要求選出之正確答案）的選項為 **Option (A)**。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis**\n\n#### **Option (A) 為何是錯誤敘述（生菌數培養條件與標準之病理生理分析）**：\n*   **培養溫度與時間的謬誤 (Culture Conditions Error)**：\n    根據 **TSN** 頒布之「血液透析及腹膜透析訪視作業評量標準說明」與「醫療機構血液透析感染管制措施指引」[1, 2]：\n    *   若選用低營養培養基如 **Tryptone Glucose Extract Agar (TGEA)** 或 **Reasoner's 2 Agar (R2A)** 進行生菌數培養，其生理學目的是為了讓生長緩慢的水生環境雜菌（**water-borne environmental bacteria**）有足夠時間增殖。此時，培養溫度必須設定在 **17°C 至 23°C**（相當於室溫/環境溫度，**ambient / room temperature**）下，並持續培養 **168 hours** (7天) 進行菌落計數 [1, 2]。\n    *   若選用高營養培養基如 **Trypticase Soy Agar (TSA)** 或 **TGYE**，則是在 **35°C**（或 35°C–37°C）的高溫下培養較短的 **48 hours** [1, 2]。\n    *   Option (A) 錯誤地將 **TGEA / R2A** 與 **37°C** 培養溫度進行組合。在 37°C 的高溫下培養 168 小時（7天）會導致培養基乾枯開裂，並殺死絕大多數對熱敏感的水生菌，導致嚴重的偽陰性或低估生菌數 [1]。\n*   **菌落數上限標準的謬誤 (Bacterial Count Limit Error)**：\n    根據現行的 **TSN**、**AAMI (ANSI/AAMI/ISO 13959)** 以及 **ISO** 規範，標準的透析用水（**dialysis water**）與透析液（**dialysate**）的細菌生菌數上限為 **<100 CFU/mL** (且 `action level` 設定為 **50 CFU/mL**)，而在過去較舊的 TSN 評量標準中亦不得超過 **200 CFU/mL** [1, 2]。Option (A) 宣稱「不得超過 300 CFU/mL」顯著高於所有公認的臨床安全指引 [1]。\n\n---\n\n### **3. Distractor Option Analysis**\n\n*   **Option (B) is clinically correct (非本題答案)**：\n    *   **分析**：為了防範血液透析病患因內毒素（**endotoxin**）引發致熱源反應（**pyrogenic reactions**），**TSN** 與 **AAMI/ISO** 規範要求降低可接受的內毒素濃度。新型標準將透析用水的內毒素容許值從早期的 2.0 EU/mL 嚴格下調至 **<0.25 EU/mL**，並使用 **Limulus Amebocyte Lysate (LAL) assay** 進行常規與年度監測 [1, 2]。\n    *   **出題意圖**：測試考生是否掌握 **endotoxin** 標準下調的演進（2.0 EU/mL 降至 <0.25 EU/mL），以及是否熟悉 **LAL assay** 作為常規內毒素檢測的核心方法。\n\n*   **Option (C) is clinically correct (非本題答案)**：\n    *   **分析**：**hemodialysis** 患者每週暴露於高達 600 公升的透析用水中，任何微量的化學污染物皆可能在體內產生慢性蓄積毒性。因此，對於化學污染物（**chemical contaminants**，包括 **aluminum**, **fluoride**, **lead**, **copper**, **zinc** 等 23 項指標）必須**至少每年（at least annually）**採樣一次送至合格實驗室進行定量檢測，並與自來水水源進行對比評估，以排除中毒風險（如 `aluminum-induced osteomalacia` 與 `encephalopathy`） [3, 4]。\n    *   **出題意圖**：考查臨床醫師是否遵循 **AAMI/ISO** 與健保規範中對於無機化學污染物「至少每年」進行水質全面檢測的強制性要求。\n\n*   **Option (D) is clinically correct (非本題答案)**：\n    *   **分析**：為了預防自來水中的氯胺（**chloramines**）或游離氯進入透析液，RO 系統前處理必須設置活性碳槽（**carbon tanks**）進行吸附。自來水中的 **chloramines** 具有極強的脂溶性與氧化性，一旦進入透析液，會輕易跨越透析膜並將紅血球中的二價鐵（**ferrous iron, Fe2+**）氧化為三價鐵（**ferric iron, Fe3+**），引發急性 **methemoglobinemia**（高鐵血紅蛋白血症）、**hemolysis** 與 Heinz body 溶血性貧血 [3, 5]。因此，臨床上必須每日在首班透析前與班與班之間，嚴密監測並確保 **total chlorine** 濃度低於 **0.1 mg/L** [3]。\n    *   **出題意圖**：測試考生對於活性碳槽（**carbon filter**）監測指標與 **total chlorine** 臨床安全閾值（<0.1 mg/L）的熟練度，這在技術與安全維護中是極高頻的考點。\n\n---\n\n### **4. Exam High-Yield Comparisons & Differential Diagnosis**\n\n在洗腎與重症替代治療（**RRT**）的專科考試中，以下關於水質與微生物管理的物理/生理指標對比是高頻考點：\n\n#### **Standard Dialysis Water vs. Ultrapure Dialysate vs. Substitution Fluid (HDF)**：\n*   **Standard Dialysis Water / Dialysate**：\n    *   細菌生菌數標準：**<100 CFU/mL** (且 `action level` 設在 **50 CFU/mL**) [2]。\n    *   內毒素標準：**<0.25 EU/mL** [2]。\n*   **Ultrapure Dialysate (超純透析液)**：\n    *   細菌生菌數標準：**<0.1 CFU/mL** [6]。\n    *   內毒素標準：**<0.03 EU/mL** [6]。\n    *   *臨床獲益*：臨床實證（如 **KDIGO 2012** 記載）證實，使用超純透析液能顯著降低體內的慢性微發炎反應（**chronic inflammation**）、改善 **serum albumin and hemoglobin** 水平、並降低對紅血球生成素（**ESA**）的用藥需求 [1, 7]。\n*   **Substitution Fluid for Online HDF (置換液)**：\n    *   細菌生菌數標準：必須達到 **sterile** (細菌數為 0 或 **<10^-6 CFU/mL**) [6]。\n    *   內毒素標準：**<0.03 EU/mL** (或 undetectable) [6]。\n\n---\n\n### **5. Citations & References**\n\n*   **Brenner & Rector's The Kidney, Chapter 63 (\"Hemodialysis\")**：\n    *   Section: **\"DIALYSATE - Water Treatment\"** & **\"Hazards Associated with Dialysis Water\"** & **\"Microbiology of Hemodialysis Systems\"** (Passage 177, 179, 180, 183, 184)。\n    *   **Table 63.7**：*\"Solutes Present in the Dialysate\"* (Passage 178)。\n    *   **References**：AAMI/ISO standards (Ref 351, 352)。\n*   **KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury**：\n    *   Chapter 5.7：**\"Replacement and dialysate solutions for RRT\"** (Practice Point 5.7.4 & Rationale) (Passage 301, 321, 322, 323)。\n    *   **Table 23**：*\"Microbiological quality standards of different regulatory agencies\"* (Passage 324, 325)。\n*   **Taiwan Society of Nephrology (TSN) Guidelines**：\n    *   *\"醫療機構血液透析感染管制措施指引 - 台灣腎臟醫學會\"* & *\"台灣腎臟醫學會血液透析及腹膜透析訪視作業評量標準說明\"*: 詳列 TGEA/R2A (17°C–23°C, 168h) 與 TSA/TGYE (35°C, 48h) 培養基與培養條件對照表，以及透析純水總生菌數標準。\n\n---\n\n📊 鑒於透析水質管理對於減少末期腎臟病患慢性發炎反應的重要性，是否需要我為您建立一個針對「透析用水（RO 水）之前處理、活性碳槽、反滲透膜、紫外線殺菌及超濾除熱源」的完整流程圖與臨床監測標準表（Quality Control Checklist），以方便您在教學與臨床晨會中使用？",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (1-5)",
-          "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+          "notebookTitle": "TSN：出題 (1-3)",
+          "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
           "accountProfile": "mudskipper24",
           "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 說明與分析\n\n在您提供的 100 個 notebook 來源中（包含 *Brenner & Rector's The Kidney*、多項 *KDIGO Guidelines* 等），雖然有關於 **AAMI**、**ANSI** 與 **ISO** 對於血液透析用水（**dialysis water**）與透析液（**dialysate**）的微生物與內毒素標準（如 **colony-forming units [CFU]/mL** 與 **endotoxin units [EU]/mL** 的限量與 **action levels**）的詳細記錄，但**完全缺乏**台灣腎臟醫學會（**Taiwan Society of Nephrology [TSN]**）所制定的特異性血液透析用水安全品質標準指引（包括其特定的培養基 **TGEA** / **R2A** 培養溫度與時間、氯濃度監測極限值等）。\n\n為了遵循 **NotebookLM** 核心的「來源本位（**source-grounding**）」安全原則，且避免使用外部訓練數據進行非預期或不精確的推測，在此必須誠實地向您報告：現有資料庫的資訊不足以確證或否定上述關於 **Taiwan Society of Nephrology** 透析用水品質標準指引的選項。",
+          "rawResponse": "`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`\n\n---\n\n### 1. Database Evidence Analysis (資料庫證據分析)\n\n經詳細檢索並分析提供的 `Notebook Sources`（包括 *Brenner & Rector's The Kidney* 的 Chapter 63 與各項 `KDIGO Guidelines`），發現本題所涉及的 **Taiwan Society of Nephrology (台灣腎臟醫學會，TSN)** 血液透析安全水質標準的特定細節，在資料庫中**缺乏足夠且精確的文獻記載**：\n\n*   **缺失之關鍵 TSN 指引細節**：\n    1.  資料庫中**無任何章節**提及 `Taiwan Society of Nephrology` (TSN) 的特定水質指引。\n    2.  關於透析用水培養基、培養溫度（37°C）與時間（168 hours）的 TSN 規範細節，未出現在任何 passages 中。\n    3.  關於 TSN 所定義之 `chlorine` 監測閾值（是否低於 0.1 mg/l）與 `chemical contaminants` 測試頻率的具體條文亦無記載。\n*   **資料庫中所含之國際水質標準（可考證內容）**：\n    資料庫僅詳細收錄了 **`AAMI (Association for the Advancement of Medical Instrumentation)`** 聯合 **`ISO (International Standards Organization)`** 以及 `European Renal Association–European Dialysis and Transplant Association` (ERA-EDTA) 的國際微生物與內毒素標準 [1-3]。\n\n因此，本題觸發了 `Database Limitation Guard` 條款，無法單憑提供的文獻做出最終正解的判定。以下為您整理資料庫中關於 **`Hemodialysis Water Quality and Microbiology`** 的核心學術與病理生理學內容，以供專科出題與教學參考。\n\n---\n\n### 2. Detailed Rationale & Water-Quality Pathophysiology (透析水質病理生理學深度分析)\n\n雖然無法直接判定 TSN 指引的對錯，但根據 *B&R's The Kidney* 第 63 章與 `KDIGO` 指引，透析水質安全監控的核心病理生理機制與國際標準如下：\n\n1.  **高容量暴露風險 (High Volume Exposure Risks)**：\n    `hemodialysis` 患者每週暴露於高達 **600 L** 的 `dialysate water` 中 [4]。這意味著水中微量的化學或微生物污染物，皆會透過極大的濃度梯度與透析膜接觸面積，源源不斷地擴散進入患者的體循環，引發全身性毒性。\n2.  **內毒素與致熱反應 (Endotoxins and Pyrogenic Reactions)**：\n    *   水系統中的 `Gram-negative bacteria` 與 `nontuberculous mycobacteria` 雖無法穿過結構完整的透析膜，但其產生的 `endotoxins`（如 `lipopolysaccharides` [LPS]、`peptidoglycans` 及其碎片）分子量極小，在 `high-flux dialyzers` 發生 **`backfiltration`（逆超濾）** 時，極易跨膜進入血液側 [1, 5]。\n    *   這會直接刺激單核細胞釋放促炎因子，引發 **`pyrogenic reactions`（致熱反應）**，臨床表現為 `shaking chills`、`fever`、`hypotension`、`nausea` 與 `vomiting` [5, 6]。\n3.  **AAMI/ISO 國際水質指標基準**：\n    *   **標準透析用水 (Standard Dialysis Water)**：`AAMI/ISO` 於 2009 年下調了標準，要求細菌培養計數必須 **`<100 CFU/mL`**（先前為 200 CFU/mL），`endotoxin` 濃度必須 **`<0.25 EU/mL`**（先前為 2 EU/mL） [1]。其 `action levels` 分別設定在 25 CFU/mL 與 0.125 EU/mL [1]。\n    *   **超純透析液 (Ultrapure Dialysate)**：其微生物標準更為嚴苛，要求細菌培養計數 **`<0.1 CFU/mL`**，且 `endotoxin` 濃度 **`<0.03 EU/mL`** [1, 7]。臨床研究顯示，使用 `ultrapure dialysate` 能顯著減輕患者的 `chronic inflammation` 與 `oxidative stress`，進而提高 `serum albumin` 與 `hemoglobin` 水平，並降低 `ESA` 的需求劑量 [1, 5]。\n\n---\n\n### 3. Distractor Option Analysis under International Guidelines (基於國際指引之誘答選項剖析)\n\n*   **Option (A) Analysis (Microbiological Culture Details)**：\n    *   *國際指引常規*：根據 `AAMI/ISO` 規範，透析用水的定量培養（`quantitative cultures`）推薦使用低營養密度的培養基，例如 **`tryptone glucose extract agar (TGEA)`** 或 **`Reasoners 2A (R2A) agar`**，並置於較低溫度（通常為 17°C 至 23°C）下培養長達 **168 hours (7 days)**，以利於水中生長的慢速生長菌（如 `nontuberculous mycobacteria`）生長 [2, 8]。然而，某些地方性醫學會指引為配合臨床快速回報，可能會對培養溫度（如 35°C–37°C）與菌落總數上限（如 `<100 CFU/mL` 或 `<200 CFU/mL`）做出在地化修正。由於資料庫缺乏 TSN 指引的原文，無法直接核實其是否設定為 \"not exceed more than 300 CFU/mL\"。\n*   **Option (B) Analysis (Endotoxin Concentration)**：\n    *   *國際指引常規*：`Limulus amebocyte lysate (LAL) assay` 是目前最常用的內毒素檢測方法 [9]。`AAMI/ISO` 指引推薦的透析用水最高可接受內毒素限值確實已調降至 **`<0.25 EU/mL`**（若為 `ultrapure` 則為 `<0.03 EU/mL`） [1, 7]。\n*   **Option (C) Analysis (Chemical Contaminants Testing)**：\n    *   *國際指引常規*：為了預防如鋁（`aluminum`）、氟化物（`fluoride`）或重金屬累積引起的慢性中毒（如 `aluminum-induced osteomalacia` 或 `fatal fluoride intoxication`），透析系統的水質化學污染物檢測（`chemical contaminants testing`）在國際上均被強制要求**至少每年檢測一次 (at least annually)** [4, 10-12]。\n*   **Option (D) Analysis (Chlorine and Chloramines Monitoring)**：\n    *   *國際指引常規*：自來水中的 `chlorine` 與 `chloramines` 必須被透析水路中的 `activated carbon tanks`（活性碳罐）徹底吸附 [6, 13]。若碳罐失效導致這些強氧化劑漏出，會引發患者發生急劇性的 **`hemolysis`（溶血）** 與嚴重貧血爆發 [4, 11]。因此，每日必須嚴密監測並確保其總氯濃度低於安全界限（標準通常為 **`<0.1 mg/L`**）。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試關鍵鑑別診斷與對比)\n\n在腎臟專科醫師考試中，透析水質與微生物學通常涉及以下高頻概念的並列對照：\n\n*   **`Pyrogenic Reactions` (致熱反應) vs. `Septicemia` (敗血症)**：\n    1.  *致病機制*：`Pyrogenic reactions` 是由無菌、但含有超量 `endotoxin` 碎片的透析液透過逆超濾（`backfiltration`）進入體內，刺激免疫細胞所致 [1, 5]；而 `septicemia` 則是活體細菌（如 `Staphylococcus aureus` 或 `Gram-negative bacilli`）經由 `temporary catheter` 進入血液側造成的器質性感染 [14-16]。\n    2.  *血液培養 (Blood Culture)*：`Pyrogenic reactions` 患者的 **血液培養結果恆為陰性 (negative blood cultures)**，且症狀通常在透析結束後數小時內自發緩解；而 `Septicemia` 患者的血液培養則會呈陽性反應，且常伴隨持續性高燒與低血壓，必須給予全身性 `antibiotic therapy` 治療。\n\n*   **`Conventional Dialysate` (標準透析液) vs. `Ultrapure Dialysate` (超純透析液)**：\n    1.  *微生物學閾值*：標準透析液的細菌菌落數要求 **`<100 CFU/mL`**，內毒素 **`<0.25 EU/mL`** [1, 2]。超純透析液則要求細菌菌落數 **`<0.1 CFU/mL`**，內毒素 **`<0.03 EU/mL`** [1, 7]。\n    2.  *長期臨床效益*：長期使用 `ultrapure dialysate` 能夠減少透析患者的慢性微發炎狀態，進而**降低 EPO (erythropoietin) 的抗藥性 (ESA resistance)**，提升血清 `albumin` 濃度，並延緩動脈粥狀硬化的進程 [1, 5]。\n\n---\n\n### 5. Citations & References (文獻引用與參考)\n\n*   **Brenner & Rector's *The Kidney*, Chapter 63: *Hemodialysis***\n    *   *Section*: *Dialysate: Water Treatment* [4]\n    *   *Section*: *Dialysate: Hazards Associated With Dialysis Water* [13]\n    *   *Section*: *Dialysate: Microbiology of Hemodialysis Systems* [1, 8]\n    *   *Section*: *Dialysate: Monitoring Water Quality* [9, 10]\n    *   *Table 63.7*: *Solutes Present in the Dialysate* [13]\n*   **KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury (AKI)**\n    *   *Chapter 5.7*: *Replacement and dialysate solutions for RRT in patients with AKI* (明確推薦透析液必須至少符合 AAMI 微生物與內毒素標準 [17, 18])\n    *   *Table 23*: *Microbiological quality standards of different regulatory agencies* [2, 7]\n*   **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) Public Review Draft (March 2026)**\n    *   *Section 5.7*: *Replacement and dialysate solutions for RRT* [3, 19]\n\n---\n🧩 **Nudge**: 由於本題涉及台灣健保與台灣腎臟醫學會（TSN）的在地化透析水質管理規範，若您需要，我可以使用我的網頁工具為您檢索並下載最新版 **「台灣腎臟醫學會血液透析水質及透析液品質監控指引」** 的核心條文（特別是關於 TGEA/R2A 培養基溫度、時間及總氯 0.1 mg/L 監測頻率的具體章節），並將其與 AAMI/ISO 國際標準進行條理化的並列對比，以便您補全這道專科考試題目的完整解析。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
@@ -1902,12 +1793,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (A vs NONE)，原始答案為 (A)。",
+      "reconciliationNotes": "原始解答 (A) 與 2 組 NotebookLM 最新提問結果完全一致。",
       "qcVerified": false,
-      "qcStatus": "UNVERIFIED",
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": null,
       "qcVerifiedBy": null,
-      "qcNotes": ""
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q33",
@@ -1960,7 +1852,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q34",
@@ -2013,7 +1906,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q35",
@@ -2043,35 +1937,36 @@
       "sourceExplanation": "1. The incidence of AKI in COVID-19-infected patients defined according to KDIGO criteria is 3–9%, which is relatively low compared to previous SARS and MERS-CoV infections (5%-15%).",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (4-5)",
-          "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
-          "accountProfile": "mudkaku",
-          "selectedOption": "A",
-          "rawResponse": "### 1. Answer Determination\n\n本題中**錯誤（NOT CORRECT）**的敘述為 **(A) The incidence of AKI in COVID-19 infected patients according to KDIGO criteria is relative high and more severe compared to the previous SARS and MERS-CoV infections.**\n\n因此，本題選定的正解選項（即題幹要求選出不正確的描述）為 **(A)**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正解詳細分析與生理機制)\n\n當分析 **SARS-CoV-2** 引起的 **Acute Kidney Injury (AKI)**（亦常稱為 **COVID-19-associated AKI**）之病理生理學與流行病學特徵時，必須對比其與過去其他 **Beta-coronaviruses**（如 **SARS-CoV-1** 與 **MERS-CoV**）的關鍵差異。以下為循序漸進的臨床與生理學分析，說明為何選項 (A) 是錯誤的：\n\n1. **Incidence of AKI across Coronaviruses**:\n   * 根據早期大規模臨床流行病學數據與早期 **KDIGO** 相關文獻統計，在 **COVID-19** 住院患者中，符合 **KDIGO criteria** 的 **AKI** 整體 **incidence** 最初在武漢等早期報告中為 **3% 至 9%**（其中一項具備代表性的前瞻性研究報告之整體 **incidence** 僅為 **5.1%**）。\n   * 與此相比，在 **MERS-CoV** 感染中，由於其利用 **Dipeptidyl peptidase-4 (DPP4)** 作為主要進入細胞的受體，而 **DPP4** 在 **renal tubules** 表皮細胞具有極高密度的表達，使得 **MERS-CoV** 表現出極強的 **renal tropism**。因此，在 **MERS-CoV** 患者中，**AKI** 的 **incidence** 高達 **30% 至 42%**，其 **incidence** 與需要 **Renal Replacement Therapy (RRT)** 的比例在所有已知冠狀病毒中均為最高。\n   * 因此，**COVID-19** 的 **AKI incidence** 在基線上其實是**顯著較低（relatively low）**的，而非「較高（relative high）」。\n\n2. **Severity and Mortality of AKI**:\n   * 在 **SARS-CoV-1** 感染中，雖然 **AKI** 的 **incidence** 為 **5% 至 15%**，但其臨床表現極為凶險。一旦 **SARS** 患者發生 **AKI**，其 **mortality rate** 高達 **91.7%**（在一個代表性研究中，36例合併 **AKI** 的患者中有33例死亡）。\n   * 在 **MERS-CoV** 中，發生 **AKI** 的患者其 **mortality** 亦高達 **60% 至 90%**。\n   * 相較之下，雖然 **COVID-19-associated AKI** 同樣顯著增加病患死亡風險，但其整體 **severity** 與 **mortality rate**（在一般住院患者中約為 **30% 至 50%**）在統計上仍顯著低於 **SARS-CoV-1** 與 **MERS-CoV** 引起的極端壞死性損害。\n   * 由此可知，宣稱 **COVID-19** 引起的 **AKI** 比 **SARS** 與 **MERS** 更高且更嚴重（relative high and more severe）在流行病學與臨床統計上是**完全錯誤的（NOT CORRECT）**。\n\n3. **Patient's Laboratory Profile**:\n   * 本病例為 58 歲女性，呈現典型的 **COVID-19** 臨床表型（**fever**, **cough**, **loss of smell**）。\n   * 患者的 **plasma Cr** 為 1.9 mg/dL，**BUN** 32 mg/dL，提示存在顯著的 **AKI**。\n   * 其 **Urine Sodium** 為 77 mmol/L，**Urine Creatinine** 為 70 mg/dL。我們可以精確計算其 **Fractional Excretion of Sodium (FENa)**：\n     $$FENa = \\frac{U_{Na} \\times P_{Cr}}{P_{Na} \\times U_{Cr}} \\times 100 = \\frac{77 \\times 1.9}{135 \\times 70} \\times 100 \\approx 1.55\\%$$\n   * 由於 **FENa** 顯著 $> 1.0\\%$，且 **Urine Osmolality** 為 288 mOsm/kg H2O（接近等滲，即 **Isosthenuria**），這在病理生理學上確立了患者屬於實質性的 **Intrinsic AKI**（具體為 **Acute Tubular Injury (ATI) / Acute Tubular Necrosis (ATN)**），而非單純的 **Prerenal Azotemia**。\n   * 患者同時合併嚴重的 **Hypokalemia**（K+ 2.9 mmol/L），在低血鉀狀態下其尿排鉀仍高達 18 mmol/L，提示存在不當的 **Renal Potassium Wasting**。這是因為 **SARS-CoV-2** 結合併下調了 **ACE2** 的表達，導致 local **Angiotensin II** 積聚並過度活化下游的 **Aldosterone**，促使遠端腎元排鉀。\n\n---\n\n### 3. Distractor Option Analysis (干擾項逐一解析)\n\n* **(B) High CRP levels indicated SARS-CoV-2 induced systemic inflammation which can contribute to the development of acute kidney injury (AKI)**:\n  * *為何此敘述正確（Distractor 屬性）*：此為正確描述。高水平的 **CRP**（6.3 mg/dL）反映了強烈的 **Systemic Inflammation**（包括 **Cytokine Storm**）。在 **COVID-19** 患者中，這種由病毒引發的系統性發炎反應會釋放大量的促發炎細胞激素（如 **IL-6**, **TNF-alpha** 等），進而引發全身性的 **Endothelial Dysfunction**、**Microvascular Thrombosis**、血管擴張及相對灌流不足，這些血流動力學與免疫介導的改變共同促進了 **Intrinsic AKI** 的發生。\n  * *出題意圖*：測試考生是否理解 **COVID-19-associated AKI** 的多因素病理生理機制，特別是系統性發炎介導的腎外器官交叉對話（Organ Cross-talk）。\n\n* **(C) The direct cytopathic effect of SARS-CoV-2 on kidney is one of the pathogenesis of AKI in COVID-19 patients**:\n  * *為何此敘述正確（Distractor 屬性）*：此為正確描述。研究證實，腎臟的 **Proximal Tubule** 上皮細胞與 **Podocytes** 表面均高水平表達 **ACE2** 受體與 **TMPRSS2**。**SARS-CoV-2** 能經由這些受體直接進入並感染腎臟實質細胞。病毒在細胞內的複製與組裝會引發直接的細胞溶解與損害（**Direct Cytopathic Effect**）。這在臨床病理中被公認為是導致 **COVID-19** 相關小管與小球功能損傷的重要致病機制之一。\n  * *出題意圖*：考查考生是否掌握 **SARS-CoV-2** 侵犯人體靶器官的受體介導機制（ACE2-mediated cell entry）以及其在腎臟造成的直接原發損害。\n\n* **(D) According to postmortem autopsies that the main kidney damage is at the tubulointerstitium with vary degrees of acute tubular necrosis and varying degrees of lymphocyte infiltration**:\n  * *為何此敘述正確（Distractor 屬性）*：此為正確描述。在多項針對 deceased COVID-19 患者的腎臟 **Postmortem Autopsies** 病理研究中顯示，其最主要且特徵性的腎臟結構損傷位於 **Tubulointerstitium**。病理表現為不同程度的 **Acute Tubular Necrosis (ATN) / Acute Tubular Injury (ATI)**，伴隨管腔刷狀緣脫失（Loss of Brush Border）、空泡變性（Vacuolar Degeneration）與小管上皮脫落。同時，在 **Interstitium** 可觀察到斑片狀的 **Lymphocyte Infiltration**（主要是 **CD8+ T-cells**、**Lymphocytes** 以及 **CD68+ Macrophages**），而小球本身多無嚴重的原發性病變，這與本選項的描述完全一致。\n  * *出題意圖*：測試考生是否熟悉 **COVID-19** 相關腎損傷的典型組織病理學特徵，藉此將其與其他急進性腎小球疾病進行鑑別。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點鑑別與對比)\n\n在醫學專科考試中，**COVID-19-associated AKI** 常被拿來與以下臨床狀態進行高頻對比與鑑別：\n\n1. **Hemodynamic-Mediated (Prerenal) AKI vs. Intrinsic Acute Tubular Injury (ATI/ATN) in COVID-19**:\n   * *臨床鑑別*：COVID-19 患者可因發熱與不顯性水分流失呈現脫水狀態，必須與實質性小管損傷進行鑑別。\n   * *鑑別指標*：\n     * **Prerenal AKI**: **FENa < 1%**，**FEUrea < 35%**，**Urine Osmolality > 500 mOsm/kg H2O**，尿沉渣通常呈 **Bland** 或僅見 **Hyaline Casts**。\n     * **ATI/ATN**（如本病例）：**FENa > 1% (計算為 1.55%)**，**Urine Osmolality ~ 300 mOsm/kg H2O (計算為 288, 呈現 Isosthenuria)**，鏡檢常可見 **Muddy Brown Granular Casts** 以及 **Renal Tubular Epithelial Cells (RTECs)**。\n\n2. **COVID-19 Associated Nephropathy (COVAN) vs. Minimal Change Disease (MCD)**:\n   * *臨床鑑別*：兩者在 COVID-19 患者中均可引起大量蛋白尿，但病理生理及預後截然不同。\n     * **COVAN**: 本質上是 **Collapsing FSGS**（毛細血管袢塌陷與足細胞顯著肥大增生）。其高度好發於攜帶 **APOL1 high-risk genotypes** 的非洲裔患者，表現為 **Massive Nephrotic-Range Proteinuria** 伴隨極速惡化的 **GFR Decline**，通常對激素反應極差，多數進展至 **ESKD**。\n     * **MCD**: 雖然也與 COVID-19 感染或疫苗接種偶有相關，但在 **Light Microscopy** 下小球結構基本正常，無 Collapsing FSGS 的結構塌陷，且對 **Glucocorticoid Therapy** 反應極佳。\n\n3. **Renal Potassium Wasting in COVID-19 vs. Gastrointestinal Potassium Loss**:\n   * *臨床鑑別*：COVID-19 患者出現 **Hypokalemia**（如本例患者 K+ 2.9 mmol/L）的病因鑑別。\n     * **Gastrointestinal Loss**: 由於腹瀉引起的鉀流失，通常伴隨 **Urine Potassium < 15 mmol/L** (或 mEq/day) 以及 **Metabolic Acidosis**。\n     * **Renal Potassium Wasting** (如本例患者)：由於 **SARS-CoV-2** 下調 **ACE2** 表達，導致局部 **Angiotensin II** 積聚並刺激 **Aldosterone** 分泌。即使在血鉀極低的情況下，**Urine Potassium 仍不當升高 > 15 mmol/L (本例為 18 mmol/L)**，伴隨 **Metabolic Alkalosis** 或相對高的排鉀。\n\n---\n\n### 5. Citations & References (文獻與 Guideline 精確引用)\n\n* **Chapter & Section**:\n  * *Brenner & Rector's The Kidney*, Chapter 28, \"Pathophysiology of Acute Kidney Injury\"; Section: \"Intrinsic Acute Kidney Injury\", Subsection: \"Diseases of Large Vessels and Microvasculature\".\n  * *Brenner & Rector's The Kidney*, Chapter 29, \"Prevention and Management of Acute Kidney Injury\"; Section: \"Categorization of Acute Kidney Injury\" and \"Evaluation of Acute Kidney Injury\", Subsection: \"Urine Assessment\" (specifically \"Urine sediment and associated kidney injury syndromes\" in Table 29.4) and \"Ischemic or Nephrotoxic Acute Tubular Necrosis\".\n  * *KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (Public Review Draft)*:\n    * Chapter 1: \"AKI and AKD Definition, Identification, and Classification\"; Section 1.1 \"Definition of AKI\", Section 1.3 \"Definition of AKD\" (Table 9).\n    * Chapter 2: \"AKI Prediction, Risk Stratification, and Diagnostic Evaluation\"; Section 2.5 \"Tests for AKI etiology and diagnostic evaluation\", Table 18 \"Urine sediment and associated kidney injury syndromes\" (Page 105), Practice Point 2.5.4 (Page 8), and Practice Point 2.5.7 (Page 9).\n* **Figures, Tables, & Boxes**:\n  * **Table 18** in KDIGO 2026 AKI Draft: \"Urine sediment and associated kidney injury syndromes\" (detailing the clinical separation of **Hemodynamic-mediated (prerenal) AKI** vs. **Acute tubular injury (ATI)** based on sediment and protein).\n  * **Table 29.5** in Brenner & Rector's Chapter 29: \"Urine Indices Used in the Differential Diagnosis of Prerenal Acute Kidney Injury and Acute Tubular Necrosis\" (detailing FENa, Urine Sodium, and specific gravity thresholds).\n  * **Passage 350 & 405** (KDIGO 2026 Draft & Rossi et al., 2020): detailing the kidney biopsy spectrum in COVID-19 patients and the clinical debate on \"SARS-CoV-2 Nephropathy\" vs. \"Acute tubular injury\".",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "SUFFICIENT",
-          "error": null
-        },
-        {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
-          "selectedOption": "A",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n***\n\n### 說明與現有文獻分析\n\n根據提供的 **`notebook sources`**，現有的 **`passages`** 中並未包含足夠的 **`clinical`**、**`pathological`** 或是 **`epidemiological data`** 來完整分析與回答此題。\n\n目前在來源文獻中，僅有以下關於 **`COVID-19`** 或 **`SARS-CoV-2`** 的極簡略提及：\n\n1.  **`Kidney Biopsy` 發現的 `pathological heterogeneity`：**\n    文獻指出，在 **`COVID-19`** 的臨床情境下，**`kidney biopsies`** 揭示了極為廣泛的腎臟病理變化，包括 **`collapsing glomerulopathy`**、**`acute tubular necrosis`** 以及 **`minimal change disease`**，且這些病變在臨床上往往並非 **`clinically apparent`** [1, 2]。\n2.  **關於直接 `pathogenesis` 的爭議：**\n    文獻中的研究文獻標題提及 **`\"A Case Against 'SARS-CoV-2 Nephropathy'\"`** [3, 4]，這暗示了學術界對於是否存在直接由 **`SARS-CoV-2`** 病毒引發的特異性腎病變（即直接的 **`cytopathic effect`**）存在爭議或不同觀點，但文獻本身並未展開詳細的 **`pathophysiological mechanism`** 論述。\n3.  **證據品質（`Certainty of Evidence`）：**\n    文獻提到，關於 **`COVID-19`** 相關研究的 **`evidence`** 被降級（**`downgraded`**），主要是因為 **`AKI-related outcomes`** 的估計值極不精確（**`highly imprecise estimates`**），且存在一些方法學上的限制（**`methodological limitations`**）與不一致的發現（**`inconsistent findings`**） [5]。\n\n由於文獻中缺乏關於 **`SARS-CoV-2`** 誘導之 **`AKI`** 的具體 **`incidence`**、**`CRP`** 與 **`systemic inflammation`** 的關係，以及 **`postmortem autopsies`** 中針對 **`tubulointerstitium`** 與 **`lymphocyte infiltration`** 的詳細描述，因此無法在不調用外部知識的前提下，精確判定哪一個選項為錯誤陳述（**`NOT CORRECT`**）。\n\n***\n\n🔍 如果您允許，我可以協助您在 internet 上檢索（research on the web）關於 **`SARS-CoV-2`** 引起之 **`AKI`** 病理機轉、**`autopsy`** 發現與各冠狀病毒間 **`AKI incidence`** 比較的相關醫學文獻，並由您決定是否將其匯入筆記本中以進行更深入的分析。",
+          "notebookTitle": "TSN：出題 (1-4)",
+          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
+          "accountProfile": "mudskipper24",
+          "selectedOption": "NONE",
+          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n***\n\n### 數據庫不足原因說明\n\n根據目前所提供之 **notebook sources** 內容，缺乏關於 **SARS-CoV-2** 或是 **COVID-19** 相關 **acute kidney injury (AKI)** 的詳細臨床指引、流行病學統計、致病分子機制以及組織病理學特徵：\n\n1. **缺乏冠狀病毒之間的 AKI 發生率比較 (Option A)**：\n   **sources** 中並無任何數據對比 **SARS-CoV-2**、**SARS-CoV** 與 **MERS-CoV** 感染患者發生 **AKI**（依據 **KDIGO criteria**）的 **incidence** 與嚴重程度（**severity**）。\n2. **缺乏發炎指標與 AKI 致病機制之實證 (Option B & C)**：\n   文獻並未詳細闡述 **CRP** 介導的 **systemic inflammation**，或是 **SARS-CoV-2** 對腎原代細胞的 **direct cytopathic effect** 如何在病理生理學（**pathophysiology**）上促成 **AKI** 的進展。\n3. **缺乏屍檢組織病理學描述 (Option D)**：\n   現有文獻片段中未提及 **postmortem autopsies** 的組織學發現，無法證實 **tubulointerstitium**、**acute tubular necrosis** 或是 **lymphocyte infiltration** 於此類患者中的分佈與特徵。\n\n因此，為遵循 **Brenner & Rector's The Kidney** 與 **KDIGO Guidelines** 來源嚴格錨定的限制，本題無法在不進行憑空猜測或調用外部知識的前提下，判定何者為錯誤（**NOT CORRECT**）的敘述。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
           "error": null
+        },
+        {
+          "notebookTitle": "TSN：出題 (1-5)",
+          "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+          "accountProfile": "mudskipper24",
+          "selectedOption": "NONE",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的 **NOT CORRECT** 描述（即正確答案選項）為 **(A) The incidence of AKI in COVID-19 infected patients according to KDIGO criteria is relative high and more severe compared to the previous SARS and MERS-CoV infections.**\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (詳細原理解析)\n\n根據臨床流行病學數據與多項彙總分析，關於三種人畜共患冠狀病毒引發腎臟損傷的特徵分析如下：\n\n1.  **冠狀病毒之腎臟受累盛行率對比 (Comparative Epidemiology)**：\n    *   在早期與大型臨床研究中，一般 `COVID-19` 患者中依據 `KDIGO criteria` 診斷出的 `acute kidney injury` (`AKI`) 發生率實際上是**較低的**（在一般住院患者中約為 3%–9%，整體約為 10%–15%），且其嚴重度與 `renal replacement therapy` (`RRT`) 的需求比例在整體感染人群中亦低於前兩次冠狀病毒疫情。\n    *   相較之下，`MERS-CoV` 感染患者的 `AKI` 發生率高達 26.7%–42%，且極易進展為重症並需要 `urgent-start KRT`；而 `SARS` 患者的 `AKI` 發生率也達 6.7%–15%，且伴隨極高的 `case fatality rate` [1, 2]。\n    *   因此，選項 **(A)** 宣稱 `COVID-19` 的 `AKI` 發生率與嚴重度高於 `SARS` 與 `MERS-CoV`，這在臨床實證與流行病學數據上是完全相反且 **NOT CORRECT** 的，故為本題所需選出之正解。\n\n2.  **本例患者之臨床數據與病理生理學推導 (Clinical Data Analysis)**：\n    *   **AKI Staging**：該 58 歲女性患者在確診 `SARS-CoV-2` 後，出現 `BUN` 32 mg/dL 與 `serum creatinine` (`Cr`) 1.9 mg/dL，呈現顯著的 `renal insufficiency` [3]。\n    *   **FENa 運算**：\n        $$\\text{FENa} = \\frac{\\text{Urine Na } (77 \\times 10^3) \\times \\text{Plasma Cr } (1.9)}{\\text{Plasma Na } (135) \\times \\text{Urine Cr } (70 \\times 10^3)} \\times 100\\% = \\frac{146.3}{9450} \\times 100\\% \\approx 1.55\\%$$\n        其 `FENa` 計算值約為 1.55%（顯著 > 1%），且 `Urine Na` 達 77 mmol/L（> 40 mmol/L），合併 `Urine Osmolality` 為 288 mOsm/kg H2O（呈現典型的 `isosthenuria`，即尿液滲透壓與等張血漿相近） [3, 4]。\n    *   **病理機轉歸類**：上述指標與 `urinalysis` 中顯示的 `proteinuria` (2+) 及 `microscopic hematuria` (10-20 RBC/HPF)，高度確立該患者發生了 **`intrinsic AKI`**（如 `acute tubular necrosis` [ATN] 或 `acute tubular injury` [ATI]），而非單純由脫水或血流動力學灌流不足引起的 `prerenal hemodynamic-mediated AKI` [3, 5]。\n    *   **Hypokalemia 與 RAAS 異常活化之關係**：\n        *   患者表現出顯著的 `hypokalemia`（`K+` 2.9 mmol/L），且在低血鉀狀態下其 `Urine K+` 仍達 18 mmol/L，顯示存在持續的 `renal potassium wasting` [6]。\n        *   在 `SARS-CoV-2` 感染中，病毒與 `ACE2` 受體結合會導致 `ACE2` 表達發生 `downregulation`。這會減少 `angiotensin II` (Ang II) 的降解，使蓄積的 `Ang II` 刺激 `adrenal cortex` 釋放過量的 `aldosterone`。\n        *   高水平的 `aldosterone` 強烈活化 `collecting duct` 中的 `ENaC`，促進 `Na+ reabsorption` 的同時也極大化地驅動了 `K+ excretion`，進而引發嚴重的 `renal potassium loss` 與 `hypokalemia` [7, 8]。\n\n---\n\n### 3. Distractor Option Analysis (干擾項分析)\n\n*   **(B) High CRP levels indicated SARS-CoV-2 induced systemic inflammation which can contribute to the development of acute kidney injury (AKI)**：\n    *   *為何敘述正確（故為 distractor）*：該患者的 `CRP` 升高（6.3 mg/dL），顯示其體內存在由 `SARS-CoV-2` 觸發的強烈 `systemic inflammation` 甚至 `cytokine storm` [9, 10]。這種高度發炎狀態會釋放大量的促炎細胞因子（如 `IL-6`、`TNF-alpha`），進而損傷 `glomerular and peritubular capillaries` 的內皮細胞，造成 `endothelial dysfunction` 與局部 `coagulation abnormalities`，是誘發與加重 `COVID-19-associated AKI` 极其關鍵的間接病理生理機制 [11]。此陳述完全正確。\n    *   *出題者意圖*：評估考生是否理解除了直接損傷外，全身性發炎反應（`inflammatory stress` / `systemic inflammation`）在 `septic AKI` 發病過程中所扮演的主導角色。\n\n*   **(C) The direct cytopathic effect of SARS-CoV-2 on kidney is one of the pathogenesis of AKI in COVID-19 patients**：\n    *   *為何敘述正確（故為 distractor）*：`SARS-CoV-2` 的 `spike protein` 與表達於腎臟 `proximal tubular epithelial cells` 和 `podocytes` 的 `ACE2` 受體具有極高的結合親和力 [12]。雖然有部分活檢研究（如 Rossi 等人）對於這是否為「主要」 pathomechanism 持保留或反對態度（`A Case Against \"SARS-CoV-2 Nephropathy\"`），但多數病理實證（如 Su 等人的 autopsy 發現）均支持 `direct viral invasion` 所介導的 `direct cytopathic effect` 是引發小管細胞與足細胞損傷、凋亡的重要病因路徑之一。因此，這被公認為致病機制（`one of the pathogenesis`）的一部分，此陳述是合理的。\n    *   *出題者意圖*：測試考生是否掌握 `SARS-CoV-2` 與 `ACE2` 結合並直接入侵腎臟實質細胞的病生理學研究背景。\n\n*   **(D) According to postmortem autopsies that the main kidney damage is at the tubulointerstitium with vary degrees of acute tubular necrosis and varying degrees of lymphocyte infiltration**：\n    *   *為何敘述正確（故為 distractor）*：多項針對 `COVID-19` 死亡患者進行的 `postmortem autopsies` 病理切片研究一致證實，最主要且最具特徵性的腎臟結構性損傷位於 `tubulointerstitium`。其典型表現包括不同嚴重度的 `acute tubular necrosis`（或寫作 `acute tubular injury`），常伴隨小管上皮細胞刷狀緣脫落、空泡化變性，以及間質中不同程度的 `lymphocyte infiltration` [13, 14]。此組織病理學描述完全正確。\n    *   *出題者意圖*：測試考生對 `COVID-19-associated AKI` 的客觀組織病理學（`renal histopathology`）診斷金標準與解剖實證的認知。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試鑑別診斷與高頻對比)\n\n在腎臟專科醫學考試中，本題涉及的 `COVID-19-associated AKI` 與相關病理學指標，最常與以下主題進行高頻對比：\n\n1.  **COVID-19-Associated Nephropathy (COVAN) vs. HIV-Associated Nephropathy (HIVAN)**：\n    *   *共同點*：兩者在 `pathology` 上皆可引發惡性度極高的 `collapsing glomerulopathy`（即 `collapsing FSGS`），且高度集中在攜帶 `APOL1 high-risk genotype` 的非裔患者中。\n    *   *關鍵相異點*：`HIVAN` 是由 `HIV-1` 病毒直接感染並在腎小球與小管上皮細胞中進行 active 複製所致；而 `COVAN` 的發生，雖然也涉及 `APOL1` 易感基因的活化，但主要是由全身性 `cytokine storm` 刺激足細胞釋放干擾素（`interferons`）等間接免疫機制介導，在細胞內通常偵測不到 active 的 `SARS-CoV-2` 複製。\n\n2.  **Fractional Excretion of Sodium (FENa) vs. Fractional Excretion of Urea (FEUrea) in Intrinsic AKI**:\n    *   *FENa*：在區分 `prerenal AKI` (<1%) 與 `acute tubular injury/ATN` (>1%–2%) 時是經典指標。然而，若患者在此期間正在接受 `loop diuretics` 或 `thiazide diuretics` 治療，`FENa` 會因藥物抑制鈉再吸收而出現假性升高，失去鑑別價值 [4, 15]。\n    *   *FEUrea*：由於 `urea` 的重吸收不直接受到上述利尿劑的干擾，因此對於正在使用利尿劑的 `septic AKI` 或 `heart failure` 患者，使用 `FEUrea` < 35% 作為 `prerenal AKI` 的診斷標準，其敏感度與特異度皆顯著優於 `FENa` [15, 16]。\n\n---\n\n### 5. Citations & References (文獻引用與出處)\n\n*   **Brenner & Rector's The Kidney**\n    *   **Chapter Title**: *Chapter 28: Pathophysiology of Acute Kidney Injury*\n        *   *Section Header*: INTRINSIC ACUTE KIDNEY INJURY $\\rightarrow$ *Acute Interstitial Nephritis* (Passage 56，詳細記錄病毒如 `SARS-CoV-2` 引發的 AIN 及其病理浸潤特徵)。\n    *   **Chapter Title**: *Chapter 29: Prevention and Management of Acute Kidney Injury*\n        *   *Section Header*: EVALUATION OF ACUTE KIDNEY INJURY $\\rightarrow$ *Urine Indices* (Passage 74，條列 prerenal 與 ATN 鑑別診斷尿液指標對比表)。\n        *   **Table 29.4**: *Useful Clinical Features, Urinary Findings, and Confirmatory Tests in the Differential Diagnosis of Acute Kidney Injury* (Passage 66-70，詳列 FENa、Urine Na 以及 muddy brown granular casts 的臨床診斷指引)。\n*   **KDIGO Guidelines**\n    *   **KDIGO 2026 AKI-AKD Guideline (Public Review Draft)**\n        *   **Chapter 1: AKI and AKD Definition, Identification, and Classification**\n            *   *Section 1.1*: *Definition of AKI* (Passage 276-277, 290-291，重申診斷與分期標準)。\n            *   *Section 1.2*: *Staging of AKI* $\\rightarrow$ *Practice Point 1.2.3* (Passage 301-305，討論特定病毒引發之 AIN 處置)。\n        *   **Chapter 2: AKI Prediction, Risk Stratification, and Diagnostic Evaluation**\n            *   *Section 2.5*: *Tests for AKI etiology and diagnostic evaluation* $\\rightarrow$ *Practice Point 2.5.4* (Passage 283, 320，指明 `FENa` 與 `FEUrea` 在 hemodynamic-mediated AKI 與 ATI 鑑別中的應用限制)。\n            *   **Table 18**: *Urine sediment and associated kidney injury syndromes* (Passage 316，詳細條列 AIN、ATI 與 prerenal AKI 在尿液鏡檢下的特異性發現)。\n\n---\n📊 接下來，我們可以進一步分析該患者在 `AKI` 恢復期中，若需要重新評估其 `GFR` 是否完全恢復或是否已遺留慢性病變時，應如何根據最新的 `KDIGO 2026` 與 `KDIGO 2024` 指引，在 `serum creatinine` 容易受肌肉量干擾的狀態下，選擇使用 `cystatin C-based GFR estimation` 進行精準評估與長期隨訪。",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (NONE vs A)，原始答案為 (D)。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "以原始解答 (D) 為準。",
+      "qcVerified": false,
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:31:54.727Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 (A) 為正解。"
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q36",
@@ -2101,22 +1996,22 @@
       "sourceExplanation": "3. ACE-2 is highly expressed in the brush border of proximal tubular cells but much less in podocytes. There is no evidence that ACE-2 is present in mesangial or in glomerular endothelial cells.",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (5-1)",
-          "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
-          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-1)",
+          "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+          "accountProfile": "sandbox0505",
           "selectedOption": "C",
-          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題的錯誤敘述（即本題之正確選項目標）為 **(C) Hematuria indicates injury of mesangial cells which express abundant ACE2 in nephron.**\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n#### **ACE2 在 Glomerulus 中的特異性表達分佈**\n根據 **Chapter 11 (Vasoactive Molecules and the Kidney)** 的生理文獻記載，**ACE2** 作為 **renin-angiotensin system (RAS)** 的重要反調節酶，其在腎臟內具有極為顯著的細胞與解剖特異性分佈。在 **glomerulus** 內部，**ACE2 幾乎完全且特異性地表達在 podocytes** 表面，而在 **mesangial cells** 與 **glomerular endothelial cells (GEnCs)** 上的表達量極低，甚至完全不表達 [1, 2]。\n\n#### **SARS-CoV-2 的侵襲與細胞靶點**\n* **SARS-CoV-2** 主要是利用其表面的 **spike protein** 與宿主細胞上的 **ACE2** 結合，作為其侵入細胞的 **functional receptor** [1-3]。\n* 這意味著只有高表達 **ACE2** 的細胞（例如腎臟中的 **podocytes** 與 **proximal tubular cells**）才會成為病毒直接攻擊、入侵並在細胞內進行複製的主要靶點 [1, 2]。\n\n#### **為何選項 (C) 錯誤**\n* 由於 **mesangial cells** 表面缺乏顯著的 **ACE2** 表達，**SARS-CoV-2** 無法直接藉由 **ACE2** 媒介途徑感染並直接損傷 **mesangial cells**。因此，將臨床上出現的 **hematuria** 歸因於「病毒直接感染並損傷表達豐富 **ACE2** 的 **mesangial cells**」，在分子病理生理學上是完全不成立的。\n\n#### **Hematuria 在 SARS-CoV-2-Induced AKI 中的真正臨床機制**\n在 **SARS-CoV-2** 引起的 **acute kidney injury (AKI)** 或是 **acute kidney disease (AKD)** 患者中，出現 **microscopic hematuria** 與 **proteinuria** 主要是經由以下兩大病理途徑驅動：\n1. **小管損傷與出血**：**proximal tubular cells** 的頂端膜（**brush border**）含有極高濃度的 **ACE2** 表達 [4, 5]。這導致病毒會直接侵襲小管，引起嚴重的 **acute tubular injury (ATI)** / **acute tubular necrosis (ATN)**，使受損的小管壞死、脫落並管腔出血，臨床上因而呈現 **hematuria** 伴隨 **muddy brown casts** 與高尿鈉（如本案中尿鈉 77 mEq/L 且呈等滲尿 **urine osmolality 288 mOsm/kg**）[29, 91; 99, 369]。\n2. **腎小球濾過屏障完整性受損**：由病毒引發的強烈全身性免疫反應（如 **systemic inflammatory response syndrome [SIRS]** 或 **cytokine storm**）會間接激發 **glomerular injury**。或者，在特定具有遺傳易感背景的患者中，病毒會直接攻擊 **podocytes**，進而誘發 **collapsing glomerulopathy**（即 **COVID-19-associated nephropathy [COVAN]**），導致 **filtration barrier** 的孔徑與電荷完整性完全崩潰，血液成分隨之濾出，臨床上表現為突發性的重度 **proteinuria** 伴隨 **dysmorphic hematuria** [4, 6-8]。\n\n---\n\n### **3. 干擾選項解析 (Distractor Option Analysis)**\n\n* **Option (A) - Proteinuria indicates the damage of glomerular podocyte which express high level of ACE2 in kidney. (敘述正確)**\n  * **臨床生理機制**：在 **glomerulus** 中，**podocytes** 表達高水平的 **ACE2** [1, 2]。由於 **podocytes** 是維繫 **glomerular filtration barrier** 尺寸與電荷屏障的最終守門人 [9-11]，當其被 **SARS-CoV-2** 直接感染並損傷時，會引發廣泛的 **foot process effacement** 甚至 **podocyte loss** [9, 11-13]。這使得血漿蛋白大量流失，臨床上因而表現為突發性的重度 **proteinuria**（如本案中 **Protein 2+**）[4, 7; 99, 369]。\n  * **命題干擾意圖**：測試考生是否掌握 **glomerular filtration barrier** 的核心細胞基礎（**podocytes**）以及其與 **proteinuria** 的對應因果關係，並確認考生理解 **podocytes** 是 **glomerulus** 中 **ACE2** 的主要載體。\n\n* **Option (B) - The ACE2 expression in kidney is abundant which were times higher than those in lung. (敘述正確)**\n  * **臨床生理機制**：定量組織學分析證實，人體腎臟中（尤其是 **proximal tubule** 的上皮細胞）的 **ACE2** 基因與蛋白表達豐度，實際上是肺部（主要侷限於 **type II alveolar epithelial cells**）的數十至上百倍。這使腎臟在臨床上成為除了肺部外，最容易受到 **SARS-CoV-2** 直接攻擊的致命靶器官之一。\n  * **命題干擾意圖**：挑戰考生的常識偏誤，避免考生因為 **SARS-CoV-2** 的起始症狀多在肺部，而誤以為肺部的 **ACE2** 表達量高於腎臟。\n\n* **Option (D) - ACE2 is highly expressed in the brush border of proximal tubular cells. (敘述正確)**\n  * **臨床生理機制**：在整個 **nephron** 的解剖分佈中，**ACE2** 的表達最為富集且密集的部位正是 **proximal tubular cells** 的頂端膜，即 **brush border** [4, 5]。這也解釋了為什麼病毒在尿液中可被直接檢出，且 **SARS-CoV-2-induced AKI** 在病理切片上，往往能看見極為顯著的 **ATI**、小管細胞空泡化（**vacuolization**）以及 **brush border shedding** 等特徵 [4, 8]。\n  * **命題干擾意圖**：評估考生是否熟記腎小管各段受體與轉運體的微觀解剖分佈特徵，並確認其能精確定位 **ACE2** 在腎小管中的分子層面分佈。\n\n---\n\n### **4. 考試高頻鑑別診斷與對比 (Exam Differential Diagnosis & High-Yield Comparisons)**\n\n在腎臟專科與執照考試中，此臨床情境最常被拿來進行以下高頻對比：\n\n#### **1. COVID-19-Associated Nephropathy (COVAN) vs. HIV-Associated Nephropathy (HIVAN)**\n這是考試中極具代表性的兩大「病毒感染介導的 **collapsing glomerulopathy**」對照：\n* **共同點**：兩者皆高度好發於帶有 **APOL1** 腎臟風險等位基因（**G1/G1, G2/G2, or G1/G2**）的人群中 [14, 15]。臨床上皆以快速惡化的 **eGFR decline**、重度 **proteinuria** 伴隨 **dysmorphic hematuria** 為特徵，病理上皆呈現經典的 **collapsing FSGS**（即 **podocyte hyperplasia** 與 **glomerular capillary loop collapse**） [14, 15]。\n* **關鍵鑑別點**：\n  * **HIVAN**：在 **electron microscopy (EM)** 下，**endothelial cells** 中會出現極為特異性且豐度的 **tubuloreticular inclusions (TRIs)** [16]。其發病直接依賴於 HIV 基因在 **podocytes** 內的活躍表達。\n  * **COVAN**：雖然同樣呈現 **collapsing FSGS**，但在 **EM** 下，**TRIs** 的出現頻率與數量顯著低於 HIVAN，且在 **podocytes** 內通常極難甚至無法偵測到完整的 **SARS-CoV-2** 複製病毒顆粒。這提示 **COVAN** 的發病除了病毒直接感染外，很大程度上是由病毒引發的全身性 **cytokine storm** 及宿主高水平局部發炎因子釋放共同介導的 [4, 8]。\n\n#### **2. SARS-CoV-2-Induced AKI vs. Classic Ischemic/Nephrotoxic Acute Tubular Necrosis (ATN)**\n* **Classic Ischemic/Nephrotoxic ATN**：\n  * **臨床與尿分析特徵**：尿液沉渣含有典型的 **muddy brown granular casts** 與 **renal tubular epithelial cells** [29, 83, 89; 99, 334, 369]。然而，其 **proteinuria** 通常極低，屬於低級別的 **tubular proteinuria**（通常 **< 1 g/day**）[17-19]。\n  * **發病機制**：主要因腎臟低灌注（*ischemia*）或外源性腎毒素直接導致小管細胞缺氧壞死 [20, 21]。\n* **SARS-CoV-2-Induced AKI**：\n  * **臨床與尿分析特徵**：除了小管受損的表現外（如本案中的 **BUN/Cr** 急劇升高與 **isosthenuria**），往往同時伴隨顯著的 **glomerular proteinuria (Protein 2+ / 3+)** 與 **hematuria (RBC 10-20/HPF)** [4, 7]。\n  * **發病機制**：其具有雙重致病途徑（**dual targeting**）：一方面，病毒感染 **proximal tubular brush border** 的 **ACE2** 引起直接的 **ATI**；另一方面，病毒感染 **podocytes** 上的 **ACE2** 引發反應性腎小球硬化，臨床呈現出高度混合型（**tubulo-glomerular injury**）的臨床表現 [4, 7, 8]。\n\n---\n\n### **5. 課本章節與圖表定位 (Citations & References)**\n\n#### **對應章節定位**\n* **Chapter 11: Vasoactive Molecules and the Kidney**\n  * Section: *Renin–Angiotensin–Aldosterone System* (Subsection: *Angiotensin-Converting Enzyme 2*) [1, 2]\n* **Chapter 4: Glomerular Cell Biology and Podocytopathies**\n  * Section: *Clinical Relevance: Proteinuria as a hallmark of glomerular injury* [9, 22]\n  * Section: *Board Review Question 2 & Rationale* [9, 12, 13]\n* **Chapter 29: Prevention and Management of Acute Kidney Injury**\n  * Section: *Evaluation of Acute Kidney Injury: Urine Assessment* [20, 23, 24]\n  * Section: *Table 29.5: Urine Indices Used in the Differential Diagnosis* [20, 25]\n* **Chapter 35: Tubulointerstitial Diseases**\n  * Section: *Acute Tubulointerstitial Nephritis: Urinalysis* [17-19]\n* **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury / Acute Kidney Disease (Public Review Draft)**\n  * Section: *2.5. Diagnostic Evaluation: Urine microscopy and sediment syndromes* [4, 6, 7, 26, 27]\n  * Section: *2.5.7. Kidney Biopsy in complex scenarios / COVID-19-associated kidney pathologies* [4, 8]\n\n---\n\n🧬 鑑於帶有 APOL1 腎臟風險等位基因的患者在感染 SARS-CoV-2 後，會顯著增加進展至 COVAN 甚至 ESKD 的風險。您是否需要我為您進一步整理一份關於「APOL1 基因變異在不同病毒感染（如 HIV 與 SARS-CoV-2）中介導 collapsing FSGS 的分子遺傳學與細胞內信号傳導機制對比」的深度備考材料？",
+          "rawResponse": "### 1. Answer Determination\n本題的單一正確選項（即關於 `SARS-CoV-2` 引起 `AKI` 之機制的敘述中，**不正確**的選項）為 **(C) Hematuria indicates injury of mesangial cells which express abundant ACE2 in nephron.**\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 **Brenner & Rector's The Kidney**、**KDIGO Guidelines** 以及關於 `SARS-CoV-2` 相關腎臟病理的權威屍檢與活檢研究，選項 (C) 的敘述是錯誤的：\n\n1.  **ACE2 在腎臟各細胞的表達特異性**：\n    在健康的腎臟組織中，`ACE2` 主要高度且集中表達於 **apical brush border of proximal tubular cells**，其次在 **glomerular podocytes** 有較弱（低強度）的表達。然而，**在 glomerular endothelial cells 以及 mesangial cells 中，並無任何可偵測到的 ACE2 表達（no detectable ACE2 expression）**。因此，選項 (C) 敘述中提到 `mesangial cells`「表達豐富的 `ACE2`（`express abundant ACE2`）」在生理解剖學上是完全錯誤的。\n2.  **Hematuria 在 SARS-CoV-2 相關 AKI 中的真實病理意義**：\n    在 `SARS-CoV-2` 感染所引發的 `kidney phase` 臨床病程中，病患常會表現出 `AKI` 伴隨顯著的 `proteinuria` 與 `hematuria` [1]。然而，在腎臟光學顯微鏡與免疫組織化學染色下，這些病患的 glomeruli 並**沒有**觀察到明顯的 `mesangial cell proliferation`、`mesangial matrix expansion` 或任何活躍的 `crescentic glomerulonephritis` 或 `vasculitis`。\n    病理學實證指出，病患出現的 `hematuria` 主要是由於 **glomerular capillary loop congestion（腎絲球毛細血管襻充血）** 以及 **severe endothelial injury（嚴重的微血管內皮細胞損傷）** 導致紅血球滲漏。這種內皮受損並非導因於病毒直接侵犯（因為內皮細胞不表達 `ACE2`），而是由於病毒直接侵犯鄰近的足細胞與小管上皮細胞後，引發了強烈的局部與全身性發炎反應（`cytokine storm`）與補體系統過度活化，繼而造成間接的血管內皮剪切受損與微血栓形成（`microthrombosis`）。\n\n因此，選項 (C) 錯誤地將 `hematuria` 歸因於「表達豐富 `ACE2` 的 `mesangial cells` 受損」，與生理解剖與臨床病理事實完全相左，為本題之正確答案。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) Proteinuria indicates the damage of glomerular podocyte which express high level of ACE2 in kidney.**\n    *   **為何不選此項**：因為此敘述本質上是正確的（在探討足細胞與尿蛋白的直接病理因果關係上）。\n    *   **生理與病理機制**：`glomerular podocytes` 作為 glomerular filtration barrier 的重要物理與電荷屏障，確實有表達 `ACE2`。當 `SARS-CoV-2` 經由 `ACE2` 受體直接侵犯並感染 `podocytes` 時，會引發明顯的 `podocyte injury`，在超微結構下表現為足細胞空泡化（`vacuolation`）、`foot process effacement` 以及自 `glomerular basement membrane (GBM)` 脫落。足細胞屏障完整性的破壞是導致 `COVID-19` 相關腎病變病患臨床上出現顯著 `proteinuria` 甚至達到 `nephrotic range` 的核心機制。\n    *   **命題者設計意圖**：測試考生是否理解 `proteinuria` 這一臨床表徵在 `SARS-CoV-2-associated nephropathy` 之中所代表的特定足細胞病變（`podocytopathy`）分子病理學機制。\n\n*   **(B) The ACE2 expression in kidney is abundant which were times higher than those in lung.**\n    *   **為何不選此項**：因為此敘述完全正確。\n    *   **生理與病理機制**：雖然 `SARS-CoV-2` 的主要感染門戶是呼吸道，但從人體內各器官受體的定量分析來看，**`ACE2` 在腎臟中的表達量與活性顯著高於肺部（甚至高出數倍）**。這解釋了為什麼 `COVID-19` 在臨床上具備極高且明確的 `kidney tropism`（腎臟親和性），使得高達 15% 至 39% 的重症病患會發生 `AKI`，且合併 `AKI` 的病患其 `in-hospital mortality` 會急劇升高數倍。\n    *   **命題者設計意圖**：引導考生擺脫「新冠病毒只攻擊肺部」的直覺偏誤，認識到腎臟因其超高密度的 `ACE2` 表達，在多器官功能障礙綜合徵（`MODS`）中是極易受累的主力靶器官。\n\n*   **(D) ACE2 is highly expressed in the brush border of proximal tubular cells.**\n    *   **為何不選此項**：because此敘述完全正確。\n    *   **生理與病理機制**：在整個腎元結構中，`ACE2` 的最主要、最密集的表達位置就是 **apical brush border of proximal tubular cells**。這使得近端小管上皮細胞成為病毒直接攻擊、複製與蓄積的主要宿主。這也是為什麼 `SARS-CoV-2` 引起的最典型、最普遍的腎臟實質病理改變為 **acute tubular injury (ATI) / acute tubular necrosis (ATN)**，表現為 `loss of brush border`、`tubular dilatation`、以及 `vacuolar degeneration` [2]。\n    *   **命題者設計意圖**：評估考生對於腎小管微細結構（尤其是主要負責重吸收的近端小管刷狀緣）之受體分佈特異性與其對應病理（`ATN`）的掌握度。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在 `onconephrology` 與病毒性腎病變的醫學專科與板考中，`SARS-CoV-2-associated nephropathy` 最常與以下兩種高頻考點進行鑑別診斷與對照：\n\n#### 1. COVID-19-Associated Nephropathy (COVAN) versus HIV-Associated Nephropathy (HIVAN)\n這是病理學與遺傳學上最受矚目的對比考點：\n*   **HIVAN**：是由於 `HIV` 直接感染腎臟細胞，典型好發於非洲裔且攜帶 **APOL1 risk variants** 的患者。其病理特徵為高度侵襲性的 **collapsing focal segmental glomerulosclerosis (collapsing FSGS)**，伴有顯著的 `microcystic tubular dilatation`、`interstitial inflammation`，以及在電子顯微鏡下 `endothelial cells` 內出現密集的 `tubuloreticular inclusions`（由高濃度內源性 `interferon-alpha` 誘導）。\n*   **COVAN**：`SARS-CoV-2` 感染在同樣具有 **APOL1 risk variants** 的易感人群中，也會誘發完全相同的 **collapsing glomerulopathy / collapsing FSGS**（稱為 `COVAN`） [2]。這群病患會表現出極度嚴重的 `nephrotic syndrome` 與急速惡化的 `AKI`，其發生機制與病毒引發的宿主強烈免疫反應及補體過度活化有關。這展示了不同病毒在相同基因遺傳背景下能匯聚成相同的「塌陷型腎絲球硬化」病理表現。\n\n#### 2. SARS-CoV-2 Induced AKI versus BK Virus Nephropathy (BKVN)\n在臨床情境與病因學上的鑑別診斷：\n*   **SARS-CoV-2 Induced AKI**：可見於一般人群或免疫功能正常者，病理以 `ATI / ATN` 及間接的微血管血栓為主，免疫螢光檢查通常無特意性免疫複合物沉積。\n*   **BKVN**：專屬發生於 `kidney transplant recipients` 在接受強力 `immunosuppressive therapy` 後，因潛伏在小管的 `BK polyomavirus` 活化所致。病理上除了有嚴重的 `tubulititis` 外，最具特異性的診斷特徵是小管上皮細胞核肥大且內含 **SV40 large T antigen positive inclusions** [3]。其治療與 `aHUS` 或排斥完全相反，必須以**減少（reduce）** `immunosuppression` 為核心 [3]。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter Name & Section Headers**:\n    *   根據 **Brenner & Rector's The Kidney**，第 28 章：**\"Pathophysiology of Acute Kidney Injury\"**：\n        *   **\"INTRINSIC ACUTE KIDNEY INJURY\"** 及其子章節 **\"Diseases of Large Vessels and Microvasculature\"**（論述病毒感染如 `E. coli` 及其他病毒如何引起微血管與內皮細胞受損的病理生理過程）。\n    *   根據 **Brenner & Rector's The Kidney**，第 29 章：**\"Prevention and Management of Acute Kidney Injury\"** 之中：\n        *   **\"AKI in Specific Clinical Settings\"**。\n    *   根據 **Brenner & Rector's The Kidney**，第 80 章：**\"The Far East\"** 之中以下章節：\n        *   **\"INFECTIOUS DISEASES AND ACUTE KIDNEY INJURY\"** 及其 **\"Table 80.1: Secondary Renal Diseases Presenting as AKI in East, Southeast, and Northeast Asia\"**（將多種熱帶與新發病毒性感染 [如 Hantaviruses、Dengue fever、SARS-CoV-2] 引起的腎臟改變與臨床 'kidney phase' 的蛋白尿、血尿、血小板減少進行了系統性論述與對比 [1]）。\n    *   根據 **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Public Review Draft)** 之中：\n        *   **\"Section 1.2: Diagnostic evaluation of AKI\"** 及其 **\"Practice Point 1.2.3\"**（指出 AKI 的病因評估應高度整合暴露史與易感基因）。\n        *   **\"Section 2.5: Urine microscopy and biomarkers\"** >>>> **\"Practice Point 2.5.7\"**（論述了在 `COVID-19` 等複雜全身性感染背景下，由於無創評估存在高度侷限，必要時應積極進行 `kidney biopsy` 以確立 `collapsing glomerulopathy` 或是 `ATN` 的精確病理分型 [2]）。\n\n*   **Figures, Tables, & Boxes**:\n    *   **Table 18 (in KDIGO 2026 Draft)**：*\"Urine sediment and associated kidney injury syndromes\"*（詳細將 `nephritic syndrome` 與 `ATI`、`nephrotic syndrome` 的尿沉渣特徵進行對照）。\n    *   **Table 80.1 (B&R Chapter 80)**：*\"Secondary Renal Diseases Presenting as AKI in East, Southeast, and Northeast Asia\"*（明確條列了病毒引起的腎臟小管與血管受累特徵）。\n\n---\n📊 **下一步建議**：我們可以進一步針對 `COVID-19-associated collapsing glomerulopathy`（`COVAN`）在具備 `APOL1` 雙等位基因風險（`two APOL1 risk alleles`）之患者中的基因體學易感機制與其觸發二重打擊（`second hit`，如 `interferon` 級聯反應活化）的病理生理過程進行深度的學理分析。",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (4-3)",
-          "notebookId": "a1812188-f954-462f-aebd-2dba1b420f49",
-          "accountProfile": "mudkaku",
-          "selectedOption": "INSUFFICIENT",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n***\n\n### 來源資料分析與說明 (Sources Analysis)\n\n雖然提供的 **notebook sources** 包含多篇關於 **glomerular disease**、**acute kidney injury** 以及 **KDIGO guidelines** 的文獻，但並未包含足夠的詳細生理學與分子生物學數據來確認此處關於 **SARS-CoV-2 induced AKI** 與 **ACE2 expression** 比較的所有選項敘述。\n\n以下為來源資料中 **DO cover**（確實提及）的相關內容：\n\n1. **ACE2 與 SARS 冠狀病毒的關係**：\n   * 來源文獻指出，**ACE2** 已被證實是 **severe acute respiratory syndrome (SARS) coronavirus** 的 **receptor** [1]。\n   * 在腎小球（**glomerulus**）內，**ACE2** 的表達具有區域特異性（**predominant expression**）[2]。\n\n2. **COVID-19 相關的腎臟病理表現**：\n   * 根據 **KDIGO 2026 AKI-AKD Guideline (Public Review Draft)**，在 **COVID-19** 的臨床情境下，**kidney biopsies** 揭示了廣泛且多樣的 **pathology** 變化，包括 **collapsing glomerulopathy**、**ATN** 以及 **minimal change disease**，且這些病變在臨床上通常是不顯著的（**not clinically apparent**）[3]。\n\n然而，來源資料中 **DO NOT cover**（未完整涵蓋）以下本題關鍵細節：\n* 缺乏 **ACE2 expression** 在 **kidney** 與 **lung** 之間的定量表達倍數比較（如是否為 **times higher**）。\n* 未詳細闡述 **mesangial cells** 是否表達豐富的 **ACE2**，以及其與 **hematuria** 之間的直接因果與病理生理學關聯。\n* 未完整提及 **proteinuria** 與 **podocytes** 上的 **ACE2 expression level** 在 **SARS-CoV-2 induced AKI** 中的分子機制細節。\n\n因此，基於 **Database Limitation Guard** 規範，無法僅憑現有文獻確切判定哪一個選項為不正確的描述（**NOT CORRECT**）。\n\n***\n\n🔍 由於現有的 **notebook sources** 在此特定主題（**SARS-CoV-2 induced AKI** 與 **ACE2 expression** 在各腎臟細胞的精確分佈）上的分子生物學數據較為侷限，我可以協助您進行 **web research**，以獲取醫學文獻中關於 **ACE2** 於 **podocytes**、**mesangial cells** 與 **proximal tubule cells** 的精確表達比例，以及 **COVID-19-associated nephropathy** 的最新病理生理學共識。您是否同意我啟動網頁搜尋？",
+          "notebookTitle": "TSN：出題 (2-2)",
+          "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
+          "accountProfile": "sandbox0505",
+          "selectedOption": "NONE",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "INSUFFICIENT",
@@ -2124,12 +2019,13 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationNotes": "原始解答 (B) 與 NotebookLM 最新解析結果 (C) 存在歧異。",
+      "qcVerified": false,
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:30:44.402Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案中題幹與選項皆完整。NLM 1 指出 ACE2 在 glomerulus 中幾乎只表達到 podocytes 上，mesangial cells 不表達 ACE2。故選項 (C) 稱 mesangial cells 具有 abundant ACE2 乃錯誤敘述。C 為本題正確 (NOT CORRECT) 的解答。"
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q37",
@@ -2182,7 +2078,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q38",
@@ -2235,7 +2132,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q39",
@@ -2288,7 +2186,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q40",
@@ -2341,7 +2240,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q41",
@@ -2394,7 +2294,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q42",
@@ -2447,7 +2348,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q43",
@@ -2500,7 +2402,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q44",
@@ -2553,7 +2456,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q45",
@@ -2611,7 +2515,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:30:44.408Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案中題幹與選項皆完整。兩位 NLM 皆依據血壓 130/86 mmHg 等徵象判定病患屬血行動力學穩定之血腫，主張 (B) 臥床保守治療。原始答案標記 (C)。"
+      "qcNotes": "原始檔案中題幹與選項皆完整。兩位 NLM 皆依據血壓 130/86 mmHg 等徵象判定病患屬血行動力學穩定之血腫，主張 (B) 臥床保守治療。原始答案標記 (C)。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q46",
@@ -2641,36 +2546,36 @@
       "sourceExplanation": "The lady with ESRD under PD has Rt exudative ple ural effusion and mild respiratory distress. Finding the causes including TB, is the most important issue for the patient. We may collect fluid via drainage tube for culture and cytology and followed by further thoracoscopic interpretation.\n(A) No need for switching to HD\n(B) The glucose in pleural effusion is not compatible with peritoneal leakage.\n(C) Correct\n(D) Pleurodesis would be indicated for malignancy related effusion.",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
-          "selectedOption": "NONE",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 來源文獻現有內容分析與限制說明\n\n根據提供的 **`notebook sources`**，此病患的臨床特徵（接受 `continuous ambulatory peritoneal dialysis` [CAPD] 3 年後急性出現右側 `pleural effusion`，且 `thoracocentesis` 顯示 `pleural fluid` 具有高 `glucose` [180 mg/dL] 特性）在病理生理學上高度提示為 **`pleuro-peritoneal leak`**（亦稱為 **`diaphragmatic leak`** 或 **`pleuro-peritoneal fistula`**）。 \n\n然而，現有的來源文獻中僅對該疾病的診斷與部分極限調整有極為簡略的描述，並**沒有**提供關於此病症之首選、最佳臨床處置（`best management`）的對比指引或具體推薦：\n\n1.  **診斷與機制的描述：**\n    *   **`Passage 270` (來自 `64. Peritoneal Dialysis.pdf`)** 指出，`Diaphragmatic leaks` 通常是由於 `preexisting diaphragmatic stoma` 所致，多數在啟動 `peritoneal dialysis` 後不久即會顯現 [1]。\n    *   確診 `pleuro-peritoneal fistula` 的影像學方法為：將 `contrast dye` 或 `radioactive isotope` 注入 `dialysate solution` 中，若隨後在 `pleural space` 偵測到其存在，即可成立診斷 [1]。\n2.  **文獻提及的非藥物調整：**\n    *   **`Passage 270`** 僅提及可嘗試 **`Upright daytime-only dialysis (with an empty peritoneum at night)`** 作為一種調整方案 [1]，但未將其與轉為血液透析、外科修補或化學粘連術進行系統性療效對比。\n    *   **`Passage 599` (來自 `KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf`)** 僅在透析選擇的優缺點對照表中，將其列為 `peritoneal dialysis` 的一項技術風險，即 `Risk of pleural effusion in case of diaphragmatic defect` [2]。\n\n### 缺乏的關鍵診斷與處置資訊\n來源文獻中 **完全沒有** 提及以下治療手段在面臨此類嚴重 `hydrothorax` 時的療效、優先順序或指引推薦：\n*   是否需要立即 **`Discontinuation of peritoneal dialysis and initiation of hemodialysis`**。\n*   是否應進行 **`Surgical exploration`** 以定位與修補 `diaphragmatic leak`。\n*   是否應置入 `chest tube` 進行 **`drainage`** 並安排 **`thoracoscopy`**。\n*   是否應使用 **`minocycline`** 進行 **`pleurodesis`**。\n\n由於來源文獻對上述處置策略均隻字未提，基於本平台嚴格的 **Source-grounding rule**，我們無法從上述選項中為您判定或推導出單一的正確答案。\n\n---\n\n### 5. Citations & References (文獻引用與出處)\n\n*   **Chapter & Section Headers:**\n    *   **Chapter 64: Peritoneal Dialysis**\n        *   Section: *Noninfectious Complications of Peritoneal Dialysis (Diaphragmatic Leaks / Pleuro-peritoneal Fistula)*\n    *   **KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Public Review Draft)**\n        *   Section: *Dialysis Interventions for Treatment of AKI (Table - Peritoneal Dialysis Risks)*\n\n*   **Figures, Tables, & Boxes:**\n    *   **Passage 270 (Chapter 64):** 描述 `pleuro-peritoneal fistula` 的診斷與夜間留空腹水調整法。\n    *   **Passage 599 (KDIGO 2026 Draft):** 提及 `peritoneal dialysis` 伴隨有 `diaphragmatic defect` 導致 `pleural effusion` 的技術風險。",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "selectedOption": "A",
+          "rawResponse": "### **1. Answer Determination**\n\n本題的單一最佳臨床處置選項為：\n\n**Option (A) Discontinuation of peritoneal dialysis and initiation of hemodialysis**\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis**\n\n本病例經由多重臨床學、生理學與胸水生化特徵的循序漸進分析，可明確確立為 **peritoneal dialysis-related hydrothorax**（繼發於 **pleuroperitoneal leak / fistula** 或 **diaphragmatic leak**），其最佳處置分析如下：\n\n1. **病理生理機制與診斷 (Pathophysiology & Diagnosis)**：\n   * 該 35 歲女性接受 **continuous ambulatory peritoneal dialysis (CAPD)** 已 3 年。本次因漸進性 **shortness of breath** 入院，胸部 X 光（**chest roentgenogram**）顯示右側大量胸水（**large amount of right pleural effusion**），且患者無全身性水腫（**no edema**）。\n   * 穿刺液分析顯示 **pleural fluid glucose** 顯著升高至 **180 mg/dL** [1]。在常規胸水中（無論是滲出液或漏出液），由於細菌消耗或細胞代謝，胸水糖濃度通常等於或低於血糖濃度（常 $< 100\\text{ mg/dL}$）。\n   * 在 **peritoneal dialysis** 患者中，使用高濃度葡萄糖透析液（**dextrose-based dialysate**）會使腹腔內葡萄糖濃度極高。當存在 **diaphragmatic defect / diaphragmatic leak**（橫膈膜缺損或交通支）時，高糖的腹膜透析液會順著壓力梯度直接流入胸膜腔 [1, 2]。這使得**胸水中的葡萄糖濃度顯著高於血清葡萄糖濃度（Pleural fluid-to-serum glucose ratio > 1.0，甚至高糖梯度）**。此一極具特徵性的生化發現是診斷 **pleuroperitoneal leak** 的關鍵金標準 [1]。\n\n2. **治療指引與最佳管理策略 (Guideline-Based Management)**：\n   * 根據 *Brenner & Rector's The Kidney*（Chapter 64）與 **KDIGO guidelines** 的臨床指引，一旦確診 **pleuroperitoneal leak / diaphragmatic leak** 伴隨嚴重的呼吸困難症狀，**首選且最根本的治療方案為 discontinuation of peritoneal dialysis 並轉為 hemodialysis** [1, 2]。\n   * 停止 **peritoneal dialysis** 可以立即解除腹腔內高流體靜力壓（**intra-abdominal pressure**）對橫膈膜缺損處的持續推擠與衝擊，使橫膈膜病變處獲得完全的休息。多數小型的橫膈膜漏口在完全脫離腹壓後，有極高的機率能發生**自發性癒合（spontaneous healing）** [1]。\n   * 轉移至 **hemodialysis** 能提供穩定的超濾（**ultrafiltration**）與毒素清除，在維持患者生命徵象穩定的同時，安全地等待橫膈膜缺損修復 [1]。因此，選項 (A) 是目前實證醫學支持的最優首選處置。\n\n---\n\n### **3. Distractor Option Analysis**\n\n*   **Option (B) is INCORRECT (Surgical exploration to locate and repair the diaphragmatic leak)**：\n    *   *為何錯誤*：雖然外科開腹或胸腔鏡手術修補（**surgical repair**）是治療頑固性橫膈膜漏的一種手段，但在臨床實踐中，**surgical exploration 絕對不是首選（not the initial step）**。手術修補屬於侵入性高且伴隨麻醉與手術風險的方案。臨床上應首先嘗試**保守無創治療**——即暫時或永久停用 **peritoneal dialysis**，給予橫膈膜自發癒合的機會 [1]。只有當患者在停止 PD 轉行 HD 數月後、且強烈希望重返 PD，但橫膈膜缺損依然持續存在時，才會考慮外科修補。\n    *   *出題者意圖*：測試考生是否明白在處理機械性/解剖性 PD 併發症時，應遵循「先無創、後侵入」的 stepped-care 決策原則。\n\n*   **Option (C) is INCORRECT (Insertion of a tube for drainage and arrange thoracoscopy)**：\n    *   *為何錯誤*：該患者的胸水本質上是乾淨、無菌的透析液（**transudative dialysate**），並非化膿性感染（**empyema / abscess**）或大量血胸。因此，**絕對不需要（not indicated）**常規置入胸管引流（**tube drainage**），這會增加不必要的 **bacterial contamination** 與 **pleural infection** 風險。此外，無端進行 **thoracoscopy**（胸腔鏡檢查）也屬於過度侵入性診斷，因為僅憑胸水高糖生化檢驗已足以確立診斷 [1]。\n    *   *出題者意圖*：評估考生能否識別透析液外滲（**hydrothorax**）與化膿性胸水在引流指徵上的病理差異，避免錯誤的侵入性干擾。\n\n*   **Option (D) is INCORRECT (Pleurodesis and instillation of minocycline into the pleural cavity)**：\n    *   *為何錯誤*：化學性肋膜粘連術（**chemical pleurodesis**，如注入 **minocycline**、**talc** 或 **tetracycline**）是治療惡性胸水（**malignant pleural effusion**）或部分難治性漏口的手段。然而，這同樣屬於侵入性較高且會引發劇烈胸痛、發炎反應（甚至無菌性肋膜炎）的二線/三線處置。如果在**未停用 peritoneal dialysis 降低腹壓的情況下**盲目進行 **pleurodesis**，由於腹腔液體仍源源不斷地湧入胸膜腔，粘連劑會被極度稀釋而導致治療**完全失敗**。\n    *   *出題者意圖*：測試考生是否掌握 **pleurodesis** 的臨床適應症，並強調解除底層物理病因（腹壓與透析液持續輸入）必須優先於局部化學粘連。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons**\n\n在腎臟專科醫學考試中，關於 **Peritoneal Dialysis Non-infectious Complications**，最常考且最具鑑別價值的核心對比如下：\n\n#### **High-Yield Comparison 1: Pleuroperitoneal Leak (Hydrothorax) vs. Fluid Overload (CHF / Uremic Pleuritis)**\n在 PD 患者出現進行性呼吸困難與胸水時，這兩者的鑑別是臨床必考題：\n*   **Pleuroperitoneal Leak**：\n    *   *臨床表徵*：通常為**單側右側胸水（>90% 發生在右側）**，且患者**完全沒有全身性水腫（no peripheral edema）** [1]。這是因為橫膈膜腱性部分的先天性微小孔洞（**diaphragmatic stomas**）在右側解剖學上更為常見。\n    *   *胸水特徵*：**Pleural fluid glucose > Serum glucose** [1]。\n*   **Fluid Overload / CHF**：\n    *   *臨床表徵*：通常呈現雙側對稱性胸水（**bilateral pleural effusions**），且必定伴隨有顯著的全身性凹陷性水腫（**generalized pitting edema**）與頸靜脈怒張 [3]。\n    *   *胸水特徵*：常規 **transudate**，其 **glucose** 濃度低於或等於血糖。\n\n#### **High-Yield Comparison 2: Hemoperitoneum vs. Peritoneal Dialysis-Related Peritonitis**\n這是關於腹膜透析引流液外觀與細胞計數的經典對比：\n*   **Hemoperitoneum（血性透析液）**：\n    *   *臨床特徵*：引流液呈粉紅色或紅色，常見於年輕、經期女性（經血經由輸卵管逆流入腹腔）[4, 5]。\n    *   *細胞計數*：**WBC < 100/mm³** 且 **RBC count** 顯著升高 [4, 5]。處置首選在透析液中加入 **heparin** 以防導管內血栓阻塞，不需抗生素 [5]。\n*   **PD-Related Peritonitis（腹膜炎）**：\n    *   *臨床特徵*：引流液呈混濁狀（**cloudy effluent**），伴隨劇烈腹痛、反跳痛與發熱 [6]。\n    *   *細胞計數*：**WBC > 100/mm³（且 Neutrophil > 50%）** [6]。必須立即啟動經驗性腹腔內抗生素治療 [6]。\n\n---\n\n### **5. Citations & References**\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney* 第 64 章 (\"**Peritoneal Dialysis**\")：\n        *   Section: \"**NONINFECTIOUS COMPLICATIONS OF PERITONEAL DIALYSIS**\" / \"**Diaphragmatic Leaks / Pleuro-peritoneal fistula**\" (Page 2114–2115，詳細描述了橫膈膜漏的發病時間、右側好發性、高糖胸水診斷金標準，以及**停用 PD 轉行 HD 的首選管理策略**)。\n    *   *KDIGO 2026 AKI-AKD Guideline (Public Review Draft)*：\n        *   Chapter 5: \"**Dialysis Interventions**\" / \"**Peritoneal Dialysis**\" (Page 255，特別指出 **peritoneal dialysis** 在存在 **diaphragmatic defect** 時具有引發 **pleural effusion** 的重大風險，在此情況下屬於相對或絕對禁忌)。\n*   **Figures, Tables, & Boxes**：\n    *   **Table 11** (*KDIGO 2026 AKI/AKD Guideline*, Chapter 5)：「**Comparison of Dialysis Modalities in AKI**」，明確將 **risk of pleural effusion in case of diaphragmatic defect** 列為 **PD** 的主要缺點。\n    *   **Board Review Question 1** (*Chapter 64*, Page 2115)：討論了女性 hemoperitoneum 的機制與 **heparin** 的臨床應用。\n\n---\n\n📊 我可以為您建立一份完整的、基於國際腹膜透析學會（ISPD）指引的「腹膜透析非感染性機械併發症（包括 Hernia, Leak, Hydrothorax）臨床篩檢與階梯式調控決策流程圖」，以便您在未來的命題與臨床教學中進行系統性的高頻考點對比。",
           "citations": [],
           "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
+          "databaseSufficiency": "SUFFICIENT",
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (5-1)",
-          "databaseSufficiency": "INSUFFICIENT",
-          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### **2. 資料庫限制與不足之處說明 (Database Limitation Analysis)**\n\n根據對 *notebook sources*（特別是 *Brenner & Rector's The Kidney* 與相關 *KDIGO Guidelines*）的仔細檢索與對照，雖然文獻中提及了 **peritoneal dialysis** 相關的 **pleural effusion** 與 **diaphragmatic leak**（亦稱為 **pleuroperitoneal communication** 或 **pleuro-peritoneal fistula**）[1, 2]，但資料庫中**缺乏**足夠的細節來評估與比較各個治療選項（如 **discontinuation of peritoneal dialysis and initiation of hemodialysis**、**surgical exploration**、**thoracoscopy** 或 **pleurodesis with minocycline**）的優劣與指引推薦級別。\n\n#### **資料庫中現有的相關文獻記載：**\n1.  **診斷機制 (Diagnosis of Pleuroperitoneal Fistula)**：\n    *   根據 **Chapter 64: Peritoneal Dialysis**（Passage 228），由 **preexisting diaphragmatic stoma** 引起的 **diaphragmatic leaks** 在 **peritoneal dialysis** 中並不常見，且通常在啟動 **peritoneal dialysis** 後迅速顯性化。\n    *   診斷 **pleuro-peritoneal fistula** 的標準方法是將 **contrast dye** 或 **radioactive isotope** 注入 **dialysate solution** 中，隨後在 **pleural space** 中偵測到該示蹤劑的聚積 [1]。\n2.  **併發症風險 (Risk of Pleural Effusion)**：\n    *   根據 **KDIGO 2026 AKI-AKD Guideline Public Review Draft**（Passage 548），當患者存在 **diaphragmatic defect** 時，進行 **peritoneal dialysis** 會伴隨發生 **pleural effusion** 的高風險。\n\n然而，關於本案中特別列出的 **thoracocentesis** 數據分析（如 **protein 3.6 g/dL**, **LDH 250 IU/L**, **glucose 180 mg/dL**），以及這些選項（如使用 **minocycline** 進行 **pleurodesis** 或轉為 **hemodialysis**）在臨床指引中的具體處置順序與療效對比，*notebook sources* 並無詳細記載。因此，基於科學的嚴謹性與不憑空猜測之原則，必須輸出 **INSUFFICIENT_DATABASE_EVIDENCE**。\n\n---\n\n### **3. 課本章節與定位 (Citations & References)**\n\n*   **Chapter 64: Peritoneal Dialysis**\n    *   Section: *NONINFECTIOUS COMPLICATIONS OF PERITONEAL DIALYSIS* [1]\n*   **KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf**\n    *   Section: *Table 41: Advantages and disadvantages of PD, SLED, CRRT and IHD* [2]\n\n---\n\n🔍 雖然本題受限於資料庫文獻而無法進行完整選項排除，但 **pleuroperitoneal communication** 在臨床上常被稱為 **sweet hydrothorax**。您是否需要我為您利用外部醫學資料庫，針對「如何利用 **pleural fluid-to-serum glucose gradient** 進行 **sweet hydrothorax** 的無創性診斷，以及 **VATS with talc poudrage** 與 **temporary hemodialysis bridge** 的最新臨床處置流程」整理一份詳盡的專科備考對照報告？",
-          "selectedOption": "NONE"
-        },
-        {
-          "notebookTitle": "TSN：出題 (5-3)",
-          "databaseSufficiency": "INSUFFICIENT",
-          "rawResponse": "",
-          "selectedOption": "UNKNOWN"
+          "notebookTitle": "TSN：出題 (2-4)",
+          "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+          "accountProfile": "sandbox0505",
+          "selectedOption": "A",
+          "rawResponse": "### 1. Answer Determination (答案判定)\n\n本題的單一正確選項為 **(A) Discontinuation of peritoneal dialysis and initiation of hemodialysis**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正解詳細原原理與臨床生理分析)\n\n本病例呈現了一個在 **peritoneal dialysis** 臨床實踐中極具鑑別挑戰性的 **pleural effusion** 急症處置決策：\n\n1.  **解剖學與臨床特徵分析 (Anatomical and Clinical Presentation)**：\n    患者為一名 35 歲因 **herb nephropathy** 導致 **end-stage renal disease** 的女性，接受 **continuous ambulatory peritoneal dialysis** 治療 3 年。此次主訴為急性發作且進行性加重的 **shortness of breath**，伴隨 **tachycardia**（**pulse rate** 110/min）與 **distended neck veins**。\n    臨床物理檢查發現右側肺部叩診呈 **dullness**，且無全身性 **edema**，**CXR** 證實有大量右側 **pleural effusion**。在 **peritoneal dialysis** 患者中，這種單側（特別是右側，約佔 88%）的大量胸水，在病理生理學上高度提示為 **pleuroperitoneal leak** 或 **diaphragmatic leak**（因先天性或後天性 **diaphragmatic defect** 或 **diaphragmatic stoma**，在 **intra-abdominal pressure** 增加時，促使腹腔內的 **dialysate** 經由缺陷處漏入壓力較低的胸膜腔）[1, 2]。\n\n2.  **胸水生化判讀與臨床擬態 (Interpretation of Pleural Fluid Analysis)**：\n    *   患者的 **thoracocentesis** 胸水分析顯示：**protein** 3.6 g/dL，**LDH** 250 IU/L。根據 **Light's criteria**，此胸水已達到 **exudate** 的標準。\n    *   然而，其 **glucose** 濃度高達 180 mg/dL（在沒有糖尿病的年輕患者中，若為一般的 **exudate** 如 **tuberculous pleurisy** 或 **empyema**，因局部細菌或發炎細胞大量消耗糖分，其 **glucose** 濃度通常會極低 [ $< 60\\text{ mg/dL}$]）。此處高達 180 mg/dL 的 **glucose** 濃度反映了高糖分 **dialysate** 漏入胸膜腔的特徵。\n    *   這種「高蛋白、高 **LDH** 但同時伴隨高 **glucose** 且以 **lymphocyte** (55%) 為主」的胸水表現，在臨床上提示了兩種可能性：第一，患者可能患有 **tuberculous pleurisy** 伴隨輕度的 **pleuroperitoneal communication**；第二，長期的 **CAPD** 引發了局部胸膜的慢性發炎或微量滲漏。\n    *   **不論其背後的確切病因為何，當前最核心的臨床急症在於大量胸水引發的急性呼吸窘迫與血液動力學不穩定**。\n\n3.  **首選立即處置的生理學依據 (Physiological Basis for Option A)**：\n    *   **解除腹腔壓力，阻止漏出 (Halting Fluid Migration)**：\n        立即 **discontinuation of peritoneal dialysis**（停止腹膜透析）是切斷胸水持續累積的根本手段。這能立即消除因腹腔灌注液體所產生的 **intra-abdominal pressure (IAP)**，停止液體經由膈肌瘻管向胸腔的推擠，並給予 **diaphragmatic defect** 自發性閉合與修復的機會（約 40%–50% 的患者在暫停 PD 2–6 週後可自發性癒合）[1]。\n    *   **維持替代性腎臟替代治療 (Transitioning to Alternative RRT)**：\n        由於患者為 **end-stage renal disease**，且處於急性水分與毒素蓄積的狀態下，必須立即建立血管通路（如放置 **temporary hemodialysis catheter**）並啟動 **hemodialysis** 以進行急症脫水（**ultrafiltration**）與毒素清除。\n    *   **確保診斷與治療安全**：\n        若此胸水為 **tuberculous pleurisy** 引起，將其轉換為 **hemodialysis** 能安全地維持其透析清除率，同時避免持續進行 **peritoneal dialysis** 加重其膈肌與胸腔壓迫，以便後續進行抗結核藥物治療。\n\n因此，**Option (A) Discontinuation of peritoneal dialysis and initiation of hemodialysis** 是急性期最安全、最有效且首選的 **best management**。\n\n---\n\n### 3. Distractor Option Analysis (干擾項分析)\n\n*   **Option (B) Surgical exploration to locate and repair the diaphragmatic leak**：\n    *   **為何錯誤**：雖然透過 **video-assisted thoracoscopic surgery (VATS)** 或 **laparoscopy** 進行外科膈肌修補與縫合是根治 **diaphragmatic leak** 的有效手段，但這是一項侵入性手術，且患者此時處於急性 **shortness of breath** 與 **tachycardia** 的不穩定狀態。臨床上，**surgical repair** 僅保留給「經過暫停 **PD** 等保守治療失敗、且強烈希望重返 **PD** 的穩定患者」。在急診室中，立即進行手術探查是不恰當且具高風險的。\n    *   **出題意圖**：測試考生是否混淆了「長期的根治性外科方案」與「急性期的首選穩定性處置」，評估考生在面對心肺功能不穩定患者時的臨床安全決策能力。\n\n*   **Option (C) Insertion of a tube for drainage and arrange thoracoscopy**：\n    *   **為何錯誤**：對於 **peritoneal dialysis-related hydrothorax**，放置 **chest tube for drainage** 並非首選。因為只要 **peritoneal dialysis** 還在持續進行，腹腔內的液體就會源源不絕地經由膈肌漏入胸腔。此時若放置胸管持續引流，只會導致體內大量的 **protein**、電解質與水分流失，迅速引發重度 **malnutrition** 與脫水休克。\n    *   **出題意圖**：測試考生是否掌握 **PPL** 的特殊病理生理動力學（腹腔胸腔連通），避免考生採取「見胸水就放胸管」的常規錯誤處置。\n\n*   **Option (D) Pleurodesis and instillation of minocycline into the pleural cavity**：\n    *   **為何錯誤**：使用 **minocycline** 或 **tetracycline** 進行 **chemical pleurodesis**（胸膜粘連術）是治療復發性 **PPL** 的一種二線或三線保守治療手段。然而，在急性期且尚未嘗試暫停 **PD**、患者胸水尚未排空且未建立 **hemodialysis** 替代治療之前，盲目在急診室進行 **pleurodesis** 具有極高的失敗率，且會引發劇烈的胸膜炎性疼痛，不屬於首選的 **immediate management**。\n    *   **出題意圖**：測試考生是否清楚 **pleurodesis** 在 **PPL** 階梯式管理中的正確順序與臨床適應症。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)\n\n在腎臟專科與執照考試中，關於 **peritoneal dialysis-related hydrothorax (PPL)** 的診斷與鑑別，最常考且高機率出現的考點包括：\n\n1.  **Pleural Fluid-to-Serum Glucose Ratio: PPL vs. Inflammatory Exudates (TB/Empyema/Malignancy)**：\n    *   **PPL (Pleuroperitoneal Leak)**：因胸水直接源於高糖分 **dialysate**，其 **pleural fluid glucose** 濃度通常會顯著高於 **serum glucose**（**pleural fluid-to-serum glucose ratio > 1.0**，甚至在 2.0 以上）。這是診斷 **PPL** 最特異且簡單的生化指標。\n    *   **TB / Empyema / Malignancy**：因發炎或細胞高度活躍，糖分被快速消耗，其 **pleural fluid glucose** 濃度通常顯著低下（常 **< 60 mg/dL**，且 **pleural fluid-to-serum glucose ratio < 0.5**）。\n    *   *考試核心*：本題中患者的 **glucose** 為 180 mg/dL（明顯升高），在淋巴細胞偏高的情況下，這項指標是區分單純結核性胸水與伴隨透析液滲漏（或單純透析液滲漏）最關鍵的診斷依據。\n\n2.  **Transudate vs. Exudate in Peritoneal Dialysis Patients**：\n    *   在 **peritoneal dialysis** 患者中，因容量超載、低蛋白血症或心臟衰竭引起的胸水通常為典型 **transudate**（**protein < 3.0 g/dL**，**LDH < 200 IU/L**，且兩側對稱或伴隨全身水腫）。\n    *   若呈現單側、無水腫的大量胸水，且化學分析顯示為 **exudate**（如本案中 **protein 3.6**，**LDH 250**），臨床上必須優先安排胸水培養與細胞學檢查，以鑑別排除 **tuberculous pleurisy** 或繼發性 **bacterial empyema**。\n\n---\n\n### 5. Citations & References (引用文獻)\n\n*   **Chapter & Section**：\n    *   **Chapter 64 (Peritoneal Dialysis)** of *Brenner & Rector's The Kidney*, under the section header **NONINFECTIOUS COMPLICATIONS OF PERITONEAL DIALYSIS** -> **Pleural Effusion / Diaphragmatic Leaks**.\n    *   **Chapter 65 (Critical Care Nephrology)** of *Brenner & Rector's The Kidney*, under the section header **RENAL REPLACEMENT THERAPY MODALITIES** -> **Peritoneal Dialysis Advantages and Disadvantages** (specifically discussing **diaphragmatic defect** and **pleural effusion** risks).\n*   **Figures, Tables, & Boxes**：\n    *   **Table 65.3** (in Chapter 65): *\"Advantages and Disadvantages of Peritoneal Dialysis\"*, explicitly listing \"Impairs diaphragmatic movement, potential for respiratory problems, and risk of pleural effusion in case of diaphragmatic defect\" as a key disadvantage.\n\n---\n💡 **Nudge**: 針對該名因 **herb nephropathy** 導致 **ESRD** 且伴隨右側大量胸水的女性患者，我們也可以進一步利用其病史中極具特異性的致病原因，探討 **aristolochic acid nephropathy (AAN)** 在長期透析或移植後，併發 **urothelial malignancy**（尿路上皮癌）的高風險篩檢與追蹤指引。",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
         }
       ],
-      "reconciliationStatus": "INSUFFICIENT_DATABASE_EVIDENCE",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (NONE vs A)，原始答案為 (C)。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始解答 (C) 與 NotebookLM 最新解析結果 (A, A) 存在歧異。",
+      "qcVerified": false,
+      "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:30:44.414Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "原始檔案中題幹與選項皆完整。NLM 均回報 INSUFFICIENT_DATABASE_EVIDENCE，無法由現有指引判定最佳處置策略。原始答案為 (C)。標記請 Yuan/醫師人工審查。"
+      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q47",
@@ -2724,20 +2629,7 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q47_1",
-          "fileName": "a7475dcd1257f53cf440c0b3c76fc967c1e3d47bd15976083edefed8c95ecdda.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/a7475dcd1257f53cf440c0b3c76fc967c1e3d47bd15976083edefed8c95ecdda.jpg",
-          "caption": "圖 47-1"
-        },
-        {
-          "id": "img_2025_北醫臨床練習題_q47_2",
-          "fileName": "465abb7537d1b4a989bb9a0299c7a00f4a17bd3d9b3288fec236387d769a6f88.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/465abb7537d1b4a989bb9a0299c7a00f4a17bd3d9b3288fec236387d769a6f88.jpg",
-          "caption": "圖 47-2"
-        }
-      ]
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q48",
@@ -2790,7 +2682,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q49",
@@ -2843,7 +2736,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "attachedImages": null
     },
     {
       "id": "2025_北醫臨床練習題_q50",
@@ -2903,14 +2797,7 @@
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "原始檔案中包含病理切片圖片。純文字 JSON 缺乏切片圖像致使 NLM 產生猜測。本題嚴重依賴影像判讀，標記為 IMAGE_DEPENDENT_QUESTION。",
       "isInvalid": true,
-      "attachedImages": [
-        {
-          "id": "img_2025_北醫臨床練習題_q50_1",
-          "fileName": "71a5ee4dc876de7faa93fc995319f1231344390a6668af8439b93c613c176e49.jpg",
-          "relPath": "/exam-images/2025_北醫臨床練習題/71a5ee4dc876de7faa93fc995319f1231344390a6668af8439b93c613c176e49.jpg",
-          "caption": "圖 50-1"
-        }
-      ]
+      "attachedImages": null
     }
   ],
   "highConfidenceCount": 30,

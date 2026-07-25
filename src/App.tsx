@@ -221,7 +221,9 @@ export const App: React.FC = () => {
 
   // Auto-Save Attempt State
   useEffect(() => {
-    localStorage.setItem(`attempt_${selectedPaperId}`, JSON.stringify(attemptState));
+    if (attemptState.paperId === selectedPaperId) {
+      localStorage.setItem(`attempt_${selectedPaperId}`, JSON.stringify(attemptState));
+    }
   }, [attemptState, selectedPaperId]);
 
   // Timer Effect
@@ -250,13 +252,17 @@ export const App: React.FC = () => {
       let paperAnswered = 0;
       let paperCorrect = 0;
 
-      const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
       let paperAnswers: Record<string, OptionId> = {};
-      if (savedAttemptStr) {
-        try {
-          const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
-          paperAnswers = parsed.answers || {};
-        } catch (e) {}
+      if (paper.id === attemptState.paperId) {
+        paperAnswers = attemptState.answers || {};
+      } else {
+        const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
+        if (savedAttemptStr) {
+          try {
+            const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
+            paperAnswers = parsed.answers || {};
+          } catch (e) {}
+        }
       }
 
       paper.questions.forEach((q) => {
@@ -303,13 +309,17 @@ export const App: React.FC = () => {
   const handleStartCustomPractice = (type: CustomPracticeType, count?: number) => {
     const allQuestions: ExamQuestion[] = [];
     Object.values(allPapersMap).forEach((paper) => {
-      const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
       let paperAnswers: Record<string, OptionId> = {};
-      if (savedAttemptStr) {
-        try {
-          const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
-          paperAnswers = parsed.answers || {};
-        } catch (e) {}
+      if (paper.id === attemptState.paperId) {
+        paperAnswers = attemptState.answers || {};
+      } else {
+        const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
+        if (savedAttemptStr) {
+          try {
+            const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
+            paperAnswers = parsed.answers || {};
+          } catch (e) {}
+        }
       }
 
       paper.questions.forEach((q) => {

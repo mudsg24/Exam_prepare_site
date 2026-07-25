@@ -1,0 +1,896 @@
+{
+  "id": "2026_大林_(重點轉化)",
+  "title": "2026 大林 (重點轉化)",
+  "rawTitle": "2026 大林 (重點轉化)",
+  "sourceCategory": "2026 年交換題",
+  "year": 2026,
+  "questionCount": 28,
+  "highConfidenceCount": 28,
+  "disputedCount": 0,
+  "createdAt": "2026-07-25T12:12:14.949997+00:00",
+  "questions": [
+    {
+      "id": "2026_大林_(重點轉化)_q1",
+      "number": 1,
+      "chapter": "Topic 1: 不同國家的流行病學",
+      "stem": "Which of the following statements regarding the global epidemiology of Chronic Kidney Disease (CKD) and End-Stage Kidney Disease (ESKD) across different countries is most accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taiwan exhibits the highest incidence and prevalence of treated ESKD globally, with diabetic kidney disease serving as the primary underlying etiology."
+        },
+        {
+          "id": "B",
+          "text": "Japan reports the highest global annual mortality rate among maintenance hemodialysis patients due to severe restrictions in healthcare access."
+        },
+        {
+          "id": "C",
+          "text": "In low- and middle-income countries (LMICs), diabetic nephropathy accounts for over 90% of incident ESKD cases, vastly exceeding infectious and environmental etiologies."
+        },
+        {
+          "id": "D",
+          "text": "Glomerulonephritis has completely ceased to be a major cause of ESKD in East Asian populations following the implementation of universal adult urine dipstick screening."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n根據 **USRDS (United States Renal Data System)** 與全球流行病學資料，**Taiwan** 的 **treated ESKD** **incidence** (發生率) 與 **prevalence** (盛行率) 長年居於全球首位。其核心驅動力包含 **diabetic kidney disease (DKD)** 佔比達 45–50%、高品質的全民健保 (**National Health Insurance, NHI**) 降低了透析患者的 **annual mortality rate** 使得存活累積人數高，以及歷史上 **aristolochic acid nephropathy (AAN)** 的影響。因此 (A) 敘述完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：**Japan** 雖擁有極高之 **ESKD prevalence**，但其透析患者之 **annual mortality rate** 為全球最低之一（優異的血管通路維護與透析品質），而非 highest mortality rate。\n- **(C) 錯誤**：在 **low- and middle-income countries (LMICs)**，雖然 **diabetes mellitus** 與 **hypertension** 正在迅速攀升，但 **chronic glomerulonephritis**、**environmental toxins** (如 **Mesoamerican nephropathy / CKDu**) 及 **infectious etiologies** (如 **malaria**, **HIV**, **schistosomiasis**) 仍佔相當高的 ESKD 比率，而非 90% 皆由 DKD 所致。\n- **(D) 錯誤**：**Glomerulonephritis** (例如 **IgA nephropathy**) 在 East Asian populations 中仍為 **non-diabetic ESKD** 的最主要原因之一，並未完全消失。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/21. Developmental Programming of Blood Pressure and Renal Function Through the Life Course/Table_21_16.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q2",
+      "number": 2,
+      "chapter": "Topic 1: 不同國家的流行病學",
+      "stem": "A 42-year-old male agricultural laborer from Central America presents with progressive stage 3 chronic kidney disease without significant proteinuria or hypertension. Epidemiological evaluation identifies a clustering of similar non-diabetic chronic interstitial kidney disease cases among young male sugarcane cutters in the same region. Which of the following features best characterizes Mesoamerican Nephropathy (CKDu) in global nephrology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is primarily driven by APOL1 high-risk renal variants interacting with chronic viral hepatitis infection."
+        },
+        {
+          "id": "B",
+          "text": "It presents clinically with nephrotic-range proteinuria and biopsy-proven nodular glomerulosclerosis."
+        },
+        {
+          "id": "C",
+          "text": "It is predominantly a chronic tubulointerstitial disease strongly associated with repeated heat stress, strenuous physical exertion, and chronic dehydration."
+        },
+        {
+          "id": "D",
+          "text": "It demonstrates a strong predilection for elderly postmenopausal females with pre-existing metabolic syndrome and hyperuricemia."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n**Mesoamerican Nephropathy (CKDu, CKD of unknown etiology)** 為近年全球流行病學高度關注的地區性 **CKD**。該病主要好發於 **Central America** (如 Nicaragua, El Salvador) 沿海熱帶地區的青壯年男性農業勞工（如甘蔗切割工人）。臨床與病理展現為 **chronic tubulointerstitial nephritis**，伴隨 **tubular atrophy** 與 **interstitial fibrosis**，通常沒有顯著 **proteinuria** (屬 subnephrotic or minimal proteinuria) 或 **hypertension**。主要風險因子為 **recurrent heat stress**, **strenuous physical exertion**, **recurrent dehydration**, 以及潛在的 **occupational pesticide exposure** 或 **heavy metals**。(C) 描述完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：**APOL1 high-risk variants** (G1/G2 alleles) 主要盛行於 **African ancestry populations**，與 **hypertensive nephrosclerosis**, **FSGS**, 及 **HIVAN** 的快速惡化相關，非 CKDu 的主因。\n- **(B) 錯誤**：**Nodular glomerulosclerosis** 為 **diabetic nephropathy** 特徵，CKDu 主要是 **tubulointerstitial disease** 且無 nephrotic-range proteinuria。\n- **(D) 錯誤**：CKDu 好發於 **young to middle-aged male outdoor laborers**，而非 elderly females。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/21. Developmental Programming of Blood Pressure and Renal Function Through the Life Course/Table_21_11.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q3",
+      "number": 3,
+      "chapter": "Topic 2: low nephron endowment 的相關併發症",
+      "stem": "An adult born prematurely with low birth weight (LBW) is evaluated for newly diagnosed hypertension and subnephrotic proteinuria. According to the Brenner hypothesis on low nephron endowment, which of the following pathophysiological adaptations primarily mediates long-term renal injury in individuals born with a reduced baseline nephron count?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compensatory elevation of single-nephron GFR (SNGFR) leading to intraglomerular hypertension, hyperfiltration, and secondary focal segmental glomerulosclerosis."
+        },
+        {
+          "id": "B",
+          "text": "Primary activation of tubular salt-wasting pathways resulting in chronic volume depletion and recurrent pre-renal azotemia."
+        },
+        {
+          "id": "C",
+          "text": "Widespread renal tubular dysplasia caused by persistent embryonic upregulation of PAX2 gene expression throughout adulthood."
+        },
+        {
+          "id": "D",
+          "text": "Accelerated renal baseline clearance of aldosterone leading to primary hypoaldosteronism and severe hyperkalemia."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n根據著名的 **Brenner Hypothesis** (Brenner et al.)，先天 **low nephron endowment**（因 **low birth weight [LBW]**, **preterm birth**, **maternal malnutrition**, 或 **maternal diabetes** 等因素導致）會造成個體出生時 **total nephron number** 顯著不足。為了維持體內總體 **glomerular filtration rate (GFR)**，剩餘的健存 **nephrons** 會發生血流動力學補償，即 **single-nephron GFR (SNGFR)** 升高、**intraglomerular hydraulic pressure ($P_{GC}$)** 增加（即 **intraglomerular hypertension** 與 **hyperfiltration**）。長期而言，這種高灌流量與高壓力會破壞 **podocytes** 與 **glomerular basement membrane (GBM)**，誘發 **secondary focal segmental glomerulosclerosis (FSGS)**、**systemic hypertension**，並大幅增加成年後患 **CKD** 及 **ESKD** 的風險。故 (A) 為正解。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：**Low nephron endowment** 不會導致 **tubular salt-wasting**；相反地，因 **RAAS activation** 與 **nephron deficit**，此類患者容易出現 **renal sodium retention** 與 **salt-sensitive hypertension**。\n- **(C) 錯誤**：**PAX2** 為發育時期 ureteric bud branching 所需基因，突變可致 **renal coloboma syndrome**；但個體出生後低腎元數引致的長期損害機制為血流動力學 **hyperfiltration**，非成人期 persistent embryonic upregulation 導致的 tubular dysplasia。\n- **(D) 錯誤**：低腎元數不會增加 aldosterone 清除率，亦無 primary hypoaldosteronism 之特徵。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/21. Developmental Programming of Blood Pressure and Renal Function Through the Life Course/Table_21_4_part1.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q4",
+      "number": 4,
+      "chapter": "Topic 2: low nephron endowment 的相關併發症",
+      "stem": "A 35-year-old female with a history of intrauterine growth restriction (IUGR) presents with mild proteinuria (1.2 g/day) and stage 2 CKD. Renal biopsy reveals marked glomerulomegaly with focal segmental sclerosis affecting the perihilar region of several glomeruli. Which of the following clinical scenarios represents the highest synergistic risk for accelerating decline in renal function in patients with low nephron endowment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Development of obesity or type 2 diabetes mellitus, which imposes an additional metabolic filtration demand on existing nephrons."
+        },
+        {
+          "id": "B",
+          "text": "Initiation of renin-angiotensin-aldosterone system (RAAS) blockade to lower intraglomerular hydraulic pressure."
+        },
+        {
+          "id": "C",
+          "text": "Habitual adherence to a low-protein diet resulting in reduced renal amino acid clearance."
+        },
+        {
+          "id": "D",
+          "text": "Strict blood pressure control achieving a target systolic blood pressure under 120 mmHg."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n先天 **low nephron endowment** 患者在基線 **nephron count** 不足的情況下，已處於高 **SNGFR** 狀態。當疊加二次打擊 (**second hit**)，尤其是 **obesity** 或 **type 2 diabetes mellitus** 時，全身性代謝需求增加與 **hyperinsulinemia** / **hyperglycemia** 會進一步引發 **vasodilation of the afferent arteriole**，造成極度劇烈的 **glomerular hyperfiltration** 與 **glomerulomegaly**。這會急劇加速 **podocyte loss** 與 **secondary FSGS** (特別是 **perihilar variant**) 的推展，大幅加快 **GFR decline** 的速度。(A) 完全符合臨床生理學與病理協同損害效應。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：**RAAS blockade (ACEi / ARB)** 能舒張 **efferent arteriole**，降低 **intraglomerular pressure**，減緩 **hyperfiltration injury**，為保護因子而非危害因子。\n- **(C) 錯誤**：適度 **low-protein diet** 能減少 **afferent arteriolar vasodilation**，降低 **SNGFR** 與 **hyperfiltration**，具保護作用。\n- **(D) 錯誤**：控制血壓能減輕傳導至 glomeruli 的高血壓衝擊，減緩 FSGS 惡化。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/21. Developmental Programming of Blood Pressure and Renal Function Through the Life Course/Table_21_13.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q5",
+      "number": 5,
+      "chapter": "Topic 3: renal aging 的機轉和 histology 變化",
+      "stem": "A 72-year-old normotensive, non-diabetic male undergoes a protocol renal biopsy as a healthy prospective kidney donor. Microscopic examination demonstrates age-related nephrosclerosis. Which of the following combinations of histological findings and cellular markers is most characteristic of healthy renal aging (senescent kidney)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Global glomerulosclerosis, arteriolar hyalinosis with arterial intimal thickening, cortical tubular atrophy, and increased expression of renal p16INK4a."
+        },
+        {
+          "id": "B",
+          "text": "Diffuse nodular glomerulosclerosis, capillary wall double-contours, subendothelial electron-dense deposits, and suppressed SA-beta-galactosidase activity."
+        },
+        {
+          "id": "C",
+          "text": "Segmental necrotizing glomerulonephritis, cellular crescents, interstitial eosinophilia, and upregulated renal Klotho expression."
+        },
+        {
+          "id": "D",
+          "text": "Widespread podocyte detachment with diffuse foot process effacement (>90%) and preserved cortical vascular architecture without intimal thickening."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n正常 **renal aging** (又稱 **senescent kidney** 或 **age-related nephrosclerosis**) 的典型組織病理與細胞生物學特徵包括：\n1. **Histological changes**: **Global glomerulosclerosis**（隨年齡增加，70歲以上可達 10–15% 全硬化腎小球）、**arterial intimal thickening** (fibroelastic hyperplasia)、**arteriolar hyalinosis**、**cortical thinning**、**tubular atrophy** 及 **interstitial fibrosis (TA/IF)**。\n2. **Cellular/Molecular mechanisms**: **Cellular senescence** 標記顯著上升，其中以 **$p16^{INK4a}$** (cyclin-dependent kinase inhibitor 2A) 與 **$p21^{Cip1/Waf1}$** 最為關鍵；細胞展現 **SA-$\beta$-galactosidase (Senescence-Associated $\beta$-Galactosidase)** 陽性；伴隨 **telomere shortening**、**mitochondrial dysfunction** 以及抗衰老蛋白 **Klotho** 的表達量下降。因此 (A) 為正確組合。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：**Nodular glomerulosclerosis** (Kimmelstiel-Wilson) 與 **subendothelial deposits** 為 **diabetic nephropathy** 或 **MPGN** 特徵；腎衰老時 **SA-$\beta$-gal** 應為 elevated 而非 suppressed。\n- **(C) 錯誤**：**Necrotizing glomerulonephritis** 與 **crescents** 為 vasculitis / RPGN 病理；腎衰老時 **Klotho** 表達量顯著降低（downregulated），而非 upregulated。\n- **(D) 錯誤**：廣泛 **foot process effacement (>90%)** 為 **Minimal Change Disease (MCD)** 的典型電鏡特徵，而非 normal aging。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/22. The Physiology and Pathophysiology of the Kidneys in Aging/Fig_22_6.png",
+        "2020 Brenner 11e/22. The Physiology and Pathophysiology of the Kidneys in Aging/Box_22_1.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q6",
+      "number": 6,
+      "chapter": "Topic 3: renal aging 的機轉和 histology 變化",
+      "stem": "An 80-year-old female with no baseline intrinsic renal disease is admitted following acute oral fluid restriction. Laboratory testing demonstrates BUN 38 mg/dL, serum creatinine 1.2 mg/dL, and serum sodium 131 mEq/L. Which of the following age-related physiological alterations best explains the heightened susceptibility of the senescent kidney to hemodynamically mediated GFR reduction and acute electrolyte disturbances?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loss of renal functional reserve (RFR) alongside blunted tubuloglomerular feedback and reduced medullary hypertonicity impairing urinary concentration."
+        },
+        {
+          "id": "B",
+          "text": "Upregulation of inner medullary aquaporin-2 (AQP2) water channels resulting in inappropriate free water retention and severe hypertension."
+        },
+        {
+          "id": "C",
+          "text": "Markedly elevated baseline plasma renin and aldosterone levels causing severe systemic renal vasoconstriction and obligatory sodium wasting."
+        },
+        {
+          "id": "D",
+          "text": "Selective preservation of cortical renal blood flow with progressive atrophy of juxtamedullary nephrons resulting in persistent hyperfiltration."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n隨著年齡增長，**senescent kidney** 發生多項關鍵生理功能減退：\n1. **Renal Functional Reserve (RFR)** 喪失：老年人基線時腎小球已處於最大程度舒張或適應狀態，當給予蛋白質負荷或面臨缺水/缺血衝擊時，無法動員 **RFR** 增加 GFR。\n2. **Autoregulation & Tubuloglomerular Feedback (TGF)** 遲鈍：使個體在面臨 **volume depletion** 或使用 **NSAIDs / RAS inhibitors** 時更易發生急劇的 **hemodynamic GFR decline (prerenal AKI)**。\n3. **Concentrating & Diluting Ability** 減退：因 **medullary tonicity** 降低、**collecting duct AQP2** 與 **urea transporters** 表達減少及對 **vasopressin (ADH)** 的反應遲鈍，無法有效濃縮尿液，極易在體液不足時發生水份失衡與 **hyponatremia**（亦與腎臟留鈉能力下降有關）。故 (A) 為正確選項。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：年長者 **AQP2** 表達與對 ADH 之反應為 **downregulated / blunted**，而非 upregulation。\n- **(C) 錯誤**：腎衰老伴隨 **hyporeninemic hypoaldosteronism** 的趨勢（renin 與 aldosterone 水平隨年齡下降而非 elevated），使其在限鈉時難以留鈉。\n- **(D) 錯誤**：腎衰老的血流改變為 **selective cortical renal blood flow (RBF) reduction**，而 **juxtamedullary perfusion** 相對被保留（形成 arteriolar shunting），而非 cortical preservation。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/22. The Physiology and Pathophysiology of the Kidneys in Aging/Fig_22_1.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q7",
+      "number": 7,
+      "chapter": "Topic 4: albuminuria和CKD的相關性",
+      "stem": "A 58-year-old male with type 2 diabetes mellitus and hypertension is evaluated during a routine follow-up. Laboratory evaluation reveals an eGFR of 52 mL/min/1.73 m² and a spot urine albumin-to-creatinine ratio (UACR) of 450 mg/g. Which of the following statements regarding the clinical significance of albuminuria in this patient is most accurate according to current nephrology clinical practice guidelines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Albuminuria is primarily a marker of structural glomerular damage and does not independently predict cardiovascular mortality once eGFR is controlled for."
+        },
+        {
+          "id": "B",
+          "text": "A reduction in UACR of ≥30% with therapeutic interventions (such as RAS inhibitors or SGLT2 inhibitors) serves as a validated surrogate endpoint for delaying CKD progression and reducing cardiovascular events."
+        },
+        {
+          "id": "C",
+          "text": "Microalbuminuria (UACR 30–300 mg/g) represents an irreversible stage of diabetic kidney disease that mandates immediate initiation of renal replacement therapy planning."
+        },
+        {
+          "id": "D",
+          "text": "Changes in albuminuria reflect transient intraglomerular hemodynamic alterations but show no correlation with tubulointerstitial fibrosis or renal survival."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在慢性腎臟病 (Chronic Kidney Disease, CKD) 與糖尿病腎病變 (Diabetic Kidney Disease, DKD) 的臨床處置中，**白蛋白尿 (Albuminuria)** 不僅是腎小球過濾屏障受損的指標，更是獨立於估計腎小球過濾率 (eGFR) 之外的核心風險因子與治療評估指標。\n- **(B) 為正確選項**：多項大型臨床試驗 (如 CREDENCE, DAPA-CKD, EMPA-KIDNEY) 與綜合分析 (Meta-analyses) 證實，透過 **RAS 阻斷劑 (ACEi/ARB)** 或 **SGLT2 抑制劑 (SGLT2 inhibitors)** 治療後，將 **UACR 降低 ≥30%** 可作為延緩 CKD 進展（降低 ESKD 風險）及減少心血管事件 (Cardiovascular outcomes) 的有效替代終點 (Surrogate endpoint)。\n- **(A) 為錯誤選項**：Albuminuria 是心血管死亡率 (Cardiovascular mortality) 和全因死亡率 (All-cause mortality) 的**獨立預測因子** (Independent risk factor)，即使在校正 eGFR 後依然具有強烈的風險預測能力 (KDIGO Risk Stratification / Heatmap 分級系統)。\n- **(C) 為錯誤選項**：Microalbuminuria (A2 階段，UACR 30–300 mg/g) 處於疾病早期且具高度可逆性，經適當生活型態與藥物介入後可回復至正常白蛋白尿 (Normoalbuminuria)，絕非需要開始準備腎臟替代治療 (RRT) 的不可逆末期。\n- **(D) 為錯誤選項**：Albuminuria 的長期持續存在會使近曲腎小管受體 (如 Megalin/Cubilin) 負載過重，引發近曲腎小管上皮細胞釋放促發炎與促纖維化因子 (Inflammatory and fibrotic cascades)，直接加速管腔間質纖維化 (Tubulointerstitial fibrosis) 與腎功能衰退。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q8",
+      "number": 8,
+      "chapter": "Topic 4: albuminuria和CKD的相關性",
+      "stem": "A 62-year-old female with long-standing hypertension and CKD G3aA3 (eGFR 55 mL/min/1.73 m², UACR 850 mg/g) is participating in a cardiorenal risk management program. Which of the following pathophysiological mechanisms best explains how sustained severe albuminuria directly contributes to progressive decline in renal function and an elevated risk of heart failure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Filtered albumin directly binds circulating renin and inactivates it, leading to hyporeninemic hypoaldosteronism and secondary fluid retention."
+        },
+        {
+          "id": "B",
+          "text": "Endocytosis of excess filtered albumin by proximal tubular epithelial cells induces NF-κB-mediated activation, causing secretion of pro-inflammatory cytokines and accelerating tubulointerstitial fibrosis."
+        },
+        {
+          "id": "C",
+          "text": "High urinary albumin concentration leads to intrarenal crystal precipitation in the loop of Henle, precipitating mechanical cast nephropathy and renal obstruction."
+        },
+        {
+          "id": "D",
+          "text": "Albuminuria shifts intravascular fluid into the interstitial space, precipitating chronic prerenal azotemia without activating systemic vascular strain."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n嚴重白蛋白尿 (Severe Albuminuria/Macroalbuminuria) 不僅是腎臟疾病的臨床表徵，更是直接驅動腎功能惡化與心血管病變的病理因子 (Pathogenic driver)。\n- **(B) 為正確選項**：當腎小球過濾屏障受損導致大量白蛋白漏出至原尿時，近曲腎小管上皮細胞 (Proximal tubular epithelial cells, PTECs) 透過 Endocytosis 過度重吸收白蛋白，這會超越細胞處置極限並觸發細胞應激 (Cellular stress)。PTECs 進而活化 **NF-κB** 訊號路徑，大量分泌 **MCP-1, TGF-β, TNF-α** 等促發炎與促纖維化細胞因子，引發腎間質發炎反應、成纖維細胞活化以及 **管腔間質纖維化 (Tubulointerstitial fibrosis)**。\n- **(A) 為錯誤選項**：白蛋白並不會在循環中直接結合或去活化 Renin，該敘述與生理學不符。\n- **(C) 為錯誤選項**：白蛋白為高溶解度蛋白質，不會在亨利氏環 (Loop of Henle) 沉澱形成結晶或管型阻塞（此機制見於多發性骨髓瘤之 Light chain cast nephropathy）。\n- **(D) 為錯誤選項**：白蛋白尿造成的全身內皮功能障礙 (Endothelial dysfunction)、血管硬化 (Arterial stiffness) 以及鈉水滯留是引發心臟衰竭 (Heart failure) 的核心路徑，而非單純的體液滲出與前腎性氮質血症。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q9",
+      "number": 9,
+      "chapter": "Topic 5: ARR的影響因素",
+      "stem": "A 45-year-old male with resistant hypertension and unprovoked hypokalemia is being screened for Primary Aldosteronism (PA) using the Aldosterone-to-Renin Ratio (ARR). Which of the following antihypertensive medication classes is most likely to cause a FALSE-NEGATIVE ARR result by significantly stimulating Plasma Renin Activity (PRA) or Plasma Renin Concentration (PRC)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Beta-adrenergic blockers (e.g., Metoprolol)"
+        },
+        {
+          "id": "B",
+          "text": "Central alpha-2 adrenergic agonists (e.g., Clonidine)"
+        },
+        {
+          "id": "C",
+          "text": "Angiotensin-Converting Enzyme Inhibitors (ACEIs) or Angiotensin II Receptor Blockers (ARBs)"
+        },
+        {
+          "id": "D",
+          "text": "Direct non-steroidal mineralocorticoid antagonists without vasodilatory action"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在原發性醛固酮過多症 (Primary Aldosteronism, PA) 的篩檢中，**Aldosterone-to-Renin Ratio (ARR)** 極易受降血壓藥物干擾而產生假陽性或假陰性。\n- **(C) 為正確選項**：**ACEI** 與 **ARB** 能阻斷 Angiotensin II 對腎小球旁細胞 (Juxtaglomerular cells) 的負回饋抑制 (Negative feedback mechanism)，導致腎素合成與釋放大幅增加 (Renin surge)。當分母 **Plasma Renin Activity (PRA)** 或 **Plasma Renin Concentration (PRC)** 顯著升高時，計算出的 ARR 比值會被人工拉低，從而導致 **假陰性 (False-Negative)** 結果。\n- **(A) 與 (B) 為錯誤選項**：**Beta-blockers** (如 Metoprolol) 與 **Central alpha-2 agonists** (如 Clonidine) 會抑制由腎臟交感神經刺激介導的 Renin 釋放，使 Renin 顯著下降，計算出的 ARR 比值因而被人工拉高，造成 **假陽性 (False-Positive)** 結果。\n- **(D) 為錯誤選項**：雖然 Mineralocorticoid receptor antagonists (MRAs) 也會升高 Renin 並干擾 ARR，但 ACEI/ARB 是解除負回饋導致 Renin 大幅飆升進而產生假陰性的經典藥理代表。臨床指引建議進行 ARR 測試前應優先排查與調整這些藥物。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q10",
+      "number": 10,
+      "chapter": "Topic 5: ARR的影響因素",
+      "stem": "A 52-year-old female with stage 2 hypertension is scheduled for primary aldosteronism screening. Her physician reviews her physiological state and current medications prior to obtaining the ARR. Which of the following conditions or pharmacological factors is most likely to produce a FALSE-POSITIVE ARR result?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypokalemia, which directly stimulates aldosterone synthesis while suppressing renin production."
+        },
+        {
+          "id": "B",
+          "text": "Administration of Beta-adrenergic receptor antagonists, which suppress renin secretion to a greater extent than aldosterone."
+        },
+        {
+          "id": "C",
+          "text": "Concomitant therapy with Dihydropyridine Calcium Channel Blockers, which induce systemic renin elevation."
+        },
+        {
+          "id": "D",
+          "text": "High dietary sodium loading, which selectively elevates plasma aldosterone while sparing renin."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n準確解讀原發性醛固酮過多症 (Primary Aldosteronism) 的 **ARR 篩檢** 需嚴格考量各類臨床生理與藥物因素對分母 (Renin) 與分子 (Aldosterone) 的影響。\n- **(B) 為正確選項**：**Beta-adrenergic receptor antagonists** (Beta-blockers) 會阻斷腎小球旁細胞的 Beta-1 受體，強效抑制 Renin 的釋放 (Suppression of Renin)。當分母 (Renin) 被極度壓縮時，即使分子 (Aldosterone) 處於正常或僅輕度升高，算出的 ARR 比值仍會顯著上升並超過診斷閾值，造成 **假陽性 (False-Positive)**。\n- **(A) 為錯誤選項**：**Hypokalemia (低血鉀)** 會**抑制**腎上腺皮質球狀帶 (Zona glomerulosa) 對 Aldosterone 的合成與釋放，使分子 (Aldosterone) 降低，因此低血鉀傾向於造成 **假陰性 (False-Negative)**。在抽血檢測 ARR 前必須先將血鉀補至正常範圍 (≥4.0 mEq/L)。\n- **(C) 為錯誤選項**：Dihydropyridine CCBs (如 Amlodipine) 會引起血管擴張與反射性交感活化，輕度刺激 Renin 釋放，傾向於造成假陰性或影響較小。\n- **(D) 為錯誤選項**：高鹽飲食 (High sodium loading) 會增加體液容量，同時抑制 Renin 與 Aldosterone，並非獨立提高 Aldosterone。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q11",
+      "number": 11,
+      "chapter": "Topic 6: 降血壓藥物作用機轉",
+      "stem": "A 50-year-old male with type 2 diabetes and CKD stage 3a with persistent albuminuria is initiated on Finerenone in addition to maximal tolerated RAS inhibition. Which of the following pathophysiological characteristics uniquely distinguishes Finerenone from traditional steroidal mineralocorticoid receptor antagonists such as Spironolactone and Eplerenone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Finerenone acts as a selective partial agonist at androgen receptors, inducing high rates of endocrine side effects such as painful gynecomastia."
+        },
+        {
+          "id": "B",
+          "text": "Finerenone functions as a bulky non-steroidal mineralocorticoid receptor antagonist, blocking co-activator recruitment to inhibit pro-inflammatory and pro-fibrotic signaling with a more balanced heart-to-kidney tissue distribution and lower risk of severe hyperkalemia."
+        },
+        {
+          "id": "C",
+          "text": "Finerenone directly blocks the epithelial sodium channel (ENaC) in the cortical collecting duct without binding to intracellular nuclear receptors."
+        },
+        {
+          "id": "D",
+          "text": "Finerenone selectively inhibits renal sodium-glucose cotransporter 2 (SGLT2), producing osmotic diuresis and secondary renin-angiotensin-aldosterone system suppression."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n**Finerenone** 屬於新一代**非類固醇類礦物皮質受體拮抗劑 (Non-steroidal Mineralocorticoid Receptor Antagonist, nsMRA)**，在糖尿病腎病變 (DKD) 與 CKD 的心腎保護中扮演關鍵角色。\n- **(B) 為正確選項**：與傳統類固醇類 MRA (Spironolactone, Eplerenone) 相比，Finerenone 具備非類固醇大分子結構，能與 Mineralocorticoid Receptor (MR) 進行高親和力且獨特的立體結合 (Bulky receptor-bound conformation)。此立體干阻效應能完全阻止協同活化因子 (Co-activators) 的招募，從而在極低劑量下即強效抑制促發炎與促纖維化基因表現 (Anti-inflammatory and anti-fibrotic action)。此外，Finerenone 在心臟與腎臟的組織分佈均衡 (1:1 tissue distribution)，且引起高血鉀 (Hyperkalemia) 的風險相較於 Spironolactone 顯著降低。\n- **(A) 為錯誤選項**：Spironolactone 因結構類似性激素，會結合 Androgen & Progesterone受體而引起男性乳房發育 (Gynecomastia)；Finerenone 具極高的受體選擇性，不具性激素受體相關副作用。\n- **(C) 為錯誤選項**：直接阻斷集尿管 ENaC 受體的是保鉀利尿劑 (如 Amiloride, Triamterene)，而非 Finerenone。\n- **(D) 為錯誤選項**：SGLT2 抑制劑 (如 Empagliflozin, Dapagliflozin) 才作用於 SGLT2，Finerenone 並非 SGLT2 抑制劑。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q12",
+      "number": 12,
+      "chapter": "Topic 6: 降血壓藥物作用機轉",
+      "stem": "A 65-year-old female with essential hypertension, CKD stage 3a, and recurrent gouty arthritis is being evaluated for antihypertensive therapy optimization. Which of the following drug classes exerts its antihypertensive action by inhibiting the Na+/Cl- cotransporter (NCCT) in the distal convoluted tubule, but exhibits a dual metabolic effect of increasing serum uric acid while enhancing renal tubular calcium reabsorption?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loop diuretics (e.g., Furosemide)"
+        },
+        {
+          "id": "B",
+          "text": "Thiazide and thiazide-like diuretics (e.g., Hydrochlorothiazide, Chlorthalidone, Indapamide)"
+        },
+        {
+          "id": "C",
+          "text": "Potassium-sparing diuretics acting on epithelial sodium channels (e.g., Amiloride)"
+        },
+        {
+          "id": "D",
+          "text": "Dihydropyridine calcium channel blockers (e.g., Amlodipine)"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n本題正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n**Thiazide 及 Thiazide-like 利尿劑** (如 Hydrochlorothiazide, Chlorthalidone, Indapamide) 是臨床高血壓管理的重要第一線藥物之一。\n- **(B) 為正確選項**：Thiazide 類藥物作用於遠曲小管 (Distal Convoluted Tubule, DCT) 近端，競爭性抑制 **Na+/Cl- 共運輸體 (NCCT / SLC12A3)**。抑制 NCCT 導致細胞內 Na+ 濃度降低，這會促進基底側膜 (Basolateral membrane) 的 Na+/Ca2+ 交換體 (NCX1) 活性，進而增加遠曲小管與近曲小管對鈣離子的再吸收，**減少尿鈣排出 (Decreased urinary calcium excretion)**（具備骨質疏鬆與草酸鈣結石保護作用）；然而，體液容量排空會誘發近曲小管對尿酸的被動再吸收增加，加上藥物與尿酸競爭 Organic Anion Transporter (OAT1/OAT3)，會減少尿酸排出，引發高尿酸血症 (Hyperuricemia) 與誘發痛風發作。\n- **(A) 為錯誤選項**：Loop diuretics (如 Furosemide) 作用於粗上行支 (TAL) 的 **Na+/K+/2Cl- (NKCC2)**，會消除管腔內正電位，增加尿鈣與尿鎂排出 (Hypercalciuria)，增加結石與骨質流失風險。\n- **(C) 為錯誤選項**：Potassium-sparing diuretics (如 Amiloride) 作用於皮質集尿管 (CCD) 的 ENaC，主要調節 Na+ 重吸收與 K+/H+ 分泌，無 NCCT 抑制與 calcium-sparing 特性。\n- **(D) 為錯誤選項**：Dihydropyridine CCBs 作用於血管平滑肌 L-type 鈣離子通道，非微管電解質運輸體利尿劑。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q13",
+      "number": 13,
+      "chapter": "Topic 7: Renal artery stenosis診斷處置",
+      "stem": "A 68-year-old male with long-standing hypertension, stable chronic kidney disease (eGFR 42 mL/min/1.73 m²), and severe peripheral artery disease is found to have 80% atherosclerotic renal artery stenosis (ARAS) in the right renal artery on duplex ultrasound and CT angiography. His blood pressure is 134/78 mmHg on amlodipine, metoprolol, and low-dose lisinopril. Serum creatinine has remained stable at 1.7 mg/dL over the past year. Based on major randomized clinical trials (such as ASTRAL and CORAL), which of the following is the most appropriate management strategy for this patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed with percutaneous renal artery stenting to reduce cardiovascular events and prevent renal function decline."
+        },
+        {
+          "id": "B",
+          "text": "Continue optimal medical therapy with blood pressure control, statin therapy, and antiplatelet agents without routine revascularization."
+        },
+        {
+          "id": "C",
+          "text": "Discontinue lisinopril immediately and perform urgent balloon angioplasty due to high risk of acute renal failure."
+        },
+        {
+          "id": "D",
+          "text": "Refer for surgical renal artery revascularization because stenosis exceeds 70%."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (B)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n根據大型隨機對照臨床試驗（如 ASTRAL 試驗與 CORAL 試驗），對於粥狀硬化性腎動脈狹窄（Atherosclerotic Renal Artery Stenosis, ARAS）患者，在血壓控制良好且腎功能穩定的情況下，經皮腎動脈支架置放術（Percutaneous Renal Artery Stenting）相較於最佳藥物治療（Optimal Medical Therapy, OMT），並無法進一步降低死亡率、心血管事件率或減緩腎功能衰退。因此，此類患者首選最佳藥物治療（包含 ACEi/ARB、Calcium Channel Blockers, Antiplatelet agents 與 Statin），不需要常規進行血管介入治療（Revascularization）。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (A) 錯誤：CORAL 與 ASTRAL 試驗明確顯示 Routine Stenting 無法帶來額外的 Renal function 或 Cardiovascular benefit。\n- (C) 錯誤：ACEi/ARB 在單側 ARAS 中若 Serum Creatinine 增幅在 30% 以內且電解質正常，仍可安全使用並提供心血管保護，無須立即停藥或急診 Balloon Angioplasty。\n- (D) 錯誤：僅憑 Stenosis percentage > 70% 並非手術或 Revascularization 的絕對適應症，除非伴有 Refractory Hypertension, Recurrent Flash Pulmonary Edema, 或 Unexplained Rapid Declining Kidney Function。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q14",
+      "number": 14,
+      "chapter": "Topic 7: Renal artery stenosis診斷處置",
+      "stem": "A 32-year-old previously healthy woman presents with newly diagnosed severe hypertension (blood pressure 186/110 mmHg). Physical examination reveals an epigastric bruit extending into diastole. Laboratory tests show serum creatinine 0.8 mg/dL and serum potassium 3.3 mEq/L. Renal duplex ultrasound reveals turbulent flow and increased peak systolic velocity in the mid-to-distal main renal artery. Catheter angiography demonstrates a classic \"string-of-beads\" appearance in the right renal artery. Which of the following is the treatment of choice for this patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percutaneous transluminal renal angioplasty (PTRA) without stent placement."
+        },
+        {
+          "id": "B",
+          "text": "Percutaneous renal artery stenting with a drug-eluting stent."
+        },
+        {
+          "id": "C",
+          "text": "Long-term triple antihypertensive therapy with ACE inhibitor, thiazide diuretic, and beta-blocker as first-line therapy without intervention."
+        },
+        {
+          "id": "D",
+          "text": "Surgical aortorenal bypass grafting as the primary procedure."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n本題患者為年輕女性，表現為次發性高血壓（Secondary Hypertension）與低血鉀（Hypokalemia，導因於 Renin-Angiotensin-Aldosterone System, RAAS 活化），血管攝影呈現典型的串珠狀外觀（\"String-of-beads\" appearance），診斷為纖維肌性發育不良（Fibromuscular Dysplasia, FMD）。與 ARAS 不同，FMD 導致的血管狹窄對血管塑形術（Percutaneous Transluminal Renal Angioplasty, PTRA）反應極佳，且 Cure rate 高。關鍵原則為：FMD 進行 PTRA 時不需常規置放支架（without stent placement），僅在發生血管剝離（Dissection）或塑形失敗時才考慮 Stent。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (B) 錯誤：FMD 的 PTRA 不需要 Routine Stent Placement，Stent 主要是用於 ARAS 的 Ostial lesion 或 FMD 解剖剝離補救。\n- (C) 錯誤：對於年輕、新診斷且具高治癒率的 FMD 患者，PTRA 是潛在可治癒高血壓的首選介入治療，而非僅靠長期藥物控制。\n- (D) 錯誤：Surgical Aortorenal Bypass 為二線或極複雜病灶之手術，非首選 Treatment of Choice。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q15",
+      "number": 15,
+      "chapter": "Topic 8: Preeclampsia機轉診斷處置",
+      "stem": "A 28-year-old primigravida woman at 32 weeks of gestation presents for a routine prenatal visit. Her blood pressure is 152/96 mmHg on two measurements 4 hours apart. She reports mild persistent headache but denies visual disturbances or epigastric pain. Laboratory investigations show normal urine dipstick (protein trace), spot urine protein-to-creatinine ratio of 0.18 mg/mg, serum creatinine 0.7 mg/dL, platelet count 78,000/μL, AST 112 U/L, and ALT 120 U/L. Which of the following best describes the pathophysiological basis and diagnostic classification for her condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gestational hypertension, because urine protein-to-creatinine ratio is below 0.3 mg/mg."
+        },
+        {
+          "id": "B",
+          "text": "Preeclampsia with severe features, driven by impaired spiral artery remodeling leading to placental ischemia and systemic endothelial dysfunction."
+        },
+        {
+          "id": "C",
+          "text": "Chronic hypertension with superimposed preeclampsia, requiring immediate plasma exchange for HELLP syndrome."
+        },
+        {
+          "id": "D",
+          "text": "Severe preeclampsia requiring immediate magnesium sulfate and immediate cesarean delivery regardless of fetal status at 32 weeks."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (B)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n根據最新 ACOG 與 ISSHP 準則，子癇前症（Preeclampsia）的診斷不再絕對依賴蛋白尿（Proteinuria）。在妊娠 20 週後，若出現新發性高血壓（SBP ≥ 140 或 DBP ≥ 90 mmHg），即使無顯著蛋白尿（UPCR < 0.3 mg/mg），只要合併任何器官受損指標（End-organ dysfunction），如血小板減少症（Thrombocytopenia < 100,000/μL）或肝功能異常（Transaminitis > 2x Upper Limit of Normal），即可診斷為 Preeclampsia with severe features。其核心病理生理機轉為螺旋動脈重塑不良（Impaired spiral artery remodeling），導致胎盤缺血（Placental ischemia）並釋放過量抗血管生成因子（如 sFlt-1, Soluble endoglin），引發全身性血管內皮細胞功能障礙（Systemic Endothelial Dysfunction）。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (A) 錯誤：忽略了 Thrombocytopenia 與 Transaminitis 屬於 Preeclampsia 的核心器官功能不全診斷標準。\n- (C) 錯誤：患者妊娠 20 週前無高血壓病史，且 Plasma exchange 非 HELLP Syndrome 的標準初始治療。\n- (D) 錯誤：雖然屬 Severe features，但若母體與胎兒狀況穩定，32 週通常可先給予 Corticosteroids 促進胎兒肺部成熟，並於 MgSO4 保護下實施 Expectant management，而非不顧胎兒狀態立即切開剖腹。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q16",
+      "number": 16,
+      "chapter": "Topic 8: Preeclampsia機轉診斷處置",
+      "stem": "A 34-year-old pregnant woman at 14 weeks of gestation with a history of preeclampsia requiring preterm delivery at 31 weeks in her previous pregnancy attends a prenatal checkup. Her current blood pressure is 118/74 mmHg and renal function is normal. Which of the following is the most appropriate prophylactic intervention to reduce her risk of recurrent preeclampsia and associated complications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Initiate low-dose aspirin (81–150 mg daily) starting between 12 and 16 weeks of gestation until late pregnancy."
+        },
+        {
+          "id": "B",
+          "text": "Start oral labetalol 100 mg twice daily immediately to maintain blood pressure below 110/70 mmHg."
+        },
+        {
+          "id": "C",
+          "text": "Administer low-molecular-weight heparin (LMWH) daily throughout the second and third trimesters."
+        },
+        {
+          "id": "D",
+          "text": "Restrict dietary sodium intake to less than 1.5 grams daily and initiate high-dose vitamin C and E supplementation."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n根據 USPSTF 與 ACOG 指引，對於具有子癇前症高風險（High risk of preeclampsia，例如先前妊娠曾發生子癇前症且早期早產、慢性高血壓、多胎妊娠、自體免疫疾病如 APS 等）的孕婦，建議於妊娠 12 週至 16 週之間開始每日給予低劑量阿司匹靈（Low-dose Aspirin, 81–150 mg/day），持續使用至產前。Aspirin 能抑制 Thromboxane A2 合成，調節 Thromboxane/Prostacyclin 平衡，改善胎盤灌流（Placental perfusion）並顯著降低 Preeclampsia 發病率及早產風險。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (B) 錯誤：目前血壓正常 (118/74 mmHg)，預防性使用降壓藥無法預防 Preeclampsia，反而可能減少胎盤血流量。\n- (C) 錯誤：無特異性 Thrombophilia 或 Antiphospholipid Syndrome 指導下，單純 LMWH 無法作為常規 Preeclampsia 預防。\n- (D) 錯誤：限鈉（Sodium restriction）與抗氧化維生素 C/E 補充均經大型試驗證實無法預防 Preeclampsia，甚至維生素 C/E 可能增加 Adverse outcomes。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q17",
+      "number": 17,
+      "chapter": "Topic 9: Hypertension in pregnancy藥物治療",
+      "stem": "A 30-year-old pregnant woman at 28 weeks of gestation presents to the emergency department with severe acute hypertension (blood pressure 178/114 mmHg). She complains of a mild frontal headache. She has no previous history of asthma or heart failure. Fetal heart rate monitoring is reassuring. Which of the following is the most appropriate immediate intravenous pharmacotherapy for urgent blood pressure reduction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intravenous labetalol bolus or intravenous hydralazine."
+        },
+        {
+          "id": "B",
+          "text": "Intravenous nitroprusside infusion as first-line agent."
+        },
+        {
+          "id": "C",
+          "text": "Intravenous enalaprilat bolus."
+        },
+        {
+          "id": "D",
+          "text": "Oral atenolol loading dose."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n對於妊娠期急性嚴重高血壓（Acute Severe Hypertension in Pregnancy，即 SBP ≥ 160 或 DBP ≥ 110 mmHg 且持續 15 分鐘以上），必須緊急降壓以預防母體出血性中風（Hemorrhagic Stroke）與心血管併發症。首選的靜脈降壓藥物為靜脈注射 Labetalol（α1/β-blocker）或靜脈注射 Hydralazine（Direct vasodilator），亦可選擇口服速效 Nifedipine（Immediate-release Nifedipine）。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (B) 錯誤：Nitroprusside 具 Cyanide toxicity 風險，僅能用於其他所有靜脈藥物無效時的極端情況。\n- (C) 錯誤：ACE inhibitors（如 Enalaprilat）與 ARBs 在妊娠中晚期具嚴重 Fetotoxicity（包含 Renal dysgenesis, Oligohydramnios, Hypocalvaria），為絕對禁忌症（Absolute Contraindication）。\n- (D) 錯誤：Atenolol 與 Intrauterine growth restriction (IUGR) 顯著相關，且非急性高血壓急診首選靜脈藥物。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q18",
+      "number": 18,
+      "chapter": "Topic 9: Hypertension in pregnancy藥物治療",
+      "stem": "A 33-year-old woman with chronic essential hypertension plans to become pregnant. Her current antihypertensive regimen consists of valsartan 160 mg once daily and hydrochlorothiazide 12.5 mg once daily. Her blood pressure is 126/78 mmHg. Serum creatinine is 0.7 mg/dL. Which of the following is the most appropriate medication adjustment prior to conception?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discontinue valsartan and transition to oral labetalol, nifedipine extended-release, or methyldopa."
+        },
+        {
+          "id": "B",
+          "text": "Continue valsartan until a positive pregnancy test is confirmed, then switch to spironolactone."
+        },
+        {
+          "id": "C",
+          "text": "Add lisinopril to valsartan to optimize blood pressure control before conception."
+        },
+        {
+          "id": "D",
+          "text": "Switch valsartan to atenolol and double the dose of hydrochlorothiazide."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nRAAS 阻斷劑（包含 ACEi, ARB, ARNI, Direct Renin Inhibitors）在妊娠中晚期可導致致死性胎兒毒性（Fetotoxicity，導致 Fetal renal failure, oligohydramnios, pulmonary hypoplasia, skull hypoplasia），且在妊娠早期亦增加胎兒畸形風險。因此，對於計畫懷孕的女性，應於備孕期（Prior to conception）即停用 ARB（如 Valsartan），轉換為孕期安全的第一線降壓藥物，首選包括口服 Labetalol, Nifedipine extended-release (ER), 或 Methyldopa。\n\n### 3. 錯選項誘答剖析 (Distractor Analysis)\n- (B) 錯誤：Spironolactone 具抗雄性激素作用（Anti-androgenic effect），可能導致男胎外生殖器女性化，且 Valsartan 應於備孕即停用。\n- (C) 錯誤：Lisinopril 同屬 ACEi，與 ARB 併用同屬 RAAS 阻斷劑，在孕期為禁忌。\n- (D) 錯誤：Atenolol 易引發 Fetal growth restriction (IUGR) 與 Hypoglycemia，非首選口服維持藥物。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q19",
+      "number": 19,
+      "chapter": "Topic 10: AKI in pregnancy D/Dx",
+      "stem": "A 26-year-old primigravida woman at 36 weeks of gestation presents with sudden onset of severe right upper quadrant pain, nausea, severe hypertension (172/108 mmHg), and oliguria. Laboratory findings include serum creatinine 2.1 mg/dL, platelet count 42,000/μL, AST 380 U/L, total bilirubin 3.4 mg/dL, and elevated LDH. Peripheral blood smear confirms schistocytes. Which condition is the most likely diagnosis, and what is the primary initial definitive intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HELLP Syndrome; urgent delivery of the fetus after maternal stabilization."
+        },
+        {
+          "id": "B",
+          "text": "Atypical Hemolytic Uremic Syndrome (aHUS); immediate plasma exchange therapy."
+        },
+        {
+          "id": "C",
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP); immediate rituximab monotherapy without delivery."
+        },
+        {
+          "id": "D",
+          "text": "Acute Fatty Liver of Pregnancy (AFLP); low-protein dietary restriction."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nHELLP Syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets) 是妊娠晚期極為嚴重的併發症（屬於 Preeclampsia with severe features 的重症表型）。其特徵包括溶血性貧血 (Schistocytes/LDH 升高)、肝功能異常 (AST/ALT > 2x ULN, RUQ 痛因肝包膜拉扯) 與血小板減少症 (<50,000/μL)。治療的核心原則為：在母體狀況穩定（控制急救血壓與給予 MgSO4 預防痙攣）後，**儘速終止妊娠（Urgent delivery）**，因為胎盤交付是中止 Preeclampsia/HELLP 病理 cascade 的唯一根本處置。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (B) 錯誤：aHUS 主要多發生於**產後 (postpartum period)**，且第一線治療為 Complement inhibitor (Eculizumab) 或 Plasma exchange，而非晚期妊娠的 urgent delivery。\n- (C) 錯誤：TTP 為 ADAMTS13 嚴重缺乏 (<10%) 所致，主要治療為急診 Plasma Exchange (PEX)，非單用 Rituximab，且在併發重度 HELLP 時終止妊娠不可延誤。\n- (D) 錯誤：AFLP 伴隨嚴重 hypoglycemia, hyperammonemia, DIC 與長鏈脂肪酸代謝異常，首選處置亦為極速 Delivery 配合加護病房支持性治療，而非純飲食限制。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q20",
+      "number": 20,
+      "chapter": "Topic 10: AKI in pregnancy D/Dx",
+      "stem": "A 31-year-old woman, 3 days postpartum following an uncomplicated vaginal delivery, presents with progressive oliguria, severe hypertension, and dark urine. Laboratory testing reveals serum creatinine 4.5 mg/dL (up from 0.7 mg/dL pre-delivery), hemoglobin 7.2 g/dL, platelet count 35,000/μL, and low haptoglobin. Serum C3 and C4 are normal, and ADAMTS13 activity is 68%. Peripheral blood smear shows abundant microangiopathic hemolytic anemia (MAHA) features. Which of the following targeted therapies represents the treatment of choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eculizumab (C5 complement inhibitor)"
+        },
+        {
+          "id": "B",
+          "text": "High-dose intravenous pulse methylprednisolone"
+        },
+        {
+          "id": "C",
+          "text": "Immediate curettage for retained placenta"
+        },
+        {
+          "id": "D",
+          "text": "Intravenous immunoglobulin (IVIG)"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n本例患者於產後 (postpartum) 出現重度 AKI、微血管病性溶血性貧血 (MAHA) 與血小板減少症，且 ADAMTS13 活性活性高於 10% (68%，排除 TTP)，且已產後 (排除產前 HELLP)，符合 **Pregnancy-associated atypical Hemolytic Uremic Syndrome (p-aHUS)** 的典型表現。p-aHUS 導因於補體替代路徑 (Alternative complement pathway) 的過度活化與基因調節缺陷。末端補體 C5 抑制劑 **Eculizumab** 能迅速阻斷 C5a 與 C5b-9 (MAC) 的形成，為 p-aHUS 的黃金標準首選治療，能顯著改善腎功能並降低 ESKD 風險。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (B) 錯誤：高劑量類固醇對於補體替代路徑體質缺陷引起的 aHUS 無特異性療效。\n- (C) 錯誤：患者已無胎盤留置，且 p-aHUS 的病理驅動因素為補體失調而非胎盤組織。\n- (D) 錯誤：IVIG 對於替代路徑補體過度活化引起的 TMA 缺乏實證療效。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q21",
+      "number": 21,
+      "chapter": "Topic 11: 不同利尿劑的作用機轉",
+      "stem": "Which of the following site-specific molecular transport mechanisms accurately matches the diuretic class with its primary target and segmental location within the nephron?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loop diuretics (e.g., Furosemide) – Reversibly inhibit NKCC2 cotransporters at the luminal membrane of the thick ascending limb of Henle."
+        },
+        {
+          "id": "B",
+          "text": "Thiazide diuretics (e.g., Hydrochlorothiazide) – Inhibit NCC cotransporters at the basolateral membrane of the proximal convoluted tubule."
+        },
+        {
+          "id": "C",
+          "text": "Potassium-sparing diuretics (e.g., Amiloride) – Directly block the intracellular mineralocorticoid nuclear receptor in the thin descending limb."
+        },
+        {
+          "id": "D",
+          "text": "Carbonic anhydrase inhibitors (e.g., Acetazolamide) – Inhibit membrane and cytoplasmic carbonic anhydrase in the cortical medullary collecting duct."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n利尿劑依據其在腎元作用部位與分子標的分類：\n- **(A) 為正確選項**：Loop diuretics（如 furosemide, bumetanide, torsemide）作用於 Henle 氏環厚上行支 (thick ascending limb, TAL) 的管腔側膜 (luminal/apical membrane)，可逆性地競爭抑制 **Na+-K+-2Cl- cotransporter (NKCC2)** 的 Cl- 結合位點。\n- **(B) 為錯誤選項**：Thiazides 作用於**遠曲小管 (distal convoluted tubule, DCT)** 的**管腔側膜 (apical membrane)** NCC，而非近曲小管基底側膜。\n- **(C) 為錯誤選項**：Amiloride 為直接阻斷皮質集尿管 (CCD) 管腔側 **ENaC** 通道的保鉀利尿劑，並非作用於薄下行支的核受體。\n- **(D) 為錯誤選項**：Acetazolamide 抑制的是**近曲小管 (proximal tubule)** 的碳酸酐酶 (Carbonic anhydrase II 與 IV)，而非集尿管。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q22",
+      "number": 22,
+      "chapter": "Topic 11: 不同利尿劑的作用機轉",
+      "stem": "A 55-year-old male with decompensated cirrhosis and ascites is treated with a combination diuretic regimen consisting of spironolactone and furosemide in a 100 mg to 40 mg ratio. What is the electrophysiological rationale for using spironolactone as the baseline agent in hepatic ascites management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It antagonizes secondary hyperaldosteronism by blocking MR-mediated ENaC insertion and ROMK-mediated potassium secretion in principal cells."
+        },
+        {
+          "id": "B",
+          "text": "It selectively increases renal medullary blood flow through direct activation of inner medullary aquaporin channels."
+        },
+        {
+          "id": "C",
+          "text": "It directly inhibits the basolateral Na+/K+-ATPase pump in the proximal tubule to induce massive osmotic diuresis."
+        },
+        {
+          "id": "D",
+          "text": "It blocks renal sympathetic nerve stimulation directly at the renal pelvic baroreceptors."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n肝硬化腹水 (hepatic ascites) 患者的核心病理生理改變為內臟血管擴張 (splanchnic arterial vasodilation)，導因於有效循環血容量不足 (decreased effective arterial blood volume, EABV)，進而高度活化 RAAS，產生極度的**次發性醛固酮過多症 (secondary hyperaldosteronism)**。\n- **(A) 為正確選項**：Aldosterone 作用於皮質集尿管 (CCD) 主細胞 (principal cells) 的礦物皮質受體 (MR)，上調管腔側 **ENaC** 通道（增加鈉重吸收）與 **ROMK** 鉀通道（增加鉀與氫離子排泄）。Spironolactone 為競爭性 MR 拮抗劑，能特異性阻斷醛固酮對 ENaC 與 ROMK 的刺激作用，恢復鈉平衡並防止低血鉀。臨床上以 Spironolactone : Furosemide = 100 mg : 40 mg 的黃金比例給藥，能精準維持血鉀穩定與有效利尿。\n- **(B), (C), (D) 為錯誤選項**：Spironolactone 不具備活性髓質血流直接調節、近曲小管 Na+/K+-ATPase 直接抑制或交感神經直接阻斷之效應。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q23",
+      "number": 23,
+      "chapter": "Topic 12: loop diuretics為何在低白蛋白血症效果不佳",
+      "stem": "A 52-year-old male with nephrotic syndrome (serum albumin 1.8 g/dL, 24-hour proteinuria 8.5 g) exhibits severe blunting of natriuretic response following intravenous bolus furosemide. Which of the following pathophysiological mechanisms accounts for the impaired renal responsiveness to loop diuretics in severe hypoalbuminemic states?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decreased tubular delivery of furosemide due to an increased volume of distribution and reduced proximal tubular OAT1/OAT3 secretion, combined with luminal sequestration by filtered albumin."
+        },
+        {
+          "id": "B",
+          "text": "Rapid intrarenal enzymatic degradation of furosemide by renal tubular peptidase-4."
+        },
+        {
+          "id": "C",
+          "text": "Complete downregulation of NKCC2 receptors in the thick ascending limb caused by low circulating intravascular oncotic pressure."
+        },
+        {
+          "id": "D",
+          "text": "Competitive inhibition of furosemide binding by markedly elevated serum uric acid levels at the renal vascular endothelial barrier."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nLoop diuretics（如 furosemide）在血漿中與白蛋白高度結合 (>95%)。低白蛋白血症 (hypoalbuminemia) 導致利尿劑效果減退的雙重機制包括：\n1. **血漿載體不足與分佈體積增大 (Pharmacokinetics)**：Furosemide 必須依靠血漿白蛋白作為載體運送至腎臟，並經由近曲小管 S2 段的有機陰離子轉運體 (OAT1/OAT3) 主動分泌至管腔內。當血清白蛋白顯著降低時，藥物游離分佈至血管外組織（分佈體積 Vd 增大），到達腎臟 S2 分泌位點的藥物總量大幅減少。\n2. **管腔內白蛋白結合失能 (Intratubular Sequestration)**：重度蛋白尿時，濾過至腎小管管腔內的白蛋白會與已分泌進來的 furosemide 結合，阻止其與 TAL 管腔側的 NKCC2 結合，導致利尿失敗。\n臨床上，對於重度低白蛋白血症的腎病症候群患者，混合給予「高蛋白白蛋白靜脈滴注 (20% Albumin) + 靜脈注射 Furosemide」能有效提升排鈉與利尿反應。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (B) 錯誤：Furosemide 不會被 DPP-4 或 renal peptidases 快速降解。\n- (C) 錯誤：NKCC2 蛋白表現量並未因膠體滲透壓降低而完全消失；失能關鍵在於藥物能否順利到達管腔側結合位點。\n- (D) 錯誤：尿酸競爭主要影響近曲小管分泌，但非低白蛋白血症導致利尿失能的核心藥動/藥效學主因。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q24",
+      "number": 24,
+      "chapter": "Topic 12: loop diuretics為何在低白蛋白血症效果不佳",
+      "stem": "In patients with cirrhosis and severe hypoalbuminemia, co-administration of 20% intravenous human albumin with a loop diuretic is sometimes utilized. What is the principal pharmacokinetic goal of administering intravenous albumin prior to or alongside furosemide in this clinical setting?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To expand intravascular volume and increase the amount of albumin-bound furosemide delivered to proximal tubular organic anion transporters (OAT1/OAT3)."
+        },
+        {
+          "id": "B",
+          "text": "To directly alkalize tubular fluid and promote passive non-ionic diffusion of furosemide across the macula densa."
+        },
+        {
+          "id": "C",
+          "text": "To competitively block hepatic glucuronidation of furosemide, thereby extending its plasma half-life."
+        },
+        {
+          "id": "D",
+          "text": "To prevent distal tubular potassium wasting by directly suppressing principal cell ROMK channels."
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在肝硬化或嚴重低白蛋白血症患者中，給予 20% 靜脈白蛋白 (Intravenous Albumin) 結合 Furosemide 的主要藥動學與血流動力學目的為：\n1. **擴充有效血管內容量 (Intravascular volume expansion)**：提高膠體滲透壓，將血管外水份拉回血管內，改善腎臟血流灌注 (RBF)。\n2. **增加藥物向腎臟近曲小管的遞送 (Enhanced drug delivery)**：白蛋白在循環中結合游離的 furosemide，降低其分佈體積 (Vd)，集中將「白蛋白-furosemide 複合物」運送至近曲小管 OAT1/OAT3 轉運體進行主動分泌，顯著提高管腔內利尿劑濃度。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (B) 錯誤：白蛋白的作用並非改變管腔 pH 值或促進致密斑 (macula densa) 的被動擴散。\n- (C) 錯誤：白蛋白不參與肝臟 glucuronidation 酵素的競爭性抑制。\n- (D) 錯誤：白蛋白不具直接抑制 ROMK 通道的離子通道阻斷功能。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q25",
+      "number": 25,
+      "chapter": "Topic 13: Diuretic resistance 機轉",
+      "stem": "A 64-year-old male with NYHA Class III heart failure and stage 4 CKD (eGFR 22 mL/min/1.73 m²) experiences persistent volume overload despite high-dose oral furosemide (160 mg twice daily). Laboratory evaluation shows serum albumin 3.8 g/dL and serum creatinine 2.8 mg/dL. Renal hemodynamic evaluation demonstrates reduced distal tubular sodium delivery, but the primary cause of his chronic diuretic resistance (\"braking phenomenon\") is identified at the cellular level. Which pathophysiological alteration in the nephron best accounts for this long-term adaptive resistance to loop diuretics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Downregulation of organic anion transporters OAT1 and OAT3 in the proximal convoluted tubule"
+        },
+        {
+          "id": "B",
+          "text": "Structural hypertrophy and transport upregulation of the sodium-chloride cotransporter (NCC) in the distal convoluted tubule"
+        },
+        {
+          "id": "C",
+          "text": "Intratubular sequestration of furosemide by filtered albumin within the medullary collecting duct"
+        },
+        {
+          "id": "D",
+          "text": "Inhibition of the epithelial sodium channel (ENaC) induced by chronic aldosterone suppression"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (B)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nLoop diuretics（如 furosemide）作用於 Henle 氏環厚上行支 (thick ascending limb, TAL) 的 Na+-K+-2Cl- cotransporter (NKCC2)。當長期使用 loop diuretics 時，除了短期的神經體液 (neurohumoral) 活化（如 RAAS 和交感神經系 SNS）導致近端腎元鈉重吸收增加之外，最顯著的遠端腎元結構性適應（稱為 \"braking phenomenon\"）為遠曲小管 (distal convoluted tubule, DCT) 與集尿管 (collecting duct) 發生細胞增生與肥大 (structural hypertrophy)。由於大量未被重吸收的鈉鹽被持續輸送到遠端腎元，DCT 的 Na+-Cl- cotransporter (NCC) 以及集尿管的 ENaC 表現量被顯著上調 (upregulated)，大量重吸收逃逸的鈉，導致單一劑量利尿劑的排鈉效果漸進性衰退 (diuretic resistance)。臨床上可採用「序列性腎元阻斷法」(sequential nephron blockade)，即併用 thiazide-like diuretics（如 metolazone 或 hydrochlorothiazide）來抑制上調的 NCC，達到顯著的協同利尿效果。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (A) 錯誤：OAT1/OAT3 轉運體活性降低或競爭受阻（如尿毒素、NSAIDs）會減少 furosemide 向腎小管腔內的分泌，但非此處描述的長久性遠端腎元細胞肥大 (braking phenomenon) 機轉。\n- (C) 錯誤：管腔內白蛋白結合 (intratubular albumin binding) 主要發生於重度蛋白尿（如 nephrotic syndrome）患者，本題患者血清白蛋白 3.8 g/dL 且無大量蛋白尿說明。\n- (D) 錯誤：利尿引發的血容量減少會活化 RAAS，使血清 aldosterone 升高並「上調」ENaC，而非 aldosterone suppression 抑制 ENaC。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": [
+        "2020 Brenner 11e/06. Transport of Sodium, Chloride, and Potassium/Fig_6_19.png"
+      ]
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q26",
+      "number": 26,
+      "chapter": "Topic 13: Diuretic resistance 機轉",
+      "stem": "A 48-year-old female with severe nephrotic syndrome secondary to membranous nephropathy presents with refractory peripheral edema. Despite intravenous administration of furosemide at standard doses, her natriuretic response remains minimal. Serum albumin is 1.6 g/dL, and 24-hour urine protein is 11.5 g. Which pharmacokinetic mechanism primarily contributes to loop diuretic resistance specifically caused by massive proteinuria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Impaired tubular secretion of furosemide due to down-regulated Na+/H+ exchanger isoform 3 (NHE3) in the proximal tubule"
+        },
+        {
+          "id": "B",
+          "text": "Intratubular binding of filtered albumin to furosemide in the lumen, preventing its interaction with the luminal NKCC2 co-transporter"
+        },
+        {
+          "id": "C",
+          "text": "Excessive metabolism of furosemide by renal glucuronidation within the loop of Henle"
+        },
+        {
+          "id": "D",
+          "text": "Accelerated renal clearance of unbound furosemide resulting from decreased systemic plasma volume"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (B)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在腎病症候群 (nephrotic syndrome) 患者中，利尿劑抵抗 (diuretic resistance) 具有獨特的藥物動力學 (pharmacokinetic) 特徵：\n1. **低白蛋白血症 (Hypoalbuminemia)**：Loop diuretics（如 furosemide）在循環中與血漿白蛋白高度結合 (>95%)。血漿白蛋白作為載體將利尿劑運送至腎臟，經由近曲小管 S2 段的有機陰離子轉運體 (OAT1/OAT3) 分泌至管腔內。當血漿白蛋白嚴重降低時，分佈體積 (volume of distribution) 增大，進入腎臟分泌位點的利尿劑總量減少。\n2. **管腔內白蛋白結合 (Intratubular albumin binding)**：當患者存在重度蛋白尿 (massive proteinuria, >3.5 g/day) 時，大量白蛋白濾過至腎小管管腔中。已分泌至管腔內的 furosemide 在管腔中與濾過的白蛋白相結合 (intratubular sequestration)，使得游離態的 furosemide 濃度大幅降低，無法有效與厚上行支 (TAL) 管腔側的 NKCC2 共轉運體結合，因而失去利尿活性。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (A) 錯誤：NHE3 主要負責近曲小管鈉與碳酸氫根的重吸收，與有機陰離子利尿劑的分泌路徑 (OAT1/OAT3) 無關。\n- (C) 錯誤：Furosemide 主要經由近曲小管分泌並以原形排泄，少部分在腎臟與肝臟進行 glucuronidation 葡萄糖醛酸化，但這並非大量蛋白尿引發利尿劑失能的核心藥動學機轉。\n- (D) 錯誤：血容量減少不會加速未結合型 furosemide 的腎臟清除率，管腔內陷入白蛋白結合失能才是主要阻斷點。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q27",
+      "number": 27,
+      "chapter": "Topic 14: 利尿劑副作用與機轉",
+      "stem": "A 72-year-old female treated with hydrochlorothiazide 25 mg daily for essential hypertension presents to the emergency department with acute confusion, lethargy, and gait disturbance. Laboratory studies reveal serum sodium of 114 mEq/L, serum potassium of 3.1 mEq/L, serum osmolality of 240 mOsm/kg, and urine osmolality of 510 mOsm/kg. Which pathophysiological mechanism explains why thiazide diuretics are significantly more prone to inducing severe hyponatremia than loop diuretics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiazides selectively disrupt the medullary osmotic gradient required for urinary concentration by aquaporin-2 channels"
+        },
+        {
+          "id": "B",
+          "text": "Thiazides inhibit sodium reabsorption in the cortical diluting segment without impairing the inner medullary hypertonicity needed for free water reabsorption"
+        },
+        {
+          "id": "C",
+          "text": "Thiazides cause profound tubuloglomerular feedback inhibition leading to central diabetes insipidus"
+        },
+        {
+          "id": "D",
+          "text": "Thiazides induce massive urinary sodium loss primarily through irreversible blockade of the epithelial sodium channel (ENaC)"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (B)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nThiazide-induced hyponatremia (TIH) 是臨床極為常見且危重的低血鈉症原因。其生理機轉差異在於腎元的作用部位：\n1. **稀釋功能受損 (Impaired Diluting Ability)**：Thiazides 抑制遠曲小管 (DCT) 的 Na+-Cl- cotransporter (NCC)，此段稱為皮質稀釋段 (cortical diluting segment)。阻斷 NCC 使得管腔液無法在此重吸收溶質以進行尿液稀釋，減少了自由水清除率 (free water clearance)。\n2. **濃縮功能保留 (Preserved Concentrating Ability)**：由於 Thiazides 不作用於 Henle 氏環厚上行支 (TAL)，因此**完全不影響髓質高滲透壓梯度 (medullary hypertonicity)** 的建立與維持。當容量減少或刺激非滲透性 ADH (Vasopressin) 分泌時，高滲透壓的髓質能持續驅動集尿管 Aquaporin-2 (AQP2) 重吸收大量自由水，導致嚴重水滯留與低血鈉。\n相比之下，Loop diuretics 作用於 TAL 的 NKCC2，會洗刷並破壞髓質高滲透壓梯度，導致腎臟「既無法稀釋尿液，也無法濃縮尿液」（濃縮功能受損），因此大量水分隨同電解質排出，極少引起嚴重低血鈉症。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (A) 錯誤：破壞髓質高滲透壓梯度的是 Loop diuretics (NKCC2 阻斷)，而非 Thiazides。\n- (C) 錯誤：Thiazides 不會引起中樞性尿崩症 (central diabetes insipidus)；相反地，尿崩症特徵為低比重稀釋尿，與本題高尿滲透壓 (510 mOsm/kg) 不符。\n- (D) 錯誤：Thiazides 作用於 NCC；直接阻斷 ENaC 的是 potassium-sparing diuretics (如 amiloride, triamterene)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    },
+    {
+      "id": "2026_大林_(重點轉化)_q28",
+      "number": 28,
+      "chapter": "Topic 14: 利尿劑副作用與機轉",
+      "stem": "A 58-year-old male with chronic kidney disease and heart failure is treated with intravenous furosemide. During high-dose rapid bolus therapy, he develops bilateral sensorineural hearing loss and tinnitus. Which ionic transport mechanism in the inner ear is inhibited by loop diuretics to produce this ototoxic adverse effect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition of the Na+-K+-2Cl- cotransporter isoform 1 (NKCC1) in the stria vascularis"
+        },
+        {
+          "id": "B",
+          "text": "Direct toxic damage to the outer hair cells caused by blockade of calcium-sensing receptors (CaSR)"
+        },
+        {
+          "id": "C",
+          "text": "Blockade of the epithelial sodium channel (ENaC) within the endolymphatic sac"
+        },
+        {
+          "id": "D",
+          "text": "Disruption of KCNQ1 potassium channels in the tectorial membrane leading to hyperkalemic endolymph"
+        }
+      ],
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正解為 (A)。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nLoop diuretics（如 furosemide, bumetanide, torsemide, ethacrynic acid）高劑量或快速靜脈推注時引發耳毒性 (ototoxicity) 的主要分子機轉為：抑制內耳血管紋 (stria vascularis) 邊緣細胞 (marginal cells) 上表現的 **Na+-K+-2Cl- cotransporter isoform 1 (NKCC1)**。\n- **生理作用**：腎臟 TAL 表現的是 NKCC2，而內耳 stria vascularis 表現的是 NKCC1。NKCC1 負責將 K+ 從基底側汲取並分泌至內淋巴液 (endolymph) 中，維持內淋巴極高濃度 K+（~150 mM）以及約 +80 mV 的內耳正電位 (endocochlear potential)。\n- **致病機轉**：當高濃度 loop diuretics 抑制 NKCC1 時，內淋巴電位急速下降，邊緣細胞發生水腫與電解質失衡，破壞了毛細胞 (hair cells) 的聲波傳導能力，臨床表現為耳鳴 (tinnitus) 與感音神經性聽力障礙 (sensorineural hearing loss)。停藥後多數可恢復，但若合併使用 aminoglycoside 抗生素或腎功能不全者，可能造成不可逆的聽力喪失。\n\n### 3. 誘答選項解析 (Distractor Analysis)\n- (B) 錯誤：耳毒性主要源於 NKCC1 阻斷導致的內淋巴電位喪失，而非 CaSR 阻斷。\n- (C) 錯誤：主要標的轉運體為 NKCC1，而非 endolymphatic sac 的 ENaC。\n- (D) 錯誤：Loop diuretics 的直接作用標的為 NKCC1 共轉運體，而非 KCNQ1 鉀通道。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "nlmResponses": [],
+      "resolvedImages": []
+    }
+  ]
+}

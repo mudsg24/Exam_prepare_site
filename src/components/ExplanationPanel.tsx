@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, Sparkles, FileText } from 'lucide-react';
+import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, Sparkles, FileText, ChevronDown, ChevronRight } from 'lucide-react';
 import { marked } from 'marked';
 import { ExamQuestion, ResolvedImage, ThemeMode } from '../types/exam';
 import { renderKaTeXInString } from '../utils/katexRenderer';
@@ -51,12 +51,58 @@ function renderFormattedMarkdown(rawText: string, isLight: boolean) {
   }
 }
 
+interface NlmSection {
+  title: string;
+  content: string;
+}
+
+function parseNlmSections(rawText: string): NlmSection[] {
+  const cleaned = cleanNlmResponseText(rawText);
+  if (!cleaned) return [];
+
+  const lines = cleaned.split('\n');
+  const sections: NlmSection[] = [];
+  let currentTitle = '解析摘要 Overview';
+  let currentLines: string[] = [];
+
+  for (const line of lines) {
+    const headerMatch = line.match(/^#{2,3}\s+\*?\*?(.*?)\*?\*?$/);
+    if (headerMatch && headerMatch[1].trim()) {
+      if (currentLines.length > 0) {
+        const body = currentLines.join('\n').trim();
+        if (body) {
+          sections.push({ title: currentTitle, content: body });
+        }
+      }
+      currentTitle = headerMatch[1].replace(/\*/g, '').trim();
+      currentLines = [];
+    } else {
+      currentLines.push(line);
+    }
+  }
+
+  if (currentLines.length > 0) {
+    const body = currentLines.join('\n').trim();
+    if (body) {
+      sections.push({ title: currentTitle, content: body });
+    }
+  }
+
+  return sections;
+}
+
 export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
   question,
   onOpenImage,
   themeMode = 'light',
 }) => {
   const [activeNlmTab, setActiveNlmTab] = useState<number>(0);
+  const [openSections, setOpenSections] = useState<Record<string, boolean>>({});
+
+  const toggleSection = (key: string) => {
+    setOpenSections((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
+
   const isLight = themeMode === 'light';
 
   const hasSourceAnswer = question.sourceAnswerStatus === 'provided' && question.sourceProvidedAnswer;
@@ -141,51 +187,100 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
           </div>
 
           {/* Active NLM Formatted Card */}
-          {nlmResponses[activeNlmTab] && (
-            <div
-              className={`p-5 md:p-6 rounded-2xl border space-y-4 ${
-                isLight ? 'bg-white border-slate-200 shadow-sm' : 'bg-slate-950/80 border-slate-800'
-              }`}
-            >
-              {/* Header Info */}
-              <div className="flex items-center justify-between text-xs pb-3 border-b border-slate-200 dark:border-slate-800">
-                <span className="text-slate-500 font-mono">
-                  知識庫來源: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{nlmResponses[activeNlmTab].notebookTitle}</strong> ({nlmResponses[activeNlmTab].accountProfile})
-                </span>
-                <span className="px-2.5 py-1 rounded-lg bg-sky-500/10 text-sky-700 dark:text-sky-300 font-mono font-bold border border-sky-500/20">
-                  NLM 判定答案: <strong>{nlmResponses[activeNlmTab].selectedOption || 'N/A'}</strong>
-                </span>
-              </div>
+          {nlmResponses[activeNlmTab] && (() => {
+            const currentNlm = nlmResponses[activeNlmTab];
+            const parsedSections = parseNlmSections(currentNlm.rawResponse);
 
-              {/* Rationale Content with KaTeX */}
+            return (
               <div
-                className={`p-5 rounded-2xl border leading-relaxed ${
-                  isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950 border-slate-800'
+                className={`p-5 md:p-6 rounded-2xl border space-y-4 ${
+                  isLight ? 'bg-white border-slate-200 shadow-sm' : 'bg-slate-950/80 border-slate-800'
                 }`}
               >
-                {renderFormattedMarkdown(nlmResponses[activeNlmTab].rawResponse, isLight)}
-              </div>
-
-              {/* Citations List */}
-              {nlmResponses[activeNlmTab].citations?.length > 0 && (
-                <div className="pt-2">
-                  <div className="text-xs font-semibold text-slate-500 mb-1.5">對應教科書與章節引用:</div>
-                  <div className="flex flex-wrap gap-2">
-                    {nlmResponses[activeNlmTab].citations.map((c, cIdx) => (
-                      <span
-                        key={cIdx}
-                        className={`px-2.5 py-1 rounded-lg border text-xs font-mono ${
-                          isLight ? 'bg-slate-100 text-slate-700 border-slate-200' : 'bg-slate-900 text-slate-300 border-slate-800'
-                        }`}
-                      >
-                        📖 {c.chapter} {c.page ? `pg.${c.page}` : ''}
-                      </span>
-                    ))}
-                  </div>
+                {/* Header Info */}
+                <div className="flex items-center justify-between text-xs pb-3 border-b border-slate-200 dark:border-slate-800">
+                  <span className="text-slate-500 font-mono">
+                    知識庫來源: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{currentNlm.notebookTitle}</strong> ({currentNlm.accountProfile})
+                  </span>
+                  <span className="px-2.5 py-1 rounded-lg bg-sky-500/10 text-sky-700 dark:text-sky-300 font-mono font-bold border border-sky-500/20">
+                    NLM 判定答案: <strong>{currentNlm.selectedOption || 'N/A'}</strong>
+                  </span>
                 </div>
-              )}
-            </div>
-          )}
+
+                {/* Rationale Content with Accordion Sections */}
+                {parsedSections.length > 1 ? (
+                  <div className="space-y-3">
+                    {parsedSections.map((sec, secIdx) => {
+                      const secKey = `${activeNlmTab}_${secIdx}`;
+                      // Default all sections to expanded/open
+                      const isOpen = openSections[secKey] !== undefined ? openSections[secKey] : true;
+
+                      return (
+                        <div
+                          key={secIdx}
+                          className={`rounded-2xl border transition-all overflow-hidden ${
+                            isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950 border-slate-800'
+                          }`}
+                        >
+                          <button
+                            onClick={() => toggleSection(secKey)}
+                            className={`w-full px-4 py-3 flex items-center justify-between font-bold text-sm text-left transition-colors cursor-pointer ${
+                              isLight
+                                ? 'bg-slate-100/70 hover:bg-slate-200/60 text-slate-800'
+                                : 'bg-slate-900/60 hover:bg-slate-900 text-slate-200'
+                            }`}
+                          >
+                            <span className="flex items-center gap-2">
+                              <span className="text-sky-500 font-mono text-xs">#{secIdx + 1}</span>
+                              <span>{sec.title}</span>
+                            </span>
+                            {isOpen ? (
+                              <ChevronDown className="w-4 h-4 text-slate-400" />
+                            ) : (
+                              <ChevronRight className="w-4 h-4 text-slate-400" />
+                            )}
+                          </button>
+
+                          {isOpen && (
+                            <div className="p-4 md:p-5 border-t border-slate-200 dark:border-slate-800">
+                              {renderFormattedMarkdown(sec.content, isLight)}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div
+                    className={`p-5 rounded-2xl border leading-relaxed ${
+                      isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950 border-slate-800'
+                    }`}
+                  >
+                    {renderFormattedMarkdown(currentNlm.rawResponse, isLight)}
+                  </div>
+                )}
+
+                {/* Citations List */}
+                {currentNlm.citations?.length > 0 && (
+                  <div className="pt-2">
+                    <div className="text-xs font-semibold text-slate-500 mb-1.5">對應教科書與章節引用:</div>
+                    <div className="flex flex-wrap gap-2">
+                      {currentNlm.citations.map((c, cIdx) => (
+                        <span
+                          key={cIdx}
+                          className={`px-2.5 py-1 rounded-lg border text-xs font-mono ${
+                            isLight ? 'bg-slate-100 text-slate-700 border-slate-200' : 'bg-slate-900 text-slate-300 border-slate-800'
+                          }`}
+                        >
+                          📖 {c.chapter} {c.page ? `pg.${c.page}` : ''}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
       ) : (
         <div

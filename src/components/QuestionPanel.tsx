@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, ChevronLeft, ChevronRight, CheckCircle2, Image as ImageIcon } from 'lucide-react';
+import { marked } from 'marked';
 import { ExamQuestion, OptionId, ThemeMode, AttachedImage } from '../types/exam';
 import { DisputeBadge } from './DisputeBadge';
 import { renderKaTeXInString } from '../utils/katexRenderer';
@@ -21,21 +22,35 @@ interface QuestionPanelProps {
 
 function renderFormattedText(text: string, isLight: boolean) {
   if (!text) return null;
-  // First convert em/strong
-  let cleanHtml = text
+  // Convert HTML em/strong tag styles
+  let cleaned = text
     .replace(/<em\b[^>]*>(.*?)<\/em>/gi, '<em class="italic text-sky-600 dark:text-sky-300 font-semibold">$1<\/em>')
     .replace(/<strong\b[^>]*>(.*?)<\/strong>/gi, '<strong class="font-bold text-amber-700 dark:text-amber-300 underline decoration-amber-500/50">$1<\/strong>');
 
-  // Render Markdown images ![caption](url)
-  cleanHtml = cleanHtml.replace(
+  // Render Markdown images
+  cleaned = cleaned.replace(
     /!\[(.*?)\]\((.*?)\)/g,
     '<div class="my-3 flex flex-col items-center"><img src="$2" alt="$1" class="max-h-96 max-w-full rounded-xl border border-slate-700/50 shadow-md object-contain" /><span class="text-xs text-slate-400 mt-1">$1<\/span><\/div>'
   );
 
   // Render KaTeX Math
-  cleanHtml = renderKaTeXInString(cleanHtml);
+  const mathRendered = renderKaTeXInString(cleaned);
 
-  return <span dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
+  try {
+    const html = marked.parse(mathRendered, { async: false }) as string;
+    return (
+      <div
+        className={`prose max-w-none text-base md:text-[17px] leading-relaxed space-y-3 font-sans selection:bg-sky-500 selection:text-white ${
+          isLight
+            ? 'text-slate-900 prose-headings:text-slate-900 prose-strong:text-slate-900'
+            : 'text-slate-100 prose-invert prose-headings:text-slate-100 prose-strong:text-slate-100'
+        }`}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    );
+  } catch (e) {
+    return <span dangerouslySetInnerHTML={{ __html: mathRendered }} />;
+  }
 }
 
 export const QuestionPanel: React.FC<QuestionPanelProps> = ({
@@ -111,7 +126,7 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
 
         {/* Question Stem Content */}
         <div className="mb-6 space-y-4">
-          <div className={`text-base md:text-[17px] font-medium leading-relaxed whitespace-pre-line selection:bg-sky-500 selection:text-white ${
+          <div className={`text-base md:text-[17px] font-medium leading-relaxed selection:bg-sky-500 selection:text-white ${
             isLight ? 'text-slate-900' : 'text-slate-100'
           }`}>
             {renderFormattedText(question.stem, isLight)}

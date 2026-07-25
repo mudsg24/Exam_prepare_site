@@ -51,10 +51,11 @@ function convertPaper(sourceFile, paperId, paperTitle, imagesMap) {
       attachedImages.push(imagesMap[q.id]);
     }
 
+    const fullStem = q.case_stem ? `${q.case_stem}\n\n${q.stem}` : q.stem;
     return {
       id: `${paperId}_q${qNum}`,
       number: qNum,
-      stem: processStem(q.stem),
+      stem: processStem(fullStem),
       options: (q.options || []).map(opt => ({
         id: opt.id,
         text: opt.text

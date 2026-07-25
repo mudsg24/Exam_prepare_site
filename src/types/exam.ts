@@ -63,7 +63,7 @@ export interface ExamQuestion {
   number: number;
   stem: string;
   options: QuestionOption[];
-  sourceAnswerStatus: 'provided' | 'absent' | 'ambiguous';
+  sourceAnswerStatus: 'provided' | 'absent' | 'ambiguous' | 'synthetic_tonks';
   sourceProvidedAnswer: OptionId | null;
   codexExplanation?: CodexExplanation;
   nlmResponses: NlmResponseItem[];

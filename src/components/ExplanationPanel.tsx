@@ -105,7 +105,8 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
 
   const isLight = themeMode === 'light';
 
-  const hasSourceAnswer = question.sourceAnswerStatus === 'provided' && question.sourceProvidedAnswer;
+  const hasSourceAnswer = (question.sourceAnswerStatus === 'provided' || question.sourceAnswerStatus === 'synthetic_tonks') && !!question.sourceProvidedAnswer;
+  const isSynthetic = question.sourceAnswerStatus === 'synthetic_tonks';
   const nlmResponses = question.nlmResponses || [];
 
   return (
@@ -140,7 +141,9 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
             {hasSourceAnswer ? question.sourceProvidedAnswer : '?'}
           </span>
           <div>
-            <div className="text-xs font-semibold text-slate-500">原始考題標示解答</div>
+            <div className="text-xs font-semibold text-slate-500">
+              {isSynthetic ? 'Tonks 擬真命題正解' : '原始考題標示解答'}
+            </div>
             <div className={`text-base font-bold ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
               {hasSourceAnswer ? `答案選項 (${question.sourceProvidedAnswer})` : '原始檔案未標記解答 (無 Ground Truth)'}
             </div>

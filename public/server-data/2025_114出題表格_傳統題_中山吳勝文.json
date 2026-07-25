@@ -1,7 +1,11 @@
 {
-  "paperId": "2025_114出題表格_傳統題_中山吳勝文",
+  "id": "2025_114出題表格_傳統題_中山吳勝文",
   "title": "2025 114出題表格_傳統題_中山吳勝文",
-  "totalQuestions": 10,
+  "rawTitle": "2025 114出題表格_傳統題_中山吳勝文",
+  "sourceCategory": "2025 年交換題",
+  "year": 2025,
+  "questionCount": 10,
+  "createdAt": "2026-07-25T13:59:18.200Z",
   "questions": [
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q1",
@@ -553,7 +557,5 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
       "attachedImages": null
     }
-  ],
-  "highConfidenceCount": 8,
-  "disputedCount": 2
+  ]
 }

@@ -1,7 +1,11 @@
 {
-  "paperId": "2025_北醫臨床練習題",
+  "id": "2025_北醫臨床練習題",
   "title": "2025 北醫臨床練習題",
-  "totalQuestions": 50,
+  "rawTitle": "2025 北醫臨床練習題",
+  "sourceCategory": "2025 年交換題",
+  "year": 2025,
+  "questionCount": 50,
+  "createdAt": "2026-07-25T13:59:18.214Z",
   "questions": [
     {
       "id": "2025_北醫臨床練習題_q1",
@@ -2799,7 +2803,5 @@
       "isInvalid": true,
       "attachedImages": null
     }
-  ],
-  "highConfidenceCount": 30,
-  "disputedCount": 20
+  ]
 }

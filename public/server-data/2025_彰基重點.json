@@ -6,7 +6,6 @@
   "year": 2025,
   "questionCount": 6,
   "createdAt": "2026-07-25T01:47:54.372380",
-  "qcStatus": "QC_PASSED",
   "questions": [
     {
       "id": "2025_彰基重點_q4",
@@ -343,6 +342,5 @@
       "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 (D) 為正解。覆寫原舊腳本 Regex 誤標之 UNKNOWN。",
       "attachedImages": null
     }
-  ],
-  "totalQuestions": 6
+  ]
 }

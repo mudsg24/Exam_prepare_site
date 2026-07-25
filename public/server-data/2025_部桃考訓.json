@@ -1,7 +1,11 @@
 {
-  "paperId": "2025_部桃考訓",
+  "id": "2025_部桃考訓",
   "title": "2025 部桃考訓",
-  "totalQuestions": 20,
+  "rawTitle": "2025 部桃考訓",
+  "sourceCategory": "2025 年交換題",
+  "year": 2025,
+  "questionCount": 20,
+  "createdAt": "2026-07-25T13:59:18.243Z",
   "questions": [
     {
       "id": "2025_部桃考訓_q1",
@@ -1103,7 +1107,5 @@
       "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
       "attachedImages": null
     }
-  ],
-  "highConfidenceCount": 15,
-  "disputedCount": 5
+  ]
 }

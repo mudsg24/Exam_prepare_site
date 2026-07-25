@@ -45,11 +45,13 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
   // Group manifest by year (2026 then 2025), and sort papers in each year descendingly by title
   const groupedPapersByYear = useMemo(() => {
-    const years = Array.from(new Set(manifest.map((p) => p.year))).sort((a, b) => b - a);
+    const years = Array.from(
+      new Set(manifest.map((p) => p?.year).filter((y): y is number => typeof y === 'number'))
+    ).sort((a, b) => b - a);
     return years.map((year) => {
       const papers = manifest
-        .filter((p) => p.year === year)
-        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+        .filter((p) => p && p.year === year)
+        .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
       return { year, papers };
     });
   }, [manifest]);

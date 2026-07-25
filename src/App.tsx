@@ -161,16 +161,28 @@ export const App: React.FC = () => {
           // Preload paper JSONs
           const loadedMap: Record<string, ExamPaper> = {};
           await Promise.all(
-            manifestData.map((item) =>
-              fetch(`/server-data/${item.id}.json`)
+            manifestData.map((item) => {
+              if (!item || !item.id) return Promise.resolve();
+              return fetch(`/server-data/${item.id}.json`)
                 .then((r) => (r.ok ? r.json() : null))
-                .then((paperData: ExamPaper) => {
-                  if (paperData && paperData.questions) {
-                    loadedMap[item.id] = paperData;
+                .then((paperData: any) => {
+                  if (paperData) {
+                    const questions = Array.isArray(paperData) ? paperData : (paperData.questions || []);
+                    const normalizedPaper: ExamPaper = {
+                      id: paperData.id || paperData.paperId || item.id,
+                      title: paperData.title || paperData.paperTitle || item.title,
+                      rawTitle: paperData.rawTitle || paperData.paperTitle || item.title,
+                      sourceCategory: paperData.sourceCategory || paperData.category || item.sourceCategory,
+                      year: paperData.year || item.year || 2026,
+                      questionCount: paperData.questionCount || paperData.totalQuestions || questions.length,
+                      createdAt: paperData.createdAt || new Date().toISOString(),
+                      questions,
+                    };
+                    loadedMap[item.id] = normalizedPaper;
                   }
                 })
-                .catch(() => {})
-            )
+                .catch(() => {});
+            })
           );
 
           if (Object.keys(loadedMap).length > 0) {
@@ -249,14 +261,17 @@ export const App: React.FC = () => {
     const progressMap: Record<string, { total: number; answered: number; correct: number }> = {};
 
     Object.values(allPapersMap).forEach((paper) => {
+      const paperId = paper.id || (paper as any).paperId;
+      if (!paperId || !paper.questions) return;
+
       let paperAnswered = 0;
       let paperCorrect = 0;
 
       let paperAnswers: Record<string, OptionId> = {};
-      if (paper.id === attemptState.paperId) {
+      if (paperId === attemptState.paperId) {
         paperAnswers = attemptState.answers || {};
       } else {
-        const savedAttemptStr = localStorage.getItem(`attempt_${paper.id}`);
+        const savedAttemptStr = localStorage.getItem(`attempt_${paperId}`);
         if (savedAttemptStr) {
           try {
             const parsed: UserAttemptState = JSON.parse(savedAttemptStr);
@@ -286,7 +301,7 @@ export const App: React.FC = () => {
         }
       });
 
-      progressMap[paper.id] = {
+      progressMap[paperId] = {
         total: paper.questions.length,
         answered: paperAnswered,
         correct: paperCorrect,

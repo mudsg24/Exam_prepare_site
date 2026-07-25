@@ -1,7 +1,11 @@
 {
-  "paperId": "2025_北醫附醫考訊",
+  "id": "2025_北醫附醫考訊",
   "title": "2025 北醫附醫考訊",
-  "totalQuestions": 15,
+  "rawTitle": "2025 北醫附醫考訊",
+  "sourceCategory": "2025 年交換題",
+  "year": 2025,
+  "questionCount": 15,
+  "createdAt": "2026-07-25T13:59:18.218Z",
   "questions": [
     {
       "id": "2025_北醫附醫考訊_q1",
@@ -818,7 +822,5 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
       "attachedImages": null
     }
-  ],
-  "highConfidenceCount": 13,
-  "disputedCount": 2
+  ]
 }

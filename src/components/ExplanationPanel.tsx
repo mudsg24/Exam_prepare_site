@@ -155,6 +155,78 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
         )}
       </div>
 
+      {/* 1.5. Codex Dedicated Official Rationale Section */}
+      {question.codexExplanation && (
+        <div
+          className={`p-5 md:p-6 rounded-2xl border space-y-4 ${
+            isLight ? 'bg-indigo-50/50 border-indigo-200/80 shadow-xs' : 'bg-slate-950 border-indigo-900/50'
+          }`}
+        >
+          <div className="flex items-center justify-between pb-3 border-b border-indigo-200/60 dark:border-indigo-900/60">
+            <h4 className="text-sm font-bold flex items-center gap-2 text-indigo-700 dark:text-indigo-300">
+              <Sparkles className="w-4 h-4 text-indigo-500" />
+              <span>🏆 腎專聯合研析組 Codex 正式解析與選項剖析</span>
+            </h4>
+            <span className="px-2.5 py-1 rounded-lg bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 font-mono text-xs font-semibold border border-indigo-500/20">
+              Codex Official Rationale
+            </span>
+          </div>
+
+          {/* Explanation Text */}
+          {question.codexExplanation.explanationZh && (
+            <div className="space-y-2">
+              <div className="text-xs font-semibold text-indigo-600 dark:text-indigo-400">【核心解析 Summary Rationale】</div>
+              <div className={`p-4 rounded-xl text-sm leading-relaxed border ${
+                isLight ? 'bg-white border-indigo-100 text-slate-800' : 'bg-slate-900 border-indigo-950 text-slate-200'
+              }`}>
+                {renderFormattedMarkdown(question.codexExplanation.explanationZh, isLight)}
+              </div>
+            </div>
+          )}
+
+          {/* Option Analysis Breakdown */}
+          {question.codexExplanation.optionAnalysisZh && Object.keys(question.codexExplanation.optionAnalysisZh).length > 0 && (
+            <div className="space-y-2">
+              <div className="text-xs font-semibold text-indigo-600 dark:text-indigo-400">【選項詳細剖析 Option-by-Option Breakdown】</div>
+              <div className="grid grid-cols-1 gap-2">
+                {Object.entries(question.codexExplanation.optionAnalysisZh).map(([optId, analysisText]) => (
+                  <div
+                    key={optId}
+                    className={`p-3 rounded-xl border text-xs leading-relaxed flex items-start gap-2.5 ${
+                      isLight ? 'bg-white/80 border-indigo-100 text-slate-700' : 'bg-slate-900/80 border-indigo-950 text-slate-300'
+                    }`}
+                  >
+                    <span className="px-2 py-0.5 rounded-md bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 font-bold font-mono text-xs shrink-0 border border-indigo-500/20">
+                      選項 ({optId})
+                    </span>
+                    <div className="flex-1">{renderFormattedMarkdown(analysisText, isLight)}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Authority Evidence & Citations */}
+          {question.codexExplanation.authorityEvidence && question.codexExplanation.authorityEvidence.length > 0 && (
+            <div className="pt-2">
+              <div className="text-xs font-semibold text-slate-500 mb-1.5">考點權威依據 & Brenner / KDIGO 出處:</div>
+              <div className="flex flex-wrap gap-2">
+                {question.codexExplanation.authorityEvidence.map((ev, evIdx) => (
+                  <span
+                    key={evIdx}
+                    className={`px-2.5 py-1 rounded-lg border text-xs font-mono ${
+                      isLight ? 'bg-white text-indigo-800 border-indigo-200' : 'bg-slate-900 text-indigo-300 border-indigo-900'
+                    }`}
+                  >
+                    📚 {ev.source} — {ev.locator} {ev.note_zh ? `(${ev.note_zh})` : ''}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* 2. Dual NotebookLM Response Tabs & Section */}
       {nlmResponses.length > 0 ? (
         <div className="space-y-4">

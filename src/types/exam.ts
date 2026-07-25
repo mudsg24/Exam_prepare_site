@@ -47,6 +47,17 @@ export interface AttachedImage {
   caption?: string;
 }
 
+export interface CodexExplanation {
+  explanationZh?: string;
+  optionAnalysisZh?: Record<string, string>;
+  authorityEvidence?: Array<{
+    source: string;
+    locator: string;
+    note_zh?: string;
+  }>;
+  sourceNotesZh?: string;
+}
+
 export interface ExamQuestion {
   id: string;
   number: number;
@@ -54,6 +65,7 @@ export interface ExamQuestion {
   options: QuestionOption[];
   sourceAnswerStatus: 'provided' | 'absent' | 'ambiguous';
   sourceProvidedAnswer: OptionId | null;
+  codexExplanation?: CodexExplanation;
   nlmResponses: NlmResponseItem[];
   reconciliationStatus: DisputeStatus;
   reconciliationNotes: string;

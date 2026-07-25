@@ -99,3 +99,38 @@ body {
   overflow-y: hidden;
   padding: 0.25em 0;
 }
+
+/* Prose Table Formatting */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .prose table {
+    display: table;
+  }
+}
+
+.prose th,
+.prose td {
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.prose th {
+  background-color: rgba(148, 163, 184, 0.12);
+  font-weight: 600;
+}
+
+.theme-dark .prose th {
+  background-color: rgba(30, 41, 59, 0.8);
+}
+

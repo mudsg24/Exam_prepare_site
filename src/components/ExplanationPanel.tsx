@@ -189,7 +189,7 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
           {/* Active NLM Formatted Card */}
           {nlmResponses[activeNlmTab] && (() => {
             const currentNlm = nlmResponses[activeNlmTab];
-            const parsedSections = parseNlmSections(currentNlm.rawResponse);
+            const parsedSections = parseNlmSections(currentNlm.formattedResponse || currentNlm.rawResponse);
 
             return (
               <div

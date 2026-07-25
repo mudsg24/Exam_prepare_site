@@ -18,6 +18,7 @@ export interface NlmResponseItem {
   accountProfile: string;
   selectedOption: string | null;
   rawResponse: string;
+  formattedResponse?: string;
   citations: NlmCitation[];
   figureMentions: string[];
   databaseSufficiency: 'SUFFICIENT' | 'INSUFFICIENT';

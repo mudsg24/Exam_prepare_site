@@ -49,7 +49,20 @@ function lintExamFile(filePath) {
       errors.push(`[${fileName} -> ${qLabel}] Broken sentence detected across lowercase words: "${match[1]}" <\\n\\n> "${match[2]}".`);
     }
 
-    // Check 3: Integrity
+    // Check 3: Unescaped Tildes causing GFM Strikethroughs
+    // Match unescaped ~ in ranges (e.g., 3.5~5 instead of 3.5\~5) when multiple ~ exist
+    const tildes = (stem.match(/(?<!\\)~/g) || []).length;
+    if (tildes >= 2) {
+      warnings.push(`[${fileName} -> ${qLabel}] Unescaped paired tildes (${tildes}) detected in stem. Run /tn-exam-expert to fix GFM strikethroughs.`);
+    }
+
+    // Check 4: Wall of Text (Stems > 350 chars with zero newlines)
+    const newlines = (stem.match(/\n/g) || []).length;
+    if (stem.length > 350 && newlines === 0) {
+      warnings.push(`[${fileName} -> ${qLabel}] Wall of text detected (${stem.length} chars with 0 newlines). Run /tn-exam-expert to de-wall.`);
+    }
+
+    // Check 5: Integrity
     if (!stem.trim()) {
       errors.push(`[${fileName} -> ${qLabel}] Empty stem.`);
     }

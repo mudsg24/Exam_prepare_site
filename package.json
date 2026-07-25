@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "lint:exams": "node scripts/lint_exam_json.mjs",
+    "build": "node scripts/lint_exam_json.mjs && tsc && vite build",
     "preview": "vite preview",
     "build:images": "node scripts/build_image_index.mjs"
   },

@@ -111,4 +111,9 @@ function runLinter() {
   }
 }
 
-runLinter();
+export { lintExamFile, runLinter };
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  runLinter();
+}
+

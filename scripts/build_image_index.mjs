@@ -66,4 +66,11 @@ export function buildImageIndex() {
   return allImages;
 }
 
-buildImageIndex();
+import { fileURLToPath } from 'url';
+
+export { scanDir, buildImageIndex };
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  buildImageIndex();
+}
+

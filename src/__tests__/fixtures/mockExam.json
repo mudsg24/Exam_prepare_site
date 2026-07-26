@@ -1,0 +1,146 @@
+{
+  "id": "mock_2026_test",
+  "title": "2026 模擬測試試卷",
+  "rawTitle": "2026_模擬測試試卷",
+  "sourceCategory": "2026 年重點轉化",
+  "year": 2026,
+  "questionCount": 3,
+  "createdAt": "2026-07-26T00:00:00.000Z",
+  "questions": [
+    {
+      "id": "mock_2026_test_q1",
+      "number": 1,
+      "stem": "關於 IgA 腎病變 (IgAN) 之診斷與治療，下列何者正確？ $x^2 + y^2 = z^2$",
+      "options": [
+        { "id": "A", "text": "蛋白尿 > 1g/day 時應直接給予高劑量類固醇" },
+        { "id": "B", "text": "SGLT2 抑制劑已被證實可延緩 IgAN 之腎功能惡化" },
+        { "id": "C", "text": "腎臟切片對於診斷屬非必要項目" },
+        { "id": "D", "text": "扁桃腺切除術為全球標準首選治療" }
+      ],
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "B",
+      "nlmResponses": [
+        {
+          "notebookTitle": "KDIGO 2024 Guidelines",
+          "notebookId": "nb_1",
+          "accountProfile": "Profile 1",
+          "selectedOption": "B",
+          "rawResponse": "Answer Determination: Option B is correct. KDIGO 2024 guidelines strongly recommend SGLT2 inhibitors for IgAN patients with eGFR >= 20 mL/min/1.73m2.",
+          "formattedResponse": "<p>Answer Determination: Option B is correct.</p>",
+          "citations": [
+            {
+              "chapter": "IgA Nephropathy",
+              "page": "S120",
+              "figureOrTable": "Figure 12",
+              "textSnippet": "SGLT2 inhibitors reduce progression in IgAN."
+            }
+          ],
+          "figureMentions": ["Fig_12_IgAN_Algorithm.png"],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "notebookTitle": "Brenner & Rector 11th Ed",
+          "notebookId": "nb_2",
+          "accountProfile": "Profile 2",
+          "selectedOption": "B",
+          "rawResponse": "Answer Determination: Option B. Large clinical trials have confirmed SGLT2i efficacy.",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Source provided answer and dual NotebookLM responses completely match (B).",
+      "resolvedImages": [
+        {
+          "id": "img_1",
+          "title": "KDIGO IgAN Management Flowchart",
+          "bookSource": "KDIGO",
+          "relPath": "KDIGO/IgAN_Flowchart.png",
+          "absPath": "/Users/yuan/Projects/PDF/Outputs/KDIGO/IgAN_Flowchart.png"
+        }
+      ],
+      "attachedImages": [
+        {
+          "id": "att_1",
+          "fileName": "q1_biopsy.png",
+          "relPath": "attached-images/q1_biopsy.png",
+          "caption": "Renal Biopsy Immunofluorescence"
+        }
+      ]
+    },
+    {
+      "id": "mock_2026_test_q2",
+      "number": 2,
+      "stem": "一名 54 歲男性展現急性腎損傷 (AKI) 伴隨高鈣血症與骨骼疼痛，何者最可能？",
+      "options": [
+        { "id": "A", "text": "Multiple Myeloma (多發性骨髓瘤)" },
+        { "id": "B", "text": "Minimal Change Disease" },
+        { "id": "C", "text": "Membranous Nephropathy" },
+        { "id": "D", "text": "Alport Syndrome" }
+      ],
+      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "A",
+      "nlmResponses": [
+        {
+          "notebookTitle": "KDIGO 2024 Guidelines",
+          "notebookId": "nb_1",
+          "accountProfile": "Profile 1",
+          "selectedOption": "A",
+          "rawResponse": "Option A is correct due to CRAB criteria.",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "notebookTitle": "Brenner & Rector 11th Ed",
+          "notebookId": "nb_2",
+          "accountProfile": "Profile 2",
+          "selectedOption": "C",
+          "rawResponse": "Option C is discussed.",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ],
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "Discrepancy between NLM 1 (A) and NLM 2 (C).",
+      "resolvedImages": [],
+      "attachedImages": []
+    },
+    {
+      "id": "mock_2026_test_q3",
+      "number": 3,
+      "stem": "關於透析患者之血管通路選擇，何者正確？",
+      "options": [
+        { "id": "A", "text": "AVF (自體動靜脈瘻管) 優於 AVG" },
+        { "id": "B", "text": "雙腔導管應優先於 AVF" },
+        { "id": "C", "text": "股靜脈導管可留置數個月" },
+        { "id": "D", "text": "以上皆非" }
+      ],
+      "sourceAnswerStatus": "absent",
+      "sourceProvidedAnswer": null,
+      "nlmResponses": [
+        {
+          "notebookTitle": "KDIGO Guidelines",
+          "notebookId": "nb_1",
+          "accountProfile": "Profile 1",
+          "selectedOption": null,
+          "rawResponse": "Insufficient evidence in database.",
+          "citations": [],
+          "figureMentions": [],
+          "databaseSufficiency": "INSUFFICIENT",
+          "error": "Not enough evidence"
+        }
+      ],
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM returned INSUFFICIENT evidence.",
+      "resolvedImages": [],
+      "attachedImages": []
+    }
+  ]
+}

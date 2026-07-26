@@ -59,14 +59,42 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [currentTime, setCurrentTime] = useState<string>('');
 
-  const groupedPapersByYear = useMemo(() => {
+  const groupedPaperOptgroups = useMemo(() => {
+    const isKeyPoint = (p: ExamManifestItem) =>
+      (p.sourceCategory && p.sourceCategory.includes('重點轉化')) ||
+      (p.title && p.title.includes('重點轉化')) ||
+      (p.id && p.id.includes('重點轉化'));
+
     const years = Array.from(new Set(manifest.map((p) => p.year))).sort((a, b) => b - a);
-    return years.map((year) => {
-      const papers = manifest
-        .filter((p) => p.year === year)
+
+    const groups: Array<{ key: string; label: string; papers: ExamManifestItem[] }> = [];
+
+    years.forEach((year) => {
+      const yearPapers = manifest.filter((p) => p.year === year);
+      const standard = yearPapers
+        .filter((p) => !isKeyPoint(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
-      return { year, papers };
+      const keyPoint = yearPapers
+        .filter((p) => isKeyPoint(p))
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+
+      if (standard.length > 0) {
+        groups.push({
+          key: `${year}-standard`,
+          label: `${year} 年試卷與章節練習庫`,
+          papers: standard,
+        });
+      }
+      if (keyPoint.length > 0) {
+        groups.push({
+          key: `${year}-keypoint`,
+          label: `${year} 重點轉化`,
+          papers: keyPoint,
+        });
+      }
     });
+
+    return groups;
   }, [manifest]);
   const isLight = themeMode === 'light';
 
@@ -151,11 +179,11 @@ export const Header: React.FC<HeaderProps> = ({
               {manifest.length === 0 ? (
                 <option value="">載入試卷中...</option>
               ) : (
-                groupedPapersByYear.map(({ year, papers }) => (
-                  <optgroup key={year} label={`${year} 年`}>
+                groupedPaperOptgroups.map(({ key, label, papers }) => (
+                  <optgroup key={key} label={label}>
                     {papers.map((item) => (
                       <option key={item.id} value={item.id}>
-                        {item.title} ({item.questionCount} 題)
+                        {item.title.replace(/\s*\(\s*重點轉化\s*\)/g, '').trim()} ({item.questionCount} 題)
                       </option>
                     ))}
                   </optgroup>

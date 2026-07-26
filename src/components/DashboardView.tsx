@@ -27,6 +27,18 @@ interface DashboardViewProps {
   themeMode: ThemeMode;
 }
 
+export const sanitizePaperTitle = (title: string): string => {
+  return (title || '').replace(/\s*\(\s*重點轉化\s*\)/g, '').trim();
+};
+
+export const isKeyPointTransformationPaper = (paper: ExamManifestItem): boolean => {
+  return Boolean(
+    (paper.sourceCategory && paper.sourceCategory.includes('重點轉化')) ||
+    (paper.title && paper.title.includes('重點轉化')) ||
+    (paper.id && paper.id.includes('重點轉化'))
+  );
+};
+
 export const DashboardView: React.FC<DashboardViewProps> = ({
   manifest,
   stats,
@@ -43,16 +55,42 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       ? Math.round((stats.correctCount / stats.completedQuestions) * 100)
       : 0;
 
-  // Group manifest by year (2026 then 2025), and sort papers in each year descendingly by title
-  const groupedPapersByYear = useMemo(() => {
+  // Group manifest by year (2026 then 2025), and sub-group into Standard Library vs Key Point Transformation
+  const groupedPaperSections = useMemo(() => {
     const years = Array.from(
       new Set(manifest.map((p) => p?.year).filter((y): y is number => typeof y === 'number'))
     ).sort((a, b) => b - a);
+
     return years.map((year) => {
-      const papers = manifest
-        .filter((p) => p && p.year === year)
+      const yearPapers = manifest.filter((p) => p && p.year === year);
+
+      const standardPapers = yearPapers
+        .filter((p) => !isKeyPointTransformationPaper(p))
         .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
-      return { year, papers };
+
+      const keyPointPapers = yearPapers
+        .filter((p) => isKeyPointTransformationPaper(p))
+        .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
+
+      const sections = [];
+      if (standardPapers.length > 0) {
+        sections.push({
+          key: `${year}-standard`,
+          title: `${year} 年試卷與章節練習庫`,
+          papers: standardPapers,
+          isKeyPoint: false,
+        });
+      }
+      if (keyPointPapers.length > 0) {
+        sections.push({
+          key: `${year}-keypoint`,
+          title: `${year} 重點轉化`,
+          papers: keyPointPapers,
+          isKeyPoint: true,
+        });
+      }
+
+      return { year, sections };
     });
   }, [manifest]);
 
@@ -292,80 +330,97 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <span className="text-xs text-slate-500 font-mono">共 {manifest.length} 份試卷</span>
         </div>
 
-        {groupedPapersByYear.map(({ year, papers }) => (
-          <div key={year} className="space-y-4">
-            <div className="flex items-center justify-between pt-2">
-              <span className="px-3 py-1 rounded-xl bg-sky-500/10 text-sky-700 dark:text-sky-300 text-xs font-bold border border-sky-500/20 flex items-center gap-1.5 shadow-sm">
-                <Calendar className="w-3.5 h-3.5" />
-                <span>{year} 年試卷與章節練習庫</span>
-              </span>
-              <span className="text-xs text-slate-400 font-mono">{papers.length} 份試卷</span>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {papers.map((paper) => {
-                const prog = paperProgressMap[paper.id] || { total: paper.questionCount, answered: 0, correct: 0 };
-                const percent = prog.total > 0 ? Math.round((prog.answered / prog.total) * 100) : 0;
-                const isCompleted = prog.answered === prog.total && prog.total > 0;
-
-                return (
-                  <div
-                    key={paper.id}
-                    className={`glass-panel p-5 rounded-2xl border flex flex-col justify-between space-y-4 transition-all glass-card-hover ${
-                      isLight ? 'bg-white border-slate-200' : 'bg-slate-900/80 border-slate-800'
+        {groupedPaperSections.map(({ year, sections }) => (
+          <div key={year} className="space-y-6">
+            {sections.map((section) => (
+              <div key={section.key} className="space-y-4">
+                <div className="flex items-center justify-between pt-2">
+                  <span
+                    className={`px-3 py-1 rounded-xl text-xs font-bold border flex items-center gap-1.5 shadow-sm ${
+                      section.isKeyPoint
+                        ? 'bg-[#e9d5ff]/40 text-purple-800 dark:text-purple-200 border-[#d8b4fe]/60'
+                        : 'bg-sky-500/10 text-sky-700 dark:text-sky-300 border-sky-500/20'
                     }`}
                   >
-                    <div className="space-y-2">
-                      {paper.sourceCategory && !/^\d{4}\s*年交換題$/.test(paper.sourceCategory) && (
-                        <div className="flex items-center justify-between">
-                          <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">
-                            {paper.sourceCategory}
-                          </span>
-                        </div>
-                      )}
+                    {section.isKeyPoint ? <Sparkles className="w-3.5 h-3.5 text-purple-500" /> : <Calendar className="w-3.5 h-3.5" />}
+                    <span>{section.title}</span>
+                  </span>
+                  <span className="text-xs text-slate-400 font-mono">{section.papers.length} 份試卷</span>
+                </div>
 
-                      <h4 className={`text-sm font-bold leading-snug line-clamp-2 ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
-                        {paper.title}
-                      </h4>
-                    </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {section.papers.map((paper) => {
+                    const prog = paperProgressMap[paper.id] || { total: paper.questionCount, answered: 0, correct: 0 };
+                    const percent = prog.total > 0 ? Math.round((prog.answered / prog.total) * 100) : 0;
+                    const isCompleted = prog.answered === prog.total && prog.total > 0;
+                    const displayTitle = sanitizePaperTitle(paper.title);
 
-                    <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-slate-800">
-                      {/* Progress info */}
-                      <div className="flex items-center justify-between text-xs">
-                        <span className="text-slate-500">
-                          進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
-                        </span>
-                        <span className="font-mono text-slate-500">{percent}%</span>
-                      </div>
-
-                      <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
-                        <div
-                          className={`h-full transition-all duration-300 ${
-                            isCompleted
-                              ? 'bg-emerald-500'
-                              : 'bg-gradient-to-r from-sky-500 to-blue-600'
-                          }`}
-                          style={{ width: `${percent}%` }}
-                        />
-                      </div>
-
-                      {/* Start Exam Button */}
-                      <button
-                        onClick={() => onSelectPaper(paper.id)}
-                        className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
-                          isCompleted
-                            ? 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700'
-                            : 'bg-sky-600 hover:bg-sky-500 text-white shadow-md'
+                    return (
+                      <div
+                        key={paper.id}
+                        className={`glass-panel p-5 rounded-2xl border flex flex-col justify-between space-y-4 transition-all glass-card-hover ${
+                          isLight ? 'bg-white border-slate-200' : 'bg-slate-900/80 border-slate-800'
                         }`}
                       >
-                        <span>{isCompleted ? '重新練習試卷' : prog.answered > 0 ? '繼續答題' : '進入試卷答題'}</span>
-                        <ChevronRight className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+                        <div className="space-y-2">
+                          {paper.sourceCategory &&
+                            !/^\d{4}\s*年?(交換題|試卷與章節練習庫|重點轉化)$/.test(paper.sourceCategory) &&
+                            !section.isKeyPoint && (
+                              <div className="flex items-center justify-between">
+                                <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">
+                                  {paper.sourceCategory}
+                                </span>
+                              </div>
+                            )}
+
+                          <h4 className={`text-sm font-bold leading-snug line-clamp-2 ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
+                            {displayTitle}
+                          </h4>
+                        </div>
+
+                        <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-slate-800">
+                          {/* Progress info */}
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="text-slate-500">
+                              進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
+                            </span>
+                            <span className="font-mono text-slate-500">{percent}%</span>
+                          </div>
+
+                          <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
+                            <div
+                              className={`h-full transition-all duration-300 ${
+                                isCompleted
+                                  ? 'bg-emerald-500'
+                                  : section.isKeyPoint
+                                  ? 'bg-gradient-to-r from-[#d8b4fe] to-[#c084fc]'
+                                  : 'bg-gradient-to-r from-sky-500 to-blue-600'
+                              }`}
+                              style={{ width: `${percent}%` }}
+                            />
+                          </div>
+
+                          {/* Start Exam Button */}
+                          <button
+                            onClick={() => onSelectPaper(paper.id)}
+                            className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                              isCompleted
+                                ? 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700'
+                                : section.isKeyPoint
+                                ? 'bg-[#d8b4fe] hover:bg-[#c084fc] text-purple-950 font-extrabold shadow-sm border border-purple-300/40'
+                                : 'bg-sky-600 hover:bg-sky-500 text-white shadow-md'
+                            }`}
+                          >
+                            <span>{isCompleted ? '重新練習試卷' : prog.answered > 0 ? '繼續答題' : '進入試卷答題'}</span>
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
         ))}
       </div>

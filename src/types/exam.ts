@@ -65,6 +65,7 @@ export interface ExamQuestion {
   options: QuestionOption[];
   sourceAnswerStatus: 'provided' | 'absent' | 'ambiguous' | 'synthetic_tonks';
   sourceProvidedAnswer: OptionId | null;
+  sourceExplanation?: string | null;
   codexExplanation?: CodexExplanation;
   nlmResponses: NlmResponseItem[];
   reconciliationStatus: DisputeStatus;

@@ -158,6 +158,33 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
         )}
       </div>
 
+      {/* 1.4. Gemini / Source Dedicated Official Rationale Section */}
+      {question.sourceExplanation && question.sourceExplanation.trim().length > 0 && (
+        <div
+          className={`p-5 md:p-6 rounded-2xl border space-y-4 ${
+            isLight ? 'bg-sky-50/50 border-sky-200/80 shadow-xs' : 'bg-slate-950 border-sky-900/50'
+          }`}
+        >
+          <div className="flex items-center justify-between pb-3 border-b border-sky-200/60 dark:border-sky-900/60">
+            <h4 className="text-sm font-bold flex items-center gap-2 text-sky-700 dark:text-sky-300">
+              <Sparkles className="w-4 h-4 text-sky-500" />
+              <span>
+                {isSynthetic ? '✨ Gemini 專責正式解析' : '📖 原始考題解析／出處備註'}
+              </span>
+            </h4>
+            <span className="px-2.5 py-1 rounded-lg bg-sky-500/10 text-sky-700 dark:text-sky-300 font-mono text-xs font-semibold border border-sky-500/20">
+              {isSynthetic ? 'Gemini Official Rationale' : 'Source Explanation'}
+            </span>
+          </div>
+
+          <div className={`p-4 rounded-xl text-sm leading-relaxed border ${
+            isLight ? 'bg-white border-sky-100 text-slate-800' : 'bg-slate-900 border-sky-950 text-slate-200'
+          }`}>
+            {renderFormattedMarkdown(question.sourceExplanation, isLight)}
+          </div>
+        </div>
+      )}
+
       {/* 1.5. Codex Dedicated Official Rationale Section */}
       {question.codexExplanation && (
         <div

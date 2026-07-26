@@ -168,4 +168,32 @@ describe('ExplanationPanel Component', () => {
 
     spy.mockRestore();
   });
+
+  it('should render Gemini official rationale for synthetic_tonks question with sourceExplanation', () => {
+    const syntheticTonksQuestion: ExamQuestion = {
+      ...mockQuestion,
+      sourceAnswerStatus: 'synthetic_tonks',
+      sourceExplanation: 'Gemini 專責極度詳細病理機轉解析內容',
+    };
+
+    render(<ExplanationPanel {...defaultProps} question={syntheticTonksQuestion} />);
+
+    expect(screen.getByText('✨ Gemini 專責正式解析')).toBeInTheDocument();
+    expect(screen.getByText('Gemini Official Rationale')).toBeInTheDocument();
+    expect(screen.getByText('Gemini 專責極度詳細病理機轉解析內容')).toBeInTheDocument();
+  });
+
+  it('should render source explanation note for traditional paper with sourceExplanation', () => {
+    const sourceExpQuestion: ExamQuestion = {
+      ...mockQuestion,
+      sourceAnswerStatus: 'provided',
+      sourceExplanation: 'The Kidney Brenner 11th Chap 64 page 2133',
+    };
+
+    render(<ExplanationPanel {...defaultProps} question={sourceExpQuestion} />);
+
+    expect(screen.getByText('📖 原始考題解析／出處備註')).toBeInTheDocument();
+    expect(screen.getByText('Source Explanation')).toBeInTheDocument();
+    expect(screen.getByText('The Kidney Brenner 11th Chap 64 page 2133')).toBeInTheDocument();
+  });
 });

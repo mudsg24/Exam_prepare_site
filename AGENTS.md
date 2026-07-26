@@ -44,6 +44,7 @@
 >      - **零人造標題與零單字竄改 (Zero Synthetic Header & Zero Word Drift)**: 驗證題幹無任何 `**History...**` 人造分類標題，無非自然斷句。
 >      - **HTML 語意乾淨化 (Clean HTML)**: 驗證 `<em>`, `<strong>` 標籤已完整轉換為 Markdown 語法或淨化。
 >      - **NLM 解答精準度 (NLM Option Precision)**: 驗證 `selectedOption` 與 NLM 內文 `Answer Determination` 標明之選項完全一致，無專有名詞誤判（如把 DDAVP 誤判為 D），且**複數選項（如 B, D）與無答案（NONE）無截斷或遺漏**。
+>      - **NLM 雙重對答完整度 (NLM Dual Response Integrity)**: 驗證每道題目是否皆具備精確 2 筆獨立 NotebookLM 對答紀錄 (`nlmResponses.length === 2`)，且每筆回應長度 `len(rawResponse) >= 200` 且 `databaseSufficiency === "SUFFICIENT"`。少於 2 筆或存在短回答/INSUFFICIENT 者一律標註為 QC 未通過並強制重發提問。
 >      - **解答精準對映 (Ground Truth Accuracy)**: 驗證原始答案與對照表已精準擷取。
 >    - 只有通過 QC Subagent 標註為 `QC_PASSED` 的題目，方可獲准寫入網站資料庫。
 

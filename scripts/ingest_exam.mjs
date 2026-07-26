@@ -248,6 +248,13 @@ export function buildDualNlmPayload(questions) {
 
 // Perform Reconciliation
 export function reconcileResponses(sourceAnswer, nlmList) {
+  if (!nlmList || nlmList.length < 2) {
+    return {
+      status: 'INSUFFICIENT_EVIDENCE',
+      notes: `NotebookLM 提問次數不足（僅 ${nlmList ? nlmList.length : 0} 次，規範需要 2 次獨立提問）。`,
+    };
+  }
+
   const nlmAnswers = nlmList.map((r) => r.selectedOption).filter(Boolean);
 
   if (nlmAnswers.length === 0) {

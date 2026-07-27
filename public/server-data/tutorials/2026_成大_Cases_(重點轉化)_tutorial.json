@@ -1,0 +1,420 @@
+{
+  "id": "2026_成大_Cases_(重點轉化)_tutorial",
+  "paperId": "2026_成大_Cases_(重點轉化)",
+  "title": "2026 成大腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T23:25:00.000Z",
+  "modules": [
+    {
+      "moduleId": "peritoneal_dialysis_complications_and_translocation",
+      "moduleTitle": "1. Peritoneal Dialysis Complications & Membrane/Translocation Pathophysiology",
+      "studyGuide": "本模組深入傳授 Peritoneal Dialysis (PD) 的三大關鍵併發症與腹膜病理水流力學。重點剖析 Pleuroperitoneal Communication (PPC) 與右側 Hydrothorax 生理機轉、Encapsulating Peritoneal Sclerosis (EPS) 之 Bowel Cocooning 與 GI Bacterial Translocation 引發之 Septic Shock、以及早期腹膜透析引發之 Eosinophilic Peritonitis (EP) 與 PVC / Catheter Hypersensitivity 應答與處置邏輯。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_64_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_64_1.png",
+          "caption": "Brenner 11e Fig. 64.1: Anatomical Designs and Intra-abdominal Positioning of Peritoneal Dialysis Catheters.",
+          "sourceBook": "Brenner 11e Ch 64"
+        },
+        {
+          "id": "brenner_fig_64_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+          "caption": "Brenner 11e Fig. 64.2: Microvascular Peritoneal Transport Architecture and Three-Pore Model Physiology.",
+          "sourceBook": "Brenner 11e Ch 64"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Pleuroperitoneal Communication (PPC): Hydrothorax Pathophysiology & Dialysate Fluid Dynamics",
+          "diagram": {
+            "id": "ncku_pd_comp_ai_1",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+            "caption": "Figure 1.1: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_64_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_64_1.png",
+              "caption": "Brenner 11e Fig. 64.1: Anatomical Designs and Intra-abdominal Positioning of Peritoneal Dialysis Catheters.",
+              "sourceBook": "Brenner 11e Ch 64"
+            },
+            {
+              "id": "ncku_pd_comp_ai_1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+              "caption": "Figure 1.1: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Pleuroperitoneal Communication (PPC) 是 Peritoneal Dialysis (PD) 患者引發突發性胸悶與 Ultrafiltration Failure 的重要結構性併發症：\n1. **Pathophysiology and Diaphragmatic Defects**: PPC 主要發生於右側，主因是右側橫膈膜存在 Congenital or Acquired Diaphragmatic Defects，例如橫膈腱劃薄弱處或淋巴管陷窩擴張。當腹腔注入 2 L 腹膜透析液時，Intra-abdominal Pressure 上昇，驅動透析液穿過橫膈缺損進入負壓之 Pleural Space，形成巨量右側 Hydrothorax。\n2. **Diagnostic Criteria & Pleural Fluid Profile**: 診斷依賴 Thoracentesis。胸水特徵為明顯 Transudate，且 **Pleural Fluid Glucose > Serum Glucose** (通常梯度差 > 100 mg/dL，甚至 > 400 mg/dL)，而 Pleural LDH 極低。確診金標準為 Radionuclide Peritoneal Scintigraphy (Technetium-99m DTPA)，灌注後同位素快速由腹腔追蹤掃描積聚至右胸腔。\n3. **Therapeutic Strategy & Diaphragmatic Closure**: 治療策略分為保守療法與侵入性治療。首要步驟為暫停腹膜透析，轉為 Hemodialysis (HD) 2-4 週以降低腹內壓，促進橫膈薄膜自行癒合；若復發或修復失敗，可採用 Video-Assisted Thoracoscopic Surgery (VATS) 進行橫膈缺損縫合與 Talk Pleurodesis。\n\n| Peritoneal Complication | Anatomic Site & Risk Factors | Key Fluid Profile / Diagnostic Marker | Pathophysiological Cascade | Primary Management Strategy |\n| :--- | :--- | :--- | :--- | :--- |\n| **Pleuroperitoneal Communication (PPC)** | Predominantly Right Diaphragm (85%) | **Pleural-to-Serum Glucose Gradient > 100 mg/dL**, 99mTc Scintigraphy positive | Intra-abdominal Pressure Surge ➔ Transdiaphragmatic Dialysate Leakage ➔ Massive Hydrothorax | Temporary Switch to HD (2-4 wks) ➔ VATS Diaphragmatic Repair & Pleurodesis |\n| **Encapsulating Peritoneal Sclerosis (EPS)** | Visceral & Parietal Peritoneum | CT Peritoneal Calcification & Bowel Loop Matting, Bloody Ascites | Prolonged PD Duration & Bioincompatible Solution ➔ TGF-β1 Fibrogenesis ➔ Bowel Cocooning | PD Cessation ➔ Tamoxifen + Corticosteroids ➔ Surgical Enterolysis |\n| **Eosinophilic Peritonitis (EP)** | Peritoneal Dialysate Effluent | **Dialysate Eosinophils > 10% (or > 100/μL)**, Negative Cultures | Plasticizer / Air Hypersensitivity ➔ Localized Eosinophilic Infiltration ➔ Fibrin Plug | Self-Limiting / Oral Antihistamines, Switch to Biocompatible PVC-free Bags |\n\n### Pathophysiological Decision Trees\n- **PPC Hydrothorax Cascade**: Intra-abdominal Dialysate Instillation ➔ Elevated Intra-abdominal Pressure ➔ Transdiaphragmatic Gradient ➔ Fluid Migration via Diaphragmatic Defect ➔ Acute Ultrafiltration Loss & Right Hydrothorax.\n\n### Conceptual Trap Analysis\n- **PPC Pleural Fluid Glucose Trap**: 診斷 PPC 時切勿將高血糖胸水誤判為漏出性心衰竭胸水；心衰竭胸水之葡萄糖與血糖平齊，唯有 PPC 能呈現 Pleural Fluid Glucose 遠高於 Serum Glucose 的特徵。"
+        },
+        {
+          "heading": "Encapsulating Peritoneal Sclerosis (EPS): Bowel Cocooning & Bacterial Translocation Shock",
+          "diagram": {
+            "id": "ncku_pd_comp_ai_2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+            "caption": "Figure 1.2: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_64_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+              "caption": "Brenner 11e Fig. 64.2: Microvascular Peritoneal Transport Architecture and Three-Pore Model Physiology.",
+              "sourceBook": "Brenner 11e Ch 64"
+            },
+            {
+              "id": "ncku_pd_comp_ai_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+              "caption": "Figure 1.2: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Encapsulating Peritoneal Sclerosis (EPS) 是長期腹膜透析最嚴重且具致死性的晚期併發症：\n1. **Pathogenesis and Two-Hit Hypothesis**: EPS 由兩階段機轉驅動：Hit 1 是長期暴露於高葡萄糖 Bioincompatible Dialysate、Glucose Degradation Products (GDPs) 與 Advanced Glycation End-products (AGEs)，引發 Mesothelial Cells 發生 Epithelial-to-Mesenchymal Transition (EMT)，產生大量 TGF-β1 與 VEGF；Hit 2 則是 Recurrent Peritonitis 或透析終止後血管增生與纖維化爆發。\n2. **Bowel Cocooning & GI Bacterial Translocation**: 緻密的 Fibrocollagenous Membrane 包裹腸管，引發 Recurrent Adhesive Bowel Obstruction、腸道缺血與黏膜屏障破損。腸道黏膜失能後，腸道內 Gram-negative Bacilli 與內毒素發生 **GI Bacterial Translocation**，細菌穿過缺血腸壁進入血流與腹水，誘發難治性 Bloody Ascites 與嚴重 Septic Shock。\n3. **Therapeutic Regimen & Surgical Enterolysis**: 診斷依賴腹部 CT 呈現之 Peritoneal Calcification 與 Bowel Matting。藥物治療首選 Tamoxifen 搭配 Corticosteroids 抑制 TGF-β1 纖維化路徑；若腸阻塞難以緩解，須由經驗豐富之團隊執行 Laparoscopic Peritoneal Enterolysis。\n\n| Disease Entity | Key Histopathological Signature | Dominant Cytokine Pathway | Clinical Presentation Spectrum | Pharmacological Target |\n| :--- | :--- | :--- | :--- | :--- |\n| **Encapsulating Peritoneal Sclerosis (EPS)** | Thickened fibrocollagenous cocooning membrane, mesothelial loss | **TGF-β1 & VEGF-driven EMT** | Intestinal obstruction, bloody ascites, refractory septic shock | Tamoxifen + Prednisolone, Parenteral Nutrition |\n| **Bacterial Translocation Septic Shock** | Ischemic bowel mucosal erosion, bacterial permeation | Translocation of enteric Gram-negative bacilli | Sudden CRP surge, refractory hypotension, culture-negative blood/ascites | Empirical Broad-Spectrum Antibiotics (Tazocin), Vasopressors |\n\n### Pathophysiological Decision Trees\n- **EPS Bacterial Translocation Cascade**: Prolonged PD & GDP Exposure ➔ Peritoneal Mesothelial EMT ➔ Bowel Cocooning Sclerosis ➔ Chronic Intestinal Obstruction & Mucosal Ischemia ➔ GI Bacterial Translocation ➔ Septic Shock.\n\n### Conceptual Trap Analysis\n- **EPS Translocation Ascites Culture Trap**: EPS 患者併發腸道轉位敗血性休克時，腹水或血液培養可能呈現暫時陰性或多菌性；切勿因文化陰性而延誤廣效抗生素與免疫調節治療。"
+        },
+        {
+          "heading": "Peritoneal Dialysis-Associated Eosinophilic Peritonitis (EP): Hypersensitivity & Clinical Distinctions",
+          "diagram": {
+            "id": "ncku_pd_comp_ai_3",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+            "caption": "Figure 1.3: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_64_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_64_1.png",
+              "caption": "Brenner 11e Fig. 64.1: Anatomical Designs and Intra-abdominal Positioning of Peritoneal Dialysis Catheters.",
+              "sourceBook": "Brenner 11e Ch 64"
+            },
+            {
+              "id": "ncku_pd_comp_ai_3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_pd_complications.jpg",
+              "caption": "Figure 1.3: Pathophysiological Cascades of Peritoneal Dialysis Complications: Pleuroperitoneal Communication (PPC), Encapsulating Peritoneal Sclerosis (EPS), and Eosinophilic Peritonitis (EP).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Eosinophilic Peritonitis (EP) 是腹膜透析早期一種良性、非感染性但易與細菌性腹膜炎混淆的臨床表現：\n1. **Diagnostic Criteria**: EP 的定義為 PD Effluent 中 **Eosinophils 絕對計數 > 100/μL，或 Eosinophils 占總白血球比例 > 10%** (臨床常見 40-50%)。\n2. **Etiology & Hypersensitivity Triggers**: EP 通常發生於腹膜透析置管或開始透析後的前 3 個月內。其機轉為局部或全身性過敏反應，誘發因素包括：(a) 置管手術中引入之 Intraperitoneal Air；(b) 對透析導管材質、PVC 軟袋或 Plasticizers 的過敏應答；(c) 腹腔內給藥。\n3. **Clinical Presentation & Differential Diagnosis**: 患者臨床上多表現為無痛性或輕微症狀之 **Turbid or Cloudy Dialysate Effluent**，缺乏發燒、劇烈腹痛或腹膜刺激征。 Gram Stain 與細菌培養均為陰性。極需與發燒、腹痛劇烈之 Bacterial Peritonitis 鑑別，避免不必要的長期經驗性抗生素給藥。\n4. **Management**: 大部分輕度 EP 具 Self-limiting 特性，數週內自行緩解。症狀明顯或透析導管出現纖維塊阻塞者，可給予低劑量口服 Corticosteroids (如 Prednisone 20 mg/day) 或抗組織胺；重症難治者可更換為不含 PVC 之雙腔生物相容性透析袋。\n\n| Peritonitis Subtype | Dialysate Cell Count & Differential | Predominant Clinical Symptoms | Microbial Culture Status | Therapeutic Strategy |\n| :--- | :--- | :--- | :--- | :--- |\n| **Eosinophilic Peritonitis (EP)** | WBC elevated, **Eosinophils > 10% (often 40-50%)** | Asymptomatic cloudy effluent, minimal/no pain | Strictly Negative | Observation / Low-dose Steroids, Biocompatible Bags |\n| **Acute Bacterial Peritonitis** | WBC > 100/μL, **Neutrophils > 50%** | Severe abdominal pain, rebound tenderness, fever | Positive (Gram-positive/negative) | Intraperitoneal Broad-Spectrum Antibiotics |\n| **Fungal Peritonitis** | WBC elevated, Fungal elements on KOH/Gram stain | Progressive pain, refractory turbidity | Positive (Candida spp.) | Immediate Catheter Removal + Antifungal Agents |\n\n### Pathophysiological Decision Trees\n- **EP Hypersensitivity Cascade**: PD Catheter Placement / Air Exposure ➔ PVC Plasticizer Hypersensitivity ➔ Local Peritoneal Eosinophil Influx ➔ Turbid Dialysate Effluent (Eos > 10%) ➔ Self-Limiting Resolution.\n\n### Conceptual Trap Analysis\n- **Cloudy Dialysate Differential Trap**: 看到混濁透析液切勿直接斷定為細菌性腹膜炎；若患者無腹痛且白血球分類以 Eosinophil 為主，即為良性 Eosinophilic Peritonitis，無須使用廣效抗生素。"
+        }
+      ]
+    },
+    {
+      "moduleId": "glomerulopathies_viral_oncological_iatrogenic_lesions",
+      "moduleTitle": "2. Glomerulopathies & Viral/Oncological/Iatrogenic Podocyte & Endothelial Lesions",
+      "studyGuide": "本模組深度探索腎小球病理學、病毒關聯性足細胞病變與醫源性血液學抗體併發症。重點解析 Idiopathic Type I Membranoproliferative Glomerulonephritis (MPGN Type I) 之 Subendothelial Immune Complex Deposition 與 Double-Contour Tram-Track；成人型 Minimal Change Disease (MCD) 伴隨 AKI/AIN 與 Hepatitis C Virus (HCV) 之直接足細胞損傷與 DAA 藥物 (Epclusa) 處置；以及 Erythropoiesis-Stimulating Agent (ESA) 長期使用後誘發之 Erythropoietin-Induced Pure Red Cell Aplasia (EPO-Induced PRCA) 之 Neutralizing Anti-EPO Antibodies 病理、骨髓紅血球前驅細胞消失與處置決策。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_31_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+          "caption": "Brenner 11e Fig. 31.12: Light Micrograph of Glomerular Segment from a Patient with Type I Membranoproliferative Glomerulonephritis Showing Lobular Accentuation and Double Contour Baseline Membrane.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_31_13",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_13.png",
+          "caption": "Brenner 11e Fig. 31.13: Diagram Depicting Ultrastructural Features of Type I Membranoproliferative Glomerulonephritis with Subendothelial Deposits and Mesangial Interposition.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_55_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_55_1.png",
+          "caption": "Brenner 11e Fig. 55.1: Renal Erythropoietin Production Pathways and Regulation of Erythropoiesis in Chronic Kidney Disease.",
+          "sourceBook": "Brenner 11e Ch 55"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Idiopathic Type I MPGN: Subendothelial Immune Complex Deposition & Double-Contour Mechanics",
+          "diagram": {
+            "id": "ncku_glom_ai_1",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+            "caption": "Figure 2.1: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_12",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+              "caption": "Brenner 11e Fig. 31.12: Light Micrograph of Glomerular Segment from a Patient with Type I Membranoproliferative Glomerulonephritis Showing Lobular Accentuation and Double Contour Baseline Membrane.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "ncku_glom_ai_1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+              "caption": "Figure 2.1: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Idiopathic Type I Membranoproliferative Glomerulonephritis (MPGN Type I) 是古典免疫複合物介導之腎小球腎炎：\n1. **Light & Immunofluorescence Microscopy**: 光學顯微鏡下呈 Lobular Accentuation, Mesangial Hypercellularity 與 Endocapillary Proliferation。Immunofluorescence 呈現特徵性 Capillary Loop 與 Mesangial 顆粒狀沉積，包含 IgG, C1q, C3, IgM 以及 Light Chains (Kappa/Lambda)，證實由 Classical Complement Pathway 激活介導。\n2. **Electron Microscopy & Double Contour (Tram-Track) GBM**: Electron Microscopy 為診斷核心，示 **Subendothelial Electron-dense Deposits**，伴隨 Mesangial Interposition。這種系膜插入驅動內皮細胞合成新基底膜，形成光鏡 PAM 染色下經典的 **GBM Double Contour (Tram-Track Appearance)**。\n3. **Clinical Presentation & Complement Serology**: 臨床表現兼具 Nephrotic 與 Nephritic Syndrome (蛋白尿、血尿、高血壓、腎功能衰退)。血清補體 **C3 與 C1q/C4 顯著降低**，反應 Classical Complement System 之大量消耗。\n\n| Glomerular Lesion | Primary EM Deposit Site | Immunofluorescence (IF) Pattern | Complement Profile | Classic Histological Hallmark |\n| :--- | :--- | :--- | :--- | :--- |\n| **MPGN Type I (Idiopathic)** | **Subendothelial & Mesangial** | Full-house / IgG + C1q + C3 granular | **Low C3, Low C4/C1q** | **GBM Double Contour (Tram-Track)**, Lobular accentuation |\n| **C3 Glomerulopathy (C3G)** | Intramembranous / Mesangial | **C3 Dominant (Ig negative)** | Low C3, Normal C4 | Dense deposits (DDD) or C3GN pattern |\n| **Minimal Change Disease (MCD)** | **No immune deposits** | Negative / Trace IgM | Normal C3 & C4 | Diffuse Podocyte Foot Process Effacement |\n\n### Pathophysiological Decision Trees\n- **MPGN Type I Cascade**: Classical Complement Activation ➔ Subendothelial Immune Complex Deposition ➔ Endothelial Injury & Mesangial Interposition ➔ Secondary Basement Membrane Synthesis ➔ GBM Double Contour (Tram-Track).\n\n### Conceptual Trap Analysis\n- **MPGN vs C3G Complement Trap**: MPGN Type I 與 C3G 在光鏡下均可呈現 MPGN pattern，但 MPGN Type I 包含強烈免疫球蛋白與 C1q 沉積且 C4 下降；而 C3G 則為單純 C3 沉積且 C4 正常。"
+        },
+        {
+          "heading": "Adult-Onset MCD Concomitant AKI/AIN Driven by HCV Infection & DAA Therapy",
+          "diagram": {
+            "id": "ncku_glom_ai_2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+            "caption": "Figure 2.2: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_2.png",
+              "caption": "Brenner 11e Fig. 31.2: Ultrastructural Comparison of Normal Slit Diaphragms versus Diffuse Podocyte Foot Process Effacement.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "ncku_glom_ai_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+              "caption": "Figure 2.2: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "成人型 Minimal Change Disease (MCD) 具備獨特的臨床病理與次發性病因特徵：\n1. **Adult vs Pediatric MCD Differences**: 相較於兒童 MCD，成人 MCD 具備更高的併發症發生率：(a) 高達 18-33% 成人 MCD 患者在發病初期即併發 **KDIGO Stage 3 AKI** (次發於 Severe Intrarenal Edema, Interstitial Nephritis, 或 Tubular Collapse)；(b) 更高比例之高血壓與微觀血尿。\n2. **Secondary Etiologies & Viral Drivers**: 約 10-15% 成人 MCD 屬次發性，誘因包括 NSAIDs, Malignancies (Hodgkin Lymphoma), 以及 Viral Infections (如 HCV, HBV)。Hepatitis C Virus 可透過 T-cell dysregulation 或直接修飾 Podocyte CD81 / Toll-like Receptors 誘發急性 Foot Process Effacement。\n3. **Renal Biopsy Features**: 光鏡下腎小球結構完全正常，但常伴隨 Focal Acute Interstitial Nephritis (AIN) 與 Acute Tubular Injury (ATI)；EM 證實 > 80-90% 彌漫性足突融合。\n4. **Therapeutic Regimen**: 第一線治療為高劑量 Systemic Corticosteroids (Prednisolone 1 mg/kg/day)；若證實為 HCV 驅動，必須同時給予 Direct-Acting Antivirals (DAAs，如 Epclusa) 徹底消除 HCV RNA。\n\n| Clinical Parameter | Pediatric Minimal Change Disease | Adult-Onset Minimal Change Disease | Secondary HCV-Induced MCD |\n| :--- | :--- | :--- | :--- |\n| **Incidence of Concurrent AKI** | Rare (< 5%) | **High (18 - 33%)** | Very High (due to concomitant AIN/ATI) |\n| **Secondary Drivers** | Mostly Primary / Idiopathic | 10-15% Secondary (Drugs, Cancer) | Direct HCV Viral Trigger / T-cell surge |\n| **Histology (LM / EM)** | Normal LM, Diffuse EM Effacement | Normal Glomeruli LM, Focal AIN/ATI | Normal Glomeruli, AIN Infiltrates, EM Effacement |\n| **Primary Medical Therapy** | Steroid Sensitive (Prednisone) | Systemic Steroids (0.5 - 1.0 mg/kg) | **Steroids + DAA Therapy (Epclusa)** |\n\n### Pathophysiological Decision Trees\n- **HCV MCD AKI Cascade**: Chronic HCV Infection ➔ Systemic T-Cell Dysregulation & Circulating Permeability Factor ➔ Diffuse Podocyte Effacement ➔ Severe Nephrotic Syndrome ➔ Interstitial Edema & ATI ➔ Acute Kidney Injury.\n\n### Conceptual Trap Analysis\n- **Adult MCD Renal Failure Trap**: 成人 MCD 出現嚴重少尿與 Cr 竄升切勿盲目診斷為 Rapidly Progressive GN；成人 MCD 極易因腎間質水腫致局域 ATI 而引發重度 AKI，對類固醇與 DAA 處置反應良好。"
+        },
+        {
+          "heading": "Erythropoietin-Induced Pure Red Cell Aplasia (EPO PRCA): Neutralizing Antibodies & Bone Marrow Aplasia",
+          "diagram": {
+            "id": "ncku_glom_ai_3",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+            "caption": "Figure 2.3: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_55_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_55_1.png",
+              "caption": "Brenner 11e Fig. 55.1: Renal Erythropoietin Production Pathways and Regulation of Erythropoiesis in Chronic Kidney Disease.",
+              "sourceBook": "Brenner 11e Ch 55"
+            },
+            {
+              "id": "ncku_glom_ai_3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_glomerular_pathology.jpg",
+              "caption": "Figure 2.3: Structural Pathology of Glomerular Diseases: Subendothelial Deposits in MPGN Type I, Foot Process Effacement in MCD, and Erythroid Hypoplasia in EPO PRCA.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Erythropoietin-Induced Pure Red Cell Aplasia (EPO-Induced PRCA) 是使用 Erythropoiesis-Stimulating Agents (ESA) 進行 CKD 貧血治療時最嚴重的醫源性免疫併發症：\n1. **Immunological Mechanism**: 長期 Subcutaneous 注射外源性 ESA (如 Epoetin alfa, Darbepoetin) 可能因蛋白質構型改變、膠劑包材塑化劑過敏或冷凍鏈失控，誘發免疫系統產生 **Neutralizing Anti-EPO Antibodies**。這些 IgG 抗體不僅中和外源性 ESA，更跨界交叉中和內源性 Erythropoietin。\n2. **Clinical Diagnostic Criteria**: 臨床特徵為：(a) 接受 ESA 治療 > 8 週後，**Hb 以每週 0.5-1.0 g/dL 之速度暴跌**，且需要頻繁輸血維持；(b) **Reticulocyte Count 近乎為零 (Reticulocyte Index < 0.5%, Absolute Reticulocyte Count < 10,000/μL)**；(c) 白血球與血小板數量完全正常；(d) 鐵質儲存過量 (TSAT > 50%, High Ferritin)。\n3. **Bone Marrow Aspirate & Anti-EPO Assay**: 骨髓切片示 **Erythroid Precursors Severe Loss (< 5% Erythroblasts)**，而 Myeloid 與 Megakaryocyte 系列細胞完全正常發育。血清學 Anti-EPO Neutralizing Antibody Assay 陽性確診。\n4. **Management Absolute Ban**: **強制絕對禁止繼續給予任何形式之外源性 ESA** (包括更換其它品牌 ESA)，因為繼續給藥會強化抗體記憶應答。必須立即停用 ESA，給予免疫抑制治療 (Cyclosporine, Corticosteroid, or Tacrolimus) 以消除 Anti-EPO 抗體；貧血維持依賴 RBC 輸血或 HIF-PHI (HIF Prolyl Hydroxylase Inhibitors)。\n\n| Clinical Parameter | ESA-Hyporesponsiveness (Iron Def/Inflammation) | EPO-Induced Pure Red Cell Aplasia (PRCA) | Bone Marrow Suppression (Chemo/Toxin) |\n| :--- | :--- | :--- | :--- |\n| **Reticulocyte Count** | Mildly Reduced / Normal | **Near Zero (ARC < 10,000/μL)** | Markedly Reduced |\n| **White Blood Cell & Platelets**| Normal | **Normal** | Pancytopenia (Decreased WBC & Plt) |\n| **Iron Indices (TSAT / Ferritin)**| Low TSAT (< 20%) or High Ferritin | **Markedly High TSAT (> 80%) & Ferritin**| Variable |\n| **Bone Marrow Histology** | Erythroid Hyperplasia / Normal | **Selective Absence of Erythroblasts (< 5%)**| Global Hypoplasia |\n| **Therapeutic Management** | Increase ESA dose, IV Iron, treat infection | **STOP ALL ESAs immediately + Cyclosporine**| Stop toxic drugs, Growth factors |\n\n### Pathophysiological Decision Trees\n- **EPO PRCA Cascade**: Subcutaneous ESA Exposure ➔ Immune Sensitization ➔ Anti-EPO Neutralizing IgG Antibody Production ➔ Cross-Neutralization of Endogenous & Exogenous EPO ➔ Bone Marrow Erythroblast Apoptosis ➔ Reticulocytopenia & Severe Anemia.\n\n### Conceptual Trap Analysis\n- **ESA PRCA Management Trap**: 當確診 EPO-induced PRCA 時，絕對不可嘗試更換另一種 ESA (如由 Epoetin 改為 Darbepoetin)；抗 EPO 中和性抗體具有全同源性交叉反應，唯有徹底停用所有 ESA 並給予 Cyclosporine 才能緩解病情。"
+        }
+      ]
+    },
+    {
+      "moduleId": "tubular_electrolyte_tubulopathies_rta_alkalosis",
+      "moduleTitle": "3. Tubular & Electrolyte Disorders: Tubulopathies, RTA Subtypes & Alkalosis Dynamics",
+      "studyGuide": "本模組精講近端腎小球管病變、酸鹼失衡與碳酸去水酶抑制劑的特殊血液動力學。重點解析 Tenofovir Disoproxil Fumarate (TDF) 引發之 Fanconi Syndrome 與 Type 2 Proximal Renal Tubular Acidosis (Type 2 RTA) 之線粒體毒性與尿液電解質流失 (Glucosuria with Normal HbA1c, Hypophosphatemia, Uric Acid Wasting)；以及 Chloride-Unresponsive Metabolic Alkalosis (瀉藥濫用與小蘇打攝取) 於 CKD Stage 4 患者使用 Acetazolamide 後引發之血中與組織 transient PCO2 竄升之生理機轉。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_9_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_9_1.png",
+          "caption": "Brenner 11e Fig. 9.1: Cellular Mechanisms of Bicarbonate Reabsorption and Proton Secretion in Proximal Tubule Epithelium.",
+          "sourceBook": "Brenner 11e Ch 9"
+        },
+        {
+          "id": "brenner_fig_35_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_35_1.png",
+          "caption": "Brenner 11e Fig. 35.1: Histopathological Features of Acute Tubulointerstitial Nephritis and Proximal Tubular Injury.",
+          "sourceBook": "Brenner 11e Ch 35"
+        },
+        {
+          "id": "brenner_fig_16_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_1.png",
+          "caption": "Brenner 11e Fig. 16.1: Diagnostic Algorithm and Pathophysiological Spectrum of Metabolic Acidosis and Alkalosis.",
+          "sourceBook": "Brenner 11e Ch 16"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "TDF-Induced Fanconi Syndrome & Type 2 Proximal RTA: Mitochondrial Toxicity & Electrolyte Wasting",
+          "diagram": {
+            "id": "ncku_tub_ai_1",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_tubular_alkalosis.jpg",
+            "caption": "Figure 3.1: Pathophysiology of Proximal Tubulopathy (TDF Fanconi & Type 2 RTA) and Chloride-Unresponsive Metabolic Alkalosis with Acetazolamide PCO2 Dynamics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_9_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_9_1.png",
+              "caption": "Brenner 11e Fig. 9.1: Cellular Mechanisms of Bicarbonate Reabsorption and Proton Secretion in Proximal Tubule Epithelium.",
+              "sourceBook": "Brenner 11e Ch 9"
+            },
+            {
+              "id": "ncku_tub_ai_1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_tubular_alkalosis.jpg",
+              "caption": "Figure 3.1: Pathophysiology of Proximal Tubulopathy (TDF Fanconi & Type 2 RTA) and Chloride-Unresponsive Metabolic Alkalosis with Acetazolamide PCO2 Dynamics.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Tenofovir Disoproxil Fumarate (TDF) 是引發醫源性 Proximal Tubulopathy 的經典藥物：\n1. **Mitochondrial Toxicity Mechanism**: TDF 經由 Basolateral Organic Anion Transporters (OAT1/OAT3) 進入 Proximal Tubular Cells，並被 Apical Multidrug Resistance Protein 4 (MRP4) 排出。當 MRP4 阻滯或 TDF 蓄積時，細胞內 TDF 抑制 **Mitochondrial DNA Polymerase-gamma (pol-γ)**，導致線粒體 DNA 缺失與 ATP 產量銳減。\n2. **Fanconi Syndrome Laboratory Signature**: ATP 耗竭導致依賴 Na-K-ATPase 的多種近端管轉運體失能，引發全盤近端管再吸收障礙 (Generalized Proximal Tubular Dysfunction)：(a) **Glucosuria with Normal Serum Glucose / HbA1c** (SGLT2 失能)；(b) **Hyperphosphaturia & Hypophosphatemia** (NaPi-IIa/IIc 失能)；(c) **Hyperuricemia Wasting & Hypouricemia** (URAT1/GLUT9 失能)；(d) **Tubular Low-Molecular-Weight Proteinuria** (Megalin/Cubilin 受體失能，尿液 ACR/PCR 比值 < 0.2)；(e) Generalized Aminoaciduria。\n3. **Type 2 Proximal RTA Physiology**: Na-HCO3 cotransporter (NBCe1) 與 NHE3 失能使近端管重吸收 80% 重碳酸鹽的能力受損，引發 **Hyperchloremic Non-Anion Gap Metabolic Acidosis (NAGMA)**。當血清 HCO3 下降至低於新閾值 (約 12-16 mmol/L) 時，遠端管可完全再吸收剩餘 HCO3，使尿液 pH 可降至 < 5.5。\n\n| Tubulopathy Marker | Normal Physiological Threshold | Findings in TDF Fanconi Syndrome | Underlying Molecular Transporter Defect |\n| :--- | :--- | :--- | :--- |\n| **Urine Glucose** | Negative | **Marked Glucosuria (3+ to 4+) with Normal HbA1c** | SGLT2 (Sodium-Glucose Cotransporter 2) |\n| **Serum & Urine Phosphate** | Serum P 2.5-4.5 mg/dL | **Hypophosphatemia + High Fractional Excretion of P**| NaPi-IIa / NaPi-IIc Cotransporters |\n| **Serum & Urine Uric Acid** | Serum UA 3.5-7.2 mg/dL | **Hypouricemia + Elevated Fractional Excretion of UA**| URAT1 / GLUT9 Transport Complex |\n| **Proteinuria Subtype** | Albumin-predominant | **Tubular Proteinuria (Low ACR / PCR Ratio < 0.20)**| Megalin / Cubilin Receptor Endocytosis |\n| **Acid-Base Profile** | Normal pH / HCO3 | **Type 2 RTA: Hyperchloremic NAGMA, Urine pH < 5.5**| NBCe1 & NHE3 Bicarbonate Reabsorption |\n\n### Pathophysiological Decision Trees\n- **TDF Fanconi Cascade**: TDF Entry via OAT1/3 ➔ Intracellular Accumulation & Pol-γ Inhibition ➔ Mitochondrial Depletion & Low ATP ➔ Na-K-ATPase Failure ➔ SGLT2/NaPi/NBCe1 Inactivation ➔ Fanconi Syndrome & Type 2 RTA.\n\n### Conceptual Trap Analysis\n- **Type 2 RTA Urine pH Trap**: 切勿以為 Type 2 Proximal RTA 的尿液 pH 恆定 > 5.5；在全身性重度酸中毒下，當過濾之 HCO3 低於重吸收閾值時，遠端 intercalated cells 能充分酸化尿液，使尿液 pH 降至 < 5.5。"
+        },
+        {
+          "heading": "Chloride-Unresponsive Alkalosis, Laxative Abuse & Acetazolamide Tissue PCO2 Surge Dynamics",
+          "diagram": {
+            "id": "ncku_tub_ai_2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_tubular_alkalosis.jpg",
+            "caption": "Figure 3.2: Pathophysiology of Proximal Tubulopathy (TDF Fanconi & Type 2 RTA) and Chloride-Unresponsive Metabolic Alkalosis with Acetazolamide PCO2 Dynamics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_16_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_16_1.png",
+              "caption": "Brenner 11e Fig. 16.1: Diagnostic Algorithm and Pathophysiological Spectrum of Metabolic Acidosis and Alkalosis.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "ncku_tub_ai_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_tubular_alkalosis.jpg",
+              "caption": "Figure 3.2: Pathophysiology of Proximal Tubulopathy (TDF Fanconi & Type 2 RTA) and Chloride-Unresponsive Metabolic Alkalosis with Acetazolamide PCO2 Dynamics.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Chloride-Unresponsive Metabolic Alkalosis 的病理生理學與碳酸去水酶抑制劑 (CAI) 處置具有高度複雜性：\n1. **Saline-Responsive vs Saline-Unresponsive Classification**: 代謝性鹼中毒按 Urine Chloride (UCl) 分為 Saline-Responsive (UCl < 20-25 mmol/L，源自嘔吐、利尿劑、EABV 不足) 與 **Saline-Unresponsive / Resistant (UCl > 40 mmol/L)**。慢性 Laxative Abuse 導致下消化道流失海量 H+ 與 Cl-，若同時伴隨大量攝取外源性 NaHCO3，加上 CKD Stage 4 腎功能衰退導致重碳酸鹽排泄受限，即引發重度 Chloride-Unresponsive Metabolic Alkalosis, Hypokalemia 與 Hypochloremia。\n2. **Neurological Consequences of Severe Alkalemia**: 當血清 pH > 7.55-7.60 時，可誘發 Cerebral Vasoconstriction、腦血流量下降、氧氣血紅素解離曲線左移 (Reduced Tissue Oxygen Delivery)，臨床表現為精神混亂、Delirium 與雙下肢無力。\n3. **Acetazolamide & Tissue / Venous PCO2 Surge Physiology**: 當患者因 CKD Stage 4 體液過載而無法耐受大量 Normal Saline 灌注時，得使用 Acetazolamide 抑制近端管 Carbonic Anhydrase (CA) 以促使 HCO3 隨尿排泄。然而，Acetazolamide 同時會抑制 Erythrocyte & Pulmonary CA，使周邊組織產生的 H2CO3 無法快速轉化為 CO2 排出，導致 **Transient Venous / Tissue PCO2 Surge** (如 PCO2 上昇至 > 80 mmHg)。此為 CA 抑制之預期藥理現象，通常不伴隨臨床呼吸衰竭。\n\n| Metabolic Alkalosis Category | Urine Chloride (UCl) Level | Dominant Pathophysiological Mechanisms | Primary Etiologies / Triggers | First-Line Therapeutic Strategy |\n| :--- | :--- | :--- | :--- | :--- |\n| **Saline-Responsive Alkalosis** | **UCl < 25 mmol/L** | EABV Contraction, Chloride depletion | Vomiting, Gastric Suction, Diuretics | Volume expansion with 0.9% Normal Saline |\n| **Saline-Unresponsive Alkalosis**| **UCl > 40 mmol/L** | Mineralocorticoid Excess, Chronic Laxative Abuse + Base Intake | Laxative Abuse + Exogenous NaHCO3, Bartter/Gitelman, Primary Aldosteronism | Stop Laxatives/Bicarbonate, Acetazolamide in CKD |\n\n### Pathophysiological Decision Trees\n- **Acetazolamide PCO2 Surge Cascade**: Acetazolamide Administration ➔ Inhibition of Renal & Erythrocyte Carbonic Anhydrase (CA) ➔ Renal Bicarbonaturia + Blocked Tissue CO2 Hydration/Dehydration ➔ Transient Venous PCO2 Surge (PCO2 > 80 mmHg) ➔ Gradual Exhalation Equilibrium.\n\n### Conceptual Trap Analysis\n- **Acetazolamide PCO2 Surge Trap**: 在 CKD 鹼中毒患者使用 Acetazolamide 後，若追蹤靜脈血氣分析發現 PCO2 暴增至 80-86 mmHg 切勿恐慌以為發生通氣衰竭而盲目插管；此為紅血球 CA 抑制致 CO2 轉化延遲之暫時性現象，臨床觀察即可。"
+        }
+      ]
+    },
+    {
+      "moduleId": "endocrine_hypertension_and_severe_aki_metabolic_crises",
+      "moduleTitle": "4. Endocrine Hypertension & Severe AKI/Metabolic Crises",
+      "studyGuide": "本模組整合內分泌高血壓、重度急腎衰竭與肺腎症候群之鑑別診斷。重點剖析 Primary Aldosteronism (PA) 與右側 Aldosterone-Producing Adenoma (APA) 之 RAAS 軸自主性分泌與 AVS Lateralization 評估；Uremic Pneumonitis (UP) 與 Diffuse Alveolar Hemorrhage (DAH) 肺腎症候群之水腫膜通透性暴增與血液透析急救；以及 combined DKA / HHS 重度高滲透壓危機引發 Severe Rhabdomyolysis 與 Myoglobinuric Acute Tubular Necrosis (ATN) 之分子損害與水合透析處置。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_12_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_12_1.png",
+          "caption": "Brenner 11e Fig. 12.1: Mineralocorticoid Receptor Activation and Downstream Epithelial Sodium Channel (ENaC) Regulation.",
+          "sourceBook": "Brenner 11e Ch 12"
+        },
+        {
+          "id": "brenner_fig_31_36",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_36.png",
+          "caption": "Brenner 11e Fig. 31.36: Immunofluorescence Micrograph of Glomerular Basement Membrane Staining in Pulmonary-Renal Autoimmune / Anti-GBM Disease.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_16_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_2.png",
+          "caption": "Brenner 11e Fig. 16.2: Clinical Evaluation of High Anion Gap Metabolic Acidosis and Electrolyte Disturbances.",
+          "sourceBook": "Brenner 11e Ch 16"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uremic Pneumonitis (UP) vs Diffuse Alveolar Hemorrhage (DAH): Permeability Surge & Hemodialysis",
+          "diagram": {
+            "id": "ncku_end_ai_1",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+            "caption": "Figure 4.1: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_36",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_36.png",
+              "caption": "Brenner 11e Fig. 31.36: Immunofluorescence Micrograph of Glomerular Basement Membrane Staining in Pulmonary-Renal Autoimmune / Anti-GBM Disease.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "ncku_end_ai_1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+              "caption": "Figure 4.1: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Uremic Pneumonitis (UP) 是極易被誤診為自體免疫 Pulmonary-Renal Syndrome (PRS) 的重度尿毒症肺部併發症：\n1. **Pathophysiology of Alveolar Permeability Surge**: UP 發生於未充分透析之 CKD Stage 5 / ESRD 患者。其核心機轉為高濃度 Uremic Toxins (如 Methylguanidine, Guanidinosuccinic Acid) 損害 Alveolar Capillary Endothelium，致使 **Alveolar Membrane Permeability 劇烈上升 (Non-cardiogenic Pulmonary Edema)**，水份與大分子蛋白質漏出至肺泡腔。\n2. **Differential Diagnosis: UP vs DAH**: UP 臨床上可表現為突發性呼吸困難、Hemoptysis 與 CXR 雙側 Bat-wing Infiltrates，完全模擬 DAH (如 Goodpasture Syndrome, ANCA Vasculitis)。核心鑑別依賴：(a) **BAL Serial Aliquots**: DAH 於支氣管鏡 BAL 序貫洗液中呈現 Progressively Bloodier Return，而 UP 的 BAL 呈現微量血絲或僅為蛋白質水腫液；(b) **Serology**: UP 的 Autoantibodies (ANA, anti-dsDNA, ANCA, anti-GBM) 均為陰性；(c) **Response to Dialysis**: UP 在接受緊急 Hemodialysis (HD) 超濾與尿毒素清除後，肺部浸潤與呼吸困難通常於 24-48 小時內完全逆轉消除。\n\n| Pulmonary-Renal Clinical Entity | Primary Vascular / Epithelial Pathophysiology | BAL Findings | Autoantibody Serology | Therapeutic Response Pattern |\n| :--- | :--- | :--- | :--- | :--- |\n| **Uremic Pneumonitis (UP)** | Uremic toxin-induced alveolar capillary permeability surge | Non-progressive or clear edema fluid | **Strictly Negative (ANA/ANCA/anti-GBM (-))** | **Rapid & Complete Reversibility with Hemodialysis** |\n| **Diffuse Alveolar Hemorrhage (DAH)** | Capillaritis / Immune complex-mediated basement membrane lysis | **Progressively bloodier return on serial BAL** | **Positive (Anti-GBM, p-ANCA/c-ANCA, anti-dsDNA)** | High-dose Steroids + Cyclophosphamide + Plasma Exchange |\n\n### Pathophysiological Decision Trees\n- **Uremic Pneumonitis Cascade**: Severe Azotemia (CKD 5) ➔ Uremic Toxin Accumulation ➔ Alveolar Endothelial Tight Junction Breakdown ➔ Protein-rich Alveolar Exudate ➔ Bat-wing Pulmonary Edema ➔ Rapid Reversal with HD.\n\n### Conceptual Trap Analysis\n- **Pulmonary-Renal Syndrome Trap**: 看到 ESRD 患者併發 Hemoptysis 與雙側肺浸潤，切勿直接盲目給予 Pulse Steroids 與 Cyclophosphamide；若 Serology 為陰性，極可能為 Uremic Pneumonitis，及時 Hemodialysis 超濾才是救命關鍵。"
+        },
+        {
+          "heading": "Primary Aldosteronism (PA): Aldosterone-Producing Adenoma (APA) & Diagnostic AVS Cascade",
+          "diagram": {
+            "id": "ncku_end_ai_2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+            "caption": "Figure 4.2: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_12_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_12_1.png",
+              "caption": "Brenner 11e Fig. 12.1: Mineralocorticoid Receptor Activation and Downstream Epithelial Sodium Channel (ENaC) Regulation.",
+              "sourceBook": "Brenner 11e Ch 12"
+            },
+            {
+              "id": "ncku_end_ai_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+              "caption": "Figure 4.2: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Primary Aldosteronism (PA) 是次發性高血壓最常見且可治癒的內分泌病因：\n1. **Autonome Aldosterone Overproduction**: PA 主因是腎上腺皮質自主性過量分泌 Aldosterone，不受 Renin 或 Angiotensin II 調控。Aldosterone 作用於 Cortical Collecting Duct 之 Principal Cells 上的 Mineralocorticoid Receptors (MR)，上調 ENaC (Sodium) 與 ROMK (Potassium) 運送體，引發 **Na+ 重吸收增加 (高血壓、體液蓄積)** 與 **K+/H+ 隨尿流失 (Hypokalemia, Metabolic Alkalosis)**。\n2. **Diagnostic Screening & Confirmatory Testing**: 首選篩檢指標為 **Aldosterone-to-Renin Ratio (ARR)**。當 PAC (ng/dL) / PRA (ng/mL/h) **ARR > 20-30 (且 PAC > 15 ng/dL)** 時提示 PA。確診需執行 Confirmatory Suppression Tests (如 Saline Infusion Test 或 Captopril Test)，證明 PAC 無法被體液擴張所抑制。\n3. **Subtype Differentiation: APA vs IHA & AVS Gold Standard**: 鑑別單側 Aldosterone-Producing Adenoma (APA) 與雙側 Idiopathic Hyperaldosteronism (IHA) 至關重要。因為腹部 CT / MRI 常存在無功能偶發瘤 (Incidentalomas)，**Adrenal Vein Sampling (AVS)** 是確認 Lateralization 的金標準。當兩側腎上腺靜脈 Aldosterone/Cortisol 比值梯度差 > 4:1 (Cosyntropin 刺激下) 時，確診為單側 APA，首選單側 Laparoscopic Adrenalectomy 治癒高血壓。\n\n| Diagnostic Step | Target Parameter / Cut-off | Physiological Rationale | Clinical Decision Path |\n| :--- | :--- | :--- | :--- |\n| **Screening Test** | **ARR > 20-30 with PAC > 15 ng/dL** | Suppressed Renin (PRA < 1.0) + High PAC | Proceed to Confirmatory Test |\n| **Confirmatory Test**| **Post-Saline PAC > 10 ng/dL** | Lack of Aldosterone suppression by volume expansion | Confirms diagnosis of PA |\n| **Subtype Lateralization**| **AVS Lateralization Ratio > 4:1** | Distinguishes unilateral APA from bilateral IHA | **Unilateral Surgery (APA)** vs **MRA Therapy (IHA)** |\n\n### Pathophysiological Decision Trees\n- **PA Subtype & Management Cascade**: Elevated ARR (> 30) ➔ Positive Saline Suppression Test ➔ Adrenal CT Scan ➔ Adrenal Vein Sampling (AVS) Confirmation ➔ Unilateral Adrenalectomy (APA) or Spironolactone (IHA).\n\n### Conceptual Trap Analysis\n- **Adrenal CT vs AVS Lateralization Trap**: 影像學發現 1.5 cm 腎上腺腺瘤切勿直接出手切除；多達 30% 年長患者該腺瘤為無功能偶發瘤，真正超分泌源可能在對側，唯有 AVS 側化結果才是手術之絕對憑據。"
+        },
+        {
+          "heading": "Rhabdomyolysis & Myoglobinuric ATN Precipitated by Combined DKA/HHS Crises",
+          "diagram": {
+            "id": "ncku_end_ai_3",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+            "caption": "Figure 4.3: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_29_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_29_1.png",
+              "caption": "Brenner 11e Fig. 29.1: Pathophysiologic Cascades of Ischemic and Toxin-Induced Acute Tubular Necrosis.",
+              "sourceBook": "Brenner 11e Ch 29"
+            },
+            {
+              "id": "ncku_end_ai_3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ncku_endocrine_rhabdo.jpg",
+              "caption": "Figure 4.3: Pathophysiological Cascades of Endocrine Hypertension (PA APA), Pulmonary Complications (UP vs DAH), and Rhabdomyolysis ATN in DKA/HHS Crises.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Rhabdomyolysis 併發 Myoglobinuric Acute Tubular Necrosis (ATN) 是糖尿病重度代謝危機 (DKA / HHS) 的致死性併發症：\n1. **Precipitating Triggers in DKA / HHS**: 當患者同時發生 Diabetic Ketoacidosis (DKA) 與 Hyperglycemic Hyperosmolar State (HHS) 時，血糖極度暴增 (如 > 1400 mg/dL)、血漿滲透壓竄升 (Effective Osmolality > 380 mOsm/kg)、嚴重高鈉脫水與重度電解質紊亂 (Hypokalemia, Hypophosphatemia)，會直接破壞骨骼肌細胞膜之 Na-K-ATPase 與 Ca-ATPase，引發 Skeletal Muscle Necrosis。\n2. **Triple Pathophysiological Mechanisms of Myoglobinuric AKI**: 肌細胞溶解後釋放大量 Myoglobin 進入血流，經腎小球過濾後透過三大途徑摧毀腎小管：(a) **Intrarenal Vasoconstriction**: Myoglobin 捕捉血流中 Nitric Oxide (NO)，誘發強烈腎入球小動脈收縮；(b) **Direct Tubular Toxicity**: 在酸性尿液 (Urine pH < 5.6) 中，Myoglobin 解離出 Ferrihemate，驅動 Fenton Reaction 產生海量 ROS，造成近端管細胞壞死；(c) **Intratubular Cast Obstruction**: Myoglobin 在遠端小管與 Tamm-Horsfall Protein 沉澱結合，形成緻密 Pigment Casts 堵塞管腔。\n3. **Laboratory Diagnosis & Management**: 診斷依賴 **Serum CPK > 5,000 - 10,000 U/L** (本例常 > 50,000 U/L)、Dark Tea-colored Urine with Positive Dipstick for Blood but No RBCs on Microscopy。治療關鍵為早期大量 Isotonic Saline 擴容 (維持尿量 200-300 mL/h)；若併發無尿與嚴重 Hyperkalemia，應即刻啟動急診 Hemodialysis。\n\n| Pathophysiological Mechanism | Molecular Mediator / Trigger | Direct Renal Cellular Damage | Therapeutic Countermeasure |\n| :--- | :--- | :--- | :--- |\n| **Renal Vasoconstriction** | Myoglobin NO scavenging, Endothelin | Afferent vasoconstriction, Ischemic GFR drop | Aggressive Isotonic Saline Resuscitation (200-300 mL/h) |\n| **Direct Cytotoxicity** | Ferrihemate disassociation, Fenton ROS | Proximal tubular necrosis, Lipid peroxidation | Urinary Alkalinization (NaHCO3, maintain Urine pH > 6.5) |\n| **Intratubular Cast Blockade**| Myoglobin + Tamm-Horsfall Protein | Distal nephron pigment cast occlusion | High tubular flow rates, Hemodialysis if oliguric |\n\n### Pathophysiological Decision Trees\n- **DKA/HHS Rhabdomyolysis Cascade**: DKA/HHS Severe Hyperosmolality & Dehydration ➔ Skeletal Muscle Cell Membrane Collapse ➔ Myoglobin & CPK Release ➔ Renal Vasoconstriction + Ferrihemate ROS Toxicity + Cast Obstruction ➔ Myoglobinuric ATN.\n\n### Conceptual Trap Analysis\n- **Dipstick Blood vs Microscopic Hematuria Trap**: 尿液試紙呈現 3+ Blood 但顯微鏡鏡檢零 RBCs 切勿視為檢驗誤差；此為 Myoglobin (或 Hemoglobin) 催化試紙過氧化物反應的特徵，指示重度 Rhabdomyolysis 肌紅蛋白尿。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "2026_zhongrong_(重點轉化)_tutorial",
+  "paperId": "2026_zhongrong_(重點轉化)",
+  "title": "2026 中榮腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T23:40:30.000Z",
+  "modules": [
+    {
+      "moduleId": "osmotic_regulation_hyponatremia_management",
+      "moduleTitle": "1. Osmotic vs Nonosmotic Regulation, Osmoreceptor Dysfunction & Hyponatremia Management Strategies",
+      "studyGuide": "本模組深入傳授 Arginine Vasopressin (AVP) 的 Osmotic 與 Nonosmotic / Hemodynamic 雙重調節路徑與細胞下傳導機制。重點剖析 Osmoreceptor Dysfunction (包括 Reset Osmostat 與 Adipsic Diabetes Insipidus)、Hyponatremia 之鑑別診斷演算法、Fluid Restriction Furst Formula / Urine-to-Plasma Electrolyte Ratio > 1, Urine Osmolality > 500 mOsm/kg, 24小時尿量 < 1.5 L、以及避免 Osmotic Demyelination Syndrome (ODS) 的血鈉修正安全極限與應變處置。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_15_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_15_2.png",
+          "caption": "Brenner 11e Fig. 15.2: Main Anterior Hypothalamic Pathways Mediating Arginine Vasopressin (AVP) Secretion in Response to Osmotic and Nonosmotic Stimuli.",
+          "sourceBook": "Brenner 11e Ch 15"
+        },
+        {
+          "id": "brenner_fig_15_17",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_15_17.png",
+          "caption": "Brenner 11e Fig. 15.17: Diagnostic Algorithmic Approach to the Hyponatremic Patient based on Volume Status and Urinary Sodium.",
+          "sourceBook": "Brenner 11e Ch 15"
+        },
+        {
+          "id": "brenner_fig_15_20",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_15_20.png",
+          "caption": "Brenner 11e Fig. 15.20: Recommended Goals and Safety Limits for Correction of Hyponatremia based on the Risk of Osmotic Demyelination Syndrome (ODS).",
+          "sourceBook": "Brenner 11e Ch 15"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Osmotic vs Nonosmotic AVP Pathways & Osmoreceptor Dysfunction Subtypes",
+          "diagram": {
+            "id": "zhongrong_osmotic_hyponatremia_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/2026_zhongrong_osmotic_hyponatremia.jpg",
+            "caption": "Figure 1.1: Hypothalamic Osmoreceptor Pathways, Vasopressin (AVP) Secretion, SIADH Pathophysiology, Fluid Restriction Failure Predictors, and ODS Correction Limits.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_15_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_15_2.png",
+              "caption": "Brenner 11e Fig. 15.2: Main Anterior Hypothalamic Pathways Mediating Arginine Vasopressin (AVP) Secretion in Response to Osmotic and Nonosmotic Stimuli.",
+              "sourceBook": "Brenner 11e Ch 15"
+            },
+            {
+              "id": "zhongrong_osmotic_hyponatremia_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_osmotic_hyponatremia.jpg",
+              "caption": "Figure 1.1: Hypothalamic Osmoreceptor Pathways, Vasopressin (AVP) Secretion, SIADH Pathophysiology, Fluid Restriction Failure Predictors, and ODS Correction Limits.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "體液滲透壓與容量的精準恆定仰賴 Hypothalamic Magnocellular Neurons 與 Neurohypophysis 的協同運作：\n1. **Osmotic vs Nonosmotic Regulation of AVP**: 滲透壓調節主要由 Organum Vasculosum of the Lamina Terminalis (OVLT) 與 Subfornical Organ (SFO) 缺乏血腦障壁的區域感測 Plasma Osmolality。當 Plasma Osmolality > 280-285 mOsm/kg H2O 時，滲透壓受器細胞脫水萎縮，活化 TRPV4 陽離子通道引起去極化，促使 Supraoptic Nucleus (SON) 與 Paraventricular Nucleus (PVN) 分泌 AVP。相反地，Nonosmotic / Hemodynamic 調節則由 Carotid Sinus 與 Aortic Arch 的 Baroreceptors 透過 Vagus and Glossopharyngeal Nerves 經 Nucleus Tractus Solitarii (NTS) 傳遞訊號；當 Effective Arterial Blood Volume (EABV) 下降 > 10-15% 或 Mean Arterial Pressure 下降時，強烈解除 Tonic Baroreceptor Inhibition，導致暴增的 AVP 釋放（其分泌斜率遠高於滲透壓刺激）。\n2. **Osmoreceptor Dysfunction**: a Reset Osmostat：滲透壓感測閾值向下平移（如妊娠、四肢癱瘓、慢性消耗性疾病），體液滲透壓維持在較低設定點，但對水分負荷與脫水仍具備正常之稀釋與濃縮功能；(b) Adipsic Diabetes Insipidus (Selective Osmoreceptor Agensis)：前丘腦 OVLT/SFO 結構受損（如 Craniopharyngioma 術後或 Anterior Communicating Artery Aneurysm 破裂），導致口渴中樞與滲透壓誘發之 AVP 釋放完全失靈，但 Baroreceptor 介導之非滲透壓 AVP 分泌依然保存。\n\n| Regulatory Pathway | Primary Anatomical Sensor | Physiological Trigger Threshold | Efferent Signaling Cascade | Downstream Tubular Effector Target |\n| :--- | :--- | :--- | :--- | :--- |\n| **Osmotic Secretion** | OVLT / SFO (Central Osmoreceptors) | Posm > 280-285 mOsm/kg H2O | TRPV4 activation -> SON/PVN depolarization | Basolateral V2R in IMCD -> AQP2 phosphorylation |\n| **Nonosmotic (Hemodynamic)** | Carotid Sinus / Aortic Arch Baroreceptors | EABV loss > 10-15% or Severe MAP drop | NTS disinhibition -> VLM A1 cell activation | Massively elevated plasma AVP -> V2R water reabsorption & V1aR vasoconstriction |\n| **Reset Osmostat** | Hypothalamic Osmostat (Shifted Threshold) | Posm setpoint shifted down (< 275 mOsm/kg) | Normal slope of AVP release at lower Posm | Intact urinary dilution upon water load & concentration upon dehydration |\n| **Adipsic DI (Osmoreceptor Agensis)** | Damaged OVLT / SFO structural complex | Complete unresponsiveness to hyperosmolality | Absent osmotic AVP & loss of thirst response | Severe hypernatremia, requires protocolized fluid administration |\n\n| Diagnostic Subtype | Osmotic AVP Sensitivity | Nonosmotic Baroreceptor Sensitivity | Thirst Mechanism Status | Primary Clinical Management |\n| :--- | :--- | :--- | :--- | :--- |\n| **Normal Physiology** | High sensitivity (1-2% Posm change) | Exponential rise at > 10% volume loss | Intact at Posm > 290 mOsm/kg | Maintenance of Posm at 285-295 mOsm/kg |\n| **Reset Osmostat** | Normal sensitivity, Lowered setpoint | Intact | Intact at lower threshold | Treat underlying cause; Fluid restriction not required |\n| **Adipsic DI** | Absent (0% response) | Preserved during hypotension | Completely absent | Scheduled fluid intake based on daily weights & serum Na |\n| **SIADH (Type A-D)** | Unregulated / Autonomous / Leak | Intact or Disinhibited | Variable | Fluid restriction, V2R antagonists (Tolvaptan), Oral Urea |\n\n### Pathophysiological Decision Trees\n- **AVP Osmotic Activation Cascade**: Hyperosmolality (Posm > 285) ➔ OVLT/SFO Cell Shrinkage ➔ TRPV4 Cation Channel Opening ➔ SON/PVN Magnocellular Depolarization ➔ Neurohypophyseal AVP Release ➔ Basolateral V2R Binding in Principal Cells ➔ cAMP/PKA Cascade ➔ AQP2 Phosphorylation & Apical Exocytosis ➔ Concentrated Urine Excretion.\n\n### Conceptual Trap Analysis\n- **Adipsic DI vs Central DI Trap**: 切勿將 Adipsic DI 誤診為傳統 Central DI；Adipsic DI 患者在休克或嚴重的低血壓狀態下，其 Baroreceptor 驅動之非滲透壓 AVP 分泌仍可完全運作，但對於高滲透壓刺激與口渴感則完全喪失反應。"
+        },
+        {
+          "heading": "Hyponatremia Evaluation, Predictors of Fluid Restriction Failure & ODS Prevention",
+          "diagram": {
+            "id": "brenner_fig_15_17_sec",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/Brenner_Fig_15_17.png",
+            "caption": "Brenner 11e Fig. 15.17: Diagnostic Algorithmic Approach to the Hyponatremic Patient based on Volume Status and Urinary Sodium.",
+            "sourceBook": "Brenner 11e Ch 15"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_15_17_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_15_17.png",
+              "caption": "Brenner 11e Fig. 15.17: Diagnostic Algorithmic Approach to the Hyponatremic Patient based on Volume Status and Urinary Sodium.",
+              "sourceBook": "Brenner 11e Ch 15"
+            },
+            {
+              "id": "brenner_fig_15_20_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_15_20.png",
+              "caption": "Brenner 11e Fig. 15.20: Recommended Goals and Safety Limits for Correction of Hyponatremia based on the Risk of Osmotic Demyelination Syndrome (ODS).",
+              "sourceBook": "Brenner 11e Ch 15"
+            },
+            {
+              "id": "zhongrong_osmotic_hyponatremia_fig_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_osmotic_hyponatremia.jpg",
+              "caption": "Figure 1.2: Clinical Predictors of Fluid Restriction Failure in SIADH and Osmotic Demyelination Syndrome (ODS) Correction Safety Thresholds.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "低血鈉症的處置關鍵在於精準評估體液狀態與預測限水治療之反應：\n1. **Predictors of Fluid Restriction Failure in SIADH**: Fluid Restriction 為 Euvolemic Hyponatremia (SIADH) 的第一線處置，Fluid Restriction Failure Predictors：(a) Urine-to-Plasma Electrolyte Ratio (Furst Ratio = [UNa + UK] / SNa) > 1.0；(b) Urine Osmolality > 500 mOsm/kg H2O；(c) 24小時預計尿量水份扣除額 < 1.5 L/day；(d) < 120-125 mmol/L 且 Plasma AVP 顯著升高。當 Furst Ratio > 1.0 時，代表腎臟排出之電解質濃度高於血清，給予任何自由水限制皆無法淨化體液，此時應立即改用 Loop Diuretics 結合 Oral NaCl、Oral Urea 或 Vasopressin Receptor Antagonists (Tolvaptan)。\n2. **Prevention of Osmotic Demyelination Syndrome (ODS)**: 慢性低血鈉時，Myo-inositol, Glutamate, Taurine 完成 Volume Regulatory Decrease (VRD)。若過快矯正血鈉，Astrocytes 無法快速再吸收有機滲透壓物質，導致腦細胞極度脫水萎縮，引發 Central Pontine Myelinolysis (CPM / ODS)。矯正安全上限為：前 24 小時提升幅度 < 8-10 mmol/L (高風險族群如酗酒、肝硬化、重度低血鉀者 < 6-8 mmol/L)，每 48 小時 < 18 mmol/L。> 10 mmol/L in 24h，應立即投與 Desmopressin (dDAVP) 搭配 D5W 重新降低血鈉以阻斷 ODS。\n\n| Failure Predictor Parameter | Mathematical Threshold | Pathophysiological Mechanism | Recommended Clinical Action |\n| :--- | :--- | :--- | :--- |\n| **Furst Ratio (U/P Electrolytes)** | (UNa + UK) / SNa > 1.0 | Electrolyte excretion exceeds plasma tonicity; Net free water retention | Switch to Oral NaCl + Furosemide, Oral Urea, or Tolvaptan |\n| **Urine Osmolality** | Uosm > 500 mOsm/kg H2O | Maximal AVP-mediated water reabsorption in collecting duct | Combine fluid restriction with solute loading (Oral NaCl / Urea) |\n| **Baseline Serum Sodium** | SNa < 120 mmol/L | Severe osmotic adaptation of brain cells; High risk of failure with fluid restriction | High-level monitoring; Consider 3% Hypertonic Saline bolus |\n| **24-Hour Solute Excretion** | Low daily solute intake | Inadequate urinary solute clearance to obligate free water excretion | Increase dietary protein or oral solute intake |\n\n### Pathophysiological Decision Trees\n- **SIADH Treatment Selection Tree**: Measure UNa, UK, SNa ➔ Calculate Furst Ratio = (UNa + UK) / SNa ➔ If Ratio < 0.5: Strict Fluid Restriction (< 500-1000 mL/day) ➔ If Ratio 0.5 - 1.0: Fluid Restriction (< 500 mL/day) + Solute Supplementation ➔ If Ratio > 1.0: Fluid Restriction Fails ➔ Initiate Tolvaptan OR Loop Diuretic + Oral Salt Tablets.\n\n### Conceptual Trap Analysis\n- **Isotonic Saline in SIADH Trap**: 切勿對 SIADH 患者給予 0.9% Normal Saline！因 SIADH 患者之 Uosm 常高於 308 mOsm/kg (Normal Saline 總電解質濃度)，輸入之 0.9% NaCl 所含之電解質會被完全排出，而水分則被完全重吸收，反而加重低血鈉！"
+        }
+      ]
+    },
+    {
+      "moduleId": "ammoniagenesis_and_pseudohypoaldosteronism",
+      "moduleTitle": "2. High Potassium Impact on Renal Acid Excretion & Pseudohypoaldosteronism (PHA) Differential Diagnosis",
+      "studyGuide": "本模組深入傳授 Hyperkalemia 對近曲小管 Glutamine 代謝與 Ammoniagenesis 的抑制機轉，及其引發 Type 4 / Type 5 Renal Tubular Acidosis (RTA) 的生理細胞拓撲路徑。同時詳盡剖析 Pseudohypoaldosteronism (PHA) 的遺傳分子學、膜受體通道突變與臨床鑑別診斷（包含 PHA Type I 之 ENaC 與 MR 基因突變失能、PHA Type II / Gordon Syndrome 之 WNK1/WNK4 與 CUL3/KLHL3 突變引發 NCC 過度活化、以及 PHA Type III 之嬰幼兒暫時性小管抗藥性）。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_16_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_3.png",
+          "caption": "Brenner 11e Fig. 16.3: Synchrony of Regulation of Ammonium Production and Excretion along Nephron Segments and its Inhibition by Hyperkalemia.",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "brenner_fig_16_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+          "caption": "Brenner 11e Fig. 16.6: Type A Intercalated Cell Pathophysiologic Defects in Distal Renal Tubular Acidosis.",
+          "sourceBook": "Brenner 11e Ch 16"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hyperkalemic Suppression of Ammoniagenesis & Type 4 RTA Pathophysiology",
+          "diagram": {
+            "id": "zhongrong_hyperkalemia_acidosis_pha_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/2026_zhongrong_hyperkalemia_acidosis_pha.jpg",
+            "caption": "Figure 2.1: Biochemical Pathways of Proximal Tubule Ammoniagenesis, Hyperkalemic Inhibition Mechanisms, Type 4 RTA, and Pseudohypoaldosteronism Subtypes.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_16_3_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_16_3.png",
+              "caption": "Brenner 11e Fig. 16.3: Synchrony of Regulation of Ammonium Production and Excretion along Nephron Segments and its Inhibition by Hyperkalemia.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "zhongrong_hyperkalemia_acidosis_pha_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_hyperkalemia_acidosis_pha.jpg",
+              "caption": "Figure 2.1: Biochemical Pathways of Proximal Tubule Ammoniagenesis, Hyperkalemic Inhibition Mechanisms, Type 4 RTA, and Pseudohypoaldosteronism Subtypes.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "血清鉀離子濃度對腎臟酸鹼平衡與排酸能力具有至關重要的調節作用：\n1. **Hyperkalemic Inhibition of Ammoniagenesis**: 高血鉀引發 Metabolic Acidosis 的核心生理機轉包含三大關鍵層面：(a) **Proximal Tubule Intracellular Alkalosis**：高血鉀促使 K+ 進入近曲小管細胞內，換取 H+ 移出細胞外，導致細胞內 pH 值升高。此 intracellular alkalosis 顯著抑制關鍵酶 Phosphate-Dependent Glutaminase (PDG) 與 Phosphoenolpyruvate Carboxykinase (PEPCK) 的活性，使 Glutamine 分解產生的 NH4+ 與 HCO3- 生成量大幅減少；(b) **Competitive Transport Inhibition in TAL**：在 Thick Ascending Limb (TAL)，NH4+ 正常情況下替代 K+ 經由 NKCC2 重吸收至髓質間質。高血鉀使得管腔內 K+ 濃度極高，競爭性抑制 NH4+ 經 NKCC2 的結合與運送；(c) **Medullary NH3 Gradient Disruption**：間質 NH4+/NH3 梯度破壞後，IMCD 的 NH3 NH3 Trapping via RhCG/RhBG channels 效率潰敗，導致 Urine Ammonium Excretion (UNH4V) 顯著下挫。\n2. **Type 4 RTA (Hyperkalemic Distal RTA)**: 醛固酮缺乏或醛固酮抗藥性（如 Diabetic Nephropathy, Hyporeninemic Hypoaldosteronism, ACEi/ARB 投與）導致遠端小管 ENaC 活化不足，Lumen-Negative Potential 消失，同時阻斷 H+-ATPase 與 K+ 分泌。由此產生的高血鉀反過來完全扼殺近曲小管的 Ammoniagenesis，形成「高血鉀 ➔ 抑制 Ammoniagenesis ➔ 尿液 NH4+ 排出受阻 ➔ Hyperkalemic Hyperchloremic Metabolic Acidosis」的惡性循環。其特徵為 Urine pH < 5.5（因遠端 H+-ATPase 本身尚具能力降低尿 pH，但缺乏 NH3 作為 Buffer 接納 H+）。\n\n| Nephron Segment / Pathway | Cellular Mechanism | Impact of Hyperkalemia | Net Acid-Base Consequence |\n| :--- | :--- | :--- | :--- |\n| **Proximal Tubule (S1-S3)** | K+/H+ exchange -> Intracellular Alkalosis | Inhibits PDG and PEPCK enzyme expression | Reduced generation of NH4+ and new HCO3- |\n| **Thick Ascending Limb (TAL)** | NH4+ uptake via apical NKCC2 transporter | High luminal K+ competitively blocks NH4+ transport | Impaired medullary interstitial NH4+ accumulation |\n| **Inner Medullary Collecting Duct** | Non-ionic diffusion of NH3 & RhCG/RhBG trapping | Disrupted medullary ammonium concentration gradient | Reduced net urinary acid excretion (Low UNH4V) |\n| **Cortical Collecting Duct (CCD)** | ENaC-dependent lumen-negative voltage creation | Depressed voltage-driven H+ and K+ secretion | Type 4 RTA development (Urine pH < 5.5) |\n\n| RTA Subtype | Serum Potassium | Primary Defect Location | Urine pH | Urinary Ammonium (UNH4V) | Primary Etiology |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Type 1 (Classic Distal RTA)** | Hypokalemia | Intercalated A cell (H+-ATPase / AE1) | **> 5.5** | Markedly Reduced | Sjögren, Autoimmune, Amphotericin B |\n| **Type 2 (Proximal RTA)** | Hypokalemia | Proximal tubule (NHE3 / NBCe1) | Variable (< 5.5 or > 5.5) | Normal / Slightly Reduced | Fanconi syndrome, Multiple Myeloma |\n| **Type 4 (Hyperkalemic RTA)** | **Hyperkalemia** | Principal cell ENaC / Aldosterone deficiency | **< 5.5** | Severely Depressed | Diabetic Nephropathy, Hyporeninemia |\n\n### Pathophysiological Decision Trees\n- **Hyperkalemic Acidosis Cascade**: Elevated Plasma K+ ➔ K+ Entry into Proximal Tubule Cells via K+ Channels ➔ H+ Efflux for Electroneutrality ➔ Intracellular Alkalosis ➔ PDG & PEPCK Downregulation ➔ Decreased Ammoniagenesis (Glutamine ➔ 2 NH4+ + 2 HCO3-) ➔ Reduced Medullary NH3 Concentration ➔ Suppressed IMCD Net Acid Excretion ➔ Hyperkalemic Metabolic Acidosis.\n\n### Conceptual Trap Analysis\n- **Type 4 RTA Urine pH Trap**: 切勿以為所有 Distal RTA 的 Urine pH 都必定 > 5.5！Type 4 RTA 的 Urine pH 典型地小於 5.5 (< 5.5)；其根本問題在於「缺乏 NH3 緩衝載體」，而非 intercalated A cell 泵出 H+ 的能力喪失。"
+        },
+        {
+          "heading": "Pseudohypoaldosteronism (PHA Type I, II, III) Differential Molecular Genetics",
+          "diagram": {
+            "id": "brenner_fig_16_6_sec",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+            "caption": "Brenner 11e Fig. 16.6: Type A Intercalated Cell Pathophysiologic Defects in Distal Renal Tubular Acidosis.",
+            "sourceBook": "Brenner 11e Ch 16"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_16_6_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+              "caption": "Brenner 11e Fig. 16.6: Type A Intercalated Cell Pathophysiologic Defects in Distal Renal Tubular Acidosis.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "zhongrong_hyperkalemia_acidosis_pha_fig_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_hyperkalemia_acidosis_pha.jpg",
+              "caption": "Figure 2.2: Genetic Mutations, Transporter Dysfunction, and Clinical Features in Pseudohypoaldosteronism Subtypes.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Pseudohypoaldosteronism (PHA) 為一組因標靶器官對 Aldosterone 產生終末抗藥性引發的臨床綜合徵：\n1. **Pseudohypoaldosteronism Type I (PHA-I)**: 分為兩大遺傳亞型：(a) **Autosomal Dominant PHA-IA**：為 NR3C2 Mineralocorticoid Receptor, MR 發生 Loss-of-Function 突變，表型僅限於腎臟。臨床表現為 Neonatal Salt Wasting, Hyperkalemia, Metabolic Acidosis，但 Plasma Aldosterone 與 Renin 顯著暴增；隨年齡增長受體可獲補償，症狀逐漸改善；(b) **Autosomal Recessive PHA-IB**：為 SCNN1A, SCNN1B, 或 SCNN1G 基因（編碼 ENaC α, β, γ 亞基）發生失能突變。因 ENaC 亦分佈於肺臟、汗腺、唾液腺與結腸，Systemic ENaC Defect，表現為生後即發生致死性重度 Salt Wasting、Hyperkalemia、反覆呼吸道發炎與唾液/汗液鹽分極高，且終生無法自癒，需高劑量 NaCl 補充與降鉀治療。\n2. **Pseudohypoaldosteronism Type II (PHA-II / Gordon Syndrome)**: 為常染色體顯性遺傳，由 WNK1, WNK4, CUL3, 或 KLHL3 基因突變所致。其核心機轉為 WNK Kinase 降解障礙，導致 SPAK/OSR1 激酶過度活化，進而持續磷酸化與**過度活化 DCT 的 NaCl Cotransporter (NCC)**。NCC 超常運作吸收大量的 Na+ 與 Cl-，造成 Hypertension 與 Volume Expansion；同時使到達遠端 CNT/CCD 的 Na+ 流量銳減，削弱了 ENaC 驅動的 K+ 與 H+ 分泌，引發 Hyperkalemia 與 Hyperchloremic Metabolic Acidosis (Type 4 RTA)。特徵為 Plasma Renin 與 Aldosterone Low-Renin Low-Aldo，且對 **Thiazide Diuretics** 具有特效性緩解！\n3. **Pseudohypoaldosteronism Type III (PHA-III)**: 屬於後天暫時性小管抗藥性，多見於嬰幼兒急性 Pyelonephritis 或 Obstructive Uropathy，Cytokines 暫時性阻斷 MR 或 ENaC 功能，感染或阻塞解除後可完全復原。\n\n| PHA Subtype | Inherited Gene / Etiology | Primary Molecular Mechanism | Blood Pressure | Serum Potassium | Renin & Aldosterone Levels | Specific Therapeutic Response |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **PHA-IA (Autosomal Dominant)** | NR3C2 gene loss-of-function | Renal Mineralocorticoid Receptor (MR) defect | Hypotension / Normal | **Hyperkalemia** | **Extremely High** | High NaCl supplementation; Improves with age |\n| **PHA-IB (Autosomal Recessive)** | SCNN1A/B/G (ENaC α,β,γ) | Systemic ENaC subunit dysfunction (Kidney, Lung, Sweat) | Severe Hypotension | **Severe Hyperkalemia** | **Extremely High** | Lifelong high NaCl + K+ binders; No age improvement |\n| **PHA-II (Gordon Syndrome)** | WNK1, WNK4, CUL3, KLHL3 | Overactivation of NCC cotransporter in DCT | **Hypertension** | **Hyperkalemia** | **Suppressed (Low)** | **Thiazide Diuretics (Overcomes NCC hyperactivity)** |\n| **PHA-III (Transient Secondary)** | Acute Pyelonephritis / UUO in infants | Inflammatory cytokine inhibition of tubular MR/ENaC | Normal / Variable | **Hyperkalemia** | High / Normal | Treat underlying infection/obstruction; Resolves completely |\n\n### Pathophysiological Decision Trees\n- **PHA Differential Diagnosis Cascade**: Hyperkalemia + Metabolic Acidosis ➔ Measure Blood Pressure ➔ If Hypotension / Salt Wasting: Check Renin & Aldosterone (High) ➔ If Isolated Renal involvement = PHA-IA (MR mutation); If Systemic Lung/Sweat involvement = PHA-IB (ENaC mutation) ➔ If Hypertension + Hyperkalemia: Check Renin & Aldosterone (Low) = PHA-II (Gordon Syndrome) ➔ Treat with Low-Dose Thiazide Diuretic.\n\n### Conceptual Trap Analysis\n- **Gordon Syndrome (PHA-II) Renin/Aldo Trap**: 切勿因名稱有 Pseudohypoaldosteronism 即認定 PHA-II 的 Aldosterone 必定偏高！PHA-II 因 NCC 過度活化導致 Volume Expansion 與高血壓，反過來生理性抑制了 Plasma Renin 與 Aldosterone 濃度；其與 PHA-I 最根本的區別在於高血壓與 Low Renin/Aldo。"
+        }
+      ]
+    },
+    {
+      "moduleId": "tubular_transporter_regulation_and_aldosterone_paradox",
+      "moduleTitle": "3. Dietary Regulation of Tubular Transporters & The Aldosterone Paradox Kinase Cascade",
+      "studyGuide": "NHE3, NKCC2, NCC, ENaC, ROMK, BK 的動態調控拓撲。重點精準解構 Nephrology 領域的核心觀念——Aldosterone Paradox：即 Aldosterone Volume Depletion 時精準執行「高效率 Na+ 保留而抑制 K+ 排除」，Hyperkalemia 時轉化為「極化 K+ 排除而不引起 Na+ 蓄積高血壓」。解碼 Ang II, WNK1/WNK4, SPAK, KS-WNK1, 以及 ENaC/ROMK 之間的分子開關與磷酸化網絡。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_17_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_17_3.png",
+          "caption": "Brenner 11e Fig. 17.3: Potassium Secretory Pathways in Principal Cells of the Connecting Segment and Cortical Collecting Duct.",
+          "sourceBook": "Brenner 11e Ch 17"
+        },
+        {
+          "id": "brenner_fig_17_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_17_6.png",
+          "caption": "Brenner 11e Fig. 17.6: Integrated Kinase Network (WNK1/WNK4/SPAK) and Aldosterone Paradox in DCT and CCD.",
+          "sourceBook": "Brenner 11e Ch 17"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Dietary Na+ and K+ Regulation of Nephron Solute Transporters",
+          "diagram": {
+            "id": "zhongrong_aldosterone_paradox_transporters_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/2026_zhongrong_aldosterone_paradox_transporters.jpg",
+            "caption": "Figure 3.1: Dietary Sodium and Potassium Intake Dynamics on Tubular Transporters and the WNK Kinase Switch Network.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_17_3_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_17_3.png",
+              "caption": "Brenner 11e Fig. 17.3: Potassium Secretory Pathways in Principal Cells of the Connecting Segment and Cortical Collecting Duct.",
+              "sourceBook": "Brenner 11e Ch 17"
+            },
+            {
+              "id": "zhongrong_aldosterone_paradox_transporters_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_aldosterone_paradox_transporters.jpg",
+              "caption": "Figure 3.1: Dietary Sodium and Potassium Intake Dynamics on Tubular Transporters and the WNK Kinase Switch Network.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "腎臟小管運送體隨飲食電解質負荷進行高度協調的適應性調節：\n1. **Low Na+ / High K+ Dietary Adaptations**: 當飲食極度缺 Na+ 時，系統性的 Angiotensin II 與 Aldosterone 同步暴增。Ang II 活化近曲小管 NHE3 與 TAL NKCC2；同時在 DCT 活化 WNK4-SPAK 級聯，大幅增加 NCC 的磷酸化與膜表現，使 Na+ 在前段小管與 DCT 被極大化重吸收。此時抵達 CCD 的 Na+ 流量減少，ROMK 介導的 K+ 排泄被適度壓制，達到保 Na+ 保 K+ 之效果；相反地，當飲食為 High K+ 時，全身性 K+ 升高直接去極化腎上腺皮質，刺激 Aldosterone 分泌，但此時因體液充足，Ang II 被生理性抑制。缺乏 Ang II 時，高血鉀直接抑制 DCT 之 NCC 表現，使大量 Na+ 逃逸至遠端 CNT/CCD；在 CCD，高濃度的 Aldosterone 強烈活化 SGK1，促使 Nedd4-2 磷酸化失效，使 ENaC 巨量表達於頂膜。逃逸至遠端的 Na+ 經由 ENaC 劇烈重吸收，-40 to -50 mV，驅動 ROMK 與 Maxi-K (BK) 通道極化分泌 K+，達成高效率排 K+ 不加重高血壓。\n2. **Flow-Dependent Potassium Secretion via BK Channels**: 主細胞頂膜包含低導電度常態開放之 ROMK (SK2) 通道與高導電度鈣離子活化之 BK (Maxi-K) 通道。Tubular Flow Rate 大幅增加時（如使用 Loop/Thiazide Diuretics 或 高水份攝取），Shear Stress 誘發細胞內 Ca2+ 釋放，迅速打開微絨毛頂端的 BK 通道，介導巨量流速依賴性 K+ 拋棄。\n\n| Dietary Condition | Circulating Hormonal Profile | Dominant Active Transporters | Distal Na+ Delivery Rate | Net K+ Excretion Kinetics |\n| :--- | :--- | :--- | :--- | :--- |\n| **Low Na+ Intake** | High Ang II + High Aldosterone | NHE3, NKCC2, Phospho-NCC, ENaC | Low (Depleted) | Suppressed (K+ conservation to prevent hypokalemia) |\n| **High K+ Intake** | Low Ang II + High Aldosterone | Suppressed NCC; Highly Active ENaC, ROMK, BK | High (Bypasses DCT) | Maximized (Enormous K+ secretion via voltage & flow) |\n| **High Na+ Intake** | Low Ang II + Low Aldosterone | Suppressed NHE3, NCC, ENaC, ROMK | High | Baseline Low |\n| **High Flow (Diuretic use)** | Variable | ENaC + Flow-activated BK channels | Extremely High | Flow-dependent K+ wasting (Hypokalemia risk) |\n\n### Pathophysiological Decision Trees\n- **High Dietary K+ Response Cascade**: Elevated Plasma K+ ➔ Adrenal Zona Glomerulosa Stimulation ➔ Aldosterone Secretion Surge ➔ Suppressed RAS / Low Ang II ➔ Dephosphorylation & Endocytosis of DCT NCC ➔ Increased Na+ & Water Delivery to CNT/CCD ➔ Aldosterone-SGK1-Nedd4-2 Pathway ➔ ENaC Apical Translocation ➔ ENaC Na+ Influx Creates Lumen-Negative Potential ➔ Massive K+ Secretion via Apical ROMK and BK Channels.\n\n### Conceptual Trap Analysis\n- **Diuretic Potassium Wasting Trap**: 切勿將 Loop Diuretic 引發的高血鉀誤解為直屬小管毒性；Loop Diuretic 抑制 TAL NKCC2 後，雖然減少了 TAL 的 K+ 重吸收，但更主要的是創造了巨量的遠端 Tubular Flow Rate，進而經由彎曲剪應力打開主細胞與 intercalated cell 的 BK (Maxi-K) 通道，導致極大的流速依賴性 K+ 拋棄。"
+        },
+        {
+          "heading": "Molecular Mechanisms of the Aldosterone Paradox: WNK Kinase Switching",
+          "diagram": {
+            "id": "brenner_fig_17_6_sec",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/Brenner_Fig_17_6.png",
+            "caption": "Brenner 11e Fig. 17.6: Integrated Kinase Network (WNK1/WNK4/SPAK) and Aldosterone Paradox in DCT and CCD.",
+            "sourceBook": "Brenner 11e Ch 17"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_17_6_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_17_6.png",
+              "caption": "Brenner 11e Fig. 17.6: Integrated Kinase Network (WNK1/WNK4/SPAK) and Aldosterone Paradox in DCT and CCD.",
+              "sourceBook": "Brenner 11e Ch 17"
+            },
+            {
+              "id": "zhongrong_aldosterone_paradox_transporters_fig_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_aldosterone_paradox_transporters.jpg",
+              "caption": "Figure 3.2: Molecular Switch of the Aldosterone Paradox in Hypovolemia versus Hyperkalemia via Ang II, WNK4, and SPAK Kinases.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Aldosterone Paradox 代表腎臟生理學中最精妙的分子分流機制：同一個鹽皮質激素 Aldosterone 如何精準識別身體處於「容量缺失」還是「高血鉀」狀態？\n1. **State A: Volume Depletion (High Ang II + High Aldosterone)**: 在低血量狀態下，體內 Ang II 與 Aldosterone 同步高漲。Ang II 作用於 DCT 上的 AT1 Receptor，引發特異性磷酸化訊號，將 **WNK4 轉化為活化態激酶**。活化的 WNK4 進而磷酸化 SPAK/OSR1，強烈活化 DCT 的 NCC (Thiazide-sensitive Na-Cl cotransporter)。80-90% 的 Na+ 提前在 DCT 被重吸收；到達遠端 CCD 的 Na+ 極少，即便 ENaC 被 Aldosterone 活化，由於缺乏遠端 Na+ 流量作為驅動底物，電化學梯度不足，ROMK 介導的 K+ 排泄被阻斷。結果：**最大化 Na+ 重吸收（恢復血量），同時防止 K+ 流失（避免低血鉀）**。\n2. **State B: Hyperkalemia (Low Ang II + High Aldosterone)**: 在純高血鉀狀態下，體內僅有高 Aldosterone，而 Ang II 處於低位。缺乏 Ang II 時，WNK4 不被活化且細胞內 [Cl-] 升高進一步變構抑制 WNK4，導致 NCC 缺乏磷酸化而內吞失能。未被重吸收的 Na+ 巨量進入 CCD；同時，高血鉀誘發腎臟表達 **Kidney-Specific WNK1 (KS-WNK1)**，KS-WNK1 解除 Long-WNK1 (L-WNK1) 對 ROMK 的內吞抑制，使 ROMK 大量集結於頂膜。巨量的 Na+ 經 ENaC 湧入主細胞，創造極大的管腔負電位，驅動 ROMK 排棄 K+。結果：**最大化 K+ 排泄（降低血鉀），同時防止 Na+ 過度重吸收（避免高血壓）**。\n\n| Physiological State | Angiotensin II Level | Aldosterone Level | WNK4 Kinase Status | NCC Phosphorylation & Activity | ROMK Apical Expression | Primary Net Physiological Outcome |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Volume Depletion (Hypovolemia)** | **High** | **High** | Phosphorylated (Active) | **Maximal Activation** | Suppressed / Low | **Na+ Retention High; K+ Wasting Prevented** |\n| **Hyperkalemic State** | **Low** | **High** | Inhibited by high [Cl-] in | **Dephosphorylated (Inactive)** | **Maximal Apical Display** | **K+ Excretion Maximized; Na+ Retention Prevented** |\n| **Gordon Syndrome (PHA-II)** | Low | Low | Constitutively Active Mutation | **Pathologically Hyperactive** | Pathologically Suppressed | **Hypertension + Hyperkalemia** |\n\n### Pathophysiological Decision Trees\n- **Molecular Aldosterone Paradox Switch Tree**: Assess Body State ➔ **If Hypovolemia**: High Ang II ➔ AT1R Activation ➔ WNK4 Phosphorylation ➔ SPAK Activation ➔ Apical NCC Translocation & Activation ➔ Na+ Reabsorbed in DCT ➔ Low Na+ to CCD ➔ ROMK Secretion Blocked (Na+ Retained, K+ Preserved) ➔ **If Hyperkalemia**: Low Ang II + High K+ ➔ Intracellular Cl- Inhibits WNK4 ➔ NCC Dephosphorylated/Endocytosed ➔ High Na+ Delivery to CCD ➔ ENaC Activation + KS-WNK1 Unblocks ROMK ➔ Enormous K+ Excretion (K+ Cleared, Na+ Excess Avoided).\n\n### Conceptual Trap Analysis\n- **Aldosterone Function Universal Trap**: 切勿認為 Aldosterone 在任何時候都會引發低血鉀！在低血量狀態下，因 Ang II 與 WNK4 的精準配合，NCC 提前抽乾了 Na+ 流量，使 Aldosterone 僅發揮重吸收 Na+ 的功能而不排出 K+；此即為解開 Aldosterone Paradox 的分子鑰匙。"
+        }
+      ]
+    },
+    {
+      "moduleId": "tubuloglomerular_feedback_and_succinylcholine_hyperkalemia",
+      "moduleTitle": "4. Tubuloglomerular Feedback (TGF) Paracrine Signaling & Succinylcholine Hyperkalemia Emergency",
+      "studyGuide": "本模組深入傳授 Tubuloglomerular Feedback (TGF) 的解剖結構、Macula Densa 鹽份感測與 ATP/Adenosine 旁分泌傳導鏈，及其於血流動力學自動調節與 SGLT2i/RASi 藥物作用下之臨床調控。同時詳盡剖析麻醉臨床致死性急症——Succinylcholine 引發劇烈高血鉀的分子細胞學機轉（包含燒傷、創傷、神經癱瘓與長期 ICU 臥床導致的神經肌肉接合處 Extrajunctional nAChR 上調暴增），並提供緊急預防與臨床搶救決策對策。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_3_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_3_7.png",
+          "caption": "Brenner 11e Fig. 3.7: Multiphoton Imaging of Terminal Afferent Arteriole Constriction in Response to Macula Densa NaCl Sensing.",
+          "sourceBook": "Brenner 11e Ch 3"
+        },
+        {
+          "id": "brenner_fig_3_9",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_3_9.png",
+          "caption": "Brenner 11e Fig. 3.9: Microarchitecture of the Juxtaglomerular Apparatus and Macula Densa Cellular Contact Area.",
+          "sourceBook": "Brenner 11e Ch 3"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Tubuloglomerular Feedback (TGF) Cellular Mechanism & Pharmacological Modulation",
+          "diagram": {
+            "id": "zhongrong_tgf_succinylcholine_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/2026_zhongrong_tgf_succinylcholine.jpg",
+            "caption": "Figure 4.1: Tubuloglomerular Feedback (TGF) Macula Densa Sensing Cascade, Afferent Vasoconstriction, and Extrajunctional nAChR Succinylcholine Hyperkalemia Mechanism.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_3_7_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_3_7.png",
+              "caption": "Brenner 11e Fig. 3.7: Multiphoton Imaging of Terminal Afferent Arteriole Constriction in Response to Macula Densa NaCl Sensing.",
+              "sourceBook": "Brenner 11e Ch 3"
+            },
+            {
+              "id": "zhongrong_tgf_succinylcholine_fig_1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_tgf_succinylcholine.jpg",
+              "caption": "Figure 4.1: Tubuloglomerular Feedback (TGF) Macula Densa Sensing Cascade, Afferent Vasoconstriction, and Extrajunctional nAChR Succinylcholine Hyperkalemia Mechanism.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Tubuloglomerular Feedback (TGF) 為單一腎元自我調節 GFR 與 Renal Blood Flow (RBF) 的核心負回饋機制：\n1. **Macula Densa Sensing & Paracrine Cascade**: 當 Glomerular Filtration Rate (GFR) 升高或近端小管重吸收減少時，流經 Cortical Thick Ascending Limb (cTAL) 終端的 NaCl 流量與濃度顯著增加。Macula Densa 細胞頂膜的 **NKCC2** 運送速率隨之暴增，帶入大量 Na+, K+, Cl-，引發 Macula Densa 細胞腫脹與 basolateral 膜電位去極化。此去極化活化了基底側的 Maxi-Anion Channels，釋放大量 **ATP** 至 Extra-Glomerular Mesangium。間質中的 Ecto-5'-Nucleotidase (CD73) 迅速將 ATP 水解轉化為 **Adenosine**。Adenosine 結合至鄰近 Afferent Arteriole 平滑肌細胞上的 **Adenosine A1 Receptors (A1R)**，經由 Gi protein 抑制 Adenylyl Cyclase、降低 cAMP，並活化 Phospholipase C 升高細胞內 Ca2+ 濃度，引發 Afferent Arteriole 強烈 Vasoconstriction。入球小管收縮增加了前血管阻力，使 Glomerular Capillary Hydraulic Pressure (Pgc) 迅速回降，將 GFR 精準拉回正常範圍。\n2. **Modulation by SGLT2 Inhibitors & RAS Blockers**: 糖尿病腎病變早期，近曲小管 SGLT2 過度活化重吸收高濃度的 Glucose 與 Na+，導致抵達 Macula Densa 的 NaCl 流量銳減。這關閉了 TGF 機制（偽低流速訊號），引發 Afferent Arteriole 異常舒張，造成 Glomerular Hyperfiltration 與 高壓病變。投與 **SGLT2 Inhibitors (Empagliflozin / Dapagliflozin)** 可阻斷近端 Na+ 重吸收，恢復抵達 Macula Densa 的正常 NaCl 流量，重新活化 TGF 傳導鏈，誘發 Afferent Arteriole 收縮，有效降低 Pgc 並消除 Hyperfiltration，達到長遠保護腎功能的功效！\n\n| Step in TGF Cascade | Molecular / Cellular Component | Signaling Event | Downstream Physiological Impact |\n| :--- | :--- | :--- | :--- |\n| **1. Luminal Sensing** | Macula Densa Apical NKCC2 | Increased tubular NaCl uptake | Intracellular Na+ & Cl- elevation; Cell swelling |\n| **2. Paracrine Release** | Basolateral Maxi-Anion Channel / CD73 | ATP release & conversion to Adenosine | Interstitial Adenosine gradient buildup |\n| **3. Receptor Binding** | Afferent Arteriole Smooth Muscle A1R | Adenosine A1 Receptor (Gi coupled) activation | Decreased cAMP; Increased intracellular Ca2+ |\n| **4. Vascular Effector** | Granular / Smooth Muscle Cells | Afferent arteriole vasoconstriction | Increased afferent resistance (R-aff) |\n| **5. GFR Restoration** | Glomerular Capillary Bed | Reduced Pgc (Hydraulic Pressure) | Normalization of SNGFR (Correction of hyperfiltration) |\n\n### Pathophysiological Decision Trees\n- **TGF Activation Sequence**: High SNGFR / Increased Tubular Flow ➔ Elevated NaCl at Macula Densa ➔ Accelerated NKCC2 Transport ➔ Macula Densa Depolarization ➔ Basolateral ATP Release via Anion Channels ➔ Interstitial Conversion to Adenosine by CD73 ➔ Activation of Afferent Arterial Adenosine A1 Receptors ➔ Intracellular Ca2+ Influx in Smooth Muscle ➔ Afferent Arteriole Constriction ➔ Pgc Drop ➔ SNGFR Normalization.\n\n### Conceptual Trap Analysis\n- **Adenosine Receptor Subtype Trap**: 注意 Adenosine 在腎臟血管具有雙重效應！結合至 Afferent Arteriole 的 **A1 Receptor** 會引發 Vasoconstriction 介導 TGF；而結合至 Efferent Arteriole 的 **A2 Receptor (A2AR/A2BR)** 則會引發 Vasodilation。切勿將 A1 與 A2 受體之相反血管效應混淆。"
+        },
+        {
+          "heading": "Succinylcholine-Induced Fatal Hyperkalemia: Extrajunctional nAChR Proliferation Mechanisms",
+          "diagram": {
+            "id": "brenner_fig_3_9_sec",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/Brenner_Fig_3_9.png",
+            "caption": "Brenner 11e Fig. 3.9: Microarchitecture of the Juxtaglomerular Apparatus and Macula Densa Cellular Contact Area.",
+            "sourceBook": "Brenner 11e Ch 3"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_3_9_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_3_9.png",
+              "caption": "Brenner 11e Fig. 3.9: Microarchitecture of the Juxtaglomerular Apparatus and Macula Densa Cellular Contact Area.",
+              "sourceBook": "Brenner 11e Ch 3"
+            },
+            {
+              "id": "zhongrong_tgf_succinylcholine_fig_2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/2026_zhongrong_tgf_succinylcholine.jpg",
+              "caption": "Figure 4.2: Neuromuscular Extrajunctional Acetylcholine Receptor (nAChR) Proliferation and Mechanism of Succinylcholine Lethal Hyperkalemia.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Succinylcholine 為 Depolarizing Neuromuscular Blocker，在特定高危患者群投與可誘發致死性急性高血鉀與 Ventricular Fibrillation：\n1. **Extrajunctional Receptor Proliferation**: 正常生理狀態下，Nicotinic Acetylcholine Receptors (nAChR) 嚴格局限於神經肌肉接合處的 Motor Endplate（α12β11δ 亞基組成的 Mature Adult Subtype）。然而，當患者經歷以下臨床情境：(a) Severe Burns > 24-48 hours；(b) Crush Injury；(c) Spinal Cord Injury, Hemiplegia, ALS；(d) 長期 ICU Prolonged ICU Immobilization / Critical Illness Myopathy；(e) 嚴重腹膜炎與長期肌肉鬆弛。骨骼肌細胞會引發基因適應性反應，在整個肌細胞膜表面（非接合處區域）巨量表達 **Extrajunctional nAChRs**（包含 Immature (α1)2β1γ1ε 亞基型與 α7 Homomeric Subtype）。\n2. **Mechanism of Massive Potassium Efflux**: Succinylcholine 結構為雙分子 Acetylcholine 結合體，其作用於 nAChR 引發持續去極化，且不受 Acetylcholinesterase 快速降解。正常人投與 Succinylcholine 僅引發血鉀微幅上升 0.5 mmol/L（源自 Endplate 少量 K+ 釋放）。然而在具備巨量 Extrajunctional nAChRs 的患者，Succinylcholine 結合至全肌細胞膜表面數百倍增生的通道，導致全細胞膜陽離子通道長階段開放。大量 Na+ 湧入細胞內的同時，**細胞內巨量的 K+ Massive Intracellular K+ Efflux**，可在數秒至數分鐘內使血清 K+ 濃度暴增 3.0 to 9.0 mmol/L 以上，直接引發 Peak T Waves, QRS Widening, Asystole 或 Cardiac Arrest！\n3. **Clinical Contraindications & Management**: 廣泛燒傷與神經損傷發病 24-48 小時後至傷後 1 年內，為 **Absolute Contraindication** 使用 Succinylcholine！RSI 應全面改用 Non-depolarizing Neuromuscular Blockers (如 Rocuronium 搭配 Sugammadex 反轉)。若不慎引發 Succinylcholine 高血鉀心室心律不整，應立即給予 Calcium Gluconate/Chloride 穩定心肌膜電位，並給予 Insulin + Glucose、Sodium Bicarbonate、Inhaled Albuterol 與緊急透析。\n\n| Clinical Risk Condition | Onset Window for Danger | Molecular Pathology Mechanism | Succinylcholine Safety Status |\n| :--- | :--- | :--- | :--- |\n| **Severe Thermal Burn** | > 24-48 hours post-burn | Massive extrajunctional α7 & γ-subunit nAChR expression | **ABSOLUTE CONTRAINDICATION** |\n| **Spinal Cord Injury / Hemiplegia** | > 48 hours to > 1 year | Denervation hypersensitivity & muscle-wide nAChR spread | **ABSOLUTE CONTRAINDICATION** |\n| **Prolonged ICU Immobilization** | > 5-7 days of ICU stay | Disuse atrophy & extrajunctional receptor proliferation | **ABSOLUTE CONTRAINDICATION** |\n| **Severe Crush Injury / Rhabdo** | > 24-48 hours post-trauma | Direct sarcolemma damage + receptor upregulation | **ABSOLUTE CONTRAINDICATION** |\n| **Normal Healthy Adult** | N/A | Normal localized mature adult endplate nAChRs | Safe (Transient K+ rise ~ 0.5 mmol/L) |\n\n### Pathophysiological Decision Trees\n- **Succinylcholine Hyperkalemia Cascade**: Denervation / Burn / Long ICU Stay ➔ Extrajunctional nAChR Gene Upregulation ➔ Muscle-Wide Receptor Display ➔ Succinylcholine Administration ➔ Persistent Binding & Channel Opening ➔ Widespread Sarcolemma Depolarization ➔ Massive Potassium Efflux from Intracellular Space into Circulation ➔ Acute Severe Hyperkalemia (> 7-10 mmol/L) ➔ Lethal Cardiac Arrhythmia / Asystole.\n\n### Conceptual Trap Analysis\n- **Succinylcholine Burn Window Trap**: 切勿認為燒傷後「前 24 小時內」不能使用 Succinylcholine！在燒傷最初的 24 小時內，Extrajunctional nAChRs 尚未來得及轉錄與表達於肌細胞膜，此時使用是安全的；真正的致命禁忌期是在燒傷 **24 至 48 小時之後**，並可持續長達數月至數年！"
+        }
+      ]
+    }
+  ]
+}

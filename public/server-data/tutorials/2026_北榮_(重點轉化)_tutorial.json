@@ -1,0 +1,228 @@
+{
+  "id": "2026_北榮_(重點轉化)_tutorial",
+  "paperId": "2026_北榮_(重點轉化)",
+  "title": "2026 北榮腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T23:45:00.000Z",
+  "modules": [
+    {
+      "moduleId": "pregnancy_kidney_disease",
+      "moduleTitle": "1. Pregnancy & Kidney Disease Physiology & High-Risk Complications",
+      "studyGuide": "本模組全方位傳授懷孕期間腎臟血流動力學適應、Preeclampsia 血管生成失衡生物標記、以及 ESKD 孕婦之高強度透析與孕後處置機制。重點剖析生理性 GFR 上升 40-50% 與血壓/血鈉下降、sFlt1 與 sEng 升高搭配 PlGF 下降之診斷警訊、每週 ≥ 37 小時透析之預後改善與目標 Hb 10-11 g/dL 滴定、以及腎移植後藥物與避孕諮詢之臨床實踐。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_48_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_48_4.png",
+          "caption": "Brenner 11e Fig. 48.4: Effect of Pregnancy on Glomerular Filtration Rate (GFR) and Effective Renal Plasma Flow (ERPF).",
+          "sourceBook": "Brenner 11e Ch 48"
+        },
+        {
+          "id": "brenner_fig_48_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_48_8.png",
+          "caption": "Brenner 11e Fig. 48.8: Placental Dysfunction and Endothelial Dysfunction in the Pathogenesis of Preeclampsia.",
+          "sourceBook": "Brenner 11e Ch 48"
+        },
+        {
+          "id": "brenner_fig_48_10",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_48_10.png",
+          "caption": "Brenner 11e Fig. 48.10: Proposed Mechanism of Soluble fms-like Tyrosine Kinase-1 (sFlt1)-Induced Endothelial Dysfunction.",
+          "sourceBook": "Brenner 11e Ch 48"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Renal Hemodynamic Adaptation & Physiological Changes in Normal Pregnancy",
+          "diagram": {
+            "id": "vgh_pregnancy_hemodynamics_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_pregnancy_hemodynamics.jpg",
+            "caption": "Figure 1.1: Renal Hemodynamic Adaptations & Physiological Changes During Normal Pregnancy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "正常懷孕期間，母體發生顯著之全身與腎臟血流動力學重塑：\n1. **Hemodynamic Adaptation & Hyperfiltration**: 受到 Relaxin, Progesterone 與 Nitric Oxide 驅動，Systemic Vascular Resistance (SVR) 顯著下降，引發全身與腎臟入球/出球小動脈擴張。Effective Renal Plasma Flow (ERPF) 於懷孕中期急遽增加 50-80%，進而驅動 Glomerular Filtration Rate (GFR) 上升 40-50%。雖然 ERPF 與 GFR 雙雙大幅上升，但由於 ERPF 上升幅度略高於 GFR，Filtration Fraction (FF) 呈現微幅下降或維持穩定變化。\n2. **Systemic Blood Pressure & Serum Electrolytes**: 全身血管擴張導致血壓於懷孕第一、二孕期下降（平均收縮壓與舒張壓下降約 10 mmHg）。同時，Osmostat 下移使 Vasopressin 釋放閾值降低，配合全身體液擴張，導致 Serum Sodium 濃度下降約 4-5 mEq/L（呈現生理性低血鈉）。血清 Creatinine 與 BUN 亦隨 GFR 超濾過而顯著降低（正常孕婦 Cr 常低於 0.6 mg/dL）。\n\n| Hemodynamic / Electrolyte Parameter | Non-Pregnant Baseline | Pregnant Peak Value | Physiological Vector Change | Primary Molecular Driver |\n| :--- | :--- | :--- | :--- | :--- |\n| **Effective Renal Plasma Flow (ERPF)** | ~ 600 mL/min | 850 - 900 mL/min | **Increased by 50% - 80%** | Relaxin & Nitric Oxide Surge |\n| **Glomerular Filtration Rate (GFR)** | ~ 120 mL/min | 170 - 180 mL/min | **Increased by 40% - 50%** | Renal Vasodilation & Hyperfiltration |\n| **Filtration Fraction (FF)** | ~ 0.20 (20%) | ~ 0.18 - 0.20 | **Minimal Decrease / Stable** | ERPF Rise Exceeds GFR Rise |\n| **Systemic Blood Pressure (BP)** | Baseline | Reduced by ~ 10 mmHg | **Nadir at 2nd Trimester** | SVR Reduction & Vascular Smooth Muscle Relaxation |\n| **Serum Sodium [Na+]** | 140 mEq/L | 135 - 136 mEq/L | **Decreased by 4 - 5 mEq/L** | Osmostat Reset & Plasma Volume Expansion |\n\n| Physiological State | GFR & ERPF Vector | Serum Creatinine Threshold | Serum Sodium Baseline | Filtration Fraction Dynamics |\n| :--- | :--- | :--- | :--- | :--- |\n| **Normal Pregnancy** | Marked Elevation (↑ 50%) | **< 0.6 mg/dL (Physiological)** | **135 - 136 mEq/L (Physiological)** | Slightly Decreased / Stable |\n| **Preeclampsia / Gestational AKI** | Impaired / Falling | **≥ 0.8 - 1.0 mg/dL (Abnormal)** | Highly Variable / Hyponatremic | Decreased due to Endotheliosis |\n| **Non-Pregnant CKD Baseline** | Reduced / Baseline | Baseline Range | 138 - 142 mEq/L | Variable according to Disease |\n\n### Pathophysiological Decision Trees\n- **Pregnancy Hemodynamic Cascade**: Relaxin & Nitric Oxide Surge ➔ Systemic & Renal Vasodilation ➔ SVR Reduction ➔ ERPF Rise (50-80%) & GFR Surge (40-50%) ➔ Serum Cr Drop (< 0.6 mg/dL) & Serum Na Reset.\n\n### Conceptual Trap Analysis\n- **Filtration Fraction Trap**: 切勿以為 GFR 上升必定帶動 Filtration Fraction 上升；懷孕期因 ERPF 的增幅高於 GFR，Filtration Fraction 實際上是微幅下降或維持平穩。"
+        },
+        {
+          "heading": "Angiogenic Imbalance Biomarkers in Preeclampsia: sFlt1, sEng, PP-13 & PlGF Spectrum",
+          "diagram": {
+            "id": "vgh_preeclampsia_biomarkers_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_preeclampsia_biomarkers.jpg",
+            "caption": "Figure 1.2: Pathophysiology of Angiogenic Imbalance & Biomarker Dynamics in Preeclampsia.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Preeclampsia 的發病核心在於胎盤缺氧驅動之抗血管生成因子與促血管生成因子失衡：\n1. **Anti-angiogenic Surge (sFlt1 & sEng)**: 缺氧之胎盤滋養層細胞過量合成並釋放 sFlt1 與 sEng 進入母體血液循環。sFlt1 作為 Decoy Receptor，強效結合並中和母體 VEGF 與 PlGF；sEng 則截獲 TGF-beta1，共同破壞全身血管內皮完整性，引發 Glomerular Endotheliosis 併重度蛋白尿與高血壓。\n2. **Pro-angiogenic & Placental Protein Markers (PlGF & PP-13)**: 在健康懷孕中，PlGF 與 PP-13 保持高濃度以促進胎盤血管重塑。當發生 Preeclampsia 時，血清 PlGF 顯著下降（被高濃度 sFlt1 螯合或合成受阻），而 PP-13 於第一孕期的低下亦預示胎盤著床不良。因此，sFlt1 / PlGF 高比值為診斷與預測 Preeclampsia 高危發作之金標準生物標記。\n\n| Angiogenic / Placental Biomarker | Secretion Source | Molecular Function | Normal Pregnancy Trend | Preeclampsia Disease Trend |\n| :--- | :--- | :--- | :--- | :--- |\n| **sFlt1 (Soluble Flt-1)** | Hypoxic Placental Trophoblasts | VEGF & PlGF Decoy Receptor | Low to Moderate | **Markedly Elevated (High Risk)** |\n| **sEng (Soluble Endoglin)** | Ischemic Placental Tissue | TGF-beta Co-receptor Inhibitor | Low | **Markedly Elevated (Severe Disease)** |\n| **PP-13 (Placental Protein 13)** | Syncytiotrophoblast | Maternal Spiral Artery Remodeling | High | **Depressed in Early Trimester** |\n| **PlGF (Placental Growth Factor)** | Healthy Placenta | Pro-angiogenic Endothelial Driver | **High (Sustained Peak)** | **Markedly Low (Depressed)** |\n\n| Clinical Biomarker Profile | sFlt1 Level | sEng Level | PlGF Level | Pathophysiological Consequence |\n| :--- | :--- | :--- | :--- | :--- |\n| **Healthy Gestational Control** | Low | Low | **Elevated (High)** | Intact Endothelial Signaling & Normal Placentation |\n| **High-Risk Preeclampsia** | **High** | **High** | **Low (Depressed)** | Endothelial Dysfunction & Glomerular Endotheliosis |\n| **Chronic Hypertension Baseline** | Normal Range | Normal Range | Normal Range | Absence of Placental Anti-angiogenic Cascade |\n\n### Pathophysiological Decision Trees\n- **Preeclampsia Angiogenic Cascade**: Shallow Spiral Artery Remodeling ➔ Placental Ischemia ➔ Excessive sFlt1 & sEng Release ➔ VEGF & PlGF Neutralization ➔ Endothelial Dysfunction & Glomerular Endotheliosis ➔ Hypertension & Proteinuria.\n\n### Conceptual Trap Analysis\n- **PlGF Directional Trap**: 觀念切勿顛倒！PlGF 在健康懷孕中為高值，在 Preeclampsia 中呈現低值；高 sFlt1、高 sEng 與低 PlGF / 低 PP-13 才代表高風險 Preeclampsia。"
+        },
+        {
+          "heading": "High-Intensity Hemodialysis & Contraceptive Counseling in ESKD Pregnancy",
+          "diagram": {
+            "id": "vgh_eskd_pregnancy_hd_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_eskd_pregnancy_hd.jpg",
+            "caption": "Figure 1.3: High-Intensity Hemodialysis & Multidisciplinary Management in Pregnant ESKD Patients.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "ESKD 孕婦之血液透析與腎移植後懷孕照護策略：\n1. **Intensive Dialysis Prescription**: 過去 ESKD 孕婦胎兒活產率極低，現代臨床實証顯示必須實施高強度透析（每週透析時數 ≥ 37 小時，每週 6-7 天）。高強度透析能有效控制 BUN < 35-45 mg/dL，防止高血壓與羊水過多，大幅提升活產率與週產期預後。透析期間體重設定與脫水目標需循序漸進增加，避免過度脫水引發胎盤血流灌注不足。\n2. **Anemia Titration & Post-Transplant Counseling**: 孕婦目標血紅素應維持於 10-11 g/dL，需精準調整 ESA 與靜脈鐵劑劑量。對於腎臟移植後女性，即使移植腎功能完全正常，懷孕仍面臨 Preeclampsia、早產與免疫抑制劑致畸胎風險（如 MMF / MPA 必須提前停用換藥），因此絕對需要嚴密避孕與孕前藥物諮詢，絕非不需避孕。\n\n| Clinical Parameter / Domain | Conventional ESKD HD | Pregnant ESKD Intensive HD | Clinical Rationale & Target |\n| :--- | :--- | :--- | :--- |\n| **Weekly Dialysis Hours** | 12 hours/week (4h x 3) | **≥ 37 hours/week (6-7 days)** | Reduces Uremic Toxin Peak & Normalizes Polyhydramnios |\n| **Target Predialysis BUN** | < 60 - 70 mg/dL | **< 35 - 45 mg/dL** | Prevents Uremic Fetal Toxicity & Improves Live Birth |\n| **Target Hemoglobin (Hb)** | 10.0 - 11.5 g/dL | **10.0 - 11.0 g/dL** | Optimizes Fetal Oxygenation with ESA & IV Iron |\n| **Ultrafiltration Strategy** | Aggressive Dry Weight | **Gradual Target Weight Gain** | Prevents Hypotension & Placental Hypoperfusion |\n\n| Post-Transplant Reproductive State | Renal Function Status | Contraceptive Requirement | Medication Adjustment Strategy |\n| :--- | :--- | :--- | :--- |\n| **Stable Kidney Transplant** | Normal Cr (eGFR > 60) | **Mandatory (Required)** | Switch MMF/MPA to Azathioprine ≥ 6 weeks Prior |\n| **Unstable / Active Rejection** | Elevated Cr / Active | **Strictly Contraindicated** | Defer Pregnancy until Graft Stability achieved |\n| **ESKD on Maintenance HD** | Dialysis Dependent | **Mandatory until Intensive HD** | Escalate HD to ≥ 37h/wk upon Conception |\n\n### Pathophysiological Decision Trees\n- **Intensive HD Fetal Protection Path**: ESKD Pregnancy Conception ➔ Escalate HD to ≥ 37 hrs/week ➔ Suppress Predialysis BUN < 35-45 mg/dL ➔ Gentle Ultrafiltration ➔ Preserve Placental Perfusion & Maximize Live Birth Rate.\n\n### Conceptual Trap Analysis\n- **Post-Transplant Contraception Trap**: 切勿誤以為移植後腎功能正常即不需避孕；移植患者仍受免疫抑制劑致畸風險與 Preeclampsia 高風險威脅，必須接受專業避孕與計畫性孕前諮詢。"
+        }
+      ]
+    },
+    {
+      "moduleId": "diuretics_pharmacokinetics_resistance",
+      "moduleTitle": "2. Diuretic Pharmacokinetics, Resistance Mechanisms & TIH Pathophysiology",
+      "studyGuide": "本模組精通 Loop 與 Thiazide 利尿劑之管腔作用動力學、Diuretic Resistance / Braking Phenomenon 克服對策、以及 TIH 與 SLCO2A1 基因變異之分子生理學。重點解析 Albumin 促進 Furosemide S2 管腔分泌、NSAIDs 競爭性阻斷管腔傳遞、結合不同腎小管段落利尿劑（Sequential Nephron Blockade）與矯正酸中毒破除 Braking、以及 SLCO2A1 變異導致尿液 PGE2 升高驅動 AQP2 水重吸收之非 AVP 依賴性 TIH 機轉。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_50_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_12.png",
+          "caption": "Brenner 11e Fig. 50.12: Effects of Nonsteroidal Antiinflammatory Drugs (NSAIDs) on Furosemide Response.",
+          "sourceBook": "Brenner 11e Ch 50"
+        },
+        {
+          "id": "brenner_fig_50_13",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_13.png",
+          "caption": "Brenner 11e Fig. 50.13: Management of Patient with Resistance to a Loop Diuretic (Sequential Nephron Blockade).",
+          "sourceBook": "Brenner 11e Ch 50"
+        },
+        {
+          "id": "brenner_fig_50_19",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_19.png",
+          "caption": "Brenner 11e Fig. 50.19: Role of SLCO2A1 Prostaglandin Transporter in Thiazide-Induced Hyponatremia (TIH).",
+          "sourceBook": "Brenner 11e Ch 50"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Loop Diuretic Pharmacokinetics & Albumin / NSAID Tubular Delivery Dynamics",
+          "diagram": {
+            "id": "vgh_loop_diuretic_kinetics_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_loop_diuretic_kinetics.jpg",
+            "caption": "Figure 2.1: Tubular Secretion & Pharmacokinetic Interactions of Furosemide with Albumin & NSAIDs.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Loop 利尿劑（如 Furosemide）必須經由血液循環傳遞至腎臟 Proximal Tubule 並主動分泌至管腔中，方能作用於 Thick Ascending Limb (TAL) 之 NKCC2 運送體：\n1. **Role of Serum Albumin in Tubular Delivery**: Furosemide 在血液中具高蛋白結合率 (95%)。Serum Albumin 作為藥物載體，能促進其在 Proximal Tubule S2 段透過 OAT1 / OAT3 進行主動攝取與管腔分泌。同時，Albumin 能抑制 S1 段對 Furosemide 的過早代謝攝取。在重度 Nephrotic Syndrome 或 Severe Hypoalbuminemia 下，藥物全身分布容積增大，傳遞至 S2 段之效率下降，導致利尿效果受損。\n2. **NSAID Pharmacokinetic Competition**: NSAIDs 透過兩重機制強效抑制 Loop 利尿劑反應：(1) NSAIDs 競爭性結合 OAT1 / OAT3 運送體，減少 Furosemide 進入 Proximal Tubule 管腔之傳送量；(2) NSAIDs 抑制腎臟 PGE2 / PGI2 合成，解除其對 Henle 髓袢與 DCT 鈉重吸收的生理性抑制，降低管壁利尿反應。\n\n| Pharmacokinetic Domain | Transport / Molecular Target | Anatomical Site | Interacting Agent | Diuretic Response Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **OAT1 / OAT3 Secretion** | Organic Anion Transporters | Proximal Tubule (S2 Segment) | **Albumin (Carrier)** | Promotes Uptake & Luminal Secretion |\n| **S1 Metabolism Clearance** | Tubular Clearance Enzymes | Proximal Tubule (S1 Segment) | **Albumin (Inhibitor)** | Prevents Premature Degradation |\n| **Luminal OAT Competition** | OAT1 / OAT3 Competition | Proximal Tubule (S2 Segment) | **NSAIDs (Competitive)** | Reduces Furosemide Luminal Delivery |\n| **Hemodynamic Secretion** | Prostaglandin Synthesis | Renal Microvasculature | **NSAIDs (COX Inhibitor)** | Impairs Natriuresis & Reduces GFR |\n\n| Pharmacokinetic Factor | Normal Physiological Baseline | Hypoalbuminemia / NSAID Co-administration | Clinical Management Adjustment |\n| :--- | :--- | :--- | :--- |\n| **Albumin-Furosemide Binding** | High Binding (> 95%) | Decreased Effective Delivery | Administer Furosemide-Albumin Complex |\n| **OAT Luminal Transport Rate** | High Secretion Capacity | Inhibited by NSAIDs Competition | Discontinue NSAIDs / Increase Dose |\n| **Prostaglandin Synergism** | Intact Renal Vasodilation | Blunted by COX Blockade | Avoid NSAID Combination |\n\n### Pathophysiological Decision Trees\n- **Furosemide Delivery Cascade**: IV Furosemide Administration ➔ Albumin Complex Transport to Renal Circulation ➔ OAT1/OAT3 Secretion at S2 Proximal Tubule ➔ Luminal Entry into TAL ➔ NKCC2 Blockade ➔ Profound Natriuresis.\n\n### Conceptual Trap Analysis\n- **Albumin Dual-Action Trap**: Albumin 對 Furosemide 的作用具區段差異性：在 S2 段促進攝取與管腔分泌，在 S1 段抑制其代謝與攝取；切勿混淆兩者部位。"
+        },
+        {
+          "heading": "Diuretic Resistance & Braking Phenomenon Rescue Pathways",
+          "diagram": {
+            "id": "vgh_diuretic_braking_rescue_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_diuretic_braking_rescue.jpg",
+            "caption": "Figure 2.2: Cellular Mechanisms of Diuretic Braking & Sequential Nephron Blockade Rescue.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "長期使用 Loop 利尿劑後，腎臟會啟動自體補償性 Braking Phenomenon：\n1. **Mechanisms of Diuretic Braking**: 當 Loop 利尿劑阻斷 TAL 之 NKCC2 後，大量未重吸收的鈉離子湧入下游 Distal Convoluted Tubule (DCT) 與 Collecting Duct (CD)。在長天期高鈉負載與 RAAS 活化驅動下，DCT 上皮細胞發生肥大與增生，使 Thiazide-sensitive Na-Cl Cotransporter (NCC) 與 ENaC 表現量大幅上調，極強化下游鈉重吸收，導致 Loop 利尿劑效果隨時間顯著遞減。\n2. **Clinical Rescue Pathways**: 臨床破除 Diuretic Resistance 之三大核心步驟：(1) **Strict Sodium Restriction**: 限制每日鈉鹽攝取，防止利尿劑藥效消退期間之腎管跳躍性高鈉重吸收；(2) **Sequential Nephron Blockade**: 結合不同腎小管作用點之利尿劑，於 Loop 利尿劑基礎上加用 DCT 阻斷劑（如 Thiazide / Metolazone）或 CD 阻斷劑（如 Spironolactone / Amiloride），封鎖上皮肥大帶來之補償性鈉重吸收；(3) **Correction of Metabolic Acidosis**: 代謝性酸中毒會削弱 Loop 利尿劑管腔反應，補充電解質與鹼化能恢復利尿敏感性。\n\n| Nephron Segment | Native Ion Transporter | Remodeling under Loop Diuretics | Combined Inhibitory Drug | Natriuretic Synergism |\n| :--- | :--- | :--- | :--- | :--- |\n| **Thick Ascending Limb (TAL)** | NKCC2 Cotransporter | Primary Inhibition Site | Furosemide / Bumetanide | Primary Loop Blockade |\n| **Distal Convoluted Tubule** | NCC (Na-Cl Cotransporter) | **Hypertrophy & Upregulation** | **Thiazide / Metolazone** | **Sequential Nephron Blockade** |\n| **Collecting Duct (Cortical)** | ENaC & ROMK Channels | Aldosterone-Driven Surge | Spironolactone / Amiloride | Distal K-sparing Blockade |\n| **Proximal Tubule (PT)** | NHE3 & Carbonic Anhydrase | Acidosis-Induced Stimulation | Sodium Bicarbonate / Acetazolamide | Restores Diuretic Responsiveness |\n\n| Resistance Mechanism | Underlying Pathophysiology | Clinical Biomarker / Feature | Key Therapeutic Rescue Strategy |\n| :--- | :--- | :--- | :--- |\n| **Distal Tubule Hypertrophy** | Upregulated NCC Transport | Diminished Natriuresis over time | **Add Thiazide (Sequential Blockade)** |\n| **High Sodium Intake Counteract** | Post-diuretic Sodium Retention | High Urinary Sodium Excretion | **Strict Dietary Sodium Restriction** |\n| **Severe Metabolic Acidosis** | Impaired Diuretic Responsiveness | Low Plasma Bicarbonate (< 18) | **Correct Metabolic Acidosis (NaHCO3)** |\n| **NSAID Co-administration** | Reduced OAT Delivery & COX Blockade | High Blood Pressure & Low GFR | **Discontinue NSAID Therapy** |\n\n### Pathophysiological Decision Trees\n- **Braking & Rescue Pathway**: Chronic Loop Diuretic ➔ Downstream Distal Tubule Surge ➔ DCT Epithelial Hypertrophy & NCC Upregulation ➔ Braking Phenomenon ➔ Initiate Sequential Nephron Blockade (Add Thiazide) + Restrict Sodium ➔ Restored Diuresis.\n\n### Conceptual Trap Analysis\n- **Braking Rescue Trap**: 當出現 Loop 利尿劑耐藥時，單純無限追加 Loop 利尿劑劑量效益極低；最佳臨床策劃為實施 Sequential Nephron Blockade（加用 Thiazide）並矯正代謝性酸中毒。"
+        },
+        {
+          "heading": "Thiazide-Induced Hyponatremia (TIH) & SLCO2A1-PGE2 Pathophysiology",
+          "diagram": {
+            "id": "vgh_thiazide_hyponatremia_slco2a1_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_thiazide_hyponatremia_slco2a1.jpg",
+            "caption": "Figure 2.3: Molecular Pathophysiology of Thiazide-Induced Hyponatremia (TIH) & SLCO2A1 Transporter Mutation.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "TIH 為臨床常見且具潛在致命性之重度低血鈉併發症：\n1. **Clinical & Hemodynamic Features of TIH**: TIH 通常發生於啟動 Thiazide 利尿劑治療後的前 2 週內。與經典 Hypovolemic Hyponatremia 不同，TIH 患者多數呈現體重增加與水份滯留，臨床表現類似 SIADH 之稀釋性低血鈉。\n2. **SLCO2A1 Gene Mutation & Non-AVP Mechanism**: 近年基因體學發現 SLCO2A1 變異與 TIH 發生高度相關。正常情況下，PGT 負責將管腔液中之 PGE2 清除重吸收；當 SLCO2A1 基因發生變異損害 PGT 功能時， Collecting Duct 管腔內 PGE2 濃度顯著升高。極高濃度之管腔 PGE2 活化 Apical EP4 受體，直接驅動 Aquaporin-2 (AQP2) 水通道嵌入管腔膜，造成大量自由水重吸收與稀釋性低血鈉。此機轉完全獨立於 Arginine Vasopressin (AVP) 外，亦即並不直接導致血清 AVP 升高。\n\n| Molecular / Clinical Component | Normal PGT Function | SLCO2A1 Genetic Mutation (TIH) | Receptor Interaction | Downstream Physiological Impact |\n| :--- | :--- | :--- | :--- | :--- |\n| **SLCO2A1 (PGT Transporter)** | Clears Prostaglandin E2 (PGE2) | **Loss-of-Function Mutation** | Apical Collecting Duct Membrane | Impaired PGE2 Clearance |\n| **Urinary PGE2 Concentration** | Normal Low Level | **Markedly Elevated** | Binds Luminal EP4 Receptors | Drives AQP2 Translocation |\n| **Aquaporin-2 (AQP2) Channel** | Regulated by AVP | **Apical Insertion via EP4** | Luminal Collecting Duct Membrane | Excessive Free Water Reabsorption |\n| **Circulating AVP (ADH) Level** | Standard Osmotic Control | **Not Directly Elevated (Independent)** | Systemic Circulation | Non-AVP Mediated Hyponatremia |\n\n| Hyponatremia Etiology | Clinical Volume Status | Onset Time Window | Primary Urinary Biomarker Feature | Pathophysiological Mechanism |\n| :--- | :--- | :--- | :--- | :--- |\n| **Thiazide-Induced (TIH)** | Euvolemic / Weight Gain | **First 2 Weeks of Therapy** | **High Urinary PGE2 (SLCO2A1 mutation)** | Non-AVP AQP2 Insertion via EP4 |\n| **Loop Diuretic Hyponatremia** | Hypovolemic (Dehydrated) | Variable (Dose-dependent) | High Fractional Excretion of Na | Impaired Medullary Concentration Gradient |\n| **Classic SIADH** | Euvolemic | Chronic / Insidious | Elevated Plasma AVP | Central Pituitary AVP Hypersecretion |\n\n### Pathophysiological Decision Trees\n- **TIH Molecular Pathway**: Thiazide Initiation ➔ SLCO2A1 Mutation ➔ Impaired PGT PGE2 Uptake ➔ Urinary PGE2 Surge ➔ Luminal EP4 Activation ➔ AQP2 Membrane Insertion ➔ Water Retention & TIH (First 2 weeks).\n\n### Conceptual Trap Analysis\n- **TIH Mechanism Trap**: SLCO2A1 基因變異引發 TIH 的核心在於導致尿液 PGE2 升高並經由 EP4 驅動 AQP2；切勿錯答為直接導致 AVP 升高，此機轉與血清 AVP 無關。"
+        }
+      ]
+    },
+    {
+      "moduleId": "clinical_high_yield_nephrology",
+      "moduleTitle": "3. Clinical High-Yield Nephrology: Calciphylaxis, TIO, Hematology, Nephrotoxins & CRRT Kinetics",
+      "studyGuide": "本模組橫跨臨床專科高頻考點。剖析 Calciphylaxis (CUA) 微血管鈣化與 Sodium Thiosulfate 處置、TIO 之 FGF23 腎磷流失與 NaPi-2a / 2c 抑制、ESA Hyporesponsiveness & PRCA 抗體發病機制、Acute Phosphate & Oxalate 結晶性腎病變、Hantavirus HFRS 處置、CRRT Filtration Fraction 計算與 Citrate Toxicity 累積診斷、以及 Propofol 綠色尿液特徵。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_53_11",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_53_11.png",
+          "caption": "Brenner 11e Fig. 53.11: Pathophysiology of Vascular Calcification and Calcific Uremic Arteriolopathy (Calciphylaxis).",
+          "sourceBook": "Brenner 11e Ch 53"
+        },
+        {
+          "id": "brenner_fig_53_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_53_15.png",
+          "caption": "Brenner 11e Fig. 53.15: Fibroblast Growth Factor 23 (FGF-23) Pathophysiology in Tumor-Induced Osteomalacia (TIO).",
+          "sourceBook": "Brenner 11e Ch 53"
+        },
+        {
+          "id": "brenner_fig_55_9",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_55_9.png",
+          "caption": "Brenner 11e Fig. 55.9: Evaluation and Diagnostic Protocol for Chronic Kidney Disease Anemia & PRCA.",
+          "sourceBook": "Brenner 11e Ch 55"
+        },
+        {
+          "id": "brenner_fig_38_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_5.png",
+          "caption": "Brenner 11e Fig. 38.5: Histopathology of Intratubular Crystal Deposition and Birefringent Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Calciphylaxis (CUA) Pathophysiology, Warfarin Risk & Sodium Thiosulfate Protocol",
+          "diagram": {
+            "id": "vgh_calciphylaxis_cua_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_calciphylaxis_cua.jpg",
+            "caption": "Figure 3.1: Pathophysiology of Calciphylaxis (CUA) & Mechanism of Sodium Thiosulfate Rescue.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Calciphylaxis (CUA) 為透析病患致命之微血管血栓鈣化疾病：\n1. **Pathophysiology & Warfarin Risk Factor**: CUA 發生於 ESRD、糖尿病、高 PTH 及高 Ca x P 乘積病患。其病理為皮下組織與真皮層中小型動脈中層微血管發生劇烈 Medial Calcification 與內膜纖維化血栓。使用 Warfarin 為極重要危險因子，因 Warfarin 抑制 Vitamin K 依賴性之 MGP 羧基化，解除 MGP 對血管鈣化的生理抑制。臨床特徵為極度疼痛之紅斑、缺血性皮下結節，快速進展為潰瘍與 Black Eschar。\n2. **Multi-Modal Management Protocol**: 治療首重：(1) **Sodium Thiosulfate (STS)**: 作為強效抗氧化劑與螯合劑，增加鈣鹽溶解度；(2) **Stop Warfarin**: 立即停用 Warfarin，改用 Apixaban 或 Direct Thrombin Inhibitors；(3) **Optimize Mineral Axis**: 嚴格控制血鈣、血磷與 PTH（重度 SHPT 考慮 Parathyroidectomy）；(4) **Wound Care & Debridement**: 積極感染控制與必要時外科清創。\n\n| Molecular / Clinical Factor | Physiological Function | Pathological Alteration in CUA | Clinical Action / Target |\n| :--- | :--- | :--- | :--- |\n| **Matrix Gla Protein (MGP)** | Potent Vascular Calcification Inhibitor | **Inhibited by Warfarin Therapy** | **Stop Warfarin Immediately** |\n| **Calcium-Phosphate Product** | Mineral Ion Solubility Threshold | **Elevated (Ca x P > 55 mg2/dL2)** | Aggressive Phosphate Binders |\n| **Subcutaneous Small Arterioles** | Dermal Microvascular Perfusion | **Medial Calcification & Thrombosis** | Painful Erythema & Black Eschar |\n| **Sodium Thiosulfate (STS)** | Antioxidant & Calcium Chelator | **Forms Soluble Calcium Thiosulfate** | **Infuse IV STS (25g post-HD)** |\n\n| Clinical Entity | Predominant Calcification Site | Pathognomonic Lesion | Key Medication Contraindication |\n| :--- | :--- | :--- | :--- |\n| **Calciphylaxis (CUA)** | Cutaneous Small Arterioles (Media) | **Painful Erythema ➔ Black Eschar** | **Warfarin (Coumadin)** |\n| **Mönckeberg Arteriosclerosis** | Large/Medium Muscular Arteries | Medial Calcification (No Eschar) | Non-specific |\n| **Atherosclerotic Ischemia** | Arterial Intima (Plaque Rupture) | Ulcerated Gangrene (Non-CUA) | Non-specific |\n\n### Pathophysiological Decision Trees\n- **CUA Pathogenesis & Rescue**: ESRD + DM + Warfarin ➔ MGP Carboxylation Inhibition ➔ Arteriolar Medial Calcification & Thrombosis ➔ Ischemic Necrosis & Black Eschar ➔ Stop Warfarin + IV Sodium Thiosulfate + Parathyroidectomy.\n\n### Conceptual Trap Analysis\n- **Warfarin & CUA Trap**: 切勿在 CUA 病患中使用 Warfarin；Warfarin 抑制 MGP 為引發與加重血管鈣化的致命推手，必須立即停藥並更換抗凝方案。"
+        },
+        {
+          "heading": "Tumor-Induced Osteomalacia (TIO) & FGF23-NaPi-2a/2c Renal Phosphate Wasting",
+          "diagram": {
+            "id": "vgh_tio_fgf23_napi_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_tio_fgf23_napi.jpg",
+            "caption": "Figure 3.2: Pathophysiology of Tumor-Induced Osteomalacia (TIO) & FGF23 Renal Phosphate Wasting Cascade.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "TIO 為良性 Phosphaturic Mesenchymal Tumor 過量分泌 FGF23 引發之獲得性代謝性骨病：\n1. **Molecular Pathophysiology of TIO**: 腫瘤細胞過量合成並分泌 FGF23。FGF23 作用於 Proximal Tubule 之 FGFR1-Klotho 受體複合物，產生雙重打擊：(1) **Downregulates NaPi-2a & NaPi-2c**: 內化並降解 Proximal Tubule 頂端膜 NaPi-2a / 2c 共運送體，引發重度 Renal Phosphate Wasting 與低磷血症；(2) **Suppresses 1-alpha-hydroxylase**: 抑制 1-alpha-hydroxylase 並活化 24-hydroxylase，導致活性 1,25(OH)2D 合成受阻或低下。\n2. **Laboratory Spectrum & Curative Treatment**: 典型實驗室檢查為：**Normal Serum Calcium, Low Serum Phosphate, Elevated ALP, Elevated Serum FGF23**。病患表現為進行性骨痛、近端肌無力與骨質軟化。唯一根治處置為手術完整切除腫瘤；口服磷酸鹽與 Calcitriol 僅為術前或無法切除者之支持性補充。\n\n| Molecular / Lab Parameter | Normal Baseline | TIO Disease Spectrum | Physiological Mechanism | Targeted Interventions |\n| :--- | :--- | :--- | :--- | :--- |\n| **Serum Phosphate [Pi]** | 2.5 - 4.5 mg/dL | **Markedly Low (Hypophosphatemia)** | Renal Phosphate Wasting via NaPi-2a/2c | Oral Phosphate Supplementation |\n| **Serum Calcium [Ca]** | 8.5 - 10.2 mg/dL | **Normal Level** | Maintained by PTH Normality | Monitor Secondary Hyperparathyroidism |\n| **Alkaline Phosphatase (ALP)** | 40 - 130 U/L | **Markedly Elevated** | High Bone Turnover & Osteomalacia | Bone Healing Indicator |\n| **Circulating FGF23** | Low Baseline | **Inappropriately Elevated** | Secreted by Mesenchymal Tumor | **Curative Surgical Resection** |\n\n| Metabolic Bone Disorder | Serum Calcium | Serum Phosphate | Serum FGF23 | Primary Curative Treatment |\n| :--- | :--- | :--- | :--- | :--- |\n| **Tumor-Induced Osteomalacia (TIO)** | **Normal** | **Markedly Low (Low)** | **Inappropriately High** | **Complete Surgical Tumor Resection** |\n| **XLH (X-linked Hypophosphatemia)** | Normal | Low | High (PHEX mutation) | Burosumab (Anti-FGF23 mAb) |\n| **Nutritional Rickets / Osteomalacia** | Low / Normal | Low | Normal / Low | Vitamin D & Calcium Replacement |\n\n### Pathophysiological Decision Trees\n- **TIO Pathophysiology**: Mesenchymal Tumor ➔ Excessive FGF23 Secretion ➔ Proximal Tubule FGFR1/Klotho Activation ➔ NaPi-2a/2c Downregulation & 1-alpha-hydroxylase Inhibition ➔ Hypophosphatemia & Bone Pain ➔ Curative Tumor Resection.\n\n### Conceptual Trap Analysis\n- **TIO Treatment Trap**: 補充口服磷與 Calcitriol 僅能暫時緩解症狀，切勿誤視為治療首選；TIO 的唯一根治方式為完整手術切除腫瘤。"
+        },
+        {
+          "heading": "ESA Hyporesponsiveness, Bone Marrow Fibrosis & Pure Red Cell Aplasia (PRCA)",
+          "diagram": {
+            "id": "vgh_esa_prca_marrow_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_esa_prca_marrow.jpg",
+            "caption": "Figure 3.3: Pathophysiology of ESA Hyporesponsiveness, Bone Marrow Fibrosis & Pure Red Cell Aplasia (PRCA).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "腎性貧血治療中 ESA 反應不良與 PRCA 之免疫與病理機制：\n1. **ESA Hyporesponsiveness & SHPT Marrow Fibrosis**: ESA 反應不良定義為給予足量 ESA 仍無法達到目標 Hb。常見原因包括缺鐵、慢性發炎、透析不足與營養不良。重度 SHPT 為極重要原因：持續過高之 PTH 驅動骨髓發生 Marrow Fibrosis，取代正常造血空間並抑制紅血球前驅細胞對 ESA 的反應。重度 SHPT 病患接受 Parathyroidectomy 可顯著改善骨髓纖維化並恢復貧血對 ESA 之敏感性。\n2. **Pure Red Cell Aplasia (PRCA)**: 為 ESA 治療引發之抗體中和性嚴重併發症。中和性 Anti-EPO Antibodies 不僅中和外源性 ESA，亦完全破壞內源性 EPO。臨床表現為 **Hb 急遽陡降、Reticulocyte Count 極低 (趨近於 0 / < 10,000/mcL)，而 WBC 與 Platelet 數量完全正常**。處置鐵律：立即停用所有 ESA 劑量，且絕對禁止更換為其他 ESA 品牌（因具交叉抗體反應）。\n\n| Hematological Parameter | Normal ESA Response | ESA Hyporesponsiveness | Pure Red Cell Aplasia (PRCA) | Management Action |\n| :--- | :--- | :--- | :--- | :--- |\n| **Hemoglobin (Hb) Trend** | Stable Target (10-11 g/dL) | Suboptimal / Low | **Rapid Steep Drop** | Discontinue All ESAs |\n| **Reticulocyte Count** | Normal / Elevated | Variable Low | **Near Zero (< 0.5%)** | Pathognomonic Mark |\n| **WBC & Platelet Count** | Normal | Normal | **Strictly Normal** | Isolated Erythroid Lineage Deficit |\n| **Serum Anti-EPO Antibody** | Negative | Negative | **Strongly Positive** | Confirmatory Assay |\n\n| Etiology / Condition | Bone Marrow Pathological Feature | Reticulocyte Spectrum | Primary Clinical Interventions |\n| :--- | :--- | :--- | :--- |\n| **Severe SHPT Hyperparathyroidism** | **Marrow Fibrosis (Osteitis Fibrosa)** | Low / Blunted Response | **Parathyroidectomy (PTX)** |\n| **ESA-Induced PRCA** | **Isolated Absence of Erythroblasts** | **Near Zero (Reticulopenia)** | **Immediate Cessation of ALL ESAs** |\n| **Absolute Iron Deficiency Anemia** | Iron Stain Negative (No Hemosiderin) | Blunted Response | IV Iron Supplementation |\n\n### Pathophysiological Decision Trees\n- **PRCA Cascade**: Exogenous ESA Therapy ➔ Anti-EPO Neutralizing Antibodies Formation ➔ Complete Neutralization of ESA & Endogenous EPO ➔ Bone Marrow Erythroblast Aplasia ➔ Reticulocytes Drop to Zero ➔ Immediate Withdrawal of All ESAs.\n\n### Conceptual Trap Analysis\n- **PRCA Management Trap**: 發生 PRCA 時切勿嘗試更換另一種 ESA 品牌！所有 ESA 均具抗體交叉反應，唯一的正確處置為立即全面停用所有 ESA 藥物。"
+        },
+        {
+          "heading": "Acute Phosphate & Oxalate Nephropathy: Intratubular Crystal AKI",
+          "diagram": {
+            "id": "vgh_acute_crystal_nephropathy_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_acute_crystal_nephropathy.jpg",
+            "caption": "Figure 3.4: Histopathology & Microstructural Comparison of Acute Phosphate vs Oxalate Nephropathy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Crystal Nephropathy 導致暴發性 AKI 之病理生理剖析：\n1. **Acute Phosphate Load Nephropathy**: 常見於大腸鏡檢查前口服 Sodium Phosphate 瀉劑。海量磷酸鹽負荷遠超腎小管重吸收能力，在管腔內與鈣離子結合，形成 Calcium-Phosphate 沉積於腎小管與間質（Nephrocalcinosis），引發急劇 AKI、嚴重高磷血症、低鈣血症與反應性 PTH 升高。\n2. **Acute Oxalate Nephropathy**: 由高草酸飲食（如菠菜、Kale、甜菜、堅果、星蘋果）或腸源性吸收過量引起。Calcium-Oxalate 結晶沉積於腎小管管腔引發阻塞與上皮細胞壞死。Polarized Light Microscopy 下切片展現特徵性 Birefringent 結晶。\n\n| Crystal Nephropathy Type | Primary Clinical Trigger | Serum Electrolyte Alteration | Pathognomonic Histopathology | Polarized Light Feature |\n| :--- | :--- | :--- | :--- | :--- |\n| **Acute Phosphate Nephropathy** | Oral Sodium Phosphate Bowel Prep | **High Pi, Low Ca, High PTH** | Tubular Calcium-Phosphate Deposition | Amorphous Non-birefringent Deposits |\n| **Acute Oxalate Nephropathy** | High Oxalate Foods (Spinach/Nuts) | Normal or Secondary AKI | Intratubular Calcium-Oxalate Crystals | **Strongly Birefringent Crystals** |\n\n| Feature Domain | Acute Phosphate Load Nephropathy | Acute Oxalate Nephropathy |\n| :--- | :--- | :--- |\n| **Underlying Etiology** | Oral Sodium Phosphate Bowel Cleanser | High Oxalate Intake / Enteric Hyperoxaluria |\n| **Microscopic Crystal Morphology** | Amorphous Basophilic Intratubular Deposits | Envelope / Dumbbell Shaped Crystals |\n| **Birefringence under Polarized Light** | Negative / Amorphous | **Positive (Strong Birefringence)** |\n| **Primary Preventative Strategy** | Avoid Sodium Phosphate in CKD Patients | Hydration & Dietary Oxalate Restriction |\n\n### Pathophysiological Decision Trees\n- **Acute Oxalate AKI Path**: High Oxalate Intake ➔ Intestinal Oxalate Surge & Tubular Secretion ➔ Intratubular Calcium-Oxalate Supersaturation ➔ Birefringent Crystal Deposition ➔ Tubular Obstruction & AKI.\n\n### Conceptual Trap Analysis\n- **Crystal Birefringence Trap**: 切勿混淆結晶的光學特徵！Calcium Oxalate 在偏振光下呈強 Birefringent；而 Calcium Phosphate 呈無定形非雙折光沉積。"
+        },
+        {
+          "heading": "CRRT Filtration Fraction Kinetics, Citrate Lock & Environmental / Toxin Spectrum",
+          "diagram": {
+            "id": "vgh_crrt_citrate_propofol_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/vgh_crrt_citrate_propofol.jpg",
+            "caption": "Figure 3.5: CRRT Filtration Fraction Dynamics, Citrate Accumulation Toxicity & Propofol Green Urine.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Critical Care Nephrology 中 CRRT 濾過動力學、Citrate 毒性與環境毒素處理：\n1. **CRRT Filtration Fraction (FF) Kinetics**: CRRT 中 Filtration Fraction 計算公式為 $FF = Q_{uf} / Q_{plasma} = Q_{uf} / [Q_B \times (1 - Hct)]$。當 FF > 25% 時，濾過器內血液極度濃縮、黏稠度大增，導致 Transmembrane Pressure (TMP) 升高與 Filter Clotting 風險暴增。應透過調整 QB 或改為 Pre-dilution 來降低 FF。\n2. **Citrate Accumulation Toxicity & Environmental / Toxin Spectrum**:\n   - **Citrate Lock / Accumulation**: 發生於肝衰竭、休克或乳酸中毒病患。 Citrate 無法於肝臟肌肉代謝，引發 Citrate 累積。診斷金標準為 Total Calcium / Ionized Calcium 比值 > 2.5，伴隨高總鈣、低游離鈣與代謝性酸中毒。處置為降低或立即停用 Citrate 幫浦。\n   - **Hantavirus HFRS**: 接觸舊倉庫鼠類排泄物，表現為發燒、血小板低下、肺部浸潤與 AKI，處置以支持性療法為主。\n   - **Propofol Green Urine**: Propofol 酚類代謝物經腎臟排泄導致尿液呈現綠色，屬良性現象，減量或停藥觀察即可。\n\n| Clinical Entity / Toxin | Key Pathophysiological Parameter | Diagnostic Signature / Cutoff | Primary Management Action |\n| :--- | :--- | :--- | :--- |\n| **High CRRT Filtration Fraction** | $FF = Q_{uf} / [Q_B \times (1 - Hct)]$ | **FF > 25% (High Clotting Risk)** | Increase QB or Switch to Pre-dilution |\n| **Citrate Accumulation Toxicity** | Impaired Liver Citrate Metabolism | **Total Ca / Ionized Ca Ratio > 2.5** | **Reduce or Stop Citrate Infusion** |\n| **Hantavirus HFRS Infection** | Rodent Vector Excreta Exposure | Fever, Thrombocytopenia, AKI | Supportive Care & Fluid Titration |\n| **Propofol Discoloration** | Phenolic Urinary Metabolites | **Benign Green Urine Discoloration** | Reassurance & Observe / Dose Reduction |\n\n| Parameter Domain | Normal CRRT / Metabolism Status | Citrate Toxicity / Clotting Impairment |\n| :--- | :--- | :--- |\n| **CRRT Filtration Fraction (FF)** | FF ≤ 20 - 25% | **FF > 25% (Filter Clotting)** |\n| **Total / Ionized Calcium Ratio** | Ratio < 2.0 | **Ratio > 2.5 (Citrate Accumulation)** |\n| **Propofol Urine Color Manifestation** | Normal Straw Yellow | **Benign Green Urine Discoloration** |\n\n### Pathophysiological Decision Trees\n- **Citrate Accumulation Path**: Liver Failure / Shock ➔ Impaired Citrate Metabolism ➔ Citrate Chelation of Ionized Calcium ➔ Total/Ionized Ca Ratio > 2.5 & Acidosis ➔ Reduce or Stop Citrate Infusion.\n\n### Conceptual Trap Analysis\n- **Propofol Green Urine Trap**: 遇 Propofol 導致的綠色尿液切勿驚慌！此非綠膿桿菌感染或膽道廔管，為酚類代謝物之良性呈色，免除過度檢查。"
+        }
+      ]
+    }
+  ]
+}

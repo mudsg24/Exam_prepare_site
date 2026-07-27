@@ -1,0 +1,336 @@
+{
+  "id": "2026_台大考訓_(重點轉化)_tutorial",
+  "paperId": "2026_台大考訓_(重點轉化)",
+  "title": "2026 台大腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T23:35:00.000Z",
+  "modules": [
+    {
+      "moduleId": "mineral_electrolytes_tubular_transport",
+      "moduleTitle": "1. Mineral & Bone Disorders, Tubular Electrolyte Transporters & Hormonal Regulations",
+      "studyGuide": "本模組深研 Proximal Tubule (PT) 之 Calcium 與 Phosphate 重吸收機制、 Parathyroid Hormone (PTH) 之雙重調控、 Phosphatonins (FGF-23, sFRP-4, MEPE) 對 1-alpha-hydroxylase (CYP27B1) 之轉錄抑制、 NHERF-1 腳架蛋白對 NHE3 內吞與 NaPi-IIa/c 膜穩定之差異化調控、以及 Aldosterone 驅動 SGK-1 促進 ENaC 膜表達與 K 排泄之五大路徑 (明確釐清其非直接活化 ROMK)。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_7_18",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_7_18.png",
+          "caption": "Brenner 11e Fig. 7.18: Mechanisms of Phosphate Transport Across Proximal Tubular Epithelium & Na-Pi Cotransporter Internalization.",
+          "sourceBook": "Brenner 11e Ch 7"
+        },
+        {
+          "id": "brenner_fig_7_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_7_6.png",
+          "caption": "Brenner 11e Fig. 7.6: Passive Paracellular Calcium Transport via Claudin-2 in Proximal Tubule & Independence of Direct PTH Regulation.",
+          "sourceBook": "Brenner 11e Ch 7"
+        },
+        {
+          "id": "brenner_fig_12_10",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_12_10.png",
+          "caption": "Brenner 11e Fig. 12.10: Mechanisms of SGK-1 Regulation of ENaC Surface Expression and Potassium Secretion in Principal Cells.",
+          "sourceBook": "Brenner 11e Ch 12"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Proximal Tubular Calcium & Phosphate Transport Topology & PTH Dual Regulation",
+          "diagrams": [
+            {
+              "id": "brenner_fig_7_6_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_7_6.png",
+              "caption": "Brenner 11e Fig. 7.6: Passive Paracellular Calcium Transport via Claudin-2 in Proximal Tubule & Independence of Direct PTH Regulation.",
+              "sourceBook": "Brenner 11e Ch 7"
+            },
+            {
+              "id": "ntu_tubular_transport_fig1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_tubular_transport_mbd.jpg",
+              "caption": "Figure 1.1: Cellular Mechanisms of Proximal Tubular Calcium and Phosphate Transport & Hormonal Regulation.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 7]\n\n在腎小球過濾後， Proximal Tubule (PT) 是承擔電解質與礦物質重吸收最主要的腎元節段。然而， Calcium 與 Phosphate 在 PT 的重吸收物理機制與受 Parathyroid Hormone (PTH) 調控的模式存在顯著差異：\n\n1. **Proximal Tubular Calcium Transport & PTH Independence**:\n   過濾的 Calcium 中約 60-70% 在 PT 被重吸收。此處的重吸收主要經由 Passive Paracellular Pathway 進行。其驅動力來自於 Early PT 內 Sodium 與水被大量重吸收所引發的 Solvent Drag，以及 Late PT 中因 Bicarbonate 優先被重吸收而導致管腔內 Chloride 濃度升高所建立的 Lumen-Positive Transepithelial Potential。主要通透孔道由 Claudin-2 構成。極為重要的是，PT 的 Calcium 重吸收完全不受 PTH 的直接調控！ PTH 對 Calcium 重吸收的刺激作用主要發生於下游之 Thick Ascending Limb (TAL) 與 Distal Convoluted Tubule (DCT)。\n\n2. **Proximal Tubular Phosphate Transport & PTH-Induced Phosphaturia**:\n   過濾的 Phosphate 中約 80% 在 PT 被重吸收。其過程為 Secondary Active Transcellular Transport，由 Apical Membrane 上的 NaPi-IIa (SLC34A1) 與 NaPi-IIc (SLC34A3) 同向轉運體介導。當 PTH 結合至 Basolateral Membrane 上的 PTH1R 時，會同時激活 cAMP-PKA 與 PKC 訊號通路，促使 Apical NaPi-IIa/c 發生磷酸化並從膜上解離，進入 Endocytic Vesicles 最終至 Lysosomes 被降解，引發強烈的 Phosphaturic Effect。\n\n| Transporter / Channel | Anatomic Localization | Primary Transport Pathway | Driving Force / Energy | PTH Hormonal Responsiveness |\n| :--- | :--- | :--- | :--- | :--- |\n| **Claudin-2 Paracellular Channel** | Proximal Convoluted Tubule | Passive Paracellular | Solvent drag & Lumen-positive voltage | **Independent of Direct PTH Action** |\n| **NaPi-IIa (SLC34A1)** | Proximal Tubule Apical Membrane | Secondary Active Transcellular | Na+/K+-ATPase electrochemical gradient | **Inhibited via Endocytosis & Lysosomal Degradation** |\n| **NaPi-IIc (SLC34A3)** | Proximal Tubule Apical Membrane | Secondary Active Transcellular | Na+/K+-ATPase electrochemical gradient | **Inhibited via Endocytosis & Lysosomal Degradation** |\n| **TRPV5 Cation Channel** | Distal Convoluted Tubule (DCT) | Active Transcellular | Electrochemical & PTH-stimulated gating | **Stimulated via PKA Phosphorylation & Membrane Retention** |\n\n| Mineral / Electrolyte | Primary Nephron Reabsorption Site | Dominant Transport Mechanism | Primary Regulatory Factor | Key Clinical Disorder / Mutation |\n| :--- | :--- | :--- | :--- | :--- |\n| **Calcium (Ca2+)** | Proximal Tubule (60-70%) | Passive Paracellular (Claudin-2) | Extracellular fluid volume status | Idiopathic Hypercalciuria / Nephrolithiasis |\n| **Phosphate (HPO42-)** | Proximal Tubule (80%) | Secondary Active Transcellular (NaPi-IIa/c) | PTH, FGF-23, Dietary Phosphate | Hereditary Hypophosphatemic Rickets (HHRH) |\n\n### Pathophysiological Decision Trees\n- **PTH-Induced Phosphaturia Pathway**: PTH Binding to PTH1R ➔ PKA & PKC Activation ➔ Dissociation of NaPi-IIa/c from NHERF-1 ➔ Clathrin-Mediated Endocytosis ➔ Lysosomal Degradation ➔ Phosphaturia & Hypophosphatemia.\n\n### Conceptual Trap Analysis\n- **PT Calcium PTH Responsiveness Trap**: 臨床上常誤認為 PTH 在 PT 刺激 Calcium 重吸收。事實上， PTH 在 PT 只抑制 Phosphate 重吸收，對 Calcium 無直接作用；受 PTH 刺激的 Calcium 重吸收僅限於 TAL ( via Claudin-14 suppression) 與 DCT ( via TRPV5 activation)。"
+        },
+        {
+          "heading": "Phosphatonins Spectrum & NHERF-1 Scaffolding Regulation",
+          "diagrams": [
+            {
+              "id": "brenner_fig_7_18_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_7_18.png",
+              "caption": "Brenner 11e Fig. 7.18: Mechanisms of Phosphate Transport Across Proximal Tubular Epithelium & Na-Pi Cotransporter Internalization.",
+              "sourceBook": "Brenner 11e Ch 7"
+            },
+            {
+              "id": "ntu_tubular_transport_fig2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_tubular_transport_mbd.jpg",
+              "caption": "Figure 1.2: Phosphatonin Signaling Spectrum & NHERF-1 Differential Scaffolding of NHE3 and Na-Pi Transporters.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 7]\n\n調節 Phosphate 代謝除了 PTH 外，一群由骨骼與軟組織分泌的蛋白質因子統稱為 Phosphatonins，包含 FGF-23, sFRP-4, MEPE, 以及 Matrix Extracellular Phosphoglycoprotein (FGF-7)：\n\n1. **Phosphatonins Action & Vitamin D Dynamics**:\n   FGF-23 與 sFRP-4 不僅在 PT 誘導 NaPi-IIa/c 內吞引發 Phosphaturia，更關鍵的是兩者皆會強力轉錄抑制 1-alpha-hydroxylase (CYP27B1)，導致active Calcitriol 1,25(OH)2D3 合成大幅下降。相反地， MEPE 雖然同樣會引發 Renal Phosphate Wasting 導致 Serum Phosphate 下降，但發生的 Hypophosphatemia 會反向生理性刺激 PT 內 1-alpha-hydroxylase 活性，促進 1,25(OH)2D3 的合成。\n\n2. **NHERF-1 (Na+/H+ Exchanger Regulatory Factor 1) Scaffolding Dual Role**:\n   NHERF-1 是 PT Apical Membrane 上極為重要的 Scaffolding Protein，具備多個 PDZ Domains：\n   - **Effect on NHE3**: NHERF-1 在受到 PTH 刺激活化 PKA 後，會招募 PKA 磷酸化 NHE3，促使 NHE3 發生內吞並被抑制，減少 H+ 分泌與 Bicarbonate 重吸收。\n   - **Effect on Na-Pi Cotransporters**: 在靜息狀態下， NHERF-1 經由其 PDZ Domain 物理性將 Na-Pi (NaPi-IIa) 錨定於 Apical Membrane，防止轉運體內吞與降解，維持 Membrane Stability。\n\n| Phosphatonin Factor | Primary Tissue Secretion Source | Effect on Proximal Na-Pi Co-transporters | Effect on 1-alpha-hydroxylase (CYP27B1) | Net 1,25(OH)2D3 Response |\n| :--- | :--- | :--- | :--- | :--- |\n| **FGF-23** | Osteocytes & Osteoblasts | Downregulates NaPi-IIa & NaPi-IIc | **Inhibits CYP27B1 Expression** | **Decreased Active Vit D3** |\n| **sFRP-4** | Mesenchymal Tumors & Bone | Downregulates NaPi-IIa & NaPi-IIc | **Inhibits CYP27B1 Expression** | **Decreased Active Vit D3** |\n| **MEPE** | Osteocytes & Tumor Tissue | Induces Renal Phosphate Wasting | **Stimulated via Induced Hypophosphatemia** | **Increased Active Vit D3** |\n\n| Target Transporter | NHERF-1 Interaction Domain | Functional State with Intact NHERF-1 | PKA Phosphorylation Effect | Final Physiological Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **NHE3 (Na+/H+ Exchanger 3)** | Ezrin-binding & PDZ Domain | Active apical sodium-hydrogen exchange | Recruits PKA to phosphorylate NHE3 | **Promotes NHE3 Endocytosis (Inhibition)** |\n| **NaPi-IIa / NaPi-IIc** | PDZ Domain Scaffolding Complex | Anchored to apical brush border | Dissociates Na-Pi from NHERF-1 anchor | **Destabilizes Na-Pi Membrane Retention** |\n\n### Pathophysiological Decision Trees\n- **FGF-23 vs MEPE Axis**: FGF-23 Surge ➔ NaPi-IIa Endocytosis + CYP27B1 Inhibition ➔ Hypophosphatemia + Low 1,25(OH)2D3; MEPE Surge ➔ NaPi Wasting ➔ Hypophosphatemia ➔ Physiological Feedback Stimulation of CYP27B1 ➔ Elevated 1,25(OH)2D3.\n\n### Conceptual Trap Analysis\n- **MEPE Vitamin D Response Trap**: 切勿將所有 Phosphatonins 一律認定為抑制 1-alpha-hydroxylase。 FGF-23 與 sFRP-4 抑制 1-alpha-hydroxylase；MEPE 引發低血磷後，低血磷本身會突破抑制並刺激 1-alpha-hydroxylase 活性。"
+        },
+        {
+          "heading": "SGK-1 Multi-Pathway ENaC Modulation & Potassium Excretion Biophysics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_12_10_sec3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_12_10.png",
+              "caption": "Brenner 11e Fig. 12.10: Mechanisms of SGK-1 Regulation of ENaC Surface Expression and Potassium Secretion in Principal Cells.",
+              "sourceBook": "Brenner 11e Ch 12"
+            },
+            {
+              "id": "ntu_tubular_transport_fig3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_tubular_transport_mbd.jpg",
+              "caption": "Figure 1.3: SGK-1 Multi-Mechanism Activation of ENaC and indirect Potassium Excretion in Aldosterone-Sensitive Distal Nephron.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 12]\n\n在 Aldosterone-Sensitive Distal Nephron (ASDN) 的 Principal Cells 中， Aldosterone 結合 Mineralocorticoid Receptor (MR) 後，最核心誘導轉錄的下游蛋白為 Serum- and Glucocorticoid-Regulated Kinase 1 (SGK-1)。 SGK-1 透過五種截然不同的細胞分子機制，大幅上調 Epithelial Sodium Channel (ENaC) 的表面表達與鈉再吸收，並同步促進 Potassium 分泌：\n\n1. **SGK-1 Five Mechanisms for ENaC Regulation**:\n   - **Nedd4-2 Phosphorylation**: SGK-1 磷酸化 Ubiquitin Ligase Nedd4-2，防止 Nedd4-2 泛素化 ENaC，從而阻止 ENaC 內吞降解。\n   - **Direct ENaC Open Probability**: 增加 ENaC 通道的 Open Probability (Po)。\n   - **Apical Insertion**: 促進含有 ENaC 的 Subapical Vesicles 融合至 Apical Membrane。\n   - **ENaC Transcription**: 間接促進 ENaC 各次單元的基因轉錄。\n   - **Cleavage & Activation**: 協助 Proteolytic Cleavage 將 Precursor ENaC 轉化為 Fully Active Channel。\n\n2. **Potassium Excretion Mechanism Non-Direct ROMK Myth**:\n   Aldosterone 與 SGK-1 強烈促進腎臟的 Potassium Secretion，但這個過程絕非經由 SGK-1 直接調控或活化 ROMK (Renal Outer Medullary Potassium Channel)！ SGK-1 促進 Potassium 排泄主要是經由：(1) 上調 ENaC 增加 Sodium 重吸收，建立內側偏負的 Lumen-Negative Voltage，提供 Potassium 分泌的靜電驅動力；(2) 上調 Basolateral Na+/K+-ATPase 增加細胞內 Potassium 濃度；(3) Tubular Flow Rate 刷洗遠端 Potassium 濃度。\n\n| SGK-1 Regulatory Mechanism | Molecular Target | Cellular Process Involved | Direct Effect on ENaC | Impact on Renal Sodium Reabsorption |\n| :--- | :--- | :--- | :--- | :--- |\n| **Nedd4-2 Inactivation** | Nedd4-2 Ubiquitin Ligase | Phosphorylation & 14-3-3 binding | Prevents ENaC ubiquitination & endocytosis | **Marked Increase in Surface Retention** |\n| **Channel Open Probability** | ENaC Apical Complex | Conformational gating modulation | Increases Po of active ENaC channels | **Enhanced Single-Channel Conductance** |\n| **Vesicular Exocytosis** | Subapical Storage Vesicles | Vesicle trafficking & fusion | Accelerates apical membrane insertion | **Surge in Apical Channel Density** |\n| **Transcriptional Boost** | ENaC Subunit Promoters | Nuclear transcription enhancement | Up-regulates alpha-ENaC mRNA levels | **Long-term Channel Biosynthesis** |\n\n| Ion Transport / Channel | Driving Force / Pathway | Direct SGK-1 Action | Primary Mode of Regulation | Net Clinical Consequence |\n| :--- | :--- | :--- | :--- | :--- |\n| **ENaC (Sodium Channel)** | Passive Apical Inflow | Direct Phosphorylation & Nedd4-2 Inhibition | Apical retention & gating activation | Sodium Retention & Volume Expansion |\n| **ROMK (Potassium Channel)** | Passive Apical Excretion | **No Direct Action by SGK-1** | Passive via Lumen-Negative Voltage & Flow | Potassium Secretion & Kalium Wasting |\n\n### Pathophysiological Decision Trees\n- **SGK-1 ENaC & K Excretion Cascade**: Aldosterone Binding MR ➔ SGK-1 Transcription ➔ Nedd4-2 Phosphorylation ➔ ENaC Apical Retention ➔ Rapid Sodium Uptake ➔ Lumen-Negative Electrical Potential Generation ➔ Passive Potassium Exit via ROMK into Lumen.\n\n### Conceptual Trap Analysis\n- **ROMK Direct Activation Trap**: 專科考試常設下誘答選項宣稱「SGK-1 直接磷酸化並活化 ROMK 以促進排鉀」。這在生理學上完全錯誤！ SGK-1 只直接調控 ENaC 與 Nedd4-2， Potassium 的排泄是 ENaC 驅動的 Lumen-Negative Potential 所產生的被動電化學結果。"
+        }
+      ]
+    },
+    {
+      "moduleId": "raas_natriuretic_enzymatic_kinetics",
+      "moduleTitle": "2. Vasoactive Enzymatic Cascades: Renin-Angiotensin-Aldosterone & Natriuretic Peptide Metabolism",
+      "studyGuide": "本模組專攻 Renin-Angiotensin-Aldosterone System (RAAS) 與 Natriuretic Peptide (NP) 系統中的三大核心水解酶： Renin 之 Substrate Specificity (唯一作用目標為 Angiotensinogen)、 Angiotensin-Converting Enzyme (ACE) 缺乏基質特異性並兼任 Bradykinin 降解失活、以及 Neprilysin (NEP) 兼具 NP、Substance P、Bradykinin 及 Angiotensin 降解之多基質特性，並解析 ARNI 複合藥物之血流動力學優勢。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_11_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_11_1.png",
+          "caption": "Brenner 11e Fig. 11.1: Schematic Depiction of Renin-Angiotensin System Components & Substrate Specificities.",
+          "sourceBook": "Brenner 11e Ch 11"
+        },
+        {
+          "id": "brenner_fig_11_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_11_7.png",
+          "caption": "Brenner 11e Fig. 11.7: Molecular Structure of Natriuretic Peptides (ANP, BNP, CNP) & Neprilysin Cleavage Kinetics.",
+          "sourceBook": "Brenner 11e Ch 11"
+        },
+        {
+          "id": "brenner_fig_11_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_11_8.png",
+          "caption": "Brenner 11e Fig. 11.8: Enzymatic Cascade of Kallikrein-Kinin System & ACE Inactivation of Bradykinin.",
+          "sourceBook": "Brenner 11e Ch 11"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Renin Enzymatic Specificity vs ACE Non-Specific Catalytic Spectrum",
+          "diagrams": [
+            {
+              "id": "brenner_fig_11_1_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_11_1.png",
+              "caption": "Brenner 11e Fig. 11.1: Schematic Depiction of Renin-Angiotensin System Components & Substrate Specificities.",
+              "sourceBook": "Brenner 11e Ch 11"
+            },
+            {
+              "id": "ntu_raas_fig1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_raas_neprilysin_kinetics.jpg",
+              "caption": "Figure 2.1: Comparative Enzymatic Specificities of Renin and Angiotensin-Converting Enzyme (ACE).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 11]\n\n在腎臟與全身循環血流動力學調節中， Renin 與 Angiotensin-Converting Enzyme (ACE) 雖然同屬 RAAS 鏈結中的核心酵素，但兩者的 Enzymatic Specificity 呈極端對比：\n\n1. **Renin Extreme Enzymatic Specificity**:\n   Renin 是一種由 Juxtaglomerular (JG) Cells 合成與分泌的 Aspartyl Protease。在生理學上， Renin 具有極高的專一性，其唯一已知且唯一的內源性 Substrate 為 Angiotensinogen。 Renin 精準水解 Angiotensinogen N-terminal 的 Leu10-Val11 肽鍵，生成十胜肽 Angiotensin I (Ang I)。 Renin 不催化任何其他生理胜肽。\n\n2. **ACE Broad Substrate Non-Specificity**:\n   ACE (Dipeptidyl Carboxypeptidase) 則完全缺乏基質特異性！除了將 Ang I 去除 C-terminal 二胜肽轉化為強效血管收縮劑 Angiotensin II (Ang II) 外， ACE 亦高度有效催化 Bradykinin Inactivation into inactive fragments。因此，使用 ACE Inhibitors (ACEi) 會同步累積 Bradykinin 與 Substance P，引發咳嗽與 Angioedema。\n\n| Enzyme Name | Enzyme Class | Primary Substrate Target | Substrate Specificity Level | Secondary / Alternative Substrates | Clinical Drug Class Target |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Renin** | Aspartyl Protease | Angiotensinogen | **Absolute Specificity (Exclusive)** | **None Known** | Direct Renin Inhibitors (Aliskiren) |\n| **ACE (CD143)** | Zinc Metallopeptidase | Angiotensin I (Ang I) | **Broad Non-Specificity** | **Bradykinin, Substance P, Enkephalins** | ACE Inhibitors (Enalapril, Ramipril) |\n\n| Physiological System | Peptide Hydrolyzed | Cleavage Product | Vascular Effect of Cleavage Product | Pharmacological Inhibition Result |\n| :--- | :--- | :--- | :--- | :--- |\n| **RAAS Cascade** | Angiotensinogen | Angiotensin I (Ang I) | Decapeptide precursor (Inactive) | Prevents Ang I & Ang II Generation |\n| **RAAS Cascade** | Angiotensin I | Angiotensin II (Ang II) | Potent Vasoconstrictor & Aldosterone Surge | Vasodilation & Reduced Aldosterone |\n| **Kallikrein-Kinin Axis** | Bradykinin | Inactive Peptide Fragments | Loss of Vasodilator & Natriuretic Signals | **Bradykinin Accumulation & Cough / Edema** |\n\n### Pathophysiological Decision Trees\n- **Renin vs ACE Enzymatic Cascade**: Renin Cleaves Angiotensinogen Exclusively ➔ Ang I ➔ ACE Cleaves Ang I + Cleaves Bradykinin ➔ Ang II Generation + Bradykinin Degradation.\n\n### Conceptual Trap Analysis\n- **Renin Substrate Multiplicity Trap**: 切勿誤以為 Renin 像 ACE 一樣可以降解 Bradykinin 或其他胜肽。 Renin 的基質專一性在人類胜肽酶中最為嚴苛，只針對 Angiotensinogen。"
+        },
+        {
+          "heading": "Neprilysin (NEP) Multi-Substrate Degradation & ARNI Pharmacodynamics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_11_7_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_11_7.png",
+              "caption": "Brenner 11e Fig. 11.7: Molecular Structure of Natriuretic Peptides (ANP, BNP, CNP) & Neprilysin Cleavage Kinetics.",
+              "sourceBook": "Brenner 11e Ch 11"
+            },
+            {
+              "id": "ntu_raas_fig2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_raas_neprilysin_kinetics.jpg",
+              "caption": "Figure 2.2: Neprilysin (NEP) Multi-Substrate Hydrolysis Spectrum & Sacubitril/Valsartan Dual Pharmacodynamics.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 11]\n\nNeprilysin (亦稱 Neutral Endopeptidase 24.11, NEP, 或 CD10) 是一種廣泛表現於 Proximal Tubule Brush Border 及血管內皮的 Membrane-bound Zinc Metallopeptidase：\n\n1. **Neprilysin Broad Multi-Substrate Catalysis**:\n   Neprilysin 除了降解 Natriuretic Peptides (ANP, BNP, CNP) 外，還擁有非常多可以作用的 Substrates！包含 Bradykinin, Substance P, Endothelin-1, Enkephalins, Oxytocin, Amyloid-beta, 以及 Angiotensin I & II。\n\n2. **Pharmacodynamics of ARNI (Sacubitril / Valsartan)**:\n   單純抑制 Neprilysin 會使 ANP/BNP 升高促進排鈉與血管擴張，但同時亦會減少 Angiotensin II 的降解，導致 Ang II 濃度代償性升高而抵銷益處。因此，臨床上必須將 Neprilysin Inhibitor (Sacubitril) 與 Angiotensin Receptor Blocker (Valsartan) 結合為 ARNI，在提升 Natriuretic Peptides 的同時，完全封鎖 AT1 Receptor。\n\n| Vasoactive Peptide | Primary Physiological Function | Cleavage by Neprilysin (NEP) | Impact of NEP Inhibition | Clinical Synergistic Result |\n| :--- | :--- | :--- | :--- | :--- |\n| **ANP / BNP** | Vasodilation & Natriuresis | Rapid Inactivation & Degradation | **Increased Circulating ANP/BNP** | Promotes Diuresis & Blood Pressure Drop |\n| **Bradykinin** | Vasodilation & Inflammatory Pain | Inactivation into Inactive Peptides | **Increased Bradykinin Concentration** | Potential Angioedema Risk (if paired with ACEi) |\n| **Angiotensin II** | Vasoconstriction & Sodium Retention | Inactivation into Inactive Fragments | **Increased Angiotensin II Accumulation** | **Requires Concomitant ARB (Valsartan)** |\n| **Substance P** | Nociception & Vasodilation | Degradation into Inactive Fragments | **Increased Substance P Accumulation** | Contributes to Airway Hyperreactivity |\n\n| Enzyme Comparison | Substrate Specificity | Key Substrates Cleaved | Downstream Effect of Inhibition | Drug Combination Safety Warning |\n| :--- | :--- | :--- | :--- | :--- |\n| **ACE** | Low Specificity (Dual Target) | Ang I, Bradykinin | Block Ang II + Accumulate Bradykinin | **Do NOT combine ACEi + ARNI (Severe Angioedema)** |\n| **Neprilysin (NEP)** | Extremely Low Specificity (Multi-Target) | ANP, BNP, CNP, Bradykinin, Ang I/II, A-beta | Preserve ANP/BNP + Accumulate Ang II & Bradykinin | **Must allow 36-hour washout between ACEi & ARNI** |\n\n### Pathophysiological Decision Trees\n- **ARNI Pharmacodynamic Dual-Chain**: Sacubitril Inhibits NEP ➔ ANP/BNP Preservation ➔ cGMP Surge ➔ Vasodilation & Natriuresis; Valsartan Blocks AT1R ➔ Prevents Accumulated Ang II Action ➔ Cardiorenal Protection.\n\n### Conceptual Trap Analysis\n- **NEP Specificity & ACEi Combination Trap**: Neprilysin 絕非專一降解 BNP。因為 NEP 與 ACE 皆降解 Bradykinin，若同時給予 ACEi 與 NEP Inhibitor，會引發致命性的大量 Bradykinin 蓄積與 Severe Angioedema。因此臨床規範要求兩者轉換必須間隔至少 36 小時 Washout Period。"
+        }
+      ]
+    },
+    {
+      "moduleId": "aki_biomarkers_cin_dialysis_membranes",
+      "moduleTitle": "3. Acute Kidney Injury Biomarkers, Contrast-Induced Nephropathy & Dialysis Membrane Solute Kinetics",
+      "studyGuide": "本模組剖析 AKI 生物標記之構造位置 ( Serum vs Urine Cystatin C 之過濾與近端小管完整重吸收與降解特性)、 Contrast-Induced Nephropathy (CIN) 特異性 Fractional Excretion of Sodium (FENa <1%) 與非寡尿臨床表型及實證處置 (確認 Acetylcysteine 與 HD 無效益， Statins 與 Hemofiltration 不明確)、High Efficiency vs High Flux vs High/Middle Cutoff 之分子截留與溶質清除動力學。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_27_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
+          "caption": "Brenner 11e Fig. 27.2: Nephron Site Localization of Acute Kidney Injury Biomarkers & Serum vs Urine Cystatin C Dynamics.",
+          "sourceBook": "Brenner 11e Ch 27"
+        },
+        {
+          "id": "brenner_fig_29_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_29_2.png",
+          "caption": "Brenner 11e Fig. 29.2: Pathophysiology of Contrast-Induced Nephropathy (CIN) & Evidence-Based Intervention Algorithm.",
+          "sourceBook": "Brenner 11e Ch 29"
+        },
+        {
+          "id": "brenner_fig_63_11",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_63_11.png",
+          "caption": "Brenner 11e Fig. 63.11: Diffusion vs Convection Kinetics Across Semipermeable Dialysis Membranes.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Serum vs Urine Cystatin C & Anatomical Localization of AKI Biomarkers",
+          "diagrams": [
+            {
+              "id": "brenner_fig_27_2_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
+              "caption": "Brenner 11e Fig. 27.2: Nephron Site Localization of Acute Kidney Injury Biomarkers & Serum vs Urine Cystatin C Dynamics.",
+              "sourceBook": "Brenner 11e Ch 27"
+            },
+            {
+              "id": "ntu_aki_fig1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_aki_biomarkers_cin_dialysis.jpg",
+              "caption": "Figure 3.1: Anatomical Nephron Localization of AKI Biomarkers & Serum vs Urine Cystatin C Physiological Divergence.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 27]\n\n在評估 Acute Kidney Injury (AKI) 時，精準判讀 Biomarkers Glomerular, Proximal Tubule, Distal Tubule Serum vs Urine 至為關鍵：\n\n1. **Serum Cystatin C vs Urine Cystatin C Divergence**:\n   Cystatin C 是一種 13 kDa 的 Cysteine Protease Inhibitor，由所有有核細胞以恆定速率生成：\n   - **Serum Cystatin C (Filtration Marker)**: 自由通過 Glomerular Filtration Barrier，不受肌肉量或飲食影響，為評估 GFR 之血清過濾標記。\n   - **Urine Cystatin C (Tubular Injury Marker)**: 自由過濾後，正常狀況下在 Proximal Tubule 被 Megalin/Cubilin 受體 100% Complete Catabolism。因此正常人之尿液中完全檢測不到 Cystatin C。若在尿液中測得 Cystatin C，代表 Proximal Tubule Reabsorption  Proximal Tubular Injury，兩者代表完全不同的臨床生理意義！\n\n2. **Nephron Structural Localization of Biomarkers**:\n   - **Glomerular / Filtration**: Serum Creatinine, Serum Cystatin C.\n   - **Proximal Tubule Injury**: Urine NGAL, Urine KIM-1, Urine Cystatin C, Urine L-FABP, Urine alpha-1-microglobulin.\n   - **Distal Tubule / Collecting Duct Injury**: Urine IL-18.\n   - **Cell Cycle Arrest (G1/S)**: Urine [TIMP-2] x [IGFBP7] (NephroCheck).\n\n| Biomarker Name | Primary Sample Source | Nephron Anatomical Location | Physiological / Pathological Mechanism | Clinical Diagnostic Utility |\n| :--- | :--- | :--- | :--- | :--- |\n| **Serum Cystatin C** | Serum / Plasma | Glomerulus | Freely filtered low MW protein | **Glomerular Filtration Marker (eGFR)** |\n| **Urine Cystatin C** | Urine | Proximal Tubule | Normal 100% PT catabolism; appears with PT injury | **Proximal Tubular Damage Marker** |\n| **NGAL (Neutrophil Gelatinase)**| Urine / Serum | Proximal Tubule & Distal Nephron | Upregulated upon ischemic / toxic tubular insult | Early AKI Detection (2-4 hours) |\n| **KIM-1 (Kidney Injury Molecule-1)**| Urine | Proximal Tubule Apical Membrane | Ectodomain shedding during PT epithelial injury | Ischemic & Nephrotoxic Acute Tubular Necrosis |\n| **[TIMP-2] x [IGFBP7]** | Urine | Tubular Epithelium | Induces G1/S cell cycle arrest during stress | Prediction of Moderate to Severe AKI |\n\n| Cystatin C Assay | Normal Urinary Excretion Level | Primary Mechanism in Health | Pathological Elevation Cause | Key Diagnostic Pitfall |\n| :--- | :--- | :--- | :--- | :--- |\n| **Serum Cystatin C** | Freely Filtered (Reflects GFR) | Clearance driven by GFR | Decreased GFR (Renal Retention) | Thyroid dysfunction or high-dose steroids |\n| **Urine Cystatin C** | **Undetectable (Near Zero)** | **100% Reabsorbed & Catabolized in PT** | **Proximal Tubular Epithelial Reabsorption Defect** | Do not confuse with Serum Cystatin C GFR measurement |\n\n### Pathophysiological Decision Trees\n- **Cystatin C Dual-Pathology Axis**: Glomerular GFR Drop ➔ Serum Cystatin C Retention ➔ Elevated Serum Cystatin C; Proximal Tubular Insult ➔ Impaired Megalin Endocytosis ➔ Unreabsorbed Cystatin C Wasted in Urine ➔ Positive Urine Cystatin C.\n\n### Conceptual Trap Analysis\n- **Cystatin C Dual Marker Trap**: 考試極易出題混淆 Serum 與 Urine Cystatin C。血清上升代表 GFR 衰退；尿液出現則專一代表 Proximal Tubule 遭受器質性損傷與吸收障礙。兩者機制截然不同。"
+        },
+        {
+          "heading": "Contrast-Induced Nephropathy (CIN) Hemodynamics & Evidence-Based Interventions",
+          "diagrams": [
+            {
+              "id": "brenner_fig_29_2_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_29_2.png",
+              "caption": "Brenner 11e Fig. 29.2: Pathophysiology of Contrast-Induced Nephropathy (CIN) & Evidence-Based Intervention Algorithm.",
+              "sourceBook": "Brenner 11e Ch 29"
+            },
+            {
+              "id": "ntu_aki_fig2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_aki_biomarkers_cin_dialysis.jpg",
+              "caption": "Figure 3.2: Microvascular Pathophysiology of Contrast-Induced Nephropathy & Evidence-Based Intervention Matrix.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 29]\n\nContrast-Induced Nephropathy (CIN) 或 Contrast-Associated AKI (CA-AKI) 是施打含碘對比劑後發生的急性腎損傷。其病理生理學與實證預防策略具備高度特異性：\n\n1. **Unique Hemodynamic & Clinical Features**:\n   - **FENa < 1% Paradox**: 與一般缺血性或腎毒性 Acute Tubular Necrosis (ATN) 表現的高 FENa (> 2%) 不同， CIN 引起的 AKI 特徵性呈現 Fractional Excretion of Sodium (FENa) < 1%！此乃因為對比劑引發極強烈的 Afferent Arteriolar Vasoconstriction 與 Medullary Ischemia，但小管重吸收功能仍部分保留。\n   - **Non-Oliguric Course**: CIN 造成的 AKI Non-oliguric，腎功能多在 3-5 天降至最低點，隨後自我恢復，極少需要進行透析治療。\n\n2. **Evidence-Based Protection Strategies**:\n   - **Confirmed NO Benefit**: N-Acetylcysteine (NAC / Actein) 在 PRESERVE 大型 RCT 證實無預防效果；預防性 Hemodialysis (HD) 亦證實無益。\n   - **Unclear / Inconclusive Benefit**: Statins (高劑量立普妥/柔脂) 與 Peri-procedural Hemofiltration 。\n   - **Proven Standard Care**: Isotonic Saline (0.9% NaCl) 靜脈補充體液。\n\n| Intervention Strategy | Clinical Trial Evidence Status | Proposed Mechanism | KDIGO / Standard Recommendation |\n| :--- | :--- | :--- | :--- |\n| **Isotonic Saline (0.9% NaCl)** | **Proven Beneficial (Standard of Care)** | Volume expansion, suppresses RAAS & dilutes contrast | **Class I Recommended Baseline Strategy** |\n| **N-Acetylcysteine (NAC / Actein)** | **Confirmed NO Benefit (PRESERVE Trial)** | Antioxidant & Radical Scavenging | **NOT Recommended for CIN Prevention** |\n| **Prophylactic Hemodialysis (HD)** | **Confirmed NO Benefit** | Extracorporeal contrast clearance | **NOT Recommended (May Exacerbate Ischemia)** |\n| **HMG-CoA Reductase Inhibitors (Statins)**| **Unclear / Inconclusive** | Anti-inflammatory & Endothelial protection | Optional / Controversial |\n| **Peri-procedural Hemofiltration** | **Unclear / High Risk** | Fluid removal & contrast clearance | High cost & invasive risk; Not routine |\n\n| AKI Etiology | Typical FENa Level | Urine Volume Output Profile | Dialysis Requirement Rate | Primary Microvascular Mechanism |\n| :--- | :--- | :--- | :--- | :--- |\n| **Contrast-Induced Nephropathy (CIN)**| **FENa < 1%** | **Predominantly Non-Oliguric** | **Extremely Low (< 1-2%)** | Intense Afferent Vasoconstriction & Medullary Hypoxia |\n| **Ischemic ATN** | **FENa > 2%** | Frequently Oliguric / Anuric | Moderate to High (10-30%) | Tubular Cell Desquamation & Cast Obstruction |\n| **Rhabdomyolysis-induced AKI** | FENa < 1% (Early) | Oliguric or Non-oliguric | High (due to hyperkalemia) | Myoglobin Tubular Casts & Intrarenal Vasoconstriction |\n\n### Pathophysiological Decision Trees\n- **CIN Hemodynamic Cascade**: Iodine Contrast Administration ➔ Intrarenal Adenosine Surge + Endothelin Release ➔ Afferent Arteriolar Vasoconstriction ➔ Outer Medullary Hypoxia ➔ Transient GFR Drop with Retained Sodium Reabsorption (FENa <1%).\n\n### Conceptual Trap Analysis\n- **CIN FENa & NAC Trap**: 專科考試常以「CIN 為內源性小管損傷故 FENa > 2%」誘騙考生。一定要記住 CIN 特徵為 FENa < 1%！同時， NAC (Actein) 與預防性透析在實證醫學上已被確認無效。"
+        },
+        {
+          "heading": "Dialysis Membrane Biophysics: High-Efficiency vs High-Flux vs High/Middle Cutoff",
+          "diagrams": [
+            {
+              "id": "brenner_fig_63_11_sec3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_63_11.png",
+              "caption": "Brenner 11e Fig. 63.11: Diffusion vs Convection Kinetics Across Semipermeable Dialysis Membranes.",
+              "sourceBook": "Brenner 11e Ch 63"
+            },
+            {
+              "id": "ntu_aki_fig3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_aki_biomarkers_cin_dialysis.jpg",
+              "caption": "Figure 3.3: Solute Molecular Weight Clearance Curves Across High-Efficiency, High-Flux, and High Cut-Off Dialysis Membranes.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 63]\n\n末期腎臟病與血液透析處置中，Dialysis Membrane 的物理定義與溶質清除特性決定了臨床療效。必須精準釐清重點溶質是大分子、中分子還是水：\n\n1. **High Efficiency vs High Flux vs High/Middle Cutoff Definitions**:\n   - **High Efficiency Membrane**: 指對 Small Molecules (如 Urea 60 Da, Creatinine 113 Da) High Urea Clearance KoA > 600 mL/min，但其孔徑極小， Ultrafiltration Coefficient (KuF < 10-15 mL/mmHg/hr) 較低，無法有效清除中分子蛋白。\n   - **High Flux Membrane**: KuF > 15-20 mL/mmHg/hr 以及對 Middle Molecules (如 Beta-2-microglobulin 11.8 kDa) Beta-2-M Clearance > 20 mL/min。\n   - **High Cutoff (HCO) & Middle Cutoff (MCO) Membranes**: 特殊大孔徑聚合物膜，Molecular Weight Cut-off 提高至 45-50 kDa (HCO) 或 25-45 kDa (MCO)，能大幅擴散與對流清除大分子中中分子 (如 Light Chain Dimers 45 kDa)，但必須注意過度 Albumin (66.5 kDa) 漏出的風險。\n\n| Dialysis Membrane Type | Ultrafiltration Coefficient (KuF) | Small Solute Clearance (Urea 60 Da) | Middle Molecule Clearance (Beta-2-M 11.8 kDa) | Free Light Chain Clearance (22.5-45 kDa) | Albumin Leakage Risk |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **High Efficiency (Low-Flux)** | Low (< 10-15 mL/h/mmHg) | **Extremely High (KoA > 600)** | Near Zero | Zero | Absolute Zero |\n| **High Flux** | **High (> 15-20 mL/h/mmHg)** | High | **Significant (> 20 mL/min)** | Minimal (< 5%) | Minimal / Negligible |\n| **Middle Cutoff (MCO)** | High (Medium Pore 3-5 nm) | High | High | Moderate | Very Low |\n| **High Cutoff (HCO)** | Extremely High (Large Pore 8-10 nm)| High | High | **Extremely High (Sieving ~ 0.6-0.8)**| **High (Requires Albumin Monitoring)** |\n\n| Target Solute Class | Molecular Weight Range | Representative Solutes | Primary Transport Mechanism | Preferred Dialyzable Membrane / Modality |\n| :--- | :--- | :--- | :--- | :--- |\n| **Small Molecules** | < 500 Da | Urea, Creatinine, Uric Acid, Potassium | Diffusion (Concentration gradient) | High Efficiency / Any Standard Dialyzer |\n| **Middle Molecules** | 500 Da - 15 kDa | Beta-2 Microglobulin, PTH, Endothelin | Convection (Ultrafiltration drag) | High-Flux HD / Online Hemodiafiltration (HDF) |\n| **Large Middle Molecules** | 15 kDa - 45 kDa | Free Light Chains, Myoglobin, Cytokines | Convection + Large Pore Diffusion | High Cutoff (HCO-HD) / MCO Dialyzer |\n\n### Pathophysiological Decision Trees\n- **Membrane Selection Biophysics**: Small Solute Urea Wasting Goal ➔ High Efficiency Dialyzer; Beta-2-Microglobulin Amyloid Prevention Goal ➔ High Flux Dialyzer; Cast Nephropathy FLC Removal Goal ➔ High Cutoff (HCO) Dialyzer.\n\n### Conceptual Trap Analysis\n- **High Efficiency vs High Flux Trap**: 專科考試極易將 High Efficiency 誤認為能清除中分子。一定要記住： High Efficiency 只代表小分子 Urea 清除率高 (KoA 高)；Beta-2-M 與高水通透者稱為 High Flux。"
+        }
+      ]
+    },
+    {
+      "moduleId": "apheresis_tpe_indications_paraprotein",
+      "moduleTitle": "4. Therapeutic Plasma Exchange (TPE) Indications & Apheresis Biophysics in Nephrology",
+      "studyGuide": "本模組專精腎臟病學中 Therapeutic Plasma Exchange (TPE / Plasmapheresis) 之適應症與適應條件。重點解構 Rapidly Progressive Glomerulonephritis (RPGN) 中 anti-GBM disease 與 ANCA-associated vasculitis 之透析與腎失能分流適應症、 Monoclonal Gammopathy 中 Cast Nephropathy 之爭議性與 Hyperviscosity Syndrome 之絕對適應症、以及藥物誘發性 Thrombotic Microangiopathy (TMA) 中 Ticlopidine 乃唯一具備 TPE 絕對適應症之藥物。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_66_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_66_1.png",
+          "caption": "Brenner 11e Fig. 66.1: Centrifugal Separator vs Membrane Filtration Systems for Therapeutic Plasma Exchange.",
+          "sourceBook": "Brenner 11e Ch 66"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Therapeutic Plasma Exchange (TPE) in Rapidly Progressive Glomerulonephritis (RPGN)",
+          "diagrams": [
+            {
+              "id": "brenner_fig_66_1_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_66_1.png",
+              "caption": "Brenner 11e Fig. 66.1: Centrifugal Separator vs Membrane Filtration Systems for Therapeutic Plasma Exchange.",
+              "sourceBook": "Brenner 11e Ch 66"
+            },
+            {
+              "id": "ntu_tpe_fig1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_apheresis_tpe_indications.jpg",
+              "caption": "Figure 4.1: Therapeutic Plasma Exchange Indications & Clinical Thresholds in RPGN Subtypes.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 66]\n\nTherapeutic Plasma Exchange (TPE) 透過體外循環移除血漿中的致病性 Autoantibodies, Immune Complexes 及 Paraproteins。然而，在 Rapidly Progressive Glomerulonephritis (RPGN) 中， TPE 的 Indications 依據疾病類別與腎失能嚴重度有嚴格限制：\n\n1. **Anti-GBM Disease (Goodpasture Syndrome)**:\n   - **TPE is Indicated**: 適用於尚未發展至Without Advanced Kidney Failure 的患者。Cr < 5.7 mg/dL， TPE 能迅速移除抗 NC1 domain 的 anti-GBM 抗體並拯救腎功能。\n   - **TPE is NOT Indicated**: 若患者初次處置時已呈現Dialysis-Dependent at Presentation 且切片為 100% Cellular Crescents / Fibrotic Loss (除非合併 Diffuse Alveolar Hemorrhage)， TPE 無法改善腎臟預後。\n\n2. **ANCA-Associated Vasculitis (AAV / PEXIVAS Trial)**:\n   - **TPE is Indicated**: 依據 PEXIVAS 試驗結果， TPE 不列為常規一線處置，僅明確適用於伴隨With Advanced Renal Failure, Serum Creatinine > 5.7 mg/dL or Dialysis Dependent 或併發致命性 Diffuse Alveolar Hemorrhage (DAH) 的高危險患者。\n\n| RPGN Subtype | Clinical Presentation / Patient Condition | TPE Indication Status | Rationale & Evidence (PEXIVAS / Guidelines) | Primary Replacement Fluid |\n| :--- | :--- | :--- | :--- | :--- |\n| **Anti-GBM Disease** | Non-dialysis dependent (Cr < 5.7 mg/dL) | **Indicated (Class I)** | Rapidly clears circulating anti-GBM IgG | 5% Human Albumin |\n| **Anti-GBM Disease** | Dialysis-dependent at presentation (No DAH) | **NOT Indicated** | Minimal to zero chance of renal recovery | N/A |\n| **ANCA Vasculitis (AAV)**| Mild to Moderate AKI (Cr < 5.7 mg/dL) | **NOT Indicated Routine** | PEXIVAS showed no 1-year ESKD/Mortality benefit| N/A |\n| **ANCA Vasculitis (AAV)**| Severe Renal Failure (Cr > 5.7 mg/dL) or DAH | **Indicated (Class IIa)** | Accelerates early clearance & resolves alveolar bleeding | Albumin / FFP (if DAH) |\n\n| Disease Subtype | Target Pathogenic Molecule | Primary TPE Mechanism | Concurrent Immunosuppression | Key Complication to Monitor |\n| :--- | :--- | :--- | :--- | :--- |\n| **Anti-GBM Disease** | Anti-alpha3(IV)NC1 IgG | Extracorporeal IgG antibody removal | Cyclophosphamide + High-dose Steroids | Hypofibrinogenemia & Bleeding |\n| **AAV with DAH** | PR3-ANCA / MPO-ANCA | Ig Removal & Inflammatory Washout | Rituximab / CYC + Steroids | Transfusion-related reactions |\n\n### Pathophysiological Decision Trees\n- **RPGN TPE Triage Pathway**: Suspected RPGN ➔ Check Serology ➔ If Anti-GBM Positive & Non-Dialysis Dependent ➔ Immediate TPE; If ANCA Positive ➔ TPE only if Cr > 5.7 mg/dL or Severe Diffuse Alveolar Hemorrhage present.\n\n### Conceptual Trap Analysis\n- **Anti-GBM vs ANCA TPE Indication Reversal Trap**: 專科考試最喜歡考兩者 TPE 的相反條例！ Anti-GBM 是在「未到晚期透析」時有效（晚期透析者無效）； ANCA 恰好相反，常規輕中度無效，只有在「到達重度晚期腎衰竭或合併肺出血」時才給予 TPE！"
+        },
+        {
+          "heading": "TPE in Paraproteinemia: Cast Nephropathy vs Hyperviscosity Syndrome",
+          "diagrams": [
+            {
+              "id": "brenner_fig_66_1_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_66_1.png",
+              "caption": "Brenner 11e Fig. 66.1: Centrifugal Separator vs Membrane Filtration Systems for Therapeutic Plasma Exchange.",
+              "sourceBook": "Brenner 11e Ch 66"
+            },
+            {
+              "id": "ntu_tpe_fig2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_apheresis_tpe_indications.jpg",
+              "caption": "Figure 4.2: Paraproteinemia Therapeutic Plasma Exchange Indication Paradox: Cast Nephropathy vs Hyperviscosity.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 66]\n\n在 Paraprotein-Related Kidney Disease / Monoclonal Gammopathy 患者中， TPE 的應用必須明確區分 Cast Nephropathy 與 Hyperviscosity Syndrome：\n\n1. **Myeloma Cast Nephropathy (Controversial Indication)**:\n   儘管 TPE 理論上能移除血液中游離的 Monoclonal Free Light Chains (FLCs)，但大型隨機對照試驗 (如 MYRE 及包含 Bortezomib 現代化療的臨床試驗) 顯示，加用 TPE 在 Multiple Myeloma Cast Nephropathy Controversial / Inconclusive。原因在於 FLCs 在組織間質分佈容積大，單純 TPE 移除後反彈極快，核心治療仍為立即啟動強效化療切斷源頭。\n\n2. **Hyperviscosity Syndrome (Definitive Indication)**:\n   相對地，當單株蛋白 (特別是 IgM 五聚體或高濃度 IgG/IgA) 引發 Hyperviscosity Syndrome (臨床出現視網膜出血、神經學症狀、精神混亂、血液淤滯與暴發性 AKI) 時， TPE Strictly Indicated 的首選處置！只需 1-2 次 TPE 即可迅速拉低血漿黏稠度，拯救器官灌流。\n\n| Paraprotein Disorder | Pathogenic Circulating Protein | Clinical TPE Indication Status | Evidence & Clinical Outcome | Primary Goal of Apheresis |\n| :--- | :--- | :--- | :--- | :--- |\n| **Myeloma Cast Nephropathy** | Monoclonal Free Light Chains (kappa/lambda) | **Controversial / Not Routine** | RCTs show no significant ESKD benefit over chemotherapy alone | Temporary FLC Reduction |\n| **Hyperviscosity Syndrome** | Monoclonal IgM, IgG, or IgA | **Strictly Indicated (Class I)** | Rapidly lowers plasma viscosity & prevents stroke / AKI | Immediate Viscosity Washout |\n| **Cryoglobulinemic Vasculitis** | Cryoglobulins (Type I / Mixed II/III) | **Indicated (Class I for severe)**| Clears cryoglobulins & prevents systemic ischemia | Vasculitis Remission Boost |\n\n| Clinical Condition | Primary Serum Biomarker Threshold | Dominant Pathological Lesion | First-line Primary Intervention | Role of TPE |\n| :--- | :--- | :--- | :--- | :--- |\n| **Cast Nephropathy** | Serum FLC > 500-1000 mg/L | Tubular Obstructive Light Chain Casts | **Bortezomib-Dexamethasone Chemotherapy** | Auxiliary / Controversial |\n| **Hyperviscosity Syndrome** | Serum Viscosity > 4.0 CP | Microvascular Sludging & Hemorrhage | **Immediate Therapeutic Plasma Exchange** | **Primary Emergency Therapy** |\n\n### Pathophysiological Decision Trees\n- **Paraprotein TPE Decision Flow**: Multiple Myeloma with AKI ➔ Assess Hyperviscosity Symptoms ➔ If Central Nervous System / Ophthalmic Hyperviscosity present ➔ Emergency TPE Indicated; If Isolated Cast Nephropathy ➔ Priority to Bortezomib Anti-clone Chemotherapy (TPE Controversial).\n\n### Conceptual Trap Analysis\n- **Cast Nephropathy TPE Routine Indication Trap**: 切勿將 TPE 列為 Cast Nephropathy 的常規必給處置。現代實證顯示化療才是金標準， TPE 效益有爭議；但若題目寫出 Hyperviscosity Syndrome，則 TPE 為絕對急診指示。"
+        },
+        {
+          "heading": "TPE in Drug-Induced Thrombotic Microangiopathy (TMA): Ticlopidine Indication",
+          "diagrams": [
+            {
+              "id": "brenner_fig_66_1_sec3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_66_1.png",
+              "caption": "Brenner 11e Fig. 66.1: Centrifugal Separator vs Membrane Filtration Systems for Therapeutic Plasma Exchange.",
+              "sourceBook": "Brenner 11e Ch 66"
+            },
+            {
+              "id": "ntu_tpe_fig3",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ntu_apheresis_tpe_indications.jpg",
+              "caption": "Figure 4.3: Drug-Induced Thrombotic Microangiopathy Spectrum & Ticlopidine Unique TPE Indication.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "[權威文獻對照: Brenner 11e Ch 66]\n\nDrug-Induced Thrombotic Microangiopathy (D-TMA) 包含兩大分子機制： Immune-Mediated (抗體形成) 與 Nephrotoxic / Dose-Dependent (直接血管內皮毒性)。在眾多引發 TMA 的藥物中：\n\n1. **Ticlopidine as the Sole Drug Indicated for TPE**:\n   Ticlopidine 是所有引發 D-TMA 的藥物中，唯一獲權威指引認定具備 TPE The ONLY drug for which TPE is indicated 的藥物！ Ticlopidine 引發的 TMA 為免疫介導性，會在服藥後數週誘發針對 ADAMTS13 Protease Autoantibodies，病理生理學與特發性 TTP 完全相同。因此 TPE 能有效移除抗體並補充 ADAMTS13 酵素。\n\n2. **Other Drug-Induced TMAs (TPE NOT Indicated)**:\n   相反地，由 Clopidogrel, Cyclosporine, Tacrolimus, Gemcitabine, Mitomycin C, 或 anti-VEGF Bevacizumab 引發的 TMA，多屬於藥物直接血管內皮毒性或非 ADAMTS13 機制，大型臨床數據證實 TPE 對這些藥物引發的 TMA TPE is NOT indicated。其核心處置為立即停用致病藥物與支持性處置。\n\n| Drug Causing TMA | Pathogenetic Mechanism | ADAMTS13 Antibody Presence | TPE Indication Status | Primary Recommended Management |\n| :--- | :--- | :--- | :--- | :--- |\n| **Ticlopidine** | **Immune-Mediated (Anti-ADAMTS13 Abs)** | **Positive (TTP-like Mechanism)** | **Indicated (The ONLY Drug Indicated)**| **Immediate TPE + Drug Withdrawal** |\n| **Clopidogrel** | Direct Endothelial Toxicity / Rare immune | Mostly Negative | **NOT Indicated** | Drug Withdrawal & Supportive Care |\n| **Calcineurin Inhibitors (CsA/Tac)**| Dose-dependent Endothelial Injury | Negative | **NOT Indicated** | Dose Reduction / Switch to Belatacept |\n| **Gemcitabine / Mitomycin C** | Direct Microvascular Toxic Injury | Negative | **NOT Indicated** | Drug Discontinuation |\n| **Anti-VEGF (Bevacizumab)** | Podocyte / Endothelial VEGF Depletion | Negative | **NOT Indicated** | Drug Withdrawal |\n\n| D-TMA Subtype | Pathogenesis | Serum ADAMTS13 Level | Response to Plasma Exchange | Golden Rule |\n| :--- | :--- | :--- | :--- | :--- |\n| **Ticlopidine-TMA** | Autoantibody Neutralization | Severe Deficit (< 10%) | **Excellent Response (Remission)** | **Only D-TMA with TPE Indication** |\n| **Non-Ticlopidine D-TMA**| Toxic Endothelial Damage | Normal (> 10%) | **No Response / Ineffective** | Stop Offending Drug Immediately |\n\n### Pathophysiological Decision Trees\n- **Drug-Induced TMA Management Tree**: Patient develops TMA on Anti-platelet / Chemotherapy ➔ Identify Drug ➔ If Ticlopidine ➔ Immediate TPE + Drug Discontinuation; If Clopidogrel / CNI / Chemotherapy ➔ Discontinue Drug (TPE Contraindicated / Not Indicated).\n\n### Conceptual Trap Analysis\n- **Clopidogrel vs Ticlopidine TMA Trap**: 專科考試極高頻出題！ Clopidogrel 與 Ticlopidine 雖同屬 P2Y12 抑制劑，但只有 Ticlopidine 誘發的 TMA 具有 TPE 適應症； Clopidogrel 誘發者多為非免疫性， TPE 無效益。絕不可混淆兩者。"
+        }
+      ]
+    }
+  ]
+}

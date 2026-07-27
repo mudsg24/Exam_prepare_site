@@ -1,0 +1,472 @@
+{
+  "id": "2026_中國附醫_(重點轉化)_tutorial",
+  "paperId": "2026_中國附醫_(重點轉化)",
+  "title": "2026 中國附醫腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T23:40:00.000Z",
+  "modules": [
+    {
+      "moduleId": "glomerular_and_cardiorenal_therapeutics",
+      "moduleTitle": "1. Glomerular Pathology & Cardiorenal Protection: KDIGO 2025 IgAN Update & Finerenone Therapy",
+      "studyGuide": "本模組深入傳授 KDIGO 2025 IgA Nephropathy (IgAN) 最新指引控制目標與 Diabetic Kidney Disease (DKD) 之 Cardiorenal Protective Therapy。重點解析：(1) IgAN 蛋白尿控制標的由過去傳統概念進一步拉緊至 UPCR < 0.5 g/g (或 < 0.5 g/day)，甚至追求 < 0.3 g/g 之生理意義、Proteinuria 作為長期 ESKD 風險最關鍵之 Surrogate Endpoint、最適化 Supportive Care (ACEi/ARB 滴定) 至少 90 天之評估路徑、以及新世代標靶藥物 (Targeted-Release Budesonide / Nefecon, Sparsentan, SGLT2i) 之臨床定位；(2) Non-Steroidal Mineralocorticoid Receptor Antagonist (ns-MRA) Finerenone 於 T2D 伴隨 CKD 病人之臨床證據 (FIDELIO-DKD, FIGARO-DKD)、Finerenone 與 Steroidal MRA (Spironolactone, Eplerenone) 在 Receptor Selectivity、Bulky Non-Steroidal Binding Mode、Anti-Inflammatory / Anti-Fibrotic Signal 阻斷以及 Hyperkalemia 風險上之本質差異、與 Serum Potassium Monitoring Protocol 與併用 RASi / SGLT2i 時之調藥原則。",
+      "diagrams": [
+        {
+          "id": "kdigo_2025_igan_fig_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Fig_2.png",
+          "caption": "KDIGO 2025 IgAN Guideline Fig. 2: Initial Assessment and Risk Stratification Management Flowchart in Primary IgA Nephropathy.",
+          "sourceBook": "KDIGO 2025 IgAN Guideline"
+        },
+        {
+          "id": "kdigo_2025_igan_fig_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Fig_3.png",
+          "caption": "KDIGO 2025 IgAN Guideline Fig. 3: Treatment Targets in IgA Nephropathy and Positioning of Disease-Modifying Pharmacotherapies.",
+          "sourceBook": "KDIGO 2025 IgAN Guideline"
+        },
+        {
+          "id": "kdigo_2025_igan_table_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Table_1.png",
+          "caption": "KDIGO 2025 IgAN Guideline Table 1: Factors to Consider Choosing Treatment Combinations in IgAN at Risk of Progressive Loss of Kidney Function.",
+          "sourceBook": "KDIGO 2025 IgAN Guideline"
+        },
+        {
+          "id": "brenner_fig_39_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_39_3.png",
+          "caption": "Brenner 11e Fig. 39.3: Classic Course of Glomerular Filtration Rate (GFR) and Urine Albumin Excretion in Diabetic Kidney Disease.",
+          "sourceBook": "Brenner 11e Ch 39"
+        },
+        {
+          "id": "brenner_fig_39_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_39_6.png",
+          "caption": "Brenner 11e Fig. 39.6: Classical Biopsy Findings in Diabetic Kidney Disease including Kimmelstiel-Wilson Nodules and Arteriolar Hyalinosis.",
+          "sourceBook": "Brenner 11e Ch 39"
+        },
+        {
+          "id": "brenner_fig_39_10",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_39_10.png",
+          "caption": "Brenner 11e Fig. 39.10: Ultrastructural Detachment of Podocytes from Glomerular Basement Membrane in Advancing Diabetic Kidney Disease.",
+          "sourceBook": "Brenner 11e Ch 39"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "KDIGO 2025 IgA Nephropathy Proteinuria Control Targets & Prognostic Rationale",
+          "diagram": {
+            "id": "cmuh_igan_kdigo2025_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_igan_kdigo2025.jpg",
+            "caption": "Figure 1.1: Pathophysiological Cascades of IgA Nephropathy, KDIGO 2025 Target Spectrum, and Pharmacological Milestones.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "kdigo_2025_igan_fig_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Fig_2.png",
+              "caption": "KDIGO 2025 IgAN Guideline Fig. 2: Initial Assessment and Risk Stratification Management Flowchart in Primary IgA Nephropathy.",
+              "sourceBook": "KDIGO 2025 IgAN Guideline"
+            },
+            {
+              "id": "kdigo_2025_igan_fig_3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Fig_3.png",
+              "caption": "KDIGO 2025 IgAN Guideline Fig. 3: Treatment Targets in IgA Nephropathy and Positioning of Disease-Modifying Pharmacotherapies.",
+              "sourceBook": "KDIGO 2025 IgAN Guideline"
+            },
+            {
+              "id": "kdigo_2025_igan_table_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/KDIGO_2025_IgAN_Table_1.png",
+              "caption": "KDIGO 2025 IgAN Guideline Table 1: Factors to Consider Choosing Treatment Combinations in IgAN at Risk of Progressive Loss of Kidney Function.",
+              "sourceBook": "KDIGO 2025 IgAN Guideline"
+            },
+            {
+              "id": "cmuh_igan_kdigo2025_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_igan_kdigo2025.jpg",
+              "caption": "Figure 1.1: Pathophysiological Cascades of IgA Nephropathy, KDIGO 2025 Target Spectrum, and Pharmacological Milestones.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "IgA Nephropathy (IgAN) 是全球最常見的原發性腎小球腎炎，其病理核心為 Galactose-Deficient IgA1 (gd-IgA1) 的過量產生與 Autoantibodies 形成 Immune Complexes，沉積於 Glomerular Mesangium，引發 Mesangial Cell Proliferation、Matrix Expansion 與繼發性 Podocyte Injury：\n1. **Proteinuria as the Dominant Surrogate Endpoint**: 大規模臨床隊列與個體患者 Level Meta-Analysis (如 Inker et al.) 證實，Sustained Proteinuria 是預估 IgAN 患者 10–20 年進展至 Kidney Failure 最強烈的獨立預測因子。早期 Proteinuria 的大幅下降與長期 eGFR Decline Rate 的減緩呈極強的對數線性相關。\n2. **KDIGO 2025 Guideline Strict Control Targets**: 新版 KDIGO 指引將 IgAN 蛋白尿控制目標由過去傳統的 < 1.0 g/day 提升至更為嚴格的 **UPCR < 0.5 g/g (或 < 0.5 g/day)**，對於高風險患者更建議追求 **UPCR < 0.3 g/g**。實證顯示，將蛋白尿壓低至 < 0.5 g/day 能大幅消除長期的腎功能喪失風險，使 eGFR Slope 趨近於正常老化速度。\n3. **Optimized Supportive Care Run-In & Escalation**: 診斷後首要步驟為實施至少 90 天 (3 個月) 的最大耐受劑量 RAS Inhibition (ACEi 或 ARB) 滴定、嚴格血壓控制與低鈉飲食。若經過 90 天極致 Supportive Care 後 UPCR 仍 ≥ 0.5–0.75 g/g，則歸類為 Progressive Disease High-Risk Group，應進一步評估引入非免疫抑制標靶藥物 (如 Dual Endothelin Angiotensin Receptor Antagonist Sparsentan、SGLT2 inhibitors) 或 Gut-Targeted Immunomodulator (Targeted-Release Budesonide / Nefecon)。\n\n| Therapeutic Milestone | Target Threshold | Pharmacological Mechanism | Clinical Trial Evidence | Primary Indication & Safety Node |\n| :--- | :--- | :--- | :--- | :--- |\n| **First-Line Supportive Care** | UPCR < 0.5 g/g | Efferent Arteriolar Dilation & Hemodynamic Pressure Reduction | STOP-IgAN & TESTING Run-In | Titrate ACEi/ARB to Max Tolerated Dose for ≥ 90 days |\n| **Targeted-Release Budesonide** | UPCR Reduction > 30-40% | Soluble Ileal Peyer's Patch B-cell Immunomodulation (↓ gd-IgA1) | NefIgArd Trial Phase III | Targeted mucosal immunosuppression; minimal systemic steroid toxicity |\n| **Sparsentan (DEARA)** | Superior Antiproteinuric Effect | Dual Blockade of Endothelin Type A (ETA) and Angiotensin II Type 1 (AT1) | PROTECT Trial Phase III | Direct Podocyte Protection & Hemodynamic Reductions; Monthly LFT Monitoring |\n| **SGLT2 Inhibitors** | eGFR Slope Stabilization | Tubuloglomerular Feedback Restoration via Macula Densa Na+ Sensing | DAPA-CKD & EMPA-KIDNEY IgAN Subgroups | Hemodynamic & Metabolic Protection; Independent of Immunosuppression |\n\n| Clinical Parameter / Feature | Historical Target (< 1.0 g/day) | KDIGO 2025 Updated Target (< 0.5 g/g) | Pediatric IgAN Target (≤ 0.2 g/g) | Clinical Impact of Discrepancy |\n| :--- | :--- | :--- | :--- | :--- |\n| **Renal Survival Rationale** | Partial risk reduction; residual eGFR loss persists | Complete risk mitigation; eGFR slope normalized | Maximum protection for developing nephron mass | Lower targets dramatically prevent ESKD in 20-year horizon |\n| **High-Risk Threshold** | UPCR > 1.0 g/g | UPCR ≥ 0.5–0.75 g/g after 90d Supportive Care | UPCR > 0.2 g/g persistent | Triggers earlier addition of Nefecon, Sparsentan, or SGLT2i |\n| **Supportive Care Run-in** | Unspecified duration | Mandatory ≥ 90 days optimized RASi titration | Mandatory optimized RASi titration | Prevents premature or unnecessary systemic steroid exposure |\n\n### Pathophysiological Decision Trees\n- **IgAN Risk Stratification & Escalation Cascade**: Biopsy Confirmed IgAN ➔ Mandatory 90-Day Maximally Tolerated RASi Titration ➔ Evaluate UPCR after 90 Days ➔ If UPCR < 0.5 g/g (Continue Supportive Care & Lifestyle) ➔ If UPCR ≥ 0.5 g/g (High Risk) ➔ Add SGLT2i / Sparsentan or Targeted-Release Budesonide (Nefecon).\n\n### Conceptual Trap Analysis\n- **Systemic Steroid Overuse Trap**: 切勿於診斷後立即使用全身性高劑量 Corticosteroids；KDIGO 2025 強調必須先經過至少 90 天標準 Supportive Care 滴定，且僅於高風險、無嚴重感染/糖尿病禁忌症者慎用，首選應為標靶型 Nefecon 或 Sparsentan。"
+        },
+        {
+          "heading": "Diabetic Kidney Disease Cardio-Renal Protection: Non-Steroidal MRA Finerenone Rationale & Potassium Safety",
+          "diagram": {
+            "id": "cmuh_dkd_finerenone_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_dkd_finerenone.jpg",
+            "caption": "Figure 1.2: Receptor Selectivity of Non-Steroidal MRA Finerenone vs Steroidal MRA, Cardiorenal Anti-Fibrotic Cascades, and Potassium Safety Protocol.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_39_3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_39_3.png",
+              "caption": "Brenner 11e Fig. 39.3: Classic Course of Glomerular Filtration Rate (GFR) and Urine Albumin Excretion in Diabetic Kidney Disease.",
+              "sourceBook": "Brenner 11e Ch 39"
+            },
+            {
+              "id": "brenner_fig_39_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_39_6.png",
+              "caption": "Brenner 11e Fig. 39.6: Classical Biopsy Findings in Diabetic Kidney Disease including Kimmelstiel-Wilson Nodules and Arteriolar Hyalinosis.",
+              "sourceBook": "Brenner 11e Ch 39"
+            },
+            {
+              "id": "brenner_fig_39_10",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_39_10.png",
+              "caption": "Brenner 11e Fig. 39.10: Ultrastructural Detachment of Podocytes from Glomerular Basement Membrane in Advancing Diabetic Kidney Disease.",
+              "sourceBook": "Brenner 11e Ch 39"
+            },
+            {
+              "id": "cmuh_dkd_finerenone_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_dkd_finerenone.jpg",
+              "caption": "Figure 1.2: Receptor Selectivity of Non-Steroidal MRA Finerenone vs Steroidal MRA, Cardiorenal Anti-Fibrotic Cascades, and Potassium Safety Protocol.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Mineralocorticoid Receptor (MR) Overactivation 是引發 Diabetic Kidney Disease (DKD) 與 Cardiovascular Remodeling 中 Pro-inflammatory 與 Pro-fibrotic Cascades 的主導因子。新型 Non-Steroidal Mineralocorticoid Receptor Antagonist (ns-MRA) Finerenone 為 DKD 帶來了超越傳統降壓與血糖控制的 Cardiorenal Protection：\n1. **Steroidal vs Non-Steroidal MRA Receptor Binding**: 傳統 Steroidal MRAs (如 Spironolactone, Eplerenone) 具備 Steroid-like Structure，容易結合 Androgen 與 Progesterone Receptors 引發 Off-Target Adverse Effects (如 Gynaecomastia)；其結合為 Partial Agonistic/Flexible Mode。相對地，Finerenone 具備 Bulky Non-Steroidal Dihydropyridine-like Structure，能與 MR 的 Ligand-Binding Domain 進行 Full Antagonistic Passivation，強力阻斷 Co-activator Recruitment，展現出高度 MR Selectivity 與更強的 Anti-inflammatory / Anti-fibrotic 效應。\n2. **Evidence Base: FIDELIO-DKD & FIGARO-DKD (FIDELITY Program)**: 在 Type 2 Diabetes 伴隨 Albuminuria (UACR 30–5000 mg/g) 且已接受最大耐受劑量 RAS Inhibitors 的病人中，Finerenone 能顯著降低 CKD Progression (eGFR Sustained ≥ 40% Decline, ESKD)達 18-23%，並顯著降低 Major Adverse Cardiovascular Events (CV Death, Non-fatal MI, HF Hospitalization) 達 14%。\n3. **Potassium Monitoring & Triple Combination Safety**: 相較於 Spironolactone，Finerenone 於 Kidney 與 Heart 分佈均勻 (1:1 Partition Coefficient)，因此引發 Severe Hyperkalemia 的風險大幅降低。起始治療要求 Serum Potassium ≤ 4.8 mEq/L 且 eGFR ≥ 25 mL/min/1.73 m²；於啟動後 4 週檢測 K+。與 SGLT2 Inhibitor 併用時，SGLT2i 的 Osmotic Diuresis 與 Natriuresis 能部分抵銷 Finerenone 的 Hyperkalemia 風險，展現相輔相成的 Cardiorenal Combined Protection。\n\n| Pharmacological Parameter | Steroidal MRA (Spironolactone) | Steroidal MRA (Eplerenone) | Non-Steroidal MRA (Finerenone) |\n| :--- | :--- | :--- | :--- |\n| **Chemical Structure Class** | Steroidal Backbone | Steroidal Backbone | **Non-Steroidal Dihydropyridine-like** |\n| **MR Selectivity & Affinity** | Moderate Selectivity; High MR Affinity | High MR Selectivity; Lower Affinity | **Extremely High Selectivity; Equal High Affinity** |\n| **Tissue Distribution (Kidney:Heart)** | 6:1 Concentration in Kidney | 3:1 Concentration in Kidney | **1:1 Balanced Kidney-Heart Distribution** |\n| **Cofactor Binding Inhibitory Mode** | Partial Antagonism / Passive | Passive Antagonism | **Bulky Active Passivation of Co-activators** |\n| **Anti-Fibrotic & Cardiorenal Evidence** | Limited in CKD Progression | Reduced Mortality in HFrEF | **FIDELIO-DKD & FIGARO-DKD Phase III Proven** |\n| **Hyperkalemia Incidence Rate** | High (Up to 15-20% in CKD) | Moderate | **Low-to-Moderate (Manageable via Protocol)** |\n\n| Safety Protocol Step | Clinical Threshold / Parameter | Action / Adjustment Protocol | Rational Rationale |\n| :--- | :--- | :--- | :--- |\n| **Initiation Screening** | Serum K+ ≤ 4.8 mEq/L & eGFR ≥ 25 | Start 10mg QD (if eGFR 25-60) or 20mg QD (eGFR ≥ 60) | Ensures safe baseline before MR blockade |\n| **First Follow-up (Week 4)** | Serum K+ ≤ 4.8 mEq/L | Up-titrate from 10mg to 20mg QD target | Maximizes anti-fibrotic & renal protection |\n| **Hyperkalemia Action (K+ > 5.5)** | Serum K+ > 5.5 mEq/L | **Withhold Finerenone**; Monitor K+ until ≤ 5.0 mEq/L | Prevents arrhythmia & cardiac toxicity |\n| **Re-challenge Protocol** | Serum K+ ≤ 5.0 mEq/L restored | Restart at 10mg QD; Re-check K+ in 4 weeks | Safely resumes cardiorenal protection |\n\n### Pathophysiological Decision Trees\n- **Finerenone Cardiorenal Protection Cascade**: T2D with Albuminuric CKD ➔ Max Tolerated RASi ➔ Check K+ (≤ 4.8 mEq/L) & eGFR (≥ 25) ➔ Initiate Finerenone ➔ Inhibit MR Overactivation ➔ ↓ Inflammatory Cytokines (IL-6, TNF-α) & Fibrotic Matrix ➔ ↓ Albuminuria & ↓ Cardiovascular MACE.\n\n### Conceptual Trap Analysis\n- **MRA Blood Pressure Misconception**: Finerenone 在 FIDELIO/FIGARO 試驗展現的顯著 Cardiorenal Protection，僅伴隨微幅的 Systolic BP 下降 (約 2-3 mmHg)；這證實其器官保護主要源自**直接抗發炎與抗纖維化機轉**，而非單純的全身血壓下降。"
+        }
+      ]
+    },
+    {
+      "moduleId": "adpkd_and_metabolic_nephrolithiasis",
+      "moduleTitle": "2. ADPKD Guideline Update, BP Targets & Inherited/Metabolic Nephrolithiasis",
+      "studyGuide": "本模組精通 KDIGO 2025 Autosomal Dominant Polycystic Kidney Disease (ADPKD) 血壓管理建議與 Genetic / Metabolic Nephrolithiasis 的臨床與分子處置。重點解析：(1) ADPKD 血壓控制目標：針對 ≥ 50 歲或任一 CKD Stage (G1–G5) 病人，掌握 Standardized Office Systolic Blood Pressure 目標與 SPRINT Trial 外推之背景，比較年輕 ADPKD (18-50歲且 GFR 保留者目標 SBP < 120 mmHg) 與年長 ADPKD 的控制差異，以及 Home BP Monitoring (HBPM) 的測量優勢與臨床應同時評估之 Tolerability, Orthostatic Symptoms, AKI Risk, Electrolyte Abnormality 與 Fall Risk；(2) 遺傳與代謝性結石：兒童/青少年反覆結石之 Inherited Disease 思考、Cystinuria 之 Hexagonal Crystals, SLC3A1 (Type A) / SLC7A9 (Type B) 運送體缺陷、Proximal Tubular Reabsorption Defect 與 initial management (高水份 >3L/d、鹼化尿液 pH > 7.5、限制鈉鹽、Thiol-binding agents 如 Tiopronin/D-Penicillamine，特別強調絕對不可與 Cystinosis 混淆)；Adenine Phosphoribosyltransferase (APRT) Deficiency 引發之 2,8-Dihydroxyadenine (2,8-DHA) Crystalline Nephropathy, Radiolucent Stones, Allograft Recurrence 與 Xanthine Dehydrogenase Inhibitor (Allopurinol/Febuxostat) 治療；以及 Cystine, 2,8-DHA, Uric Acid Stone, Primary Hyperoxaluria 結晶型態與鑑別診斷。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_45_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_45_1.png",
+          "caption": "Brenner 11e Fig. 45.1: Abnormal Epithelial Proliferation and Tubular Cyst Evolution in Autosomal Dominant Polycystic Kidney Disease.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "brenner_fig_45_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_45_2.png",
+          "caption": "Brenner 11e Fig. 45.2: Primary Cilium Structure and Polycystin-1 / Polycystin-2 Calcium Signaling Complex.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "brenner_fig_45_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_45_4.png",
+          "caption": "Brenner 11e Fig. 45.4: Disrupted Calcium Homeostasis, Upregulated cAMP/PKA Signaling, and CFTR Fluid Secretion Pathways in ADPKD.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "brenner_fig_38_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_15.png",
+          "caption": "Brenner 11e Fig. 38.15: Pathophysiologic Mechanisms of Hyperoxaluria and Oxalate Metabolic Pathways in Renal Stone Formation.",
+          "sourceBook": "Brenner 11e Ch 38"
+        },
+        {
+          "id": "brenner_fig_38_25",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_25.png",
+          "caption": "Brenner 11e Fig. 38.25: Hexagonal Benzene Ring Morphology of Cystine Crystals and Chemical Structure of Cystine Dimer.",
+          "sourceBook": "Brenner 11e Ch 38"
+        },
+        {
+          "id": "brenner_table_38_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_38_8.png",
+          "caption": "Brenner 11e Table 38.8: Simplified Ambulatory 24-Hour Metabolic Evaluation and Interpretation of Urinary Parameters.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "KDIGO 2025 ADPKD Blood Pressure Management: Standardized Office SBP & SPRINT Trial Extrapolation",
+          "diagram": {
+            "id": "cmuh_adpkd_bp_control_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_adpkd_bp_control.jpg",
+            "caption": "Figure 2.1: KDIGO 2025 Age-Stratified SBP Management in ADPKD, Standardized Office BP Measurement Protocol, and Clinical Risk Trade-Offs.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_45_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_45_1.png",
+              "caption": "Brenner 11e Fig. 45.1: Abnormal Epithelial Proliferation and Tubular Cyst Evolution in Autosomal Dominant Polycystic Kidney Disease.",
+              "sourceBook": "Brenner 11e Ch 45"
+            },
+            {
+              "id": "brenner_fig_45_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_45_2.png",
+              "caption": "Brenner 11e Fig. 45.2: Primary Cilium Structure and Polycystin-1 / Polycystin-2 Calcium Signaling Complex.",
+              "sourceBook": "Brenner 11e Ch 45"
+            },
+            {
+              "id": "brenner_fig_45_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_45_4.png",
+              "caption": "Brenner 11e Fig. 45.4: Disrupted Calcium Homeostasis, Upregulated cAMP/PKA Signaling, and CFTR Fluid Secretion Pathways in ADPKD.",
+              "sourceBook": "Brenner 11e Ch 45"
+            },
+            {
+              "id": "cmuh_adpkd_bp_control_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_adpkd_bp_control.jpg",
+              "caption": "Figure 2.1: KDIGO 2025 Age-Stratified SBP Management in ADPKD, Standardized Office BP Measurement Protocol, and Clinical Risk Trade-Offs.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "高血壓是 ADPKD 最早出現的臨床表徵之一，主要源於囊腫擴張壓迫周圍微血管引發局域 Intrarenal Ischemia 與 Renin-Angiotensin-Aldosterone System (RAAS) 暴發性激活。KDIGO 2025 ADPKD 指引針對血壓控制提出了全新的年齡與風險分層架構：\n1. **Standardized Office SBP Target & SPRINT Extrapolation**: 針對年齡 ≥ 50 歲、或任一 CKD Stage (G1–G5) 的 ADPKD 病人，指引採用依據 SPRINT Trial 規範的 Standardized Office Systolic Blood Pressure 測量方式 (靜坐 5 分鐘後無人打擾之自動血壓測量 AOBP)。若病人能良好耐受，目標為 SBP < 120 mmHg。這一推導背景來自於 SPRINT 試驗中嚴格控壓能顯著降低 Major CV Events 與 All-Cause Mortality 的證據。\n2. **Younger vs Older ADPKD Subgroup Nuances**: 在年輕 ADPKD 病人 (年齡 18–50 歲且 eGFR > 60 mL/min/1.73 m²) 中，HALT-PKD Study (Study A) 證實將血壓嚴格控制於 95/60 至 110/75 mmHg (或 SBP < 120 mmHg) 能顯著減緩 Total Kidney Volume (TKV) 的年成長率 (由 5.6% 降至 4.1%) 並減少 Left Ventricular Mass Index。然而在 Older / Advanced CKD 病人 (HALT-PKD Study B) 中，過度嚴格控壓並未進一步減緩 eGFR 下降斜率。\n3. **Clinical Safety & Home BP Monitoring (HBPM)**: 臨床實施 SBP < 120 mmHg 目標時，必須結合 Home Blood Pressure Monitoring (HBPM) 以排除 White-Coat Hypertension，並密切監測 Tolerability, Orthostatic Hypotension, AKI Risk (特別是剛啟動 ACEi/ARB 滴定時)、Electrolyte Abnormality (Hyperkalemia) 以及長者之 Fall Risk。\n\n| Age / Clinical Subgroup | Primary BP Control Target | Measurement Modality | Landmark Trial Evidence | Primary Clinical Rationale |\n| :--- | :--- | :--- | :--- | :--- |\n| **Younger ADPKD (18-50y, GFR > 60)** | **Intensive: SBP < 120 mmHg** (or 95/60 - 110/75) | Standardized Office BP & HBPM | HALT-PKD Study A | Slows Total Kidney Volume (TKV) growth & reduces LVMI |\n| **Older ADPKD (≥ 50y or G1-G5)** | **Standardized SBP < 120 mmHg** (if tolerated) | Automated Office BP (AOBP) | SPRINT Trial Extrapolation | Decreases cardiovascular events & all-cause mortality |\n| **Advanced CKD / Frail Elderly** | **Individualized Target (e.g., < 130-140)** | HBPM & Standing SBP Check | HALT-PKD Study B | Mitigates AKI risk, orthostatic hypotension, and fall hazards |\n\n| Monitoring Domain | Target Threshold / Finding | Potential Adverse Safety Risk | Clinical Mitigation Strategy |\n| :--- | :--- | :--- | :--- |\n| **Orthostatic SBP Drop** | SBP drop > 20 mmHg upon standing | Orthostatic Dizziness & Fall Hazard | Measure standing BP; loosen target if symptomatic |\n| **Renal Function (eGFR)** | Acute eGFR drop > 30% after ACEi/ARB | Acute Kidney Injury (AKI) | Rule out volume depletion; temporarily reduce dose |\n| **Serum Potassium (K+)** | Serum K+ > 5.5 mEq/L | Cardiac Conduction Abnormalities | Dietary potassium restriction; consider SGLT2i / binder |\n\n### Pathophysiological Decision Trees\n- **ADPKD Hypertension & Treatment Cascade**: Cyst Expansion ➔ Local Intrarenal Ischemia ➔ Intrarenal RAAS Activation ➔ Systemic Hypertension ➔ Standardized Office SBP Check ➔ If Age 18-50 with Normal GFR (Target SBP < 120 mmHg via ACEi/ARB) ➔ If Age ≥ 50 / Frail (Individualize SBP Target to balance AKI & Fall Risk).\n\n### Conceptual Trap Analysis\n- **HALT-PKD Dual RAAS Blockade Trap**: HALT-PKD 試驗明確證實，ACEi + ARB 雙重阻斷 (Lisinopril + Telmisartan) 相較於單藥最大劑量，**完全無法帶來額外的 TKV 減緩或 eGFR 保護益處**，反而顯著增加 Hyperkalemia 與 AKI 風險。因此 ADPKD 血壓控制**嚴禁合併使用 ACEi + ARB**。"
+        },
+        {
+          "heading": "Inherited & Metabolic Nephrolithiasis: Cystinuria, APRT Deficiency & Crystal Differentials",
+          "diagram": {
+            "id": "cmuh_metabolic_stones_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_metabolic_stones.jpg",
+            "caption": "Figure 2.2: Comparative Metabolic Diagnostics and Pharmacotherapy for Cystinuria versus APRT Deficiency (2,8-DHA Nephropathy).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_38_15",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_38_15.png",
+              "caption": "Brenner 11e Fig. 38.15: Pathophysiologic Mechanisms of Hyperoxaluria and Oxalate Metabolic Pathways in Renal Stone Formation.",
+              "sourceBook": "Brenner 11e Ch 38"
+            },
+            {
+              "id": "brenner_fig_38_25",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_38_25.png",
+              "caption": "Brenner 11e Fig. 38.25: Hexagonal Benzene Ring Morphology of Cystine Crystals and Chemical Structure of Cystine Dimer.",
+              "sourceBook": "Brenner 11e Ch 38"
+            },
+            {
+              "id": "brenner_table_38_8",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_38_8.png",
+              "caption": "Brenner 11e Table 38.8: Simplified Ambulatory 24-Hour Metabolic Evaluation and Interpretation of Urinary Parameters.",
+              "sourceBook": "Brenner 11e Ch 38"
+            },
+            {
+              "id": "cmuh_metabolic_stones_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_metabolic_stones.jpg",
+              "caption": "Figure 2.2: Comparative Metabolic Diagnostics and Pharmacotherapy for Cystinuria versus APRT Deficiency (2,8-DHA Nephropathy).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "當兒童、青少年或具家族史患者出現反覆性 Nephrolithiasis 或 Crystalline Nephropathy 時，必須高度警覺 Inherited Metabolic Stone Diseases：\n1. **Cystinuria Pathophysiology & Management**: 常染色體隱性遺傳病，源於 Proximal Tubule 與 Intestinal Epithelium 的 Dibasic Amino Acid Transporter (rBAT/b0,+AT) 基因突變—SLC3A1 (Type A) 或 SLC7A9 (Type B)。重吸收障礙導致 Cystine, Ornithine, Lysine, Arginine (COLA) 大量隨尿流失。Cystine 在酸性尿中溶解度極低 (< 250 mg/L)，形成特徵性 **Hexagonal (Benzene Ring-like) Crystals**。初線處置為：(a) 巨量水份攝取 (> 3–3.5 L/day，確保夜間排尿)；(b) 限制 Sodium (< 2g/d) 與 Animal Protein (減少 Methionine 前體)；(c) **Urine Alkalinization** (給予 Potassium Citrate，將尿液 pH 提升至 **7.5–8.0**，以大幅提高 Cystine 溶解度)；(d) 若高水份與鹼化無效，給予 **Thiol-Binding Agents** (Tiopronin 或 D-Penicillamine)，使之形成溶解度高 50 倍的 Cystine-D-Penicillamine Mixed Disulfide。*(注意：絕對不可與 Cystinosis 搞混；Cystinosis 為 Lysosomal Storage Disease 引發 Fanconi Syndrome，不會形成 Cystine 尿路結石)*。\n2. **Adenine Phosphoribosyltransferase (APRT) Deficiency**: 常染色體隱性 Purine Metabolic Defect。APRT 缺失使 Adenine 無法轉化為 AMP，轉而經由 Xanthine Dehydrogenase (XDH) 代謝生成極度難溶的 **2,8-Dihydroxyadenine (2,8-DHA)**。2,8-DHA 在尿液中沉澱形成 **Radiolucent Stones** 或引發 Allograft Recurrence 之 Crystalline Nephropathy。顯微鏡下呈 Round, Brownish, Central Radiating Striations Crystals。治療核心為 **Xanthine Dehydrogenase Inhibitors (Allopurinol 或 Febuxostat)**，能完全阻斷 2,8-DHA 生成；尿液鹼化對 2,8-DHA 效果極佳有限。\n3. **Primary Hyperoxaluria (PH) & Uric Acid Differential**: PH 屬於常染色體隱性肝臟酶缺陷 (PH1: AGXT, PH2: GRHPR, PH3: HOGA1)。尿中 Oxalate > 100 mg/day，形成 Envelope-shaped Calcium Oxalate Monohydrate/Dihydrate Crystals 引發 Neprocalcinosis；PH1 目前可使用 RNAi 藥物 Lumasiran (HA01 抑制劑) 治療。Uric Acid Stones 則呈 Diamond/Rosette Morphology，強烈依賴酸性尿 (pH < 5.5)，鹼化尿液至 pH 6.2–6.5 即可完全溶解。\n\n| Disease Entity | Genetic Defect / Gene | Urinary Crystal Morphology | Radiodensity on CT / X-ray | Primary Pharmacotherapy |\n| :--- | :--- | :--- | :--- | :--- |\n| **Cystinuria** | SLC3A1 (Type A) / SLC7A9 (Type B) | **Hexagonal Benzene Rings** | Faintly Faintly Radiopaque (Faint Ground-glass) | Potassium Citrate (pH > 7.5) + Tiopronin |\n| **APRT Deficiency** | APRT Mutation | **Round, Brownish Radiating Spikes** | **Radiolucent (Missed on Plain X-ray)** | **Xanthine Dehydrogenase Inhibitors (Allopurinol)** |\n| **Primary Hyperoxaluria** | AGXT (PH1) / GRHPR (PH2) / HOGA1 (PH3) | Dumbbell / Monohydrate Needles | Opaque Calcium Oxalate Deposits | Lumasiran (PH1 RNAi) + High Fluid + Pyridoxine |\n| **Uric Acid Lithiasis** | Idiopathic / Gout / Metabolic Syndrome | Diamond / Rosette / Rhomboid | **Radiolucent** | Potassium Citrate (pH 6.2-6.5) + Allopurinol |\n\n### Pathophysiological Decision Trees\n- **Inherited Stone Differential Cascade**: Recurrent Pediatric/Familial Lithiasis ➔ Urinary Crystal Analysis ➔ If Hexagonal (Cystinuria ➔ Potassium Citrate to pH > 7.5 + Tiopronin) ➔ If Radiolucent & Round Brown Spikes (APRT Deficiency ➔ Allopurinol/Febuxostat) ➔ If Massive Oxaluria & Nephrocalcinosis (Primary Hyperoxaluria ➔ Lumasiran / Liver-Kidney Transplant).\n\n### Conceptual Trap Analysis\n- **Cystinuria vs Cystinosis Trap**: 醫學考試常見陷阱！Cystinuria 是**腎小管 COLA 運送體缺陷**，導致尿中 Hexagonal Crystals 與腎結石，不影響其他器官；而 Cystinosis 是 **CTNS 基因突變引發 Lysosomal Cystine Accumulation**，表現為 Fanconi Syndrome、角膜 Cystine 沉積與甲狀腺低下，**絕不會在尿中形成 Cystine 結石**。"
+        }
+      ]
+    },
+    {
+      "moduleId": "arbovirus_aki_and_dialysis_modality",
+      "moduleTitle": "3. Tropical Arbovirus AKI & Dialysis Modality Optimization (HD vs HDF)",
+      "studyGuide": "本模組深入解析熱帶與亞熱帶常見蚊媒 Arbovirus (Dengue, Zika, Chikungunya, Japanese Encephalitis) 造成的 Acute Kidney Injury (AKI) 病理生理學與 Dialysis Modality / Prescription 處方優化策略。重點剖析：(1) Severe Dengue Infection 之 Pathophysiology: Capillary Leak Syndrome, Hemoconcentration, Thrombocytopenia, Shock-related Hypoperfusion, Pigment-induced Acute Tubular Necrosis (ATN) (源自 Severe Hemolysis 或 Rhabdomyolysis)、以及 Direct Viral-Immune Mediated Renal Injury；各大 Arbovirus 於腎臟考題中之典型鑑別提示；(2) Dialysis Modality Comparison: Conventional High-Flux Hemodialysis (HD) 與 Online Hemodiafiltration (HDF) 之物理學與清除率差異 (Diffusion vs Convection / Solvent Drag, Replacement Fluid / Post-dilution 概念)；HDF 為何能顯著增加 Middle Molecules (如 Beta-2 Microglobulin, 11.8 kDa) 與較大分子 Uremic Toxins 之清除；(3) Incremental Hemodialysis 概念：以 Less Frequent Schedule (如 2次/週) 起始透析時，必須精確評估 Residual Kidney Function (RKF)、Urine Volume (> 500 mL/d)、Volume Control、Potassium/Phosphate Stability、Nutrition 與 Dialysis Adequacy，以及 RKF 於 HD 病人 Survival, Phosphate Control, Anemia Management 與 Solute Clearance 中的重大臨床意義。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_28_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+          "caption": "Brenner 11e Fig. 28.1: Overview of Pathophysiological Cascades in Acute Kidney Injury involving Microvascular, Innate Immunity, and Tubular Compartments.",
+          "sourceBook": "Brenner 11e Ch 28"
+        },
+        {
+          "id": "brenner_fig_28_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_28_2.png",
+          "caption": "Brenner 11e Fig. 28.2: Human Histopathology of Acute Tubular Necrosis showing Epithelial Damage, Intraluminal Debris, and Backleak.",
+          "sourceBook": "Brenner 11e Ch 28"
+        },
+        {
+          "id": "brenner_fig_63_11",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_63_11.png",
+          "caption": "Brenner 11e Fig. 63.11: Mass Transport Physics Comparing Diffusion Concentration Gradients versus Convection Hydrostatic Pressure Solvent Drag.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Tropical Mosquito-Borne Arbovirus (Dengue) Acute Kidney Injury Pathophysiology & Differential",
+          "diagram": {
+            "id": "cmuh_dengue_arbovirus_aki_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_dengue_arbovirus_aki.jpg",
+            "caption": "Figure 3.1: Multi-Mechanistic Renal Injury Pathways in Severe Dengue Infection and Clinical Indicators for Major Tropical Arboviruses.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_28_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+              "caption": "Brenner 11e Fig. 28.1: Overview of Pathophysiological Cascades in Acute Kidney Injury involving Microvascular, Innate Immunity, and Tubular Compartments.",
+              "sourceBook": "Brenner 11e Ch 28"
+            },
+            {
+              "id": "brenner_fig_28_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_28_2.png",
+              "caption": "Brenner 11e Fig. 28.2: Human Histopathology of Acute Tubular Necrosis showing Epithelial Damage, Intraluminal Debris, and Backleak.",
+              "sourceBook": "Brenner 11e Ch 28"
+            },
+            {
+              "id": "cmuh_dengue_arbovirus_aki_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_dengue_arbovirus_aki.jpg",
+              "caption": "Figure 3.1: Multi-Mechanistic Renal Injury Pathways in Severe Dengue Infection and Clinical Indicators for Major Tropical Arboviruses.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "熱帶與亞熱帶地區由蚊媒 (Aedes aegypti / Aedes albopictus) 傳播的 Arboviral Infections 是引發急性腎損傷 (AKI) 的重要病因，其中以 Severe Dengue 最為常見且具特異性血液動力學變化：\n1. **Severe Dengue Pathophysiology & Capillary Leak**: Severe Dengue 的特徵為全身性 Endothelial Dysfunction 與 Cytokine Storm (NS1 Antigen 介導 Endothelial Glycocalyx 破壞)，引發暴發性 Capillary Leak Syndrome。血漿大量滲漏至 Third Space，導致血容量急劇下滑、Hemoconcentration (Hematocrit 上升 > 20%)、Thrombocytopenia、Dengue Shock Syndrome (DSS) 與 Massive Bleeding Tendency。腎臟因 Systemic Hypoperfusion 發生 Prerenal Azotemia，若未即時復甦則迅速轉變為 Ischemic Acute Tubular Necrosis (ATN)。\n2. **Pigment-Induced & Immune Renal Mechanisms**: Dengue 引起的 AKI 為多因素複合病因：(a) Severe Intravascular Hemolysis 與 Direct Myotoxicity 引發 Rhabdomyolysis，釋放過量 Free Hemoglobin 與 Myoglobin，引發 Pigment-induced Tubular Toxicity 與 Cast Obstruction；(b) Direct Viral Invasion (於 Tubular Epithelium 發現 Dengue Viral RNA) 與 Glomerular Immune Complex Deposition，引起 Acute Interstitial Nephritis 或 Glomerulonephritis。\n3. **Arbovirus Clinical Exam Indicators**: 臨床考試中常考四大蚊媒 Arbovirus 的典型特徵：(a) **Dengue**: Retro-orbital pain, High fever, Thrombocytopenia, Hemoconcentration, Capillary Leak, Bleeding; (b) **Zika**: Mild fever, Maculopapular Rash, Non-purulent Conjunctivitis, Polyarthralgia, Congenital Microcephaly (腎臟侵犯較輕，偶見 Mild Transient Proteinuria); (c) **Chikungunya**: Severe, Prolonged, Debilitating Polyarthralgia/Arthritis (關節痛極為劇烈，彎腰曲背提示), AKI 多與 NSAID 使用或 Prerenal Dehydration 相關; (d) **Japanese Encephalitis**: High fever, Altered Mental Status, Seizures, Flaccid Paralysis (CNS 腦炎主導，AKI 多為 Multi-organ Failure 一部分)。\n\n| Arbovirus Entity | Primary Vector | Key Clinical Presentation & Exam Clues | Renal Injury Mechanism & Pathology | Management Focus |\n| :--- | :--- | :--- | :--- | :--- |\n| **Dengue Virus** | Aedes aegypti | Retro-orbital pain, Thrombocytopenia, Hemoconcentration | Capillary leak ➔ Shock hypoperfusion, ATN, Rhabdomyolysis | Careful isotonic fluid resuscitation (avoid fluid overload) |\n| **Zika Virus** | Aedes aegypti | Conjunctivitis, Rash, Arthralgia, Microcephaly | Mild transient proteinuria; Direct tubular tropism reported | Supportive care; Avoid NSAIDs during acute phase |\n| **Chikungunya Virus** | Aedes albopictus | **Severe crippling polyarthralgia**, Fever, Rash | Prerenal AKI secondary to NSAID overuse or dehydration | Hydration; Pain control with non-nephrotoxic agents |\n| **Japanese Encephalitis** | Culex tritaeniorhynchus | **CNS Symptoms (Seizures, Coma, Paralysis)** | Multi-organ failure secondary to severe septic/neurogenic shock | Intensive care, airway protection, ICP management |\n\n### Pathophysiological Decision Trees\n- **Dengue-Associated AKI Cascade**: Dengue Infection ➔ NS1-Mediated Endothelial Glycocalyx Damage ➔ Capillary Leak Syndrome ➔ Plasma Leakage & Intravascular Volume Depletion ➔ Hemoconcentration & Shock (DSS) ➔ Renal Hypoperfusion ➔ Ischemic ATN & Myoglobinuria ➔ Oliguric AKI.\n\n### Conceptual Trap Analysis\n- **Dengue Resuscitation Fluid Trap**: Severe Dengue 解除 Capillary Leak 後，滲漏至組織間隙的體液會迅速 Re-enter Intravascular Space；因此在 Resuscitation 階段若過度過量輸液，常於病程第 4-5 天 (Recovery Phase) 引發致死性 Acute Pulmonary Edema 與 Hypervolemia。輸液應嚴密監測 Hematocrit 與 Minimal Effective Rate。"
+        },
+        {
+          "heading": "Dialysis Modality Optimization: High-Flux HD vs Online HDF & Incremental Hemodialysis",
+          "diagram": {
+            "id": "cmuh_dialysis_hdf_hd_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_dialysis_hdf_hd.jpg",
+            "caption": "Figure 3.2: Comparative Solute Transport Dynamics in High-Flux HD vs Online HDF and Incremental Hemodialysis Preservation Protocol.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_63_11",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_63_11.png",
+              "caption": "Brenner 11e Fig. 63.11: Mass Transport Physics Comparing Diffusion Concentration Gradients versus Convection Hydrostatic Pressure Solvent Drag.",
+              "sourceBook": "Brenner 11e Ch 63"
+            },
+            {
+              "id": "cmuh_dialysis_hdf_hd_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_dialysis_hdf_hd.jpg",
+              "caption": "Figure 3.2: Comparative Solute Transport Dynamics in High-Flux HD vs Online HDF and Incremental Hemodialysis Preservation Protocol.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "透析處方優化是改善 End-Stage Renal Disease (ESRD) 患者長期存活率與生活品質的核心議題：\n1. **Mass Transport Mechanics: Diffusion vs Convection**: Conventional High-Flux Hemodialysis (HD) 的主要清除動力為 **Diffusion** (由 Concentration Gradient 驅動)，對小分子毒素 (Small Water-Soluble Solutes, 如 Urea 60 Da, Creatinine 113 Da, Potassium) 清除率極佳；但隨著分子量增加，擴散速率依分子大小呈反比急劇下滑。相對地，Online Hemodiafiltration (HDF) 結合了 Diffusion 與 **Convection** (由 Transmembrane Hydrostatic Pressure 驅動之 Ultrafiltration 與 **Solvent Drag**)。在 HDF 中，超濾大量液體 (通常每場要求 Convection Volume > 23 L)，並補回同等量之 Ultrapure Sterile Replacement Fluid (Post-dilution Mode)，能強制拖曳中分子毒素 (Middle Molecules, 500 Da 至 25 kDa，如 Beta-2 Microglobulin 11.8 kDa, Myoglobin, Advanced Glycation End-products) 跨膜排出。\n2. **Clinical Superiority of High-Volume Online HDF**: 大型 randomized trials (如 CONVINCE Trial, ESHOL Study) 證實，當 High-Volume Online HDF 達到足量 Convection Volume (≥ 23 L/session) 時，相較於 High-Flux HD 能顯著降低 All-Cause Mortality 達 16–30%，並顯著降低 Dialysis-Related Amyloidosis (Beta-2 Microglobulin 沉積)、Cardiovascular Instability 與 Interdialytic Hypotension Episodes。\n3. **Incremental Hemodialysis & Residual Kidney Function (RKF)**: Incremental HD 指於新進入透析且仍保有顯著 Residual Kidney Function (RKF, 定義為 Residual GFR > 3 mL/min/1.73 m² 或 24h Urine Volume > 500 mL/day) 的病人中，採用每週 2 次 (Twice-Weekly) 的漸進式透析處方。RKF 在透析病人中具有極高生理價值：(a) 提供持續性的 Middle Molecule 清除與 Fluid Elimination；(b) 顯著改善 Phosphate Control, Anemia Management (減少 ESA 需求) 與 Nutritional Status；(c) 降低 CV Mortality。實施 Incremental HD 必須嚴格控制 Fluid Weight Gain (< 5% TBW)、血清 Potassium 與 Phosphate，並定期 (每 1-3 個月) 測量 24h Urine Collection 以監測 RKF 斜率。\n\n| Solute Category | Representative Uremic Solute | Molecular Weight (Da) | High-Flux HD Clearance | Online HDF Clearance (≥23L) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Small Water-Soluble** | Urea, Creatinine, Potassium | < 500 Da | Excellent (Diffusion Driven) | Excellent (Diffusion + Convection) |\n| **Middle Molecules** | Beta-2 Microglobulin (β2M) | 11,800 Da (11.8 kDa) | Limited | **Superior (Convective Solvent Drag)** |\n| **Large Middle Molecules** | Myoglobin, Free Light Chains | 17,000 - 45,000 Da | Minimal / Negligible | **Moderate to High Clearance** |\n| **Protein-Bound Solutes** | Indoxyl Sulfate, p-Cresyl Sulfate | Small (Bound to Albumin) | Poor (Bound Fraction) | Poor to Moderate |\n\n| Dialysis Modality / Strategy | Prescribed Schedule | Primary Solute Transport Mechanism | Target Convection / Clearance | Impact on Patient Survival & Amyloidosis |\n| :--- | :--- | :--- | :--- | :--- |\n| **Conventional High-Flux HD** | Thrice-Weekly (4h/session) | Pure Diffusion + Minimal UF | spKt/V ≥ 1.2, eKt/V ≥ 1.0 | Standard baseline survival; β2M accumulation over time |\n| **Online HDF (Post-dilution)** | Thrice-Weekly (4h/session) | **Diffusion + Massive Convection** | **Convection Volume ≥ 23 L/session** | **16-30% Reduction in Mortality**; Reduces Amyloidosis |\n| **Incremental Hemodialysis** | Twice-Weekly (Gradual Start) | Diffusion + Convection + Native RKF | KRU ≥ 3 mL/min + HD Kt/V | Preserves RKF; Reduces Vascular Access Burden |\n\n### Pathophysiological Decision Trees\n- **HDF Middle Molecule Clearance Cascade**: Transmembrane Hydrostatic Pressure Gradient ➔ Ultrafiltration of Plasma Water ➔ Convective Drag of Solutes (Solvent Drag) ➔ Forced Passage of Middle Molecules (Beta-2 Microglobulin) ➔ Reduced Systemic Beta-2 Microglobulin Accumulation ➔ Decreased Dialysis-Related Amyloidosis & Mortality.\n\n### Conceptual Trap Analysis\n- **HDF Convection Volume Trap**: Online HDF 的生存益處 (All-Cause Mortality Reduction) 強烈依態於 **Convection Volume 必須達到 ≥ 23 L/session** (Post-dilution mode)；若 Convection Volume < 18-20 L/session，其臨床預後與傳統 High-Flux HD 無統計差異。"
+        }
+      ]
+    },
+    {
+      "moduleId": "transplantation_allocation_and_anemia_safety",
+      "moduleTitle": "4. Deceased Donor Kidney Allocation (KDPI/EPTS) & CKD Anemia HIF-PHI Safety",
+      "studyGuide": "本模組精通 Deceased Donor Kidney Transplantation Allocation 制度、KDPI vs EPTS Longevity Matching 機制與 CKD Anemia 之 Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitors (HIF-PHIs) 安全性議題。重點剖析：(1) Kidney Donor Profile Index (KDPI) 之臨床意義：以 10 項 Donor 特徵 (Donor Age, Height, Weight, Ethnicity, HTN, DM, Cause of Death, Serum Cr, HCV status, DCD status) 評估 Donor Organ 質量，KDPI 百分位越高 (如 > 85%) 代表預期 Graft Survival 較短且 DGF 風險較高；(2) Estimated Post-Transplant Survival (EPTS) Score 之構成：由 4 項 Recipient 特徵 (Recipient Age, Diabetes Status, Prior Solid Organ Transplant, Time on Dialysis) 計算，低 EPTS (如 前 20%) 代表預期 Post-transplant Survival 最長；(3) Longevity Matching 邏輯：配對低 EPTS 受贈者 (預期存活長) 優先分配低 KDPI 腎臟 (Top 20% 最耐用腎臟)，以極致化 Total Graft Years；(4) Older / High-EPTS Candidates 接受 High-KDPI Kidney 之 Survival Benefit：區分「Graft Survival 較差」與「Patient Survival Benefit 仍存在」之混淆概念 (接受 High-KDPI 腎臟之高齡病人，雖然 Allograft 壽命較短，但相較於繼續留在 Waitlist 接受長期 Dialysis，其 Overall Patient Mortality 顯著降低)；(5) HIF-PHIs (Daprodustat, Vadadustat) 作用機制：抑制 Prolyl Hydroxylase Domain (PHD 1-3) 酶，穩定 HIF-2α，刺激 Endogenous EPO 產生並Downregulate Hepcidin (改善 Iron Utilization)；(6) HIF-PHI 於 Non-Dialysis CKD vs Dialysis-Dependent CKD 之 Cardiovascular Safety / Major Adverse Cardiovascular Events (MACE) 安全性爭議與適用性評估。",
+      "diagrams": [
+        {
+          "id": "brenner_table_70_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_70_5.png",
+          "caption": "Brenner 11e Table 70.5: Causes of Ischemic and Structural Damage to Deceased Donor Kidney Allografts Prior to Procurement.",
+          "sourceBook": "Brenner 11e Ch 70"
+        },
+        {
+          "id": "brenner_fig_70_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+          "caption": "Brenner 11e Fig. 70.6: Multifactorial Pathogenesis of Chronic Allograft Dysfunction and Accelerated Nephron Loss.",
+          "sourceBook": "Brenner 11e Ch 70"
+        },
+        {
+          "id": "brenner_fig_55_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_55_4.png",
+          "caption": "Brenner 11e Fig. 55.4: Schematic Presentation of Hypoxia-Inducible Factor (HIF) Signaling and Oxygen-Dependent Control of EPO Expression.",
+          "sourceBook": "Brenner 11e Ch 55"
+        },
+        {
+          "id": "brenner_fig_55_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_55_6.png",
+          "caption": "Brenner 11e Fig. 55.6: Hepcidin Downregulation of Ferroportin and Central Regulation of Systemic Iron Homeostasis.",
+          "sourceBook": "Brenner 11e Ch 55"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Deceased Donor Kidney Allocation Mechanics: KDPI vs EPTS & Longevity Matching Principles",
+          "diagram": {
+            "id": "cmuh_transplant_kdpi_epts_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_transplant_kdpi_epts.jpg",
+            "caption": "Figure 4.1: Kidney Donor Profile Index (KDPI) vs Estimated Post-Transplant Survival (EPTS) Longevity Matching Framework and Survival Benefit Rationale.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_table_70_5",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_70_5.png",
+              "caption": "Brenner 11e Table 70.5: Causes of Ischemic and Structural Damage to Deceased Donor Kidney Allografts Prior to Procurement.",
+              "sourceBook": "Brenner 11e Ch 70"
+            },
+            {
+              "id": "brenner_fig_70_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+              "caption": "Brenner 11e Fig. 70.6: Multifactorial Pathogenesis of Chronic Allograft Dysfunction and Accelerated Nephron Loss.",
+              "sourceBook": "Brenner 11e Ch 70"
+            },
+            {
+              "id": "cmuh_transplant_kdpi_epts_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_transplant_kdpi_epts.jpg",
+              "caption": "Figure 4.1: Kidney Donor Profile Index (KDPI) vs Estimated Post-Transplant Survival (EPTS) Longevity Matching Framework and Survival Benefit Rationale.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "器官移植分配系統 (UNOS Kidney Allocation System, KAS) 使用客觀量化指標以極致化器官利用率與分配公平性：\n1. **KDPI Score Determination (Donor Assessment)**: Kidney Donor Profile Index (KDPI) 為累積百分位指標，將標的 Deceased Donor 腎臟與前一年度所有 Donor 進行比較。KDPI 綜合 10 項獨立變數：Donor Age, Height, Weight, Ethnicity (African American), History of Hypertension, History of Diabetes, Cause of Death (CVA), Serum Creatinine, Hepatitis C Status, 以及 Donation after Circulatory Death (DCD) status。KDPI 百分位越高 (如 KDPI > 85%)，代表預期 Graft Half-life 較短、DGF 風險較高。\n2. **EPTS Score Determination (Recipient Assessment)**: Estimated Post-Transplant Survival (EPTS) Score 評估受贈者移植後的預期壽命百分位。由 4 項關鍵臨床因子構成：Recipient Age (年齡越大 EPTS 越高)、Diabetes Status (有 DM 者 EPTS 顯著升高)、Prior Solid Organ Transplant (曾接受移植者 EPTS 較高)、以及 Time on Dialysis (透析時間越長 EPTS 越高)。低 EPTS Percentile (前 20%) 代表預期 Post-Transplant Survival 最長。\n3. **Longevity Matching Logic**: 為了避免「預期存活 30 年的年輕受贈者拿到預期壽命僅 5 年的受損腎臟」或反之造成的壽命不對稱浪費，KAS 實施 Longevity Matching 規則：Top 20% 低 EPTS 受贈者優先獲配 Top 20% 低 KDPI (最優質) 腎臟，確保極致化 Total Graft Years。\n4. **High-KDPI Acceptance vs Waitlist Survival Benefit Paradox**: 臨床考試最常考核之核心觀念：Older / High-EPTS Candidates 接受 High-KDPI (> 85%) 腎臟時，雖然該腎臟的 Graft Survival 比低 KDPI 腎臟差，但**相較於拒絕該腎臟並繼續留在 Waitlist 接受透析，接受 High-KDPI 腎臟能帶來顯著的 Overall Patient Survival Benefit (死亡風險降低 40-50%)**。因此絕不可因 KDPI 高即盲目建議高齡受贈者拒絕器官。\n\n| Assessment Domain | Parameter / Score Class | Underlying Clinical Variables | Primary Allocation Function |\n| :--- | :--- | :--- | :--- |\n| **Donor Organ Quality** | **Kidney Donor Profile Index (KDPI)** | Age, HTN, DM, Cr, CVA, DCD, HCV, Height, Weight, Race | Predicts Graft Survival & DGF Risk (Lower % = Better) |\n| **Recipient Longevity** | **Estimated Post-Transplant Survival (EPTS)** | Recipient Age, Diabetes Status, Prior Transplant, Dialysis Time | Predicts Post-Transplant Survival (Lower % = Longer) |\n| **Allocation Policy** | **Longevity Matching (20/20 Rule)** | Top 20% Low EPTS Recipients ⟷ Top 20% Low KDPI Donors | Maximizes cumulative national graft longevity |\n| **High-KDPI Benefit** | High KDPI Donor (> 85%) Angebot | High EPTS Recipient on Waitlist | **Net Patient Survival Benefit vs Continuing Dialysis** |\n\n### Pathophysiological Decision Trees\n- **Organ Allocation Decision Cascade**: Deceased Donor Organ Offered ➔ Calculate Donor KDPI ➔ Calculate Candidate EPTS ➔ If Candidate Low EPTS (Top 20%) ➔ Match with Low KDPI Donor (Top 20%) ➔ If Candidate High EPTS / Older ➔ Offered High-KDPI Kidney ➔ Evaluate Net Patient Survival Benefit (Accept Kidney ➔ Immediate Mortality Benefit vs Dialysis Waitlist Death Risk).\n\n### Conceptual Trap Analysis\n- **Graft Survival vs Patient Survival Benefit Trap**: 絕不可將「Graft Survival 較差」誤判為「對病人無益」！高齡高 EPTS 患者接受 High-KDPI (>85%) 腎臟，雖然 Graft 半衰期較短，但其總體死亡率遠低於繼續等待透析，具備確切的 **Patient Survival Benefit**。"
+        },
+        {
+          "heading": "CKD Anemia Management: Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitors (HIF-PHIs) Safety Profile",
+          "diagram": {
+            "id": "cmuh_hif_phi_anemia_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/cmuh_hif_phi_anemia.jpg",
+            "caption": "Figure 4.2: Molecular Mechanism of Action of HIF-PHIs, Endogenous EPO Stimulation, Hepcidin Downregulation, and Cardiorenal MACE Safety Protocol.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "diagrams": [
+            {
+              "id": "brenner_fig_55_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_55_4.png",
+              "caption": "Brenner 11e Fig. 55.4: Schematic Presentation of Hypoxia-Inducible Factor (HIF) Signaling and Oxygen-Dependent Control of EPO Expression.",
+              "sourceBook": "Brenner 11e Ch 55"
+            },
+            {
+              "id": "brenner_fig_55_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_55_6.png",
+              "caption": "Brenner 11e Fig. 55.6: Hepcidin Downregulation of Ferroportin and Central Regulation of Systemic Iron Homeostasis.",
+              "sourceBook": "Brenner 11e Ch 55"
+            },
+            {
+              "id": "cmuh_hif_phi_anemia_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/cmuh_hif_phi_anemia.jpg",
+              "caption": "Figure 4.2: Molecular Mechanism of Action of HIF-PHIs, Endogenous EPO Stimulation, Hepcidin Downregulation, and Cardiorenal MACE Safety Protocol.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitors (HIF-PHIs, 如 Daprodustat, Vadadustat, Roxadustat) 代表了 CKD 貧血口服治療的重大突破：\n1. **Molecular Mechanism of Action**: 在常氧狀態下，HIF-α (尤其是控制 EPO 的 HIF-2α) 會被 Prolyl Hydroxylase Domain (PHD 1-3) 酶進行羥基化 (Hydroxylation)，進而被 von Hippel-Lindau (VHL) E3 Ubiquitin Ligase 標記並於 Proteasome 降解。HIF-PHIs 小分子小藥物能可逆性抑制 PHD 酶，模擬高山缺氧生理反應，穩定 HIF-2α/HIF-1β 雜二聚體。HIF 轉錄因子進入核內結合至 Hypoxia-Response Elements (HRE)，驅動兩大效應：(a) 刺激腎臟 Interstitial Fibroblasts 與肝臟產生生理濃度的 **Endogenous Erythropoietin (EPO)**；(b) 顯著 **Down-regulate Hepcidin** 並轉錄上調 Transferrin, Transferrin Receptor 1 (TFR1) 與 Ferroportin (FPN)，大幅促進腸道鐵吸收與巨噬細胞鐵釋放 (Iron Recycling)。\n2. **HIF-PHI vs Recombinant ESA Therapeutic Comparison**: 相較於超生理劑量外源性 Recombinant ESAs (如 Epoetin alfa, Darbepoetin alfa) 引發的 Peak EPO Concentrations 暴增，HIF-PHIs 誘導的 Plasma EPO 濃縮度維持於接近生理濃度的溫和範圍，且於 Functional Iron Deficiency / Chronic Inflammation (High Hepcidin States) 的 CKD 病人中表現出更佳的 Hemoglobin Response。\n3. **Cardiovascular Safety & MACE Profile in Non-Dialysis vs Dialysis CKD**: HIF-PHIs 於監管機構審查時的核心爭議在於 Major Adverse Cardiovascular Events (MACE, 定義為 All-cause Mortality, Non-fatal MI, Non-fatal Stroke) 的安全性：(a) 在 **Dialysis-Dependent CKD (DD-CKD)** 患者中 (如 ASCEND-D, INNO2VATE 試驗)，Daprodustat 與 Vadadustat 展現出相較於 Standard ESAs 的 **Non-Inferiority in MACE Risk**，獲准用於透析病人；(b) 在 **Non-Dialysis CKD (ND-CKD)** 患者中 (如 ASCEND-ND, PRO2TECT 試驗)，Vadadustat 未能達成對應 ESA 的 MACE Non-inferiority 門檻 (特別是在美洲地區 cohort 中發現微幅增加 CV Risk)，因此在特定國家 ND-CKD 族群的核准受到極大審視。此外，HIF-PHIs 作為廣泛基因轉錄調節劑，長期使用需密切留意 VEGF 媒介之 Retinopathy 惡化、Thromboembolism 與 Cyst Growth 的潛在安全性疑慮。\n\n| Feature / Parameter | Recombinant ESAs (Epoetin alfa / Darbepoetin) | HIF-PHIs (Daprodustat / Vadadustat) |\n| :--- | :--- | :--- |\n| **Administration Route** | Subcutaneous / Intravenous Injection | **Oral Administration** |\n| **EPO Concentration Profile** | Supraphysiological Peaks (100–1000x normal) | **Near-Physiological Endogenous Elevation** |\n| **Hepcidin Suppression** | Indirect (driven by erythropoiesis rate) | **Direct Transcriptional Downregulation of Hepcidin** |\n| **Iron Efficacy in Inflammation** | Poor (blocked by high Hepcidin) | **Superior (mobilizes stored iron via Ferroportin)** |\n| **MACE Safety in Dialysis (DD-CKD)** | Standard Safety Comparator Baseline | **Proven Non-Inferior to ESAs (ASCEND-D)** |\n| **MACE Safety in Non-Dialysis (ND)** | Standard Safety Comparator Baseline | **Variable / Regulatory Scrutiny (ASCEND-ND / PRO2TECT)** |\n\n### Pathophysiological Decision Trees\n- **HIF-PHI Action & Safety Cascade**: Oral HIF-PHI ➔ Inhibits PHD Enzymes ➔ Stabilizes HIF-2α ➔ Nuclear Translocation to HRE ➔ ↑ Endogenous EPO & ↓ Hepcidin ➔ ↑ Ferroportin & Iron Mobilization ➔ Corrects Anemia ➔ Assess CKD Modality (If Dialysis-Dependent ➔ Non-inferior MACE safety confirmed; If Non-Dialysis ➔ Monitor Cardiovascular MACE & Thrombotic Risk).\n\n### Conceptual Trap Analysis\n- **HIF-PHI Hepcidin & Iron Trap**: HIF-PHI 並非「鐵劑」本身！其優勢在於**降低 Hepcidin 阻斷並解放被困在巨噬細胞內的庫存鐵 (Ferroportin Unblocking)**。然而若病人存在 Severe Absolute Iron Deficiency (TSAT < 20% 且 Serum Ferritin < 100 ng/mL)，仍必須先補足基礎鐵劑，單靠 HIF-PHI 無法憑空造血。"
+        }
+      ]
+    }
+  ]
+}

@@ -95,7 +95,7 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
         <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-200 dark:border-slate-800">
           <div className="flex items-center gap-3">
             <span className="px-3 py-1 rounded-xl bg-sky-500/10 text-sky-700 dark:text-sky-400 font-mono text-sm font-bold border border-sky-500/20">
-              第 {question.number || currentIndex + 1} 題
+              第 {question.number} 題
             </span>
             {isSubmitted && (
               <DisputeBadge status={question.reconciliationStatus} notes={question.reconciliationNotes} />

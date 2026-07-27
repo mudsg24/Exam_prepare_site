@@ -16,19 +16,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Decreased renal blood flow due to severe afferent arteriolar vasoconstriction"
+          "id": "A",
+          "text": "Decreased renal blood flow due to severe afferent arteriolar vasoconstriction"
         },
         {
           "key": "B",
-          "value": "Decreased ipsilateral ureteral pressure and increased efferent tone"
+          "id": "B",
+          "text": "Decreased ipsilateral ureteral pressure and increased efferent tone"
         },
         {
           "key": "C",
-          "value": "Increased renal blood flow driven by prostaglandin-mediated afferent arteriolar vasodilation"
+          "id": "C",
+          "text": "Increased renal blood flow driven by prostaglandin-mediated afferent arteriolar vasodilation"
         },
         {
           "key": "D",
-          "value": "Severe decrease in inner medullary blood flow without change in cortical perfusion"
+          "id": "D",
+          "text": "Severe decrease in inner medullary blood flow without change in cortical perfusion"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -60,19 +64,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Accumulation of circulating vasoactive substances (e.g., ANP) leading to earlier afferent vasoconstriction and marked blunting of the initial RBF increase"
+          "id": "A",
+          "text": "Accumulation of circulating vasoactive substances (e.g., ANP) leading to earlier afferent vasoconstriction and marked blunting of the initial RBF increase"
         },
         {
           "key": "B",
-          "value": "Complete absence of PGE2 production resulting in immediate efferent vasodilation"
+          "id": "B",
+          "text": "Complete absence of PGE2 production resulting in immediate efferent vasodilation"
         },
         {
           "key": "C",
-          "value": "Sustained increase in renal blood flow lasting more than 24 hours"
+          "id": "C",
+          "text": "Sustained increase in renal blood flow lasting more than 24 hours"
         },
         {
           "key": "D",
-          "value": "Marked rise in GFR due to systemic volume contraction"
+          "id": "D",
+          "text": "Marked rise in GFR due to systemic volume contraction"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -104,19 +112,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Marked increase in glomerular capillary hydraulic pressure (P_GC)"
+          "id": "A",
+          "text": "Marked increase in glomerular capillary hydraulic pressure (P_GC)"
         },
         {
           "key": "B",
-          "value": "Pronounced reduction in systemic oncotic pressure"
+          "id": "B",
+          "text": "Pronounced reduction in systemic oncotic pressure"
         },
         {
           "key": "C",
-          "value": "Complete abolition of Bowman's space hydraulic pressure (P_BS)"
+          "id": "C",
+          "text": "Complete abolition of Bowman's space hydraulic pressure (P_BS)"
         },
         {
           "key": "D",
-          "value": "Elevated Bowman's space hydraulic pressure (P_BS) combined with profound reduction in glomerular capillary hydraulic pressure (P_GC) due to afferent vasoconstriction"
+          "id": "D",
+          "text": "Elevated Bowman's space hydraulic pressure (P_BS) combined with profound reduction in glomerular capillary hydraulic pressure (P_GC) due to afferent vasoconstriction"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -148,19 +160,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Upregulation of basolateral Na+/K+-ATPase activity in the proximal convoluted tubule"
+          "id": "A",
+          "text": "Upregulation of basolateral Na+/K+-ATPase activity in the proximal convoluted tubule"
         },
         {
           "key": "B",
-          "value": "Downregulation of NKCC2 in the thick ascending limb and AQP2 in the collecting duct"
+          "id": "B",
+          "text": "Downregulation of NKCC2 in the thick ascending limb and AQP2 in the collecting duct"
         },
         {
           "key": "C",
-          "value": "Increased sensitivity of inner medullary collecting duct cells to vasopressin (AVP)"
+          "id": "C",
+          "text": "Increased sensitivity of inner medullary collecting duct cells to vasopressin (AVP)"
         },
         {
           "key": "D",
-          "value": "Hyper-responsiveness of the thiazide-sensitive NaCl cotransporter (NCC) in the distal convoluted tubule"
+          "id": "D",
+          "text": "Hyper-responsiveness of the thiazide-sensitive NaCl cotransporter (NCC) in the distal convoluted tubule"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -192,19 +208,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Primary excessive secretion of aldosterone by the adrenal cortex"
+          "id": "A",
+          "text": "Primary excessive secretion of aldosterone by the adrenal cortex"
         },
         {
           "key": "B",
-          "value": "Acute upregulation of AQP2 insertion into apical membranes of collecting duct cells"
+          "id": "B",
+          "text": "Acute upregulation of AQP2 insertion into apical membranes of collecting duct cells"
         },
         {
           "key": "C",
-          "value": "Selective hyper-reactivity of the renin-angiotensin-aldosterone system"
+          "id": "C",
+          "text": "Selective hyper-reactivity of the renin-angiotensin-aldosterone system"
         },
         {
           "key": "D",
-          "value": "Excretion of retained excess urea, sodium, and volume accumulated during the obstruction phase, acting as an osmotic and solute diuresis to restore physiological fluid homeostasis"
+          "id": "D",
+          "text": "Excretion of retained excess urea, sodium, and volume accumulated during the obstruction phase, acting as an osmotic and solute diuresis to restore physiological fluid homeostasis"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -236,19 +256,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Acute upregulation of epithelial sodium channels (ENaC)"
+          "id": "A",
+          "text": "Acute upregulation of epithelial sodium channels (ENaC)"
         },
         {
           "key": "B",
-          "value": "Complete loss of proximal tubule SGLT2 transporters only"
+          "id": "B",
+          "text": "Complete loss of proximal tubule SGLT2 transporters only"
         },
         {
           "key": "C",
-          "value": "Over-activation of the basolateral Na+/K+-ATPase pump"
+          "id": "C",
+          "text": "Over-activation of the basolateral Na+/K+-ATPase pump"
         },
         {
           "key": "D",
-          "value": "Resistance to AVP due to persistent downregulation and dysregulated trafficking of AQP2 coupled with blunted tubular responsiveness to aldosterone"
+          "id": "D",
+          "text": "Resistance to AVP due to persistent downregulation and dysregulated trafficking of AQP2 coupled with blunted tubular responsiveness to aldosterone"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -280,19 +304,23 @@
       "options": [
         {
           "key": "A",
-          "value": "RI > 0.70 (or a delta RI > 0.06 compared to the unobstructed contralateral kidney)"
+          "id": "A",
+          "text": "RI > 0.70 (or a delta RI > 0.06 compared to the unobstructed contralateral kidney)"
         },
         {
           "key": "B",
-          "value": "RI < 0.50 with absent ureteral jets"
+          "id": "B",
+          "text": "RI < 0.50 with absent ureteral jets"
         },
         {
           "key": "C",
-          "value": "RI exactly equal to 0.55 in both kidneys"
+          "id": "C",
+          "text": "RI exactly equal to 0.55 in both kidneys"
         },
         {
           "key": "D",
-          "value": "RI > 0.95 with prominent renal vein pulsation"
+          "id": "D",
+          "text": "RI > 0.95 with prominent renal vein pulsation"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -324,19 +352,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Serum creatinine alone without urinary output monitoring"
+          "id": "A",
+          "text": "Serum creatinine alone without urinary output monitoring"
         },
         {
           "key": "B",
-          "value": "Urinary Neutrophil Gelatinase-Associated Lipocalin (NGAL) and Kidney Injury Molecule-1 (KIM-1)"
+          "id": "B",
+          "text": "Urinary Neutrophil Gelatinase-Associated Lipocalin (NGAL) and Kidney Injury Molecule-1 (KIM-1)"
         },
         {
           "key": "C",
-          "value": "Urine uric acid to creatinine ratio < 0.1"
+          "id": "C",
+          "text": "Urine uric acid to creatinine ratio < 0.1"
         },
         {
           "key": "D",
-          "value": "Serum cystatin C combined with urine osmolality > 1200 mOsm/kg"
+          "id": "D",
+          "text": "Serum cystatin C combined with urine osmolality > 1200 mOsm/kg"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -368,19 +400,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Smooth muscle cell hypertrophy without ECM deposition"
+          "id": "A",
+          "text": "Smooth muscle cell hypertrophy without ECM deposition"
         },
         {
           "key": "B",
-          "value": "Loss of detrusor compliance due to massive collagen deposition, leading to high storage pressures and bilateral ureteral reflux/hydronephrosis"
+          "id": "B",
+          "text": "Loss of detrusor compliance due to massive collagen deposition, leading to high storage pressures and bilateral ureteral reflux/hydronephrosis"
         },
         {
           "key": "C",
-          "value": "Marked increase in bladder wall compliance with zero resting intravesical pressure"
+          "id": "C",
+          "text": "Marked increase in bladder wall compliance with zero resting intravesical pressure"
         },
         {
           "key": "D",
-          "value": "Complete loss of alpha-1 adrenergic receptor responsiveness in the prostate capsule"
+          "id": "D",
+          "text": "Complete loss of alpha-1 adrenergic receptor responsiveness in the prostate capsule"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -412,19 +448,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Immediate rapid IV infusion of 5% Dextrose in Water at 1000 mL/hr"
+          "id": "A",
+          "text": "Immediate rapid IV infusion of 5% Dextrose in Water at 1000 mL/hr"
         },
         {
           "key": "B",
-          "value": "Administration of high-dose intravenous loop diuretics"
+          "id": "B",
+          "text": "Administration of high-dose intravenous loop diuretics"
         },
         {
           "key": "C",
-          "value": "Strict oral water restriction without intravenous replacement"
+          "id": "C",
+          "text": "Strict oral water restriction without intravenous replacement"
         },
         {
           "key": "D",
-          "value": "Close monitoring of vital signs, urine volume, and serum/urine electrolytes, with IV replacement tailored to 50-75% of hourly urine output using 0.45% or 0.9% saline"
+          "id": "D",
+          "text": "Close monitoring of vital signs, urine volume, and serum/urine electrolytes, with IV replacement tailored to 50-75% of hourly urine output using 0.45% or 0.9% saline"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -456,19 +496,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Transforming Growth Factor-beta 1 (TGF-beta 1)"
+          "id": "A",
+          "text": "Transforming Growth Factor-beta 1 (TGF-beta 1)"
         },
         {
           "key": "B",
-          "value": "Vascular Endothelial Growth Factor (VEGF-A)"
+          "id": "B",
+          "text": "Vascular Endothelial Growth Factor (VEGF-A)"
         },
         {
           "key": "C",
-          "value": "Erythropoietin (EPO)"
+          "id": "C",
+          "text": "Erythropoietin (EPO)"
         },
         {
           "key": "D",
-          "value": "Epidermal Growth Factor (EGF)"
+          "id": "D",
+          "text": "Epidermal Growth Factor (EGF)"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -500,19 +544,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Patient's baseline blood pressure alone"
+          "id": "A",
+          "text": "Patient's baseline blood pressure alone"
         },
         {
           "key": "B",
-          "value": "Serum uric acid level at presentation"
+          "id": "B",
+          "text": "Serum uric acid level at presentation"
         },
         {
           "key": "C",
-          "value": "Duration of complete obstruction (with full recovery expected if relieved within 1 to 2 weeks, and minimal recovery after 8 weeks)"
+          "id": "C",
+          "text": "Duration of complete obstruction (with full recovery expected if relieved within 1 to 2 weeks, and minimal recovery after 8 weeks)"
         },
         {
           "key": "D",
-          "value": "Presence of asymptomatic microscopic hematuria"
+          "id": "D",
+          "text": "Presence of asymptomatic microscopic hematuria"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -544,19 +592,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Thiazide diuretic (e.g., Chlorthalidone or Hydrochlorothiazide) combined with dietary sodium restriction"
+          "id": "A",
+          "text": "Thiazide diuretic (e.g., Chlorthalidone or Hydrochlorothiazide) combined with dietary sodium restriction"
         },
         {
           "key": "B",
-          "value": "High-dose Loop diuretic (e.g., Furosemide)"
+          "id": "B",
+          "text": "High-dose Loop diuretic (e.g., Furosemide)"
         },
         {
           "key": "C",
-          "value": "Oral Calcium carbonate supplements taken on an empty stomach at bedtime"
+          "id": "C",
+          "text": "Oral Calcium carbonate supplements taken on an empty stomach at bedtime"
         },
         {
           "key": "D",
-          "value": "Ascorbic acid (Vitamin C) supplementation 2000 mg daily"
+          "id": "D",
+          "text": "Ascorbic acid (Vitamin C) supplementation 2000 mg daily"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -588,19 +640,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Direct inhibition of renal tubular oxalate secretion by unabsorbed bile salts"
+          "id": "A",
+          "text": "Direct inhibition of renal tubular oxalate secretion by unabsorbed bile salts"
         },
         {
           "key": "B",
-          "value": "Upregulation of hepatic alanine-glyoxylate aminotransferase (AGT)"
+          "id": "B",
+          "text": "Upregulation of hepatic alanine-glyoxylate aminotransferase (AGT)"
         },
         {
           "key": "C",
-          "value": "Unabsorbed luminal free fatty acids bind calcium, leaving free oxalate to be excessively absorbed in the colon, combined with bile acid-induced increase in colonic mucosal permeability"
+          "id": "C",
+          "text": "Unabsorbed luminal free fatty acids bind calcium, leaving free oxalate to be excessively absorbed in the colon, combined with bile acid-induced increase in colonic mucosal permeability"
         },
         {
           "key": "D",
-          "value": "Overgrowth of Oxalobacter formigenes in the small intestine"
+          "id": "D",
+          "text": "Overgrowth of Oxalobacter formigenes in the small intestine"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -632,19 +688,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Primary Hyperoxaluria Type II (GRHPR deficiency)"
+          "id": "A",
+          "text": "Primary Hyperoxaluria Type II (GRHPR deficiency)"
         },
         {
           "key": "B",
-          "value": "Primary Hyperoxaluria Type I (AGT deficiency)"
+          "id": "B",
+          "text": "Primary Hyperoxaluria Type I (AGT deficiency)"
         },
         {
           "key": "C",
-          "value": "Primary Hyperoxaluria Type III (HOGA1 deficiency)"
+          "id": "C",
+          "text": "Primary Hyperoxaluria Type III (HOGA1 deficiency)"
         },
         {
           "key": "D",
-          "value": "Enteric Hyperoxaluria due to CFTR mutation"
+          "id": "D",
+          "text": "Enteric Hyperoxaluria due to CFTR mutation"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -676,19 +736,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Pyridoxine (Vitamin B6) alone"
+          "id": "A",
+          "text": "Pyridoxine (Vitamin B6) alone"
         },
         {
           "key": "B",
-          "value": "Potassium citrate"
+          "id": "B",
+          "text": "Potassium citrate"
         },
         {
           "key": "C",
-          "value": "Cysteamine"
+          "id": "C",
+          "text": "Cysteamine"
         },
         {
           "key": "D",
-          "value": "Lumasiran"
+          "id": "D",
+          "text": "Lumasiran"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -720,19 +784,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Maintaining urine pH > 7.0 to 7.5 and high fluid intake to keep urinary cystine concentration below its solubility limit (~250 mg/L)"
+          "id": "A",
+          "text": "Maintaining urine pH > 7.0 to 7.5 and high fluid intake to keep urinary cystine concentration below its solubility limit (~250 mg/L)"
         },
         {
           "key": "B",
-          "value": "Acidifying the urine to pH < 5.5 using ammonium chloride"
+          "id": "B",
+          "text": "Acidifying the urine to pH < 5.5 using ammonium chloride"
         },
         {
           "key": "C",
-          "value": "Administering high-dose sodium chloride tablets"
+          "id": "C",
+          "text": "Administering high-dose sodium chloride tablets"
         },
         {
           "key": "D",
-          "value": "Strict restriction of dietary potassium intake"
+          "id": "D",
+          "text": "Strict restriction of dietary potassium intake"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -764,19 +832,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Extracorporeal shock wave lithotripsy (ESWL) alone without medical therapy"
+          "id": "A",
+          "text": "Extracorporeal shock wave lithotripsy (ESWL) alone without medical therapy"
         },
         {
           "key": "B",
-          "value": "Administration of Acetazolamide to acidify the tubular fluid"
+          "id": "B",
+          "text": "Administration of Acetazolamide to acidify the tubular fluid"
         },
         {
           "key": "C",
-          "value": "Urinary alkalinization with oral Potassium Citrate to achieve a target urine pH of 6.5 to 7.0"
+          "id": "C",
+          "text": "Urinary alkalinization with oral Potassium Citrate to achieve a target urine pH of 6.5 to 7.0"
         },
         {
           "key": "D",
-          "value": "High-dose Calcium carbonate supplementation"
+          "id": "D",
+          "text": "High-dose Calcium carbonate supplementation"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -808,19 +880,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Xanthine oxidase"
+          "id": "A",
+          "text": "Xanthine oxidase"
         },
         {
           "key": "B",
-          "value": "Urease"
+          "id": "B",
+          "text": "Urease"
         },
         {
           "key": "C",
-          "value": "Alanine glyoxylate aminotransferase"
+          "id": "C",
+          "text": "Alanine glyoxylate aminotransferase"
         },
         {
           "key": "D",
-          "value": "Carbonic anhydrase II"
+          "id": "D",
+          "text": "Carbonic anhydrase II"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -852,19 +928,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Routine post-procedure administration of thiazide diuretics"
+          "id": "A",
+          "text": "Routine post-procedure administration of thiazide diuretics"
         },
         {
           "key": "B",
-          "value": "High-pressure renal pelvic irrigation during stone fragmentation"
+          "id": "B",
+          "text": "High-pressure renal pelvic irrigation during stone fragmentation"
         },
         {
           "key": "C",
-          "value": "Perioperative culture-directed antibiotic cover, pre-procedure control of active infection, and maintaining low renal pelvic irrigation pressures"
+          "id": "C",
+          "text": "Perioperative culture-directed antibiotic cover, pre-procedure control of active infection, and maintaining low renal pelvic irrigation pressures"
         },
         {
           "key": "D",
-          "value": "Mandatory bilateral nephrectomy"
+          "id": "D",
+          "text": "Mandatory bilateral nephrectomy"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -896,19 +976,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Glomerular immune complex deposition with complement depletion"
+          "id": "A",
+          "text": "Glomerular immune complex deposition with complement depletion"
         },
         {
           "key": "B",
-          "value": "Direct toxic endothelial injury from circulating monoclonal light chains"
+          "id": "B",
+          "text": "Direct toxic endothelial injury from circulating monoclonal light chains"
         },
         {
           "key": "C",
-          "value": "Tubulointerstitial nephritis secondary to NSAID toxicity"
+          "id": "C",
+          "text": "Tubulointerstitial nephritis secondary to NSAID toxicity"
         },
         {
           "key": "D",
-          "value": "Intratubular precipitation of uric acid and calcium phosphate crystals causing luminal obstruction and tubular toxicity"
+          "id": "D",
+          "text": "Intratubular precipitation of uric acid and calcium phosphate crystals causing luminal obstruction and tubular toxicity"
         }
       ],
       "sourceProvidedAnswer": "D",
@@ -940,19 +1024,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Rasburicase (Recombinant Urate Oxidase)"
+          "id": "A",
+          "text": "Rasburicase (Recombinant Urate Oxidase)"
         },
         {
           "key": "B",
-          "value": "Allopurinol"
+          "id": "B",
+          "text": "Allopurinol"
         },
         {
           "key": "C",
-          "value": "Febuxostat"
+          "id": "C",
+          "text": "Febuxostat"
         },
         {
           "key": "D",
-          "value": "Colchicine"
+          "id": "D",
+          "text": "Colchicine"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -984,19 +1072,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Radical Nephrectomy with ipsilateral adrenalectomy"
+          "id": "A",
+          "text": "Radical Nephrectomy with ipsilateral adrenalectomy"
         },
         {
           "key": "B",
-          "value": "Partial Nephrectomy (Nephron-Sparing Surgery)"
+          "id": "B",
+          "text": "Partial Nephrectomy (Nephron-Sparing Surgery)"
         },
         {
           "key": "C",
-          "value": "Total Bilateral Nephrectomy followed by immediate hemodialysis"
+          "id": "C",
+          "text": "Total Bilateral Nephrectomy followed by immediate hemodialysis"
         },
         {
           "key": "D",
-          "value": "Systemic chemotherapy with Cisplatin without surgery"
+          "id": "D",
+          "text": "Systemic chemotherapy with Cisplatin without surgery"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -1028,19 +1120,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Parathyroid Hormone-related Peptide (PTHrP)"
+          "id": "A",
+          "text": "Parathyroid Hormone-related Peptide (PTHrP)"
         },
         {
           "key": "B",
-          "value": "Renin"
+          "id": "B",
+          "text": "Renin"
         },
         {
           "key": "C",
-          "value": "Erythropoietin (EPO)"
+          "id": "C",
+          "text": "Erythropoietin (EPO)"
         },
         {
           "key": "D",
-          "value": "Adrenocorticotropic Hormone (ACTH)"
+          "id": "D",
+          "text": "Adrenocorticotropic Hormone (ACTH)"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -1072,19 +1168,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Myeloma Cast Nephropathy (Light Chain Cast Nephropathy)"
+          "id": "A",
+          "text": "Myeloma Cast Nephropathy (Light Chain Cast Nephropathy)"
         },
         {
           "key": "B",
-          "value": "AL Amyloidosis"
+          "id": "B",
+          "text": "AL Amyloidosis"
         },
         {
           "key": "C",
-          "value": "Monoclonal Immunoglobulin Deposition Disease (MIDD)"
+          "id": "C",
+          "text": "Monoclonal Immunoglobulin Deposition Disease (MIDD)"
         },
         {
           "key": "D",
-          "value": "Acute Interstitial Nephritis secondary to infection"
+          "id": "D",
+          "text": "Acute Interstitial Nephritis secondary to infection"
         }
       ],
       "sourceProvidedAnswer": "A",
@@ -1116,19 +1216,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Diabetic Nephropathy"
+          "id": "A",
+          "text": "Diabetic Nephropathy"
         },
         {
           "key": "B",
-          "value": "AL Amyloidosis (Light Chain Amyloidosis)"
+          "id": "B",
+          "text": "AL Amyloidosis (Light Chain Amyloidosis)"
         },
         {
           "key": "C",
-          "value": "Membranous Nephropathy"
+          "id": "C",
+          "text": "Membranous Nephropathy"
         },
         {
           "key": "D",
-          "value": "Focal Segmental Glomerulosclerosis (FSGS)"
+          "id": "D",
+          "text": "Focal Segmental Glomerulosclerosis (FSGS)"
         }
       ],
       "sourceProvidedAnswer": "B",
@@ -1160,19 +1264,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Acute interstitial nephritis with eosinophiluria"
+          "id": "A",
+          "text": "Acute interstitial nephritis with eosinophiluria"
         },
         {
           "key": "B",
-          "value": "Minimal change disease with foot process effacement"
+          "id": "B",
+          "text": "Minimal change disease with foot process effacement"
         },
         {
           "key": "C",
-          "value": "Renal Thrombotic Microangiopathy (TMA) and loss of endothelial fenestrations"
+          "id": "C",
+          "text": "Renal Thrombotic Microangiopathy (TMA) and loss of endothelial fenestrations"
         },
         {
           "key": "D",
-          "value": "Acute uric acid nephropathy"
+          "id": "D",
+          "text": "Acute uric acid nephropathy"
         }
       ],
       "sourceProvidedAnswer": "C",
@@ -1204,19 +1312,23 @@
       "options": [
         {
           "key": "A",
-          "value": "Nuclear Factor kappa B (NF-kB)"
+          "id": "A",
+          "text": "Nuclear Factor kappa B (NF-kB)"
         },
         {
           "key": "B",
-          "value": "Tumor Suppressor p53"
+          "id": "B",
+          "text": "Tumor Suppressor p53"
         },
         {
           "key": "C",
-          "value": "Wnt/beta-catenin"
+          "id": "C",
+          "text": "Wnt/beta-catenin"
         },
         {
           "key": "D",
-          "value": "Hypoxia-Inducible Factors (HIF-1alpha and HIF-2alpha)"
+          "id": "D",
+          "text": "Hypoxia-Inducible Factors (HIF-1alpha and HIF-2alpha)"
         }
       ],
       "sourceProvidedAnswer": "D",

@@ -11,10 +11,22 @@
       "id": "2026_亞東考訓_Q01",
       "stem": "A 72-year-old female with a history of hypertension presents for a routine check-up. Her serum creatinine is 0.9 mg/dL. Which of the following statements regarding the estimation of her glomerular filtration rate (eGFR) is correct?",
       "options": [
-        "A. The CKD-EPI equation has less bias and provides a more accurate estimation of GFR than the MDRD equation, particularly at higher GFR levels.",
-        "B. The MDRD equation is generally more accurate than the CKD-EPI equation when eGFR is greater than 60 mL/min/1.73 m2.",
-        "C. Both MDRD and CKD-EPI equations rely on serum cystatin C as their primary variable.",
-        "D. The MDRD equation underestimates GFR in severe chronic kidney disease compared to the CKD-EPI equation."
+        {
+          "id": "A",
+          "text": "The CKD-EPI equation has less bias and provides a more accurate estimation of GFR than the MDRD equation, particularly at higher GFR levels."
+        },
+        {
+          "id": "B",
+          "text": "The MDRD equation is generally more accurate than the CKD-EPI equation when eGFR is greater than 60 mL/min/1.73 m2."
+        },
+        {
+          "id": "C",
+          "text": "Both MDRD and CKD-EPI equations rely on serum cystatin C as their primary variable."
+        },
+        {
+          "id": "D",
+          "text": "The MDRD equation underestimates GFR in severe chronic kidney disease compared to the CKD-EPI equation."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -46,16 +58,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 1
     },
     {
       "id": "2026_亞東考訓_Q02",
       "stem": "A 65-year-old obese male (weight 120 kg, BMI 38 kg/m2) requires initiation of a renally cleared antibiotic. His serum creatinine is 1.2 mg/dL. When determining the appropriate drug dosage, which of the following best describes the limitation of the Cockcroft-Gault (CG) formula in this patient?",
       "options": [
-        "A. The CG formula estimates true GFR rather than creatinine clearance, leading to potential underdosing.",
-        "B. The CG formula normalizes the result to body surface area (1.73 m2), which is inappropriate for drug dosing.",
-        "C. The CG formula is independent of the patient's age and weight, rendering it inaccurate for elderly or obese populations.",
-        "D. The use of actual body weight in the CG formula will likely overestimate his creatinine clearance, potentially leading to drug toxicity."
+        {
+          "id": "A",
+          "text": "The CG formula estimates true GFR rather than creatinine clearance, leading to potential underdosing."
+        },
+        {
+          "id": "B",
+          "text": "The CG formula normalizes the result to body surface area (1.73 m2), which is inappropriate for drug dosing."
+        },
+        {
+          "id": "C",
+          "text": "The CG formula is independent of the patient's age and weight, rendering it inaccurate for elderly or obese populations."
+        },
+        {
+          "id": "D",
+          "text": "The use of actual body weight in the CG formula will likely overestimate his creatinine clearance, potentially leading to drug toxicity."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -87,16 +112,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 2
     },
     {
       "id": "2026_亞東考訓_Q03",
       "stem": "A 17-year-old adolescent with a history of congenital anomalies of the kidney and urinary tract (CAKUT) is transitioning to adult care. Which of the following best describes the advantage of the Full Age Spectrum (FAS) equation over the traditional Schwartz equation in this clinical scenario?",
       "options": [
-        "A. The FAS equation requires 24-hour urine collection to calculate the Q-value for more precise GFR measurement.",
-        "B. The FAS equation utilizes a normalized serum creatinine concept (Q-value) based on age and sex, providing a continuous GFR estimation across the transition from pediatric to adult age without the sudden shift seen when switching from the Schwartz to adult formulas.",
-        "C. The FAS equation eliminates the need for height measurement, relying solely on age and sex.",
-        "D. The Schwartz formula tends to overestimate GFR in young children but becomes highly accurate during late adolescence, making the FAS equation unnecessary."
+        {
+          "id": "A",
+          "text": "The FAS equation requires 24-hour urine collection to calculate the Q-value for more precise GFR measurement."
+        },
+        {
+          "id": "B",
+          "text": "The FAS equation utilizes a normalized serum creatinine concept (Q-value) based on age and sex, providing a continuous GFR estimation across the transition from pediatric to adult age without the sudden shift seen when switching from the Schwartz to adult formulas."
+        },
+        {
+          "id": "C",
+          "text": "The FAS equation eliminates the need for height measurement, relying solely on age and sex."
+        },
+        {
+          "id": "D",
+          "text": "The Schwartz formula tends to overestimate GFR in young children but becomes highly accurate during late adolescence, making the FAS equation unnecessary."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -128,16 +166,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 3
     },
     {
       "id": "2026_亞東考訓_Q04",
       "stem": "A neonate presents with severe watery diarrhea, failure to thrive, and laboratory tests revealing profound metabolic alkalosis and hypochloremia. A defect in the DRA (SLC26A3) protein is suspected. What is the primary pathophysiological consequence of this defect leading to the patient's acid-base disorder?",
       "options": [
-        "A. Impaired intestinal apical chloride absorption and bicarbonate secretion, resulting in massive fecal chloride loss and systemic retention of bicarbonate.",
-        "B. Excessive renal excretion of bicarbonate due to a defect in the proximal tubule.",
-        "C. Hyperactivation of the epithelial sodium channel (ENaC) in the colon, causing significant potassium wasting.",
-        "D. Decreased gastric acid secretion leading to a relative increase in duodenal bicarbonate."
+        {
+          "id": "A",
+          "text": "Impaired intestinal apical chloride absorption and bicarbonate secretion, resulting in massive fecal chloride loss and systemic retention of bicarbonate."
+        },
+        {
+          "id": "B",
+          "text": "Excessive renal excretion of bicarbonate due to a defect in the proximal tubule."
+        },
+        {
+          "id": "C",
+          "text": "Hyperactivation of the epithelial sodium channel (ENaC) in the colon, causing significant potassium wasting."
+        },
+        {
+          "id": "D",
+          "text": "Decreased gastric acid secretion leading to a relative increase in duodenal bicarbonate."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -169,16 +220,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 4
     },
     {
       "id": "2026_亞東考訓_Q05",
       "stem": "A 45-year-old male is admitted with severe metabolic alkalosis (serum bicarbonate 40 mEq/L) and hypokalemia. His blood pressure is 110/70 mmHg. A spot urine chloride test reveals a concentration of 8 mmol/L. Which of the following is the most likely etiology and expected response to therapy?",
       "options": [
-        "A. Primary aldosteronism; the patient will not respond to normal saline infusion.",
-        "B. Surreptitious diuretic abuse; the patient requires spironolactone for correction.",
-        "C. Gastric outlet obstruction with recurrent vomiting; the alkalosis will be saline-responsive.",
-        "D. Gitelman syndrome; the alkalosis will be saline-responsive."
+        {
+          "id": "A",
+          "text": "Primary aldosteronism; the patient will not respond to normal saline infusion."
+        },
+        {
+          "id": "B",
+          "text": "Surreptitious diuretic abuse; the patient requires spironolactone for correction."
+        },
+        {
+          "id": "C",
+          "text": "Gastric outlet obstruction with recurrent vomiting; the alkalosis will be saline-responsive."
+        },
+        {
+          "id": "D",
+          "text": "Gitelman syndrome; the alkalosis will be saline-responsive."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -210,16 +274,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 5
     },
     {
       "id": "2026_亞東考訓_Q06",
       "stem": "A 32-year-old female is evaluated for treatment-resistant hypertension, hypokalemia, and metabolic alkalosis. Her urine chloride is 45 mmol/L. Laboratory tests demonstrate suppressed plasma renin activity and low serum aldosterone levels. Which of the following is the most appropriate next step in diagnosis or management?",
       "options": [
-        "A. Adrenal venous sampling to confirm a unilateral aldosterone-producing adenoma.",
-        "B. Administration of amiloride, suspecting Liddle syndrome or an activating mutation of the mineralocorticoid receptor.",
-        "C. Measurement of 24-hour urine free cortisol, as the high aldosterone level points to Cushing's syndrome.",
-        "D. Genetic testing for SLC12A3 mutations to confirm Gitelman syndrome."
+        {
+          "id": "A",
+          "text": "Adrenal venous sampling to confirm a unilateral aldosterone-producing adenoma."
+        },
+        {
+          "id": "B",
+          "text": "Administration of amiloride, suspecting Liddle syndrome or an activating mutation of the mineralocorticoid receptor."
+        },
+        {
+          "id": "C",
+          "text": "Measurement of 24-hour urine free cortisol, as the high aldosterone level points to Cushing's syndrome."
+        },
+        {
+          "id": "D",
+          "text": "Genetic testing for SLC12A3 mutations to confirm Gitelman syndrome."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -251,16 +328,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 6
     },
     {
       "id": "2026_亞東考訓_Q07",
       "stem": "In the evaluation of a patient with suspected early acute kidney injury (AKI), various urinary biomarkers are measured. Which of the following biomarker profiles correctly differentiates between structural proximal tubule injury and pure glomerular pathology?",
       "options": [
-        "A. Elevated urinary albumin directly indicates proximal tubule epithelial necrosis.",
-        "B. Elevated urinary beta2-microglobulin reflects severe podocyte detachment rather than tubular dysfunction.",
-        "C. Urinary podocalyxin is considered a sensitive marker for ischemic loop of Henle damage.",
-        "D. High levels of urinary Kidney Injury Molecule-1 (KIM-1) and Liver-type Fatty Acid Binding Protein (L-FABP) are highly specific for proximal tubular injury."
+        {
+          "id": "A",
+          "text": "Elevated urinary albumin directly indicates proximal tubule epithelial necrosis."
+        },
+        {
+          "id": "B",
+          "text": "Elevated urinary beta2-microglobulin reflects severe podocyte detachment rather than tubular dysfunction."
+        },
+        {
+          "id": "C",
+          "text": "Urinary podocalyxin is considered a sensitive marker for ischemic loop of Henle damage."
+        },
+        {
+          "id": "D",
+          "text": "High levels of urinary Kidney Injury Molecule-1 (KIM-1) and Liver-type Fatty Acid Binding Protein (L-FABP) are highly specific for proximal tubular injury."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -292,16 +382,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 7
     },
     {
       "id": "2026_亞東考訓_Q08",
       "stem": "A critically ill patient in the intensive care unit is evaluated for the risk of developing moderate to severe acute kidney injury (AKI). A diagnostic test measuring urinary Tissue Inhibitor of Metalloproteinases-2 (TIMP-2) and Insulin-like Growth Factor-Binding Protein 7 (IGFBP-7) is performed. What is the pathophysiological significance of a highly elevated result?",
       "options": [
-        "A. It indicates massive necrosis of the collecting duct epithelium, requiring immediate renal replacement therapy.",
-        "B. It reflects active fibroblast proliferation and irreversible chronic fibrosis in the renal interstitium.",
-        "C. It signifies that renal tubular epithelial cells have entered G1 cell cycle arrest in response to ischemic or inflammatory stress, predicting a high risk of imminent AKI.",
-        "D. It demonstrates rapid tubular regeneration and a favorable prognosis for immediate recovery."
+        {
+          "id": "A",
+          "text": "It indicates massive necrosis of the collecting duct epithelium, requiring immediate renal replacement therapy."
+        },
+        {
+          "id": "B",
+          "text": "It reflects active fibroblast proliferation and irreversible chronic fibrosis in the renal interstitium."
+        },
+        {
+          "id": "C",
+          "text": "It signifies that renal tubular epithelial cells have entered G1 cell cycle arrest in response to ischemic or inflammatory stress, predicting a high risk of imminent AKI."
+        },
+        {
+          "id": "D",
+          "text": "It demonstrates rapid tubular regeneration and a favorable prognosis for immediate recovery."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -333,16 +436,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 8
     },
     {
       "id": "2026_亞東考訓_Q09",
       "stem": "A patient with oliguria is subjected to a Furosemide Stress Test (FST) to assess tubular integrity and nephron functional reserve. Which of the following statements regarding distal nephron biomarkers and the FST is accurate?",
       "options": [
-        "A. Neutrophil Gelatinase-Associated Lipocalin (NGAL) is synthesized primarily in the distal nephron in response to injury, and high urinary NGAL levels typically correlate with a poor response to the FST.",
-        "B. Uromodulin (Tamm-Horsfall protein) is exclusively secreted by the proximal tubule, and its absence predicts a failed FST.",
-        "C. A robust increase in urine output following furosemide administration indicates severe structural damage to the thick ascending limb of the loop of Henle.",
-        "D. The FST evaluates the glomerular filtration capacity solely without depending on the secretory function of the proximal tubule."
+        {
+          "id": "A",
+          "text": "Neutrophil Gelatinase-Associated Lipocalin (NGAL) is synthesized primarily in the distal nephron in response to injury, and high urinary NGAL levels typically correlate with a poor response to the FST."
+        },
+        {
+          "id": "B",
+          "text": "Uromodulin (Tamm-Horsfall protein) is exclusively secreted by the proximal tubule, and its absence predicts a failed FST."
+        },
+        {
+          "id": "C",
+          "text": "A robust increase in urine output following furosemide administration indicates severe structural damage to the thick ascending limb of the loop of Henle."
+        },
+        {
+          "id": "D",
+          "text": "The FST evaluates the glomerular filtration capacity solely without depending on the secretory function of the proximal tubule."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -374,16 +490,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 9
     },
     {
       "id": "2026_亞東考訓_Q10",
       "stem": "A 65-year-old male presents with painless gross hematuria. An intravenous urogram (IVU) is performed to evaluate the upper urinary tract. Which of the following findings is most characteristic of transitional cell carcinoma (TCC) in the renal pelvis rather than a typical renal cell carcinoma (RCC)?",
       "options": [
-        "A. Displacement and stretching of the calyces resulting in a spider-leg appearance",
-        "B. A radiolucent, irregular filling defect within the renal pelvis without significant distortion of the calyces",
-        "C. A large expansile mass with central calcifications and prominent neovascularity",
-        "D. Diffuse bilateral enlargement of the kidneys with multiple cystic lucencies"
+        {
+          "id": "A",
+          "text": "Displacement and stretching of the calyces resulting in a spider-leg appearance"
+        },
+        {
+          "id": "B",
+          "text": "A radiolucent, irregular filling defect within the renal pelvis without significant distortion of the calyces"
+        },
+        {
+          "id": "C",
+          "text": "A large expansile mass with central calcifications and prominent neovascularity"
+        },
+        {
+          "id": "D",
+          "text": "Diffuse bilateral enlargement of the kidneys with multiple cystic lucencies"
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -415,16 +544,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 10
     },
     {
       "id": "2026_亞東考訓_Q11",
       "stem": "A 72-year-old female from the Balkans with a history of aristolochic acid exposure and heavy smoking is evaluated for recurrent hematuria. A cystoscopy and upper tract imaging are scheduled. Regarding the epidemiology and pathophysiology of her most likely underlying malignancy, which of the following statements is true?",
       "options": [
-        "A. The tumor is characteristically solitary and arises exclusively from the proximal convoluted tubule.",
-        "B. Chronic analgesic abuse and smoking are protective factors against the development of this malignancy.",
-        "C. The malignancy has a high rate of multifocality throughout the urothelium, requiring synchronous and metachronous surveillance.",
-        "D. Aristolochic acid exposure is strongly associated with clear cell histology rather than papillary lesions."
+        {
+          "id": "A",
+          "text": "The tumor is characteristically solitary and arises exclusively from the proximal convoluted tubule."
+        },
+        {
+          "id": "B",
+          "text": "Chronic analgesic abuse and smoking are protective factors against the development of this malignancy."
+        },
+        {
+          "id": "C",
+          "text": "The malignancy has a high rate of multifocality throughout the urothelium, requiring synchronous and metachronous surveillance."
+        },
+        {
+          "id": "D",
+          "text": "Aristolochic acid exposure is strongly associated with clear cell histology rather than papillary lesions."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -456,16 +598,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 11
     },
     {
       "id": "2026_亞東考訓_Q12",
       "stem": "A 55-year-old male undergoes a multi-phasic CT scan of the abdomen for an incidentally discovered renal mass. The lesion is well-circumscribed, exhibits avid enhancement during the corticomedullary phase, and contains areas of central necrosis. Which of the following subtypes of renal malignancy is most consistent with these imaging features?",
       "options": [
-        "A. Transitional cell carcinoma",
-        "B. Papillary renal cell carcinoma",
-        "C. Chromophobe renal cell carcinoma",
-        "D. Clear cell renal cell carcinoma"
+        {
+          "id": "A",
+          "text": "Transitional cell carcinoma"
+        },
+        {
+          "id": "B",
+          "text": "Papillary renal cell carcinoma"
+        },
+        {
+          "id": "C",
+          "text": "Chromophobe renal cell carcinoma"
+        },
+        {
+          "id": "D",
+          "text": "Clear cell renal cell carcinoma"
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -497,16 +652,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 12
     },
     {
       "id": "2026_亞東考訓_Q13",
       "stem": "A nephrologist and a vascular surgeon are discussing the creation of a primary radiocephalic arteriovenous fistula (AVF) for a patient with end-stage renal disease. They debate between the side-to-side and end-to-side anastomotic configurations. Which of the following statements accurately compares these two surgical techniques?",
       "options": [
-        "A. The side-to-side configuration generally offers a higher initial fistula blood flow, but is associated with higher rates of complications such as arterial steal and distal venous hypertension.",
-        "B. The side-to-side technique provides identical primary and secondary patency rates with a lower incidence of high-output cardiac failure.",
-        "C. The end-to-side technique is associated with a significantly higher risk of distal venous hypertension compared to the side-to-side technique.",
-        "D. End-to-side anastomosis technically restricts fistula flow to the extent that it routinely requires a graft extension for adequate dialysis."
+        {
+          "id": "A",
+          "text": "The side-to-side configuration generally offers a higher initial fistula blood flow, but is associated with higher rates of complications such as arterial steal and distal venous hypertension."
+        },
+        {
+          "id": "B",
+          "text": "The side-to-side technique provides identical primary and secondary patency rates with a lower incidence of high-output cardiac failure."
+        },
+        {
+          "id": "C",
+          "text": "The end-to-side technique is associated with a significantly higher risk of distal venous hypertension compared to the side-to-side technique."
+        },
+        {
+          "id": "D",
+          "text": "End-to-side anastomosis technically restricts fistula flow to the extent that it routinely requires a graft extension for adequate dialysis."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -538,16 +706,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 13
     },
     {
       "id": "2026_亞東考訓_Q14",
       "stem": "A 60-year-old male on maintenance hemodialysis via a side-to-side brachiocephalic AVF presents with severe pain and coolness in the digits of his fistula arm during dialysis sessions, as well as progressive swelling and hyperpigmentation of the hand. What is the primary pathophysiological mechanism underlying these clinical features?",
       "options": [
-        "A. Thrombosis of the central subclavian vein causing isolated limb ischemia",
-        "B. Retrograde flow of arterial blood into the distal vein combined with diversion of blood away from the distal capillary beds",
-        "C. Spontaneous rupture of the primary anastomosis leading to localized compartment syndrome",
-        "D. Overproduction of local vasodilators causing sympathetic failure and reactive hyperemia"
+        {
+          "id": "A",
+          "text": "Thrombosis of the central subclavian vein causing isolated limb ischemia"
+        },
+        {
+          "id": "B",
+          "text": "Retrograde flow of arterial blood into the distal vein combined with diversion of blood away from the distal capillary beds"
+        },
+        {
+          "id": "C",
+          "text": "Spontaneous rupture of the primary anastomosis leading to localized compartment syndrome"
+        },
+        {
+          "id": "D",
+          "text": "Overproduction of local vasodilators causing sympathetic failure and reactive hyperemia"
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -579,16 +760,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 14
     },
     {
       "id": "2026_亞東考訓_Q15",
       "stem": "A patient with an established side-to-side radiocephalic AVF develops debilitating distal venous hypertension, marked by severe edema and ulceration of the thumb. Vascular imaging confirms retrograde flow into the distal radial vein. What is the most appropriate surgical intervention to resolve this complication while preserving the functional dialysis access?",
       "options": [
-        "A. Complete ligation of the proximal radial artery",
-        "B. Embolization of the entire cephalic vein outflow tract",
-        "C. Ligation of the distal vein just beyond the anastomosis, effectively converting it to a functional end-to-side configuration",
-        "D. Immediate placement of a hemodialysis catheter and complete takedown of the AVF"
+        {
+          "id": "A",
+          "text": "Complete ligation of the proximal radial artery"
+        },
+        {
+          "id": "B",
+          "text": "Embolization of the entire cephalic vein outflow tract"
+        },
+        {
+          "id": "C",
+          "text": "Ligation of the distal vein just beyond the anastomosis, effectively converting it to a functional end-to-side configuration"
+        },
+        {
+          "id": "D",
+          "text": "Immediate placement of a hemodialysis catheter and complete takedown of the AVF"
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -620,16 +814,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 15
     },
     {
       "id": "2026_亞東考訓_Q16",
       "stem": "A 50-year-old anuric hemodialysis patient has been receiving tap water dialysate inadvertently bypassing the reverse osmosis system. Over several months, he develops progressive cognitive impairment, speech disturbances, and severe bone pain. Laboratory results reveal a microcytic anemia that is completely unresponsive to intravenous iron and erythropoiesis-stimulating agents. Which of the following contaminants is most likely responsible for this syndrome?",
       "options": [
-        "A. Aluminum",
-        "B. Fluoride",
-        "C. Chloramine",
-        "D. Copper"
+        {
+          "id": "A",
+          "text": "Aluminum"
+        },
+        {
+          "id": "B",
+          "text": "Fluoride"
+        },
+        {
+          "id": "C",
+          "text": "Chloramine"
+        },
+        {
+          "id": "D",
+          "text": "Copper"
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -661,16 +868,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 16
     },
     {
       "id": "2026_亞東考訓_Q17",
       "stem": "During a single shift in a hemodialysis unit, several patients acutely complain of shortness of breath and chest tightness. Blood drawn from the arterial line of the extracorporeal circuit appears chocolate-brown. Laboratory evaluation shows a sudden drop in hemoglobin levels and elevated reticulocyte counts in these patients. Accidental breakthrough of which water contaminant, causing overwhelming oxidant stress to red blood cells, is the most likely culprit?",
       "options": [
-        "A. Endotoxin",
-        "B. Calcium",
-        "C. Zinc",
-        "D. Chloramine"
+        {
+          "id": "A",
+          "text": "Endotoxin"
+        },
+        {
+          "id": "B",
+          "text": "Calcium"
+        },
+        {
+          "id": "C",
+          "text": "Zinc"
+        },
+        {
+          "id": "D",
+          "text": "Chloramine"
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -702,16 +922,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 17
     },
     {
       "id": "2026_亞東考訓_Q18",
       "stem": "To ensure patient safety and prevent intoxication during hemodialysis, a strict sequence of water purification components must be maintained. Which of the following correctly pairs a water treatment component with its primary targeted impurity?",
       "options": [
-        "A. Reverse osmosis membrane — Selective removal of exclusively uncharged organic solutes",
-        "B. Deionization tanks — Direct physical filtration of particulate matter and suspended solids",
-        "C. Water softener — Neutralization of circulating bacterial endotoxins to prevent pyrogenic reactions",
-        "D. Activated carbon tanks — Adsorption of chlorine and chloramines to prevent red blood cell oxidative damage"
+        {
+          "id": "A",
+          "text": "Reverse osmosis membrane — Selective removal of exclusively uncharged organic solutes"
+        },
+        {
+          "id": "B",
+          "text": "Deionization tanks — Direct physical filtration of particulate matter and suspended solids"
+        },
+        {
+          "id": "C",
+          "text": "Water softener — Neutralization of circulating bacterial endotoxins to prevent pyrogenic reactions"
+        },
+        {
+          "id": "D",
+          "text": "Activated carbon tanks — Adsorption of chlorine and chloramines to prevent red blood cell oxidative damage"
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -743,16 +976,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 18
     },
     {
       "id": "2026_亞東考訓_Q19",
       "stem": "Which of the following parameters correctly characterizes a high-flux dialyzer as opposed to a standard or merely high-efficiency dialyzer?",
       "options": [
-        "A. A mass transfer area coefficient (KoA) for urea exceeding 1000 mL/min regardless of beta-2 microglobulin clearance.",
-        "B. An ultrafiltration coefficient (Kuf) greater than 20 mL/h/mmHg and a beta-2 microglobulin clearance greater than 20 mL/min.",
-        "C. A predominantly convective urea transport mechanism utilizing a dialysate flow rate strictly above 800 mL/min.",
-        "D. Complete impermeability to albumin and other molecules larger than 5,000 Daltons to prevent excessive protein loss."
+        {
+          "id": "A",
+          "text": "A mass transfer area coefficient (KoA) for urea exceeding 1000 mL/min regardless of beta-2 microglobulin clearance."
+        },
+        {
+          "id": "B",
+          "text": "An ultrafiltration coefficient (Kuf) greater than 20 mL/h/mmHg and a beta-2 microglobulin clearance greater than 20 mL/min."
+        },
+        {
+          "id": "C",
+          "text": "A predominantly convective urea transport mechanism utilizing a dialysate flow rate strictly above 800 mL/min."
+        },
+        {
+          "id": "D",
+          "text": "Complete impermeability to albumin and other molecules larger than 5,000 Daltons to prevent excessive protein loss."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -784,16 +1030,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 19
     },
     {
       "id": "2026_亞東考訓_Q20",
       "stem": "When comparing standard, high-efficiency, and high-flux dialyzers, which of the following statements is accurate regarding their respective clearance characteristics?",
       "options": [
-        "A. Standard dialyzers typically possess a vitamin B12 clearance exceeding 150 mL/min due to their large surface area.",
-        "B. High-efficiency dialyzers achieve superior urea clearance primarily through substantially increased porosity allowing high beta-2 microglobulin removal.",
-        "C. High-flux dialyzers always require blood flow rates lower than 200 mL/min to prevent excessive ultrafiltration and hypotension.",
-        "D. High-efficiency dialyzers achieve very high urea clearance (KoA urea often > 600) typically requiring high blood and dialysate flow rates, but they do not necessarily have high clearance for larger molecules like beta-2 microglobulin."
+        {
+          "id": "A",
+          "text": "Standard dialyzers typically possess a vitamin B12 clearance exceeding 150 mL/min due to their large surface area."
+        },
+        {
+          "id": "B",
+          "text": "High-efficiency dialyzers achieve superior urea clearance primarily through substantially increased porosity allowing high beta-2 microglobulin removal."
+        },
+        {
+          "id": "C",
+          "text": "High-flux dialyzers always require blood flow rates lower than 200 mL/min to prevent excessive ultrafiltration and hypotension."
+        },
+        {
+          "id": "D",
+          "text": "High-efficiency dialyzers achieve very high urea clearance (KoA urea often > 600) typically requiring high blood and dialysate flow rates, but they do not necessarily have high clearance for larger molecules like beta-2 microglobulin."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -825,16 +1084,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 20
     },
     {
       "id": "2026_亞東考訓_Q21",
       "stem": "A 55-year-old male on maintenance hemodialysis for 15 years develops progressive shoulder pain and carpal tunnel syndrome. Imaging and clinical findings are consistent with dialysis-related amyloidosis. Switching him to a high-flux hemodialyzer is considered. What is the primary mechanistic benefit of this switch for this patient?",
       "options": [
-        "A. Enhanced removal of small molecular weight toxins like urea and creatinine via increased dialysate flow rates.",
-        "B. Improved clearance of middle molecules, specifically beta-2 microglobulin, mitigating further amyloid deposition.",
-        "C. Decreased complement activation and leukopenia resulting from biocompatible synthetic membranes.",
-        "D. Increased ultrafiltration capacity leading to better extracellular fluid volume control and blood pressure management."
+        {
+          "id": "A",
+          "text": "Enhanced removal of small molecular weight toxins like urea and creatinine via increased dialysate flow rates."
+        },
+        {
+          "id": "B",
+          "text": "Improved clearance of middle molecules, specifically beta-2 microglobulin, mitigating further amyloid deposition."
+        },
+        {
+          "id": "C",
+          "text": "Decreased complement activation and leukopenia resulting from biocompatible synthetic membranes."
+        },
+        {
+          "id": "D",
+          "text": "Increased ultrafiltration capacity leading to better extracellular fluid volume control and blood pressure management."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -866,16 +1138,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 21
     },
     {
       "id": "2026_亞東考訓_Q22",
       "stem": "During a peritoneal dialysis exchange using a 4.25% hypertonic dextrose solution, transcapillary ultrafiltration occurs rapidly. According to the three-pore model of peritoneal transport, which of the following structures is responsible for more than 50% of this fluid movement during the hypertonic crystalloid osmotic drive?",
       "options": [
-        "A. Intercellular clefts (small pores) which transport both solute and water.",
-        "B. Venular large pores which allow the passage of large plasma proteins and exudate.",
-        "C. Aquaporin-1 (ultra-small pores) located in the endothelial cells of peritoneal capillaries.",
-        "D. Lymphatic stomata on the diaphragmatic surface that actively resorb dialysate."
+        {
+          "id": "A",
+          "text": "Intercellular clefts (small pores) which transport both solute and water."
+        },
+        {
+          "id": "B",
+          "text": "Venular large pores which allow the passage of large plasma proteins and exudate."
+        },
+        {
+          "id": "C",
+          "text": "Aquaporin-1 (ultra-small pores) located in the endothelial cells of peritoneal capillaries."
+        },
+        {
+          "id": "D",
+          "text": "Lymphatic stomata on the diaphragmatic surface that actively resorb dialysate."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -907,16 +1192,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 22
     },
     {
       "id": "2026_亞東考訓_Q23",
       "stem": "Which of the following accurately describes the transport characteristics of the distinct pore types proposed in the three-pore model of peritoneal dialysis?",
       "options": [
-        "A. Small pores account for the majority of the hydraulic conductance and facilitate the transport of small solutes like urea and creatinine.",
-        "B. Ultra-small pores allow the coupled transport of water and low-molecular-weight solutes, accounting for significant potassium clearance.",
-        "C. Large pores are the most abundant pores in the peritoneal membrane, responsible for the high efficiency of sodium extraction.",
-        "D. Both small and large pores strictly restrict the passage of albumin, making ultra-small pores the sole pathway for protein loss during peritonitis."
+        {
+          "id": "A",
+          "text": "Small pores account for the majority of the hydraulic conductance and facilitate the transport of small solutes like urea and creatinine."
+        },
+        {
+          "id": "B",
+          "text": "Ultra-small pores allow the coupled transport of water and low-molecular-weight solutes, accounting for significant potassium clearance."
+        },
+        {
+          "id": "C",
+          "text": "Large pores are the most abundant pores in the peritoneal membrane, responsible for the high efficiency of sodium extraction."
+        },
+        {
+          "id": "D",
+          "text": "Both small and large pores strictly restrict the passage of albumin, making ultra-small pores the sole pathway for protein loss during peritonitis."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -948,16 +1246,29 @@
           "databaseSufficiency": "INSUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 23
     },
     {
       "id": "2026_亞東考訓_Q24",
       "stem": "A patient undergoes a peritoneal equilibration test (PET) using a 4.25% dextrose solution. A marked decrease in dialysate sodium concentration is observed during the first 60 minutes of the dwell. What is the clinical significance of this phenomenon?",
       "options": [
-        "A. It indicates a failure of the small pores to transport sodium adequately, suggesting early peritoneal membrane sclerosis.",
-        "B. It demonstrates an abnormal retrograde absorption of sodium into the mesenteric capillaries due to high lymphatic flow.",
-        "C. It represents a state of severe dialysate ultrafiltration failure, warranting immediate transition to hemodialysis.",
-        "D. It reflects intact aquaporin-1 function, mediating rapid free water transport into the peritoneal cavity and diluting the dialysate sodium."
+        {
+          "id": "A",
+          "text": "It indicates a failure of the small pores to transport sodium adequately, suggesting early peritoneal membrane sclerosis."
+        },
+        {
+          "id": "B",
+          "text": "It demonstrates an abnormal retrograde absorption of sodium into the mesenteric capillaries due to high lymphatic flow."
+        },
+        {
+          "id": "C",
+          "text": "It represents a state of severe dialysate ultrafiltration failure, warranting immediate transition to hemodialysis."
+        },
+        {
+          "id": "D",
+          "text": "It reflects intact aquaporin-1 function, mediating rapid free water transport into the peritoneal cavity and diluting the dialysate sodium."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -989,16 +1300,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 24
     },
     {
       "id": "2026_亞東考訓_Q25",
       "stem": "A 62-year-old peritoneal dialysis patient is diagnosed with tuberculous (TB) peritonitis. The patient has been initiated on an appropriate anti-tuberculous pharmacotherapy regimen and is clinically improving. Regarding the management of his peritoneal dialysis catheter, which of the following is the most appropriate approach?",
       "options": [
-        "A. The PD catheter can be safely retained if the patient shows clinical improvement in response to targeted anti-tuberculous therapy.",
-        "B. Immediate removal of the PD catheter is mandatory for all cases of TB peritonitis, similar to the protocol for fungal peritonitis.",
-        "C. The catheter must be removed within 48 hours to prevent the dissemination of mycobacteria to the central nervous system.",
-        "D. Catheter removal is indicated only if the dialysate effluent remains cloudy for more than 48 hours despite broad-spectrum antibacterial coverage."
+        {
+          "id": "A",
+          "text": "The PD catheter can be safely retained if the patient shows clinical improvement in response to targeted anti-tuberculous therapy."
+        },
+        {
+          "id": "B",
+          "text": "Immediate removal of the PD catheter is mandatory for all cases of TB peritonitis, similar to the protocol for fungal peritonitis."
+        },
+        {
+          "id": "C",
+          "text": "The catheter must be removed within 48 hours to prevent the dissemination of mycobacteria to the central nervous system."
+        },
+        {
+          "id": "D",
+          "text": "Catheter removal is indicated only if the dialysate effluent remains cloudy for more than 48 hours despite broad-spectrum antibacterial coverage."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1030,16 +1354,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 25
     },
     {
       "id": "2026_亞東考訓_Q26",
       "stem": "Which of the following dialysate effluent analysis results is most characteristic of tuberculous peritonitis in a peritoneal dialysis patient?",
       "options": [
-        "A. A neutrophilic predominance with a highly positive acid-fast bacilli (AFB) smear on direct microscopy.",
-        "B. Eosinophilia exceeding 10% of total white blood cells and elevated effluent glucose levels.",
-        "C. A hemorrhagic effluent with massive mesothelial cell exfoliation and positive Gram stain for intracellular bacilli.",
-        "D. A lymphocytic predominance with a typically negative acid-fast bacilli (AFB) smear, necessitating PCR or mycobacterial culture for confirmation."
+        {
+          "id": "A",
+          "text": "A neutrophilic predominance with a highly positive acid-fast bacilli (AFB) smear on direct microscopy."
+        },
+        {
+          "id": "B",
+          "text": "Eosinophilia exceeding 10% of total white blood cells and elevated effluent glucose levels."
+        },
+        {
+          "id": "C",
+          "text": "A hemorrhagic effluent with massive mesothelial cell exfoliation and positive Gram stain for intracellular bacilli."
+        },
+        {
+          "id": "D",
+          "text": "A lymphocytic predominance with a typically negative acid-fast bacilli (AFB) smear, necessitating PCR or mycobacterial culture for confirmation."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1071,16 +1408,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 26
     },
     {
       "id": "2026_亞東考訓_Q27",
       "stem": "A patient with confirmed tuberculous peritonitis on peritoneal dialysis has been receiving multidrug anti-tuberculous therapy for 3 weeks. The patient now presents with recurrent abdominal pain, severely reduced ultrafiltration, and poor dialysate outflow. What is the most appropriate next step in management?",
       "options": [
-        "A. Increase the dose of intra-peritoneal anti-tuberculous agents and prescribe a fibrinolytic agent to dissolve early clots.",
-        "B. Transition the patient to a monotherapy regimen of oral isoniazid to reduce chemical irritation of the peritoneal membrane.",
-        "C. Remove the peritoneal dialysis catheter due to signs of severe outflow obstruction and peritoneal adhesions, and transition to hemodialysis.",
-        "D. Continue the current regimen unaltered, as structural complications of the peritoneum invariably resolve after 6 months of therapy."
+        {
+          "id": "A",
+          "text": "Increase the dose of intra-peritoneal anti-tuberculous agents and prescribe a fibrinolytic agent to dissolve early clots."
+        },
+        {
+          "id": "B",
+          "text": "Transition the patient to a monotherapy regimen of oral isoniazid to reduce chemical irritation of the peritoneal membrane."
+        },
+        {
+          "id": "C",
+          "text": "Remove the peritoneal dialysis catheter due to signs of severe outflow obstruction and peritoneal adhesions, and transition to hemodialysis."
+        },
+        {
+          "id": "D",
+          "text": "Continue the current regimen unaltered, as structural complications of the peritoneum invariably resolve after 6 months of therapy."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1112,16 +1462,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 27
     },
     {
       "id": "2026_亞東考訓_Q28",
       "stem": "A 55-year-old male with end-stage renal disease is maintained on continuous ambulatory peritoneal dialysis. He recently started using a 7.5% icodextrin solution for his long overnight dwell to improve ultrafiltration. Which of the following best describes the pharmacokinetic profile and metabolism of icodextrin in this patient?",
       "options": [
-        "A. It is slowly absorbed via peritoneal lymphatics and metabolized in the systemic circulation by alpha-amylase into maltose and larger oligosaccharides.",
-        "B. It is metabolized within the peritoneal cavity by beta-glucuronidase into individual glucose molecules.",
-        "C. It is rapidly absorbed into the systemic circulation via peritoneal capillaries and excreted unchanged in the urine.",
-        "D. It undergoes significant hepatic metabolism by the cytochrome P450 system into inactive metabolites."
+        {
+          "id": "A",
+          "text": "It is slowly absorbed via peritoneal lymphatics and metabolized in the systemic circulation by alpha-amylase into maltose and larger oligosaccharides."
+        },
+        {
+          "id": "B",
+          "text": "It is metabolized within the peritoneal cavity by beta-glucuronidase into individual glucose molecules."
+        },
+        {
+          "id": "C",
+          "text": "It is rapidly absorbed into the systemic circulation via peritoneal capillaries and excreted unchanged in the urine."
+        },
+        {
+          "id": "D",
+          "text": "It undergoes significant hepatic metabolism by the cytochrome P450 system into inactive metabolites."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1153,16 +1516,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 28
     },
     {
       "id": "2026_亞東考訓_Q29",
       "stem": "Which of the following statements correctly describes the biochemical composition and mechanism of action of standard 7.5% icodextrin peritoneal dialysis solutions?",
       "options": [
-        "A. It utilizes bicarbonate as its primary buffer agent and induces ultrafiltration through crystalloid osmosis.",
-        "B. It utilizes lactate as its primary buffer agent and induces ultrafiltration primarily through colloid osmosis.",
-        "C. It contains a high concentration of un-ionized glucose to maintain a sustained transcapillary osmotic gradient.",
-        "D. It acts as an osmotic agent by rapidly drawing water into the peritoneal cavity within the first hour of a short dwell."
+        {
+          "id": "A",
+          "text": "It utilizes bicarbonate as its primary buffer agent and induces ultrafiltration through crystalloid osmosis."
+        },
+        {
+          "id": "B",
+          "text": "It utilizes lactate as its primary buffer agent and induces ultrafiltration primarily through colloid osmosis."
+        },
+        {
+          "id": "C",
+          "text": "It contains a high concentration of un-ionized glucose to maintain a sustained transcapillary osmotic gradient."
+        },
+        {
+          "id": "D",
+          "text": "It acts as an osmotic agent by rapidly drawing water into the peritoneal cavity within the first hour of a short dwell."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1194,16 +1570,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 29
     },
     {
       "id": "2026_亞東考訓_Q30",
       "stem": "A patient with end-stage renal disease on peritoneal dialysis has been identified as a high transporter on a recent peritoneal equilibration test. They are experiencing inadequate ultrafiltration and fluid overload with standard glucose-based solutions. Switching the long dwell to an icodextrin-based solution is considered. What clinical effect is most likely to be achieved with this intervention?",
       "options": [
-        "A. Direct reduction in the overall incidence rate of bacterial peritonitis.",
-        "B. Permanent alteration of the peritoneal membrane transport status from high to low-average.",
-        "C. Rapid correction of hyperkalemia through direct chemical binding of potassium in the peritoneal cavity.",
-        "D. Significant improvement in ultrafiltration during the long dwell without an increased risk of hyperglycemia."
+        {
+          "id": "A",
+          "text": "Direct reduction in the overall incidence rate of bacterial peritonitis."
+        },
+        {
+          "id": "B",
+          "text": "Permanent alteration of the peritoneal membrane transport status from high to low-average."
+        },
+        {
+          "id": "C",
+          "text": "Rapid correction of hyperkalemia through direct chemical binding of potassium in the peritoneal cavity."
+        },
+        {
+          "id": "D",
+          "text": "Significant improvement in ultrafiltration during the long dwell without an increased risk of hyperglycemia."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1235,16 +1624,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 30
     },
     {
       "id": "2026_亞東考訓_Q31",
       "stem": "A 42-year-old woman is admitted to the intensive care unit with acute liver failure and severe hyperammonemia, complicated by acute kidney injury. She exhibits signs of progressive encephalopathy. Renal replacement therapy is being initiated. Which of the following is the most appropriate rationale for selecting continuous renal replacement therapy over intermittent hemodialysis in this patient?",
       "options": [
-        "A. CRRT provides a more rapid and dramatic initial reduction in plasma ammonia levels within the first two hours compared to IHD.",
-        "B. CRRT intrinsically corrects underlying coagulopathy associated with acute liver failure without the need for systemic anticoagulation.",
-        "C. CRRT avoids rapid osmotic shifts, thereby preventing sudden spikes in intracranial pressure and exacerbation of cerebral edema.",
-        "D. CRRT requires a lower total volume of substitution fluid and is associated with a significantly shorter duration of treatment."
+        {
+          "id": "A",
+          "text": "CRRT provides a more rapid and dramatic initial reduction in plasma ammonia levels within the first two hours compared to IHD."
+        },
+        {
+          "id": "B",
+          "text": "CRRT intrinsically corrects underlying coagulopathy associated with acute liver failure without the need for systemic anticoagulation."
+        },
+        {
+          "id": "C",
+          "text": "CRRT avoids rapid osmotic shifts, thereby preventing sudden spikes in intracranial pressure and exacerbation of cerebral edema."
+        },
+        {
+          "id": "D",
+          "text": "CRRT requires a lower total volume of substitution fluid and is associated with a significantly shorter duration of treatment."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1276,16 +1678,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 31
     },
     {
       "id": "2026_亞東考訓_Q32",
       "stem": "When prescribing continuous renal replacement therapy for a patient with severe acute liver failure and hyperammonemia, which of the following operational parameters and targets is recommended to achieve optimal ammonia clearance?",
       "options": [
-        "A. Utilizing a low effluent dose of 15 to 20 mL/kg/h to prevent dialysis disequilibrium syndrome.",
-        "B. Maintaining an effluent dose greater than 35 to 45 mL/kg/h to rapidly lower ammonia levels below 150 umol/L.",
-        "C. Performing isolated ultrafiltration without dialysate flow to strictly limit volume expansion.",
-        "D. Delaying the initiation of CRRT until the plasma ammonia level exceeds 300 umol/L to maximize therapeutic efficiency."
+        {
+          "id": "A",
+          "text": "Utilizing a low effluent dose of 15 to 20 mL/kg/h to prevent dialysis disequilibrium syndrome."
+        },
+        {
+          "id": "B",
+          "text": "Maintaining an effluent dose greater than 35 to 45 mL/kg/h to rapidly lower ammonia levels below 150 umol/L."
+        },
+        {
+          "id": "C",
+          "text": "Performing isolated ultrafiltration without dialysate flow to strictly limit volume expansion."
+        },
+        {
+          "id": "D",
+          "text": "Delaying the initiation of CRRT until the plasma ammonia level exceeds 300 umol/L to maximize therapeutic efficiency."
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1317,16 +1732,29 @@
           "databaseSufficiency": "INSUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 32
     },
     {
       "id": "2026_亞東考訓_Q33",
       "stem": "What is the primary pathophysiological mechanism underlying hyperammonemic brain injury in patients with acute liver failure, which rationalizes the urgent initiation of continuous renal replacement therapy?",
       "options": [
-        "A. Ammonia crosses the blood-brain barrier and is converted to glutamine in astrocytes, leading to intracellular hyperosmolarity, astrocyte swelling, and cerebral edema.",
-        "B. Ammonia acts as a competitive antagonist at GABA receptors, causing refractory seizure activity and excitotoxicity.",
-        "C. Ammonia directly induces vasoconstriction of cerebral arteries, leading to severe ischemic stroke and neuronal necrosis.",
-        "D. Ammonia irreversibly binds to hemoglobin, preventing adequate oxygen delivery to the cerebral cortex."
+        {
+          "id": "A",
+          "text": "Ammonia crosses the blood-brain barrier and is converted to glutamine in astrocytes, leading to intracellular hyperosmolarity, astrocyte swelling, and cerebral edema."
+        },
+        {
+          "id": "B",
+          "text": "Ammonia acts as a competitive antagonist at GABA receptors, causing refractory seizure activity and excitotoxicity."
+        },
+        {
+          "id": "C",
+          "text": "Ammonia directly induces vasoconstriction of cerebral arteries, leading to severe ischemic stroke and neuronal necrosis."
+        },
+        {
+          "id": "D",
+          "text": "Ammonia irreversibly binds to hemoglobin, preventing adequate oxygen delivery to the cerebral cortex."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1358,16 +1786,29 @@
           "databaseSufficiency": "INSUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 33
     },
     {
       "id": "2026_亞東考訓_Q34",
       "stem": "A critically ill patient is receiving continuous venovenous hemodiafiltration with regional citrate anticoagulation. Routine laboratory monitoring reveals a new-onset high anion gap metabolic acidosis. The total serum calcium is 2.8 mmol/L and the ionized calcium is 0.9 mmol/L (ratio approximately 3.1). Which of the following is the most likely diagnosis?",
       "options": [
-        "A. Citrate overinfusion leading to net buffer gain.",
-        "B. Inadequate calcium supplementation during standard RCA therapy.",
-        "C. Citrate toxicity resulting from citrate accumulation.",
-        "D. Concomitant lactic acidosis secondary to profound tissue hypoperfusion alone."
+        {
+          "id": "A",
+          "text": "Citrate overinfusion leading to net buffer gain."
+        },
+        {
+          "id": "B",
+          "text": "Inadequate calcium supplementation during standard RCA therapy."
+        },
+        {
+          "id": "C",
+          "text": "Citrate toxicity resulting from citrate accumulation."
+        },
+        {
+          "id": "D",
+          "text": "Concomitant lactic acidosis secondary to profound tissue hypoperfusion alone."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1399,16 +1840,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 34
     },
     {
       "id": "2026_亞東考訓_Q35",
       "stem": "Which of the following physiological states most significantly predisposes a patient on continuous renal replacement therapy to develop citrate accumulation during regional citrate anticoagulation?",
       "options": [
-        "A. Primary hyperparathyroidism with baseline hypercalcemia.",
-        "B. Chronic kidney disease stage 5 without concomitant hepatic impairment.",
-        "C. Acute respiratory distress syndrome requiring high positive end-expiratory pressure.",
-        "D. Severe liver failure accompanied by profound shock and tissue hypoperfusion."
+        {
+          "id": "A",
+          "text": "Primary hyperparathyroidism with baseline hypercalcemia."
+        },
+        {
+          "id": "B",
+          "text": "Chronic kidney disease stage 5 without concomitant hepatic impairment."
+        },
+        {
+          "id": "C",
+          "text": "Acute respiratory distress syndrome requiring high positive end-expiratory pressure."
+        },
+        {
+          "id": "D",
+          "text": "Severe liver failure accompanied by profound shock and tissue hypoperfusion."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1440,16 +1894,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 35
     },
     {
       "id": "2026_亞東考訓_Q36",
       "stem": "In managing complications of regional citrate anticoagulation in continuous renal replacement therapy, it is critical to differentiate between citrate accumulation and citrate overinfusion. Which of the following laboratory profiles best describes citrate overinfusion rather than citrate accumulation?",
       "options": [
-        "A. Metabolic alkalosis with hypernatremia, and a normal total calcium to ionized calcium ratio.",
-        "B. High anion gap metabolic acidosis with an elevated total calcium to ionized calcium ratio (>2.5).",
-        "C. Normal acid-base status with isolated hyperphosphatemia.",
-        "D. Severe respiratory acidosis with profound ionized hypercalcemia."
+        {
+          "id": "A",
+          "text": "Metabolic alkalosis with hypernatremia, and a normal total calcium to ionized calcium ratio."
+        },
+        {
+          "id": "B",
+          "text": "High anion gap metabolic acidosis with an elevated total calcium to ionized calcium ratio (>2.5)."
+        },
+        {
+          "id": "C",
+          "text": "Normal acid-base status with isolated hyperphosphatemia."
+        },
+        {
+          "id": "D",
+          "text": "Severe respiratory acidosis with profound ionized hypercalcemia."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1481,16 +1948,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 36
     },
     {
       "id": "2026_亞東考訓_Q37",
       "stem": "Which of the following conditions is classified as an American Society for Apheresis (ASFA) Category I indication for therapeutic plasma exchange in renal diseases?",
       "options": [
-        "A. Anti-glomerular basement membrane (anti-GBM) disease with diffuse alveolar hemorrhage",
-        "B. Dialysis-dependent anti-GBM disease without diffuse alveolar hemorrhage",
-        "C. Severe systemic lupus erythematosus without nephritis",
-        "D. Steroid-resistant focal segmental glomerulosclerosis in a native kidney"
+        {
+          "id": "A",
+          "text": "Anti-glomerular basement membrane (anti-GBM) disease with diffuse alveolar hemorrhage"
+        },
+        {
+          "id": "B",
+          "text": "Dialysis-dependent anti-GBM disease without diffuse alveolar hemorrhage"
+        },
+        {
+          "id": "C",
+          "text": "Severe systemic lupus erythematosus without nephritis"
+        },
+        {
+          "id": "D",
+          "text": "Steroid-resistant focal segmental glomerulosclerosis in a native kidney"
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1522,16 +2002,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 37
     },
     {
       "id": "2026_亞東考訓_Q38",
       "stem": "According to the ASFA guidelines, how is the use of therapeutic plasma exchange classified for systemic lupus erythematosus presenting with severe lupus nephritis?",
       "options": [
-        "A. Category I",
-        "B. Category II",
-        "C. Category III",
-        "D. Category IV"
+        {
+          "id": "A",
+          "text": "Category I"
+        },
+        {
+          "id": "B",
+          "text": "Category II"
+        },
+        {
+          "id": "C",
+          "text": "Category III"
+        },
+        {
+          "id": "D",
+          "text": "Category IV"
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1563,16 +2056,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 38
     },
     {
       "id": "2026_亞東考訓_Q39",
       "stem": "A 50-year-old male is undergoing therapeutic plasma exchange for anti-GBM disease using 5% albumin as the replacement fluid. Which of the following complications is most specifically associated with the large-volume use of albumin rather than fresh frozen plasma?",
       "options": [
-        "A. Citrate-induced systemic hypocalcemia",
-        "B. Severe anaphylactoid reactions and acute lung injury",
-        "C. Clinically significant hypokalemia",
-        "D. Transmission of viral hepatitis"
+        {
+          "id": "A",
+          "text": "Citrate-induced systemic hypocalcemia"
+        },
+        {
+          "id": "B",
+          "text": "Severe anaphylactoid reactions and acute lung injury"
+        },
+        {
+          "id": "C",
+          "text": "Clinically significant hypokalemia"
+        },
+        {
+          "id": "D",
+          "text": "Transmission of viral hepatitis"
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1604,16 +2110,29 @@
           "databaseSufficiency": "INSUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 39
     },
     {
       "id": "2026_亞東考訓_Q40",
       "stem": "A nephrologist is optimizing the hemodialysis prescription for a patient with severe ethylene glycol intoxication. Which of the following technical modifications will most effectively enhance the extracorporeal clearance of the poison?",
       "options": [
-        "A. Selecting a dialyzer with a smaller membrane surface area",
-        "B. Utilizing two high-flux dialyzers connected in series (tandem hemodialysis)",
-        "C. Decreasing the blood flow rate (Qb) to reduce access recirculation",
-        "D. Decreasing the dialysate flow rate (Qd) to prolong the diffusive contact time"
+        {
+          "id": "A",
+          "text": "Selecting a dialyzer with a smaller membrane surface area"
+        },
+        {
+          "id": "B",
+          "text": "Utilizing two high-flux dialyzers connected in series (tandem hemodialysis)"
+        },
+        {
+          "id": "C",
+          "text": "Decreasing the blood flow rate (Qb) to reduce access recirculation"
+        },
+        {
+          "id": "D",
+          "text": "Decreasing the dialysate flow rate (Qd) to prolong the diffusive contact time"
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1645,16 +2164,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 40
     },
     {
       "id": "2026_亞東考訓_Q41",
       "stem": "The efficacy of extracorporeal poison removal via standard hemodialysis depends heavily on the pharmacokinetic properties of the ingested toxin. Which of the following sets of characteristics makes a drug most amenable to clearance by this modality?",
       "options": [
-        "A. Volume of distribution < 1 L/kg, protein binding < 50%, and molecular weight < 500 Da",
-        "B. Volume of distribution > 5 L/kg, protein binding > 90%, and molecular weight < 500 Da",
-        "C. Volume of distribution < 1 L/kg, protein binding > 90%, and high lipid solubility",
-        "D. Volume of distribution > 5 L/kg, protein binding < 50%, and molecular weight > 10,000 Da"
+        {
+          "id": "A",
+          "text": "Volume of distribution < 1 L/kg, protein binding < 50%, and molecular weight < 500 Da"
+        },
+        {
+          "id": "B",
+          "text": "Volume of distribution > 5 L/kg, protein binding > 90%, and molecular weight < 500 Da"
+        },
+        {
+          "id": "C",
+          "text": "Volume of distribution < 1 L/kg, protein binding > 90%, and high lipid solubility"
+        },
+        {
+          "id": "D",
+          "text": "Volume of distribution > 5 L/kg, protein binding < 50%, and molecular weight > 10,000 Da"
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1686,16 +2218,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 41
     },
     {
       "id": "2026_亞東考訓_Q42",
       "stem": "A patient presents to the emergency department comatose with a dangerously high serum valproic acid level of 1200 mcg/mL. Which of the following statements regarding the extracorporeal removal of this drug is correct?",
       "options": [
-        "A. Plasmapheresis with fresh frozen plasma is the treatment of choice.",
-        "B. Continuous venovenous hemofiltration (CVVH) provides the most rapid clearance.",
-        "C. High-flux intermittent hemodialysis is effective because the protein-binding capacity is saturated at toxic levels.",
-        "D. Peritoneal dialysis is highly effective due to the drug's high water solubility."
+        {
+          "id": "A",
+          "text": "Plasmapheresis with fresh frozen plasma is the treatment of choice."
+        },
+        {
+          "id": "B",
+          "text": "Continuous venovenous hemofiltration (CVVH) provides the most rapid clearance."
+        },
+        {
+          "id": "C",
+          "text": "High-flux intermittent hemodialysis is effective because the protein-binding capacity is saturated at toxic levels."
+        },
+        {
+          "id": "D",
+          "text": "Peritoneal dialysis is highly effective due to the drug's high water solubility."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1727,16 +2272,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 42
     },
     {
       "id": "2026_亞東考訓_Q43",
       "stem": "A patient presents to the emergency department in a stupor with a fruity odor on their breath. Laboratory evaluation reveals a serum osmolality of 330 mOsm/kg H2O with a calculated osmolality of 290 mOsm/kg H2O. Arterial blood gas shows a pH of 7.41, PaCO2 40 mmHg, and HCO3 24 mEq/L. The serum anion gap is 10 mEq/L. Urinalysis is strongly positive for ketones. Which of the following toxic ingestions is most consistent with these clinical and laboratory findings?",
       "options": [
-        "A. Ethylene glycol",
-        "B. Methanol",
-        "C. Salicylates",
-        "D. Isopropanol"
+        {
+          "id": "A",
+          "text": "Ethylene glycol"
+        },
+        {
+          "id": "B",
+          "text": "Methanol"
+        },
+        {
+          "id": "C",
+          "text": "Salicylates"
+        },
+        {
+          "id": "D",
+          "text": "Isopropanol"
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1768,16 +2326,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 43
     },
     {
       "id": "2026_亞東考訓_Q44",
       "stem": "A 45-year-old man with alcohol use disorder is brought to the hospital after being found unconscious. His arterial pH is 7.15, HCO3 8 mEq/L, and anion gap is 32 mEq/L. His serum osmolal gap is markedly elevated. A urine microscopy reveals abundant envelope-shaped crystals. Based on the most likely ingested substance, which of the following clinical manifestations is most specific to this patient's toxicity compared to other toxic alcohols?",
       "options": [
-        "A. Acute oliguric renal failure",
-        "B. Severe visual impairment and optic papillitis",
-        "C. Extensive necrosis of the basal ganglia on MRI",
-        "D. Profound ketonemia without significant anion gap acidosis"
+        {
+          "id": "A",
+          "text": "Acute oliguric renal failure"
+        },
+        {
+          "id": "B",
+          "text": "Severe visual impairment and optic papillitis"
+        },
+        {
+          "id": "C",
+          "text": "Extensive necrosis of the basal ganglia on MRI"
+        },
+        {
+          "id": "D",
+          "text": "Profound ketonemia without significant anion gap acidosis"
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1809,16 +2380,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 44
     },
     {
       "id": "2026_亞東考訓_Q45",
       "stem": "A 30-year-old patient is admitted after suspected methanol ingestion. Laboratory results confirm a severe high anion gap metabolic acidosis with an arterial pH of 7.10. The serum methanol level is reported as 75 mg/dL. The patient also complains of blurred \"snowstorm\" vision. Which of the following statements regarding the definitive management of this patient is most accurate?",
       "options": [
-        "A. Fomepizole should be administered because it competitively inhibits aldehyde dehydrogenase, thus preventing further accumulation of toxic metabolites.",
-        "B. Hemodialysis is contraindicated until fomepizole therapy has definitively failed to improve the metabolic acidosis.",
-        "C. Emergent hemodialysis is strongly indicated because of the severe acidosis, visual changes, and profoundly elevated serum methanol level.",
-        "D. Ethanol is generally preferred over fomepizole in modern practice due to its superior safety profile and lack of central nervous system depression."
+        {
+          "id": "A",
+          "text": "Fomepizole should be administered because it competitively inhibits aldehyde dehydrogenase, thus preventing further accumulation of toxic metabolites."
+        },
+        {
+          "id": "B",
+          "text": "Hemodialysis is contraindicated until fomepizole therapy has definitively failed to improve the metabolic acidosis."
+        },
+        {
+          "id": "C",
+          "text": "Emergent hemodialysis is strongly indicated because of the severe acidosis, visual changes, and profoundly elevated serum methanol level."
+        },
+        {
+          "id": "D",
+          "text": "Ethanol is generally preferred over fomepizole in modern practice due to its superior safety profile and lack of central nervous system depression."
+        }
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1850,16 +2434,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 45
     },
     {
       "id": "2026_亞東考訓_Q46",
       "stem": "A 65-year-old patient on maintenance hemodialysis via a polytetrafluoroethylene (PTFE) arteriovenous graft (AVG) in the left forearm presents with continuously increased venous pressures during dialysis and a progressive decrease in intra-access blood flow. An angiogram is planned for evaluation. Based on epidemiological data of vascular access complications, where is the most likely location of the primary stenotic lesion in this patient's synthetic graft?",
       "options": [
-        "A. Arterial anastomosis",
-        "B. Venous anastomosis",
-        "C. Mid-graft body segment",
-        "D. Central venous outflow tract"
+        {
+          "id": "A",
+          "text": "Arterial anastomosis"
+        },
+        {
+          "id": "B",
+          "text": "Venous anastomosis"
+        },
+        {
+          "id": "C",
+          "text": "Mid-graft body segment"
+        },
+        {
+          "id": "D",
+          "text": "Central venous outflow tract"
+        }
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1891,16 +2488,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 46
     },
     {
       "id": "2026_亞東考訓_Q47",
       "stem": "Venous anastomotic stenosis is a primary driver of access failure in synthetic arteriovenous grafts. Which of the following pathophysiological mechanisms best explains the disproportionate development of intimal hyperplasia at this specific anatomical site?",
       "options": [
-        "A. Compliance mismatch between the rigid synthetic graft and the distensible native vein, combined with turbulent shear stress that promotes myofibroblast proliferation.",
-        "B. Direct mechanical endothelial injury from repetitive and concentrated dialysis needle cannulation exclusively at the anastomotic site.",
-        "C. Atherosclerotic plaque rupture within the synthetic graft lumen leading to acute thrombosis and secondary fibromuscular dysplasia.",
-        "D. A severe immune-mediated foreign body reaction targeting the synthetic graft material, generating localized adventitial fibrosis."
+        {
+          "id": "A",
+          "text": "Compliance mismatch between the rigid synthetic graft and the distensible native vein, combined with turbulent shear stress that promotes myofibroblast proliferation."
+        },
+        {
+          "id": "B",
+          "text": "Direct mechanical endothelial injury from repetitive and concentrated dialysis needle cannulation exclusively at the anastomotic site."
+        },
+        {
+          "id": "C",
+          "text": "Atherosclerotic plaque rupture within the synthetic graft lumen leading to acute thrombosis and secondary fibromuscular dysplasia."
+        },
+        {
+          "id": "D",
+          "text": "A severe immune-mediated foreign body reaction targeting the synthetic graft material, generating localized adventitial fibrosis."
+        }
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1932,16 +2542,29 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 47
     },
     {
       "id": "2026_亞東考訓_Q48",
       "stem": "When comparing the natural history and management of vascular access stenosis between native arteriovenous fistulas (AVF) and synthetic arteriovenous grafts (AVG), which of the following statements is most accurate?",
       "options": [
-        "A. Primary stent placement is universally considered the first-line therapy over percutaneous transluminal angioplasty (PTA) for a newly diagnosed venous anastomotic stenosis in an AVG.",
-        "B. Stenotic lesions in synthetic AVGs generally demonstrate a significantly lower recurrence rate following successful balloon angioplasty compared to stenoses in native AVFs.",
-        "C. The central venous system is widely recognized as the single most common site of de novo stenosis in both synthetic AVGs and native AVFs.",
-        "D. The juxta-anastomotic segment is the most frequent site of stenosis in a native AVF, whereas the venous anastomosis is the most common site in a synthetic AVG."
+        {
+          "id": "A",
+          "text": "Primary stent placement is universally considered the first-line therapy over percutaneous transluminal angioplasty (PTA) for a newly diagnosed venous anastomotic stenosis in an AVG."
+        },
+        {
+          "id": "B",
+          "text": "Stenotic lesions in synthetic AVGs generally demonstrate a significantly lower recurrence rate following successful balloon angioplasty compared to stenoses in native AVFs."
+        },
+        {
+          "id": "C",
+          "text": "The central venous system is widely recognized as the single most common site of de novo stenosis in both synthetic AVGs and native AVFs."
+        },
+        {
+          "id": "D",
+          "text": "The juxta-anastomotic segment is the most frequent site of stenosis in a native AVF, whereas the venous anastomosis is the most common site in a synthetic AVG."
+        }
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
@@ -1973,7 +2596,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "qcVerified": true
+      "qcVerified": true,
+      "number": 48
     }
   ]
 }

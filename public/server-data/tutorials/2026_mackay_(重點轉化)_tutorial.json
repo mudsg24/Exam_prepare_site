@@ -59,44 +59,47 @@
       "moduleId": "microanatomy",
       "moduleTitle": "2. Podocyte Ultrastructure & Slit-Diaphragm Architecture",
       "studyGuide": "本主題聚焦於 Podocyte 的超微結構與 Slit-Diaphragm 胞內複合體。劃清 Podocin, Nephrin, TRPC6 的調控關係，並記熟 GEnC 的 5 大特異性表面標記！",
-      "diagrams": [
-        {
-          "id": "brenner_fig_3_12",
-          "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_3_12.png",
-          "caption": "Brenner 11e Fig. 3.12: Ultra-structure of Glomerular Filtration Barrier (Endothelial glycocalyx, fenestrations, basement membrane, slit diaphragm & podocyte foot processes).",
-          "sourceBook": "Brenner 11e Ch 3"
-        },
-        {
-          "id": "brenner_fig_43_1",
-          "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
-          "caption": "Brenner 11e Fig. 43.1: Molecular depiction of Podocyte Slit-Diaphragm complex (Nephrin, Podocin, CD2AP, TRPC6) & Actin Cytoskeleton.",
-          "sourceBook": "Brenner 11e Ch 43"
-        }
-      ],
+      "diagrams": [],
       "sections": [
         {
           "heading": "Slit-Diaphragm Intracellular Molecular Architecture",
-          "diagram": {
-            "id": "podocyte_slit_diaphragm_architecture_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/podocyte_slit_diaphragm_architecture.jpg",
-            "caption": "Figure 2.1: Intracellular Molecular Architecture of Podocyte Slit-Diaphragm (Podocin scaffolding, Nephrin, TRPC6, CD2AP & Actin Cytoskeleton).",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "Slit-Diaphragm 是相鄰 Foot processes 之間的特化分子篩網。在Intracellular part，Podocin (NPHS2) 扮演 Scaffolding 核心角色，形成高分子量Lipid raft 複合體。\n\nPodocin 向外錨定 Nephrin (NPHS1)，向內則串聯多個靈魂蛋白：\n1. TRPC6：調控足細胞內鈣離子流動之非選擇性陽離子通道，突變與體染色體顯性 FSGS 密不可分。\n2. CD2AP & Nck：連結足細胞 Actin 骨架微絲之 Adapter 蛋白。\n3. MAGI-1 & protein JAM4：維護足細胞間Tight Junction 與細胞膜流動性。"
+          "diagrams": [
+            {
+              "id": "brenner_fig_43_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+              "caption": "Brenner 11e Fig. 43.1: Molecular depiction of Podocyte Slit-Diaphragm complex (Nephrin, Podocin, CD2AP, TRPC6) & Actin Cytoskeleton.",
+              "sourceBook": "Brenner 11e Ch 43"
+            },
+            {
+              "id": "podocyte_slit_diaphragm_architecture_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/podocyte_slit_diaphragm_architecture.jpg",
+              "caption": "Figure 2.1: Intracellular Molecular Architecture of Podocyte Slit-Diaphragm (Podocin scaffolding, Nephrin, TRPC6, CD2AP & Actin Cytoskeleton).",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "Slit-Diaphragm 是相鄰 Foot processes 之間的特化分子篩網。在 Intracellular part，Podocin (NPHS2) 扮演 Scaffolding 核心角色，形成高分子量 Lipid raft 複合體。\n\nPodocin 向外錨定 Nephrin (NPHS1)，向內則串聯多個靈魂蛋白：\n1. TRPC6：調控足細胞內 Ca2+ 流動之 Non-selective Cation Channel，突變與 Autosomal Dominant FSGS 密不可分。\n2. CD2AP & Nck：連結足細胞 Actin Microfilaments 之 Adapter Proteins。\n3. MAGI-1 & protein JAM4：維護足細胞間 Tight Junction 與 Cell Membrane Fluidity。"
         },
         {
           "heading": "Glomerular Endothelial Cells (GEnCs) Surface Markers",
-          "diagram": {
-            "id": "genc_surface_markers_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/genc_surface_markers.jpg",
-            "caption": "Figure 2.2: Glomerular Endothelial Cell (GEnC) Surface Markers & Luminal Glycocalyx Ultrastructure.",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "GEnCs 具備高度特異性的細胞Surface Markers，在腎臟病理切片免疫染色與血管炎診斷中極具鑑別價值。考生必須精確記憶 5 大特異標記：\n- PECAM1 (CD31): Platelet endothelial cell adhesion molecule 1\n- ICAM2: Intercellular adhesion molecule 2\n- VEGFR2: Vascular endothelial growth factor receptor 2\n- von Willebrand factor (vWF): Weibel-Palade bodies 儲存與釋放\n- vascular endothelial (VE)-cadherin (CD144): 內皮細胞間 Adherens Junctions 核心蛋白質"
+          "diagrams": [
+            {
+              "id": "brenner_fig_3_12",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_3_12.png",
+              "caption": "Brenner 11e Fig. 3.12: Ultra-structure of Glomerular Filtration Barrier (Endothelial glycocalyx, fenestrations, basement membrane, slit diaphragm & podocyte foot processes).",
+              "sourceBook": "Brenner 11e Ch 3"
+            },
+            {
+              "id": "genc_surface_markers_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/genc_surface_markers.jpg",
+              "caption": "Figure 2.2: Glomerular Endothelial Cell (GEnC) Surface Markers & Luminal Glycocalyx Ultrastructure.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "GEnCs 具備高度特異性的 Surface Markers，在腎臟病理切片 Immunostaining 與 Vasculitis 診斷中極具鑑別價值。考生必須精確記憶 5 大特異標記：\n- PECAM1 (CD31): Platelet endothelial cell adhesion molecule 1\n- ICAM2: Intercellular adhesion molecule 2\n- VEGFR2: Vascular endothelial growth factor receptor 2\n- von Willebrand factor (vWF): Weibel-Palade bodies 儲存與釋放\n- VE-cadherin (CD144): Vascular endothelial cadherin, Adherens Junctions 核心蛋白質"
         }
       ]
     },

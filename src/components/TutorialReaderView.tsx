@@ -201,7 +201,7 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
               {/* Module Reference Micrographs / Standalone Figures Gallery */}
               {(() => {
                 const standaloneDiagrams = activeModule.diagrams?.filter(
-                  (diag) => !activeModule.sections.some((sec) => sec.diagram?.id === diag.id)
+                  (diag) => !activeModule.sections.some((sec) => sec.diagram?.id === diag.id || sec.diagrams?.some((d) => d.id === diag.id))
                 ) || [];
                 const has1to1Matching = activeModule.diagrams?.length === activeModule.sections.length;
 
@@ -267,11 +267,13 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
               {/* Interleaved Lecture Chapters (解釋圖片 -> 解釋文字) */}
               <div className="space-y-10 pt-6 border-t border-slate-200/60 dark:border-slate-800">
                 {activeModule.sections.map((sec, sIdx) => {
-                  const secDiagram = sec.diagram || (
-                    activeModule.diagrams && activeModule.diagrams.length === activeModule.sections.length
-                      ? activeModule.diagrams[sIdx]
-                      : null
-                  );
+                  const secDiagrams: TutorialDiagram[] = sec.diagrams && sec.diagrams.length > 0
+                    ? sec.diagrams
+                    : (sec.diagram ? [sec.diagram] : (
+                        activeModule.diagrams && activeModule.diagrams.length === activeModule.sections.length
+                          ? [activeModule.diagrams[sIdx]]
+                          : []
+                      ));
 
                   return (
                     <div key={sIdx} className="space-y-4">
@@ -281,9 +283,10 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                         <span>{sec.heading}</span>
                       </h3>
 
-                      {/* Explanation Image (解釋圖片) */}
-                      {secDiagram && (
+                      {/* Explanation Images (解釋圖片) */}
+                      {secDiagrams.map((diag) => (
                         <div
+                          key={diag.id}
                           className={`p-4 md:p-5 rounded-2xl border shadow-sm space-y-3 transition-all ${
                             isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950/60 border-slate-800'
                           }`}
@@ -291,12 +294,12 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                           <div className="flex items-center justify-between">
                             <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-300 text-[11px] font-mono font-extrabold border border-sky-500/20 flex items-center gap-1">
                               <FileImage className="w-3 h-3 text-sky-500" />
-                              <span>{secDiagram.sourceBook || 'AI Medical Illustration'}</span>
+                              <span>{diag.sourceBook || 'AI Medical Illustration'}</span>
                             </span>
 
-                            {secDiagram.imagePath && (
+                            {diag.imagePath && (
                               <button
-                                onClick={() => setZoomDiagram(secDiagram)}
+                                onClick={() => setZoomDiagram(diag)}
                                 className="text-xs font-bold text-slate-500 hover:text-sky-600 flex items-center gap-1 cursor-pointer transition-all"
                               >
                                 <Maximize2 className="w-3.5 h-3.5" />
@@ -305,26 +308,26 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                             )}
                           </div>
 
-                          {secDiagram.imagePath && (
+                          {diag.imagePath && (
                             <div
-                              onClick={() => setZoomDiagram(secDiagram)}
+                              onClick={() => setZoomDiagram(diag)}
                               className="overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-2 flex justify-center cursor-pointer group"
                             >
                               <img
-                                src={secDiagram.imagePath}
-                                alt={secDiagram.caption}
+                                src={diag.imagePath}
+                                alt={diag.caption}
                                 className="w-full max-h-[500px] object-contain rounded-lg transition-transform duration-300 group-hover:scale-[1.01]"
                               />
                             </div>
                           )}
 
-                          {secDiagram.caption && (
+                          {diag.caption && (
                             <p className="text-xs font-bold text-center text-slate-600 dark:text-slate-400 italic leading-relaxed">
-                              {secDiagram.caption}
+                              {diag.caption}
                             </p>
                           )}
                         </div>
-                      )}
+                      ))}
 
                       {/* Explanation Text (解釋文字) */}
                       {sec.content && (

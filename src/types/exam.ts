@@ -139,6 +139,7 @@ export interface TutorialSection {
   heading: string;
   content?: string;
   diagram?: TutorialDiagram;
+  diagrams?: TutorialDiagram[];
   items?: TutorialItem[];
   keyTerms?: string[];
   tables?: Array<{

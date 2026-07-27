@@ -59,6 +59,7 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
     tutorial.modules[0]?.moduleId || ''
   );
   const [zoomDiagram, setZoomDiagram] = useState<TutorialDiagram | null>(null);
+  const [imageFitMode, setImageFitMode] = useState<Record<string, 'width' | 'height'>>({});
   const isLight = themeMode === 'light';
 
   const activeModule: TutorialModule | undefined = tutorial.modules.find(
@@ -229,13 +230,38 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                             </span>
 
                             {diag.imagePath && (
-                              <button
-                                onClick={() => setZoomDiagram(diag)}
-                                className="text-xs font-bold text-slate-500 hover:text-sky-600 flex items-center gap-1 cursor-pointer transition-all"
-                              >
-                                <Maximize2 className="w-3.5 h-3.5" />
-                                <span>放大檢視</span>
-                              </button>
+                              <div className="flex items-center gap-1.5 bg-slate-200/60 dark:bg-slate-800/60 p-1 rounded-xl border border-slate-300/50 dark:border-slate-700/50">
+                                <button
+                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'width' }))}
+                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                    (imageFitMode[diag.id] || 'width') === 'width'
+                                      ? 'bg-sky-500 text-white shadow-sm'
+                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                  }`}
+                                  title="Fit 寬度 (滿寬排版)"
+                                >
+                                  Fit 寬度
+                                </button>
+                                <button
+                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'height' }))}
+                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                    imageFitMode[diag.id] === 'height'
+                                      ? 'bg-sky-500 text-white shadow-sm'
+                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                  }`}
+                                  title="Fit 高度 (限制最大高度 500px)"
+                                >
+                                  Fit 高度
+                                </button>
+                                <button
+                                  onClick={() => setZoomDiagram(diag)}
+                                  className="px-2.5 py-1 rounded-lg text-xs font-extrabold text-slate-600 dark:text-slate-300 hover:text-sky-500 flex items-center gap-1 transition-all cursor-pointer"
+                                  title="全螢幕放大顯示"
+                                >
+                                  <Maximize2 className="w-3.5 h-3.5" />
+                                  <span>放大顯示</span>
+                                </button>
+                              </div>
                             )}
                           </div>
 
@@ -247,7 +273,11 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                               <img
                                 src={diag.imagePath}
                                 alt={diag.caption}
-                                className="w-full max-h-[500px] object-contain rounded-lg transition-transform duration-300 group-hover:scale-[1.01]"
+                                className={`rounded-lg transition-transform duration-300 group-hover:scale-[1.01] ${
+                                  (imageFitMode[diag.id] || 'width') === 'width'
+                                    ? 'w-full h-auto'
+                                    : 'w-full max-h-[500px] object-contain'
+                                }`}
                               />
                             </div>
                           )}
@@ -298,13 +328,38 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                             </span>
 
                             {diag.imagePath && (
-                              <button
-                                onClick={() => setZoomDiagram(diag)}
-                                className="text-xs font-bold text-slate-500 hover:text-sky-600 flex items-center gap-1 cursor-pointer transition-all"
-                              >
-                                <Maximize2 className="w-3.5 h-3.5" />
-                                <span>放大檢視</span>
-                              </button>
+                              <div className="flex items-center gap-1.5 bg-slate-200/60 dark:bg-slate-800/60 p-1 rounded-xl border border-slate-300/50 dark:border-slate-700/50">
+                                <button
+                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'width' }))}
+                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                    (imageFitMode[diag.id] || 'width') === 'width'
+                                      ? 'bg-sky-500 text-white shadow-sm'
+                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                  }`}
+                                  title="Fit 寬度 (滿寬排版)"
+                                >
+                                  Fit 寬度
+                                </button>
+                                <button
+                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'height' }))}
+                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                    imageFitMode[diag.id] === 'height'
+                                      ? 'bg-sky-500 text-white shadow-sm'
+                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                  }`}
+                                  title="Fit 高度 (限制最大高度 500px)"
+                                >
+                                  Fit 高度
+                                </button>
+                                <button
+                                  onClick={() => setZoomDiagram(diag)}
+                                  className="px-2.5 py-1 rounded-lg text-xs font-extrabold text-slate-600 dark:text-slate-300 hover:text-sky-500 flex items-center gap-1 transition-all cursor-pointer"
+                                  title="全螢幕放大顯示"
+                                >
+                                  <Maximize2 className="w-3.5 h-3.5" />
+                                  <span>放大顯示</span>
+                                </button>
+                              </div>
                             )}
                           </div>
 
@@ -316,7 +371,11 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                               <img
                                 src={diag.imagePath}
                                 alt={diag.caption}
-                                className="w-full max-h-[500px] object-contain rounded-lg transition-transform duration-300 group-hover:scale-[1.01]"
+                                className={`rounded-lg transition-transform duration-300 group-hover:scale-[1.01] ${
+                                  (imageFitMode[diag.id] || 'width') === 'width'
+                                    ? 'w-full h-auto'
+                                    : 'w-full max-h-[500px] object-contain'
+                                }`}
                               />
                             </div>
                           )}

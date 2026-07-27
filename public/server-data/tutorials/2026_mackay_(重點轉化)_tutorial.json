@@ -1,15 +1,15 @@
 {
   "id": "2026_mackay_(重點轉化)_tutorial",
   "paperId": "2026_mackay_(重點轉化)",
-  "title": "2026 馬偕腎臟專科主題式備考教學講堂",
+  "title": "2026 馬偕腎臟專科解題導向主題式備考教學講堂",
   "sourceCategory": "主題式備考教學",
   "year": 2026,
-  "updatedAt": "2026-07-27T12:06:00.000Z",
+  "updatedAt": "2026-07-27T14:15:00.000Z",
   "modules": [
     {
       "moduleId": "glomerular_crosstalk",
-      "moduleTitle": "1. Glomerular Cell Crosstalk in Diabetic Nephropathy",
-      "studyGuide": "「Glomerular Cell Crosstalk」是馬偕專科考題的靈魂重點！考官極度偏好考 Podocyte、Glomerular Endothelial Cells (GEnCs) 與 Mesangial Cells 之間的雙向Paracrine 分子軸。重點掌握 VEGF-A/VEGFR2、Angpt1/Tie2、Endothelin-1/ETA、Heparanase、CXCL12/CXCR4 以及 Vasohibin 的病理調控！",
+      "moduleTitle": "1. Glomerular Cell Paracrine Crosstalk & Endothelial Protection",
+      "studyGuide": "本主題精準融合「2026 馬偕考訊.pdf」原始考點與 64 道考題。掌握 Podocyte 4 大生存因子、Diabetic Nephropathy 4 大旁分泌軸線 (Endothelin-1, Heparanase, CXCL12/CXCR4, Vasohibin)、Hyposialylated vs Normosialylated Angptl4 雙重致病分工、以及 Sunitinib TMA 解題決策樹！",
       "diagrams": [
         {
           "id": "brenner_fig_4_4",
@@ -17,96 +17,83 @@
           "imagePath": "/server-data/assets/Brenner_Fig_4_4.png",
           "caption": "Brenner 11e Fig. 4.4: Examples of intra-glomerular paracrine crosstalk (Podocyte, Glomerular Endothelial Cell GEnC, and Mesangial Cell paracrine interactions via VEGF-A/VEGFR2, Angpt1/Tie2, Endothelin-1/ETA, CXCL12/CXCR4, Vasohibin & Heparanase).",
           "sourceBook": "Brenner 11e Ch 4"
+        },
+        {
+          "id": "brenner_table_42_11",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_42_11_part2.png",
+          "caption": "Brenner 11e Table 42.11: Anticancer Drug Nephrotoxicity (Targeted Agents: Anti-VEGF agents, Bevacizumab, Sunitinib, TMA, Proteinuria & Hypertension).",
+          "sourceBook": "Brenner 11e Ch 42"
         }
       ],
       "sections": [
         {
-          "heading": "Physiological Crosstalk: Podocyte Paracrine Support of Glomerular Endothelium",
+          "heading": "Tri-Cellular Paracrine Secretion & Receptor Topological Mapping Matrix",
           "diagram": {
-            "id": "gfb_physiological_crosstalk_fig",
+            "id": "gfb_crosstalk_decision_tree_fig",
             "type": "ai_illustration",
-            "imagePath": "/server-data/assets/gfb_physiological_crosstalk.jpg",
-            "caption": "Figure 1.1: Physiological Paracrine Crosstalk (Podocyte Paracrine Support of Glomerular Endothelium: VEGF-A, Angpt1, SDF-1, Angptl4 & PDGF-B).",
+            "imagePath": "/server-data/assets/gfb_crosstalk_decision_tree.jpg",
+            "caption": "Figure 1.1: Tri-Cellular Paracrine Secretion & Answering Decision Tree (Podocyte to GEnC: VEGF-A/VEGFR2, Angpt1/Tie2, CXCL12/CXCR4; GEnC to Mesangial: PDGF-B/PDGFR-beta; Anti-VEGF Sunitinib TMA mechanism).",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "在健康的腎絲球超微結構中，Podocytes 位於腎絲球過濾屏障 (GFB) 的最外層，跨越基底膜 (GBM) 向血管腔側持續分泌 2 Paracrine Factors：\n1. VEGF-A (Vascular Endothelial Growth Factor A): 逆向擴散作用於 GEnCs 上的 VEGFR2 受體，維持Fenestrations 超微結構與細胞存活。\n2. Angiopoietin-1 (Angpt1): 作用於 GEnCs 上的 Tie2 酪胺酸激酶受體，促進內皮細胞連結穩定、防止血管滲漏並抑制過度發炎。\n\n此外，Podocytes 所分泌的 Normosialylated Angiopoietin-like-4 (Angptl4) 能有效保護 GBM 電荷屏障，防止 Albumin 大量漏出；而 SDF-1 (CXCL12) 則作用於 GEnCs 的 CXCR4 受體，引導內皮修復與血管架構穩定。"
+          "content": "在健康的腎絲球超微過濾屏障中，Podocytes 位於 GFB 最外層，持續向血管腔側與系膜區分泌 4 大維持過濾屏障之核心生存因子 (Common survival factors)：\n1. **Angiopoietin-1 (Angpt1)**: 作用於 GEnCs 上的 Tie2 受體，促進內皮抗凋亡、穩定血管結構並防止過度通透滲漏。\n2. **Normosialylated Angiopoietin-like-4 (Angptl4)**: 帶負電，保護 GBM 電荷屏障，防止 Albumin 大量滲漏。\n3. **Vascular Endothelial Growth Factor A (VEGF-A)**: 作用於 GEnCs 上的 VEGFR2，維持 Fenestrations 開放與細胞存活。\n4. **Stromal Derived Factor 1 (SDF-1 / CXCL12)**: 作用於 GEnCs 上的 CXCR4，引導內皮發育與微血管架構穩定。\n\n在 Diabetic Nephropathy 下，Podocyte 與 GEnCs 之間的雙向旁分泌對話發病失調，包含 4 大靈魂病理軸線：\n- **Endothelin-1 (ET-1) / ETA 受體軸線**: 受損內皮細胞釋放 ET-1 反向作用於 Podocyte ETA 受體，引發足細胞內 Ca2+ 過載與 Actin Foot Process Effacement。\n- **Heparanase 活性暴升**: 降解 GBM 與 Endothelial Glycocalyx 中的 Heparan Sulfate，破壞電荷屏障。\n- **CXCL12 / CXCR4 軸線失適應**: 導致局部血管發炎與微血管增殖異常。\n- **Vasohibin 訊息失調**: Vasohibin-1 (VASH-1) 抗血管新生與抗硬化蛋白受抑制，加劇微血管瘤形成。\n\n| 來源細胞 (Source) | 分泌因子 (Factor) | 受體 (Receptor) | 標的細胞 (Target) | 生理與病理效應 (Physiological & Pathological Effects) |\n| :--- | :--- | :--- | :--- | :--- |\n| Podocyte | VEGF-A | VEGFR2 | GEnC | 維持 Fenestrations 開放、液體通透性與內皮細胞存活 |\n| Podocyte | Angiopoietin-1 (Angpt1) | Tie2 | GEnC | 促進內皮抗凋亡、穩定血管結構並防止過度通透滲漏 |\n| Podocyte | CXCL12 (SDF-1) | CXCR4 | GEnC | 引導內皮發育、微血管架構穩定與損傷修復 |\n| GEnC | PDGF-B | PDGFR-beta | Mesangial Cell | 招募系膜細胞、調控 Mesangial Matrix 堆積與毛細血管網張力 |\n| GEnC | Endothelin-1 (ET-1) | ETA | Podocyte | 病理下引發足細胞內 Ca2+ 過載、Actin Foot Process Effacement |\n\n### 命題陷阱拆解 (Distractor Trap Deconstruction)\n- **陷阱 1 (VEGFR2 位置錯誤)**：選項常故意寫 *\"VEGFR2 expressed on podocytes\"*。記住：VEGFR2 特異性表達於 **GEnC 表面**，Podocyte 是分泌源而非受體細胞！\n- **陷阱 2 (PDGFR-beta 位置錯誤)**：選項常寫 *\"PDGF-B binds to PDGFR-beta on podocytes\"*。記住：PDGFR-beta 表達於 **Mesangial Cells 表面**！\n- **陷阱 3 (Angpt1 功能倒錯)**：Angpt1 結合 Tie2 是促進生存、**防止**滲漏；其內源性拮抗劑為 **Angpt2**，高濃度下會阻斷 Tie2 引發內皮凋亡。"
         },
         {
-          "heading": "Pathological Crosstalk Breakdown in Diabetic Nephropathy",
-          "diagram": {
-            "id": "gfb_diabetic_pathology_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/gfb_diabetic_pathology.jpg",
-            "caption": "Figure 1.2: Pathological Crosstalk Breakdown in Diabetic Nephropathy (ET-1/ETA Axis, Heparanase Surge, Charge Barrier Degradation & Foot Process Effacement).",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "Diabetic Nephropathy 早期，AGEs 破壞此一旁分泌平衡，觸發高度特異的病理 Crosstalk 軸線：\n- Endothelin-1 (ET-1) / ETA 受體軸線: 受損內皮細胞大量釋放 ET-1，反向作用於 Podocytes 上的 ETA 受體，引發足細胞內鈣離子過載、Actin Foot Process Effacement。\n- Heparanase 活性劇烈上升: 由受損 Podocyte 與 GEnCs 共同釋放，大量降解 GBM 與 Endothelial Glycocalyx 中的 Heparan Sulfate 硫酸乙醯肝素糖胺聚糖，導致負電荷屏障與分子篩網全面崩解。\n- CXCL12 / CXCR4 軸線失適應: 導致局部血管發炎與內皮細胞微血管增殖異常。\n- Vasohibin 訊息失調: Vasohibin-1 (VASH-1) 為內皮分泌之重要抗血管新生與抗硬化蛋白，糖尿病下受抑制，加劇腎絲球毛細血管Microaneurysms 形成與硬化。"
+          "heading": "Angptl4 Sialylation Spectrum: MCD Proteinuria vs Systemic Hyperlipidemia",
+          "content": "Angiopoietin-like-4 (Angptl4) 在 Minimal Change Disease (MCD) 與脂質代謝中扮演雙重相反的角色。考生必須死記其生化修飾差異與致病部位：\n\n| 分子修飾型態 (Modification) | 分泌源與部位 (Source & Location) | 電荷特性 (Charge State) | 病理與臨床效應 (Pathological Effects) |\n| :--- | :--- | :--- | :--- |\n| **Hyposialylated Angptl4** | Podocyte 局部分泌至 GBM | 高度帶正電 (Positive Charge) | 與帶負電之 GBM 發生靜電中和，破壞電荷屏障，引發 **Massive Proteinuria & MCD** |\n| **Normosialylated Angptl4** | Adipose Tissue / 肝臟全身循環 | 完整帶負電 (Negative Charge) | 被 GBM 負電荷排斥而不結合；在全身血液中強效抑制 Lipoprotein Lipase (LPL)，引發 **Hypertriglyceridemia** |\n\n### 解題決策樹 (Question-Answering Decision Tree)\n- **Trigger Keyword**: *\"Minimal change disease (MCD)\" + \"Angptl4 form responsible for massive proteinuria\"*\n- **Decision Path**: Podocyte 異常上調 ➔ 唾液酸化缺陷 (Hyposialylated) ➔ 分子帶正電 ➔ 中和 GBM 電荷屏障 ➔ 選擇 **(B) Hyposialylated Angptl4 secreted by podocytes**。\n- **Distractor Traps**: 排除 *Hyperglycosylated from GEnCs* (細胞與修飾皆錯) 以及 *Normosialylated from adipose tissue* (引起高脂血症而非蛋白尿)。"
         },
         {
-          "heading": "Mesangial-Podocyte-Endothelial Tri-Cellular Crosstalk Network",
-          "diagram": {
-            "id": "gfb_tricellular_mesangial_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/gfb_tricellular_mesangial.jpg",
-            "caption": "Figure 1.3: Tri-Cellular Crosstalk Network & Kimmelstiel-Wilson Nodules (Mesangial-Podocyte-Endothelial Crosstalk & TGF-β/CTGF ECM Expansion).",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "除了 Podocyte 與 GEnCs 的雙向對話外，Mesangial Cells 亦參與三細胞 crosstalk 網路。GEnCs 分泌 PDGF-B 作用於 Mesangial Cells 上的 PDGFR-β，調控 Mesangial Matrix 堆積與毛細血管網張力。\n\n在糖尿病狀態下，三種細胞發送的 TGF-β 與 CTGF (Connective Tissue Growth Factor) 呈正回饋暴風，驅動全腎絲球 ECM 堆積與Kimmelstiel-Wilson nodules 形成。"
+          "heading": "Onconephrology Anti-VEGF Therapy (Sunitinib) & Thrombotic Microangiopathy",
+          "content": "在 Onconephrology 專科考題中，標靶藥物（如 Sunitinib, Bevacizumab）引發的腎臟毒性為最高頻考點：\n\n### 解題決策樹 (Question-Answering Decision Tree)\n- **Trigger Keyword**: *\"Renal cell carcinoma treated with sunitinib\" + \"proteinuria, hypertension, TMA on biopsy\"*\n- **Pathophysiological Path**: Sunitinib 為多標靶 TKI ➔ 強效阻斷 GEnC 胞膜上的 **VEGFR2** 激酶 ➔ 癱瘓 Podocyte VEGF-A 提供的內皮生存訊號 ➔ GEnC 發生 Endotheliosis、空泡化與血栓形成 ➔ 選擇 **(C) Podocyte VEGF-A binding to VEGFR2 on glomerular endothelial cells**。\n- **Distractor Traps**: 排除 *CXCL12-CXCR4 on mesangial* (細胞受體錯位) 與 *PDGF-B on podocytes* (受體應在 Mesangial Cell)。"
         }
       ]
     },
     {
       "moduleId": "microanatomy",
-      "moduleTitle": "2. Podocyte Ultrastructure & Slit-Diaphragm Architecture",
-      "studyGuide": "本主題聚焦於 Podocyte 的超微結構與 Slit-Diaphragm 胞內複合體。劃清 Podocin, Nephrin, TRPC6 的調控關係，並記熟 GEnC 的 5 大特異性表面標記！",
-      "diagrams": [],
-      "sections": [
+      "moduleTitle": "2. Podocyte Ultrastructure, Slit-Diaphragm & Genetic Podocytopathies",
+      "studyGuide": "本主題完整對接考訊中 Slit-Diaphragm 胞內 6 大結構蛋白 (Podocin, TRPC6, CD2AP, Nck, MAGI-1, protein JAM4) 與 GEnC 5 大特異標記 (CD31, ICAM2, VEGFR2, vWF, VE-cadherin)，並結合 TRPC6 AD FSGS 之 Ca2+ 流入超載決策樹！",
+      "diagrams": [
         {
-          "heading": "Slit-Diaphragm Intracellular Molecular Architecture",
-          "diagrams": [
-            {
-              "id": "brenner_fig_43_1",
-              "type": "micrograph",
-              "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
-              "caption": "Brenner 11e Fig. 43.1: Molecular depiction of Podocyte Slit-Diaphragm complex (Nephrin, Podocin, CD2AP, TRPC6) & Actin Cytoskeleton.",
-              "sourceBook": "Brenner 11e Ch 43"
-            },
-            {
-              "id": "podocyte_slit_diaphragm_architecture_fig",
-              "type": "ai_illustration",
-              "imagePath": "/server-data/assets/podocyte_slit_diaphragm_architecture.jpg",
-              "caption": "Figure 2.1: Intracellular Molecular Architecture of Podocyte Slit-Diaphragm (Podocin scaffolding, Nephrin, TRPC6, CD2AP & Actin Cytoskeleton).",
-              "sourceBook": "AI Medical Illustration"
-            }
-          ],
-          "content": "Slit-Diaphragm 是相鄰 Foot processes 之間的特化分子篩網。在 Intracellular part，Podocin (NPHS2) 扮演 Scaffolding 核心角色，形成高分子量 Lipid raft 複合體。\n\nPodocin 向外錨定 Nephrin (NPHS1)，向內則串聯多個靈魂蛋白：\n1. TRPC6：調控足細胞內 Ca2+ 流動之 Non-selective Cation Channel，突變與 Autosomal Dominant FSGS 密不可分。\n2. CD2AP & Nck：連結足細胞 Actin Microfilaments 之 Adapter Proteins。\n3. MAGI-1 & protein JAM4：維護足細胞間 Tight Junction 與 Cell Membrane Fluidity。"
+          "id": "brenner_fig_43_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+          "caption": "Brenner 11e Fig. 43.1: Molecular depiction of Podocyte Slit-Diaphragm complex (Nephrin, Podocin, CD2AP, TRPC6) & Actin Cytoskeleton.",
+          "sourceBook": "Brenner 11e Ch 43"
         },
         {
-          "heading": "Glomerular Endothelial Cells (GEnCs) Surface Markers",
-          "diagrams": [
-            {
-              "id": "brenner_fig_3_12",
-              "type": "micrograph",
-              "imagePath": "/server-data/assets/Brenner_Fig_3_12.png",
-              "caption": "Brenner 11e Fig. 3.12: Ultra-structure of Glomerular Filtration Barrier (Endothelial glycocalyx, fenestrations, basement membrane, slit diaphragm & podocyte foot processes).",
-              "sourceBook": "Brenner 11e Ch 3"
-            },
-            {
-              "id": "genc_surface_markers_fig",
-              "type": "ai_illustration",
-              "imagePath": "/server-data/assets/genc_surface_markers.jpg",
-              "caption": "Figure 2.2: Glomerular Endothelial Cell (GEnC) Surface Markers & Luminal Glycocalyx Ultrastructure.",
-              "sourceBook": "AI Medical Illustration"
-            }
-          ],
-          "content": "GEnCs 具備高度特異性的 Surface Markers，在腎臟病理切片 Immunostaining 與 Vasculitis 診斷中極具鑑別價值。考生必須精確記憶 5 大特異標記：\n- PECAM1 (CD31): Platelet endothelial cell adhesion molecule 1\n- ICAM2: Intercellular adhesion molecule 2\n- VEGFR2: Vascular endothelial growth factor receptor 2\n- von Willebrand factor (vWF): Weibel-Palade bodies 儲存與釋放\n- VE-cadherin (CD144): Vascular endothelial cadherin, Adherens Junctions 核心蛋白質"
+          "id": "brenner_fig_3_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_3_12.png",
+          "caption": "Brenner 11e Fig. 3.12: Ultra-structure of Glomerular Filtration Barrier (Endothelial glycocalyx, fenestrations, basement membrane, slit diaphragm & podocyte foot processes).",
+          "sourceBook": "Brenner 11e Ch 3"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Slit-Diaphragm Intracellular Architecture & Actin Polymerization Cascade",
+          "diagram": {
+            "id": "podocyte_slit_diaphragm_decision_tree_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/podocyte_slit_diaphragm_decision_tree.jpg",
+            "caption": "Figure 2.1: Slit-Diaphragm Intracellular Signaling Cascade & Genetic FSGS Decision Tree (Nephrin phosphorylation by Fyn -> Nck recruitment via SH2/SH3 -> N-WASP/Arp2/3 actin polymerization; TRPC6 Gain-of-Function Ca2+ influx -> Effacement).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Slit-Diaphragm 的胞內側 (Intracellular part) 包含 6 大核心蛋白質分子組成：**Podocin, TRPC6, CD2AP, Nck, MAGI-1, 以及 protein JAM4**。\n\n當 Nephrin 受 Fyn 激酶磷酸化後，胞內信號級聯為：\n1. **Fyn Kinase** 磷酸化 Nephrin 胞內段酪胺酸殘基 (Phosphotyrosine sites)。\n2. **Nck Adaptor Protein (Nck1/Nck2)** 以其 SH2 Domain 直接特異性結合磷酸化 Nephrin。\n3. Nck 以其 SH3 Domain 招募並活化 **N-WASP** (Neuronal Wiskott-Aldrich syndrome protein)。\n4. 活化之 N-WASP 結合並驅動 **Arp2/3 Complex** 發動局部 Actin Polymerization，維持足突平行微絲張力。\n\n### 命題陷阱拆解 (Distractor Trap Deconstruction)\n- **直接結合與招募者為 Nck**：考題問 *\"Which protein directly binds phosphorylated Nephrin to recruit N-WASP?\"* ➔ 答案必須選 **Nck**！\n- **干擾項 CD2AP**：CD2AP 為 Scaffolding Protein，主要結合 Nephrin C-terminus 並活化 PI3K/Akt 抗凋亡通路，不介導 N-WASP/Arp2/3 招募。\n- **干擾項 MAGI-1 / JAM4**：MAGI-1 屬於 Membrane-associated guanylate kinase，與 JAM4 形成類 Tight Junction 結構，無微絲成核活化功能。"
+        },
+        {
+          "heading": "Genetic Podocytopathies & TRPC6 Gain-of-Function Answering Tree",
+          "content": "遺傳性 FSGS 與腎病症候群為高頻鑑別考點，考生必須精確對照遺傳模式、突變型態與分子機制：\n\n| 基因 (Gene) | 蛋白分子與類別 (Protein & Category) | 遺傳模式 (Inheritance) | 分子機制與臨床特徵 (Molecular Mechanism & Features) |\n| :--- | :--- | :--- | :--- |\n| **TRPC6** | Non-selective Cation Channel | **Autosomal Dominant (AD)** | **Gain-of-function 突變** ➔ 細胞內 **Ca2+ Influx 超載** ➔ 活化 Calcineurin-NFAT ➔ Actin 骨架紊亂與 Foot Process Effacement（成人發病） |\n| **ACTN4** | Alpha-actinin-4 (Actin Cross-linker) | **Autosomal Dominant (AD)** | 突變增加與 Actin 結合親和力，引發胞質骨架電子緻密聚集與降解 |\n| **NPHS1 / NPHS2** | Nephrin / Podocin (SD Complex) | **Autosomal Recessive (AR)** | Loss-of-function 突變 ➔ 生理結構缺失 ➔ Congenital / Steroid-Resistant NS (小兒發病) |\n\n### 解題決策樹 (Question-Answering Decision Tree)\n- **Trigger Keyword**: *\"Adult-onset autosomal dominant FSGS\" + \"Gain-of-function mutation\"*\n- **Decision Path**: 鎖定 TRPC6 陽離子通道 ➔ 異常通道開放 ➔ **(A) Facilitating excessive intracellular calcium influx that leads to podocyte foot process effacement**。"
+        },
+        {
+          "heading": "Glomerular Endothelial Cells (GEnCs) 5 Essential Specific Markers",
+          "content": "根據馬偕考訊重點，GEnCs 表達 5 大特異性分子標記 (Specific markers)，在腎臟免疫染色與血管炎診斷中為必考盲點：\n1. **PECAM1 (CD31)**: Platelet endothelial cell adhesion molecule 1\n2. **ICAM2**: Intercellular adhesion molecule 2\n3. **VEGFR2**: Vascular endothelial growth factor receptor 2\n4. **von Willebrand factor (vWF)**: Weibel-Palade bodies 儲存與釋放標記\n5. **Vascular Endothelial (VE)-cadherin (CD144)**: Adherens Junctions 核心蛋白質"
         }
       ]
     },
     {
       "moduleId": "aki_biomarkers",
-      "moduleTitle": "3. AKI Biomarkers & Anatomical Site-Specific Injury",
-      "studyGuide": "掌握 AKI Biomarkers 的最佳備考策略是按受損解剖位置（Glomerulus, Proximal Tubule, Interstitium, Early Critical Prediction）歸類記憶。出題者最喜歡考受損部位與 Biomarker 的配對！",
+      "moduleTitle": "3. AKI Biomarkers & Anatomical Site-Specific Nephron Injury",
+      "studyGuide": "本主題完全包含馬偕考訊 4 大解剖層次 AKI 生物標記！精確區分 Glomerular injury, Proximal tubule injury, Interstitial fibrosis, 以及 ICU 極早期 prediction 組合！",
       "diagrams": [
         {
           "id": "brenner_fig_27_2",
@@ -118,41 +105,22 @@
       ],
       "sections": [
         {
-          "heading": "Glomerular Barrier Injury & Podocyte Shedding Biomarkers",
+          "heading": "Nephron Site-Specific AKI Biomarker Mapping Matrix",
           "diagram": {
-            "id": "aki_glomerular_biomarkers_fig",
+            "id": "aki_biomarker_location_map_fig",
             "type": "ai_illustration",
-            "imagePath": "/server-data/assets/aki_glomerular_biomarkers.jpg",
-            "caption": "Figure 3.1: Glomerular Barrier Injury & Podocyte Shedding Biomarkers (Urinary Albumin, Podocyte Count & Podocalyxin).",
+            "imagePath": "/server-data/assets/aki_biomarker_location_map.jpg",
+            "caption": "Figure 3.1: AKI Biomarkers Mapping by Nephron Anatomical Location & ICU Cell Cycle Arrest Decision Tree ([TIMP-2] x [IGFBP-7] > 0.3 cutoff).",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "傳統的 Albumin 滲漏量是反映腎絲球通透性改變最直接的指標；但在更微觀的足細胞受損階段，尿中 Podocyte Count 與 Podocalyxin 能於顯性蛋白尿出現前更早反映 Podocyte 脫落與屏障崩解。"
-        },
-        {
-          "heading": "Proximal Tubule Ischemic & Toxic Injury Biomarkers",
-          "content": "Proximal Tubule 是 AKI 缺血與重金屬/毒素受損的首要受害部位。此區域特異性標記包含：\n- L-FABP (Liver-type fatty acid-binding protein)：反應小管脂肪酸過氧化與缺血壓力。\n- α1-Microglobulin & Netrin-1：反應近端小管重吸收障礙與早期受損釋放。\n- IL-18：由近端小管上皮細胞釋放之促發炎細胞因子。"
-        },
-        {
-          "heading": "Interstitial Fibrosis & Chronic Progression Biomarkers",
-          "content": "評估 AKI 轉變為 CKD 及腎Interstitial Fibrosis 程度時，以 TGF-β 、Collagen IV 以及血清 TNFR (Tumor Necrosis Factor Receptor 1 & 2) 最具預後預測價值。"
-        },
-        {
-          "heading": "Early AKI Prediction in Critical Illness & Cell Cycle Arrest",
-          "diagram": {
-            "id": "aki_cell_cycle_arrest_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/aki_cell_cycle_arrest.jpg",
-            "caption": "Figure 3.2: Early AKI Cell Cycle Arrest Biomarkers ([TIMP-2] x [IGFBP-7] > 0.3, Urine NGAL & Cystatin-C).",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "ICU 中，傳統 Serum Creatinine 延遲反應 24-48 小時。臨床極早期預測組合包含：Urine+Blood Cystatin-C、Urine NGAL 以及 Urine TIMP-2 與 IGFBP-7。\n\nTIMP-2 與 IGFBP-7 G1 Cell Cycle Arrest 標記，當兩者乘積 [TIMP-2] x [IGFBP-7] > 0.3 時，預測 12 小時內發生中重度 AKI 之靈敏度極高。"
+          "content": "掌握 AKI Biomarkers 的最佳解題策略是精確按馬偕考訊劃分的 4 大解剖位置與早期預測組合歸類：\n\n| 受損解剖位置 (Site / Category) | 考訊特異性生物標記 (Biomarkers in Exam Highlight) | 病理生理意義 (Pathophysiological Significance) |\n| :--- | :--- | :--- |\n| **Glomerular Injury** | Albumin excretion, Podocyte count, Podocalyxin | 反映足細胞脫落與屏障通透性塌陷 |\n| **Proximal Tubule Injury** | L-FABP, alpha1-Microglobulin, Netrin-1, IL-18 | 反映近端小管缺血過氧化、重吸收障礙與促發炎細胞因子釋放 |\n| **Interstitial Fibrosis** | TGF-beta, Collagen IV, TNFR | 反映腎間質纖維化與 CKD 轉變預後 |\n| **Early AKI Prediction in Critical Illness** | **Urine+Blood Cystatin-C, Urine NGAL, Urine IL-18, Urine TIMP-2 & IGFBP-7** | **G1 Cell Cycle Arrest 標記 (TIMP-2&IGFBP-7 > 0.3)**；於 Creatinine 上升前 24-48 小時預測 ICU 中重度 AKI |"
         }
       ]
     },
     {
       "moduleId": "gn_pathology",
-      "moduleTitle": "4. Glomerulonephritis & Systemic / Hereditary Pathologies",
-      "studyGuide": "本主題集中考查經典 GN、遺傳性腎病與系統性疾病的特異病理表現。注意劃清 SLE protective vs risk HLA alleles，以及 HIVAN vs Heroin nephropathy 的三項經典微觀比較！",
+      "moduleTitle": "4. Glomerulonephritis, Systemic Amyloidosis & Hereditary Pathologies",
+      "studyGuide": "本主題精準涵蓋考訊所有 GN 條目：Alport Syndrome 遺傳 ESRD 風險 (Autosomal Recessive >> Autosomal Dominant)、SLE HLA 基因 (Protective DR4/11 vs Risk DR3/13)、Amyloidosis 侵犯比率 (Kidney > Heart > Nerve) 以及 HIVAN vs Heroin 3 大微觀鑑別！",
       "diagrams": [
         {
           "id": "brenner_fig_43_1_gn",
@@ -160,38 +128,33 @@
           "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
           "caption": "Brenner 11e Fig. 43.1: Inherited Glomerular Disorders & Type IV Collagen (COL4A3, COL4A4, COL4A5) Glomerular Basement Membrane Network in Alport Syndrome.",
           "sourceBook": "Brenner 11e Ch 43"
+        },
+        {
+          "id": "brenner_fig_31_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_1.png",
+          "caption": "Brenner 11e Fig. 31.1: Proposed cellular mechanisms of podocyte injury and glomerular permeability in Minimal Change Disease & Primary FSGS.",
+          "sourceBook": "Brenner 11e Ch 31"
         }
       ],
       "sections": [
         {
-          "heading": "Alport Syndrome Inheritance & ESRD Risk Spectrum",
-          "content": "Alport Syndrome 為 IV 型膠原蛋白基因 (COL4A3, COL4A4, COL4A5) 突變所致。臨床考題極強調其遺傳模式對ESRD 風險的差異：Autosomal Recessive (AR) 的 ESRD 進展風險遠高於Autosomal Dominant (AD) (AR >> AD)，患者通常於青年期即併發感音性耳聾與眼睛病變。"
-        },
-        {
-          "heading": "Lupus Nephritis HLA Susceptibility vs Protective Alleles",
-          "content": "系統性紅斑性狼瘡 (SLE) 病患中，HLA 對立基因對Lupus Nephritis 具有特異的方向性：\n- Protective Alleles: HLA-DR4 與 HLA-DR11 。\n- Risk Alleles: HLA-DR3 與 HLA-DR13 。"
-        },
-        {
-          "heading": "Systemic Amyloidosis Peripheral Organ Involvement Ratio",
-          "content": "Systemic Amyloidosis 外周器官侵犯頻率的比率排序為考題重點：\nKidney > Heart > Nerve 。"
-        },
-        {
-          "heading": "HIVAN vs Heroin Nephropathy Light & Electron Microscopy Comparison",
+          "heading": "HIVAN vs Heroin Nephropathy & Systemic Pathologies Spectrum",
           "diagram": {
-            "id": "hivan_vs_heroin_nephropathy_fig",
+            "id": "hivan_vs_heroin_pathology_tree_fig",
             "type": "ai_illustration",
-            "imagePath": "/server-data/assets/hivan_vs_heroin_nephropathy.jpg",
-            "caption": "Figure 4.1: Pathological Comparison of HIV-Associated Nephropathy (HIVAN) vs Heroin Nephropathy under Light & Electron Microscopy.",
+            "imagePath": "/server-data/assets/hivan_vs_heroin_pathology_tree.jpg",
+            "caption": "Figure 4.1: Pathological Comparison of HIV-Associated Nephropathy (HIVAN) vs Heroin Nephropathy (Collapsing FSGS, Visceral swelling, Microcystic tubular dilation & Tubuloreticular inclusions).",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "HIV-associated Nephropathy (HIVAN) 與 Heroin-associated Nephropathy 在切片下皆表現為 FSGS 樣變化，但 HIVAN 具有三項極特異的鑑別特徵：\n1. Higher percentage of Glomerular Collapse (Collapsing FSGS)。\n2. Less Hyalinosis 。\n3. Greater Visceral Epithelial Cell Swelling 。"
+          "content": "HIVAN 與 Heroin Nephropathy 切片皆呈 FSGS 樣變化，但馬偕考訊強調 HIVAN 具備 3 大特異鑑別特徵：\n1. **Higher percentage of Glomerular Collapse (Collapsing FSGS)**。\n2. **Less Hyalinosis**。\n3. **Greater Visceral Epithelial Cell Swelling (伴 Microcystic Tubular Dilation)**。\n4. 電鏡下顯現特異性 **Tubuloreticular Inclusions (TRIs)** (由 Alpha/Beta Interferon 誘導)。\n\n### 馬偕考訊 GN 靈魂對比與決策數據\n- **Alport Syndrome ESRD Risk**: ESRD 風險比率排序為 **Autosomal Recessive (AR) >> Autosomal Dominant (AD)**。\n- **Lupus Nephritis HLA Susceptibility vs Protection**: \n  - **Protective HLA Alleles**: **HLA-DR4 & HLA-DR11**（保護降低腎臟受犯機率）。\n  - **Increased Risk HLA Alleles**: **HLA-DR3 & HLA-DR13**（顯著增加併發 Lupus Nephritis 風險）。\n- **Systemic Amyloidosis Peripheral Involvement Ratio**: 外周器官侵犯百分比排序為 **Kidney > Heart > Nerve**。"
         }
       ]
     },
     {
       "moduleId": "renal_transplantation",
       "moduleTitle": "5. Renal Transplantation: Immunosuppression, Interactions & Complications",
-      "studyGuide": "移植章節是馬偕考題大戶！必須把 4 國防免疫藥物標靶、4 大上升 Tacrolimus 濃度的 CYP3A4 抑制劑、4 種高 SIR (>5) 腫瘤、與 4 大 CMV 特異性器官表現死背下來！",
+      "studyGuide": "本主題 100% 完整融入馬偕考訊移植 4 大區塊：4 大單株抗體與標靶配對 (Belatacept-CD80/86, Basiliximab-IL2/CD25, OKT3-CD3, Alemtuzumab-CD52)、4 大升 Tacrolimus 濃度藥物、4 大移植好發 High SIR (>5) 腫瘤 (Lip, Thyroid, Penis, Small intestine)、與 CMV 感染 4 大特異臨床表現！",
       "diagrams": [
         {
           "id": "brenner_fig_69_2",
@@ -203,30 +166,15 @@
       ],
       "sections": [
         {
-          "heading": "Targeted Immunosuppressive Monoclonal Antibodies & Molecular Antigens",
+          "heading": "Transplant Immunosuppressive Antibodies, Drug Interactions & High SIR Tumors",
           "diagram": {
-            "id": "transplant_immunosuppressive_targets_fig",
+            "id": "transplant_cyp3a4_tree_fig",
             "type": "ai_illustration",
-            "imagePath": "/server-data/assets/transplant_immunosuppressive_targets.jpg",
-            "caption": "Figure 5.1: Targeted Immunosuppressive Monoclonal Antibodies & Receptor Antigens in Kidney Transplantation (Basiliximab, Alemtuzumab, Belatacept, Eculizumab).",
+            "imagePath": "/server-data/assets/transplant_cyp3a4_tree.jpg",
+            "caption": "Figure 5.1: Targeted Immunosuppressive Antibodies (Basiliximab CD25, Alemtuzumab CD52, Belatacept CD80/86, OKT3 CD3, Eculizumab C5) & Tacrolimus CYP3A4/P-gp Inhibition Pathway.",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "腎臟移植單株抗體標靶藥物包含：\n1. Basiliximab：作用於活化 T 細胞之 IL-2R alpha chain (CD25)。\n2. Alemtuzumab：抗 CD52 單株抗體，引發Depletion。\n3. Belatacept：CTLA-4-Ig 融合蛋白，標靶 APC 上的 CD80/CD86，Co-stimulation blockade 訊號 2。\n4. Eculizumab：抗 C5 補體單株抗體，用於AMR 阻斷末端補體 C5b-9 攻擊複合體。"
-        },
-        {
-          "heading": "Tacrolimus Pharmacokinetics & CYP3A4 Drug Interactions",
-          "diagram": {
-            "id": "tacrolimus_cyp3a4_interactions_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/tacrolimus_cyp3a4_interactions.jpg",
-            "caption": "Figure 5.2: Tacrolimus Pharmacokinetics & CYP3A4 / P-glycoprotein Drug Interaction Pathway.",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "Tacrolimus 經由小腸與肝臟之 CYP3A4 與 P-glycoprotein (P-gp) 代謝。當並用 CYP3A4 抑制劑時，Tacrolimus Trough level 將急遽上升引發嚴重腎毒性：\n- 4 大靈魂 CYP3A4 抑制劑：Ketoconazole (Voriconazole, Itraconazole)、Diltiazem (Verapamil)、Erythromycin (Clarithromycin)、Grapefruit juice (Grapefruit juice)。"
-        },
-        {
-          "heading": "Post-Transplant Malignancy SIR Ratio & Viral Complications",
-          "content": "移植後長期免疫抑制引發之惡性腫瘤風險 (SIR) 排序：\n- High SIR (> 5): Kaposi sarcoma、Lip cancer、Non-melanoma skin cancer、Non-Hodgkin lymphoma / PTLD。\n\nCMV 感染特異性器官表現：CMV Retinitis、CMV Pneumonitis、CMV Colitis、CMV Nephritis。"
+          "content": "根據馬偕考訊重點，腎臟移植藥理學與併發症為大戶考點，考生必須 100% 死記下述考訊細節：\n\n### 1. 移植用藥與標靶抗原對照表 (Monoclonal Antibody & Target Antigen Pairing)\n| 單株抗體 / 藥物 (Drug) | 考訊指定標靶 (Target Antigen in Exam Highlight) | 臨床作用機制 (Clinical Mechanism) |\n| :--- | :--- | :--- |\n| **Belatacept** | **CD80 / CD86** | CTLA-4-Ig 融合蛋白，標靶 APC 上的 CD80/86，阻斷 Co-stimulation 訊號 2 |\n| **Basiliximab** | **IL-2 Receptor (CD25)** | 競爭性阻斷活化 T 細胞之 IL-2 訊息傳導與增殖 |\n| **OKT3 (Muromonab-CD3)** | **CD3** | 抗 T 細胞 CD3 複合體單株抗體，引發 TCR 複合體內化與 T 細胞 Depletion |\n| **Alemtuzumab** | **CD52** | 抗 CD52 單株抗體，引發 T/B/NK 細胞與 Monocytes 劇烈 Depletion |\n\n### 2. 造成 Tacrolimus 濃度上升的 4 大靈魂藥物 (CYP3A4 / P-gp Inhibitors)\n- **Verapamil** (CCB 非二氫吡啶類)\n- **Clarithromycin** (Macrolide 抗生素)\n- **Itraconazole** (Azole 類抗真菌藥)\n- **Fluvoxamine** (SSRI 抗憂鬱藥)\n*(並用上述藥物時，Tacrolimus Trough Level 將急遽上升引發嚴重腎毒性)*\n\n### 3. 移植後好發但在非移植病人並不常見的 High SIR (> 5) 腫瘤類型\n馬偕考訊特別強調以下 4 種在移植後相對風險極高 (SIR > 5) 之罕見腫瘤：\n- **Lip Cancer** (唇癌)\n- **Thyroid Cancer** (甲狀腺癌)\n- **Penis Cancer** (陰莖癌)\n- **Small Intestine Cancer** (小腸癌)\n\n### 4. Transplant Patient CMV Infection 4 大特異臨床表現\n馬偕考訊極度強調 CMV 感染在器官表現上的 4 個精確特徵：\n1. **腎臟 (Kidney)**: 腎切片下的 Viral Inclusions 通常與 **FSGS** (Focal Segmental Glomerulosclerosis 樣病變) 相關。\n2. **食道或大腸 (Esophagus / Colon)**: 食道潰瘍或大腸潰瘍 (Ulcerations) 通常為 **Life-threatening** (威脅生命之嚴重併發症)。\n3. **肝臟 (Liver)**: 併發之急性肝炎 (Acute Hepatitis) 通常 **Not Severe** (病情相對溫和/不嚴重)。\n4. **眼部 (Eye / Retina)**: 眼部侵犯 (CMV Retinitis) 通常 **Rare 且 Late-onset** (罕見且屬於晚期發作)。"
         }
       ]
     }

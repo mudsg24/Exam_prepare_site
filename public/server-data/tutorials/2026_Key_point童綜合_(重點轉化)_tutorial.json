@@ -12,11 +12,11 @@
       "studyGuide": "本模組全面深入傳授 GFR 測量與推估公式 Cockcroft-Gault, MDRD, CKD-EPI 及高齡專用 BIS1/BIS2 之精確度差異與適用族群、孕期生理性 mid-term hyperfiltration 與血流動力學適應機制、特殊族群劑量調整公式轉換陷阱、以及使用 Corticosteroids 對微血管擴張與肌肉高分解代謝之衝突性影響。",
       "diagrams": [
         {
-          "id": "brenner_fig_22_1",
+          "id": "brenner_fig_23_2",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_22_1.png",
-          "caption": "Brenner 11e Fig. 22.1: Structural and Histopathological Alterations in the Aging Kidney & Glomerular Filtration Rate Dynamics.",
-          "sourceBook": "Brenner 11e Ch 22"
+          "imagePath": "/server-data/assets/Brenner_Fig_23_2.png",
+          "caption": "Brenner 11e Fig. 23.2: Difference between measured and estimated GFR using the MDRD and CKD-EPI estimation equations (CKD-EPI equation demonstrates less bias, particularly at higher GFR levels).",
+          "sourceBook": "Brenner 11e Ch 23"
         }
       ],
       "sections": [
@@ -72,11 +72,11 @@
       "studyGuide": "本模組精通尿液分析與異常顏色鑑別診斷、Tamm-Horsfall 蛋白與病理性圓柱體形成機轉、多尿症水利尿與滲透性利尿決策樹、基於 Renin-Aldosterone 軸線之高低血鉀鑑別診斷矩陣、以及重碳酸鹽耗竭與 Renal Tubular Acidosis 之系統化酸鹼分析。",
       "diagrams": [
         {
-          "id": "brenner_fig_46_1",
+          "id": "brenner_fig_23_4",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_46_1.png",
-          "caption": "Brenner 11e Fig. 46.1: Pathophysiology and Renin-Aldosterone Axis Topology in Electrolyte Disorders.",
-          "sourceBook": "Brenner 11e Ch 46"
+          "imagePath": "/server-data/assets/Brenner_Fig_23_4.png",
+          "caption": "Brenner 11e Fig. 23.4: Morphological Characteristics of Urinary Casts (Granular, Waxy, Red Blood Cell, and Tubular Epithelial Cell Casts in Renal Assessment).",
+          "sourceBook": "Brenner 11e Ch 23"
         }
       ],
       "sections": [
@@ -122,7 +122,7 @@
             "caption": "Figure 2.4: Systemic Acid-Base Evaluation & Distal vs Proximal RTA Mechanistic Features.",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "Metabolic Acidosis 評估需循序解答三大問題：\n1. **Anion Gap (AG) & Organic Acids**: `Plasma AG = Na - (Cl + HCO3)`（正常 8-12 mEq/L）。AG 上升提示未測量陰離子蓄積。\n2. **Urine Anion Gap (UAG) & Renal Ammonium Excretion**: `UAG = (Na + K) - Cl`。在 Normal AG Metabolic Acidosis 中，若腎臟響應正常，NH4+ 排泄增加，使 UAG 為負值；若 UAG 為正值，提示腎小管排酸障礙 Renal Tubular Acidosis。\n3. **RTA Subtype Differentiation**:\n   - **Distal (Type 1) RTA**: 遠端集尿管 α-intercalated cells H+-ATPase 泵失能，無法建立氫離子梯度，導致 Urine pH > 5.5。\n   - **Proximal (Type 2) RTA**: 近端小管 HCO3- 重吸收極限下降，常伴隨 Fanconi Syndrome；當血漿 HCO3- 降至新閾值以下時，Urine pH 可降至 < 5.5。\n\n| RTA Subtype | Defect Location | Primary Molecular Defect | Minimum Urine pH | Key Clinical & Biochemical Characteristics |\n| :--- | :--- | :--- | :--- |\n| **Distal (Type 1) RTA** | Distal Nephron (α-Intercalated) | Impaired H+-ATPase / H+/K+-ATPase | > 5.5 (Cannot acidify) | 伴低血鉀、高尿鈣、反覆 Nephrocalcinosis & Kidney Stones |\n| **Proximal (Type 2) RTA** | Proximal Tubule | Impaired Na+/HCO3- cotransporter | < 5.5 (When filtered HCO3 low) | 伴低血鉀、Hypophosphatemia、Glucosuria (Fanconi Syndrome) |\n| **Type 4 RTA** | Principal Cells | Aldosterone Deficiency or Resistance | < 5.5 | 高血鉀、高血氯代謝性酸中毒；常見於糖尿病腎病變 |\n\n### Pathophysiological Decision Trees\n- **Normal AG Metabolic Acidosis Flow**: 發現 Normal AG 代謝性酸中毒 ➔ 計算 Urine Anion Gap (Na + K - Cl) ➔ 若 UAG 為負值 ➔ 診斷為 腸道 HCO3- 流失 ➔ 若 UAG 為正值 ➔ 檢測全身酸中毒下的 Urine pH ➔ 若 Urine pH > 5.5 為 Distal RTA (Type 1)；若 Urine pH < 5.5 且伴高血鉀則為 Type 4 RTA。\n\n### Conceptual Trap Analysis\n- **Type 2 RTA Urine pH Trap**: Type 2 RTA 近端小管對 HCO3- 重吸收障礙，在酸中毒初期尿液呈鹼性；但當血漿 HCO3- 顯著下降至極低水平後，遠端小管的排酸能力未受損，尿液 pH 仍可降低至 < 5.5；切勿僅憑 Urine pH < 5.5 而排除 Type 2 RTA！"
+          "content": "Metabolic Acidosis 評估需循序解答三大問題：\n1. **Anion Gap (AG) & Organic Acids**: `Plasma AG = Na - (Cl + HCO3)`（正常 8-12 mEq/L）。AG 上升提示未測量陰離子蓄積。\n2. **Urine Anion Gap (UAG) & Renal Ammonium Excretion**: `UAG = (Na + K) - Cl`。在 Normal AG Metabolic Acidosis 中，若腎臟響應正常，NH4+ 排泄增加，使 UAG 為負值；若 UAG 為正值，提示腎小管排酸障礙 Renal Tubular Acidosis。\n3. **RTA Subtype Differentiation**:\n   - **Distal (Type 1) RTA**: 遠端集尿管 α-intercalated cells H+-ATPase 泵失能，無法建立氫離子梯度，導致 Urine pH > 5.5。\n   - **Proximal (Type 2) RTA**: 近端小管 HCO3- 重吸收極限下降，常伴隨 Fanconi Syndrome；當血漿 HCO3- 降至新閾值以下時，Urine pH 可降至 < 5.5。\n\n| RTA Subtype | Defect Location | Primary Molecular Defect | Minimum Urine pH | Key Clinical & Biochemical Characteristics |\n| :--- | :--- | :--- | :--- | :--- |\n| **Distal (Type 1) RTA** | Distal Nephron (α-Intercalated) | Impaired H+-ATPase / H+/K+-ATPase | > 5.5 (Cannot acidify) | 伴低血鉀、高尿鈣、反覆 Nephrocalcinosis & Kidney Stones |\n| **Proximal (Type 2) RTA** | Proximal Tubule | Impaired Na+/HCO3- cotransporter | < 5.5 (When filtered HCO3 low) | 伴低血鉀、Hypophosphatemia、Glucosuria (Fanconi Syndrome) |\n| **Type 4 RTA** | Principal Cells | Aldosterone Deficiency or Resistance | < 5.5 | 高血鉀、高血氯代謝性酸中毒；常見於糖尿病腎病變 |\n\n### Pathophysiological Decision Trees\n- **Normal AG Metabolic Acidosis Flow**: 發現 Normal AG 代謝性酸中毒 ➔ 計算 Urine Anion Gap (Na + K - Cl) ➔ 若 UAG 為負值 ➔ 診斷為 腸道 HCO3- 流失 ➔ 若 UAG 為正值 ➔ 檢測全身酸中毒下的 Urine pH ➔ 若 Urine pH > 5.5 為 Distal RTA (Type 1)；若 Urine pH < 5.5 且伴高血鉀則為 Type 4 RTA。\n\n### Conceptual Trap Analysis\n- **Type 2 RTA Urine pH Trap**: Type 2 RTA 近端小管對 HCO3- 重吸收障礙，在酸中毒初期尿液呈鹼性；但當血漿 HCO3- 顯著下降至極低水平後，遠端小管的排酸能力未受損，尿液 pH 仍可降低至 < 5.5；切勿僅憑 Urine pH < 5.5 而排除 Type 2 RTA！"
         }
       ]
     },
@@ -132,11 +132,11 @@
       "studyGuide": "本模組深入解析重症腎臟病與急性肝衰竭中使用 Continuous Renal Replacement Therapy 的血流動力學優勢與 25 mL/kg/h 廢液劑量目標、血液透析 AVF 通路成熟與高出血風險抗凝處置、Peritoneal Dialysis Icodextrin 雙室藥包生物相容性、Icodextrin 誘發掌蹠脫屑性皮疹與 GDH-PQQ 血糖機假性高血糖陷阱、以及 Encapsulating Peritoneal Sclerosis 的病理機轉與 Tamoxifen 治療。",
       "diagrams": [
         {
-          "id": "brenner_fig_69_2",
+          "id": "brenner_fig_68_4",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_69_2.png",
-          "caption": "Brenner 11e Fig. 69.2: Extracorporeal Circuit Modalities & Dialysis Membrane Clearance Mechanics.",
-          "sourceBook": "Brenner 11e Ch 69"
+          "imagePath": "/server-data/assets/Brenner_Fig_68_4.png",
+          "caption": "Brenner 11e Fig. 68.4: Molecular Pathophysiology of Arteriovenous Fistula (AVF) Maturation vs Neointimal Hyperplasia Failure Cascade (HO-1 & KLF-2 vs MCP-1 & TGF-beta1).",
+          "sourceBook": "Brenner 11e Ch 68"
         }
       ],
       "sections": [
@@ -182,7 +182,7 @@
             "caption": "Figure 3.4: Encapsulating Peritoneal Sclerosis (EPS) Pathogenesis & Bowel Encapsulation Spectrum.",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "Encapsulating Peritoneal Sclerosis (EPS) 為腹膜透析最嚴重且致命的慢性併發症，累積發生率約 0.5-4.4%，且與 Time on PD > 5-8 年呈強烈正相關。\n\nEPS 臨床病理與治療處置：\n1. **Clinical Manifestations**: 大塊無發炎性腹膜硬化包覆全小腸，造成嚴重的腸道蠕動障礙、Obstructive ileus、Hemorrhagic ascites、體重劇減及 Protein-Energy Wasting。\n2. **CT Scan Findings**: Abdominal CT 為診斷 EPS 的首選無創工具，典型表現為 Peritoneal calcification, Peritoneal thickening, Fluid loculations, 以及 Cocoon-like bowel encapsulation。\n3. **Therapeutic Protocols**: 立即終止 PD 並轉為血液透析 HD；給予全靜脈營養 TPN 支撐；特異性抗纖維化藥物首選 **Tamoxifen**，能強效抑制 TGF-β1 分泌與 Myofibroblast 活化。重症腸阻塞者可考慮外科腹膜剝離鬆解術 Enterolysis。\n\n| EPS Diagnostic Aspect | Characteristic Findings & Biomarker | Medical & Surgical Interventions |\n| :--- | :--- | :--- | :--- |\n| **Risk Factors** | PD duration > 5-8 years, Frequent Peritonitis, High GDPs | 儘早進行 KRT 轉型評估，避免不必要超長 PD 年資 |\n| **Clinical Symptoms** | Recurrent Ileus, Weight loss, Hemorrhagic Ascites | 停用 PD 轉 HD；全身靜脈營養 TPN 支持 |\n| **CT Imaging Gold Standard** | Peritoneal thickening, Calcification, Bowel cocooning | 影像學確認 Bowel encapsulation 即可確立診斷 |\n| **Pharmacotherapy** | **Tamoxifen** (Antifibrotic) ± Corticosteroids | Tamoxifen 抑制 TGF-β1 驅動之腹膜纖維化 |\n\n### Pathophysiological Decision Trees\n- **EPS Management Pathway**: 長期 PD 患者出現血性腹水與反覆腸阻塞 ➔ 安排腹部 CT 掃描 ➔ 證實 Peritoneal thickening 與 Bowel cocooning ➔ 診斷為 EPS ➔ 立即拔除 PD 導管轉 HD ➔ 開始給予 Tamoxifen 口服治療並啟動 TPN 支持 ➔ 若腸阻塞持續則評估外科學 Enterolysis 手術。\n\n### Conceptual Trap Analysis\n- **EPS Surgical Timing Trap**: 對於 EPS 患者進行外科手術剖腹探查解連鬆解 Enterolysis 必須極度小心；在急性嚴重發炎期過早盲目上手術台拆連鬆解，極易導致小管穿孔與難治性 Enterocutaneous Fistula。"
+          "content": "Encapsulating Peritoneal Sclerosis (EPS) 為腹膜透析最嚴重且致命的慢性併發症，累積發生率約 0.5-4.4%，且與 Time on PD > 5-8 年呈強烈正相關。\n\nEPS 臨床病理與治療處置：\n1. **Clinical Manifestations**: 大塊無發炎性腹膜硬化包覆全小腸，造成嚴重的腸道蠕動障礙、Obstructive ileus、Hemorrhagic ascites、體重劇減及 Protein-Energy Wasting。\n2. **CT Scan Findings**: Abdominal CT 為診斷 EPS 的首選無創工具，典型表現為 Peritoneal calcification, Peritoneal thickening, Fluid loculations, 以及 Cocoon-like bowel encapsulation。\n3. **Therapeutic Protocols**: 立即終止 PD 並轉為血液透析 HD；給予全靜脈營養 TPN 支撐；特異性抗纖維化藥物首選 **Tamoxifen**，能強效抑制 TGF-β1 分泌與 Myofibroblast 活化。重症腸阻塞者可考慮外科腹膜剝離鬆解術 Enterolysis。\n\n| EPS Diagnostic Aspect | Characteristic Findings & Biomarker | Medical & Surgical Interventions |\n| :--- | :--- | :--- |\n| **Risk Factors** | PD duration > 5-8 years, Frequent Peritonitis, High GDPs | 儘早進行 KRT 轉型評估，避免不必要超長 PD 年資 |\n| **Clinical Symptoms** | Recurrent Ileus, Weight loss, Hemorrhagic Ascites | 停用 PD 轉 HD；全身靜脈營養 TPN 支持 |\n| **CT Imaging Gold Standard** | Peritoneal thickening, Calcification, Bowel cocooning | 影像學確認 Bowel encapsulation 即可確立診斷 |\n| **Pharmacotherapy** | **Tamoxifen** (Antifibrotic) ± Corticosteroids | Tamoxifen 抑制 TGF-β1 驅動之腹膜纖維化 |\n\n### Pathophysiological Decision Trees\n- **EPS Management Pathway**: 長期 PD 患者出現血性腹水與反覆腸阻塞 ➔ 安排腹部 CT 掃描 ➔ 證實 Peritoneal thickening 與 Bowel cocooning ➔ 診斷為 EPS ➔ 立即拔除 PD 導管轉 HD ➔ 開始給予 Tamoxifen 口服治療並啟動 TPN 支持 ➔ 若腸阻塞持續則評估外科學 Enterolysis 手術。\n\n### Conceptual Trap Analysis\n- **EPS Surgical Timing Trap**: 對於 EPS 患者進行外科手術剖腹探查解連鬆解 Enterolysis 必須極度小心；在急性嚴重發炎期過早盲目上手術台拆連鬆解，極易導致小管穿孔與難治性 Enterocutaneous Fistula。"
         }
       ]
     },
@@ -192,11 +192,11 @@
       "studyGuide": "本模組精通毒物學體外清除 Extracorporeal Treatments 選擇決策樹、Ion Trapping 與 Urinary Alkalinization 在 Salicylate 及 Phenobarbital 中毒的應用及補鉀先決條件、多劑量活性碳 MDAC 腸道透析適應症、Therapeutic Plasma Exchange 第一類適應症（Anti-GBM, RPGN, TTP, 移植抗體排斥及 Ticlopidine 藥物誘發 TTP）、GBCA 釓對比劑 Group I/II 腎病變安全性、以及 Renal Biopsy 禁忌症矩陣。",
       "diagrams": [
         {
-          "id": "brenner_fig_31_1",
+          "id": "brenner_fig_67_3",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_31_1.png",
-          "caption": "Brenner 11e Fig. 31.1: Extracorporeal Clearance Pathways & Glomerular Filtration Mechanics.",
-          "sourceBook": "Brenner 11e Ch 31"
+          "imagePath": "/server-data/assets/Brenner_Fig_67_3.png",
+          "caption": "Brenner 11e Fig. 67.3: Extracorporeal Treatment (ECTR) Selection Decision Flowchart for Acute Poisoning (Volume of Distribution, Protein Binding & Molecular Weight Thresholds).",
+          "sourceBook": "Brenner 11e Ch 67"
         }
       ],
       "sections": [

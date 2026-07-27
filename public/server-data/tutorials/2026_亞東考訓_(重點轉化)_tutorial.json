@@ -1,0 +1,323 @@
+{
+  "id": "2026_亞東考訓_(重點轉化)_tutorial",
+  "paperId": "2026_亞東考訓_(重點轉化)",
+  "title": "2026 亞東腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T22:55:00.000Z",
+  "modules": [
+    {
+      "moduleId": "gfr_biomarkers_oncology_imaging",
+      "moduleTitle": "1. GFR Estimation, Renal Biomarker Spectrum & Nephro-Oncology Imaging Differential",
+      "studyGuide": "本模組精通腎功能評估與新世代生化標記學。重點解構 MDRD、CKD-EPI、Cockcroft-Gault、FAS 與 Schwartz 公式在不同體型與年齡層之估算限制與過濾生物學背離、腎絲球與各段腎小管特異性生化標記 TIMP-2*IGFBP7 G1 Cell Cycle Arrest, NGAL, KIM-1, Podocalyxin, Netrin-1 之解剖拓撲對映、以及 Renal Cell Carcinoma (RCC) 與 Upper Tract Urothelial Transitional Cell Carcinoma (TCC) 在 IVU 與 CT Urogram 上之病理影像學鑑別與 Filling Defect 診斷判讀。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_27_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
+          "caption": "Brenner 11e Fig. 27.2: Biomarkers in Relation to Their Site of Injury and Functional Localization in the Nephron Segment.",
+          "sourceBook": "Brenner 11e Ch 27"
+        },
+        {
+          "id": "brenner_fig_25_78",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_25_78.png",
+          "caption": "Brenner 11e Fig. 25.78: Transitional Cell Carcinoma (TCC) Intravenous Urogram Showing Irregular Filling Defect in Left Renal Pelvis.",
+          "sourceBook": "Brenner 11e Ch 25"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "eGFR Equation Comparative Biophysics & Filtration Dynamics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_27_2_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
+              "caption": "Brenner 11e Fig. 27.2: Biomarkers and Functional GFR Assessment in the Nephron Segment.",
+              "sourceBook": "Brenner 11e Ch 27"
+            },
+            {
+              "id": "far_eastern_egfr_biomarkers_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_egfr_biomarkers.jpg",
+              "caption": "Figure 1.1: Nephron Segmental Biomarker Localization & Glomerular Filtration Rate Assessment Spectrum.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "腎絲球過濾率 GFR 之精確評估為臨床腎臟病學之基石，不同估算公式建立於不同之生物統計學與生理假設：\n1. **Cockcroft-Gault (CG) Equation**: 建立於 Creatinine Clearance 概念，直接納入 Body Weight、Age 與 Serum Creatinine。由於未針對 Body Surface Area (BSA) 進行標準化 (未修正至 1.73 m²)，在極端肥胖或消瘦患者中易產生嚴重偏差，且受肌肉量差異影響極大。然而，眾多傳統藥物如抗生素與化療藥之仿單劑量調整仍以 CG 公式為歷史標準。\n2. **MDRD vs CKD-EPI Refinements**: MDRD 研究所公式於 eGFR < 60 mL/min/1.73m² 之 CKD 患者具高度精準度，但在 GFR 正常或輕度下降區間會顯著 Underestimate 真實 GFR。CKD-EPI 採用分段對數迴歸模型，顯著改善高 GFR 區間之低估偏誤，提高血管事件與死亡率之風險預測標準。\n3. **Full Age Spectrum (FAS) & Pediatric Schwartz Formula**: FAS 公式透過引進年齡與性別標準化之 Serum Creatinine 中位數 Q-value，實現從兒童、青年至高齡長者之連續性 GFR 估算；Pediatric Bedside Schwartz 公式則以 Height in cm 與 Serum Creatinine 之比值乘上常數 k = 0.413，排除兒童成長發育期肌肉量劇烈變化之偏誤。\n\n| Glomerular Filtration Equation | Primary Biological Variables | Population Target | High GFR (>60) Performance | Clinical Dose Adjustment Role |\n| :--- | :--- | :--- | :--- | :--- |\n| **Cockcroft-Gault (CG)** | Serum Cr, Age, Weight, Sex | General Adults (Unstandardized) | Overestimates due to tubular secretion | FDA Classic Drug Dosing Standard |\n| **MDRD Study Equation** | Serum Cr, Age, Sex | CKD Cohorts (eGFR < 60) | **Systematically Underestimates** | Historical CKD Staging Baseline |\n| **CKD-EPI 2021 Equation** | Serum Cr, Age, Sex (Race-free) | General Population & CKD | **Accurate & Unbiased** | Modern Global Standard eGFR |\n| **Full Age Spectrum (FAS)** | Normalized Cr Ratio (P_Cr/Q_Cr) | Lifespan (Pediatric to Elderly) | Smooth Transition Across Ages | Age-Continuous eGFR Tracking |\n| **Bedside Schwartz** | Height (cm), Serum Cr (k=0.413) | Pediatrics (< 18 years) | Tailored to Child Growth | Pediatric Drug Dosing Standard |\n\n| Clinical Scenario | Preferred eGFR / Measurement Tool | Physiological Rationale | Underlying Mechanism / Pitfall |\n| :--- | :--- | :--- | :--- |\n| **Sarcopenia / Amputee** | **Cystatin C-based CKD-EPI** | Independent of Muscle Mass | Creatinine overestimates true GFR |\n| **Extremely Obese Patient** | BSA-unadjusted eGFR / Inulin | Absolute Clearance needed | Indexed eGFR underestimates GFR |\n| **Rapidly Changing AKI** | **Kinetic eGFR / Timed Urine CrCl** | Non-steady-state Creatinine | Static equations require steady-state |\n\n### Pathophysiological Decision Trees\n- **GFR Assessment Flow**: Suspected Renal Impairment ➔ Assess Muscle Mass & Stability ➔ If Normal Baseline, Use CKD-EPI 2021 ➔ If Extremes of Body Size/Sarcopenia, Add Cystatin C ➔ If Acute Dynamic Change, Use Kinetic eGFR / Timed Clearance.\n\n### Conceptual Trap Analysis\n- **BSA Normalization Trap**: 切勿將已除以 1.73 m² 的 eGFR 直接用於極端體型患者之窄治療指數藥物劑量計算；必須還原為 Absolute Clearance 以避免給藥不足或藥物毒性。"
+        },
+        {
+          "heading": "Anatomical & Pathophysiological Mapping of Renal Biomarkers",
+          "diagrams": [
+            {
+              "id": "brenner_fig_27_2_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
+              "caption": "Brenner 11e Fig. 27.2: Nephron Segmental Localization of Novel AKI Biomarkers.",
+              "sourceBook": "Brenner 11e Ch 27"
+            },
+            {
+              "id": "far_eastern_biomarker_mapping_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_egfr_biomarkers.jpg",
+              "caption": "Figure 1.2: Spatial & Segmental Nephron Mapping of Novel AKI Biomarkers.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "傳統 Serum Creatinine 升高原於 GFR 下降之 Functional Lag，新世代生化標記能於結構損傷發生數小時內提供高靈敏度與特異性之解剖定位：\n1. **Glomerular Injury & Filtration Markers**: Podocalyxin 與 Podocyte Count 直接反映 Podocyte 脫落與腎絲球屏障破壞；Serum Cystatin C, Plasma NGAL, β-Trace Protein 及 Proenkephalin 則作為分子量 13-30 kDa 之內生性過濾標記，不受肌肉量或飲食過重影響，提供比 Serum Creatinine 更敏銳之早期 GFR 驟降預警。\n2. **Proximal Tubule Structural Injury Markers**: Kidney Injury Molecule-1 (KIM-1) 為 Proximal Tubule 外膜跨膜糖蛋白，於缺血或毒性損傷後高度 Upregulated 並脫落至尿液中；Urinary IL-18 為發炎性巨噬細胞活化介質；L-FABP 反映脂肪酸過氧化與細胞能量耗竭；α1-microglobulin 與 β2-microglobulin 則於近端小管重吸收功能癱瘓時大量排泄至尿中。Furosemide Stress Test (FST) 透過靜脈注射 Furosemide 測試近端與遠端小管之整體運作功能，2 小時內尿量 < 200 mL 預示 AKI 高度進展與透析需求。\n3. **Distal Tubule, Loop of Henle & Cell Cycle Arrest**: Urinary NGAL 於 Distal Tubule 與 Collecting Duct 受到管腔損傷強烈誘導合成；Uromodulin 由 Thick Ascending Limb 專一性分泌；TIMP-2 與 IGFBP7 為近端與遠端小管細胞承受生理壓力時排出的 Cell Cycle Arrest 標記 G1 Phase Arrest，兩者濃度乘積 > 0.3-2.0 專一性預測 12 小時內發生中重度 AKI 之風險。\n\n| Nephron Segment / Domain | Specific Biomarker Targets | Molecular Class / Function | Clinical Diagnostic Role | Pathophysiological Significance |\n| :--- | :--- | :--- | :--- | :--- |\n| **Glomerular Podocytes** | Podocalyxin, Podocyte Count | Cell Adhesion Sialoprotein | Direct Podocyte Injury | Early Glomerular Damage |\n| **Proximal Tubule Apical** | KIM-1, L-FABP, IL-18 | Transmembrane / Endocytic | Ischemic & Toxic ATI | Structural Tubular Necrosis |\n| **Proximal Tubule Epithelium** | TIMP-2 * IGFBP7 | G1 Cell Cycle Arrest Factor | Early Stress Alarm ([TIMP-2]*[IGFBP7]) | Arrests Cell Cycle to Repair |\n| **Loop of Henle (TAL)** | Uromodulin, FST Response | Matrix Glycoprotein / Transporter | Tubular Integrity / Functional Reserve | FST < 200mL/2h Predicts AKI |\n| **Distal Tubule & Duct** | Urinary NGAL | Lipocalin / Anti-bacterial | Epithelial Damage / Distal AKI | Rapid Transcriptional Activation |\n| **Interstitium & Fibrosis** | Urinary TGF-β1, Collagen IV | Pro-fibrotic Cytokine / Matrix | Chronic Interstitial Remodeling | Progression to Chronic Fibrosis |\n\n| AKI Biomarker | Primary Site of Production | Kinetic Window | Clinical Superpower | Limitations / Confounders |\n| :--- | :--- | :--- | :--- | :--- |\n| **TIMP-2 * IGFBP7** | Proximal & Distal Tubules | 2 - 4 hours | **Predicts Moderate/Severe AKI** | False positive in severe CKD |\n| **Urinary NGAL** | Distal Tubule / Collecting Duct | 2 - 6 hours | **Differentiates ATI from Prerenal** | Elevated in UTI / Sepsis |\n| **Urinary KIM-1** | Proximal Tubule S3 Segment | 6 - 12 hours | **Specific for Ischemic ATI** | Delayed peak compared to TIMP-2 |\n| **Plasma Cystatin C** | All Nucleated Cells | 12 - 24 hours | **Early Functional GFR Drop** | Steroids / Thyroid Dysfunction |\n\n### Pathophysiological Decision Trees\n- **AKI Biomarker Surveillance Cascade**: Hemodynamic Instability / Nephrotoxin Exposure ➔ Test [TIMP-2]*[IGFBP7] ➔ If > 0.3, Identify Cellular Stress ➔ Check Urinary NGAL & KIM-1 to Confirm Structural ATI ➔ Conduct Furosemide Stress Test (FST) to Evaluate Functional Tubular Integrity.\n\n### Conceptual Trap Analysis\n- **Prerenal Azotemia vs ATI Biomarker Trap**: Prerenal Azotemia 下 Serum Creatinine 上升但 [TIMP-2]*[IGFBP7] 與 NGAL 保持正常；若生化標記顯著升高，即使尿液鈉排泄分率 FENa < 1%，仍提示已轉變為結構性 Acute Tubular Injury。\n"
+        },
+        {
+          "heading": "Urological & Radiologic Differential of Renal Masses: RCC vs Upper Tract TCC",
+          "diagrams": [
+            {
+              "id": "brenner_fig_25_78_sec3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_25_78.png",
+              "caption": "Brenner 11e Fig. 25.78: Transitional Cell Carcinoma Intravenous Urogram Showing Irregular Pelvicalyceal Filling Defect.",
+              "sourceBook": "Brenner 11e Ch 25"
+            },
+            {
+              "id": "far_eastern_rcc_tcc_imaging_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_egfr_biomarkers.jpg",
+              "caption": "Figure 1.3: Urological Imaging & Histopathological Spectrum of Renal Mass Lesions.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "腎臟腫瘤與上尿路惡性病變之影像學與病理診斷鑑別：\n1. **Renal Cell Carcinoma (RCC) Imaging Spectrum**: RCC 源自腎小管上皮細胞，最常見為 Clear Cell RCC (70-80%, VHL 基因突變)。影像學特徵為 Cortical Exophytic Mass，呈強烈血流豐富 Enhancement，伴隨中心壞死、囊腫變性或 Renal Vein / IVC Tumor Thrombus。皮質腫塊會顯著 Displace 腎包膜與集尿系統。\n2. **Upper Tract Urothelial Transitional Cell Carcinoma (TCC)**: TCC 源自腎盂與腎盞 Urothelium。在 IVU 或 CT Urogram 之 Excretory Phase 上，金標準特徵為 **Irregular Filling Defect in Renal Pelvis or Calyces**。與 RCC 不同，TCC 呈 Infiltrative Growth 沿集尿系統壁浸潤，初期不引起腎臟外形皮質之顯著膨出，且通常不伴隨嚴重之實質外生性血管增生。\n3. **Diagnostic Differential & Surgical Implication**: TCC 常伴隨 Painless Gross Hematuria，Urine Cytology 常呈陽性。診斷 TCC 需行 Radical Nephroureterectomy 包括 Bladder Cuff Cutout；而 RCC 則依據腫瘤大小採取 Partial 或 Radical Nephrectomy。\n\n| Oncologic / Radiologic Feature | Renal Cell Carcinoma (RCC) | Upper Tract Urothelial TCC | Renal Lymphoma / Metastasis |\n| :--- | :--- | :--- | :--- |\n| **Anatomic Site of Origin** | Renal Tubular Epithelium (Cortex) | Urothelium (Renal Pelvis / Calyces) | Interstitium / Hematogenous |\n| **Excretory Imaging Hallmark** | Cortical mass displacing calyces | **Irregular Pelvicalyceal Filling Defect**| Infiltrative mass preserving shape |\n| **Vascular Contrast Pattern** | Marked Hypervascular Enhancement | Hypovascular / Moderate Infiltration | Hypovascular / Homogeneous |\n| **Venous / Lymphatic Spread** | Renal Vein / IVC Tumor Thrombus | Regional Lymph Nodes & Bladder seeding | Diffuse Retroperitoneal Nodes |\n| **Diagnostic Urine Cytology** | Negative | **Frequently Positive for Atypical Cells** | Negative |\n\n| Imaging Modality | RCC Classic Finding | Upper Tract TCC Classic Finding | Pathognomonic Radiologic Distinction |\n| :--- | :--- | :--- | :--- |\n| **Intravenous Urogram (IVU)** | Distortion / Displacement of Calyces | **Irregular Intraluminal Filling Defect** | Filling defect within collecting system |\n| **Contrast CT (Corticomedullary)** | Heterogeneous Hypervascular Cortex Mass | Stiffening / Thickening of Pelvic Wall | RCC enhances intensely in early phase |\n| **CT Urogram (Delayed Phase)** | Exophytic lesion washing out | Fixed lumen defect with/without hydro | TCC causes intraluminal obstruction |\n\n### Pathophysiological Decision Trees\n- **Renal Mass Evaluation Flow**: Unexplained Hematuria / Flank Mass ➔ Perform Multiphase CT Urogram ➔ Exophytic Cortical Mass with Hypervascularity ➔ Diagnose RCC ➔ Intraluminal Pelvicalyceal Filling Defect on Excretory Phase ➔ Diagnose Upper Tract TCC.\n\n### Conceptual Trap Analysis\n- **Filling Defect Obstruction Trap**: 上尿路 TCC 於 IVU 展現顯著之 Irregular Filling Defect 時，早期腎臟外廓與 Calyces 可能完全保持正常形態，切勿因無巨大外生性腫塊而忽略腎盂移行細胞癌之存在。"
+        }
+      ]
+    },
+    {
+      "moduleId": "acid_base_electrolytes_crrt",
+      "moduleTitle": "2. Acid-Base Physiology, Electrolyte Dynamics & CRRT Toxin Clearance",
+      "studyGuide": "本模組深入傳授代謝性酸鹼失衡、電解質運算與連續性腎臟替代治療 CRRT 之急重症處置。重點剖析 Metabolic Alkalosis 之 Cl⁻-Salt Deficit 生理機制、Urinary Chloride 區分 Saline-Responsive vs Saline-Unresponsive 之診斷演算法、Low GI DRA Activity 於腸道失水引發鹼中毒之病理角色、Regional Citrate Anticoagulation (RCA) CRRT 發生 Citrate Toxicity / Accumulation 時之 High Total/Ionized Calcium Ratio (>2.5) 與 Wide Anion Gap Metabolic Acidosis 之致命生化特徵、以及 Acute Liver Failure 併發 Hyperammonemia 時 CRRT 作為首選神經保護降氨治療之動態動力學。",
+      "diagrams": [
+        {
+          "id": "brenner_flow_chart_24_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Flow_Chart_24_12.png",
+          "caption": "Brenner 11e Flow Chart 24.12: Pathophysiology of Type of Cl- - Salt Deficit and ECFV Contraction in Metabolic Alkalosis.",
+          "sourceBook": "Brenner 11e Ch 24"
+        },
+        {
+          "id": "brenner_flow_chart_24_13",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Flow_Chart_24_13.png",
+          "caption": "Brenner 11e Flow Chart 24.13: Diagnostic Flow Chart for Metabolic Alkalosis Evaluation Based on Vomiting History, ECFV, Hypertension, and Urinary Chloride.",
+          "sourceBook": "Brenner 11e Ch 24"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Metabolic Alkalosis Pathophysiology, DRA Deficiency & Urinary Chloride Algorithm",
+          "diagrams": [
+            {
+              "id": "brenner_flow_chart_24_12_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Flow_Chart_24_12.png",
+              "caption": "Brenner 11e Flow Chart 24.12: Cl- Salt Deficit Pathophysiology in Metabolic Alkalosis.",
+              "sourceBook": "Brenner 11e Ch 24"
+            },
+            {
+              "id": "far_eastern_metabolic_alkalosis_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_metabolic_alkalosis_rca.jpg",
+              "caption": "Figure 2.1: Pathophysiological Cascade & Urinary Chloride Diagnostic Flowchart for Metabolic Alkalosis.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "代謝性鹼中毒 Metabolic Alkalosis 包含 Maintenance Factors 與 Generation Factors，兩者共同作用致使腎臟無法順利排泄過量之 HCO₃⁻：\n1. **Pathophysiology of Cl⁻-Salt Deficit & DRA Exchanger**: 氯離子 Cl⁻ 缺乏為維持代謝性鹼中毒之核心生理關鍵。當體內 ECFV 縮減或 Cl⁻ 耗竭時，遠端腎元集尿系統 Intercalated Cells 之 Pendrin 無法獲得管腔 Cl⁻ 以換出 HCO₃⁻；同時，腸道消化道上皮細胞之 Downregulated in Adenoma (Slc26a3 Cl⁻/HCO₃⁻ Exchanger) 活性下降 Low GI DRA Activity，導致腸道 Cl⁻ 吸收障礙與 HCO₃⁻ 重吸收蓄積。\n2. **Urinary Chloride Diagnostic Algorithm**: 判讀代謝性鹼中毒首重檢測 Urinary Chloride (U_Cl) 濃度：\n   - **Saline-Responsive (Low U_Cl < 10-20 mEq/L)**: 主因為 Vomiting or NG Suction 或遠期使用利尿劑。由於全身體液與 Cl⁻ 極度缺乏，腎臟極力重吸收 Cl⁻ 致使 U_Cl 極低，給予 0.9% Normal Saline 補充 ECFV 與 Cl⁻ 可完全矯正。\n   - **Saline-Unresponsive (High U_Cl > 20 mEq/L)**: 依據血壓進一步鑑別：若血壓正常，提示近中期使用 Diuretics、Bartter Syndrome 或 Gitelman Syndrome；若伴隨高血壓，提示 Primary Hyperaldosteronism、Liddle Syndrome 或 SAME。此類補充 Saline 無法矯正鹼中毒。\n\n| Clinical / Pathological Category | Anatomic / Molecular Target | Urinary Chloride (U_Cl) | Blood Pressure Status | Saline Responsiveness |\n| :--- | :--- | :--- | :--- | :--- |\n| **Vomiting / NG Suction** | Gastric H+/K+ ATPase Loss | **Low (< 10-20 mEq/L)** | Low / Normotensive | **Saline Responsive** |\n| **Low GI DRA Activity** | Intestinal Slc26a3 Exchanger | **Low (< 10-20 mEq/L)** | Low / Hypovolemic | **Saline Responsive** |\n| **Bartter / Gitelman** | Renal NKCC2 / NCCT Transporters | **High (> 20 mEq/L)** | Normotensive / Low | Saline Unresponsive |\n| **Primary Aldosteronism** | Collecting Duct ENaC / H+-ATPase | **High (> 20 mEq/L)** | **Hypertensive** | Saline Unresponsive |\n| **Liddle Syndrome** | Gain-of-function ENaC Mutation | **High (> 20 mEq/L)** | **Hypertensive (Low Aldosterone)**| Saline Unresponsive |\n\n| Syndrome Subtype | Gene / Transporter Defect | Urinary Calcium | Serum Magnesium | Primary Electrolyte Hallmarks |\n| :--- | :--- | :--- | :--- | :--- |\n| **Bartter Syndrome** | NKCC2 / ROMK / CLCNKB | **Hypercalciuria (High U_Ca)** | Normal / Mild Low | Hypokalemia, Hypochloremic Alkalosis |\n| **Gitelman Syndrome** | NCCT (Slc12a3 in DCT) | **Hypocalciuria (Low U_Ca)** | **Severe Hypomagnesemia** | Hypokalemic Alkalosis, Chondrocalcinosis |\n| **Liddle Syndrome** | ENaC β/γ Subunit Mutation | Variable | Normal | Hypokalemia, Hypertension, Low Renin/Aldo |\n\n### Pathophysiological Decision Trees\n- **Metabolic Alkalosis Diagnostic Cascade**: Arterial pH > 7.45 & HCO3- > 28 mEq/L ➔ Check Urinary Chloride (U_Cl) ➔ U_Cl < 20 mEq/L ➔ Saline-Responsive (Vomiting / Low GI DRA) ➔ Infuse 0.9% Normal Saline ➔ U_Cl > 20 mEq/L ➔ Evaluate BP & Renin/Aldosterone Axis.\n\n### Conceptual Trap Analysis\n- **Diuretic U_Cl Timing Trap**: 當患者正處於 Diuretic 藥效發揮期 Active Phase，U_Cl 會呈高位 (U_Cl > 20)；僅有在利尿劑停用後之 Remote Phase，U_Cl 才會降至 < 20 mEq/L。切勿因 active phase 之高 U_Cl 誤診為 Saline-unresponsive 病因。"
+        },
+        {
+          "heading": "RCA CRRT Citrate Toxicity Dynamics & Acute Liver Failure Hyperammonemia Management",
+          "diagrams": [
+            {
+              "id": "brenner_flow_chart_24_13_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Flow_Chart_24_13.png",
+              "caption": "Brenner 11e Flow Chart 24.13: Diagnostic Flowchart for Acid-Base & Electrolyte Parameters.",
+              "sourceBook": "Brenner 11e Ch 24"
+            },
+            {
+              "id": "far_eastern_rca_hyperammonemia_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_metabolic_alkalosis_rca.jpg",
+              "caption": "Figure 2.2: RCA CRRT Citrate Toxicity Mechanism & Hyperammonemia Extracorporeal Clearance.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "重症 CRRT 體外抗凝與急性肝衰竭毒素清除之生理動力學：\n1. **Regional Citrate Anticoagulation (RCA) Physiology**: RCA 透過於透析器濾前注入 Trisodium Citrate 螯合 ionized Calcium (iCa < 0.35 mmol/L) 以抑制凝血瀑布；過量 Citrate-Calcium 複合物於體內經由肝臟、骨骼肌與腎臟 Tricarboxylic Acid Cycle 代謝生成 3 分子之 Bicarbonate。正常代謝下，RCA 易引發 mild Metabolic Alkalosis。\n2. **Citrate Toxicity / Accumulation Pathognomonic Hallmark**: 當患者伴隨重度肝功能衰竭、組織低灌流或線粒體休克時，Citrate 無法於肝臟正常代謝。未代謝之 Citrate 於血液中大量蓄積並持續螯合游離鈣，引發致命特徵：\n   - **Wide Anion Gap Metabolic Acidosis (WAGMA)**: 切勿誤以為 Citrate Toxicity 呈鹼中毒；當 Citrate 無法轉化為 HCO₃⁻ 時，其作為強未測定陰離子 Unmeasured Anion 累積，引發嚴重高陰離子隙代謝性酸中毒！\n   - **Total-to-Ionized Calcium Ratio > 2.5**: 儘管全身 Total Calcium 升高，但 ionized Ca²⁺ 劇烈下降，Total Ca / ionized Ca Ratio > 2.5 為診斷 Citrate Toxicity 之金標準。\n3. **Acute Liver Failure with Hyperammonemia Management**: 急性肝衰竭 ALF 患者因 Urea Cycle 癱瘓導致血氨 Ammonia > 150-200 μmol/L 劇烈蓄積，極易引發 Astrocytes 腫脹與致命性 Cerebral Edema。**CRRT 為降氨處置之絕對首選 First-line Modality**；透過高 Flow Rate 之 Diffusion & Convective Clearance 能持續穩定降低血氨 Burden，避免 High-Efficiency HD 引發之 Osmotic Disequilibrium 及腦壓驟升。\n\n| Clinical Parameter / Feature | Normal RCA Metabolism | Citrate Toxicity / Accumulation | Acute Liver Failure Hyperammonemia |\n| :--- | :--- | :--- | :--- |\n| **Systemic Acid-Base Status** | Mild Metabolic Alkalosis | **Wide Anion Gap Metabolic Acidosis** | Respiratory Alkalosis / Metabolic Acidosis |\n| **Total Ca / Ionized Ca Ratio** | < 2.0 - 2.2 | **> 2.5 (Pathognomonic Mark)** | Normal (unless RCA used) |\n| **Systemic Ionized Calcium** | Normal Target (1.1 - 1.3 mmol/L)| Refractory Hypocalcemia | Normal |\n| **Primary Cleared Toxin** | Filtered Citrate-Ca complexes | Accumulating Unmetabolized Citrate | **Ammonia (NH3 / NH4+) Clearance** |\n| **Dialysis Modality Choice** | Standard RCA CVVHDF | Stop Citrate / Switch to Heparin | **Continuous CRRT (Preferred over HD)** |\n\n| Extracorporeal Clearance Factor | Ammonia (NH3) Biophysics | Citrate (Trisodium) Biophysics | Clinical Management Strategy |\n| :--- | :--- | :--- | :--- |\n| **Molecular Weight** | 17 Da (Extremely Small) | 294 Da (Small Solute) | Rapid clearance via CVVHD / CVVHDF |\n| **Volume of Distribution** | Total Body Water (Large) | Intravascular Space | High effluent flow rate (> 35 mL/kg/h) |\n| **Protein Binding** | 0% (Unbound) | Binds Calcium | High sieving coefficient (S ~ 1.0) |\n\n### Pathophysiological Decision Trees\n- **Citrate Toxicity Diagnostic Cascade**: RCA CRRT Running ➔ Systemic Total Ca Rises while Ionized Ca Drops ➔ Calculate Total/Ionized Ca Ratio ➔ Ratio > 2.5 & Refractory WAGMA ➔ Confirm Citrate Accumulation ➔ Immediately Stop Citrate Infusion & Increase Dialysis Washout.\n\n### Conceptual Trap Analysis\n- **Citrate Alkalosis vs Acidosis Trap**: 正常的 Citrate 代謝產物為 Bicarbonate；但當發生 Citrate Toxicity 蓄積時，未代謝之 Citrate 酸根會引發 Wide Anion Gap Metabolic Acidosis！切勿因名稱而錯判酸鹼型態。"
+        }
+      ]
+    },
+    {
+      "moduleId": "hd_biophysics_vascular_toxicology",
+      "moduleTitle": "3. Hemodialysis Biophysics, Vascular Access Stenosis Topology & Toxicology Clearance Optimization",
+      "studyGoal": "本模組精通血液透析膜生物物理學、血管通路併發症與臨床毒物體外清除動態。重點解析 High-Efficiency vs High-Flux Dialyzer 膜孔徑與 K0A Urea 對流擴散特徵、AVF Surgically Side-to-Side vs End-to-Side Patency 速率比較與 Side-to-Side 易併發 Arterial Steal Phenomenon 及 Distal Venous Hypertension 之病理剖析、Toxic Alcohol 之代謝產物與 Osmo/Anion Gap 鑑別、Hemodialysis 清除毒物之八大擴展因子 Box 67.1、以及 Arteriovenous Graft 接受 Angioplasty 之狹窄拓撲分佈 Venous Anastomosis 占 42-62% 高居第一。",
+      "diagrams": [
+        {
+          "id": "brenner_table_63_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_63_6.png",
+          "caption": "Brenner 11e Table 63.6: Characteristic Values for Standard, High-Efficiency, and High-Flux Dialyzers.",
+          "sourceBook": "Brenner 11e Ch 63"
+        },
+        {
+          "id": "brenner_box_67_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_67_1.png",
+          "caption": "Brenner 11e Box 67.1: Factors That May Enhance Poison Clearance During Hemodialysis.",
+          "sourceBook": "Brenner 11e Ch 67"
+        },
+        {
+          "id": "brenner_table_68_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_68_7.png",
+          "caption": "Brenner 11e Table 68.7: Location of Stenosis in Patients With Grafts Undergoing Angioplasty.",
+          "sourceBook": "Brenner 11e Ch 68"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "High-Efficiency vs High-Flux Dialysis Biophysics & AVF Surgical Anastomosis",
+          "diagrams": [
+            {
+              "id": "brenner_table_63_6_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_63_6.png",
+              "caption": "Brenner 11e Table 63.6: Characteristic Values for Standard, High-Efficiency, and High-Flux Dialyzers.",
+              "sourceBook": "Brenner 11e Ch 63"
+            },
+            {
+              "id": "far_eastern_hd_biophysics_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_hd_dialyzer_vascular_access.jpg",
+              "caption": "Figure 3.1: Hemodialysis Membrane Biophysics & AVF Surgical Anastomotic Complications.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "血液透析器膜材料學與動靜脈瘻管 AVF 手術拓撲學剖析：\n1. **Dialyzer Membrane Classification (Table 63.6)**:\n   - **High-Efficiency Dialyzers**: 專注於小分子溶水毒素 Urea, Creatinine 之極高 Diffusive Clearance (K0A urea ≥ 600 mL/min, Urea Clearance > 210 mL/min)。其膜孔徑並未顯著放大，因此中分子毒素如 Beta-2 microglobulin 之 Clearance 仍較低。\n   - **High-Flux Dialyzers**: 核心定義在於膜之水通透性與中分子清除率——具有高 Ultrafiltration Coefficient (Kuf > 20 mL/hr/mmHg) 以及高 Beta-2 Microglobulin Clearance (> 20 mL/min)。**極重要概念：High Flux 透析膜之 K0A urea 與 Urea Clearance 為 Variable (不一定高於 High-Efficiency 透析膜)**！其優勢在於透過 Convective Clearance 移除中大分子毒素與延緩 Amyloidosis。\n2. **AVF Surgical Anastomotic Technique Differential**: Side-to-Side 與 End-to-Side AVF 之 Primary Patency Rates 兩者基本相似。然而，Side-to-Side 術式由於保持動脈與靜脈遠端管腔之雙向通暢，高度容易引發兩大併發症：\n   - **Arterial Steal Phenomenon**: 血液優先經由低阻力之靜脈分流，導致肢體遠端掌骨缺血與麻木疼冷。\n   - **Distal Venous Hypertension**: 高壓動脈血倒流至手部遠端靜脈，引發手背劇烈水腫、皮膚色素沉著與靜脈曲張潰瘍。因此現代血管外科多偏好 End-to-Side 術式。\n\n| Dialyzer Class Parameter | Standard Dialyzer | High-Efficiency Dialyzer | High-Flux Dialyzer |\n| :--- | :--- | :--- | :--- |\n| **Blood Flow Rate (Qb)** | ~ 250 mL/min | ≥ 350 mL/min | ≥ 350 mL/min |\n| **K0A Urea (Mass Transfer Coeff)**| 300 - 500 mL/min | **≥ 600 mL/min** | **Variable** |\n| **Urea Clearance (mL/min)** | < 200 mL/min | **> 210 mL/min** | **Variable (Not necessarily high)** |\n| **Beta-2 Microglobulin Clearance**| < 10 mL/min | Variable | **> 20 mL/min (High Convective)** |\n| **Ultrafiltration Coefficient (Kuf)**| 3.5 - 5.0 mL/hr/mmHg | Variable | **> 20 mL/hr/mmHg** |\n| **Primary Membrane Material** | Cellulose | Modified Synthetic | Synthetic Polymers (Polysulfone) |\n\n| AVF Anastomotic Technique | Primary Patency Rate | Risk of Arterial Steal | Risk of Distal Venous HTN | Preferred Modern Indication |\n| :--- | :--- | :--- | :--- | :--- |\n| **Side-to-Side Technique** | Equivalent Baseline | **High (Retrograde flow)** | **High (Venous engorgement)** | Historical / Rare selected cases |\n| **End-to-Side Technique** | Equivalent Baseline | Low | Minimal | **Standard Gold Standard AVF** |\n\n### Pathophysiological Decision Trees\n- **AVF Complication Evaluation Cascade**: Side-to-Side AVF Created ➔ Patient Reports Distal Hand Pain & Cyanosis ➔ Diagnose Arterial Steal Phenomenon ➔ Distal Hand Edema & Venous Engorgement ➔ Diagnose Distal Venous Hypertension ➔ Perform Surgical Ligation of Distal Vein (Convert to End-to-Side).\n\n### Conceptual Trap Analysis\n- **High-Flux Urea Clearance Trap**: 切勿以為 High-Flux 透析膜的小分子 Urea 清除率必然高於 High-Efficiency 透析膜；High Flux 係由 Kuf > 20 與 Beta-2 Microglobulin 清除率定義，Urea Clearance 為 Variable。"
+        },
+        {
+          "heading": "Toxic Alcohol Clearance Dynamics & Extracorporeal Poisoning Optimization",
+          "diagrams": [
+            {
+              "id": "brenner_box_67_1_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Box_67_1.png",
+              "caption": "Brenner 11e Box 67.1: Factors That May Enhance Poison Clearance During Hemodialysis.",
+              "sourceBook": "Brenner 11e Ch 67"
+            },
+            {
+              "id": "far_eastern_toxicology_clearance_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_hd_dialyzer_vascular_access.jpg",
+              "caption": "Figure 3.2: Extracorporeal Poison Clearance Optimization & Toxic Alcohol Differential.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "臨床毒物學之 Extracorporeal Elimination 生物物理學與醇類中毒鑑別：\n1. **Toxic Alcohol Spectrum & Biochemical Differential**:\n   - **Ethylene Glycol**: 經 Alcohol Dehydrogenase (ADH) 代謝為 Glycolic Acid & Oxalic Acid，引發 High Anion Gap Metabolic Acidosis (HAGMA) 與 High Osmolal Gap；尿液可見針狀或板狀 Calcium Oxalate Crystals，導致暴發性 AKI。\n   - **Methanol**: 代謝為 Formic Acid，引發重度 HAGMA、High Osmolal Gap 以及特徵性 Optic Papillitis & Visual Loss 與 Basal Ganglia Necrosis。\n   - **Isopropanol**: 經 ADH 代謝為 Acetone。特徵為 Ketosis WITHOUT Metabolic Acidosis 有酮體但無酸中毒；血清 Anion Gap 正常，但呈顯著升高的 Osmolal Gap，臨床表現以中樞抑制與高血壓/胃炎為主。\n2. **Factors Enhancing Poison Clearance During Hemodialysis (Box 67.1)**: 當小分子、低蛋白結合率 (<50%)、低分佈容積 (Vd < 1 L/kg) 之毒物需體外清除時，下列 8 大因素能極化清除效能：\n   - Larger surface area of dialysis membrane\n   - High-flux dialyzer\n   - High blood (Qb) and dialysate (Qd) flows\n   - Increased ultrafiltration rate (with replacement solution, i.e., Hemodiafiltration)\n   - Increased time on dialysis\n   - Reduced blood recirculation\n   - Two dialyzers connected in series\n   - Two distinct extracorporeal circuits parallelly operating\n\n| Toxic Alcohol Compound | Primary Toxic Metabolite | Acid-Base Status | Osmolal Gap | Key Pathognomonic Clinical Mark |\n| :--- | :--- | :--- | :--- | :--- |\n| **Ethylene Glycol** | Glycolic & Oxalic Acid | High AG Metabolic Acidosis | **Elevated** | **Calcium Oxalate Crystals & ARF** |\n| **Methanol** | Formic Acid (Formate) | High AG Metabolic Acidosis | **Elevated** | **Optic Disc Hyperemia & Blindness** |\n| **Isopropanol** | Acetone | **NORMAL Acid-Base (No Acidosis)**| **Elevated** | **Ketosis / Positive Acetone, Normal AG** |\n\n| Poison Biophysical Property | High Clearance Candidate | Poor Clearance Candidate | Preferred Enhancement Strategy |\n| :--- | :--- | :--- | :--- |\n| **Molecular Weight** | Small (< 500 Da, e.g. Methanol 32) | Large (> 1000 Da) | High-flux dialyzer / Large surface area |\n| **Volume of Distribution (Vd)**| Low Vd (< 1.0 L/kg) | High Vd (> 2.0 L/kg, Digoxin) | Prolonged HD duration / Continuous CRRT |\n| **Protein Binding** | Low (< 50% unbound) | High (> 80% bound, Phenytoin)| Hemoperfusion / Replacement solution UF |\n\n### Pathophysiological Decision Trees\n- **Toxic Alcohol Differential Cascade**: Suspected Ingestion with High Osmolal Gap ➔ Assess Metabolic Acidosis ➔ High AG Acidosis Present ➔ Check Urine for Oxalate Crystals (Ethylene Glycol) or Visual Impairment (Methanol) ➔ Normal Acid-Base with Positive Ketones ➔ Confirm Isopropanol Ingestion.\n\n### Conceptual Trap Analysis\n- **Isopropanol Acidosis Trap**: 切勿將 Isopropanol 誤診為 DKA 或 Ethylene Glycol 中毒；Isopropanol 僅代謝為 Acetone，會造成 Positive Ketones 與 Elevated Osmolal Gap，但絕不引起 Metabolic Acidosis！透析僅用於重度循環抑制。"
+        },
+        {
+          "heading": "Vascular Access Stenosis Topology in AV Grafts: Venous Anastomosis Predominance",
+          "diagrams": [
+            {
+              "id": "brenner_table_68_7_sec3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_68_7.png",
+              "caption": "Brenner 11e Table 68.7: Location of Stenosis in Patients With Grafts Undergoing Angioplasty.",
+              "sourceBook": "Brenner 11e Ch 68"
+            },
+            {
+              "id": "far_eastern_access_stenosis_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_hd_dialyzer_vascular_access.jpg",
+              "caption": "Figure 3.3: Anatomical Distribution of Stenotic Lesions in Hemodialysis AV Grafts.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "血液透析動靜脈人工血管 PTFE Graft 血管狹窄拓撲學與介入治療解剖學：\n1. **AVG Stenosis Anatomical Distribution (Table 68.7)**: 人工血管 PTFE Graft 因高紊流血流 Turbulent Shear Stress 與外源性材質引發顯著之 Neointimal Hyperplasia。經由介入性血管攝影 Angioplasty / PTA 統計發現，狹窄位置具有極高度之解剖特異性：\n   - **Venous Anastomosis (VA)**: **占所有狹窄位置之 42% - 62%，高居絕對第一位**！人工血管與 native 靜脈接合處受肌內膜增生影響最烈。\n   - **Venous Outflow (VO)**: 占 14% - 34%，次之。\n   - **Intragraft (IG)**: 占 6% - 20%，多因反覆穿刺引發壁內血栓與假性動脈瘤。\n   - **Central Vein (CV)**: 占 4% - 15%，常與同側過往放置 CVC 導管史相關。\n   - **Arterial Anastomosis (AA)**: 僅占 0% - 7%，極少發生狹窄。\n2. **Diagnostic Monitoring & Angioplasty Protocol**: 當 AVG 出現 Access Pressure Ratio (VAP/MAP) > 0.5、透析靜脈壓上升或靜脈流速 Qa < 600 mL/min 驟降時，應立即安排 Percutaneous Transluminal Angioplasty。針對高復發率之 VA 狹窄，可考慮置入 Cover-Stent 以延長 Patency。\n\n| AVG Stenotic Location Domain | Abbreviation | Frequency Range (Table 68.7) | Primary Pathophysiological Mechanism |\n| :--- | :--- | :--- | :--- |\n| **Venous Anastomosis** | **VA** | **42% - 62% (Dominant Site #1)**| Neointimal hyperplasia from turbulent jet shear stress |\n| **Venous Outflow Tract** | **VO** | **14% - 34% (Site #2)** | Downstream venous remodeling & intimal fibrosis |\n| **Intragraft Segment** | **IG** | **6% - 20%** | Repeated cannulation trauma & localized thrombus |\n| **Central Veins (Subclavian/Brachiocephalic)**| **CV** | **4% - 15%** | Mechanical trauma from prior central catheters |\n| **Arterial Anastomosis** | **AA** | **0% - 7% (Rare)** | High pressure arterial jet wall shear resistance |\n\n| Vascular Access Type | Minimum Target Flow Rate (Qa) | Dominant Failure Mechanism | Primary PTA Target Location |\n| :--- | :--- | :--- | :--- |\n| **Native AV Fistula (AVF)** | > 500 mL/min | Non-maturation / Juxta-anastomotic stenosis | Juxta-anastomotic vein (Swing point) |\n| **Synthetic AV Graft (AVG)** | > 600 mL/min | Neointimal hyperplasia thrombosis | **Venous Anastomosis (VA)** |\n\n### Pathophysiological Decision Trees\n- **AVG Dysfunction Diagnostic Cascade**: High Venous Pressure Warning on HD Machine ➔ Measure Static Venous Access Pressure (VAP/MAP > 0.5) ➔ Perform Diagnostic Angiogram ➔ Prioritize Inspection of Venous Anastomosis (VA) ➔ Balloon Angioplasty (PTA) / Stent Placement.\n\n### Conceptual Trap Analysis\n- **Arterial vs Venous Anastomosis Stenosis Trap**: 在 AVG 中，切勿以為動脈吻合處 AA 為狹窄主因；AA 狹窄發生率 < 7%，而 **Venous Anastomosis (VA) 占 42-62%**，永遠為第一檢查標的。"
+        }
+      ]
+    },
+    {
+      "moduleId": "pd_mechanics_plasmapheresis_tpe",
+      "moduleTitle": "4. Peritoneal Dialysis Membrane Mechanics & Therapeutic Plasma Exchange (TPE) Spectrum",
+      "studyGuide": "本模組精通腹膜透析膜轉運生物學與體外血漿分離清除處置 TPE。重點解構 Peritoneal Transport 之 Three-Pore Model (Aquaporin-1 Ultra-small Pores 擔負 >50% 之 Transcapillary Ultrafiltration，非 Small Pores)、Icodextrin 7.5% 膠體滲透壓製劑之 Lymphatic Absorption 途徑與由 Amylase 分解為 Maltose 之代謝動態 (不會降低腹膜炎發生率)、Tuberculosis PD-Peritonitis 之 No Catheter Removal 藥物治療處置、Therapeutic Plasma Exchange (TPE) 依據 ASFA / Brenner 11e 指引之 Category I/II/III 疾病實證強弱分級 (Table 66.1)、以及 TPE 引發之 Replace Fluids / Vascular Access 併發症圖譜 (Table 66.4)。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_64_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+          "caption": "Brenner 11e Fig. 64.2: Three-Pore Model of Peritoneal Transport and Water/Solute Pathway Dynamics.",
+          "sourceBook": "Brenner 11e Ch 64"
+        },
+        {
+          "id": "brenner_table_66_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_66_1.png",
+          "caption": "Brenner 11e Table 66.1: Summary of Renal Diseases Treated With Plasmapheresis (Category I, II, III).",
+          "sourceBook": "Brenner 11e Ch 66"
+        },
+        {
+          "id": "brenner_table_66_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_66_4.png",
+          "caption": "Brenner 11e Table 66.4: Complications of Plasmapheresis (Vascular Access, Replacement Fluids, Modalities).",
+          "sourceBook": "Brenner 11e Ch 66"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Three-Pore Model Transcapillary Ultrafiltration & Icodextrin Lymphatic Kinetics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_64_2_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+              "caption": "Brenner 11e Fig. 64.2: Three-Pore Model of Peritoneal Transport and Water/Solute Pathway Dynamics.",
+              "sourceBook": "Brenner 11e Ch 64"
+            },
+            {
+              "id": "far_eastern_pd_three_pore_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_pd_three_pore_plasmapheresis.jpg",
+              "caption": "Figure 4.1: Three-Pore Model of Peritoneal Membrane & Icodextrin Lymphatic Absorption Dynamics.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "腹膜透析 PD 轉運生理學與結核性腹膜炎處置原則：\n1. **Three-Pore Model Biophysics**:\n   - **Ultra-small Pores (Aquaporin-1, AQP-1)**: 孔徑 < 0.5 nm，僅允許水分子通過 Water-exclusive channel。在晶體滲透壓 Glucose 驅動下，**擔負 > 50% 之 Transcapillary Ultrafiltration**！此過程產生顯著之 Sodium Sieving 水分子率先被吸出致使腹膜腔內 Na+ 被稀釋。\n   - **Small Pores**: 孔徑 4 - 6 nm，允許小分子溶質 Urea, Creatinine, Na+ 經由 Diffusion 與 Convection 通過，負責大部分小分子清除。\n   - **Large Pores**: 孔徑 20 - 30 nm，允許 Macromolecules (Albumin) 少量漏出。\n2. **Icodextrin 7.5% Pharmacokinetics & Misconception Correction**: Icodextrin 為 Glucose Polymer，利用 Oncotic Pressure 於 Long Dwell 保持持續 Ultrafiltration：\n   - **Lymphatic Absorption Path**: Icodextrin 分子量較大，無法經由腹膜微血管吸收，而是**經由 Lymphatic System 緩慢吸收**進入全身循環！\n   - **Amylase Cleavage to Maltose**: 吸收至血液中之 Icodextrin 經由 Circulating Amylase 水解分解為 Maltose，進一步由 Maltase 代謝為 Glucose。\n   - **Peritonitis Impact**: 臨床研究證實 Icodextrin 能顯著改善超濾不佳與液體蓄積，但**不會降低腹膜炎發生率 Does NOT reduce peritonitis rate**！\n3. **Tuberculosis PD-Peritonitis Management**: 腹膜透析患者併發 Tuberculosis Peritonitis 時，呈混濁腹水與淋巴細胞為主。金標準處置為：**不用拔除 PD 導管 No Need for Catheter Removal!**！給予標準 RIF/INH/PZA/EMB 四聯抗結核藥物治療即能成功控制感染並保留腹膜功能。\n\n| Peritoneal Pore Category | Anatomic Equivalent | Pore Diameter | Transport Mechanism | Fractional UF Contribution |\n| :--- | :--- | :--- | :--- | :--- |\n| **Ultra-Small Pores** | **Aquaporin-1 (AQP-1)** | **< 0.5 nm (< 5 Å)** | **Water Only (Crystalloid Osmosis)**| **> 50% Transcapillary UF** |\n| **Small Pores** | Inter-endothelial Clefts | 4.0 - 6.0 nm (40-60 Å) | Diffusion & Convection (Solutes/Water) | Major Solute Clearance (Urea/Cr) |\n| **Large Pores** | Venular Endothelial Gaps | 20.0 - 30.0 nm | Macromolecular Leakage (Albumin) | Transperitoneal Protein Loss |\n\n| Peritoneal Clinical Scenario | Physiological / Pharmacologic Fact | Common Clinical Misconception | Correct Management / Outcome |\n| :--- | :--- | :--- | :--- |\n| **Icodextrin Absorption** | Absorbed via **Lymphatic Vessels** | Believed to be non-absorbable | Slowly absorbed into systemic circulation |\n| **Icodextrin Metabolism** | Cleaved by Amylase to **Maltose**| Believed to elevate true blood glucose| Causes false high glucose on GDH-PQQ strip |\n| **Icodextrin & Peritonitis**| **Does NOT reduce peritonitis rate**| Believed to decrease infection risk| Improves UF without altering peritonitis rate |\n| **TB PD-Peritonitis** | **Catheter Removal NOT Required** | Believed catheter must be pulled | Full anti-TB chemotherapy with catheter in situ |\n\n### Pathophysiological Decision Trees\n- **Icodextrin Long-Dwell Pathway**: Instill 7.5% Icodextrin ➔ Colloid Osmotic Pressure Maintained in Long Dwell ➔ Water Translocated via Small/Large Pores ➔ Icodextrin Slowly Absorbed via Lymphatics ➔ Amylase Cleaves Polymer to Maltose in Blood.\n\n### Conceptual Trap Analysis\n- **TB Peritonitis Catheter Removal Trap**: 遇 Fungal 或 Refractory Bacterial 腹膜炎必須立即拔管；但 **Tuberculosis PD-Peritonitis 屬於特例，不用拔管**！抗結核藥物穿透力強，保留導管完成治療成功率極高。"
+        },
+        {
+          "heading": "Therapeutic Plasma Exchange (TPE) Evidence Categories & Complication Profile",
+          "diagrams": [
+            {
+              "id": "brenner_table_66_1_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_66_1.png",
+              "caption": "Brenner 11e Table 66.1: Summary of Renal Diseases Treated With Plasmapheresis.",
+              "sourceBook": "Brenner 11e Ch 66"
+            },
+            {
+              "id": "brenner_table_66_4_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_66_4.png",
+              "caption": "Brenner 11e Table 66.4: Complications of Plasmapheresis.",
+              "sourceBook": "Brenner 11e Ch 66"
+            },
+            {
+              "id": "far_eastern_plasmapheresis_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/far_eastern_pd_three_pore_plasmapheresis.jpg",
+              "caption": "Figure 4.2: Therapeutic Plasma Exchange ASFA/Brenner Category Classification & Complication Spectrum.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "治療性血漿置換 TPE 於腎臟疾病之實證分級與併發症管理：\n1. **TPE Evidence Category Classification (Table 66.1)**:\n   - **Category I (First-line Standalone / Essential Therapy)**: Anti-GBM Disease (併發 Diffuse Alveolar Hemorrhage DAH, 或 Renal Failure 未達 Dialysis-dependent 狀態)、ANCA-Associated RPGN (併發 DAH 或 Dialysis Dependence)、Thrombotic Thrombocytopenic Purpura (TTP)、TMA Drug-associated Non-ticlopidine、Renal Transplant AMR (ABO compatible)、Desensitization ABO-compatible living donor、Recurrent FSGS in Transplanted Kidney、Hyperviscosity in Monoclonal Gammopathy。\n   - **Category II (Second-line / Adjunctive Therapy)**: Cryoglobulinemia, Severe Systemic Lupus Erythematosus (SLE), Myeloma Cast Nephropathy。\n   - **Category III (Inconclusive / Case-by-Case)**: Anti-GBM Disease (Dialysis dependent without DAH——復原率極低)、ANCA RPGN (Renal failure not on dialysis)、Complement-mediated aHUS / Shiga toxin HUS、Steroid-resistant Native FSGS、Nephrogenic Systemic Fibrosis。\n2. **Plasmapheresis Complications (Table 66.4)**: TPE 處置需警惕三大領域之併發症：\n   - **Replacement Fluids Related**: 置換 FFP 易引發 Anaphylactoid Reactions、Coagulopathies 與 病毒傳播風險；大量置換 Albumin 缺乏凝血因子及 Citrate 抗凝劑易引發 **Hypocalcemia** (Citrate binding) 與 **Hypokalemia** (Albumin dilution)。\n   - **Vascular Access Related**: 靜脈穿刺或 CVC 放置引發 Hematomas, Pneumothorax, Catheter Infections。\n   - **Modality & Pharmacokinetics**: 清除血液蛋白質亦會**非選擇性清除 Erythropoietin 及高度 Protein-Bound 之臨床藥物**；治療中易引發 Transient Hypotension, Dyspnea, Thrombocytopenia。\n\n| Renal Disease Indication | TPE Category (Table 66.1) | Clinical Disease Phenotype Target | Rationale for TPE Removal |\n| :--- | :--- | :--- | :--- |\n| **Anti-GBM Disease (Goodpasture)**| **Category I** | Dialysis-independent OR DAH present | Rapid removal of pathogenic Anti-NC1 antibodies |\n| **ANCA-Associated RPGN** | **Category I** | Dialysis-dependent OR DAH present | Clearance of ANCA IgG & Pro-inflammatory mediators |\n| **Recurrent FSGS in Transplant** | **Category I** | Immediate post-transplant proteinuria | Removal of Circulating Permeability Factor (suPAR) |\n| **Anti-GBM (Dialysis Dependent)**| **Category III** | Dialysis-dependent WITHOUT DAH | Near zero renal recovery rate; risks outweigh benefit |\n| **Complement-Mediated aHUS** | **Category III** | Alternative pathway gene mutation | Eculizumab preferred over TPE unless unavailable |\n\n| TPE Complication Modality | Primary Trigger Factor | Clinical Manifestation | Prevention / Management Strategy |\n| :--- | :--- | :--- | :--- |\n| **Hypocalcemia & Tetany** | Citrate anticoagulant in FFP/Albumin | Circumoral paresthesia, QT prolongation | IV Calcium Gluconate supplementation |\n| **Drug Removal Washout** | Non-selective plasma protein removal | Subtherapeutic drug levels (Antibiotics) | Re-dose protein-bound drugs AFTER TPE |\n| **Coagulopathy & Bleeding** | Repeated Albumin replacement TPE | Depleted Fibrinogen & Clotting Factors| Infuse FFP at end of session if bleeding |\n| **Hypotension & Dyspnea** | Intravascular volume shifts / Transfusion | Dizziness, Hypoxemia, Urticaria | Slow TPE rate, Pre-medicate Antihistamines |\n\n### Pathophysiological Decision Trees\n- **TPE Indication & Management Cascade**: RPGN / Anti-GBM Diagnosis ➔ Check DAH Status & Dialysis Dependence ➔ If Anti-GBM with DAH ➔ Initiate Immediate Category I TPE + Steroids/CYC ➔ Monitor Ionized Calcium during Session ➔ Administer IV Calcium Gluconate & Re-dose Antibiotics Post-TPE.\n\n### Conceptual Trap Analysis\n- **Anti-GBM TPE Category Trap**: Anti-GBM 患者若已呈 Dialysis Dependent 且無 DAH，TPE 降為 Category III (幾乎無法恢復腎功能)；但只要伴隨 Diffuse Alveolar Hemorrhage (DAH)，不論腎功能如何，一律為 Category I 急診 TPE 適應症以挽救生命！"
+        }
+      ]
+    }
+  ]
+}

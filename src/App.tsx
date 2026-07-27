@@ -5,10 +5,12 @@ import { QuestionPanel } from './components/QuestionPanel';
 import { ExplanationPanel } from './components/ExplanationPanel';
 import { ImageModal, DisplayableImage } from './components/ImageModal';
 import { DashboardView } from './components/DashboardView';
+import { TutorialReaderView } from './components/TutorialReaderView';
 import {
   ExamManifestItem,
   ExamPaper,
   ExamQuestion,
+  ExamTutorial,
   OptionId,
   ResolvedImage,
   AttachedImage,
@@ -385,6 +387,8 @@ export const App: React.FC = () => {
     setCurrentView('exam');
   };
 
+  const [activeTutorial, setActiveTutorial] = useState<ExamTutorial | null>(null);
+
   // Select Paper from Dashboard
   const handleSelectPaperFromDashboard = (paperId: string) => {
     setSelectedPaperId(paperId);
@@ -393,6 +397,27 @@ export const App: React.FC = () => {
     }
     setCurrentIndex(0);
     setCurrentView('exam');
+  };
+
+  // Select Tutorial from Dashboard
+  const handleSelectTutorialFromDashboard = (paperId: string) => {
+    const manifestItem = manifest.find((item) => item.id === paperId);
+    const tutorialId = manifestItem?.tutorialId || `${paperId}_tutorial`;
+    
+    fetch(`/server-data/tutorials/${tutorialId}.json`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: ExamTutorial | null) => {
+        if (data && data.modules) {
+          setActiveTutorial(data);
+          setCurrentView('tutorial');
+        } else {
+          alert('該試卷的主題式備考教學載入失敗或尚在編寫中');
+        }
+      })
+      .catch((e) => {
+        console.error('Failed to load tutorial:', e);
+        alert('主題式備考教學載入失敗');
+      });
   };
 
   // Filtered Questions in Active Exam
@@ -539,9 +564,19 @@ export const App: React.FC = () => {
             manifest={manifest}
             stats={globalStats}
             onSelectPaper={handleSelectPaperFromDashboard}
+            onSelectTutorial={handleSelectTutorialFromDashboard}
             onStartCustomPractice={handleStartCustomPractice}
             paperProgressMap={paperProgressMap}
             themeMode={themeMode}
+          />
+        </main>
+      ) : currentView === 'tutorial' && activeTutorial ? (
+        <main className="flex-1">
+          <TutorialReaderView
+            tutorial={activeTutorial}
+            themeMode={themeMode}
+            onBack={() => setCurrentView('dashboard')}
+            onStartExam={handleSelectPaperFromDashboard}
           />
         </main>
       ) : (

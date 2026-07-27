@@ -1,0 +1,312 @@
+{
+  "id": "2026_大林_(重點轉化)_tutorial",
+  "paperId": "2026_大林_(重點轉化)",
+  "title": "2026 大林腎臟專科主題式備考教學",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T12:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "epi_aging",
+      "moduleTitle": "1. Epidemiology, Low Nephron Endowment & Renal Aging",
+      "studyGuide": "本模組涵蓋 Section III Epidemiology 核心考點。重點掌握不同國家 CKD/ESRD 流行病學趨勢、Low Nephron Endowment 導致成人 intraglomerular hypertension 與 glomerulosclerosis 的機轉，以及 Renal Aging 的微觀病理特徵 (Glomerulosclerosis, TA/IF, Arteriolar nephrosclerosis)與 Albuminuria 作為 CKD 惡化密碼的分子路徑。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_22_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_22_1.png",
+          "caption": "Brenner 11e Fig 22.1: Structural and Histopathological Alterations in the Aging Kidney",
+          "sourceBook": "Brenner 11e"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Global Epidemiology of CKD & ESRD Trends",
+          "diagram": {
+            "id": "dalin_epi_global_trends_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_epi_global_trends.jpg",
+            "caption": "Figure 1.1: Global Epidemiology Trends of Chronic Kidney Disease (CKD) and ESRD Across Nations"
+          },
+          "content": "全球CKD 與ESRD 的流行病學分佈呈現顯著的國家與區域差異：\n- **Developed Nations**：ESRD 主因以 Diabetic Nephropathy 與 Hypertensive Nephrosclerosis 為首，人口老化與肥胖為重要驅動力。高照護覆蓋率使 G1-G4 階段診斷率高，死亡率逐年下降。\n- **Developing Nations**：Glomerulonephritis 與原因不明之 CKD (CKDu, 包含熱帶環境與農藥暴露) 仍佔高比例。早期篩檢率較低，常於 G5 階段始初次求診。\n- **Prevalence & Incidence**：全球 CKD 盛行率約為 9-13%。Hemodialysis 仍為主要替代治療，但 Peritoneal Dialysis 與 Kidney Transplantation 的推廣正逐步改變預後走向。",
+          "keyTerms": [
+            "Global Epidemiology",
+            "Diabetic Nephropathy",
+            "ESRD Prevalence",
+            "CKDu",
+            "Renal Replacement Therapy"
+          ]
+        },
+        {
+          "heading": "Low Nephron Endowment, Hyperfiltration & Long-Term Sequelae",
+          "diagram": {
+            "id": "dalin_low_nephron_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_low_nephron.jpg",
+            "caption": "Figure 1.2: Pathophysiology of Low Nephron Endowment: Brenner Hyperfiltration Hypothesis"
+          },
+          "content": "Low Nephron Endowment 為成年後發生高血壓與 CKD 的重要獨立危險因子：\n- **Initial Insult**：IUGR、Prematurity、母體營養不良或孕期使用腎毒性藥物，皆會減少發育期 Nephrogenesis 的總腎元數目。\n- **Compensatory Hyperfiltration**：殘存腎元為維持整體 GFR，發動 Afferent arteriole 舒張，導致 Single-nephron GFR (snGFR) 與 Intraglomerular capillary pressure 顯著上升 (Brenner Hypothesis)。\n- **Adult Sequelae**：長期 Intraglomerular hypertension 導致 Podocyte detachment、GBM 增厚與 secondary FSGS / Glomerulosclerosis，進而加速蛋白尿與腎功能衰退下降。",
+          "keyTerms": [
+            "Low Nephron Endowment",
+            "IUGR / Prematurity",
+            "Brenner Hypothesis",
+            "Single-Nephron GFR",
+            "Secondary FSGS"
+          ]
+        },
+        {
+          "heading": "Cellular Mechanisms & Histopathological Hallmarks of Renal Aging",
+          "diagram": {
+            "id": "dalin_renal_aging_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_renal_aging.jpg",
+            "caption": "Figure 1.3: Triad Histopathological Hallmarks of Renal Aging (Senescent Kidney)"
+          },
+          "content": "Renal Aging 涉及複雜的Cellular Senescence 與組織構造重組：\n- **解剖與生理轉變**：40 歲後 GFR 以每年約 0.8-1.0 mL/min/1.73m² 的速度下降，伴隨 Renal blood flow (RBF) 減少與 Cortical mass 萎縮。\n- **Triad Histopathology**：\n 1. **Glomerulosclerosis**：Global glomerulosclerosis 比例增加，足細胞密度下降。\n 2. **Tubular Atrophy & Interstitial Fibrosis (TA/IF)**：小管基底膜增厚、膠原蛋白沈積與細胞間質擴張。\n 3. **Arteriolar Nephrosclerosis**：Afferent arteriolar hyalinosis 與 Interlobular arterial intimal thickening。\n- **分子機轉**：Klotho 表現下降、Telomere shortening、RAAS 過度活化與 Mitochondrial dysfunction。",
+          "keyTerms": [
+            "Renal Aging",
+            "Glomerulosclerosis",
+            "TA/IF",
+            "Arteriolar Nephrosclerosis",
+            "Klotho Deficiency"
+          ]
+        },
+        {
+          "heading": "Albuminuria as a Risk Driver & Biomarker in CKD",
+          "diagram": {
+            "id": "dalin_albuminuria_ckd_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_albuminuria_ckd.jpg",
+            "caption": "Figure 1.4: Albuminuria Nephrotoxicity: Molecular Cascades Leading to Interstitial Fibrosis"
+          },
+          "content": "Albuminuria 不僅是 CKD 的診斷與分期指標 (A1-A3)，更是直接促成腎功能惡化的Nephrotoxin：\n- **濾過屏障破壞**：Glomerular filtration barrier (GFB) 損傷導致過量 Albumin 與大分子蛋白滲漏至 Bowman's space。\n- **腎小管負載與毒性反應**：Proximal tubular epithelial cells (PTECs) 透過 Megalin/Cubilin 機制大量重吸收 Albumin，造成 Endoplasmic reticulum (ER) stress 與 Reactive oxygen species (ROS) 生成。\n- **發炎與纖維化級聯**：PTECs 被活化後分泌 NF-κB、MCP-1 與 TGF-β1，招募發炎細胞並驅動 Interstitial myofibroblast 增殖，最終引發不可逆的 Tubulointerstitial fibrosis。",
+          "keyTerms": [
+            "Albuminuria",
+            "Megalin/Cubilin",
+            "Tubular Overload",
+            "MCP-1 / TGF-beta1",
+            "Tubulointerstitial Fibrosis"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "hypertension_ras",
+      "moduleTitle": "2. Essential & Renovascular Hypertension",
+      "studyGuide": "本模組聚焦原發性與腎血管性高血壓。重點精通 ARR (Aldosterone-to-Renin Ratio) 篩檢的Primary Aldosteronism (PA) 判讀與干擾藥物、各類降壓藥物的血流動力學與腎小球內壓調控機轉，以及 Renal Artery Stenosis (RAS) 的診斷、內科藥物治療與 ASTRAL / CORAL 經典臨床試驗中 revascularization vs medical Tx 的 outcome 比較！",
+      "diagrams": [
+        {
+          "id": "brenner_fig_46_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_46_1.png",
+          "caption": "Brenner 11e Fig 46.1: Pathophysiology and Hemodynamic Regulation of Primary and Secondary Hypertension",
+          "sourceBook": "Brenner 11e"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Aldosterone-to-Renin Ratio (ARR) & Primary Aldosteronism Screening",
+          "diagram": {
+            "id": "dalin_arr_screening_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_arr_screening.jpg",
+            "caption": "Figure 2.1: Diagnostic Flowchart and Medication Interference in Aldosterone-to-Renin Ratio (ARR) Screening"
+          },
+          "content": "Aldosterone-to-Renin Ratio (ARR) 為篩檢 Primary Aldosteronism (PA) 最敏感的指標，但受諸多藥物與生理因素干擾：\n- **ARR 計算與 Cutoff**：Plasma Aldosterone Concentration (PAC, ng/dL) / Plasma Renin Activity (PRA, ng/mL/h)。一般 cutoff > 20-30 且 PAC > 15 ng/dL 為陽性。\n- **藥物干擾與停藥原則**：\n - **Mineralocorticoid Receptor Antagonists (MRAs, Spironolactone/Eplerenone)**：假陰性/假陽性干擾最大，必須停藥至少 4-6 週！\n - **ACEi / ARBs / Diuretics**：刺激 Renin 釋放，可能造成 **False Negative** ；若 PRA 被抑制呈 < 0.6 且 ARR 仍高，則可確立 PA 診斷。\n - **Beta-blockers / Clonidine**：抑制 Renin 釋放，可能造成 **False Positive** 。\n- **Confirmatory Tests**：Saline infusion test, Oral salt loading test, Fludrocortisone suppression test。",
+          "keyTerms": [
+            "Aldosterone-to-Renin Ratio (ARR)",
+            "Primary Aldosteronism",
+            "MRA Withdrawal",
+            "False Negative / Positive",
+            "Saline Infusion Test"
+          ]
+        },
+        {
+          "heading": "Antihypertensive Drug Classes & Cellular / Hemodynamic Mechanisms",
+          "diagram": {
+            "id": "dalin_antihypertensive_mech_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_antihypertensive_mech.jpg",
+            "caption": "Figure 2.2: Site-Specific Antihypertensive Action on Renal Vasculature and Intraglomerular Hemodynamics"
+          },
+          "content": "各類降血壓藥物對Renal Hemodynamics 與小動脈阻力具有特異性效應：\n- **ACE inhibitors / ARBs**：選擇性舒張 **Efferent arteriole** $\\rightarrow$ 降低 Intraglomerular pressure 與 Filtration fraction，發揮長遠的蛋白尿與腎保護效果 (但初期可伴隨 up to 30% eGFR 暫時性下降)。\n- **Dihydropyridine CCBs (Calcium Channel Blockers)**：主要舒張 **Afferent arteriole** $\\rightarrow$ 增加 Renal blood flow，但在未併用 ACEi/ARB 時可能傳遞系統高壓至腎絲球。\n- **Thiazide & Thiazide-like Diuretics**：初期經由減少全身 Plasma volume 降壓；長期則引發排鈉與Total Peripheral Resistance (TPR) 下降。\n- **Beta-blockers**：抑制 Juxtaglomerular apparatus 釋放 Renin，降低 Angiotensin II 與 Cardiac Output (CO)。",
+          "keyTerms": [
+            "ACEi / ARBs",
+            "Efferent Dilation",
+            "CCBs",
+            "Afferent Dilation",
+            "Renal Hemodynamics"
+          ]
+        },
+        {
+          "heading": "Renovascular Hypertension (RAS): Workup & Medical Tx vs Intervention Outcomes",
+          "diagram": {
+            "id": "dalin_ras_management_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_ras_management.jpg",
+            "caption": "Figure 2.3: Comparison of Intensive Medical Therapy vs Percutaneous Stenting for RAS (ASTRAL & CORAL Trials)"
+          },
+          "content": "Renal Artery Stenosis (RAS) 主要包含 Atherosclerotic RAS (ARAS, >90%) 與 Fibromuscular dysplasia (FMD)：\n- **診斷評估**：Renal duplex ultrasound 為首選篩檢工具 (Peak Systolic Velocity > 200 cm/s, Renal-Aortic Ratio > 3.5)；CTA / MRA 提供解剖細節。\n- **內科治療 vs Medical Tx vs Intervention Outcome**：\n - **ASTRAL & CORAL Trials** 證實：對於大多數 Atherosclerotic RAS 病患，**Percutaneous Renal Artery Stenting 結合內科治療，對比純粹 Optimal Medical Therapy (OMT)，在血壓控制、腎功能維護、No significant clinical benefit**！\n - **Stenting 的Strict Indications for Stenting**：(1) Recurrent flash pulmonary edema ；(2) Refractory / Accelerated hypertension ；(3) Rapidly decline in renal function with bilateral RAS or solitary kidney RAS 。",
+          "keyTerms": [
+            "Renal Artery Stenosis",
+            "ASTRAL Trial",
+            "CORAL Trial",
+            "Optimal Medical Therapy",
+            "Flash Pulmonary Edema"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "pregnancy_htn_aki",
+      "moduleTitle": "3. Pregnancy-Related Hypertensive Disorders & Obstetric AKI",
+      "studyGuide": "本模組針對孕期高血壓與產科 AKI。重點突破 Preeclampsia 的sFlt-1/PlGF imbalance & Glomerular Endotheliosis、Labetalol, Nifedipine vs ACEi/ARB，以及 Pregnancy AKI 的Preeclampsia/HELLP, TTP/aHUS, AFLP 與臨床處置策略！",
+      "diagrams": [
+        {
+          "id": "brenner_fig_48_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_48_1.png",
+          "caption": "Brenner 11e Fig 48.1: Physiological Adaptive Changes in Systemic Hemodynamics and Renal Function During Pregnancy",
+          "sourceBook": "Brenner 11e"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Preeclampsia Pathophysiology (sFlt-1/PlGF), Diagnosis & Targeted Therapy",
+          "diagram": {
+            "id": "dalin_preeclampsia_patho_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_preeclampsia_patho.jpg",
+            "caption": "Figure 3.1: Pathophysiological Cascade of Preeclampsia: Placental Ischemia to Glomerular Endotheliosis"
+          },
+          "content": "Preeclampsia 為孕期特有的多器官血管內皮損傷疾病：\n- **胎盤病因與分子機轉**：Spiral artery remodeling 障礙造成胎盤缺血，釋放過量 **Soluble Fms-like tyrosine kinase 1 (sFlt-1)** 與 Soluble Endoglin (sEng)。sFlt-1 中和母體血中自由態 **VEGF** 與 **PlGF (Placental Growth Factor)**，導致 **sFlt-1 / PlGF ratio 顯著升高**。\n- **Glomerular Endotheliosis**：母體缺乏 VEGF 訊號，引發 Glomerular endothelial cell 腫脹、Endothelial fenestrations 消失與 Subendothelial space 擴張，呈現典型 Glomerular endotheliosis 切片特徵。\n- **診斷與治療**：孕期 20 週後出現 BP ≥ 140/90 mmHg 併 Proteinuria (UPCR ≥ 0.3) 或器官受損；**Delivery 為唯一治本療法**；Magnesium sulfate 用於預防 Eclampsia。",
+          "keyTerms": [
+            "Preeclampsia",
+            "sFlt-1 / PlGF Ratio",
+            "VEGF Inhibition",
+            "Glomerular Endotheliosis",
+            "Magnesium Sulfate"
+          ]
+        },
+        {
+          "heading": "Antihypertensive Pharmacotherapy Safety & Efficacy in Pregnancy",
+          "diagram": {
+            "id": "dalin_pregnancy_htn_tx_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_pregnancy_htn_tx.jpg",
+            "caption": "Figure 3.2: Pharmacological Safety and Teratogenic Contraindications of Antihypertensives in Pregnancy"
+          },
+          "content": "孕期降血壓藥物選擇必須嚴格評估母體控制與Teratogenicity：\n- **Safe First-Line Antihypertensives**：\n - **Labetalol**：Combined alpha/beta-blocker，口服或靜脈注射皆安全高效，為首選藥物之一。\n - **Oral Nifedipine (Extended Release)**：Dihydropyridine CCB，控制持續性高血壓首選 。\n - **Methyldopa**：Central alpha-2 agonist，歷史悠久且安全性紀錄完整 。\n - **Hydralazine (IV)**：Severe acute hypertension。\n- **Absolute Teratogenic Contraindications**：\n - **ACE inhibitors & ARBs & Direct Renin Inhibitors (Aliskiren)**：孕期使用 會引發 **Fetal Renal Dysgenesis、Oligohydramnios、Skull hypoplasia 與 Neonatal renal failure / Death**！",
+          "keyTerms": [
+            "Labetalol",
+            "Oral Nifedipine",
+            "Methyldopa",
+            "ACEi/ARB Contraindication",
+            "Fetal Renal Dysgenesis"
+          ]
+        },
+        {
+          "heading": "Differential Diagnosis & Multidisciplinary Management of Pregnancy-Associated AKI",
+          "diagram": {
+            "id": "dalin_pregnancy_aki_ddx_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_pregnancy_aki_ddx.jpg",
+            "caption": "Figure 3.3: Diagnostic Algorithm for Pregnancy-Associated Acute Kidney Injury (Preeclampsia, TMA, AFLP)"
+          },
+          "content": "Pregnancy-associated AKI (PR-AKI) 診斷需按Gestational timing 與臨床/實驗室特徵進行精準鑑別：\n- **Preeclampsia / HELLP Syndrome**：好發於 >20 週或產後，伴隨 Hemolysis, Elevated Liver enzymes, Low Platelets (< 100k)。\n- **Thrombotic Microangiopathies (TMA)**：\n - **TTP (Thrombotic Thrombocytopenic Purpura)**：多於 **第 2 孕期前** 發作，ADAMTS13 activity < 10%，需立即實施 Plasma Exchange (PEX)。\n - **Complement-mediated aHUS**：多於 **Postpartum** 發作，ADAMTS13 > 10%，首選 Eculizumab (C5 inhibitor)。\n- **Acute Fatty Liver of Pregnancy (AFLP)**：好發於第 3 孕期，以 **Severe hypoglycemia, Hyperammonemia, Coagulopathy (DIC)** 與 Microvesicular steatosis 為特徵，需緊急分娩！",
+          "keyTerms": [
+            "Pregnancy AKI (PR-AKI)",
+            "HELLP Syndrome",
+            "ADAMTS13 / TTP",
+            "aHUS / Eculizumab",
+            "AFLP"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "renal_pharmacology",
+      "moduleTitle": "4. Renal Pharmacology: Diuretic Physiology, Resistance & Toxicity",
+      "studyGuide": "本模組為腎臟藥理學核心！重點解析不同利尿劑在腎小管各段 Transporters 的作用機轉、Loop Diuretics 在Hypoalbuminemia 效果不佳的藥動學與分泌障礙機轉、Diuretic Resistance 的遠端腎小管代償性肥大機轉與 Sequential Nephron Blockade 突破策略，以及各類利尿劑的電解質、代謝與Ototoxicity！",
+      "diagrams": [
+        {
+          "id": "brenner_fig_50_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_1.png",
+          "caption": "Brenner 11e Fig 50.1: Segmental Nephron Transporters and Molecular Targets of Diuretic Agents",
+          "sourceBook": "Brenner 11e"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Segmental Nephron Transporter Targets & Diuretic Action Mechanisms",
+          "diagram": {
+            "id": "dalin_diuretic_sites_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_diuretic_sites.jpg",
+            "caption": "Figure 4.1: Segmental Nephron Distribution of Transporters and Diuretic Drug Inhibitory Sites"
+          },
+          "content": "利尿劑透過抑制腎小管不同管段的Transporters 發揮作用：\n- **Proximal Convoluted Tubule (PCT)**：**Acetazolamide** 抑制 Carbonic Anhydrase (CA) $\\rightarrow$ 減少 Na+/HCO3- 重吸收，引發 Metabolic acidosis。\n- **Thick Ascending Limb (TAL)**：**Loop Diuretics (Furosemide, Bumetanide, Torsemide)** 競爭性抑制 **NKCC2 cotransporter** $\\rightarrow$ 消除 Medullary tonicity，產生最強烈的利鈉與利水效果 。\n- **Distal Convoluted Tubule (DCT)**：**Thiazides (HCTZ, Chlorthalidone, Indapamide)** 抑制 **NCC cotransporter** $\\rightarrow$ 阻斷 5-8% 濾過鈉量重吸收。\n- **Collecting Duct (CD)**：\n - **Amiloride / Triamterene**：直接阻斷 **ENaC (Epithelial Na+ Channel)**。\n - **Spironolactone / Eplerenone**：拮抗 **Mineralocorticoid Receptor (MR)** $\\rightarrow$ 抑制 ENaC 與 Na+/K+-ATPase 合成，保留 K+ 與 H+。",
+          "keyTerms": [
+            "Transporter Targets",
+            "NKCC2 / Loop Diuretics",
+            "NCC / Thiazides",
+            "ENaC / Amiloride",
+            "MR Antagonists"
+          ]
+        },
+        {
+          "heading": "Hypoalbuminemia Impact on Loop Diuretic Pharmacokinetics & Secretion",
+          "diagram": {
+            "id": "dalin_hypoalbuminemia_loop_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_hypoalbuminemia_loop.jpg",
+            "caption": "Figure 4.2: Pharmacokinetics of Furosemide: Impaired Tubular Secretion in Hypoalbuminemia"
+          },
+          "content": "在 Nephrotic Syndrome 等嚴重 Hypoalbuminemia (Serum Albumin < 2.0 g/dL) 病患中，Loop diuretics 常出現強烈的Resistance，其生理機轉如下：\n- **High Protein Binding**：Furosemide 在血中 >95% 與 Serum Albumin 結合。Albumin 充當「Carrier」，限制藥物分佈於體液組織間質中，並將其專一性送達腎臟。\n- **Impaired Secretion via OAT1/3**：在低白蛋白血症時，(1) Furosemide 的 Volume of distribution (Vd) 顯著擴大，血中藥物被稀釋；(2) 抵達 Proximal tubule 的藥物減少，無法有效透過 **Organic Anion Transporters (OAT1/OAT3)** 分泌至Tubular lumen。\n- **Binding by Intraluminal Albumin**：大量蛋白尿時，濾過至管腔內的 Albumin 會直接結合管腔內 Furosemide，阻礙其與 TAL 頂端膜的 NKCC2 結合。\n- **臨床突破策略**：**Premixing Furosemide with Intravenous Albumin ** 可還原分泌載運機制！",
+          "keyTerms": [
+            "Hypoalbuminemia",
+            "Furosemide Binding",
+            "OAT1/OAT3 Secretion",
+            "Volume of Distribution",
+            "Albumin Co-administration"
+          ]
+        },
+        {
+          "heading": "Pathophysiology of Diuretic Resistance & Combination Braking Strategies",
+          "diagram": {
+            "id": "dalin_diuretic_resistance_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_diuretic_resistance.jpg",
+            "caption": "Figure 4.3: Mechanism of Diuretic Resistance and Sequential Nephron Blockade Strategy"
+          },
+          "content": "長期使用高劑量 Loop Diuretics 經常引發 Diuretic Resistance：\n- **Distal Remodeling & Hypertrophy**：Loop diuretics 阻斷 TAL 的 NKCC2 後，大量 Na+ 與 水被輸送至遠端管段。高納流持續刺激 DCT 與 Collecting duct，引發 **DCT Hypertrophy 與 NCC / ENaC 轉運蛋白大量 Upregulation**，將流經遠端的鈉離子大量重新吸收，使利尿效果抵消！\n- **Braking Phenomenon**：鈉平衡負轉移後，身體啟動SNS 與 RAAS 活化，進一步增加 Proximal Na+ reabsorption。\n- **Sequential Nephron Blockade**：\n - **併用 Thiazide / Metolazone / Indapamide**：在給予 Loop diuretic 前 30 分鐘給予 Thiazides，精準阻斷肥大的 DCT 上的 NCC cotransporter，產生強烈的協同利尿效果！\n - **併用 MRA / Amiloride**：進一步阻斷集尿管 ENaC 重吸收與防止 K+ 流失。",
+          "keyTerms": [
+            "Diuretic Resistance",
+            "DCT Hypertrophy",
+            "NCC Upregulation",
+            "Sequential Nephron Blockade",
+            "Metolazone Synergy"
+          ]
+        },
+        {
+          "heading": "Diuretic Off-Target Toxicities, Electrolyte Disorders & Metabolic Mechanisms",
+          "diagram": {
+            "id": "dalin_diuretic_toxicities_diag",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/dalin_diuretic_toxicities.jpg",
+            "caption": "Figure 4.4: Summary of Diuretic Toxicities, Electrolyte Abnormalities, and Ototoxicity Mechanisms"
+          },
+          "content": "各類利尿劑引發的電解質紊亂、代謝異常與感官副作用機轉：\n- **Electrolyte Disorders**：\n - **Hypokalemia & Metabolic Alkalosis**：Loop 與 Thiazides 增加遠端 Na+ 輸送與流速，刺激 CD 的 ROMK 與 H+-ATPase 排出 K+ 與 H+，併發 Contraction alkalosis。\n - **Hyperkalemia**：MRAs (Spironolactone) 與 ENaC blockers (Amiloride) 抑制遠端 K+ 分泌，高齡與 CKD 病患易致致命性高血鉀。\n - **Hyponatremia**：**Thiazides 為引發低血鈉的最主要利尿劑**！因其作用於 DCT 不影響 Medullary concentration gradient，ADH 仍可作用於 CD 大量重吸收水。\n- **Metabolic Alterations**：\n - **Hyperuricemia & Gout**：Loop/Thiazides 在 Proximal tubule 競爭 OAT 排洩痛風尿酸，並經由 Volume depletion 增加近端尿酸重吸收。\n- **Ototoxicity**：高劑量 IV Furosemide / Ethacrynic acid 可抑制內耳 Stria vascularis 的 NKCC1 轉運蛋白，引發 Tinnitus 或 永久性聽力受損！",
+          "keyTerms": [
+            "Hypokalemia / Alkalosis",
+            "Thiazide Hyponatremia",
+            "Hyperuricemia / Gout",
+            "Ototoxicity",
+            "Stria Vascularis NKCC1"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -91,6 +91,8 @@ export interface ExamManifestItem {
   sourceCategory: string;
   questionCount: number;
   year: number;
+  hasTutorial?: boolean;
+  tutorialId?: string;
 }
 
 export interface UserAttemptState {
@@ -104,7 +106,7 @@ export interface UserAttemptState {
 }
 
 export type ThemeMode = 'light' | 'dark';
-export type AppView = 'dashboard' | 'exam';
+export type AppView = 'dashboard' | 'exam' | 'tutorial';
 export type StudyMode = 'practice' | 'work';
 
 export interface GlobalPracticeStats {
@@ -117,5 +119,53 @@ export interface GlobalPracticeStats {
 }
 
 export type CustomPracticeType = 'unattempted' | 'wrong' | 'disputed' | 'paper';
+
+export interface TutorialDiagram {
+  id: string;
+  type: 'mermaid' | 'micrograph' | 'ai_illustration';
+  code?: string; // Mermaid syntax if type === 'mermaid'
+  imagePath?: string; // Image path if type === 'micrograph' or 'ai_illustration'
+  caption: string;
+  sourceBook?: string; // e.g. 'Brenner 11e', 'KDIGO'
+}
+
+export interface TutorialItem {
+  term: string;
+  description: string;
+  tag?: string;
+}
+
+export interface TutorialSection {
+  heading: string;
+  content?: string;
+  diagram?: TutorialDiagram;
+  items?: TutorialItem[];
+  keyTerms?: string[];
+  tables?: Array<{
+    title: string;
+    headers: string[];
+    rows: string[][];
+  }>;
+}
+
+export interface TutorialModule {
+  moduleId: string;
+  moduleTitle: string;
+  studyGuide: string;
+  diagrams: TutorialDiagram[];
+  sections: TutorialSection[];
+  relatedQuestionIds?: string[];
+}
+
+export interface ExamTutorial {
+  id: string;
+  paperId: string;
+  title: string;
+  sourceCategory: string;
+  year: number;
+  updatedAt: string;
+  modules: TutorialModule[];
+}
+
 
 

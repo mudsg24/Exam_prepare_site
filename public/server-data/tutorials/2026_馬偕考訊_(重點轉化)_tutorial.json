@@ -1,0 +1,231 @@
+{
+  "id": "2026_馬偕考訊_(重點轉化)_tutorial",
+  "paperId": "2026_馬偕考訊_(重點轉化)",
+  "title": "2026 馬偕腎臟專科主題式備考教學",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T12:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "microanatomy",
+      "moduleTitle": "1. Microanatomy & Glomerular Filtration Barrier",
+      "studyGuide": "馬偕考點極度偏好 Glomerular Filtration Barrier (GFB) 的超微結構與分子標記。學習重點在於劃清 Podocyte secreted factors、Slit-diaphragm intracellular complex、以及 GEnC surface markers 三者，切勿混淆分工與交互作用！",
+      "diagrams": [
+        {
+          "id": "gfb_crosstalk_mermaid",
+          "type": "mermaid",
+          "code": "graph TD\n    subgraph Podocyte Foot Process\n        PodoSec[Podocyte Secreted Factors]\n        PodoSec --> Ang1[Angiopoietin-1]\n        PodoSec --> Angptl4[Normosialylated Angptl4]\n        PodoSec --> VEGFA[VEGF-A]\n        PodoSec --> SDF1[SDF-1 / CXCL12]\n        \n        subgraph Slit Diaphragm Complex\n            Nephrin[Nephrin / NPHS1] --- Podocin[Podocin / NPHS2]\n            Podocin --- TRPC6[TRPC6 Ca2+ Channel]\n            Podocin --- CD2AP[CD2AP Adapter]\n            Podocin --- Nck[Nck Adapter]\n            Podocin --- MAGI1[MAGI-1]\n            Podocin --- JAM4[JAM4 Protein]\n        end\n    end\n    \n    subgraph Glomerular Endothelial Cells GEnCs\n        Markers[GEnC Specific Markers]\n        Markers --- PECAM1[PECAM1 / CD31]\n        Markers --- ICAM2[ICAM2]\n        Markers --- VEGFR2[VEGFR2]\n        Markers --- vWF[von Willebrand factor]\n        Markers --- VECad[VE-cadherin / CD144]\n    end\n    \n    subgraph Diabetic Nephropathy Crosstalk\n        DN[DN Disease Mediators]\n        DN --- ET1[Endothelin-1]\n        DN --- Hep[Heparanase]\n        DN --- Axis[CXCL12 / CXCR4 Axis]\n        DN --- Vaso[Vasohibin]\n    end\n    \n    PodoSec -->|Paracrine Support| Markers",
+          "caption": "Figure 1.1: Glomerular Filtration Barrier Slit-Diaphragm Complex & Endothelial Crosstalk Mechanism"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Podocyte Secreted Factors & Paracrine Survival Loop",
+          "content": "Podocytes 位於 GFB 的最外層，透過Paracrine 機制分泌多種關鍵因子維持 Glomerular Endothelial Cells (GEnCs) 與 Filtration Slit 的超微結構：\n- **Angiopoietin-1**: 維持內皮細胞穩定與抗發炎狀態。\n- **Normosialylated Angiopoietin-like-4 (Angptl4)**: 防止蛋白尿滲漏的重要唾液酸修飾因子。\n- **Vascular Endothelial Growth Factor A (VEGF-A)**: GEnCs 存活與 Fenestration 形成所必需的生長因子。\n- **Stromal Derived Factor 1 (SDF-1 / CXCL12)**: 調控內皮修復與足細胞構造維護。",
+          "keyTerms": [
+            "Angiopoietin-1",
+            "Normosialylated Angptl4",
+            "VEGF-A",
+            "SDF-1 / CXCL12"
+          ]
+        },
+        {
+          "heading": "Slit-Diaphragm Intracellular Complex",
+          "content": "Slit-diaphragm 為 Foot processes 之間的分子篩網，其Intracellular part 經由 **Podocin** 作為中心 Scaffold 蛋白，串聯多個關鍵分子：\n- **Podocin**: 胞內核心錨定結構。\n- **TRPC6**: 調控足細胞內鈣離子流動的通道蛋白 。\n- **CD2AP & Nck**: 連結細胞骨架 Actin network 的 Adapter 蛋白。\n- **MAGI-1 & protein JAM4**: 維持細胞Tight junction 與膜流動性。",
+          "keyTerms": [
+            "Podocin",
+            "TRPC6",
+            "CD2AP",
+            "Nck",
+            "MAGI-1",
+            "JAM4"
+          ]
+        },
+        {
+          "heading": "Glomerular Endothelial Cells (GEnCs) Surface Markers",
+          "content": "GEnCs 具有特異性的細胞Surface Markers，在血管免疫與病理診斷中至關重要：\n- **PECAM1 (CD31)**\n- **ICAM2**\n- **VEGFR2**\n- **von Willebrand factor (vWF)**\n- **vascular endothelial (VE)-cadherin (CD144)**",
+          "keyTerms": [
+            "PECAM1 (CD31)",
+            "ICAM2",
+            "VEGFR2",
+            "vWF",
+            "VE-cadherin (CD144)"
+          ]
+        },
+        {
+          "heading": "Cell Crosstalk in Diabetic Nephropathy (DN)",
+          "content": "在 Diabetic Nephropathy 中，Podocyte 與 GEnCs 之間的跨細胞訊號傳遞 (Cell Crosstalk) 失調是造成蛋白尿與腎絲球硬化的主因，關鍵調控因子包含：\n- **Endothelin-1 (ET-1)**\n- **Heparanase**\n- **CXCL12 / CXCR4 axis**\n- **Vasohibin**",
+          "keyTerms": [
+            "Endothelin-1",
+            "Heparanase",
+            "CXCL12/CXCR4",
+            "Vasohibin"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "aki_biomarkers",
+      "moduleTitle": "2. AKI Biomarkers & Anatomical Site-Specific Injury",
+      "studyGuide": "掌握 AKI Biomarkers 的最佳備考策略是按受損解剖位置（Glomerulus, Proximal Tubule, Interstitium, Early Critical Prediction）歸類記憶。出題者最喜歡考受損部位與 Biomarker 的配對！",
+      "diagrams": [
+        {
+          "id": "aki_biomarkers_mermaid",
+          "type": "mermaid",
+          "code": "graph LR\n    subgraph Glomerular Injury\n        G1[Albumin Excretion]\n        G2[Podocyte Count]\n        G3[Podocalyxin]\n    end\n    \n    subgraph Proximal Tubule Injury\n        P1[L-FABP]\n        P2[α1-Microglobulin]\n        P3[Netrin-1]\n        P4[IL-18]\n    end\n    \n    subgraph Interstitial Fibrosis\n        I1[TGF-β]\n        I2[Collagen IV]\n        I3[TNFR]\n    end\n    \n    subgraph Critical AKI Early Prediction\n        C1[Urine + Blood Cystatin-C]\n        C2[Urine NGAL]\n        C3[Urine IL-18]\n        C4[Urine TIMP-2 & IGFBP-7]\n    end",
+          "caption": "Figure 2.1: Anatomical Mapping of AKI Biomarkers"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Glomerular Injury Biomarkers",
+          "content": "反應腎絲球屏障受損與足細胞脫落之生物標記：\n- **Albumin excretion**\n- **Podocyte count**\n- **Podocalyxin**",
+          "keyTerms": [
+            "Albumin",
+            "Podocyte count",
+            "Podocalyxin"
+          ]
+        },
+        {
+          "heading": "Proximal Tubule Injury Biomarkers",
+          "content": "反應近端腎小管缺血或毒性損傷之特異標記：\n- **L-FABP (Liver-type fatty acid-binding protein)**\n- **α1-Microglobulin**\n- **Netrin-1**\n- **IL-18**",
+          "keyTerms": [
+            "L-FABP",
+            "α1-Microglobulin",
+            "Netrin-1",
+            "IL-18"
+          ]
+        },
+        {
+          "heading": "Interstitial Fibrosis Biomarkers",
+          "content": "反應間質纖維化與慢性化預後之生物標記：\n- **TGF-β (Transforming growth factor-beta)**\n- **Collagen IV**\n- **TNFR (Tumor necrosis factor receptor)**",
+          "keyTerms": [
+            "TGF-beta",
+            "Collagen IV",
+            "TNFR"
+          ]
+        },
+        {
+          "heading": "Early AKI Prediction in Critical Illness",
+          "content": "Critical Illness 中可用於極早期預測 AKI 發作之標記組合：\n- **Urine + Blood Cystatin-C**\n- **Urine NGAL (Neutrophil gelatinase-associated lipocalin)**\n- **Urine IL-18**\n- **Urine TIMP-2 & IGFBP-7** (Cell cycle arrest markers: [TIMP-2] x [IGFBP-7] > 0.3)",
+          "keyTerms": [
+            "Cystatin-C",
+            "NGAL",
+            "IL-18",
+            "TIMP-2 & IGFBP-7"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "gn_pathology",
+      "moduleTitle": "3. Glomerulonephritis & Systemic / Hereditary Pathologies",
+      "studyGuide": "本主題集中考查經典 GN、遺傳性腎病與系統性疾病的特異病理表現。注意劃清 SLE protective vs risk HLA alleles，以及 HIVAN vs Heroin nephropathy 的三項經典微觀比較！",
+      "diagrams": [
+        {
+          "id": "hivan_heroin_mermaid",
+          "type": "mermaid",
+          "code": "graph TD\n    subgraph HIVAN Pathological Features\n        H1[Higher % Glomerular Collapse]\n        H2[Less Hyalinosis]\n        H3[Greater Visceral Cell Swelling]\n    end\n    \n    subgraph Heroin Nephropathy Features\n        R1[Lower Glomerular Collapse]\n        R2[Prominent Hyalinosis / Sclerosis]\n        R3[Moderate Visceral Swelling]\n    end",
+          "caption": "Figure 3.1: Pathological Comparison: HIVAN vs Heroin Nephropathy"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Alport Syndrome ESRD Risk Spectrum",
+          "content": "Alport Syndrome 為 IV 型膠原蛋白基因突變導致。其進展至ESRD 的風險強度：\n- **Autosomal Recessive (AR) >> Autosomal Dominant (AD)**\n。",
+          "keyTerms": [
+            "Alport Syndrome",
+            "Autosomal Recessive",
+            "Autosomal Dominant",
+            "ESRD Risk"
+          ]
+        },
+        {
+          "heading": "SLE Nephritis HLA Alleles: Protection vs Susceptibility",
+          "content": "系統性紅斑性狼瘡 (SLE) 病患的 HLA Lupus Nephritis 的影響：\n- **Protective HLA alleles**: `HLA-DR4` & `HLA-DR11`\n- **Increased risk alleles**: `HLA-DR3` & `HLA-DR13`",
+          "keyTerms": [
+            "HLA-DR4",
+            "HLA-DR11",
+            "HLA-DR3",
+            "HLA-DR13"
+          ]
+        },
+        {
+          "heading": "Amyloidosis Peripheral Organ Involvements (%)",
+          "content": "Systemic Amyloidosis 的外周器官侵犯頻率排序：\n- **Kidney > Heart > Nerve** 。",
+          "keyTerms": [
+            "Amyloidosis",
+            "Kidney > Heart > Nerve"
+          ]
+        },
+        {
+          "heading": "HIVAN vs Heroin Nephropathy Pathological Comparison",
+          "content": "HIV-associated Nephropathy (HIVAN) 與 Heroin-associated Nephropathy 的病理切片鑑別陷阱：\n與 Heroin nephropathy 相比，**HIVAN** 具有：\n1. **Higher percentage of glomerular collapse** (Collapsing FSGS)\n2. **Less hyalinosis** \n3. **Greater visceral cell swelling**",
+          "keyTerms": [
+            "HIVAN",
+            "Heroin Nephropathy",
+            "Glomerular collapse",
+            "Visceral cell swelling"
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "renal_transplantation",
+      "moduleTitle": "4. Renal Transplantation: Immunosuppression, Interactions & Complications",
+      "studyGuide": "移植章節是馬偕考題大戶！必須把 4 國防免疫藥物標靶、4 大上升 Tacrolimus 濃度的 CYP3A4 抑制劑、4 種高 SIR (>5) 腫瘤、與 4 大 CMV 特異性器官表現死背下來！",
+      "diagrams": [
+        {
+          "id": "transplant_targets_mermaid",
+          "type": "mermaid",
+          "code": "graph LR\n    subgraph Targeted Immunosuppressants\n        Bela[Belatacept] -->|Target| CD80[CD80 / CD86 Costimulation]\n        Basi[Basiliximab] -->|Target| IL2[IL-2R / CD25]\n        OKT3[OKT3] -->|Target| CD3[CD3 Complex]\n        Alem[Alemtuzumab] -->|Target| CD52[CD52 Component]\n    end\n    \n    subgraph Tacrolimus Elevating Drugs CYP3A4 Inhibitors\n        T1[Verapamil]\n        T2[Clarithromycin]\n        T3[Itraconazole]\n        T4[Fluvoxamine]\n    end",
+          "caption": "Figure 4.1: Immunosuppressive Drug Targets & Tacrolimus CYP3A4 Interactions"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Immunosuppressive Agents & Molecular Targets",
+          "content": "腎臟移植常見單株抗體與生物製劑及其標靶配對：\n- **Belatacept** $\\rightarrow$ **CD80 / CD86** \n- **Basiliximab** $\\rightarrow$ **IL-2R (CD25)**\n- **OKT3** $\\rightarrow$ **CD3**\n- **Alemtuzumab** $\\rightarrow$ **CD52**",
+          "keyTerms": [
+            "Belatacept-CD80/86",
+            "Basiliximab-IL2",
+            "OKT3-CD3",
+            "Alemtuzumab-CD52"
+          ]
+        },
+        {
+          "heading": "Tacrolimus Drug Interactions (Concentration Elevation)",
+          "content": "經由強效抑制 CYP3A4 / P-glycoprotein 導致 **Tacrolimus 血中濃度顯著上升 ** 的關鍵併用藥物：\n- **Verapamil** (CCB)\n- **Clarithromycin** (Macrolide antibiotic)\n- **Itraconazole** (Antifungal)\n- **Fluvoxamine** (SSRI)",
+          "keyTerms": [
+            "Verapamil",
+            "Clarithromycin",
+            "Itraconazole",
+            "Fluvoxamine"
+          ]
+        },
+        {
+          "heading": "Post-Transplant High SIR (>5) Malignancies",
+          "content": "移植後長期免疫抑制下好發，且在高標化發生率比 (SIR > 5) 之腫瘤類型 ：\n- **Lip**\n- **Thyroid**\n- **Penis**\n- **Small intestine**",
+          "keyTerms": [
+            "SIR > 5",
+            "Lip",
+            "Thyroid",
+            "Penis",
+            "Small intestine"
+          ]
+        },
+        {
+          "heading": "CMV Infection Organ Specificity & Clinical Features",
+          "content": "移植後 CMV 感染之器官侵犯特徵：\n- **Kidney**: Viral inclusions 通常與 **FSGS** (Focal Segmental Glomerulosclerosis) 相關。\n- **Esophagus / Colon**: Ulceration 通常具 **Life-threatening** (Life-threatening) 風險。\n- **Acute Hepatitis**: 通常 **不嚴重** (Mild / Self-limiting)。\n- **Retinitis**: 通常 **Rare 且 Late onset**。",
+          "keyTerms": [
+            "CMV",
+            "FSGS",
+            "Esophagus/Colon Ulceration",
+            "Acute Hepatitis",
+            "Retinitis"
+          ]
+        }
+      ]
+    }
+  ]
+}

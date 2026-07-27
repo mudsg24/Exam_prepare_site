@@ -22,6 +22,7 @@ interface DashboardViewProps {
   manifest: ExamManifestItem[];
   stats: GlobalPracticeStats;
   onSelectPaper: (paperId: string) => void;
+  onSelectTutorial?: (paperId: string) => void;
   onStartCustomPractice: (type: CustomPracticeType, count?: number) => void;
   paperProgressMap: Record<string, { total: number; answered: number; correct: number }>;
   themeMode: ThemeMode;
@@ -43,6 +44,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
   manifest,
   stats,
   onSelectPaper,
+  onSelectTutorial,
   onStartCustomPractice,
   paperProgressMap,
   themeMode,
@@ -399,6 +401,21 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                               style={{ width: `${percent}%` }}
                             />
                           </div>
+
+                          {/* Topic Tutorial Button */}
+                          <button
+                            onClick={() => onSelectTutorial && onSelectTutorial(paper.id)}
+                            disabled={!paper.hasTutorial}
+                            className={`w-full py-2 px-3 rounded-xl text-xs font-extrabold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                              paper.hasTutorial
+                                ? 'bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30 shadow-sm ring-1 ring-emerald-500/20'
+                                : 'bg-slate-100 dark:bg-slate-800/40 text-slate-400 border border-slate-200 dark:border-slate-800 opacity-60 cursor-not-allowed'
+                            }`}
+                          >
+                            <Sparkles className="w-3.5 h-3.5 text-emerald-500" />
+                            <span>{paper.hasTutorial ? '🎓 主題式備考教學' : '🎓 主題式備考 (尚無講堂)'}</span>
+                            <ChevronRight className="w-3.5 h-3.5 ml-auto" />
+                          </button>
 
                           {/* Start Exam Button */}
                           <button

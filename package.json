@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint:exams": "node scripts/lint_exam_json.mjs",
-    "build": "node scripts/lint_exam_json.mjs && tsc && vite build",
+    "lint:exams": "node scripts/lint_exam_json.mjs && node scripts/check_assets.mjs",
+    "check:assets": "node scripts/check_assets.mjs",
+    "build": "node scripts/lint_exam_json.mjs && node scripts/check_assets.mjs && tsc && vite build",
     "preview": "vite preview",
     "build:images": "node scripts/build_image_index.mjs",
     "test": "vitest run",

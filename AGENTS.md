@@ -47,6 +47,10 @@
 >      - **NLM 雙重對答完整度 (NLM Dual Response Integrity)**: 驗證每道題目是否皆具備精確 2 筆獨立 NotebookLM 對答紀錄 (`nlmResponses.length === 2`)，且每筆回應長度 `len(rawResponse) >= 200` 且 `databaseSufficiency === "SUFFICIENT"`。少於 2 筆或存在短回答/INSUFFICIENT 者一律標註為 QC 未通過並強制重發提問。
 >      - **解答精準對映 (Ground Truth Accuracy)**: 驗證原始答案與對照表已精準擷取。
 >    - 只有通過 QC Subagent 標註為 `QC_PASSED` 的題目，方可獲准寫入網站資料庫。
+>
+> 6. **INDEX-DRIVEN BRENNER LOOKUP & QC SEMANTIC CHAPTER MATCH GATE (Index-Driven 檢索與 Brenner 語意對應門閥)**:
+>    - **全管道（包含主 Session 與 Subagents）引用 Brenner 11e 圖表前，100% 必須先讀取** `/Users/yuan/Projects/PDF/Outputs/2020 Brenner 11e/<章節資料夾>/*_Index.md` 索引檔，核對官方圖號 (`Fig_X_Y`)、原始圖題 (Caption) 與醫學主題 100% 精確吻合後，方可複製至 `public/server-data/assets/` 並寫入 JSON。**絕對禁止盲目猜測圖號或使用硬編碼預設檔名**。
+>    - **QC Subagent 品質門閥驗證**：QC Subagent 必須驗證 `sourceBook`（如 `Brenner 11e Ch 50`）與 `imagePath`（如 `Brenner_Fig_50_13.png`）的章節數字必須與講堂/題目主題（如 Diuretics）100% 吻合。若發現跨章節張冠李戴，一律標註為 `QC_FAILED` 阻斷匯入。
 
 ## Single Source of Truth (SSOT) Data Sources
 

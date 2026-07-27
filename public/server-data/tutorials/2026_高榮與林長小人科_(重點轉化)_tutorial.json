@@ -1,0 +1,118 @@
+{
+  "id": "2026_高榮與林長小人科_(重點轉化)_tutorial",
+  "paperId": "2026_高榮與林長小人科_(重點轉化)",
+  "title": "2026 高榮與林長小人科腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T22:06:00.000Z",
+  "modules": [
+    {
+      "moduleId": "pediatric_nephrology_sle",
+      "moduleTitle": "1. Pediatric Proteinuria Differential Spectrum & Lupus Nephritis Pathophysiology",
+      "studyGuide": "本模組深入解析兒童腎臟學核心考點。全面研析 Pediatric Proteinuria 之分段定量診斷、Post-orthostatic Proteinuria 生理背離、兒童 SLE 與 Lupus Nephritis (Class I-VI ISN/RPS) 之病理免疫機轉、Full-House 免疫螢光與 Complement (C3/C4) 消耗、以及 Lupus Podocytopathy 足細胞病變特徵。 [權威文獻對照: Brenner 11e Ch 72 Diseases of the Kidney and Upper Urinary Tract in Children, p. 2445-2480]",
+      "diagrams": [
+        {
+          "id": "brenner_fig_72_11",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_72_11.png",
+          "caption": "Brenner 11e Fig. 72.11: Histopathologic findings in glomerular podocytopathies and membrane alterations.",
+          "sourceBook": "Brenner 11e Ch 72"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Pediatric Proteinuria Differential Spectrum & Post-Orthostatic Physiologic Mechanism",
+          "diagram": {
+            "id": "kaohsiung_vgh_pediatric_sle_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/kaohsiung_vgh_pediatric_sle_fig.jpg",
+            "caption": "Figure 1.1: Pathophysiology of Glomerular Filtration Barrier, Podocyte Slit Diaphragm, and Lupus Nephritis Immune Complex Cascade.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "依據 Brenner 11e Ch 72 (Diseases of the Kidney and Upper Urinary Tract in Children) 權威章節剖析，Pediatric Proteinuria 在臨床評估上必須明確區分 Transient/Post-orthostatic 因素與 Pathologic Glomerular/Tubular 病變：\n1. **Post-Orthostatic Proteinuria Physiology**: 盛行於青少年與學齡兒童。在直立體位時，交感神經活性增加與 Renal Hemodynamics 改變導致 Intraglomerular Pressure 微幅上升，引發暫時性 Albumin 超濾。金標準診斷為 24-hour Divided Urine Collection（分為 Nighttime Supine 8-hour 與 Daytime Upright 16-hour）：夜晚平躺採集之 First Morning Void 尿蛋白質完全正常 (Upright/Supine Ratio > 1，平躺尿蛋白 < 50 mg/m²/day 或 UPCR < 0.2 mg/mg)，無任何 Glomerular Sclerosis 或 Tubular Atrophy 損傷。\n2. **Persistent Pathologic Proteinuria Spectrum**: 若平躺尿液仍持續呈現顯著 Proteinuria，提示 Glomerular Filtration Barrier 實質受損。Nephrotic Range Proteinuria (> 40 mg/m²/hour 或 UPCR > 2.0 mg/mg) 伴隨 Hypoalbuminemia 與 Edema，在兒童首要排查 Minimal Change Disease (MCD) 與 Focal Segmental Glomerulosclerosis (FSGS)。\n\n| Molecular Target | Anatomic Site | Physiological / Pathological Role | Functional Interaction | Clinical Significance |\n| :--- | :--- | :--- | :--- | :--- |\n| **Nephrin (NPHS1)** | Podocyte Slit Diaphragm | Primary structural filtration zip | Interacts with Podocin & CD2AP | Defect causes Congenital Nephrotic Syndrome (Finnish) |\n| **Podocin (NPHS2)** | Podocyte Membrane Microdomain | Scaffolding protein anchoring Nephrin | Recruits Nephrin to lipid rafts | Steroid-resistant Nephrotic Syndrome mutation |\n| **Megalin / Cubilin** | Proximal Tubule Apical Membrane | Endocytic receptor complex for low MW proteins | Reabsorbs filtered Albumin & FLCs | Overwhelmed in Tubular Proteinuria |\n\n| Diagnostic Parameter | Post-Orthostatic Proteinuria | Minimal Change Disease (MCD) | Pediatric Lupus Nephritis |\n| :--- | :--- | :--- | :--- |\n| **First Morning Void UPCR** | **Normal (< 0.2 mg/mg)** | **Nephrotic (> 2.0 mg/mg)** | Elevated (Nephrotic or Nephritic) |\n| **Serum C3 / C4 Complement** | **Normal** | **Normal** | **Depressed (Low C3 & Low C4)** |\n| **Podocyte Morphology (EM)** | Normal foot processes | Diffuse foot process effacement | Foot process effacement & Subendothelial deposits |\n| **Renal Function & BP** | Normal | Normal (Transient AKI rare) | Risk of Hypertension & AKI |\n\n### Pathophysiological Decision Trees\n- **Post-Orthostatic Assessment Path**: Upright Proteinuria Detection ➔ 24-hour Divided Split Collection ➔ First Morning Void Normal UPCR ➔ Post-Orthostatic Diagnosis ➔ Reassurance without Immunosuppression.\n\n### Conceptual Trap Analysis\n- **Dipstick Screen Trap**: 切勿單憑隨機單次定性 Urine Dipstick 陽性即判定兒童患有 Glomerulonephritis；必須進行 First Morning Void UPCR 或 Split 24-hour Urine Collection 以完全排除 Post-orthostatic Proteinuria。"
+        }
+      ]
+    },
+    {
+      "moduleId": "ckd_mbd_dialysis_vascular",
+      "moduleTitle": "2. CKD-MBD, Calciphylaxis & Peritoneal Dialysis Kinetics",
+      "studyGuide": "本模組精通 CKD-MBD 骨骼血管病變、Calcific Uremic Arteriolopathy (CUA/Calciphylaxis) 之缺血性潰瘍與藥物排查、G5D 階段 Parathyroid Hormone (PTH) 生化控制、腹膜透析 (PD) 腹膜炎拔管指引、以及 APD Sodium Sieving 之 Free Water Ultrafiltration 動態。 [權威文獻對照: Brenner 11e Ch 53 Chronic Kidney Disease–Mineral Bone Disorder & Ch 64 Peritoneal Dialysis]",
+      "diagrams": [
+        {
+          "id": "brenner_fig_53_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_53_3.png",
+          "caption": "Brenner 11e Fig. 53.3: Calcium-sensing receptor (CaSR) signaling and parathyroid hormone (PTH) regulation.",
+          "sourceBook": "Brenner 11e Ch 53"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Calcific Uremic Arteriolopathy (CUA) & Peritoneal Dialysis Sodium Sieving Biophysics",
+          "diagram": {
+            "id": "kaohsiung_vgh_ckd_mbd_pd_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/kaohsiung_vgh_ckd_mbd_pd_fig.jpg",
+            "caption": "Figure 2.1: Pathophysiology of Calciphylaxis Arteriolar Media Calcification and Peritoneal Dialysis Sodium Sieving Kinetics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "依據 Brenner 11e Ch 53 (CKD-MBD) 與 Ch 64 (Peritoneal Dialysis) 權威章節剖析，CKD-MBD 終末期血管突變與腹膜透析動態學理剖析：\n1. **Calcific Uremic Arteriolopathy (CUA / Calciphylaxis)**: 為 ESKD 病患之致命性小動脈中層鈣化與內膜增生血栓疾病。關鍵風險因子包括 ESKD、Hyperphosphatemia、Hypercalcemia、Severe Hyperparathyroidism、Calcium-based Phosphate Binders 以及 Warfarin 拮抗 Vitamin K 導致 Matrix Gla Protein (MGP) 無法γ-羧基化失能。處置核心為立即停用促鈣化因子與 Warfarin、精準控制 Ca/P/PTH (避開高鈣負荷)、給予 Sodium Thiosulfate (STS) 整合游離鈣並發揮抗氧化/血管擴張作用，配合積極痛覺控管與傷口清創。\n2. **PD Peritonitis Catheter Removal Indications**: PD 腹膜炎診斷依據流出液 Effluent WBC > 100/uL 且 PMN > 50%。強烈提示應緊急 Surgical Catheter Removal 之高風險情境包括：Refractory Peritonitis (適當抗生素治療 5 天仍無改善)、Polymicrobial Enteric Peritonitis (提示腸道穿孔)、Fungal / NTM Peritonitis、以及 Pseudomonas aeruginosa 感染合併 Tunnel / Exit-site Infection。\n3. **APD Sodium Sieving Biophysics**: 在 Automated Peritoneal Dialysis (APD) 短 Dwell (1-2 小時) 搭配 High Glucose Dialysate 情況下，強大晶體滲透壓驅動水份迅速通過 Cell Membrane 上之 Aquaporin-1 (AQP-1) 通道進行 Transcellular Free Water Transport。由於 AQP-1 嚴格不通透 Sodium，導致 Dialysate Sodium 被稀釋而血清 Sodium 未能同比例移除 (Sodium Sieving Effect)，引發暫時性血清 Na+ 升高與水份超濾高於溶質清除之現象。\n\n| Receptor / Transporter | Anatomical Local | Physiological / Pathological Function | Pharmacological Modulator | Clinical Consequence |\n| :--- | :--- | :--- | :--- | :--- |\n| **CaSR (Calcium-Sensing Receptor)** | Parathyroid Chief Cell & TAL | Inhibits PTH secretion upon Ca2+ binding | Calcimimetics (Cinacalcet, Etelcalcetide) | Lowers PTH & Calcium in G5D |\n| **Matrix Gla Protein (MGP)** | Vascular Smooth Muscle Layer | Potent inhibitor of vascular calcification | Requires Vitamin K gamma-carboxylation | Inhibited by Warfarin, driving CUA |\n| **Aquaporin-1 (AQP-1)** | Peritoneal Capillary Endothelium | Transcellular ultrafiltration of pure water | Driven by Glucose Crystalloid Gradient | Mediates Sodium Sieving in short dwell PD |\n\n| Clinical Condition / Parameter | Calcific Uremic Arteriolopathy (CUA) | Atherosclerotic Calcinosis | Refractory PD Peritonitis |\n| :--- | :--- | :--- | :--- |\n| **Target Vessel Size** | **Cutaneous Small Arterioles (< 0.6mm)** | Large & medium arteries | N/A (Peritoneal Cavity) |\n| **Histopathological Hallmark** | **Medial Calcification & Microthrombi** | Intimal Atheromatous Plaque | PMN Surge & Fibrinous Effluent |\n| **Key Risk Drug Factor** | **Warfarin & Calcium Binders** | Statin deficiency | Delayed Antibiotic Infusion |\n| **Core Intervention** | **Stop Warfarin/Ca + Give Sodium Thiosulfate** | Statin + Antiplatelet | **Surgical PD Catheter Removal** |\n\n### Pathophysiological Decision Trees\n- **APD Sodium Sieving Path**: High Glucose Dialysate Instillation ➔ Rapid Transcellular Water Transport via AQP-1 ➔ Dilutional Drop of Dialysate Na+ ➔ Intravascular Hypernatremia Surge.\n\n### Conceptual Trap Analysis\n- **CUA Warfarin Trap**: 避開「出現 CUA 疼痛性紫斑潰瘍仍繼續給予 Warfarin 治療血栓」之陷阱；Warfarin 拮抗 Vitamin K 加重血管中層鈣化，必須立即轉為 Alternative Anticoagulant。"
+        }
+      ]
+    },
+    {
+      "moduleId": "glomerular_tma_organized_deposits",
+      "moduleTitle": "3. Glomerulopathy, Podocytopathy & Organized Deposit Ultrastructural Spectrum",
+      "studyGuide": "本模組深入解析 IgA Nephropathy 最新 Oxford MEST-C 病理與 KDIGO 2025 處置、Membranous Nephropathy PLA2R 特徵、FSGS Tip vs Collapsing Variants 預後分流、Anti-GBM 病理、以及 Immunotactoid, Fibrillary, Amyloidosis 結構化沉積超微結構鑑別拓撲。 [權威文獻對照: Brenner 11e Ch 31 Primary Glomerular Disease]",
+      "diagrams": [
+        {
+          "id": "brenner_fig_31_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_1.png",
+          "caption": "Brenner 11e Fig. 31.1: Histopathological classification of glomerulonephritis and immune-complex deposition patterns.",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "IgA Nephropathy Oxford MEST-C, FSGS Variants & Organized Deposits Spectrum",
+          "diagram": {
+            "id": "kaohsiung_vgh_glomerular_deposits_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/kaohsiung_vgh_glomerular_deposits_fig.jpg",
+            "caption": "Figure 3.1: Comparative Ultrastructure of Organized Renal Deposits and IgAN Oxford MEST-C Score Classification.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "依據 Brenner 11e Ch 31 (Primary Glomerular Disease) 權威章節剖析，原發性腎絲球疾病與特殊結構化沉積之透視研析：\n1. **IgA Nephropathy & Post-Infectious GN Differential**: IgAN 典型為 Synpharyngitic Hematuria，即在上呼吸道感染 1-2 天內突發肉眼血尿，血清 C3/C4 補體完全正常；PSGN 具有 1-3 週前驅潛伏期，且超過 90% 病患呈現替代途徑低 C3 補體血症。KDIGO 2025 指引建議針對高風險 IgAN 加用 Targeted-release Budesonide (Nefecon) 抑制 Gut-Associated Lymphoid Tissue 生成 Gd-IgA1、雙重受體拮抗劑 Sparsentan、或 SGLT2i 減緩病程。\n2. **FSGS Variants Prognostic Dichotomy**: Tip Variant (病理變化侷限於 Tubular Pole 頂端) 對 Steroid 反應極佳，腎存活率最高；Relative Collapsing Variant (Glomerular Tuft 全面塌陷與 Podocyte Proliferation) 與 HIV / APOL1 高風險基因相關，預後最差且迅速進展至 ESKD。Secondary FSGS (適應性過高濾過) 應注重 Hyperfiltration 控管，絕不使用大量 Corticosteroids。\n3. **Organized Deposits Ultrastructural Spectrum**: Amyloidosis (EM 下為 8-12 nm 無分叉亂序纖維，Congo Red 呈現 Apple-green birefringence)；Fibrillary GN (EM 下為 10-30 nm 亂序 Microfibrils，DNAJB9 染色高度特異陽性)；Immunotactoid GN (EM 下為 20-50 nm 大孔徑平行排列之 Hollow Microtubules，強烈提示 Monoclonal Gammopathy / Lymphoma)。\n\n| Microstructural Entity | EM Diameter & Morphology | Congo Red Reactivity | Immunofluorescence Pattern | Dominant Disease Association |\n| :--- | :--- | :--- | :--- | :--- |\n| **Amyloidosis (AL / AA)** | **8 - 12 nm Unbranched Fibrils** | **Positive (Apple-green)** | Monoclonal Light Chain or SAA | Plasma Cell Dyscrasia / Chronic Inflammation |\n| **Fibrillary GN** | **10 - 30 nm Random Fibrils** | **Negative** (DNAJB9+) | Polyclonal IgG & C3 | Polyclonal Autoimmune / Malignancy |\n| **Immunotactoid GN** | **20 - 50 nm Hollow Microtubules**| **Negative** | Monoclonal Ig (rarely polyclonal)| Monoclonal Gammopathy / CLL |\n\n| Disease Entity / Variant | Latency / Pathology Hallmark | Complement Profile | Primary Therapeutic Target | Prognosis / Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **IgA Nephropathy (IgAN)** | Synpharyngitic (1-2 days), Mesangial IgA | **Normal C3 & C4** | Nefecon / Sparsentan / SGLT2i | MEST-C Score Dependent |\n| **PSGN** | Post-infectious (1-3 weeks), Subepithelial Humps | **Low C3 (Normal C4)** | Supportive Care | Excellent in Pediatric (>95%) |\n| **FSGS Tip Variant** | Segmental lesion at tubular origin | Normal C3 & C4 | Corticosteroids | **Favorable (Steroid Responsive)** |\n| **FSGS Collapsing Variant** | Tuft collapse & Podocyte hyperplasia | Normal C3 & C4 | Immunosuppression + Antiviral | **Poor (Rapid Progression to ESKD)** |\n\n### Pathophysiological Decision Trees\n- **Organized Deposit Diagnostic Flow**: Glomerular Nephrotic Syndrome ➔ Congo Red Stain Positive ➔ EM 8-12 nm Fibrils ➔ Amyloidosis Diagnosis; Congo Red Negative + DNAJB9 Positive ➔ Fibrillary GN.\n\n### Conceptual Trap Analysis\n- **Fibrillary vs Amyloid EM Trap**: 切勿將 DNAJB9 陽性之 Fibrillary GN 誤判為 Amyloidosis；後者 Congo Red 呈蘋果綠雙折光且纖維直徑較細 (8-12 nm vs 10-30 nm)。"
+        }
+      ]
+    },
+    {
+      "moduleId": "tma_vascular_inherited_nephrology",
+      "moduleTitle": "4. Thrombotic Microangiopathy, Renal Vascular Pathology & Inherited Diseases",
+      "studyGuide": "本模組精通 TMA / HUS 家族光譜、Pregnancy TMA vs MCP-aHUS 移植復發風險、Pneumococcus-associated HUS 輸血禁忌、Atheroembolic Renal Disease 鑑別、移植腎靜脈血栓 Doppler 訊號、以及 ADPKD Mayo Classification 進展估算。 [權威文獻對照: Brenner 11e Ch 72 Pediatric Kidney & Ch 34 Thrombotic Microangiopathies]",
+      "diagrams": [
+        {
+          "id": "brenner_fig_72_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_72_12.png",
+          "caption": "Brenner 11e Fig. 72.12: Histopathologic findings in thrombotic microangiopathy (TMA) within glomeruli and arterioles.",
+          "sourceBook": "Brenner 11e Ch 72"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "TMA Subtype Differentiation, Renal Graft Vein Thrombosis & ADPKD Progression",
+          "diagram": {
+            "id": "kaohsiung_vgh_tma_vascular_adpkd_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/kaohsiung_vgh_tma_vascular_adpkd_fig.jpg",
+            "caption": "Figure 4.1: Microvascular TMA Pathophysiology, Graft Vein Thrombosis Doppler Signal, and ADPKD Mayo Risk Stratification.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "依據 Brenner 11e Ch 34 (Thrombotic Microangiopathies) 與 Ch 72 (Pediatric Kidney Diseases) 權威章節剖析，血栓性微血管病變與血管遺傳腎病之深度對策：\n1. **Pregnancy TMA & MCP-aHUS Transplant Recurrence**: HELLP Syndrome 於產後持續呈現微血管溶血、Thrombocytopenia 與 AKI 時，應考量 Complement-mediated aHUS。Membrane Cofactor Protein (MCP / CD46) 突變型 aHUS 由於 MCP 為膜結合型蛋白，腎移植後新移植腎可表達捐贈者正常之 MCP，因此移植後 aHUS 復發風險相對較低 (遠低於 Factor H 或 Factor I 突變)，Eculizumab / Ravulizumab 治療效果顯著。\n2. **Pneumococcus-Associated HUS Transfusion Caution**: S. pneumoniae 釋放 Neuraminidase 剪切紅血球與內皮細胞表面 N-acetylneuraminic acid，暴露隱蔽之 Thomsen-Friedenreich (T-antigen)。人體血清普遍存有 Anti-T IgM 抗體，若輸注未洗滌之 RBCs 或含血漿之 Plasma Products (FFP)，抗體與暴露之 T-antigen 結合將觸發暴發性 Complement Activation 與 Microvascular Hemolysis。因此輸血處置限制為 Washed Red Blood Cells。\n3. **Renal Graft Vein Thrombosis Doppler Signal**: 移植腎血管急症，Doppler Ultrasound 典型呈 Absent Venous Flow 伴隨 Parenchymal Arterial Waveform 之 Diastolic Flow Reversal，呈現舒張期血流倒流與雙相波特徵，必須緊急入手手術探查。\n4. **ADPKD Mayo Class Progression Predictors**: ADPKD 快速進展指標採 Mayo Classification (1A-1E)，結合 Height-adjusted Total Kidney Volume (htTKV)、Age 與 eGFR。Mayo Class 1C-1E 病患建議使用 Selective V2 Receptor Antagonist (Tolvaptan) 延緩囊腫增大，治療期間必須嚴密監測 ALT/AST 肝功能與 Hypernatremia。\n\n| Target Molecule / Receptor | Anatomic / Cellular Site | Pathophysiological Dysfunction | Modulating Agent / Contraindication | Clinical Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **MCP (CD46)** | Endothelial Cell Surface | Genetic loss of complement regulation | Low recurrence post-transplant | Eculizumab / Ravulizumab response |\n| **Neuraminidase / T-Antigen**| Erythrocyte Surface Membrane | Cleaves sialic acid exposing T-antigen | **Avoid Unwashed RBCs & FFP** | Pneumococcal HUS hemolysis |\n| **Vasopressin V2 Receptor** | Collecting Duct Principal Cell | Drives cAMP & cyst fluid secretion | Tolvaptan (V2R Antagonist) | Slows htTKV growth in ADPKD |\n\n| Clinical Entity | Primary Pathophysiology | Key Diagnostic Hallmark | Primary Treatment / Caution |\n| :--- | :--- | :--- | :--- |\n| **MCP-aHUS** | Endothelial CD46 Mutation | Continuous Complement Activation | Eculizumab; Low Graft Recurrence Risk |\n| **Pneumococcal HUS** | Bacterial Neuraminidase Surge | **Positive Direct Coombs (DAT)** | **Washed RBCs ONLY (Avoid FFP)** |\n| **Atheroembolic Renal Disease** | Cholesterol Crystal Embolism | **Eosinophilia & Cholesterol Clefts**| Supportive; Avoid Anticoagulation |\n| **Graft Vein Thrombosis** | Venous Outflow Obstruction | **Doppler Diastolic Flow Reversal** | **Emergency Surgical Exploration** |\n\n### Pathophysiological Decision Trees\n- **Pneumococcal HUS Management Cascade**: S. pneumoniae Infection ➔ Neuraminidase Release ➔ T-Antigen Exposure ➔ Avoid FFP Transfusion ➔ Administer Washed RBCs ➔ Microvascular Recovery.\n\n### Conceptual Trap Analysis\n- **Pneumococcal HUS Transfusion Trap**: 嚴禁在 Pneumococcal HUS 病患出現貧血時輸注一般 FFP 或 Unwashed RBCs；FFP 含有高濃度 Anti-T IgM 抗體，會急劇加重溶血性貧血與血栓併發症。"
+        }
+      ]
+    }
+  ]
+}

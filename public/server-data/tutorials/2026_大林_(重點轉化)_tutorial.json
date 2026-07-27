@@ -12,18 +12,25 @@
       "studyGuide": "本模組深入傳授全球 Chronic Kidney Disease (CKD) 與 End-Stage Kidney Disease (ESKD) 的流行病學地圖、Low Nephron Endowment 誘發之 Brenner Hyperfiltration Hypothesis 與 Secondary FSGS 病理軸線、Renal Aging 之微觀三聯病理特徵 Glomerulosclerosis, TA/IF, Arteriolar Nephrosclerosis、以及 Albuminuria 造成 Proximal Tubule 毒性與間質纖維化之分子級聯。",
       "diagrams": [
         {
+          "id": "brenner_fig_19_17",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_19_17.png",
+          "caption": "Brenner 11e Fig. 19.17: Proportions of Incident End-Stage Kidney Disease (ESKD) due to Diabetes by Country (USRDS Global Registry Data).",
+          "sourceBook": "Brenner 11e Ch 19"
+        },
+        {
+          "id": "brenner_fig_21_17",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_21_17.png",
+          "caption": "Brenner 11e Fig. 21.17: Proposed Mechanisms of Fetal Programming of Hypertension, Low Nephron Endowment & Brenner Hyperfiltration Cascade.",
+          "sourceBook": "Brenner 11e Ch 21"
+        },
+        {
           "id": "brenner_fig_22_1",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_22_1.png",
-          "caption": "Brenner 11e Fig. 22.1: Structural and Histopathological Alterations in the Aging Kidney (Global glomerulosclerosis, Tubular atrophy and Interstitial fibrosis, Arteriolar nephrosclerosis & Decreased GFR).",
+          "caption": "Brenner 11e Fig. 22.1: Triad Histopathological Alterations in the Aging Kidney (Global Glomerulosclerosis, TA/IF & Arteriolar Nephrosclerosis).",
           "sourceBook": "Brenner 11e Ch 22"
-        },
-        {
-          "id": "brenner_table_21_16",
-          "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Table_21_16.png",
-          "caption": "Brenner 11e Table 21.16: Developmental Programming of Blood Pressure and Renal Function Through the Life Course (Low Nephron Endowment, Prematurity & IUGR).",
-          "sourceBook": "Brenner 11e Ch 21"
         }
       ],
       "sections": [
@@ -79,11 +86,18 @@
       "studyGuide": "本模組精通原發性與次發性高血壓。重點解構 Aldosterone-to-Renin Ratio (ARR) 在 Primary Aldosteronism (PA) 中的正確判讀與各類降壓藥物的假陰性/假陽性干擾、各類降壓藥物對腎絲球入球/出球小動脈血流動力學之精準調控、以及 Renal Artery Stenosis (RAS) 診斷與 ASTRAL / CORAL 經典試驗中內科極致控制 vs 血管支架處置的等效性比較。",
       "diagrams": [
         {
-          "id": "brenner_fig_46_1",
+          "id": "brenner_fig_46_8",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_46_1.png",
-          "caption": "Brenner 11e Fig. 46.1: Pathophysiology and Hemodynamic Regulation of Primary and Renovascular Secondary Hypertension.",
+          "imagePath": "/server-data/assets/Brenner_Fig_46_8.png",
+          "caption": "Brenner 11e Fig. 46.8: Key Elements of the Renin-Angiotensin-Aldosterone System (RAAS Topology & Aldosterone-to-Renin Ratio Screening).",
           "sourceBook": "Brenner 11e Ch 46"
+        },
+        {
+          "id": "brenner_fig_47_25",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_47_25.png",
+          "caption": "Brenner 11e Fig. 47.25: Renal Revascularization Outcomes from ASTRAL & CORAL Randomized Controlled Trials vs High-Risk Stenting Indications.",
+          "sourceBook": "Brenner 11e Ch 47"
         }
       ],
       "sections": [
@@ -128,11 +142,11 @@
       "studyGuide": "本模組系統講授妊娠相關高血壓與 AKI。重點深入解構 Preeclampsia 之滋養層細胞重塑缺陷、抗血管新生因子 (sFlt-1 / PlGF ratio) 與標誌性病理 Glomerular Endotheliosis、妊娠期高血壓之首選安全降壓藥物與絕對禁忌致畸藥物、以及妊娠期 AKI 包含 Preeclampsia/HELLP, TTP-HUS, Complement-mediated aHUS, Acute Fatty Liver of Pregnancy (AFLP) 與 Prerenal Hyperemesis 之臨床與實驗室鑑別診斷。",
       "diagrams": [
         {
-          "id": "brenner_fig_42_11_part2",
+          "id": "brenner_fig_48_8",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Table_42_11_part2.png",
-          "caption": "Brenner 11e Table 42.11: Differential Diagnosis & Microvascular Pathology of Gestational AKI, Preeclampsia & Thrombotic Microangiopathies.",
-          "sourceBook": "Brenner 11e Ch 42"
+          "imagePath": "/server-data/assets/Brenner_Fig_48_8.png",
+          "caption": "Brenner 11e Fig. 48.8: Placental Dysfunction, Antiangiogenic Factor (sFlt1 & sEng) Release & Glomerular Endotheliosis Pathogenesis in Preeclampsia.",
+          "sourceBook": "Brenner 11e Ch 48"
         }
       ],
       "sections": [
@@ -177,11 +191,11 @@
       "studyGuide": "本模組全方位剖析腎單元各段落利尿劑之作用標靶、離子運送體拓撲關係、以及在 Hypoalbuminemia 下 Loop Diuretics 療效顯著衰退之藥理學與分子生理學機轉。",
       "diagrams": [
         {
-          "id": "brenner_fig_27_2",
+          "id": "brenner_fig_50_20",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
-          "caption": "Brenner 11e Fig. 27.2: Anatomical Mapping of Nephron Segment Transport Systems and Target Sites of Diuretic Classes.",
-          "sourceBook": "Brenner 11e Ch 27"
+          "imagePath": "/server-data/assets/Brenner_Fig_50_20.png",
+          "caption": "Brenner 11e Fig. 50.20: Molecular Transport Topology of Loop & Thiazide Diuretics and Potassium Handling Mechanisms across Cortical Collecting Ducts.",
+          "sourceBook": "Brenner 11e Ch 50"
         }
       ],
       "sections": [
@@ -215,11 +229,11 @@
       "studyGuide": "本模組深入講授 Diuretic Resistance 之腎單元遠端重塑與補償性肥大機轉、突破性處置對策 (Sequential Nephron Blockade)、以及各類利尿劑誘發之電解質與酸鹼代謝異常 (Hypokalemic Metabolic Alkalosis, Thiazide Hyponatremia, Calcium handling 差異與 Spironolactone Gynecomastia) 之分子機轉。",
       "diagrams": [
         {
-          "id": "brenner_fig_27_2_adverse",
+          "id": "brenner_fig_50_13",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_27_2.png",
-          "caption": "Brenner 11e Fig. 27.2: Nephron Epithelial Remodeling & Electrolyte Alterations Induced by Chronic Diuretic Administration.",
-          "sourceBook": "Brenner 11e Ch 27"
+          "imagePath": "/server-data/assets/Brenner_Fig_50_13.png",
+          "caption": "Brenner 11e Fig. 50.13: Pathophysiologic Cascade of Loop Diuretic Resistance and Sequential Nephron Blockade Strategy.",
+          "sourceBook": "Brenner 11e Ch 50"
         }
       ],
       "sections": [

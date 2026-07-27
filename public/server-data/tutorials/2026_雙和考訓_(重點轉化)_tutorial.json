@@ -1,0 +1,278 @@
+{
+  "id": "2026_雙和考訓_(重點轉化)_tutorial",
+  "paperId": "2026_雙和考訓_(重點轉化)",
+  "title": "2026 雙和腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-27T20:10:00.000Z",
+  "modules": [
+    {
+      "moduleId": "onconephrology_amyloid_ackd",
+      "moduleTitle": "1. Onconephrology, Monoclonal Gammopathies & Acquired Cystic Neoplasms",
+      "studyGuide": "本模組深入傳授腫瘤腎臟病學的核心精髓。重點解構 Multiple Myeloma 引發 Cast Nephropathy 之溢出性蛋白尿與試紙偽陰性生理背離、High Cut-off Hemodialysis (HCO-HD) 之 45-50 kDa 孔徑擴散對流動態與 MYRE 試驗實證、長期透析患者發生的 Acquired Cystic Kidney Disease-Associated RCC (ACKD-RCC) 補償性上皮增生與草酸鈣結晶病理、以及 AL vs AA Systemic Amyloidosis 之微觀偏振光與 8-12 nm 電鏡纖維超微結構。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_42_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+          "caption": "Brenner 11e Fig. 43.1: Histopathological Manifestations of Monoclonal Gammopathy of Renal Significance (MGRS) and Light-Chain Cast Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 43"
+        },
+        {
+          "id": "brenner_table_42_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_42_4.png",
+          "caption": "Brenner 11e Table 42.4: Differential Diagnosis of Monoclonal Immunoglobulin-Mediated Glomerular and Tubular Diseases.",
+          "sourceBook": "Brenner 11e Ch 42"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Myeloma Cast Nephropathy Pathophysiology & Overflow Proteinuria Discrepancy",
+          "diagram": {
+            "id": "shuangho_onco_myeloma_cast_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_onco_myeloma_cast.jpg",
+            "caption": "Figure 1.1: Pathophysiology of Myeloma Cast Nephropathy & High Cut-off Hemodialysis (HCO-HD) Clearance Kinetics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Multiple Myeloma 引起的腎臟損傷中，Cast Nephropathy 為最常見且導致暴發性 Acute Kidney Injury (AKI) 的核心病理生理機制：\n1. **Molecular Pathophysiology of Intratubular Casts**: 惡性 Plasma Cell 克隆過度分泌單株 Free Light Chains (FLCs, kappa 單體約 22.5 kDa, lambda 二聚體約 45 kDa)。當濾過負荷遠超 Proximal Tubule 之 Megalin/Cubilin 受體重吸收飽和極限時，海量 FLCs 湧入 Distal Tubule。在酸性管腔液與高電解質濃度下，FLCs 特異性與 Henle 髓袢升支粗段分泌之 Tamm-Horsfall Protein (Uromodulin) 發生共沉澱 (Coprecipitation)，形成硬化、嗜酸性且具破裂縫隙之 Obstructing Light Chain Casts，引發管腔阻塞與周邊巨細胞發炎反應。\n2. **Overflow Proteinuria & Urine Dipstick Discrepancy**: 臨床定性 Urine Dipstick 採用指示劑蛋白質誤差法，僅對帶負電之 Albumin 具高度敏感性，對帶正電之 FLCs (Bence Jones Protein) 完全不感應。因此出現 Dipstick 呈陰性或微量，但 24-hour Urine Collection 或比色法定量卻高達數公克之 Overflow Proteinuria 顯著背離。\n\n| Molecular Component | Anatomic Localization | Physiological / Pathological Role | Target Interaction | Therapeutic Action |\n| :--- | :--- | :--- | :--- | :--- |\n| **Monoclonal Free Light Chains (FLCs)** | Tubular Lumen & Glomerular Filter | Nephrotoxin filtered through GFB | Binds CDR3 loop of Uromodulin | Plasma Cell Clone Suppression |\n| **Megalin / Cubilin Receptor Complex** | Proximal Tubule Apical Membrane | Endocytosis of filtered proteins | Reabsorbs FLCs up to capacity limit | Overwhelmed in Myeloma Surge |\n| **Tamm-Horsfall Protein (Uromodulin)** | Thick Ascending Limb of Henle | Normal urinary anti-lithogenic glycoprotein | Coprecipitates with FLCs in distal tubule | Intratubular Cast Obstruction |\n\n| Renal Lesion / Parameter | Dominant Filtering Solute | Primary Anatomic Target Site | Urine Dipstick Reactivity | Pathognomonic Microscopic Feature |\n| :--- | :--- | :--- | :--- | :--- |\n| **Cast Nephropathy** | Monoclonal Free Light Chains | Distal Tubule & Collecting Duct | **Negative to Trace** | Eosinophilic fractured casts with giant cell reaction |\n| **AL Amyloidosis** | Filtered Albumin (GFB breakdown) | Glomerular Mesangium & GBM | **Strongly Positive (3+ to 4+)** | Congo Red positive with apple-green birefringence |\n| **LCDD** | Monoclonal Light Chains (kappa) | Glomerular & Tubular Basement Membranes | **Strongly Positive** | Nodular glomerulosclerosis & linear TBM IF staining |\n\n### Pathophysiological Decision Trees\n- **Cast Nephropathy Cascade**: Monoclonal FLC Surge ➔ Proximal Tubule Saturation ➔ Coprecipitation with Uromodulin in Distal Tubule ➔ Intratubular Cast Obstruction ➔ Intraparenchymal Pressure Rise & AKI.\n\n### Conceptual Trap Analysis\n- **Dipstick Negative Trap**: 切勿因 Urine Dipstick 呈現 Negative 而排除大量蛋白尿；若患者有 CRAB 特徵，定量 24-hour Urine Protein 高度升高提示 Overflow Proteinuria (Bence Jones Protein)。"
+        },
+        {
+          "heading": "High Cut-Off Hemodialysis (HCO-HD) Biophysics & FLC Removal Kinetics",
+          "diagram": {
+            "id": "shuangho_ackd_rcc_oxalate_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_ackd_rcc_oxalate.jpg",
+            "caption": "Figure 1.2: Acquired Cystic Kidney Disease-associated RCC (ACKD-RCC) Morphology & Calcium Oxalate Crystal Deposition.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "針對 Cast Nephropathy 導致重度透析依賴性 AKI 的急性物理清除處置：\n1. **HCO-HD Membrane Biophysics**: 常規 High-Flux Hemodialysis 膜截留分子量上限約 15-20 kDa，無法清除分子量較大之 FLCs (22.5-45 kDa)。HCO-HD 使用特殊大孔徑聚合物膜，分子截留上限提高至 45-50 kDa，透過 Diffusion 與 Convective Clearance 高效清除血液中游離之 FLCs，同時將 Albumin (66.5 kDa) 漏出控制於安全範圍。\n2. **Trial Evidence & Clinical Position**: Hutchison 等人研究顯示 HCO-HD 結合 Bortezomib 化療能迅速降低 Serum FLC Burden 並提高 Renal Recovery 率。然而 MYRE 與 EuLITE 隨機對照試驗顯示，在強效 Bortezomib-Dexamethasone 化療時代下，加用 HCO-HD 未能顯著提高 3-6 個月之 Hemodialysis Independence。因此指引不將其列為 Routine 一線處置，主要管理仍首重立即啟動抗克隆化療。\n\n| Transport Mechanism | Solute Target | Molecular Weight Range | Dialyzer Sieving Coefficient | Clinical Clearance Impact |\n| :--- | :--- | :--- | :--- | :--- |\n| **Diffusive Clearance** | Small Solute (BUN / Cr) | < 0.5 kDa | 1.00 | Rapid Small Molecule Equilibration |\n| **HCO-HD Convective Clearance** | Free Light Chain Monomers (kappa) | 22.5 kDa | 0.85 - 0.90 | Rapid Intravascular FLC Washout |\n| **HCO-HD Convective Clearance** | Free Light Chain Dimers (lambda) | 45.0 kDa | 0.60 - 0.70 | Moderately High FLC Washout |\n| **Pore Size Cutoff Barrier** | Serum Albumin | 66.5 kDa | < 0.05 | Retained with Minimal Loss |\n\n| Hemodialysis Modality | Pore Size Cutoff (kDa) | FLC Clearance Sieving Coefficient | Albumin Loss Rate | Primary Clinical Indication |\n| :--- | :--- | :--- | :--- | :--- |\n| **Conventional High-Flux HD** | 15 - 20 kDa | Near Zero (< 0.05) | Minimal | Standard ESKD Renal Replacement |\n| **High Cut-off HD (HCO-HD)** | 45 - 50 kDa | High (0.6 - 0.8 for FLCs) | Moderate (Requires Monitoring) | Severe Cast Nephropathy with High FLC Burden |\n| **Therapeutic Plasma Exchange** | Non-selective | Bulk Removal (Intravascular) | Replaced with Albumin Solution | MGRS Hyperviscosity or Severe RPGN |\n\n### Pathophysiological Decision Trees\n- **FLC Reduction Window Path**: Bortezomib Chemotherapy Initiation ➔ Anti-clone Suppression ➔ Time Lag Window ➔ HCO-HD Convective Clearance ➔ Accelerated FLC Toxin Washout.\n\n### Conceptual Trap Analysis\n- **HCO-HD vs TPE Trap**: TPE 僅能移除血管內分佈容積之少數 FLCs 且易反彈；HCO-HD 可持續 24-48 小時高效清除中分子 FLCs，但兩者皆不能替代化療源頭切斷。"
+        },
+        {
+          "heading": "Acquired Cystic Kidney Disease-Associated RCC (ACKD-RCC) in Long-Term Dialysis",
+          "diagram": {
+            "id": "shuangho_igan_kdigo_pathway_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_igan_kdigo_pathway.jpg",
+            "caption": "Figure 1.3: IgA Nephropathy Synpharyngitic Hematuria & KDIGO 2025 Multi-targeted Therapeutic Strategy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "長期 End-Stage Kidney Disease (ESKD) 與血液透析病患之 Native 腎臟惡性化轉變：\n1. **Pathophysiology of ACKD & Neoplastic Transformation**: 隨透析年資增加 (透析大於 10 年者盛行率 > 90%)，雙側縮小萎縮之 Native 腎臟在 Prolonged Uremic State 下累積中大分子毒素與 Mitogenic Factors (HGF, EGF, HIF-1a, HIG2)。殘存腎元承受過度工作負擔，驅動 Tubular Epithelial Cells 發生 Compensatory Hypertrophy & Hyperplasia，演變為 Acquired Cystic Kidney Disease (ACKD)。囊腫上皮累積體細胞突變後發生惡性轉化，發展為專屬於透析族群之 ACKD-RCC。\n2. **Pathognomonic Histopathology**: 切片上細胞具有 Abundant Eosinophilic Cytoplasm 並形成 Papillary Structures。腫瘤與相鄰囊腫小管內存有顯著之 Intracellular Hemosiderin Deposition 以及強雙折光性之 Calcium Oxalate Crystals。\n\n| Microenvironmental Factor | Cell / Tissue Target | Molecular Pathway | Histopathological Feature | Malignant Risk Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **Prolonged Uremic State** | Native Renal Tubular Cells | Mitogenic Cytokine Accumulation | Tubular Epithelial Hyperplasia | Precursor Cyst Formation |\n| **Compensatory Hyperfiltration** | Residual Atrophic Nephrons | High Workload & Shear Stress | Eosinophilic Cytoplasm Surge | ACKD Epithelial Transformation |\n| **Impaired Oxalate Secretion** | Cystic Tubule Lumen | Local Oxalate Supersaturation | Birefringent Calcium Oxalate | ACKD-RCC Pathognomonic Mark |\n| **Intravascular Hemorrhage** | Tumoral Papillary Stroma | Erythrocyte Extravasation & Lysis | Intracellular Hemosiderin | Hemosiderin-laden Macrophages |\n\n| Renal Cystic Neoplasm | Underlying Genetics / Etiology | Kidney Gross Morphology | Distinct Histopathological Feature |\n| :--- | :--- | :--- | :--- |\n| **ACKD-Associated RCC** | Prolonged Uremic State & Dialysis Vintage | Small, contracted kidneys with cysts | Eosinophilic cytoplasm, Papillary, Calcium Oxalate Crystals |\n| **Sporadic Clear Cell RCC** | Somatic or Germline VHL Loss (3p25) | Large solid vascular cortical mass | Clear cytoplasm rich in glycogen/lipids, network capillaries |\n| **ADPKD-Associated RCC** | Germline PKD1/PKD2 Loss-of-function | Markedly enlarged kidneys (> 20cm) | Same distribution as sporadic RCC (mostly ccRCC) |\n\n### Pathophysiological Decision Trees\n- **ACKD-RCC Carcinogenesis Path**: Nephron Loss ➔ Prolonged Uremic State ➔ Compensatory Hyperplasia of Tubular Epithelium ➔ ACKD Cyst Formation ➔ Somatic Mutation Surge ➔ ACKD-RCC.\n\n### Conceptual Trap Analysis\n- **ADPKD vs ACKD Size Trap**: ADPKD 為雙側極度腫大之遺傳性多囊腎；ACKD 為萎縮縮小之 Native 腎臟在透析後長出多發小囊腫，後者發生 RCC 之相對風險遠高於前者的 100 倍以上。"
+        },
+        {
+          "heading": "Systemic Amyloidosis Ultrastructural Spectrum (AL vs AA Amyloidosis)",
+          "diagram": {
+            "id": "shuangho_anca_vasculitis_pexivas_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_anca_vasculitis_pexivas.jpg",
+            "caption": "Figure 1.4: ANCA-Associated Vasculitis Pauci-Immune Crescentic GN & PEXIVAS Reduced-Dose Steroid Protocol.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Systemic Amyloidosis 在腎臟病理與超微結構上的特異性剖析：\n1. **Precursor Protein Differences**: AL Amyloidosis 由單株 Plasma Cell 異常分泌之 Free Light Chain fragments (通常 80% 為 lambda 鏈) 摺疊而成 Beta-pleated sheets；AA Amyloidosis 由慢性發炎 (如 RA, Bronchiectasis, Osteomyelitis) 驅動肝臟過量合成之 Serum Amyloid A (SAA) 蛋白前驅物沉積所致。\n2. **Microscopic & Ultrastructural Hallmarks**: 兩者在光學顯微鏡下均於 Glomerular Mesangium, GBM 及 Subvascular spaces 呈現無定形、無細胞沉積物。金標準診斷為 Congo Red 染色於偏振光顯微鏡下展現特徵性 Apple-Green Birefringence。電子顯微鏡 (EM) 下可見直徑 8-12 nm、無分叉 (Unbranched)、雜亂無章排列 (Randomly Oriented) 之 Amyloid Microfibrils。\n\n| Protein Subtype | Precursor Synthesis Source | Folding Domain & Conformation | Tissue Deposition Target | Ultrastructural Feature |\n| :--- | :--- | :--- | :--- | :--- |\n| **AL Amyloid Fibrils** | Clonal Plasma Cells (Bone Marrow) | Monoclonal Light Chain V-domain | Glomerular Mesangium & Vessels | 8-12 nm Unbranched Microfibrils |\n| **AA Amyloid Fibrils** | Hepatocytes (Acute Phase SAA) | Serum Amyloid A N-terminal Fragment | Glomerular Subendothelium & Spleen | 8-12 nm Unbranched Microfibrils |\n| **ALect2 Amyloid Fibrils** | Hepatocytes (LECT2 Chemotaxin) | LECT2 Full-length Protein | Cortical & Interstitial Matrix | 8-12 nm Unbranched Microfibrils |\n\n| Amyloid Subtype | Precursor Protein Origin | Predominant Light/Heavy Chain | Organ System Involvement | Primary Targeted Therapy |\n| :--- | :--- | :--- | :--- | :--- |\n| **AL Amyloidosis** | Plasma Cell Dyscrasia | Monoclonal Lambda (λ) Light Chain | Kidney (Nephrotic), Heart, Liver | Bortezomib / Daratumumab Chemotherapy |\n| **AA Amyloidosis** | Chronic Inflammatory Disease | Serum Amyloid A (SAA) Protein | Kidney (Nephrotic), GI Tract, Spleen | Anti-TNF / Anti-IL-6 Anti-inflammatory Treatment |\n| **ALect2 Amyloidosis** | Leukocyte Cell-Derived Chemotaxin 2 | LECT2 Protein | Kidney (Cortical & Interstitial) | Supportive / Organ Transplantation |\n\n### Pathophysiological Decision Trees\n- **AL Amyloid Cascade**: Plasma Cell Clone ➔ Monoclonal Lambda FLC Surge ➔ Misfolding into Beta-pleated sheets ➔ Mesangial & GBM Deposition ➔ GFB Destruction ➔ Nephrotic Syndrome.\n\n### Conceptual Trap Analysis\n- **Amyloid vs LCDD EM Trap**: AL Amyloidosis 在 EM 下為 8-12 nm 無分叉 Microfibrils；LCDD 則呈無定形、粉末狀之 Powdery Electron-Dense Deposits 沿 TBM/GBM 線狀沉積，Congo Red 呈陰性。"
+        }
+      ]
+    },
+    {
+      "moduleId": "glomerular_vasculitis_lupus",
+      "moduleTitle": "2. Glomerular Diseases, Autoimmune Vasculitis & Lupus Nephropathy Spectrum",
+      "studyGuide": "本模組精通原發性與自體免疫性腎絲球疾病。重點剖析 IgA Nephropathy 與 PSGN 在咽炎同步性肉眼血尿 (Synpharyngitic Macroscopic Hematuria) 時間軸與 C3/C4 補體消耗上之金標準鑑別、KDIGO 2025 新一代標靶處置 (Targeted-release Budesonide / Nefecon, Sparsentan, SGLT2i)、ANCA-Associated Vasculitis (AAV) 在高齡患者中使用 Rituximab 搭配 PEXIVAS 減量類固醇方案以防範致命感染、以及 Class IV Lupus Nephritis 疊加 Secondary TMA / Antiphospholipid Syndrome Nephropathy (APSN) 之微血管血栓病理與 Warfarin 長期抗凝路徑。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_31_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_1.png",
+          "caption": "Brenner 11e Fig. 31.1: Histopathological Classification of Glomerulonephritis and Immune-Complex Deposition Patterns.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_31_32",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_32.png",
+          "caption": "Brenner 11e Fig. 31.32: Immunofluorescence and Light Microscopy of IgA Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "IgA Nephropathy vs PSGN: Synpharyngitic Hematuria & KDIGO 2025 Management",
+          "diagram": {
+            "id": "shuangho_lupus_tma_apsn_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_lupus_tma_apsn.jpg",
+            "caption": "Figure 2.1: Class IV Lupus Nephritis with Superimposed TMA & Antiphospholipid Syndrome Nephropathy (APSN).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "原發性腎絲球腎炎之臨床表現與 KDIGO 2025 最新指引滴定：\n1. **Synpharyngitic vs Post-Infectious Timeline**: IgA Nephropathy (IgAN) 最典型表型為 Synpharyngitic Macroscopic Hematuria，患者在上呼吸道感染 1-2 天內 (無潛伏期或極短) 即突發肉眼血尿，且血清 C3 與 C4 補體完全正常。相對地，Post-Streptococcal Glomerulonephritis (PSGN) 具有 1-3 週 (10-21 天) 之明確前驅潛伏期，且急性期超過 90% 病患呈現替代途徑活化導致之低血清 C3 補體血症。\n2. **KDIGO 2025 Multi-Targeted Treatment Pathway**: 對於蛋白尿 > 0.5-0.75 g/day 之高風險 IgAN 病患，除了最大耐受劑量之 RASi 與 SGLT2i 基礎支持治療外，應優先考慮全新機制標靶藥物：Targeted-release Budesonide (Nefecon) 精準作用於腸道 Peyer's Patches 抑制 Galactose-deficient IgA1 (Gd-IgA1) 源頭生成；Sparsentan 為雙重 Endothelin-A & Angiotensin-II 受體拮抗劑，能顯著降低蛋白尿並延緩 GFR 衰退。\n\n| Pathophysiological Hit | Molecular Target | Anatomical Site | Therapeutic Agent | Mechanism of Benefit |\n| :--- | :--- | :--- | :--- | :--- |\n| **Hit 1 (Gd-IgA1 Overproduction)** | Peyer's Patches B Cells | Gut-Associated Lymphoid Tissue | Targeted-Release Budesonide | Suppresses Gd-IgA1 Synthesis |\n| **Hit 2 & 3 (Immune Complexes)** | Mesangial IgA1 Deposits | Glomerular Mesangium | Systemic Immunosuppression | Reduces Mesangial Deposition |\n| **Hit 4 (Podocyte & Vascular)** | Endothelin-1 & Angiotensin II | Afferent & Efferent Arterioles | Sparsentan (Dual ERA/ARB) | Reduces Intraglomerular Pressure |\n| **Metabolic Unloading** | Tubular SGLT2 Transporters | Proximal Tubule | SGLT2 Inhibitors | Restores TGF & Nephroprotection |\n\n| Glomerulonephritis Feature | IgA Nephropathy (IgAN) | Post-Streptococcal GN (PSGN) | Thin Basement Membrane Nephropathy |\n| :--- | :--- | :--- | :--- |\n| **Infection Latency** | **Synpharyngitic (1 - 2 days)** | **Post-infectious (1 - 3 weeks)** | Episodic with URTI (No latency) |\n| **Serum C3 / C4 Complement** | **Normal C3 & Normal C4** | **Depressed C3 (Low C3)** | Normal C3 & C4 |\n| **Proteinuria Range** | Variable (0.5 - 3.0 g/day) | Moderate (Nephritic) | Minimal (< 0.5 g/day) |\n| **Red Blood Cell Casts** | **Present (Active Glomerular)** | **Present (Nephritic Syndrome)** | Extremely Rare / Absent |\n\n### Pathophysiological Decision Trees\n- **IgAN Multi-Hit Pathway**: Gd-IgA1 Overproduction (Hit 1) ➔ Autoantibodies Formation (Hit 2) ➔ Immune Complex Deposition in Mesangium (Hit 3) ➔ Podocyte & Mesangial Injury (Hit 4) ➔ Synpharyngitic Hematuria.\n\n### Conceptual Trap Analysis\n- **IgAN vs PSGN Complement Trap**: 切勿以為所有免疫複合物腎炎皆會耗竭補體；IgAN 的血清 C3/C4 永遠保持正常，出現 Low C3 強烈指向 PSGN, Lupus 或 MPGN。"
+        },
+        {
+          "heading": "ANCA-Associated Vasculitis (AAV) Induction & Maintenance Titration in Frail Elderly",
+          "diagram": {
+            "id": "shuangho_dkd_tgf_hemodynamics_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_dkd_tgf_hemodynamics.jpg",
+            "caption": "Figure 2.2: Diabetic Kidney Disease Tubuloglomerular Feedback (TGF) & Intrarenal Hemodynamics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "高齡患者 ANCA 相關小血管炎併發 Rapidly Progressive Glomerulonephritis (RPGN) 之誘導與維持處置：\n1. **Infection Risk in Elderly & Rituximab Selection**: 在高齡 (如 > 75-80 歲) 或衰弱之 AAV 患者中，治療第一年內最主要死因為過度免疫抑制引發之致命性感染。KDIGO 2024 指引強烈建議此類患者優先選用 Rituximab 替代 Cyclophosphamide，以避免大劑量烷化劑引發之骨髓抑制與白血球低下。\n2. **PEXIVAS Reduced-Dose Glucocorticoid Evidence**: PEXIVAS 里程碑試驗證實，採用 Reduced-Dose Steroid Regimen (類固醇劑量減少約 50-60%) 在 Remission 誘導成功率上非劣於 (Non-inferior) 傳統高劑量方案，但能顯著降低重度感染與死亡率。維持期則依據 PR3-ANCA (復發率極高，需長期 Rituximab 維持) 與 MPO-ANCA (復發率較低) 進行個體化評估。\n\n| Cellular / Molecular Target | Pathophysiological Action | Induction Drug | Primary Advantage | Safety Precaution |\n| :--- | :--- | :--- | :--- | :--- |\n| **CD20 B-Lymphocytes** | Autoantibody Production (ANCA) | Rituximab | Eradicates B Cell Lineage | Hypogammaglobulinemia Risk |\n| **Alkylating DNA Crosslinking** | Non-specific Leukocyte Depletion | Cyclophosphamide | Potent Cytotoxic Induction | Severe Leukopenia & Sepsis Risk |\n| **Systemic Inflammatory Cascade** | Glucocorticoid Receptor Transrepression | PEXIVAS Reduced-Dose Steroids | Equal Remission Efficacy | 50% Reduction in Serious Infection |\n\n| AAV Serological Subtype | Primary Disease Association | Relapse Risk Profile | Preferred Induction Regimen | Preferred Maintenance Duration |\n| :--- | :--- | :--- | :--- | :--- |\n| **PR3-ANCA (GPA)** | Granulomatosis with Polyangiitis | **Extremely High Relapse Rate** | Rituximab + Reduced-dose Steroids | Extended Rituximab (≥ 24-36 months) |\n| **MPO-ANCA (MPA)** | Microscopic Polyangiitis | **Lower Relapse Rate** | Rituximab (or RTX/CYC) + Reduced Steroid | Rituximab or Azathioprine (18-24 months) |\n| **Anti-GBM Disease** | Goodpasture's Syndrome | Single Hit (Rare Relapse) | Cyclophosphamide + Steroids + Plasmapheresis | Short-term (No long-term immunosuppression) |\n\n### Pathophysiological Decision Trees\n- **AAV Elderly Induction Path**: Frail Elderly with MPO-ANCA RPGN ➔ Avoid Cyclophosphamide Leukopenia ➔ Initiate Rituximab + PEXIVAS Reduced-Dose Glucocorticoids ➔ Rapid Remission with Reduced Infection Rate.\n\n### Conceptual Trap Analysis\n- **Steroid Free Induction Trap**: 急性期 RPGN (Crescentic GN) 切勿完全免除類固醇；單用 Rituximab 起效需要數週，初期仍需給予低劑量類固醇提供即時抗發炎保護。"
+        },
+        {
+          "heading": "Class IV Proliferative Lupus Nephritis & Multitarget Immunosuppression",
+          "diagram": {
+            "id": "shuangho_rta_dysnatremia_siad_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_rta_dysnatremia_siad.jpg",
+            "caption": "Figure 2.3: SIAD Dysnatremia Evaluation & RTA Type 1/2/4 Nephron Transport Topology.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "彌漫增殖性狼瘡腎炎 (Class IV LN) 之標靶與多標靶誘導治療：\n1. **Standard Induction Protocols**: Class IV Diffuse Proliferative Lupus Nephritis 具有極高之 ESKD 進展風險。標準誘導方案為高劑量 Glucocorticoids 聯合 Mycophenolic Acid Analogues (MPAA / MMF 2-3 g/day) 或低劑量靜脈 Pulsed Cyclophosphamide (Euro-Lupus protocol)。\n2. **KDIGO 2024 Multitarget Innovations**: 為提高 Complete Renal Response (CRR) 率並減少類固醇蓄積毒性，KDIGO 2024 指引推薦於標準二聯療法上加用新型生物製劑或鈣調磷酸酶抑制劑：Belimumab (抗 BLyS/BAFF 單株抗體，能顯著保護 GFR 並減少 Flare) 或 Voclosporin (新型非生殖毒性 CNI，構成 Multitarget Therapy，能快速消除蛋白尿)。\n\n| Immune Target | Molecular Mechanism | Drug Component | Clinical Effect | Toxicity Profile |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lymphocyte IMPDH** | De Novo Purine Synthesis Blockade | Mycophenolic Acid (MPAA) | Inhibits T & B Cell Proliferation | Gastrointestinal Upset |\n| **BLyS / BAFF Cytokine** | B-Cell Survival Factor Neutralization | Belimumab | Reduces Autoantibody & LN Flares | Low Infection Addition |\n| **Podocyte Calcineurin** | Actin Cytoskeleton Stabilization | Voclosporin | Rapidly Eliminates Proteinuria | Non-diabetogenic, Monitor BP |\n\n| Lupus Nephritis Regimen | Primary Targeted Pathway | Complete Response Rate | Steroid-Sparing Capability | Key Safety Consideration |\n| :--- | :--- | :--- | :--- | :--- |\n| **Standard MPAA + Steroid** | IMPDH inhibition (Lymphocyte proliferation) | Standard Baseline | Moderate | GI Intolerance, Myelosuppression |\n| **Belimumab Triple Therapy** | BLyS/BAFF neutralization (B cell survival) | Superior Long-term CRR | High | Infection Risk (Low baseline toxicity) |\n| **Voclosporin Multitarget** | Calcineurin & Podocyte cytoskeleton stabilization | Rapid Early Proteinuria Drop | High | Blood Pressure & eGFR Monitoring |\n\n### Pathophysiological Decision Trees\n- **LN Class IV Multitarget Cascade**: Autoimmune Complex Deposition ➔ Subendothelial Wire-loop Lesions ➔ MPAA + Glucocorticoid + Voclosporin/Belimumab ➔ Podocyte Stabilization & B-cell Eradication ➔ Complete Response.\n\n### Conceptual Trap Analysis\n- **LN Class V vs Class IV Regimen Trap**: Class V (Membranous LN) 以蛋白尿為主，若無內皮增殖，可優先考慮 CNI 單獨或聯合 MPAA；而 Class IV 必須包含強烈之淋巴細胞抑制劑與抗發炎處置。"
+        },
+        {
+          "heading": "Superimposed Thrombotic Microangiopathy (TMA) & Antiphospholipid Syndrome Nephropathy (APSN)",
+          "diagram": {
+            "id": "shuangho_adpkd_mayo_tolvaptan_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_adpkd_mayo_tolvaptan.jpg",
+            "caption": "Figure 2.4: ADPKD Mayo Classification & Tolvaptan V2 Receptor Antagonism Mechanism.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "狼瘡腎炎患者突發微血管溶血與急劇腎功能癱瘓之診斷與抗凝處置：\n1. **Pathological Hallmarks of Superimposed TMA**: Class IV LN 病患若突發惡性高血壓、Oliguria、Schistocytes 微血管溶血與血小板低下，切片上最特徵性之標記為 Glomerular Capillaries 與 Afferent Arterioles 內出現非發炎性 Fibrin Thrombi。此病變反映內皮細胞嚴重損傷與高凝狀態，而非單純之免疫複合物發炎。\n2. **KDIGO 2024 TTP Differential & APSN Anticoagulation Protocol**: 遇到 LN 併發 TMA，首要檢測 ADAMTS13 Activity (排除 <10% 之 TTP)。若 ADAMTS13 > 10% 且 Antiphospholipid Antibodies (aPLA) 為持高滴度陽性，確診為 Antiphospholipid Syndrome Nephropathy (APSN)。治療必須給予長期 Warfarin 抗凝 (保持 INR 2.0-3.0)；指引明確警告 **DOACs 在高風險 APSN 患者中屬於禁忌** (產生極高之動靜脈血栓復發率)。\n\n| Vascular Component | Pathological Trigger | Downstream Cascade | Biopsy Hallmark | Target Intervention |\n| :--- | :--- | :--- | :--- | :--- |\n| **Endothelial Surface** | Antiphospholipid Antibodies (aPLA) | Reduced Prostacyclin & PGI2 | Arteriolar Fibrin Thrombi | Long-term Warfarin |\n| **Platelet Aggregation** | Thromboxane Surge & Shear Stress | Intraluminal Microthrombi | Capillary Occlusion & MAHA | Anti-platelet / Anticoagulation |\n| **ADAMTS13 Protease** | Autoantibody Neutralization | Ultra-large vWF Multimers | Arteriolar Microthrombi | Plasma Exchange (if <10%) |\n\n| TMA Subtype in Lupus | ADAMTS13 Activity Level | Primary Serological Driver | Golden Diagnostic Feature | Primary Therapeutic Pathway |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lupus-Associated TTP** | **< 10% (Severely Suppressed)** | Anti-ADAMTS13 Autoantibodies | Ultra-large vWF Multimers Surge | Therapeutic Plasma Exchange (TPE) + Caplacizumab |\n| **APS Nephropathy (APSN)** | **> 10% (Normal)** | High-titer Antiphospholipid Abs | Arteriolar Fibrin Thrombi & Onion-skin | **Long-term Warfarin Anticoagulation (DOACs Contraindicated)** |\n| **Complement-Mediated aHUS**| **> 10% (Normal)** | Alternative Pathway Mut/Abs | Endothelial MAC Deposition | Eculizumab (C5 Inhibitor) |\n\n### Pathophysiological Decision Trees\n- **Lupus TMA Differential Flow**: Acute AKI with Schistocytes ➔ Check ADAMTS13 Activity ➔ If >10%, Check aPLA ➔ High-titer aPLA Positive ➔ Diagnose APSN ➔ Initiate Warfarin Anticoagulation.\n\n### Conceptual Trap Analysis\n- **APSN DOAC Contraindication Trap**: 絕對禁止在強陽性 Triple-positive APSN 患者中使用 DOACs (Rivaroxaban, Apixaban)；多項 RCT 證實其動脈血栓復發率顯著高於傳統 Warfarin。"
+        }
+      ]
+    },
+    {
+      "moduleId": "diabetic_vascular_electrolytes_genetics",
+      "moduleTitle": "3. Diabetic & Vascular Nephropathy, Fluid/Electrolyte Dynamics & Genetic Kidney Diseases",
+      "studyGuide": "本模組橫跨代謝性、血管性、電解質與遺傳性腎臟病學。重點解析 Diabetic Kidney Disease (DKD) 之 SGLT2i Tubuloglomerular Feedback (TGF) 入球小動脈收縮與 Finerenone 非類固醇 MRA 機制、Primary vs Secondary FSGS 在足突融合成因與血流動力學過載之病理區隔、Hyponatremia 中 SIAD 與 FEUrea 之判讀、Distal (Type 1) vs Proximal (Type 2) vs Hyperkalemic (Type 4) RTA 分子轉運體缺陷、ADPKD Mayo 影像分級與 Tolvaptan 作用、以及高血鉀之急診膜穩定與 Patiromer/SZC 結合劑處置。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_46_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_46_1.png",
+          "caption": "Brenner 11e Fig. 46.1: Intrarenal Hemodynamic Regulation and Glomerular Hyperfiltration in Diabetic and Vascular Nephropathies.",
+          "sourceBook": "Brenner 11e Ch 46"
+        },
+        {
+          "id": "brenner_fig_48_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_48_1.png",
+          "caption": "Brenner 11e Fig. 48.1: Nephron Transport Systems and Molecular Pathophysiology of Renal Tubular Acidosis.",
+          "sourceBook": "Brenner 11e Ch 48"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Diabetic Kidney Disease Intrarenal Hemodynamics & Podocyte Protection",
+          "diagram": {
+            "id": "shuangho_calciphylaxis_cua_sts_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_calciphylaxis_cua_sts.jpg",
+            "caption": "Figure 3.1: Calciphylaxis Subintimal Thrombosis Pathology & Sodium Thiosulfate Rescue Action.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "糖尿病腎病變之血流動力學過載與器官保護藥理學：\n1. **SGLT2i Tubuloglomerular Feedback Mechanism**: 糖尿病高血糖狀態下，Proximal Tubule 之 SGLT2/SGLT1 被過度活化，重吸收海量 Glucose 與 Na+，導致到達 Macula Densa 之 NaCl 濃度急劇下降。Macula Densa 誤判為低灌流，關閉 Tubuloglomerular Feedback (TGF)，使 Afferent Arteriole 異常舒張。結合 RAAS 活化驅動之 Efferent Arteriole 收縮，引發高 Intraglomerular Pressure (Pglo) 與 Single-Nephron Hyperfiltration。SGLT2 抑制劑阻斷近端重吸收，增加 NaCl 送達 Macula Densa，發動 Adenosine 介導之 Afferent Arteriolar Constriction，精準拉低 Pglo 並消除超濾過打擊。\n2. **Finerenone Non-Steroidal MRA Protection**: 相較於傳統類固醇 MRA (Spironolactone)，Finerenone 為高選擇性非類固醇 MRA，能均衡分佈於腎臟與心臟，強效阻斷 Mineralocorticoid Receptor 之過度活化，抑制下游 TGF-b1 與 NF-kB 促纖維化與發炎途徑，且高血鉀風險顯著降低。\n\n| Transport System | Anatomical Localization | Diabetic Alteration | Therapeutic Modality | Hemodynamic Result |\n| :--- | :--- | :--- | :--- | :--- |\n| **SGLT2 / SGLT1 Transporters** | Proximal Tubule S1/S2 Segment | Hyper-reabsorption of Na+/Glucose | SGLT2 Inhibitor Blockade | Restores NaCl to Macula Densa |\n| **Macula Densa Sensing** | Juxtaglomerular Apparatus | Reduced NaCl Sensing (TGF off) | Adenosine Release Surge | Afferent Arteriolar Constriction |\n| **Angiotensin II AT1 Receptor** | Efferent Arteriolar Smooth Muscle | Efferent Hyper-constriction | ACEi / ARB Dilation | Reduces Intraglomerular Pressure |\n| **Mineralocorticoid Receptor** | Interstitial & Vascular Cells | Over-activation & Fibrosis | Finerenone (ns-MRA) | Anti-inflammatory Protection |\n\n| Therapeutic Class | Hemodynamic Mechanism | Primary Vascular Target | Proteinuria Impact | Unique Clinical Benefit |\n| :--- | :--- | :--- | :--- | :--- |\n| **SGLT2 Inhibitors** | Restores Tubuloglomerular Feedback (TGF) | **Afferent Arteriolar Constriction** | 30 - 40% Reduction | Delays ESKD, CV death & Heart Failure hospitalization |\n| **ACEi / ARBs** | Blocks Angiotensin II AT1 Receptor | **Efferent Arteriolar Dilation** | 35 - 45% Reduction | Golden Standard First-line Blood Pressure & CKD control |\n| **Finerenone (ns-MRA)** | Non-steroidal MR receptor antagonism | Anti-inflammatory / Anti-fibrotic | 30 - 35% Add-on Drop | Synergistic Cardiorenal Protection with low hyperkalemia |\n\n### Pathophysiological Decision Trees\n- **TGF Reactivation Path**: SGLT2 Inhibitor Blockade ➔ Increased NaCl to Macula Densa ➔ Adenosine Release Surge ➔ Afferent Arteriolar Constriction ➔ Intraglomerular Pressure Drop ➔ Long-term Nephroprotection.\n\n### Conceptual Trap Analysis\n- **SGLT2i Initial eGFR Dip Trap**: 啟動 SGLT2i 初期 2-4 週內 eGFR 出現 10-15% 降幅為 Pglo 降壓之生理正常現象，切勿停藥；此 Hemodynamic Unloading 恰為長遠保護腎功能之關鍵。"
+        },
+        {
+          "heading": "Primary vs Secondary Maladaptive FSGS Pathophysiological Spectrum",
+          "diagram": {
+            "id": "shuangho_crs_congestion_pd_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_crs_congestion_pd.jpg",
+            "caption": "Figure 3.2: Cardiorenal Syndrome Venous Congestion Crosstalk & PD Peritonitis Management Protocol.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Focal Segmental Glomerulosclerosis (FSGS) 之病因學、超微結構與血流動力學分流：\n1. **Primary FSGS (Circulating Permeability Factor Driven)**: 由尚未完全定性之血清 Circulating Permeability Factors (如 suPAR, CLCF-1) 突發打擊 Podocyte，引發急速、瀰漫性 Podocyte Foot Process Effacement (> 80-90%)。臨床表現為突發性重度 Nephrotic Syndrome (大量 Albuminuria, Hypoalbuminemia, 重度水腫)，切片免疫螢光為陰性，對高劑量 Glucocorticoids 或 Immunosuppressants 敏感。\n2. **Secondary FSGS (Maladaptive Hyperfiltration Driven)**: 由 Low Nephron Endowment (Prematurity, IUGR)、單側腎切除、肥胖或長期高血壓引發 Single-nephron Hyperfiltration。長期高 Pglo 張力過載導致 Podocyte 肥大與脫落。超微結構呈現局灶性 (Focal/Segmental) 足突融合。臨床表現為進行性 Non-nephrotic Proteinuria，Hypoalbuminemia 極少發生，類固醇無效，治療首重 RASi, SGLT2i 及體重控制。\n\n| Biological Factor | Primary Target Site | Pathophysiological Cascade | Podocyte Effacement Pattern | Therapeutic Response |\n| :--- | :--- | :--- | :--- | :--- |\n| **Circulating Permeability Factor** | Podocyte Slit Diaphragm | Nephrin / Podocin Disruption | Diffuse / Global (> 80%) | High Response to Steroids |\n| **Mechanical Shear Stress (Pglo)**| Glomerular Capillary Wall | Podocyte Hypertrophy & Detachment | Focal / Segmental (< 50%) | Resistant to Steroids / RASi Beneficial |\n| **Genetic Structural Mutation** | Podocyte Actin Cytoskeleton | Permanent Foot Process Collapse | Diffuse / Global | Complete Steroid Resistance |\n\n| FSGS Subtype | Primary Pathophysiology | Podocyte Effacement Pattern (EM) | Clinical Proteinuria Pattern | Response to Steroids |\n| :--- | :--- | :--- | :--- | :--- |\n| **Primary FSGS** | Circulating Permeability Factor | **Diffuse / Global (> 80%)** | Abrupt Severe Nephrotic Syndrome | **High Response (Steroid Sensitive)** |\n| **Secondary FSGS** | Hemodynamic Hyperfiltration | **Focal / Segmental (< 50%)** | Insidious Non-nephrotic Proteinuria | **Zero Response (Steroid Resistant)** |\n| **Genetic FSGS** | Podocyte Structural Mutations (NPHS1/2) | Diffuse Foot Process Effacement | Early-onset Nephrotic Syndrome | **Steroid Resistant (Avoid Immunosuppression)** |\n\n### Pathophysiological Decision Trees\n- **Secondary FSGS Path**: Nephron Loss / Obesity ➔ Single-Nephron Hyperfiltration (High Pglo) ➔ Podocyte Mechanical Stress & Detachment ➔ Bare GBM Segmental Sclerosis ➔ Secondary FSGS.\n\n### Conceptual Trap Analysis\n- **Secondary FSGS Steroid Misuse Trap**: 切勿給予 Secondary FSGS 患者高劑量類固醇；應透過血流動力學卸載 (RASi, SGLT2i, Sparsentan) 降低 Pglo，給予免疫抑制劑僅增加感染風險而無效果。"
+        },
+        {
+          "heading": "Dysnatremia & Renal Tubular Acidosis (RTA) Molecular Subtyping",
+          "diagram": {
+            "id": "shuangho_onco_myeloma_cast_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_onco_myeloma_cast.jpg",
+            "caption": "Figure 3.3: Molecular Transport Systems in Distal vs Proximal Renal Tubular Acidosis.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "低血鈉症診斷鑑別與腎小管酸中毒分子機制：\n1. **SIAD vs Hypovolemic Hyponatremia Diagnostic Flow**: 確診 Euvolemic Hyponatremia (SIAD) 需滿足：Effective Plasma Osmolality < 275 mOsm/kg, Urine Osmolality > 100 mOsm/kg, Urine Sodium > 30-40 mmol/L。當使用利尿劑干擾 Urine Sodium 時，Fractional Excretion of Urea (FEUrea) > 35% 為確診 SIAD 之金標準 (Hypovolemia 時 FEUrea < 35%)。\n2. **RTA Molecular Subtyping**: \n   - **Type 1 Distal RTA**: 遠端 Medullary Collecting Duct 之 alpha-Intercalated cells 頂端膜 H+-ATPase 或基底膜 AE1 (HCO3-/Cl- exchanger) 缺陷，無法排空 H+。尿液 pH 永遠無法降至 < 5.5 (High Urine pH)，伴低血鉀與 Nephrocalcinosis。\n   - **Type 2 Proximal RTA**: 近端小管 Na+/HCO3- Cotransporter (NBCe1) 或 NHE3 缺陷，HCO3- 重吸收閾值下降。常伴隨 Fanconi Syndrome (微量小管蛋白尿, Glucosuria, Uricosuria)。\n   - **Type 4 Hyperkalemic RTA**: Aldosterone 分泌缺陷或受體阻抗 (常見於 Diabetic Nephropathy)。遠端 ENaC 與 ROMK 功能低下，為唯一伴隨高血鉀之 RTA。\n\n| Tubular Segment | Transporter / Enzyme | Defect Expression | Clinical Phenotype | Electrolyte Profile |\n| :--- | :--- | :--- | :--- | :--- |\n| **Alpha-Intercalated Cell** | Apical H+-ATPase / Basolateral AE1 | Type 1 Distal RTA | Inability to Acidify (pH > 5.5) | Severe Hypokalemia & Stones |\n| **Proximal Tubule Cell** | Apical NHE3 / Basolateral NBCe1 | Type 2 Proximal RTA | Reduced HCO3- Threshold | Hypokalemia & Fanconi Syndrome |\n| **Cortical Principal Cell** | Apical ENaC / ROMK | Type 4 Hyperkalemic RTA | Aldosterone Resistance | Hyperkalemia & Acidosis |\n\n| RTA Subtype | Anatomical Defect Site | Primary Molecular Defect | Urine pH Limit | Serum Potassium | Associated Features |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Type 1 Distal RTA** | Medullary Collecting Duct | H+-ATPase / AE1 Exchanger | **Always > 5.5** | **Hypokalemia (Low K+)** | Nephrocalcinosis & Nephrolithiasis |\n| **Type 2 Proximal RTA**| Proximal Convoluted Tubule | NBCe1 / NHE3 HCO3- Reabsorption | Variable (< 5.5 if low HCO3) | **Hypokalemia (Low K+)** | Fanconi Syndrome & Osteomalacia |\n| **Type 4 Hyperkalemic** | Cortical Collecting Duct | Aldosterone Resistance / ENaC | **Able to acidify (< 5.5)** | **Hyperkalemia (High K+)** | Diabetic Nephropathy & Hyporeninism |\n\n### Pathophysiological Decision Trees\n- **Type 1 Distal RTA Path**: H+-ATPase Failure ➔ Inability to Acidify Urine (Urine pH > 5.5) ➔ Systemic Metabolic Acidosis ➔ Compensatory Bone Buffer ➔ Hypercalciuria & Nephrocalcinosis.\n\n### Conceptual Trap Analysis\n- **Type 1 vs Type 4 Potassium Trap**: Type 1 與 Type 2 RTA 均呈現低血鉀 (Hypokalemia)；唯有 Type 4 RTA 因 Aldosterone 阻抗而呈現高血鉀 (Hyperkalemia)。"
+        },
+        {
+          "heading": "ADPKD Mayo Risk Stratification & Tolvaptan V2 Receptor Antagonism",
+          "diagram": {
+            "id": "shuangho_ackd_rcc_oxalate_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_ackd_rcc_oxalate.jpg",
+            "caption": "Figure 3.4: ADPKD Mayo Risk Stratification & Tolvaptan V2 Receptor Antagonism.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "ADPKD 影像風險分級與標靶藥理處置：\n1. **Mayo Imaging Classification (Class 1A to 1E)**: 依據身高度數調整 Total Kidney Volume (htTKV) 與患者年齡，將 ADPKD 分為 1A 至 1E 五個亞型。Mayo Class 1C, 1D, 1E 代表 Rapid Progressors (每年 htTKV 增長率 > 3-6%)，為啟動疾病修飾治療之核心指標。\n2. **Tolvaptan Mechanism of Action & Safety Protocol**: Vasopressin 作用於集尿管 Principal Cells 之 V2 Receptor，活化 Adenylate Cyclase 驅動 cAMP-PKA 途徑，極大地促進囊腫上皮細胞增殖與管腔液體分泌。Tolvaptan 為選擇性 V2 Receptor Antagonist，能強效抑制 cAMP 生成，顯著減緩 htTKV 擴張速率並延緩 eGFR 下降。主要副作用為 Aquaretosis (多尿、口渴) 以及潛在之 Idiosyncratic Liver Toxicity (前 18 個月必須每月監測 LFTs)。\n\n| Signaling Component | Subcellular Localization | Physiological Activation | Tolvaptan Inhibition Impact | Clinical Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **Vasopressin V2 Receptor** | Basolateral Principal Cell Membrane | Adenylate Cyclase Activation | Complete Competitive Blockade | Inhibits cAMP Generation |\n| **cAMP / PKA Pathway** | Cytosol & Nucleus | PKA Phosphorylation & CREB | Suppresses Cell Proliferation | Slows Cyst Fluid Secretion |\n| **Aquaporin-2 Channels** | Apical Membrane Insertion | Water Reabsorption | Aquaretosis Induction | Delays TKV & eGFR Decline |\n\n| Mayo ADPKD Class | Estimated Annual TKV Growth Rate | Risk of Progression to ESKD | Indication for Tolvaptan Therapy | Key Safety Monitoring |\n| :--- | :--- | :--- | :--- | :--- |\n| **Mayo Class 1A - 1B** | Slow Growth (< 1.5% / year) | Low Risk of Early ESKD | Not Indicated (Lifestyle only) | Annual MRI / htTKV Check |\n| **Mayo Class 1C - 1E** | **Rapid Growth (> 3.0 - 6.0% / year)**| **High Risk (ESKD before age 55-60)**| **Strongly Indicated (KDIGO 2025)**| **Monthly LFTs for first 18 months** |\n| **Mayo Class 2 (Atypical)**| Asymmetric / Focal Cystic Growth | Unpredictable | Not Indicated | Genetic testing (PKD1/2, GANAB) |\n\n### Pathophysiological Decision Trees\n- **Tolvaptan Inhibition Path**: Vasopressin V2 Receptor Activation ➔ cAMP Surge ➔ Cyst Epithelial Proliferation & Fluid Secretion ➔ Tolvaptan Blockade ➔ cAMP Suppression ➔ Slowed TKV Growth.\n\n### Conceptual Trap Analysis\n- **Tolvaptan LFT Protocol Trap**: Tolvaptan 具潛在肝毒性；前 18 個月必須每月監測 ALT/AST/Bilirubin，若 ALT > 3 倍上限需暫停，> 5 倍需永久停藥。"
+        },
+        {
+          "heading": "Acute & Chronic Hyperkalemia Management Protocol",
+          "diagram": {
+            "id": "shuangho_igan_kdigo_pathway_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_igan_kdigo_pathway.jpg",
+            "caption": "Figure 3.5: Emergency Stabilization & GI Potassium Binder Action Pathways.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "高血鉀之急診膜穩定與慢性階梯式結合劑管理：\n1. **Emergency Membrane Stabilization & Intracellular Shift**: 高血鉀 (K+ > 6.5 mmol/L 或伴心電圖心肌興奮性異常) 處置首重靜脈注射 10% Calcium Gluconate (不降低血鉀，但可穩定心肌細胞膜電位，防範致命心律不整)。隨後給予 Short-acting Insulin + 50% Dextrose 以及 Beta-2 Agonists (Albuterol) 促使血鉀快速移入細胞內。\n2. **Chronic GI Potassium Binders (Patiromer & SZC)**: 傳統 Sodium Polystyrene Sulfonate (SPS/Kayexalate) 因具潛在腸壞死 (Intestinal Necrosis) Risk 已不推薦長用。新一代結合劑：\n   - **Patiromer**: 非吸收性聚合物，於結腸結合 K+ 交換 Ca2+，起效時間約 4-7 小時。\n   - **Sodium Zirconium Cyclosilicate (SZC)**: 特異性無機結晶微孔篩，於全消化道高效選擇性捕捉 K+ 交換 Na+ 與 H+，起效更快 (1-2 小時)，能安全輔助 CKD 患者維持最大劑量 RASi/Finerenone 治療。\n\n| Drug Agent | Physiological Target | Molecular Mechanism | Onset of Action | Primary Clinical Indication |\n| :--- | :--- | :--- | :--- | :--- |\n| **IV Calcium Gluconate** | Cardiac Myocyte Membrane | Restores Threshold Potential | 1 - 3 Minutes | Emergency ECG Protection |\n| **Insulin + Dextrose** | Na+/K+-ATPase Pump | Stimulates K+ Cellular Uptake | 15 - 30 Minutes | Acute Serum K+ Shift |\n| **Sodium Zirconium (SZC)** | GI Intestinal Epithelium | Inorganic Micro-pore K+ Trapping | 1 - 2 Hours | Fast GI Potassium Elimination |\n| **Patiromer** | Colon Lumen | Non-absorbed Organic K+ Binding | 4 - 7 Hours | Chronic K+ Maintenance |\n\n| Hyperkalemia Agent | Mechanism of Action | Onset of Action | Primary Clinical Role | Key Adverse Consideration |\n| :--- | :--- | :--- | :--- | :--- |\n| **IV Calcium Gluconate** | Membrane Potential Stabilization | **Immediate (1 - 3 mins)** | Emergency ECG Protection | Does not lower serum potassium level |\n| **Insulin + Dextrose** | Activates Na+/K+-ATPase | 15 - 30 minutes | Acute Potassium Reduction | Monitor for Hypoglycemia |\n| **SZC (Lokelma)** | GI Inorganic Crystal K+ Trapping | **1 - 2 hours** | Acute & Chronic K+ Control | Potential Sodium Load / Edema |\n| **Patiromer (Veltassa)** | GI Organic Polymer K+ Binding | 4 - 7 hours | Chronic Maintenance with RASi | Hypomagnesemia, Constipation |\n\n### Pathophysiological Decision Trees\n- **Hyperkalemia Emergency Cascade**: High K+ with ECG Peaked T Waves ➔ IV Calcium Gluconate (Stabilize Membrane) ➔ IV Insulin + Dextrose (Cellular Shift) ➔ Oral SZC (GI Excretion).\n\n### Conceptual Trap Analysis\n- **SPS Intestinal Necrosis Trap**: 切勿於 postoperative 或腸道蠕動低下患者中使用含 Sorbitol 之 SPS (Kayexalate)；應優先選用高安全性之 SZC 或 Patiromer。"
+        }
+      ]
+    },
+    {
+      "moduleId": "dialysis_cardiorenal_calcification",
+      "moduleTitle": "4. Dialysis Medicine, Cardiorenal Crosstalk & Vascular Calcification Emergencies",
+      "studyGuide": "本模組精通透析重症與心腎相互作用。重點解構 Calciphylaxis (Calcific Uremic Arteriolopathy - CUA) 之皮膚小動脈中層鈣化與內膜下血栓致死性病理、Sodium Thiosulfate (STS) 抗氧化與螯合急救、Cardiorenal Syndrome (CRS Type 1/2) 靜脈回流淤血 (CVP Congestion) 對腎實質壓迫與去淤血處置、以及 Peritoneal Dialysis (PD) Peritonitis 之診斷金標準 (WBC > 100/uL 且 PMN > 50%)、腹腔內抗生素投藥與拔管指徵。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_50_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_1.png",
+          "caption": "Brenner 11e Fig. 50.1: Pathophysiology of Vascular Calcification, Subintimal Thrombosis, and Calciphylaxis in ESRD.",
+          "sourceBook": "Brenner 11e Ch 50"
+        },
+        {
+          "id": "brenner_fig_69_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_69_2.png",
+          "caption": "Brenner 11e Fig. 69.2: Cardiorenal Syndrome Hemodynamic Crosstalk and Venous Congestion Pathways.",
+          "sourceBook": "Brenner 11e Ch 69"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Calciphylaxis (Calcific Uremic Arteriolopathy - CUA) Vascular Pathology & Emergency Interventions",
+          "diagram": {
+            "id": "shuangho_anca_vasculitis_pexivas_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_anca_vasculitis_pexivas.jpg",
+            "caption": "Figure 4.1: Calciphylaxis Cutaneous Arteriole Medial Calcification & Subintimal Thrombosis.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "末期透析患者致命性血管鈣化急症 Calciphylaxis 之病理與處置：\n1. **Vascular Pathology of CUA**: Calciphylaxis 典型發生於 ESKD 透析病患，其特徵為真皮與皮下組織中小型動脈發生廣泛之 Tunica Media Calcification (鈣磷結晶沉積)、Endothelial Injury、Subintimal Arterial Thrombosis 與組織缺血壞死。臨床呈現極度疼痛、紫斑狀 (Violaceous) 缺血性皮膚潰瘍與黑色焦痂 (Black Eschar)，併發致死性敗血症死亡率高達 60-80%。\n2. **Emergency Therapeutic Protocol**: 立即停用 Warfarin (Warfarin 抑制 Matrix Gla Protein 鈣化抑制劑，為 CUA 強烈危險因子) 並改用 Heparin；停用 Calcium-based Phosphate Binders 與 Active Vitamin D。首選處置為靜脈輸注 Sodium Thiosulfate (STS 25 g 於透析最後 30-60 分鐘輸注)，STS 具高水溶性鈣螯合作用 (形成 Calcium Thiosulfate) 以及強效血管內皮抗氧化舒張功能。搭配超高壓氧與傷口清創。\n\n| Vascular Layer | Pathological Process | Molecular Driver | Clinical Feature | Target Intervention |\n| :--- | :--- | :--- | :--- | :--- |\n| **Tunica Media** | Vascular Smooth Muscle Calcification | Hydroxyapatite & MGP Inhibition | Subcutaneous Arterial Stiffness | Sodium Thiosulfate (STS) |\n| **Subintimal Layer** | Endothelial Injury & Thrombosis | Local Hypercoagulability & Warfarin | Cutaneous Ischemic Necrosis | Discontinue Warfarin / Heparin |\n| **Dermal Micro-vessels** | Microvascular Occlusion | Sepsis & Ulceration | Black Eschar & Painful Plaques | Hyperbaric O2 & Wound Debridement |\n\n| CUA Parameter | Pathological / Clinical Feature | High-Risk Factor | Emergency Intervention | Counterindicated Agent |\n| :--- | :--- | :--- | :--- | :--- |\n| **Vascular Pathology** | Tunica Media Calcification & Subintimal Thrombosis | Hyperphosphatemia, Elevated Ca x P product | **Sodium Thiosulfate (STS) IV 25g** | **Warfarin (VKA)** (Inhibits MGP) |\n| **Cutaneous Presentation** | Extremely Painful Violaceous Plaques & Black Eschar | Female, Obesity, Long Dialysis Vintage | Surgical Debridement & Hyperbaric O2 | **Calcium-based Binders** |\n| **Infectious Risk** | High Mortality from Sepsis & Wound Infection | Protein-Calorie Malnutrition | Empiric Broad-spectrum Antibiotics | Active Vitamin D Analogs |\n\n### Pathophysiological Decision Trees\n- **Calciphylaxis Cascade**: Hyperphosphatemia & Warfarin Use ➔ MGP Inhibition ➔ Tunica Media Calcification ➔ Subintimal Arterial Thrombosis ➔ Cutaneous Ischemic Necrosis ➔ STS Infusion Rescue.\n\n### Conceptual Trap Analysis\n- **Warfarin CUA Trap**: 切勿在 CUA 患者中使用 Warfarin；Warfarin 阻斷 VKORC1 導致 Matrix Gla Protein (MGP) 無法γ-羧基化失活，直接促進血管平滑肌鈣化暴發。"
+        },
+        {
+          "heading": "Cardiorenal Syndrome (CRS Type 1/2) Hemodynamic Crosstalk & Decongestion",
+          "diagram": {
+            "id": "shuangho_lupus_tma_apsn_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_lupus_tma_apsn.jpg",
+            "caption": "Figure 4.2: Cardiorenal Syndrome Venous Congestion Crosstalk & Interstitial Pressure Surge.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "心腎症候群之血流動力學交互作用與去淤血滴定：\n1. **Venous Congestion vs Forward Perfusion**: 傳統認為 CRS 急性腎衰竭主因於 Cardiac Output 下降導致 Forward Hypoperfusion；然最新實證證實，Central Venous Pressure (CVP) 升高引發之 Backward Venous Congestion 為驅動 GFR 急劇崩潰的最主導因素。高 CVP 直接逆向傳導至 Renal Vein, 增高 Intrarenal Interstitial Pressure，壓迫 Post-glomerular Capillaries 與 Renal Tubules，導致 Net Glomerular Transcapillary Hydrostatic Pressure Gradient 消失，引發腎功能斷崖下降。\n2. **Decongestion & Diuretic Resistance Protocol**: 處置核心為積極去淤血 (Decongestion)。使用 High-dose IV Loop Diuretics 配合 Continuous Infusion。若發生 Hypoalbuminemia 引發之 Diuretic Resistance，可靜脈聯用 20% Albumin 提高有效循環血量；或加用 Thiazide (Metolazone) 進行 Sequentially Nephron Blockade。若藥物去淤血失敗且伴隨難治性體液過載，應啟動 Ultrafiltration (UF)。\n\n| Vascular Segment | Hemodynamic Change | Pathophysiological Consequence | Intrarenal Effect | Therapeutic Decongestion |\n| :--- | :--- | :--- | :--- | :--- |\n| **Right Atrium & CVP** | Elevated Central Venous Pressure | Backward Congestion Transmission | Renal Vein Hypertension | High-dose IV Loop Diuretics |\n| **Renal Interstitium** | Fluid Transudation & Edema | Intrarenal Hydrostatic Pressure Surge | Tubule & Capillary Compression | Sequential Nephron Blockade |\n| **Glomerular Capillary** | Loss of Hydrostatic Pressure Gradient | Transcapillary Filtration Failure | Abrupt eGFR Collapse | Ultrafiltration (UF) |\n\n| CRS Classification | Primary Trigger Organ | Dominant Hemodynamic Driver | Primary Therapeutic Goal | Rescue Modality |\n| :--- | :--- | :--- | :--- | :--- |\n| **CRS Type 1 (Acute)** | Acute Heart Failure (ADHF) | **High CVP & Venous Congestion** | Rapid Decongestion (IV Diuretics) | Ultrafiltration (UF) |\n| **CRS Type 2 (Chronic)**| Chronic Heart Failure | Persistent Venous Hypertension | RASi / ARNI / SGLT2i Titration | Peritoneal Dialysis Decongestion |\n| **CRS Type 3 (Acute)** | Acute Kidney Injury (AKI) | Hyperkalemia & Uremic Toxicity | AKI Management / RRT | Acute Hemodialysis |\n\n### Pathophysiological Decision Trees\n- **Venous Congestion CRS Path**: Right Heart Failure ➔ CVP Elevation ➔ Renal Venous Hypertension ➔ Intrarenal Interstitial Hydrostatic Pressure Surge ➔ Transcapillary Hydrostatic Gradient Loss ➔ eGFR Drop.\n\n### Conceptual Trap Analysis\n- **Forward vs Backward CRS Trap**: 處置 CRS 時切勿盲目大量補液；若偏高的 Creatinine 是由高 CVP 靜脈淤血驅動，補液將進一步惡化腎間質水腫，去淤血排水反而能使 Creatinine 下降。"
+        },
+        {
+          "heading": "Peritoneal Dialysis (PD) Peritonitis Management & Catheter Removal Protocol",
+          "diagram": {
+            "id": "shuangho_dkd_tgf_hemodynamics_fig2",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/shuangho_dkd_tgf_hemodynamics.jpg",
+            "caption": "Figure 4.3: Peritoneal Dialysis EffluentPMN Cell Count & Catheter Removal Indications.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "腹膜透析腹膜炎之診斷金標準與拔管處置指徵：\n1. **Diagnostic Gold Standard**: 確診 PD Peritonitis 需滿足下列三項中之至少兩項：(1) 腹痛或腹膜透析引流液混濁 (Cloudy Effluent)；(2) 透析液白血球計數 > 100/uL 且 Polymorphonuclear (PMN) 細胞比例 > 50%；(3) 透析液微生物培養陽性。\n2. **Empiric Antibiotics & Catheter Removal Indications**: \n   - **Empiric Regimen**: 立即給予 Intraperitoneal (IP) 經驗性抗生素，必須同時涵蓋 Gram-positive (Cefazolin 或 Vancomycin) 與 Gram-negative (Ceftazidime 或 Aminoglycoside)。\n   - **Mandatory Catheter Removal Indications**: \n     1. **Fungal Peritonitis**: 確診真菌感染必須立即拔除 Tenckhoff Catheter，並給予全身性抗真菌藥物 (Fluconazole / Echinocandin) 至少 2 週。\n     2. **Refractory Bacterial Peritonitis**: 適當抗生素治療 5 天後引流液仍未清澈且 WBC > 100/uL。\n     3. **Refractory Pseudomonas / Enterococcal Peritonitis** 或合併腹壁 Tunnel Infection。\n\n| Effluent Parameter | Pathological Threshold | Clinical Sign | Diagnostic Meaning | Management Action |\n| :--- | :--- | :--- | :--- | :--- |\n| **Effluent Appearance** | Turbid / Opaque Liquid | Abdominal Pain & Cloudy Drainage | Peritoneal Inflammation | Initiate Diagnostic Workup |\n| **Effluent Cell Count** | WBC > 100/uL & PMN > 50% | Active Leukocyte Exudation | Diagnostic Gold Standard | Intraperitoneal Antibiotics |\n| **Fungal Culture** | Candida / Non-albicans Fungi | Biofilm Formation on Catheter | Refractory Invasive Peritonitis | Immediate Catheter Removal |\n\n| Peritonitis Category | Primary Etiology / Organism | Intraperitoneal Antibiotic Choice | Duration of Therapy | Tenckhoff Catheter Management |\n| :--- | :--- | :--- | :--- | :--- |\n| **Gram-Positive Peritonitis**| Staph. epidermidis / Staph. aureus | IP Cefazolin or Vancomycin | 14 - 21 Days | Retain (Remove if refractory > 5d) |\n| **Gram-Negative Peritonitis**| E. coli / Pseudomonas aeruginosa | IP Ceftazidime or Cefepime | 14 - 21 Days | Remove if Pseudomonas refractory |\n| **Fungal Peritonitis** | Candida albicans / Non-albicans | Systemic Antifungals (Echinocandin) | 14 Days post-removal | **MANDATORY IMMEDIATE CATHETER REMOVAL** |\n\n### Pathophysiological Decision Trees\n- **PD Peritonitis Management**: Cloudy Effluent ➔ Check Cell Count (WBC > 100, PMN > 50%) ➔ IP Cefazolin + Ceftazidime ➔ If Fungal or Refractory > 5 days ➔ Immediate Catheter Removal.\n\n### Conceptual Trap Analysis\n- **Fungal PD Peritonitis Delay Trap**: 絕對禁止延誤真菌性腹膜炎之拔管時間；試圖保留 Catheter 繼續給予抗真菌藥物只會導致腹膜永久性增厚纖維化 (Encapsulating Peritoneal Sclerosis) 與高死亡率。"
+        }
+      ]
+    }
+  ]
+}

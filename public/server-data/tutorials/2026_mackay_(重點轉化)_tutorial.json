@@ -82,7 +82,7 @@
             "caption": "Figure 2.1: Slit-Diaphragm Intracellular Signaling Cascade & Genetic FSGS Decision Tree (Nephrin phosphorylation by Fyn -> Nck recruitment via SH2/SH3 -> N-WASP/Arp2/3 actin polymerization; TRPC6 Gain-of-Function Ca2+ influx -> Effacement).",
             "sourceBook": "AI Medical Illustration"
           },
-          "content": "Slit-Diaphragm 的 intracellular part 包含 6 大核心分子：Podocin, TRPC6, CD2AP, Nck, MAGI-1, 以及 protein JAM4。\n\n### Dedicated Analysis: CD2AP Molecular Architecture & PI3K-Akt Survival Pathway\n- **Scaffolding Adaptor Role**: CD2AP (CD2-associated protein) 為定位於 Podocyte lipid raft 膜下 Slit-Diaphragm 胞內段之 scaffolding adaptor protein。\n- **Cytoskeletal Anchoring & Anti-Apoptosis**: 生化機制上，CD2AP 的 C-terminal 直接物理性結合 Nephrin 的 intracellular domain 與 Podocin，其 N-terminal 包含 SH3 domains 直接與 F-actin 及 Synaptopodin 結合，將 Slit-Diaphragm 錨定至 Podocyte actin cytoskeleton。此外，CD2AP 結合 PI3K 的 p85 subunit 並活化下游 **PI3K-Akt survival pathway**，發揮抗 podocyte apoptosis 的生理護衛作用。\n- **Clinical Pathology**: CD2AP 基因缺失會引發嚴重 foot process effacement、massive proteinuria，並快速進展至 Focal Segmental Glomerulosclerosis (FSGS)。\n\n當 Nephrin 受 Fyn kinase 磷酸化後，胞內信號級聯為：\n1. **Fyn Kinase** 磷酸化 Nephrin 胞內段 phosphotyrosine sites。\n2. **Nck Adaptor Protein (Nck1/Nck2)** 以其 SH2 domain 直接結合磷酸化 Nephrin。\n3. Nck 以其 SH3 domain 招募並活化 **N-WASP**。\n4. 活化之 N-WASP 結合並驅動 **Arp2/3 Complex** 發動局部 actin polymerization，維持足突平行微絲張力。\n\n### Pathophysiological Decision Trees\n- **Nephrin Actin Polymerization Cascade**: Fyn 磷酸化 Nephrin ➔ Nck 以 SH2 domain 結合 Nephrin ➔ Nck 以 SH3 domain 招募 N-WASP ➔ 驅動 Arp2/3 complex 進行 actin polymerization。\n- **CD2AP Survival Path**: CD2AP 連結 Nephrin/Podocin 至 Actin ➔ 活化 PI3K-Akt ➔ 抑制 Podocyte 凋亡。"
+          "content": "Slit-Diaphragm 的 intracellular part 包含 6 大核心分子 (Podocin, TRPC6, CD2AP, Nck, MAGI-1, protein JAM4)，各自扮演特異之結構錨定、信號傳導與骨架調控角色：\n\n### 1. Podocin (NPHS2)\n- **Structure & Location**: *NPHS2* 基因編碼之 hairpin-like 整合膜蛋白，特異性定位於 Podocyte Slit-Diaphragm lipid rafts 微域。\n- **Biochemical Mechanism**: Podocin 寡聚化 (oligomerization) 形成膜下微域平台的 scaffold，將 Nephrin 與 CD2AP 招募至 lipid rafts，調控 Slit-Diaphragm 的結構組裝、孔徑大小與下游信號傳導。\n- **Clinical Pathology**: Loss-of-function 突變導致體染色體隱性 (AR) 類固醇頑固型腎病症候群 (SRNS) 與兒童期 FSGS。\n\n### 2. TRPC6 (Transient Receptor Potential Cation Channel C6)\n- **Structure & Location**: 非選擇性陽離子通道 (Ca2+, Na+)，表達於 Podocyte 胞膜與 Slit-Diaphragm 複合體。\n- **Biochemical Mechanism**: 與 Nephrin/Podocin 相互作用，感應物理性張力與 Slit-Diaphragm 形變。當通道開放引發胞內 Ca2+ influx 超載，進而活化 Calcineurin-NFAT 級聯信號。\n- **Clinical Pathology**: **Gain-of-function 突變**導致通道異常開放與 Ca2+ 超載，重塑 actin 骨架並引起足突融合 (effacement)，引發成人發病之體染色體顯性 (AD) FSGS。\n\n### 3. CD2AP (CD2-Associated Protein)\n- **Structure & Location**: 包含 N-terminal SH3 domains 與 C-terminal Nephrin/Podocin 結合區之 scaffolding adaptor protein。\n- **Biochemical Mechanism**: C-terminal 結合 Nephrin 與 Podocin；N-terminal SH3 domains 直接結合 F-actin 與 Synaptopodin，將 Slit-Diaphragm 物理性錨定至 Podocyte actin 骨架。同時招募 PI3K p85 subunit 活化 **PI3K-Akt survival pathway**，保護 Podocyte 抗凋亡。\n- **Clinical Pathology**: CD2AP 缺陷引發嚴重 foot process effacement 與 massive proteinuria，快速進展至 FSGS。\n\n### 4. Nck Adaptor Proteins (Nck1 / Nck2)\n- **Structure & Location**: 包含 SH2 domain 與三個 SH3 domains 之胞質配體蛋白 (adaptor proteins)。\n- **Biochemical Mechanism**: 當 Nephrin 被 Fyn kinase 磷酸化後，Nck 的 SH2 domain 特異性結合磷酸化 Nephrin 胞內段；Nck 的 SH3 domain 則招募並活化 **N-WASP**，進一步驅動 **Arp2/3 complex** 發動局部 actin polymerization，維持足突微絲張力。\n- **Clinical Pathology**: Nephrin-Fyn-Nck 軸線受阻會破壞動態 actin 重塑，造成足突平坦化。\n\n### 5. MAGI-1 (Membrane-Associated Guanylate Kinase Inverted 1)\n- **Structure & Location**: 具多個 PDZ domains 之 MAGUK 家族腳架蛋白，定位於 Slit-Diaphragm 胞內側。\n- **Biochemical Mechanism**: 經由 PDZ domains 同時結合 Nephrin、JAM4 與 alpha-actinin-4，將 Slit-Diaphragm 跨膜蛋白與緊密連接 (tight junction) 蛋白複合體及 actin 骨架交聯。\n- **Clinical Pathology**: 在高過濾壓下提供極佳之結構張力與膜下蛋白聚積穩定度。\n\n### 6. Protein JAM4 (Junctional Adhesion Molecule 4 / IGSF13)\n- **Structure & Location**: 免疫球蛋白超家族 (IgSF) 之單次跨膜細胞黏附分子，表達於 Podocyte Slit-Diaphragm。\n- **Biochemical Mechanism**: 胞外段介導細胞間黏附，胞內 C-terminal 包含 PDZ-binding motif，特異性招募並結合 **MAGI-1**。\n- **Clinical Pathology**: 在足細胞受損或發炎時，JAM4 與 MAGI-1 的結合解離會影響細胞間連接完整性，促進蛋白尿產生。\n\n當 Nephrin 受 Fyn kinase 磷酸化後，胞內信號級聯為：\n1. **Fyn Kinase** 磷酸化 Nephrin 胞內段 phosphotyrosine sites。\n2. **Nck Adaptor Protein (Nck1/Nck2)** 以其 SH2 domain 直接結合磷酸化 Nephrin。\n3. Nck 以其 SH3 domain 招募並活化 **N-WASP**。\n4. 活化之 N-WASP 結合並驅動 **Arp2/3 Complex** 發動局部 actin polymerization，維持足突平行微絲張力。\n\n### Pathophysiological Decision Trees\n- **Nephrin Actin Polymerization Cascade**: Fyn 磷酸化 Nephrin ➔ Nck 以 SH2 domain 結合 Nephrin ➔ Nck 以 SH3 domain 招募 N-WASP ➔ 驅動 Arp2/3 complex 進行 actin polymerization。\n- **CD2AP Survival Path**: CD2AP 連結 Nephrin/Podocin 至 Actin ➔ 活化 PI3K-Akt ➔ 抑制 Podocyte 凋亡。"
         },
         {
           "heading": "Glomerular Endothelial Cells (GEnCs) 5 Essential Specific Markers",
@@ -90,6 +90,13 @@
         },
         {
           "heading": "Genetic Podocytopathies & TRPC6 Gain-of-Function Answering Tree",
+          "diagram": {
+            "id": "brenner_fig_43_1",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+            "caption": "Brenner 11e Fig. 43.1: Molecular depiction of Podocyte Slit-Diaphragm complex (Nephrin, Podocin, CD2AP, TRPC6) & Genetic Podocytopathy Nodes.",
+            "sourceBook": "Brenner 11e Ch 43"
+          },
           "content": "遺傳性 FSGS 與腎病症候群為臨床高頻鑑別領域，遺傳模式、突變型態與分子機制對照如下：\n\n| Gene | Protein & Category | Inheritance | Molecular Mechanism & Clinical Features |\n| :--- | :--- | :--- | :--- |\n| **TRPC6** | Non-selective Cation Channel | **Autosomal Dominant (AD)** | **Gain-of-function 突變** ➔ 細胞內 **Ca2+ Influx 超載** ➔ 活化 Calcineurin-NFAT ➔ Actin 骨架紊亂與 foot process effacement（成人發病） |\n| **ACTN4** | Alpha-actinin-4 (Actin Cross-linker) | **Autosomal Dominant (AD)** | 突變增加與 Actin 結合親和力，引發胞質骨架電子緻密聚集與降解 |\n| **NPHS1 / NPHS2** | Nephrin / Podocin (SD Complex) | **Autosomal Recessive (AR)** | Loss-of-function 突變 ➔ 生理結構缺失 ➔ Congenital / Steroid-Resistant NS (小兒發病) |\n\n### Pathophysiological Decision Trees\n- **TRPC6 Gain-of-Function Path**: TRPC6 通道 gain-of-function 突變 ➔ 異常開放致胞內 Ca2+ influx 超載 ➔ 活化 Calcineurin-NFAT ➔ 引發成人型體染色體顯性 (AD) FSGS。\n- **NPHS2 Podocin Deficiency Path**: NPHS2 基因 loss-of-function 突變 ➔ 破壞 Slit-Diaphragm lipid raft 結構 ➔ 引發兒童型體染色體隱性 (AR) 類固醇頑固型腎病症候群 (SRNS)。"
         }
       ]
@@ -138,10 +145,17 @@
           "sourceBook": "Brenner 11e Ch 43"
         },
         {
-          "id": "brenner_fig_31_1",
+          "id": "brenner_fig_31_35",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_31_1.png",
-          "caption": "Brenner 11e Fig. 31.1: Proposed cellular mechanisms of podocyte injury and glomerular permeability in Minimal Change Disease & Primary FSGS.",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_35.png",
+          "caption": "Brenner 11e Fig. 31.35: Diagnostic algorithm for glomerulonephritis mediated by antibodies & complement (anti-GBM, immune complex, pauci-immune ANCA, C3G).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_31_32",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_32.png",
+          "caption": "Brenner 11e Fig. 31.32: Pathologic categorization algorithm of glomerular diseases with organized deposits (Amyloidosis vs Fibrillary Glomerulonephritis).",
           "sourceBook": "Brenner 11e Ch 31"
         }
       ],
@@ -157,11 +171,11 @@
         {
           "heading": "HIV-Associated Nephropathy (HIVAN) vs Heroin Nephropathy Histopathology",
           "diagram": {
-            "id": "hivan_vs_heroin_pathology_tree_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/hivan_vs_heroin_pathology_tree.jpg",
-            "caption": "Figure 4.1: Pathological Comparison of HIV-Associated Nephropathy (HIVAN) vs Heroin Nephropathy (Collapsing FSGS, Visceral swelling, Microcystic tubular dilation & Tubuloreticular inclusions).",
-            "sourceBook": "AI Medical Illustration"
+            "id": "ajkd_hivan_pathology_fig",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/ajkd_hivan_fig1.png",
+            "caption": "AJKD Atlas of Renal Pathology: HIV-Associated Nephropathy (HIVAN) featuring collapsing focal segmental glomerulosclerosis with marked visceral epithelial cell hyperplasia and microcystic tubular dilation.",
+            "sourceBook": "AJKD Atlas of Renal Pathology"
           },
           "content": "HIVAN 與 Heroin Nephropathy 切片皆呈 FSGS 樣變化，但 HIVAN 具備 4 大特異鑑別特徵：\n1. **Higher percentage of Glomerular Collapse (Collapsing FSGS)**。\n2. **Less Hyalinosis**。\n3. **Greater Visceral Epithelial Cell Swelling (伴 Microcystic Tubular Dilation)**。\n4. 電鏡下顯現特異性 **Tubuloreticular Inclusions (TRIs)** (由 Alpha/Beta Interferon 誘導)。\n\n### Pathophysiological Decision Trees\n- **HIVAN Pathological Discrimination**: 切片顯示高比例崩潰型 FSGS、較少玻璃樣變、顯著足細胞腫脹與小管囊狀擴張、及電鏡 TRIs ➔ 診斷為 HIVAN。"
         }
@@ -202,6 +216,13 @@
         },
         {
           "heading": "Transplant Patient Cytomegalovirus (CMV) Infection 4 Clinical Manifestations",
+          "diagram": {
+            "id": "ajkd_cmv_pathology_fig",
+            "type": "micrograph",
+            "imagePath": "/server-data/assets/ajkd_cmv_fig3.png",
+            "caption": "AJKD Atlas of Renal Pathology: Cytomegalovirus (CMV) Nephritis in renal transplant recipient showing enlarged visceral epithelial cells with characteristic 'owl's eye' basophilic intranuclear inclusions.",
+            "sourceBook": "AJKD Atlas of Renal Pathology"
+          },
           "content": "CMV 感染在器官表現上的 4 個精確臨床特徵：\n1. **Kidney**: 腎切片下的 viral inclusions 通常與 **FSGS** (Focal Segmental Glomerulosclerosis 樣病變) 相關。\n2. **Esophagus or Colon**: 食道潰瘍或大腸潰瘍 (Ulcerations) 通常為 **Life-threatening** (威脅生命之嚴重併發症)。\n3. **Liver**: 併發之急性肝炎 (Acute Hepatitis) 通常 **Not Severe** (病情相對溫和/不嚴重)。\n4. **Eye / Retina**: 眼部侵犯 (CMV Retinitis) 通常 **Rare 且 Late-onset** (罕見且屬於晚期發作)。\n\n### Pathophysiological Decision Trees\n- **CMV Clinical Organ Spectrum**: 腎臟 inclusions 伴 FSGS 樣病變；食道/大腸潰瘍屬於 life-threatening；急性肝炎屬於 not severe；眼部 CMV retinitis 屬於 rare & late-onset。"
         }
       ]

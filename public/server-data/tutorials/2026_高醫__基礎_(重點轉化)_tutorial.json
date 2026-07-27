@@ -4,7 +4,7 @@
   "title": "2026 高醫腎臟專科基礎：腎移植免疫與捐贈者評估主題式備考教學",
   "sourceCategory": "2026 年重點轉化",
   "year": 2026,
-  "updatedAt": "2026-07-27T14:18:16.896008+00:00",
+  "updatedAt": "2026-07-27T14:32:48.597128+00:00",
   "modules": [
     {
       "moduleId": "mod_1_allorecognition_crossmatch",
@@ -14,27 +14,47 @@
         {
           "id": "brenner_fig_69_2",
           "type": "micrograph",
-          "path": "assets/Brenner_Fig_69_2.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_69_2.png",
+          "path": "/server-data/assets/Brenner_Fig_69_2.png",
           "sourceBook": "Brenner 11e Ch 69",
           "caption": "Brenner 11e Fig 69.2: Cosignaling interactions in T cells (CD28-B7 costimulation vs CTLA4 coinhibition)."
         },
         {
           "id": "brenner_fig_69_10",
           "type": "micrograph",
-          "path": "assets/Brenner_Fig_69_10.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_69_10.png",
+          "path": "/server-data/assets/Brenner_Fig_69_10.png",
           "sourceBook": "Brenner 11e Ch 69",
           "caption": "Brenner 11e Fig 69.10: Cell-based crossmatch methods (CDC vs AHG-CDC vs Flow Cytometry FCXM)."
         },
         {
           "id": "ai_allorecognition_crossmatch",
           "type": "ai_illustration",
-          "path": "assets/ai_allorecognition_crossmatch.png",
+          "imagePath": "/server-data/assets/ai_allorecognition_crossmatch.png",
+          "path": "/server-data/assets/ai_allorecognition_crossmatch.png",
           "caption": "Mechanism Diagram: Allorecognition Pathways, Inducible APCs, and Cell-Based Crossmatching Topography."
         }
       ],
       "sections": [
         {
           "heading": "Pathways of Allorecognition & T-Cell Cosignaling Topology",
+          "diagrams": [
+            {
+              "id": "brenner_fig_69_2_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_69_2.png",
+              "path": "/server-data/assets/Brenner_Fig_69_2.png",
+              "sourceBook": "Brenner 11e Ch 69",
+              "caption": "Brenner 11e Fig 69.2: Cosignaling interactions in T cells (CD28-B7 costimulation vs CTLA4 coinhibition)."
+            },
+            {
+              "id": "ai_allorecognition_crossmatch_sec",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ai_allorecognition_crossmatch.png",
+              "path": "/server-data/assets/ai_allorecognition_crossmatch.png",
+              "caption": "AI Illustration: Allorecognition Pathways & Inducible APC Topography."
+            }
+          ],
           "content": "### 1. Three Allorecognition Pathways\n在同種異體腎臟移植中，Recipient 的免疫系統透過三條不同傳導路徑辨識 Donor 的 Human Leukocyte Antigens (HLA)：\n\n- **Direct Pathway**: Recipient CD8+ T cells 直接辨識移植物中游離至淋巴結的 Donor APC 表面之 intact Donor HLA Class I 分子。主要驅動移植早期之 Acute TCMR。\n- **Indirect Pathway**: Recipient APC 吞噬並內化 Donor 蛋白質分子，加工切碎為胜肽片段後，呈遞於 Recipient MHC Class II 分子表面，激發 Recipient CD4+ T cells。此路徑為驅動長期 Donor-Specific Antibodies (DSA) 產生及 Chronic AMR 的主因。\n- **Semidirect Pathway**: Recipient APC 透過胞吐囊泡或細胞膜轉移直接吸附 intact Donor HLA 分子於自身表面，同時具備呈遞 Donor Intact Class I 與加工胜肽之能力，可直接刺激 Recipient CD8+ T cells。\n\n#### Inducible Antigen-Presenting Capacity\n除了 Dendritic cells、Monocytes/Macrophages 與 B cells 等 Professional APC 外，在發炎因子 **IFN-gamma** 刺激下，Epithelial cells 與 Endothelial cells 均可被誘導表達 MHC Class II，轉化為 Non-professional / Inducible APC，擴大組織排斥反應。\n\n### 2. T-Cell Cosignaling Pathways & Modulation\nT 細胞活化需要 Signal 1 (TCR/CD3 辨識 MHC-peptide) 與 Signal 2 (Cosignaling) 雙重刺激：\n\n| Cosignaling Receptor | APC Ligand | Signal Category | Functional Impact on T Cell |\n| :--- | :--- | :--- | :--- |\n| **CD28** (Constitutive) | **B7.1 (CD80) / B7.2 (CD86)** | Costimulatory | 促進 IL-2 分泌、細胞增殖、存活與效應細胞分化 |\n| **CTLA4** (Induced post-activation) | **B7.1 (CD80) / B7.2 (CD86)** | Coinhibitory | 高親和力競爭 B7，下調 TCR 傳導，誘導 Anergy 與 Apoptosis |\n| **PD-1** (Induced) | **PD-L1 (CD274) / PD-L2** | Coinhibitory | 抑制末梢效應細胞活化，維持免疫耐受 |\n\n#### T-Cell Activation Cascade Decision Tree:\n```\n[Signal 1: TCR - MHC/Peptide Engagement] \n                +\n[Signal 2: CD28 - B7.1/B7.2 Ligation] \n                │\n                ▼\n[Calcineurin / NFAT / NF-kB / MAPK Cascade Activation] \n                │\n                ▼\n[IL-2 Transcription & T-Cell Proliferation]\n```\n\n### 3. Conceptual Trap Analysis\n> [!WARNING]\n> **Trap 1**: Indirect Pathway 100% 由 Recipient APC 加工吞噬 Donor 胜肽並呈遞於 Recipient MHC II 表面，非 Donor APC。\n> **Trap 2**: CD28 為 Naive T cells 表面 Constitutive 表達；CTLA4 則是 T cells 活化後被 Induced 表達以執行負回饋抑制。",
           "keyTerms": [
             "Direct Pathway",
@@ -49,6 +69,16 @@
         },
         {
           "heading": "Cell-Based Crossmatching & Rejection Dynamics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_69_10_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_69_10.png",
+              "path": "/server-data/assets/Brenner_Fig_69_10.png",
+              "sourceBook": "Brenner 11e Ch 69",
+              "caption": "Brenner 11e Fig 69.10: Cell-based crossmatch methods (CDC vs AHG-CDC vs Flow Cytometry FCXM)."
+            }
+          ],
           "content": "### 1. Cell-Based Crossmatch Mechanics\nCrossmatch 試驗分別使用 Recipient 血清與 Donor 的 T 淋巴球與 B 淋巴球進行反應：\n\n- **HLA Expression Difference**:\n  - **T Lymphocytes**: 僅高度表達 **Class I HLA** (HLA-A, B, C)。\n  - **B Lymphocytes**: 同時強烈表達 **Class I HLA** 及 **Class II HLA** (HLA-DR, DQ, DP)。\n- **Endothelial Cell Injury & B-Cell XM**:\n  - 當內皮細胞遭受 Ischemia-Reperfusion Injury 等損傷時，會高度上調 **Class II HLA** 的表現。\n  - 若 Recipient 體內存在抗 Class II 著床抗體，將導致 **B-cell Crossmatch 陽性** (即便 T-cell Crossmatch 為陰性)，此狀況仍會引發 Early Accelerated Rejection。\n\n### 2. Crossmatch Modalities Comparison\n\n| Modality | Target Antibodies Detected | Binding Property | Clinical Risk Correlation |\n| :--- | :--- | :--- | :--- |\n| **CDC XM** | High-titer Complement-binding Anti-HLA | Complement-activating (C1q binding) | **Hyperacute Rejection** |\n| **AHG-CDC XM** | Low-titer Complement-binding Anti-HLA | Complement-activating with AHG amplification | **Early Accelerated Rejection** |\n| **FCXM** | High- & Low-titer Complement- & Noncomplement-binding | All immunoglobulins binding to cells | **Late Rejection & Graft Loss** |\n\n### 3. Rejection Timeline & 1-Year Rejection Pivot\n\n#### Rejection Timeline & Pathophysiology:\n- **Hyperacute Rejection** (Minutes to hours): 既有 Preformed Anti-ABO 或 Anti-HLA Class I 抗體活化 Complement 級聯反應造成急性血管閉塞。\n- **Accelerated Rejection** (Days): 致敏記憶性 T 細胞活化或既有低價位 Anti-Class II 抗體反應。\n- **Acute Rejection** (Days to weeks): 初次活化之 T 細胞 (TCMR) 或新生成 DSA (AMR) 介導。\n- **Chronic Rejection** (Months to years): 慢性抗體介導損傷 (Chronic AMR)、Transplant Glomerulopathy 或免疫複合體沉積。\n\n#### 1-Year Rejection Pivot Paradigm:\n```\nPost-Transplant Timecourse Dynamics:\n[Within 1 Year] ──► Primary Drivers: TCMR & Polyomavirus (BK) Nephropathy.\n[Beyond 1 Year] ──► Primary Driver: AMR & De Novo DSA ──► Dominant Cause of Late GFR Decline & Graft Loss.\n```\n\n### 4. Decision Tree & Conceptual Trap Analysis\n```\n[Recipient Serum + Donor B Cells Reactions]\n                │\n                ├─► [Positive B-Cell XM & Negative T-Cell XM]\n                │           │\n                │           ▼\n                │   [Presence of Anti-HLA Class II Antibodies]\n                │           │\n                │           ▼\n                │   [Endothelial Injury Upregulates Class II Expression]\n                │           │\n                │           ▼\n                │   [High Risk of Early Accelerated Antibody-Mediated Rejection]\n```\n\n> [!WARNING]\n> **Trap 1**: T-cell Crossmatch 陰性無法排除早期排斥風險，若存在抗 HLA Class II 抗體，血管內皮受損上調 Class II 時仍會引發重度 B-cell XM 陽性排斥。\n> **Trap 2**: 移植後 1 年內造成腎功能波動最常見者為 TCMR 與 BK 病毒感染；1 年後造成晚期 Graft Loss 的首要病因則轉移為 AMR。",
           "keyTerms": [
             "CDC XM",
@@ -71,20 +101,39 @@
         {
           "id": "brenner_fig_69_4",
           "type": "micrograph",
-          "path": "assets/Brenner_Fig_69_4.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_69_4.png",
+          "path": "/server-data/assets/Brenner_Fig_69_4.png",
           "sourceBook": "Brenner 11e Ch 69",
           "caption": "Brenner 11e Fig 69.4: B-cell ontogeny and differentiation (Bone marrow to peripheral memory & plasma cell)."
         },
         {
           "id": "ai_bcell_markers_abo",
           "type": "ai_illustration",
-          "path": "assets/ai_bcell_markers_abo.png",
+          "imagePath": "/server-data/assets/ai_bcell_markers_abo.png",
+          "path": "/server-data/assets/ai_bcell_markers_abo.png",
           "caption": "Mechanism Diagram: B-Cell Lineage Surface Markers Topography & ABO Incompatible Desensitization Protocol."
         }
       ],
       "sections": [
         {
           "heading": "B-Cell Lineage Differentiation & Marker Dynamics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_69_4_sec",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_69_4.png",
+              "path": "/server-data/assets/Brenner_Fig_69_4.png",
+              "sourceBook": "Brenner 11e Ch 69",
+              "caption": "Brenner 11e Fig 69.4: B-cell ontogeny and differentiation (Bone marrow to peripheral memory & plasma cell)."
+            },
+            {
+              "id": "ai_bcell_markers_abo_sec",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ai_bcell_markers_abo.png",
+              "path": "/server-data/assets/ai_bcell_markers_abo.png",
+              "caption": "AI Illustration: B-Cell Lineage Surface Markers Topography."
+            }
+          ],
           "content": "### 1. B-Cell Lineage Surface Markers\n根據最新的 B 細胞發育生物學 (Nat Rev Nephrol 2024)，B 細胞自骨髓 Stem cell 發展至終末 Plasma cell 過程中，各分子標記的表達具高度階段特異性：\n\n| B-Cell Stage | Location | CD19 Expression | CD20 Expression | CD38 Expression | BCMA Expression |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Pro-B Cell** | Bone Marrow | **Positive (+)** | Negative (-) | **Positive (+)** | Negative (-) |\n| **Pre-B Cell** | Bone Marrow | **Positive (+)** | **Positive (+)** | Negative (-) | Negative (-) |\n| **Immature B Cell** | Bone Marrow | **Positive (+)** | **Positive (+)** | Negative (-) | Negative (-) |\n| **Naive B Cell** | Periphery | **Positive (+)** | **Positive (+)** | Negative (-) | Negative (-) |\n| **Germinal Centre B**| Lymph Node | **Positive (+)** | **Positive (+)** | Low (+) | **Positive (+)** |\n| **Memory B Cell** | Periphery | **Positive (+)** | **Positive (+)** | Low (+) | **Positive (+)** |\n| **Plasmablast** | Blood/Spleen | **Positive (+)** | **Low/Neg (±)** | **High (+++)** | **High (+++)** |\n| **Plasma Cell** | Bone Marrow | **Negative (-)** | **Negative (-)** | **High (+++)** | **High (+++)** |\n\n#### 藥物作用標靶機制 (Therapeutic Target Mapping):\n- **Rituximab (Anti-CD20)**: 清除 Pre-B, Naive, Memory B cells 與早期 Plasmablast。無法清除成熟 Plasma cells。\n- **Daratumumab (Anti-CD38)**: 精準標靶清除 Plasmablasts 與成熟 Plasma cells。\n- **Belantamab / Anti-BCMA**: 標靶 Plasma cells 及長效記憶 B 細胞。\n\n### 2. Conceptual Trap Analysis\n> [!WARNING]\n> **Trap 1**: 成熟 Plasma cells 不表達 CD20 (CD20-negative)，故 Rituximab 無法直接降低既有長效抗體或清空骨髓 Plasma cells。\n> **Trap 2**: CD19 在大部分 B 細胞家族均表達 (含 Plasmablast)，但成熟 Plasma cell 表面 CD19 下降；CD20 則在 Early Pro-B 及 Mature Plasma cell 皆不表現。",
           "keyTerms": [
             "CD19",
@@ -99,6 +148,15 @@
         },
         {
           "heading": "ABO-Incompatible Kidney Transplantation Protocols",
+          "diagrams": [
+            {
+              "id": "ai_bcell_markers_abo_sec2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ai_bcell_markers_abo.png",
+              "path": "/server-data/assets/ai_bcell_markers_abo.png",
+              "caption": "AI Illustration: ABO Incompatible Desensitization Protocol & A2 Subgroup Selection."
+            }
+          ],
           "content": "### 1. ABO-Incompatible Desensitization Protocol\nABO 血型不相容移植透過術前清空抗血型同種抗體 (Anti-A / Anti-B Isoagglutinins) 達成安全移植：\n\n- **Standard Pre-transplant Regimen**:\n  - **Rituximab**: 術前 1-2 週給予 Single dose，抑制 B 細胞增殖。\n  - **Plasmapheresis (PE) / Immunoadsorption (IA)**: 反覆洗滌血漿直至 Anti-A/B Isoagglutinin Titer 降至安全目標閾值。\n  - **IVIg**: 洗滌後補足中和，提供免疫調節與保護。\n- **Safe Titer Threshold**:\n  - 術前目標血清 Anti-A 或 Anti-B Ig Titer 必須降至 **≤ 1:8 或 ≤ 1:16**。\n- **Low Baseline Titer Exception**:\n  - 若 Recipient 基準 Anti-A/B Titer 本身即極低 (如 ≤ 1:4)，僅需術前 1-2 週使用 **MMF** 配合低劑量處置即可安全移植。\n\n### 2. A2 Donor to B Recipient Subgroup Protocol\n\n```\n[A2 Donor Population (~20% of Blood Group A)]\n                │\n                ▼\n[Low Surface A Antigen Expression on Endothelium]\n                │\n                ▼\n[Transplant into Blood Group B Recipient with Low Anti-A Titer]\n                │\n                ▼\n[SAFE WITHOUT DESENSITIZATION PROTOCOL]\n```\n\n- **A2 Subgroup Characteristics**: A2 血型捐贈者血管內皮之 A 抗原表現量僅為 A1 血型之 20%。\n- **Clinical Policy**: 將低 Anti-A Titer 之 Blood Group B Recipient 移植來自 A2 Donor 之腎臟，其安全度與相容移植相當，完全不需要執行洗滌與脫敏治療。\n\n### 3. Differential Comparison Table\n\n| Feature | Standard ABO-Incompatible | Low Baseline Titer ABO-I | A2 Donor to B Recipient |\n| :--- | :--- | :--- | :--- |\n| **Pre-op Isoagglutinin Titer** | High (> 1:32) | Low (1:4 - 1:16) | Low Anti-A Titer |\n| **Desensitization Requirement**| Rituximab + PE/IA + IVIg | Short MMF (1-2 weeks) | **No Desensitization Needed** |\n| **Target Titer for Surgery** | **≤ 1:8 or ≤ 1:16** | **≤ 1:8** | Baseline safe |\n| **Graft Outcome** | Excellent long-term | Excellent | Equivalent to ABO-compatible |\n\n> [!WARNING]\n> **Trap Analysis**: A2 血型捐贈者血管內皮之 A 抗原表現量極少，移植給低 Titer 之 B 型血 Recipient 時極度安全，完全不需要 Rituximab 或血漿洗滌。",
           "keyTerms": [
             "ABO Incompatible",
@@ -120,20 +178,31 @@
         {
           "id": "brenner_fig_70_2",
           "type": "micrograph",
-          "path": "assets/Brenner_Fig_70_2.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_2.png",
+          "path": "/server-data/assets/Brenner_Fig_70_2.png",
           "sourceBook": "Brenner 11e Ch 70",
           "caption": "Brenner 11e Fig 70.2: Targets of immunosuppressive drugs and T-cell signaling pathways."
         },
         {
           "id": "ai_bkvn_electrolytes_cni",
           "type": "ai_illustration",
-          "path": "assets/ai_bkvn_electrolytes_cni.png",
+          "imagePath": "/server-data/assets/ai_bkvn_electrolytes_cni.png",
+          "path": "/server-data/assets/ai_bkvn_electrolytes_cni.png",
           "caption": "Mechanism Diagram: BKVN Screening Thresholds, Post-Transplant Electrolytes, and CNI Toxicity Comparison."
         }
       ],
       "sections": [
         {
           "heading": "BK Virus Nephropathy (BKVN) Screening & Diagnosis",
+          "diagrams": [
+            {
+              "id": "ai_bkvn_electrolytes_cni_sec1",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ai_bkvn_electrolytes_cni.png",
+              "path": "/server-data/assets/ai_bkvn_electrolytes_cni.png",
+              "caption": "AI Illustration: BKVN Diagnostic Thresholds & Progressive Cascade."
+            }
+          ],
           "content": "### 1. BKVN Epidemiology & Timeline\nBK 病毒 (Human Polyomavirus 1) 潛伏於尿路上皮細胞中。在移植後抗排斥藥物作用下活化，最常發生於移植後前 2 年。\n\n```\nProgression Cascade:\n[Primary Urothelial Latency] ──► [BK Viruria (30-40%)] ──► [BK Viremia (10-20%)] ──► [Biopsy-Proven BKVN (~50% of Viremic)]\n```\n\n### 2. Screening Thresholds Matrix\n\n| Test Modality | Diagnostic Threshold Value | Correlation with PVAN on Biopsy | Clinical Action |\n| :--- | :--- | :--- | :--- |\n| **Decoy Cells** | **> 10 cells / cytospin** | Positive (+) Low | Early Indicator of Viruria |\n| **Urine BK Virus DNA PCR** | **> 1 x 10^7 copies / mL** | Moderate (++) | Confirm High-grade Viruria |\n| **Blood/Plasma BK Virus DNA PCR**| **> 1 x 10^4 copies / mL** | **Strong (+++)** | **Trigger Biopsy or Reduction of Immunosuppression** |\n\n### 3. Decision Tree & Conceptual Trap Analysis\n```\n[Plasma BK Viral Load ≥ 10^4 copies/mL]\n                │\n                ├─► Option A: Perform Renal Allograft Biopsy (SV40 Staining)\n                │\n                └─► Option B: Empirically Reduce Immunosuppression (Reduce CNI / Stop MMF)\n```\n\n> [!WARNING]\n> **Trap 1**: Urine PCR 診斷門檻高達 10^7 copies/mL，而 Plasma PCR 僅需 10^4 copies/mL 即代表高度侵犯性，需啟動降藥或腎切片。\n> **Trap 2**: Decoy cells 僅代表病毒在尿道上皮脫落，診斷 BKVN 仍需以 Plasma PCR > 10^4 或腎切片看到 SV40 染色陽性為確診依據。",
           "keyTerms": [
             "BKVN",
@@ -146,6 +215,16 @@
         },
         {
           "heading": "Post-Transplant Electrolyte Disorders & CNI Drug Interactions",
+          "diagrams": [
+            {
+              "id": "brenner_fig_70_2_sec2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_70_2.png",
+              "path": "/server-data/assets/Brenner_Fig_70_2.png",
+              "sourceBook": "Brenner 11e Ch 70",
+              "caption": "Brenner 11e Fig 70.2: Targets of immunosuppressive drugs and T-cell signaling pathways."
+            }
+          ],
           "content": "### 1. Post-Transplant Electrolyte Pathophysiology\n\n- **Hypophosphatemia**: 發生於早期腎功能良好之 Recipient。高 **FGF-23** 與 persistent **PTH** 水準，加上 CNI、Sirolimus 及高劑量 Steroids 共同抑制近曲小管 NaPi-IIa/c 磷重吸收，造成尿磷大量流失。長期負磷平衡為 posttransplant bone disease 之主因。\n- **Mild Hyperkalemia**: 即使腎功能正常亦常見。機轉為 CNI 誘發 Tubular K+ Secretion Impairment via ROMK inhibition。此高血鉀係由 CNI 本身引起，非 ACEI/ARB/TMP-SMX 效應。\n- **Hypomagnesemia**: CNI 造成腎臟 magnesuric effect 加上殘餘副甲狀腺亢進所致。\n\n### 2. CNI & Sirolimus Drug Interactions Matrix\n\n| Class of Drug | Increase CNI / Sirolimus Levels (CYP3A4/P-gp Inhibitors) | Decrease CNI / Sirolimus Levels (CYP3A4/P-gp Inducers) |\n| :--- | :--- | :--- |\n| **Antibiotics** | **Erythromycin, Azithromycin, Clarithromycin** | **Nafcillin** |\n| **Antifungals** | **Fluconazole, Ketoconazole, Itraconazole, Voriconazole** | - |\n| **Antituberculin** | - | **INH, Rifampin, Rifabutin** |\n| **Antiviral** | **Ritonavir, Nelfinavir, Saquinavir** | **Efavirenz, Nevirapine** |\n| **Anti-seizure** | - | **Phenytoin, Phenobarbital, Carbamazepine** |\n| **Food & Herbs** | **Grapefruit juice, Pomegranate juice** | **St. Johns wort** |\n\n### 3. Tacrolimus vs Cyclosporine Toxicity Comparison\n\n| Clinical Toxicity Feature | Tacrolimus (Prograf / FK506) | Cyclosporine (Neoral / CsA) |\n| :--- | :--- | :--- |\n| **Posttransplant Diabetes (PTDM)**| **Higher Incidence** (FK506 > CsA) | Lower Incidence |\n| **Neurotoxicity (Tremor/Headache)**| **Greater Neurotoxicity** | Moderate |\n| **Gingival Hyperplasia** | **NO** | **YES** |\n| **Hypertrichosis** | **NO** | **YES** |\n| **Hyperlipidemia** | Lower | **YES** |\n| **Gastrointestinal Toxicity** | **Higher GI Toxicity** | Lower |\n\n#### PTDM Management Principles:\n- **Metformin** 為腎功能適當 Recipient 之首選第一線用藥。\n- **SGLT2 inhibitors**: 目前在腎移植患者中尚未被納入正式 Guideline 推薦中。\n\n> [!WARNING]\n> **Trap Analysis**: Cyclosporine 特有毒性包括 Gingival Hyperplasia、Hypertrichosis 與 Hyperlipidemia；而 Tacrolimus 則以 PTDM 與 Neurotoxicity (Tremor) 為代表性毒性。",
           "keyTerms": [
             "Hypophosphatemia",
@@ -168,20 +247,32 @@
         {
           "id": "brenner_fig_70_6",
           "type": "micrograph",
-          "path": "assets/Brenner_Fig_70_6.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+          "path": "/server-data/assets/Brenner_Fig_70_6.png",
           "sourceBook": "Brenner 11e Ch 70",
           "caption": "Brenner 11e Fig 70.6: Multifactorial pathogenesis of chronic allograft injury and donor factors."
         },
         {
           "id": "ai_donor_selection_fwit",
           "type": "ai_illustration",
-          "path": "assets/ai_donor_selection_fwit.png",
+          "imagePath": "/server-data/assets/ai_donor_selection_fwit.png",
+          "path": "/server-data/assets/ai_donor_selection_fwit.png",
           "caption": "Mechanism Diagram: Deceased Donor Classification (ECD Criteria), DCD fWIT Organ Limits, and Living Donation Contraindications."
         }
       ],
       "sections": [
         {
           "heading": "Deceased Donor Classification (SCD vs ECD)",
+          "diagrams": [
+            {
+              "id": "brenner_fig_70_6_sec1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+              "path": "/server-data/assets/Brenner_Fig_70_6.png",
+              "sourceBook": "Brenner 11e Ch 70",
+              "caption": "Brenner 11e Fig 70.6: Multifactorial pathogenesis of chronic allograft injury and donor factors."
+            }
+          ],
           "content": "### 1. Deceased Donor Categories\n- **SCD (Standard Criteria Donor)**: 標準捐贈者，器官品質佳，預後良好。\n- **ECD (Expanded Criteria Donor)**: 邊緣性/擴充條件捐贈者，器官堪用但具有較高 Delayed Graft Function (DGF) 與長遠 Failure 風險。\n\n### 2. ECD Standard Definition & Comparison Table\n\n#### Deceased Donor Criteria Differential Comparison:\n| Donor Feature | Standard Criteria Donor (SCD) | Expanded Criteria Donor (ECD) |\n| :--- | :--- | :--- |\n| **Primary Age Boundary** | Age < 50 years | Age ≥ 60 years OR Age 50-59 years with ≥ 2 risk factors |\n| **Risk Factors Evaluated** | No significant comorbidities | 1. History of Hypertension<br>2. Terminal SCr > 1.5 mg/dL<br>3. Cause of Death = CVA |\n| **Graft Function Risk** | Low DGF Risk | **High DGF & Reduced Allograft Survival Risk** |\n\n#### ECD Diagnostic Decision Tree:\n```\n[Deceased Kidney Donor Evaluation]\n                │\n                ├─► Criterion A: Age ≥ 60 years  ───────────► [DIAGNOSED AS ECD]\n                │\n                └─► Criterion B: Age 50-59 years \n                                    │\n                                    ▼\n                Must meet AT LEAST 2 of the following 3 criteria:\n                1. History of Hypertension\n                2. Terminal Serum Creatinine > 1.5 mg/dL\n                3. Cause of death = Cerebrovascular Accident (CVA)\n                                    │\n                                    ▼\n                        [DIAGNOSED AS ECD]\n```\n\n### 3. DCD Functional Warm Ischemia Time Limits\n在 Donation after Circulatory Death (DCD) 過程中：\n\n- **Functional Warm Ischemia Time (fWIT) 定義**:\n  - 自 **收縮壓 SBP < 50 mmHg** 或 **血氧 SaO2 < 75%** 時開始計算 (兩者只要有任一項達標即算啟動)，直至灌流冷保存液 (Cold Perfusion) 為止。\n- **各器官 Functional Warm Ischemia Time 可忍受上限極限 (Organ Tolerance Limits)**:\n\n| Organ Type | Maximum Allowable Functional WIT (fWIT Limit) |\n| :--- | :--- |\n| **Liver** | **30 Minutes** |\n| **Pancreas** | **30 Minutes** |\n| **Lung** | **60 Minutes** |\n| **Kidney** | **120 Minutes** |\n\n> [!WARNING]\n> **Trap Analysis**: 腎臟對熱缺血 (fWIT) 的忍受度為各器官最高 (120 分鐘)，而肝臟與胰臟僅能忍受 30 分鐘。",
           "keyTerms": [
             "SCD",
@@ -195,6 +286,15 @@
         },
         {
           "heading": "Living Kidney Donor Evaluation & Contraindications",
+          "diagrams": [
+            {
+              "id": "ai_donor_selection_fwit_sec2",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/ai_donor_selection_fwit.png",
+              "path": "/server-data/assets/ai_donor_selection_fwit.png",
+              "caption": "AI Illustration: Living Donor Evaluation & Absolute vs Relative Contraindications."
+            }
+          ],
           "content": "### 1. Living Donor Contraindications Classification\n\n| Contraindication Category | Clinical Diagnostic Conditions |\n| :--- | :--- |\n| **Absolute Contraindications** | • **Diagnosis of IgA Nephropathy or Alport Syndrome**<br>• **Type 1 Diabetes Mellitus**<br>• Age < 18 years or mentally incapable of consent<br>• High suspicion of donor coercion or illegal financial exchange<br>• Impaired kidney function (eGFR < 60 mL/min/1.73m²)<br>• Proteinuria (> 300 mg/day)<br>• Uncontrolled hypertension or HTN with end-organ damage<br>• Bilateral recurrent kidney stones<br>• Active or history of **Melanoma, Testicular cancer, Choriocarcinoma, Hematologic cancer, Monoclonal gammopathy, Bronchial cancer, Metastatic cancer** |\n| **Relative Contraindications** | • **Type 2 Diabetes Mellitus**<br>• **Two APOL1 renal risk variants**<br>• **Morbid Obesity (BMI > 35 kg/m²)**<br>• Chronic illness (cardiac, pulmonary, GI, neurologic)<br>• Active substance use disorder |\n\n### 2. Conceptual Trap Analysis\n> [!WARNING]\n> **Trap 1**: Type 1 DM 為 100% 絕對禁忌症；而 Type 2 DM 在血糖控制良好且無微血管併發症下屬於相對禁忌症。\n> **Trap 2**: IgA Nephropathy 及 Alport Syndrome 確診患者皆為絕對禁忌症。\n> **Trap 3**: 具備 Two APOL1 risk variants 屬於相對禁忌症，需評估種族背景與長期 FSGS 發展風險。",
           "keyTerms": [
             "Living Donor",

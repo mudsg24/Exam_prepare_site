@@ -202,7 +202,11 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
               {/* Module Reference Micrographs / Standalone Figures Gallery */}
               {(() => {
                 const standaloneDiagrams = activeModule.diagrams?.filter(
-                  (diag) => !activeModule.sections.some((sec) => sec.diagram?.id === diag.id || sec.diagrams?.some((d) => d.id === diag.id))
+                  (diag) => !activeModule.sections.some((sec) =>
+                    sec.diagram?.id === diag.id ||
+                    sec.diagram?.imagePath === diag.imagePath ||
+                    sec.diagrams?.some((d) => d.id === diag.id || d.imagePath === diag.imagePath)
+                  )
                 ) || [];
                 const has1to1Matching = activeModule.diagrams?.length === activeModule.sections.length;
 

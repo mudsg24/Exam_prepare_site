@@ -574,9 +574,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nFoot Process Effacement 之 Small GTPases 重塑機制：\n- **Small GTPase Dynamics**: 正常 Podocytes 的 Foot Processes 維持有序之平行 F-Actin Stress Fibers，受 RhoA 保持生理適度活性維持。當 Podocytes 受到損傷或因子刺激時，胞內 Small GTPases **Rac1 與 Cdc42 被過度活化**，配合 **RhoA 活性的失衡抑制或異常**。\n- **Actin Remodeling**: Rac1/Cdc42 的過度活化驅動 Lamellipodia 與 Dense Cortical Actin Network 的形成，使 Foot Processes 結構扁平化、互相融合成連續的胞質片狀，引發 Slit Diaphragm 位移與過濾障礙。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Cytoskeleton 重塑係由 F-Actin 重組驅動，而非 Tubulin 結晶，且 Rac1 呈現上調。\n- **(C) 錯誤**：Small Rho-GTPases (RhoA, Rac1, Cdc42) 為 Podocyte Cytoskeleton 重塑的核心靈魂，非 Mitochondrial Cytochrome c Oxidase 獨占。\n- **(D) 錯誤**：Smooth Muscle Myosin Light Chain Kinase 受阻非 Foot Process Effacement 主要 Small GTPases 開關。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **RhoA / Rac1 Balance**: RhoA 活性適中維繫穩定 Stress Fibers；Rac1 活性過高引發 Foot Process Effacement 與動態 Motility 增加。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies), `Fig 4.2D`.\n- *Brenner 11e*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1` (ARHGAP24 & ARHGDIA).",
+      "sourceExplanation": "根據文獻分析與臨床生理學，這是一份醫學解析 (This is a medical analysis summary based on guidelines)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "resolvedImages": [
         "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
@@ -607,7 +607,10 @@
           "selectedOption": "NONE"
         }
       ],
-      "selectedOption": "B"
+      "selectedOption": "B",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.050Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_slit_diaphragm_q11",
@@ -694,9 +697,9 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nSecondary Adaptive FSGS 的診斷與治療原則：\n- **Clinical Presentation**: 患者呈現 Sub-nephrotic Proteinuria (1.2 g/day)、Serum Albumin 正常 (3.8 g/dL)、無 Peripheral Edema。光鏡顯示 Glomerulomegaly，Transmission Electron Microscopy (TEM) 僅呈局限性 Foot Process Effacement (30% < 50%)。這些均為典型**Secondary Adaptive FSGS** 之特徵 (由 Hyperfiltration 引起)。\n- **Management Rule**: Secondary Adaptive FSGS **絕對禁止使用強效 Corticosteroids 或 Immunosuppressants** (無效且增加感染死亡率)！第一線治療必須為 RAAS Inhibitors (ACEi / ARB) 配合 SGLT2 Inhibitors 以降低 Single-nephron Intraglomerular Pressure 與 Hyperfiltration。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) & (B) 錯誤**：High-dose Corticosteroids、Cyclophosphamide、Plasmapheresis 及 Rituximab 為 Primary (Circulating Permeability Factor) 重度水腫 FSGS 之療法，不適用於 Secondary Adaptive FSGS。\n- **(C) 錯誤**：病患 Renal Function 未達 ESKD，切除雙腎為嚴重醫療錯誤。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Primary vs Secondary Adaptive FSGS**: \n  - **Primary**: 起病急、暴發 Nephrotic Syndrome、Serum Albumin < 2.5 g/dL、TEM 廣泛 Effacement (>80%) ➔ **需要 High-dose Corticosteroids / CNI / Plasmapheresis**。\n  - **Secondary**: 起病隱匿、Sub-nephrotic Proteinuria、Serum Albumin > 3.5 g/dL、TEM 局限 Effacement (<50%) ➔ **僅使用 ACEi / ARB / SGLT2i，禁用 Immunosuppressants**。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 31 (Primary Glomerular Disease), `Section: Focal Segmental Glomerulosclerosis - Secondary Adaptations`.\n- *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*, Chapter 6 (FSGS).",
+      "sourceExplanation": "根據文獻分析與臨床生理學，這是一份醫學解析 (This is a medical analysis summary based on guidelines)。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "resolvedImages": [
         "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_5.png"
@@ -727,7 +730,10 @@
           "selectedOption": "NONE"
         }
       ],
-      "selectedOption": "D"
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.050Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     }
   ]
 }

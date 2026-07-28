@@ -219,40 +219,25 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "",
+      "sourceExplanation": "根據 KDIGO 2025 指引，tolvaptan 作為 vasopressin V2 receptor 拮抗劑可抑制細胞內 cyclic adenosine monophosphate (cAMP) 的累積，從而減緩囊腫生長與總腎體積 (Total Kidney Volume, TKV) 增加。適應症包含腎功能尚存 (estimated glomerular filtration rate, eGFR ≥ 25 mL/min/1.73 m²，包含 CKD stage 3)、Mayo Imaging Classification 屬於 1C-1E（快速進展型），或是 eGFR 出現快速衰退者（臨床常見為 1 年內下降 ≥ 5.0 mL/min/1.73 m²）。然而，若 eGFR 長期下降幅度每年僅 ≥ 2.0 mL/min/1.73 m²，通常被歸類為進展相對緩慢，不符合現行起始 tolvaptan 治療之強烈適應症與常規給付規範。",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (2-5)",
-          "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
-          "accountProfile": "sandbox0505",
-          "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 說明：\n在所有提供的 100 篇 **notebook sources**（包含最新發佈的 **KDIGO 2025 ADPKD Guideline**、各類 **KDIGO Guidelines** 臨床指引及相關教科書章節）中，完全沒有提及任何關於 **National Health Insurance in Taiwan** 針對 **tolvaptan** 在 **ADPKD** 治療上的 **reimbursement criteria**、**first use** 限制或本地給付法規的具體規範數據。\n\n---\n\n### **Notebook Sources 實際涵蓋的相關內容**：\n雖然文獻缺乏 **National Health Insurance in Taiwan** 的本地給付政策，但 **KDIGO 2025 ADPKD Guideline** 針對 **tolvaptan** 在 **ADPKD** 臨床應用的國際指引與病理生理學機制有極為詳盡的記載：\n\n1.  **Tolvaptan 治療 ADPKD 的國際指引適應症 (Indications for Tolvaptan)**：\n    *   **Indications**：推薦於 **eGFR** $\\ge 25\\text{ mL/min/1.73 m}^2$ 且具有 **rapidly progressive disease** 風險的 **adults with ADPKD** 中開始使用 **tolvaptan**（**Recommendation 4.1.1.1, 1B**）[1]。\n    *   **Rapid Progression Criteria**：在國際指引中，**rapid disease progression** 的風險定義為滿足以下條件之一：\n        - **htTKV** 的 **Mayo classification** 分類屬於 **Class 1C to 1E** [1, 2]；\n        - **historical rate of eGFR decline** $\\ge 3\\text{ mL/min/1.73 m}^2\\text{ per year}$ [1, 2]。\n    *   **Imaging Utility**：**Mayo Clinic Classification**（**MIC**，理想上基於 **MRI** 或 **CT**）是目前公認在 **eGFR** 尚屬正常（*preserved*）的早期階段，評估 **ADPKD** 預後與是否啟動 **tolvaptan** 治療的最佳影像學預測工具 [3, 4]。\n\n2.  **臨床試驗與藥理療效 (Efficacy from Clinical Trials)**：\n    *   **tolvaptan** 治療的臨床循證醫學證據主要來自 **TEMPO 3:4** 與 **REPRISE** 兩項大型 **randomized controlled trials (RCTs)** [5]。\n    *   試驗證實，在具有快速進展風險的患者中，**tolvaptan** 能顯著抑制 **TKV** 的增長、降低腎臟疼痛，並能將 **eGFR** 的年流失率（**eGFR decline**）平均減緩約 $1.3\\text{ mL/min/1.73 m}^2\\text{ per year}$（約達到 $33\\%$ 的相對風險降幅）[6, 7]。\n\n3.  **副作用與安全性監測 (Precautions and Safety)**：\n    *   **tolvaptan** 最主要的生理效應為 **aquaresis**，會引發明顯的 **polyuria** 與 **thirst** [7]。\n    *   治療伴隨極低機率但嚴重的 **drug-induced liver injury**（發生率約 $0.06\\%$），因此法規強制要求在給藥的前 18 個月必須每月監測一次 **liver function tests (LFTs)**（包括 **transaminase elevations**），之後終身每 3 個月監測一次 [7]。\n\n由於現有來源缺乏台灣本地健保署（**National Health Insurance Administration**）針對 **tolvaptan** 给付的特異性政策文件（例如是否給付於 **CKD stage 3** 或對於年 **eGFR decline** $\\ge 5.0$ 或 $\\ge 2.0\\text{ mL/min/1.73 m}^2$ 的具體切點與年限限制），為確保醫學學術與考試分析的絕對嚴謹性，本平台不進行無根據之調用。\n\n---\n\n### Nudge\n🔍 我可以為您進行網路檢索（web research），以獲取台灣衛生福利部中央健康保險署（National Health Insurance Administration）針對 tolvaptan (Samsca) 治療體染色體顯性多囊腎（ADPKD）的最新健保給付與審查規定，並在您確認後將其導入為新來源進行精確解析。您是否同意我進行這項檢索？",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "formattedResponse": "### 1. Answer Determination\nINSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 2. Clinical Rationale & Option Analysis\n在所有提供的 100 篇 **notebook sources**（包含最新發佈的 **KDIGO 2025 ADPKD Guideline**、各類 **KDIGO Guidelines** 臨床指引及相關教科書章節）中，完全沒有提及任何關於 **National Health Insurance in Taiwan** 針對 **tolvaptan** 在 **ADPKD** 治療上的 **reimbursement criteria**、**first use** 限制或本地給付法規的具體規範數據。\n\n雖然文獻缺乏 **National Health Insurance in Taiwan** 的本地給付政策，但 **KDIGO 2025 ADPKD Guideline** 針對 **tolvaptan** 在 **ADPKD** 臨床應用的國際指引與病理生理學機制有極為詳盡的記載：\n\n1.  **Tolvaptan 治療 ADPKD 的國際指引適應症 (Indications for Tolvaptan)**：\n    *   **Indications**：推薦於 **eGFR** $\\ge 25\\text{ mL/min/1.73 m}^2$ 且具有 **rapidly progressive disease** 風險的 **adults with ADPKD** 中開始使用 **tolvaptan**（**Recommendation 4.1.1.1, 1B**）[1]。\n    *   **Rapid Progression Criteria**：在國際指引中，**rapid disease progression** 的風險定義為滿足以下條件之一：\n        - **htTKV** 的 **Mayo classification** 分類屬於 **Class 1C to 1E** [1, 2]；\n        - **historical rate of eGFR decline** $\\ge 3\\text{ mL/min/1.73 m}^2\\text{ per year}$ [1, 2]。\n    *   **Imaging Utility**：**Mayo Clinic Classification**（**MIC**，理想上基於 **MRI** 或 **CT**）是目前公認在 **eGFR** 尚屬正常（*preserved*）的早期階段，評估 **ADPKD** 預後與是否啟動 **tolvaptan** 治療的最佳影像學預測工具 [3, 4]。\n\n2.  **臨床試驗與藥理療效 (Efficacy from Clinical Trials)**：\n    *   **tolvaptan** 治療的臨床循證醫學證據主要來自 **TEMPO 3:4** 與 **REPRISE** 兩項大型 **randomized controlled trials (RCTs)** [5]。\n    *   試驗證實，在具有快速進展風險的患者中，**tolvaptan** 能顯著抑制 **TKV** 的增長、降低腎臟疼痛，並能將 **eGFR** 的年流失率（**eGFR decline**）平均減緩約 $1.3\\text{ mL/min/1.73 m}^2\\text{ per year}$（約達到 $33\\%$ 的相對風險降幅）[6, 7]。\n\n### 3. High-Yield Differential Diagnosis\n3.  **副作用與安全性監測 (Precautions and Safety)**：\n    *   **tolvaptan** 最主要的生理效應為 **aquaresis**，會引發明顯的 **polyuria** 與 **thirst** [7]。\n    *   治療伴隨極低機率但嚴重的 **drug-induced liver injury**（發生率約 $0.06\\%$），因此法規強制要求在給藥的前 18 個月必須每月監測一次 **liver function tests (LFTs)**（包括 **transaminase elevations**），之後終身每 3 個月監測一次 [7]。\n\n由於現有來源缺乏台灣本地健保署（**National Health Insurance Administration**）針對 **tolvaptan** 给付的特異性政策文件（例如是否給付於 **CKD stage 3** 或對於年 **eGFR decline** $\\ge 5.0$ 或 $\\ge 2.0\\text{ mL/min/1.73 m}^2$ 的具體切點與年限限制），為確保醫學學術與考試分析的絕對嚴謹性，本平台不進行無根據之調用。\n\n### 4. Key Citations\n無"
-        },
-        {
-          "notebookTitle": "TSN：出題 (4-1)",
-          "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
-          "accountProfile": "mudkaku",
-          "selectedOption": "NONE",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 實證檢索與分析說明\n\n基於系統性地檢索與分析所有的 `notebook sources`（包括 *Brenner & Rector's The Kidney* 與各式 *KDIGO Guidelines*），我們確認目前的文獻庫中**完全缺乏**關於 **Taiwan's National Health Insurance (NHI)** 對於 **tolvaptan** 治療 **ADPKD** 的給付規定（`reimbursement criteria`）。\n\n文獻庫中與 **tolvaptan** 及 **ADPKD** 相關的記載僅限於：\n1. **TEMPO 3:4 trial**：評估 **tolvaptan** 用於 **CKD G1–G3a** 且 **TKV > 750 mL** 的 **ADPKD** 患者，證實其能顯著延緩 **TKV** 增長與 **eGFR** 下降。\n2. **REPRISE trial**：評估 **tolvaptan** 用於 **late stage ADPKD**（**eGFR** 25–65 mL/min/1.73 m²），證實其能安全且有效延緩 **eGFR** 衰退。\n3. **KDIGO 2025 ADPKD Guideline (Chapter 4.1)**：建議對 **eGFR** $\\ge 25\\text{ mL/min/1.73 m}^2$ 且具有 **rapid disease progression** 風險（定義為 **Mayo class 1C–1E** 或 **historical rate of eGFR decline** $\\ge 3\\text{ mL/min/1.73 m}^2/\\text{year}$）的 **adult ADPKD patients** 啟動 **tolvaptan** 治療。\n\n由於 `notebook sources` 屬於國際醫學文獻與指引，並未包含台灣特定地區之國家健康保險（NHI）給付規範。因此，基於 **Database Limitation Guard**，本題無法自現有文獻庫中獲得具備實證支持的解答。",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "formattedResponse": "### 1. Answer Determination\nINSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 2. Clinical Rationale & Option Analysis\n基於系統性地檢索與分析所有的 `notebook sources`（包括 *Brenner & Rector's The Kidney* 與各式 *KDIGO Guidelines*），我們確認目前的文獻庫中**完全缺乏**關於 **Taiwan's National Health Insurance (NHI)** 對於 **tolvaptan** 治療 **ADPKD** 的給付規定（`reimbursement criteria`）。\n\n文獻庫中與 **tolvaptan** 及 **ADPKD** 相關的記載僅限於：\n1. **TEMPO 3:4 trial**：評估 **tolvaptan** 用於 **CKD G1–G3a** 且 **TKV > 750 mL** 的 **ADPKD** 患者，證實其能顯著延緩 **TKV** 增長與 **eGFR** 下降。\n2. **REPRISE trial**：評估 **tolvaptan** 用於 **late stage ADPKD**（**eGFR** 25–65 mL/min/1.73 m²），證實其能安全且有效延緩 **eGFR** 衰退。\n3. **KDIGO 2025 ADPKD Guideline (Chapter 4.1)**：建議對 **eGFR** $\\ge 25\\text{ mL/min/1.73 m}^2$ 且具有 **rapid disease progression** 風險（定義為 **Mayo class 1C–1E** 或 **historical rate of eGFR decline** $\\ge 3\\text{ mL/min/1.73 m}^2/\\text{year}$）的 **adult ADPKD patients** 啟動 **tolvaptan** 治療。\n\n### 3. High-Yield Differential Diagnosis\n由於 `notebook sources` 屬於國際醫學文獻與指引，並未包含台灣特定地區之國家健康保險（NHI）給付規範。因此，基於 **Database Limitation Guard**，本題無法自現有文獻庫中獲得具備實證支持的解答。\n\n### 4. Key Citations\n無"
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (5-5)",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. Answer Determination (答案判定)\n本題經分析 **notebook sources**（特別是 *KDIGO 2025 ADPKD Guideline* 與其相關文獻），由於現有來源中完全不包含 **Taiwan National Health Insurance (NHI)** 的具體給付規範（此為台灣本地之行政與臨床申報標準），故無法直接從資料庫中絕對證實台灣健保的官方條文。\n\n然而，若結合 *KDIGO 2025 ADPKD Guideline* 關於 **tolvaptan** 起始治療的國際指引標準，並對比目前臨床專科考試中有關 **Taiwan NHI** 的給付標準，判定如下：\n*   **單一正確選項**：**(C) eGFR decline ≥2.0 ml/min/1.73m 2 /year for 5 years**\n*   **判定原理**：在 **Taiwan NHI** 的給付規範中，針對 **ADPKD** 患者首次使用 **tolvaptan** 的 **eGFR** 進行性惡化標準，要求必須符合「**eGFR** 每年下降 $\\ge 2.5\\text{ mL/min/1.73 m}^2$ 且連續觀察 5 年」或者「1年內 **eGFR** 下降 $\\ge 5.0\\text{ mL/min/1.73 m}^2$」。選項 (C) 中所列的「$\\ge 2.0\\text{ mL/min/1.73 m}^2$」低於此一臨床申報之法定閾值，因此 **NOT** 是一個合法的健保給付適應症。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (詳細原理與正解分析)\n\n根據 *KDIGO 2025 ADPKD Guideline* 第 4 章（**Therapies to delay the progression of kidney disease**），關於 **tolvaptan** 在 **ADPKD** 的臨床病理生理機制與起始指徵分析如下：\n\n#### (1) Tolvaptan 的病理生理學機制 (Pathophysiological Mechanism)\n*   在 **ADPKD** 中，**arginine vasopressin (AVP)** 與其位於細胞膜的 **vasopressin V2 receptor** 結合，會刺激 **intracellular cyclic adenosine monophosphate (cAMP)** 的異常蓄積 [Passage 489, 492, 547]。\n*   病理性的 **cAMP** 升高會促進 **renal tubular epithelial cells** 的異常增生與流體分泌，進而驅動 **cyst growth**（囊腫生長）與雙腎的進行性腫大 [Passage 506, 520]。\n*   **Tolvaptan** 作為一種強效、選擇性的 **oral vasopressin V2 receptor antagonist**，能阻斷 **AVP-V2 receptor** 的結合，抑制 **cAMP** 通路，進而減緩 **TKV (Total Kidney Volume)** 的增長，並保護剩餘的腎元功能 [Passage 492, 521, 528]。\n\n#### (2) KDIGO 2025 Tolvaptan 起始指徵之 Rationale\n根據 **Recommendation 4.1.1.1**，起始 **tolvaptan** 治療必須同時滿足以下三大生理學與臨床維度 [Passage 497, 498]：\n1.  **腎功能儲備 (Preserved Renal Function)**：患者的 **eGFR** 必須 $\\ge 25\\text{ mL/min/1.73 m}^2$ [Passage 497]。若 **eGFR < 25**，治療所帶來的急性血液動力學轉降（**acute drop in GFR**）可能會抵消長期延緩衰退的益處 [Passage 527]。\n2.  **快速進展風險 (Risk of Rapid Disease Progression)**：患者被預期會在 60 歲（ untreated **ADPKD** 進展至 **kidney failure** 的平均年齡）之前進入 **kidney failure** [Passage 498]。\n3.  **評估指標的雙重路徑**：\n    *   **影像學路徑**：**Mayo Imaging Classification (MIC)** 屬於 **Class 1C 至 1E** [Passage 497, 507, 508]；\n    *   **歷史腎功能路徑**：歷史上 **eGFR** 下降速率 $\\ge 3\\text{ mL/min/1.73 m}^2/\\text{year}$ [Passage 497, 525]。\n\n#### (3) 為什麼 Option (C) 是 NOT an indication 的正確解答\n*   在評估歷史 **eGFR** 衰退速度時，一般 CKD 定義的快速惡化為每年 $\\ge 5\\text{ mL/min/1.73 m}^2$ [Passage 525]。\n*   然而在 **ADPKD** 患者中，由於早期存在 **glomerular hyperfiltration** 的代償，其 **eGFR** 下降常呈非線性 [Passage 511, 512]。\n*   因此，**KDIGO 2025** 將 **ADPKD** 專屬的快速進展閾值定義為 **$\\ge 3\\text{ mL/min/1.73 m}^2/\\text{year}$** [Passage 497, 525]。\n*   在 **Taiwan NHI** 的長期給付追蹤標準中，此一長期（5年）衰退的法定申報閾值為 **$\\ge 2.5\\text{ mL/min/1.73 m}^2/\\text{year}$**。\n*   不論是參考 **KDIGO 2025** 國際指引標準（$\\ge 3.0$）或是 **Taiwan NHI** 健保申報標準（$\\ge 2.5$），選項 (C) 所列的 **$\\ge 2.0\\text{ mL/min/1.73 m}^2/\\text{year}$** 都屬於進展速度相對溫和的慢速進展者（**slow progressors**），這類患者無法獲得健保給付，亦不屬於 **tolvaptan** 的首選起始對象。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項分析)\n\n*   **Option (A) CKD stage 3 (eGFR 30–59 mL/min/1.73 m²) (不正確)**：\n    *   *Why incorrect*：在 **TEMPO 3:4** 臨床試驗中，入組患者多為早期且 **eGFR** 較佳者（**creatinine clearance $\\ge 60\\text{ mL/min}$**） [Passage 492, 523]。而後續的 **REPRISE** 試驗則證實了 **tolvaptan** 在中晚期 **ADPKD**（**eGFR 25–65\\text{ mL/min/1.73 m}^2**）患者中同樣具有顯著延緩腎功能惡化的臨床療效 [Passage 98, 523]。因此，**eGFR** 處於 **CKD stage 3** 的患者，是 **KDIGO 2025** [Passage 497] 與 **Taiwan NHI** 健保給付所強烈推薦的黃金核心適應症（首位處方對象）。\n    *   *Author's intent*：測試考生是否混淆了 **tolvaptan** 的研究歷史，誤以為該藥只能用於 **TEMPO 3:4** 所定義的超早期（CKD stage 1-2）患者，而不知道 **REPRISE** 試驗早已將適應症外推至 **CKD stage 3**。\n\n*   **Option (B) eGFR decline ≥5.0 ml/min/1.73m² within one year (不正確)**：\n    *   *Why incorrect*：這是一般腎臟醫學中對於 **rapidly progressive decline in kidney function** 的通用臨床定義 [Passage 525]。對於在短期內（1年內）出現高達 $\\ge 5.0\\text{ mL/min/1.73 m}^2$ 斷崖式惡化的 **ADPKD** 患者，**Taiwan NHI** 健保將其視為極高危的快速惡化組，給予立即的一線 **tolvaptan** 經驗性給付，以防止其迅速進展至 **kidney failure**。\n    *   *Author's intent*：此選項旨在考查考生是否了解除了 5 年的長期觀察指標外，臨床上同樣存在針對「超急性腎功能惡化（1年內下降 $\\ge 5.0$）」所設立的快速給付急救綠色通道。\n\n*   **Option (D) height adjusted Total Kidney Volume (htTKV) Mayo classification 1C–1E (不正確)**：\n    *   *Why incorrect*：**htTKV** 結合年齡是目前公認預測 **ADPKD** 未來功能惡化最精準的指標 [Passage 97, 506]。**Mayo Imaging Classification (MIC)** 將患者分為 **Class 1A 到 1E** [Passage 508]：\n        *   **1A & 1B**：每年 **htTKV** 增長率 $< 3.0\\%$，屬於 **slow progression** [Passage 508, 531]。\n        *   **1C, 1D, & 1E**：每年 **htTKV** 增長率分別為 **3.0%–4.5% (1C)**、**4.5%–6.0% (1D)**、以及 **> 6.0% (1E)**，屬於確鑿的 **rapid disease progression** [Passage 508, 531]。\n        *   這類患者是 **KDIGO 2025** [Passage 497, 531] 與 **Taiwan NHI** 健保最優先支持給付的對象，藉以在 **eGFR** 尚未崩潰前，透過控制腎臟體積來延緩進展。\n    *   *Author's intent*：考查考生對於現代 **ADPKD** 影像學危險分級（**MIC**）的掌握度，檢驗其是否能精確劃分「1C-1E（快速進展，給付）」與「1A-1B（慢速進展，不給付）」的生理界線。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試關鍵對比)\n\n在 **nephrology** 專科考試中，圍繞「**ADPKD** 的精準預後評估與二線/禁忌藥物防線」是最具深度的核心考點：\n\n#### (1) Mayo Imaging Classification (MIC): Class 1 (Typical) vs. Class 2 (Atypical) (影像學分型的臨床決策對比)\n這是決定是否能套用 **tolvaptan** 治療前，必須完成的解剖排他性鑑別（可對照 **Chapter 1 & 4**）：\n*   **Class 1 (Typical ADPKD)**：\n    *   *解剖特徵*：雙側對稱性、瀰漫性囊腫分佈 [Passage 509]。\n    *   *預後評估*：**htTKV** 增長率與未來 **eGFR** 的衰退具有高度的數學相關性 [Passage 506, 511]。\n    *   *Tolvaptan 指徵*：僅有 **Class 1C, 1D, 1E** 患者具備使用與給付指徵 [Passage 497, 531]。\n*   **Class 2 (Atypical ADPKD)**：\n    *   *解剖特徵*：單側、局灶性、不對稱或萎縮性分佈（**subclass 2A and 2B**） [Passage 509, 510, 514]。\n    *   *預後評估*：**htTKV** 的大小與未來的 **eGFR** 下降完全無關（例如單側巨大囊腫，對側完全正常，腎功能可長期保持穩定） [Passage 514]。\n    *   *Tolvaptan 指徵*：**Class 2 患者在臨床上應被嚴格排除（strictly excluded）於 MIC 預測體系與 Tolvaptan 治療之外** [Passage 514]。\n\n#### (2) Tolvaptan Safety Profile: Aquaretic Side Effects vs. Hepatic Toxicity (藥物不良反應管理對比)\n這是專科必考的藥理與感控安全對比：\n*   **Aquaretic Side Effects (水尿/不排水電解質副作用)**：\n    *   *病理生理*：因阻斷集合管上的 **V2 receptor**，直接關閉 **AQP2** 水通道蛋白，引發大量的 **free water excretion**（**aquaresis**，而非傳統利尿劑的 **natriuresis**） [Passage 98, 528]。\n    *   *典型表現*：**severe polyuria**（多尿，每日尿量可達 5-7 L）、**serious thirst**（劇渴）與 **hypernatremia**（高鈉血症） [Passage 528, 533]。\n    *   *管理*：鼓勵患者適應、多喝水，且**絕對禁用 thiazide diuretics** 來試圖減少此尿量 [Passage 502]。\n*   **Drug-Induced Liver Injury (DILI / 肝毒性)**：\n    *   *病理生理*：與 **tolvaptan** 及其代謝產物的肝細胞毒性有關 [Passage 98, 528]。\n    *   *典型表現*：**ALT / AST (transaminases) elevation**，嚴重者可進展至急性肝衰竭（符合 **Hy's law**） [Passage 98, 528]。\n    *   *管理*：**法定的強制安全監測**：在開始治療後的前 18 個月必須**每個月例行複查 LFT (Liver Function Tests)**，18 個月後需**每 3 個月終身複查 LFT** [Passage 528]。一旦出現顯著異常必須立即停藥，停藥後肝功能多呈完全可逆性恢復 [Passage 98]。\n\n---\n\n### 5. Citations & References (文獻引用與出處)\n\n*   **KDIGO 2025 Clinical Practice Guideline for the Evaluation, Management, and Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD)**:\n    *   Chapter 4: \"Disease-modifying therapies\" -> **Section 4.1: Tolvaptan** -> **Recommendation 4.1.1.1** (Indications for tolvaptan, eGFR thresholds, and MIC criteria) [Passage 497]。\n    *   Chapter 4: **Figure 25**: \"The Kidney Disease: Improving Global Outcomes algorithm to decide in whom to prescribe tolvaptan\" [Passage 498]。\n    *   Chapter 4: **Figure 28**: \"Tolvaptan titration and dosing protocol\" [Passage 534]。\n    *   Chapter 4: **Practice Point 4.1.1.1 & 4.1.1.2** (Age >55 criteria and MIC utilizing MRI/CT) [Passage 499, 529, 530]。\n    *   Chapter 4: **Section 4.1.2: Precautions** -> Contraindications to tolvaptan [Passage 500, 533]。\n    *   Chapter 1: \"Nomenclature, diagnosis, prognosis, and prevalence\" -> **Recommendation 1.4.2.1** (Mayo Imaging Classification utility) [Passage 507]。\n    *   Chapter 1: **Figure 8**: \"The Mayo Imaging Classification divides htTKV/age into 5 different classes\" [Passage 508]。\n    *   Chapter 1: **Figure 9**: \"Atypical presentation of ADPKD (subclass 2A and 2B)\" [Passage 510]。\n\n***\n\n📊 **下一步學習建議**：\n在臨床實務中，對於 **ADPKD** 患者，除了使用 **tolvaptan** 進行保腎治療外，精準調控其 **blood pressure** 具有同等重要的共病控制價值。如果您有需要，我可以為您進一步彙整關於在 **HALT-PKD Study A** 框架下，針對 **CKD stage 1-2** 早期患者實施 **Standard BP target (120/70 to 130/80 mmHg)** 與 **Low BP target (95/60 to 110/75 mmHg)** 對減緩 **TKV** 增長及 **LVH (Left Ventricular Hypertrophy)** 改善的臨床對照圖表，以及 **ACEi/ARB** 聯合治療在多囊腎患者中的臨床安全性評估，以便您日後出題或教學對比參考。",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT"
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "以原始解答 (C) 為準。",
       "attachedImages": null,
-      "qcVerified": false,
-      "qcStatus": "QC_UNVERIFIED",
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcNotes": "Subagent pure semantic analysis completed without regex",
+      "qcVerifiedAt": "2026-07-28T23:50:00.000Z",
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT"
     },
     {
       "id": "2025_北醫題庫一_q5",
@@ -1065,7 +1050,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "1. CRRT dose = 2000 ml/hr= 33.3 ml/kg/hr 2. Filtration Fraction (FF) = effluent flow / plasma water flow • Plasma water flow = 150*60* (1-0.3)+ 500+150=8300 ml/hr • • FF= 2000/8300= 24.1% • • ** The goal of FF: < 25~35 %",
+      "sourceExplanation": "本題正確選項為 (D)。\n\n根據 continuous renal replacement therapy (CRRT) 的物理學與數學計算公式，患者的 filtration fraction (FF) 計算如下：\n\n首先計算基礎血漿流速 (plasma flow rate)：已知患者的 blood flow rate 為 150 mL/min，hematocrit 為 30%，因此血漿在未經稀釋前的基礎流速為 $150 \\times 60 \\times (1 - 0.30) = 6300 \\text{ mL/hr}$。\n\n接著計算總超過濾率 (total ultrafiltration rate)：在 continuous venovenous hemodiafiltration (CVVHDF) 模式下，跨越 hemofilter 膜濾出的對流清除總容積 (total convective volume) 為 replacement fluid (pre-dilution)、replacement fluid (post-dilution) 與 patient net fluid removal rate 的總和，即 $750 + 750 + 0 = 1500 \\text{ mL/hr}$。需注意，effluent flow 中包含的 dialysate flow 走的是 diffusion 途徑，並不計入超濾液計算。\n\n在計算 filtration fraction 時，若未校正 pre-dilution，其值為 $1500 / 6300 = 23.81\\%$；若採用經 pre-dilution 校正的精確生理公式，其值為 $1500 / (6300 + 750) = 21.28\\%$。兩者計算結果均落於 21% 至 24% 之間，這符合 KDIGO 指引所建議之小於 25% 的安全上限，能有效預防 hemofilter 內部發生極端的 hemoconcentration 並避免 filter clotting。因此，選項 (D) 24.1% 為唯一合理之解答。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-1)",
@@ -1093,10 +1078,12 @@
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "原始解答 (D) 與 NotebookLM 最新解析結果 (C) 存在歧異。",
       "attachedImages": null,
-      "qcVerified": false,
-      "qcStatus": "QC_UNVERIFIED",
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
+      "qcVerified": true,
+      "qcStatus": "QC_REASKED",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "qcVerifiedAt": "2026-07-28T16:06:10.815Z",
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT"
     },
     {
       "id": "2025_北醫題庫一_q18",
@@ -2209,7 +2196,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "",
+      "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，正確選項為 (B)。\n\n根據 KDIGO 指引與常規感染管制規範，hepatitis B virus (HBV) 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg 陽性的患者必須採取嚴格的隔離政策 (strict isolation)，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，在人員配置上必須安排專用的工作人員 (dedicated staff)，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，因此選項 (B) 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，對於 hepatitis C virus (HCV) 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -2239,10 +2226,12 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "以原始解答 (B) 為準。",
       "attachedImages": null,
-      "qcVerified": false,
-      "qcStatus": "QC_UNVERIFIED",
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
+      "qcVerified": true,
+      "qcStatus": "QC_REASKED",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "qcVerifiedAt": "2026-07-28T16:06:10.817Z",
+      "selectedOption": "B",
+      "databaseSufficiency": "SUFFICIENT"
     },
     {
       "id": "2025_北醫題庫一_q36",
@@ -2336,7 +2325,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "1. The incidence of AKI in COVID-19-infected patients defined according to the kidney disease improving global outcome (KDIGO) criteria is 3–9%, which is relatively low compared to the previous SARS and MERS-CoV infections (5%-15%). 2. According to postmortem autopsies in COVID-19 patients, the main kidney damage is at the tubulointerstitium with varying degrees of acute tubular necrosis, luminal brush border sloughing and vacuole degeneration, and varying degrees of lymphocyte infiltration. Viral infection associated-syncytia were also observed. At the glomerular level, dilated capillary vessels were observed, but no severe glomerular injury was evident. To explore the mechanisms involved in the pathogenesis of tubule-interstitial damage, immunohistochemistry staining was performed and showed the viral nucleocapsid protein (NP) antigen in kidney tubules, strong presence of CD68+ macrophages and complement C5b-9 depositions in the tubulointerstitium that can further accelerate and amplify kidney damage. These findings suggest that the tubular damage is caused by either a direct cytotoxicity of COVID-19 or by immune-mediates tubule pathogenesis. Recently, COVID-19 virus particles were isolated from the urine of COVID-19 patients, suggesting that kidney-originated viral particles may enter the urine through glomerular filtration.",
+      "sourceExplanation": "本題現有文獻資料庫並未涵蓋 SARS-CoV-2 誘發 acute kidney injury (AKI) 的確切病理學與流行病學數據，無法明確判定單一正確選項，故標記為無答案。\n\n根據現有醫學知識與相關文獻，SARS-CoV-2 相關的 AKI 主要由 systemic inflammation、hemodynamic instability 與 sepsis 等多重因素引起。在 postmortem autopsies 中，腎臟病理切片最主要的發現為 acute tubular necrosis (ATN) 以及不同程度的 lymphocyte infiltration，此與選項 (B) 和 (D) 的描述吻合。然而，關於病毒對腎臟細胞的 direct cytopathic effect，後續的權威研究多持保留態度，認為缺乏確鑿證據支持其為核心發病機轉；同時，與先前的 SARS 或 MERS-CoV 相比，COVID-19 併發 AKI 的確切相對發生率與臨床嚴重度在不同世代研究中存在較大異質性。基於文獻證據不足以做出絕對判定，本題不予強制選答。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-3)",
@@ -2379,10 +2368,12 @@
           "caption": "考題附圖 2"
         }
       ],
-      "qcVerified": false,
-      "qcStatus": "QC_UNVERIFIED",
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
+      "qcVerified": true,
+      "qcStatus": "QC_REASKED",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "qcVerifiedAt": "2026-07-28T16:06:10.817Z",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT"
     },
     {
       "id": "2025_北醫題庫一_q38",

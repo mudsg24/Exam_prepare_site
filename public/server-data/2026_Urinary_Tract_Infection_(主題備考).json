@@ -453,9 +453,9 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nEmphysematous Pyelonephritis (EPN) 為 Diabetes Mellitus (DM) 患者最危急之腎臟重症感染：\n- **Pathophysiology**: 90% 以上發生於 DM 患者，*E. coli* 於組織壞死及高糖環境下發酵葡萄糖產生 $\\text{CO}_2$ 與 $\\text{H}_2$ 氣體。\n- **Management Paradigm Shift**: 過去傳統觀念主張立即進行 Emergency Nephrectomy；然而現代實證醫學表明，**「廣效靜脈抗生素 + Percutaneous Drainage (PCD)」為首選經驗處置**。PCD 可將死亡率自單純內科 50% 或 Emergency Nephrectomy 25% 顯著降低至 13.5%，並保留腎功能。Emergency Nephrectomy 僅保留給 PCD 引流失敗或器官完全壞死者。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Emergency Nephrectomy 已非首選一線處置，首選為 PCD 引流配合抗生素。\n- **(B) 錯誤**：單純內科抗生素治療（無引流）死亡率高達 50%，絕不足夠。\n- **(C) 錯誤**：雙側輸尿管導管無法有效引流實質內與腎周積氣與膿瘍。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Emphysematous Pyelonephritis (EPN) Key Facts**:\n  - **Host**: Poorly controlled T2DM (90%).\n  - **Pathogen**: *E. coli* (60%), *Klebsiella*.\n  - **Imaging**: CT demonstrates parenchymal gas.\n  - **Treatment Priority**: **Broad-spectrum IV Antibiotics + Percutaneous Drainage (PCD)**.\n  - **Emergency Nephrectomy**: Reserved for PCD treatment failure.\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 36 (Urinary Tract Infection in Adults):\n  - `Table 36.1: Abnormalities of the Urinary Tract That May Be Associated With Complicated UTI`",
+      "sourceExplanation": "本題考查嚴重 `emphysematous pyelonephritis` (EPN) 的初始管理策略。EPN 是一種具破壞性且進展迅速的急性壞死性感染，高達 90% 的患者合併有控制不良的 `diabetes mellitus`。致病菌（如 `Escherichia coli`）在高濃度組織葡萄糖的微環境中發酵，釋放大量氣體（如 `CO2`），導致局部微循環惡化與組織壞死。在過去，`emergency nephrectomy` 被視為標準治療；然而，現代治療指引已轉向保留腎臟的微創方案。實證顯示，結合 `medical management` 與早期 `percutaneous drainage` (PCD) 能顯著降低死亡率至 13.5%，優於單純藥物治療或緊急腎切除術。對於併發 `septic shock` 與血流動力學不穩定的患者，由於胃腸道吸收不可靠，必須立即啟動 `parenteral broad-spectrum antibiotic therapy` 聯合影像導引（如 `CT` 或 `ultrasound`）的 PCD 進行引流減壓。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "resolvedImages": [
         "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
@@ -486,7 +486,10 @@
           "selectedOption": "NONE"
         }
       ],
-      "selectedOption": "D"
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.013Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_uti_in_adults_q9",
@@ -573,9 +576,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPCNL 術中併發 Pyelovenous Backflow 致 Septic Shock 之物理機制：\n- **Struvite Pathogenesis**: *Ureaplasma urealyticum* 為 Urease-producing 之慢生型非典型致病菌，常造成常規尿液培養偽陰性，但會水解尿素致尿液呈強鹼性 ($\\text{pH} > 7.5$) 並形成 Struvite Staghorn Calculus。\n- **Pyelovenous Backflow Mechanism**: 在 PCNL碎石過程中，當腎盂灌注壓力超過 **30 mmHg** 時，強大的流體靜壓會推開破裂之腎小靜脈與淋巴管，引發**Pyelovenous / Pyelolymphatic Backflow**。結石生物膜中大量細菌與內毒素直接被迫射入 Systemic Circulation，誘發急劇 Septic Shock。因此 (C) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：TURP Syndrome 為高吸收水份致稀釋性低鈉血症，不會引發典型高燒、戰栗與 Septic Shock。\n- **(B) 錯誤**：Anaphylaxis 不伴隨 Urease-producing 細菌或高灌注壓促發之靜脈反流特徵。\n- **(D) 錯誤**：Acute Adrenal Crisis 為皮質醇不足，與碎石灌注壓及結石細菌反流無關。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Urease-Producing Organisms**: *Proteus mirabilis*, *Klebsiella pneumoniae*, *Pseudomonas*, *Ureaplasma urealyticum*.\n- **PCNL Urosepsis Prevention Triad**:\n  1. Preoperative culture-directed antibiotic coverage (based on pelvic urine/stone culture).\n  2. **Maintain low renal pelvic irrigation pressure (< 30 mmHg)**.\n  3. Minimize operative fragmentation duration.\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 36 (Urinary Tract Infection in Adults):\n  - `Table 36.1: Abnormalities of the Urinary Tract Associated With Complicated UTI`",
+      "sourceExplanation": "本題考查 `percutaneous nephrolithotomy` (PCNL) 術中突發 `urosepsis` 的病理生理學機制。患者罹患由 `urease-producing pathogens`（如 `Ureaplasma urealyticum`）所引起的 `struvite calculus`。這類隱匿性細菌常深藏於結石基質內，導致常規的術前 `voided urine culture` 呈偽陰性。在 PCNL 的碎石（`stone fragmentation`）過程中，若 `irrigation fluid` 導致 `renal pelvic pressure` 超過 30 mmHg 的臨界值，高壓會突破解剖學屏障，引發 `pyelovenous backflow` 與 `pyelolymphatic backflow`。此逆流現象會將釋放的細菌與大量的 `bacterial endotoxins` 強行推送進入全身循環（`systemic circulation`），進而迅速觸發強烈的發炎反應與 `proinflammatory cytokines` 釋放，臨床上表現為突發的 `severe hypotension`、`shivering` 與 `septic shock`。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "resolvedImages": [
         "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
@@ -606,7 +609,10 @@
           "selectedOption": "C"
         }
       ],
-      "selectedOption": "C"
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.013Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_uti_in_adults_q11",

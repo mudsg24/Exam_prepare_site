@@ -422,7 +422,7 @@
           "text": "Adjust effluent dosage for targeted serum Na"
         }
       ],
-      "sourceExplanation": null,
+      "sourceExplanation": "本題關於在使用 CRRT 糾正 severe hyponatremia 時何種措施最安全且便利。雖然文獻缺乏直接針對選項的比較，但詳述了其病理生理學原則。對於 liver failure 導致的 hyponatremia，CRRT 能控制體液並緩慢糾正。進行體外清除時，dialysate 或 replacement fluid 中的鈉濃度必須根據患者的 serum concentrations 進行精確滴定。對於慢性低鈉血症（大於 48 小時），腦細胞已適應低滲環境，若過快提升 plasma sodium，會引發致命的 osmotic demyelination syndrome。各選項分析：(A) 和 (B) 涉及直接在 dialysate 中加入無菌水，屬於 off-label compounding，具有極高的感染風險與配製錯誤風險。(C) 使用獨立靜脈輸注 dextrose water 是臨床常用且安全的 free water 補給法，不需更改 CRRT 管路或處方。(D) 單純調整 effluent dosage 無法精確控制跨膜鈉離子擴散，可能加速血鈉升高誘發 osmotic demyelination syndrome。由於文獻證據未直接指明標準答案，本題判定為無確切答案。",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
@@ -452,12 +452,14 @@
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "原始解答 (A) 與 NotebookLM 最新解析結果 (C) 存在歧異。",
       "resolvedImages": [],
-      "qcStatus": "QC_UNVERIFIED",
-      "qcVerified": false,
-      "qcVerifiedAt": "2026-07-24T18:30:52.077Z",
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-28T16:06:10.844Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "attachedImages": null
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "attachedImages": null,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT"
     },
     {
       "id": "2025_林長考訊_q9",

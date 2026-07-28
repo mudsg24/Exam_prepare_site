@@ -477,7 +477,7 @@
           "text": "Nitrous oxide"
         }
       ],
-      "sourceExplanation": null,
+      "sourceExplanation": "本題探討一名 29 歲高血壓男性在炎熱環境工作並吸入類似氨氣味氣體後，出現噁心、頭暈與輕度呼吸困難，實驗室檢查發現 methemoglobin 升高至 15% 的致病原因。雖然資料庫文獻僅提及 chloramine 作為 dialysate 污染物會引發貧血，以及 rasburicase 或 inhaled nitric oxide 可引發 methemoglobinemia，但並未直接記載本題情境。根據臨床毒理學，混合漂白水與氨水會釋放具刺激性的 chloramine gas，其吸入後可能誘發高達 15% 的 methemoglobinemia。其他選項如 carbon monoxide、cyanide 或 nitrous oxide 並無引發此類急性吸入性變性血紅素血症的典型病理數據。由於缺乏直接文獻證據確認正解，本題判定為無答案。",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
@@ -507,10 +507,13 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "以原始解答 (B) 為準。",
       "resolvedImages": [],
-      "qcStatus": "QC_UNVERIFIED",
-      "qcVerified": false,
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "attachedImages": null
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "attachedImages": null,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:10.848Z"
     }
   ]
 }

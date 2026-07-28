@@ -373,7 +373,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Urinary Biomarkers (NGAL & KIM-1) in Obstructive Injury 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Urinary Biomarkers (NGAL & KIM-1) in Obstructive Injury。",
+      "sourceExplanation": "傳統的 functional biomarkers 如 serum creatinine 存在嚴重的時間滯後 (trailing marker)。在早期小管間質受損時，受惠於 renal reserve 與殘餘腎單位的 compensatory hyperfiltration，serum creatinine 的上升會出現延遲。新型的小管損傷結構性標誌物 (structural biomarkers of tubular injury) 如 Urinary NGAL 與 Urinary KIM-1 能更早識別早期小管間質的結構性受損 (tubulointerstitial injury)。NGAL 主要在 distal tubule epithelium 受損時表達上調，而 KIM-1 則在 proximal tubular cells 受損時爆發性高表達。藉由評估這兩種指標的動態變化，能精確評估並預測 relief of obstruction 後 renal function recovery 的概率與程度。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -388,8 +388,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "selectedOption": "B",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.166Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "Q09",
@@ -421,7 +425,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Bladder Structural Changes in Decompensated BOO 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Bladder Structural Changes in Decompensated BOO。",
+      "sourceExplanation": "在慢性 bladder outlet obstruction (BOO) 的 decompensated phase，bladder 會發生 detrusor compliance 下降，這是由於大規模 collagen deposition 所致。這會導致 high storage pressures，進而引發雙側 ureteral reflux 與 hydronephrosis。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -436,8 +440,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "selectedOption": "B",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.166Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "Q10",
@@ -565,7 +573,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 阻塞性腎病變長遠腎功能恢復之決定因素 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - 阻塞性腎病變長遠腎功能恢復之決定因素。",
+      "sourceExplanation": "在 obstructive nephropathy 的病理生理學中，解除 complete ureteral obstruction 後，kidney 的長期功能恢復潛力 (long-term functional recovery) 主要取決於 duration of obstruction (梗阻持續時間)。急性梗阻時，集尿系統內壓力迅速上升，導致 afferent glomerular arteriole 發生強烈 vasoconstriction，進而使 renal blood flow 與 glomerular filtration rate (GFR) 顯著下降。若能在此階段（1 至 2 週內）迅速診斷並 prompt relief of obstruction，GFR 通常能夠獲得顯著或完全的恢復。當 complete ureteral obstruction 持續時間延長時，腎小管上皮細胞會釋放多種 proinflammatory and profibrotic molecules，驅動 inflammatory cells 浸潤腎間質，誘發 interstitial myofibroblasts 蓄積，最終導致嚴重的 tubulointerstitial fibrosis、tubular atrophy 以及實質性結構完全損毀。若梗阻超過 8 週，即使解除梗阻，GFR 恢復通常極為有限。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -580,8 +588,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.166Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "Q13",
@@ -757,7 +769,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Lumasiran (RNAi HAO1) 治療 PH1 之標靶機轉 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：尿路結石 - Lumasiran (RNAi HAO1) 治療 PH1 之標靶機轉。",
+      "sourceExplanation": "Primary Hyperoxaluria Type I (PH1) 是一種罕見的 autosomal recessive disorder，起因於 liver-specific peroxisomal enzyme alanine-glyoxylate aminotransferase (AGT) 缺失或異常 targeting defect。這導致 glyoxylate 無法正常代謝，進而被轉化為大量 oxalate，引發 systemic oxalosis。Lumasiran 是一種新型 RNA interference (RNAi) 治療藥物，藉由靶向抑制 hepatocytes 中的 glycolate oxidase (HAO1 mRNA)，阻斷 glyoxylate 向 oxalate 的轉化。現行保守治療包括使用 high-dose pyridoxine 增強 AGT 的 residual activity，給予 potassium citrate 等 crystallization inhibitors 預防 calcium oxalate 沉澱，以及 hyperhydration。對於發生嚴重腎功能損害者，combined liver-kidney transplantation 為首選之根治方案。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -772,8 +784,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.166Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "Q17",
@@ -1285,7 +1301,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Anti-VEGF 標靶藥物 (Sunitinib) 引發 Renal TMA 與高血壓 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Anti-VEGF 標靶藥物 (Sunitinib) 引發 Renal TMA 與高血壓。",
+      "sourceExplanation": "正常情況下，glomerular endothelial cell integrity 的維持高度依賴於由 podocytes 分泌並結合至內皮細胞 VEGFR 的 VEGF 旁分泌信號。使用 VEGFR tyrosine kinase inhibitors (如 sunitinib) 或抗 VEGF 單株抗體會強烈阻斷此 VEGF 滋養信號，導致 endothelial dysfunction 與結構退化，最典型的超微結構改變為 loss of endothelial fenestrations。這會引發內皮細胞腫脹 (endotheliosis) 與微血管內凝血級聯反應，導致 renal Thrombotic Microangiopathy (TMA)。病理特徵包括 fibrin thrombi 形成與 glomerular basement membrane 呈現 double contours。臨床上，內皮屏障崩解與 TMA 會導致血管內阻力急劇上升與電荷屏障破壞，表現為嚴重的 new-onset hypertension 與 new-onset proteinuria。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1300,8 +1316,12 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.166Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "Q28",

@@ -1232,9 +1232,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A) Accumulation of phenolic metabolites excreted by the kidneys when hepatic glucuronidation capacity is exceeded.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPropofol 致綠色尿的核心藥理與代謝機制為：\nPropofol 在體內的常態代謝主要於肝臟進行 **glucuronide conjugation**（葡萄糖醛酸結合）形成無色的 1-glucuronide 等產物。然而當長時間高劑量使用時，肝臟結合途徑發生飽和，Propofol 會轉向環羥基化（ring hydroxylation）形成 **quinol derivatives / phenolic metabolites**（酚類化合物）。\n這些酚類代謝物具有特殊的色素吸收特性，經由腎臟排泄至尿液中時，即賦予尿液綠色（green urine）。由於這些酚類化合物不具備器官毒性，因此這種綠色尿與腎小管壞死、膽綠素 (biliverdin) 增加或結晶沉澱無關。因此 (A) 為正確機制說明。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：Propofol 代謝物導致綠尿並非因為近曲小管上皮細胞壞死或脂褐質 (lipofuscin) 排泄。\n- **(C) 錯誤**：綠尿並非由 Propofol 與磷酸鈣形成微結晶沉澱所致。\n- **(D) 錯誤**：膽綠素 (biliverdin) 可使尿液呈綠色（常見於嚴重黃疸或肝阻塞患者），但 Propofol 引發的綠尿並非透過誘導肝臟 heme oxygenase 產生 biliverdin。",
+      "sourceExplanation": "Database sufficiency is insufficient to answer this question.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "resolvedImages": [],
       "nlmResponses": [
@@ -1258,7 +1258,11 @@
           "error": null,
           "selectedOption": "NONE"
         }
-      ]
+      ],
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.159Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     }
   ]
 }

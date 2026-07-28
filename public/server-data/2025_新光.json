@@ -254,7 +254,7 @@
           "text": "30% to 40%"
         }
       ],
-      "sourceExplanation": null,
+      "sourceExplanation": "本題資料庫文獻並未直接提供 peritoneal dialysis 患者因 peritonitis 或 catheter malfunction 導致之確切 annual technique failure rate 範圍，故無法判定單一正確選項。\n\n根據文獻記載，peritoneal dialysis 的 technique failure 主因通常為 infection（佔 44%，其中以 peritonitis 最為關鍵），其次為 inadequate fluid ultrafiltration 等透析功能失效（佔 23%），以及 catheter malfunction 與 catheter migration 等技術性問題（佔 19%）。雖然依據某些大型登記資料（如 ANZDATA）顯示其 3-year technique survival 約為 49%（數學反向推估的年化失敗率約 21%），但不同國家與透析中心的 annual technique failure rate 變異極大。因缺乏明確統一的標準數據直接支持特定百分比選項，本題不予強制選答。",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
@@ -284,10 +284,13 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "以原始解答 (B) 為準。",
       "resolvedImages": [],
-      "qcStatus": "QC_UNVERIFIED",
-      "qcVerified": false,
-      "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "attachedImages": null
+      "qcStatus": "QC_REASKED",
+      "qcVerified": true,
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "attachedImages": null,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:10.830Z"
     },
     {
       "id": "2025_新光_q6",

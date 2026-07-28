@@ -1218,9 +1218,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據腹膜透析的 Three-pore model，小孔（Small pores）數量最多，提供了絕大部分的 hydraulic conductance（水力傳導度），並且是尿素、肌酸酐（creatinine）及鈉離子等小分子溶質擴散與對流傳輸的主要通道。選項 B 錯誤，超微孔（Ultra-small pores，即 Aquaporin-1）僅允許自由水（free water）通過，不允許任何溶質（如鉀離子）通過。選項 C 錯誤，大孔（Large pores）數量極少，主要負責大分子（如白蛋白、免疫球蛋白）的漏出，對鈉離子的清除無顯著貢獻。選項 D 錯誤，在腹膜炎時，大孔的通透性增加，是蛋白質流失的主要路徑，而非 ultra-small pores。",
+      "sourceExplanation": "在 peritoneal dialysis 的 three-pore model 中，small pores 代表 intercellular junctions，允許水分與小分子如 urea、creatinine 及 potassium 通過，並佔據了絕大部分的 hydraulic conductance。相較之下，ultra-small pores (aquaporin-1) 僅允許 water-only transport，對溶質清除無貢獻；large pores 數量稀少，主要負責 albumin 等大分子蛋白質的滲出；因此選項 (A) 為正確描述。",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "resolvedImages": [],
       "responses": [
         {
@@ -1247,7 +1247,10 @@
         }
       ],
       "qcVerified": true,
-      "number": 23
+      "number": 23,
+      "selectedOption": "A",
+      "qcVerifiedAt": "2026-07-28T16:06:11.112Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_亞東考訓_Q24",
@@ -1704,9 +1707,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "氨 (Ammonia) 是一種低分子量且不與蛋白質結合的水溶性小分子，能夠輕易透過對流 (convection) 和擴散 (diffusion) 被 CRRT 清除。在治療 ALF 合併嚴重 hyperammonemia 的患者時，建議採用較高的流出液劑量 (high effluent dose)，通常建議大於 35-45 mL/kg/h (甚至更高)，以達成迅速且持續的血氨廓清，目標是盡快將血氨濃度降至安全的閾值（通常小於 100-150 umol/L），從而降低腦水腫和神經學損傷的風險。選項 (A) 錯誤，低劑量 CRRT 無法有效對抗持續產生的血氨。選項 (C) 錯誤，isolated ultrafiltration 無法提供足夠的溶質清除。選項 (D) 錯誤，應及早介入以避免不可逆的腦損傷。",
+      "sourceExplanation": "在 acute liver failure 合併 hyperammonemia 的急重症患者中，為避免 ammonia 累積引發 cerebral edema，建議早期啟動 continuous renal replacement therapy (CRRT) 並採用超高劑量的 effluent flow (>75 to 90 mL/kg/h)。標準的 acute kidney injury (AKI) 劑量 (20-25 mL/kg/h 或 35-45 mL/kg/h) 遠低於清除 ammonia 所需的高強度，且 isolated ultrafiltration 無法有效清除水溶性的 ammonia。此外，一旦出現 hepatic encephalopathy 應立即介入，延遲治療會增加死亡風險。本題所有選項之數值或邏輯均不符合上述醫學指引，故無正確解答。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "resolvedImages": [],
       "responses": [
         {
@@ -1733,7 +1736,10 @@
         }
       ],
       "qcVerified": true,
-      "number": 32
+      "number": 32,
+      "selectedOption": "NONE",
+      "qcVerifiedAt": "2026-07-28T16:06:11.112Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_亞東考訓_Q33",
@@ -1758,9 +1764,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在急性肝衰竭 (ALF) 中，血中過高的氨 (ammonia) 會穿過血腦屏障 (blood-brain barrier) 進入腦部。在大腦的星狀細胞 (astrocytes) 內，氨會與 glutamate 結合生成 glutamine (穀氨醯胺)。大量的 glutamine 堆積會導致細胞內滲透壓上升 (intracellular hyperosmolarity)，進而吸引水分進入細胞，造成 astrocyte swelling (星狀細胞腫脹)。這正是 ALF 患者發生腦水腫 (cerebral edema) 與顱內高壓的核心病理生理機轉。及早使用 CRRT 清除血氨能中斷此惡性循環。選項 (C) 錯誤，高血氨反而常伴隨腦血流增加 (cerebral hyperemia) 而非血管收縮。選項 (B) 和 (D) 皆非高血氨引發腦病變的主要機轉。",
+      "sourceExplanation": "NotebookLM 無法針對本題提供實質之解析，其回應長度過短且標示為證據不足，因此無法從中確立正確選項。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "resolvedImages": [],
       "responses": [
         {
@@ -1787,7 +1793,10 @@
         }
       ],
       "qcVerified": true,
-      "number": 33
+      "number": 33,
+      "selectedOption": "NONE",
+      "qcVerifiedAt": "2026-07-28T16:06:11.112Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_亞東考訓_Q34",
@@ -2082,9 +2091,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Therapeutic plasma exchange (TPE) 過程中使用的置換液不同，會帶來特定的併發症風險。使用 5% Albumin 作為置換液時，由於商業製備的 albumin 溶液中完全不含鉀離子，大量置換容易將病患原有的電解質洗出，導致顯著的 hypokalemia (低血鉀)；同時也會洗出凝血因子造成 dilution coagulopathy。選項 (A) 雖然 TPE 普遍使用 citrate 抗凝會導致 hypocalcemia，但這主要與抗凝劑劑量及病患代謝能力有關，並非單純因為使用 albumin 所特有 (FFP 雖然含有游離鈣，但 citrate 效應依然主導)。選項 (B) anaphylactoid reactions 及輸血相關急性肺損傷 (TRALI) 在使用 Fresh Frozen Plasma (FFP) 時風險遠高於 albumin。選項 (D) albumin 製劑經過巴斯德滅菌處理，病毒傳播風險極低。因此選項 (C) 為最正確解答。",
+      "sourceExplanation": "在接受 therapeutic plasma exchange 治療 anti-GBM disease 時，若選用 5% albumin 作為 replacement fluid，與使用 fresh frozen plasma 相比，最特異且常見的併發症為 clinically significant hypokalemia。5% albumin 經過脫鹽處理，完全不含 potassium 離子，會對外周血中的 potassium 產生強烈的稀釋與流失效應 (dilutional hypokalemia)。因此，常規需在每公升 5% albumin 溶液中額外添加 4 mEq of potassium chloride (KCl)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "resolvedImages": [],
       "responses": [
         {
@@ -2111,7 +2120,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 39
+      "number": 39,
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.112Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_亞東考訓_Q40",
@@ -2514,9 +2527,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討 AVG 在 Venous anastomosis 容易發生狹窄的病理生理學 (Pathophysiology)。造成靜脈端吻合處內膜增生 (intimal hyperplasia) 的核心機制主要包含流體力學與結構上的差異。由於人工血管 (PTFE) 材質較為僵硬，而自體靜脈 (native vein) 具備高延展性，兩者連接處會產生極大的 Compliance mismatch (順應性不匹配)；這加上極高的血流速度與亂流 (turbulent blood flow) 產生的剪力 (shear stress)，會不斷刺激血管內皮細胞並誘發平滑肌細胞與 myofibroblast 增生並遷移至內膜，最終形成厚實的增生組織導致狹窄 (選項 A 正確)。選項 (B) 錯誤，因為打針穿刺的位置通常在 graft body，而非吻合處本身。選項 (C) 錯誤，AVG 的狹窄是 intimal hyperplasia 而非動脈粥狀硬化 (atherosclerosis)。選項 (D) 錯誤，雖然對材質可能會有輕微發炎反應，但並非造成典型靜脈端狹窄的主因。因此最佳解答為 A。",
+      "sourceExplanation": "在 synthetic arteriovenous grafts 建立後，ePTFE 材質本身是 rigid 且缺乏彈性的。相對地，與其接合的 native vein 管壁則具備高度的順應性與彈性 (distensible)。這種 compliance mismatch 會在 venous anastomosis 的 suture line 上產生高度集中的 mechanical stress。此外，高流量的血液從 synthetic graft 進入低阻力的 native vein 時，會引發劇烈的 turbulent blood flow 與異常的 wall shear stress。這些 upstream events 會引起 endothelial injury 與 endothelial activation，釋放促炎與促纖維化因子 (如 TGF-β1, MCP-1)，激活平滑肌細胞與成纖維細胞轉化為 myofibroblasts。Myofibroblasts 大量向內膜下層遷移並增殖，堆積 extracellular matrix (ECM) 蛋白質，最終在吻合口處形成 venous neointimal hyperplasia (VNH)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "resolvedImages": [],
       "responses": [
         {
@@ -2543,7 +2556,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 47
+      "number": 47,
+      "selectedOption": "A",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.112Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_亞東考訓_Q48",

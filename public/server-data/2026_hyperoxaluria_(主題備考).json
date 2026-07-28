@@ -411,7 +411,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題考點為 Systemic Oxalosis 的 GFR threshold 與臨床表現。當腎功能顯著衰退至 GFR < 30 mL/min/1.73m² (或 Plasma Oxalate > 30 μmol/L) 時，腎臟排除 Oxalate 能力嚴重受限，Plasma Oxalate 達到 Supersaturation，crystals 大量沉積於 extrarenal organs：沉積於 cardiac conduction system 引發 Heart Block；沉積於 bone marrow 引發 EPO-Resistant Anemia；沉積於皮膚血管引發 Livedo Reticularis。故選 (C)。",
+      "sourceExplanation": "本題探討 `primary hyperoxaluria type 1` (PH1) 進展為 `systemic oxalosis` 的病理生理學臨界值。PH1 是一種體染色體隱性遺傳疾病，主要因肝臟的 `alanine:glyoxylate aminotransferase` (AGT) 缺陷，導致 `oxalate` 大量生成。當患者的 `glomerular filtration rate` (GFR) 尚高於 60 mL/min/1.73m² 時，腎臟能有效排泄草酸；然而，當 GFR 持續惡化並降至低於 30 mL/min/1.73m² 時，草酸的清除率顯著低於生成率，導致 `plasma oxalate levels` 呈指數級上升。當血漿草酸濃度超過 30 µmol/L 時，血液對 `calcium oxalate` 達到過飽和狀態（`plasma oxalate saturation`），進接觸發不可逆的全身性結晶沉積（`extrarenal crystal deposition`），即 `systemic oxalosis`。這些結晶沉積於心臟可引發 `complete heart block`，沉積於骨髓會破壞造血微環境導致 `erythropoietin-resistant anemia`，沉積於皮膚血管則引起 `livedo reticularis` 與壞死。",
       "resolvedImages": [
         {
           "id": "shuangho_ackd_rcc_oxalate",
@@ -451,7 +451,10 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 7,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "QC_REASKED",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.018Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_hyperoxaluria_008",
@@ -475,7 +478,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題考點為 PH1 新型 RNAi 標靶藥物 Lumasiran 的 molecular mechanism。Lumasiran 為 GalNAc 修飾之 siRNA，能專一性 target 並降解 hepatocytes 內編碼 Glycolate Oxidase (GO) enzyme 之 *HAO1* mRNA。GO 被抑制後，Glycolate 無法被氧化轉化為 Glyoxylate，從源頭完全切斷 endogenous Oxalate 的生成，使 PH1 患者 urinary oxalate 大幅降低至接近正常。故選 (D)。",
+      "sourceExplanation": "NotebookLM 判斷資料庫證據不足，無法確認解答。",
       "resolvedImages": [
         {
           "id": "chimei_hyperoxaluria_lumasiran",
@@ -511,11 +514,14 @@
           "selectedOption": "NONE"
         }
       ],
-      "selectedOption": "D",
+      "selectedOption": "NONE",
       "reconciliationStatus": "DISPUTED",
       "number": 8,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "QC_REASKED",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.018Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_hyperoxaluria_009",

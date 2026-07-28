@@ -92,9 +92,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度血液透析院所評量標準說明** Section 5.1.3：\n- **Water Softener 出水硬度標準**：Water Softener 出水硬度應 **$< 17.1\\,\\text{mg/L}$** (相當於 **$< 1.0\\,\\text{gpg}$** 或 **$< 17.1\\,\\text{ppm}$**)。\n- **檢測頻率與時機**：每週治療結束後應檢測 Water Softener 之硬度是否 $< 17.1\\,\\text{mg/L}$，至少每週一次。若發生水質異常或更換軟水樹脂時，則需改為每日檢測。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：數值與檢測頻率不符合台灣 TSN 評鑑規範。\n- **(C), (D) 錯誤**：$50\\,\\text{mg/L}$ 與 $100\\,\\text{mg/L}$ 均已遠超過軟水合格標準，會導致大量的碳酸鈣與硫酸鎂在 RO 膜表面 Membrane Scaling，縮短 RO 膜壽命並降低產水率。",
+      "sourceExplanation": "因資料庫證據不足，無法進行解析。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -123,7 +123,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "B"
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q3",
@@ -150,9 +153,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 評量標準** 與 AAMI/ISO 規範：\n1. **配置要求**：必須串連兩組活性碳過濾器 Dual Carbon Tanks in Series。總 **Empty Bed Contact Time (EBCT)** 必須 $\\ge 10$ 分鐘 (第一桶與第二桶各至少 5 分鐘)。\n2. **取樣點與評量標準**：每週治療前且水處理設備運行 15 分鐘後，必須檢測 **Post-Worker Tank Port**，其 **Total Chlorine 含量應 $< 0.1\\,\\text{mg/L}$** ($< 0.1\\,\\text{ppm}$)。這樣能在第一桶 Breakthrough 時立即警告，並由第二桶攔截。\n因此選項 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：單桶活性碳無法提供安全屏障，且 Total Chlorine 上限應為 $< 0.1\\,\\text{mg/L}$ 而非 $< 0.5\\,\\text{mg/L}$。\n- **(B) 錯誤**：活性碳槽必須為 Dual Carbon Tanks in Series 而非 in parallel，EBCT 必須至少 10 分鐘，$< 0.2\\,\\text{mg/L}$ 太寬鬆。\n- **(D) 錯誤**：若僅於第二桶後採樣，第一桶 Breakthrough 時無法察覺；且檢測頻率必須每週至少一次，發生異常或換碳時改為每日檢驗。",
+      "sourceExplanation": "因資料庫證據不足，無法進行解析。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -181,7 +184,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "C"
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q4",
@@ -208,9 +214,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nReverse Osmosis (RO) 系統採用 **Cross-Flow Filtration** 動水力學機制：\n- 在 High-pressure pump 克服自然滲透壓的前提下，進水平行於 RO 膜表面高速流動，並被分割為兩股水流：穿透膜管的純淨產水 Permeate 與沿著膜表面帶走濃縮離子與微粒的 Concentrate Reject。\n- Cross-flow 產生的強大剪應力 Shear force 能持續沖刷膜表面，防止離子沉澱與 Biofilm 積聚，維持高 Rejection Rate ($> 99\\%$) 與長產水壽命。因此 (D) 正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Dead-end filtration 會導致 Filter cake 迅速積聚並堵塞膜孔，不適用於 RO 主機。\n- **(B) 錯誤**：RO 必須施加強大水壓 Hydraulic pressure 方能克服自然滲透壓。\n- **(C) 錯誤**：重力被動滲透會使水流向高鹽度端，與逆滲透方向相反。",
+      "sourceExplanation": "本題測試血液透析用水處理中 Reverse Osmosis 與 Thin-Film Composite (TFC) 膜的流體力學。Cross-Flow Filtration 的機制是利用高壓驅使流體平行於膜表面流動，將水流分為 pure permeate 與 continuous concentrate reject。這種設計能藉由流體的剪切力帶走 foulants，有效減少 fouling，以維持系統的高純化效率。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -239,7 +245,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "D"
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q5",
@@ -266,9 +275,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n透析純水迴水管路 Distribution Loop 防範 Biofilm 滋生的關鍵工程規格包括：\n1. **Continuous Circulating Loop**：確保 RO 淨水持續流動而不停滯。\n2. **Fluid Velocity**：流速必須保持在 **$\\ge 3\\text{ ft/sec}$** ($1.0\\text{ m/s}$)，產生 Turbulent flow 抑制細菌附著於管壁。\n3. **Piping Material & Dead-Ends**：採用光滑、耐腐蝕且耐熱之 PVDF 或 PEX 材質，絕對禁止存在 Dead-ends (盲端長度不得大於管徑的 2 倍)。因此 (A) 完全正確。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Dead-end 分支與低流速 Laminar flow 會形成靜水區，引發爆發性 Biofilm 滋生。\n- **(C) 錯誤**：酸性 RO 水會侵蝕銅管，溶出銅離子引發 Acute Hemolytic Anemia 與中毒；夜間停滯會加速細菌繁殖。\n- **(D) 錯誤**：週末完全停工停水且無消毒，會使管路中的細菌急速大量繁殖並形成極難清除的 Biofilm。",
+      "sourceExplanation": "本題旨在探討 Reverse Osmosis (RO) water distribution loop 防止細菌附著與 biofilm 形成的工程規格。為避免低流速與停滯點（stagnation points）誘發 biofilm deposition，系統應採用 continuous circulating loop 並嚴禁 dead-ends。同時需配合適當的 fluid velocity 與光滑管材（如 PVDF 或 PEX），藉由物理剪切力阻斷微生物附著。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -297,7 +306,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "A"
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q6",
@@ -324,9 +336,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度血液透析院所評量標準說明** Section 5.1.3：\n- **Bacterial Limit**：傳統/熱消 RO 水與透析液各端點之 Bacterial Colony Count 必須 **$< 100\\,\\text{CFU/ml}$**。\n- **Action Level**：當菌落數達到 **$50\\,\\text{CFU/ml}$** 時，即應採取改善行動 (包括管路消毒、設備檢修與複查)，及早因應可能的水質惡化。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：$< 10\\,\\text{CFU/ml}$ 為 Ultrapure Dialysate 的標準而非標準 RO 水標準。\n- **(C), (D) 錯誤**：$200\\,\\text{CFU/ml}$ 與 $500\\,\\text{CFU/ml}$ 為舊版或非台灣標準，若達此菌量會增加患者微發炎反應與熱原反應風險。",
+      "sourceExplanation": "現有資料庫中未記載 Taiwan Society of Nephrology (TSN) 關於 standard RO water 與 dialysate 中 bacterial colony counts 的具體限制與 Action Level，無法從文獻中確認精確的容許閾值。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -355,7 +367,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "B"
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q7",
@@ -382,9 +397,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度評量標準說明**：\n1. **Endotoxin Level & Action Level**：透析用水 RO 水之 Endotoxin 含量必須 **$< 0.25\\,\\text{EU/ml}$**。Action Level 為 **$0.125\\,\\text{EU/ml}$**。Endotoxin 至少每年檢測一次。\n2. **法定檢驗方法**：採用 **Limulus Amebocyte Lysate (LAL Assay)**。因此 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A), (B), (D) 錯誤**：Endotoxin 為革蘭氏陰性菌外膜之 Lipopolysaccharide (LPS)，臨床標準檢定法為 LAL Assay，而非 HPLC、ELISA 或 PCR。$< 0.25\\,\\text{EU/ml}$ 為台灣評鑑之法定門檻。",
+      "sourceExplanation": "本題考查 hemodialysis RO water 的 endotoxin 檢測與規範。依據 AAMI 與 ISO 國際標準，standard dialysate 的 endotoxin 最大容許濃度為 < 0.25 EU/ml，而 action level 設為 0.125 EU/ml。臨床與工業界對 endotoxin 定量測定的黃金標準為 Limulus Amebocyte Lysate (LAL) assay，其對 bacterial endotoxins 具有極高靈敏度與生物學特異性。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -413,7 +428,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "C"
+      "selectedOption": "C",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q8",
@@ -556,9 +574,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n- **Hard Water Syndrome**：當前處理 Water Softener 樹脂穿透或鹽水再生失效時，自來水中的高濃度 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 離子穿透進入透析液。\n- **臨床特徵**：大量的鈣鎂離子經由透析膜擴散入血，引發急性 Hypercalcemia 與 Hypermagnesemia。患者於透析中突發噁心、嘔吐、嚴重頭痛、Hypertension、皮膚灼熱感、嗜睡與全身肌肉無力。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Dialysis Disequilibrium Syndrome (DDS) 是由於快速移除 BUN 造成腦水腫，與硬水離子無關。\n- **(C) 錯誤**：微量元素缺乏症 (如缺鋅) 為慢性營養問題，非 Water Softener 失效引發之急性病症。\n- **(D) 錯誤**：Endotoxin Pyrogenic Reaction 是由革蘭氏陰性菌毒素引發的高燒與畏寒，與鈣鎂無關。",
+      "sourceExplanation": "本題考查 water softener 故障導致的急性毒性。當大量 calcium 與 magnesium 進入 dialysate 並跨膜進入患者血液時，會造成 acute hypercalcemia 與 acute hypermagnesemia。臨床表現包含 nausea、vomiting、severe headache、hypertension 以及 muscle weakness，此現象特稱為 Hard water syndrome。這有別於 dialysis disequilibrium syndrome (DDS) 引起的 cerebral edema，或是 endotoxins 污染導致的 pyrogenic reactions。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -587,7 +605,10 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "B"
+      "selectedOption": "B",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q11",
@@ -672,9 +693,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度評量標準說明** Section 4：\n- **水質分析定期檢測**：年度需做水質分析檢測，依據 AAMI 2014 / ISO 13959 標準研判整個透析水處理系統的效能是否符合規定 (包含微量重金屬 Aluminum, Lead, Copper, Zinc, Fluoride, Nitrate 等微量元素分析)。\n- **檢測頻率**：**At least annually**。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：每週檢測的項目為 Hardness 與 Total Chlorine。\n- **(B) 錯誤**：每月檢測的項目為 Bacterial Colony Count。\n- **(C) 錯誤**：非評鑑規定的常態重金屬水質分析週期。",
+      "sourceExplanation": "本題詢問在 AAMI 2014 與 Taiwan TSN guidelines 規範下，hemodialysis 水進行完整化學與重金屬分析的法定頻率。根據文獻記載，雖然水質標準有嚴格的 microbial 與 endotoxin 規範，但缺乏具體的 chemical contaminants 檢測頻率，且無 Taiwan TSN 的本土指引。儘管如此，透析用水中的化學污染物如 aluminum 會累積引發 dialysis dementia、osteomalacia 與 microcytic anemia，fluoride 洩漏會引起致命的 cardiac arrhythmias，chloramines 則會導致 acute hemolysis。由於選項缺乏明確的文獻支持，本題判定為無明確答案。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_REASKED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -703,7 +724,9 @@
         }
       ],
       "resolvedImages": [],
-      "selectedOption": "D"
+      "selectedOption": "NONE",
+      "qcVerifiedAt": "2026-07-28T16:06:11.053Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     }
   ]
 }

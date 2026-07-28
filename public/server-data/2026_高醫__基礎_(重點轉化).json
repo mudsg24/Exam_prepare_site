@@ -275,9 +275,9 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Mature plasma cell 會失去 CD19 與 CD20 的表現，但會持續表現 CD38 與 BCMA。CD20 主要表現在 pre-B 到 memory B cells 階段，而 CD19 則從 pro-B 一直表現到 plasmablast 階段。因此 mature plasma cell 的特徵為 CD19-, CD20-, CD38+, BCMA+。",
+      "sourceExplanation": "根據文獻分析，目前的文獻資源缺乏關於 B-cell subsets 與 plasma cells 的 immunophenotypic profiles 的完整資訊。雖然 rituximab 是一種 targeting CD20 antigen 的 monoclonal antibody，且 CD20 antigen 表達於 pre-B cells 與 mature B cells，但不表達於 normal plasma cells、hematopoietic stem cells 或 pro-B cells。另外，針對 refractory membranous nephropathy 的 experimental therapies 包括 proteasome inhibitor 與 anti-CD38 therapy，提示 plasma cells 表達 CD38。然而，文獻中完全沒有關於 CD19 與 BCMA (B-cell maturation antigen) 的描述，因此無法直接核實 mature plasma cells 的 immunophenotypic profiles。雖然在 clinical hematological oncology 與 immunology 中，Option (A) CD19-, CD20-, CD38+, BCMA+ 是 mature plasma cells 的特徵，但基於資料庫限制原則，本題判定為證據不足。",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "A",
@@ -292,7 +292,11 @@
       ],
       "number": 7,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "q_08",
@@ -521,9 +525,9 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "腎臟移植後發生排斥的時機與種類有高度相關性。移植後 1 年內發生移植物失能 (graft dysfunction)，最主要的排斥機轉為 T-cell mediated rejection (TCMR) 或稱為 cellular mediated rejection (CMR)。而超過 1 年後的晚期排斥，則主要由 antibody-mediated rejection (AMR) 導致。因此在移植後 8 個月，TCMR 的機率最高。",
+      "sourceExplanation": "本題的 NLM 系統回覆皆為拒絕作答之短句，並無實質的解析與推論。因缺乏足夠文獻證據進行解答，本題無法判定。建議補充相關文獻以供進一步分析。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -538,7 +542,11 @@
       ],
       "number": 13,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "q_14",
@@ -972,9 +980,9 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "年齡介於 50 至 59 歲的 deceased donor 若要被歸類為 Expanded Criteria Donor (ECD)，必須滿足以下三項條件中的至少兩項：(1) hypertension 病史，(2) terminal serum creatinine > 1.5 mg/dL，(3) 死亡原因為 cerebrovascular accident (CVA)。該捐贈者年齡 57 歲，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA）。因此，他必須具備 hypertension 病史才能湊齊兩項條件成為 ECD。Diabetes mellitus 與 urine output 並非 ECD 的定義標準。",
+      "sourceExplanation": "根據 United Network for Organ Sharing (UNOS) 的定義，expanded criteria donor (ECD) 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3) 死因為 cerebrovascular accident (CVA)。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -989,7 +997,11 @@
       ],
       "number": 24,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "q_25",
@@ -1013,9 +1025,9 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 Donation after Circulatory Death (DCD) 的器官摘取過程中，Functional Warm Ischemia Time (fWIT) 的計算起點定義為捐贈者出現嚴重血液動力學不穩定或缺氧的時刻。標準定義為 systolic blood pressure (SBP) 小於 50 mmHg 或 oxygen saturation (SaO2) 小於 75% 時開始計算 fWIT。這段時間對器官的缺血性損傷最為顯著。",
+      "sourceExplanation": "提供的文獻中包含大量關於 kidney transplantation、delayed graft function 與 acute tubular necrosis 的資訊，但完全沒有提及判定 functional warm ischemia time (fWIT) 起點的具體 hemodynamic 或 respiratory thresholds（例如血壓或血氧的具體臨界值）。由於缺乏關鍵定義數據，本題標記為資料庫證據不足，無法判定正確選項。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -1030,7 +1042,11 @@
       ],
       "number": 25,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "q_26",
@@ -1054,9 +1070,9 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "不同器官對 functional warm ischemia time (fWIT) 的耐受度 (tolerance limits) 各有不同。一般而言，liver 與 pancreas 的耐受極限約為 30 分鐘，lungs 為 60 分鐘，而 kidneys 的耐受度最高，可達 120 分鐘。超過這些時間閾值會大幅增加 primary non-function 或 graft failure 的風險。",
+      "sourceExplanation": "文獻中詳細探討了 donation after circulatory death (DCD) 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、cold ischemia time (CIT) 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys) 對 functional warm ischemia time (fWIT) 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -1071,7 +1087,11 @@
       ],
       "number": 26,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "q_27",

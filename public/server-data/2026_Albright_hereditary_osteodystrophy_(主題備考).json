@@ -689,7 +689,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism Type 2 (PHP-2) 的分子與生理缺陷層次。PHP-2 的特徵為注入 PTH 後，受體與 Gsα 活化 Adenylyl Cyclase 之路徑完全正常，故細胞內 cAMP 大量合成並排至尿液中 (Urinary cAMP Surge Normal)；然而病變位於 Post-cAMP Defect Distal to AC Activation，導致 cAMP 無法成功調降頂膜 NaPi-2a/2c 轉運蛋白，故尿磷酸鹽排泄量完全無反應 (Blunted Phosphaturia)。選項 (C) 與 (D) 為 PHP-1b 的基因病因。故選 (B)。",
+      "sourceExplanation": "本題探討一名 19 歲男性出現頑固性低血鈣與高血磷，血清 iPTH 升高，無 brachydactyly 且認知正常。在給予外源性 recombinant human PTH 進行 Ellsworth-Howard test 後，urinary cAMP 呈現 25-fold surge，但 tubular reabsorption of phosphate 與尿磷排泄無改變，此為 Pseudohypoparathyroidism Type 2 的典型表現。生理狀態下，PTH 結合 proximal tubule 的 PTH1R，活化 Gsα 刺激 adenylyl cyclase 產生 cAMP，進而活化 protein kinase A 促使 NaPi-IIa 與 NaPi-IIc 內吞降解引發 phosphaturia。患者 urinary cAMP 暴增證實 PTH1R 結合、Gsα 偶聯及 adenylyl cyclase 活性皆正常；但缺乏後續的 phosphaturic response，表明病變位於 cAMP 產生後的下游信號鏈，即 post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation。選項 (A) 受體缺陷會導致 urinary cAMP 無反應。選項 (C) GNAS A/B DMR 甲基化缺失為 Pseudohypoparathyroidism Type 1b 病理，會導致 Gsα 缺乏及 blunted urinary cAMP response。選項 (D) STX16 基因突變同樣表現為 cAMP 反應遲鈍。因此 (B) 為唯一正解。",
       "nlmResponses": [
         {
           "qId": "2026_AHO_0011",
@@ -729,7 +729,10 @@
       ],
       "selectedOption": "B",
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "QC_REASKED",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:10.931Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_AHO_0012",
@@ -755,7 +758,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題考點為 Progressive Osseous Heteroplasia (POH) 的遺傳與臨床特徵。POH 為一種由 Paternal GNAS Inactivating Mutation 引發的極罕見表觀遺傳疾病。與普通 AHO 的皮下淺層骨化不同，POH 的特徵為 Heterotopic Ossification 不僅發生於皮下，更深層侵犯 Deep Skeletal Muscle、筋膜與深部結締組織，導致嚴重的肌肉僵硬與關節合攏失能。因突變源自父系，患者內分泌功能 (Ca, P, PTH, TSH) 完全正常，呈現 No Hormone Resistance。故選 (C)。",
+      "sourceExplanation": "本題測驗對於 `GNAS` 基因突變及其表型的理解。`GNAS` 基因的父源性遺傳突變會導致 `pseudopseudohypoparathyroidism` (PPHP) 或 `progressive osseous heteroplasia` (POH)。POH 是一種罕見的臨床實體，其特徵為皮下結節迅速蔓延至深部骨骼肌與筋膜，引發嚴重的關節攣縮與活動受限。組織切片（`biopsy`）會顯示深部肌肉組織發生廣泛的膜內異位骨化（`intramembranous heterotopic ossification`）。與 `pseudohypoparathyroidism` (PHP) 不同，POH 患者的內分泌功能完全正常，其血清鈣（`calcium`）、磷酸鹽（`phosphate`）、副甲狀腺素（`PTH`）與促甲狀腺素（`TSH`）皆在正常範圍內。雖然現有資料庫文獻對 POH 的記載不足，但綜合其基因突變模式與臨床表現，診斷為 `progressive osseous heteroplasia` (POH)。",
       "nlmResponses": [
         {
           "qId": "2026_AHO_0012",
@@ -795,7 +798,10 @@
       ],
       "selectedOption": "C",
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "QC_REASKED",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:10.931Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     }
   ]
 }

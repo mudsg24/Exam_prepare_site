@@ -80,9 +80,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：尿毒症肺炎 (Uremic pneumonitis) 的特徵是由於尿毒素 (uremic toxins) 破壞了微血管屏障功能，導致肺泡-微血管膜通透性增加 (increased alveolar-capillary membrane permeability)，進而使液體、蛋白質和紅血球堆積在肺泡中。這種情況在臨床上和組織學上可表現為瀰漫性肺泡出血 (diffuse alveolar hemorrhage)，並且極其類似自體免疫性肺腎症候群 (pulmonary-renal syndrome)。由於其臨床表現容易與感染或自體免疫疾病混淆，正確的鑑別診斷能避免患者接受不必要的免疫抑制治療 (immunosuppressive regimens)。",
+      "sourceExplanation": "文獻中詳細記載了急性或慢性腎衰竭合併呼吸窘迫與咳血的經典鑑別診斷，如由 autoantibodies 驅動的 anti-GBM disease (Goodpasture syndrome) 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -97,7 +97,11 @@
       ],
       "resolvedImages": [],
       "qcVerified": true,
-      "number": 2
+      "number": 2,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q03",
@@ -126,9 +130,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：患者接受腹膜透析 (peritoneal dialysis)，在調整透析處方後出現呼吸急促、端坐呼吸 (orthopnea) 及體重快速增加，胸部 X 光顯示右側大量肋膜積水 (pleural effusion)。肋膜液分析顯示為滲出液 (transudative)，且肋膜液與血清葡萄糖梯度 (pleural-to-serum glucose gradient) 升高。這些特徵高度懷疑是腹膜肋膜相通 (pleuroperitoneal communication) 所造成的右側水胸 (hydrothorax)。這是腹膜透析患者的一種併發症，因腹腔內壓力升高導致透析液經由橫膈膜缺損處漏至肋膜腔，臨床上以右側水胸最為常見 (佔 80–90%)。",
+      "sourceExplanation": "對於 peritoneal dialysis 患者出現 hydrothorax (胸腔積液) 的鑑別診斷，文獻中主要探討了與 hypervolemia 相關的 pleural effusions，以及常見的腹膜透析併發症如 peritonitis、hemoperitoneum 與 encapsulating peritoneal sclerosis。雖然臨床上 pleuroperitoneal communication 是長期透析患者可能發生的非感染性併發症，其特徵為透析液經由膈肌缺損進入胸腔，且可藉由測量 elevated pleural-to-serum glucose gradient 來確立診斷，但此病理生理學機制未在資料庫文獻中詳細描述，故無法從文獻證據中確切判定。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -152,7 +156,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 3
+      "number": 3,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q04",
@@ -401,9 +409,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 DKA/HHS 併發橫紋肌溶解症 (Rhabdomyolysis) 導致急性腎損傷 (AKI) 的臨床表現。患者出現極度高血糖與酮酸中毒，其代謝壓力與電解質異常（如 hypophosphatemia、hypokalemia）易誘發肌肉細胞膜鈉鉀幫浦失能，導致橫紋肌溶解。高濃度 myoglobin 釋放會造成腎小管阻塞與直接毒性，進而引發 AKI。選項 (A) 的高 CK 值為橫紋肌溶解的確診指標，最符合本案例。其他選項皆無相關證據支持。",
+      "sourceExplanation": "雖然提供的文獻包含 diabetic kidney disease、acute kidney injury (AKI) 與 hyperglycemia 驅動的 osmotic diuresis 機制，但缺乏此特定病例數據與選項內容。在 hyperosmolar hyperglycemic state 合併 rhabdomyolysis 時，極端 hyperosmolality 與 extracellular fluid volume depletion 易誘發 rhabdomyolysis，進展為 pigment nephropathy 或 ischemic acute tubular necrosis (ATN)。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -418,7 +426,11 @@
       ],
       "resolvedImages": [],
       "qcVerified": true,
-      "number": 8
+      "number": 8,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q09",
@@ -447,9 +459,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題測驗橫紋肌溶解症 (Rhabdomyolysis) 的病理機轉與預後。在 DKA/HHS 情境下，因嚴重的電解質流失與高滲透壓導致 ATP 耗竭，破壞細胞膜鈣離子幫浦 (Ca2+-ATPase) 功能，使得大量鈣離子流入細胞內，誘發肌肉細胞自溶 (muscle autolysis)，故選項 (C) 正確。選項 (A) 錯誤，主因為極度代謝壓力與電解質（如低血鉀、低血磷）異常。選項 (B) 錯誤，早期積極輸液是反轉低血容及預防腎小管阻塞的基石。選項 (D) 錯誤，這類患者未來發展為慢性腎臟病 (CKD) 的風險為其他人的兩倍以上。",
+      "sourceExplanation": "HHS 與 rhabdomyolysis 會產生嚴重協同效應誘發 AKI。HHS 造成 osmotic diuresis 與 extracellular fluid volume contraction，導致 renal hypoperfusion 與 acute tubular necrosis (ATN)。Rhabdomyolysis 釋放 myoglobin，在低灌流下引發 heme pigment nephropathy。兩者疊加易誘發嚴重 hyperkalemia。治療首選 intravenous crystalloids 擴展，並需嚴密監控 fluid overload，忌用含鉀輸液。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -464,7 +476,11 @@
       ],
       "resolvedImages": [],
       "qcVerified": true,
-      "number": 9
+      "number": 9,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q10",
@@ -631,9 +647,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Tenofovir disoproxil fumarate (TDF) 導致之范可尼症候群 (Fanconi syndrome) 的組織學特徵。TDF 會經由有機陰離子運輸蛋白進入近曲小管細胞並產生蓄積，直接造成粒線體毒性。腎臟切片下的典型表現為近曲小管細胞出現巨大粒線體 (Megamitochondria) 與核腫大 (Karyomegaly)，並伴隨晶狀粒線體 (dysmorphic cristae)。選項 (C) 描述符合。",
+      "sourceExplanation": "Tenofovir disoproxil fumarate (TDF) 可引發 renal Fanconi syndrome 與 Type 2 renal tubular acidosis (RTA)。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等主動轉運停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。病理特徵包含 acute tubular injury、megamitochondria 與 loss of cristae。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -657,7 +673,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 13
+      "number": 13,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q14",
@@ -686,9 +706,9 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題測驗 Fanconi syndrome 與 Type 2 RTA 的典型實驗室數據。此疾病源於近曲小管廣泛性功能障礙，導致葡萄糖、胺基酸、磷、尿酸與碳酸氫根的大量流失。臨床表現包含 normoglycemic glycosuria (血糖正常下出現尿糖，HbA1c 偏低)、低血磷 (hypophosphatemia)、低血尿酸 (hypouricemia)。因碳酸氫根流失會造成高氯性非陰離子間隙代謝性酸中毒 (NAGMA)。此外，由於氨生成 (ammoniagenesis) 受損，會出現正尿液陰離子間隙 (positive UAG) 與降低的尿滲透壓 (low UOG)，故選項 (D) 正確。",
+      "sourceExplanation": "Acquired Fanconi syndrome 合併 Type 2 renal tubular acidosis (RTA) 表現為 proximal tubule 廣泛轉運功能受損。因 bicarbonate 重吸收障礙，引發 hyperchloremic metabolic acidosis 與 hypokalemia。在嚴重 systemic acidosis 時，遠端小管酸化功能正常，urine pH 可小於 5.5。受損的 megalin 與 cubilin 受體導致 low-molecular-weight proteinuria，並伴隨 glycosuria 與 fractional excretion of bicarbonate 大於 15%。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -712,7 +732,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 14
+      "number": 14,
+      "selectedOption": "A",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q15",
@@ -741,9 +765,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 TDF-induced Fanconi syndrome 的治療處置。最重要的步驟是立即停用 TDF，避免腎小管持續受損。為維持抗病毒治療，臨床上常建議轉換為 tenofovir alafenamide (TAF)，因其在血漿中暴露量較低且具有更優越的腎臟安全性 (superior renal safety profile)。同時應給予口服磷酸鹽與碳酸氫鈉補充，腎小管功能通常在停藥後 3 至 9 個月內可逆轉。選項 (B) 是最標準的處置。",
+      "sourceExplanation": "來源文獻不足，無法提供足夠的分析。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -767,7 +791,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 15
+      "number": 15,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q16",
@@ -842,9 +870,9 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "對於 idiopathic MPGN 合併 impaired renal function 的患者，治療策略包括 renin-angiotensin system (RAS) inhibition，以及謹慎評估後給予 glucocorticoids 治療（例如給予 IV methylprednisolone pulse 後接續 oral prednisolone）。Cyclophosphamide 或 plasma exchange 並非第一線常規治療。",
+      "sourceExplanation": "根據 KDIGO 2021 指引，針對合併 abnormal kidney function 的 idiopathic immune complex–mediated membranoproliferative glomerulonephritis (idiopathic ICGN) 患者，本題所提供的選項中無完全正確的選項。在標準臨床指引下，除了給予 renin-angiotensin system inhibition 等最優支持性治療之外，首選的初始免疫抑制方案應為 oral glucocorticoid monotherapy（具體為口服 prednisone 或 prednisolone，持續 12-16 weeks）。選項 (A) 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為常規推薦，因為長期給予 alkylating agents 並未優於單純類固醇，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動聯用治療。選項 (B) 錯誤，plasma exchange therapy 缺乏隨機對照試驗獲益證據，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。選項 (C) 錯誤，大劑量 intravenous pulse methylprednisolone 通常保留給呈 rapidly progressive glomerulonephritis (RPGN)、病理呈廣泛 crescentic glomerulonephritis 或伴有嚴重腎外受累的患者。選項 (D) 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20 (如 rituximab) 的應用仍缺乏大型前瞻性臨床試驗支持，並非初始推薦首選。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -868,7 +896,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 17
+      "number": 17,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q18",
@@ -952,9 +984,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據 encapsulating peritoneal sclerosis (EPS) 的 \"two-hit\" hypothesis，第一擊（first hit）為長期接觸 bioincompatible, high-glucose dialysate 導致的 mesothelial injury；第二擊（second hit）則是急性發炎事件，如嚴重的 peritonitis、hemoperitoneum 或突然停止 peritoneal dialysis (PD) 所誘發的強烈發炎與纖維化反應。",
+      "sourceExplanation": "根據目前提供的文獻資料，無足夠證據確認本題的正確答案。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -978,7 +1010,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 19
+      "number": 19,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q20",
@@ -1108,9 +1144,9 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "雖然成人 minimal change disease (MCD) 多為原發性（idiopathic），但約有 10–15% 為次發性。常見的次發性原因包含藥物（如 NSAIDs）、血液惡性腫瘤（如 Hodgkin lymphoma）、實體腫瘤，以及病毒感染（如 hepatitis C virus, HCV）。因此，詳盡的癌症與病毒血清學篩檢是必要的。",
+      "sourceExplanation": "由於文獻中並未包含足以證實任何選項為 adult-onset minimal change disease (MCD) 的公認 secondary trigger，故本題無正確選項。MCD 是一種典型的 podocytopathy。文獻中記載的 secondary triggers 包括 drugs (如 nonsteroidal antiinflammatory drugs (NSAIDs) 與 lithium)、malignancy (特別是 Hodgkin lymphoma) 以及其他 toxic podocyte injury (如 bisphosphonate 與 heroin)。選項 (A) 錯誤，polycystic kidney disease (如 autosomal dominant polycystic kidney disease) 為遺傳性腎臟病，非 MCD 誘因。選項 (B) 錯誤，長期暴露於 lead 會引發 chronic tubulointerstitial nephritis，非 MCD。選項 (C) 錯誤，長期 essential hypertension 會引發 secondary focal segmental glomerulosclerosis (FSGS)，而非 MCD。選項 (D) 錯誤，hepatitis C virus infection 感染主要引起 membranoproliferative glomerulonephritis (MPGN) 或 membranous glomerulonephritis (MN)，其病理機制與 MCD 的非免疫沉積特徵互不相容。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -1134,7 +1170,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 22
+      "number": 22,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q23",
@@ -1328,9 +1368,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查碳酸酐酶抑制劑 (carbonic anhydrase inhibitors, CAIs) 如 acetazolamide 在治療代謝性鹼中毒 (metabolic alkalosis) 時的藥理作用與副作用。Acetazolamide 常被用於促進腎臟排泄 bicarbonate，特別是在患有進階腎臟病或體液過載 (volume overload) 而無法耐受大量生理食鹽水 (normal saline) 輸注的病患。然而，使用 acetazolamide 會抑制紅血球 (erythrocyte) 及肺部微血管的碳酸酐酶 (carbonic anhydrase)，導致二氧化碳 (CO2) 轉化與清除的效率下降，進而引起周邊組織及靜脈血液中 PCO2 呈現短暫且顯著的上升 (transient profound tissue PCO2 elevation)，但通常不會引發明顯的高碳酸血症 (hypercapnic) 臨床症狀。選項 (A) 錯誤，因為病患並未出現中樞呼吸抑制。選項 (B) 錯誤，這不是造成 PCO2 升高的原因。選項 (D) 錯誤，主要機制在於酵素抑制影響了 CO2 的運送與清除，而非單純的代謝轉換增加。",
+      "sourceExplanation": "根據目前提供的文獻資料，無足夠證據確認本題的正確答案。",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "C",
@@ -1354,7 +1394,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 26
+      "number": 26,
+      "selectedOption": "NONE",
+      "databaseSufficiency": "INSUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_成大_Cases_Q27",
@@ -1438,9 +1482,9 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查腹膜透析相關之嗜酸性腹膜炎 (eosinophilic peritonitis) 與細菌性腹膜炎 (bacterial peritonitis) 的鑑別診斷及處置。Eosinophilic peritonitis 是一種非感染性的併發症，最主要的臨床特徵為透析液明顯混濁 (turbid dialysate fluid)，但病患通常只有極輕微甚至完全沒有腹痛 (minimal or entirely absent abdominal pain)。能將其與急性細菌性腹膜炎區分開來是非常關鍵的，這樣可以避免施打不必要且長期的腹腔內抗生素 (intraperitoneal antibiotic regimens)。在治療方面，許多輕微病例會自行緩解；若需積極介入，可使用低劑量口服糖皮質素 (low-dose oral glucocorticoids) 或抗組織胺 (antihistamines) 來控制發炎反應，並防止大量嗜酸性白血球的細胞碎片造成導管阻塞。選項 (A) 錯誤，該病症通常無明顯腹痛且不需抗生素。選項 (B) 錯誤，這並非感染性疾病，通常不需立即拔管。選項 (C) 錯誤，不需轉換為連續性靜脈對靜脈血液過濾，且發生全身性過敏反應的風險並不高。",
+      "sourceExplanation": "根據 Brenner & Rector's The Kidney，eosinophilic peritonitis 典型表現為 minimal abdominal pain，這與 acute bacterial peritonitis 伴隨的劇烈 abdominal pain 形成關鍵鑑別。Eosinophilic peritonitis 是一種對 catheter 組件或 dialysis solutions 產生的局部過敏反應。當 cloudy effluent 中的 eosinophils 比例大於 10% 且 peritoneal fluid culture 陰性時，即可確診。由於本病屬於良性且高度 self-limiting 的免疫反應，常規無需給予 antibiotics。然而，為防止大量 fibrin 析出導致 catheter obstruction，可使用 low-dose oral glucocorticoids 或 antihistamines 進行系統性抗敏治療。選項 (E) 錯誤，因其為無菌性過敏反應，不會表現為 severe abdominal pain，且給予 intraperitoneal antibiotics 無效。選項 (B) 錯誤，該病症屬於 noninfectious 過敏反應，具有自限性，無需進行 surgical removal of the peritoneal dialysis catheter。選項 (C) 錯誤，此病症為局部 hypersensitivity reaction，極少誘發全身性 anaphylaxis，無需中斷 peritoneal dialysis 並切換至 continuous venovenous hemofiltration。",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
           "selectedOption": "D",
@@ -1464,7 +1508,11 @@
         }
       ],
       "qcVerified": true,
-      "number": 28
+      "number": 28,
+      "selectedOption": "D",
+      "databaseSufficiency": "SUFFICIENT",
+      "qcVerifiedAt": "2026-07-28T16:06:11.186Z",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     }
   ]
 }

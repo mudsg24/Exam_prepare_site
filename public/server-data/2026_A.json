@@ -7559,8 +7559,12 @@
       "resolvedImages": [],
       "attachedImages": [],
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-25T09:31:27.696Z"
+      "qcStatus": "QC_REASKED",
+      "qcVerifiedAt": "2026-07-28T16:06:10.908Z",
+      "selectedOption": "NONE",
+      "databaseSufficiency": "SUFFICIENT",
+      "sourceExplanation": "本題詢問關於 primary hyperoxaluria 基因型與治療藥物的正確敘述。根據文獻，primary hyperoxaluria 是一種常染色體隱性遺傳疾病，主要分為三型：Type I PH 肇因於 AGXT 基因突變導致 alanine:glyoxylate aminotransferase 缺乏；Type II PH 是由 GRHPR 基因突變導致 glyoxylate reductase-hydroxypyruvate reductase 活性缺乏；Type III PH 則是由 HOGA1 基因突變導致 4-hydroxy-2-oxoglutarate aldolase 活性異常。然而，資料庫中完全缺乏關於新興核酸藥物 lumasiran 的資訊，無法證實其是否藉由特異性沉默 HAO1 基因以減少肝臟中 glycolate oxidase 合成，進而治療 Type I PH。由於缺乏直接藥理學證據，本題判定為無確切答案。",
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
     },
     {
       "id": "2026_A_q99",

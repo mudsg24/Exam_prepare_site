@@ -60,10 +60,20 @@ export const Header: React.FC<HeaderProps> = ({
   const [currentTime, setCurrentTime] = useState<string>('');
 
   const groupedPaperOptgroups = useMemo(() => {
+    const isTopic = (p: ExamManifestItem) =>
+      Boolean(
+        (p.sourceCategory && p.sourceCategory.includes('主題練習')) ||
+        (p.title && p.title.includes('主題備考')) ||
+        (p.id && p.id.includes('主題備考'))
+      );
+
     const isKeyPoint = (p: ExamManifestItem) =>
-      (p.sourceCategory && p.sourceCategory.includes('重點轉化')) ||
-      (p.title && p.title.includes('重點轉化')) ||
-      (p.id && p.id.includes('重點轉化'));
+      !isTopic(p) &&
+      Boolean(
+        (p.sourceCategory && p.sourceCategory.includes('重點轉化')) ||
+        (p.title && p.title.includes('重點轉化')) ||
+        (p.id && p.id.includes('重點轉化'))
+      );
 
     const years = Array.from(new Set(manifest.map((p) => p.year))).sort((a, b) => b - a);
 
@@ -72,10 +82,13 @@ export const Header: React.FC<HeaderProps> = ({
     years.forEach((year) => {
       const yearPapers = manifest.filter((p) => p.year === year);
       const standard = yearPapers
-        .filter((p) => !isKeyPoint(p))
+        .filter((p) => !isKeyPoint(p) && !isTopic(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
       const keyPoint = yearPapers
         .filter((p) => isKeyPoint(p))
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+      const topic = yearPapers
+        .filter((p) => isTopic(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
 
       if (standard.length > 0) {
@@ -88,8 +101,15 @@ export const Header: React.FC<HeaderProps> = ({
       if (keyPoint.length > 0) {
         groups.push({
           key: `${year}-keypoint`,
-          label: `${year} 重點轉化`,
+          label: `${year} 醫院重點轉化`,
           papers: keyPoint,
+        });
+      }
+      if (topic.length > 0) {
+        groups.push({
+          key: `${year}-topic`,
+          label: `${year} 主題練習`,
+          papers: topic,
         });
       }
     });

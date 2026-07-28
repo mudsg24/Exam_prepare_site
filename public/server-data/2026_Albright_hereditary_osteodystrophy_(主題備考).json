@@ -1,0 +1,261 @@
+{
+  "id": "2026_Albright_hereditary_osteodystrophy_(主題備考)",
+  "title": "2026 腎臟專科 Albright Hereditary Osteodystrophy 與 Pseudohypoparathyroidism 主題式練習題庫",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "questions": [
+    {
+      "id": "2026_AHO_001",
+      "stem": "A 9-year-old girl is evaluated for short stature, round face, obesity, and recurrent muscle cramps. Physical examination reveals shortened fourth and fifth digits on both hands. Laboratory studies show serum calcium 6.8 mg/dL (normal 8.5-10.5), serum phosphate 6.5 mg/dL (normal 2.5-4.5), intact PTH 380 pg/mL (normal 15-65), and elevated serum TSH with low-normal free T4. Her mother has short stature and short fingers with normal serum calcium and PTH levels. Which of the following genetic mechanisms best explains the difference in clinical phenotype between the patient and her mother?",
+      "options": [
+        "Paternal transmission of a GNAS inactivating mutation leading to severe end-organ resistance in both skeletal and renal tissues",
+        "Maternal transmission of a STX16 microdeletion resulting in selective proximal tubular GNAS methylation loss without skeletal involvement",
+        "Maternal transmission of a GNAS inactivating mutation where Gsα in the renal proximal tubule is expressed exclusively from the maternal allele",
+        "Autosomal recessive inheritance of a CYP27B1 mutation resulting in defective 1α-hydroxylase activity"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism Type 1a (PHP-1a) 與 Pseudopseudohypoparathyroidism (PPHP) 之 Genomic Imprinting 機制。在腎臟 Proximal Tubule，GNAS 基因之 Paternal Allele 經由啟動子甲基化而被生理性 Silenced，使得近端小管特異性呈現 Monoallelic Maternal Expression。當帶有 GNAS Loss-of-Function 突變的基因 Maternal Transmission 時，女兒在腎近端小管完全缺乏有效的 Gsα，引發顯著之 PTH resistance (Hypocalcemia、Hyperphosphatemia、high PTH) 與 TSH resistance，同時在雙等位表達的骨骼呈現 AHO phenotype (PHP-1a)。反之，當母親將此相同的失能突變 Paternal Transmission 時，母親的腎小管由未被沉寂的母系 GNAS 供給正常 Gsα，故內分泌數值完全正常，僅呈現 AHO 骨骼特徵 (PPHP)。故正確答案選 (C)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_7_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_7_7.png",
+          "caption": "Brenner 11e Fig 7.7: Mechanisms and regulation of Ca2+ transport in TALH & PTH receptor Gsα signaling.",
+          "sourceBook": "Brenner 11e Ch 7"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_002",
+      "stem": "A 29-year-old male with normal intellectual development and normal skeletal proportions presents with asymptomatic hypocalcemia discovered during routine screening. Laboratory testing demonstrates serum calcium 7.2 mg/dL, serum phosphate 5.8 mg/dL, intact PTH 290 pg/mL, and normal serum TSH. Physical examination reveals normal height, normal metacarpal length, and no subcutaneous nodules. Genetic analysis demonstrates a microdeletion in the STX16 gene leading to loss of imprinting at the GNAS locus. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Pseudohypoparathyroidism Type 1a (PHP-1a)",
+        "Pseudohypoparathyroidism Type 1b (PHP-1b)",
+        "Pseudohypoparathyroidism Type 1c (PHP-1c)",
+        "Pseudopseudohypoparathyroidism (PPHP)"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism Type 1b (PHP-1b) 的特徵性基因與臨床表現。PHP-1b 主因為 STX16 基因微小缺失引發 GNAS A/B 啟動子差異甲基化區域的 Loss of Imprinting。此病變為特異性腎小管表觀遺傳異常，患者 No AHO 且智力正常，僅呈現孤立性腎臟 PTH resistance (Hypocalcemia、Hyperphosphatemia、high PTH)。PHP-1a 與 PHP-1c 皆具有顯著 AHO 外觀；PPHP 則血鈣與 PTH 完全正常。故選 (B)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_4.png",
+          "caption": "Brenner 11e Box 18.4: Inherited and genetic syndromes with resistance to PTH action.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_003",
+      "stem": "An Ellsworth-Howard test (exogenous PTH 1-34 infusion) is performed on a patient evaluated for hypocalcemia with marked secondary hyperparathyroidism. Following PTH infusion, urine collection demonstrates a normal, prominent surge in cyclic AMP (cAMP) excretion (> 20-fold increase), but urinary phosphate excretion fails to increase. Which of the following conditions is most consistent with these physiological findings?",
+      "options": [
+        "Idiopathic Hypoparathyroidism",
+        "Pseudohypoparathyroidism Type 1a (PHP-1a)",
+        "Pseudohypoparathyroidism Type 1b (PHP-1b)",
+        "Pseudohypoparathyroidism Type 2 (PHP-2)"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 Ellsworth-Howard 外源性 PTH 刺激試驗在 Pseudohypoparathyroidism Type 2 (PHP-2) 的特異性反應。PHP-2 屬於 Distal to cAMP Generation defect。當注入外源性 PTH (1-34) 後，腎小管細胞膜 PTHR1 受體與 Gsα 傳導正常，細胞能大量合成 cAMP 並排入尿中 (Urinary cAMP Surge Normal)；然而遠端磷酸鹽轉運蛋白 (NaPi-2a/2c) 的調降內吞反應失敗，導致 Blunted Phosphaturia。Hypoparathyroidism 的尿 cAMP 與尿磷皆大幅上升；PHP-1a 與 PHP-1b 則尿 cAMP 與尿磷皆無上升。故選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_18_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_18_2.png",
+          "caption": "Brenner 11e Fig 18.2: Relationship between total serum calcium and intact PTH concentrations.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_004",
+      "stem": "A 10-year-old child presents with round facies, short stature, brachydactyly, subcutaneous calcifications, and multihormone resistance involving PTH and TSH. Laboratory testing confirms hypocalcemia and hyperphosphatemia with elevated iPTH. An in vitro assay measuring Gsα protein activity in the cell membranes of erythrocyte membranes yields completely normal catalytic Gsα activity. Which of the following is the diagnosis?",
+      "options": [
+        "Pseudohypoparathyroidism Type 1c (PHP-1c)",
+        "Pseudohypoparathyroidism Type 1a (PHP-1a)",
+        "Pseudohypoparathyroidism Type 1b (PHP-1b)",
+        "Pseudopseudohypoparathyroidism (PPHP)"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism Type 1c (PHP-1c) 與 PHP-1a 的實驗室鑑別。PHP-1c 患者在臨床表型上與 PHP-1a 100% 重疊（均包含完整的 AHO 身體特徵 + 多重激素阻抗）；但兩者在細胞實驗室中的關鍵差異為：PHP-1a 的紅血球細胞膜 Decreased In Vitro Gsα Activity (~50%)；而 PHP-1c 則為 Normal In Vitro Gsα Activity。原因為 PHP-1c 的 GNAS 突變僅破壞了 Gsα 蛋白與 GPCR 受體的特定耦合區段，但不影響 Gsα 本身的催化結構域。故選 (A)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_4.png",
+          "caption": "Brenner 11e Box 18.4: Inherited syndromes with resistance to PTH action.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_005",
+      "stem": "In patients diagnosed with Pseudohypoparathyroidism Type 1a (PHP-1a), multiple end-organ hormone resistance syndromes are frequently observed due to Gsα coupling defects in target tissues. Which of the following hormones relies on Gsα-coupled GPCR signaling and is most commonly associated with resistance manifestations in PHP-1a patients?",
+      "options": [
+        "Insulin",
+        "Thyroid-Stimulating Hormone (TSH)",
+        "Aldosterone",
+        "1,25-dihydroxyvitamin D3"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 PHP-1a 的多重內分泌阻抗譜系。由於 Gsα 為多種 G-Protein Coupled Receptors (GPCR) 活化 Adenylyl Cyclase 的共同關鍵傳導蛋白，PHP-1a 患者除了腎臟 PTHR1 resistance 外，亦常呈現其他 Gsα-coupled 激素受體 resistance，其中最常見者為 Thyroid-Stimulating Hormone (TSH) resistance (引發 Primary Hypothyroidism)，其次為 Luteinizing Hormone (LH) / Follicle-Stimulating Hormone (FSH) resistance (引發 Hypogonadism) 及 GHRH resistance。Insulin、Aldosterone 與 Vitamin D 的受體皆非 Gsα-coupled GPCR。故選 (B)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_4.png",
+          "caption": "Brenner 11e Box 18.4: Multi-hormone resistance spectrum in PHP-1a.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_006",
+      "stem": "Physical examination of a 14-year-old adolescent with short stature reveals dimpling over the dorsal surface of the hands where the knuckles of the fourth and fifth metacarpals should normally project when making a tight fist (Archibold sign). Hand radiography confirms premature closure of the epiphyses of the 4th and 5th metacarpals. This anatomical abnormality (Brachydactyly Type E) is a hallmark physical feature of which disorder?",
+      "options": [
+        "Autosomal Dominant Hypoparathyroidism (CaSR activating mutation)",
+        "McCune-Albright Syndrome",
+        "Primary Hyperparathyroidism due to parathyroid adenoma",
+        "Albright Hereditary Osteodystrophy (AHO)"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 Albright Hereditary Osteodystrophy (AHO) 之特徵性解剖骨骼徵象。AHO 最具診斷指標性的物理特徵為 Brachydactyly Type E，特定發生於 4th and 5th Metacarpals 的前期骨骺閉合。當患者握緊拳頭時，短縮的第 4、5 掌骨無法凸起形成指關節，反而形成局部凹陷，臨床稱為 Archibold Sign。此現象由 GNAS Haploinsufficiency 所致，為 AHO (PHP-1a 及 PPHP) 的特徵，不見於單純 Hypoparathyroidism 或 Hyperparathyroidism。故選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_5.png",
+          "caption": "Brenner 11e Box 18.5: Skeletal manifestations of AHO.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_007",
+      "stem": "A 16-year-old boy undergoes evaluation because his sister was recently diagnosed with Pseudohypoparathyroidism Type 1a. On physical examination, he has short stature, round face, obesity, and shortened 4th and 5th metacarpals. Laboratory evaluation shows serum calcium 9.4 mg/dL, serum phosphate 3.8 mg/dL, intact PTH 32 pg/mL, and normal TSH. Ellsworth-Howard test demonstrates a 30-fold increase in urinary cAMP excretion following exogenous PTH infusion. Genetic testing confirms a GNAS inactivating mutation inherited from his father. What is the correct diagnosis?",
+      "options": [
+        "Pseudopseudohypoparathyroidism (PPHP)",
+        "Pseudohypoparathyroidism Type 1a (PHP-1a)",
+        "Pseudohypoparathyroidism Type 1b (PHP-1b)",
+        "Idiopathic Hypoparathyroidism"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 Pseudopseudohypoparathyroidism (PPHP) 的遺傳與生化特徵。PPHP 是由於帶有 GNAS 失能突變的基因發生 Paternal Inheritance。由於近端腎小管的父系 GNAS 等位基因原本即被甲基化沉寂，腎小管 100% 依靠來自母親的正常 GNAS 基因運作，因此腎臟及其他內分泌標的器官之 PTH 與 TSH 傳導完全正常 (Calcium、Phosphate、PTH 及 urinary cAMP 反應完全正常)；但在雙等位基因表達的骨骼與皮下組織中，Gsα 劑量減半仍足以引發完整的 AHO features (Short stature, brachydactyly)。故診斷為 PPHP，選 (A)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_18_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_18_2.png",
+          "caption": "Brenner 11e Fig 18.2: Serum calcium and PTH concentration relationships in PPHP vs PHP.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_008",
+      "stem": "A 12-year-old girl with Pseudohypoparathyroidism Type 1a (PHP-1a) is prescribed Calcitriol and oral calcium carbonate to manage symptomatic hypocalcemia. What is the recommended target range for serum calcium in the long-term management of PHP-1a, and what is the rationale behind this target?",
+      "options": [
+        "High-normal range (9.5 - 10.5 mg/dL) to completely suppress parathyroid hormone secretion",
+        "Supra-physiological range (> 10.5 mg/dL) to promote maximal bone mineralization",
+        "Low-normal range (8.0 - 8.5 mg/dL) to minimize hypercalciuria and prevent nephrocalcinosis",
+        "Strictly hypocalcemic range (< 7.0 mg/dL) to reduce intestinal phosphate absorption"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism (PHP) 低血鈣處置的血清鈣滴定目標與腎臟保護關卡。PHP 患者因近端小管具 PTH resistance，但其 Distal Tubule 仍保有部分鈣質重吸收能力或受高血鈣刺激，當補充 Calcitriol 提高血鈣時，極易引發 Severe Hypercalciuria。若將血鈣追高至正常中上限 (9.5-10.5 mg/dL)，鈣質會由尿液暴增排出，引發暴發性 Nephrolithiasis、Nephrocalcinosis 與 Chronic Kidney Disease。因此臨床指引強烈建議處置目標應設定於 Low-Normal Range (8.0 - 8.5 mg/dL)，並定期監測 24 小時尿鈣。故選 (C)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_18_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_18_2.png",
+          "caption": "Brenner 11e Fig 18.2: Calcium homeostasis management and nephrocalcinosis avoidance.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_009",
+      "stem": "A 22-year-old female presents with paresthesias and muscle twitching. Serum laboratory evaluation reveals profound hypocalcemia (serum Ca 6.2 mg/dL) and hyperphosphatemia (serum P 6.4 mg/dL). Which of the following laboratory findings best distinguishes Pseudohypoparathyroidism Type 1a from primary surgical or idiopathic Hypoparathyroidism?",
+      "options": [
+        "Low serum 25-hydroxyvitamin D",
+        "Markedly elevated serum alkaline phosphatase",
+        "Severely depressed serum magnesium",
+        "Markedly elevated intact serum Parathyroid Hormone (iPTH)"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism (PHP-1a) 與 Hypoparathyroidism 的關鍵實驗室鑑別。兩者在血清電解質上皆呈現 Hypocalcemia 與 Hyperphosphatemia。然而，Hypoparathyroidism 是由於甲狀旁腺腺體破壞或合成障礙，其血清 Low/Undetectable iPTH；而 PHP-1a 則是末端器官對 PTH 產生抗性，負回饋刺激甲狀旁腺大量分泌 PTH，故其血清 Markedly Elevated iPTH (常 > 2-5 倍正常上限)。故選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_18_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_18_2.png",
+          "caption": "Brenner 11e Fig 18.2: Serum iPTH elevation in Pseudohypoparathyroidism vs Hypoparathyroidism.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_0010",
+      "stem": "In the human renal proximal tubule, why does a loss-of-function mutation in the GNAS gene cause end-organ PTH resistance when inherited from the mother, but NOT when inherited from the father?",
+      "options": [
+        "The paternal GNAS allele is methylated and silenced in the renal proximal tubule, leaving the tissue dependent on maternal Gsα expression",
+        "The maternal GNAS allele is selectively degraded by microRNAs in distal tubular epithelial cells",
+        "Paternal GNAS mutations enhance alternative splicing to produce a hyperactive Gsα isoform",
+        "Maternal mitochondria exclusively inherit G-protein coupled receptors required for PTH signaling"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 GNAS Genomic Imprinting 的分子機制。在腎臟 Proximal Tubule、甲狀腺與垂體前葉，Paternal Allele 的啟動子區域經由印記控制區 (ICR) 甲基化而被生理性 Silenced。因此近端小管中編碼 Gsα 的 GNAS 基因 100% 仰賴 Maternal Allele 進行 Monoallelic Expression。當母系等位基因發生失能突變時，近端小管完全無法產生功能性 Gsα，導致 PTH resistance；而父系等位基因突變時，因其原本即在近端小管中沉寂，腎小管依靠正常的母系等位基因仍能維持 100% 正常的 Gsα 表達與 PTH 反應。故選 (A)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Fig_7_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_7_7.png",
+          "caption": "Brenner 11e Fig 7.7: Renal tubular GPCR Gsα signaling and imprinting.",
+          "sourceBook": "Brenner 11e Ch 7"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_0011",
+      "stem": "A 19-year-old male is evaluated for refractory hypocalcemia and hyperphosphatemia with elevated serum iPTH. He has normal height, no brachydactyly, and normal cognitive function. Following administration of recombinant human PTH (1-34), his urine collection reveals a 25-fold surge in urinary cyclic AMP (cAMP) levels, but his tubular reabsorption of phosphate (TRP) and urinary phosphate excretion remain unchanged. What is the pathophysiology underlying this condition (PHP-2)?",
+      "options": [
+        "A defect in the extracellular ligand-binding domain of the PTH1R receptor",
+        "A post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation",
+        "Methylation loss at the GNAS A/B differential methylated region (DMR)",
+        "Heterozygous loss-of-function mutation in the STX16 gene"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 Pseudohypoparathyroidism Type 2 (PHP-2) 的分子與生理缺陷層次。PHP-2 的特徵為注入 PTH 後，受體與 Gsα 活化 Adenylyl Cyclase 之路徑完全正常，故細胞內 cAMP 大量合成並排至尿液中 (Urinary cAMP Surge Normal)；然而病變位於 Post-cAMP Defect Distal to AC Activation，導致 cAMP 無法成功調降頂膜 NaPi-2a/2c 轉運蛋白，故尿磷酸鹽排泄量完全無反應 (Blunted Phosphaturia)。選項 (C) 與 (D) 為 PHP-1b 的基因病因。故選 (B)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_4.png",
+          "caption": "Brenner 11e Box 18.4: Pathophysiology of post-receptor PTH resistance in PHP-2.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    },
+    {
+      "id": "2026_AHO_0012",
+      "stem": "A 7-year-old child presents with progressive, painful subcutaneous nodules that rapidly spread to involve deep skeletal muscles and fascia of the lower extremities, leading to severe joint contractures and restricted mobility. Biopsy confirms extensive intramembranous heterotopic ossification involving deep muscular tissue. Serum calcium, phosphate, intact PTH, and TSH are completely normal. Genetic testing reveals a paternal GNAS inactivating mutation. Which of the following rare clinical entities is diagnosed?",
+      "options": [
+        "Fibrodysplasia Ossificans Progressiva (FOP)",
+        "Pseudohypoparathyroidism Type 1a (PHP-1a)",
+        "Progressive Osseous Heteroplasia (POH)",
+        "Familial Tumoral Calcinosis"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Progressive Osseous Heteroplasia (POH) 的遺傳與臨床特徵。POH 為一種由 Paternal GNAS Inactivating Mutation 引發的極罕見表觀遺傳疾病。與普通 AHO 的皮下淺層骨化不同，POH 的特徵為 Heterotopic Ossification 不僅發生於皮下，更深層侵犯 Deep Skeletal Muscle、筋膜與深部結締組織，導致嚴重的肌肉僵硬與關節合攏失能。因突變源自父系，患者內分泌功能 (Ca, P, PTH, TSH) 完全正常，呈現 No Hormone Resistance。故選 (C)。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Box_18_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_5.png",
+          "caption": "Brenner 11e Box 18.5: Differential diagnosis of heterotopic ossification disorders.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ]
+    }
+  ]
+}

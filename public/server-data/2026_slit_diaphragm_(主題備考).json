@@ -1,0 +1,553 @@
+{
+  "id": "2026_slit_diaphragm_(主題備考)",
+  "title": "2026 Slit Diaphragm (主題備考)",
+  "rawTitle": "2026 Slit Diaphragm (主題備考)",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "questionCount": 12,
+  "createdAt": "2026-07-28T16:00:00.000Z",
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "chapter": "sd_molecular_architecture",
+      "stem": "A 2-month-old infant is brought to the pediatric nephrology clinic with massive edema, abdominal distension, and heavy proteinuria (> 10 g/L). Genetic testing reveals a homozygous frameshift mutation in NPHS1 encoding nephrin. Which of the following best describes the molecular role and structural topology of nephrin within the glomerular filtration barrier?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a 4-transmembrane hairpin-like protein localized exclusively to cholesterol-rich lipid rafts that anchors TRPC6 channels."
+        },
+        {
+          "id": "B",
+          "text": "It is a cytosolic actin-crosslinking homodimer that directly links alpha-3 beta-1 integrins to the lamina densa of the basement membrane."
+        },
+        {
+          "id": "C",
+          "text": "It is a type I transmembrane cell adhesion protein with 9 extracellular Ig-like domains that interdigitates in the slit diaphragm to form a 4–11 nm size-selective porous zipper."
+        },
+        {
+          "id": "D",
+          "text": "It is an apical sialoprotein that maintains negative electrostatic charge repulsion between adjacent podocyte foot processes."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNephrin (由 *NPHS1* Gene 編碼) 是 Podocytes 之 Slit Diaphragm (SD) 最核心之 Type Ⅰ Transmembrane Adhesion Molecule：\n- **Molecular Topology**: 包含 9 個 Extracellular Ig-like Domains 與 1 個 Type Ⅲ Fibronectin (FNIII) Domain。Extracellular 段長度約 40 nm。\n- **Zipper-like Meshwork**: 在 35–40 nm 寬的 Filtration Slits 中，相鄰 Foot Processes 的 Nephrin 分子與 Neph1 (KIRREL) 以 Homophilic 及 Heterophilic 方式相互交錯重疊，構建出中央密集的 Zipper-like 多層 Protein Meshwork，形成直徑約 4–11 nm 的 Filtration Pores，為 Glomerular Filtration Barrier 最關鍵的 Size Selectivity 分子閘門。因此 (C) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：描述的是 Podocin (由 *NPHS2* 編碼) 之 Hairpin Membrane Topology 與 4-Transmembrane / Lipid Raft 屬性，而非 Nephrin。\n- **(B) 錯誤**：描述的是 ɑ-Actinin-4 (由 *ACTN4* 編碼) 之 Cytosolic F-Actin Cross-linking 功能，而非 Nephrin。\n- **(D) 錯誤**：描述的是 Podocalyxin (由 *PODXL* 編碼) 之 Apical 帶負電 Sialoprotein 排斥障礙，而非 Nephrin。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Nephrin (NPHS1) vs. Podocin (NPHS2)**：\n  - **Nephrin**: Type Ⅰ Transmembrane Ig-like Protein，直向構成 SD 多孔 Zipper。\n  - **Podocin**: Hairpin Membrane Insertion Protein，寡聚化構建 Lipid Rafts，錨定 Nephrin Cytosolic Tail 與 CD2AP。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies):\n  - `Fig 4.2C: Molecular model of Nephrin and Neph1 in the slit diaphragm`\n  - `Fig 4.2D: Scheme of podocyte foot process proteins`",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "C",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(C) It is a type I transmembrane cell adhesion protein with 9 extracellular Ig-like domains that interdigitates in the slit diaphragm to form a 4–11 nm size-selective porous zipper.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNephrin 為 Podocyte Slit Diaphragm (SD) 結構之骨架核心。其具備 9 個 Extracellular Ig-like Domains，胞外段長度達 40 nm。在 Slit Diaphragm 中，來自兩側 Foot Processes 的 Nephrin 與 Neph1 分子交錯鏈結，形成多孔性拉鍊結構，定義了 4–11 nm 的 Size-Selective Filtration Barrier。當 *NPHS1* 發生 Mutation 時，拉鍊結構破壞，引發 Finnish Type Congenital Nephrotic Syndrome (CNS)。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- **(A)** 描述為 Podocin (NPHS2) 之 Hairpin 膜拓撲結構。\n- **(B)** 描述為 α-Actinin-4 (ACTN4) 之胞質 F-Actin 鏈結功能。\n- **(D)** 描述為 Podocalyxin 之帶負電 Apical Domain 障礙。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 (Fig. 4.2C & Fig. 4.2D)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "C",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(C) It is a type I transmembrane cell adhesion protein with 9 extracellular Ig-like domains that interdigitates in the slit diaphragm to form a 4–11 nm size-selective porous zipper.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNephrin 是編碼自 *NPHS1* 的 I 型 Transmembrane Protein，擁有 9 個 Ig-like Domains。它在 Podocyte Slit Diaphragm 中央相連，構建了 4-11 nm 的孔徑，是過濾蛋白質的核心 Size Selectivity 屏障。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A) 為 Podocin 之特徵；(B) 為 ACTN4 之特徵；(D) 為 Podocalyxin 之特徵。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4, Fig 4.2."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "chapter": "sd_molecular_architecture",
+      "stem": "A 14-year-old boy with steroid-resistant nephrotic syndrome (SRNS) undergoes genetic screening, which identifies compound heterozygosity for a missense mutation in NPHS2 and the common R229Q variant. Which of the following best explains how podocin contributes to slit diaphragm stability under normal physiological conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It oligomerizes in cholesterol-rich lipid raft microdomains via a hairpin membrane insertion to anchor the cytosolic tail of nephrin and CD2AP."
+        },
+        {
+          "id": "B",
+          "text": "It functions as an ATP-dependent translocase that actively pumps albumin out of the urinary space back into capillary lumen."
+        },
+        {
+          "id": "C",
+          "text": "It forms a basement membrane heterotrimer with laminin beta-2 and collagen IV alpha-5 to bind dystroglycan."
+        },
+        {
+          "id": "D",
+          "text": "It acts as a nuclear transcription factor regulating the expression of Wilms tumor 1 (WT1) during podocyte differentiation."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocin (由 *NPHS2* Gene 編碼) 是 Podocytes 之 Slit Diaphragm (SD) 訊號平台的核心 Scaffolding Protein：\n- **Hairpin Topology & Lipid Rafts**: 屬於 Stomatin Protein Family，具備 Hairpin-like Membrane Topology，N-terminus 與 C-terminus 皆位於 Cytosolic 側。Podocin 在 Podocytes 的 Plasma Membrane 內側自我 Oligomerization，招募 Cholesterol 與 Sphingolipids 構建 Lipid Raft Microdomains。\n- **Scaffolding Action**: Podocin 在 Lipid Rafts 中作為物理骨架，專一性結合 Nephrin 的 Cytosolic C-terminal Tail 與 CD2AP，將 SD Transmembrane Zipper 穩定定置於 Plasma Membrane 上。*NPHS2* R229Q Polymorphism 會影響 Podocin 的 Dimerization/Oligomerization，當其與特定 Exon Mutations 共存 (Compound Heterozygosity) 時，會引發 Endoplasmic Reticulum (ER) Retention 與遲發型 Steroid-Resistant Nephrotic Syndrome (SRNS)。因此 (A) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：Podocin 並非 ATP-dependent 之 Albumin 轉運泵。\n- **(C) 錯誤**：描述的是 Glomerular Basement Membrane (GBM) 之 Laminin/Collagen 組成，而非 Podocin。\n- **(D) 錯誤**：WT1 為核內 Transcription Factor，Podocin 位於 Plasma Membrane 之 Lipid Rafts，非 Transcription Factor。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **NPHS2 Mutation Post-Transplant Recurrence**: *NPHS2* Mutation 引發之 SRNS 於 Kidney Transplantation 後復發率極低 (< 5%)，因移植腎具備正常 Wild-type Podocin；而 *NPHS1* Mutation 可因產生 Anti-Nephrin Alloantibodies 而有 20-25% 復發率。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies):\n  - `Fig 4.2D: Podocin in lipid rafts anchoring nephrin and CD2AP`\n- *Brenner 11e*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png",
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) It oligomerizes in cholesterol-rich lipid raft microdomains via a hairpin membrane insertion to anchor the cytosolic tail of nephrin and CD2AP.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocin (NPHS2) 為 Stomatin 家族蛋白，採 Hairpin 結構插入 Plasma Membrane 內側並聚合成 Lipid Raft Microdomains。它直接結合 Nephrin 的胞質尾端與 CD2AP，維繫 SD 結構與訊號傳導。R229Q 多型性搭配 Exon Mutations 會破壞 Podocin 寡聚化並引發 SRNS。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B), (C), (D) 均不符合 Podocin 之分子屬性與生理定位。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 (Fig 4.2D)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) It oligomerizes in cholesterol-rich lipid raft microdomains via a hairpin membrane insertion to anchor the cytosolic tail of nephrin and CD2AP.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocin 是 Lipid Raft Microdomains 的重要骨架蛋白，呈 Hairpin 狀嵌於膜上，負責錨定 Nephrin 胞質段與 CD2AP。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B), (C), (D) 為不實敘述。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4, Fig 4.2."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "chapter": "cytoskeleton_signaling_polarity",
+      "stem": "Which of the following intracellular adaptor molecules directly binds the phosphorylated tyrosine residues (Y1176/Y1193) on the cytosolic tail of nephrin to recruit N-WASP and Arp2/3, triggering localized F-actin polymerization in podocyte foot processes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ezrin (ERM protein)"
+        },
+        {
+          "id": "B",
+          "text": "Nck (Nck1/Nck2 adaptor)"
+        },
+        {
+          "id": "C",
+          "text": "NHERF-1"
+        },
+        {
+          "id": "D",
+          "text": "Talin"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocytes 之 Slit Diaphragm (SD) 與 F-Actin Cytoskeleton 之動態耦聯過程：\n- **Nephrin Phosphorylation & Nck Recruitment**: 當 Nephrin 受 Fyn Kinase 磷酸化其 Cytosolic C-terminal Y1176/Y1193 Residues 後，專一性招募具備 SH2/SH3 Domains 的 Adaptor Proteins Nck1/Nck2。\n- **Actin Polymerization Cascade**: Nck 的 SH3 Domain 進而結合並活化 N-WASP (Neural Wiskott-Aldrich Syndrome Protein) 與 Arp2/3 Complex，誘導 Podocytes 的 Foot Processes 內局部 F-Actin 快速重組與分支聚合。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) & (C) 錯誤**：Ezrin 與 NHERF-1 負責連結 Apical 帶負電 Protein Podocalyxin 至 Apical Actin Cytoskeleton，而非連結 Nephrin 至 N-WASP。\n- **(D) 錯誤**：Talin 為 Basolateral 側 Focal Adhesion (Integrin) 錨定 Protein，非 Nephrin 磷酸化 Adaptor Protein。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Nephrin Adaptors**: Nephrin 的 Cytosolic 端主要結合 Nck (Actin Polymerization)、CD2AP (Cytoskeleton Anchoring / PI3K-Akt Signaling)、Podocin (Lipid Raft 定位) 與 ZO-1。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies):\n  - `Fig 4.2D: Slit diaphragm intracellular signaling and connection to actin cytoskeleton through CD2AP, Nck, and MAGI-1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) Nck (Nck1/Nck2 adaptor)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNephrin 胞質尾端經 Fyn Kinase 磷酸化後，招募 Nck1/Nck2 Adaptor Proteins (SH2/SH3 domains)，進而活化 N-WASP 與 Arp2/3 Complex，啟動 Foot Process 內 F-Actin 的重組與 Polymerization。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A) Ezrin 與 (C) NHERF-1 連結 Podocalyxin；(D) Talin 連結 Integrin。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 (Fig. 4.2D)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) Nck (Nck1/Nck2 adaptor)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n磷酸化的 Nephrin 透過 Nck 蛋白連結至 N-WASP/Arp2/3，引發 F-Actin Polymerization。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (C), (D) 均非結合磷酸化 Nephrin 引發 Actin Polymerization 之分子。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4, Fig 4.2."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "chapter": "cytoskeleton_signaling_polarity",
+      "stem": "A 35-year-old man presents with progressive proteinuria and a renal biopsy demonstrating focal segmental glomerulosclerosis (FSGS). Genetic analysis reveals an autosomal dominant gain-of-function mutation in TRPC6. Which of the following pathological mechanisms directly leads to podocyte injury and foot process effacement in patients with this mutation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete block of intracellular magnesium transport leading to ribosomal arrest."
+        },
+        {
+          "id": "B",
+          "text": "Inhibition of VEGF secretion causing acute endothelial cell necrosis."
+        },
+        {
+          "id": "C",
+          "text": "Impaired synthesis of type IV collagen alpha-3 chain causing GBM splitting."
+        },
+        {
+          "id": "D",
+          "text": "Excessive intracellular calcium influx activating calcineurin and NFAT, resulting in actin cytoskeleton disruption."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nTRPC6 (Transient Receptor Potential C6) Channel 過度活化致病機轉：\n- **Gain-of-Function & Calcium Overload**: *TRPC6* Gain-of-Function Mutation 引發 Slit Diaphragm 上的 TRPC6 Non-selective Cation Channel 持續開放，導致 Extracellular $\\text{Ca}^{2+}$ 大量進入 Podocytes 之 Cytosol 內。\n- **Calcineurin-NFAT Axis**: 胞內過載的 $\\text{Ca}^{2+}$ 活化 Calcineurin，使 NFAT 去磷酸化並移位至 Nucleus 內，破壞 Synaptopodin 與 ɑ-Actinin-4 之 Cytoskeleton 穩定作用，誘導 F-Actin Cytoskeleton 解聚與 Foot Process Effacement，臨床呈現 Autosomal Dominant (AD) FSGS。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：TRPC6 調控 $\\text{Ca}^{2+}$ Influx，非 Magnesium Transport 阻斷。\n- **(B) 錯誤**：VEGF 分泌受阻主要見於 Preeclampsia 或 Anti-VEGF Targeted Therapy 之 Endothelial Injury，非 TRPC6 Mutation 首要機制。\n- **(C) 錯誤**：Type IV Collagen ɑ3 缺陷為 Alport Syndrome 之機制，非 TRPC6。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **TRPC6 & CNI Therapy**: 由於 TRPC6 上游/下游涉及 Calcineurin 活化，使用 Calcineurin Inhibitors (CNI, 如 Cyclosporine / Tacrolimus) 治療某些 TRPC6 相關 FSGS 可展現直接之 Podocyte Cytoskeleton 保護效益 (非僅 Immunosuppression)。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies), `Fig 4.2D`.\n- *Brenner 11e*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png",
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Excessive intracellular calcium influx activating calcineurin and NFAT, resulting in actin cytoskeleton disruption.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*TRPC6* Autosomal Dominant Gain-of-Function Mutation 導致鈣離子通道開放過度，胞內 $\\text{Ca}^{2+}$ 爆發活化 Calcineurin/NFAT 途徑，引發 F-Actin 解聚與 Foot Process Effacement，呈現 AD FSGS。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A) 鎂離子阻斷、(B) VEGF 內皮壞死、(C) Collagen IV 均非 TRPC6 機制。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 (Fig. 4.2D) & Chapter 43 (Table 43.1)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Excessive intracellular calcium influx activating calcineurin and NFAT, resulting in actin cytoskeleton disruption.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nTRPC6 為鈣通道，Gain-of-Function Mutation 引發鈣內流與 Calcineurin 活化，破壞 Podocyte Cytoskeleton。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (C) 為誤導項目。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 & 43."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "chapter": "genetic_nephrotic_syndromes",
+      "stem": "A newborn infant born in Helsinki is diagnosed with Congenital Nephrotic Syndrome of the Finnish Type (NPHS1 mutation). Renal biopsy characteristically displays microcystic dilation of proximal tubules. Which of the following clinical features is most characteristic of this condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Onset of massive proteinuria within the first 3 months of life, markedly enlarged placenta, and complete resistance to corticosteroid therapy."
+        },
+        {
+          "id": "B",
+          "text": "Spontaneous complete remission in over 90% of affected infants without medical intervention."
+        },
+        {
+          "id": "C",
+          "text": "High sensitivity to oral prednisone with long-term relapse-free survival."
+        },
+        {
+          "id": "D",
+          "text": "Autosomal dominant inheritance pattern with onset delayed until late adulthood."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nCongenital Nephrotic Syndrome of the Finnish Type (*NPHS1* Mutation) 臨床特徵：\n- **Clinical Triad**: Autosomal Recessive (AR) 遺傳、出生 3 個月內即發病 (常在出生數天內爆發大量 Proteinuria)、Placenta 顯著巨大 (超過新生兒體重 25%)。\n- **Steroid Resistance & Pathology**: 病理展現 Proximal Tubules 之 Microcystic Dilation。對 Corticosteroids 及 Immunosuppressants 100% 完全無效 (Resistant)。最終需靠 Hemodialysis / Peritoneal Dialysis 維持並進行 Kidney Transplantation。因此 (A) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) & (C) 錯誤**：本病完全不響應 Corticosteroids，且絕無自發完全 Remission，若未 Dialysis / Transplantation 死亡率極高。\n- **(D) 錯誤**：本病為 Autosomal Recessive (AR) 遺傳，且於嬰兒期 (0-3個月) 發病，非成年期 Autosomal Dominant (AD) 遺傳。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Post-Transplant Alloantibody Recurrence**: *NPHS1* 患者 Transplantation 後有 20-25% 機率產生 Anti-Nephrin Alloantibodies 引發 Renal Allograft 之 Proteinuria 復發。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 31 (Primary Glomerular Disease), `Box 31.1`.\n- *Brenner 11e*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) Onset of massive proteinuria within the first 3 months of life, markedly enlarged placenta, and complete resistance to corticosteroid therapy.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nFinnish Type Congenital Nephrotic Syndrome (*NPHS1* Mutation) 為 AR 遺傳，特徵為出生 3 個月內發病、巨大胎盤、Heavy Proteinuria 與 Corticosteroids 完全抗藥。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B) 與 (C) 完全不合臨床事實；(D) 錯誤描述為 AD 遲發型。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 31 & 43."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) Onset of massive proteinuria within the first 3 months of life, markedly enlarged placenta, and complete resistance to corticosteroid therapy.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNPHS1 Mutation 引發 Finnish Type CNS，表現為巨大胎盤、嬰兒早發 Proteinuria 與 Corticosteroids 完全無反應。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B), (C), (D) 皆為錯誤選項。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 31 & 43."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "chapter": "genetic_nephrotic_syndromes",
+      "stem": "A 6-year-old girl with childhood-onset steroid-resistant nephrotic syndrome (SRNS) progresses to end-stage kidney disease (ESKD) and undergoes successful living-donor renal transplantation. Genetic testing confirms homozygous null mutations in NPHS2. Which of the following best describes her risk of recurrent FSGS in the renal allograft?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Over 90% risk of hyperacute recurrence within 24 hours post-transplant due to memory B-cell activation."
+        },
+        {
+          "id": "B",
+          "text": "50% risk of recurrence mediated by circulating suPAR levels."
+        },
+        {
+          "id": "C",
+          "text": "Extremely low risk of recurrence (< 5%) because the donor kidney expresses wild-type podocin and lacks circulating permeability factors."
+        },
+        {
+          "id": "D",
+          "text": "100% mandatory recurrence requiring pre-transplant total plasma exchange."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*NPHS2* Mutation 致病型 SRNS 之 Kidney Transplantation 後復發風險：\n- **Genetic Etiology vs Recurrence Risk**: *NPHS2* Gene Mutation 導致的 Monogenic 病變，病因完全在於 Recipient 本身的 Podocytes 無法產出正常 Podocin。患者血漿中**不存在** Circulating Permeability Factors。\n- **Allograft Survival**: 移植之 Donor Kidney 具備基因型正常的 Wild-type Podocin，且 Podocin 為 Cytosolic Membrane Hairpin Protein 不誘發 Alloantibodies，因此 Transplantation 後 FSGS **復發率極低 (< 5%)**。因此 (C) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A), (B), (D) 錯誤**：高復發率 (30-50%) 為 Primary (suPAR-mediated) FSGS 之特徵，而非 *NPHS2* Autosomal Recessive Mutation 之遺傳型 FSGS。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Post-Transplant Recurrence Matrix**: \n  - Primary (suPAR/CLCF1) FSGS: **30 - 50% 復發率**。\n  - NPHS1 (Nephrin) AR: **20 - 25% 復發率** (Alloantibody-mediated)。\n  - NPHS2 (Podocin) AR: **< 5% 復發率 (幾乎不復發)**。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.\n- *Brenner 11e*, Chapter 70 (Clinical Management of the Adult Kidney Transplant Recipient).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "C",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(C) Extremely low risk of recurrence (< 5%) because the donor kidney expresses wild-type podocin and lacks circulating permeability factors.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*NPHS2* AR Mutation 引發之 FSGS 無 Circulating Permeability Factors，移植腎帶有正常野生型 Podocin，故移植後復發率極低 (<5%)。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (D) 混淆 Primary suPAR-mediated FSGS 復發率。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43 & 70."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "C",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(C) Extremely low risk of recurrence (< 5%) because the donor kidney expresses wild-type podocin and lacks circulating permeability factors.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocin Mutation 者移植後復發率小於 5%，臨床預後優良。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (D) 不成立。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43 & 70."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "chapter": "genetic_nephrotic_syndromes",
+      "stem": "A 28-year-old woman with a family history of autosomal dominant focal segmental glomerulosclerosis (FSGS) and Charcot-Marie-Tooth (CMT) hereditary motor and sensory neuropathy is evaluated for proteinuria. Which of the following genes is most likely mutated in this patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NPHS1"
+        },
+        {
+          "id": "B",
+          "text": "INF2"
+        },
+        {
+          "id": "C",
+          "text": "LAMB2"
+        },
+        {
+          "id": "D",
+          "text": "COL4A5"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*INF2* Gene Mutation 與 Syndromic 表現：\n- **Gene & Function**: *INF2* (Inverted Formin 2) 編碼 Formin Family Protein，調控 F-Actin 的 Depolymerization 與 Polymerization。*INF2* Mutation 呈 Autosomal Dominant (AD) 遺傳。\n- **Syndromic Association**: *INF2* Mutation 為 **Autosomal Dominant FSGS 伴發 Charcot-Marie-Tooth (CMT) Demyelinating Peripheral Neuropathy** 的專一性致病基因。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：*NPHS1* 為 Autosomal Recessive (AR) 遺傳之 Congenital Nephrotic Syndrome (CNS) of the Finnish Type，無 CMT Neuropathy。\n- **(C) 錯誤**：*LAMB2* Mutation 導致 Pierson Syndrome (CNS 併雙側 Microcoria)，無 CMT。\n- **(D) 錯誤**：*COL4A5* 為 X-Linked Alport Syndrome (Sensorineural Hearing Loss + Anterior Lenticonus + GBM Basket-weave 病變)，無 CMT。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Syndromic Podocytopathy Clues**: \n  - FSGS + CMT Neuropathy ➔ ***INF2***\n  - FSGS + Microcoria ➔ ***LAMB2***\n  - FSGS + Wilms Tumor / Pseudohermaphroditism ➔ ***WT1***\n  - FSGS + Absent Patellae / Iliac Horns ➔ ***LMX1B***\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) INF2**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*INF2* Mutation 為 Autosomal Dominant (AD) FSGS 伴發 Charcot-Marie-Tooth (CMT) 遺傳性神經病變之特異基因。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A) NPHS1 芬蘭型；(C) LAMB2 小瞳孔；(D) COL4A5 Alport。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43 (Table 43.1)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) INF2**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nINF2 基因與 AD FSGS 併 Charcot-Marie-Tooth 病變直接相關。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (C), (D) 皆非此神經腎臟綜合徵基因。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43, Table 43.1."
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "chapter": "cytoskeleton_signaling_polarity",
+      "stem": "In patients with Minimal Change Disease (MCD), heavy proteinuria occurs despite an absence of structural gene mutations in slit diaphragm zipper proteins. Which of the following pathophysiological alterations in the podocyte apical domain is primarily responsible for the loss of charge selectivity in MCD?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overexpression of collagen type IV alpha-5 chains causing baseline membrane thickening."
+        },
+        {
+          "id": "B",
+          "text": "Total loss of TRPC6 channels inhibiting intracellular calcium signaling."
+        },
+        {
+          "id": "C",
+          "text": "Deficiency of basolateral alpha-3 beta-1 integrins detaching podocytes from the GBM."
+        },
+        {
+          "id": "D",
+          "text": "Reduction or neutral neutralization of negatively-charged sialoproteins (such as podocalyxin) and GBM heparan sulfate proteoglycans."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nMinimal Change Disease (MCD) Proteinuria 之分子機制：\n- **Loss of Charge Selectivity**: MCD 患者的 Podocyte Slit Diaphragm (SD) 結構基因 (*NPHS1*/*NPHS2*) 並無 Mutations。其大量 Proteinuria 的核心在於**Charge Selectivity 障礙**。\n- **Podocalyxin & Polyanion Reduction**: Podocytes 之 Apical 帶負電 Sialoproteins (如 Podocalyxin) 及 Glomerular Basement Membrane (GBM) 內帶負電的 Heparan Sulfate Proteoglycans 密度顯著減少或被中和，使同樣帶負電的 Serum Albumin 失去 Electrostatic Repulsion，大量經過 Glomerular Filtration Barrier (GFB) 漏出，產生 Highly Selective Proteinuria。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Type IV Collagen ɑ5 過度表達非 MCD 機制 (MCD 光鏡下 GBM 完全正常)。\n- **(B) 錯誤**：TRPC6 缺失非 MCD Proteinuria 起因。\n- **(C) 錯誤**：Integrin ɑ3β1 缺失導致 Podocytes 脫落與裸露 GBM (FSGS / Diffuse Mesangial Sclerosis 表現)，非 MCD。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Charge vs Size Selectivity**: \n  - **MCD**: 帶負電 Podocalyxin / Polyanions 減少 ➔ **Charge Selectivity 損失** (Selectivity Index 高度選擇，Albumin 主導)。\n  - **Finnish CNS / FSGS**: SD 結構或 Foot Processes 物理損壞 ➔ **Size Selectivity 損失** (Selectivity Index 非選擇，含 IgG/IgM)。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies), `Fig 4.2D`.\n- *Brenner 11e*, Chapter 30 (Pathophysiology of Proteinuria), `Fig 30.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Reduction or neutral neutralization of negatively-charged sialoproteins (such as podocalyxin) and GBM heparan sulfate proteoglycans.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nMCD 核心病理為 Charge Selectivity 屏障損失：頂端帶負電 Podocalyxin 及 GBM 多醣陰離子減少，Albumin 靜電排斥消失引發 Highly Selective Albuminuria。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (C) 皆非 MCD Charge Selectivity 屏障損失之機制。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 & 30."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Reduction or neutral neutralization of negatively-charged sialoproteins (such as podocalyxin) and GBM heparan sulfate proteoglycans.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nMCD 主因在於 Podocalyxin 等帶負電 Polyanions 流失，導致 Charge Selectivity 障礙。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (C) 均錯誤。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 & 30."
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "number": 9,
+      "chapter": "genetic_nephrotic_syndromes",
+      "stem": "A 1-month-old infant is found to have nephrotic-range proteinuria and congenital microcoria (fixed pin-point pupils). A diagnosis of Pierson syndrome is suspected. Mutation in which of the following genes causes this rare autosomal recessive disorder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LAMB2"
+        },
+        {
+          "id": "B",
+          "text": "ACTN4"
+        },
+        {
+          "id": "C",
+          "text": "TRPC6"
+        },
+        {
+          "id": "D",
+          "text": "MYO1E"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPierson Syndrome (*LAMB2* Mutation) 分子遺傳與臨床表徵：\n- **Gene & Function**: *LAMB2* 編碼 Laminin $\\beta2$ Chain，為 Glomerular Basement Membrane (GBM) (Laminin-521 Trimer: $\\alpha5\\beta2\\gamma1$) 及眼部瞳孔括約肌 Basement Membrane 的核心結構分子。\n- **Clinical Presentation**: *LAMB2* Biallelic Autosomal Recessive (AR) Mutation 引發 **Pierson Syndrome**，特徵為 **Congenital Nephrotic Syndrome (伴 Diffuse Mesangial Sclerosis 或 FSGS) 併發雙側 Microcoria (Fixed Miosis)** 與眼部結構異常。因此 (A) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：*ACTN4* Mutation 導致 Autosomal Dominant (AD) Adult-onset Isolated FSGS，無 Microcoria。\n- **(C) 錯誤**：*TRPC6* Mutation 導致 AD Adult-onset Isolated FSGS，無 Microcoria。\n- **(D) 錯誤**：*MYO1E* Mutation 導致 AR Isolated Childhood FSGS，無 Microcoria。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Ocular-Renal Syndromes**: \n  - Microcoria + Congenital Nephrotic Syndrome ➔ ***LAMB2* (Pierson Syndrome)**\n  - Anterior Lenticonus + Sensorineural Deafness + Hematuria/Proteinuria ➔ ***COL4A5* (Alport Syndrome)**\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/43. Inherited Disorders of the Glomerulus/Table_43_1_part1.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) LAMB2**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*LAMB2* 編碼 Laminin $\\beta2$。其 AR Mutation 致 Pierson Syndrome，臨床特徵為 Congenital Nephrotic Syndrome 併發 Microcoria。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B) ACTN4、(C) TRPC6、(D) MYO1E 均無 Microcoria 表徵。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43 (Table 43.1)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "A",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(A) LAMB2**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nLAMB2 基因 Mutation 是 Pierson Syndrome (CNS 併 Microcoria) 的特異致病原因。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (B), (C), (D) 皆不正確。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 43, Table 43.1."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "chapter": "pathophysiology_clinical_correlations",
+      "stem": "During podocyte injury, foot process effacement is driven by extensive reorganization of the actin cytoskeleton. Which of the following small GTPase activity alterations typically characterizes the shift from ordered parallel actin stress fibers to a disorganized dense cortical actin network during effacement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete downregulation of both RhoA and Rac1 leading to tubulin crystallization."
+        },
+        {
+          "id": "B",
+          "text": "Selective activation of Rac1 and Cdc42 paired with suppression or dysregulation of RhoA activity."
+        },
+        {
+          "id": "C",
+          "text": "Exclusive activation of mitochondrial cytochrome c oxidase without GTPase involvement."
+        },
+        {
+          "id": "D",
+          "text": "Irreversible inhibition of smooth muscle myosin light chain kinase."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nFoot Process Effacement 之 Small GTPases 重塑機制：\n- **Small GTPase Dynamics**: 正常 Podocytes 的 Foot Processes 維持有序之平行 F-Actin Stress Fibers，受 RhoA 保持生理適度活性維持。當 Podocytes 受到損傷或因子刺激時，胞內 Small GTPases **Rac1 與 Cdc42 被過度活化**，配合 **RhoA 活性的失衡抑制或異常**。\n- **Actin Remodeling**: Rac1/Cdc42 的過度活化驅動 Lamellipodia 與 Dense Cortical Actin Network 的形成，使 Foot Processes 結構扁平化、互相融合成連續的胞質片狀，引發 Slit Diaphragm 位移與過濾障礙。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Cytoskeleton 重塑係由 F-Actin 重組驅動，而非 Tubulin 結晶，且 Rac1 呈現上調。\n- **(C) 錯誤**：Small Rho-GTPases (RhoA, Rac1, Cdc42) 為 Podocyte Cytoskeleton 重塑的核心靈魂，非 Mitochondrial Cytochrome c Oxidase 獨占。\n- **(D) 錯誤**：Smooth Muscle Myosin Light Chain Kinase 受阻非 Foot Process Effacement 主要 Small GTPases 開關。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **RhoA / Rac1 Balance**: RhoA 活性適中維繫穩定 Stress Fibers；Rac1 活性過高引發 Foot Process Effacement 與動態 Motility 增加。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 4 (Glomerular Cell Biology and Podocytopathies), `Fig 4.2D`.\n- *Brenner 11e*, Chapter 43 (Inherited Disorders of the Glomerulus), `Table 43.1` (ARHGAP24 & ARHGDIA).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) Selective activation of Rac1 and Cdc42 paired with suppression or dysregulation of RhoA activity.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nPodocyte Foot Process Effacement 過程中，Rac1/Cdc42 活性上調而 RhoA 失衡，驅動 F-Actin Stress Fibers 轉化為 Dense Cortical Actin Network。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (C), (D) 不符 Podocyte Small GTPase 骨架調控機制。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4 (Fig. 4.2D)."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) Selective activation of Rac1 and Cdc42 paired with suppression or dysregulation of RhoA activity.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nRac1 與 Cdc42 活化是驅動 Foot Process Effacement 與 Actin Polymerization 重組的關鍵 Small GTPase 通路。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (C), (D) 皆不正確。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 4, Fig 4.2."
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "chapter": "pathophysiology_clinical_correlations",
+      "stem": "Which of the following clinical and urinalysis characteristics best distinguishes primary structural slit diaphragm failure (e.g., NPHS1 mutations) from isolated apical polyanion charge loss (e.g., early Minimal Change Disease)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NPHS1 mutations produce purely selective proteinuria containing only low-molecular-weight beta-2 microglobulin."
+        },
+        {
+          "id": "B",
+          "text": "NPHS1 mutations cause non-selective proteinuria with loss of size selectivity, leaking large immunoglobulins (IgG/IgM), whereas early MCD causes highly selective albuminuria due to loss of charge selectivity."
+        },
+        {
+          "id": "C",
+          "text": "MCD displays complete loss of size selectivity with normal charge selectivity on dextran clearance studies."
+        },
+        {
+          "id": "D",
+          "text": "NPHS1 mutations show complete preservation of both size and charge selectivity on fractional clearance testing."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nGlomerular Filtration Barrier 選擇性 (Selectivity) 鑑別剖析：\n- **Size Selectivity Loss (NPHS1)**: *NPHS1* Mutation 毀損 Slit Diaphragm (SD) 分子 Zipper，Filtration Pores 大幅拓寬 (Size Selectivity 喪失)，使大分子 Proteins 如 IgG (150 kDa) 與 IgM (900 kDa) 無阻礙瀉漏，呈**Non-selective Proteinuria**。\n- **Charge Selectivity Loss (MCD)**: MCD 主要為帶負電之 Podocalyxin 與 GBM Polyanions 減少，使帶負電之 Albumin (66 kDa) 失去 Electrostatic Repulsion 而洩漏，但 4-11 nm 大小孔徑尚存，故呈**Highly Selective Albuminuria**。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Beta-2 Microglobulin 為小分子，其過量出現提示 Tubular Proteinuria，而非 *NPHS1* Glomerular SD 毀損。\n- **(C) 錯誤**：MCD 為 Charge Selectivity 喪失、Size Selectivity 尚存，選項倒置。\n- **(D) 錯誤**：*NPHS1* Mutation 之 Size Selectivity 嚴重受損，非完全保留。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Selectivity Index (SI)**: Clearance of IgG / Clearance of Transferrin (或 Albumin)。SI < 0.11 為 Highly Selective (MCD)；SI > 0.2 為 Non-selective (FSGS / *NPHS1*)。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 23 (Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria).\n- *Brenner 11e*, Chapter 30 (Pathophysiology of Proteinuria), `Fig 30.1`.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_2.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) NPHS1 mutations cause non-selective proteinuria with loss of size selectivity, leaking large immunoglobulins (IgG/IgM), whereas early MCD causes highly selective albuminuria due to loss of charge selectivity.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*NPHS1* Mutation 摧毀 SD 拉鍊，導致 Size Selectivity 喪失與 Non-selective Proteinuria (含 IgG)；MCD 為電荷負電流失，呈現 Highly Selective Albuminuria。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A) 誤指 Tubular Proteinuria；(C) 敘述顛倒；(D) 不符合 NPHS1 病理。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 23 & 30."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "B",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(B) NPHS1 mutations cause non-selective proteinuria with loss of size selectivity, leaking large immunoglobulins (IgG/IgM), whereas early MCD causes highly selective albuminuria due to loss of charge selectivity.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n*NPHS1* Mutation 造成 Size Selectivity 喪失，漏出大分子 IgG；MCD 為 Charge Barrier 損壞造成 Selective Albuminuria。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (C), (D) 皆錯誤。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 23 & 30."
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "chapter": "pathophysiology_clinical_correlations",
+      "stem": "A 42-year-old man with hypertension and mild proteinuria (1.2 g/day) undergoes a renal biopsy, which demonstrates focal segmental glomerulosclerosis (FSGS) with glomerulomegaly and focal foot process effacement (30% of capillary surface area). His serum albumin is 3.8 g/dL and he has no peripheral edema. Which of the following is the most appropriate management strategy for this patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediate initiation of high-dose intravenous pulse methylprednisolone followed by oral cyclophosphamide."
+        },
+        {
+          "id": "B",
+          "text": "Urgent plasma exchange (plasmapheresis) combined with rituximab infusion."
+        },
+        {
+          "id": "C",
+          "text": "Bilateral native nephrectomy followed by immediate renal transplantation."
+        },
+        {
+          "id": "D",
+          "text": "Initiation of conservative hemodynamic optimization with an ACE inhibitor or ARB and SGLT2 inhibitor without immunosuppressive therapy."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "synthetic_tonks",
+      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nSecondary Adaptive FSGS 的診斷與治療原則：\n- **Clinical Presentation**: 患者呈現 Sub-nephrotic Proteinuria (1.2 g/day)、Serum Albumin 正常 (3.8 g/dL)、無 Peripheral Edema。光鏡顯示 Glomerulomegaly，Transmission Electron Microscopy (TEM) 僅呈局限性 Foot Process Effacement (30% < 50%)。這些均為典型**Secondary Adaptive FSGS** 之特徵 (由 Hyperfiltration 引起)。\n- **Management Rule**: Secondary Adaptive FSGS **絕對禁止使用強效 Corticosteroids 或 Immunosuppressants** (無效且增加感染死亡率)！第一線治療必須為 RAAS Inhibitors (ACEi / ARB) 配合 SGLT2 Inhibitors 以降低 Single-nephron Intraglomerular Pressure 與 Hyperfiltration。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) & (B) 錯誤**：High-dose Corticosteroids、Cyclophosphamide、Plasmapheresis 及 Rituximab 為 Primary (Circulating Permeability Factor) 重度水腫 FSGS 之療法，不適用於 Secondary Adaptive FSGS。\n- **(C) 錯誤**：病患 Renal Function 未達 ESKD，切除雙腎為嚴重醫療錯誤。\n\n### 4. 考試高頻考點與鑑別比較 (Exam Differential Diagnosis & High-Yield Comparisons)\n- **Primary vs Secondary Adaptive FSGS**: \n  - **Primary**: 起病急、暴發 Nephrotic Syndrome、Serum Albumin < 2.5 g/dL、TEM 廣泛 Effacement (>80%) ➔ **需要 High-dose Corticosteroids / CNI / Plasmapheresis**。\n  - **Secondary**: 起病隱匿、Sub-nephrotic Proteinuria、Serum Albumin > 3.5 g/dL、TEM 局限 Effacement (<50%) ➔ **僅使用 ACEi / ARB / SGLT2i，禁用 Immunosuppressants**。\n\n### 5. 圖表與文獻引用 (Citations & References)\n- *Brenner & Rector's The Kidney, 11th Edition*, Chapter 31 (Primary Glomerular Disease), `Section: Focal Segmental Glomerulosclerosis - Secondary Adaptations`.\n- *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*, Chapter 6 (FSGS).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        "2020 Brenner 11e/04. Glomerular Cell Biology and Podocytopathies/Fig_4_5.png"
+      ],
+      "nlmResponses": [
+        {
+          "runId": 1,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Initiation of conservative hemodynamic optimization with an ACE inhibitor or ARB and SGLT2 inhibitor without immunosuppressive therapy.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n病患為 Secondary Adaptive FSGS (Serum Albumin 正常、Sub-nephrotic Proteinuria、TEM 局限 Foot Process Effacement 30%)，第一線治療為 ACEi/ARB 與 SGLT2i 控制 Hyperfiltration，嚴禁使用 Immunosuppressive Therapy。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B) 為 Primary FSGS Immunosuppression 與 Plasmapheresis 療法，在此禁忌；(C) 為無效過度處置。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 31 & *KDIGO 2021 Glomerular Guideline*."
+        },
+        {
+          "runId": 2,
+          "selectedOption": "D",
+          "rawResponse": "### 1. 答案確定 (Answer Determination)\n正確選項為 **(D) Initiation of conservative hemodynamic optimization with an ACE inhibitor or ARB and SGLT2 inhibitor without immunosuppressive therapy.**\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nSecondary Adaptive FSGS 不給予 Immunosuppressive Therapy，應使用 ACEi/ARB 及 SGLT2i 治療。\n\n### 3. 干擾選項分析 (Distractor Analysis)\n- (A), (B), (C) 均不符合臨床指引。\n\n### 4. 課本引用 (Citations & References)\n*Brenner 11e*, Chapter 31 & *KDIGO 2021*."
+        }
+      ]
+    }
+  ]
+}

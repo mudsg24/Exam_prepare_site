@@ -32,7 +32,16 @@ export const sanitizePaperTitle = (title: string): string => {
   return (title || '').replace(/\s*\(\s*重點轉化\s*\)/g, '').trim();
 };
 
+export const isTopicPracticePaper = (paper: ExamManifestItem): boolean => {
+  return Boolean(
+    (paper.sourceCategory && paper.sourceCategory.includes('主題練習')) ||
+    (paper.title && paper.title.includes('主題備考')) ||
+    (paper.id && paper.id.includes('主題備考'))
+  );
+};
+
 export const isKeyPointTransformationPaper = (paper: ExamManifestItem): boolean => {
+  if (isTopicPracticePaper(paper)) return false;
   return Boolean(
     (paper.sourceCategory && paper.sourceCategory.includes('重點轉化')) ||
     (paper.title && paper.title.includes('重點轉化')) ||
@@ -57,7 +66,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       ? Math.round((stats.correctCount / stats.completedQuestions) * 100)
       : 0;
 
-  // Group manifest by year (2026 then 2025), and sub-group into Standard Library vs Key Point Transformation
+  // Group manifest by year (2026 then 2025), and sub-group into Standard Library vs Key Point Transformation vs Topic Practice
   const groupedPaperSections = useMemo(() => {
     const years = Array.from(
       new Set(manifest.map((p) => p?.year).filter((y): y is number => typeof y === 'number'))
@@ -67,11 +76,15 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       const yearPapers = manifest.filter((p) => p && p.year === year);
 
       const standardPapers = yearPapers
-        .filter((p) => !isKeyPointTransformationPaper(p))
+        .filter((p) => !isKeyPointTransformationPaper(p) && !isTopicPracticePaper(p))
         .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
 
       const keyPointPapers = yearPapers
         .filter((p) => isKeyPointTransformationPaper(p))
+        .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
+
+      const topicPapers = yearPapers
+        .filter((p) => isTopicPracticePaper(p))
         .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
 
       const sections = [];
@@ -80,15 +93,23 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           key: `${year}-standard`,
           title: `${year} 年試卷與章節練習庫`,
           papers: standardPapers,
-          isKeyPoint: false,
+          categoryType: 'standard' as const,
         });
       }
       if (keyPointPapers.length > 0) {
         sections.push({
           key: `${year}-keypoint`,
-          title: `${year} 重點轉化`,
+          title: `${year} 醫院重點轉化`,
           papers: keyPointPapers,
-          isKeyPoint: true,
+          categoryType: 'keyPoint' as const,
+        });
+      }
+      if (topicPapers.length > 0) {
+        sections.push({
+          key: `${year}-topic`,
+          title: `${year} 主題練習`,
+          papers: topicPapers,
+          categoryType: 'topic' as const,
         });
       }
 
@@ -339,12 +360,20 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                 <div className="flex items-center justify-between pt-2">
                   <span
                     className={`px-3 py-1 rounded-xl text-xs font-bold border flex items-center gap-1.5 shadow-sm ${
-                      section.isKeyPoint
+                      section.categoryType === 'topic'
+                        ? 'bg-emerald-500/10 text-emerald-800 dark:text-emerald-300 border-emerald-500/30'
+                        : section.categoryType === 'keyPoint'
                         ? 'bg-[#e9d5ff]/40 text-purple-800 dark:text-purple-200 border-[#d8b4fe]/60'
                         : 'bg-sky-500/10 text-sky-700 dark:text-sky-300 border-sky-500/20'
                     }`}
                   >
-                    {section.isKeyPoint ? <Sparkles className="w-3.5 h-3.5 text-purple-500" /> : <Calendar className="w-3.5 h-3.5" />}
+                    {section.categoryType === 'topic' ? (
+                      <BookOpen className="w-3.5 h-3.5 text-emerald-500" />
+                    ) : section.categoryType === 'keyPoint' ? (
+                      <Sparkles className="w-3.5 h-3.5 text-purple-500" />
+                    ) : (
+                      <Calendar className="w-3.5 h-3.5" />
+                    )}
                     <span>{section.title}</span>
                   </span>
                   <span className="text-xs text-slate-400 font-mono">{section.papers.length} 份試卷</span>
@@ -366,8 +395,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                       >
                         <div className="space-y-2">
                           {paper.sourceCategory &&
-                            !/^\d{4}\s*年?(交換題|試卷與章節練習庫|重點轉化)$/.test(paper.sourceCategory) &&
-                            !section.isKeyPoint && (
+                            !/^\d{4}\s*年?(交換題|試卷與章節練習庫|重點轉化|主題練習)$/.test(paper.sourceCategory) &&
+                            section.categoryType === 'standard' && (
                               <div className="flex items-center justify-between">
                                 <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">
                                   {paper.sourceCategory}
@@ -394,7 +423,9 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                               className={`h-full transition-all duration-300 ${
                                 isCompleted
                                   ? 'bg-emerald-500'
-                                  : section.isKeyPoint
+                                  : section.categoryType === 'topic'
+                                  ? 'bg-gradient-to-r from-emerald-500 to-teal-600'
+                                  : section.categoryType === 'keyPoint'
                                   ? 'bg-gradient-to-r from-[#d8b4fe] to-[#c084fc]'
                                   : 'bg-gradient-to-r from-sky-500 to-blue-600'
                               }`}
@@ -423,7 +454,9 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                             className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
                               isCompleted
                                 ? 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700'
-                                : section.isKeyPoint
+                                : section.categoryType === 'topic'
+                                ? 'bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold shadow-sm'
+                                : section.categoryType === 'keyPoint'
                                 ? 'bg-[#d8b4fe] hover:bg-[#c084fc] text-purple-950 font-extrabold shadow-sm border border-purple-300/40'
                                 : 'bg-sky-600 hover:bg-sky-500 text-white shadow-md'
                             }`}

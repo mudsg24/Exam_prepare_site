@@ -1,0 +1,97 @@
+{
+  "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_tutorial",
+  "paperId": "2026_water_treatment_system_in_hemodialysis_(主題備考)",
+  "title": "2026 腎臟專科透析水處理系統與水質評鑑標準主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "pretreatment_train",
+      "moduleTitle": "1. Hemodialysis Pre-treatment Train Architecture & Component Mechanics",
+      "studyGuide": "本模組精講透析水處理 Pre-treatment Train 的核心元件配置、淨化順序與物理化學過濾機制。涵蓋 Multimedia Sediment Filter、Water Softener、Dual Activated Carbon Tanks in Series 與 Empty Bed Contact Time (EBCT)、以及 Micron Depth Filter 之維護與品質管理規範。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_63_18",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_63_18.png",
+          "caption": "Brenner 11e Fig. 63.18: Schematic configuration of a reverse osmosis water treatment system showing pre-treatment train (filters, softener, carbon tanks) and RO membrane.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Sequential Architecture of Water Pre-treatment Train & Component Functions",
+          "diagram": {
+            "id": "water_pretreatment_ai_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/water_treatment_pretreatment.jpg",
+            "caption": "Figure 1.1: Detailed Schematic of Hemodialysis Water Pre-treatment Train Components and Filtration Sequence.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "血液透析水處理 Pre-treatment Train 是保護昂貴的 Reverse Osmosis (RO) 膜管與確保透析純水品質的第一道防線。Municipal Tap Water 含有懸浮雜質、Calcium、Magnesium、Free Chlorine 與 Chloramines 以及細菌與微粒，若未經嚴密前處理，將在極短時間內造成 RO 膜不可逆的化學破壞與 Biofilm 污染：\n1. **Multimedia Sediment Filter**:\n   - 由不同粒徑的砂石、石英砂、無煙煤與花崗石層疊而成。主要功能為去除自來水中的 Gross particulate matter、泥沙與 Colloidal matter，降低 Silt Density Index (SDI < 5)，防止下游組件堵塞。\n2. **Water Softener**:\n   - 填充含強酸性磺酸基的 Sodium Poly-styrene Sulfonate Cation-Exchange Resin。當硬水通過時，樹脂上的 $\\text{Na}^+$ 離子與水中的 $\\text{Ca}^{2+}$ 及 $\\text{Mg}^{2+}$ 進行 1:2 當量交換。\n   - 軟化水質防止 $\\text{CaCO}_3$ 與 $\\text{MgSO}_4$ 在 RO 膜表面 Scaling/Fouling。樹脂飽和後利用無碘、無抗結塊劑之高純度 $\\text{NaCl}$ 飽和鹽水進行 Regeneration。\n3. **Dual Granular Activated Carbon (GAC) Tanks in Series**:\n   - 必須採用兩桶串連設計 (Primary Worker Carbon Tank & Secondary Polisher Carbon Tank)。主要功能為吸附有機物及化學中和 Free Chlorine 與 Chloramines。\n   - **Empty Bed Contact Time (EBCT)**: 總 EBCT 必須 $\\ge 10$ 分鐘 (每桶至少 5 分鐘)，以提供氯胺氧化還原反應所需的足夠接觸時間。第一桶用於主吸附，第二桶作為安全屏障防範第一桶 Breakthrough。\n4. **5-Micron Depth Filter / Micron Cartridge Filter**:\n   - 置於 RO 幫浦正前方，捕捉活性碳槽洩漏出的 Carbon fines 與剩餘懸浮微粒，確保進入 RO 膜的水質微粒直徑 $< 5\\,\\mu\\text{m}$。\n\n| Component | Physical/Chemical Mechanism | Primary Function & Target | Maintenance & Key Monitoring Parameters |\n| :--- | :--- | :--- | :--- |\n| **Multimedia Sediment Filter** | Mechanical straining & Depth filtration | Debris, silt & gross particulates ($> 10-20\\,\\mu\\text{m}$) | Daily backwash, monitoring differential pressure ($\\Delta P$) |\n| **Water Softener** | Cation exchange ($2\\text{Na}^+ \\leftrightarrow \\text{Ca}^{2+}/\\text{Mg}^{2+}$) | Hardness reduction; prevent RO membrane scaling | Regulated with pure NaCl brine; check hardness weekly ($< 17.1\\,\\text{mg/L}$) |\n| **Dual Carbon Tanks (GAC)** | Catalytic reduction & Organic adsorption | Chlorine & Chloramine removal; prevent hemolysis | Dual tanks in series; EBCT $\\ge 10\\text{ min}$; test total chlorine weekly ($< 0.1\\,\\text{mg/L}$) |\n| **5-Micron Depth Filter** | Particle Trapping | Capture carbon fines & particles $> 5\\,\\mu\\text{m}$ | Regular cartridge replacement when $\\Delta P$ increases |\n\n### Pathophysiological Decision Trees\n- **Pre-treatment Protection Cascade**: Tap Water ➔ Sediment Filter (Removes Silt) ➔ Softener (Exchanges $\\text{Ca}^{2+}/\\text{Mg}^{2+}$ for $\\text{Na}^+$) ➔ Dual GAC Carbon (Neutralizes Chloramines via EBCT $\\ge 10\\text{ min}$) ➔ 5-Micron Filter (Traps Carbon Fines) ➔ Protects RO Membrane.\n\n### Conceptual Trap Analysis\n- **Single vs Dual Carbon Tank Trap**: 考試中若出現僅設置單桶活性碳之情境，屬於嚴重安全違規！必須串連兩組活性碳槽，且取樣檢測點必須設在「第一桶與第二桶之間 (Post-Worker Sample Port)」，方能在第一桶穿透時立即警報，同時靠第二桶阻絕總氯進入 RO。\n- **Brine Tank Salt Trap**: 軟水器鹽水桶再生必須使用高純度無碘顆粒鹽 (Pure NaCl)，嚴禁使用含有抗結塊劑 (Anti-caking agents) 或含碘之食用鹽，否則抗結塊劑會堵塞離子交換樹脂與 RO 膜。"
+        }
+      ]
+    },
+    {
+      "moduleId": "ro_physics_distribution",
+      "moduleTitle": "2. Reverse Osmosis (RO) Membrane Physics, Distribution Piping & Disinfection Protocols",
+      "studyGuide": "本模組深入解析 Reverse Osmosis (RO) 的核心物理與化學原理、Cross-flow filtration 膜動水力學、RO 水儲存與 Distribution Loop 的流速與死角防範設計、以及 Chemical Disinfection 與 Thermal Heat Disinfection 的操作維護細節。",
+      "diagrams": [
+        {
+          "id": "water_ro_loop_ai_fig",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/water_treatment_ro_loop.jpg",
+          "caption": "Figure 2.1: Hemodialysis Reverse Osmosis (RO) Cross-Flow Filtration Unit, Permeate Distribution Loop & Thermal Disinfection System.",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Reverse Osmosis (RO) Permeation Physics & Cross-Flow Filtration Mechanics",
+          "content": "Reverse Osmosis (RO) 是透析水處理系統最核心的離子與微生物屏障：\n1. **Osmotic Pressure Overcoming & Cross-Flow Filtration**:\n   - 自然滲透作用下，水分子自低張溶液向高張溶液流動。RO 系統透過 High-pressure booster pump 施加高於溶液自然滲透壓的壓力 (通常 150-250 psi)，強迫水分子逆向穿過 Thin-Film Composite (TFC Polyamide Membrane)。\n   - **Cross-Flow Filtration Mechanics**: 採用 Cross-flow 過濾而非 Dead-end 過濾。水流平行於膜表面高速流動，分為 Permeate 與 Concentrate/Reject。Cross-flow 剪應力可持續沖刷膜表面，防止離子與微生物積聚懸浮，大幅延長膜管壽命。\n2. **Rejection Rates & Solute Clearance Capabilities**:\n   - 現代 RO 薄膜對二價與多價離子 (如 $\\text{Ca}^{2+}, \\text{Mg}^{2+}, \\text{SO}_4^{2-}, \\text{Al}^{3+}$) 的 Rejection Rate 可達 $99\\%$ 以上；對一價離子 (如 $\\text{Na}^+, \\text{Cl}^-$) 達 $95\\text{--}98\\%$。\n   - 對細菌、真菌、病毒與 Endotoxins (Lipopolysaccharides) 的截留率為 $99.9\\%$。產水之 Conductivity 與 Total Dissolved Solids (TDS) 極低。\n3. **Distribution Piping & Direct Feed vs Tank System**:\n   - **Direct-Feed System**: RO 產水直接進入迴水管線循環至各透析床位，無儲水槽停留，Biofilm 滋生風險最低。\n   - **Indirect Storage Tank System**: 若使用儲水槽，儲存槽必須為 Conical bottom、配備 0.2 $\\mu\\text{m}$ Hydrophobic air vent filter 及 UV 殺菌燈，避免空氣中微生物污染。\n   - **Loop Velocity & Dead-Space Prevention**: 迴水管路必須採用 Continuous circulating loop，管內流速必須保持在 $\\ge 3\\text{ ft/sec}$ ($1\\text{ m/s}$)，以產生 Turbulent flow 抑制細菌附著；管線材質必須為耐腐蝕、內壁光滑之 PVDF 或 PEX，絕不可存在 Dead-ends ($L/D > 2$)。\n4. **Disinfection Protocols (Heat vs Chemical Disinfection)**:\n   - **Thermal Heat Disinfection**: 定期將 RO 系統與迴水管路加熱至 $80\\text{--}90^\\circ\\text{C}$ 並循環維持至少 1 小時。可高效率殺滅管壁細菌並破壞 Biofilm，且不留化學試劑殘留物，為現代透析室評鑑之主流首選。\n   - **Chemical Disinfection**: 使用 Peracetic acid 或 Hydrogen peroxide。消毒後必須執行極嚴密的超純水沖洗，並使用試紙確認化學藥劑零殘留以防患者化學性溶血。\n\n| Operational Parameter | Engineering/Physiological Requirement | Rationale & Clinical Purpose |\n| :--- | :--- | :--- |\n| **RO Membrane Material** | Thin-Film Composite (TFC Polyamide) | High salt rejection ($>99\\%$), high water flux |\n| **Filtration Mode** | Cross-Flow (Permeate vs Reject) | Shear force sweeps membrane, preventing scaling |\n| **Piping Distribution** | Continuous circulating loop; PVDF/PEX | Prevents stagnant water & biofilm formation |\n| **Loop Fluid Velocity** | $\\ge 3\\text{ ft/sec}$ ($1.0\\text{ m/s}$) | Turbulent flow prohibits bacterial adhesion |\n| **Disinfection Protocol** | Thermal ($85^\\circ\\text{C}$ heat) or Chemical (Peracetic Acid) | Destroys endotoxins & bacteria; verification of zero chemical residue required |\n\n### Pathophysiological Decision Trees\n- **RO Filtration & Loop Dynamics**: High-Pressure Pump ➔ TFC RO Membrane (Cross-Flow) ➔ Permeate ($>99\\%$ Rejection) ➔ PVDF Continuous Circulating Loop (Fluid Velocity $\\ge 3\\text{ ft/sec}$) ➔ Thermal Heat Disinfection ($85^\\circ\\text{C}$) ➔ Zero Biofilm Growth.\n\n### Conceptual Trap Analysis\n- **Dead-Space & Stagnant Water Trap**: 迴水管路若出現分叉死角 (Dead end) 或暫時停工床位的盲端管路，靜水區會迅即形成厚重 Biofilm；Biofilm 一旦形成，化學消毒劑極難穿透，會持續釋放 Endotoxin 進入透析水！\n- **TFC Membrane Chlorine Sensitivity Trap**: TFC 聚酰胺 RO 膜對強氧化劑 (游離氯、過氧化氫) 極度敏感！若活性碳槽失效導致游離氯穿透至 RO 膜，會引發膜結構氧化穿孔 (Membrane Degradation)，導致化學離子與內毒素巨量穿透。"
+        }
+      ]
+    },
+    {
+      "moduleId": "water_surveillance_taiwan_standards",
+      "moduleTitle": "3. Water Quality Surveillance & Taiwan TSN Accreditation Standards",
+      "studyGuide": "本模組全面詳解台灣腎臟醫學會 (TSN) 112 年度血液透析院所評鑑標準、AAMI 2014 / ISO 13959 規範、透析用水與透析液的 Bacterial Colony Count (< 100 CFU/ml)、Action Level (= 50 CFU/ml)、Endotoxin 檢驗 (< 0.25 EU/ml via LAL Assay)、軟水硬度 (< 17.1 mg/L) 與總氯上限 (< 0.1 mg/L) 之法定檢測頻率與水質異常處置 SOP。",
+      "diagrams": [
+        {
+          "id": "water_microbiology_ai_fig",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/water_treatment_microbiology.jpg",
+          "caption": "Figure 3.1: Taiwan TSN Hemodialysis Water Quality Standards: Bacterial Colony Count, Endotoxin LAL Assay, and Loop Sampling Techniques.",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Taiwan TSN Hemodialysis Accreditation Standards & Microbiological Quality Control",
+          "content": "根據台灣腎臟醫學會 (TSN) 最新「血液透析院所評量標準」與 AAMI 2014 / ISO 13959 規範，透析室必須建立常態水質監測系統，各項指標均以台灣自定標準為正確答案：\n1. **Hardness**:\n   - **檢測指標與標準**: 軟水器出水硬度必須 $< 17.1\\,\\text{mg/L}$ (相當於 $< 1\\,\\text{gpg}$ 或 $< 17.1\\,\\text{ppm}$)。\n   - **檢測頻率**: 每週至少檢測一次 (建議於每週治療結束後檢測軟水器出水)。水質異常或更換樹脂時改為每日檢測。\n2. **Total Chlorine**:\n   - **檢測指標與標準**: 於第一桶活性碳槽後出水口 (Post-Worker Carbon Tank Port) 採驗，總氯含量必須 $< 0.1\\,\\text{mg/L}$ ($< 0.1\\,\\text{ppm}$)。\n   - **檢測頻率與條件**: 每週至少檢測一次。必須於每週治療前、且水處理設備運行 15 分鐘後採樣檢測。更換活性碳時必須立即檢驗。\n3. **Bacterial Colony Count**:\n   - **培養方法與條件**: 採用 Tryptic soy agar (TSA) 於 $35\\text{--}37^\\circ\\text{C}$ 培養 48 小時，或採用 Reasoner's 2A agar (R2A) 於 $17\\text{--}23^\\circ\\text{C}$ 培養 168 小時 (7 天) 計數。\n   - **法定合格標準**: RO 水與透析液之 Bacterial Colony Count 必須 $< 100\\,\\text{CFU/ml}$。\n   - **Action Level**: 當菌落數達到 $50\\,\\text{CFU/ml}$ 時，即必須立即採取管道消毒與改善行動，防範水質進一步惡化。\n   - **採樣頻率與取樣點**: 傳統或熱消 RO 系統上述各取樣點 (RO 入口、迴水點、第一床及最後一床出水口) 至少每月檢測一次 (建議以 RO 管路消毒前採樣為最佳時機)。採樣前應先讓水流出 60 秒。\n4. **Endotoxin Level**:\n   - **檢測方法**: 採用 Limulus Amebocyte Lysate (LAL Assay)。\n   - **法定合格標準**: RO 水與透析液內毒素必須 $< 0.25\\,\\text{EU/ml}$ (Ultrapure Dialysate 要求 $< 0.03\\,\\text{EU/ml}$)。\n   - **Action Level**: 當內毒素達到 $0.125\\,\\text{EU/ml}$ 時即需啟動行動處置。\n   - **採樣頻率**: RO 水內毒素至少每年檢測一次 (懷疑病人發生 Pyrogenic Reaction 時需立即加測)。\n5. **Annual Heavy Metal & Chemical Water Analysis**:\n   - 依據 AAMI 2014 標準，每年必須做一次完整重金屬與微量元素 (Aluminum, Copper, Zinc, Lead, Fluoride, Nitrate 等) 水質定量分析。\n\n| Water Quality Parameter | Taiwan TSN Accreditation Standard | Action Level | Minimum Testing Frequency |\n| :--- | :--- | :--- | :--- |\n| **Water Hardness** | $< 17.1\\,\\text{mg/L}$ ($< 1\\,\\text{gpg}$) | $\\ge 17.1\\,\\text{mg/L}$ (Recalibrate Softener) | Weekly (post-treatment) |\n| **Total Chlorine** | $< 0.1\\,\\text{mg/L}$ ($< 0.1\\,\\text{ppm}$) | $\\ge 0.1\\,\\text{mg/L}$ (Halt dialysis immediately) | Weekly (pre-treatment after 15 min run) |\n| **Bacterial Colony Count** | $< 100\\,\\text{CFU/ml}$ | $\\ge 50\\,\\text{CFU/ml}$ (Initiate System Disinfection) | Monthly (all RO sampling ports) |\n| **Endotoxin Level (LAL)** | $< 0.25\\,\\text{EU/ml}$ | $\\ge 0.125\\,\\text{EU/ml}$ (Inspect Ultrafilters) | Annually (or post-pyrogenic event) |\n| **Chemical / Heavy Metals** | Compliance with AAMI 2014 Table | Exceeding AAMI limits | Annually |\n\n### Pathophysiological Decision Trees\n- **TSN Water Surveillance Protocol**: Weekly Total Chlorine ($< 0.1\\,\\text{mg/L}$) & Hardness ($< 17.1\\,\\text{mg/L}$) ➔ Monthly Bacteria ($< 100\\,\\text{CFU/ml}$, Action Level $50\\,\\text{CFU/ml}$) ➔ Annual Endotoxin ($< 0.25\\,\\text{EU/ml}$) & Heavy Metal Analysis ➔ Ensures Pure Dialysis Water.\n\n### Conceptual Trap Analysis\n- **TSN vs International Threshold Trap**: 考試與評鑑必須嚴格使用台灣 TSN 評量標準：總氯 $< 0.1\\,\\text{mg/L}$、硬度 $< 17.1\\,\\text{mg/L}$、細菌數 $< 100\\,\\text{CFU/ml}$ (Action Level 50)、內毒素 $< 0.25\\,\\text{EU/ml}$ (Action Level 0.125)。切勿混淆舊版 AAMI 數字。\n- **Total Chlorine Breakthrough Action Trap**: 若於第一桶活性碳後測得總氯 $\\ge 0.1\\,\\text{mg/L}$，代表第一桶已完全穿透失效！必須立即暫停透析或啟動備用碳槽，絕不可繼續治療，否則患者極易發生致命性急性溶血。"
+        }
+      ]
+    },
+    {
+      "moduleId": "contaminant_toxicity_syndromes",
+      "moduleTitle": "4. Pathophysiology & Clinical Syndromes of Dialysis Water Contaminants",
+      "studyGuide": "本模組深入研討透析用水化學污染物與重金屬 Breakthrough 所引發的特異性臨床毒性症狀。精講 Aluminum Toxicity、Chloramines / Total Chlorine Exposure、Hard Water Syndrome、以及 Copper/Zinc/Fluoride 中毒之病理與急救處置。",
+      "diagrams": [
+        {
+          "id": "water_toxicity_ai_fig",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/water_treatment_toxicity.jpg",
+          "caption": "Figure 4.1: Pathophysiologic Clinical Toxicity Syndromes Resulting from Hemodialysis Water Purification Contaminants.",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Chemical Contaminant Breakthrough & Clinical Toxicity Profiles",
+          "content": "透析患者每週接觸約 360-500 公升的透析用水。由於缺少正常腎臟的排泄保護，水中極微量的化學污染物或重金屬均可直接經由透析膜擴散進入血液循環，引發嚴重的急性或慢性中毒綜合徵：\n1. **Aluminum Toxicity**:\n   - **機轉**: 自來水添加 Alum 淨水或含鋁透析水。鋁與 Transferrin 結合後蓄積於骨骼與大腦。\n   - **臨床表現**: (1) **Dialysis Encephalopathy / Dementia**: Dyspraxia of speech、Myoclonus、癲癇與漸進性失智；(2) **Low-Turnover Osteomalacia / Adynamic Bone Disease**: 鋁沉積於 Mineralization front，直接抑制 Osteoblast 活性與 PTH 作用，導致劇烈骨痛與病理性骨折；(3) **Microcytic Normochromic Anemia**: 鋁干擾鐵質利用與 Heme 合成，給予高劑量 EPO 亦無效。\n2. **Chloramines & Total Chlorine Exposure**:\n   - **機轉**: 自來水普遍使用氯胺殺菌。當活性碳槽失效穿透時，氯胺穿過透析膜，為 Strong oxidant agent。\n   - **臨床表現**: 氧化破壞紅血球膜磷脂質與血紅素，導致外血管/內血管 **Acute Hemolytic Anemia** 及 **Methemoglobinemia**。患者透析中突發胸悶、呼吸困難、紫紺與高血鉀。急性溶血發生時，必須立即停止透析，且**體外循環血液絕對不可趕回患者體內**！\n3. **Hard Water Syndrome**:\n   - **機轉**: 軟水器失效，大量 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 離子穿透進透析水。\n   - **臨床表現**: 急性高鈣血症與高鎂血症。患者呈現噁心、嘔吐、嚴重頭痛、血壓顯著升高、皮膚灼熱感、嗜睡與全身肌肉無力。\n4. **Copper & Zinc Toxicity**:\n   - **機轉**: 透析水管路或配件使用銅管或鍍鋅管，被酸性 RO 水浸蝕溶出。\n   - **臨床表現**: 銅中毒引發嚴重溶血、代謝性酸中毒與肝毒性；鋅中毒引發發燒、噁心、嘔吐與金屬味感。\n5. **Fluoride Toxicity**:\n   - **機轉**: 自來水氟化添加過量且 RO 膜截留失效。\n   - **臨床表現**: 致命性高血鉀、嚴重低血鈣、致命性 Ventricular Arrhythmia 與心臟驟停。\n\n| Contaminant / Metal | Primary Mechanism of Injury | Signature Clinical Presentation | Treatment & Acute Management |\n| :--- | :--- | :--- | :--- |\n| **Aluminum (Al)** | Deposition in bone mineralization front & brain | Dialysis dementia, osteomalacia, microcytic anemia | Deferoxamine (DFO) chelation; pure RO water |\n| **Chloramines / Chlorine** | RBC membrane lipid peroxidation & Heme oxidation | Acute hemolytic anemia, methemoglobinemia, hyperkalemia | Stop HD immediately; DO NOT return blood; oxygen support |\n| **Calcium & Magnesium** | Softener failure $\\rightarrow$ High $\\text{Ca}^{2+}/\\text{Mg}^{2+}$ flux | Hard water syndrome: N/V, severe HTN, headache, weakness | Replace softener resin; re-dialyze with pure water |\n| **Copper (Cu)** | Direct erythrocyte membrane damage | Acute hemolysis, GI distress, metabolic acidosis | Chelation (Penicillamine/Trientine); remove copper pipes |\n| **Fluoride (F)** | Disruption of calcium-phosphate cellular balance | Tetany, hypocalcemia, fatal ventricular arrhythmias | Intensive dialysis with pure water; IV calcium gluconate |\n\n### Pathophysiological Decision Trees\n- **Chloramine Hemolysis Emergency Cascade**: Carbon Tank Failure ➔ Chloramine Breakthrough ➔ Oxidation of RBC Membrane & Heme ➔ Acute Intravascular Hemolysis & Methemoglobinemia ➔ Stop HD & Discard Extracorporeal Blood Line (Never return blood!).\n\n### Conceptual Trap Analysis\n- **Chloramine Hemolysis Blood Return Trap**: 考題常陷阱問「當透析中發生氯胺穿透引發急性溶血時，應如何處理體外線路血液？」正解為：**絕不可以將血液趕回體內**！因為線路中的血液已遭過氧化物破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性高血鉀與心臟驟停。"
+        }
+      ]
+    }
+  ]
+}

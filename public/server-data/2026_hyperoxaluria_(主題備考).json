@@ -1,0 +1,261 @@
+{
+  "id": "2026_hyperoxaluria_(主題備考)",
+  "title": "2026 腎臟專科高草酸尿症與草酸腎病主題式練習題庫",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "questions": [
+    {
+      "id": "2026_hyperoxaluria_001",
+      "stem": "A 12-year-old boy presents with recurrent calcium oxalate nephrolithiasis and nephrocalcinosis. Laboratory evaluation reveals marked hyperoxaluria (>110 mg/day; normal <45 mg/day) and elevated urinary glycolate. A diagnosis of Primary Hyperoxaluria Type 1 (PH1) is suspected. Defect in which of the following hepatic enzymes is responsible for this condition?",
+      "options": [
+        "Alanine-glyoxylate aminotransferase (AGXT)",
+        "Glyoxylate reductase/hydroxypyruvate reductase (GRHPR)",
+        "4-hydroxy-2-oxoglutarate aldolase (HOGA1)",
+        "Lactate dehydrogenase A (LDHA)"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 Primary Hyperoxaluria Type 1 (PH1) 之 pathogenic genes 與 enzyme defects。PH1 為最常見且最具侵襲性的 subtype，因 *AGXT* 基因突變導致 liver 的 Peroxisome 內之 Alanine-glyoxylate aminotransferase (AGXT / AGT) activity 缺失或發生 Peroxisome-to-Mitochondria Mistargeting。Glyoxylate 無法轉變為 Glycine，轉而在 cytoplasm 被 Glycolate Oxidase (GO) 大量氧化為 Oxalate，導致極度的 Hyperoxaluria (>100 mg/day) 併發 Glycolic Aciduria。選項 (B) GRHPR defect 為 PH2；選項 (C) HOGA1 defect 為 PH3；選項 (D) LDHA 非 primary mutation gene，故選 (A)。",
+      "resolvedImages": [
+        {
+          "id": "brenner_fig_38_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_15.png",
+          "caption": "Brenner 11e Fig 38.15: Pathophysiologic mechanisms of hyperoxaluria and hepatic oxalogenesis pathways.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_002",
+      "stem": "A 24-year-old female is evaluated for recurrent nephrolithiasis. 24-hour urine analysis demonstrates severe hyperoxaluria. Metabolic workup shows normal urinary glycolate levels, but markedly elevated urinary L-glyceric acid. Which of the following inherited disorders is the most likely diagnosis?",
+      "options": [
+        "Primary Hyperoxaluria Type 1 (PH1)",
+        "Primary Hyperoxaluria Type 2 (PH2)",
+        "Primary Hyperoxaluria Type 3 (PH3)",
+        "Enteric Hyperoxaluria"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 Primary Hyperoxaluria Type 2 (PH2) 之特異性 urine biomarker。PH2 因 *GRHPR* mutation 引發。由於 GRHPR enzyme 缺失，Glyoxylate 與 Hydroxypyruvate 無法進行正常還原反應，導致體內 L-glyceric acid 與 Oxalate 大量蓄積。因此尿液中出現顯著升高之 L-Glyceric Aciduria 為確診 PH2 之特徵性發現。PH1 尿液升高者為 Glycolate；PH3 為 4-HOG；Enteric Hyperoxaluria 則無特定單基因 urine specific acid 沉積，故選 (B)。",
+      "resolvedImages": [
+        {
+          "id": "brenner_table_38_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_38_8.png",
+          "caption": "Brenner 11e Table 38.8: Metabolic evaluation of urinary oxalate, glycolate, and L-glycerate in Primary Hyperoxaluria.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_003",
+      "stem": "In patients with Primary Hyperoxaluria, genetic testing reveals a homozygous mutation in HOGA1 encoding mitochondrial 4-hydroxy-2-oxoglutarate aldolase (PH3). Which of the following clinical statements regarding Primary Hyperoxaluria Type 3 (PH3) is correct?",
+      "options": [
+        "It carries the highest lifetime risk of progression to End-Stage Kidney Disease (ESKD)",
+        "It is inherited in an autosomal dominant pattern",
+        "Patients often present with early childhood stone disease but rarely progress to ESKD",
+        "It responds dramatically to high-dose Pyridoxine (Vitamin B6) therapy"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Primary Hyperoxaluria Type 3 (PH3) 的臨床 prognosis 與 genetic features。PH3 因 Mitochondria 之 *HOGA1* mutation 所致。相較於 PH1 高達 80% 的 End-Stage Kidney Disease (ESKD) 進展率，PH3 患者雖然在幼童期早期即會發作反覆 Nephrolithiasis，但隨年齡增長 stone 發作頻率趨緩，且極少進展至 ESKD 或 Systemic Oxalosis (Lowest Risk of ESKD)。PH3 同樣為 Autosomal Recessive 遺傳 (選項 B 錯誤)；ESKD 風險最高者為 PH1 (選項 A 錯誤)；Pyridoxine 僅對部分 PH1 有效 (選項 D 錯誤)。故正確答案為 (C)。",
+      "resolvedImages": [
+        {
+          "id": "chimei_hyperoxaluria_lumasiran",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/chimei_hyperoxaluria_lumasiran.jpg",
+          "caption": "ChiMei Knowledge Base: Differential clinical outcomes and ESKD risks across Primary Hyperoxaluria Types 1, 2, and 3.",
+          "sourceBook": "ChiMei Nephrology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_004",
+      "stem": "A 45-year-old woman underwent Roux-en-Y Gastric Bypass (RYGB) surgery 3 years ago. She presents with severe acute flank pain and acute kidney injury (serum creatinine 4.2 mg/dL). CT scan shows bilateral ureteral calcium oxalate stones. 24-hour urine oxalate is 85 mg/day. Which of the following pathophysiological mechanisms primary accounts for her enteric hyperoxaluria?",
+      "options": [
+        "Increased intestinal expression of the SLC26A6 oxalate anion transporter",
+        "Overgrowth of luminal Oxalobacter formigenes colonizing the colon",
+        "Impaired hepatic degradation of ingested dietary oxalate",
+        "Unabsorbed luminal fatty acids bind calcium, leaving excess free oxalate available for colonic absorption"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 Enteric Hyperoxaluria 在 Roux-en-Y Gastric Bypass (RYGB) 後的 pathogenesis。在 Fat Malabsorption 狀況下，未吸收的 Free Fatty Acids 在腸道腔內與 Ca2+ 發生 Saponification，耗盡了腸腔內的游離 Ca2+。原本應與 Ca2+ 結合形成不溶性沉澱隨糞便排出的 Oxalate 被大量解放，呈溶解游離狀態的大量 Oxalate 被 colonic mucosa 高度被動重吸收，引發次發性 Enteric Hyperoxaluria 與 Oxalate Nephropathy。故答案選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "brenner_fig_38_18",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_18.png",
+          "caption": "Brenner 11e Fig 38.18: Pathophysiology of Enteric Hyperoxaluria in Inflammatory Bowel Disease and Post-Bariatric Surgery.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_005",
+      "stem": "A patient with chronic Crohn's ileitis and malabsorption is diagnosed with enteric hyperoxaluria and recurrent calcium oxalate stones. A junior resident suggests placing the patient on a strict Low-Calcium Diet. Why is this dietary recommendation contraindicated in enteric hyperoxaluria?",
+      "options": [
+        "Restricting dietary calcium reduces luminal free calcium, thereby increasing free oxalate available for colonic absorption",
+        "Low dietary calcium directly stimulates hepatic peroxisomal AGXT gene overexpression",
+        "Calcium restriction degrades colonic mucosal tight junctions, enhancing passive citrate secretion",
+        "Low calcium diets promote renal tubular epithelial apoptosis via CaSR stimulation"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 Enteric Hyperoxaluria dietary management 的 Conceptual Trap Analysis。臨床上對 Enteric Hyperoxaluria 患者實施 Low Calcium Diet 為嚴重的治療錯誤！若限制飲食中的 Calcium，腸腔內缺乏游離 Ca2+ 結合 Oxalate，會導致更多 Free Oxalate 在大腸被高度吸收，反而顯著加重 Hyperoxaluria。正確做法為隨餐補充 oral calcium (Calcium Carbonate 或 Calcium Citrate)，在腸道腔內主動結合 Oxalate。故正確答案為 (A)。",
+      "resolvedImages": [
+        {
+          "id": "cmuh_metabolic_stones",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/cmuh_metabolic_stones.jpg",
+          "caption": "CMUH Metabolic Stones Archive: Nutritional management and calcium binding kinetics in enteric hyperoxaluria.",
+          "sourceBook": "CMUH Nephrology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_006",
+      "stem": "A 58-year-old man with a history of chronic pancreatitis presents with unexplained rapid decline in kidney function. A renal biopsy is performed. Light microscopy shows extensive acute tubular injury with intratubular fan-shaped and dumbbell-shaped clear crystals. Under polarized light microscopy, these crystals exhibit strong positive birefringence. What is the diagnosis?",
+      "options": [
+        "Uric Acid Nephropathy",
+        "Oxalate Nephropathy (Calcium Oxalate Deposition)",
+        "Myeloma Cast Nephropathy",
+        "Cystinuria Crystalline Nephropathy"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 Oxalate Nephropathy 腎切片的關鍵光學特徵。Calcium Oxalate crystals 在 H&E 染色下呈無色或黃色晶體，且在 Polarized Light Microscopy 下展現極度強烈的 Strong Birefringence 光學特徵。相較之下，Myeloma Casts 為 eosinophilic fractured casts 且無 Birefringence；Uric Acid 為黃褐色；Cystine 為六角形 (hexagonal)。故本題答案為 (B)。",
+      "resolvedImages": [
+        {
+          "id": "vgh_acute_crystal_nephropathy",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/vgh_acute_crystal_nephropathy.jpg",
+          "caption": "VGH Pathology Archive: Polarized light microscopy of intratubular Calcium Oxalate crystals exhibiting strong birefringence.",
+          "sourceBook": "VGH Nephrology Pathology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_007",
+      "stem": "A 22-year-old male with Primary Hyperoxaluria Type 1 reaches an estimated GFR of 18 mL/min/1.73m². He develops complete heart block, severe erythropoietin-resistant anemia, and livedo reticularis on his lower extremities. Which of the following pathophysiological thresholds triggers this manifestation of Systemic Oxalosis?",
+      "options": [
+        "Serum uric acid concentration exceeding 12 mg/dL",
+        "Urinary pH dropping below 4.5",
+        "GFR decline below 30 mL/min/1.73m² causing plasma oxalate saturation and extrarenal crystal deposition",
+        "Loss of intestinal Slc26a6 secretion coupled with acute hyperkalemia"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Systemic Oxalosis 的 GFR threshold 與臨床表現。當腎功能顯著衰退至 GFR < 30 mL/min/1.73m² (或 Plasma Oxalate > 30 μmol/L) 時，腎臟排除 Oxalate 能力嚴重受限，Plasma Oxalate 達到 Supersaturation，crystals 大量沉積於 extrarenal organs：沉積於 cardiac conduction system 引發 Heart Block；沉積於 bone marrow 引發 EPO-Resistant Anemia；沉積於皮膚血管引發 Livedo Reticularis。故選 (C)。",
+      "resolvedImages": [
+        {
+          "id": "shuangho_ackd_rcc_oxalate",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/shuangho_ackd_rcc_oxalate.jpg",
+          "caption": "ShuangHo Knowledge Base: Plasma oxalate supersaturation dynamics and systemic oxalosis in advanced CKD.",
+          "sourceBook": "ShuangHo Nephrology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_008",
+      "stem": "Lumasiran is an FDA-approved RNA interference (siRNA) therapeutic for Primary Hyperoxaluria Type 1 (PH1). Which of the following describes its precise molecular mechanism of action?",
+      "options": [
+        "Inhibition of intestinal SLC26A6 anion exchange to block dietary oxalate absorption",
+        "Allosteric activation of peroxisomal alanine-glyoxylate aminotransferase (AGXT)",
+        "Competitive antagonism of the human calcium-sensing receptor (CaSR) in distal tubule",
+        "Targeted degradation of hepatic HAO1 mRNA to suppress Glycolate Oxidase (GO) enzyme synthesis"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 PH1 新型 RNAi 標靶藥物 Lumasiran 的 molecular mechanism。Lumasiran 為 GalNAc 修飾之 siRNA，能專一性 target 並降解 hepatocytes 內編碼 Glycolate Oxidase (GO) enzyme 之 *HAO1* mRNA。GO 被抑制後，Glycolate 無法被氧化轉化為 Glyoxylate，從源頭完全切斷 endogenous Oxalate 的生成，使 PH1 患者 urinary oxalate 大幅降低至接近正常。故選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "chimei_hyperoxaluria_lumasiran",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/chimei_hyperoxaluria_lumasiran.jpg",
+          "caption": "ChiMei Therapeutics Archive: Mechanism of Lumasiran siRNA targeted silencing of hepatic HAO1 mRNA.",
+          "sourceBook": "ChiMei Nephrology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_009",
+      "stem": "A 10-year-old child diagnosed with Primary Hyperoxaluria Type 1 (PH1) undergoes genetic testing, which identifies a homozygous G170R (p.Gly170Arg) mutation in AGXT. High-dose supplementation of which of the following vitamins can stabilize this mutant enzyme and reduce urinary oxalate excretion in this subset of patients?",
+      "options": [
+        "Pyridoxine (Vitamin B6)",
+        "Thiamine (Vitamin B1)",
+        "Ascorbic acid (Vitamin C)",
+        "Cholecalciferol (Vitamin D3)"
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "本題考點為 Pyridoxine (Vitamin B6) 在 PH1 部分 genotypes 患者中的 therapeutic response。約 30% 的 PH1 患者 (特別是帶有 p.Gly170Arg / G170R 或 p.Phe152Ile mutation 者) 因 mutation 導致 AGT enzyme 發生 conformational defect 或移位至 Mitochondria。大劑量 Pyridoxine (Vitamin B6) 作為 AGT enzyme 之 essential Co-factor，能穩定 mutant enzyme conformation 並矯正 Mistargeting，顯著降低 urinary oxalate 排泄量。故選 (A)。",
+      "resolvedImages": [
+        {
+          "id": "brenner_table_38_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_38_8.png",
+          "caption": "Brenner 11e Table 38.8: Pharmacological response to Pyridoxine (Vitamin B6) in specific PH1 AGXT mutations.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_010",
+      "stem": "A 28-year-old patient with Primary Hyperoxaluria Type 1 (PH1) and ESKD underwent isolated kidney transplantation without pre-treatment with Lumasiran or enzymatic modification. Within weeks post-transplantation, the patient developed graft failure. What is the fundamental cause of graft loss in this scenario?",
+      "options": [
+        "Hyperacute antibody-mediated rejection due to pre-formed donor-specific antibodies",
+        "Rapid recurrence of calcium oxalate crystal nephropathy because the uncorrected host liver continues to overproduce oxalate",
+        "Calcineurin inhibitor toxicity causing irreversible focal segmental glomerulosclerosis",
+        "De novo BK virus nephropathy triggered by heavy maintenance immunosuppression"
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "本題考點為 PH1 患者接受 Isolated Kidney Transplant 早期 graft failure 的根本原因。在未接受 Lumasiran 或 gene therapy 前，PH1 的 enzyme defect 源頭在於 Liver。若僅給予 Isolated Kidney Transplant，host 未矯正的 hepatocytes 仍會源源不絕地產生海量 Oxalate，高濃度 Plasma Oxalate 會迅速在 transplanted renal tubules 與 interstitium 沉積 Calcium Oxalate crystals，導致 graft 暴發性 failure。因此傳統 gold standard 為 Combined Liver-Kidney Transplantation (CLKT)。故選 (B)。",
+      "resolvedImages": [
+        {
+          "id": "shuangho_ackd_rcc_oxalate",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/shuangho_ackd_rcc_oxalate.jpg",
+          "caption": "ShuangHo Knowledge Base: Rationale for Combined Liver-Kidney Transplantation vs Isolated KT in PH1.",
+          "sourceBook": "ShuangHo Nephrology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_011",
+      "stem": "A 52-year-old patient with Stage 4 CKD presents with intractable hiccoughs, acute neurological confusion, and sudden drop in urine output after consuming a large volume of fresh fruit juice. Renal biopsy demonstrates diffuse acute tubular necrosis with abundant intratubular calcium oxalate crystals. Ingestion of which of the following fruits is infamous for causing this toxic syndrome?",
+      "options": [
+        "Grapefruit (Citrus x paradisi)",
+        "Cranberry (Vaccinium macrocarpon)",
+        "Star fruit (Averrhoa carambola)",
+        "Pomegranate (Punica granatum)"
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceExplanation": "本題考點為 Star fruit (*Averrhoa carambola*) 在 CKD 患者引發的 toxic Oxalate Nephropathy。Star fruit 含有高濃度 Oxalate 與 neurotoxin Caramboxin。CKD 患者因 renal excretion 能力降低，食用後易爆發 Acute Oxalate Nephropathy 併發 Intractable Hiccoughs、seizures 與 altered mental status，需急診 hemodialysis。故選 (C)。",
+      "resolvedImages": [
+        {
+          "id": "vgh_acute_crystal_nephropathy",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/vgh_acute_crystal_nephropathy.jpg",
+          "caption": "VGH Pathology Archive: Star fruit-induced acute oxalate nephropathy and neurotoxicity in CKD.",
+          "sourceBook": "VGH Nephrology Pathology"
+        }
+      ]
+    },
+    {
+      "id": "2026_hyperoxaluria_012",
+      "stem": "Which of the following intestinal commensal microorganisms utilizes luminal oxalate as its primary energy source, thereby playing an essential protective role against intestinal oxalate absorption and nephrolithiasis?",
+      "options": [
+        "Clostridium difficile",
+        "Enterococcus faecalis",
+        "Escherichia coli",
+        "Oxalobacter formigenes"
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceExplanation": "本題考點為 intestinal oxalate-degrading commensal bacterium *Oxalobacter formigenes* 的生理功能。*Oxalobacter formigenes* 為專一性利用 Oxalate 作為主要 energy source 的 colonic commensal bacterium。當長期使用 broad-spectrum antibiotics 或 bowel disease 導致 *O. formigenes* 族群被消滅時，腸腔內 Oxalate degradation 劇降，Free Oxalate absorption 顯著增加。故選 (D)。",
+      "resolvedImages": [
+        {
+          "id": "brenner_fig_38_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_15.png",
+          "caption": "Brenner 11e Fig 38.15: Microbial degradation of luminal oxalate by Oxalobacter formigenes.",
+          "sourceBook": "Brenner 11e Ch 38"
+        }
+      ]
+    }
+  ]
+}

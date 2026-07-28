@@ -1,0 +1,118 @@
+{
+  "id": "2026_Albright_hereditary_osteodystrophy_(主題備考)_tutorial",
+  "paperId": "2026_Albright_hereditary_osteodystrophy_(主題備考)",
+  "title": "2026 腎臟專科 Albright Hereditary Osteodystrophy 與 Pseudohypoparathyroidism 主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T17:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "aho_gnas_genetics_pathophysiology",
+      "moduleTitle": "1. GNAS Molecular Genetics, Genomic Imprinting & Gsα GPCR Signaling Cascades",
+      "studyGuide": "本模組深入研討 *GNAS* 基因之 Genomic Imprinting 分子機制與 Gsα 蛋白在 G-Protein Coupled Receptor (GPCR) 訊號傳遞路徑中之核心角色。聚焦剖析 Proximal Tubule、Thyroid 與 Gonads 中 Gsα 僅由 Maternal Allele 特異性表達之生理現象，精確解析 Maternal 或 Paternal 突變如何決定臨床呈現 Pseudohypoparathyroidism (PHP) 或 Pseudopseudohypoparathyroidism (PPHP) 的表觀遺傳學基礎。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_7_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_7_7.png",
+          "caption": "Brenner 11e Fig. 7.7: Mechanisms and regulation of Ca2+ transport in TALH & PTH receptor Gsα signaling.",
+          "sourceBook": "Brenner 11e Ch 7"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Imprinting of GNAS Locus & Tissue-Specific Gsα Transduction",
+          "diagram": {
+            "id": "aho_gnas_imprinting_pathway_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/aho_gnas_imprinting_pathway.jpg",
+            "caption": "Figure 1.1: GNAS Gene Locus Imprinting (Maternal vs Paternal Allele) and GPCR Gsα Signaling in Proximal vs Distal Nephron.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "*GNAS* 基因位元 (位於 Chromosome 20q13.3) 編碼 G-protein 刺激性 alpha 亞基 (Gsα)，為細胞膜上多種 G-Protein Coupled Receptors (GPCR，包括 PTHR1, TSHR, LHR, FSHR, GHRHR) 活化 Adenylyl Cyclase (AC) 並將 ATP 轉化為 cAMP 之關鍵傳導分子：\n1. **Tissue-Specific Genomic Imprinting Mechanics**: 雖然在人體大多數組織（如 Bone, Fat, Subcutaneous Tissue）中，*GNAS* 的 Gsα 等位基因為 Biallelic Expression；然而在特定的 Endocrine Target Organs——特別是 Proximal Tubule、Thyroid Follicular Cells 與 Anterior Pituitary，Paternal Allele 經由 Promoter Methylation 而被生理性 Silenced，使得 Gsα 蛋白質在這些組織中 100% 依賴 Maternal Allele 進行 Monoallelic Expression。\n2. **Maternal vs. Paternal Mutation Transmission Divergence**: \n   - **Maternal Inheritance**: 若帶有 *GNAS* Loss-of-Function 突變的基因來自母親，因 Proximal Tubule 缺乏來自父系的 Gsα 補充，Proximal Tubule 細胞將呈現 > 50~90% 的 Gsα 蛋白功能缺乏。PTH 結合至 Proximal Tubule PTHR1 後無法活化 Adenylyl Cyclase，引發顯著之 PTH Resistance、Hypocalcemia 與 Hyperphosphatemia；同時在 Bone 與 Subcutaneous Tissue 因總 Gsα 量減半而呈現 Albright Hereditary Osteodystrophy (AHO) 表型。此即為 Pseudohypoparathyroidism Type 1a (PHP-1a)。\n   - **Paternal Inheritance**: 若相同的 *GNAS* Loss-of-Function 突變來自父親，因 Proximal Tubule 的 Paternal Allele 原本即被 Silenced，Proximal Tubule 主要由正常的 Maternal Allele 供給 Gsα，故 Kidney 及其他 Endocrine Organs 之 PTH / TSH 訊號傳導完全正常 (無 PTH Resistance，Calcium 與 Phosphate 正常)；但在 Biallelic Expression 的 Bone 與 Subcutaneous Tissue 中，Gsα 劑量減半仍足以引發完整的 AHO 身體特徵。此即為 Pseudopseudohypoparathyroidism (PPHP)。\n\n| Inherited Allele Defect | Renal Proximal Tubule Gsα Expression | End-Organ Hormone Resistance | Skeletal & Tissue Gsα Dosage | Clinical Phenotype Diagnosis |\n| :--- | :--- | :--- | :--- | :--- |\n| **Maternal Loss-of-Function** | Severe Deficiency (Paternal silenced) | **Severe (PTH, TSH, FSH/LH)** | Haploinsufficient (50% reduction) | **PHP-1a** (AHO + Hormone Resistance) |\n| **Paternal Loss-of-Function** | **Normal** (Maternal active) | **None** (Normal Ca, P, PTH) | Haploinsufficient (50% reduction) | **PPHP** (AHO Only, No Resistance) |\n| **Maternal Epigenetic (STX16/GNAS Imprinting)** | Isolated Proximal Tubule Loss | **Isolated PTH / Mild TSH** | Normal (100% expression) | **PHP-1b** (Resistance, NO AHO) |\n\n| Signal Transduction Cascade Component | Physiological Action in Proximal Tubule | Impact of Gsα Deficiency in PHP-1a | Downstream Clinical Marker |\n| :--- | :--- | :--- | :--- |\n| **PTH1R Receptor Binding** | Binds circulating PTH at basolateral membrane | Receptor binding normal | Intact PTH levels markedly elevated |\n| **Gsα Subunit Activation** | Couples PTH1R to Adenylyl Cyclase | **Failed activation** | Blunted intracellular GTP hydrolysis |\n| **Adenylyl Cyclase (AC)** | Converts ATP to cyclic AMP (cAMP) | **No cAMP generation** | **Abolished Urinary cAMP Surge** |\n| **Apical NaPi-2a / NaPi-2c** | Endocytosed to decrease P reabsorption | Transporters remain on membrane | **Blunted Urinary Phosphaturia** |\n| **1α-Hydroxylase (CYP27B1)** | Transcriptionally induced by cAMP | Failed induction | Decreased 1,25(OH)2D Synthesis |\n\n### Pathophysiological Decision Trees\n- **GNAS Imprinting Cascade**: Maternal GNAS Inactivating Mutation ➔ Proximal Tubule Monoallelic Gsα Deficit ➔ PTH Binding Fails to Activate Adenylyl Cyclase ➔ Intracellular cAMP Generation Blocked ➔ Renal Proximal Tubule PTH Resistance ➔ Hypocalcemia + Hyperphosphatemia + High Serum PTH (PHP-1a).\n\n### Conceptual Trap Analysis\n- **PPHP Hormone Resistance Trap**: 切勿誤以為 Pseudopseudohypoparathyroidism (PPHP) 帶有抗藥性或內分泌異常；PPHP 患者因突變源自 Paternal Transmission，其 Proximal Tubule 的 Maternal Gsα 完全正常，故 Serum Calcium、Serum Phosphate 及 PTH 濃度 100% 正常，僅表現 AHO 骨骼身體特徵。"
+        }
+      ]
+    },
+    {
+      "moduleId": "php_classification_spectrum",
+      "moduleTitle": "2. Classification Spectrum of Pseudohypoparathyroidism (PHP-1a, 1b, 1c, 2, PPHP, POH)",
+      "studyGuide": "本模組完整歸納 Pseudohypoparathyroidism (PHP) 家族及其相關遺傳疾患之精準分型。詳細剖析 PHP-1a、PHP-1b、PHP-1c、PHP-2、PPHP 及 Progressive Osseous Heteroplasia (POH) 在 Gsα 體外活性、AHO 表現型有無、多重激素抗性譜系 (PTH/TSH/Gonadotropins) 以及外源性 PTH 刺激試驗 (Ellsworth-Howard Test) 中 Urinary cAMP 與 Urinary Phosphate 反應之鑑別診斷矩陣。",
+      "diagrams": [
+        {
+          "id": "Brenner_Box_18_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_4.png",
+          "caption": "Brenner 11e Box 18.4: Inherited and Genetic Syndromes with Resistance to PTH Action (Pseudohypoparathyroidism 1a, 1b, 2).",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Differential Classification & Hormone Resistance Trajectories",
+          "diagram": {
+            "id": "php_classification_spectrum_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/php_classification_spectrum.jpg",
+            "caption": "Figure 2.1: Comparative Infographic of Pseudohypoparathyroidism (PHP) Variants, PPHP, and POH.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Pseudohypoparathyroidism (PHP) 包含多種因 PTH 受體後訊號傳導障礙所引發之抗性疾病，其分型在腎臟專科醫師甄試中為極高頻考點：\n1. **PHP Type 1a (PHP-1a)**: 具備 Maternal *GNAS* Inactivating Mutation。體外 Erythrocyte Gsα 蛋白活性下降 (~50%)。臨床呈現 AHO Stigmata + Multihormone Resistance (PTH, TSH, FSH/LH, GHRH)。注入外源性 PTH 後，Urinary cAMP 與 Urinary Phosphate 皆無反應 (Blunted/Abolished)。\n2. **PHP Type 1b (PHP-1b)**: 因 *STX16* 基因微小缺失或 *GNAS* Differentially Methylated Regions (DMRs, 如 A/B Promoter) 的 Loss of Imprinting 所致。此為特異性 Proximal Tubule Epigenetic Defect。臨床 No AHO 且智力正常，呈現 Isolated PTH Resistance (部分可合併輕微 TSH Resistance)。外源性 PTH 刺激試驗下，Urinary cAMP 與 Urinary Phosphate 同樣完全無反應。\n3. **PHP Type 1c (PHP-1c)**: 臨床表現與 PHP-1a 完全一致 (有 AHO + Multihormone Resistance，外源 PTH 無 cAMP 反應)；但其紅血球細胞膜 In Vitro Gsα Catalytic Activity 呈現正常。原因為 *GNAS* 突變影響了 Gsα 蛋白與 GPCR 受體的特定偶合區段而非 Catalytic Domain。\n4. **PHP Type 2 (PHP-2)**: 屬於受體後極遠端 (Distal to cAMP Generation) 缺陷。外源性 PTH 注入後，細胞仍能正常產生 cAMP 並大量排入尿液 (Urinary cAMP Surge Normal)，但遠端磷酸鹽轉運蛋白反應失敗 (Urinary Phosphaturia Blunted)。患者通常 No AHO。\n5. **Pseudopseudohypoparathyroidism (PPHP)**: Paternal *GNAS* 突變。體外 Gsα 活性半減。呈現單純 AHO 體徵，無任何內分泌激素阻抗 (Serum Calcium, Serum Phosphate, PTH 均正常)，外源 PTH 刺激下 Urinary cAMP 及 Urinary Phosphate 均完全正常。\n6. **Progressive Osseous Heteroplasia (POH)**: 同屬 Paternal *GNAS* 失能突變引發之嚴重表型，Heterotopic Ossification 不僅限於皮下，更深層侵犯 Skeletal Muscle 與深部結締組織，導致關節僵直與重度失能。\n\n| Disorder Subtype | GNAS Gene / Epigenetic Defect | In Vitro Gsα Activity | AHO Physical Features | End-Organ Hormone Resistance Spectrum | Ellsworth-Howard Urinary cAMP | Ellsworth-Howard Urinary Phosphate |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **PHP-1a** | Maternal *GNAS* coding mutation | **Reduced (~50%)** | **Present (O)** | **Multihormone (PTH, TSH, Gonadotropins)** | **No Response (Blunted)** | **No Response (Blunted)** |\n| **PHP-1b** | *STX16* deletion / GNAS Loss of Imprinting | Normal | **Absent (X)** | **Isolated PTH (± Mild TSH)** | **No Response (Blunted)** | **No Response (Blunted)** |\n| **PHP-1c** | Maternal *GNAS* receptor-coupling mutation | **Normal** | **Present (O)** | **Multihormone (PTH, TSH, Gonadotropins)** | **No Response (Blunted)** | **No Response (Blunted)** |\n| **PHP-2** | Distal post-cAMP defect (Unknown gene) | Normal | **Absent (X)** | Isolated PTH | **Normal Increase** | **No Response (Blunted)** |\n| **PPHP** | Paternal *GNAS* coding mutation | **Reduced (~50%)** | **Present (O)** | **None (Normal Ca, P, PTH)** | **Normal Increase** | **Normal Increase** |\n| **POH** | Paternal *GNAS* severe inactivating mutation | Reduced (~50%) | Deep muscle ossification | None | Normal Increase | Normal Increase |\n\n| Clinical Parameter | Pseudohypoparathyroidism Type 1a (PHP-1a) | Pseudohypoparathyroidism Type 1b (PHP-1b) | Pseudopseudohypoparathyroidism (PPHP) |\n| :--- | :--- | :--- | :--- |\n| **Transmission Origin** | Maternal Allele Inheritance | Epigenetic Imprinting Defect (STX16) | Paternal Allele Inheritance |\n| **AHO Skeletal Stigmata** | **Prominent (Short 4th/5th metacarpals)** | **Absence of AHO (Normal Skeleton)** | **Prominent (Short 4th/5th metacarpals)** |\n| **Biochemical Hypocalcemia** | **Severe Hypocalcemia & High PTH** | **Severe Hypocalcemia & High PTH** | **Normal Calcium & Normal PTH** |\n| **TSH / Thyroid Resistance** | Common (Primary Hypothyroidism) | Rare to Absent | Absent |\n| **Cognitive Deficit Frequency** | Common (Intellectual Disability) | Intellectual Status Normal | Occasional |\n\n### Pathophysiological Decision Trees\n- **PHP Subtype Evaluation Flow**: Suspected PTH Resistance (Low Ca, High P, High PTH) ➔ Check AHO Phenotype ➔ If AHO Present: Check Erythrocyte Gsα Activity (Reduced = PHP-1a; Normal = PHP-1c). If AHO Absent: Check Urinary cAMP to PTH (Blunted = PHP-1b; Normal = PHP-2).\n\n### Conceptual Trap Analysis\n- **PHP-1b AHO Trap**: 考題常誘答「PHP-1a 與 PHP-1b 皆具有 AHO 外觀」，此為重大的觀念陷阱！PHP-1b 為特異性 Proximal Tubule Epigenetic Defect，患者骨骼體型與智力完全正常 (No AHO stigmata)。"
+        }
+      ]
+    },
+    {
+      "moduleId": "aho_clinical_phenotype_brachydactyly",
+      "moduleTitle": "3. Albright Hereditary Osteodystrophy (AHO) Physical Phenotype & Clinical Features",
+      "studyGuide": "本模組深入解析 Albright Hereditary Osteodystrophy (AHO) 之特徵性身體表現型。精解 Brachydactyly Type E (特異性第 4 與第 5 Metacarpals 短縮及 Archibold Sign)、Short Stature, Round Facies, Obesity 與 Subcutaneous Heterotopic Ossification 之解剖學特徵與 Multihormone Resistance 表現。",
+      "diagrams": [
+        {
+          "id": "Brenner_Box_18_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Box_18_5.png",
+          "caption": "Brenner 11e Box 18.5: Causes of Hyperphosphatemia and Impaired Renal Excretion in Hypoparathyroidism & PHP.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Skeletal Brachydactyly, Subcutaneous Ossification & Multihormone Involvement",
+          "diagram": {
+            "id": "aho_clinical_phenotype_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/aho_clinical_phenotype.jpg",
+            "caption": "Figure 3.1: Physical Manifestations of AHO: Brachydactyly (Short 4th/5th Metacarpals / Archibold Sign), Short Stature, Round Face, Obesity, and Ectopic Ossification.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Albright Hereditary Osteodystrophy (AHO) 為一組特定的臨床骨骼與發育異常症候群，由 *GNAS* 基因 Gsα Haploinsufficiency in Skeletal/Adipose Tissue 所致：\n1. **Pathognomonic Brachydactyly & Archibold Sign**: 最具特徵性的放射學與臨床發現為 Brachydactyly Type E，特別是 4th and 5th Metacarpals 及第 1 掌骨的前期 Epiphyseal Closure 導致短縮。當患者握拳時，因短縮的第 4、5 掌骨無法正常向前突出形成指關節，反而形成凹陷，此臨床徵象稱為 Archibold Sign (Dimpling over knuckles)。\n2. **Physical Habitus & Subcutaneous Ossification**: 患者典型呈現 Short Stature, Round Facies, Short Neck, Obesity 以及 Intellectual Disability。皮下組織可觸及無痛性硬結，為 Subcutaneous Heterotopic Ossification，此為真實膜內骨化 (Intramembranous Bone Formation)，切片可見成熟骨小樑。\n3. **Multihormone Resistance Spectrum in PHP-1a**: 由於 Gsα 亦媒介其他 GPCR 受體訊號，PHP-1a 患者常伴隨多重內分泌抗性：\n   - **TSH Resistance**: 引發 Primary Hypothyroidism with High TSH，常在新生兒篩檢即被發現。\n   - **Gonadotropin (FSH/LH) Resistance**: 引發 Hypogonadism, Primary Amenorrhea 或不孕症。\n   - **GHRH Resistance**: 引發 Growth Hormone Deficiency，加重 Short Stature。\n\n| AHO Physical Feature | Anatomical / Pathological Basis | Diagnostic Evaluation | Clinical Distinction |\n| :--- | :--- | :--- | :--- |\n| **Brachydactyly (Type E)** | Premature epiphyseal closure of 4th/5th metacarpals | Hand X-ray / **Archibold Sign** (Knuckle dimpling) | Differentiates PHP-1a/PPHP from PHP-1b |\n| **Short Stature** | Impaired growth plate chondrocytes & GHRH resistance | Standing height percentile | Present in PHP-1a, PHP-1c, PPHP |\n| **Round Facies & Obesity** | Early-onset metabolic slow-down & Gsα haploinsufficiency | Body mass index & facial features | Classic AHO habitus |\n| **Subcutaneous Ossification** | Intramembranous osteogenesis in dermal tissues | Soft tissue X-ray / Biopsy | Genuine osteoid formation (differs from calcification) |\n| **Mental Retardation** | Gsα deficiency in central nervous system | Neurocognitive assessment | Common in PHP-1a; Absent in PHP-1b |\n\n| End-Organ Resistance | Mutated GPCR Pathway | Serum Biochemical Signature | Target Organ Dysfunction |\n| :--- | :--- | :--- | :--- |\n| **Renal PTH Resistance** | PTHR1 Receptor Gsα Coupling | **Hypocalcemia, Hyperphosphatemia, High PTH** | Decreased 1,25(OH)2D, Blunted Phosphaturia |\n| **Thyroid TSH Resistance** | TSHR Receptor Gsα Coupling | **High TSH, Low/Normal Free T4** | Mild Primary Hypothyroidism |\n| **Gonadal FSH/LH Resistance** | LHR / FSHR Gsα Coupling | **High FSH/LH, Low Estrogen/Testosterone** | Delayed Puberty, Amenorrhea, Oligomenorrhea |\n| **Pituitary GHRH Resistance** | GHRHR Receptor Gsα Coupling | Low IGF-1, Impaired GH Response | Short Stature Acceleration |\n\n### Pathophysiological Decision Trees\n- **AHO Multihormone Resistance Cascade**: Skeletal/Adipose Gsα Haploinsufficiency ➔ Premature Metacarpal Closure (Short 4th/5th Metacarpals) + Subcutaneous Heterotopic Ossification + TSH/FSH/LH GPCR Resistance ➔ AHO Phenotype with Hypothyroidism & Hypogonadism.\n\n### Conceptual Trap Analysis\n- **Subcutaneous Ossification vs Calcification Trap**: 切勿混淆 Subcutaneous Heterotopic Ossification 與一般 Dystrophic Calcification；AHO 的皮下硬結包含成熟成骨細胞與骨基質 (True Intramembranous Bone Formation)。"
+        }
+      ]
+    },
+    {
+      "moduleId": "ellsworth_howard_management",
+      "moduleTitle": "4. Laboratory Diagnostics, Ellsworth-Howard Test & Therapeutic Management Strategies",
+      "studyGuide": "本模組聚焦於 Pseudohypoparathyroidism 之實驗室數據判讀、外源性 PTH 刺激試驗 (Ellsworth-Howard Test) 之 Urinary cAMP 與 Urinary Phosphate 動態響應圖譜，以及 Hypocalcemia 與 Hyperphosphatemia 之臨床處置原則。重點剖析使用 Calcitriol 與口服 Calcium 補充劑時，將 Serum Calcium 控制於 Low-Normal Range (8.0 - 8.5 mg/dL) 以防範 Nephrocalcinosis 與 Nephrolithiasis 的關鍵安全護欄。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_18_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_18_2.png",
+          "caption": "Brenner 11e Fig. 18.2: Relationship between total serum calcium and intact PTH concentrations in hypocalcemic disorders.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ellsworth-Howard Infusion Test Dynamics & Calcitriol Target Titration",
+          "diagram": {
+            "id": "ellsworth_howard_test_decision_tree_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ellsworth_howard_test_decision_tree.jpg",
+            "caption": "Figure 4.1: Clinical Decision Tree for Hypocalcemia Evaluation, Ellsworth-Howard Test, and Nephrocalcinosis Avoidance Strategy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Pseudohypoparathyroidism (PHP) 的實驗室診斷與長期處置需要精確掌握激素抗性與腎臟生理特性：\n1. **Ellsworth-Howard Test (Exogenous PTH Infusion Test)**: 為區分 Hypoparathyroidism、PHP-1a/1b 與 PHP-2 之金標準生理功能測試。靜脈注射合成 PTH (1-34; Teriparatide 200 IU) 後，收集尿液監測 30-60 分鐘內之 Urinary cAMP 與 2 小時內之 Urinary Phosphate Excretion：\n   - **Hypoparathyroidism**: 受體與 Gsα 完全正常，PTH 注入引發 Urinary cAMP 急劇上升 10~100 倍，且 Urinary Phosphate 顯著增加 (Phosphaturia Surge)。\n   - **PHP-1a / PHP-1b / PHP-1c**: Proximal Tubule Gsα 缺陷或受體偶合失能，Urinary cAMP 完全無反應 (< 2 倍上升)，且 Urinary Phosphate 完全無反應。\n   - **PHP-2**: 缺陷位於 cAMP 之後，Urinary cAMP 呈正常大幅上升，但 Urinary Phosphate 完全無反應。\n   - **PPHP**: 腎小管生理正常，Urinary cAMP 與 Urinary Phosphate 反應均完全正常。\n2. **Therapeutic Target & Nephrocalcinosis Guardrail**: PHP-1a/1b 治療核心為補充 Calcitriol (0.25 - 1.0 μg/day) 搭配口服 Calcium (Elemental Calcium 1-2 g/day) 以維持 Serum Calcium，並抑制過高的 PTH 避免骨骼病變：\n   - **Low-Normal Serum Calcium Target**: 治療目標應將 Serum Calcium 控制於 Low-Normal Range (8.0 - 8.5 mg/dL)，切勿追高至正常中上限！\n   - **Preventing Hypercalciuria & Nephrocalcinosis**: 因 PHP 患者 Proximal Tubule 雖具 PTH Resistance，但其 Distal Tubule 經由非印記路徑或高血鈣受體作用，在 Serum Calcium 過高或使用大量 Calcitriol 時，鈣質會由尿液大量排出 (Hypercalciuria)。若將 Serum Calcium 補至過高，將引發暴發性 Nephrolithiasis、Nephrocalcinosis 與 Acute/Chronic Kidney Injury。因此需定期監測 24 小時尿鈣 (維持 24-hr Urine Ca < 4 mg/kg/day 或 Urine Ca/Cr Ratio < 0.2)。\n\n| Diagnostic / Therapeutic Marker | True Hypoparathyroidism | PHP-1a / PHP-1b | Pseudopseudohypoparathyroidism (PPHP) | Target Range in PHP Treatment |\n| :--- | :--- | :--- | :--- | :--- |\n| **Serum Intact PTH (iPTH)** | **Low or Undetectable** | **Markedly Elevated (> 2-5x Upper Limit)** | **Normal** | High-Normal to Mildly Elevated |\n| **Serum Ionized Calcium** | Low | Low | Normal | **Low-Normal (8.0 - 8.5 mg/dL)** |\n| **Serum Phosphate** | High | High | Normal | Normal to Low-Normal |\n| **Ellsworth-Howard Urine cAMP** | **> 10-100x Increase** | **Blunted (< 2x Increase)** | **Normal (> 10x Increase)** | N/A (Diagnostic test) |\n| **24-Hour Urinary Calcium Excretion** | Variable | Low (pre-tx) ➔ High (over-tx) | Normal | **< 4 mg/kg/day (Avoid Nephrocalcinosis)** |\n\n| Therapeutic Agent | Mechanism of Action in PHP | Dosage Strategy | Critical Safety Monitoring |\n| :--- | :--- | :--- | :--- |\n| **Calcitriol (1,25(OH)2D3)** | Bypasses failed renal 1α-hydroxylase to stimulate intestinal Ca/P absorption | 0.25 - 1.5 μg daily | Serum Ca, P & 24-hr Urinary Calcium |\n| **Oral Calcium Carbonate/Citrate** | Provides elemental calcium & binds intestinal phosphate | 1 - 2 g elemental Ca daily with meals | Hypercalciuria & GI tolerability |\n| **Thiazide Diuretics (Hydrochlorothiazide)** | Enhances distal tubular Ca reabsorption to reduce hypercalciuria | 12.5 - 50 mg daily if hypercalciuria develops | Serum potassium & magnesium |\n\n### Pathophysiological Decision Trees\n- **Ellsworth-Howard Test & Management Flow**: Hypocalcemia with High PTH ➔ Infuse Exogenous PTH (1-34) ➔ Measure Urine cAMP & Phosphate. If Urine cAMP Fails to Rise ➔ PHP-1a (if AHO present) or PHP-1b (if AHO absent). Start Calcitriol + Calcium ➔ Titrate Serum Ca to Low-Normal (8.0-8.5 mg/dL) ➔ Monitor Urine Ca/Cr to Prevent Nephrocalcinosis.\n\n### Conceptual Trap Analysis\n- **Serum Calcium Titration Target Trap**: 考題常將「將 Serum Calcium 補至 9.5-10.0 mg/dL 正常上限」設為正確選項，此為致命處方陷阱！PHP 患者缺乏 Proximal Tubule PTH 促鈣重吸收保護，過高 Serum Calcium 會引發極度 Hypercalciuria 與 Nephrocalcinosis，目標一律為 Low-Normal Range (8.0-8.5 mg/dL)。"
+        }
+      ]
+    }
+  ]
+}

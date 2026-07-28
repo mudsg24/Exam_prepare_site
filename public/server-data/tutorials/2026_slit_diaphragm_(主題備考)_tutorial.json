@@ -1,0 +1,169 @@
+{
+  "id": "2026_slit_diaphragm_(主題備考)_tutorial",
+  "paperId": "2026_slit_diaphragm_(主題備考)",
+  "title": "2026 腎臟專科 Slit Diaphragm 拓撲架構與 Genetic Podocytopathies 教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "sd_molecular_architecture",
+      "moduleTitle": "1. Ultrastructure & Molecular Architecture of the Glomerular Filtration Barrier & Slit Diaphragm",
+      "studyGuide": "本模組全方位剖析 Glomerular Filtration Barrier (GFB) 的三層式微細構造與 Slit Diaphragm (SD) 的分子拓撲鏈結。重點掌握 Nephrin (NPHS1) 與 Neph1/KIRREL 之 extracellular Ig-like domains 交錯形成的 4-11 nm 濾過孔徑、Podocin (NPHS2) 作為 Hairpin-like membrane protein 定置於 cholesterol-rich Lipid Rafts 之微調機制、以及 CD2AP, ZO-1 與 MAGI-2 的 Scaffold 錨定作用。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_4_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_4_2.png",
+          "caption": "Brenner 11e Fig. 4.2: Anatomy of the Glomerular Filter, SEM/TEM of Podocyte Foot Processes, and Slit Diaphragm Molecular Complex.",
+          "sourceBook": "Brenner 11e Ch 4"
+        },
+        {
+          "id": "brenner_fig_43_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+          "caption": "Brenner 11e Fig. 43.1: Schematic Depiction of the Glomerular Filtration Barrier and Mendelian Disease Nodes.",
+          "sourceBook": "Brenner 11e Ch 43"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Three-Layered Glomerular Filter & Molecular Zipper Model of Nephrin and Neph1",
+          "diagram": {
+            "id": "sd_zipper_architecture_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/sd_zipper_architecture.jpg",
+            "caption": "Figure 1.1: Molecular Zipper Model & Interdigitating Extracellular Domains of Nephrin and Neph1 in Slit Diaphragm.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Glomerular Filtration Barrier (GFB) 由三層結構精密組成：\n1. **Three-Layered GFB Architecture**: 由具備厚重 Glycocalyx 的 fenestrated Glomerular Endothelial Cells (GEnC, 窗孔直徑 50-100 nm)、三層式 Glomerular Basement Membrane (GBM：包含 Podocytes 來源的 Lamina Rara Interna, 共同組成的 Lamina Densa, 及 Endothelial 來源的 Lamina Rara Externa)、以及最外層 Podocytes 的 Foot Processes (FPs) 相互交錯構成。\n2. **Slit Diaphragm Molecular Zipper**: 相鄰 FPs 之間由高度專化之 intercellular tight junctions——Slit Diaphragm (SD) 銜接。SD 的核心由 Ⅰ 型 transmembrane cell adhesion molecules Nephrin (由 *NPHS1* 編碼，具 9 個 Extracellular Ig-like Domains，分子長度約 40 nm) 與 Neph1/KIRREL (具 5 個 Extracellular Ig-like Domains，分子長度約 25 nm) 在 35-40 nm 寬的 Filtration Slit 中以同源與異源交互作用相互重疊，形成中央密集的「Zipper-like」多層蛋白質支架，定義了直徑約 4-11 nm 的 Size-Selective Filtration Pores。\n\n| Transmembrane / Scaffolding Protein | Gene Symbol | Structural Domain Architecture | Molecular Size & Localization | Primary Biophysical Function |\n| :--- | :--- | :--- | :--- | :--- |\n| **Nephrin** | *NPHS1* | 9 Ig-like domains + 1 FNIII domain | ~40 nm extracellular length, SD Zipper | Size-selective filter barrier & signaling hub |\n| **Neph1 (KIRREL)** | *KIRREL* | 5 Ig-like extracellular domains | ~25 nm extracellular length, SD Zipper | Trans-heterophilic complex with Nephrin |\n| **Podocin** | *NPHS2* | SPFH / Stomatin hairpin domain | Membrane lipid raft microdomain | Hairpin scaffold binding Nephrin & CD2AP |\n| **CD2AP** | *CD2AP* | 3 SH3 domains + Proline-rich motif | Cytosolic intracellular adaptor | Links Nephrin/Podocin to F-actin cytoskeleton |\n| **FAT1 / FAT2** | *FAT1 / FAT2* | Giant Cadherin-like repeats | Apical-lateral SD cell margin | Cell adhesion & cell polarity control |\n\n| Filtration Barrier Component | Structural Characteristic | Pore / Slit Diameter | Primary Selectivity Mechanism |\n| :--- | :--- | :--- | :--- |\n| **Fenestrated Endothelium** | Endothelial Glycocalyx Covered | 50 - 100 nm Fenestrae | Retains Cellular Elements & Large Aggregates |\n| **Glomerular Basement Membrane** | Collagen IV (α3α4α5) & Laminin-521 | Hydrated Gel Meshwork | Size & Charge Selectivity Matrix |\n| **Podocyte Slit Diaphragm** | Nephrin-Neph1 Interdigitating Zipper | **4 - 11 nm Slit Pores** | **Ultimate Size-Selective Molecular Barrier** |\n\n### Pathophysiological Decision Trees\n- **Slit Diaphragm Structural Integrity Cascade**: *NPHS1* / *NPHS2* Expression ➔ Nephrin-Neph1 Extracellular Complex Formation ➔ Zipper-like Molecular Meshwork (4-11 nm Pores) ➔ Maintenance of Size Selectivity ➔ Prevention of Nephrotic-Range Proteinuria.\n\n### Conceptual Trap Analysis\n- **Nephrin vs Neph1 Length Trap**: 切勿混淆分子長度與結構！Nephrin 具 9 個 Ig-like domains（長約 40 nm），Neph1 具 5 個 Ig-like domains（長約 25 nm）；兩者在中央交錯，而非單一分子貫穿整個 40 nm 裂隙。"
+        },
+        {
+          "heading": "Podocin Hairpin Assembly, Lipid Raft Microdomains & Scaffolding Hubs",
+          "diagram": {
+            "id": "podocin_lipid_raft_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/podocin_lipid_raft.jpg",
+            "caption": "Figure 1.2: Podocin Hairpin Topology, Lipid Raft Microdomain Integration, and Cytosolic Adaptor Scaffolding.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Podocin 與 cholesterol-rich Lipid Rafts 之 biophysical and chemical functions：\n1. **Hairpin Membrane Topology**: Podocin (由 *NPHS2* 編碼) 屬於 Stomatin/PHB/Flotillin/HflK/C (SPFH) protein family。其具備獨特之「Hairpin-like」membrane insertion 結構：N-terminus 與 C-terminus 皆朝向 Cytosol，而中間 loop 區域插入 plasma membrane 內側。\n2. **Lipid Raft Microdomains & Signaling Platform**: Podocin 於 Podocytes 的 plasma membrane 中自我 Oligomerization 形成高階 ring-like complexes，專一性招募 Cholesterol 與 Sphingolipids，構建 Lipid Rafts。Podocin 此一 Lipid Rafts 作為 physical scaffold，直接錨定 Nephrin 的 cytosolic tail 與 CD2AP，並調節 ion channels TRPC6 的 gating activity。若 *NPHS2* 發生 Mutations 導致 Podocin 無法定位至 Lipid Rafts，Nephrin 將無法正確聚集於 SD，引發 Foot Process Effacement 與重度 Proteinuria。\n\n| Molecular Component | Membrane Topology | Interaction Partners | Functional Role in Podocyte |\n| :--- | :--- | :--- | :--- |\n| **Podocin Hairpin** | Both N and C-termini intracellular | Nephrin cytosolic tail, CD2AP, TRPC6 | Organizes oligomeric lipid raft platforms |\n| **Cholesterol Microdomains** | Rich in sphingolipids & cholesterol | Podocin oligomers, TRPC6 channels | Fluidity control & mechanosensory signaling |\n| **ZO-1 (Zonula Occludens 1)** | Cytosolic MAGUK protein | Nephrin C-terminus, Claudin-5 | Connects SD junction to actin cytoskeleton |\n| **MAGI-2 (WWP2)** | Multidomain PDZ scaffold | Synaptopodin, Nephrin | Maintains apical-basal cell polarity |\n\n| Genotypic Variant / Mutation | Protein Consequence | Subcellular Localization | Clinical Phenotype |\n| :--- | :--- | :--- | :--- |\n| **NPHS2 Truncating Mutation** | Absence of Podocin protein | Cytosolic degradation | Congenital / Early-onset SRNS (AR) |\n| **NPHS2 R229Q Variant** | Impaired oligomerization | Mislocalized (ER retention when paired) | Late-onset SRNS (Compound Heterozygous) |\n| **Wild-Type NPHS2** | Intact oligomeric hairpin | Plasma membrane lipid rafts | Normal Slit Diaphragm Architecture |\n\n### Pathophysiological Decision Trees\n- **Podocin Lipid Raft Signaling Path**: *NPHS2* Translation ➔ Hairpin Insertion into Plasma Membrane ➔ Cholesterol Binding & Oligomerization ➔ Lipid Raft Microdomain Formation ➔ Anchoring Nephrin & CD2AP ➔ Stabilization of Slit Diaphragm Junction.\n\n### Conceptual Trap Analysis\n- **Podocin Transmembrane Trap**: Podocin 不是貫穿兩側的典型 7-transmembrane 或 bi-transmembrane protein！其 N-terminus 與 C-terminus 均位於 Cytosol，呈 Hairpin 結構嵌在 plasma membrane inner leaflet 的 Lipid Rafts 中。"
+        }
+      ]
+    },
+    {
+      "moduleId": "cytoskeleton_signaling_polarity",
+      "moduleTitle": "2. Cytoskeletal Coupling, Intracellular Signaling Hubs & Apical Polarity Domains",
+      "studyGuide": "本模組深入解析 Podocytes 內部 F-Actin Stress Fibers 的動力學調控與 signal transduction。重點傳授 Nephrin-CD2AP-p85-PI3K-Akt survival signaling axis、Nck 介導之 Actin polymerization、TRPC6 calcium channels 過度活化導致 Podocytes 過載死、以及由 Podocalyxin-NHERF-1-ERM complexes 維繫之帶負電 Apical Domain 與 Focal Adhesion 錨定基質機制。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_4_2_d",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_4_2.png",
+          "caption": "Brenner 11e Fig. 4.2D: Molecular Scheme of Podocyte Cytoskeleton, Adhesion Complex, Slit Diaphragm, and Apical Sialoproteins.",
+          "sourceBook": "Brenner 11e Ch 4"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Actin Cytoskeleton Coupling, Nck Adaptors & TRPC6 Calcium Channel Signaling",
+          "diagram": {
+            "id": "podocyte_cytoskeleton_signaling_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/podocyte_cytoskeleton_signaling.jpg",
+            "caption": "Figure 2.1: Nephrin Phosphorylation, Nck Adaptor Recruitment, F-Actin Polymerization, and TRPC6 Calcium Influx Dynamics.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Podocytes Cytoskeleton coupling 與 ion channels signaling 機制：\n1. **Nephrin Phosphorylation & Nck-Mediated Actin Assembly**: 當 Nephrin extracellular domains 結合或承受 mechanical stress 時，Fyn kinase 磷酸化 Nephrin C-terminus 之 tyrosine residues (Y1176/Y1193)。Phosphorylated Nephrin 招募 Nck1/Nck2 adaptor proteins (SH2/SH3 domain)，進而驅動 N-WASP 與 Arp2/3 complexes，誘導局部 F-Actin 快速重組與 polymerization，維持 Foot Processes 形態動態適應。\n2. **TRPC6 Calcium Signaling & Podocyte Injury**: TRPC6 (Transient Receptor Potential C6) 為定部位於 SD 的 non-selective cation channels。當受到 mechanical stretch, Angiotensin II (AT1R activation) 或 *TRPC6* Gain-of-Function Mutations 刺激時，TRPC6 channels 開放引發 extracellular $\\text{Ca}^{2+}$ 大量內流。過量的 intracellular $\\text{Ca}^{2+}$ 活化 Calcineurin，使 NFAT dephosphorylation 並移位至 nucleus，下調 Synaptopodin 與 ɑ-Actinin-4，促發 F-Actin depolymerization 與 Foot Process Effacement。\n\n| Signaling Component | Molecular Type / Function | Upstream Activator | Downstream Cytoskeletal Effect |\n| :--- | :--- | :--- | :--- |\n| **Fyn Kinase** | Src family tyrosine kinase | Nephrin engagement / clustering | Phosphorylates Nephrin cytosolic Y residues |\n| **Nck1 / Nck2** | SH2/SH3 adaptor proteins | Phospho-Nephrin (p-Y1176/Y1193) | Recruits N-WASP / Arp2/3 ➔ F-Actin polymerization |\n| **TRPC6 Channel** | Non-selective $\\text{Ca}^{2+}$ cation channel | Mechanical stretch, AT1R, GoF mutation | Calcineurin-NFAT activation ➔ Actin disorganization |\n| **Synaptopodin** | Proline-rich actin-binding protein | PKA / PKG phosphorylation | Protects ɑ-Actinin-4 & stabilizes F-actin stress fibers |\n| **ɑ-Actinin-4 (ACTN4)** | Actin crosslinking homodimer | Synaptopodin interaction | Crosslinks F-actin filaments into parallel bundles |\n\n| Calcium / Kinase Axis | Intracellular Signal Cascade | Cytoskeletal Consequence | Pathological Outcome |\n| :--- | :--- | :--- | :--- |\n| **Fyn - Nephrin - Nck Axis** | Typhostin / Tyrosine Phosphorylation | Controlled F-Actin Polymerization | Maintenance of Foot Process Structure |\n| **TRPC6 - Calcineurin - NFAT Axis** | Excessive $\\text{Ca}^{2+}$ Influx | Synaptopodin Degradation & Actin Disassembly | Foot Process Effacement & AD FSGS |\n\n### Pathophysiological Decision Trees\n- **TRPC6-Calcineurin Injury Cascade**: Mechanosensory Stretch / GoF *TRPC6* Mutation ➔ Massive $\\text{Ca}^{2+}$ Influx ➔ Calcineurin Activation ➔ NFAT Nuclear Translocation ➔ Synaptopodin Degradation & F-Actin Disassembly ➔ Foot Process Effacement & Proteinuria.\n\n### Conceptual Trap Analysis\n- **TRPC6 Mutation Type Trap**: *TRPC6* Mutations 導致 Autosomal Dominant (AD) FSGS 的機制為 Gain-of-Function ($\\text{Ca}^{2+}$ influx 過量)，而非 Loss-of-Function！功能缺失並不會直接引發此型 FSGS。"
+        },
+        {
+          "heading": "Apical Polarity Sialoproteins (Podocalyxin) & Focal Adhesion GBM Integrins",
+          "diagram": {
+            "id": "podocalyxin_adhesion_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/podocalyxin_adhesion.jpg",
+            "caption": "Figure 2.2: Apical Charge Domain (Podocalyxin-NHERF1-ERM) and Basal Focal Adhesion (α3β1 Integrin-Dystroglycan) Architecture.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Podocytes Apical Charge Barrier 與 GBM 錨定構造：\n1. **Apical Negative Charge Barrier (Podocalyxin Axis)**: Podocytes Apical Domain 覆蓋極高濃度的 negatively charged Sialoproteins——Podocalyxin (由 *PODXL* 編碼)。Podocalyxin 的 cytosolic tail 透過 NHERF-1 (Na+/H+ Exchanger Regulatory Factor 1) 與 ERM (Ezrin/Moesin/Radixin) protein family 連接至頂端 Actin cytoskeleton。Podocalyxin 所攜帶之強烈 Electrostatic Repulsion 防止相鄰 Foot Processes 頂端互相黏附，維持 Filtration Slit 的開口張度。\n2. **Basal Focal Adhesion Complex (α3β1 Integrin & Dystroglycan)**: Podocytes Basal Domain 透過 $\\alpha_3\\beta_1$ Integrin complexes 及 $\\alpha/\\beta$-Dystroglycan 專一性結合 GBM 內的 Laminin-521 與 Collagen IV ($\\alpha3\\alpha4\\alpha5$)。Focal Adhesion Kinase (FAK), Integrin-Linked Kinase (ILK), Talin, Vinculin 與 Paxillin 形成 Focal Adhesion，將 Podocytes 牢牢固定於 GBM 上，抵禦 glomerular capillaries 的高 hydrostatic pressure。\n\n| Subcellular Domain | Functional Protein Complex | Connecting Adaptor | Biophysical / Structural Role |\n| :--- | :--- | :--- | :--- |\n| **Apical Domain** | Podocalyxin (Sialoprotein) | NHERF-1 & ERM (Ezrin) | Negative electrostatic repulsion (prevents FP fusion) |\n| **Slit Diaphragm** | Nephrin, Podocin, CD2AP | ZO-1, MAGI-2, Nck | Size-selective filtration & mechanosensory signaling |\n| **Basal Domain** | $\\alpha_3\\beta_1$ Integrin, Dystroglycan | FAK, ILK, Talin, Paxillin | Anchors podocyte FP to GBM Laminin-521/Collagen IV |\n\n| Podocyte Domain Dysfunction | Primary Etiology / Trigger | Cellular Morphological Alteration | Clinical Manifestation |\n| :--- | :--- | :--- | :--- |\n| **Apical Charge Loss** | Sialic acid depletion / Puromycin | Apical junction collapse & FP fusion | Selective Proteinuria (e.g., MCD) |\n| **Basal Adhesion Failure** | Integrin $\\alpha3$ (*ITGA3*) / *LAMB2* mutation | Podocyte detachment & naked GBM | Severe Congenital Nephrotic Syndrome / FSGS |\n\n### Pathophysiological Decision Trees\n- **Apical Repulsion Mechanism**: Podocalyxin Expression ➔ High Sialic Acid Charge Density ➔ Electrostatic Repulsion Between Adjacent FPs ➔ Maintenance of Filtration Slit Gap ➔ Prevention of Apical Junctional Effacement.\n\n### Conceptual Trap Analysis\n- **Charge vs Structure Barrier Trap**: Minimal Change Disease (MCD) 主要損失的是 Podocalyxin 等帶負電偏性 (Charge Selectivity)，而 SD *NPHS1*/*NPHS2* Mutations 則是毀損結構 Size Selectivity。"
+        }
+      ]
+    },
+    {
+      "moduleId": "genetic_nephrotic_syndromes",
+      "moduleTitle": "3. Genetic Nephrotic Syndromes & Mendelian Podocytopathies",
+      "studyGuide": "本模組系統化歸納與剖析單基因 Mutations 引發之 Mendelian Podocytopathies。重點掌握 Congenital Nephrotic Syndrome of the Finnish Type (*NPHS1* Mutations、Autosomal Recessive、出生 3 個月內發病、Renal Tubules microcystic dilation、對 Corticosteroids 完全無反應)、Steroid-Resistant Nephrotic Syndrome (*NPHS2* Mutations、R229Q polymorphic compound heterozygous、Kidney Transplantation 後不復發)、*TRPC6* 與 *ACTN4* 及 *INF2* 導至之 Autosomal Dominant FSGS、以及 Denys-Drash / Frasier (*WT1*) 與 Pierson (*LAMB2*) Syndromes。",
+      "diagrams": [
+        {
+          "id": "brenner_table_43_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_43_1_part1.png",
+          "caption": "Brenner 11e Table 43.1: Genes Involved in Inherited Human Glomerular Diseases (NPHS1, NPHS2, CD2AP, TRPC6, ACTN4, INF2, WT1, LAMB2).",
+          "sourceBook": "Brenner 11e Ch 43"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Finnish-Type Congenital Nephrotic Syndrome (NPHS1) vs SRNS (NPHS2 & R229Q)",
+          "diagram": {
+            "id": "nphs1_nphs2_genetics_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/nphs1_nphs2_genetics.jpg",
+            "caption": "Figure 3.1: Genetic Spectrum, Clinical Onset, and Post-Transplant Recurrence Profile of NPHS1 vs NPHS2 Podocytopathies.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "最受關注之 Autosomal Recessive Mendelian Podocytopathies：\n1. **Congenital Nephrotic Syndrome of Finnish Type (NPHS1)**: 為 *NPHS1* Gene (編碼 Nephrin) biallelic Autosomal Recessive (AR) Mutations 所致 (芬蘭常見 founder mutations Fin-major $c.121delCT$ 與 Fin-minor $R1109X$)。臨床特徵為出生 3 個月內即出現大量 Proteinuria、重度 Edema、產前 placental weight 巨大 (> 25% birth weight) 與 AFP 異常飆升。病理切片可見 Renal Tubules microcystic dilation。本病對 Corticosteroids 及 immunosuppressants 完全抗藥，最終需靠 Kidney Transplantation 治療；移植後約 20-25% 患者因體內產生 Anti-Nephrin Alloantibodies 而出現移植腎 Proteinuria 復發。\n2. **Steroid-Resistant Nephrotic Syndrome (NPHS2)**: 由 *NPHS2* Gene (編碼 Podocin) AR Mutations 引起，為 childhood 及 adolescence SRNS 及 Genetic FSGS 最常見主因。此病切片呈現 FSGS 或 Minimal Change 樣變。*NPHS2* Mutations 引發之 SRNS 在 Kidney Transplantation 後**極少復發 (Recurrence Rate < 5%)**，因移植腎帶有正常的 wild-type Podocin。需特別注意 *NPHS2* $R229Q$ polymorphism：單獨 homozygous $R229Q/R229Q$ 不致病，但當其與特定 exons 7-8 pathogenic mutations 形成 Compound Heterozygosity 時，會引發 adult-onset SRNS。\n\n| Disease Entity | Mutant Gene & Protein | Inheritance | Clinical Onset Age | Renal Pathology | Post-Transplant Recurrence Risk |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Finnish Type CNS** | *NPHS1* (Nephrin) | AR | **< 3 months (Congenital)** | Microcystic tubular dilation & FSGS | **20 - 25% (Alloantibody-mediated)** |\n| **SRNS / Genetic FSGS** | *NPHS2* (Podocin) | AR | Childhood to Young Adult | Early MCD ➔ FSGS | **< 5% (Extremely Low Recurrence)** |\n| **Adult-Onset SRNS** | *NPHS2 R229Q* + pathogenic mutation | AR (Compound Het) | Adult (20 - 40 years) | FSGS | **Extremely Low (< 5%)** |\n| **Denys-Drash / Frasier** | *WT1* (Transcription Factor) | AD | Infancy to Childhood | Diffuse Mesangial Sclerosis (DMS) | Low (< 5%) |\n| **Pierson Syndrome** | *LAMB2* (Laminin $\\beta2$) | AR | Neonatal / Infancy | Microcoria + DMS / FSGS | Low (< 5%) |\n\n| Genetic / Clinical Feature | NPHS1 (Nephrin) Mutation | NPHS2 (Podocin) Mutation |\n| :--- | :--- | :--- |\n| **Placental Weight Ratio** | **Markedly Enlarged (> 25% of birth weight)** | Normal Placental Size |\n| **Maternal Amniotic AFP** | **Extremely Elevated** | Normal or Slightly Elevated |\n| **Steroid Responsiveness** | **100% Resistant (No Response)** | **100% Resistant (No Response)** |\n| **Primary Mechanism of Post-Tx Recurrence** | Anti-Nephrin Alloantibody Formation | Absence of Native Circulating Permeability Factor |\n\n### Pathophysiological Decision Trees\n- **Genetic SRNS Diagnostic Flow**: Infantile / Childhood SRNS ➔ Genetic Panel (*NPHS1*, *NPHS2*, *WT1*, *LAMB2*) ➔ If *NPHS2* AR Mutation Confirmed ➔ Avoid Prolonged Immunosuppression ➔ Prepare for Kidney Transplantation (Low Recurrence Risk < 5%).\n\n### Conceptual Trap Analysis\n- **Post-Transplant Recurrence Trap**: 考題常誘騙！*NPHS2* (Podocin) Mutations 移植後「極少復發 (<5%)」，而 *NPHS1* (Nephrin) 則因 Alloantibodies 有 20-25% 復發率；Primary (suPAR-mediated) FSGS 復發率最高 (30-50%)。"
+        },
+        {
+          "heading": "Autosomal Dominant Podocytopathies (TRPC6, ACTN4, INF2) & Syndromic Associations",
+          "diagram": {
+            "id": "ad_fsgs_syndromes_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/ad_fsgs_syndromes.jpg",
+            "caption": "Figure 3.2: Autosomal Dominant FSGS Gene Nodes (TRPC6, ACTN4, INF2) and Extra-Renal Syndromic Features.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Autosomal Dominant FSGS 與 Syndromic Podocytopathies：\n1. **Autosomal Dominant FSGS Genes**: Autosomal Dominant (AD) FSGS 通常於成年期發病，表現為漸進性 Proteinuria 與腎功能衰退：\n   - ***TRPC6***: 編碼 non-selective cation channels，Gain-of-Function Mutations 導致 intracellular $\\text{Ca}^{2+}$ 過載。\n   - ***ACTN4***: 編碼 ɑ-Actinin-4，Mutations 增加其對 F-Actin 的 binding affinity，形成異常 Actin aggregates。\n   - ***INF2***: 編碼 Inverted Formin 2 (FH1/FH2 domains)，調控 Actin depolymerization 與 polymerization。*INF2* Mutations 為 AD FSGS 併發 Charcot-Marie-Tooth (CMT) neuropathy 之特異基因。\n2. **Syndromic Mendelian Glomerular Diseases**: 部分 Podocytes 相關 Genes Mutations 伴隨特異性 extra-renal manifestations：\n   - **Denys-Drash Syndrome (*WT1*)**: 包含 Wilms Tumor, Diffuse Mesangial Sclerosis (DMS), 及 male pseudohermaphroditism。\n   - **Frasier Syndrome (*WT1* Donor Splice Site)**: 包含 FSGS, gonadal dysgenesis 及高風險 Gonadoblastoma。\n   - **Pierson Syndrome (*LAMB2*)**: 包含 Congenital Nephrotic Syndrome 伴雙側 Microcoria。\n   - **Nail-Patella Syndrome (*LMX1B*)**: 包含 nail dysplasia、absent patellae、Iliac Horns 及 GBM 內 microfibrils (Moth-eaten appearance)。\n\n| Gene Symbol | Mode of Inheritance | Encoded Protein / Function | Primary Renal Pathology | Key Extra-Renal Manifestations |\n| :--- | :--- | :--- | :--- | :--- |\n| ***TRPC6*** | AD | $\\text{Ca}^{2+}$ Cation Channel (GoF) | Adult-onset FSGS | None (Isolated Renal) |\n| ***ACTN4*** | AD | ɑ-Actinin-4 (Actin Crosslinker) | Adult-onset FSGS | None (Isolated Renal) |\n| ***INF2*** | AD | Inverted Formin 2 | Adult-onset FSGS | **Charcot-Marie-Tooth (CMT) Neuropathy** |\n| ***WT1*** | AD | Zinc-finger Transcription Factor | DMS / FSGS | **Wilms Tumor, Male Pseudohermaphroditism** |\n| ***LAMB2*** | AR | Laminin $\\beta2$ (GBM Component) | DMS / FSGS | **Microcoria (Fixed Small Pupils), Blindness** |\n| ***LMX1B*** | AD | LIM-homeobox Transcription Factor | FSGS / GBM Moth-Eaten | **Nail Dystrophy, Absent Patellae, Iliac Horns** |\n\n### Pathophysiological Decision Trees\n- **Syndromic Podocytopathy Triangulation**: FSGS + Peripheral Neuropathy ➔ Test *INF2*; FSGS + Ocular Microcoria ➔ Test *LAMB2*; FSGS + Skeletal/Nail Anomalies ➔ Test *LMX1B*; FSGS + Intersex/Wilms ➔ Test *WT1*.\n\n### Conceptual Trap Analysis\n- **INF2 Syndrome Association Trap**: *INF2* Mutations 引起的不是眼部或骨骼病變，而是 Charcot-Marie-Tooth (CMT) neuropathy！此為腎專高頻考點。"
+        }
+      ]
+    },
+    {
+      "moduleId": "pathophysiology_clinical_correlations",
+      "moduleTitle": "4. Pathophysiological Reaction Patterns & Clinical Correlations",
+      "studyGuide": "本模組整合 Podocytes 損傷反應模式 (Effacement, Detachment, Pseudocrescents) 與臨床過濾障礙鑑別。重點剖析 Foot Process Effacement 之 cytoskeleton 動態重塑機制、Charge Selectivity 損失 vs Size Selectivity 損失之 urinary protein profile 差異、以及 Primary (Circulating Factor-Mediated) FSGS vs Genetic FSGS 在臨床表現、immunosuppressants 療效與 Kidney Transplantation 後復發之深層比較。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_4_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_4_5.png",
+          "caption": "Brenner 11e Fig. 4.5: Clinical Presentation Reflecting the Localization of Glomerular Injury (Podocyte Injury ➔ Nephrotic Syndrome).",
+          "sourceBook": "Brenner 11e Ch 4"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Foot Process Effacement, Cytoskeletal Rearrangement & Selectivity Failure",
+          "diagram": {
+            "id": "effacement_selectivity_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/effacement_selectivity.jpg",
+            "caption": "Figure 4.1: Pathophysiology of Foot Process Effacement, Disruption of Slit Diaphragm, and Selectivity Degradation.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Foot Process Effacement 與 Selectivity 喪失之分子病理：\n1. **Mechanism of Foot Process Effacement**: 當 Podocytes 受到 immune complexes、Circulating Permeability Factors (如 suPAR, CLCF-1) 或 toxins 刺激時，intracellular small GTPases (RhoA, Rac1, Cdc42) 活性失衡。原本呈平行排列之 F-Actin Stress Fibers 解聚，轉化為緻密交織的 Dense Actin Network。Foot Processes 失去精細支撐結構，發生扁平化與 Foot Process Effacement，Slit Diaphragm (SD) 結構遭到破壞並向頂端位移 (Apical Displacement)。\n2. **Charge Selectivity vs Size Selectivity Loss**: \n   - **Loss of Charge Selectivity**: 主要見於 Minimal Change Disease (MCD)。GBM 與 Podocalyxin 表面的 negatively charged Sialoproteins 及 Heparan Sulfate Proteoglycans 減少，使得 Albumin 失去 Electrostatic Repulsion 而大量濾過，產生 Highly Selective Proteinuria (Selectivity Index, SI > 0.11，以 Albumin 為主)。\n   - **Loss of Size Selectivity**: 見於 *NPHS1*/*NPHS2* Genes Mutations 或 FSGS。SD molecular zipper 或 Podocytes 結構嚴重破壞，Filtration Pores 大幅擴張，大分子 immunoglobulins (IgG, IgM) 無阻礙通透，引發 Non-selective Proteinuria (SI < 0.11)。\n\n| Biophysical Property | Primary Molecular Target | Urinary Protein Profile | Classic Disease Exemplar |\n| :--- | :--- | :--- | :--- |\n| **Charge Selectivity Loss** | Apical Podocalyxin & GBM Heparan Sulfate | **Highly Selective (Albumin-predominant)** | Minimal Change Disease (MCD) |\n| **Size Selectivity Loss** | Slit Diaphragm (Nephrin/Podocin) & Structural FPs | **Non-Selective (Albumin + IgG/IgM)** | Finnish Type CNS, FSGS, MN |\n\n| Morphological Feature | Intact Podocyte Architecture | Effaced Podocyte Architecture |\n| :--- | :--- | :--- |\n| **F-Actin Organization** | Ordered parallel stress fibers in FPs | Disorganized dense cortical actin network |\n| **Slit Diaphragm Location** | Basolateral interdigitating junction (~35 nm height) | Apically displaced / Occluding-like junction |\n| **GBM Coverage** | Intercellular slits with filtration pores | Continuous flattened cytoplasm over GBM |\n\n### Pathophysiological Decision Trees\n- **Glomerular Selectivity Failure Pathway**: Podocyte Injury / Factor Exposure ➔ RhoA/Rac1 Imbalance ➔ F-Actin Disassembly into Dense Network ➔ Foot Process Effacement & SD Disassembly ➔ Size Selectivity Failure ➔ Non-selective Nephrotic-Range Proteinuria.\n\n### Conceptual Trap Analysis\n- **Effacement vs FSGS Diagnosis Trap**: TEM 下看見廣泛 Foot Process Effacement 並不等於 FSGS！MCD 在 TEM 下同樣呈現 100% 廣泛 Foot Process Effacement，兩者差異在於 Light Microscopy (LM) 下是否有 Focal Segmental Sclerosis。"
+        },
+        {
+          "heading": "Primary (Circulating Factor) FSGS vs Genetic FSGS vs Secondary Adaptive FSGS",
+          "diagram": {
+            "id": "fsgs_etiology_triangulation_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/fsgs_etiology_triangulation.jpg",
+            "caption": "Figure 4.2: Triangulation Matrix: Primary vs Genetic vs Secondary Adaptive FSGS Etiology.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "三類 FSGS Etiology 之三重鑑別陣列：\n1. **Primary FSGS (Permeability Factor-Mediated)**: 由 circulating factors (如 suPAR, CLCF-1, 或 anti-Nephrin autoantibodies) 引發。臨床起病急劇，呈現全套重度 Nephrotic Syndrome (Edema、極低 Hypoalbuminemia)。TEM 呈現 > 80% 廣泛 Foot Process Effacement。對高劑量 Corticosteroids 及 CNI (Cyclosporine/Tacrolimus) 有一定反應率；**Kidney Transplantation 後復發率高達 30-50%** (且常於移植後數小時至數天內急爆發大量 Proteinuria)，需靠 Plasmapheresis 清除 circulating factors。\n2. **Genetic FSGS (Mendelian Podocytopathies)**: 由 *NPHS2*, *TRPC6*, *ACTN4*, *INF2* 等 Genes Mutations 引起。起病隱匿或呈 familial，對 Corticosteroids 及 immunosuppressants 完全抗藥。TEM Foot Process Effacement 程度不一 (通常 20-60%)。**Kidney Transplantation 後復發率極低 (< 5%)**。\n3. **Secondary Adaptive FSGS (Hyperfiltration-Mediated)**: 由 nephron mass 減少 (如 solitary kidney, CKD) 或 Obesity 導致 Single-Nephron Hyperfiltration。臨床常表現為 sub-nephrotic range Proteinuria，Serum Albumin 多保持正常 (> 3.5 g/dL)，無重度 Edema。TEM 呈現 focal Foot Process Effacement (< 50%)。治療首選 RAAS inhibitors (ACEi/ARB/ARNI) 及 SGLT2i，**嚴禁使用強效 immunosuppressants**；Kidney Transplantation 後完全不復發。\n\n| FSGS Category | Primary Mechanism | Onset & Clinical Presentation | TEM Foot Process Effacement | Response to Immunosuppression | Post-Transplant Recurrence Risk |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Primary FSGS** | Circulating factor (suPAR/CLCF1/anti-Nephrin) | Abrupt, Severe Nephrotic Syndrome | **Diffuse (> 80%)** | Sensitive / Steroid-Dependent (40-60%) | **High (30 - 50%)** |\n| **Genetic FSGS** | Mendelian mutation (*NPHS2*, *TRPC6*, etc.) | Variable, Insidious / Familial | Focal / Moderate (20-60%) | **Resistant (0%)** | **Extremely Low (< 5%)** |\n| **Secondary Adaptive** | Hyperfiltration & Glomerular Megalopathy | Insidious, Sub-nephrotic Proteinuria | **Focal (< 50%)** | **No Response (Contraindicated)** | **0% (No Recurrence)** |\n\n| Differential Clinical Domain | Primary FSGS | Secondary Adaptive FSGS |\n| :--- | :--- | :--- |\n| **Serum Albumin Level** | **Markedly Low (< 2.5 g/dL)** | **Normal or Near-Normal (> 3.5 g/dL)** |\n| **Peripheral Edema** | Severe Anasarca | Absent or Mild |\n| **Glomerular Volume (LM)** | Normal Glomerular Size | **Glomerulomegaly (Enlarged Glomeruli)** |\n| **First-Line Therapy** | High-Dose Corticosteroids / CNI | **ACEi / ARB / SGLT2i (No Immunosuppression)** |\n\n### Pathophysiological Decision Trees\n- **FSGS Etiological Workup**: FSGS on Biopsy ➔ Check Serum Albumin & Onset Speed ➔ If Normal Serum Albumin & Focal TEM Effacement ➔ Diagnosis: Secondary Adaptive FSGS ➔ Start ACEi/SGLT2i; If Severe Hypoalbuminemia & Diffuse TEM Effacement ➔ Genetic Panel ➔ If Mutation (-), Diagnosis: Primary FSGS ➔ Immunosuppression + Prepare Plasmapheresis for Post-Tx Plan.\n\n### Conceptual Trap Analysis\n- **Secondary FSGS Immunosuppression Trap**: Secondary Adaptive FSGS 是因為 nephron hyperfiltration 負擔過重引發，給予 Corticosteroids 或 CNI 完全無效且徒增感染風險！第一線治療一律為 RAAS inhibitors 與 SGLT2i。"
+        }
+      ]
+    }
+  ]
+}

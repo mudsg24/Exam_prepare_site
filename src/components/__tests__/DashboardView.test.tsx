@@ -5,6 +5,7 @@ import {
   DashboardView,
   sanitizePaperTitle,
   isKeyPointTransformationPaper,
+  isTopicPracticePaper,
 } from '../DashboardView';
 import { ExamManifestItem, GlobalPracticeStats } from '../../types/exam';
 
@@ -16,15 +17,27 @@ describe('DashboardView Component & Helpers', () => {
       expect(sanitizePaperTitle('')).toBe('');
     });
 
-    it('isKeyPointTransformationPaper should correctly identify key point papers', () => {
+    it('isTopicPracticePaper should correctly identify topic practice papers', () => {
+      const tp1: ExamManifestItem = { id: 'p1_(主題備考)', title: '高草酸尿症 (主題備考)', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
+      const tp2: ExamManifestItem = { id: 'p2', title: 'UTI 練習', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
+      const std: ExamManifestItem = { id: 'p3', title: 'Standard Paper', sourceCategory: '歷年考題', questionCount: 10, year: 2025 };
+
+      expect(isTopicPracticePaper(tp1)).toBe(true);
+      expect(isTopicPracticePaper(tp2)).toBe(true);
+      expect(isTopicPracticePaper(std)).toBe(false);
+    });
+
+    it('isKeyPointTransformationPaper should correctly identify key point papers and exclude topic practice', () => {
       const kp1: ExamManifestItem = { id: 'p1', title: '重點轉化 1', sourceCategory: '', questionCount: 10, year: 2026 };
       const kp2: ExamManifestItem = { id: 'p2', title: 'Paper 2', sourceCategory: '2026 重點轉化', questionCount: 10, year: 2026 };
       const kp3: ExamManifestItem = { id: 'p3_重點轉化', title: 'Paper 3', sourceCategory: '', questionCount: 10, year: 2026 };
-      const std: ExamManifestItem = { id: 'p4', title: 'Standard Paper', sourceCategory: '歷年考題', questionCount: 10, year: 2025 };
+      const tp: ExamManifestItem = { id: 'p4_(主題備考)', title: 'Paper 4', sourceCategory: '2026 年主題練習', questionCount: 10, year: 2026 };
+      const std: ExamManifestItem = { id: 'p5', title: 'Standard Paper', sourceCategory: '歷年考題', questionCount: 10, year: 2025 };
 
       expect(isKeyPointTransformationPaper(kp1)).toBe(true);
       expect(isKeyPointTransformationPaper(kp2)).toBe(true);
       expect(isKeyPointTransformationPaper(kp3)).toBe(true);
+      expect(isKeyPointTransformationPaper(tp)).toBe(false);
       expect(isKeyPointTransformationPaper(std)).toBe(false);
     });
   });

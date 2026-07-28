@@ -51,6 +51,12 @@
 > 6. **INDEX-DRIVEN BRENNER LOOKUP & QC SEMANTIC CHAPTER MATCH GATE (Index-Driven 檢索與 Brenner 語意對應門閥)**:
 >    - **全管道（包含主 Session 與 Subagents）引用 Brenner 11e 圖表前，100% 必須先讀取** `/Users/yuan/Projects/PDF/Outputs/2020 Brenner 11e/<章節資料夾>/*_Index.md` 索引檔，核對官方圖號 (`Fig_X_Y`)、原始圖題 (Caption) 與醫學主題 100% 精確吻合後，方可複製至 `public/server-data/assets/` 並寫入 JSON。**絕對禁止盲目猜測圖號或使用硬編碼預設檔名**。
 >    - **QC Subagent 品質門閥驗證**：QC Subagent 必須驗證 `sourceBook`（如 `Brenner 11e Ch 50`）與 `imagePath`（如 `Brenner_Fig_50_13.png`）的章節數字必須與講堂/題目主題（如 Diuretics）100% 吻合。若發現跨章節張冠李戴，一律標註為 `QC_FAILED` 阻斷匯入。
+>
+> 7. **STRICT PURE ENGLISH MEDICAL TERMS GOVERNANCE (專有名詞 100% 純英文與 0% 中譯/雙語括號鐵律)**:
+>    - **Stem & Options (題目題幹與選項)**：必須 100% 純英文。
+>    - **Explanations, Lectures, Tutorials & Summaries (`sourceExplanation`, `codexExplanation`, `sections[i].content`)**：句型敘述為 100% 繁體中文，但**所有醫學專有名詞（病名、基因、酵素、受體、細胞、解剖、病理、設備）一律且只能使用純英文**。
+>    - **0% 中譯專有名詞與 0% 雙語括號禁令**：全管道（含寫作與 QC Subagents）絕對禁止出現中文醫學專有名詞（如 `高草酸尿症`, `近曲小管`, `足細胞`, `軟水器`, `雙折射`）或 `中文 (English)` / `English (中文)` 雙語括號。
+>    - **Subagent Prompt 顯式注入與 QC 阻斷**：派發 Subagents 時 Prompt 必須包含本鐵律條文；QC Subagent 必須掃描並判定含有中文專有名詞/雙語括號之 JSON 為 `QC_FAILED` 阻斷匯入。
 
 ## Single Source of Truth (SSOT) Data Sources
 

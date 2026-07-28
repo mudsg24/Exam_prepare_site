@@ -1,0 +1,160 @@
+{
+  "id": "2026_Urinary_Tract_Infection_(主題備考)_tutorial",
+  "paperId": "2026_Urinary_Tract_Infection_(主題備考)",
+  "title": "2026 腎臟專科 Urinary Tract Infection (成人泌尿道感染) 臨床病理與抗微生物處置教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "modules": [
+    {
+      "moduleId": "uti_pathogenesis_host_defenses",
+      "moduleTitle": "1. Host Defenses, Uromodulin & Pathophysiological Markers",
+      "studyGuide": "本模組全方位剖析尿路上皮宿主防衛機制、Tamm-Horsfall 蛋白 (Uromodulin) 在生理與病理狀態下之關鍵作用，以及微生物學定量診斷標準。重點掌握亨利氏環粗上升支 (TAL) 上皮專一性分泌 Uromodulin 的天然抑菌作用、ATN 泥褐色管型與骨髓瘤腎病 (Cast Nephropathy) 沉澱機制、ADTKD-UMOD 基因變異、Uroplakin 斑塊防護障礙、TLR-4 識別 UPEC P-Fimbriae 之發炎反應，以及不同採檢方式 (清潔中段尿、導尿管、恥骨上穿刺) 之定量 CFU/mL 診斷門檻。",
+      "diagrams": [
+        {
+          "id": "brenner_table_36_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_2.png",
+          "caption": "Brenner 11e Table 36.2: Host Defenses Other Than Voiding That Contribute to Maintaining Sterility of Urine.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_3.png",
+          "caption": "Brenner 11e Table 36.3: Quantitative Counts of Bacteria in Urine for Microbiologic Diagnosis of UTI.",
+          "sourceBook": "Brenner 11e Ch 36"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uromodulin (Tamm-Horsfall Protein) Physiology & Pathological Co-precipitation",
+          "diagram": {
+            "id": "uti_pathogenesis_host_defenses_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/uti_pathogenesis_host_defenses.jpg",
+            "caption": "Figure 1.1: Tamm-Horsfall Protein (Uromodulin) TAL Secretion, UPEC Trapping, Uroplakin Barrier & Quantitative Colony Thresholds.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "尿路宿主防衛機制與 Tamm-Horsfall 蛋白 (Uromodulin) 之生理病理學：\n1. **Uromodulin Secretion & Antimicrobial Function**: Tamm-Horsfall 蛋白 (Uromodulin) 為健康尿液中含量最高之糖蛋白，專一性由亨利氏環粗上升支 (Thick Ascending Limb, TAL) 上皮細胞合成並分泌至管腔。Uromodulin 結構富含甘露糖 (Man-rich glycans)，能競爭性結合尿路致病性大腸桿菌 (Uropathogenic *E. coli*, UPEC) 之 1 型纖毛 (Type 1 Fimbriae / FimH Adhesin)，阻止細菌黏附於尿路上皮，發揮強效天然抗感染保護。\n2. **Pathological Co-precipitation & Cast Formation**: \n   - **Ischemic / Toxic ATN**: 當發生缺血或毒性急性腎小管壞死 (ATN) 時，壞死剝落之近曲小管上皮細胞與微絨毛碎片在 TAL 與集尿管管腔中與 Tamm-Horsfall 蛋白發生異常共沉澱 (Co-precipitation)，形成經典之泥褐色顆粒管型 (Muddy Brown Granular Casts)，引發腎小管內阻塞與少尿。\n   - **Myeloma Cast Nephropathy**: 漿細胞瘤患者過量產生單株游離輕鏈 (Free Light Chains, FLC)。FLC 的 CDR3 區段與 Tamm-Horsfall 蛋白具專一性結合高親和力，在遠端腎小管酸性環境中相變凝集，形成剛性不可溶管型 (Light-Chain Casts)，誘發急劇 AKI。\n   - **ADTKD-UMOD**: *UMOD* 基因突變導致 Uromodulin 蛋白折疊異常並蓄積於內質網，引發體顯性小管間質腎病 (ADTKD)，表現為高尿酸血症、早發性痛風與漸進性 CKD。\n\n| Host Defense Barrier | Molecular / Cellular Component | Location / Origin | Antimicrobial Selectivity Mechanism |\n| :--- | :--- | :--- | :--- |\n| **Urinary Proteins** | **Tamm-Horsfall Protein (Uromodulin)** | Thick Ascending Limb (TAL) Epithelium | Binds Type 1 Fimbriae (FimH) of UPEC; prevents epithelial adhesion |\n| **Uroepithelium Barrier** | **Uroplakin Plaques (UPIa, UPIb, UPII, UPIIIa)** | Umbrella Cells of Bladder Urothelium | Impermeable crystalline plaque layer; protects underlying tissue |\n| **Innate Immunity** | **Toll-like Receptor 4 (TLR-4)** | Urothelial cell surface | Recognizes LPS & P-fimbriae (PapG); triggers IL-6/IL-8 cytokine recruitment |\n| **Urinary Solutes** | Organic acids, High Osmolality, Low pH | Tubular fluid | Inhibits bacterial proliferation in hypertonic inner medulla |\n\n| Collection Method | Clinical Scenario | Diagnostic Quantitative Criteria (CFU/mL) | Clinical Interpretation |\n| :--- | :--- | :--- | :--- |\n| **Voided Clean-Catch** | Asymptomatic Women / Men | **≥ 10⁵ CFU/mL** (2 consecutive samples in women) | Significant Bacteriuria |\n| **Voided Clean-Catch** | Symptomatic Acute Uncomplicated Cystitis | **≥ 10³ CFU/mL** | Microbiologic Confirmation of Cystitis |\n| **Voided Clean-Catch** | Acute Uncomplicated Pyelonephritis | **≥ 10⁴ CFU/mL** (≥ 10⁵ in 95% cases) | Diagnostic Confirmation of Pyelonephritis |\n| **Catheter In-and-Out** | Symptomatic Catheterized Patient | **≥ 10² CFU/mL** | Diagnostic of CAUTI |\n| **Suprapubic Aspiration** | Any Age / Gender | **Any Gram-negative / Pathogenic Growth** | Absolute Positive Diagnostic Gold Standard |\n\n### Pathophysiological Decision Trees\n- **Uromodulin Defensive & Pathological Cascade**: TAL Secretion of Uromodulin ➔ FimH Binding & UPEC Trapping ➔ Urinary Clearance ➔ (If ATN/Myeloma present) ➔ Co-precipitation with Tubular Fragments / FLC ➔ Muddy Brown / Light-Chain Cast Formation ➔ Intrarenal Obstruction.\n\n### Conceptual Trap Analysis\n- **Tamm-Horsfall Protein Origin Trap**: Tamm-Horsfall 蛋白切勿記錯起源部位！其 100% 由亨利氏環粗上升支 (TAL) 上皮細胞分泌，而非近曲小管 (PCT) 或集尿管！近曲小管僅提供共沉澱之壞死細胞碎片。"
+        }
+      ]
+    },
+    {
+      "moduleId": "uti_uncomplicated_vs_pyelonephritis",
+      "moduleTitle": "2. Uncomplicated Cystitis vs. Acute Pyelonephritis Management",
+      "studyGuide": "本模組精準對比女性急性無併發症膀胱炎 (Acute Uncomplicated Cystitis) 與急性腎盂腎炎 (Acute Pyelonephritis) 之第一線抗微生物治療指引、療程長度、尿液 pH 值對藥物活性之調節效應，以及孕婦專用安全處方。重點掌握膀胱炎第一線藥物 (Nitrofurantoin 5天、TMP-SMX 3天、Fosfomycin 單次劑量) 嚴禁濫用 Fluoroquinolones、腎盂腎炎一線處方 (Ciprofloxacin 7天、Levofloxacin 5天、Ceftriaxone IV)，以及酸性尿/鹼性尿相應藥物增效關係。",
+      "diagrams": [
+        {
+          "id": "brenner_table_36_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_4_part1.png",
+          "caption": "Brenner 11e Table 36.4: Urinary Excretion of Antimicrobial Agents in Persons With Normal Renal Function.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_5.png",
+          "caption": "Brenner 11e Table 36.5: Preferred Antimicrobial Regimens for Treatment or Prevention of Acute Uncomplicated Cystitis.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_6.png",
+          "caption": "Brenner 11e Table 36.6: Antimicrobial Regimens for Acute Uncomplicated Pyelonephritis.",
+          "sourceBook": "Brenner 11e Ch 36"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Empiric Antimicrobial Selection, Duration & Urinary pH Drug Modulations",
+          "diagram": {
+            "id": "uti_uncomplicated_vs_pyelonephritis_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/uti_uncomplicated_vs_pyelonephritis.jpg",
+            "caption": "Figure 2.1: Antimicrobial Management Flowchart: Cystitis vs Pyelonephritis, Urinary pH Activation, and Pregnancy Safety.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "急診與門診泌尿道感染經驗性抗生素選擇與藥理特性：\n1. **Acute Uncomplicated Cystitis (First-Line Regimens)**:\n   - **Nitrofurantoin Monohydrate / Macrocrystals**: 100 mg PO bid ✕ **5 天**。主要在膀胱形成高濃度，組織穿透力差（不適用於腎盂腎炎）。\n   - **Trimethoprim / Sulfamethoxazole (TMP-SMX)**: 160/800 mg PO bid ✕ **3 天**（前提為當地 *E. coli* 耐藥率 < 20%）。\n   - **Fosfomycin Trometamol**: 3 g PO **單次劑量 (Single dose)**。對 ESBL 產毒菌株保持高度活性。\n   - **Fluoroquinolones Avoidance Guard**: IDSA 治安指引強調，鑑於 Fluoroquinolones (Ciprofloxacin, Levofloxacin) 具肌腱炎、主動脈剝離與神經病變等嚴重不良反應，**絕不可作為無併發症膀胱炎之第一線經驗首選**，必須保留給腎盂腎炎與併發症 UTI。\n2. **Acute Uncomplicated Pyelonephritis (First-Line Regimens)**:\n   - **Oral Fluoroquinolones**: Ciprofloxacin 500 mg PO bid ✕ **7 天**，或 Extended-Release 1000 mg qd ✕ 7 天；Levofloxacin 750 mg PO qd ✕ **5 天**。\n   - **Parenteral Alternatives**: Ceftriaxone 1–2 g IV q24h 或 Gentamicin / Tobramycin 3–5 mg/kg IV qd，臨床穩定後轉為口服劑量完成療程。\n3. **Urinary pH Influence on Antibicrobial Activity**:\n   - **Active in Acidic Urine (pH < 6.0)**: Nitrofurantoin, Penicillins (Amoxicillin, Ampicillin), Tetracyclines.\n   - **Active in Alkaline Urine (pH > 7.5)**: Aminoglycosides (Gentamicin, Tobramycin, Amikacin), Fluoroquinolones, Erythromycin.\n\n| Infection Classification | First-Line Antimicrobial Agent | Dosage & Route | Treatment Duration | Key Clinical Caveat / Contraindication |\n| :--- | :--- | :--- | :--- | :--- |\n| **Acute Uncomplicated Cystitis** | **Nitrofurantoin monohydrate** | 100 mg PO bid | **5 Days** | Avoid if eGFR < 30 mL/min; Ineffective for Pyelonephritis |\n| **Acute Uncomplicated Cystitis** | **TMP-SMX (Bactrim)** | 160/800 mg PO bid | **3 Days** | Use only if local E. coli resistance rate < 20% |\n| **Acute Uncomplicated Cystitis** | **Fosfomycin trometamol** | 3 g PO | **Single Dose** | Excellent activity against ESBL-producing Enterobacteriaceae |\n| **Acute Pyelonephritis (Oral)** | **Ciprofloxacin** | 500 mg PO bid | **7 Days** | First-line choice; high renal tissue penetration |\n| **Acute Pyelonephritis (Oral)** | **Levofloxacin** | 750 mg PO qd | **5 Days** | High-dose short-course regimen |\n| **Acute Pyelonephritis (IV)** | **Ceftriaxone** | 1-2 g IV qd | 7-14 Days | Initial dose if outpatient FQ resistance > 10% |\n\n| Patient Subgroup / State | Safe Recommended Antimicrobials | Absolutely Avoided Antimicrobials | Special Pharmacological Reason |\n| :--- | :--- | :--- | :--- |\n| **Pregnancy (Cystitis)** | Cephalexin, Amoxicillin-Clavulanate, Nitrofurantoin* | Fluoroquinolones, Tetracyclines, TMP-SMX in 1st/3rd trimester | *Nitrofurantoin contra-indicated at term (weeks 38-42) due to neonatal hemolysis risk |\n| **Renal Impairment (eGFR < 30)** | Ceftriaxone, Fosfomycin (dose adjust), Meropenem | Nitrofurantoin (ineffective & toxic), Aminoglycosides (nephrotoxic) | Nitrofurantoin requires adequate GFR to achieve active urinary therapeutic levels |\n\n### Pathophysiological Decision Trees\n- **Empiric UTI Treatment Decision Pathway**: Female presenting with Dysuria/Frequency ➔ Assess for Costovertebral Angle (CVA) Tenderness / Fever ➔ Absent (Cystitis) ➔ Nitrofurantoin 5d / TMP-SMX 3d / Fosfomycin 1 dose (Avoid FQs) ➔ Present (Pyelonephritis) ➔ Ciprofloxacin 7d / Levofloxacin 5d / Ceftriaxone IV.\n\n### Conceptual Trap Analysis\n- **Fluoroquinolone Indication Trap**: 題目問「無併發症急性膀胱炎之第一線首選」時，選項包含 Ciprofloxacin 一律為誘答陷阱！Fluoroquinolones 僅為急性腎盂腎炎之一線首選，在膀胱炎中屬保留處方。"
+        }
+      ]
+    },
+    {
+      "moduleId": "uti_asb_prostatitis_candiduria",
+      "moduleTitle": "3. Asymptomatic Bacteriuria, Prostatitis & Candiduria Algorithms",
+      "studyGuide": "本模組深入研討三大常見且極具考題爭議性之臨床情境：無症狀菌尿症 (ASB) 的兩大硬性治療禁忌與適應症、NIH 前列腺炎綜合徵四大分類與急性期按摩禁忌，以及尿液念珠菌菌尿症 (Candiduria) 的臨床處置路徑。重點掌握 ASB 僅限孕婦與經尿道侵入性手術前治療、急性前列腺炎（NIH Class I）禁止前列腺按摩以防敗血性休克、*Candida glabrata* 對 Fluconazole 之耐藥性，以及脂質體兩性黴素 B (Liposomal Amphotericin B) 因尿液排泄極低不適用於下泌尿道念珠菌感染之藥理陷阱。",
+      "diagrams": [
+        {
+          "id": "brenner_table_36_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_7.png",
+          "caption": "Brenner 11e Table 36.7: Asymptomatic Bacteriuria Prevalence & IDSA Management Indications.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_8.png",
+          "caption": "Brenner 11e Table 36.8: NIH Classification of Prostatitis Syndromes.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_9",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_9.png",
+          "caption": "Brenner 11e Table 36.9: Treatment of Candiduria (Cystitis vs Pyelonephritis).",
+          "sourceBook": "Brenner 11e Ch 36"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "ASB Strict Indications, NIH Prostatitis & Candiduria Antifungal Selection",
+          "diagram": {
+            "id": "uti_asb_prostatitis_candiduria_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/uti_asb_prostatitis_candiduria.jpg",
+            "caption": "Figure 3.1: Algorithmic Guide: Asymptomatic Bacteriuria Indications, NIH Prostatitis Classes, and Candiduria Antifungal Pathways.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "特殊泌尿道感染與菌尿症之處置原則：\n1. **Asymptomatic Bacteriuria (ASB) Strict Treatment Indications**:\n   - **Strict Indication 1: Pregnant Women**: 懷孕初期常規篩檢 ASB，陽性者給予 3–7 天抗生素治療。可降低 80% 轉變成急性腎盂腎炎之風險，並降低早產與低出生體重兒風險。\n   - **Strict Indication 2: Patients Prior to Endourologic Procedures with Mucosal Bleeding**: 經尿道前列腺切除術 (TURP) 等侵入性手術前給予預防性抗生素，防止術後菌血症與 Urosepsis。\n   - **Non-Indications (DO NOT TREAT)**: 長期留置導尿管者、糖尿病女性、老年住宿機構住民、腎移植超過 6 個月患者。治療無症狀菌尿症不僅無臨床益處，反而誘發抗藥性菌株與 *C. difficile* 腸炎。\n2. **NIH Prostatitis Classification & Management Trap**:\n   - **Class I (Acute Bacterial Prostatitis)**: 發燒、畏寒、排尿困難與會陰劇痛。**嚴禁執行前列腺按摩 (Prostatic Massage)**，否則極易將細菌擠壓入血流，誘發急性菌血症與敗血性休克！首選脂溶性高、前列腺穿透力佳之抗生素 (Fluoroquinolones 或 TMP-SMX) 治療 2–4 週。\n   - **Class II (Chronic Bacterial Prostatitis)**: 反覆同一菌株 UTI。前列腺按摩後尿液 (VB3) 細菌數比按摩前 (VB2) 高 10 倍以上。\n   - **Class III (CPPS)**: 非細菌性慢性盆腔疼痛綜合徵 (IIIa 發炎性有 WBC；IIIb 非發炎性無 WBC)。\n   - **Class IV (Asymptomatic Inflammatory Prostatitis)**: 無症狀但切片或精液發現 WBC。\n3. **Candiduria Management & Amphotericin B Formulation Trap**:\n   - **Asymptomatic Candiduria**: 絕不使用抗真菌藥！**首選處置為拔除或更換留置導尿管** (50% 患者拔管後可自行清除菌尿)。\n   - **Symptomatic Candidiasis / Pyelonephritis**: 首選口服或靜脈 **Fluconazole 200–400 mg qd ✕ 14 天** (Fluconazole 80% 原型經腎臟排泄)。\n   - **Fluconazole-Resistant Strain (*Candida glabrata* / *C. krusei*)**: 必須改用 **Amphotericin B deoxycholate (0.3–0.7 mg/kg IV qd)** 或 5-Flucytosine。\n   - **Liposomal Amphotericin B Trap**: 傳統 **Amphotericin B Deoxycholate** 於尿液中具高原型濃度，為下泌尿道真菌感染首選；反之，**脂質體兩性黴素 B (Liposomal / Lipid Formulations of Amphotericin B)** 幾乎不經尿液排泄 (尿液濃度 < 1%)，**絕不可用於下泌尿道念珠菌感染**！\n\n| Clinical Entity | Mandatory Initial Action | Drug of Choice | Duration | Key Pitfall / Contraindication |\n| :--- | :--- | :--- | :--- | :--- |\n| **ASB in Pregnancy** | Screen in 1st Trimester | Cephalexin / Nitrofurantoin / Amox-Clav | 3-7 Days | Never leave untreated; prevents pyelonephritis |\n| **ASB in Catheterized / Elderly** | Do NOT treat | No Antibiotic Therapy | N/A | Treating induces drug resistance & C. difficile |\n| **Acute Prostatitis (NIH Class I)** | Blood/Urine Culture | Ciprofloxacin 500mg bid / TMP-SMX | 2-4 Weeks | **Prostatic Massage Strictly Contraindicated** |\n| **Asymptomatic Candiduria** | **Remove/Replace Foley** | No Antifungal Therapy | N/A | Catheter removal clears 50% without drugs |\n| **Symptomatic Candiduria (Sensitive)** | Assess renal function | Fluconazole 200-400 mg PO qd | 14 Days | Fluconazole achieves 80% unchanged urinary excretion |\n| **Candiduria (C. glabrata / Resistant)** | Antifungal susceptibility | **Amphotericin B deoxycholate** IV | 1-14 Days | **Avoid Liposomal Ampho B** (urine level < 1%) |\n\n### Pathophysiological Decision Trees\n- **Candiduria Management Decision Flow**: Positive *Candida* Urine Culture ➔ Assess Symptoms & Catheter ➔ Asymptomatic with Foley ➔ Remove / Replace Catheter (No Antifungals) ➔ Symptomatic / Pyelonephritis ➔ Fluconazole 14d ➔ If *C. glabrata* isolated ➔ Amphotericin B Deoxycholate IV (Avoid Liposomal Formulations).\n\n### Conceptual Trap Analysis\n- **Amphotericin B Formulation Trap**: 題目問「下泌尿道 *Candida glabrata* 感染之抗真菌選擇」時，Liposomal Amphotericin B 是常見陷阱！Liposomal 劑型尿液排泄率 < 1%，完全無法在尿路發揮療效；必須選用傳統水溶性 Amphotericin B Deoxycholate。"
+        }
+      ]
+    },
+    {
+      "moduleId": "uti_severe_epn_xgp_struvite",
+      "moduleTitle": "4. Severe Renal Infections, XGP & Urolithiasis Complications",
+      "studyGuide": "本模組深入探討腎臟重症感染與結核併發症：氣腫性腎盂腎炎 (Emphysematous Pyelonephritis, EPN) 的萬/黃曾 CT 分型與微創引流優先策略、黃色肉芽腫性腎盂腎炎 (Xanthogranulomatous Pyelonephritis, XGP) 的泡沫巨噬細胞 (Xanthoma Cells) 與 Bear-paw 影像徵象、Proteus 鹿角狀 Struvite 結石致鹼性尿，以及 PCNL 術中高壓灌注誘發 Pyelovenous Backflow 致敗血性休克之防範機制。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_36_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_36_1.png",
+          "caption": "Brenner 11e Fig. 36.1: Renal Tuberculosis Intravenous & Retrograde Pyelogram Showing Unilateral Hydronephrosis.",
+          "sourceBook": "Brenner 11e Ch 36"
+        },
+        {
+          "id": "brenner_table_36_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_36_1.png",
+          "caption": "Brenner 11e Table 36.1: Abnormalities of the Urinary Tract Associated With Complicated UTI.",
+          "sourceBook": "Brenner 11e Ch 36"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "EPN Management Paradigm, XGP Histopathology & PCNL Pyelovenous Backflow",
+          "diagram": {
+            "id": "uti_severe_epn_xgp_struvite_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/uti_severe_epn_xgp_struvite.jpg",
+            "caption": "Figure 4.1: Pathophysiology & Management of EPN (PCD First Line), XGP Bear-Paw Sign & PCNL Pyelovenous Backflow Prevention.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "腎臟重症感染與結石併發症之臨床病理學與外科處置：\n1. **Emphysematous Pyelonephritis (EPN) Management Shift**:\n   - **Risk Host & Pathogens**: 90% 以上發生於血糖控制佳之糖尿病患者 (DM)。主要致病菌為 *E. coli* (60%) 與 *Klebsiella pneumoniae*，組織壞死高糖環境下發酵葡萄糖產生 $\\text{CO}_2$ 與 $\\text{H}_2$ 氣體。\n   - **Imaging Classification**: CT 掃描區分氣腫性腎盂腎炎 (Gas in parenchyma & perinephric space) 與氣腫性腎盂炎 (Emphysematous Pyelitis: Gas strictly confined to pelvicalyceal system)。\n   - **Paradigm Shift in Management**: 過去傳統觀念認為 EPN 必須立即進行緊急腎切除術 (Emergency Nephrectomy)；然而現代實證醫學表明，**「內科抗生素治療 + 經皮腎臟穿刺引流 (Percutaneous Drainage, PCD)」為首選經驗處置**。PCD 可將死亡率自 50% (單純內科) 或 25% (緊急切除) 顯著降低至 13.5%。緊急腎切除術僅保留給 PCD 引流失敗或腎臟組織完全壞死之患者。\n2. **Xanthogranulomatous Pyelonephritis (XGP)**:\n   - **Pathophysiology & Histopathology**: 慢性梗阻性重度腎臟感染。特徵為正常腎實質被大量含有高量脂質的**泡沫巨噬細胞 (Lipid-laden Foamy Macrophages / Xanthoma Cells)** 完全取代。\n   - **Etiology & Imaging**: 90% 以上伴隨大型**鹿角狀結石 (Staghorn Calculi)** 與慢性梗阻。常見致病菌為 *Proteus mirabilis*。腹部 CT 呈現經典 **\"Bear-Paw Sign\" (熊掌徵)**——擴張之腎盞呈多房囊狀圍繞中央結石。\n   - **Treatment**: 完全性腎切除術 (Nephrectomy) 為唯一根治方法。\n3. **Struvite Stone & PCNL Pyelovenous Backflow Urosepsis**:\n   - **Struvite Composition**: 磷酸鎂銨 ($\text{MgNH}_4\text{PO}_4$) 與碳酸磷灰石。產尿素酶細菌 (*Proteus*, *Klebsiella*, *Ureaplasma urealyticum*) 水解尿素產生氨，使尿液呈強鹼性 ($\text{pH} > 7.5$)。\n   - **PCNL Pyelovenous Backflow Mechanism**: 經皮腎鏡取石術 (PCNL) 過程中，若腎盂灌注壓力超過 **30 mmHg**，灌注液將推動結石生物膜內大量細菌與內毒素經由破裂之腎小靜脈反流入血 (Pyelovenous / Pyelolymphatic Backflow)，引發突發性敗血性休克。預防關鍵為**術中維持低腎盂灌注壓**並給予敏感抗生素預防。\n\n| Severe Infection / Condition | Classic Clinical / Imaging Hallmark | Key Pathological Cell / Sign | Primary Management Strategy |\n| :--- | :--- | :--- | :--- |\n| **Emphysematous Pyelonephritis (EPN)** | Gas in renal parenchyma on CT; DM host | Intrarenal gas bubbles ($\text{CO}_2 / \text{H}_2$) | **Medical Therapy + Percutaneous Drainage (PCD)** |\n| **Emphysematous Pyelitis** | Gas strictly confined to renal pelvis | Pelvicalyceal gas shadow | Medical IV Antibiotics + Relief of obstruction |\n| **Xanthogranulomatous Pyelonephritis (XGP)** | Staghorn calculus + Renal mass on CT | **Lipid-laden Foamy Macrophages** (Bear-paw sign) | **Definitive Nephrectomy** |\n| **Struvite Staghorn Stone** | Alkaline urine pH > 7.5; Proteus / Ureaplasma | Magnesium ammonium phosphate crystals | PCNL stone clearance + Culture-directed antibiotics |\n| **PCNL Pyelovenous Backflow** | Sudden intraoperative hypotension & fever | Renal pelvic pressure > 30 mmHg | Keep low irrigation pressure & pre-op antibiotic prophylaxis |\n\n### Pathophysiological Decision Trees\n- **EPN Clinical Intervention Pathway**: Diabetic presenting with Severe Pyelonephritis ➔ CT Scan demonstrates Parenchymal Gas (EPN) ➔ Initiate Broad-Spectrum IV Antibiotics ➔ Immediate Percutaneous Drainage (PCD) Placement ➔ Monitor Response ➔ Reserve Emergency Nephrectomy only if PCD fails or fulminant necrosis persists.\n\n### Conceptual Trap Analysis\n- **EPN Management Trap**: 題目問「EPN 首選處置」時，緊急腎切除術 (Emergency Nephrectomy) 是最常見誘答！現代指引首選為「內科治療 + 經皮穿刺引流 (PCD)」，保腎且死亡率最低。"
+        }
+      ]
+    }
+  ]
+}

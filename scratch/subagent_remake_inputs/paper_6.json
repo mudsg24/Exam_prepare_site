@@ -34,7 +34,7 @@
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n標準血液透析水處理 Pre-treatment Train 的淨化流向順序為：\n1. **Multimedia Sediment Filter**：首先過濾自來水中的粗大懸浮微粒與泥沙。\n2. **Water Softener**：經由鈉型陽離子交換樹脂去除水中的 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 硬度離子，防範結晶沉澱 Scaling。\n3. **Dual Activated Carbon Tanks in Series**：於軟水後吸附有機物並經由化學還原反應去除 Free chlorine & Chloramines。\n4. **5-Micron Depth Filter**：放置於 RO 幫浦正前方，捕捉脫落的 Carbon fines，確保進入 RO 膜的水質粒徑 $< 5\\,\\mu\\text{m}$。\n因此選項 (A) 完全正確。\n\n### 3. Distractor Analysis\n- **(B), (C), (D) 錯誤**：將 Activated Carbon 置於沉澱過濾器或 Water Softener 之前會導致活性碳孔隙遭懸浮泥沙堵塞與硬度離子覆蓋而迅速失效；若將 5-Micron Depth Filter 置於活性碳之前，則無法捕捉活性碳槽洩漏出的微小碳粉，會直接造成 RO 膜磨損破壞。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -92,7 +92,7 @@
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度血液透析院所評量標準說明** Section 5.1.3：\n- **Water Softener 出水硬度標準**：Water Softener 出水硬度應 **$< 17.1\\,\\text{mg/L}$** (相當於 **$< 1.0\\,\\text{gpg}$** 或 **$< 17.1\\,\\text{ppm}$**)。\n- **檢測頻率與時機**：每週治療結束後應檢測 Water Softener 之硬度是否 $< 17.1\\,\\text{mg/L}$，至少每週一次。若發生水質異常或更換軟水樹脂時，則需改為每日檢測。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：數值與檢測頻率不符合台灣 TSN 評鑑規範。\n- **(C), (D) 錯誤**：$50\\,\\text{mg/L}$ 與 $100\\,\\text{mg/L}$ 均已遠超過軟水合格標準，會導致大量的碳酸鈣與硫酸鎂在 RO 膜表面 Membrane Scaling，縮短 RO 膜壽命並降低產水率。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -148,7 +148,7 @@
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 評量標準** 與 AAMI/ISO 規範：\n1. **配置要求**：必須串連兩組活性碳過濾器 Dual Carbon Tanks in Series。總 **Empty Bed Contact Time (EBCT)** 必須 $\\ge 10$ 分鐘 (第一桶與第二桶各至少 5 分鐘)。\n2. **取樣點與評量標準**：每週治療前且水處理設備運行 15 分鐘後，必須檢測 **Post-Worker Tank Port**，其 **Total Chlorine 含量應 $< 0.1\\,\\text{mg/L}$** ($< 0.1\\,\\text{ppm}$)。這樣能在第一桶 Breakthrough 時立即警告，並由第二桶攔截。\n因此選項 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：單桶活性碳無法提供安全屏障，且 Total Chlorine 上限應為 $< 0.1\\,\\text{mg/L}$ 而非 $< 0.5\\,\\text{mg/L}$。\n- **(B) 錯誤**：活性碳槽必須為 Dual Carbon Tanks in Series 而非 in parallel，EBCT 必須至少 10 分鐘，$< 0.2\\,\\text{mg/L}$ 太寬鬆。\n- **(D) 錯誤**：若僅於第二桶後採樣，第一桶 Breakthrough 時無法察覺；且檢測頻率必須每週至少一次，發生異常或換碳時改為每日檢驗。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -204,7 +204,7 @@
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nReverse Osmosis (RO) 系統採用 **Cross-Flow Filtration** 動水力學機制：\n- 在 High-pressure pump 克服自然滲透壓的前提下，進水平行於 RO 膜表面高速流動，並被分割為兩股水流：穿透膜管的純淨產水 Permeate 與沿著膜表面帶走濃縮離子與微粒的 Concentrate Reject。\n- Cross-flow 產生的強大剪應力 Shear force 能持續沖刷膜表面，防止離子沉澱與 Biofilm 積聚，維持高 Rejection Rate ($> 99\\%$) 與長產水壽命。因此 (D) 正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Dead-end filtration 會導致 Filter cake 迅速積聚並堵塞膜孔，不適用於 RO 主機。\n- **(B) 錯誤**：RO 必須施加強大水壓 Hydraulic pressure 方能克服自然滲透壓。\n- **(C) 錯誤**：重力被動滲透會使水流向高鹽度端，與逆滲透方向相反。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -260,7 +260,7 @@
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n透析純水迴水管路 Distribution Loop 防範 Biofilm 滋生的關鍵工程規格包括：\n1. **Continuous Circulating Loop**：確保 RO 淨水持續流動而不停滯。\n2. **Fluid Velocity**：流速必須保持在 **$\\ge 3\\text{ ft/sec}$** ($1.0\\text{ m/s}$)，產生 Turbulent flow 抑制細菌附著於管壁。\n3. **Piping Material & Dead-Ends**：採用光滑、耐腐蝕且耐熱之 PVDF 或 PEX 材質，絕對禁止存在 Dead-ends (盲端長度不得大於管徑的 2 倍)。因此 (A) 完全正確。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Dead-end 分支與低流速 Laminar flow 會形成靜水區，引發爆發性 Biofilm 滋生。\n- **(C) 錯誤**：酸性 RO 水會侵蝕銅管，溶出銅離子引發 Acute Hemolytic Anemia 與中毒；夜間停滯會加速細菌繁殖。\n- **(D) 錯誤**：週末完全停工停水且無消毒，會使管路中的細菌急速大量繁殖並形成極難清除的 Biofilm。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -316,7 +316,7 @@
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度血液透析院所評量標準說明** Section 5.1.3：\n- **Bacterial Limit**：傳統/熱消 RO 水與透析液各端點之 Bacterial Colony Count 必須 **$< 100\\,\\text{CFU/ml}$**。\n- **Action Level**：當菌落數達到 **$50\\,\\text{CFU/ml}$** 時，即應採取改善行動 (包括管路消毒、設備檢修與複查)，及早因應可能的水質惡化。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：$< 10\\,\\text{CFU/ml}$ 為 Ultrapure Dialysate 的標準而非標準 RO 水標準。\n- **(C), (D) 錯誤**：$200\\,\\text{CFU/ml}$ 與 $500\\,\\text{CFU/ml}$ 為舊版或非台灣標準，若達此菌量會增加患者微發炎反應與熱原反應風險。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -372,7 +372,7 @@
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度評量標準說明**：\n1. **Endotoxin Level & Action Level**：透析用水 RO 水之 Endotoxin 含量必須 **$< 0.25\\,\\text{EU/ml}$**。Action Level 為 **$0.125\\,\\text{EU/ml}$**。Endotoxin 至少每年檢測一次。\n2. **法定檢驗方法**：採用 **Limulus Amebocyte Lysate (LAL Assay)**。因此 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A), (B), (D) 錯誤**：Endotoxin 為革蘭氏陰性菌外膜之 Lipopolysaccharide (LPS)，臨床標準檢定法為 LAL Assay，而非 HPLC、ELISA 或 PCR。$< 0.25\\,\\text{EU/ml}$ 為台灣評鑑之法定門檻。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -428,7 +428,7 @@
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**絕對禁止將體外迴路中的血液趕回病人體內 (DISCARD extracorporeal blood)**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性高血鉀與心臟驟停。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -484,7 +484,7 @@
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n**Aluminum Toxicity** 是早期透析水質處理不佳 (如添加明礬淨水或使用含鋁透析水) 時典型的重金屬蓄積症狀：\n1. **Dialysis Encephalopathy / Dementia**：鋁沉積於中樞神經系統，表現為 Dyspraxia of speech、Myoclonus、失智與癲癇發作。\n2. **Low-Turnover Osteomalacia / Adynamic Bone Disease**：鋁沉積於 Mineralization front，直接抑制 Osteoblast 活性與 PTH 作用，導致劇烈骨痛與骨折。\n3. **Microcytic Normochromic Anemia**：干擾鐵質在 Heme 合成中的利用，給予高劑量 EPO 治療無效。三聯徵完全吻合 (A)。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Copper Toxicity 主要表現為 Acute Intravascular Hemolysis、胃腸道症狀與代謝性酸中毒。\n- **(C) 錯誤**：Magnesium Toxicity 引發 Hard Water Syndrome (嗜睡、高血壓、肌無力)。\n- **(D) 錯誤**：Lead Toxicity 引發周邊神經病變與 Saturnine gout。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -540,7 +540,7 @@
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n- **Hard Water Syndrome**：當前處理 Water Softener 樹脂穿透或鹽水再生失效時，自來水中的高濃度 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 離子穿透進入透析液。\n- **臨床特徵**：大量的鈣鎂離子經由透析膜擴散入血，引發急性 Hypercalcemia 與 Hypermagnesemia。患者於透析中突發噁心、嘔吐、嚴重頭痛、Hypertension、皮膚灼熱感、嗜睡與全身肌肉無力。因此 (B) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Dialysis Disequilibrium Syndrome (DDS) 是由於快速移除 BUN 造成腦水腫，與硬水離子無關。\n- **(C) 錯誤**：微量元素缺乏症 (如缺鋅) 為慢性營養問題，非 Water Softener 失效引發之急性病症。\n- **(D) 錯誤**：Endotoxin Pyrogenic Reaction 是由革蘭氏陰性菌毒素引發的高燒與畏寒，與鈣鎂無關。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -596,7 +596,7 @@
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n- **Copper & Zinc Leaching Toxicity**：當透析水處理系統或迴水管線使用銅管、黃銅配件或鍍鋅管時，酸性的純水 (RO水) 會侵蝕金屬管壁，致使 Copper 離子或 Zinc 離子溶出進入透析水。\n- **病理毒性**：Copper 離子為強烈之紅血球毒素，會破壞紅血球細胞膜並抑制 G6PD 活性，引發 **Acute Intravascular Hemolysis**、腹痛、噁心、嘔吐、黃疸與代謝性酸中毒。因此 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A), (B), (D) 錯誤**：Copper / Zinc 重金屬溶出不會直接引發純粹的高鈉高滲透壓昏迷或肺纖維化，其特徵性的血球打擊為 Acute Intravascular Hemolysis 與消化道毒性。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -652,7 +652,7 @@
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n根據 **Taiwan Society of Nephrology (TSN) 112 年度評量標準說明** Section 4：\n- **水質分析定期檢測**：年度需做水質分析檢測，依據 AAMI 2014 / ISO 13959 標準研判整個透析水處理系統的效能是否符合規定 (包含微量重金屬 Aluminum, Lead, Copper, Zinc, Fluoride, Nitrate 等微量元素分析)。\n- **檢測頻率**：**At least annually**。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：每週檢測的項目為 Hardness 與 Total Chlorine。\n- **(B) 錯誤**：每月檢測的項目為 Bacterial Colony Count。\n- **(C) 錯誤**：非評鑑規定的常態重金屬水質分析週期。",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {

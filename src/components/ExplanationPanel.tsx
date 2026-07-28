@@ -272,25 +272,30 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
                 isLight ? 'bg-slate-100 border-slate-200' : 'bg-slate-950 border-slate-800'
               }`}
             >
-              {nlmResponses.map((res, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setActiveNlmTab(idx)}
-                  className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                    activeNlmTab === idx
-                      ? 'bg-sky-600 text-white font-bold shadow-xs'
-                      : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
-                  }`}
-                >
-                  {res.notebookTitle || `Notebook #${idx + 1}`} (NLM選 {res.selectedOption || '無'})
-                </button>
-              ))}
+              {nlmResponses.map((res, idx) => {
+                const choice = res.extractedChoice || res.selectedOption || '無';
+                const isNone = choice === 'NONE' || choice === '無';
+                return (
+                  <button
+                    key={idx}
+                    onClick={() => setActiveNlmTab(idx)}
+                    className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+                      activeNlmTab === idx
+                        ? 'bg-sky-600 text-white font-bold shadow-xs'
+                        : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+                    }`}
+                  >
+                    {res.notebookTitle || `Notebook #${idx + 1}`} (NLM選 {isNone ? '無' : choice})
+                  </button>
+                );
+              })}
             </div>
           </div>
 
           {/* Active NLM Formatted Card */}
           {nlmResponses[activeNlmTab] && (() => {
             const currentNlm = nlmResponses[activeNlmTab];
+            const currentChoice = currentNlm.extractedChoice || currentNlm.selectedOption || 'N/A';
             const parsedSections = parseNlmSections(currentNlm.formattedResponse || currentNlm.rawResponse);
 
             return (
@@ -305,7 +310,7 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
                     知識庫來源: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{currentNlm.notebookTitle}</strong> ({currentNlm.accountProfile})
                   </span>
                   <span className="px-2.5 py-1 rounded-lg bg-sky-500/10 text-sky-700 dark:text-sky-300 font-mono font-bold border border-sky-500/20">
-                    NLM 判定答案: <strong>{currentNlm.selectedOption || 'N/A'}</strong>
+                    NLM 判定答案: <strong>{currentChoice === 'NONE' ? '無 (INSUFFICIENT)' : currentChoice}</strong>
                   </span>
                 </div>
 
@@ -363,7 +368,7 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
                 )}
 
                 {/* Citations List */}
-                {currentNlm.citations?.length > 0 && (
+                {!!currentNlm.citations && currentNlm.citations.length > 0 && (
                   <div className="pt-2">
                     <div className="text-xs font-semibold text-slate-500 mb-1.5">對應教科書與章節引用:</div>
                     <div className="flex flex-wrap gap-2">

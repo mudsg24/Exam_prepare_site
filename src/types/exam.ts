@@ -16,13 +16,14 @@ export interface NlmResponseItem {
   notebookTitle: string;
   notebookId: string;
   accountProfile: string;
-  selectedOption: string | null;
+  selectedOption?: string | null;
+  extractedChoice?: string | null;
   rawResponse: string;
   formattedResponse?: string;
-  citations: NlmCitation[];
-  figureMentions: string[];
+  citations?: NlmCitation[];
+  figureMentions?: string[];
   databaseSufficiency: 'SUFFICIENT' | 'INSUFFICIENT';
-  error: string | null;
+  error?: string | null;
 }
 
 export type DisputeStatus = 

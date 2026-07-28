@@ -90,8 +90,15 @@
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題 (5-1)",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 46-year-old male patient who was referred from the local clinic for recurrent flank pain. He had a...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
+          "selectedOption": "NONE",
+          "databaseSufficiency": "INSUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 46-year-old male patient who was referred from the local clinic for recurrent flank pain. He had a...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
           "selectedOption": "NONE",
           "databaseSufficiency": "INSUFFICIENT"
         }
@@ -1762,10 +1769,17 @@
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題 (5-2)",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細說明 (Detailed Explanation)\n\n提供的 `notebook sources`（主要包含 **`Brenner & Rector's The Kidney (11th Edition)`** 以及各項 **`KDIGO`** 臨床實踐指引）中，雖然詳盡記載了由 **`AAMI`**、**`ANSI`**、**`ISO`** 與 **`ERA-EDTA`** 制定之國際血液透析用水及透析液的微生物與內毒素標準 [Passage 178, 319, 320, 628, 630]：\n\n1. **國際指引記載之標準**：\n   * **`AAMI / ISO` 2009 標準**：規定透析用水中的細菌數需 **`< 100 CFU/mL`**（`action level` 設為 $50$ 或 $25\\text{ CFU/mL}$），內毒素濃度需 **`< 0.25 EU/mL`**（`action level` 設為 **`0.125 EU/mL`**）[Passage 178, 319]。\n   * **`Ultrapure dialysate`**：要求細菌數 **`< 0.1 CFU/mL`**，內毒素 **`< 0.03 EU/mL`** [Passage 178, 320]。\n   * **`Substitution fluid`**：要求無菌（**`sterile`**），且內毒素為 **`undetectable`** 或 $< 0.03\\text{ EU/mL}$ [Passage 320]。\n\n2. **本題缺乏之關鍵資訊**：\n   * 來源文獻中**完全沒有**提及台灣腎臟醫學會（**`Taiwan Society of Nephrology, TSN`**）所規範之特定血液透析水質安全標準。\n   * 文獻中並無記載關於在 **`tryptone glucose extract agar (TGEA)`** 或 **`Reasoners 2A (R2A)`** 培養基中於 $37^\\circ\\text{C}$ 下培養 **`168 hours`**（7天）之特定本土操作規範，亦無提及容許菌落數上限為 **`300 CFU/mL`** 之 TSN 條文。\n\n由於本數據庫（**`database`**）缺乏本土學會（TSN）的專規條文資訊，無法進行合乎科學實證的對比與正確性判定。為維持 NotebookLM 嚴格基於文獻證據、拒絕憑空臆測之核心承諾，特此宣告證據不足。",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * The Association for the Advancement of Medical Instrumentation (AAMI) external icon in conjunction w...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n現有來源主要涵蓋 AAMI、ANSI、ISO 等國際指引，雖然規範了細菌數與內毒素的上限，但完全缺乏台灣腎臟醫學會的特定透析用水品質標準規範，亦未提及在 tryptone glucose extract agar (TGEA) 或 Reasoners 2A (R2A) 培養基的特定培養條件與菌落數限制，故無法判定正確選項。\n",
           "selectedOption": "NONE",
-          "databaseSufficiency": "SUFFICIENT"
+          "databaseSufficiency": "INSUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * The Association for the Advancement of Medical Instrumentation (AAMI) external icon in conjunction w...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n現有來源主要涵蓋 AAMI、ANSI、ISO 等國際指引，雖然規範了細菌數與內毒素的上限，但完全缺乏台灣腎臟醫學會的特定透析用水品質標準規範，亦未提及在 tryptone glucose extract agar (TGEA) 或 Reasoners 2A (R2A) 培養基的特定培養條件與菌落數限制，故無法判定正確選項。\n",
+          "selectedOption": "NONE",
+          "databaseSufficiency": "INSUFFICIENT"
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -1916,10 +1930,17 @@
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題 (5-3)",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n***\n\n### **詳細說明 (Detailed Explanation)**\n\n根據 **`notebook sources`**（包含《*Brenner & Rector's The Kidney*》各章節、*KDIGO Guidelines* 以及最新 *KDIGO 2026-AKI-Draft* 公開徵求意見稿），現有文獻針對 **`SARS-CoV-2`** / **`COVID-19`** 相關的 **`acute kidney injury (AKI)`** 僅存在極為有限且碎片化的書目引用或方法學提及，缺乏系統性的臨床與病理生理學論述。\n\n1. **現有文獻涉及內容**：\n   * **`KDIGO 2026-AKI-Draft`** 在其方法學評估（**`Passage 315`**）中簡短提到，關於 **`COVID-19`** 相關研究的證據品質，因其對 **`AKI-related outcomes`** 的估計值高度不精確（**`highly imprecise estimates`**）而遭到降級（**`downgraded`**）。\n   * 文獻末尾僅以參考書目的形式（**`Passage 348 & 349`**）列出了兩篇早期腎臟活檢研究的標題，分別為：\n     * *Kudose S, et al. Kidney Biopsy Findings in Patients with COVID-19. J Am Soc Nephrol 2020.*\n     * *Rossi GM, et al. Kidney Biopsy Findings in a Critically Ill COVID-19 Patient With Dialysis-Dependent Acute Kidney Injury: A Case Against \"SARS-CoV-2 Nephropathy\". Kidney Int Rep 2020.*\n   * 除上述文獻標題與方法學評估外，數據庫中完全沒有關於 **`SARS-CoV-2`** 感染引發 **`AKI`** 的病理生理學、流行病學及解剖病理學的詳細描述。\n\n2. **無法判定各選項之原因**：\n   * **針對 Option (A)**：無法從現有文獻中獲得 **`COVID-19`** 患者的 **`AKI incidence`** 與前代 **`SARS`** 及 **`MERS-CoV`** 感染之確切對比數據。\n   * **針對 Option (B)**：雖然 **`CRP`** 在許多感染中代表系統性發炎（**`systemic inflammation`**），且已知在 **`sepsis`** 狀態下會促進 **`AKI`**，但現有文獻未對 **`SARS-CoV-2`** 特異性驅動的 **`CRP`** 級聯反應與腎損傷之間的因果鏈條提供詳細學術定性。\n   * **針對 Option (C)**：文獻僅在書目中提及 **`A Case Against \"SARS-CoV-2 Nephropathy\"`**，這暗示學術界對於病毒是否存在 **`direct cytopathic effect`** 有所爭議，但未在正文中展開任何關於其發病機轉（**`pathogenesis`**）的詳細論述。\n   * **針對 Option (D)**：文獻完全未提及 **`postmortem autopsies`** 下 **`tubulointerstitium`** 的具體病理損害細節、**`acute tubular necrosis`** 的嚴重度分級、以及 **`lymphocyte infiltration`** 的浸潤特徵。\n\n因此，本題符合 **`Database Limitation Guard`** 觸發條件。為了確保所有學術聲稱均能追溯至可靠的文獻來源，並維護對學術誠實的最高承諾，本助理在此選擇不調用外部訓練知識進行臆測，特此輸出不確定聲明。",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "知識庫中關於 SARS-CoV-2 或 COVID-19 相關急性腎損傷 (acute kidney injury, AKI) 的文獻極少，僅 KDIGO 指引草案中簡略提及證據品質不佳。文獻未提供與 SARS 或 MERS-CoV 的發生率比較數據，亦缺乏 CRP 引發腎損傷的具體因果鏈、病毒的 direct cytopathic effect 或死後解剖 tubulointerstitium 的詳細病理組織學描述，無法判定各選項之正確性。",
           "selectedOption": "NONE",
-          "databaseSufficiency": "SUFFICIENT"
+          "databaseSufficiency": "INSUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "知識庫中關於 SARS-CoV-2 或 COVID-19 相關急性腎損傷 (acute kidney injury, AKI) 的文獻極少，僅 KDIGO 指引草案中簡略提及證據品質不佳。文獻未提供與 SARS 或 MERS-CoV 的發生率比較數據，亦缺乏 CRP 引發腎損傷的具體因果鏈、病毒的 direct cytopathic effect 或死後解剖 tubulointerstitium 的詳細病理組織學描述，無法判定各選項之正確性。",
+          "selectedOption": "NONE",
+          "databaseSufficiency": "INSUFFICIENT"
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -1962,8 +1983,15 @@
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題 (5-4)",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 58-year-old woman was sent to emergent department due to cough, fever and loss of smell since 3 da...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
+          "selectedOption": "NONE",
+          "databaseSufficiency": "INSUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "TSN：出題",
+          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 58-year-old woman was sent to emergent department due to cough, fever and loss of smell since 3 da...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
           "selectedOption": "NONE",
           "databaseSufficiency": "INSUFFICIENT"
         }

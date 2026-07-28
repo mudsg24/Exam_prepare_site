@@ -59,7 +59,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -114,7 +114,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -169,7 +169,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -224,7 +224,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -279,7 +279,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -334,7 +334,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (B, D)。",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (B, D) 不符",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-24T18:31:02.614Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
@@ -393,7 +393,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -448,7 +448,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -503,7 +503,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -558,10 +558,11 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     }
   ],
   "hasTutorial": true,
-  "tutorialId": "2026_CSMUH_(主題備考)_tutorial"
+  "tutorialId": "2026_CSMUH_(主題備考)_tutorial",
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

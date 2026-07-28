@@ -46,7 +46,8 @@
       ],
       "number": 1,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_02",
@@ -87,7 +88,8 @@
       ],
       "number": 2,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_03",
@@ -128,7 +130,8 @@
       ],
       "number": 3,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_04",
@@ -169,7 +172,8 @@
       ],
       "number": 4,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_05",
@@ -210,7 +214,8 @@
       ],
       "number": 5,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_06",
@@ -251,7 +256,8 @@
       ],
       "number": 6,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_07",
@@ -276,7 +282,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "根據文獻分析，目前的文獻資源缺乏關於 B-cell subsets 與 plasma cells 的 immunophenotypic profiles 的完整資訊。雖然 rituximab 是一種 targeting CD20 antigen 的 monoclonal antibody，且 CD20 antigen 表達於 pre-B cells 與 mature B cells，但不表達於 normal plasma cells、hematopoietic stem cells 或 pro-B cells。另外，針對 refractory membranous nephropathy 的 experimental therapies 包括 proteasome inhibitor 與 anti-CD38 therapy，提示 plasma cells 表達 CD38。然而，文獻中完全沒有關於 CD19 與 BCMA (B-cell maturation antigen) 的描述，因此無法直接核實 mature plasma cells 的 immunophenotypic profiles。雖然在 clinical hematological oncology 與 immunology 中，Option (A) CD19-, CD20-, CD38+, BCMA+ 是 mature plasma cells 的特徵，但基於資料庫限制原則，本題判定為證據不足。",
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_REASKED",
       "nlmResponses": [
         {
@@ -296,7 +302,8 @@
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_08",
@@ -337,7 +344,8 @@
       ],
       "number": 8,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_09",
@@ -378,7 +386,8 @@
       ],
       "number": 9,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_10",
@@ -419,7 +428,8 @@
       ],
       "number": 10,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_11",
@@ -460,7 +470,8 @@
       ],
       "number": 11,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_12",
@@ -501,7 +512,8 @@
       ],
       "number": 12,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_13",
@@ -526,18 +538,20 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "本題的 NLM 系統回覆皆為拒絕作答之短句，並無實質的解析與推論。因缺乏足夠文獻證據進行解答，本題無法判定。建議補充相關文獻以供進一步分析。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_REASKED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcStatus": "FAILED",
       "nlmResponses": [
         {
-          "selectedOption": "NONE",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n### **1. 缺乏直接證據說明 (Lack of Direct Evidence)**\n針對本題所描述的 **`clinical`** 情境（**`deceased-donor kidney transplant`** 術後 **`8 months`**，在對 **`immunosuppressive regimen`** 包括 **`tacrolimus`**、**`mycophenolate mofetil`** 與 **`prednisone`** 具備良好 **`compliance`** 的情況下，出現逐漸發展的 **`rise in serum creatinine`**），提供的 notebook sources 並**沒有**提供在該特定時間點（**`8 months`**）最常見或最主要的 **`predominant histopathological finding`** 之統計數據、比例或明確的診斷結論。因此，無法在 **Option A、B、C 或 D** 之間選出一個在 sources 中有確切證據支持的絕對正確答案。\n\n---\n\n### **2. Notebook Sources 既有內容分析 (Analysis of Available Source Evidence)**\n雖然 sources 缺乏直接定位術後 **`8 months`** 時最常見 **`pathology`** 發現的數據，但針對選項中的各個 **`pathophysiologic entities`**，sources 提供了以下相關的學術論述與 **`differential diagnosis`** 原則：\n\n1.  **`Calcineurin Inhibitor Toxicity`**：\n    *   在 **`clinical`** 實務中，識別並鑑別 **`acute CNI nephrotoxicity`** 與 **`acute rejection`** 相當困難 [1]。**`CNI toxicity`** 的 **`indicators`** 包括 **`neurotoxicity`**（如 **`severe tremor`**）、**`plasma creatinine`** 較 **`baseline`** 上升 $> 25\\%$ 以及過高的 **`trough blood CNI concentrations`**（如 **`tacrolimus`** 水平 $> 15\\text{ ng/mL}$） [1]。\n    *   經典的 **`Nankivell`** 早期研究指出，在 **`long-term follow-up`**（如 5 年與 10 年）的 **`allograft biopsy`** 中，常可見到高比例的 **`CNI toxicity`** 特徵（如 **`arteriolar hyalinosis`** 伴隨 **`tubular microcalcification`**） [2]。然而，近年研究對於其診斷特異性提出了質疑，並強調許多過往被歸類為 **`CNI toxicity`** 的 **`chronic fibrotic lesions`**，實際上是 **`immune-mediated injury`** [2]。\n\n2.  **`T-cell Mediated Rejection` (TCMR) 與 `Antibody-mediated Rejection` (ABMR)**：\n    *   漸進性的 **`increase in serum creatinine`** 是 **`allograft rejection`** 的經典表現 [1, 3, 4]。\n    *   **`acute TCMR`** 與 **`active ABMR`** 在 **`histopathology`** 與免疫學特徵上存在顯著差異 [5]：\n        *   **`acute TCMR`**：通常在術後 $> 5$ 天發生，特徵為 **`tubulitis`** 與 **`interstitial inflammation`**，其 **`C4d staining`** 與 **`donor-specific antibody (DSA)`** 通常為 **`negative`** [5]。\n        *   **`active ABMR`**：可自術後 $> 0$ 天起發生，特徵為 **`microvascular inflammation`**（如 **`peritubular capillaritis`** 或 **`glomerulitis`**），且常伴隨 **`positive peritubular capillary C4d staining`** 以及血清中可檢出 **`DSA`** [5-7]。\n        *   在 **`late post-transplant period`**，**`chronic active ABMR`**（常伴隨 **`transplant glomerulopathy / double contours in glomerular capillaries`**）是導致進展性 **`late chronic allograft dysfunction`** 與 **`late allograft loss`** 的極重要原因 [8-10]。\n\n3.  **`Recurrent Glomerulonephritis`**：\n    *   **`recurrence of primary kidney disease`**（如 **`FSGS`**、**`IgA nephropathy`**、**`MPGN`**、**`membranous nephropathy`** 等）是導致中後期 **`late graft failure`** 的重要原因之一，在術後 10 年內是引發 **`graft loss`** 的第三大主因 [11-13]。\n    *   然而，不同疾病的 **`timing of recurrence`** 存在極大差異。例如 **`FSGS`** 傾向在術後數天至數週內極早期復發，而其他 **`glomerulonephritides`** 的復發時間則較為變動 [13]。\n\n4.  **`Chronic Allograft Injury` (CAI / IFTA)**：\n    *   在移植術後，逐漸出現的 **`declining kidney allograft function`** 如果伴隨有病理上的 **`interstitial fibrosis and tubular atrophy (IFTA)`**，常被歸類為 **`chronic allograft injury (CAI)`** [12]。\n    *   在術後 1 年，約有四分之一的患者會出現中重度 **`CAI`**，而到術後 10 年這一比例高達 90% [12]。其 **`pathogenesis`** 是 **`multifactorial`** 的，包括慢性 **`immune-mediated injury`** 與非免疫損害 [4, 12, 14]。\n\n由於 notebook sources 僅描述了這些疾病的 **`pathogenesis`**、**`diagnostic criteria`** 與長期隨訪的 **`prevalence`**，並無提供針對術後 **`8 months`** 出現漸進性 **`serum creatinine`** 上升的病患進行各個 **`pathological diagnoses`** 機率之對比，因此為防範推論偏離來源文獻之範疇，必須依據 **`Database Limitation Guard`** 規定輸出。\n\n---\n\n### **3. Citations & References**\n*   **Chapter & Section**:\n    *   **`Brenner & Rector's The Kidney`**, **Chapter 69 (\"The Immunobiology of Transplantation\")** $\\rightarrow$ Section: **`BOARD REVIEW QUESTIONS`** [8].\n    *   **`Brenner & Rector's The Kidney`**, **Chapter 70 (\"Clinical Management of the Adult Kidney Transplant Recipient\")** $\\rightarrow$ Sections: **`Causes of Delayed Graft Function`** [15, 16], **`Distinguishing Acute Calcineurin Inhibitor Nephrotoxicity and Acute Rejection`** [1], **`Late Allograft Dysfunction and Late Allograft Loss`** [9, 10], **`Recurrence of Primary Disease`** [11].\n    *   **`KDIGO 2009 Transplant Recipient Guideline`**, **Chapter 7 (\"Chronic Allograft Injury\")** [12, 14], **Chapter 8 (\"Late Allograft Dysfunction\")** [3], **Chapter 9 (\"Kidney Allograft Biopsy\")** [4, 17], **Chapter 10 (\"Recurrent Kidney Disease\")** [13, 18].",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "selectedOption": "NONE",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n### **1. 缺乏直接證據說明 (Lack of Direct Evidence)**\n針對本題所描述的 **`clinical`** 情境（**`deceased-donor kidney transplant`** 術後 **`8 months`**，在對 **`immunosuppressive regimen`** 包括 **`tacrolimus`**、**`mycophenolate mofetil`** 與 **`prednisone`** 具備良好 **`compliance`** 的情況下，出現逐漸發展的 **`rise in serum creatinine`**），提供的 notebook sources 並**沒有**提供在該特定時間點（**`8 months`**）最常見或最主要的 **`predominant histopathological finding`** 之統計數據、比例或明確的診斷結論。因此，無法在 **Option A、B、C 或 D** 之間選出一個在 sources 中有確切證據支持的絕對正確答案。\n\n---\n\n### **2. Notebook Sources 既有內容分析 (Analysis of Available Source Evidence)**\n雖然 sources 缺乏直接定位術後 **`8 months`** 時最常見 **`pathology`** 發現的數據，但針對選項中的各個 **`pathophysiologic entities`**，sources 提供了以下相關的學術論述與 **`differential diagnosis`** 原則：\n\n1.  **`Calcineurin Inhibitor Toxicity`**：\n    *   在 **`clinical`** 實務中，識別並鑑別 **`acute CNI nephrotoxicity`** 與 **`acute rejection`** 相當困難 [1]。**`CNI toxicity`** 的 **`indicators`** 包括 **`neurotoxicity`**（如 **`severe tremor`**）、**`plasma creatinine`** 較 **`baseline`** 上升 $> 25\\%$ 以及過高的 **`trough blood CNI concentrations`**（如 **`tacrolimus`** 水平 $> 15\\text{ ng/mL}$） [1]。\n    *   經典的 **`Nankivell`** 早期研究指出，在 **`long-term follow-up`**（如 5 年與 10 年）的 **`allograft biopsy`** 中，常可見到高比例的 **`CNI toxicity`** 特徵（如 **`arteriolar hyalinosis`** 伴隨 **`tubular microcalcification`**） [2]。然而，近年研究對於其診斷特異性提出了質疑，並強調許多過往被歸類為 **`CNI toxicity`** 的 **`chronic fibrotic lesions`**，實際上是 **`immune-mediated injury`** [2]。\n\n2.  **`T-cell Mediated Rejection` (TCMR) 與 `Antibody-mediated Rejection` (ABMR)**：\n    *   漸進性的 **`increase in serum creatinine`** 是 **`allograft rejection`** 的經典表現 [1, 3, 4]。\n    *   **`acute TCMR`** 與 **`active ABMR`** 在 **`histopathology`** 與免疫學特徵上存在顯著差異 [5]：\n        *   **`acute TCMR`**：通常在術後 $> 5$ 天發生，特徵為 **`tubulitis`** 與 **`interstitial inflammation`**，其 **`C4d staining`** 與 **`donor-specific antibody (DSA)`** 通常為 **`negative`** [5]。\n        *   **`active ABMR`**：可自術後 $> 0$ 天起發生，特徵為 **`microvascular inflammation`**（如 **`peritubular capillaritis`** 或 **`glomerulitis`**），且常伴隨 **`positive peritubular capillary C4d staining`** 以及血清中可檢出 **`DSA`** [5-7]。\n        *   在 **`late post-transplant period`**，**`chronic active ABMR`**（常伴隨 **`transplant glomerulopathy / double contours in glomerular capillaries`**）是導致進展性 **`late chronic allograft dysfunction`** 與 **`late allograft loss`** 的極重要原因 [8-10]。\n\n3.  **`Recurrent Glomerulonephritis`**：\n    *   **`recurrence of primary kidney disease`**（如 **`FSGS`**、**`IgA nephropathy`**、**`MPGN`**、**`membranous nephropathy`** 等）是導致中後期 **`late graft failure`** 的重要原因之一，在術後 10 年內是引發 **`graft loss`** 的第三大主因 [11-13]。\n    *   然而，不同疾病的 **`timing of recurrence`** 存在極大差異。例如 **`FSGS`** 傾向在術後數天至數週內極早期復發，而其他 **`glomerulonephritides`** 的復發時間則較為變動 [13]。\n\n4.  **`Chronic Allograft Injury` (CAI / IFTA)**：\n    *   在移植術後，逐漸出現的 **`declining kidney allograft function`** 如果伴隨有病理上的 **`interstitial fibrosis and tubular atrophy (IFTA)`**，常被歸類為 **`chronic allograft injury (CAI)`** [12]。\n    *   在術後 1 年，約有四分之一的患者會出現中重度 **`CAI`**，而到術後 10 年這一比例高達 90% [12]。其 **`pathogenesis`** 是 **`multifactorial`** 的，包括慢性 **`immune-mediated injury`** 與非免疫損害 [4, 12, 14]。\n\n由於 notebook sources 僅描述了這些疾病的 **`pathogenesis`**、**`diagnostic criteria`** 與長期隨訪的 **`prevalence`**，並無提供針對術後 **`8 months`** 出現漸進性 **`serum creatinine`** 上升的病患進行各個 **`pathological diagnoses`** 機率之對比，因此為防範推論偏離來源文獻之範疇，必須依據 **`Database Limitation Guard`** 規定輸出。\n\n---\n\n### **3. Citations & References**\n*   **Chapter & Section**:\n    *   **`Brenner & Rector's The Kidney`**, **Chapter 69 (\"The Immunobiology of Transplantation\")** $\\rightarrow$ Section: **`BOARD REVIEW QUESTIONS`** [8].\n    *   **`Brenner & Rector's The Kidney`**, **Chapter 70 (\"Clinical Management of the Adult Kidney Transplant Recipient\")** $\\rightarrow$ Sections: **`Causes of Delayed Graft Function`** [15, 16], **`Distinguishing Acute Calcineurin Inhibitor Nephrotoxicity and Acute Rejection`** [1], **`Late Allograft Dysfunction and Late Allograft Loss`** [9, 10], **`Recurrence of Primary Disease`** [11].\n    *   **`KDIGO 2009 Transplant Recipient Guideline`**, **Chapter 7 (\"Chronic Allograft Injury\")** [12, 14], **Chapter 8 (\"Late Allograft Dysfunction\")** [3], **Chapter 9 (\"Kidney Allograft Biopsy\")** [4, 17], **Chapter 10 (\"Recurrent Kidney Disease\")** [13, 18].",
-          "databaseSufficiency": "INSUFFICIENT"
+          "qId": "q_13",
+          "notebookTitle": "TSN：出題 (5-1)",
+          "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
+          "accountProfile": "kuonephro",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
       "number": 13,
@@ -546,7 +560,8 @@
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "q_14",
@@ -587,7 +602,8 @@
       ],
       "number": 14,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_15",
@@ -628,7 +644,8 @@
       ],
       "number": 15,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_16",
@@ -669,7 +686,8 @@
       ],
       "number": 16,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_17",
@@ -710,7 +728,8 @@
       ],
       "number": 17,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_18",
@@ -751,7 +770,8 @@
       ],
       "number": 18,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_19",
@@ -792,7 +812,8 @@
       ],
       "number": 19,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_20",
@@ -833,7 +854,8 @@
       ],
       "number": 20,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_21",
@@ -874,7 +896,8 @@
       ],
       "number": 21,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_22",
@@ -915,7 +938,8 @@
       ],
       "number": 22,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_23",
@@ -956,7 +980,8 @@
       ],
       "number": 23,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_24",
@@ -981,27 +1006,30 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "根據 United Network for Organ Sharing (UNOS) 的定義，expanded criteria donor (ECD) 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3) 死因為 cerebrovascular accident (CVA)。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_REASKED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcStatus": "PASSED",
       "nlmResponses": [
         {
-          "selectedOption": "NONE",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 57-year-old male is declared brain dead following a massive myocardial infarction. He had no known...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據 United Network for Organ Sharing (UNOS) 的定義，expanded criteria donor (ECD) 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3) 死因為 cerebrovascular accident (CVA)。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。\n",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "selectedOption": "NONE",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 57-year-old male is declared brain dead following a massive myocardial infarction. He had no known...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據 United Network for Organ Sharing (UNOS) 的定義，expanded criteria donor (ECD) 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3) 死因為 cerebrovascular accident (CVA)。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。\n",
-          "databaseSufficiency": "INSUFFICIENT"
+          "qId": "q_24",
+          "notebookTitle": "TSN：出題 (4-5)",
+          "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
+          "accountProfile": "mudkaku",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. Database Limitation Analysis (資料庫不足原因分析)\n\n根據對所有 notebook sources 的系統性檢索，雖然資料庫中包含了多種臨床指引（如 *KDIGO Guidelines* 2009、2012、2017、2024、2025、2026 等），以及關於 **living kidney donation** 的部分章節（如第 71 章 *Considerations in Living Kidney Donation*）[1, 2]，但缺乏判定此特定學術問題所需的關鍵細節：\n\n1.  **缺乏 Deceased Donor 與 ECD 的定義和標準**：\n    *   來源文獻中雖然有提及 **kidney transplantation**，但完全沒有收錄關於 **expanded criteria donor** (**ECD**) 與 **standard criteria donor** (**SCD**) 劃分標準的具體文字、表格或數據。\n    *   指引中僅有收錄 *KDIGO 2017 Living Kidney Donor Guideline* [3, 4]，但這是針對 **living kidney donation** [3, 4]，與本題涉及的 **deceased donor**（特別是 **donor after brain death**）分類指標無關。\n2.  **缺乏臨床條件與分類之關聯**：\n    *   資料庫正文中缺乏關於 **terminal serum creatinine > 1.5 mg/dL**、年齡 50–59 歲、**history of hypertension** 及 **cause of death** 作為 **DBD donor** 劃分為 **ECD** 決策樹的臨床紀錄。\n\n因此，為維持最嚴格的醫學與學術實證標準，本處依據 **Database Limitation Guard** 規範輸出 `INSUFFICIENT_DATABASE_EVIDENCE` 聲明。\n\n為了提供完整的學術支持與考試分析，以下為命題專家針對此臨床問題，依據國際腎臟移植與標準專科醫學知識（如 **UNOS** 規範）所進行的**通用醫學病理生理學分析、干擾項深度剖析與高頻考點鑑別**（請注意，以下分析內容源自外部醫學知識，無法在現有資料庫中進行交叉驗證）：\n\n---\n\n### 2. Theoretical Pathophysiological Analysis & Correct Option Analysis (理論病理生理學與預期正解分析)\n\n在 **transplantation medicine** 與 **organ allocation** 的通用規範中，本題的預期正確答案為 **Option (B) A documented history of hypertension**。其生理與臨床機制分析如下：\n\n1.  **ECD 的定義與背景 (Background of Expanded Criteria Donor)**：\n    *   為了應對全球性的 **donor shortage**，**United Network for Organ Sharing** (**UNOS**) 於 2002 年制定了 **expanded criteria donor** (**ECD**) 的定義。\n    *   **ECD** 的設立旨在納入相較於 **standard criteria donor** (**SCD**) 具有較高 **graft failure** 風險，但對於特定 **recipient**（如高齡、預期壽命較短或透析併發症嚴重的患者）仍能顯著改善存活率的 **donor kidney**。與 **SCD** 相比，**ECD** 發生 **delayed graft function** (**DGF**) 的風險增加約兩倍。\n\n2.  **UNOS ECD 的精確分類標準 (UNOS ECD Criteria)**：\n    *   任何來自 **donor after brain death** (**DBD**) 的 **donor kidney**，必須滿足以下兩大硬性條款之一，方可分類為 **ECD**：\n        *   **條款一**：**donor age $\\ge 60$ years**。\n        *   **條款二**：**donor age** 為 **50 to 59 years**，且必須同時滿足以下三項臨床標準中的**至少兩項**（**at least two of the following three criteria**）：\n            1.  **History of hypertension**。\n            2.  **Terminal serum creatinine > 1.5 mg/dL**。\n            3.  **Cause of death was a cerebrovascular accident** (**CVA**)。\n\n3.  **本個案的臨床條件套用與計算 (Application of the Criteria to the Case)**：\n    *   本個案為一名 **57-year-old male**，年齡落在 **50 to 59 years** 的區間內，因此必須套用「三項臨床標準中至少滿足兩項」的規定。\n    *   **已知條件一**：其 **terminal serum creatinine is 1.8 mg/dL**，這已明確高於 **$> 1.5\\text{ mg/dL}$** 的閾值（滿足了第一項標準）。\n    *   **已知條件二**：其死因為 **massive myocardial infarction**，並非 **cerebrovascular accident** (**CVA**)（不滿足死因標準）。\n    *   **結論與推導**：在死因不符合、且年齡介於 50 to 59 years 的情況下，要使該 **donor** 被歸類為 **ECD**，他必須具備剩餘的一項標準，即 **Option (B) A documented history of hypertension**。\n    *   當患者同時具有 50 to 59 years 年齡、**terminal serum creatinine is 1.8 mg/dL** 以及 **history of hypertension** 時，其剛好滿足了 3 項標準中的 2 項，從而符合了 **ECD** 的定義。\n\n因此，選項 (B) 為理論上的唯一正解。\n\n---\n\n### 3. Distractor Option Analysis (干擾項理論剖析)\n\n*   **Option (A) A diagnosis of diabetes mellitus for more than 5 years**：\n    *   *為何錯誤*：雖然 **diabetes mellitus** 是導致 **donor** 發生 **microvascular complications** 與 **chronic glomerulosclerosis** 的極強危險因素，且在 **living donor candidate evaluation** 中通常是 **relative or absolute contraindications** [1]，但它在 **UNOS** 的 **deceased donor** 分類系統中，**完全不屬於**劃分 **ECD** 的標準維度之一。\n    *   *出題者用意*：利用 **diabetes mellitus** 作為 **nephrology** 與 **ESKD** 最常見的 **primary etiology** 之高頻認知，來測試考生是否死記硬背了 **cardiovascular risk factors**，而未能精確區分特定行政與臨床指引中的劃分指標。\n\n*   **Option (C) A terminal urine output of less than 500 mL in 24 hours**：\n    *   *為何錯誤*：在 **brain-dead donors** 中，由於 **diabetes insipidus**、**volume depletion** 或是術前大劑量 **vasopressors** 的使用，**terminal urine output** 的波動極大 [5]。然而，**terminal urine output** 僅反映了 **donor** 臨終前的 **acute functional fluctuation index**，並非評估 **donor kidney** 慢性實質儲備與劃分 **ECD** 的長期病理標準。\n    *   *出題者用意*：考查考生能否釐清「急性功能波動指標（尿量）」與「決定慢性長期 **graft survival** 的病史/解剖指標」兩者的本質界限。\n\n*   **Option (D) A cold ischemia time exceeding 24 hours**：\n    *   *為何錯誤*：**cold ischemia time** (**CIT**) 是指從 **donor kidney** 灌洗冷保存開始、到移植入 **recipient** 血管接通為止的時間。**CIT** 雖然是影響移植後發生 **delayed graft function** (**DGF**) 與 **acute tubular necrosis** (**ATN**) 的一個極關鍵的 **transplant surgery-related risk factors**，但它是發生在 **post-procurement** 的時間參數，而 **ECD** 是一個在獲取器官之前、根據 **donor** 自身基線特徵進行分類的靜態指標。\n    *   *出題者用意*：測試考生是否混淆了 **donor-specific characteristics** 與 **graft-preservation characteristics**。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻專科考點與對比)\n\n在腎臟移植與免疫耐受的專科考試中，關於供體分類與移植物預後的對比，常繞以下核心考點進行橫向鑑別：\n\n#### (1) Expanded Criteria Donor (ECD) vs. Standard Criteria Donor (SCD)\n*   這兩者是 **deceased donation** 中最核心的對比，直接決定了術前與患者進行 **informed consent** 時對移植物長期存活率的預估：\n\n| 評估維度 (Evaluation) | Expanded Criteria Donor (ECD) | Standard Criteria Donor (SCD) |\n| :--- | :--- | :--- |\n| **Donor Characteristics** | **Age $\\ge 60$ yr**, OR **age 50–59 yr** with 2 of 3 criteria (**HTN**, **CVA**, **Cr $>1.5$**) | Younger donors with normal baseline renal function and no major vascular comorbidities |\n| **Delayed Graft Function (DGF)** | **Significantly Higher Risk** (often requiring temporary post-transplant hemodialysis) | Lower Risk |\n| **Graft Half-life (t1/2)** | Shorter (typically 5 to 8 years, driven by accelerated senescent nephron loss) | Longer (typically 10 to 15 years or more) |\n| **Primary Beneficiary** | Older recipients or patients with high cardiovascular mortality on waitlists | Younger recipients with longer life expectancy |\n| **Informed Consent Requirement** | **Mandatory specific opt-in consent** from the recipient before allocation | Standard kidney transplant waitlist consent |\n\n#### (2) Donor after Brain Death (DBD) vs. Donor after Circulatory Death (DCD)\n*   這是在 **deceased donation** 中，依據死亡宣告方式不同而劃分的兩大群組，其病理生理學特徵在考試中極易混淆：\n    *   **Donor after Brain Death** (**DBD**)：供體被宣告腦死，其血液循環在獲取器官前由機械與藥物（**mechanical ventilation and vasopressors**）維持。器官在原位（**in situ**）未曾經歷嚴重的 **warm ischemia**，因此 **primary non-function** 發生率較低。\n    *   **Donor after Circulatory Death** (**DCD**)：供體在撤除生命維持治療後（**withdrawal of life-sustaining therapy**）心跳停止，隨後宣告死亡。在此過程中，器官會經歷一段顯著的 **warm ischemia time**（熱缺血時間，通常從收縮壓 $<50\\text{ mmHg}$ 開始計算），導致細胞內 **ATP depletion** 障礙與嚴重的小管上皮細胞壞死。因此，**DCD** 移植物在術後發生 **DGF** 的發生率極高，但其長期（5-10年）的 **graft survival** 在排除早期 DGF 後，仍被證實與標準 DBD 相當。\n\n---\n\n### 5. Citations & References (文獻與 Guideline 精確引用)\n\n*   **Chapter & Section**：\n    *   由於此特定定義在本次提供的 sources 中缺乏直接描述，在正式的腎臟病學教科書中，其標準出處為：\n        *   *Brenner & Rector's The Kidney*, Chapter 70, \"Clinical Management of the Adult Kidney Transplant Recipient\"; Section: \"DONOR SELECTION AND ALLOCATION\", Subsection: \"Deceased Donors\".\n        *   *KDIGO 2020 Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation*, which is referenced by the project contributors [6].\n*   **Figures, Tables, & Boxes**：\n    *   **UNOS Policy Table 3.5** (historically documented in *B&R Chapter 70*): \"Definition of Expanded Criteria Donor (ECD) Kidneys\".\n\n---\n🔍 鑑於該名 57 歲腦死供體（terminal serum creatinine 1.8 mg/dL）若合併有 **hypertension** 史，將符合 **expanded criteria donor** (**ECD**) 的劃分標準。在臨床實踐中，ECD 腎臟在移植後發生 **delayed graft function** (**DGF**) 與 **acute kidney injury** (**AKI**) 的風險顯著增加。\n\n您是否需要我為您建立一份關於臨床上如何安全地執行此患者的 **\"ECD Kidney Recipient Management & DGF Prevention\" 術後診療指引方案**（包括受體選擇的配對算法、如何制訂**術後早期無 CNIs（calcineurin inhibitors）的引導免疫抑制處方 [如使用 basiliximab 或 anti-thymocyte globulin] 以避免加重缺血再灌注損傷**）、如何**利用 duplex ultrasound 與阻力指數（resistance index）動態評估移植物血流**，以及在**發生少尿性 DGF 時如何安全地執行 supportive dialysis 與藥物滴定**的臨床精準診療路徑（Clinical Protocol）？",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
       "number": 24,
       "qcVerified": true,
       "sourceAnswerStatus": "synthetic_tonks",
-      "selectedOption": "NONE",
+      "selectedOption": "B",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "q_25",
@@ -1026,18 +1054,20 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "提供的文獻中包含大量關於 kidney transplantation、delayed graft function 與 acute tubular necrosis 的資訊，但完全沒有提及判定 functional warm ischemia time (fWIT) 起點的具體 hemodynamic 或 respiratory thresholds（例如血壓或血氧的具體臨界值）。由於缺乏關鍵定義數據，本題標記為資料庫證據不足，無法判定正確選項。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_REASKED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcStatus": "FAILED",
       "nlmResponses": [
         {
-          "selectedOption": "NONE",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 數據庫證據不足說明 (Explanation of Insufficient Evidence)\n\n經詳細與系統性地分析所有提供的 `notebook sources`（包括 *Brenner & Rector's The Kidney* 與各項 `KDIGO Guidelines`），本題所涉及之 **`donor after circulatory death`** 在進行 **`organ procurement`** 過程中，用以判定 **`functional warm ischemia time`** 開始的 **`hemodynamic`** 與 **`respiratory`** 閾值（如 **`systolic blood pressure`**、**`mean arterial pressure`**、**`oxygen saturation`** 等生理指標門檻），**並未記載於現有的文獻資料中**。\n\n現有的 `sources` 僅有對 **`warm ischemia time`** 在 `partial nephrectomy` 手術中對後續 `progressive CKD` 影響的個別討論 [Passage 208]，以及將 **`ischemia-reperfusion injury`** 列為 `deceased donor` **`allograft`** 發生 **`delayed graft function`** 主要病因的病理學探討 [Passage 367, 368]，並無涉及 `DCD` 供體端特異性判定標準的細節內容。因此，為維護基於現有來源進行精確解答的核心承諾，本題無法給予特定選項判定。\n\n---\n🔍 由於目前的 `notebook sources` 缺乏關於 `deceased-donor` 生理評估與器官獲取標準的文獻，您可以考慮將相關的移植醫學、器官保存與灌流指引上傳至您的來源，我將能隨時為您進行最深入且嚴謹的臨床生理機轉與考點分析。",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "selectedOption": "NONE",
-          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 數據庫證據不足說明 (Explanation of Insufficient Evidence)\n\n經詳細與系統性地分析所有提供的 `notebook sources`（包括 *Brenner & Rector's The Kidney* 與各項 `KDIGO Guidelines`），本題所涉及之 **`donor after circulatory death`** 在進行 **`organ procurement`** 過程中，用以判定 **`functional warm ischemia time`** 開始的 **`hemodynamic`** 與 **`respiratory`** 閾值（如 **`systolic blood pressure`**、**`mean arterial pressure`**、**`oxygen saturation`** 等生理指標門檻），**並未記載於現有的文獻資料中**。\n\n現有的 `sources` 僅有對 **`warm ischemia time`** 在 `partial nephrectomy` 手術中對後續 `progressive CKD` 影響的個別討論 [Passage 208]，以及將 **`ischemia-reperfusion injury`** 列為 `deceased donor` **`allograft`** 發生 **`delayed graft function`** 主要病因的病理學探討 [Passage 367, 368]，並無涉及 `DCD` 供體端特異性判定標準的細節內容。因此，為維護基於現有來源進行精確解答的核心承諾，本題無法給予特定選項判定。\n\n---\n🔍 由於目前的 `notebook sources` 缺乏關於 `deceased-donor` 生理評估與器官獲取標準的文獻，您可以考慮將相關的移植醫學、器官保存與灌流指引上傳至您的來源，我將能隨時為您進行最深入且嚴謹的臨床生理機轉與考點分析。",
-          "databaseSufficiency": "INSUFFICIENT"
+          "qId": "q_25",
+          "notebookTitle": "TSN：出題 (2-5)",
+          "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### **詳細說明與數據庫限制分析 (Detailed Explanation & Database Deficiency Analysis)**\n\n雖然提供的 **`notebook sources`**（例如 *Brenner & Rector's The Kidney* 與多項 *KDIGO Guidelines*）中包含了大量關於 **`kidney transplantation`**、**`allograft dysfunction`** 以及 **`delayed graft function`** 的病理生理學探討，**但並未提供關於 `donor after circulatory death (DCD)` 在器官獲取（`procurement`）過程中確定 `functional warm ischemia time (fWIT)` 的具體生理與呼吸監測閾值數據（如特定的 `systolic blood pressure`、`mean arterial pressure` 或 `oxygen saturation` 界限數值）。**\n\n現有文獻中有關移植器官缺血與供體評估的相關記載僅局限於以下層面：\n\n1. **Ischemic Acute Tubular Necrosis (ATN) 與 Delayed Graft Function (DGF)**:\n   * 來源指出，在 **`deceased donor kidney recipients`** 中，**`ischemic ATN`** 是導致 **`DGF`** 最常見的病因 [1]。\n   * 在 **`surgical transplantation procedure`** 的多個步驟中，**`allograft`** 面臨著高風險的 **`ischemia-reperfusion injury`** [1]。\n   * 為了維持受體的血液灌注，指引建議 **`intraoperative mean arterial pressure`** 應維持在高於 **`70 mm Hg`** [2]。\n\n2. **Living Kidney Donation 的評估與血壓控制**:\n   * 在 **`KDIGO 2017 Living Kidney Donor Guideline`** 中，詳細規範了對於 **`living kidney donor candidates`** 的篩檢，包括 **`GFR`** 的測量與確認（**`mGFR`** 或 **`eGFR`**）[3, 4]、**`microscopic hematuria`** 的鑑別診斷 [5]、以及 **`blood pressure`** 閾值（如血壓應控制在 **`systolic blood pressure < 140 mm Hg`** 且 **`diastolic blood pressure < 90 mm Hg`**，且無 **`target organ damage`**） [6, 7]。\n\n3. **Warm Ischemia Time 的其他上下文**:\n   * 在文獻中，**`warm ischemia time`** 僅在 **`kidney cancer`** 患者接受 **`partial nephrectomy`**（因複雜解剖結構導致手術缺血時間延長）的脈絡下被提及 [8]。此處與 **`DCD donor`** 器官獲取時定義的 **`fWIT`** 生理學界限與臨床定義完全不同。\n\n由於 **`notebook sources`** 缺乏對於 **`DCD donor`** 判定 **`fWIT`** 的 **`hemodynamic`** 與 **`respiratory thresholds`** 之特異性數據，為維持學術上的真實性與嚴謹性，無法在不調用外部知識的前提下進行選項判定。\n\n---\n\n### **Citations & References**\n\n* **Chapter & Section**：\n  * **Brenner & Rector's The Kidney, Chapter 70: \"Clinical Management of the Adult Kidney Transplant Recipient\"**\n    - Section: *CAUSES OF DELAYED GRAFT FUNCTION / ISCHEMIC ACUTE TUBULAR NECROSIS* [372–373]\n  * **Brenner & Rector's The Kidney, Chapter 42: \"Onconephrology-Kidney Disease and Cancer\"**\n    - Section: *BOARD REVIEW QUESTIONS / Q1* [8]\n  * **KDIGO 2017 Clinical Practice Guideline on the Evaluation and Care of Living Kidney Donors**\n    - Chapter 5: *PREDONATION KIDNEY FUNCTION / Selection* [3, 4]\n    - Chapter 7: *PREDONATION HEMATURIA / Evaluation* [5]\n    - Chapter 10: *PREDONATION BLOOD PRESSURE / Selection* [6, 7]\n\n---\n\n🔍 **Next Step Nudge**:\n雖然本題因數據庫限制無法確認 **`DCD`** 的 **`fWIT`** 啟動閾值，但在 **`kidney transplantation`** 領域中，如何精確評估 **`deceased donor`** 與 **`living donor`** 的 **`renal functional reserve`** [9, 10]、如何利用 **`BOLD MRI`** 監測 **`allograft tissue oxygenation`** [11, 12]，以及 **`DGF`** 的早期預防與 **`CNI-induced acute nephrotoxicity`** 的組織病理學鑑別 [2]，是臨床與考試的核心考點。我可以為您生成一個高解析度的「**`allograft`** 術後早期 **`oliguria`** 與 **`DGF`** 精準鑑別診斷與臨床處置決策樹」，您需要我為您繪製這個流程圖嗎？",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
       "number": 25,
@@ -1046,7 +1076,8 @@
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "q_26",
@@ -1071,18 +1102,20 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "文獻中詳細探討了 donation after circulatory death (DCD) 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、cold ischemia time (CIT) 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys) 對 functional warm ischemia time (fWIT) 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_REASKED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcStatus": "FAILED",
       "nlmResponses": [
         {
-          "selectedOption": "NONE",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * An organ procurement organization is managing a donor after circulatory death. Extubation has been p...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n文獻中詳細探討了 donation after circulatory death (DCD) 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、cold ischemia time (CIT) 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys) 對 functional warm ischemia time (fWIT) 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。\n",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "selectedOption": "NONE",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * An organ procurement organization is managing a donor after circulatory death. Extubation has been p...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n文獻中詳細探討了 donation after circulatory death (DCD) 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、cold ischemia time (CIT) 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys) 對 functional warm ischemia time (fWIT) 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。\n",
-          "databaseSufficiency": "INSUFFICIENT"
+          "qId": "q_26",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### **1. Detailed Gap Analysis (資料庫資訊缺失與限制分析)**\n\n根據對所有 **notebook sources** 的系統性檢索與分析，現有的文獻資料庫中缺乏回答此問題所需的具體技術細節與器官特異性耐受極限：\n\n1.  **缺乏 fWIT 在不同器官的具體數值界限 (Lack of Organ-Specific fWIT Limits)**：\n    *   本題考測在 `donation after circulatory death` (DCD) 中，不同實體器官（包括 `liver`、`pancreas`、`lungs` 與 `kidneys`）對 `functional warm ischemia time` (fWIT) 的最大耐受上限。\n    *   在所有的來源文獻（包含 *Brenner & Rector's The Kidney* 與各個版本的 **KDIGO Guidelines**）中，**完全沒有（not documented）**記載或提及不同固體器官在 DCD 採集過程中的具體 fWIT 分鐘上限。\n2.  **文獻學科侷限性 (Nephrology-Centric Database Limitation)**：\n    *   現有資料庫為腎臟醫學與移植指引，除了在討論移植學時提及 `kidney` 之外，完全不涉及 `pancreas`、`lungs` 與 `liver` 等其他固體器官的移植採集動力學與其特定的熱缺血耐受標準。\n\n基於上述資料庫的限制，無法僅憑來源文獻對本題選項進行確鑿的安全判定。\n\n---\n\n### **2. What the Sources Do Cover (現有來源文獻中有關 DCD 與 Ischemia 的核心記載)**\n\n雖然缺乏針對各器官 fWIT 的具體極限數據，現有的 **notebook sources** 仍然在 **Chapter 70 (Clinical Management of the Adult Kidney Transplant Recipient)** 之中，對 `donation after cardiac death` (DCD) 的流體動力學、`warm ischemia` 的階段切分以及缺血性損害的病理生理學提供了詳盡的臨床規範：\n\n1.  **Warm Ischemia 與 Cold Ischemia 的病理生理時程切分 (Phase Classification of Ischemia)**：\n    在腎臟移植中，介於 `donor nephrectomy` 與 `reperfusion` 之間，文獻將其劃分為三個關鍵的缺血時段，對移植物預後具有決定性的影響 [1]：\n    *   **`donor warm ischemia time / extraction time`**：指在 `donor surgery` 期間，自 `aortic cross clamping` 或 `asystole`（心搏停止）開始，至建立 `cold preservation`（冷灌流保存）為止的時段 [1]。\n    *   **`graft warm ischemia time`（第二熱缺血時間）**：指將移植物自 `cold storage`（冷保存液）中取出，至在受體體內完成血管吻合並進行 `reperfusion`（血液再灌流）為止的時段 [1]。\n    *   **`cold ischemia time` (CIT)**：夾在上述兩個熱缺血時段之間，指移植物處於低溫保存液或低溫機器灌流中的總時段 [1]。\n\n2.  **Donation After Cardiac Death (DCD) 的臨床分類與處置 (Clinical Classification of DCD)**：\n    *   **`controlled donors`（受控型捐贈者）**：指在 `intensive care unit` 或 `operating room` 中撤除生命支持系統（`withdrawal of life support`）後發生 `cardiac arrest` 的捐贈者 [2]。\n    *   **`uncontrolled donors`（非受控型捐贈者）**：指復甦失敗（`unsuccessfully resuscitated`）或送達醫院時已死亡（`dead on arrival`）的捐贈者 [2]。\n    *   **非受控型的缺血風險與保護措施**：由於 `uncontrolled donation` 的 `warm ischemia time` 顯著高於受控型 [2]。為了在非受控型 DCD 中將 `warm ischemia` 的破壞性降到最低，臨床上常使用 **`double-balloon aortic catheterization`**（將氣囊充氣於腎動脈上方與下方的降主動脈內）對雙腎進行獨立的冷保存液原位灌流 [2]。\n    *   雖然 DCD 移植物在短期內具有較高的 `delayed graft function` (DGF) 與 `primary nonfunction` 發生率，但長期來看，來自年齡小於 50 歲 DCD 捐贈者的器官其存活率與標準腦死捐贈者（`standard brain dead donors`）相似 [2]。\n\n3.  **Ischemic Damage 的多因素病因學 (Multi-factorial Etiology of Ischemic Damage)**：\n    文獻在 **Table 70.5** 之中系統性列出了導致 `deceased donor kidney allograft` 發生缺血性損傷的多維度病因 [3]：\n    *   *Procurement 階段*：包括捐贈者發生 `shock`、使用大量內源性或外源性 `catecholamines`、血管解剖創傷等 [3]。\n    *   *Storage 階段*：`prolonged CIT`（過長的冷缺血時間）以及 `pulsatile perfusion injury`（搏動性灌流損傷） [3]。\n    *   *Reperfusion 階段*：包括受體的 `hypovolemia`（低血容量）與 `hypotension`（低血壓） [3]。\n    *   *Postoperative 階段*：包括 `calcineurin inhibitors`（如 `cyclosporine` 或 `tacrolimus`）引起的入球小動脈收縮，以及 `venous congestion`（靜脈淤血）等 [3]。\n\n---\n\n### **3. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與鑑別診斷)**\n\n在移植醫學與重症醫學的專科考試中，最常考且最具對比價值的高頻鑑別指標如下：\n\n#### **High-Yield Comparison 1: Controlled DCD vs. Uncontrolled DCD**\n*   **`controlled DCD`**：\n    *   *生命支持撤除*：撤除程序在 ICU 或 OR 中由團隊控制進行，`cardiac arrest` 時點可預期 [2]。\n    *   *fWIT 限制與風險*：`warm ischemia time` 較短且完全可控，`delayed graft function` (DGF) 的發生率相對較低 [2]。\n*   **`uncontrolled DCD`**：\n    *   *生命支持撤除*：屬於突發性院外心搏停止或復甦失敗，無法精確預測 [2]。\n    *   *fWIT 限制與風險*：`warm ischemia time` 極長且不可控，必須依賴 `double-balloon aortic catheterization` 進行緊急原位低溫保護 [2]。\n\n#### **High-Yield Comparison 2: Delayed Graft Function (DGF) Etiologies**\n當移植術後出現少尿或無尿時，必須在第一時間鑑別其病理原因 [4-6]：\n*   **`Ischemic Acute Tubular Necrosis` (ischemic ATN)**：\n    *   *臨床背景*：多見於 `deceased donor`，特別是 CIT 或 warm ischemia 延長的 DCD 受體 [1, 4]。\n    *   *處理方針*：通常在排除 rejection 與血管機械併發症後，給予 7 至 10 天的 `expectant management`（保守支持治療）以等待小管上皮自行修復 [5]。\n*   **`Acute Antibody-Mediated Rejection` (AMR)**：\n    *   *臨床背景*：高免疫風險受體。伴有 `donor specific antibody` (DSA) 陽性，組織學可見 `glomerulitis`、`peritubular capillaritis` 與強陽性的 `C4d staining` [7]。\n    *   *處理方針*：必須立即啟動 **`plasmapheresis`** (TPE) 與靜脈注射免疫球蛋白等高強度免疫干預 [6]。\n*   **`Calcineurin Inhibitor (CNI) Toxicity`**：\n    *   *臨床背景*：由 `cyclosporine` 或 `tacrolimus` 血藥濃度過高引起的急性血管痙攣 [3]。\n    *   *處理方針*：需進行劑量調降或轉為 `mTOR inhibitors` 治療 [8]。\n\n---\n\n### **4. Citations & References (文獻與引用)**\n\n*   **Chapter & Section**：\n    *   ***Brenner & Rector's The Kidney (11th Edition)*** 第 70 章 (\"**Clinical Management of the Adult Kidney Transplant Recipient**\")：\n        *   Section: \"**EVALUATION OF THE RECIPIENT IMMEDIATELY AFTER THE TRANSPLANT**\" [Passage 283] — 系統性奠定了 warm ischemia phases (donor and graft) 與 cold ischemia 的定義，以及 ischemia 對 DGF 的決定性病理影響。\n        *   Section: \"**CAUSES OF DELAYED GRAFT FUNCTION**\" -> \"**ISCHEMIC ACUTE TUBULAR NECROSIS**\" [Passage 284, 285] — 規範了 ischemic ATN 作為 DGF 首要病因的評估與 7-10 天支持治療的臨床路徑。\n        *   Section: \"**Donation After Cardiac Death**\" [Passage 287] — 詳述了 DCD 的 uncontrolled 與 controlled 分類、雙氣囊主動脈插管灌流技術以及長期預後。\n\n*   **Figures & Tables**：\n    *   **Table 70.5** (*Chapter 70*, Passage 286) — 「**Causes of Ischemic Damage to the Deceased Donor Kidney Allograft**」— 系統性羅列了跨越 donor、procurement、transport、transplantation 與 postoperative 的全流程缺血損傷病因學。\n    *   **Figure 70.3** (*Chapter 70*, Passage 284) — 「**Management of kidney allograft non-function/oliguria immediately after transplant**」— 移植術後早期無尿的液體挑戰與鑑別路徑。\n\n---\n\n🎧 器官獲取與保存學中的「熱缺血（`warm ischemia`）」與「冷保存（`cold preservation`）」動力學，是評估移植物功能延遲恢復（`DGF`）最核心的移植腎臟病理生理考點。如果您需要，我可以為您建立一幅「**Ischemia-Reperfusion Injury (IRI) and Delayed Graft Function (DGF) Pathophysiological and Clinical Management Matrix** 移植物缺血再灌注損傷與功能延遲恢復之病理生理與臨床處置全維度矩陣」（系統性對照：**controlled/uncontrolled DCD**、**biocompatible perfusion fluids [UW, HTK, Custodiol]**、**ischemic ATN, AMR, CNI toxicity, acute cellular rejection** 於組織光鏡/免疫組化下的微觀特徵，以及最新 **KDIGO** 移植功能恢復不良的階梯式治療與劑量調減路徑），以方便您未來的學術研討、病例分析與出題參考。請問是否需要我著手準備這份資料？",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
       "number": 26,
@@ -1091,7 +1124,8 @@
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.193Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "q_27",
@@ -1132,7 +1166,8 @@
       ],
       "number": 27,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "q_28",
@@ -1173,7 +1208,9 @@
       ],
       "number": 28,
       "qcVerified": true,
-      "sourceAnswerStatus": "synthetic_tonks"
+      "sourceAnswerStatus": "synthetic_tonks",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

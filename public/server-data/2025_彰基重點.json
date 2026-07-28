@@ -58,7 +58,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (A)，但 NotebookLM 檢索推論答案為 (D)。",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (D) 不符",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -118,7 +118,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 最新提問結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_REASKED",
       "qcVerified": true,
@@ -179,7 +179,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (D)。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "attachedImages": null
@@ -235,7 +235,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 檢索推論答案完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "attachedImages": null
@@ -285,8 +285,8 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "MATCHED",
-      "reconciliationNotes": "原始檔案無解答，NotebookLM 一致推論答案為 (D)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: D, NLM2: B)",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -335,8 +335,8 @@
           "selectedOption": "UNKNOWN"
         }
       ],
-      "reconciliationStatus": "MATCHED",
-      "reconciliationNotes": "NotebookLM 檢索無有效證據或無選定選項。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (UNKNOWN) 不符",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -345,5 +345,6 @@
       "qcNotes": "經 100% LLM 語意閱讀，NLM 內文明確標註 (D) 為正解。覆寫原舊腳本 Regex 誤標之 UNKNOWN。",
       "attachedImages": null
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

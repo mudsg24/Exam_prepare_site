@@ -58,7 +58,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -89,24 +89,22 @@
       "sourceExplanation": "根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。",
       "nlmResponses": [
         {
+          "qId": "2025_北醫臨床練習題_q2",
+          "notebookTitle": "TSN：出題 (5-1)",
+          "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 46-year-old male patient who was referred from the local clinic for recurrent flank pain. He had a...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "accountProfile": "mudskipper24",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 46-year-old male patient who was referred from the local clinic for recurrent flank pain. He had a...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "以原始解答 (C) 為準。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
       "qcVerified": true,
-      "qcStatus": "QC_REASKED",
+      "qcStatus": "FAILED",
       "qcVerifiedAt": "2026-07-28T23:50:00.000Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "Subagent pure semantic analysis completed without regex",
@@ -165,7 +163,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -214,7 +212,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (C) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:32:15.619Z",
@@ -273,7 +271,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -327,7 +325,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -381,7 +379,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (B)。",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:32:15.626Z",
@@ -446,8 +444,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "CONSENSUS_MATCH",
-      "reconciliationNotes": "有爭議：原始答案給予 (D)，但 NotebookLM 兩組皆推論為 (A)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (A) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.564Z",
@@ -506,7 +504,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -560,7 +558,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -614,7 +612,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 兩組皆推論為 (C)。",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (C) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.570Z",
@@ -673,7 +671,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -726,8 +724,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (B, D vs B)，原始答案為 (B)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: B, D, NLM2: B)",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.576Z",
@@ -786,7 +784,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C, D vs C)，原始答案為 (D)。",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.582Z",
@@ -845,7 +843,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -899,7 +897,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -953,7 +951,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1007,7 +1005,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (A)。",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:18.587Z",
@@ -1065,8 +1063,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "INVALID_FRAGMENT",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (D vs B)，原始答案為 (C)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: D, NLM2: B)",
       "qcVerified": true,
       "qcStatus": "QC_INVALID_QUESTION",
       "qcVerifiedAt": "2026-07-24T18:31:21.786Z",
@@ -1126,7 +1124,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1179,8 +1177,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "INVALID_FRAGMENT",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (B)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
       "qcVerified": true,
       "qcStatus": "QC_INVALID_QUESTION",
       "qcVerifiedAt": "2026-07-24T18:31:21.796Z",
@@ -1234,8 +1232,8 @@
           "selectedOption": "UNKNOWN"
         }
       ],
-      "reconciliationStatus": "INVALID_FRAGMENT",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (B)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: C, NLM2: UNKNOWN)",
       "qcVerified": true,
       "qcStatus": "QC_INVALID_QUESTION",
       "qcVerifiedAt": "2026-07-24T18:31:21.802Z",
@@ -1295,7 +1293,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1349,7 +1347,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (A)，但 NotebookLM 兩組皆推論為 (C)。",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (C) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.808Z",
@@ -1407,8 +1405,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "RESOLVED",
-      "reconciliationNotes": "有爭議：原始答案給予 (A)，但 NotebookLM 兩組皆推論為 (C)。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (C) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.814Z",
@@ -1467,7 +1465,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1521,7 +1519,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1575,7 +1573,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1629,7 +1627,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1683,7 +1681,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1731,8 +1729,8 @@
           "selectedOption": "UNKNOWN"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs NONE)，原始答案為 (C)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: C, NLM2: UNKNOWN)",
       "qcVerified": false,
       "qcStatus": "UNVERIFIED",
       "qcVerifiedAt": null,
@@ -1768,24 +1766,22 @@
       "sourceExplanation": "現有來源主要涵蓋 AAMI、ANSI、ISO 等國際指引，雖然規範了細菌數與內毒素的上限，但完全缺乏台灣腎臟醫學會的特定透析用水品質標準規範，亦未提及在 tryptone glucose extract agar (TGEA) 或 Reasoners 2A (R2A) 培養基的特定培養條件與菌落數限制，故無法判定正確選項。",
       "nlmResponses": [
         {
+          "qId": "2025_北醫臨床練習題_q32",
+          "notebookTitle": "TSN：出題 (5-2)",
+          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * The Association for the Advancement of Medical Instrumentation (AAMI) external icon in conjunction w...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n現有來源主要涵蓋 AAMI、ANSI、ISO 等國際指引，雖然規範了細菌數與內毒素的上限，但完全缺乏台灣腎臟醫學會的特定透析用水品質標準規範，亦未提及在 tryptone glucose extract agar (TGEA) 或 Reasoners 2A (R2A) 培養基的特定培養條件與菌落數限制，故無法判定正確選項。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "accountProfile": "mudskipper24",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * The Association for the Advancement of Medical Instrumentation (AAMI) external icon in conjunction w...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n現有來源主要涵蓋 AAMI、ANSI、ISO 等國際指引，雖然規範了細菌數與內毒素的上限，但完全缺乏台灣腎臟醫學會的特定透析用水品質標準規範，亦未提及在 tryptone glucose extract agar (TGEA) 或 Reasoners 2A (R2A) 培養基的特定培養條件與菌落數限制，故無法判定正確選項。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細診斷分析\n\n雖然 `notebook sources` 提供了關於 **`hemodialysis`** 水質控制、以及 **`AAMI`**、**`ANSI`**、**`ISO`** 與 **`ERA-EDTA`** 中 **`microbiology`** 與 **`endotoxin`** 國際標準的詳細說明 [1-3]，但並未包含任何關於 **`Taiwan Society of Nephrology`** 針對 **`hemodialysis`** 安全水質指引的具體規範。\n\n特別是以下細節在現有的來源文獻中完全未被提及：\n* 關於在 **`tryptone glucose extract agar`** 或 **`Reasoners 2A`** 培養基中於特定溫度下培養 **`168 hours`**、且菌落數不得超過 **`300 CFU/mL`** 的特定培養與限量標準。\n* **`Taiwan Society of Nephrology`** 針對 **`endotoxin`**（由 **`Limulus amebocyte lysate assay`** 測定）至少每年檢測一次且需低於特定含量的特定建議。\n* 針對 **`chemical contaminants`** 與 **`chlorine`** 監測（例如濃度需低於特定門檻）的特定指引。\n\n現有的來源文獻中，僅記載了以下國際對比數據 [2, 4]：\n* **`ANSI/AAMI/ISO`** 規範 **`water for dialysis`** 的 **`bacteria`** 需 $< 100\\text{ CFU/mL}$（`action level` 設為 $50\\text{ CFU/mL}$），而其 **`endotoxin`** 限量為 $< 0.5\\text{ EU/mL}$ [2, 4]。\n* **`ERA-EDTA`** 規範則將 **`endotoxin`** 限量定為 $< 0.25\\text{ EU/mL}$ [2, 4]。\n* **`Ultrapure dialysate`** 的標準在各組織中通常定義為 **`bacteria < 0.1 CFU/mL`** 且 **`endotoxin < 0.03 EU/mL`** [1, 4]。\n\n因此，本 **`database`** 缺乏足夠的直接證據來判定哪一個選項在 **`Taiwan Society of Nephrology`** 的特定指引中是不正確的。\n\n---\n\n🔍 若您有相關的學會指引文件，可以將其上傳至此專案中，我將能為您進行極為精確的對比與解析。",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (A) 與 2 組 NotebookLM 最新提問結果完全一致。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "FAILED",
       "qcVerifiedAt": "2026-07-28T23:50:00.000Z",
       "qcVerifiedBy": null,
       "qcNotes": "Subagent pure semantic analysis completed without regex",
@@ -1844,7 +1840,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1898,7 +1894,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -1943,8 +1939,8 @@
           "databaseSufficiency": "INSUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "以原始解答 (D) 為準。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-28T23:50:00.000Z",
@@ -1982,24 +1978,22 @@
       "sourceExplanation": "根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。",
       "nlmResponses": [
         {
+          "qId": "2025_北醫臨床練習題_q36",
+          "notebookTitle": "TSN：出題 (5-3)",
+          "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
           "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 58-year-old woman was sent to emergent department due to cough, fever and loss of smell since 3 da...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
-        },
-        {
-          "accountProfile": "mudskipper24",
-          "notebookTitle": "TSN：出題",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * A 58-year-old woman was sent to emergent department due to cough, fever and loss of smell since 3 da...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n### 臨床解析與專家解說 (Expert Clinical Commentary)\n\n根據現有知識庫，無法找到關於此題的足夠證據，請重新詢問或以人工補齊。\n",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT"
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n***\n\n### **詳細說明 (Detailed Explanation)**\n\n根據 **`notebook sources`**（包含《*Brenner & Rector's The Kidney*》與各項 *KDIGO Guidelines*），現有文獻並未提供足夠的分子生物學與細胞病理學細節，以評估 **`SARS-CoV-2`** 的受體 **`ACE2`** 在腎臟各個微細解剖構造中的具體表達量與病理對應關係。\n\n#### **1. 數據庫中現有的相關記載 (What the Sources Actually Cover)**\n在所有提供的 100 篇文獻中，僅有以下兩處提及與 **`COVID-19`** / **`SARS-CoV-2`** 相關的內容：\n*   **`KDIGO 2026-AKI-Draft` - Chapter 2.5 (Passage 362)**：\n    指出在 **`COVID-19`** 的臨床情境中，腎臟活檢（**`kidney biopsies`**）揭示了廣泛的病理光譜，包括 **`collapsing glomerulopathy`**、**`ATN (acute tubular necrosis)`** 以及 **`minimal change disease`**，且這些病變在臨床上往往並不明顯。這突顯了在診斷不確定時進行 **`kidney biopsy`** 的臨床價值。\n*   **`KDIGO 2026-AKI-Draft` - References (Passage 393 & 394)**：\n    列出了兩篇早期關於 **`COVID-19`** 腎臟切片病理發現的文獻標題，包括 *Kudose S, et al. Kidney Biopsy Findings in Patients with COVID-19* 以及 *Rossi GM, et al. ... A Case Against \"SARS-CoV-2 Nephropathy\"*。\n\n#### **2. 數據庫中缺乏的關鍵資訊 (What is Missing in the Sources)**\n然而，文獻中**完全沒有**涵蓋以下與題目選項直接相關的核心生理與分子病理資訊：\n*   **`ACE2` 在腎單位中的細胞特異性分布**：文獻未記載 **`ACE2`** 是否在 **`glomerular podocyte`**、**`mesangial cells`** 或 **`proximal tubular cells`** 的 **`brush border`** 高度表達，亦未提及這些受體表達與臨床上出現的 **`proteinuria`** 或 **`hematuria`** 之間的因果機制。\n*   **腎臟與肺臟的 `ACE2` 表達量對比**：文獻中缺乏關於 **`ACE2`** 在 **`kidney`** 中的表達強度是否高於 **`lung`** 數倍的定量比較數據。\n\n因此，本題符合 **`Database Limitation Guard`** 觸發條件。為了確保所有解答判定與學術聲稱均有據可查，本助理不使用外部知識進行臆測，特此輸出不確定聲明。\n\n---\n\n💡 **下一步建議：**\n雖然文獻未涵蓋 **`SARS-CoV-2 / ACE2`** 的微觀轉運分布，但 **`Chapter 23`** 與 **`KDIGO 2026 AKI Draft`** 針對 **`proteinuria`** 與 **`hematuria`** 的臨床鑑別診斷（例如利用 **`urine sediment examination`** 區分 **`glomerular hematuria`** [**`dysmorphic RBCs`** / **`RBC casts`**] 與 **`non-glomerular hematuria`**，參見 **`Passage 180`** 與 **`Passage 353`**）有著極為詳盡的論述。您是否需要我為您梳理這些在腎臟專科醫師考試中極高頻出現的「尿液沉渣微觀特徵與病理綜合徵對比」，以協助您設計最具實戰鑑別度的核心情境題？",
+          "extractedChoice": "NONE",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
+          "selectedOption": "NONE"
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始解答 (B) 與 NotebookLM 最新解析結果 (C) 存在歧異。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
       "qcVerified": true,
-      "qcStatus": "QC_REASKED",
+      "qcStatus": "FAILED",
       "qcVerifiedAt": "2026-07-28T23:50:00.000Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
       "qcNotes": "Subagent pure semantic analysis completed without regex",
@@ -2058,7 +2052,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2112,7 +2106,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2166,7 +2160,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2220,7 +2214,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2274,7 +2268,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2328,7 +2322,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2382,7 +2376,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2436,7 +2430,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2490,7 +2484,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 兩組皆推論為 (B)。",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:30:44.408Z",
@@ -2549,7 +2543,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始解答 (C) 與 NotebookLM 最新解析結果 (A, A) 存在歧異。",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A) 不符",
       "qcVerified": false,
       "qcStatus": "QC_UNVERIFIED",
       "qcVerifiedAt": "2026-07-24T18:30:44.414Z",
@@ -2608,7 +2602,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2662,7 +2656,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2716,7 +2710,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -2769,8 +2763,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "INVALID_FRAGMENT",
-      "reconciliationNotes": "有爭議：兩組 NotebookLM 檢索結果不一致 (C vs A)，原始答案為 (D)。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: MN, NLM2: MPGN)",
       "qcVerified": true,
       "qcStatus": "QC_INVALID_QUESTION",
       "qcVerifiedAt": "2026-07-24T18:30:44.420Z",
@@ -2779,5 +2773,6 @@
       "isInvalid": true,
       "attachedImages": null
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

@@ -33,7 +33,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "根據最新 KDIGO Clinical Practice Guidelines 的更新，proteinuria 被證實為 IgA nephropathy (IgAN) 疾病進展與 long-term kidney failure risk 最強烈的 surrogate endpoint。持續降至 < 0.5 g/day (或 UPCR < 0.5 g/g) 能顯著減緩 eGFR decline rate 並維持長遠的 kidney survival。當患者經過至少 3–6 個月充分的支持性治療後每日尿蛋白仍 ≥ 0.75–1.0 g/day，應評估使用標靶型疾病修飾藥物 (如 targeted-release budesonide, sparsentan) 或參加臨床試驗以將蛋白尿降至 <0.5 g/day 目標。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -48,7 +48,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q2",
@@ -91,7 +92,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q3",
@@ -134,7 +136,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q4",
@@ -177,7 +180,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q5",
@@ -220,7 +224,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q6",
@@ -263,7 +268,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q7",
@@ -306,7 +312,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q8",
@@ -349,7 +356,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q9",
@@ -392,7 +400,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q10",
@@ -435,7 +444,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q11",
@@ -478,7 +488,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q12",
@@ -521,7 +532,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q13",
@@ -564,7 +576,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q14",
@@ -607,7 +620,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q15",
@@ -650,7 +664,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q16",
@@ -693,7 +708,9 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "resolvedImages": []
+      "resolvedImages": [],
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

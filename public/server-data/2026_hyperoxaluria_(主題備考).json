@@ -3,7 +3,7 @@
   "title": "2026 腎臟專科高草酸尿症與草酸腎病主題式練習題庫",
   "sourceCategory": "2026 年主題練習",
   "year": 2026,
-  "updatedAt": "2026-07-28T16:00:00.000Z",
+  "updatedAt": "2026-07-29T00:29:30.000Z",
   "questions": [
     {
       "id": "2026_hyperoxaluria_001",
@@ -67,7 +67,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 1,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_002",
@@ -131,7 +132,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 2,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_003",
@@ -195,7 +197,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 3,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_004",
@@ -259,7 +262,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 4,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_005",
@@ -323,7 +327,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 5,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_006",
@@ -387,7 +392,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 6,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_007",
@@ -454,7 +460,8 @@
       "qcStatus": "QC_REASKED",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.018Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_008",
@@ -491,37 +498,26 @@
       "nlmResponses": [
         {
           "qId": "2026_hyperoxaluria_008",
-          "notebookTitle": "TSN：出題 (4-4)",
-          "notebookId": "78712976-1a6e-4442-9b22-859cfb66fa55",
-          "accountProfile": "mudkaku",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * Lumasiran is an FDA-approved RNA interference (siRNA) therapeutic for Primary Hyperoxaluria Type 1 (...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n",
-          "extractedChoice": "NONE",
-          "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED",
-          "qcReason": "REFUSAL",
-          "selectedOption": "NONE"
-        },
-        {
-          "qId": "2026_hyperoxaluria_008",
-          "notebookTitle": "TSN：出題 (2-2)",
-          "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
+          "notebookTitle": "TSN：出題 (2-5)",
+          "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
           "accountProfile": "sandbox0505",
-          "rawResponse": "【知識庫檢索與證據評估報告 (Database Evidence Analysis)】\n\n依據本機權威醫學知識庫（包含 **Brenner & Rector's The Kidney (11th Edition)** 與 **KDIGO Guidelines**）進行對比評估：\n\n1. **題目關注主題 (Target Topic)**:\n   * Lumasiran is an FDA-approved RNA interference (siRNA) therapeutic for Primary Hyperoxaluria Type 1 (...\n\n2. **知識庫限制與細節說明 (Database Limitations)**:\n   * 本機知識庫主要涵蓋廣泛之腎臟學基石理論與國際指引，但未直接收錄特定本土學會 (TSN) 之專規條文、本土臨床特別細節或本題特定數值規範。\n   * 為維持學術嚴謹性與 Zero-Hallucination 原則，宣告資料庫證據不足 (**INSUFFICIENT_DATABASE_EVIDENCE**)。\n\n",
+          "rawResponse": "### 1. Answer Determination\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 2. Detailed Rationale & Database Deficiency Analysis\n\n在提供的 **`notebook sources`**（包括 *Brenner & Rector's The Kidney* 的多個相關章節、*KDIGO Guidelines* 的移植與慢性腎臟病管理章節等）中，雖然詳盡探討了 **`Primary Hyperoxaluria Type 1 (PH1)`** 的遺傳學背景、生化病理學缺陷、臨床特徵、傳統藥物與手術（肝腎聯合移植）防護指引，**但並未包含關於 `Lumasiran`（一種靶向 `HAO1` 的 `siRNA` 標靶藥物）及其特異性分子機制（抑制 `Glycolate Oxidase (GO)`）的任何文字或圖表記載。**\n\n根據現有來源，關於 **`PH1`** 的生化與臨床病理生理機制梳理如下：\n1.  **PH1 的分子酶學缺陷本質**：\n    *   **`PH1`** 是一種嚴重的體染色體隱性遺傳疾病（**`autosomal recessive disorder`**），源於肝臟過氧化物酶體（**`hepatic peroxisomal`**）內高度依賴 **`pyridoxal 5'-phosphate`**（**`Vitamin B6`** 的活性型）作為輔因子的限速酶——**`alanine-glyoxylate aminotransferase (AGT)`**（由 **`AGXT`** 基因編碼）發生缺陷或線粒體標靶錯誤（**`mitochondrial mistargeting`**，如最常見的 **`p.Gly170Arg`** 突變）``。\n    *   當 AGT 活性喪失時，過量的 **`glyoxylate`** 在細胞質中蓄積，並被 **`lactate dehydrogenase (LDH)`** 氧化為大量的 **`oxalate`**（草酸）``。\n\n2.  **傳統與指引中提及的臨床管理手段**：\n    *   由於人類缺乏降解 **`oxalate`** 的內源性酶，超量生成的草酸只能通過腎臟排泄，導致嚴重的 **`hyperoxaluria`**、雙側 **`nephrocalcinosis`** 與反復發作的 **`calcium oxalate urolithiasis`**，最終進展至 **`ESKD`** ``。\n    *   在進展至 **`ESKD`** 階段後，患者會出現嚴重的全身性 **`systemic oxalosis`**（草酸結晶廣泛沉積於骨骼、血管與心臟等組織）``。\n    *   來源指出，此時僅實施孤立腎移植（**`isolated kidney transplantation`**）是無效且不被推薦的，因為肝臟端的酶缺陷未被糾正，移植腎在術後早期一旦功能建立，會瞬间發生爆發性的草酸沉積（超 90% 復發率）而導致早期移植物失活（**`graft loss`**）``。因此，標準根治手段為 **`combined liver-kidney transplantation`**（利用供體肝臟替代病變的 AGT 酶）``。\n    *   保守藥物治療僅提及高劑量 **`pyridoxine`**（對 **`p.Gly170Arg`** 突變高度敏感，可提升突變酶的折疊穩定性與活性）``、大量補水（維持 **`urine output > 3.0-3.5 L/day`**）以及使用 **`potassium citrate`** 鹼化尿液以抑制結晶形成 ``。\n\n3.  **Lumasiran 在來源中的空白**：\n    *   在臨床醫學中，**`Lumasiran`** 是一種通過 **`RNA interference (siRNA)`** 技術，特異性降解肝臟 **`HAO1 mRNA`** 以抑制 **`Glycolate Oxidase (GO)`** 酶合成、進而阻斷 **`glyoxylate`**（草酸前驅物）生成的革命性新藥（對應選項 D）。\n    *   雖然 **`KDIGO 2024 CKD Guideline`** 的圖表（*Figure 9: Actionable genes in kidney disease*）中，已將 **`AGXT (primary hyperoxaluria)`** 標記為具有高度臨床可干預性（**`Actionable`**）的疾病基因之一 ``，但並未給出 **`Lumasiran`** 的特異性藥理學機制描述。\n\n為了嚴格遵守 **`Database Limitation Guard`**，避免憑空調用外部知識，在此將其判定為證據不足。\n\n---\n\n### 3. Distractor Option Analysis\n\n以下從腎臟生理學、腸道轉運機制與內分泌調控維度，對出題者設計的各個干擾項（**`distractors`**）進行病理生理學剖析：\n\n*   **(A) Inhibition of intestinal SLC26A6 anion exchange to block dietary oxalate absorption (INCORRECT)**：\n    *   *為何錯誤*：在消化道與腎臟生理學中，頂端膜陰離子交換體 **`SLC26A6`**（由 **`Slc26a6`** 基因編碼）的主要功能是介導**腸道內源性草酸的主動分泌（intestinal oxalate secretion）**，而非吸收 ``。\n    *   *典型臨床特徵*：來源明確指出，在 **`Slc26a6 null mice`** 模型中，由於腸道主動排泄草酸的機制癱瘓，反而會「釋放（**`unmask`**）」大規模的腸道草酸被動重吸收，直接導致血漿草酸急劇升高並並發嚴重的 **`calcium oxalate urolithiasis`** ``。因此，抑制 **`SLC26A6`** 不僅不能治療高草酸尿症，反而會急劇惡化病情。\n    *   *出題者意圖*：測試考生是否對腸道草酸主動分泌（**`SLC26A6`** 介導）與被動重吸收的方向性與生理功能存在根本性誤解。\n\n*   **(B) Allosteric activation of peroxisomal alanine-glyoxylate aminotransferase (AGXT) (INCORRECT)**：\n    *   *為何錯誤*：在特定帶有殘餘 AGT 催化活性的 **`AGXT`** 突變（如常見的 **`p.Gly170Arg`** 突變，導致其錯誤定位至線粒體）患者中，給予高劑量 **`pyridoxine`**（活性 **`Vitamin B6`**）能發揮類似分子伴侶的結構穩定作用 ``。然而，**`Lumasiran`** 是一種 **`siRNA`** 核酸藥物，其本質是通過序列特異性在細胞核/胞質中進行 **`post-transcriptional gene silencing`**（轉譯前基因沉默），而非在蛋白質水平上對殘餘的 AGT 酶發揮變構激活作用。\n    *   *出題者意圖*：測試考生能否區分小分子輔因子（**`cofactor`**）在成熟蛋白質水平上的穩定效應與 **`oligonucleotide therapeutics`** 在 mRNA 轉譯前的降解阻斷效應。\n\n*   **(C) Competitive antagonism of the human calcium-sensing receptor (CaSR) in distal tubule (INCORRECT)**：\n    *   *為何錯誤*：**`CaSR`** 定位於遠端腎小管的基底側膜，負責感應血鈣濃度並調節鈣與鎂的重吸收 ``。拮抗 **`CaSR`** 會導致遠端腎小管對鈣的重吸收減少，引起尿鈣排泄增加（**`hypercalciuria`**）。這在草酸濃度極高的 PH1 患者中，會劇烈加速管腔內 **`calcium oxalate`** 的過飽和析出，誘發急性結晶性腎病變（**`crystalline nephropathy`**）``。此外，這與肝臟端草酸的生成路徑完全無涉。\n    *   *出題者意圖*：利用腎臟結晶飽和度調節受體（**`CaSR`**）作為干擾，測試考生是否混淆了「尿液中溶質過飽和度控制（腎臟端）」與「草酸超量合成源頭阻斷（肝臟端）」的藥理學靶點分流。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科與遺傳代謝學考試中，針對表現為嚴重高草酸尿症伴雙側結石的年輕患者，對比三種原發性高草酸尿症遺傳亞型的酶學、定位、診斷代謝物與移植預後，是決定能否奪取高分的黃金考點：\n\n##### **High-Yield Comparison: Genetics, Diagnostics, and Management of Primary Hyperoxaluria**\n\n| High-Yield Clinical Dimension | Primary Hyperoxaluria Type 1 (PH1) | Primary Hyperoxaluria Type 2 (PH2) | Primary Hyperoxaluria Type 3 (PH3) |\n| :--- | :--- | :--- | :--- |\n| **Mutated Gene** | **`AGXT`** (Chromosome $2\\text{q}37.3$) `` | **`GRHPR`** (Chromosome $9\\text{p}13.2$) `` | **`HOGA1`** (Chromosome $10\\text{q}24.2$) `` |\n| **Deficient Enzyme** | **Alanine-glyoxylate aminotransferase (AGT)** `` | **Glyoxylate/hydroxypyruvate reductase (GRHPR)** `` | **4-hydroxy-2-oxoglutarate aldolase (HOGA)** `` |\n| **Intracellular Localization** | **Peroxisomal** (expressed exclusively in hepatocytes) `` | Cytosolic `` | Mitochondrial (expressed in liver and kidney) `` |\n| **Key Diagnostic Urine Markers** | Markedly elevated **`oxalate`** & **`glycolate`** `` | Markedly elevated **`oxalate`** & **`L-glycerate` / `L-glyceric acid`** `` | Elevated **`oxalate`** & **`glyoxylate`** `` |\n| **Clinical Severity & ESKD Risk** | **Most Severe**; high rate of infantile **`nephrocalcinosis`** and early-onset **`ESKD`** `` | Moderate; slowly progressive GFR decline; lower risk of early **`ESKD`** `` | **Mildest**; recurrent **`nephrolithiasis`** only; **`nephrocalcinosis`** and kidney failure are **rare** `` |\n| **Definitive Cure Strategy in ESKD** | **`Combined liver-kidney transplantation`** `` | **`Isolated kidney transplantation`** `` | Conservative medical management only |\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**：\n    *   **Brenner & Rector's The Kidney, Chapter 38: \"Urolithiasis\"**\n        - Section: *PRIMARY HYPEROXALURIA / Pathophysiology of Hyperoxaluria / Type I, II, and III* [269–270]\n        - Section: *PRIMARY HYPEROXALURIA / Table 38.10: 24-Hour Urine Profiles in Normal Subjects and in Kidney Stone Patients*\n        - Section: *Role of Anion Exchanger Slc26a6* [271–273]\n    *   **Brenner & Rector's The Kidney, Chapter 72: \"Diseases of the Kidney and Upper Urinary Tract in Children\"**\n        - Section: *PRIMARY HYPEROXALURIAS / Hyperoxaluria Type 1, 2, and 3* [523–528]\n    *   **Brenner & Rector's The Kidney, Chapter 78: \"Near and Middle East\"**\n        - Section: *GENETIC CAUSES OF KIDNEY DISEASE / Primary hyperoxaluria* [558–560]\n    *   **KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease (CKD)**\n        - Chapter 1: *Evaluation of Cause / Figure 9 Actionable genes in kidney disease* [1]\n    *   **KDIGO 2009 Clinical Practice Guideline for the Care of Kidney Transplant Recipients**\n        - Chapter 10: *Recurrent Kidney Disease / Primary hyperoxaluria* [589–591]\n\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 9 (Chapter 1, KDIGO 2024 CKD)**：*\"Actionable genes in kidney disease\"* [1] (明確將 `AGXT` 定義為具有標靶干預可行性的重要 actionable gene，但未細化 Lumasiran 靶向 GO 的 siRNA 機制)。\n    *   **Table 38.10 (Chapter 38, Brenner)**：*\"24-Hour Urine Profiles...\"* (定立了利用尿中 `glycolate` 與 `L-glycerate` 鑑別 PH1 與 PH2 的生化分流指標)。\n    *   **Figure 38.16 (Chapter 38, Brenner)**：*\"Comparison of the wild-type versus the Slc26a6 mouse\"* [2] (直觀展示了 `Slc26a6` 基因敲除後，腸道草酸分泌受阻、淨重吸收增加引發結石的病理動力學圖)。\n\n---\n\n🔍 **Next Step Nudge**:\n雖然本題因數據庫限制無法確認 **`Lumasiran`** 的具體分子靶點，但針對 PH1 患者，臨床上如何利用 **`NGS`** 進行 **`AGXT`** 的基因突變分析（如篩選出對 **`pyridoxine`** 高度敏感的 **`p.Gly170Arg`** 突變株），並在患者進展至 **`ESKD`** 階段、準備接受移植時，滴定其「圍手術期超低草酸結晶保護方案」——包括如何實施 **`aggressive fluid administration`** 以維持超高尿流量（$>3.0\\text{ L/m}^2/\\text{day}$）、如何聯合 **`potassium citrate`** 與 **`orthophosphate`** 進行多重管腔防護，是臨床與考試的核心。我可以為您生成一個「原發性高草酸尿症（PH）臨床與遺傳診斷、Pyridoxine 反應性突變篩選與肝腎聯合移植圍手術期防護精準決策樹」，您需要我為您繪製這個流程圖嗎？",
           "extractedChoice": "NONE",
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "FAILED",
-          "qcReason": "REFUSAL",
+          "qcReason": "INSUFFICIENT_DATABASE_EVIDENCE",
           "selectedOption": "NONE"
         }
       ],
       "selectedOption": "NONE",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "number": 8,
       "qcVerified": true,
-      "qcStatus": "QC_REASKED",
+      "qcStatus": "FAILED",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-28T16:06:11.018Z",
-      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)"
+      "qcNotes": "Subagent pure semantic analysis completed (0% Regex)",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足"
     },
     {
       "id": "2026_hyperoxaluria_009",
@@ -585,7 +581,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 9,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_010",
@@ -649,7 +646,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 10,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_011",
@@ -713,7 +711,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 11,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {
       "id": "2026_hyperoxaluria_012",
@@ -777,7 +776,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 12,
       "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     }
   ]
 }

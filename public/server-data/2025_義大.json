@@ -58,7 +58,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "reconciliationNotes": "NotebookLM 兩次檢索判定不一致 (Run 1: C, Run 2: D)。",
+      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: C, NLM2: D)",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -116,7 +116,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (C) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -174,7 +174,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": [
         {
           "id": "img_2025_義大_q3_1",
@@ -239,7 +239,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (C) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -297,7 +297,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (D) 與 2 組 NotebookLM 最新提問結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": [
         {
           "id": "img_2025_義大_q5_1",
@@ -362,7 +362,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (C) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -420,7 +420,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -478,7 +478,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始解答 (A) 與 NotebookLM 解析結果 (A, C) 不一致。",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A, C) 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -536,7 +536,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (C) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -594,12 +594,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始解答 (C) 與 2 組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "經 Stage 2 Subagent 雙重校對原始檔、圖表標籤與 NLM 語意答案解析驗證通過。",
       "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

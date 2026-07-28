@@ -59,7 +59,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -114,7 +114,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -169,7 +169,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -224,7 +224,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -279,7 +279,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -334,7 +334,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -389,7 +389,7 @@
           "error": "chat.ask network error after retries: peer closed connection without sending complete message body (incomplete chunked read)"
         }
       ],
-      "reconciliationNotes": "原始解答 (B) 與 2 組 NotebookLM 最新提問結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-28T16:06:11.197Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
@@ -451,7 +451,7 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     },
     {
@@ -506,8 +506,9 @@
           "error": null
         }
       ],
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 檢索結果完全一致。",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "attachedImages": null
     }
-  ]
+  ],
+  "updatedAt": "2026-07-29T00:29:30.000Z"
 }

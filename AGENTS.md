@@ -57,6 +57,11 @@
 >    - **Explanations, Lectures, Tutorials & Summaries (`sourceExplanation`, `codexExplanation`, `sections[i].content`)**：句型敘述為 100% 繁體中文，但**所有醫學專有名詞（病名、基因、酵素、受體、細胞、解剖、病理、設備）一律且只能使用純英文**。
 >    - **0% 中譯專有名詞與 0% 雙語括號禁令**：全管道（含寫作與 QC Subagents）絕對禁止出現中文醫學專有名詞（如 `高草酸尿症`, `近曲小管`, `足細胞`, `軟水器`, `雙折射`）或 `中文 (English)` / `English (中文)` 雙語括號。
 >    - **Subagent Prompt 顯式注入與 QC 阻斷**：派發 Subagents 時 Prompt 必須包含本鐵律條文；QC Subagent 必須掃描並判定含有中文專有名詞/雙語括號之 JSON 為 `QC_FAILED` 阻斷匯入。
+>
+> 8. **ABSOLUTE BAN ON MECHANICAL REGEX CHUNKING (禁用所有機械式切分 & 100% LLM Subagent 直接 JSON 輸出)**:
+>    - **全管道（包含主 Session、Python 腳本與 Subagents）絕對禁止**撰寫或執行任何帶有 Regex (`re.split()`, `re.match(r'^\s*\d+...')`, `#` 標題字串切割) 的 Python 機械切分腳本進行文章、講堂、章節或考題的 Chunk 切分。
+>    - 所有 Chunk 與 JSON 物件**必須且只能由 LLM Subagent 親自閱讀原始 Markdown/源文件並直接語意分析後輸出 JSON**。凡使用機械式 Regex 切分產生的 Chunk 內容自動視為無效與不可信。
+
 
 ## Single Source of Truth (SSOT) Data Sources
 

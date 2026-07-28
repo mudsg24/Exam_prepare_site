@@ -1,0 +1,238 @@
+{
+  "id": "2026_CSMUH_(主題備考)_tutorial",
+  "paperId": "2026_中山CSMUH",
+  "title": "2026 腎臟專科 中山醫學大學附設醫院 (CSMUH) 考訊試題 主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T21:45:00.000Z",
+  "modules": [
+    {
+      "moduleId": "aki_cin_inflammatory_transition",
+      "moduleTitle": "1. Acute Kidney Injury Hemodynamics, Contrast Nephropathy & Inflammatory Cascade",
+      "studyGuide": "本模組精解 Effective Arterial Blood Volume (EABV) 在 Cardiogenic, Hepatorenal 與 Pancreatitis AKI 的Hemodynamics差異，剖析 Contrast-Induced Nephropathy (CIN) 的風險因子、低滲透壓顯影劑應用與非少尿型病程，以及 AKI 轉化為 CKD 過程中 M1/M2 Macrophages 演變與 G2/M Cell Cycle Arrest 的細胞分子機制。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_28_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+          "caption": "Brenner 11e Fig. 28.1: Pathophysiological mechanisms of Acute Kidney Injury, detailing hemodynamic failure, renal medullary hypoxia, and epithelial cellular damage.",
+          "sourceBook": "Brenner 11e Ch 28"
+        },
+        {
+          "id": "brenner_table_29_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_29_1.png",
+          "caption": "Brenner 11e Table 29.1: Risk Factors and Clinical Spectrum of Contrast-Induced Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "EABV Hemodynamics, Contrast Nephropathy & Inflammatory Transition",
+          "diagram": {
+            "id": "csmuh_module1_aki_cin_cascade_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/csmuh_module1_aki_cin_cascade.jpg",
+            "caption": "Figure 1.1: Comprehensive Pathophysiology of AKI Hemodynamics, Contrast Nephropathy & Inflammatory Transition.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Acute Kidney Injury (AKI) 為臨床Nephrology之核心，涉及Hemodynamics、毒素引發之 medullary ischemia 以及Post-inflammatory Repair遺留之Fibrotic Response：\n\n1. **Effective Arterial Blood Volume (EABV) Dynamics**:\n   - Cardiogenic Shock 與 Hypoalbuminemia 會顯著降低 EABV，進而活化 Sympathetic Nervous System (SNS) 與 Renin-Angiotensin-Aldosterone System (RAAS)。Cardiogenic Shock 造成之 EABV 降低係與 Total Body Volume 無關（即使全身呈現 Fluid Overload，EABV 仍低下）。\n   - Acute Pancreatitis 透過 Third-space Fluid Sequestration 引發顯著之 EABV 減少。\n   - Cirrhosis 引發之 Hepatorenal Syndrome (HRS-AKI) 屬於 Volume-Unresponsive Form。當給予 48 小時的 Albumin Resuscitation 後Renal Function仍無法改善，即符合 HRS-AKI 診斷基準。\n\n2. **Contrast-Induced Nephropathy (CIN / Contrast-Induced AKI)**:\n   - 無風險因子的患者 CIN 發生率低於 1–2%。但在 Anemia, Pre-existing CKD, Diabetes Mellitus, 及 Heart Failure 患者中風險高升。\n   - 使用 High-Osmolality Contrast Media 搭配 Anemia 會加劇 Direct Tubular Toxicity 與 Medullary Hypoxia，大幅提高 CIN 發生率。\n   - CIN 的Renal Hemodynamics特徵為 Intense Pre-glomerular Vasoconstriction，其 Fraction Excretion of Sodium (FENa) 典型小於 1% (FENa < 1%)。CIN 病程多呈 Non-oliguric，Renal Function多在 3–5 天內自行恢復，需要 Dialysis 的比例小於 1%。\n\n3. **Inflammation & AKI-to-CKD Transition**:\n   - 早期暴露於 LPS 或 IFN-$\\gamma$ 會誘導 M1 Macrophages (Proinflammatory)，釋放 TNF-$\u0007lpha$ 與 IL-1$\beta$ 造成初期腎臟損傷。\n   - 後期受到 IL-4 與 IL-10 誘導轉換為 M2 Macrophages (Pro-healing / Profibrotic)，驅動 ECM-producing Myofibroblasts 活化與 Tissue Fibrosis。\n   - **Cell Cycle Arrest Trap**: 促進 AKI 轉化為 CKD 且驅動 Persistent Renal Fibrosis 的Cell Cycle改變為 Persistent G2/M Cell Cycle Arrest，而非 Cell Cycle Activation。\n\n| AKI Subtype | EABV Status | Total Body Volume | Saline / Volume Responsiveness | Key Pathophysiological Driver |\n| :--- | :--- | :--- | :--- | :--- |\n| **Prerenal Azotemia** | Reduced | Decreased | Volume Responsive | Hypovolemia, Hemorrhage |\n| **Cardiogenic AKI** | Reduced | Markedly Increased | Unresponsive (Worsened) | Cardiac Output Failure, Venous Congestion |\n| **Hepatorenal Syndrome (HRS)** | Markedly Reduced | Increased (Ascites) | **Volume Unresponsive** (Albumin trial < 48h fails) | Splanchnic Vasodilation, Severe Renal Constriction |\n| **Pancreatitis AKI** | Reduced | Decreased (Third-space) | Volume Responsive | Capillary Leak, Intravascular Depletion |\n\n| Parameter | Contrast-Induced Nephropathy (CIN) | Acute Tubular Necrosis (Ischemic ATN) | Cholesterol Atheroembolism |\n| :--- | :--- | :--- | :--- |\n| **Onset Timing** | 24–48 Hours post-contrast | 48–72 Hours post-ischemia | Weeks to Months post-procedure |\n| **Fractional Excretion of Sodium (FENa)** | **< 1%** (Vasoconstrictive) | **> 2%** (Tubular Damage) | Variable (< 1% or > 2%) |\n| **Urine Output Pattern** | Typically **Non-oliguric** | Frequently Oliguric | Non-oliguric with Eosinophiluria |\n| **Need for Dialysis** | Low (< 1%) | Moderate to High | High (Progressive loss) |\n\n### Pathophysiological Decision Trees\n- **AKI-to-CKD Transition Pathway**: Ischemic / Toxic Injury ➔ Epithelial Damage ➔ M1 Macrophage Infiltration (TNF-$\u0007lpha$, IL-1$\beta$) ➔ Tubular Epithelial **G2/M Cell Cycle Arrest** ➔ Profibrotic Cytokine Secretion (TGF-$\beta1$) ➔ M2 Macrophage Transition & Myofibroblast Activation ➔ Progressive Renal Interstitial Fibrosis.\n\n### Conceptual Trap Analysis\n- **Cell Cycle Modulation Trap**: 考題常將 G2/M Cell Cycle Arrest 誤導改寫為 Cell Cycle Activation。當 Tubular Epithelial Cells 陷入 G2/M Arrest 時無法順利完成 Mitosis，會持續分泌 TGF-$\beta1$ 與 CTGF 驅動 Fibrosis。\n- **Hepatorenal Resuscitation Trap**: 切勿將 Hepatorenal Syndrome 誤判為 Volume-Responsive！診斷 HRS 的前提是經過 48 小時 Albumin 擴容無效。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_28_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+              "caption": "Brenner 11e Fig. 28.1: Pathophysiological mechanisms of Acute Kidney Injury, detailing hemodynamic failure, renal medullary hypoxia, and epithelial cellular damage.",
+              "sourceBook": "Brenner 11e Ch 28"
+            },
+            {
+              "id": "brenner_table_29_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_29_1.png",
+              "caption": "Brenner 11e Table 29.1: Risk Factors and Clinical Spectrum of Contrast-Induced Nephropathy.",
+              "sourceBook": "Brenner 11e Ch 29"
+            },
+            {
+              "id": "csmuh_module1_aki_cin_cascade_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/csmuh_module1_aki_cin_cascade.jpg",
+              "caption": "Figure 1.1: Comprehensive Pathophysiology of AKI Hemodynamics, Contrast Nephropathy & Inflammatory Transition.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "renal_vascular_tma",
+      "moduleTitle": "2. Renal Vascular Pathology & Thrombotic Microangiopathies",
+      "studyGuide": "本模組深度解析 Atheroembolic Renal Disease 的病理特徵（Cholesterol Crystal Clefts, Hollenhorst Plaques, Hypocomplementemia, Eosinophiluria）、Thrombotic Microangiopathy (TMA / HUS) 的Intravascular Hemolysis與 Serum Haptoglobin 下降機制，以及 Renal Vein Thrombosis 與 Malignant Hypertension 的Hemodynamics表現。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_34_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_34_1.png",
+          "caption": "Brenner 11e Fig. 34.1: Pathological features of Thrombotic Microangiopathy showing endothelial detachment, microvascular thrombi, and schistocytes.",
+          "sourceBook": "Brenner 11e Ch 34"
+        },
+        {
+          "id": "brenner_fig_47_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_47_4.png",
+          "caption": "Brenner 11e Fig. 47.4: Renal Biopsy histology demonstrating characteristic biconcave needle-shaped cholesterol crystal clefts in Atheroembolic Renal Disease.",
+          "sourceBook": "Brenner 11e Ch 47"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Atheroembolism, Microangiopathic Hemolysis & Vascular Involvements",
+          "diagram": {
+            "id": "csmuh_module2_vascular_tma_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/csmuh_module2_vascular_tma.jpg",
+            "caption": "Figure 2.1: Pathophysiological Mechanics of Atheroembolic Renal Disease vs Thrombotic Microangiopathy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "腎臟血管疾病涵蓋Large and Medium Vessel Thromboembolism與Microvascular Endothelial Injury，為高難度高頻考點：\n\n1. **Atheroembolic Renal Disease (AERD)**:\n   - 多發生於年齡大於 50 歲、近期接受過 Endovascular Manipulation (如 Coronary Angiography) 或 Anticoagulation 治療的患者。\n   - 眼底檢查可見 Retinal Plaques (Hollenhorst Plaques)。\n   - 尿液檢查常呈近乎正常或低度Proteinuria，典型伴隨 Eosinophiluria、Eosinophilia，且很少出現 RBC Casts。\n   - **Complement Trap**: 由於Cholesterol Crystals激活 Complement Alternative Pathway，患者常出現 **Hypocomplementemia** (C3, C4 下降)，而非 Hypercomplementemia。\n   - 確診標準為 Renal Biopsy，可見動脈腔內呈 Biconcave Needle-shaped Cholesterol Crystal Clefts 及 Foreign-body Giant Cell Reaction。\n\n2. **Thrombotic Microangiopathy (TMA) & Hemolytic Uremic Syndrome (HUS)**:\n   - 三大典型表現：Microangiopathic Hemolytic Anemia (MAHA), Thrombocytopenia, 以及 Acute Kidney Injury。\n   - Microvascular Shear Stress 造成 RBC 碎裂形成 Schistocytes。Intravascular Hemolysis釋放之 Hemoglobin 會與 Haptoglobin 結合，導致 **Serum Haptoglobin 顯著降低 (Markedly Low Haptoglobin)**（考題常設陷阱改為 High Haptoglobin）。\n\n3. **Renal Vein Thrombosis (RVT) & Malignant Hypertension**:\n   - RVT 常繼發於 Nephrotic Syndrome (尤以 Membranous Nephropathy 最常見)，臨床表現為 Proteinuria, Hematuria, 與 Flank Pain。\n   - Malignant Hypertension 引發之 AKI 在經過積極血壓控制 (Blood Pressure Control) 後，Renal Function與Microvascular損傷可獲得緩解與改善。\n\n| Disease Entity | Key Histopathology / Biomarker | Complement Profile | Classic Clinical Manifestation |\n| :--- | :--- | :--- | :--- |\n| **Atheroembolic Renal Disease** | Biconcave Cholesterol Clefts, Eosinophiluria | **Hypocomplementemia** | Blue toe syndrome, Livedo reticularis, Post-cath AKI |\n| **Hemolytic Uremic Syndrome** | Microvascular Fibrin Thrombi, Schistocytes | Normal or Low (aHUS, Factor H) | MAHA, Thrombocytopenia, **Low Haptoglobin** |\n| **Renal Vein Thrombosis** | Venous Engorgement, Interstitial Edema | Normal | Nephrotic syndrome, Flank pain, Hematuria |\n| **Malignant Hypertension** | Fibrinoid Necrosis, Onion-skin Arteriolosclerosis | Normal | Papilledema, Severe HTN, AKI reversible with BP control |\n\n| Biomarker in Hemolysis | Normal Range / State | Intravascular Hemolysis (HUS/TMA) | Diagnostic Significance |\n| :--- | :--- | :--- | :--- |\n| **Serum Haptoglobin** | Normal (30–200 mg/dL) | **Markedly DECREASED / Absent** | Depleted by binding free extracellular hemoglobin |\n| **Lactate Dehydrogenase (LDH)** | Normal (100–190 U/L) | **Markedly ELEVATED** | Released from RBC lysis |\n| **RBC Morphology** | Normal Biconcave Discs | **Schistocytes (Helmet Cells)** | Mechanical shear fragmentation through microthrombi |\n\n### Pathophysiological Decision Trees\n- **TMA Diagnostic Flowchart**: Suspected AKI with Anemia ➔ Peripheral Blood Smear (Schistocytes present) ➔ Confirm MAHA: LDH Elevated, **Serum Haptoglobin Markedly Decreased**, Coombs Test Negative ➔ Platelet Count Low (Thrombocytopenia) ➔ Diagnosis: Thrombotic Microangiopathy (HUS / TTP).\n\n### Conceptual Trap Analysis\n- **Complement & Haptoglobin Trap**: 切記 Atheroembolism 引發的是 Hypocomplementemia（因 Complement Cascade 消耗）；而 HUS/TMA 的Intravascular Hemolysis導致 Serum Haptoglobin 被消耗而**降低**（絕對非高 Haptoglobin）。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_34_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_34_1.png",
+              "caption": "Brenner 11e Fig. 34.1: Pathological features of Thrombotic Microangiopathy showing endothelial detachment, microvascular thrombi, and schistocytes.",
+              "sourceBook": "Brenner 11e Ch 34"
+            },
+            {
+              "id": "brenner_fig_47_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_47_4.png",
+              "caption": "Brenner 11e Fig. 47.4: Renal Biopsy histology demonstrating characteristic biconcave needle-shaped cholesterol crystal clefts in Atheroembolic Renal Disease.",
+              "sourceBook": "Brenner 11e Ch 47"
+            },
+            {
+              "id": "csmuh_module2_vascular_tma_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/csmuh_module2_vascular_tma.jpg",
+              "caption": "Figure 2.1: Pathophysiological Mechanics of Atheroembolic Renal Disease vs Thrombotic Microangiopathy.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "tubular_endocytosis_membranous_onco",
+      "moduleTitle": "3. Proximal Tubular Transport, Secondary Membranous Nephropathy & Onconephrology",
+      "studyGuide": "本模組聚焦於 Proximal Tubule Protein Absorption 的內吞Receptor機制 (Megalin/Cubilin, Clathrin-coated pits)、Secondary Membranous Nephropathy 與 Primary PLA2R Autoantibodies 的鑑別診斷，以及 Cancer-Associated Hypokalemia 的病因（Leukemia Pseudohypokalemia, Cisplatin/Ifosfamide Toxicity, Ectopic ACTH, Hypomagnesemia）。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_31_12",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+          "caption": "Brenner 11e Fig. 31.12: Electron Microscopy of Membranous Nephropathy revealing subepithelial immune complex deposits and GBM spike formation.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_42_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_42_1.png",
+          "caption": "Brenner 11e Fig. 42.1: Onconephrology spectrum illustrating chemotherapy-induced tubular dysfunction, electrolyte wasting, and tumor-related hypokalemia.",
+          "sourceBook": "Brenner 11e Ch 42"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Tubular Endocytosis, Secondary Glomerulopathy & Cancer Electrolyte Disorders",
+          "diagram": {
+            "id": "csmuh_module3_tubular_onco_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/csmuh_module3_tubular_onco.jpg",
+            "caption": "Figure 3.1: Proximal Tubule Endocytosis Pathway & Secondary Membranous Nephropathy vs Cancer Hypokalemia Etiologies.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "本模組統整Renal Tubular Protein Reabsorption Physiology、Membranous Nephropathy Classification與癌症相關Electrolyte異常：\n\n1. **Proximal Tubule Endocytosis Dynamics**:\n   - Glomerular Filtration Barrier Filtration之微量 Protein (如 Albumin, Light Chains) 主要在 Proximal Tubule 經由 Endocytosis 重吸收。\n   - Apical Cell Membrane 上之 **Megalin** (LRP2) 與 **Cubilin** 擔任 Multiligand Endocytic Receptors。\n   - 結合後透過 **Clathrin-coated Pits** 形成 Endocytic Vesicles，內吞進入細胞內經 Lysosomes 降解。Clathrin 在 Pit Formation 與 Vesicle Budding 中發揮關鍵結構作用。\n\n2. **Primary vs Secondary Membranous Nephropathy (MN)**:\n   - Primary (Idiopathic) MN 有 70–80% 係由針對 M-type Phospholipase A2 Receptor (**PLA2R**) 之 Autoantibodies 引發。\n   - **Secondary MN Trap**: Secondary MN 係由外源性或全身性疾病引發（包含 Autoimmune Diseases 如 SLE, Autoimmune Thyroiditis; Infections 如 Hepatitis B, Hepatitis C, Malaria; 以及 Malignancy），其病理通常 **PLA2R Negative**。二次性 MN 在兒童中以 Hepatitis B 與 Lupus 引起者居多。\n\n3. **Cancer-Associated Hypokalemia Etiologies**:\n   - **Pseudohypokalemia**: 常見於 Acute Leukemia 伴隨極高 WBC Counts，因試管內Leukocytes (WBCs)持續攝取 Potassium 所致。\n   - **Chemotherapeutic Nephrotoxicity**: Cisplatin 與 Ifosfamide 引發 Proximal & Distal Tubular Damage，造成 Renal Potassium & Magnesium Wasting (Fanconi-like Syndrome)。\n   - **Ectopic ACTH Syndrome**: Small Cell Lung Cancer 等分泌 Ectopic ACTH，過量 Cortisol 跨活化 Mineralocorticoid Receptors 引發 Hypokalemia 與 Metabolic Alkalosis。\n   - **Electrolyte Interplay Trap**: 誘發 Renal Potassium Wasting 的關鍵Electrolyte異常為 **Hypomagnesemia**（Hypomagnesemia 會解除 ROMK Channels 的 Intracellular Mg2+ Block，導致大量的 Potassium 排泄出尿中）。Hypocalcemia 絕非引發 Hypokalemia 的主要原因！\n\n| Endocytosis Component | Molecular Structure | Location / Cellular Site | Primary Function |\n| :--- | :--- | :--- | :--- |\n| **Megalin (LRP2)** | Large Transmembrane Receptor | Apical Brush Border | Binds filtered proteins, vitamins & minerals |\n| **Cubilin** | Peripheral Membrane Receptor | Apical Brush Border | Co-receptor with Megalin for Albumin & Transferrin |\n| **Clathrin** | Triskelion Coat Protein | Inner Plasma Membrane | **Forms coated pits for vesicle endocytosis** |\n\n| Membranous Nephropathy Etiology | Anti-PLA2R Autoantibody | Common Causes | Dominant Patient Demographics |\n| :--- | :--- | :--- | :--- |\n| **Primary (Idiopathic) MN** | **Positive (~70–80%)** | Autoimmune podocyte targeting | Adults > 40 years |\n| **Secondary MN** | **Negative** | SLE, HBV, HCV, Malaria, Solid Tumors | Children (HBV/Lupus), Elderly (Malignancy) |\n\n| Cause of Hypokalemia in Cancer | Underlying Mechanism | Distinguishing Laboratory Feature |\n| :--- | :--- | :--- |\n| **Leukemia Pseudohypokalemia** | In vitro cellular K+ uptake by blasts | Marked Leukocytosis (WBC > 100,000/\\mu L) |\n| **Cisplatin / Ifosfamide Toxicity** | Tubular transport damage (Fanconi) | **Hypomagnesemia**, Hypophosphatemia, Glucosuria |\n| **Ectopic ACTH Syndrome** | Mineralocorticoid excess | Metabolic Alkalosis, High Plasma ACTH |\n| **Hypomagnesemia-induced Wasting** | ROMK channel unblocking | Urine K+ > 20 mEq/L despite hypokalemia |\n\n### Pathophysiological Decision Trees\n- **Protein Endocytosis Pathway**: Filtered Proteins ➔ Bind Megalin/Cubilin Complex at Apical Membrane ➔ **Clathrin-Coated Pit Formation** ➔ Endocytic Vesicle Invagination ➔ Fusion with Endosomes & Lysosomes ➔ Amino Acid Recycling into Bloodstream.\n\n### Conceptual Trap Analysis\n- **PLA2R Secondary Trap**: 考題常誘引考生將 PLA2R 正性當作 Secondary MN 的特徵。切記 Anti-PLA2R 是 Primary MN 的特異性指標，Secondary MN 應優先尋找 HBV/SLE/Malignancy 等源頭。\n- **Hypomagnesemia vs Hypocalcemia Trap**: Hypomagnesemia 才是導致 Refractory Hypokalemia 的主因！若只補 K+ 不補 Mg2+，ROMK 渠道無法封閉，Potassium (K+)將持續流失。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_12",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+              "caption": "Brenner 11e Fig. 31.12: Electron Microscopy of Membranous Nephropathy revealing subepithelial immune complex deposits and GBM spike formation.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "brenner_fig_42_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_42_1.png",
+              "caption": "Brenner 11e Fig. 42.1: Onconephrology spectrum illustrating chemotherapy-induced tubular dysfunction, electrolyte wasting, and tumor-related hypokalemia.",
+              "sourceBook": "Brenner 11e Ch 42"
+            },
+            {
+              "id": "csmuh_module3_tubular_onco_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/csmuh_module3_tubular_onco.jpg",
+              "caption": "Figure 3.1: Proximal Tubule Endocytosis Pathway & Secondary Membranous Nephropathy vs Cancer Hypokalemia Etiologies.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "cardiorenal_transplant_pregnancy",
+      "moduleTitle": "4. Cardiorenal Hemodynamics & Pregnancy in Kidney Transplantation",
+      "studyGuide": "本模組深度解析 Heart Failure 患者中 Cardiorenal Syndrome (CRS) 的Hemodynamics決定因子（Increased Central Venous Pressure / Renal Venous Congestion 降低淨Filtration Pressure）、體液與交感神經調控，以及Kidney Transplantation受者懷孕的最佳時機 (1-2 年 post-transplant) 與Immunosuppressants安全性 (CNIs/Azathioprine/Prednisone 安全 vs Sirolimus/Everolimus/MMF 禁忌)。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_40_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_40_1.png",
+          "caption": "Brenner 11e Fig. 40.1: Hemodynamic mechanisms of Cardiorenal Syndrome, highlighting central venous hypertension, renal venous congestion, and SNS/RAAS activation.",
+          "sourceBook": "Brenner 11e Ch 40"
+        },
+        {
+          "id": "brenner_fig_70_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_4.png",
+          "caption": "Brenner 11e Fig. 70.4: Management algorithm for Pregnancy in Kidney Transplant Recipients and Immunosuppressive drug safety matrix.",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Cardiorenal Venous Congestion & Post-Transplant Pregnancy Safety",
+          "diagram": {
+            "id": "csmuh_module4_cardiorenal_transplant_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/csmuh_module4_cardiorenal_transplant.jpg",
+            "caption": "Figure 4.1: Cardiorenal Syndrome Hemodynamic Connectors & Post-Transplant Pregnancy Immunosuppressant Safety Matrix.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "本模組剖析Cardiorenal Syndrome (CRS)Hemodynamics與Kidney Transplantation受者之懷孕照護管理：\n\n1. **Cardiorenal Connectors & Hemodynamics in Heart Failure**:\n   - Heart Failure引發 Cardiorenal Syndrome (CRS) 時，以往認為主要驅動力為 Reduced Cardiac Output。然而最新機轉證實：**Increased Central Venous Pressure (CVP) 與 Renal Venous Congestion** 才是決定 GFR 下降的最關鍵Hemodynamics因素。\n   - 高 Central Venous Pressure 傳導至 Renal Veins，造成 **Increased Renal Venous Pressure**，進而提高 Interstitial & Bowman Space Pressure，大幅壓低 Net Glomerular Filtration Pressure。\n   - 伴隨的神經體液因子包含 Sympathetic Nervous System (SNS) 活化、RAAS 活化、Endothelial Dysfunction 與 Systemic Inflammation。\n\n2. **Pregnancy in Kidney Transplant Recipients**:\n   - Kidney Transplantation成功後，大多數患者懷孕可為母體與胎兒帶來優良的臨床預後。\n   - **Optimal Timing**: Post-transplantation **6–12 個月內懷孕極不適合** (Undesirable)，因該期間Immunosuppressants劑量高且 Rejection/Infection 風險巔峰。最佳懷孕時間為Post-transplantation **1–2 年**，此時 Rejection Rate 與非懷孕對照組無異。\n   - **Immunosuppressant Teratogenicity Trap**:\n     - **Safe / Allowed Drugs**: Calcineurin Inhibitors (Tacrolimus, Cyclosporine), Azathioprine, 以及 Low-dose Corticosteroids (Prednisone)。\n     - **Contraindicated / Teratogenic Drugs**: **Sirolimus**, **Everolimus** (mTOR Inhibitors) 以及 **Mycophenolate Mofetil (MMF)** 具高度Teratogenicity，Pre-conception必須停用改藥！Sirolimus 絕對不可廣泛用於Post-transplantation懷孕患者。\n\n| Cardiorenal Connector | Pathophysiological Alteration | Direct Impact on Glomerular Filtration |\n| :--- | :--- | :--- |\n| **Central Venous Pressure (CVP)** | **Elevated (Renal Venous Congestion)** | Increases Bowman space pressure, **Reduces Net Filtration Pressure** |\n| **Renal Blood Flow (RBF)** | Reduced due to low Cardiac Output | Decreases Glomerular Capillary Hydraulic Pressure |\n| **Sympathetic Nervous System** | Hyperactivated | Drives Afferent Arteriolar Vasoconstriction |\n| **Endothelial Function** | Dysfunction & Microvascular Leak | Promotes Interstitial Edema & Fibrosis |\n\n| Immunosuppressant Class | Specific Agents | Pregnancy Safety Profile | Teratogenic / Clinical Risk |\n| :--- | :--- | :--- | :--- |\n| **Calcineurin Inhibitors (CNIs)** | Tacrolimus, Cyclosporine | **Safe (Preferred)** | Monitor trough levels closely due to expanded blood volume |\n| **Antimetabolites (Safe)** | Azathioprine | **Safe** | Preferred antimetabolite during pregnancy |\n| **Corticosteroids** | Prednisone, Prednisolone | **Safe** | Monitor maternal blood pressure and glucose |\n| **mTOR Inhibitors** | **Sirolimus, Everolimus** | **CONTRAINDICATED** | **Teratogenic; must discontinue prior to conception** |\n| **Inosine Monophosphate Inhibitors**| **Mycophenolate Mofetil (MMF)**| **CONTRAINDICATED** | **Severe microtia, cleft lip/palate, cardiac defects** |\n\n### Pathophysiological Decision Trees\n- **Cardiorenal Hemodynamic Cascade**: Congestive Heart Failure ➔ Elevated Central Venous Pressure ➔ **Increased Renal Venous Pressure** ➔ Renal Venous Congestion ➔ Retrograde Pressure Transmission to Bowman Space ➔ Collapse of Net Glomerular Filtration Pressure ➔ Progressive Cardiorenal AKI.\n\n### Conceptual Trap Analysis\n- **Renal Venous Pressure Trap**: 考題常將 Cardiorenal Syndrome 的Filtration Defect誤歸因於 Reduced Renal Venous Pressure。切記是 **Elevated Renal Venous Pressure / Venous Congestion** 阻礙了Venous Return並壓低Filtration Pressure！\n- **Transplant Pregnancy Drug Trap**: 考題常題設 Sirolimus 為Post-transplantation懷孕之常用首選。切記 Sirolimus 與 MMF 具強烈Teratogenicity，懷孕絕對禁忌！",
+          "diagrams": [
+            {
+              "id": "brenner_fig_40_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_40_1.png",
+              "caption": "Brenner 11e Fig. 40.1: Hemodynamic mechanisms of Cardiorenal Syndrome, highlighting central venous hypertension, renal venous congestion, and SNS/RAAS activation.",
+              "sourceBook": "Brenner 11e Ch 40"
+            },
+            {
+              "id": "brenner_fig_70_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_70_4.png",
+              "caption": "Brenner 11e Fig. 70.4: Management algorithm for Pregnancy in Kidney Transplant Recipients and Immunosuppressive drug safety matrix.",
+              "sourceBook": "Brenner 11e Ch 70"
+            },
+            {
+              "id": "csmuh_module4_cardiorenal_transplant_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/csmuh_module4_cardiorenal_transplant.jpg",
+              "caption": "Figure 4.1: Cardiorenal Syndrome Hemodynamic Connectors & Post-Transplant Pregnancy Immunosuppressant Safety Matrix.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

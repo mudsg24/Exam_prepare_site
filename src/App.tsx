@@ -169,7 +169,18 @@ export const App: React.FC = () => {
                 .then((r) => (r.ok ? r.json() : null))
                 .then((paperData: any) => {
                   if (paperData) {
-                    const questions = Array.isArray(paperData) ? paperData : (paperData.questions || []);
+                    const rawQuestions = Array.isArray(paperData) ? paperData : (paperData.questions || []);
+                    const questions = rawQuestions.map((q: any, qIdx: number) => ({
+                      ...q,
+                      number: q.number || qIdx + 1,
+                      options: (q.options || []).map((opt: any, optIdx: number) => {
+                        if (typeof opt === 'string') {
+                          const letters = ['A', 'B', 'C', 'D', 'E'];
+                          return { id: letters[optIdx] || 'A', text: opt };
+                        }
+                        return opt;
+                      }),
+                    }));
                     const normalizedPaper: ExamPaper = {
                       id: paperData.id || paperData.paperId || item.id,
                       title: paperData.title || paperData.paperTitle || item.title,

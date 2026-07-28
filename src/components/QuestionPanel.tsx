@@ -172,7 +172,12 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
 
         {/* Options List */}
         <div className="space-y-3 mb-6">
-          {question.options.map((opt) => {
+          {question.options.map((rawOpt: any, optIdx: number) => {
+            const letters: OptionId[] = ['A', 'B', 'C', 'D', 'E'];
+            const opt = typeof rawOpt === 'string'
+              ? { id: letters[optIdx] || ('A' as OptionId), text: rawOpt }
+              : rawOpt;
+
             const isSelected = selectedOption === opt.id;
             const isSourceCorrect = isSubmitted && question.sourceProvidedAnswer === opt.id;
             const isUserWrong = isSubmitted && isSelected && !isSourceCorrect;

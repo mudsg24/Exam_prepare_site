@@ -1,0 +1,125 @@
+{
+  "id": "2026_Obstructive_uropathy_(主題備考)_tutorial",
+  "paperId": "2026_Obstructive_uropathy_(主題備考)",
+  "title": "2026 腎臟專科 Obstructive Uropathy 與 Post-Obstructive Diuresis 主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-28T18:25:00.000Z",
+  "modules": [
+    {
+      "moduleId": "anatomy_classification_imaging",
+      "moduleTitle": "1. Etiology, Anatomical Classification & Diagnostic Imaging of Urinary Tract Obstruction",
+      "studyGuide": "本模組精解 Urinary Tract Obstruction 的解剖學分級 (Upper vs Lower Tract)、先天性與後天性病因分類 (Intrinsic Intraluminal / Intramural vs Extrinsic Process)，以及臨床影像診斷工具 (Renal Ultrasound, Non-contrast CT, Diuretic Renography, Resistive Index, Whitaker Test) 的選擇與避坑指標。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_37_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_37_1.png",
+          "caption": "Brenner 11e Fig. 37.1: Renal Ultrasound comparing Normal Kidney (A) with Hydronephrotic Kidney demonstrating dilated calices and renal pelvis (B).",
+          "sourceBook": "Brenner 11e Ch 37"
+        },
+        {
+          "id": "brenner_fig_37_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_37_3.png",
+          "caption": "Brenner 11e Fig. 37.3: Non-contrast Computed Tomography of Left Hydronephrosis caused by Left Midureteral Stone.",
+          "sourceBook": "Brenner 11e Ch 37"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Anatomical Etiology & Diagnostic Modality Spectrum",
+          "diagram": {
+            "id": "obstructive_uropathy_anatomy_diag_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/obstructive_uropathy_anatomy_diag.jpg",
+            "caption": "Figure 1.1: Anatomical Classification of Urinary Tract Obstruction (Intrinsic vs Extrinsic Causes & Pelvicalyceal Dilatation).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Urinary Tract Obstruction 為腎臟科與泌尿科高頻考點，其解剖位置與病因劃分為三大範疇：\n1. **Intrinsic Intraluminal Causes**: Nephrolithiasis (Calculus), Sloughed Papillary Tissue (Papillary Necrosis, 常見於 Diabetes Mellitus, Sickle Cell Trait, NSAIDs 濫用), Blood Clots (Coagulum), 及 Fungus Balls (*Candida* albicans)。\n2. **Intrinsic Intramural Causes**: Anatomical Strictures (Ureteral Stricture, Tuberculosis, Schistosomiasis), Functional Neurogenic Bladder (Spinal Cord Injury, Diabetes Mellitus, Parkinson Disease, Anticholinergic Agents), 及 Urothelial Tumors (Renal Pelvis / Ureteral Carcinoma)。\n3. **Extrinsic Causes**: Retroperitoneal Fibrosis (IgG4-Related Disease, Drug-induced by Methysergide/Ergotamine, 經典侵犯 Middle Ureter 且易造成 Sonographic False-Negative), Benign Prostatic Hyperplasia (BPH), Prostate Cancer, Gynecologic Malignancies (Cervical Cancer, Ovarian Cancer), 以及 Abdominal Aortic Aneurysm (AAA)。Ankylosing Spondylitis 絕非 Urinary Tract Obstruction 的後天病因。\n\n| Obstruction Classification | Primary Anatomical Site | Common Etiologies | Diagnostic Key Findings |\n| :--- | :--- | :--- | :--- |\n| **Intrinsic Intraluminal** | Ureter / Renal Pelvis Lumen | Nephrolithiasis, Blood Clots, Papillary Necrosis | Acoustic shadowing on US, Non-contrast CT stone detection |\n| **Intrinsic Intramural** | Ureteral Wall / Bladder Neck | Ureteral Stricture, Neurogenic Bladder, Urothelial Carcinoma | Concentric wall thickening, High Post-Void Residual (PVR) volume |\n| **Extrinsic Compression** | Retroperitoneum / Pelvic Cavity | Retroperitoneal Fibrosis, BPH, Gynecologic Tumors, AAA | Ureteral medial deviation, Mass effect, High Resistive Index |\n\n| Diagnostic Modality | Clinical Indication & Strengths | Diagnostic Limitations | Pathognomonic Cut-off / Sign |\n| :--- | :--- | :--- | :--- |\n| **Renal Ultrasound (US)** | Initial Non-invasive Screening for Hydronephrosis | False negative in acute obstruction (<24h), retroperitoneal encasement | Pelvicalyceal separation & parenchymal thinning |\n| **Doppler Resistive Index (RI)** | Distinguishes Acute Obstruction from Non-obstructed Dilatation | Altered by severe hypotension or bilateral parenchymal disease | **RI > 0.70** (or $\\Delta\\text{RI} > 0.05$ vs contralateral side) |\n| **Non-contrast CT (NCCT)** | Gold Standard for Urolithiasis & Location Mapping | Radiation exposure, does not assess functional excretory rate | High-attenuation calculus with perinephric stranding |\n| **MAG3 Diuretic Renography** | Evaluates Excretory Function ($T_{1/2}$ post-Furosemide) | False prolongation in severe CKD (GFR < 15 mL/min) | **$T_{1/2} > 20\\text{ min}$** indicates true mechanical obstruction |\n\n### Pathophysiological Decision Trees\n- **Diagnostic Pathway for Suspected Obstruction**: Renal Ultrasound ➔ Assess Pelvicalyceal Dilatation ➔ If Hydronephrosis (+), perform Non-contrast CT for Anatomical Mapping ➔ If Hydronephrosis (-) with High Clinical Suspicion (e.g. Retroperitoneal Fibrosis), measure Doppler Resistive Index (RI) ➔ RI > 0.70 confirms Acute Obstructive Nephropathy.\n\n### Conceptual Trap Analysis\n- **Retroperitoneal Fibrosis Ultrasound Trap**: 絕不可因 Renal Ultrasound 未看見 Hydronephrosis 即排除 Urinary Tract Obstruction！Retroperitoneal Fibrosis 會包覆中段 Ureter 限制其擴張，產生 Ultrasound False-Negative。此時必須仰賴 Doppler Resistive Index (RI > 0.70) 或 Non-contrast CT / MRI 確診。"
+        }
+      ]
+    },
+    {
+      "moduleId": "renal_hemodynamics_filtration",
+      "moduleTitle": "2. Renal Hemodynamics & Glomerular Filtration Dynamics in Ureteral Obstruction",
+      "studyGuide": "本模組深入剖析UUO vs BUO 後RBF、Bowman Space 水壓 ($P_T$)、Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 及 Single-Nephron GFR (SNGFR) 的三相動態演變 (Triphasic Hemodynamic Response)，並解析血管收縮分子 (Angiotensin II, Thromboxane A2) 與擴張分子 (Prostaglandin E2, Nitric Oxide) 的拮抗對比。",
+      "diagrams": [
+        {
+          "id": "brenner_table_37_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_37_1.png",
+          "caption": "Brenner 11e Table 37.1: Glomerular Hemodynamics in Ureteral Obstruction across stages (1-2 hours UUO, 24 hours UUO, 24 hours BUO, and post-release).",
+          "sourceBook": "Brenner 11e Ch 37"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Triphasic Hemodynamic Cascade & Vasodilator-Vasoconstrictor Interplay",
+          "diagram": {
+            "id": "obstructive_uropathy_hemodynamics_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/obstructive_uropathy_hemodynamics.jpg",
+            "caption": "Figure 2.1: Triphasic Renal Hemodynamics in Ureteral Obstruction (Phase 1 PGE2 Vasodilation to Phase 2/3 Angiotensin II Vasoconstriction).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Acute Ureteral Obstruction 後的 Renal Blood Flow (RBF) 與 Glomerular Hemodynamics 呈現經典的三相演化 (Triphasic Response)：\n1. **Phase 1 (Early Acute Phase, 0–2 Hours)**: 阻塞後 Intratubular Pressure / Bowman Space Pressure ($P_T$) 劇烈上升 ($\\uparrow\\uparrow$)。受伸張刺激驅動，內源性 Prostaglandin $E_2$ ($\text{PGE}_2$) 與 Nitric Oxide (NO) 大量釋放，引發顯著之 Afferent Arteriolar Vasodilation (Afferent Resistance $R_A \\downarrow$)。這使 Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 反常上升 ($\\uparrow$)，短時間內抵銷了 $P_T$ 的反向阻力，維持 Single-Nephron GFR (SNGFR) 近乎正常。\n2. **Phase 2 (Subacute Phase, 2–5 Hours)**: $P_T$ 維持在高檔。此時內源性 Angiotensin II, Thromboxane $A_2$ ($\text{TXA}_2$), 以及 Endothelin-1 開始佔據主導地位，引發劇烈之 Afferent Arteriolar Vasoconstriction ($R_A \\uparrow\\uparrow$)。$P_{GC}$ 開始下降 ($\\downarrow$)，使得 RBF 與 SNGFR 雙雙驟降 ($\\downarrow\\downarrow$)。\n3. **Phase 3 (Chronic / Late Phase, >5 Hours to 24 Hours)**: 由於 Pyelovenous 與 Pyelolymphatic Backflow，加上原尿生成率崩塌，$P_T$ 開始逐漸下降回降至近乎正常值。然而，持續高度活化的 Angiotensin II 與 $\text{TXA}_2$ 造成持續且強烈的 Afferent 血管收縮 ($R_A \\uparrow\\uparrow$)，使得 RBF 與 SNGFR 降至極低位，引發持久性 Obstructive Nephropathy。\n\n| Hemodynamic Stage | Timeline | Intratubular Pressure ($P_T$) | Afferent Resistance ($R_A$) | Glomerular Hydraulic Pressure ($P_{GC}$) | SNGFR & RBF Outcome |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Phase 1 (Early Acute)** | 0–2 Hours | Markedly Increased ($\\uparrow\\uparrow$) | Decreased ($R_A \\downarrow$, PGE2 / NO) | Increased ($P_{GC} \\uparrow$) | **SNGFR Maintained** / Transient RBF Surge |\n| **Phase 2 (Subacute)** | 2–5 Hours | High / Elevated ($\\uparrow$) | Markedly Increased ($R_A \\uparrow\\uparrow$) | Decreased ($P_{GC} \\downarrow$) | **SNGFR & RBF Decline** |\n| **Phase 3 (Late Chronic)** | >5 to 24 Hours | Decreasing toward Baseline ($P_T \\downarrow$) | Markedly Increased ($R_A \\uparrow\\uparrow$) | Decreased ($P_{GC} \\downarrow$) | **Profound SNGFR & RBF Collapse** ($\text{GFR} \\downarrow\\downarrow$) |\n\n| Vasoactive Factor | Predominant Source & Trigger | Primary Vascular / Hemodynamic Target | Net Effect on Obstruction |\n| :--- | :--- | :--- | :--- |\n| **Prostaglandin $E_2$ ($\text{PGE}_2$)** | Renal Medullary Interstitial Cells & COX-2 | Afferent Arteriolar Vasodilation ($R_A \\downarrow$) | Preserves early GFR; NSAIDs block this and exacerbate AKI |\n| **Angiotensin II (ANG II)** | Local Intrarenal RAS & NF-$\\kappa$B activation | Afferent & Efferent Vasoconstriction ($R_A \\uparrow\\uparrow$) | Drives Phase 2/3 RBF reduction and interstitial fibrosis |\n| **Thromboxane $A_2$ ($\text{TXA}_2$)** | Infiltrating Macrophages & Platelets | Intense Pre-glomerular Vasoconstriction | Mediates prolonged ischemia and SNGFR suppression |\n| **Atrial Natriuretic Peptide (ANP)** | Systemic Accumulation in Bilateral Obstruction | Pre-glomerular dilation & Post-glomerular constriction | Blunts $R_A$ rise in BUO; drives Post-Obstructive Diuresis |\n\n### Pathophysiological Decision Trees\n- **Triphasic Hemodynamic Pathway**: Ureteral Obstruction ➔ $P_T \\uparrow\\uparrow$ ➔ Phase 1: $\text{PGE}_2 / \text{NO}$ Release ➔ $R_A \\downarrow$ & $P_{GC} \\uparrow$ (SNGFR preserved) ➔ Phase 2/3: ANG II & $\text{TXA}_2$ Surge ➔ $R_A \\uparrow\\uparrow$ ➔ $P_{GC} \\downarrow$ & Severe RBF Collapse (Obstructive AKI).\n\n### Conceptual Trap Analysis\n- **Phase 3 Pressure Fall Trap**: 切勿誤以為 Phase 3 內 $P_T$ 下降代表阻塞自行緩解！Phase 3 的 $P_T$ 下降主因是 Pyelovenous backflow 與 GFR 崩潰，此時 $R_A$ 血管收縮達到巔峰，SNGFR 與 RBF 陷入嚴重缺血狀態。"
+        }
+      ]
+    },
+    {
+      "moduleId": "tubular_transport_type4_rta",
+      "moduleTitle": "3. Tubular Transport Defects, Electrolyte Derangements & Voltage-Dependent Type 4 RTA",
+      "studyGuide": "本模組聚焦於 Obstructive Nephropathy 引發的腎小管上皮細胞膜轉運體 (AQP2, ENaC, NKCC2) 下調機制、細胞能量代謝改變 (MAPKs 增加, Na+/K+-ATPase 降低)、Nephrogenic Diabetes Insipidus (NDI) 之濃縮功能障礙，以及 Voltage-Dependent Type 4 RTA (Hyperkalemic Distal RTA) 的電位機制。",
+      "diagrams": [
+        {
+          "id": "brenner_table_37_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_37_3.png",
+          "caption": "Brenner 11e Table 37.3: Function of Isolated Perfused Tubules in Obstructive Nephropathy (Demonstrates marked reduction in mTAL chloride transport and CCT ADH responsiveness).",
+          "sourceBook": "Brenner 11e Ch 37"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Transporter Downregulation & Voltage-Dependent Distal Tubular Defect",
+          "diagram": {
+            "id": "obstructive_uropathy_tubular_defect_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/obstructive_uropathy_tubular_defect.jpg",
+            "caption": "Figure 3.1: Downregulation of Tubular Transporters (AQP2, ENaC, NKCC2) causing Nephrogenic Diabetes Insipidus and Type 4 RTA.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Obstructive Uropathy 會引發腎小管上皮細胞分子層級的轉運體下調與能量代謝重組：\n1. **Molecular Transporter Downregulation**: Medullary Thick Ascending Limb (mTAL) 上之 $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-transporter (NKCC2) 活性驟降 76% (ACl mTAL 降低)，破壞 Medullary Hypertonicity；Cortical & Medullary Collecting Duct 之 Aquaporin-2 (AQP2) 與 Epithelial Sodium Channel (ENaC) 亦顯著下調，造成 ADH Resistance，引發 Vasopressin-Resistant Nephrogenic Diabetes Insipidus (NDI) 與 Urinary Concentrating Defect。\n2. **Voltage-Dependent Type 4 RTA (Hyperkalemic Distal RTA)**: 骨盆腫瘤 (如 Cervical Cancer) 壓迫導致雙側 Hydronephrosis 時，患者常呈現 AKI 伴隨 Hyperkalemia, Hyponatremia 及 Hyperchloremic Metabolic Acidosis。其核心機轉為：Distal Nephron 膜上 ENaC 下調導致 $\text{Na}^+$ 重吸收受阻，無法建立正常的 Lumen-Negative Electrical Potential，進而抑制了 Principal Cells 的 $\text{K}^+$ 分泌與 Intercalated Cells 的 $\text{H}^+$ 分泌 (Aldosterone Resistance / Voltage-Dependent Distal RTA)。\n3. **Enzymatic & Metabolic Reprogramming**: 阻塞後Anaerobic Glycolysis、G6PD、Phosphogluconate Dehydrogenase 及 Mitogen-Activated Protein Kinases (MAPKs) 顯著**增加** (此為高頻錯題 trap：MAPK 係被激活而非降低)；而 $\text{Na}^+/\text{K}^+$-ATPase、NADH/NADPH Dehydrogenase 與 Oxygen Consumption 則顯著**降低**。\n\n| Tubular Segment | Downregulated Transporter / Channel | Physiological Impact | Clinical Manifestation |\n| :--- | :--- | :--- | :--- |\n| **mTAL** | $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-transporter (NKCC2) | Impaired NaCl reabsorption & lost medullary gradient | Hyposthenuria & Impaired Concentrating Ability |\n| **Collecting Duct (Principal)** | Aquaporin-2 (AQP2) & AQP3/AQP4 | Vasopressin resistance & impaired water reabsorption | **Nephrogenic Diabetes Insipidus (NDI)** |\n| **Distal Tubule / CD** | Epithelial Sodium Channel (ENaC) | Blunted Lumen-Negative Potential | **Voltage-Dependent Type 4 RTA** (Hyperkalemia) |\n| **Proximal Tubule (PST)** | $\text{Na}^+/\text{H}^+$ Exchanger (NHE3) & Fluid reabsorption | Reduced proximal fluid reabsorption by 52% | Salt-wasting & impaired ammoniagenesis |\n\n| Cellular Parameter | Response to Urinary Obstruction | Molecular Mechanism / Functional Role |\n| :--- | :--- | :--- |\n| **Mitogen-Activated Protein Kinases (MAPK)** | **INCREASED (Activated)** | Mediates cell stress, inflammatory signaling & interstitial fibrosis |\n| **Anaerobic Glycolysis & G6PD** | **INCREASED** | Metabolic shift to pentose phosphate pathway under hypoxic stress |\n| **$\text{Na}^+/\text{K}^+$-ATPase Activity** | **DECREASED** | Impairs primary active sodium transport across basolateral membrane |\n| **Oxygen Consumption & Substrate Uptake** | **DECREASED** | Mitochondrial suppression due to sustained tissue ischemia |\n\n### Pathophysiological Decision Trees\n- **Type 4 RTA Mechanism Pathway**: Ureteral Obstruction ➔ Distal ENaC Downregulation ➔ Reduced Distal $\text{Na}^+$ Reabsorption ➔ Loss of Lumen-Negative Potential ➔ Inhibited $\text{K}^+$ and $\text{H}^+$ Secretion ➔ **Hyperkalemia & Metabolic Acidosis (Type 4 RTA)**.\n\n### Conceptual Trap Analysis\n- **MAPK Alteration Trap**: 絕對不可將 MAPK 誤判為降低！Urinary Obstruction 會高度驅動 MAPK (ERK/p38/JNK) 磷酸化活性以誘發 Tubulointerstitial Fibrosis；同理，Anaerobic Glycolysis 與 G6PD 亦呈代償性升高。"
+        }
+      ]
+    },
+    {
+      "moduleId": "post_obstructive_diuresis_management",
+      "moduleTitle": "4. Post-Obstructive Diuresis (POD) Pathophysiology & Management Protocol",
+      "studyGuide": "本模組精解雙側阻塞或單腎阻塞解除後 Post-Obstructive Diuresis (POD) 的生理性與病理性鑑別診斷、水分與電解質流失機制，以及臨床液體補充 (50–75% Hypotonic Saline Replacement Protocol) 與急診處置優先順序 (Decompression vs Emergency Hemodialysis)。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_37_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_37_4.png",
+          "caption": "Brenner 11e Fig. 37.4: Computed Tomography demonstrating severe urinary retention from Benign Prostatic Hyperplasia (BPH), a classic setup for Post-Obstructive Diuresis upon catheterization.",
+          "sourceBook": "Brenner 11e Ch 37"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Physiologic vs Pathologic POD & Fluid Replacement Algorithm",
+          "diagram": {
+            "id": "obstructive_uropathy_pod_protocol_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/obstructive_uropathy_pod_protocol.jpg",
+            "caption": "Figure 4.1: Post-Obstructive Diuresis (POD) Clinical Management Protocol & Fluid Replacement Rate (50-75% Rule).",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "解除 Severe Bilateral Obstruction 或 Solitary Kidney Obstruction 後，患者常發生強烈的 Post-Obstructive Diuresis (POD)：\n1. **Physiologic vs Pathologic POD**: 生理性 POD 係因阻塞期間蓄積的高濃度 Retained Urea 引發Osmotic Diuresis 及Volume Expansion 的生理排泄，隨水鹽平衡恢復而自行終止；病理性 POD (Pathologic POD, 尿量 > 200 mL/h 連續持續 2 小時以上，或 > 3 L/24h) 則係因腎小管 AQP2 / ENaC 長期下調導致 ADH 反應性喪失與 Salt-Wasting，若不及時介入會引發嚴重 Volume Depletion, Severe Hyponatremia/Hypernatremia, Hypokalemia 及 Hypomagnesemia。\n2. **Fluid Replacement Protocol (50-75% Rule)**: 治療病理性 POD 的關鍵迷思為「1:1 完全等量補水」—若 100% 補回尿量，會持續維持醫源性 Osmotic Diuresis 使得利尿永不停止。正確做法為：點滴給予 0.45% Saline (Hypotonic Fluid)，補充前一小時尿量的 **50% 至 75%**，並允許體液與水鹽負擔逐步降至生理平衡點。\n3. **Decompression Priority Trap**: 當患者因 Obstructive Uropathy 呈現極重度 Uremia (如 BUN > 100 mg/dL) 伴隨 Cardiomegaly 或 Fluid Overload 時，**首選處置為Emergent Decompression (Foley Catheter / PCN / JJ Stent)**，絕非直接安排 Emergency Hemodialysis！解除阻塞後尿路暢通即可恢復腎功能。\n\n| POD Type | Underlying Mechanism | Clinical Features | Therapeutic Strategy |\n| :--- | :--- | :--- | :--- |\n| **Physiologic POD** | Osmotic diuresis from retained urea & volume expansion | Self-limiting, stable vitals, gradual normalization of UOP | Allow oral intake, close monitoring of weight and electrolytes |\n| **Pathologic POD** | Tubular unresponsiveness to ADH (AQP2 downregulation) & salt-wasting | UOP > 200 mL/h, orthostatic hypotension, electrolyte collapse | **IV 0.45% NaCl at 50–75% of previous hour's UOP** |\n\n| Clinical Scenario | Erroneous / Dangerous Management | Correct First-Line Intervention | Rationale |\n| :--- | :--- | :--- | :--- |\n| **Severe Uremia due to Obstruction** | Immediate Emergency Hemodialysis | **Urgent Decompression (Foley / PCN)** | Resolves post-renal obstruction; renal function recovers post-decompression |\n| **Pathologic Post-Obstructive Diuresis** | 1:1 (100%) Fluid Replacement | **50–75% Fluid Replacement with 0.45% Saline** | 100% replacement perpetuates iatrogenic osmotic diuresis |\n| **Suspected Retroperitoneal Fibrosis** | Excluding obstruction based on normal US | **Doppler RI > 0.70 or Non-contrast CT** | Retroperitoneal fibrosis encases ureter without overt pelvicalyceal expansion |\n\n### Pathophysiological Decision Trees\n- **POD Management Flowchart**: Relieve Obstruction (Foley / PCN) ➔ Monitor Hourly Urine Output ➔ If UOP > 200 mL/h for 2 consecutive hours ➔ Check Serum & Urine Electrolytes ➔ Initiate IV 0.45% Saline at 50–75% of UOP ➔ Gradually Taper IV Fluids as Renal Function & Concentrating Ability Recover.\n\n### Conceptual Trap Analysis\n- **Emergency Dialysis Priority Trap**: 遇到 Uremic Symptoms 併雙側 Hydronephrosis 患者，題目常設陷阱誘使考生選擇 Emergency Hemodialysis；第一時間必須先選擇引流解除阻塞 (Decompression)！透析僅用於解除阻塞後無效或伴隨致命性 Hyperkalemia / Pulmonary Edema 且無法立即引流時。"
+        }
+      ]
+    }
+  ]
+}

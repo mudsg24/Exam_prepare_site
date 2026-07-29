@@ -11,8 +11,7 @@ import {
   Maximize2,
   X,
 } from 'lucide-react';
-import { marked } from 'marked';
-import { renderKaTeXInString } from '../utils/katexRenderer';
+import { renderFormattedMarkdownToHTML } from '../utils/markdownRenderer';
 import { ExamTutorial, ThemeMode, TutorialModule, TutorialDiagram } from '../types/exam';
 
 interface TutorialReaderViewProps {
@@ -24,29 +23,16 @@ interface TutorialReaderViewProps {
 
 function renderFormattedMarkdown(rawText: string, isLight: boolean) {
   if (!rawText) return null;
-  const mathRendered = renderKaTeXInString(rawText);
+  const html = renderFormattedMarkdownToHTML(rawText);
 
-  try {
-    const html = marked.parse(mathRendered, { async: false }) as string;
-    return (
-      <div
-        className={`prose max-w-none text-sm md:text-base leading-relaxed space-y-3 font-sans selection:bg-emerald-500 selection:text-white ${
-          isLight ? 'text-slate-800' : 'text-slate-200 prose-invert'
-        }`}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    );
-  } catch (e) {
-    return (
-      <div
-        className={`whitespace-pre-line text-sm leading-relaxed ${
-          isLight ? 'text-slate-800' : 'text-slate-200'
-        }`}
-      >
-        {rawText}
-      </div>
-    );
-  }
+  return (
+    <div
+      className={`prose max-w-none text-sm md:text-base leading-relaxed space-y-3 font-sans selection:bg-emerald-500 selection:text-white ${
+        isLight ? 'text-slate-800' : 'text-slate-200 prose-invert'
+      }`}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
 }
 
 export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({

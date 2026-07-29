@@ -1,0 +1,108 @@
+{
+  "id": "2026_kaohsiung_cgmh_tips",
+  "title": "2026 高長考訊重點轉化",
+  "description": "整合高雄長庚 2026 腎臟專科考訊重點，涵蓋 Primary Membranous Nephropathy、Calcitriol 代謝、Diabetic Nephropathy 與 ARNI 血液動力學等四大核心主題。",
+  "tags": ["Kaohsiung CGMH", "Membranous Nephropathy", "Hypercalcemia", "Diabetic Nephropathy", "Peritoneal Dialysis"],
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Primary Membranous Nephropathy, Podocyte Autoantigens & Nephrotic Hypercoagulability",
+      "content": "### 1. Dynamic Receptor Mapping Matrix\n\n| Autoantigen | Prevalence in Primary MN | Clinical Significance |\n| :--- | :--- | :--- |\n| PLA2R | 70–80% | 疾病活性指標。Immunologic remission 通常早於 Clinical remission。 |\n| THSD7A | 1–5% | 與 Primary Membranous Nephropathy 相關，部分研究顯示可能與 Malignancy 有較高關聯。 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Primary Membranous Nephropathy | Secondary Membranous Nephropathy |\n| :--- | :--- | :--- |\n| Pathogenesis | 針對 PLA2R 或 THSD7A 之 Autoantibodies | 肇因於 Malignancy、Infections (HBV, HCV)、SLE (Class V) 或 Drugs (NSAIDs, Penicillamine) |\n| Electron Microscopy | Subepithelial electron-dense deposits 伴隨 GBM spikes and holes | 除了 Subepithelial deposits 外，亦可能出現 Mesangial 或 Subendothelial deposits |\n\n### 3. Pathophysiological Decision Tree\n\nPodocyte autoantigen presentation ➔ Anti-PLA2R antibody production ➔ In situ immune complex formation 於 Subepithelial space ➔ Complement activation (C5b-9 MAC) ➔ Podocyte injury and effacement ➔ Proteinuria (Nephrotic Syndrome) ➔ 尿中流失 Antithrombin III 與 Protein S ➔ Hepatic synthesis of procoagulants (Fibrinogen, Factor VIII) 增加 ➔ Hypercoagulable state ➔ Renal Vein Thrombosis (RVT) 與全身性 VTE。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 在 Membranous Nephropathy 中混淆 Immunologic remission 與 Clinical remission 的時間軸。\n**Analysis**: Immunologic remission（血清中 Anti-PLA2R antibodies 廓清）發生的時間點，通常比 Clinical remission（Proteinuria 緩解）早數週至數個月。若單憑 Proteinuria 來評估立即的治療反應，極易導致過早提升 Immunosuppression 的劑量。\n\n**Trap**: 低估 Nephrotic Syndrome 併發 VTE 的風險。\n**Analysis**: 當 Serum Albumin 降至小於 2.0–2.5 g/dL 的閾值時，發生 Renal Vein Thrombosis (RVT) 與全身性 VTE 的風險將顯著攀升。必須考慮給予預防性 Systemic anticoagulation，並從 UFH 或 LMWH 轉換為 Warfarin 或 DOAC，且持續時間往往需要超過 3–6 個月。",
+      "diagrams": [
+        {
+          "id": "fig-31-17",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_31_17.png",
+          "caption": "Brenner 11e Ch 31: Pathological spectrum of Membranous Nephropathy"
+        },
+        {
+          "id": "fig-31-18",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_31_18.png",
+          "caption": "Brenner 11e Ch 31: Electron microscopy showing subepithelial deposits and GBM spikes/holes"
+        },
+        {
+          "id": "fig-module-1-ai",
+          "type": "ai_illustration",
+          "url": "/server-data/assets/kaohsiung_cgmh_module1_mn_hypercoagulable.jpg",
+          "caption": "Mechanisms of Nephrotic Hypercoagulability in Membranous Nephropathy"
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Granulomatous Calcitriol Metabolism & Ectopic Parathyroid Endocrine Dynamics",
+      "content": "### 1. Dynamic Pathway Mapping Matrix\n\n| Enzyme / Hormone | Source | Regulation in Granulomatous Disease |\n| :--- | :--- | :--- |\n| 1-alpha-hydroxylase | Granuloma 內的 Activated Macrophages | Ectopic expression；具自主性，不受 PTH、FGF23 或 Hypercalcemia 的負回饋抑制。 |\n| Calcitriol | Extra-renal conversion (25(OH)D 轉換為 1,25(OH)2D) | 不受調控的過度製造，驅動 Hypercalcemia。 |\n| PTH | Parathyroid Glands | 透過 CaSR 受到 Hypercalcemia 的負回饋抑制。 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Parameter | Primary Hyperparathyroidism | Granulomatous Hypercalcemia (如 Tuberculosis, Sarcoidosis) |\n| :--- | :--- | :--- |\n| Serum Calcium | 升高 | 升高 |\n| Serum PTH | 不適切地升高或正常 | 受到抑制 |\n| 1,25(OH)2D (Calcitriol) | 升高 (由 PTH 驅動) | 升高 (由 Ectopic macrophage 1-alpha-hydroxylase 驅動) |\n\n### 3. Pathophysiological Decision Tree\n\nTuberculosis infection ➔ Granulomas 內 Macrophage activation ➔ Ectopic expression of 1-alpha-hydroxylase ➔ 25(OH)D 不受控地轉換為 Calcitriol ➔ 腸道吸收 Calcium 增加 ➔ Hypercalcemia ➔ 負回饋抑制 Parathyroid glands ➔ PTH levels 下降。\n\nParathyroid embryogenesis ➔ Inferior parathyroid glands 伴隨 Thymus 從 3rd pharyngeal pouch 移行 ➔ 移行停滯 ➔ 形成位於 Anterior mediastinum 的 Ectopic Parathyroid Adenoma。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 誤以為 Mediastinum 呈現 Technetium-99m Sestamibi scan 陽性攝取，便能確診為 Ectopic Parathyroid Adenoma。\n**Analysis**: 雖然 Technetium-99m Sestamibi 被用來定位 Parathyroid Adenoma，但 Tuberculosis 造成的 Mediastinal lymphadenopathy 與 Calcified lymph nodes 同樣會產生偽陽性的顯影攝取。必須高度結合 Serum PTH levels 進行臨床判斷，才能在 Ectopic Parathyroid Adenoma 與 Granulomatous Disease 之間做出精確的鑑別診斷。",
+      "diagrams": [
+        {
+          "id": "fig-7-4",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_7_4.png",
+          "caption": "Brenner 11e Ch 07: Vitamin D pathway and 1-alpha-hydroxylase regulation"
+        },
+        {
+          "id": "fig-18-1",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_18_1.png",
+          "caption": "Brenner 11e Ch 18: Diagnostic algorithm for Hypercalcemia and PTH profile"
+        },
+        {
+          "id": "fig-module-2-ai",
+          "type": "ai_illustration",
+          "url": "/server-data/assets/kaohsiung_cgmh_module2_tb_parathyroid_calcium.jpg",
+          "caption": "Ectopic Parathyroid Adenoma and Granulomatous Hypercalcemia"
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Diabetic Microvascular Pathology & Infection-Related Glomerulonephritis Spectrum",
+      "content": "### 1. Dynamic Histopathology Mapping Matrix\n\n| Disease Entity | Key Histopathological Findings | Immunofluorescence (IF) Pattern |\n| :--- | :--- | :--- |\n| Diabetic Nephropathy | GBM thickening, Mesangial expansion, Arteriolar hyalinosis, Kimmelstiel-Wilson nodules | 瀰漫性線狀 IgG 與 Albumin 沉積 (非特異性 Plasma protein adsorption) |\n| Staphylococcus-associated PIGN | Endocapillary proliferation, Subepithelial humps | Mesangium 與 Capillary loops 呈現 IgA-dominant 或 co-dominant 沉積 |\n| Anti-GBM Disease | Crescentic Glomerulonephritis | IgG 嚴格沿著 GBM 呈現線狀沉積 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Staphylococcus-associated PIGN | IgA Nephropathy | Post-streptococcal Glomerulonephritis (PSGN) |\n| :--- | :--- | :--- | :--- |\n| Typical Patient | 高齡、DM、正處於活躍的 MRSA infection | 年輕成人、URI 過後 | 孩童、Pharyngitis (1–3 週) 或 Impetigo (2–6 週) 過後 |\n| Serum C3 Level | 正常或低下 | 正常 | 低下 |\n| Clinical Onset | 與進行中的 Infection 同步發生 | Synpharyngitic (URI 後 1–2 天出現 Gross hematuria) | Infection 緩解後延遲發作 |\n\n### 3. Pathophysiological Decision Tree\n\nChronic hyperglycemia ➔ 結構蛋白發生 Non-enzymatic glycosylation (AGEs) ➔ GBM permeability 增加並出現瀰漫性 IgG 與 Albumin 附著 ➔ Mesangial matrix expansion ➔ 形成 Kimmelstiel-Wilson nodules ➔ Diabetic Glomerulosclerosis。\n\nStaphylococcus infection (如 DM 族群合併 MRSA) ➔ 循環中出現 IgA-dominant immune complexes ➔ 沉積於 Mesangium 與 Subepithelial space ➔ 誘發 Endocapillary proliferation 與 Subepithelial humps ➔ Glomerular inflammation (PIGN)。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 在 Diabetic 患者的 Immunofluorescence (IF) 上看到瀰漫性線狀 IgG 沉積，就直接診斷為 Anti-GBM Disease。\n**Analysis**: 晚期的 Diabetic Nephropathy 經常因為增厚的 GBM 發生非特異性的 Plasma protein adsorption，而在 IF 呈現瀰漫性線狀的 IgG 與 Albumin 沉積。這必須與 Anti-GBM Disease (Goodpasture syndrome) 中具致病性的線狀 IgG autoantibodies 做出鑑別，後者通常會表現出快速進展的 Crescentic Glomerulonephritis。",
+      "diagrams": [
+        {
+          "id": "fig-39-4",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_39_4.png",
+          "caption": "Brenner 11e Ch 39: Histopathology of Diabetic Nephropathy showing Kimmelstiel-Wilson Nodules"
+        },
+        {
+          "id": "fig-31-12",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_31_12.png",
+          "caption": "Brenner 11e Ch 31: Post-infectious Glomerulonephritis with subepithelial humps"
+        },
+        {
+          "id": "fig-module-3-ai",
+          "type": "ai_illustration",
+          "url": "/server-data/assets/kaohsiung_cgmh_module3_diabetic_staph_gn.jpg",
+          "caption": "Diabetic Glomerulosclerosis vs Post-infectious Glomerulonephritis"
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: Peritoneal Transport Mechanics, ARNI Hemodynamics & Proximal Tubular Biomarkers",
+      "content": "### 1. Dynamic Biomarker & Hemodynamic Mapping Matrix\n\n| Agent / Biomarker | Mechanism of Action / Source | Renal Hemodynamic or Structural Impact |\n| :--- | :--- | :--- |\n| Sacubitril (Neprilysin inhibitor) | 增加 ANP 與 BNP levels | Afferent arteriole dilation |\n| Valsartan (ARB) | 阻斷 Angiotensin II Type 1 Receptor | Efferent arteriole dilation |\n| KIM-1 & IL-18 | 由 Proximal Tubular Epithelial Cells 脫落 | 標記 Ischemic/Toxic AKI 發生時的實質結構性 Proximal tubular injury |\n\n### 2. High-Yield Differential Comparison Table\n\n| Peritoneal Dialysis Transporter Status | Dialysate/Plasma (D/P) Creatinine | Glucose Osmotic Gradient | Ultrafiltration Profile |\n| :--- | :--- | :--- | :--- |\n| High Transporter (Fast Transporter) | 高 | 因 Glucose 快速吸收而迅速消退 | Ultrafiltration 失敗，尤其在長 dwell times 下；失去 Aquaporin-1 介導的 Free-water sodium dip |\n| Low Transporter (Slow Transporter) | 低 | 能夠在較長時間內維持 | 搭配長 dwell times 可獲得適當的 Ultrafiltration |\n\n### 3. Pathophysiological Decision Tree\n\n長期 Peritoneal Dialysis ➔ Peritoneal membrane 發生 Neoangiogenesis 與 Fibrosis ➔ 轉變為 High Transporter 狀態 ➔ 快速吸收 Dialysate glucose ➔ 提早流失 Glucose osmotic gradient ➔ Ultrafiltration failure 並且喪失 Aquaporin-1 介導的 Free-water sodium dip ➔ 治療上必須改用較短的 dwell times 或使用 Icodextrin。\n\nHeart Failure 治療 ➔ 啟動 ARNI (Sacubitril/Valsartan) ➔ 雙重效應：ANP/BNP 介導的 Afferent arteriole dilation 加上 ARB 介導的 Efferent arteriole dilation ➔ 導致 Intraglomerular hydrostatic pressure 下降 ➔ 產生初期可接受的 Hemodynamic eGFR dip (屬於功能性變化而非結構損傷)。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 當患者轉變為 High Transporter 時，依然維持標準的長 dwell time Glucose-based Peritoneal Dialysis 處方。\n**Analysis**: High Transporters 會快速將 Dialysate 中的 Glucose 吸收至體內，導致驅動 Ultrafiltration 的 Osmotic gradient 迅速流失。若堅持長 dwell time，將無可避免地導致 Ultrafiltration failure 與 Volume overload。必須將處方調整為較短的 dwell times (例如 APD)，或是使用 Icodextrin，以提供不受小分子快速通透影響的持久 Colloid osmotic gradient。\n\n**Trap**: 將起始 ARNI 後出現的初期 eGFR dip 等同於結構性的 Acute Kidney Injury (AKI)。\n**Analysis**: 藉由 Sacubitril 擴張 Afferent arteriole 與 Valsartan 擴張 Efferent arteriole，會使 Intraglomerular hydrostatic pressure 深度下降，進而導致初期的 Hemodynamic eGFR 衰退。這純粹是 Hemodynamic 功能性變化，並不代表實質的 Tubular injury；若發生真實的結構性損傷，則會觀測到由 Proximal Tubular Epithelial Cells 釋放的 Damage biomarkers (如 KIM-1 與 IL-18) 上升。",
+      "diagrams": [
+        {
+          "id": "fig-64-2",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_64_2.png",
+          "caption": "Brenner 11e Ch 64: Peritoneal Equilibration Test (PET) D/P Creatinine curves for High Transporter"
+        },
+        {
+          "id": "fig-28-1",
+          "type": "micrograph",
+          "url": "/server-data/assets/Brenner_Fig_28_1.png",
+          "caption": "Brenner 11e Ch 28: Pathophysiology of Acute Kidney Injury and proximal tubular injury"
+        },
+        {
+          "id": "fig-module-4-ai",
+          "type": "ai_illustration",
+          "url": "/server-data/assets/kaohsiung_cgmh_module4_pd_arni_biomarkers.jpg",
+          "caption": "Peritoneal Transport and Renal Hemodynamics of ARNI"
+        }
+      ]
+    }
+  ]
+}

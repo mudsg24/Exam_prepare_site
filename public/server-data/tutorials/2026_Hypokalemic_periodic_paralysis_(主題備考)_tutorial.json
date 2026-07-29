@@ -1,0 +1,78 @@
+{
+  "id": "2026_Hypokalemic_periodic_paralysis_(主題備考)_tutorial",
+  "paperId": "2026_Hypokalemic_periodic_paralysis_(主題備考)",
+  "title": "2026 Kidney專科 Hypokalemic Periodic Paralysis 與 Thyrotoxic Periodic Paralysis 主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-29T15:50:00.000Z",
+  "modules": [
+    {
+      "id": "hpp_transcellular_shift_dynamics",
+      "title": "1. Pathophysiology & Transcellular Shift Dynamics of Hypokalemic Periodic Paralysis",
+      "content": "### Pathophysiology & Transcellular Shift Dynamics\n\nHypokalemic Periodic Paralysis 是一種急性的 Flaccid paralysis，其特徵為嚴重的 Hypokalemia。其核心病理機轉為劇烈的 Transcellular potassium shift，而非實質的 Total body potassium deficit。當 Na+/K+-ATPase 受到異常的 Hyperactivation 時，大量的 Potassium 會發生 Intracellular sequestration。常見的 Trigger factors 包括大量的 Carbohydrate ingestion 刺激 Insulin 分泌，以及強烈的 Beta-adrenergic stimuli。\n\n在診斷上，由於體內並無真正的 Potassium 消耗，因此 Renal potassium excretion 會顯著降低。這反映在尿液檢查上，呈現 Spot K+ < 20 mEq/L 以及 TTKG < 3 的特徵。\n\n#### Topology Mapping Matrix\n透過建構 Topology Mapping Matrix，可清楚呈現 Transcellular shift 發生時，Extracellular fluid 與 Intracellular fluid 之間 Ion gradients 的瞬時變化。\n\n#### High-Yield Differential Comparison Tables\n建立對比表格以釐清 Intracellular sequestration 與 True total body potassium depletion 之間，在 Electrolyte panels 與 Urine indices 的本質差異。\n\n#### Pathophysiological Decision Trees\n運用 Decision trees 分析從 Trigger exposure 至 Flaccid paralysis 發作的 Cascade，幫助快速定位 Na+/K+-ATPase hyperactivation 的源頭。\n\n#### Conceptual Trap Analysis\n臨床上常將 Hypokalemia 誤判為 Potassium depletion，此 Conceptual trap 極易導致錯誤的治療方向。必須謹記 HPP 的核心在於 Transcellular shift 而非 Deficit。",
+      "images": [
+        {
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_17_11.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.11: Diagnostic Approach to Hypokalemia"
+        },
+        {
+          "type": "ai_illustration",
+          "path": "/server-data/assets/hpp_transcellular_shift.jpg",
+          "caption": "AI Illustration: Transcellular Shift Dynamics & Sarcolemma Ion Flux"
+        }
+      ]
+    },
+    {
+      "id": "hpp_molecular_channelopathies",
+      "title": "2. Molecular Channelopathies & Hereditary Subtypes (FHypoPP1, FHypoPP2, Andersen-Tawil Syndrome)",
+      "content": "### Molecular Channelopathies & Hereditary Subtypes\n\nHereditary Hypokalemic Periodic Paralysis 主要源自特定的 Molecular channelopathies。最常見的 Subtype 為 FHypoPP1，其由 CACNA1S (Cav1.1) 的突變引起；其次為 FHypoPP2，與 SCN4A (Nav1.4) 的突變相關。這些突變會導致 Gating pore leak current (Omega current) 的異常，進一步引發 Sarcolemmal resting membrane potential 的Depolarization與激發 Flaccid paralysis。\n\n#### Andersen-Tawil Syndrome\n另一個關鍵的 Subtype 為 Andersen-Tawil Syndrome，其由 KCNJ2 (Kir2.1) 的突變所致。此症候群具有經典的 Triad：Periodic paralysis、Dysmorphic features，以及 QU prolongation 與 Bidirectional ventricular tachycardia。\n\n#### Prophylaxis & Conceptual Traps\n在預防與治療上，Carbonic anhydrase inhibitors 如 Acetazolamide 被廣泛應用於 FHypoPP 的預防。但在某些特定的 Channelopathies 中，Acetazolamide 可能會引發 Paradoxical exacerbation，這是臨床上必須警覺的 Conceptual trap。",
+      "images": [
+        {
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_17_8.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.8: Skeletal Muscle Voltage-Gated Channel Mutations"
+        },
+        {
+          "type": "ai_illustration",
+          "path": "/server-data/assets/hpp_gating_pore_current.jpg",
+          "caption": "AI Illustration: Molecular Channelopathies & Gating Pore Current Leak"
+        }
+      ]
+    },
+    {
+      "id": "tpp_clinical_spectrum_management",
+      "title": "3. Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum & Emergency Management",
+      "content": "### Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum\n\nThyrotoxic Periodic Paralysis 是一種常見於 Asian male 的急症，其發生率呈現極端的 Male-to-female ratio。其病理機制主要由 Hyperthyroidism 引起，過高的 Thyroid hormone 會誘發 Na+/K+-ATPase 的 Hyperactivation，並與 KCNJ18 (Kir2.6) 的 Channel defect 密切相關。\n\n#### Emergency Management & Rebound Hyperkalemia\n在 Emergency management 方面，核心原則為 Cautious low-dose Potassium repletion。由於病患體內並無實質的 Total body potassium depletion，若給予過快的 High-dose potassium 補充，在 Transcellular shift 隨時間緩解後，極易引發嚴重的 Rebound hyperkalemia，其發生率可高達 40-50%。\n\n#### Acute Therapy & Prophylaxis\n針對 Acute therapy 與初期的 Prophylaxis，首選藥物為 Non-selective beta-blockers 如 Propranolol，可有效阻斷 Beta-adrenergic stimuli 對 Na+/K+-ATPase 的過度刺激。長期的治療終極目標則為徹底的 Euthyroid state restoration。",
+      "images": [
+        {
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_17_11.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.11: Hypokalemic Diagnostic Algorithm (TPP Context)"
+        },
+        {
+          "type": "ai_illustration",
+          "path": "/server-data/assets/shuangho_tpp_management.jpg",
+          "caption": "AI Illustration: TPP Emergency Management & Beta-blocker Action"
+        }
+      ]
+    },
+    {
+      "id": "hpp_differential_diagnosis_traps",
+      "title": "4. Differential Diagnosis & High-Yield Diagnostic Traps (HPP vs Secondary Hypokalemic Paralysis)",
+      "content": "### Differential Diagnosis of Acute Flaccid Paralysis\n\n在面對 Acute flaccid paralysis 合併 Hypokalemia 的病患時，必須進行全面的 Differential diagnosis。核心挑戰在於區分真正的 Hypokalemic Periodic Paralysis 與 Secondary Hypokalemic Paralysis。\n\n#### Secondary Hypokalemic Paralysis\n必須將 Gitelman syndrome、Bartter syndrome、Distal RTA、Licorice ingestion，以及 Diuretic abuse 等 Secondary causes 列入考量。這些 Secondary causes 通常伴隨明顯的 Body potassium deficit 與高量的 Renal potassium wasting，與 HPP 截然不同。\n\n#### Neuromuscular Disorders & Hyperkalemic PP\n此外，Neuromuscular disorders 如 Guillain-Barré syndrome 與 Myasthenia gravis，以及 Hyperkalemic Periodic Paralysis 也必須透過詳細的 History taking 與 Laboratory evaluation 進行排除。\n\n#### Summary Matrix & Decision Trees\n透過 Systematic decision trees 與 Summary matrix，針對 Potassium status、Acid-base balance (Metabolic acidosis/alkalosis) 與 Urine indices 進行交叉比對，可以有效避免 Clinical misdiagnosis 與 Diagnostic traps。",
+      "images": [
+        {
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_17_11.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.11: Comprehensive Hypokalemic Diagnostic Algorithm"
+        },
+        {
+          "type": "ai_illustration",
+          "path": "/server-data/assets/shuangho_hpp_differential_diagnosis.jpg",
+          "caption": "AI Illustration: Differential Diagnosis Traps & Acid-Base Cross Comparison"
+        }
+      ]
+    }
+  ]
+}

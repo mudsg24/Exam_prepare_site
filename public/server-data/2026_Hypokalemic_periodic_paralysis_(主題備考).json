@@ -1,0 +1,204 @@
+{
+  "paperId": "2026_Hypokalemic_periodic_paralysis_(主題備考)",
+  "title": "2026 Kidney專科 Hypokalemic Periodic Paralysis 與 Thyrotoxic Periodic Paralysis 主題練習題庫",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-29T15:50:00.000Z",
+  "questions": [
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q01",
+      "stem": "A 25-year-old male presents with acute onset bilateral lower extremity weakness. Laboratory evaluation reveals a serum potassium of 2.1 mEq/L. Which of the following pathophysiological mechanisms best describes the primary cause of hypokalemia in this patient's condition?",
+      "options": [
+        {"id": "A", "text": "Increased transcellular shift of potassium driven by hyperactivation of Na+/K+-ATPase, leading to low urinary potassium excretion with a Transtubular Potassium Gradient (TTKG) < 3."},
+        {"id": "B", "text": "Renal potassium wasting due to impaired sodium chloride reabsorption in the distal convoluted tubule."},
+        {"id": "C", "text": "Gastrointestinal potassium loss associated with increased bicarbonate wasting."},
+        {"id": "D", "text": "Impaired aldosterone secretion leading to defective potassium excretion in the cortical collecting duct."}
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "導致 Hypokalemic periodic paralysis 的核心機轉是 Potassium 從 Extracellular fluid 大量轉移至 Intracellular fluid (Transcellular potassium shift)，這通常受到 Na+/K+-ATPase 活性異常增加的驅動。在急性發作期，Kidney會代償性保留 Potassium，因此 Urinary potassium 排泄量會顯著降低，通常 Transtubular Potassium Gradient (TTKG) 小於 3。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q02",
+      "stem": "A 18-year-old Caucasian male with a family history of episodic weakness is diagnosed with Familial Hypokalemic Periodic Paralysis type 1 (FHypoPP1). Which of the following genetic mutations is most commonly associated with this specific phenotype?",
+      "options": [
+        {"id": "A", "text": "Mutation in the SCN4A gene encoding the Nav1.4 voltage-gated sodium channel."},
+        {"id": "B", "text": "Mutation in the CACNA1S gene encoding the Cav1.1 L-type calcium channel."},
+        {"id": "C", "text": "Mutation in the KCNJ2 gene encoding the Kir2.1 inward-rectifier potassium channel."},
+        {"id": "D", "text": "Mutation in the KCNJ18 gene encoding the Kir2.6 inward-rectifier potassium channel."}
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Familial Hypokalemic Periodic Paralysis Type 1 是最常見的亞型，主要由 CACNA1S 基因突變引起。CACNA1S 基因負責編碼Skeletal muscle上的 Cav1.1 L-type calcium channel。此突變會導致 Gating pore current 異常，進而改變 Sarcolemmal resting membrane potential，使肌肉細胞容易在 Hypokalemia 發生時無法產生 Action potential，引發 Paralysis。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q03",
+      "stem": "A patient with clinical features of Familial Hypokalemic Periodic Paralysis undergoes genetic testing which reveals a mutation distinct from the most common type. He is diagnosed with FHypoPP2. Which of the following genes and corresponding channels are implicated in this diagnosis?",
+      "options": [
+        {"id": "A", "text": "CACNA1S gene and Cav1.1 L-type calcium channel."},
+        {"id": "B", "text": "KCNJ18 gene and Kir2.6 inward-rectifier potassium channel."},
+        {"id": "C", "text": "SCN4A gene and Nav1.4 voltage-gated sodium channel."},
+        {"id": "D", "text": "KCNJ2 gene and Kir2.1 inward-rectifier potassium channel."}
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Familial Hypokalemic Periodic Paralysis Type 2 佔家族性病例的次要比例，是由 SCN4A 基因突變所致。SCN4A 編碼Skeletal muscle細胞膜上的 Nav1.4 voltage-gated sodium channel。與 Type 1 相似，這類突變也會產生 Gating pore current，使靜止膜電位異常Depolarization，最終在 Hypokalemia 發生時導致肌肉失去興奮性。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q04",
+      "stem": "A 14-year-old female presents with episodes of generalized weakness. Physical examination reveals micrognathia, low-set ears, and clinodactyly. An electrocardiogram shows significant QT/QU interval prolongation and frequent premature ventricular contractions. Which of the following genetic etiologies best explains her presentation?",
+      "options": [
+        {"id": "A", "text": "Mutation in the CACNA1S gene encoding the Cav1.1 L-type calcium channel."},
+        {"id": "B", "text": "Mutation in the CLCN1 gene encoding the ClC-1 chloride channel."},
+        {"id": "C", "text": "Mutation in the SLC12A3 gene encoding the NCC sodium-chloride cotransporter."},
+        {"id": "D", "text": "Mutation in the KCNJ2 gene encoding the Kir2.1 inward-rectifier potassium channel."}
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "Andersen-Tawil Syndrome 的典型臨床三聯症包含 Periodic paralysis、Dysmorphic features (如 Micrognathia、Clinodactyly) 以及 Cardiac arrhythmias (如 QU prolongation、Bidirectional ventricular tachycardia)。此疾病主要由 KCNJ2 基因突變引起，該基因編碼Skeletal muscle與Cardiac muscle上的 Kir2.1 inward-rectifier potassium channel。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q05",
+      "stem": "A 28-year-old male of Asian descent develops sudden lower limb paralysis after consuming a heavy carbohydrate-rich meal. He is found to have profound hypokalemia. Subsequent workup confirms hyperthyroidism. Which of the following genetic factors most strongly predisposes this population to this specific syndrome?",
+      "options": [
+        {"id": "A", "text": "Mutation or variant in the KCNJ18 gene encoding the Kir2.6 inward-rectifier potassium channel."},
+        {"id": "B", "text": "Mutation in the CACNA1S gene encoding the Cav1.1 L-type calcium channel."},
+        {"id": "C", "text": "Autoimmune destruction of the thyrotropin receptor leading to spontaneous channelopathies."},
+        {"id": "D", "text": "Overexpression of the SCN4A gene leading to hypersensitive Nav1.4 sodium channels."}
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "Thyrotoxic Periodic Paralysis (TPP) 盛行於 Asian male。其發病機制除了 Hyperthyroidism 會增加 Na+/K+-ATPase 的表現與活性外，研究發現這類患者常帶有 KCNJ18 基因的變異。KCNJ18 編碼Skeletal muscle上的 Kir2.6 inward-rectifier potassium channel，其表現量受 Thyroid hormone 調控，變異會降低 Potassium 的流出能力，促使 Transcellular potassium shift 加劇。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q06",
+      "stem": "A 32-year-old Asian male presents to the emergency department at 6:00 AM with inability to move his arms and legs. He reports recent unintended weight loss, palpitations, and heat intolerance. An electrocardiogram shows sinus tachycardia, ST depression, and prominent U waves. Laboratory tests reveal a serum potassium of 1.8 mEq/L and a spot urine potassium-to-creatinine ratio of 10 mEq/g. Which of the following is the most likely diagnosis?",
+      "options": [
+        {"id": "A", "text": "Familial Hypokalemic Periodic Paralysis type 1"},
+        {"id": "B", "text": "Thyrotoxic Periodic Paralysis"},
+        {"id": "C", "text": "Gitelman syndrome"},
+        {"id": "D", "text": "Distal Renal Tubular Acidosis"}
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "這是一典型的 Thyrotoxic Periodic Paralysis (TPP) 臨床情境。患者為 Asian male，具備 Hyperthyroidism 症狀 (如體重減輕、心悸、怕熱、Sinus tachycardia)，並在清晨發生突發性 Paralysis。ECG 顯示 Hypokalemia 變化 (ST depression, Prominent U waves)。尿液 Potassium 排泄量低 (Spot urine K/Cr < 15 mEq/g) 證實Hypokalemia是源自 Transcellular shift 而非 Renal potassium wasting。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q07",
+      "stem": "A patient with an acute episode of Thyrotoxic Periodic Paralysis and a serum potassium of 1.9 mEq/L is receiving aggressive intravenous potassium chloride replacement. Which of the following potential complications is most critical to monitor for during and after the treatment?",
+      "options": [
+        {"id": "A", "text": "Development of severe metabolic alkalosis."},
+        {"id": "B", "text": "Osmotic demyelination syndrome due to rapid osmolar shifts."},
+        {"id": "C", "text": "Rebound hyperkalemia occurring when potassium shifts back from the intracellular to the extracellular fluid."},
+        {"id": "D", "text": "Induction of acute kidney injury from potassium crystal nephropathy."}
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "在治療 Hypokalemic periodic paralysis (包含 TPP 與 FHypoPP) 的急性發作時，必須極度謹慎地補充 Potassium。因為患者體內的 Total body potassium 並未減少，Hypokalemia純粹肇因於 Transcellular shift。當誘發因素消退或給予治療後，Potassium 會迅速從 Intracellular fluid 轉移回 Extracellular fluid，若先前補充過量的 Potassium，極易引發危及生命的 Rebound hyperkalemia。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q08",
+      "stem": "A 29-year-old male with confirmed Thyrotoxic Periodic Paralysis presents with paraparesis and a serum potassium of 2.3 mEq/L. In addition to careful and judicious potassium supplementation, which of the following pharmacological agents is most appropriate to hasten recovery and prevent imminent attacks by directly counteracting the underlying pathophysiological shift?",
+      "options": [
+        {"id": "A", "text": "Spironolactone"},
+        {"id": "B", "text": "Methimazole"},
+        {"id": "C", "text": "Acetazolamide"},
+        {"id": "D", "text": "Propranolol"}
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "在 Thyrotoxic Periodic Paralysis (TPP) 的急性期治療與短期預防中，Non-selective beta-blocker 如 Propranolol 扮演著核心角色。Hyperthyroidism 會導致 Beta-adrenergic receptor 敏感度上升，進而過度活化 Na+/K+-ATPase 造成 Potassium 進入細胞內。Propranolol 能迅速阻斷此一作用，反轉 Transcellular potassium shift，並減少 Rebound hyperkalemia 的風險。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q09",
+      "stem": "A 22-year-old male with confirmed Familial Hypokalemic Periodic Paralysis type 1 continues to experience frequent paralytic attacks despite avoiding carbohydrate-rich meals and strenuous exercise. Which of the following prophylactic medications is generally considered the first-line therapy?",
+      "options": [
+        {"id": "A", "text": "Acetazolamide"},
+        {"id": "B", "text": "Propylthiouracil"},
+        {"id": "C", "text": "Fludrocortisone"},
+        {"id": "D", "text": "Eplerenone"}
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "對於 Familial Hypokalemic Periodic Paralysis 患者，Carbonic anhydrase inhibitors (例如 Acetazolamide 或 Dichlorphenamide) 是預防發作的第一線用藥。其機轉主要透過抑制Kidney的 Carbonic anhydrase，引發輕微的 Metabolic acidosis，這有助於活化肌肉細胞的 ATP-sensitive potassium channel 並降低 Intracellular sodium 濃度，從而穩定 Resting membrane potential，減少 Paralysis 發作的頻率。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q10",
+      "stem": "A 30-year-old female presents with chronic intermittent muscle weakness and a serum potassium of 2.6 mEq/L. Laboratory investigations reveal metabolic alkalosis, hypomagnesemia, and prominent hypocalciuria. Spot urine potassium-to-creatinine ratio is 45 mEq/g. How does this patient's diagnosis differentiate fundamentally from Hypokalemic Periodic Paralysis?",
+      "options": [
+        {"id": "A", "text": "This patient's condition is characterized by a transcellular potassium shift, whereas Hypokalemic Periodic Paralysis is caused by gastrointestinal potassium loss."},
+        {"id": "B", "text": "This patient's condition features renal potassium wasting, metabolic alkalosis, and hypocalciuria, whereas Hypokalemic Periodic Paralysis exhibits low urine potassium excretion and typically normal acid-base status."},
+        {"id": "C", "text": "This patient's condition is mediated by hyperthyroidism, whereas Hypokalemic Periodic Paralysis is exclusively mediated by hyperaldosteronism."},
+        {"id": "D", "text": "This patient's condition involves mutations in the Cav1.1 channel, whereas Hypokalemic Periodic Paralysis involves the NCC cotransporter."}
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Gitelman syndrome 表現為 Renal potassium wasting (Urine K/Cr 高)、Metabolic alkalosis、Hypomagnesemia 與 Hypocalciuria，肇因於 NCC cotransporter 的基因突變。相反地，Hypokalemic Periodic Paralysis 的Hypokalemia來自於 Transcellular potassium shift，因此Kidney會代償性保存 Potassium，表現為低 Urine potassium excretion，且患者通常具有正常的 Acid-base status。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q11",
+      "stem": "A 35-year-old female presents with severe hypokalemic paralysis. Laboratory results demonstrate a serum potassium of 1.7 mEq/L, a serum bicarbonate of 14 mEq/L with a normal anion gap, and a urine pH of 6.5. Urine net charge is positive. Which of the following features best differentiates her condition from Hypokalemic Periodic Paralysis?",
+      "options": [
+        {"id": "A", "text": "Her condition is associated with severe hypophosphatemia and glycosuria."},
+        {"id": "B", "text": "Her condition is driven by massive gastrointestinal bicarbonate loss leading to volume depletion."},
+        {"id": "C", "text": "Her condition is characterized by normal anion gap metabolic acidosis, alkaline urine pH, and renal potassium wasting."},
+        {"id": "D", "text": "Her condition presents with prominent metabolic alkalosis and paradoxical aciduria."}
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "患者呈現 Normal anion gap metabolic acidosis、Urine pH > 5.5 且 Urine net charge 為正值，這是典型的 Distal Renal Tubular Acidosis (Type 1 RTA) 表現。Distal RTA 會因為 Hydrogen 離子分泌障礙，代償性增加 Potassium 排泄，導致 Renal potassium wasting 衍生的 Hypokalemia。這與 Hypokalemic Periodic Paralysis 單純的 Transcellular shift 及低 Urine potassium 且無 Acid-base disturbance 的特徵截然不同。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q12",
+      "stem": "A 20-year-old male presents with episodes of muscle weakness that typically begin shortly after intense physical exertion while he is resting, or after consuming bananas. During the attacks, his serum potassium is elevated, and the weakness generally resolves within an hour. Which of the following best contrasts his condition with Hypokalemic Periodic Paralysis?",
+      "options": [
+        {"id": "A", "text": "His condition is usually triggered by high-carbohydrate meals and presents with prolonged paralysis lasting for days."},
+        {"id": "B", "text": "His condition is caused exclusively by CACNA1S mutations and is cured by oral glucose loading."},
+        {"id": "C", "text": "His condition is characterized by profound urinary potassium wasting and concurrent hypomagnesemia."},
+        {"id": "D", "text": "His condition is often triggered by potassium ingestion or rest after exertion, features a shorter attack duration, and can be associated with SCN4A mutations."}
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "該患者的症狀符合 Hyperkalemic Periodic Paralysis。這種疾病常在 Rest after exertion 或 Potassium ingestion 後誘發發作，Paralysis 持續時間通常較短，多在數十分鐘至數小時內自發緩解。它主要由 SCN4A 基因突變引起。相較之下，Hypokalemic Periodic Paralysis 常由 Carbohydrate-rich meals 誘發，Paralysis 發作時間較長，可持續數小時至數天，且多與 CACNA1S 基因突變相關。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q13",
+      "stem": "An industrial worker accidentally ingests an unknown rodenticide compound containing soluble barium salts. Within two hours, he develops severe muscle weakness, nausea, and vomiting. Laboratory evaluation reveals a serum potassium of 1.9 mEq/L and profound hypokalemia without significant renal potassium wasting. Which of the following pathophysiological mechanisms directly accounts for the hypokalemia induced by barium toxicity?",
+      "options": [
+        {"id": "A", "text": "Direct blockade of inward rectifier potassium channels (Kir) coupled with enhanced Na+/K+-ATPase activity, causing rapid intracellular potassium sequestration."},
+        {"id": "B", "text": "Inhibition of the Na+/K+/2Cl- cotransporter in the thick ascending limb, resulting in acute solute diuresis."},
+        {"id": "C", "text": "Activation of the renin-angiotensin-aldosterone system leading to hyperaldosteronism and urinary potassium excretion."},
+        {"id": "D", "text": "Induction of severe renal tubular injury causing Fanconi syndrome with generalized transport failure."}
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "Barium poisoning 引發嚴重的 Hypokalemia 與 Flaccid paralysis，其核心機轉為 Barium 能直接 Blockade 的是 Inward rectifier potassium channels (Kir)，阻止 Potassium 從細胞內流出，同時刺激 Na+/K+-ATPase，導致強烈的 Intracellular potassium sequestration。此機轉與 Transcellular shift 引起的 Hypokalemic periodic paralysis 非常類似。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q14",
+      "stem": "A 26-year-old male presenting with acute quadriplegia secondary to Hypokalemic Periodic Paralysis has a serum potassium of 1.6 mEq/L. Which of the following electrocardiographic (ECG) changes is most characteristic of severe hypokalemia during an acute attack?",
+      "options": [
+        {"id": "A", "text": "Tall peaked T waves, short QT interval, and QRS widening."},
+        {"id": "B", "text": "ST segment depression, T wave flattening or inversion, prominent U waves, and prolonged QU interval."},
+        {"id": "C", "text": "Pathologic Q waves with convex ST elevation in anterior leads."},
+        {"id": "D", "text": "Shortened PR interval with delta waves consistent with Wolff-Parkinson-White pattern."}
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "急性 Hypokalemia 發作時，ECG 的典型特徵包含 ST segment depression、T wave flattening 或 inversion、明顯的 Prominent U waves 以及 Prolonged QU interval。這些變化反映了 Cardiac repolarization 延遲。若極度嚴重，可能誘發 Ventricular arrhythmias。"
+    },
+    {
+      "id": "2026_Hypokalemic_periodic_paralysis_Q15",
+      "stem": "A 72-year-old male presents with acute lower extremity weakness and muscle cramps. His blood pressure is 195/105 mmHg. Laboratory workup reveals a serum potassium of 2.2 mEq/L, serum bicarbonate of 34 mEq/L (metabolic alkalosis), and suppressed plasma renin activity and serum aldosterone levels. History reveals long-term ingestion of natural herbal candy containing licorice extract. How does his presentation differ from Thyrotoxic Periodic Paralysis?",
+      "options": [
+        {"id": "A", "text": "Licorice ingestion presents with low blood pressure and metabolic acidosis, whereas TPP presents with hypertension and metabolic alkalosis."},
+        {"id": "B", "text": "Licorice ingestion causes transcellular potassium shift, whereas TPP causes renal potassium wasting."},
+        {"id": "C", "text": "Licorice ingestion causes pseudohyperaldosteronism with severe hypertension, metabolic alkalosis, and renal potassium wasting, whereas TPP features adrenergic surge, normal acid-base balance, and transcellular potassium shift."},
+        {"id": "D", "text": "Licorice ingestion is caused by SCN4A gene mutations, whereas TPP is caused exclusively by CACNA1S gene mutations."}
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Chronic licorice ingestion 中含有 Glycyrrhizic acid，會抑制 11-beta-HSD2 酵素，導致 Cortisol 無法轉化為 Cortisone，進而引發 Apparent Mineralocorticoid Excess (AME) / Pseudohyperaldosteronism，表現為 Severe hypertension、Metabolic alkalosis 以及 High renal potassium wasting。相較之下，Thyrotoxic Periodic Paralysis (TPP) 表現為 Adrenergic surge、正常的 Acid-base balance 以及 Transcellular potassium shift (低 Urine potassium)。"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "2026_北慈_tutorial",
+  "paperId": "2026_北慈",
+  "title": "2026 腎臟專科 台北慈濟醫院 (北慈) 考訊試題 主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-29T14:57:00.000Z",
+  "modules": [
+    {
+      "moduleId": "drta_cai_acidosis",
+      "moduleTitle": "1. Distal Renal Tubular Acidosis (Type 1 RTA) & Carbonic Anhydrase Inhibitor-Induced RTA",
+      "studyGuide": "本模組剖析 Classical Distal Renal Tubular Acidosis (Type 1 cDRTA) 於 Autoimmune Disease 如 Sjögren Syndrome 攻擊 Medullary Collecting Duct Type A Intercalated Cells 引發之 H+-ATPase 缺失、Profound Hypokalemia、Hypokalemic Paralysis 伴隨 Respiratory Failure 之分子機制；並比較正值 Urine Anion Gap (+UAG)、Hypocitraturia 與 Bilateral Urolithiasis 之偶聯化學原理，以及眼藥水系統性吸收 Brinzolamide/Timolol 導致 Carbonic Anhydrase Inhibitor-induced RTA 之生化診斷。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_16_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+          "caption": "Brenner 11e Fig. 16.6: Type A intercalated cell of the collecting duct displaying five pathophysiologic defects that could result in classical distal renal tubular acidosis.",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "brenner_table_16_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_16_6.png",
+          "caption": "Brenner 11e Table 16.6: Differential Diagnosis of Non-Anion Gap (Hyperchloremic) Metabolic Acidosis.",
+          "sourceBook": "Brenner 11e Ch 16"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Distal RTA Pathophysiology, Autoimmune Etiology & Carbonic Anhydrase Inhibition",
+          "diagram": {
+            "id": "beici_module1_drta_cai_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/beici_2026_module1_drta_cai.jpg",
+            "caption": "Figure 1.1: Cellular Mechanics of Type A Intercalated Cell Dysfunction in Distal RTA vs Systemic Carbonic Anhydrase Inhibition.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Renal Tubular Acidosis (RTA) 為 Nephrology 核心考點，涉及 Proximal 及 Distal Tubule 之電解質與酸鹼調節機制：\n\n1. **Classical Distal RTA (Type 1 cDRTA) & Sjögren Syndrome**:\n   - 成人後天獲得性 cDRTA 最常見之 Autoimmune Etiology 為 **Sjögren Syndrome**。Autoantibodies 攻擊與 Lymphocytic Interstitial Infiltration 導致 Medullary Collecting Duct 之 **Apical Membrane 上 H+-ATPase 表達顯著缺失或無法正常部署**。\n   - 由於無法正常分泌 H+ 離子，Urine pH 持續無法降至 5.5 以下 (持續 **Urine pH > 5.5**)。\n   - 為維持電中性及缺乏 H+-K+-ATPase 協同重吸收，Collecting Duct Principal Cells 經由 ENaC 被動增加 K+ 排泄，引發極度深遠之 **Profound Hypokalemia (Serum K+ < 2.0 mEq/L)**。\n   - 嚴重低血鉀會引發 Flaccid Quadriparesis 與累及 Diaphragm 之 **Respiratory Failure**，常需急診進行 Mechanical Ventilation。在臨床上，Flaccid Quadriparesis 可能早於 Sicca Symptoms 出現。\n\n2. **Urine Anion Gap & Urolithiasis Pathophysiology**:\n   - 計算 **Urine Anion Gap (UAG)**: $\\text{UAG} = (\\text{U}_{\\text{Na}} + \\text{U}_{\\text{K}}) - \\text{U}_{\\text{Cl}}$。在 Hyperchloremic Metabolic Acidosis 中，**UAG 呈正值 (+UAG)**，證實 NH4+ 排泄功能障礙 (區分 Diarrhea 之負值 UAG)。\n   - 慢性 Systemic Acidosis 會代償性促進 Proximal Tubule 重吸收 Citrate，引發 **Hypocitraturia**；同時 Bone Resorption 釋放 Calcium 引發 **Hypercalciuria**。\n   - 在高 pH 尿液環境中，Hypocitraturia 與 Hypercalciuria 結合，極易引發 Calcium Phosphate 沉澱，導致反覆 **Bilateral Urolithiasis** 與 **Nephrocalcinosis**。\n\n3. **Topical Carbonic Anhydrase Inhibitor (CAI) Systemic Toxicity**:\n   - Ophthalmic Drop 如 **Brinzolamide / Timolol** 經由 Nasolacrimal Duct 系統性吸收後，會抑制 Proximal Tubule 之 Carbonic Anhydrase II/IV。\n   - 導致 Filtered HCO3- Reabsorption 受阻與遠端 H+ Secretion 受損，引發 **Carbonic Anhydrase Inhibitor-Induced RTA**。\n   - 臨床表現為 Hyperchloremic Metabolic Acidosis, Mild Hypokalemia, 與 Positive Urine Anion Gap，Fractional Excretion of Bicarbonate (FE-HCO3) 輕度升高。\n\n| Parameter / Feature | Classical Distal RTA (Type 1) | Proximal RTA (Type 2) | CAI-Induced RTA (Brinzolamide) | Diarrhea-Induced Acidosis |\n| :--- | :--- | :--- | :--- | :--- |\n| **Primary Defect** | Apical **H+-ATPase** Loss | Proximal **HCO3- Absorption** | **Carbonic Anhydrase** Inhibition | Intestinal HCO3- Loss |\n| **Minimum Urine pH** | **Inappropriately High (> 5.5)** | Can drop < 5.5 when loaded | Variable (> 5.5 during peak) | **Acidic (< 5.5)** |\n| **Urine Anion Gap (UAG)** | **Positive (+UAG)** | **Positive (+UAG)** | **Positive (+UAG)** | **Negative (-UAG)** |\n| **Serum Potassium (K+)** | **Profoundly Low (< 2.5 mEq/L)** | Moderately Low | Low to Normal | Low |\n| **Nephrocalcinosis / Stones** | **High Prevalence (Very Common)** | **Absent** | Rare | Absent |\n| **Associated Systemic Condition** | **Sjögren Syndrome**, Lupus | Fanconi Syndrome, Myeloma | Glaucoma Therapy | Gastroenteritis |\n\n| Diagnostic Test | Normal Value | Distal RTA (Type 1) | Clinical / Physiological Interpretation |\n| :--- | :--- | :--- | :--- |\n| **Urine pH during Acidosis** | < 5.3 | **> 5.5** | Impaired distal H+ secretion gradient |\n| **24-Hour Urine Potassium** | < 20 mEq/day in hypokalemia | **> 15–20 mEq/day (Wasting)** | Inappropriate renal K+ excretion |\n| **Urine Citrate Excretion** | > 320 mg/day | **Markedly Low (< 100 mg/day)** | Enhanced proximal citrate reabsorption |\n| **Urine Anion Gap (UAG)** | Negative (-10 to -30 mEq/L) | **Positive (+10 to +30 mEq/L)** | Impaired ammonium (NH4+) excretion |\n\n### Pathophysiological Decision Trees\n- **Distal RTA Paralysis & Stone Cascade**: Autoimmune Interstitial Infiltrate (Sjögren Syndrome) ➔ Apical H+-ATPase Loss in Type A Intercalated Cells ➔ Failure of Distal H+ Secretion (Urine pH > 5.5) ➔ Impaired NH4+ Excretion (Positive UAG) ➔ Chronic Metabolic Acidosis ➔ Proximal Citrate Reabsorption (Hypocitraturia) & Bone Resorption (Hypercalciuria) ➔ Calcium Phosphate Precipitation ➔ Bilateral Nephrocalcinosis & Urolithiasis ➔ Enhanced Principal Cell ENaC Secretion ➔ Profound Hypokalemia ➔ Muscle Membrane Hyperpolarization ➔ Flaccid Quadriparesis & Respiratory Failure.\n\n### Conceptual Trap Analysis\n- **Urine Anion Gap Interpretation Trap**: 在 Hyperchloremic Metabolic Acidosis 患者中，正值 UAG 代表 RTA，負值 UAG 代表 Renal Acidification Normal 且 NH4Cl/NH4+ Excretion 增加 (Diarrhea)。切勿將 UAG 正值誤判為 Diarrhea！\n- **Alkali Resuscitation Sequence Trap**: 對於重度 Distal RTA 合併 Hypokalemic Paralysis 的患者，急救時**必須先給予 Potassium Chloride 靜脈補充，待 Serum K+ 回升後方可緩慢投予 Sodium Bicarbonate**！若過早單純投予 Sodium Bicarbonate，Alkalinization 會促使 K+ 急劇向細胞內轉移 (Transcellular K+ Shift)，造成醫源性 Serum K+ 斷崖式崩潰，加重 Respiratory Muscle Paralysis。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_16_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+              "caption": "Brenner 11e Fig. 16.6: Type A intercalated cell of the collecting duct displaying five pathophysiologic defects that could result in classical distal renal tubular acidosis.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "brenner_table_16_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_16_6.png",
+              "caption": "Brenner 11e Table 16.6: Differential Diagnosis of Non-Anion Gap (Hyperchloremic) Metabolic Acidosis.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "beici_module1_drta_cai_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/beici_2026_module1_drta_cai.jpg",
+              "caption": "Figure 1.1: Cellular Mechanics of Type A Intercalated Cell Dysfunction in Distal RTA vs Systemic Carbonic Anhydrase Inhibition.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "mala_hagma_pathophysiology",
+      "moduleTitle": "2. High Anion Gap Metabolic Acidosis & Metformin-Associated Lactic Acidosis (MALA)",
+      "studyGuide": "本模組探討 High Anion Gap Metabolic Acidosis (HAGMA) 之病因光譜 (MUDPILES / GOLD MARK)，聚焦於 Metformin-Associated Lactic Acidosis (MALA) 之分子致病機制：Mitochondrial Complex I 抑制、Oxidative Phosphorylation 受阻、Hepatic Gluconeogenesis & Lactate Clearance 抑制、高毒性 Profound Hyperlactatemia (> 20 mmol/L) 伴隨 Severe Acidemia 之臨床演變與預後。",
+      "diagrams": [
+        {
+          "id": "brenner_table_16_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Table_16_4.png",
+          "caption": "Brenner 11e Table 16.4: Clinical Causes of High Anion Gap and Normal Anion Gap Acidosis.",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "brenner_fig_16_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_5.png",
+          "caption": "Brenner 11e Fig. 16.5: Acid-base nomogram displaying respiratory and metabolic compensation limits.",
+          "sourceBook": "Brenner 11e Ch 16"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "HAGMA Etiology Spectrum & Metformin-Associated Lactic Acidosis Mechanics",
+          "diagram": {
+            "id": "beici_module2_mala_hagma_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/beici_2026_module2_mala_hagma.jpg",
+            "caption": "Figure 2.1: Mitochondrial Complex I Inhibition and Hepatic Lactate Clearance Failure in MALA.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Metabolic Acidosis 之第一步計算為 Anion Gap (AG): $\\text{AG} = \\text{Na}^+ - (\\text{Cl}^- + \\text{HCO}_3^-)$，正常範圍為 $8–12\\text{ mEq/L}$。當 AG > 12 mEq/L 即定義為 High Anion Gap Metabolic Acidosis (HAGMA)：\n\n1. **High Anion Gap Acidosis Etiology Spectrum (GOLD MARK)**:\n   - **G**: Glycols (Ethylene glycol, Propylene glycol).\n   - **O**: Oxoproline (Pyroglutamic acid associated with chronic acetaminophen use).\n   - **L**: L-Lactate (Type A hypoxia vs Type B drug/mitochondrial toxicities).\n   - **D**: D-Lactate (Short bowel syndrome, bacterial fermentation).\n   - **M**: Methanol (Formic acid toxicity).\n   - **A**: Aspirin / Salicylates (Mixed respiratory alkalosis & metabolic acidosis).\n   - **R**: Renal failure / Uremia (Retention of phosphate, sulfate, organic acids).\n   - **K**: Ketoacidosis (Diabetic DKA, Alcoholic AKA, Starvation).\n\n2. **Metformin-Associated Lactic Acidosis (MALA) Cellular Pathophysiology**:\n   - Metformin 為 Biguanide 類 Anti-diabetic Medication，主要排泄途徑為腎臟原型過濾。\n   - 在 Acute Kidney Injury (AKI) 或 CKD Stage 4-5 患者中，Metformin 體內蓄積會通透至細胞內，直接**強烈抑制 Mitochondrial Respiratory Chain Complex I (NADH:ubiquinone oxidoreductase)**。\n   - Mitochondrial Oxidative Phosphorylation 受阻導致 ATP 產量銳減，Cellular AMP/ATP Ratio 飆升，細胞被迫轉向 Anaerobic Glycolysis，使 Pyruvate 轉化為 Lactate 之速率劇增。\n   - 同時，Metformin 在肝臟抑制 AMP-activated protein kinase (AMPK) 與 Pyruvate Carboxylase，阻斷肝臟之 Gluconeogenesis 及 **Hepatic Lactate Clearance**。\n   - 兩者加乘引發極度深遠之 **Profound Hyperlactatemia (Plasma Lactate > 20–30 mmol/L)** 與暴發性 Acidemia (pH < 7.10, HCO3- < 6 mEq/L)。\n\n| Diagnostic Entity | Primary Anion Accumulation | Serum Lactate | Serum Creatinine | Osmolal Gap | Classic Triggers |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Metformin Lactic Acidosis (MALA)** | **L-Lactate** | **Markedly High (> 20 mmol/L)** | Elevated (AKI / CKD) | Normal | Metformin Overdose / AKI |\n| **Diabetic Ketoacidosis (DKA)** | **Acetoacetate, $\\beta$-OH-butyrate** | Normal or Mildly High | Variable | Normal | Insulin deficiency, Hyperglycemia |\n| **Methanol Intoxication** | **Formate (Formic acid)** | Normal or Mild | Normal or Elevated | **Markedly High (> 15)** | Toxic alcohol ingestion, Blindness |\n| **Ethylene Glycol Intoxication** | **Glycolate, Oxalate** | Normal or Mild | High (Calcium oxalate) | **Markedly High (> 15)** | Anti-freeze ingestion, AKI, Crystals |\n\n| Clinical Parameter | Mild MALA | Severe MALA Crisis | Physiological Target in Emergency Hemodialysis |\n| :--- | :--- | :--- | :--- |\n| **Arterial pH** | 7.20 – 7.30 | **< 7.10 (Severe Acidemia)** | > 7.30 (Restore enzymatic activity) |\n| **Serum HCO3-** | 12 – 18 mEq/L | **< 6 mEq/L** | > 18 mEq/L |\n| **Serum Lactate** | 5 – 10 mmol/L | **> 20 – 30 mmol/L** | < 5 mmol/L |\n| **Hemodialysis Indication** | Conservative | **Immediate Intermittent HD** | Rapid clearance of Metformin & Lactate |\n\n### Pathophysiological Decision Trees\n- **MALA Cascade**: Pre-existing CKD / Dehydration ➔ Metformin Accumulation ➔ Systemic Mitochondrial Complex I Inhibition ➔ Impaired Oxidative Phosphorylation ➔ ATP Depletion & Anaerobic Glycolysis Surge ➔ Pyruvate-to-Lactate Conversion ➔ Hepatic Gluconeogenesis Blockage ➔ Massive Hyperlactatemia (> 20 mmol/L) ➔ Severe High Anion Gap Acidemia (pH < 7.10) ➔ Myocardial Depression & Peripheral Vasodilation ➔ Refractory Shock.\n\n### Conceptual Trap Analysis\n- **Lactate Elevation Differentiation Trap**: Type A Lactic Acidosis 源於 Tissue Hypoxia (如 Hypovolemic Shock, Septic Shock, Cardiac Arrest)；而 MALA 屬於 Type B Lactic Acidosis (Cellular / Mitochondrial Toxicity)，患者即使在 Tissue Perfusion 補足與氧氣充足狀態下，Lactate 仍會持續上升！\n- **Hemodialysis Modality in MALA Trap**: 雖然 Metformin 體積小且無高蛋白結合率，可經由 Intermittent Hemodialysis (IHD) 與 CRRT 效率清除；但在致命性 MALA 急救中，首選為 **High-efficiency Intermittent Hemodialysis**，以迅速清除累積之毒素與修正極度酸中毒。",
+          "diagrams": [
+            {
+              "id": "brenner_table_16_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Table_16_4.png",
+              "caption": "Brenner 11e Table 16.4: Clinical Causes of High Anion Gap and Normal Anion Gap Acidosis.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "brenner_fig_16_5",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_16_5.png",
+              "caption": "Brenner 11e Fig. 16.5: Acid-base nomogram displaying respiratory and metabolic compensation limits.",
+              "sourceBook": "Brenner 11e Ch 16"
+            },
+            {
+              "id": "beici_module2_mala_hagma_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/beici_2026_module2_mala_hagma.jpg",
+              "caption": "Figure 2.1: Mitochondrial Complex I Inhibition and Hepatic Lactate Clearance Failure in MALA.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "glomerulopathy_vaccine_c3gn",
+      "moduleTitle": "3. Glomerulopathies & Vaccine-Associated Glomerular Injuries",
+      "studyGuide": "本模組深入解析 Focal Segmental Glomerulosclerosis (FSGS) 疫苗後復發與 Minimal Change Disease (MCD) 之光學與電子顯微鏡下病理鑑別 (Segmental Glomerular Sclerosis vs Diffuse Podocyte Foot Process Effacement)；並比較 C3 Glomerulonephritis (C3GN) 之 Alternative Complement Pathway 補體失調機制、C3-dominant 免疫複合物沉積與 EM Subepithelial/Mesangial Electron-dense Deposits 之組織學特徵。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_31_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_5.png",
+          "caption": "Brenner 11e Fig. 31.5: Light micrographs and diagrams depicting histologic variants of focal segmental glomerulosclerosis (Perihilar, Tip, Collapsing, Cellular).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "brenner_fig_31_14",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_14.png",
+          "caption": "Brenner 11e Fig. 31.14: C3 glomerulonephritis variant of C3 glomerulopathy with light microscopy, IF, and electron microscopy features.",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Post-Vaccine Podocytopathy & Complement C3 Glomerulonephritis Spectrum",
+          "diagram": {
+            "id": "beici_module3_fsgs_c3gn_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/beici_2026_module3_fsgs_c3gn.jpg",
+            "caption": "Figure 3.1: Podocyte Effacement & Alternative Complement Pathway Dysregulation in Post-Vaccine Glomerulopathy.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "Kidney Biopsy 與 Podocyte / Complement 生物學為 Nephrology 核心考點：\n\n1. **Focal Segmental Glomerulosclerosis (FSGS) Relapse Post-Vaccination**:\n   - COVID-19 疫苗 (如 Adenoviral Vector AZ 或 mRNA 疫苗) 可能引發強烈之 T-cell 活化與 Cytokine Storm，產生 Circulating Permeability Factors (如 suPAR, CLCF-1)，直接破壞 Podocyte Slit Diaphragm。\n   - **Light Microscopy (LM)**: 展現特徵性之 **Segmental Glomerular Sclerosis** 伴隨 ECM 增加。按 Columbia Classification 可分為 Perihilar, Tip, Collapsing, Cellular 與 NOS 亞型。\n   - **Electron Microscopy (EM)**: 展現 **Diffuse Podocyte Foot Process Effacement**。\n   - 與 Minimal Change Disease (MCD) 之鑑別：MCD 在 LM 下 Glomeruli 結構完全正常 (Unremarkable Glomeruli)；而 FSGS 在 LM 即可見 Sclerotic Lesions。臨床上 FSGS 易發展為 Steroid Resistance 與 AKI。\n\n2. **C3 Glomerulonephritis (C3GN) & Alternative Complement Pathway**:\n   - C3 Glomerulopathy (C3G) 包含 C3 Glomerulonephritis (C3GN) 與 Dense Deposit Disease (DDD)。\n   - 其分子致病核心為 **Alternative Complement Pathway 之過度活化與失調** (源於 C3 Nephritic Factor Autoantibodies 或 Complement Factor H/I 突變)。\n   - **Immunofluorescence (IF)**: 呈 **C3-dominant Staining (C3 強度顯著大於 Ig 2 個階梯以上)**，IgG, IgA, IgM 多為陰性或極弱。\n   - **Electron Microscopy (EM)**: C3GN 可見 Subepithelial, Subendothelial, 與 Mesangial Electron-dense Deposits；與 DDD 之特徵性 Ribbon-like Extremely Dense Intramembranous Deposits 進行精確區分。\n\n| Glomerular Disease | Light Microscopy (LM) | Immunofluorescence (IF) | Electron Microscopy (EM) | Pathophysiologic Driver |\n| :--- | :--- | :--- | :--- | :--- |\n| **Primary FSGS** | **Segmental Glomerular Sclerosis** | Negative or Trapped IgM/C3 | **Diffuse Foot Process Effacement** | Circulating Permeability Factor |\n| **Minimal Change Disease (MCD)** | **Normal Glomeruli** | Negative | Diffuse Foot Process Effacement | Podocyte T-cell Factor |\n| **C3 Glomerulonephritis (C3GN)** | MPGN or Mesangial Proliferative | **C3-Dominant (Ig Negative)** | **Subepithelial / Mesangial Deposits** | Alternative Complement Dysregulation |\n| **Dense Deposit Disease (DDD)** | MPGN pattern | C3-Dominant | **Ribbon-like Intramembranous Deposits** | C3 Nephritic Factor (C3Nef) |\n| **Lupus Nephritis Class IV** | Diffuse Endocapillary Proliferation | Full-House (IgG, IgA, IgM, C1q, C3) | Subendothelial Wire-loop Deposits | Immune-complex Deposition |\n\n| Feature | Primary FSGS | Secondary FSGS (Hyperfiltration) | Post-Vaccine FSGS Relapse |\n| :--- | :--- | :--- | :--- |\n| **Clinical Onset** | Sudden Nephrotic Syndrome | Gradual Proteinuria, Non-nephrotic | **Abrupt Nephrotic Relapse post-jab** |\n| **Serum Albumin** | Markedly Low (< 2.5 g/dL) | Near Normal (> 3.0 g/dL) | **Markedly Low (< 2.5 g/dL)** |\n| **Foot Process Effacement** | **Diffuse (> 80%)** | Segmental / Focal (< 50%) | **Diffuse (> 80%)** |\n| **Response to Immunosuppression**| Responsive (Steroids/CNI) | Unresponsive (RAAS Blockade) | **Steroid-Responsive / CNI Trial** |\n\n### Pathophysiological Decision Trees\n- **C3GN Diagnostic Flowchart**: Nephrotic/Nephritic Syndrome ➔ Kidney Biopsy IF Staining ➔ C3 Positive, Immunoglobulins Negative/Minimal ➔ Diagnosis: C3 Glomerulopathy ➔ EM Examination ➔ Dense Ribbon-like Intramembranous Deposits? ➔ YES: Dense Deposit Disease (DDD) / NO: C3 Glomerulonephritis (C3GN) ➔ Alternative Pathway Serology: Test C3Nef, Anti-CFH, Factor H/I/B Gene Sequencing.\n\n### Conceptual Trap Analysis\n- **IF Staining Isolation Trap**: 若 Kidney Biopsy IF 呈現 C3 陽性，但同伴有強烈 IgG 與 C1q 沉積 (Full-House Staining)，則必須診斷為 Lupus Nephritis，而非 C3 Glomerulopathy！C3G 的診斷關鍵在於 C3 沉積強度比任何 Immunoglobulin 高出至少 2 個階梯以上 (C3-dominant)。\n- **FSGS vs MCD EM Difference Trap**: 切勿以為 MCD 與 FSGS 在 EM 上有不同之 Podocyte Foot Process Effacement！兩者在 EM 皆可呈現 100% Diffuse Foot Process Effacement。兩者真正的分水嶺在於 **Light Microscopy**：MCD 必須 100% 無 Sclerotic Lesions，而 FSGS 必有部分小球呈現 Focal Segmental Sclerosis。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_5",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_5.png",
+              "caption": "Brenner 11e Fig. 31.5: Light micrographs and diagrams depicting histologic variants of focal segmental glomerulosclerosis (Perihilar, Tip, Collapsing, Cellular).",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "brenner_fig_31_14",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_14.png",
+              "caption": "Brenner 11e Fig. 31.14: C3 glomerulonephritis variant of C3 glomerulopathy with light microscopy, IF, and electron microscopy features.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "beici_module3_fsgs_c3gn_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/beici_2026_module3_fsgs_c3gn.jpg",
+              "caption": "Figure 3.1: Podocyte Effacement & Alternative Complement Pathway Dysregulation in Post-Vaccine Glomerulopathy.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "urological_eah_transplant_oncology",
+      "moduleTitle": "4. Post-Surgical Urological Complications, Exercise-Associated Hyponatremia & Kidney Transplant Oncology",
+      "studyGuide": "本模組涵蓋 3 大臨床重症考點：(1) Pelvic or Gynecologic Surgery 後 Bladder Rupture 腹膜透析效應引發 Urinary Ascites 與 Pseudo-Renal Failure 之腹水/血清 Creatinine 比值與導尿急速恢復特徵；(2) 長跑馬拉松 Exercise-Associated Hyponatremia (EAH) Water Intoxication、非滲透壓 AVP 釋放與 Hypertonic Saline (3% NaCl) 緊急處置；(3) 腎移植後反覆 Cutaneous Squamous Cell Carcinoma (SCC) 之 CNI/Azathioprine 致癌途徑與轉換為 mTOR Inhibitor (Sirolimus) 之抗腫瘤轉化對策。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_15_21",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_15_21.png",
+          "caption": "Brenner 11e Fig. 15.21: Algorithm for the treatment of patients with euvolemic hyponatremia based on presenting symptoms.",
+          "sourceBook": "Brenner 11e Ch 15"
+        },
+        {
+          "id": "kdigo_table_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/KDIGO_Table_15.png",
+          "caption": "KDIGO Guidelines Table 15: Management of Malignancy and Immunosuppression Adjustment in Kidney Transplant Recipients.",
+          "sourceBook": "KDIGO Transplant Guidelines"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Pseudo-Renal Failure, Exercise Hyponatremia & Transplant Skin Cancer Strategy",
+          "diagram": {
+            "id": "beici_module4_eah_transplant_pseudo_aki_fig",
+            "type": "ai_illustration",
+            "imagePath": "/server-data/assets/beici_2026_module4_eah_transplant_pseudo_aki.jpg",
+            "caption": "Figure 4.1: Pathophysiological Cascades of Peritoneal Auto-dialysis, Exercise Hyponatremia & mTOR Inhibitor Conversion.",
+            "sourceBook": "AI Medical Illustration"
+          },
+          "content": "本模組整合 Urology Complications、Emergency Electrolyte Crisis 與 Kidney Transplant Oncology 三大臨床核心：\n\n1. **Intraperitoneal Bladder Rupture & Pseudo-Renal Failure**:\n   - Pelvic or Gynecologic Surgery 如 Hysterectomy 造成 Intraperitoneal Bladder Rupture，尿液大量漏入腹腔形成 **Urinary Ascites**。\n   - Peritoneal Membrane 充當 **Auto-peritoneal Dialysis Membrane**，高濃度之 Ascitic Fluid Creatinine 與 Urea 被腹膜血管超額重吸收進入血液循環，引發 **Pseudo-Renal Failure**。\n   - **Diagnostic Landmark**: 腹水 Creatinine 濃度顯著高於血清 Creatinine (**Ascitic Fluid-to-Serum Creatinine Ratio > 2.0**)。放置 Foley Catheter 導尿後，尿量暴增且血清 Creatinine 在 24 小時內快速降至正常。\n\n2. **Exercise-Associated Hyponatremia (EAH) & Hypertonic Saline**:\n   - 馬拉松或長跑選手在高溫環境下大量補充無鹽純水 (Hypotonic Fluid Overhydration)，聯同運動誘發之 Non-osmotic AVP Secretion (痛覺、體溫升高、體液微減刺激)，導致水滯留與體重增加 (Weight Gain > 2%)。\n   - 急性低血鈉 (Serum Na+ < 122 mEq/L) 引發 **Cerebral Edema**、Confusion、Nausea 與 Seizures。\n   - **Treatment Mandate**: 對於有神經學症狀之急性 EAH (Water Intoxication)，首選治療為 **Hypertonic Saline (3% NaCl 100 mL IV bolus)**，快速提高血清鈉 3–5 mEq/L 以減輕 Cerebral Edema 並防止 Cerebral Herniation；絕對禁忌給予 Isotonic Saline 或純水擴容！\n\n3. **Post-Transplant Cutaneous Squamous Cell Carcinoma (SCC) & Sirolimus**:\n   - 腎臟移植患者長期使用 Calcineurin Inhibitors (Tacrolimus/Cyclosporine) 與 Azathioprine，皮膚非黑色素癌 (Non-Melanoma Skin Cancer / SCC) 發生率提高 65–250 倍。\n   - Azathioprine 會促進 DNA 對 UVA 的敏感度，加速 SCC 惡化。\n   - **Immunosuppression Conversion Strategy**: 將 CNI 或 Azathioprine 轉換為 **mTOR Inhibitor (Sirolimus / Everolimus)**。mTOR Inhibitor 具備 Anti-angiogenic 與 Anti-proliferative 作用，可大幅降低 Recurrent Cutaneous SCC 之風險。\n\n| Condition | Pathophysiologic Mechanism | Key Diagnostic Biomarker | Gold Standard Management |\n| :--- | :--- | :--- | :--- |\n| **Bladder Rupture (Pseudo-AKI)** | Intraperitoneal urine leakage & peritoneal reabsorption | **Ascitic Creatinine >> Serum Creatinine** | **Foley Catheter Drainage** / Surgical Repair |\n| **Exercise Hyponatremia (EAH)** | Overhydration + Non-osmotic AVP release | **Weight Gain + Low Serum Na+ (< 125)** | **Hypertonic Saline (3% NaCl IV)** |\n| **Transplant Cutaneous SCC** | CNI/Azathioprine pro-carcinogenic DNA damage | Recurrent skin squamous lesions | **Convert CNI to Sirolimus (mTORi)** |\n| **Hepatorenal Syndrome (HRS)** | Splanchnic vasodilation & renal vasoconstriction | Volume-unresponsive AKI (< 48h Albumin) | Terlipressin + Albumin |\n\n| Parameter | Acute Exercise-Associated Hyponatremia (EAH) | Chronic SIADH | True Hypovolemic Hyponatremia |\n| :--- | :--- | :--- | :--- |\n| **Weight Change** | **Increased (Weight Gain > 2%)** | Unchanged | Decreased (Weight Loss) |\n| **Urine Sodium (UNa)** | Variable | **> 30 mEq/L** | **< 20 mEq/L** |\n| **Cerebral Edema Risk** | **Extremely High (Acute)** | Moderate | Low (Adapted) |\n| **First-Line Intervention** | **3% Hypertonic Saline Bolus** | Fluid Restriction / Vaptans | Isotonic Saline (0.9% NaCl) |\n\n### Pathophysiological Decision Trees\n- **Post-Transplant Cutaneous Malignancy Conversion Flowchart**: Long-term Kidney Transplant Recipient ➔ Recurrent Cutaneous Squamous Cell Carcinoma (SCC) (> 5 lesions/year) ➔ Evaluate Current Immunosuppression: Tacrolimus + Azathioprine + Prednisone ➔ Discontinue Azathioprine (High DNA-UVA photosensitivity) ➔ Convert Tacrolimus to mTOR Inhibitor (Sirolimus / Everolimus) ➔ Target Sirolimus Trough Level 4–8 ng/mL ➔ Reduce Cutaneous Tumor Recurrence Rate by > 50%.\n\n### Conceptual Trap Analysis\n- **Pseudo-Renal Failure Fluid Restriction Trap**: 腹膜內膀胱破裂引起的 Pseudo-AKI 絕非 Intrinsic Renal Parenchymal Failure！切勿誤判為 ATN 而給予大劑量 Diuretics 或緊急血液透析。只需放置 Foley 導尿管將尿液引流出體外，血清 Creatinine 即可在 24 小時內回歸正常。\n- **EAH Resuscitation Fluid Trap**: 對於長跑後 Water Intoxication Confusion 的 EAH 患者，切記不可給予 Isotonic Saline (0.9% NaCl)！因為患者體內 AVP 極度升高，給予 0.9% NaCl 會排出高濃縮尿 (UNa+UK > 154)，實質上留下了 Free Water，導致血清鈉進一步下跌！必須強制給予 3% Hypertonic Saline。",
+          "diagrams": [
+            {
+              "id": "brenner_fig_15_21",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_15_21.png",
+              "caption": "Brenner 11e Fig. 15.21: Algorithm for the treatment of patients with euvolemic hyponatremia based on presenting symptoms.",
+              "sourceBook": "Brenner 11e Ch 15"
+            },
+            {
+              "id": "kdigo_table_15",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/KDIGO_Table_15.png",
+              "caption": "KDIGO Guidelines Table 15: Management of Malignancy and Immunosuppression Adjustment in Kidney Transplant Recipients.",
+              "sourceBook": "KDIGO Transplant Guidelines"
+            },
+            {
+              "id": "beici_module4_eah_transplant_pseudo_aki_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/beici_2026_module4_eah_transplant_pseudo_aki.jpg",
+              "caption": "Figure 4.1: Pathophysiological Cascades of Peritoneal Auto-dialysis, Exercise Hyponatremia & mTOR Inhibitor Conversion.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

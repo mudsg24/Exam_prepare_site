@@ -1,116 +1,69 @@
 {
-  "id": "2026_hyperoxaluria_(主題備考)_tutorial",
+  "id": "2026_hyperoxaluria_(主題備考)",
   "paperId": "2026_hyperoxaluria_(主題備考)",
-  "title": "2026 腎臟專科 Hyperoxaluria 與 Oxalate Nephropathy 主題式備考教學講堂",
-  "sourceCategory": "主題式備考教學",
+  "title": "Primary & Enteric Hyperoxaluria Masterclass",
+  "description": "整合 Primary Hyperoxaluria (PH1, PH2, PH3) 基因代謝障礙、Enteric Hyperoxaluria 腸道脂肪吸收不良與 Oxalate Nephropathy 之專科課程。",
+  "sourceCategory": "2026 年主題練習",
   "year": 2026,
-  "updatedAt": "2026-07-28T16:00:00.000Z",
-  "modules": [
+  "updatedAt": "2026-07-29T15:42:00.000Z",
+  "sections": [
     {
-      "moduleId": "ph_genetics_enzymatic_pathways",
-      "moduleTitle": "1. Primary Hyperoxaluria (PH1/PH2/PH3) Genetics & Glyoxylate Enzymatic Pathways",
-      "studyGuide": "本模組全面解析 Primary Hyperoxaluria (PH) 之 Autosomal Recessive 基因突變與肝臟 Glyoxylate 代謝路徑障礙。重點精解 PH1 (*AGXT* / AGT 酵素在 Peroxisome 缺陷導致 Oxalate 與 Glycolate 大量積聚及極高 ESKD 風險)、PH2 (*GRHPR* 酵素在 Cytosol 缺陷導致 L-Glyceric Aciduria 及中度 ESKD 風險)、以及 PH3 (*HOGA1* 酵素在 Mitochondria 缺陷導致 4-Hydroxy-2-oxoglutarate 積聚與早期結石但低 ESKD 風險) 之核心分子機制與臨床鑑別。",
+      "id": "module-1",
+      "title": "Module 1: Metabolic Pathways of Primary Hyperoxaluria (PH1, PH2, PH3) & Pyridoxine Response",
+      "content": "### 1. Metabolic Enzyme Defect Matrix\n\n| Subtype | Mutated Gene | Defective Enzyme | Subcellular Location | Accumulating Toxic Metabolites | Pyridoxine (B6) Responsiveness |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Primary Hyperoxaluria Type 1 (PH1) | AGXT | Alanine-Glyoxylate Aminotransferase (AGT) | Peroxisome (Misfolding / Mitochondrial Peroxisomal Mistargeting in Gly170Arg) | Glyoxylate ➔ Oxalate & Glycolate | ~30% Responsive (especially Gly170Arg mutation) |\n| Primary Hyperoxaluria Type 2 (PH2) | GRHPR | Glyoxylate Reductase / Hydroxypyruvate Reductase | Cytosol | Oxalate & L-Glyceric Acid | Non-responsive |\n| Primary Hyperoxaluria Type 3 (PH3) | HOGA1 | 4-Hydroxy-2-Oxoglutarate Aldolase | Mitochondria | Oxalate & 4-Hydroxy-2-Oxoglutarate (HOG) | Non-responsive |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Primary Hyperoxaluria (PH1) | Enteric Hyperoxaluria | Dietary / Idiopathic Calcium Oxalate Stones |\n| :--- | :--- | :--- | :--- |\n| Urinary Oxalate Excretion | Extremely High (> 1.0 mmol/day or > 90 mg/day) | High (0.5–1.0 mmol/day) | Mildly Elevated (0.45–0.6 mmol/day) |\n| Systemic Oxalosis Risk | High (ESKD Leads to Deposition in Bone, Heart, Retina) | Rare (Unless Combined with Severe Dehydration) | Absent |\n| Intestinal Calcium Availability | Normal | Reduced (Calcium Bound to Unabsorbed Fatty Acids) | Normal |\n| Key Diagnostic Biomarker | Elevated Plasma / Urinary Glycolate & AGXT Gene Mutation | History of Malabsorption / Bariatric Surgery | Hypercalciuria, Low Citrate |\n\n### 3. Pathophysiological Decision Tree\n\nAGXT Gene Mutation (PH1) ➔ Loss of Peroxisomal AGT Activity ➔ Inability to Convert Glyoxylate to Glycine ➔ Lactate Dehydrogenase (LDH) Oxidizes Excess Glyoxylate to Oxalate ➔ Massive Urinary Calcium Oxalate Supersaturation ➔ Nephrocalcinosis, Recurrent Urolithiasis & Early ESKD ➔ Systemic Oxalosis (Deposition in Bone, Joints, Vasculature).\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 忽視特定 AGXT 基因突變 (如 Gly170Arg) 對 Pyridoxine (Vitamin B6) 的治療反應。\n**Analysis**: Pyridoxine 是 AGT 酵素的核心輔酶 (Cofactor)。在帶有 Gly170Arg 或 Phe152Ile 突變的 PH1 患者中，高劑量 Pyridoxine (5–20 mg/kg/day) 可穩定 misfolded 酵素並將其導向 Peroxisome，使約 30% 患者的尿草酸排出量下降大於 30% 甚至完全正常化。因此確診 PH1 後應立即進行 Pyridoxine 刺激測試與基因檢測。",
       "diagrams": [
         {
-          "id": "brenner_fig_38_15",
+          "id": "Brenner_Fig_38_1",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_38_15.png",
-          "caption": "Brenner 11e Fig. 38.15: Pathophysiologic Mechanisms of Hyperoxaluria including Endogenous Hepatic Overproduction, Intestinal Hyperabsorption, and Reduced Bacterial Degradation.",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_1.png",
+          "caption": "Brenner 11e Ch 38: Hepatic Glyoxylate metabolic pathways and enzymatic defects in PH1, PH2, PH3.",
           "sourceBook": "Brenner 11e Ch 38"
-        }
-      ],
-      "sections": [
+        },
         {
-          "heading": "Hepatic Glyoxylate Metabolism & Subcellular Localization Spectrum",
-          "diagram": {
-            "id": "hyperoxaluria_ph_genetics_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/shuangho_hyperoxaluria_ph_genetics.jpg",
-            "caption": "Figure 1.1: Hepatic Subcellular Enzymatic Pathways (Peroxisome, Cytosol, Mitochondria) in Primary Hyperoxaluria Types 1, 2, and 3.",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "Primary Hyperoxaluria (PH) 為一組因肝臟特定代謝酵素基因為 Autosomal Recessive 突變導致內源性 Oxalate 暴增的罕見遺傳性疾病：\n1. **PH1 (Primary Hyperoxaluria Type 1)**: 最為常見 (~80%) 且臨床最具侵襲性。因 *AGXT* 基因突變導致肝臟 Peroxisome 內之 Alanine-Glyoxylate Aminotransferase (AGT) 酵素活性喪失或錯位 (Peroxisome-to-Mitochondria Mistargeting, 如 G170R 突變)。Glyoxylate 無法轉化為 Glycine，轉而在 Cytosol 被 Glycolate Oxidase (GO) 與 Lactate Dehydrogenase (LDH) 大量氧化為 Oxalate。尿液展現顯著之 High Oxalate (>100 mg/day 或 >1.14 mmol/day) 伴隨 Glycolic Aciduria。\n2. **PH2 (Primary Hyperoxaluria Type 2)**: 約占 10%，因 *GRHPR* 基因突變導致 Cytosol 內之 Glyoxylate Reductase / Hydroxypyruvate Reductase 雙功能酵素缺失。Glyoxylate 與 Hydroxypyruvate 無法還原，導致 Oxalate 與 L-Glyceric Acid 蓄積，尿液特徵為 High Oxalate 併 L-Glyceric Aciduria。\n3. **PH3 (Primary Hyperoxaluria Type 3)**: 約占 10%，因 *HOGA1* 基因突變導致 Mitochondria 內之 4-Hydroxy-2-Oxoglutarate Aldolase (HOGA1) 酵素失能。雖然導致 4-HCOG 蓄積並反常驅動 Glyoxylate 與 Oxalate 生成，患者多在幼童期表現反覆 Calcium Oxalate 結石，但其 ESKD 進展率極低 (Lowest Risk of ESKD)。\n\n| Subtype | Mutated Gene | Deficient Enzyme | Subcellular Site | Pathognomonic Urine Biomarker | Lifetime ESKD Risk |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **PH1** | *AGXT* | Alanine-Glyoxylate Aminotransferase (AGT) | Peroxisome | Glycolate & Oxalate (> 100 mg/day) | **Very High (~80% by age 30)** |\n| **PH2** | *GRHPR* | Glyoxylate/Hydroxypyruvate Reductase | Cytosol | **L-Glyceric Acid** & Oxalate | Moderate (slower progression) |\n| **PH3** | *HOGA1* | 4-Hydroxy-2-Oxoglutarate Aldolase | Mitochondria | 4-HOG, HOG & Oxalate | **Lowest (rarely reaches ESKD)** |\n\n| Genetic / Clinical Parameter | Primary Hyperoxaluria Type 1 (PH1) | Primary Hyperoxaluria Type 2 (PH2) | Primary Hyperoxaluria Type 3 (PH3) |\n| :--- | :--- | :--- | :--- |\n| **Primary Metabolic Organ** | Liver Peroxisome | Liver Cytosol | Liver Mitochondrion |\n| **Dominant Urinary Metabolite** | Elevated Oxalate + **Glycolate** | Elevated Oxalate + **L-Glycerate** | Elevated Oxalate + **4-HOG / 2-OG** |\n| **Pyridoxine (Vit B6) Response** | **Responsive (~30%, G170R mutation)** | Unresponsive | Unresponsive |\n| **Systemic Oxalosis Frequency** | High in Advanced CKD | Rare to Moderate | Extremely Rare |\n\n### Pathophysiological Decision Trees\n- **PH1 Metabolic Cascade**: Hepatic AGXT Mutation ➔ Peroxisomal AGT Deficiency/Mistargeting ➔ Glyoxylate Accumulation ➔ Oxidation by Hepatic GO/LDH ➔ Hyperoxalemia & Severe Hyperoxaluria (>100 mg/day) ➔ Nephrocalcinosis & Early ESKD.\n\n### Conceptual Trap Analysis\n- **PH3 ESKD Risk Trap**: 切勿誤以為所有 Primary Hyperoxaluria 都會迅速惡化至 ESKD；PH3 雖於幼年早期呈現結石症狀，但幾乎不會發展為 ESKD 或 Systemic Oxalosis。"
+          "id": "Hyperoxaluria_Module1_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/ph1_agxt_pyridoxine_pathway.png",
+          "caption": "Peroxisomal AGT Enzymatic Pathway and Pyridoxine Cofactor Mechanism in PH1."
         }
       ]
     },
     {
-      "moduleId": "enteric_secondary_hyperoxaluria",
-      "moduleTitle": "2. Enteric & Secondary Hyperoxaluria Pathophysiology & Management Traps",
-      "studyGuide": "本模組深度解析 Enteric Hyperoxaluria 的病理生理學機制，聚焦於 Roux-en-Y Gastric Bypass (RYGB)、Crohn's Disease、Short Bowel Syndrome 及 Lipase Inhibitor (Orlistat) 導致脂肪吸收不良時，未吸收 Free Fatty Acids 在腸道腔內與 Calcium 發生 Saponification，進而解放游離 Oxalate 被 Colon 過度吸收的核心路徑；同時嚴格剖析臨床上「絕對禁止 Low Calcium Diet」的關鍵治療迷思。",
+      "id": "module-2",
+      "title": "Module 2: Enteric Hyperoxaluria Pathophysiology & Bariatric Surgery Risk",
+      "content": "### 1. Intestinal Luminal Physiology Matrix\n\n| Physiology State | Luminal Fatty Acids | Luminal Free Calcium | Soluble Oxalate Availability | Colonic Oxalate Permeability |\n| :--- | :--- | :--- | :--- | :--- |\n| Normal State | Low | Abundant | Low (Bound as Insoluble Calcium Oxalate) | Low |\n| Malabsorption (Roux-en-Y / Malabsorptive Bowel) | Unabsorbed Free Fatty Acids High | Depleted (Calcium Saponified with Fatty Acids) | High (Unbound Free Oxalate Remains Soluble) | High (Bile Salts & Fatty Acids Increase Colonic Permeability) |\n\n### 2. Pathophysiological Decision Tree\n\nFat Malabsorption (Crohn Disease, Pancreatic Insufficiency, Roux-en-Y Gastric Bypass) ➔ Unabsorbed Fatty Acids Bind Luminal Calcium (Saponification) ➔ Depletion of Free Luminal Calcium ➔ Oxalate Cannot Form Insoluble Calcium Oxalate Precipitate ➔ Free Soluble Oxalate Increases in Colonic Lumen ➔ Bile Salts & Fatty Acids Increase Colonic Mucosal Permeability ➔ Massive Passive Colonic Absorption of Oxalate ➔ Enteric Hyperoxaluria & Acute Oxalate Nephropathy.\n\n### 3. Conceptual Trap Analysis\n\n**Trap**: 限制 Enteric Hyperoxaluria 患者的膳食 Calcium 攝取以防止 Calcium Oxalate 結石。\n**Analysis**: 這是一個極為危險的迷思！在 Enteric Hyperoxaluria 中，限制飲食中的 Calcium 會進一步減少腸道內能與 Oxalate 結合的 Calcium，導致更多 Free Oxalate 在大腸被吸收，反而惡化 Hyperoxaluria。正確處置為口服 Calcium Carbonate / Calcium Citrate 隨餐給予，使其在腸道與 Oxalate 結合並隨糞便排出。",
       "diagrams": [
         {
-          "id": "brenner_fig_38_18",
+          "id": "Brenner_Fig_38_3",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/Brenner_Fig_38_18.png",
-          "caption": "Brenner 11e Fig. 38.18: Pathophysiologic Mechanisms of Hyperoxaluria in Inflammatory Bowel Disease or Following Bariatric Surgery.",
+          "imagePath": "/server-data/assets/Brenner_Fig_38_3.png",
+          "caption": "Brenner 11e Ch 38: Intestinal Calcium-Oxalate saponification and Enteric Hyperoxaluria mechanism.",
           "sourceBook": "Brenner 11e Ch 38"
-        }
-      ],
-      "sections": [
+        },
         {
-          "heading": "Luminal Saponification Kinetics & Microbiome Oxalate Clearance",
-          "diagram": {
-            "id": "hyperoxaluria_enteric_saponification_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/shuangho_hyperoxaluria_enteric_saponification.jpg",
-            "caption": "Figure 2.1: Intestinal Luminal Saponification, Free Oxalate Hyperabsorption, and Microbiome Interactions in Enteric Hyperoxaluria.",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "Enteric Hyperoxaluria 是 Secondary Hyperoxaluria 中最常見的臨床型態：\n1. **Luminal Calcium-Fat Saponification Pathway**: 正常生理狀況下，膳食中攝取的 Calcium (Ca2+) 會在腸道與 Oxalate 結合形成不溶性、不可吸收的 Calcium Oxalate 沉澱隨糞便排出。當患者接受 Roux-en-Y Gastric Bypass (RYGB) 手術、患有 Malabsorption Syndrome (如 Crohn's Disease, Chronic Pancreatitis) 或服用 Lipase Inhibitor (Orlistat) 時，大量未吸收的 Free Fatty Acids 湧入腸道腔內。Free Fatty Acids 與 Ca2+ 的親和力遠高於 Oxalate，發生 Saponification 形成 Calcium-Fat Soaps，大量消耗了腸道內游離 Ca2+。\n2. **Colonic Oxalate Hyperabsorption & Microbiome Loss**: 缺乏游離 Ca2+ 結合後，膳食中的 Oxalate 呈大量游離溶解狀態。加之未吸收之膽鹽與 Free Fatty Acids 增加 Colon 黏膜通透性，游離 Oxalate 在 Colon 被高度被動重吸收進入血液。此外，Broad-spectrum Antibiotics 使用或膽鹽刺激會消滅腸道專司分解 Oxalate 之 *Oxalobacter formigenes* 共生菌，進一步惡化 Oxalate 吸收負擔。\n3. **Dietary Management Fallacy**: 許多臨床醫師常誤給予「Low Calcium Diet」，此舉使腸道內游離 Ca2+ 更加匱乏，解放更多游離 Oxalate 被腸道吸收，反而劇烈加重 Enteric Hyperoxaluria 與 Oxalate Nephropathy。正確處置應為隨餐補充 Calcium Carbonate / Citrate，在腸腔內主動結合 Oxalate。\n\n| GI Condition | Intestinal Defect Mechanism | Luminal Environment | Impact on Bound Calcium | Net Oxalate Absorptive Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **RYGB Bariatric Surgery** | Bypassed duodenum/jejunum & Bile acid deficiency | High Free Fatty Acids | Ca2+ bound to FFAs (Saponification) | Marked Colonic Oxalate Hyperabsorption |\n| **Crohn's Disease (Ileal)** | Bile acid malabsorption & mucosal inflammation | Fatty acids + Bile salts | Calcium soap formation | High Free Oxalate in Colon |\n| **Orlistat Intake** | Gastric & Pancreatic Lipase Inhibition | High Intestinal Fat | Ca2+ depleted by fatty acids | Secondary Enteric Hyperoxaluria |\n| **Chronic Antibiotic Use** | Eradication of *Oxalobacter formigenes* | Deficient Microbial Degradation | Normal calcium binding | Reduced luminal oxalate breakdown |\n\n| Therapeutic Intervention | Target Mechanism | Luminal / Physiological Action | Clinical Oxalate Impact |\n| :--- | :--- | :--- | :--- |\n| **Oral Calcium Supplements (with meals)** | Intestinal Luminal Chelator | Binds free oxalate in bowel lumen to form CaOx precipitate | **Decreases Intestinal Oxalate Absorption** |\n| **Low Calcium Diet (ERRONEOUS)** | Luminal Calcium Depletion | Leaves oxalate unbound due to lack of calcium | **SEVERELY INCREASES Oxalate Absorption** |\n| **High Fluid Intake (>3 L/day)** | Urinary Dilution | Lowers Calcium Oxalate relative supersaturation | Prevents crystal nucleation & stones |\n| **Oral Potassium Citrate** | Alkalinization & Citrate Surge | Forms soluble Calcium Citrate, inhibits CaOx crystallization | Reduces nephrolithiasis risk |\n\n### Pathophysiological Decision Trees\n- **Enteric Hyperoxaluria Pathway**: Fat Malabsorption (RYGB / IBD) ➔ Unabsorbed Fatty Acids Surge ➔ Calcium Saponification (Ca-Fat Soaps) ➔ Free Luminal Oxalate Surge ➔ Colonic Mucosa Hyperabsorption ➔ Enteric Hyperoxaluria & Oxalate Nephropathy.\n\n### Conceptual Trap Analysis\n- **Low Calcium Diet Trap**: 切勿對 Enteric Hyperoxaluria 患者建議限制飲食鈣質；限制鈣質會失去腸道結合 Oxalate 的天然屏障，反而導致尿 Oxalate 排泄量顯著上升。"
+          "id": "Hyperoxaluria_Module2_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/enteric_hyperoxaluria_saponification.png",
+          "caption": "Fat Saponification and Colonic Free Oxalate Hyperabsorption Mechanism."
         }
       ]
     },
     {
-      "moduleId": "oxalate_nephropathy_systemic_oxalosis",
-      "moduleTitle": "3. Acute Oxalate Nephropathy & Systemic Oxalosis Spectrum",
-      "studyGuide": "本模組深入研討急慢性 Oxalate Nephropathy 之組織病理特徵（Polarized Light Microscopy 下 Strong Birefringence Calcium Oxalate 晶體沉積與急性腎小管壞死），以及當 GFR 降至 30 mL/min/1.73m² 以下時，血漿 Oxalate 過飽和導致 Systemic Oxalosis 侵犯心臟傳導系統、骨髓造血細胞與皮膚血管之嚴重併發症。",
+      "id": "module-3",
+      "title": "Module 3: Oxalate Nephropathy Biopsy Histopathology & Systemic Oxalosis Management",
+      "content": "### 1. Biopsy Histopathology & Polarized Light Matrix\n\n| Histopathological Finding | Brightfield Light Microscopy | Polarized Light Microscopy | Von Kossa Staining |\n| :--- | :--- | :--- | :--- |\n| Calcium Oxalate Crystals | Intratubular & Interstitial Abundant Crystals | Strongly Birefringent (Polychromatic / Fan-shaped / Radial Array) | Negative (Does not stain black like Calcium Phosphate) |\n| Calcium Phosphate Crystals | Amorphous or Microcrystalline Deposits | Non-birefringent or Weakly Birefringent | Positive (Stains Dark Black) |\n\n### 2. Pathophysiological Decision Tree\n\nRenal Allograft Transplantation in Uncorrected PH1 ➔ High Systemic Oxalate Pool ➔ Rapid Deposition of Calcium Oxalate Crystals in Graft Tubules ➔ Early Allograft Failure ➔ Combined Liver-Kidney Transplantation (CLKT) or RNAi Therapy (Lumasiran) Needed to Suppress Hepatic Oxalate Production.\n\n### 3. Conceptual Trap Analysis\n\n**Trap**: 在偏振光 (Polarized Light) 下看到晶體即認為是 Calcium Phosphate。\n**Analysis**: Calcium Oxalate 晶體的標誌性特徵為強雙折射性 (Strong Birefringence)，呈現絢麗的多色或扇形放射狀形貌；而 Calcium Phosphate 晶體在偏振光下無雙折射性，且 Von Kossa 染色呈陽性黑色。臨床切片必須依此嚴格區分。",
       "diagrams": [
         {
-          "id": "vgh_acute_crystal_nephropathy",
+          "id": "Brenner_Fig_38_5",
           "type": "micrograph",
-          "imagePath": "/server-data/assets/vgh_acute_crystal_nephropathy.jpg",
-          "caption": "VGH Pathology Archive: Intratubular Calcium Oxalate Crystals showing Strong Birefringence under Polarized Light Microscopic Examination in Acute Oxalate Nephropathy.",
-          "sourceBook": "VGH Nephrology Pathology"
-        }
-      ],
-      "sections": [
+          "imagePath": "/server-data/assets/Brenner_Fig_38_5.png",
+          "caption": "Brenner 11e Ch 38: Histopathology of Acute Oxalate Nephropathy with strongly birefringent intratubular crystals under polarized light.",
+          "sourceBook": "Brenner 11e Ch 38"
+        },
         {
-          "heading": "Polarized Birefringence Histopathology & Systemic Deposition Cascades",
-          "diagram": {
-            "id": "hyperoxaluria_systemic_oxalosis_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/shuangho_hyperoxaluria_systemic_oxalosis.jpg",
-            "caption": "Figure 3.1: Systemic Oxalosis Organ Damage Spectrum (Cardiac AV Block, EPO-Resistant Anemia, Livedo Reticularis) with Decreased GFR (<30 mL/min/1.73m²).",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "當血漿 Oxalate 濃度超過其飽和度溶解度極限時，Oxalate 晶體不僅沉積於腎臟，更會引發全身多器官破壞：\n1. **Histopathology of Oxalate Nephropathy**: 腎臟切片 H&E 染色下可見切片小管腔內及間質存有呈扇形 (Fan-like)、針狀或雙錐體狀之無色至淡黃色晶體，伴隨顯著之 Tubular Epithelial Necrosis & Interstitial Inflammation。在 **Polarized Light Microscopy** 下，Calcium Oxalate Monohydrate (Whewellite) 與 Dihydrate (Weddellite) 展現極度強烈之 **Strong Birefringence** 特徵。與之相對，Uric Acid 晶體呈黃褐色，而 Myeloma Casts 或 Cystine 晶體則不具備此強雙折射偏光形態。\n2. **Secondary Toxic Etiologies**: 除遺傳與腸道疾病外，大劑量 Vitamin C 靜脈注射/口服 (Vitamin C 為 Oxalate 前驅物)、Ethylene Glycol 中毒 (經 Alcohol Dehydrogenase 代謝為 Oxalic Acid)、以及 CKD 患者過量食用 Star Fruit (*Averrhoa carambola*，含高濃度 Oxalate 與 Caramboxin Neurotoxin) 皆可引發暴發性 Acute Oxalate Nephropathy 與 AKI。\n3. **Systemic Oxalosis Pathophysiology**: 當 GFR 降低至 < 30 mL/min/1.73m² (或 Plasma Oxalate > 30 μmol/L) 時，腎臟 Oxalate 清除率急劇下降，引發 Systemic Oxalosis。晶體沉積於心臟傳導系統引發 Complete Heart Block & Cardiomyopathy；沉積於骨髓替代造血幹細胞引發 Erythropoietin-Resistant Severe Anemia；沉積於皮膚小血管引發 Livedo Reticularis & Cutaneous Ulceration；沉積於骨骼關節引發 Severe Bone Pain & Oxalate Arthropathy。\n\n| Target Tissue / Organ | Pathophysiological Deposition | Primary Clinical Manifestation | Key Diagnostic Finding |\n| :--- | :--- | :--- | :--- |\n| **Renal Tubules & Interstitium** | Intratubular CaOx crystals | AKI, Nephrocalcinosis, CKD | **Strong Birefringence under Polarized Light** |\n| **Cardiac Conduction System** | SA / AV Node CaOx deposition | AV Block, Fatal Arrhythmia | Conduction delay on ECG, Cardiomyopathy |\n| **Bone Marrow Microenvironment** | Marrow stroma CaOx replacement | **EPO-Resistant Refractory Anemia** | Bone marrow biopsy with birefringent crystals |\n| **Cutaneous Vasculature** | Dermal arteriole CaOx occlusion | Livedo Reticularis, Gangrene | Painful skin papules & necrotic ulcers |\n| **Joints & Synovium** | Synovial membrane deposition | Oxalate Arthropathy, Rigidity | Birefringent crystals in synovial fluid |\n\n| Crystalline Nephropathy Cause | Culprit Precursor / Toxin | Primary Pathological Feature | Key Preventive / Therapeutic Action |\n| :--- | :--- | :--- | :--- |\n| **Ethylene Glycol Ingestion** | Glycolic & Oxalic Acid | Birefringent CaOx crystals + High Anion Gap Metabolic Acidosis | Fomepizole / Ethanol + Hemodialysis |\n| **Star Fruit (*Averrhoa carambola*)** | Oxalate + Caramboxin | AKI + Intractable Hiccoughs, Seizures in CKD | Emergency Hemodialysis |\n| **Ascorbic Acid Mega-dosing** | Vitamin C Breakdown | Acute Intratubular CaOx precipitation | Immediate Vitamin C Cessation |\n\n### Pathophysiological Decision Trees\n- **Systemic Oxalosis Cascade**: GFR Drops < 30 mL/min ➔ Renal Oxalate Excretion Impaired ➔ Plasma Oxalate > 30 μmol/L (Supersaturation) ➔ Systemic Oxalosis ➔ Cardiac Conduction Block + EPO-Resistant Anemia + Livedo Reticularis.\n\n### Conceptual Trap Analysis\n- **Polarized Microscopy Trap**: 切勿忽略 Polarized Light Microscopy 在急性腎損傷切片中的診斷價值；若發現小管內無色晶體且在偏光下呈現 Strong Birefringence，應立即鎖定 Oxalate Nephropathy 並追查腸道病史、Vitamin C 或毒物攝取。"
-        }
-      ]
-    },
-    {
-      "moduleId": "sirna_therapeutics_transplantation",
-      "moduleTitle": "4. Novel Targeted siRNA Therapeutics & Kidney-Liver Transplantation Strategies",
-      "studyGuide": "本模組聚焦於 Hyperoxaluria 劃時代的標靶治療革命：siRNA 藥物 Lumasiran (阻斷肝臟 *HAO1* / Glycolate Oxidase) 與 Nedosiran (阻斷 *LDHA*) 之分子藥理學機制；同時深入解析 PH1 患者接受 Isolated Kidney Transplant 必然復發之禁忌，與 Combined Liver-Kidney Transplantation (CLKT) 的臨床定位。",
-      "diagrams": [
-        {
-          "id": "chimei_hyperoxaluria_lumasiran",
-          "type": "micrograph",
-          "imagePath": "/server-data/assets/chimei_hyperoxaluria_lumasiran.jpg",
-          "caption": "ChiMei Pathology & Therapeutics Archive: Targeted RNA Interference (siRNA) Lumasiran Mechanism of Action Silencing HAO1 Glycolate Oxidase in PH1.",
-          "sourceBook": "ChiMei Nephrology Knowledge Base"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "RNA Interference Gene Silencing Kinetics & Dual-Organ Transplantation",
-          "diagram": {
-            "id": "hyperoxaluria_sirna_therapeutics_fig",
-            "type": "ai_illustration",
-            "imagePath": "/server-data/assets/shuangho_hyperoxaluria_sirna_therapeutics.jpg",
-            "caption": "Figure 4.1: RNA Interference Therapeutics (Lumasiran targeting HAO1, Nedosiran targeting LDHA) Silencing Hepatic Oxalate Overproduction.",
-            "sourceBook": "AI Medical Illustration"
-          },
-          "content": "突破傳統只能 Dialysis 與 CLKT 的困境，siRNA 標靶藥物徹底改寫了 PH1 的治療典範：\n1. **Lumasiran (siRNA targeting *HAO1*)**: 具備 N-acetylgalactosamine (GalNAc) 標籤，可專一性結合 Hepatocytes 表面之 Asialoglycoprotein Receptor (ASGPR)。進入 Hepatocytes 後，Lumasiran 降解編碼 Glycolate Oxidase (GO) 之 *HAO1* mRNA。由於 GO 酵素被抑制，Glycolate 無法氧化為 Glyoxylate，從源頭切斷了 Oxalate 的大量生成。因人體能安全耐受高濃度水溶性 Glycolate 之尿液排泄，Lumasiran 展現極佳安全性且能使 PH1 患者尿 Oxalate 降至接近正常範圍。\n2. **Nedosiran (siRNA targeting *LDHA*)**: 標靶降解肝臟 Lactate Dehydrogenase A (*LDHA*) mRNA。LDH 為肝臟 Cytosol 將 Glyoxylate 轉化為 Oxalate 的最終共同通道酵素，因此 Nedosiran 理論上可用於 PH1、PH2 甚至 PH3 患者。\n3. **Pyridoxine (Vitamin B6) Pharmacotherapy**: 約 30% 的 PH1 患者 (特別是帶有 p.Gly170Arg / G170R 或 p.Phe152Ile 突變者) 對大劑量 Pyridoxine 具治療反應。Pyridoxine 作為 AGT 酵素之 Co-factor，能穩定突變酵素構型並矯正其 Mistargeting。\n4. **Transplantation Rationale in PH1**: 早期 Isolated Kidney Transplant 於 PH1 患者宣告失敗率極高，因為植入之 Healthy Donor Kidney 仍必須承受宿主肝臟持續源源不絕產生的海量 Oxalate，導致移殖腎迅速發生晶體沉積與失能。傳統金標準處置為 **Combined Liver-Kidney Transplantation (CLKT)**，透過提供正常的 Hepatocytes 來替換缺陷之 AGT 酵素。在 Lumasiran 時代下，部分 PH1 患者可在 siRNA 控管 Oxalate 後成功接受 **Isolated KT**，免除肝臟移植風險。\n\n| Therapeutic Agent | Molecular Target | Mechanism of Action | Target Patient Population | Primary Clinical Outcome |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lumasiran** | *HAO1* mRNA (Glycolate Oxidase) | ASGPR-targeted siRNA silencing hepatic GO synthesis | PH1 (Children & Adults) | **Normalizes / Near-normalizes Urine Oxalate** |\n| **Nedosiran** | *LDHA* mRNA (Lactate Dehydrogenase A) | Silences hepatic LDH A, final step of oxalate generation | PH1, PH2 (under study) | Decreases hepatic oxalate production |\n| **Pyridoxine (Vit B6)** | AGT Co-factor Binding Site | Stabilizes G170R mutant AGT enzyme & corrects mistargeting | **PH1 (~30% responsive subgroup)** | Decreases urinary oxalate excretion |\n| **Stiripentol** | Lactate Dehydrogenase (LDH) | Small molecule inhibitor of hepatic LDH | PH1 | Suppresses oxalate production |\n\n| Organ Transplantation Strategy | Anatomical Target | Rationale & Mechanism | Clinical Indication / Outcome |\n| :--- | :--- | :--- | :--- |\n| **Combined Liver-Kidney (CLKT)** | Simultaneous Liver & Kidney | Replaces enzymatic defect (Liver) + restores GFR (Kidney) | Gold standard for advanced PH1 ESKD prior to siRNA |\n| **Isolated Kidney Transplant (alone)** | Donor Kidney only | Restores GFR only; **liver still overproduces oxalate** | **RECURS RAPIDLY IN PH1** unless controlled by Lumasiran |\n| **Pre-emptive Liver Transplant** | Donor Liver prior to ESKD | Corrects enzyme defect before irreversible kidney failure | Preserves native kidney function in severe PH1 |\n\n### Pathophysiological Decision Trees\n- **Targeted siRNA Mechanism**: Lumasiran Subcutaneous Injection ➔ ASGPR Binding on Hepatocyte ➔ RISC Mediated *HAO1* mRNA Degradation ➔ Glycolate Oxidase (GO) Suppression ➔ Glyoxylate Depletion ➔ Hepatic Oxalate Synthesis Halted ➔ Urinary Oxalate Normalization.\n\n### Conceptual Trap Analysis\n- **PH1 Isolated Kidney Transplant Trap**: 切勿對未接受 Lumasiran 或基因校正之 PH1 ESKD 患者單獨進行腎臟移植；若未替換肝臟酵素或基因沉寂，高濃度血漿 Oxalate 將迅速毀壞移植腎。"
+          "id": "Hyperoxaluria_Module3_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/oxalate_nephropathy_polarized_birefringence.png",
+          "caption": "Polarized Microscopy Birefringence Features of Intratubular Calcium Oxalate Deposits."
         }
       ]
     }

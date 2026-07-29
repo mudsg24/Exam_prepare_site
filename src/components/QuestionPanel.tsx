@@ -1,9 +1,8 @@
 import React from 'react';
 import { Star, ChevronLeft, ChevronRight, CheckCircle2, Image as ImageIcon } from 'lucide-react';
-import { marked } from 'marked';
+import { renderFormattedMarkdownToHTML } from '../utils/markdownRenderer';
 import { ExamQuestion, OptionId, ThemeMode, AttachedImage } from '../types/exam';
 import { DisputeBadge } from './DisputeBadge';
-import { renderKaTeXInString } from '../utils/katexRenderer';
 
 interface QuestionPanelProps {
   question: ExamQuestion;
@@ -33,24 +32,18 @@ function renderFormattedText(text: string, isLight: boolean) {
     '<div class="my-3 flex flex-col items-center"><img src="$2" alt="$1" class="max-h-96 max-w-full rounded-xl border border-slate-700/50 shadow-md object-contain" /><span class="text-xs text-slate-400 mt-1">$1<\/span><\/div>'
   );
 
-  // Render KaTeX Math
-  const mathRendered = renderKaTeXInString(cleaned);
+  const html = renderFormattedMarkdownToHTML(cleaned);
 
-  try {
-    const html = marked.parse(mathRendered, { async: false }) as string;
-    return (
-      <div
-        className={`prose max-w-none text-base md:text-[17px] leading-relaxed space-y-3 font-sans selection:bg-sky-500 selection:text-white ${
-          isLight
-            ? 'text-slate-900 prose-headings:text-slate-900 prose-strong:text-slate-900'
-            : 'text-slate-100 prose-invert prose-headings:text-slate-100 prose-strong:text-slate-100'
-        }`}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    );
-  } catch (e) {
-    return <span dangerouslySetInnerHTML={{ __html: mathRendered }} />;
-  }
+  return (
+    <div
+      className={`prose max-w-none text-base md:text-[17px] leading-relaxed space-y-3 font-sans selection:bg-sky-500 selection:text-white ${
+        isLight
+          ? 'text-slate-900 prose-headings:text-slate-900 prose-strong:text-slate-900'
+          : 'text-slate-100 prose-invert prose-headings:text-slate-100 prose-strong:text-slate-100'
+      }`}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
 }
 
 export const QuestionPanel: React.FC<QuestionPanelProps> = ({

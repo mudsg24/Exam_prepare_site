@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, Sparkles, FileText, ChevronDown, ChevronRight } from 'lucide-react';
-import { marked } from 'marked';
+import { renderFormattedMarkdownToHTML } from '../utils/markdownRenderer';
 import { ExamQuestion, ResolvedImage, ThemeMode } from '../types/exam';
-import { renderKaTeXInString } from '../utils/katexRenderer';
 
 interface ExplanationPanelProps {
   question: ExamQuestion;
@@ -26,29 +25,16 @@ function cleanNlmResponseText(raw: string): string {
 function renderFormattedMarkdown(rawText: string, isLight: boolean) {
   if (!rawText) return null;
   const cleaned = cleanNlmResponseText(rawText);
-  // Render LaTeX math expressions first
-  const mathRendered = renderKaTeXInString(cleaned);
+  const html = renderFormattedMarkdownToHTML(cleaned);
 
-  try {
-    const html = marked.parse(mathRendered, { async: false }) as string;
-    return (
-      <div
-        className={`prose max-w-none text-[15px] leading-relaxed space-y-4 font-sans selection:bg-sky-500 selection:text-white ${
-          isLight ? 'text-slate-800' : 'text-slate-200 prose-invert'
-        }`}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    );
-  } catch (e) {
-    return (
-      <div
-        className={`whitespace-pre-line text-[15px] leading-relaxed ${
-          isLight ? 'text-slate-800' : 'text-slate-200'
-        }`}
-        dangerouslySetInnerHTML={{ __html: mathRendered }}
-      />
-    );
-  }
+  return (
+    <div
+      className={`prose max-w-none text-[15px] leading-relaxed space-y-4 font-sans selection:bg-sky-500 selection:text-white ${
+        isLight ? 'text-slate-800' : 'text-slate-200 prose-invert'
+      }`}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
 }
 
 interface NlmSection {

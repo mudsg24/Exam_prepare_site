@@ -10,11 +10,14 @@ const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');
  */
 export function isNlmResponseAnomalous(resp) {
   if (!resp) return true;
+  if (resp.error) return true;
   if (!resp.rawResponse || typeof resp.rawResponse !== 'string') return true;
   const raw = resp.rawResponse.trim();
   if (raw.length < 200) return true;
-  if (raw.includes('[INSUFFICIENT_DATABASE_EVIDENCE]') || raw.includes('INSUFFICIENT_DATABASE_EVIDENCE')) return true;
-  if (resp.databaseSufficiency === 'INSUFFICIENT' && raw.length < 500) return true;
+  // If response is short (<500 chars) and contains a refusal header without rationale
+  if (resp.databaseSufficiency === 'INSUFFICIENT' && raw.length < 500 && (raw.includes('[INSUFFICIENT_DATABASE_EVIDENCE]') || raw.includes('INSUFFICIENT_DATABASE_EVIDENCE'))) {
+    return true;
+  }
   return false;
 }
 

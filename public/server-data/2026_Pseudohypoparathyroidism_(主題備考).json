@@ -28,7 +28,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Pseudohypoparathyroidism Type 1a (PHP-1a) 是由 GNAS 基因 coding sequence 之異型失能突變 (Heterozygous Inactivating Mutation) 所引起。在 Renal Proximal Convoluted Tubule 中，GNAS 表現遵循 Tissue-Specific Genomic Imprinting：來自父系的 Paternal Allele 正常狀況下即被啟動子甲基化沉寂 (Silenced)，僅有母系 Maternal Allele 能主動表達 Gsα 蛋白質。當此失能突變由母親遺傳 (Maternal Transmission) 時，腎小管中唯一的活性 Maternal Allele 失去功能，導致 Proximal Tubule 完全無法產生 functional Gsα，造成顯著之 Target-Organ PTH Resistance (低血鈣、高血磷、高 PTH)。",
+      "sourceExplanation": "Pseudohypoparathyroidism Type 1a (PHP-1a) 是由 GNAS 基因 coding sequence 之Heterozygous Inactivating Mutation 所引起。在 Renal Proximal Convoluted Tubule 中，GNAS 表現遵循 Tissue-Specific Genomic Imprinting：來自父系的 Paternal Allele Silenced，僅有母系 Maternal Allele 能主動表達 Gsα 蛋白質。Maternal Transmission 時，腎小管中唯一的活性 Maternal Allele 失去功能，導致 Proximal Tubule 完全無法產生 functional Gsα，造成顯著之 Target-Organ PTH Resistance (低血鈣、高血磷、高 PTH)。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_1",
@@ -85,7 +85,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "該父親罹患 Pseudopseudohypoparathyroidism (PPHP)。PPHP 與 PHP-1a 帶有完全相同的 GNAS 失能突變，差別僅在於 Parent-of-Origin Transmission。父親的突變來自於其父親 (Paternal Transmission)。在 Renal Proximal Tubule 中，源自父系的 Paternal Allele 本就被 Genomic Imprinting 沉寂，而源自母系的野生型 Maternal Allele 依然正常表達 Gsα 蛋白質，因此腎臟與甲狀腺對 PTH 和 TSH 的反應完全正常 (Normal Endocrine Function)。但在雙等位基因共同表達 (Biallelic Expression) 的骨骼與皮下組織，Gsα 單倍不足 (Haploinsufficiency) 依然導致 Albright Hereditary Osteodystrophy (AHO) 骨骼表型。",
+      "sourceExplanation": "該父親罹患 Pseudopseudohypoparathyroidism (PPHP)。PPHP 與 PHP-1a 帶有完全相同的 GNAS 失能突變，差別僅在於 Parent-of-Origin Transmission。Paternal Transmission。在 Renal Proximal Tubule 中，源自父系的 Paternal Allele 本就被 Genomic Imprinting 沉寂，而源自母系的野生型 Maternal Allele 依然正常表達 Gsα 蛋白質，因此腎臟與甲狀腺對 PTH 和 TSH Normal Endocrine Function。但在Biallelic Expression 的骨骼與皮下組織，Gsα Haploinsufficiency 依然導致 Albright Hereditary Osteodystrophy (AHO) 骨骼表型。",
       "resolvedImages": [],
       "selectedOption": "B",
       "nlmResponses": [
@@ -193,7 +193,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Pseudohypoparathyroidism Type 1b (PHP-1b) 的病理特徵為 Isolated Renal PTH Resistance (孤立性腎臟 PTH 阻抗)，完全無 AHO 骨骼異狀 (No Skeletal Phenotype)。其分子病因為 GNAS Locus 之 Epigenetic Loss of Imprinting (甲基化印記喪失)，最常見機制為 STX16 基因之 Microdeletion。由於非銘印組織中的 GNAS 序列無編碼區突變，其 Erythrocyte Gsα Activity 保持正常。",
+      "sourceExplanation": "Pseudohypoparathyroidism Type 1b (PHP-1b) 的病理特徵為 Isolated Renal PTH Resistance (孤立性腎臟 PTH 阻抗)，完全無 AHO No Skeletal Phenotype。其分子病因為 GNAS Locus 之 Epigenetic Loss of Imprinting ，最常見機制為 STX16 基因之 Microdeletion。由於非銘印組織中的 GNAS 序列無編碼區突變，其 Erythrocyte Gsα Activity 保持正常。",
       "resolvedImages": [],
       "selectedOption": "B",
       "nlmResponses": [
@@ -295,7 +295,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Pseudohypoparathyroidism 與 Hypoparathyroidism 治療中，過度補鈣與 Calcitriol 將血鈣拉高至 9.5-10.0 mg/dL 以上會劇烈增加腎小管濾過鈣載重，超越 Distal Tubule 重吸收極限，引發嚴重的高尿鈣症 (Hypercalciuria) 與 Medullary Nephrocalcinosis。臨床最高安全指導原則為：將血鈣控制在低正常範圍 (8.0-8.5 mg/dL)，且 24-hour Urinary Calcium < 4 mg/kg/day，以保護腎功能避免 Nephrocalcinosis。",
+      "sourceExplanation": "在 Pseudohypoparathyroidism 與 Hypoparathyroidism 治療中，過度補鈣與 Calcitriol 將血鈣拉高至 9.5-10.0 mg/dL 以上會劇烈增加腎小管濾過鈣載重，超越 Distal Tubule 重吸收極限，引發嚴重的Hypercalciuria 與 Medullary Nephrocalcinosis。臨床最高安全指導原則為：將血鈣控制在低正常範圍 (8.0-8.5 mg/dL)，且 24-hour Urinary Calcium < 4 mg/kg/day，以保護腎功能避免 Nephrocalcinosis。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_7_7",
@@ -352,7 +352,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "該患者罹患 Autosomal Dominant Hypocalcemia (ADH Type 1)，原因為 CaSR 發生 Gain-of-Function 活化型突變。活化的 CaSR 使 Parathyroid Gland 與 Thick Ascending Limb (TALH) 誤以為血鈣過高，從而壓低 PTH 並抑制 TALH 的 Claudin-16/19 鈣重吸收，導致患者在低血鈣時即伴隨顯著高尿鈣 (Hypercalciuria)。若給予積極 Calcium 與 Calcitriol 治療，尿鈣會暴增並迅速引發 Nephrocalcinosis 與慢性腎衰竭。",
+      "sourceExplanation": "該患者罹患 Autosomal Dominant Hypocalcemia (ADH Type 1)，原因為 CaSR 發生 Gain-of-Function 活化型突變。活化的 CaSR 使 Parathyroid Gland 與 Thick Ascending Limb (TALH) 誤以為血鈣過高，從而壓低 PTH 並抑制 TALH 的 Claudin-16/19 鈣重吸收，Hypercalciuria。若給予積極 Calcium 與 Calcitriol 治療，尿鈣會暴增並迅速引發 Nephrocalcinosis 與慢性腎衰竭。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -409,7 +409,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "PHP-1a 與 Primary Hypoparathyroidism 皆呈現低血鈣 (Hypocalcemia) 與高血磷 (Hyperphosphatemia)。最核心的生化鑑別點為 Serum Intact PTH Level：Primary Hypoparathyroidism 因副甲狀腺組織受損，Intact PTH 極低或測不到 (Undetectable/Low)；而 PHP-1a 為 Target Organ Resistance，副甲狀腺因低血鈣補償性大肆分泌，Intact PTH 顯著暴升 (Markedly Elevated)。",
+      "sourceExplanation": "PHP-1a 與 Primary Hypoparathyroidism Hypocalcemia Hyperphosphatemia。最核心的生化鑑別點為 Serum Intact PTH Level：Primary Hypoparathyroidism 因副甲狀腺組織受損，Intact PTH Undetectable/Low；而 PHP-1a 為 Target Organ Resistance，副甲狀腺因低血鈣補償性大肆分泌，Intact PTH Markedly Elevated。",
       "resolvedImages": [],
       "selectedOption": "C",
       "nlmResponses": [
@@ -460,7 +460,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "PHP-1c 的臨床表型與 PHP-1a 完全一致 (兼具 AHO 表型與 Multihormone Resistance，且 Ellsworth-Howard 測試之 Urinary cAMP 增加受阻)。兩者唯一的生化區別為：PHP-1a 之 Erythrocyte Gsα Activity 降低 (~50%)；而 PHP-1c 由於 GNAS 突變僅選擇性影響與 Receptor 偶聯之區域，其 Catalytic Domain 在體外經 Fluoride 激活仍展現正常的 Gsα 活性 (Normal In Vitro Bioactivity)。",
+      "sourceExplanation": "PHP-1c 的臨床表型與 PHP-1a 完全一致 (兼具 AHO 表型與 Multihormone Resistance，且 Ellsworth-Howard 測試之 Urinary cAMP 增加受阻)。兩者唯一的生化區別為：PHP-1a 之 Erythrocyte Gsα Activity 降低 (~50%)；而 PHP-1c 由於 GNAS 突變僅選擇性影響與 Receptor 偶聯之區域，其 Catalytic Domain 在體外經 Fluoride 激活仍展現正常的 Gsα Normal In Vitro Bioactivity。",
       "resolvedImages": [],
       "selectedOption": "C",
       "nlmResponses": [
@@ -511,7 +511,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "正常生理狀況下，PTH 與 Proximal Tubule 頂端及基底側之 PTH1R 結合，經由 Gsα 蛋白激活 Adenylyl Cyclase 產生 cAMP，進而活化 Protein Kinase A (PKA)。PKA 磷酸化促使頂端膜之 NaPi-IIa (Na-Pi Cotransporter 2a) 發生內吞作用 (Endocytosis) 與降解，減少磷重吸收而引發 Phosphaturia。PHP-1a 因 Gsα 缺失，該訊號鏈中斷，NaPi-IIa 持續留存於頂端膜重吸收磷，導致 Hyperphosphatemia。",
+      "sourceExplanation": "正常生理狀況下，PTH 與 Proximal Tubule 頂端及基底側之 PTH1R 結合，經由 Gsα 蛋白激活 Adenylyl Cyclase 產生 cAMP，進而活化 Protein Kinase A (PKA)。PKA 磷酸化促使頂端膜之 NaPi-IIa (Na-Pi Cotransporter 2a) Endocytosis 與降解，減少磷重吸收而引發 Phosphaturia。PHP-1a 因 Gsα 缺失，該訊號鏈中斷，NaPi-IIa 持續留存於頂端膜重吸收磷，導致 Hyperphosphatemia。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -568,7 +568,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Albright Hereditary Osteodystrophy (AHO) 的典範骨骼與外觀體徵包括：矮小身材 (Short Stature)、圓臉 (Round Facies)、第四與第五掌骨短縮 (Shortening of 4th/5th Metacarpals，握拳時呈現 Archibald Sign 凹陷)、肥胖 (Obesity) 以及皮下異位性骨化 (Subcutaneous Ossifications)。此體徵見於 PHP-1a 與 PPHP。",
+      "sourceExplanation": "Albright Hereditary Osteodystrophy (AHO) 的典範骨骼與外觀體徵包括：Short Stature、Round Facies、第四與第五掌骨短縮 (Shortening of 4th/5th Metacarpals，握拳時呈現 Archibald Sign 凹陷)、Obesity Subcutaneous Ossifications。此體徵見於 PHP-1a 與 PPHP。",
       "resolvedImages": [],
       "selectedOption": "A",
       "nlmResponses": [
@@ -619,7 +619,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Renal Proximal Tubule 中，PTH 刺激 CYP27B1 (1-alpha-hydroxylase) 轉錄以將 25(OH)D3 轉化為活性 Calcitriol 的過程，高度仰賴 Gsα-cAMP-PKA 訊息傳遞鏈。在 PHP-1a 患者中，Proximal Tubule Gsα 缺失導致 PTH 無法刺激 1-alpha-hydroxylase 活性，故即使血鈣極低且 PTH 暴高，Calcitriol 合成依然不足 (Inappropriately Low Calcitriol)。",
+      "sourceExplanation": "在 Renal Proximal Tubule 中，PTH 刺激 CYP27B1 (1-alpha-hydroxylase) 轉錄以將 25(OH)D3 轉化為活性 Calcitriol 的過程，高度仰賴 Gsα-cAMP-PKA 訊息傳遞鏈。在 PHP-1a 患者中，Proximal Tubule Gsα 缺失導致 PTH 無法刺激 1-alpha-hydroxylase 活性，故即使血鈣極低且 PTH 暴高，Calcitriol Inappropriately Low Calcitriol。",
       "resolvedImages": [],
       "selectedOption": "D",
       "nlmResponses": [
@@ -670,7 +670,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "GNAS 為體體染色體顯性遺傳 (Autosomal Dominant Inheritance)，故子代遺傳到突變基因之機率為 50%。由於突變係來自母親 (Maternal Transmission)，在子代之 Renal Proximal Tubule 中，被沉寂的 Paternal Allele 無法支援，唯一具活性的 Maternal Allele 帶有突變，因此承傳突變之子代必將表現為完整的 Pseudohypoparathyroidism Type 1a (PHP-1a)。",
+      "sourceExplanation": "GNAS Autosomal Dominant Inheritance，故子代遺傳到突變基因之機率為 50%。Maternal Transmission，在子代之 Renal Proximal Tubule 中，被沉寂的 Paternal Allele 無法支援，唯一具活性的 Maternal Allele 帶有突變，因此承傳突變之子代必將表現為完整的 Pseudohypoparathyroidism Type 1a (PHP-1a)。",
       "resolvedImages": [],
       "selectedOption": "C",
       "nlmResponses": [
@@ -772,7 +772,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在長期未受控制的 PHP-1a 或 Hypoparathyroidism 患者中，持續性的 Hyperphosphatemia 導致血液與組織間之 Calcium-Phosphate Product (Ca x Pi 乘積) 顯著升高 (超越 55 mg²/dL²)。這會促進鈣磷複合物沉積於基底核 (Basal Ganglia) 血管壁與微小血管周圍組織，引發以對稱性基底核鈣化為主的 Fahr Syndrome 特徵，臨床上呈現錐體外路症狀與認知功能下降。",
+      "sourceExplanation": "在長期未受控制的 PHP-1a 或 Hypoparathyroidism 患者中，持續性的 Hyperphosphatemia 導致血液與組織間之 Calcium-Phosphate Product (Ca x Pi 乘積) 顯著升高 (超越 55 mg²/dL²)。Basal Ganglia 血管壁與微小血管周圍組織，引發以對稱性基底核鈣化為主的 Fahr Syndrome 特徵，臨床上呈現錐體外路症狀與認知功能下降。",
       "resolvedImages": [],
       "selectedOption": "D",
       "nlmResponses": [
@@ -823,7 +823,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "CaSR 的兩種突變方向造成相反的臨床表型：Gain-of-Function (活化型) 突變導致 ADH (Autosomal Dominant Hypocalcemia)，鈣感應閾值調低，副甲狀腺與腎小管誤判為高血鈣而抑制 PTH 並大量排鈣 (Hypocalcemia + Hypercalciuria)；Loss-of-Function (失能型) 突變導致 FHH (Familial Hypocalciuric Hypercalcemia)，副甲狀腺與腎小管感應不到血鈣而過度重吸收鈣 (Hypercalcemia + Hypocalciuria)。",
+      "sourceExplanation": "CaSR 的兩種突變方向造成相反的臨床表型：Gain-of-Function Mutation 突變導致 ADH (Autosomal Dominant Hypocalcemia)，鈣感應閾值調低，副甲狀腺與腎小管誤判為高血鈣而抑制 PTH 並大量排鈣 (Hypocalcemia + Hypercalciuria)；Loss-of-Function Mutation 突變導致 FHH (Familial Hypocalciuric Hypercalcemia)，副甲狀腺與腎小管感應不到血鈣而過度重吸收鈣 (Hypercalcemia + Hypocalciuria)。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -880,7 +880,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "PHP-1a 與 PPHP 皆源自 GNAS Coding Region 之失能異型突變 (Coding Inactivating Mutation)，故在全體細胞 (包含無銘印之 Erythrocyte 膜) 中皆表現出約 50% 之 Gsα 生物活性降低。相比之下，PHP-1b (Epigenetic Imprinting Defect)、PHP-1c (Catalytic Site Preserved Mutation) 以及 PHP-2 (Downstream cAMP Defect) 之 Erythrocyte Gsα Bioactivity 皆為正常。",
+      "sourceExplanation": "PHP-1a 與 PPHP 皆源自 GNAS Coding Region Coding Inactivating Mutation，故在全體細胞 (包含無銘印之 Erythrocyte 膜) 中皆表現出約 50% 之 Gsα 生物活性降低。相比之下，PHP-1b (Epigenetic Imprinting Defect)、PHP-1c (Catalytic Site Preserved Mutation) 以及 PHP-2 (Downstream cAMP Defect) 之 Erythrocyte Gsα Bioactivity 皆為正常。",
       "resolvedImages": [],
       "selectedOption": "D",
       "nlmResponses": [
@@ -931,7 +931,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "該男童呈現典型的 PHP-1a 臨床與生化特徵 (AHO 骨骼特徵 + PTH Resistance 低血鈣高血磷高 PTH + TSH Resistance)。確定診斷與家族遺傳模式的最關鍵確認步驟為：進行患者與父母之 GNAS 基因檢測，確認是否帶有 GNAS 失能突變並辨識其母源傳遞 (Maternal Transmission) 模式。",
+      "sourceExplanation": "該男童呈現典型的 PHP-1a 臨床與生化特徵 (AHO 骨骼特徵 + PTH Resistance 低血鈣高血磷高 PTH + TSH Resistance)。確定診斷與家族遺傳模式的最關鍵確認步驟為：進行患者與父母之 GNAS 基因檢測，確認是否帶有 GNAS Maternal Transmission 模式。",
       "resolvedImages": [],
       "selectedOption": "C",
       "nlmResponses": [

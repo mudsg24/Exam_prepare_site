@@ -1,0 +1,91 @@
+{
+  "id": "2026_Delayed_Graft_Function_(主題備考)",
+  "paperId": "2026_Delayed_Graft_Function_(主題備考)",
+  "title": "Delayed Graft Function (DGF) Masterclass & Clinical Management Guide",
+  "description": "整合 Delayed Graft Function (DGF) 定義、Ischemia-Reperfusion Injury 機轉、早期少尿之超音波與切片鑑別診斷、及 CNI Delay 誘導抗體與透析支持策略之專科課程。",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-29T23:25:00.000Z",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Section 1: Definition, Epidemiology & Ischemia-Reperfusion Pathophysiology of DGF",
+      "content": "### 1. Pathophysiological Topology Matrix\n\nDelayed Graft Function (DGF) 最常定義為 Kidney Transplantation 後首週內（First 7 Days）需要接受 Dialysis。其核心病理機轉為 Ischemia-Reperfusion Injury (IRI) 所引發的 Acute Tubular Injury (ATI) 或 Acute Tubular Necrosis (ATN)。風險因子涵蓋 Donor 類型（Donation after Circulatory Death, DCD 高於 Donation after Brain Death, DBD）、Kidney Donor Profile Index (KDPI) 偏高之 Expanded Criteria Donor (ECD)、延長的 Cold Ischemia Time (CIT) 與 Warm Ischemia Time (WIT)。\n\n| Process Step | Molecular & Cellular Pathway | Clinical Consequence |\n| --- | --- | --- |\n| Cold Ischemia | Hypoxia, ATP Depletion, Anaerobic Glycolysis, Na+/K+-ATPase Failure | Epithelial Cell Swelling & Cytoskeletal Disorganization |\n| Reperfusion Phase | Reactive Oxygen Species (ROS) Generation, Complement Cascade Activation (C3a, C5a) | Microvascular Endothelial Damage & Leukocyte Infiltration |\n| Tubular Damage | Detachment of Tubular Epithelial Cells, Loss of Brush Border, Tubular Cast Obstruction | Backleak of Glomerular Filtrate & Abrupt GFR Reduction |\n| Clinical Phenotype | Prolonged Oliguria or Anuria in the Immediate Post-Transplant Window | Dialysis Requirement within First 7 Days Post-Transplant |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Donation after Brain Death (DBD) | Donation after Circulatory Death (DCD) | Expanded Criteria Donor (ECD) |\n| --- | --- | --- | --- |\n| Warm Ischemia Time | Minimal (Controlled Organs) | Prolonged (Agonal Phase & Asystole Window) | Variable |\n| DGF Risk | Baseline (20-30%) | High (40-60%) | High (30-50%) |\n| Dominant Mechanism | Systemic Cytokine Storm from Brain Death | Severe Warm Ischemia & Ischemia-Reperfusion Injury | Baseline Microvascular & Glomerulosclerosis Vulnerability |\n| Primary Mitigation | Donor Hemodynamic Optimization | Hypothermic Machine Perfusion (HMP) | Careful Recipient Matching & KDPI Assessment |\n\n### 3. Pathophysiological Decision Tree\n\nDeceased Donor Kidney Transplantation ➔ Assess Donor Type (DCD vs DBD) & Cold Ischemia Time (>18-24 hours) ➔ Post-Operative Day 1 Oliguria (<0.5 mL/kg/h) ➔ Serum Creatinine Failure to Drop >10% per Day ➔ Requirement of Hemodialysis in Week 1 ➔ Diagnosis: Delayed Graft Function (DGF) secondary to Ischemic Acute Tubular Injury (ATI) ➔ Initiate Hemodynamic Optimization & Avoid Hypovolemia.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 以為 Living Donor Kidney Transplantation 不會發生 Delayed Graft Function。\n**Analysis**: 雖然 DGF 主要發生於 Deceased Donor Transplants（特別是 DCD 與 ECD），但若 Living Donor 存在 Surgical Complications、Severe Hypotension、Prolonged Warm Ischemia Time 或 High Recipient Panel Reactive Antibody (PRA) 引發的 Early Rejection，仍可能出現 DGF。不能僅因 Living Donor 而排除 DGF。",
+      "diagrams": [
+        {
+          "id": "dgf_ai_fig_1",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png",
+          "caption": "Ischemia-Reperfusion Injury (IRI) pathophysiology cascade leading to Delayed Graft Function (DGF)."
+        },
+        {
+          "id": "Brenner_Fig_70_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+          "caption": "Brenner 11e Fig. 70.6: Multifactorial pathogenesis of donor ischemia and allograft injury.",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Section 2: Differential Diagnosis & Systematic Diagnostic Approach to Early Allograft Non-Function",
+      "content": "### 1. Systematic Diagnostic Evaluation Matrix\n\n移植後早期少尿或無功能（Immediate Allograft Dysfunction）之診斷需依序排除 Technical/Surgical Complications、Prerenal Azotemia、Intrinsic Ischemic ATN (True DGF) 及 Early Rejection。Bedside Ultrasound 配合 Doppler Color Flow 指標（如 Resistive Index, RI）為首選非侵入性檢查工具。\n\n| Category | Specific Diagnosis | Key Diagnostic Finding | Immediate Action |\n| --- | --- | --- |\n| Technical / Vascular | Renal Artery Thrombosis | Absent Arterial Doppler Flow | Emergent Surgical Re-exploration |\n| Technical / Vascular | Renal Vein Thrombosis | Reversed Diastolic Arterial Flow on Doppler | Emergent Surgical Exploration |\n| Technical / Urological | Urinary Leak / Ureteral Obstruction | Perigraft Fluid Collection (Uroma) or Hydronephrosis | Diagnostic Aspiration (Creatinine Ratio) / Nephrostomy |\n| Parenchymal / Ischemic | Ischemic Acute Tubular Necrosis | Elevated Resistive Index (RI >0.8), Patent Vessels | Supportive Dialysis & Hemodynamic Optimization |\n| Immunological | Early Rejection (ABMR / TCMR) | High PRA, Positive Donor-Specific Antibody (DSA) | Early Allograft Biopsy & Pulse Steroid / PEX |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Ischemic ATN (True DGF) | Renal Vein Thrombosis | Acute Rejection (ABMR/TCMR) |\n| --- | --- | --- | --- |\n| Timing | Post-Op Day 0-1 Immediate | Post-Op Day 1-3 Sudden | Usually Post-Op Day 3-7+ |\n| Urine Output | Oliguric / Anuric | Abrupt Anuria with Hematuria | Gradual Decline / Non-oliguric Cr Rise |\n| Doppler Ultrasound | High RI, Patent Main Artery & Vein | Reversed Diastolic Flow in Renal Artery | High RI (>0.8), Normal Main Vascular Flow |\n| Graft Pain / Swelling | Mild to Moderate | Severe Graft Pain, Enlargement & Tenderness | Variable Graft Tenderness |\n| Definitive Diagnosis | Diagnosis of Exclusion / Biopsy | Doppler Ultrasound / Surgical Exploration | Allograft Biopsy (Gold Standard) |\n\n### 3. Pathophysiological Decision Tree\n\nImmediate Post-Transplant Oliguria / Anuria ➔ Check Foley Catheter Patency & Bedside Ultrasound ➔ Rule Out Hydronephrosis & Perigraft Fluid Collection ➔ Evaluate Renal Doppler ➔ Main Vessels Patent with Normal/High Resistive Index (RI) ➔ Assess Volume Status ➔ If Hypovolemic, Give Fluid Challenge ➔ Persistent Oliguria without Diuresis ➔ Check Donor-Specific Antibodies (DSA) & Immunologic Risk ➔ High Risk (Day 3-5) or Low Risk (Day 7-10) ➔ Perform Renal Allograft Biopsy.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 看到 Doppler Ultrasound 顯示 Resistive Index (RI) > 0.8 立即診斷為 Acute Rejection。\n**Analysis**: Elevated Resistive Index (RI > 0.8) 代表 Renal Microvascular Resistance 增加，具高敏感度但特異度較低。Ischemic ATN (DGF)、Calcineurin Inhibitor Toxicity、Renal Vein Thrombosis 及 Severe Compression (Lymphocele/Hematoma) 皆會引起 RI 升高。必須結合臨床脈絡與 Allograft Biopsy 作最終裁決。",
+      "diagrams": [
+        {
+          "id": "dgf_ai_fig_2",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/dgf_ultrasound_doppler_ddx.png",
+          "caption": "Diagnostic decision flowchart for early renal allograft dysfunction and Doppler Ultrasound evaluation."
+        },
+        {
+          "id": "Brenner_Fig_70_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_3.png",
+          "caption": "Brenner 11e Fig. 70.3: Management flowchart of kidney allograft non-function and oliguria immediately post-transplant.",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Section 3: Biopsy Indications, Histopathology & Rejection vs CNI Toxicity Reconciliation",
+      "content": "### 1. Histopathological Classification Matrix\n\n當 DGF 持續未見改善時，Allograft Biopsy 是區分 Ischemic ATN、Acute T-cell Mediated Rejection (TCMR)、Acute Antibody-Mediated Rejection (ABMR) 及 Calcineurin Inhibitor (CNI) Toxicity 的金標準。高免疫風險患者建議於 Post-Op Day 3-5 進行 Biopsy，低風險患者於 Day 7-10 進行 Biopsy。\n\n| Pathological Entity | Banff Histological Criteria | Key Biomarker / Staining | Distinguishing Feature |\n| --- | --- | --- | --- |\n| Ischemic ATN | Flattened Epithelium, Loss of Brush Border, Apoptosis | Negative C4d, Low Tubulitis | Intact Glomeruli & Vessels, Tubular Dilatation |\n| Acute TCMR | Interstitial Inflammation (i-score), Tubulitis (t-score) | T-cell Infiltration (CD3+, CD4+, CD8+) | Lymphocytes Invading Tubular Basement Membrane |\n| Acute ABMR | Glomerulitis (g-score), Peritubular Capillaritis (ptc) | Microvascular C4d Positivity, Positive DSA | Microvascular Endothelial Injury & Donor-Specific Ab |\n| CNI Acute Toxicity | Isometric Vacuolization of Proximal Tubules | Negative C4d, Normal Microvasculature | Afferent Arteriolar Vasoconstriction, Reversible |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Ischemic ATN | Acute ABMR | Acute CNI Toxicity |\n| --- | --- | --- | --- |\n| Peritubular Capillaries | Normal / Congested | Peritubular Capillaritis (ptc > 0) | Normal Microvasculature |\n| C4d Immunostaining | Negative | Linear PTC Staining (C4d+) | Negative |\n| Tubular Cytoplasm | Flattened, Desquamated | Variable Inflammation | Isometric Microvacuolization |\n| Donor-Specific Ab (DSA) | Negative | Positive (HLA Class I or II) | Negative |\n| Treatment Response | Recovery over Time | Plasmapheresis, IVIG, Rituximab | Dose Reduction / CNI Trough Lowering |\n\n### 3. Pathophysiological Decision Tree\n\nPersistent DGF Beyond Day 5-7 ➔ Perform Percutaneous Ultrasound-Guided Renal Allograft Biopsy ➔ Histology Examination ➔ If Flattened Tubular Cells without Tubulitis or C4d ➔ Pure Ischemic ATN ➔ Continue Supportive Dialysis & CNI Delay ➔ If Tubulitis (t > 1) & Interstitial Inflammation ➔ Diagnosis: Acute TCMR ➔ Steroid Pulse (or rATG if severe) ➔ If Glomerulitis, Peritubular Capillaritis & C4d+ ➔ Diagnosis: Acute ABMR ➔ Plasmapheresis + IVIG + Rituximab.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 在 DGF 期間發現 Proximal Tubular Epithelial Vacuolization 即判定為 CNI Toxicity 而全面停用 CNI。\n**Analysis**: CNI 引起的 Isometric Vacuolization 為精細、非脂質微泡，主要是 Afferent Arteriolar Vasoconstriction 導致。但在 DGF 缺血修復期，Tubular Regeneration 亦可能出現粗大不規則水泡（Hydropic Change）。須結合 CNI Trough Level 與整體 Banff Pathology 判定，避免盲目停藥導致 Acute Rejection 的發生。",
+      "diagrams": [
+        {
+          "id": "dgf_ai_fig_3",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/dgf_biopsy_histopathology_ddx.png",
+          "caption": "Comparative histopathology of Ischemic ATN, Acute TCMR, and Acute ABMR in allograft biopsy."
+        },
+        {
+          "id": "Brenner_Fig_70_4",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_4.png",
+          "caption": "Brenner 11e Fig. 70.4: Algorithm for management and biopsy protocol of persistent Delayed Graft Function.",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Section 4: Evidence-Based Clinical Management, Immunosuppression Optimization & Long-Term Prognosis",
+      "content": "### 1. Therapeutic Strategy Matrix\n\nDGF 之臨床處置原則圍繞在「透析支持以防維護併發症」、「血液動力學優化以促進小管復原」、「免疫抑制劑微調（CNI Delay / Minimization）」及「誘導抗體選擇（Induction Therapy）」。\n\n| Intervention Category | Specific Protocol / Target | Pathophysiological Rationale | Clinical Outcome |\n| --- | --- | --- | --- |\n| Hemodynamic Support | Maintain Mean Arterial Pressure (MAP) >80-85 mmHg | Adequate Renal Perfusion Pressure to ATN Tissue | Accelerated Tubular Epithelial Regeneration |\n| Dialysis Management | Ultrafiltration to Maintain Euvolemia, Avoid Intradialytic Hypotension | Prevent Secondary Ischemia during Hemodialysis Sessions | Protect Recovering Allograft Microvasculature |\n| Induction Therapy | Anti-IL-2R Ab (Basiliximab) or rATG (Thymoglobulin) | Potent Immunosuppression Allowing CNI Sparing / Delay | Reduce Acute Rejection Risk during DGF Window |\n| CNI Delay Strategy | Delay Tacrolimus/Cyclosporine to Post-Op Day 3-7 (or Urine >500 mL) | Avoid Afferent Arteriolar Vasoconstriction during Peak ATN | Faster Recovery of Glomerular Filtration Rate |\n\n### 2. High-Yield Differential Comparison Table\n\n| Strategy Parameter | Early Full-Dose CNI Initiation | Delayed CNI with Antibody Induction |\n| --- | --- | --- |\n| Immediate Vasoconstriction | High (Reduces Afferent Arteriolar Blood Flow) | Low (Promotes Microvascular Reperfusion) |\n| Acute Rejection Risk | Low | Low (Protected by rATG or Basiliximab) |\n| Duration of DGF | Potentially Prolonged | Shorter Time to Diuresis & Recovery |\n| Monitoring Requirement | Daily CNI Trough Level Target 8-12 ng/mL | Delayed Trough Target 4-8 ng/mL initially |\n\n### 3. Pathophysiological Decision Tree\n\nHigh DGF Risk Recipient (DCD / Long CIT) ➔ Select Induction Agent (rATG for High Immunologic Risk, Basiliximab for Low Risk) ➔ Post-Op Day 0: Start Antimetabolite (MMF) + Corticosteroids ➔ Delay CNI Initiation until Post-Op Day 3-5 or Diuresis Onset ➔ Supportive Intermittent Hemodialysis (Avoid Hypotension) ➔ Monitor Daily Urine Output & Creatinine ➔ Diuresis Onset (>1000 mL/day) ➔ Introduce Low-Dose Tacrolimus ➔ Monitor Long-Term Graft Function.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 以為 DGF 只是暫時性小管損傷，不會影響長期 Allograft Survival。\n**Analysis**: 雖然多數 DGF 患者的小管功能最終會恢復，但大量臨床數據與 Registry Studies（如 USRDS）顯示，DGF 會顯著增加 Subclinical & Acute Rejection 的發生率，並加速 Chronic Allograft Injury (CAI) 與 Fibrosis 的進展，長期 Allograft Half-Life 較非 DGF 患者縮短。因此，臨床上應極力透過 Hypothermic Machine Perfusion (HMP) 等方式降低 DGF 發生率。",
+      "diagrams": [
+        {
+          "id": "dgf_ai_fig_4",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/dgf_immunosuppression_cni_delay.png",
+          "caption": "Immunosuppressive antibody induction and delayed CNI initiation protocol in DGF management."
+        },
+        {
+          "id": "Brenner_Fig_70_5",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_5.png",
+          "caption": "Brenner 11e Fig. 70.5: Algorithm for management of allograft dysfunction and CNI level adjustment.",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ]
+    }
+  ]
+}

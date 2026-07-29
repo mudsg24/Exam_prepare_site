@@ -1,106 +1,208 @@
 {
-  "id": "2026_kaohsiung_cgmh_tips",
-  "title": "2026 高長考訊重點轉化",
-  "description": "整合高雄長庚 2026 腎臟專科考訊重點，涵蓋 Primary Membranous Nephropathy、Calcitriol 代謝、Diabetic Nephropathy 與 ARNI 血液動力學等四大核心主題。",
-  "tags": ["Kaohsiung CGMH", "Membranous Nephropathy", "Hypercalcemia", "Diabetic Nephropathy", "Peritoneal Dialysis"],
-  "sections": [
+  "id": "2026_高長考訊_(重點轉化)_tutorial",
+  "paperId": "2026_高長_(重點轉化)",
+  "title": "2026 高長腎臟專科解題導向主題式備考教學講堂",
+  "sourceCategory": "主題式備考教學",
+  "year": 2026,
+  "updatedAt": "2026-07-29T21:08:00.000Z",
+  "modules": [
     {
-      "id": "module-1",
-      "title": "Module 1: Primary Membranous Nephropathy, Podocyte Autoantigens & Nephrotic Hypercoagulability",
-      "content": "### 1. Dynamic Receptor Mapping Matrix\n\n| Autoantigen | Prevalence in Primary MN | Clinical Significance |\n| :--- | :--- | :--- |\n| PLA2R | 70–80% | 疾病活性指標。Immunologic remission 通常早於 Clinical remission。 |\n| THSD7A | 1–5% | 與 Primary Membranous Nephropathy 相關，部分研究顯示可能與 Malignancy 有較高關聯。 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Primary Membranous Nephropathy | Secondary Membranous Nephropathy |\n| :--- | :--- | :--- |\n| Pathogenesis | 針對 PLA2R 或 THSD7A 之 Autoantibodies | 肇因於 Malignancy、Infections (HBV, HCV)、SLE (Class V) 或 Drugs (NSAIDs, Penicillamine) |\n| Electron Microscopy | Subepithelial electron-dense deposits 伴隨 GBM spikes and holes | 除了 Subepithelial deposits 外，亦可能出現 Mesangial 或 Subendothelial deposits |\n\n### 3. Pathophysiological Decision Tree\n\nPodocyte autoantigen presentation ➔ Anti-PLA2R antibody production ➔ In situ immune complex formation 於 Subepithelial space ➔ Complement activation (C5b-9 MAC) ➔ Podocyte injury and effacement ➔ Proteinuria (Nephrotic Syndrome) ➔ 尿中流失 Antithrombin III 與 Protein S ➔ Hepatic synthesis of procoagulants (Fibrinogen, Factor VIII) 增加 ➔ Hypercoagulable state ➔ Renal Vein Thrombosis (RVT) 與全身性 VTE。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 在 Membranous Nephropathy 中混淆 Immunologic remission 與 Clinical remission 的時間軸。\n**Analysis**: Immunologic remission（血清中 Anti-PLA2R antibodies 廓清）發生的時間點，通常比 Clinical remission（Proteinuria 緩解）早數週至數個月。若單憑 Proteinuria 來評估立即的治療反應，極易導致過早提升 Immunosuppression 的劑量。\n\n**Trap**: 低估 Nephrotic Syndrome 併發 VTE 的風險。\n**Analysis**: 當 Serum Albumin 降至小於 2.0–2.5 g/dL 的閾值時，發生 Renal Vein Thrombosis (RVT) 與全身性 VTE 的風險將顯著攀升。必須考慮給予預防性 Systemic anticoagulation，並從 UFH 或 LMWH 轉換為 Warfarin 或 DOAC，且持續時間往往需要超過 3–6 個月。",
+      "moduleId": "kaohsiung_cgmh_mod1_mn_podocyte",
+      "moduleTitle": "1. Primary Membranous Nephropathy, Podocyte Autoantigens & Nephrotic Hypercoagulability",
+      "studyGuide": "本模組深入傳授 Primary Membranous Nephropathy 之分子靶抗原 (PLA2R1, THSD7A)、Immunologic vs Clinical Remission 之時序偶聯、Brenner Podocyte Subepithelial Deposits 病理特徵、以及 Nephrotic Syndrome 誘發之 Hypercoagulable State 與 RVT/VTE 臨床處置。",
       "diagrams": [
         {
-          "id": "fig-31-17",
+          "id": "brenner_fig_31_17",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_31_17.png",
-          "caption": "Brenner 11e Ch 31: Pathological spectrum of Membranous Nephropathy"
+          "imagePath": "/server-data/assets/Brenner_Fig_31_17.png",
+          "caption": "Brenner 11e Fig. 31.17: Pathological spectrum of Membranous Nephropathy showing GBM spike formation.",
+          "sourceBook": "Brenner 11e Ch 31"
         },
         {
-          "id": "fig-31-18",
+          "id": "brenner_fig_31_18",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_31_18.png",
-          "caption": "Brenner 11e Ch 31: Electron microscopy showing subepithelial deposits and GBM spikes/holes"
-        },
+          "imagePath": "/server-data/assets/Brenner_Fig_31_18.png",
+          "caption": "Brenner 11e Fig. 31.18: Electron microscopy showing subepithelial electron-dense deposits in Membranous Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "sections": [
         {
-          "id": "fig-module-1-ai",
-          "type": "ai_illustration",
-          "url": "/server-data/assets/kaohsiung_cgmh_module1_mn_hypercoagulable.jpg",
-          "caption": "Mechanisms of Nephrotic Hypercoagulability in Membranous Nephropathy"
+          "heading": "Primary Membranous Nephropathy Podocyte Autoantigens & Hypercoagulability Mechanics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_31_17",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_17.png",
+              "caption": "Brenner 11e Fig. 31.17: Pathological spectrum of Membranous Nephropathy showing GBM spike formation.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "brenner_fig_31_18",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_18.png",
+              "caption": "Brenner 11e Fig. 31.18: Electron microscopy showing subepithelial electron-dense deposits in Membranous Nephropathy.",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "kaohsiung_cgmh_module1_mn_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/kaohsiung_cgmh_module1_mn_hypercoagulable.jpg",
+              "caption": "Figure 1.1: Pathophysiology of Podocyte Autoantigen Deposition and Nephrotic Hypercoagulable Cascade.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "依據 Brenner 11e Ch 31 與 KDIGO 2021 Glomerular Diseases Guidelines 權威章節剖析：\nPrimary Membranous Nephropathy 為由 Autoantibodies 介導之 Podocyte 病變。自體抗體結合 Podocyte 膜表面表達之固有抗原，引發 Subepithelial immune complex formation 與 Complement C5b-9 MAC 活化。\n1. **Autoantigen Spectrum & Prevalence**: PLA2R1 (M-type Phospholipase A2 Receptor 1) 為最主要標的 Autoantigen，佔成人 Primary Membranous Nephropathy 的 70–80%；THSD7A 則佔 1–5%，且與隱匿性 Malignancy 具高度相關。若 Serum Anti-PLA2R 呈陽性且呈典型 Nephrotic Syndrome 且 eGFR 正常，KDIGO 指引允許豁免 Kidney Biopsy。\n2. **Immunologic vs Clinical Remission Dynamics**: Serum Anti-PLA2R 轉陰 (Immunologic Remission) 顯著領先 (precedes) Proteinuria 改善 (Clinical Remission) 數週至數月。若抗體已清除，應避免過度追加 Immunosuppression。\n3. **Nephrotic Hypercoagulability & VTE Risk**: Serum Albumin 降至 < 2.0–2.5 g/dL 時，尿中流失 Antithrombin III 與 Protein S 伴隨 Hepatic synthesis of Fibrinogen 增加，強烈誘發 Hypercoagulable state，以 Renal Vein Thrombosis (RVT) 與 Pulmonary Embolism 為典型處置標的。\n\n| Autoantigen / Parameter | Primary Membranous Nephropathy | Secondary / Malignancy-Associated MN |\n| :--- | :--- | :--- |\n| **Dominant Autoantigen** | PLA2R1 (70–80%) & THSD7A (1–5%) | Tumor antigens, Exogenous antigens |\n| **IgG Subclass Deposition** | Dominant IgG4 | Dominant IgG1 & IgG2 |\n| **Electron Microscopy** | Subepithelial deposits & GBM spikes | Subepithelial + Subendothelial / Mesangial deposits |\n| **Biopsy Exemption** | Allowed if Anti-PLA2R positive & eGFR normal | Biopsy required for underlying cause |\n\n### Pathophysiological Decision Trees\n- **Membranous Autoimmune Cascade**: Anti-PLA2R IgG4 ➔ Subepithelial Immune Complexes ➔ Complement C5b-9 MAC Assembly ➔ Podocyte Effacement ➔ Massive Proteinuria & Hypoalbuminemia ➔ AT-III Loss & RVT Risk.\n\n### Conceptual Trap Analysis\n- **Remission Timeline Trap**: Immunologic remission (Anti-PLA2R 轉陰) 比 Clinical remission (Proteinuria 消退) 早數個月發生；切勿因 Proteinuria 尚未完全消失而誤判治療失敗追加高劑量免疫抑制劑。\n- **THSD7A Malignancy Trap**: THSD7A-associated MN 具顯著 Female predominance 且高風險伴隨 Solid Tumors，目前 KDIGO 指引不允許單憑 Anti-THSD7A 陽性豁免 Kidney Biopsy。"
         }
       ]
     },
     {
-      "id": "module-2",
-      "title": "Module 2: Granulomatous Calcitriol Metabolism & Ectopic Parathyroid Endocrine Dynamics",
-      "content": "### 1. Dynamic Pathway Mapping Matrix\n\n| Enzyme / Hormone | Source | Regulation in Granulomatous Disease |\n| :--- | :--- | :--- |\n| 1-alpha-hydroxylase | Granuloma 內的 Activated Macrophages | Ectopic expression；具自主性，不受 PTH、FGF23 或 Hypercalcemia 的負回饋抑制。 |\n| Calcitriol | Extra-renal conversion (25(OH)D 轉換為 1,25(OH)2D) | 不受調控的過度製造，驅動 Hypercalcemia。 |\n| PTH | Parathyroid Glands | 透過 CaSR 受到 Hypercalcemia 的負回饋抑制。 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Parameter | Primary Hyperparathyroidism | Granulomatous Hypercalcemia (如 Tuberculosis, Sarcoidosis) |\n| :--- | :--- | :--- |\n| Serum Calcium | 升高 | 升高 |\n| Serum PTH | 不適切地升高或正常 | 受到抑制 |\n| 1,25(OH)2D (Calcitriol) | 升高 (由 PTH 驅動) | 升高 (由 Ectopic macrophage 1-alpha-hydroxylase 驅動) |\n\n### 3. Pathophysiological Decision Tree\n\nTuberculosis infection ➔ Granulomas 內 Macrophage activation ➔ Ectopic expression of 1-alpha-hydroxylase ➔ 25(OH)D 不受控地轉換為 Calcitriol ➔ 腸道吸收 Calcium 增加 ➔ Hypercalcemia ➔ 負回饋抑制 Parathyroid glands ➔ PTH levels 下降。\n\nParathyroid embryogenesis ➔ Inferior parathyroid glands 伴隨 Thymus 從 3rd pharyngeal pouch 移行 ➔ 移行停滯 ➔ 形成位於 Anterior mediastinum 的 Ectopic Parathyroid Adenoma。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 誤以為 Mediastinum 呈現 Technetium-99m Sestamibi scan 陽性攝取，便能確診為 Ectopic Parathyroid Adenoma。\n**Analysis**: 雖然 Technetium-99m Sestamibi 被用來定位 Parathyroid Adenoma，但 Tuberculosis 造成的 Mediastinal lymphadenopathy 與 Calcified lymph nodes 同樣會產生偽陽性的顯影攝取。必須高度結合 Serum PTH levels 進行臨床判斷，才能在 Ectopic Parathyroid Adenoma 與 Granulomatous Disease 之間做出精確的鑑別診斷。",
+      "moduleId": "kaohsiung_cgmh_mod2_calcitriol_parathyroid",
+      "moduleTitle": "2. Granulomatous Calcitriol Metabolism & Ectopic Parathyroid Endocrine Dynamics",
+      "studyGuide": "本模組解析 Granulomatous Diseases (Tuberculosis, Sarcoidosis) 引起之 Extra-renal Calcitriol 過度製造、Ectopic Parathyroid Adenoma 之 Mediastinal 診斷排查、與 Sestamibi Scan 偽陽性陷阱。",
       "diagrams": [
         {
-          "id": "fig-7-4",
+          "id": "brenner_fig_7_4",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_7_4.png",
-          "caption": "Brenner 11e Ch 07: Vitamin D pathway and 1-alpha-hydroxylase regulation"
+          "imagePath": "/server-data/assets/Brenner_Fig_7_4.png",
+          "caption": "Brenner 11e Fig. 7.4: Renal and extra-renal Vitamin D 1-alpha-hydroxylation pathways.",
+          "sourceBook": "Brenner 11e Ch 07"
         },
         {
-          "id": "fig-18-1",
+          "id": "brenner_fig_18_1",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_18_1.png",
-          "caption": "Brenner 11e Ch 18: Diagnostic algorithm for Hypercalcemia and PTH profile"
-        },
+          "imagePath": "/server-data/assets/Brenner_Fig_18_1.png",
+          "caption": "Brenner 11e Fig. 18.1: Diagnostic evaluation algorithm for Hypercalcemia and intact PTH level.",
+          "sourceBook": "Brenner 11e Ch 18"
+        }
+      ],
+      "sections": [
         {
-          "id": "fig-module-2-ai",
-          "type": "ai_illustration",
-          "url": "/server-data/assets/kaohsiung_cgmh_module2_tb_parathyroid_calcium.jpg",
-          "caption": "Ectopic Parathyroid Adenoma and Granulomatous Hypercalcemia"
+          "heading": "Granulomatous Calcitriol Metabolism & Ectopic Parathyroid Endocrine Dynamics",
+          "diagrams": [
+            {
+              "id": "brenner_fig_7_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_7_4.png",
+              "caption": "Brenner 11e Fig. 7.4: Renal and extra-renal Vitamin D 1-alpha-hydroxylation pathways.",
+              "sourceBook": "Brenner 11e Ch 07"
+            },
+            {
+              "id": "brenner_fig_18_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_18_1.png",
+              "caption": "Brenner 11e Fig. 18.1: Diagnostic evaluation algorithm for Hypercalcemia and intact PTH level.",
+              "sourceBook": "Brenner 11e Ch 18"
+            },
+            {
+              "id": "kaohsiung_cgmh_module2_tb_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/kaohsiung_cgmh_module2_tb_parathyroid_calcium.jpg",
+              "caption": "Figure 2.1: Granulomatous Macrophage 1-Alpha-Hydroxylase Activation vs Parathyroid Adenoma Dynamics.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "依據 Brenner 11e Ch 7 & Ch 18 權威解剖生理學：\nCalcium 與 Phosphate 代謝受到 Parathyroid Hormone (PTH)、Calcitriol (1,25(OH)2D3) 與 FGF23 之精密調控。\n1. **Granulomatous Extra-Renal Calcitriol Overproduction**: 於 Tuberculosis 與 Sarcoidosis 等 Granulomatous Diseases 中，Activated Macrophages 異常表達 1-alpha-hydroxylase。該酵素缺乏負回饋調控機制，不受 PTH、FGF23 或 Hypercalcemia 抑制，自主將 25(OH)D 轉換為 Calcitriol，導致 Intestinal calcium absorption 大幅增加並誘發 Hypercalcemia 與 Suppressed PTH。\n2. **Ectopic Parathyroid Embryogenesis & Localization**: Inferior Parathyroid Glands 與 Thymus 同由 Third Pharyngeal Pouch 發育移行。若移行受阻，可能形成位在 Anterior Mediastinum 的 Ectopic Parathyroid Adenoma，表現為 PTH-dependent Hypercalcemia。\n3. **Sestamibi Imaging False Positivity**: Technetium-99m Sestamibi Scan 在偵測 Parathyroid Adenoma 時，會因為 Tuberculosis 引起的 Mediastinal Lymphadenopathy 與 Calcified Nodes 產生擬似顯影，造成 Sestamibi False Positive。\n\n| Clinical Parameter | Primary Hyperparathyroidism (PHP) | Granulomatous Hypercalcemia (TB / Sarcoidosis) |\n| :--- | :--- | :--- |\n| **Serum Calcium** | Elevated | Elevated |\n| **Serum Intact PTH** | Inappropriately Normal or High | Markedly Suppressed |\n| **1,25(OH)2D Calcitriol** | Elevated (PTH-driven) | Markedly Elevated (Macrophage-driven) |\n| **1-alpha-hydroxylase Source** | Renal Proximal Tubule (PTH responsive) | Extra-renal Granulomatous Macrophages (Autonomous) |\n\n### Pathophysiological Decision Trees\n- **Granulomatous Hypercalcemia Cascade**: Active TB Granuloma ➔ Macrophage 1-alpha-hydroxylase Overexpression ➔ Uncontrolled 25(OH)D Conversion to Calcitriol ➔ Increased Intestinal Calcium Absorption ➔ Hypercalcemia ➔ Feedback Suppression of Parathyroid Glands (Low PTH).\n\n### Conceptual Trap Analysis\n- **Sestamibi Imaging Trap**: Mediastinal Technetium-99m Sestamibi Uptake 陽性不等於 Ectopic Parathyroid Adenoma；必須先檢視 Serum Intact PTH。若 PTH 受抑制，應排查 Tuberculosis / Sarcoidosis 引起的 Mediastinal Lymphadenopathy 偽陽性。"
         }
       ]
     },
     {
-      "id": "module-3",
-      "title": "Module 3: Diabetic Microvascular Pathology & Infection-Related Glomerulonephritis Spectrum",
-      "content": "### 1. Dynamic Histopathology Mapping Matrix\n\n| Disease Entity | Key Histopathological Findings | Immunofluorescence (IF) Pattern |\n| :--- | :--- | :--- |\n| Diabetic Nephropathy | GBM thickening, Mesangial expansion, Arteriolar hyalinosis, Kimmelstiel-Wilson nodules | 瀰漫性線狀 IgG 與 Albumin 沉積 (非特異性 Plasma protein adsorption) |\n| Staphylococcus-associated PIGN | Endocapillary proliferation, Subepithelial humps | Mesangium 與 Capillary loops 呈現 IgA-dominant 或 co-dominant 沉積 |\n| Anti-GBM Disease | Crescentic Glomerulonephritis | IgG 嚴格沿著 GBM 呈現線狀沉積 |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Staphylococcus-associated PIGN | IgA Nephropathy | Post-streptococcal Glomerulonephritis (PSGN) |\n| :--- | :--- | :--- | :--- |\n| Typical Patient | 高齡、DM、正處於活躍的 MRSA infection | 年輕成人、URI 過後 | 孩童、Pharyngitis (1–3 週) 或 Impetigo (2–6 週) 過後 |\n| Serum C3 Level | 正常或低下 | 正常 | 低下 |\n| Clinical Onset | 與進行中的 Infection 同步發生 | Synpharyngitic (URI 後 1–2 天出現 Gross hematuria) | Infection 緩解後延遲發作 |\n\n### 3. Pathophysiological Decision Tree\n\nChronic hyperglycemia ➔ 結構蛋白發生 Non-enzymatic glycosylation (AGEs) ➔ GBM permeability 增加並出現瀰漫性 IgG 與 Albumin 附著 ➔ Mesangial matrix expansion ➔ 形成 Kimmelstiel-Wilson nodules ➔ Diabetic Glomerulosclerosis。\n\nStaphylococcus infection (如 DM 族群合併 MRSA) ➔ 循環中出現 IgA-dominant immune complexes ➔ 沉積於 Mesangium 與 Subepithelial space ➔ 誘發 Endocapillary proliferation 與 Subepithelial humps ➔ Glomerular inflammation (PIGN)。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 在 Diabetic 患者的 Immunofluorescence (IF) 上看到瀰漫性線狀 IgG 沉積，就直接診斷為 Anti-GBM Disease。\n**Analysis**: 晚期的 Diabetic Nephropathy 經常因為增厚的 GBM 發生非特異性的 Plasma protein adsorption，而在 IF 呈現瀰漫性線狀的 IgG 與 Albumin 沉積。這必須與 Anti-GBM Disease (Goodpasture syndrome) 中具致病性的線狀 IgG autoantibodies 做出鑑別，後者通常會表現出快速進展的 Crescentic Glomerulonephritis。",
+      "moduleId": "kaohsiung_cgmh_mod3_diabetic_staph_gn",
+      "moduleTitle": "3. Diabetic Microvascular Pathology & Infection-Related Glomerulonephritis Spectrum",
+      "studyGuide": "本模組對比 Diabetic Glomerulosclerosis (Kimmelstiel-Wilson Nodules, Non-specific Linear IgG Adsorption) 與 Infection-Related Glomerulonephritis (Staphylococcus PIGN, IgA Dominance, Subepithelial Humps)。",
       "diagrams": [
         {
-          "id": "fig-39-4",
+          "id": "brenner_fig_39_4",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_39_4.png",
-          "caption": "Brenner 11e Ch 39: Histopathology of Diabetic Nephropathy showing Kimmelstiel-Wilson Nodules"
+          "imagePath": "/server-data/assets/Brenner_Fig_39_4.png",
+          "caption": "Brenner 11e Fig. 39.4: Nodular glomerulosclerosis (Kimmelstiel-Wilson lesions) in Diabetic Nephropathy.",
+          "sourceBook": "Brenner 11e Ch 39"
         },
         {
-          "id": "fig-31-12",
+          "id": "brenner_fig_31_12",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_31_12.png",
-          "caption": "Brenner 11e Ch 31: Post-infectious Glomerulonephritis with subepithelial humps"
-        },
+          "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+          "caption": "Brenner 11e Fig. 31.12: Post-infectious Glomerulonephritis showing subepithelial deposits (humps).",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "sections": [
         {
-          "id": "fig-module-3-ai",
-          "type": "ai_illustration",
-          "url": "/server-data/assets/kaohsiung_cgmh_module3_diabetic_staph_gn.jpg",
-          "caption": "Diabetic Glomerulosclerosis vs Post-infectious Glomerulonephritis"
+          "heading": "Diabetic Glomerulosclerosis & Post-Staphylococcal Glomerulonephritis Pathology",
+          "diagrams": [
+            {
+              "id": "brenner_fig_39_4",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_39_4.png",
+              "caption": "Brenner 11e Fig. 39.4: Nodular glomerulosclerosis (Kimmelstiel-Wilson lesions) in Diabetic Nephropathy.",
+              "sourceBook": "Brenner 11e Ch 39"
+            },
+            {
+              "id": "brenner_fig_31_12",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+              "caption": "Brenner 11e Fig. 31.12: Post-infectious Glomerulonephritis showing subepithelial deposits (humps).",
+              "sourceBook": "Brenner 11e Ch 31"
+            },
+            {
+              "id": "kaohsiung_cgmh_module3_diabetic_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/kaohsiung_cgmh_module3_diabetic_staph_gn.jpg",
+              "caption": "Figure 3.1: Diabetic Nodular Glomerulosclerosis vs Staphylococcus-Associated IgA-Dominant PIGN.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "依據 Brenner 11e Ch 31 & Ch 39 權威腎臟病理學：\n1. **Diabetic Nephropathy Histopathology**: 慢性高血糖誘發 AGEs (Advanced Glycation End-products) 累積，引致 Diffuse GBM Thickening, Mesangial Expansion, Arteriolar Hyalinosis 以及特徵性 Kimmelstiel-Wilson Nodules。於 Immunofluorescence (IF) 觀察下，增厚之 GBM 常出現 Non-specific Linear IgG & Albumin Staining (因 Plasma Protein Passive Adsorption)，絕非 Anti-GBM Disease 的 Pathogenic Autoantibodies。\n2. **Staphylococcus-Associated PIGN**: 於高齡、Diabetes Mellitus 或 MRSA Infection 患者中，進行中之 Staphylococcal Infection 可誘發 IgA-Dominant 或 IgA/C3 Co-dominant Immune Complex Deposition。切片呈 Endocapillary Proliferation 伴隨 Subepithelial Humps，且 Serum C3 水平可呈現正常或低下。\n\n| Pathological Feature | Diabetic Glomerulosclerosis | Staphylococcus-Associated PIGN | Anti-GBM Disease |\n| :--- | :--- | :--- | :--- |\n| **Light Microscopy** | Kimmelstiel-Wilson nodules & GBM thickening | Endocapillary proliferation & Exudative neutrophils | Crescentic Glomerulonephritis |\n| **Immunofluorescence** | Non-specific linear IgG & Albumin adsorption | IgA-dominant / C3 immune deposits | Pathogenic linear IgG along GBM |\n| **Electron Microscopy** | Diffuse GBM thickening & Mesangial matrix expansion | Large Subepithelial Humps | Absence of humps, GBM rupture |\n\n### Pathophysiological Decision Trees\n- **Diabetic Microvascular Cascade**: Chronic Hyperglycemia ➔ Non-enzymatic Glycation (AGEs) ➔ GBM Thickening & Permeability Alteration ➔ Passive Linear IgG Adsorption ➔ Kimmelstiel-Wilson Nodular Expansion.\n\n### Conceptual Trap Analysis\n- **Linear IgG Immunofluorescence Trap**: Diabetic Nephropathy 切片出現 Linear IgG 染色為非特異性 Protein Adsorption；切勿誤診為 Anti-GBM Disease (Goodpasture Syndrome) 並錯誤開立 Plasma Exchange。"
         }
       ]
     },
     {
-      "id": "module-4",
-      "title": "Module 4: Peritoneal Transport Mechanics, ARNI Hemodynamics & Proximal Tubular Biomarkers",
-      "content": "### 1. Dynamic Biomarker & Hemodynamic Mapping Matrix\n\n| Agent / Biomarker | Mechanism of Action / Source | Renal Hemodynamic or Structural Impact |\n| :--- | :--- | :--- |\n| Sacubitril (Neprilysin inhibitor) | 增加 ANP 與 BNP levels | Afferent arteriole dilation |\n| Valsartan (ARB) | 阻斷 Angiotensin II Type 1 Receptor | Efferent arteriole dilation |\n| KIM-1 & IL-18 | 由 Proximal Tubular Epithelial Cells 脫落 | 標記 Ischemic/Toxic AKI 發生時的實質結構性 Proximal tubular injury |\n\n### 2. High-Yield Differential Comparison Table\n\n| Peritoneal Dialysis Transporter Status | Dialysate/Plasma (D/P) Creatinine | Glucose Osmotic Gradient | Ultrafiltration Profile |\n| :--- | :--- | :--- | :--- |\n| High Transporter (Fast Transporter) | 高 | 因 Glucose 快速吸收而迅速消退 | Ultrafiltration 失敗，尤其在長 dwell times 下；失去 Aquaporin-1 介導的 Free-water sodium dip |\n| Low Transporter (Slow Transporter) | 低 | 能夠在較長時間內維持 | 搭配長 dwell times 可獲得適當的 Ultrafiltration |\n\n### 3. Pathophysiological Decision Tree\n\n長期 Peritoneal Dialysis ➔ Peritoneal membrane 發生 Neoangiogenesis 與 Fibrosis ➔ 轉變為 High Transporter 狀態 ➔ 快速吸收 Dialysate glucose ➔ 提早流失 Glucose osmotic gradient ➔ Ultrafiltration failure 並且喪失 Aquaporin-1 介導的 Free-water sodium dip ➔ 治療上必須改用較短的 dwell times 或使用 Icodextrin。\n\nHeart Failure 治療 ➔ 啟動 ARNI (Sacubitril/Valsartan) ➔ 雙重效應：ANP/BNP 介導的 Afferent arteriole dilation 加上 ARB 介導的 Efferent arteriole dilation ➔ 導致 Intraglomerular hydrostatic pressure 下降 ➔ 產生初期可接受的 Hemodynamic eGFR dip (屬於功能性變化而非結構損傷)。\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 當患者轉變為 High Transporter 時，依然維持標準的長 dwell time Glucose-based Peritoneal Dialysis 處方。\n**Analysis**: High Transporters 會快速將 Dialysate 中的 Glucose 吸收至體內，導致驅動 Ultrafiltration 的 Osmotic gradient 迅速流失。若堅持長 dwell time，將無可避免地導致 Ultrafiltration failure 與 Volume overload。必須將處方調整為較短的 dwell times (例如 APD)，或是使用 Icodextrin，以提供不受小分子快速通透影響的持久 Colloid osmotic gradient。\n\n**Trap**: 將起始 ARNI 後出現的初期 eGFR dip 等同於結構性的 Acute Kidney Injury (AKI)。\n**Analysis**: 藉由 Sacubitril 擴張 Afferent arteriole 與 Valsartan 擴張 Efferent arteriole，會使 Intraglomerular hydrostatic pressure 深度下降，進而導致初期的 Hemodynamic eGFR 衰退。這純粹是 Hemodynamic 功能性變化，並不代表實質的 Tubular injury；若發生真實的結構性損傷，則會觀測到由 Proximal Tubular Epithelial Cells 釋放的 Damage biomarkers (如 KIM-1 與 IL-18) 上升。",
+      "moduleId": "kaohsiung_cgmh_mod4_peritoneal_arni_biomarkers",
+      "moduleTitle": "4. Peritoneal Transport Mechanics, ARNI Hemodynamics & Proximal Tubular Biomarkers",
+      "studyGuide": "本模組解析 Peritoneal Dialysis Transporter Status (PET D/P Creatinine, Ultrafiltration Failure, Icodextrin Indication)、ARNI (Sacubitril/Valsartan) 雙重 Renal Hemodynamic 效應、與 Tubular AKI Damage Biomarkers (KIM-1, IL-18)。",
       "diagrams": [
         {
-          "id": "fig-64-2",
+          "id": "brenner_fig_64_2",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_64_2.png",
-          "caption": "Brenner 11e Ch 64: Peritoneal Equilibration Test (PET) D/P Creatinine curves for High Transporter"
+          "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+          "caption": "Brenner 11e Fig. 64.2: Peritoneal Equilibration Test (PET) D/P Creatinine curves and transport categories.",
+          "sourceBook": "Brenner 11e Ch 64"
         },
         {
-          "id": "fig-28-1",
+          "id": "brenner_fig_28_1",
           "type": "micrograph",
-          "url": "/server-data/assets/Brenner_Fig_28_1.png",
-          "caption": "Brenner 11e Ch 28: Pathophysiology of Acute Kidney Injury and proximal tubular injury"
-        },
+          "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+          "caption": "Brenner 11e Fig. 28.1: Pathophysiological phases of Acute Kidney Injury and proximal tubular structural injury.",
+          "sourceBook": "Brenner 11e Ch 28"
+        }
+      ],
+      "sections": [
         {
-          "id": "fig-module-4-ai",
-          "type": "ai_illustration",
-          "url": "/server-data/assets/kaohsiung_cgmh_module4_pd_arni_biomarkers.jpg",
-          "caption": "Peritoneal Transport and Renal Hemodynamics of ARNI"
+          "heading": "Peritoneal Transport Mechanics, ARNI Hemodynamics & Tubular Damage Biomarkers",
+          "diagrams": [
+            {
+              "id": "brenner_fig_64_2",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_64_2.png",
+              "caption": "Brenner 11e Fig. 64.2: Peritoneal Equilibration Test (PET) D/P Creatinine curves and transport categories.",
+              "sourceBook": "Brenner 11e Ch 64"
+            },
+            {
+              "id": "brenner_fig_28_1",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_28_1.png",
+              "caption": "Brenner 11e Fig. 28.1: Pathophysiological phases of Acute Kidney Injury and proximal tubular structural injury.",
+              "sourceBook": "Brenner 11e Ch 28"
+            },
+            {
+              "id": "kaohsiung_cgmh_module4_pd_fig",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/kaohsiung_cgmh_module4_pd_arni_biomarkers.jpg",
+              "caption": "Figure 4.1: Peritoneal High Transporter Ultrafiltration Mechanics vs ARNI Hemodynamic Efferent/Afferent Arteriole Control.",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ],
+          "content": "依據 Brenner 11e Ch 28 & Ch 64 權威透析與藥理學：\n1. **Peritoneal Transport Mechanics & High Transporter State**: 於 Peritoneal Dialysis 中，PET (Peritoneal Equilibration Test) 4-hour D/P Creatinine > 0.81 定義為 High Transporter。腹膜微血管密度高導致 Solute clearance 快，但 Dialysate Glucose 快速吸收使 Osmotic Gradient 迅速消失，引致 Long Dwell Ultrafiltration Failure。處置應轉為 Short Dwell APD 或使用 Colloid Osmotic Agent (Icodextrin)。\n2. **ARNI Dual Hemodynamic Dip Mechanism**: Sacubitril (Neprilysin Inhibitor 增加 ANP/BNP) 誘導 Afferent Arteriole Dilation，Valsartan (ARB) 誘導 Efferent Arteriole Dilation。雙重作用降低 Intraglomerular Hydrostatic Pressure，導致初期可逆性 Hemodynamic eGFR Dip (< 30%)，屬於功能性保護性變化。\n3. **Proximal Tubular Structural Damage Biomarkers**: 若為 Ischemic 或 Nephrotoxic AKI 造成之真實器官結構性損傷，Proximal Tubular Epithelial Cells 會脫落並高量釋放 KIM-1 (Kidney Injury Molecule-1) 與 IL-18，可用以區分 Hemodynamic Pseudo-AKI 與 Real Tubular Injury。\n\n| Parameter / Entity | High Peritoneal Transporter | Low Peritoneal Transporter |\n| :--- | :--- | :--- |\n| **PET D/P Creatinine at 4 Hours** | High (> 0.81) | Low (< 0.50) |\n| **Glucose Osmotic Gradient Dissipation** | Rapid absorption & rapid loss | Prolonged maintenance |\n| **Ultrafiltration Capacity** | Impaired during long dwells | Well preserved during long dwells |\n| **Optimal Dialysis Prescription** | Short Dwell APD or Icodextrin | Standard CAPD with long dwells |\n\n### Pathophysiological Decision Trees\n- **ARNI Dual Arteriole Hemodynamic Cascade**: Sacubitril (Afferent Vasodilation) + Valsartan (Efferent Vasodilation) ➔ Lower Intraglomerular Hydrostatic Pressure ➔ Initial Reversible Hemodynamic eGFR Dip ➔ Long-Term Nephron Preservation.\n\n### Conceptual Trap Analysis\n- **ARNI Initial eGFR Dip Trap**: 起始 ARNI 後 eGFR 出現 < 30% 之初期下降為功能性 Hemodynamic Response；切勿誤判為 Structural AKI 而盲目停藥。\n- **High Transporter Long Dwell Trap**: High Transporter 患者若使用長 dwell time 葡萄糖透析液，Glucose 吸收後會造成 Fluid Reabsorption & Ultrafiltration Failure；必須改用 Icodextrin 或短 dwell time 處方。"
         }
       ]
     }

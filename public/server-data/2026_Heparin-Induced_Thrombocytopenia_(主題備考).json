@@ -1,0 +1,749 @@
+{
+  "id": "2026_Heparin-Induced_Thrombocytopenia_(主題備考)",
+  "title": "2026 Heparin-Induced Thrombocytopenia (主題備考)",
+  "year": 2026,
+  "sourceCategory": "2026 年主題練習",
+  "updatedAt": "2026-07-29T23:25:00.000Z",
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "stem": "Which of the following immunopathogenetic mechanisms is primarily responsible for Type II Heparin-Induced Thrombocytopenia (HIT)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formation of IgG autoantibodies against Platelet Factor 4 (PF4)-heparin complexes that cross-link FcγRIIa receptors on platelets."
+        },
+        {
+          "id": "B",
+          "text": "IgA immune complex deposition on vascular endothelial cells leading to IgA vasculitis."
+        },
+        {
+          "id": "C",
+          "text": "Direct non-immune osmotic lysis of platelets caused by hyperosmolar heparin preparations."
+        },
+        {
+          "id": "D",
+          "text": "IgM complement activation causing membrane attack complex insertion into megakaryocytes."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "Type II Heparin-Induced Thrombocytopenia (HIT) 屬於免疫介導的重症病變。當 Unfractionated Heparin (UFH) 或 Low-Molecular-Weight Heparin (LMWH) 與 Platelet 顆粒中釋放的 Platelet Factor 4 (PF4) 結合形成超大 Tetramer Complex 時，會誘發產生對抗 PF4-Heparin Complex 的 IgG Autoantibodies。此 Immune Complex 透過與 Platelet 膜上的 FcγRIIa Receptor 跨聯 (Cross-linking)，傳遞強烈的 Platelet Activation 信號，導致 Platelet Microparticles 釋放、Thrombin 大量生成與全血管床血栓形成。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "stem": "A 62-year-old male on unfractionated heparin (UFH) for deep vein thrombosis (DVT) shows a platelet count drop from 240,000/μL to 90,000/μL on Day 7 of therapy. He is clinically stable without bleeding. What is the most appropriate initial step in management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfuse 2 units of platelets and continue unfractionated heparin while awaiting anti-PF4 ELISA results."
+        },
+        {
+          "id": "B",
+          "text": "Discontinue unfractionated heparin immediately and initiate a non-heparin anticoagulant such as Argatroban."
+        },
+        {
+          "id": "C",
+          "text": "Switch unfractionated heparin to therapeutic-dose Low-Molecular-Weight Heparin (LMWH)."
+        },
+        {
+          "id": "D",
+          "text": "Immediately start oral Warfarin monotherapy and monitor INR daily."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "患者在接受 Unfractionated Heparin (UFH) 治療第 7 天出現 Platelet 下降超過 50%（由 240,000 降至 90,000/μL），4Ts Score 屬於 High Risk。臨床上對於中高風險 HIT 患者，首要處置為**立即停用所有 Heparin 產品**，並啟動非肝素抗凝血劑（如 Argatroban 或 Bivalirudin）進行 Therapeutic Anticoagulation。切換為 Low-Molecular-Weight Heparin (LMWH) 會因 >90% 的 Cross-Reactivity 而惡化血栓；輸注 Platelet 或單獨使用 Warfarin 均為嚴禁處置。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "stem": "In calculating the 4Ts pretest probability score for suspected Heparin-Induced Thrombocytopenia (HIT), which clinical scenario receives the maximum score of 2 points for the 'Timing' category?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Platelet count fall occurring after Day 14 of heparin exposure without prior heparin history."
+        },
+        {
+          "id": "B",
+          "text": "Platelet count fall occurring on Day 2 of heparin exposure in a patient with no heparin exposure in the past year."
+        },
+        {
+          "id": "C",
+          "text": "Platelet count fall occurring between Day 5 and Day 10 of heparin exposure, or within 24 hours if heparin was administered within the past 100 days."
+        },
+        {
+          "id": "D",
+          "text": "Platelet count fall occurring immediately post-operatively prior to heparin administration."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "在 4Ts Score 評分系統中，Timing 項目的最高分 (2 分) 標準為：(1) 在首次暴露 Heparin 後的第 5 至 10 天之間發生 Platelet 下降；或者 (2) 患者在過去 100 天內曾接受過 Heparin 暴露，本次暴露後在 24 小時內發生 Rapid-onset Platelet 下降（因為體內殘存對抗 PF4-Heparin 的 IgG 記憶抗體）。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "stem": "Which laboratory assay is considered the gold standard functional test with high specificity (>95%) for confirming Heparin-Induced Thrombocytopenia (HIT)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anti-PF4/Heparin ELISA Immunoassay."
+        },
+        {
+          "id": "B",
+          "text": "Activated Partial Thromboplastin Time (aPTT)."
+        },
+        {
+          "id": "C",
+          "text": "Prothrombin Time / International Normalized Ratio (PT/INR)."
+        },
+        {
+          "id": "D",
+          "text": "Serotonin Release Assay (SRA)."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "Serotonin Release Assay (SRA) 是診斷 HIT 的黃金標準功能性檢驗 (Gold Standard Functional Assay)。SRA 利用經 14C-Serotonin 標記的 Donor Platelets，加入患者血清與低/高濃度 Heparin，量測 Platelet 釋放 Serotonin 的比例，具有 >95% 的極高 Sensitivity 與 Specificity。相對地，Anti-PF4 ELISA 為敏感度高但特異度較低的 Screening Assay。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "stem": "Why is Warfarin monotherapy strictly contraindicated during the acute phase of Heparin-Induced Thrombocytopenia (HIT) when platelets are severely depressed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warfarin rapidly depletes Protein C prior to prothrombin clearance, predisposing to microvascular thrombosis and venous limb gangrene."
+        },
+        {
+          "id": "B",
+          "text": "Warfarin directly activates platelet FcγRIIa receptors and worsens thrombocytopenia."
+        },
+        {
+          "id": "C",
+          "text": "Warfarin neutralizes Argatroban clearance and causes acute liver toxicity."
+        },
+        {
+          "id": "D",
+          "text": "Warfarin induces severe hyperkalemia by inhibiting adrenal 18-hydroxylase."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "在 HIT 急性期（Platelet 顯著降低時），絕對禁止單獨啟動 Warfarin 治療。因為 Warfarin 會優先抑制半衰期極短的天然抗凝血因子 Protein C (t1/2 ~6 小時)，而 Prothrombin (Factor II) 的半衰期較長 (t1/2 ~60 小時)。這會導致體內天然抗凝血能力驟降，在 HIT 原本高 Thrombin 的背景下惡化微血管血栓，引發 Microvascular Thrombosis, Skin Necrosis 以及 Venous Limb Gangrene。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "stem": "A 58-year-old female with End-Stage Renal Disease (ESRD) on maintenance hemodialysis develops suspected Heparin-Induced Thrombocytopenia (HIT). Which non-heparin direct thrombin inhibitor is preferred because its elimination is independent of renal clearance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fondaparinux."
+        },
+        {
+          "id": "B",
+          "text": "Argatroban."
+        },
+        {
+          "id": "C",
+          "text": "Enoxaparin."
+        },
+        {
+          "id": "D",
+          "text": "Dabigatran."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Argatroban 是一種小分子的 Direct Thrombin Inhibitor (DTI)，其清除完全依賴肝臟代謝與膽汁排泄 (Hepatic Metabolism)，其 Elimination Half-life (~45 min) 在 End-Stage Renal Disease (ESRD) 或 Hemodialysis 患者體內完全不受影響。因此 Argatroban 是腎功能衰竭與透析患者發生 HIT 時的首選抗凝血劑。相較之下，Fondaparinux 與 Dabigatran 依賴腎臟排泄，在 ESRD 會嚴重蓄積。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "stem": "Which of the following statements regarding the laboratory screening assay (Anti-PF4/Heparin ELISA) for HIT is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has a 100% specificity for clinical HIT, meaning all positive ELISA tests indicate active HIT thrombosis."
+        },
+        {
+          "id": "B",
+          "text": "It measures functional serotonin release from washed donor platelets."
+        },
+        {
+          "id": "C",
+          "text": "It has a very high sensitivity (>99%), so a negative result strongly excludes HIT (high negative predictive value)."
+        },
+        {
+          "id": "D",
+          "text": "It cannot detect IgG class antibodies against PF4-heparin complexes."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Anti-PF4/Heparin ELISA Immunoassay 具有極高的 Sensitivity (>99%)，其 Negative Predictive Value (NPV) 近乎 100%，因此陰性結果可以非常可靠地排除 HIT。然而其 Specificity 較低 (70–85%)，因為許多暴露過 Heparin 的心臟手術或透析患者體內會產生無致病功能的 Non-platelet-activating Anti-PF4 Antibodies，陽性結果需結合 4Ts Score 與 SRA 功能性分析進行綜合研判。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "stem": "A patient with confirmed HIT is being treated with continuous Argatroban infusion. The patient's platelet count recovers to 180,000/μL, and Warfarin is overlapping. How should Argatroban be safely discontinued during Warfarin transition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop Argatroban immediately as soon as Warfarin is prescribed."
+        },
+        {
+          "id": "B",
+          "text": "Stop Argatroban when the combined INR reaches 2.0."
+        },
+        {
+          "id": "C",
+          "text": "Administer Vitamin K1 to reverse Argatroban before stopping."
+        },
+        {
+          "id": "D",
+          "text": "Continue Argatroban co-administration for at least 5 days until the combined INR is >4.0, then stop Argatroban and recheck INR in 4-6 hours."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "Argatroban 會顯著干擾 PT/INR 測量，使 INR 額外升高。當 Argatroban 與 Warfarin 重疊使用時，必須重疊至少 5 天且 Platelet 回升至 >150,000/μL。由於 Argatroban 造成的附加 INR 提升，兩藥併用時的目標 INR 通常需要達到 >4.0；在停用 Argatroban 4–6 小時後（待 Argatroban 完全清除），單獨測量 Warfarin 的真實 INR 仍達 2.0–3.0 方可完全停用 Argatroban。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q9",
+      "number": 9,
+      "stem": "Why are platelet transfusions generally contraindicated in patients with acute Heparin-Induced Thrombocytopenia (HIT) unless life-threatening hemorrhage occurs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infused platelets provide additional substrate for anti-PF4/heparin antibodies, triggering further activation and thrombotic events."
+        },
+        {
+          "id": "B",
+          "text": "Transfused platelets rapidly clear Argatroban from the bloodstream."
+        },
+        {
+          "id": "C",
+          "text": "Transfused platelets cause acute intravascular hemolysis via complement activation."
+        },
+        {
+          "id": "D",
+          "text": "Transfused platelets induce severe metabolic alkalosis via citrate load."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "在 HIT 急性期，患者循環中存在高濃度的 Anti-PF4/Heparin Immune Complexes。此時若輸注外源性 Platelets，輸入的血小板會提供大量的 PF4 與 FcγRIIa Receptor，如同「加油添火 (Fueling the fire)」，引發更為劇烈的 Platelet Activation 與 Thrombin 暴衝，進而誘發致命的 Arterial and Venous Thrombosis。因此除危及生命的出血外，HIT 嚴禁預防性輸注 Platelets。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "stem": "A 65-year-old male undergoing urgent Percutaneous Coronary Intervention (PCI) has a documented history of acute HIT 2 weeks ago with persistent SRA positivity. Which short-acting intravenous direct thrombin inhibitor is preferred for anticoagulation during PCI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low-Molecular-Weight Heparin."
+        },
+        {
+          "id": "B",
+          "text": "Bivalirudin."
+        },
+        {
+          "id": "C",
+          "text": "Warfarin."
+        },
+        {
+          "id": "D",
+          "text": "Rivaroxaban."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Bivalirudin 是一種短效的 IV Direct Thrombin Inhibitor (DTI)，半衰期約 25 分鐘，主要經由血漿蛋白酶水解 (80%) 與腎臟清除 (20%)。在心導管 Percutaneous Coronary Intervention (PCI) 或心臟手術中，對於近代 (90天內) 曾發生 HIT 或 SRA 仍呈陽性的患者，Bivalirudin 是美國胸腔醫師學會 (ACCP) 指引首選推薦的術中抗凝血藥物。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "stem": "Fondaparinux is a synthetic pentasaccharide used off-label for HIT. What is the major pharmacokinetic limitation of Fondaparinux in patients with severe renal impairment (CrCl <30 mL/min)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It undergoes rapid hepatic metabolism via CYP3A4, causing drug interactions."
+        },
+        {
+          "id": "B",
+          "text": "It directly cross-links FcγRIIa receptors in 100% of patients with HIT."
+        },
+        {
+          "id": "C",
+          "text": "It is eliminated primarily by the kidneys and accumulates, increasing bleeding risk in renal failure."
+        },
+        {
+          "id": "D",
+          "text": "It cannot inhibit Factor Xa in the presence of low antithrombin levels."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Fondaparinux 是一種合成的 Pentasaccharide，可選擇性結合 Antithrombin 並抑制 Factor Xa。雖然 Fondaparinux 幾乎不與 HIT 抗體發生 Cross-Reactivity，但其主要經由腎臟排泄，半衰期長達 17–21 小時。在重度腎功能不全 (CrCl <30 mL/min) 或 End-Stage Renal Disease (ESRD) 患者體內，Fondaparinux 會顯著蓄積並增加嚴重出血風險，因此此類患者禁忌或不宜使用。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "stem": "In a patient undergoing maintenance hemodialysis who develops acute HIT, what is the recommended circuit anticoagulation strategy to maintain dialyzer patency without heparin?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low-dose Unfractionated Heparin flushes into the arterial line."
+        },
+        {
+          "id": "B",
+          "text": "Heparin-coated hemodialysis membranes."
+        },
+        {
+          "id": "C",
+          "text": "High-dose Low-Molecular-Weight Heparin in the venous bloodline."
+        },
+        {
+          "id": "D",
+          "text": "Regional Citrate Anticoagulation (RCA) or saline flushes."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "對於洗腎室 (Hemodialysis Unit) 確診或高度懷疑 HIT 的患者，透析迴路 (Dialysis Circuit) 的首選抗凝策略為 Regional Citrate Anticoagulation (RCA) 或無抗凝洗腎 (Saline Flushes)。Regional Citrate 透過在透析器前螯合 Calcium 離子發揮局部抗凝作用，完全不含有任何 Heparin 成分，且不增加全身性出血或血栓風險。使用 Heparin Flushes 或 Heparin-coated Membranes 均為嚴禁項目。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "stem": "What distinguishes Type 1 HIT from Type 2 HIT regarding pathophysiology and clinical course?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Type 1 HIT is a transient, non-immune direct heparin effect with mild platelet drop and no thrombosis risk, whereas Type 2 HIT is immune-mediated with high thrombosis risk."
+        },
+        {
+          "id": "B",
+          "text": "Type 1 HIT is IgG-mediated, whereas Type 2 HIT is IgE-mediated anaphylaxis."
+        },
+        {
+          "id": "C",
+          "text": "Type 1 HIT requires mandatory Argatroban therapy, whereas Type 2 HIT requires no treatment."
+        },
+        {
+          "id": "D",
+          "text": "Type 1 HIT occurs exclusively with LMWH, whereas Type 2 HIT occurs exclusively with Fondaparinux."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "Type 1 HIT 是由 Heparin 直接與 Platelet 結合引發的非免疫性輕微血小板聚集 (Non-immune direct aggregation)，通常在用藥 1–4 天內發生，Platelet 輕微下降且很少 <100,000/μL，無血栓風險且可自行恢復。而 Type 2 HIT 則是抗體介導的重症病變 (Immune-mediated via IgG against PF4-heparin)，伴隨高度血栓風險與顯著 Platelet 驟降，必須立即停用 Heparin 並使用替代抗凝血劑。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "stem": "A patient receives Unfractionated Heparin during cardiac surgery 60 days ago. Today, he is re-exposed to UFH for DVT prophylaxis and develops abrupt severe thrombocytopenia within 12 hours. What explains this rapid-onset HIT presentation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Direct osmotic damage to platelets by hypertonic heparin solutions."
+        },
+        {
+          "id": "B",
+          "text": "Circulating anti-PF4/heparin IgG antibodies persisted from the prior heparin exposure within the past 100 days."
+        },
+        {
+          "id": "C",
+          "text": "Anaphylactoid IgE release from mast cells causing instant platelet destruction."
+        },
+        {
+          "id": "D",
+          "text": "Acute bone marrow aplasia induced by synthetic heparin preservatives."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Rapid-onset HIT 通常出現在過去 100 天內（尤其是 30 天內）曾暴露過 Heparin 的患者身上。因為先前暴露誘發的 Anti-PF4/Heparin IgG 循環抗體尚未完全消失，當重新接觸 Heparin 時，抗體會在數小時內 (≤24 hours) 迅速與新形成的 PF4-Heparin Complex 結合並活化 Platelet，引發爆發性的 Rapid-onset HIT。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "stem": "What is the main monitoring parameter and target range for guiding continuous intravenous Argatroban infusion in acute HIT management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prothrombin Time (PT), targeted to 4.0 to 5.0 times baseline."
+        },
+        {
+          "id": "B",
+          "text": "Bleeding Time, targeted to >15 minutes."
+        },
+        {
+          "id": "C",
+          "text": "Activated Partial Thromboplastin Time (aPTT), targeted to 1.5 to 3.0 times the baseline value."
+        },
+        {
+          "id": "D",
+          "text": "Serum Creatinine clearance, targeted to >60 mL/min."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Argatroban 透過持續靜脈輸注給藥，其療效與安全性的主要監測指標為 Activated Partial Thromboplastin Time (aPTT)。臨床目標需將 aPTT 控制在患者基期值 (Baseline) 的 1.5 至 3.0 倍（通常為 55–90 秒）。開始輸注或調整劑量後 2–4 小時需抽血確認 aPTT，達標後每日監測即可。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "stem": "A patient with acute HIT develops necrotic skin lesions at heparin subcutaneous injection sites and dark discoloration of the toes. What pathophysiological event has occurred?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Direct cytotoxic necrosis caused by bacterial contamination of heparin vials."
+        },
+        {
+          "id": "B",
+          "text": "Type I IgE-mediated immediate hypersensitivity reaction."
+        },
+        {
+          "id": "C",
+          "text": "Acute cholesterol atheroembolization secondary to heparin-induced plaque rupture."
+        },
+        {
+          "id": "D",
+          "text": "Widespread microvascular thrombosis driven by intense thrombin generation and platelet microparticle release."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "HIT 導致的皮下注射部位壞死 (Heparin-induced Skin Necrosis) 與肢端缺血壞死 (Venous Limb Gangrene / Phlegmasia cerulea dolens)，是極致高凝血狀態下 Microvascular Thrombosis 的典範表現。此現象源於 Anti-PF4/Heparin 免疫複合物引發爆發性的 Platelet Activation、Platelet Microparticle 釋放與 Thrombin 生成，導致微血管床普遍被微血栓堵塞。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "stem": "Which of the following is a recognized trigger for HIT in End-Stage Renal Disease (ESRD) patients who are not receiving therapeutic intravenous heparin?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine heparin flushes for central venous hemodialysis catheter lock and maintenance."
+        },
+        {
+          "id": "B",
+          "text": "Oral Calcium Carbonate phosphate binder therapy."
+        },
+        {
+          "id": "C",
+          "text": "Subcutaneous Erythropoietin-Stimulating Agent (ESA) injections."
+        },
+        {
+          "id": "D",
+          "text": "Dialysate bicarbonate concentration of 35 mEq/L."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "selectedOption": "A",
+      "sourceExplanation": "在末期腎病 (ESRD) 患者中，即便沒有接受全身性 Therapeutic Heparin 治療，僅僅用於中心靜脈透析導管 (Central Venous Catheter) 封管或沖洗的小劑量 Heparin Flushes (Heparin Lock)，也足以誘發 Anti-PF4/Heparin 抗體產生並引發經典的 HIT。因此診斷 HIT 時，必須徹底封殺包含導管 Flush 在內的所有潛在 Heparin 來源。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "stem": "In a critically ill patient in the ICU with acute HIT and severe acute hepatic failure (Child-Pugh Class C), how should the initial continuous Argatroban infusion rate be adjusted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase the initial infusion rate to 5.0 μg/kg/min to compensate for liver failure."
+        },
+        {
+          "id": "B",
+          "text": "Reduce the initial infusion rate significantly (e.g., from 2.0 μg/kg/min down to 0.5 μg/kg/min) and monitor aPTT closely."
+        },
+        {
+          "id": "C",
+          "text": "Maintain standard dose because Argatroban is cleared by renal hemodialysis."
+        },
+        {
+          "id": "D",
+          "text": "Switch immediately to therapeutic Warfarin monotherapy."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "selectedOption": "B",
+      "sourceExplanation": "Argatroban 主要經由肝臟代謝 (Hepatic Clearance)。在肝功能正常的患者中，初始劑量為 2.0 μg/kg/min；但在重度肝功能不全 (Child-Pugh Class C)、嚴重淤膽或多器官衰竭 (Shock Liver) 的 ICU 重症患者中，Argatroban 的 Clearance 會大幅下降 4 倍以上。因此初始劑量必須顯著調降至 0.5 μg/kg/min 甚至更低，並嚴密監測 aPTT 防止嚴重出血。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q19",
+      "number": 19,
+      "stem": "What is the definition of Autoimmune HIT (or Delayed-Onset HIT)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HIT triggered exclusively by natural food products containing endogenous heparin sulfates."
+        },
+        {
+          "id": "B",
+          "text": "HIT caused by autoantibodies targeting Antithrombin III directly."
+        },
+        {
+          "id": "C",
+          "text": "HIT characterized by heparin-independent platelet-activating antibodies that persist or begin days after heparin discontinuation."
+        },
+        {
+          "id": "D",
+          "text": "HIT that resolves spontaneously within 2 hours of heparin administration."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "selectedOption": "C",
+      "sourceExplanation": "Autoimmune HIT (包含 Delayed-Onset HIT 與 Spontaneous HIT) 的特徵為患者體內產生的 Anti-PF4 抗體具備「不依賴 Heparin (Heparin-independent)」即可強效活化 Platelet 的能力。臨床上表現為患者在停用 Heparin 數天至數週後，Platelet 仍持續下降或首度出現新發血栓；此類患者通常需要更長時間的非肝素抗凝血劑治療。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    },
+    {
+      "id": "q20",
+      "number": 20,
+      "stem": "Which Direct Oral Anticoagulants (DOACs) have accumulated clinical evidence as safe and effective oral treatment options for stable, non-life-threatening HIT after acute management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warfarin and Phenprocoumon."
+        },
+        {
+          "id": "B",
+          "text": "Hirudin and Lepirudin."
+        },
+        {
+          "id": "C",
+          "text": "Streptokinase and Urokinase."
+        },
+        {
+          "id": "D",
+          "text": "Rivaroxaban and Apixaban."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "selectedOption": "D",
+      "sourceExplanation": "近年臨床指引（如 ASH 2018/2026 Guidelines）指出，對於病情穩定、非重症且無急迫血栓危險的 HIT 患者，Oral Direct Factor Xa Inhibitors (如 Rivaroxaban 或 Apixaban) 可作為取代 DTI 靜脈輸注的有效口服方案。DOACs 不會像 Warfarin 般引起 Protein C 驟降，因此不會誘發 Skin Necrosis，且無需複雜的 INR 重疊銜接監測。",
+      "resolvedImages": [
+        {
+          "id": "Brenner_Table_63_8",
+          "imagePath": "/server-data/assets/Brenner_Table_63_8.png",
+          "caption": "Brenner 11e Table 63.8: Guidelines for Anticoagulation in Hemodialysis Patients at High Risk for Serious Bleeding.",
+          "sourceBook": "Brenner 11e Ch 63"
+        }
+      ],
+      "nlmResponses": [],
+      "qcVerified": false,
+      "qcStatus": "PENDING"
+    }
+  ]
+}

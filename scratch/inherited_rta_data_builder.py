@@ -1,0 +1,219 @@
+import json
+import os
+
+# 1. Create Tutorial JSON
+tutorial_data = {
+  "id": "2026_Inherited_RTA_(主題備考)",
+  "paperId": "2026_Inherited_RTA_(主題備考)",
+  "title": "Inherited Renal Tubular Acidosis (RTA) Molecular Transport Defects, Genetic Phenotypes, Diagnostic Workup & Clinical Management",
+  "description": "整合 Inherited Distal RTA (Type 1 dRTA: SLC4A1, ATP6V1B1, ATP6V0A4)、Proximal RTA (Type 2 pRTA: SLC4A4/NBCe1, CA2) 與 Inherited Fanconi Syndrome (Cystinosis, Lowe, Dent Disease)、Hyperkalemic RTA (Type 4 RTA: PHA1A/NR3C2, PHA1B/ENaC) 及 Gordon Syndrome (PHA2: WNK1, WNK4, KLHL3, CUL3) 之分子運送蛋白缺陷、基因臨床表徵、Urine Anion Gap / Osmolal Gap 階梯式鑑別診斷與臨床治療之高分精華課程。",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-29T23:30:00.000Z",
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Distal Renal Tubular Acidosis (Type 1 dRTA) & Molecular Transport Defects",
+      "content": """### 1. Distal RTA Molecular & Genetic Topology Matrix
+
+| Genetic Variant | Inheritance Pattern | Mutated Gene & Protein | Primary Extra-Renal Phenotypes | Key Pathophysiological Mechanism |
+| :--- | :--- | :--- | :--- | :--- |
+| AD dRTA | Autosomal Dominant | SLC4A1 (kAE1 / Band 3 / Anion Exchanger 1) | Mild or Absent (Late-onset mild SNHL rare) | Impaired basolateral HCO3-/Cl- exchange or dominant-negative mis-sorting of kAE1 to apical membrane in Alpha-Intercalated Cells |
+| AR dRTA with Early SNHL | Autosomal Recessive | ATP6V1B1 (B1 Subunit of V-type H+-ATPase) | Sensorineural Hearing Loss (SNHL) in early childhood | Complete loss of apical proton pump activity in both Alpha-Intercalated Cells and Inner Ear Cochlea (stria vascularis) |
+| AR dRTA with Late/Normal Hearing | Autosomal Recessive | ATP6V0A4 (a4 Subunit of V-type H+-ATPase) | Preserved hearing or late-onset mild SNHL | Loss of apical proton pump function in Alpha-Intercalated Cells; partially redundant a1/a2/a3 subunits in cochlea |
+| AR dRTA with SAE1 | Autosomal Recessive | SLC4A1 (G701D mutation / South-East Asian Ovalocytosis) | Hemolytic Anemia, Ovalocytosis / Stomatocytosis | kAE1 intracellular retention, requires interaction with Glycophorin A for membrane targeting in erythrocytes and kidney |
+
+### 2. High-Yield Comparison of Inherited Distal Tubulopathies & Acidosis Spectrum
+
+| Entity | Primary Gene | Cellular Location | Serum K+ | Urine pH during Acidosis | Nephrocalcinosis / Nephrolithiasis | Unique Diagnostic Feature |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| AD dRTA | SLC4A1 | Basolateral kAE1 in Alpha-Intercalated Cells | Low (Hypokalemia) | > 5.5 | Frequent (Bilateral medullary nephrocalcinosis) | Normal hearing, positive UAG, low urinary citrate |
+| AR dRTA (B1 subunit) | ATP6V1B1 | Apical V-type H+-ATPase in Alpha-Intercalated Cells | Low (Hypokalemia) | > 5.5 | Severe & Early | Progressive Sensorineural Hearing Loss in infancy |
+| AR dRTA (a4 subunit) | ATP6V0A4 | Apical V-type H+-ATPase in Alpha-Intercalated Cells | Low (Hypokalemia) | > 5.5 | Frequent | Preserved hearing or late-onset mild SNHL |
+| Acquired Drug-Induced dRTA | Amphotericin B | Luminal membrane lipid bilayer | Low (Hypokalemia) | > 5.5 | Variable | Direct pore formation allowing H+ back-leak from lumen to cell |
+| Acquired Voltage-Dependent dRTA | Lithium, Vancomycin | Apical ENaC channel inhibition | Variable / Normal | > 5.5 | Rare | Impaired lumen-negative potential generation, reduces H+ secretion |
+
+### 3. Pathophysiological Decision Tree
+
+Gene Mutation (SLC4A1 / ATP6V1B1 / ATP6V0A4) ➔ Structural Defect or Mis-targeting of Apical H+-ATPase or Basolateral kAE1 in Alpha-Intercalated Cells ➔ Inability of Medullary Collecting Duct to Establish Steep H+ Gradient against Blood ➔ Impaired Urinary Hydrogen Ion Secretion & Acidification ➔ Urinary pH Remains Fixed Above 5.5 Despite Severe Systemic Normal Anion Gap Metabolic Acidosis ➔ Reduced Ammonium Secretion (Positive Urine Anion Gap) & Increased Renal K+ Wasting via ROMK in Principal Cells ➔ Hypokalemia + Alkaline Urine + Hypocitraturia (Enhanced Proximal Tubule Citrate Reabsorption) + Hypercalciuria (Acidosis-Induced Bone Resorption) ➔ Calcium Phosphate Precipitation ➔ Bilateral Medullary Nephrocalcinosis & Recurrent Nephrolithiasis.
+
+### 4. Conceptual Trap Analysis
+
+**Trap**: 認為所有 Distal RTA (Type 1) 患者皆會表現極度低血鉀與耳聾，且 Urine pH > 5.5 可單靠隨機尿液試紙排除。
+**Analysis**: 第一，Autosomal Dominant dRTA (SLC4A1 突變) 患者的聽力通常完全正常，聽力障礙 (Sensorineural Hearing Loss) 主要見於 ATP6V1B1 (早期嚴重耳聾) 及部分 ATP6V0A4 (晚期或輕度耳聾) 的 Autosomal Recessive 患者。第二，單次隨機 Urine pH > 5.5 不能直接診斷 dRTA (例如 Proteus 尿路感染產氨或嚴重嘔吐亦可使 Urine pH 升高)；反之，若在全身性代謝性酸中毒 (Serum HCO3- < 16 mEq/L) 狀態下，Urine pH 仍無法降至 5.5 以下，方能確認遠端酸驅動機制缺陷。第三，Incomplete dRTA 患者在平時 Serum HCO3- 與 Systemic pH 可保持正常，但給予 Ammonium Chloride (NH4Cl) 應激試驗時，Urine pH 無法降至 5.5 以下，且常伴隨 Hypocitraturia 與 Nephrocalcinosis。""",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_44_9",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_9.png",
+          "caption": "Brenner 11e Ch 44: Mechanisms of renal acidification in the collecting tubule and molecular defects in Distal RTA (AE1, ATP6V1B1, ATP6V0A4).",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "Inherited_RTA_Module1_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/inherited_drta_molecular_pathogenesis.jpg",
+          "caption": "Molecular Pathogenesis of Type 1 Distal RTA: kAE1 Mutation, Apical H+-ATPase Subunit Defects, and Sensorineural Deafness Association."
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Proximal Renal Tubular Acidosis (Type 2 pRTA) & Inherited Fanconi Syndromes",
+      "content": """### 1. Proximal RTA & Fanconi Syndrome Topology Matrix
+
+| Etiology / Syndrome | Inheritance & Gene Mutation | Transporter / Protein Defect | Extra-Renal Phenotypes | Key Laboratory Features |
+| :--- | :--- | :--- | :--- | :--- |
+| Isolated AR pRTA | Autosomal Recessive / SLC4A4 | Electrogenic Na+/HCO3- Cotransporter (NBCe1) | Band Keratopathy, Glaucoma, Cataracts, Short Stature, Enamel Defects, Intellectual Disability | Severe pRTA, FE-HCO3 > 15%, No Generalized Fanconi Syndrome |
+| CA II Deficiency (Type 3 RTA) | Autosomal Recessive / CA2 | Carbonic Anhydrase II (Cytosolic CA II) | Osteopetrosis (Marble Bone Disease), Cerebral Calcification, Intellectual Disability | Mixed pRTA & dRTA, Impaired Proximal & Distal Acidification |
+| Infantile Nephropathic Cystinosis | Autosomal Recessive / CTNS | Lysosomal Cystine Transporter (Cystinosin) | Corneal Cystine Crystal Deposits, Photophobia, Hypothyroidism, Growth Retardation | Most Common Inherited Cause of Fanconi Syndrome in Children, Early ESKD |
+| Lowe Syndrome (OCRL) | X-linked Recessive / OCRL | Inositol Polyphosphate 5-Phosphatase (OCRL-1) | Congenital Cataracts, Severe Glaucoma, Hypotonia, Intellectual Disability | Proximal Fanconi Syndrome, Low-Molecular-Weight Proteinuria |
+| Dent Disease Type 1 / Type 2 | X-linked Recessive / CLCN5 (Type 1), OCRL (Type 2) | Voltage-Gated Cl-/H+ Exchanger (ClC-5) / OCRL-1 | Asymptomatic or Mild Cataracts (Type 2) | Hypercalciuria, Medullary Nephrocalcinosis, LMW Proteinuria, Progressive CKD |
+
+### 2. High-Yield Comparison of Proximal vs Distal Renal Tubular Acidosis
+
+| Diagnostic Parameter | Proximal RTA (Type 2 pRTA) | Distal RTA (Type 1 dRTA) |
+| :--- | :--- | :--- |
+| Primary Renal Defect | Impaired Proximal HCO3- Reabsorption (Lowered Renal Threshold) | Impaired Distal H+ Secretion in Collecting Duct |
+| Minimal Urine pH during Severe Acidosis | Can drop below 5.5 (< 5.5 when serum HCO3- falls below threshold) | Fixed above 5.5 (> 5.5 regardless of systemic acidosis severity) |
+| Fractional Excretion of HCO3- (FE-HCO3) during HCO3- Load | High (> 15%) | Low (< 5%) |
+| Urine Anion Gap (UAG = Na + K - Cl) | Negative or Variable | Positive (> 0) |
+| Serum Potassium (K+) | Low (Hypokalemia, exacerbated by HCO3- therapy) | Low (Hypokalemia, corrected by HCO3- therapy) |
+| Bone Disease | Rickets / Osteomalacia (due to hypophosphatemia & acidosis) | Rickets / Osteomalacia (due to chronic acidosis-induced bone buffering) |
+| Nephrocalcinosis & Kidney Stones | Rare / Absent | Very Common (Hypocitraturia + Hypercalciuria + Alkaline Urine) |
+| Association with Fanconi Syndrome | Common (Glucosuria, Aminoaciduria, Phosphaturia) | Absent |
+
+### 3. Pathophysiological Decision Tree
+
+Gene Mutation (SLC4A4 / CA2 / CTNS / OCRL / CLCN5) ➔ Impaired Proximal Tubular Epithelial Endocytosis or HCO3- Cotransport / Carbonic Anhydrase Activity ➔ Loss of Proximal HCO3- Reabsorptive Capacity ➔ Filtered HCO3- Exceeds Lowered Threshold (e.g., 12-16 mEq/L) ➔ Massive HCO3- Delivery to Distal Nephron ➔ Transient Bicarbonaturia & Alkaline Urine ➔ Systemic Serum HCO3- Drops Below Lowered Renal Threshold ➔ Distal Nephron Reabsorbs All Remaining Filtered HCO3- and Acidifies Urine ➔ Urine pH Successfully Acidifies to < 5.5 ➔ Concurrent Loss of Phosphate, Glucose, Urate, Amino Acids, and Low-Molecular-Weight Proteins ➔ Generalized Proximal Fanconi Syndrome ➔ Hypophosphatemic Rickets + Osteomalacia + Stunted Growth.
+
+### 4. Conceptual Trap Analysis
+
+**Trap**: 認為 Proximal RTA (Type 2) 患者的 Urine pH 一定恆大於 5.5，且補充電解質只需要鹼化劑。
+**Analysis**: 第一，Proximal RTA 的核心病理為近端小管閾值下降 (Lowered Renal HCO3- Threshold)。當患者處於嚴重酸中毒狀態 (Serum HCO3- 已低於其下降後之閾值，如 12 mEq/L) 時，過慮的 HCO3- 能被近端小管全數吸收，遠端小管的 H+ Pump 功能完全正常，因此 Urine pH 可以成功降至 5.5 以下 (< 5.5)！相反地，Distal RTA (Type 1) 因遠端質子幫浦障礙，不論血中 HCO3- 多低，Urine pH 恆大於 5.5。第二，在補充電解質時，給予大量的 NaHCO3 會使過慮的 HCO3- 大幅超過近端閾值，進一步增加 HCO3- 抵達遠端小管，帶動極大量的 $K^+$ 排泄，導致極度嚴重的次發性 Hypokalemia。因此，Proximal RTA 的治療必須同時給予高劑量 $NaHCO_3 / Potassium\ Citrate$ 以及配合 Thiazide 利尿劑（藉由引發輕微 Volume Depletion 以提升近端小管的 HCO3- 吸收閾值）。""",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_44_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_8.png",
+          "caption": "Brenner 11e Ch 44: Mechanisms of renal acidification in the proximal tubule and carbonic anhydrase activity.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "Inherited_RTA_Module2_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/inherited_prta_fanconi_syndrome.jpg",
+          "caption": "Molecular Pathogenesis of Proximal RTA (Type 2 pRTA) & Inherited Fanconi Syndrome."
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Hyperkalemic Renal Tubular Acidosis (Type 4 RTA) & Inherited Pseudohypoaldosteronism (PHA)",
+      "content": """### 1. Hyperkalemic RTA & Pseudohypoaldosteronism Topology Matrix
+
+| Disease Entity | Inheritance Pattern | Primary Gene Mutation | Defective Signaling Pathway | Key Clinical Features & Blood Pressure | Response to Therapy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| AD Pseudohypoaldosteronism Type 1 (PHA1A) | Autosomal Dominant | NR3C2 | Mineralocorticoid Receptor (MR) Loss of Function | Renal-limited salt wasting in infancy, Hyperkalemia, NAGMA, High Renin & Aldosterone, Normal BP | Salt supplementation & K+ binders; spontaneously improves with age |
+| AR Pseudohypoaldosteronism Type 1 (PHA1B) | Autosomal Recessive | SCNN1A, SCNN1B, SCNN1G | Apical Epithelial Na+ Channel (ENaC) Loss of Function | Multi-organ severe salt wasting (kidney, sweat, salivary glands, lungs), Severe Hypotension, Hyperkalemia, NAGMA, Life-threatening | Massive NaCl & K+ binders required lifelong; no age improvement |
+| Gordon Syndrome (PHA2 / FHHt) | Autosomal Dominant | WNK1, WNK4, KLHL3, CUL3 | WNK Kinase / Cullin-3 E3 Ligase Pathway Hyperactivation | Hypertension, Low Renin, Variable Aldosterone, Hyperkalemia, Hyperchloremic NAGMA | Exquisite sensitivity to low-dose Thiazide Diuretics (NCC inhibition) |
+| Hereditary Defect in Aldosterone Synthesis | Autosomal Recessive | CYP11B2 | Aldosterone Synthase Deficiency (18-Hydroxylase / 18-Oxidase) | Isolated Aldosterone Deficiency, Salt Wasting, Hyperkalemia, NAGMA, High Renin & Low Aldosterone | Mineralocorticoid replacement (Fludrocortisone) |
+
+### 2. High-Yield Comparison of Pseudohypoaldosteronism Types & Differential Features
+
+| Clinical Parameter | PHA Type 1A (Dominant) | PHA Type 1B (Recessive) | PHA Type 2 (Gordon Syndrome) | Classic Hypoaldosteronism |
+| :--- | :--- | :--- | :--- | :--- |
+| Affected Gene | NR3C2 (MR) | SCNN1A/B/G (ENaC) | WNK1, WNK4, KLHL3, CUL3 | CYP11B2 or Adrenal Gland |
+| Organ Involvement | Renal-Limited | Multi-Organ (Renal, Salivary, Sweat, Lung) | Renal-Limited (DCT & CD) | Adrenal / Renal |
+| Blood Pressure | Low or Normal | Severe Hypotension | Hypertension | Low or Normal |
+| Plasma Renin Activity | Markedly Elevated | Markedly Elevated | Suppressed / Low | Markedly Elevated |
+| Plasma Aldosterone | Markedly Elevated | Markedly Elevated | Low, Normal, or Mildly Elevated | Markedly Reduced / Absent |
+| Urinary Na+ Wasting | Present in Infancy | Severe & Lifelong | Absent (Expanded ECF) | Present |
+| Serum Potassium (K+) | Hyperkalemia | Severe Hyperkalemia | Severe Hyperkalemia | Hyperkalemia |
+| Response to Fludrocortisone | Refractory / Unresponsive | Refractory / Unresponsive | Not Indicated | Highly Responsive |
+| Response to Thiazides | Minimal | Minimal | Complete Resolution of HTN & Hyperkalemia | Minimal |
+
+### 3. Pathophysiological Decision Tree
+
+Gene Mutation (WNK1/WNK4/KLHL3/CUL3 in PHA2 OR NR3C2/SCNN1 in PHA1) ➔ Impaired Aldosterone Signal Transduction OR Overactivation of NCC Cotransporter in Distal Convoluted Tubule ➔ In PHA2: Excessive NaCl Reabsorption in DCT ➔ Volume Expansion & Low-Renin Hypertension + Reduced Na+ Delivery to Collecting Duct Principal Cells ➔ Diminished Lumen-Negative Electrical Potential Generation via ENaC in Principal Cells ➔ Impaired Electrogenic Potassium Secretion (via ROMK) & Proton Secretion (via H+-ATPase in Intercalated Cells) ➔ Hyperkalemic Normal Anion Gap Metabolic Acidosis (Type 4 RTA) + Low/Normal Aldosterone ➔ Inhibited Renal Ammoniagenesis by Hyperkalemia ➔ Exquisite Reversal of Acidosis, Hyperkalemia, and Hypertension with Low-Dose Thiazide Diuretics.
+
+### 4. Conceptual Trap Analysis
+
+**Trap**: 將所有呈現 Hyperkalemic Normal Anion Gap Metabolic Acidosis (Type 4 RTA) 的患者皆歸因於 Adrenal Insufficiency 或 Hypoaldosteronism，並給與 Fludrocortisone。
+**Analysis**: 第一，Gordon Syndrome (PHA2) 的病理核心為 WNK Kinase (WNK1/WNK4) 或 Ubiquitin E3 Ligase Complex (KLHL3/CUL3) 突變導致近端與遠端曲小管 NCC (Na-Cl Cotransporter) 過度活化。因為大量 NaCl 在 DCT 被重吸收，患者呈現低血鈉/低生理需求的體液擴張性 **Hypertension**，高血鉀與低血酸；其血清 Renin 受到抑制。此時給予 Fludrocortisone 會惡化體液滯留與高血壓，而 **Low-Dose Thiazide Diuretics** 才是唯一精準標靶治療！第二，Pseudohypoaldosteronism Type 1 (PHA1A 與 PHA1B) 患者體內 Aldosterone 濃度極高，但因 MR 或 ENaC 受體缺陷致使對外源性 Fludrocortisone **完全無反應 (Refractory)**。第三，高血鉀 (Hyperkalemic state) 本身會直接抑制近端小管的 Glutaminase 活性與 NH4+ 產生，進一步加重 Type 4 RTA 的酸中毒程度；因此在 Type 4 RTA 中，控制血鉀是恢復腎臟排酸能力的關鍵步驟。""",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_44_14",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_14.png",
+          "caption": "Brenner 11e Ch 44: Molecular mechanisms of ENaC channel regulation and defects in Pseudohypoaldosteronism Type 1 (PHA1).",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "Brenner_Fig_44_15",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_15.png",
+          "caption": "Brenner 11e Ch 44: Molecular mechanisms of Pseudohypoaldosteronism Type 2 (PHA2 / Gordon Syndrome) via WNK1, WNK4, KLHL3, and CUL3 pathway.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "Inherited_RTA_Module3_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/inherited_pha_gordon_syndrome.jpg",
+          "caption": "Molecular Pathogenesis of Pseudohypoaldosteronism Type 1 (PHA1) and Pseudohypoaldosteronism Type 2 (Gordon Syndrome / PHA2)."
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: Stepwise Diagnostic Workup, Urine Anion/Osmolal Gap & Clinical Traps",
+      "content": """### 1. Stepwise RTA Diagnostic Algorithm Topology Matrix
+
+| Diagnostic Step | Test / Parameter Measured | Normal Reference Range | Diagnostic Interpretation & Thresholds | Clinical Condition Identified |
+| :--- | :--- | :--- | :--- | :--- |
+| Step 1: Acidosis Identification | Serum Bicarbonate (HCO3-) & Anion Gap | HCO3-: 22-28 mEq/L; AG: 8-12 mEq/L | Low HCO3- with Normal Serum Anion Gap (Hyperchloremic Acidosis) | Confirms Normal Anion Gap Metabolic Acidosis (NAGMA) |
+| Step 2: Potassium Stratification | Serum Potassium (K+) | 3.5-5.0 mEq/L | Hypokalemia vs Hyperkalemia | Low K+: Type 1 dRTA, Type 2 pRTA; High K+: Type 4 RTA, PHA1, PHA2 |
+| Step 3: Minimal Urine pH Test | Urine pH during Active Acidosis | Variable (4.5-8.0) | Fixed Urine pH > 5.5 vs Ability to acidify Urine pH < 5.5 | Urine pH > 5.5: Distal RTA (Type 1); Urine pH < 5.5: Proximal RTA (Type 2), Type 4 RTA, Diarrhea |
+| Step 4: Renal Ammonium Assessment | Urine Anion Gap (UAG = Na + K - Cl) | Negative (-20 to -50 mEq/L) | Positive (UAG > 0) vs Negative (UAG < 0) | Positive UAG: Impaired NH4+ Excretion (Type 1 dRTA, Type 4 RTA); Negative UAG: Extra-renal GI HCO3- Loss |
+| Step 5: Unmeasured Anion Gap | Urine Osmolal Gap (UOG) | < 100 mOsm/kg H2O | Calculated NH4+ = 0.5 * (Measured UOsm - Calculated UOsm) | Low UOG (< 150): Impaired Ammoniagenesis; High UOG (> 200): Preserved Ammoniagenesis |
+| Step 6: Bicarbonate Loading Test | Fractional Excretion of HCO3- (FE-HCO3) | < 1% | FE-HCO3 > 15% vs FE-HCO3 < 5% | FE-HCO3 > 15%: Proximal RTA (Type 2 pRTA); FE-HCO3 < 5%: Distal RTA (Type 1 dRTA) |
+| Step 7: Distal Proton Secretion | Urine-to-Blood PCO2 Gradient (U-B PCO2) | > 30 mmHg (in Alkaline Urine) | U-B PCO2 < 20 mmHg | Impaired Distal H+ Secretion (Type 1 dRTA Proton Pump Defect) |
+
+### 2. High-Yield Differential Matrix of Normal Anion Gap Metabolic Acidosis (NAGMA) Causes
+
+| Feature | Diarrhea / GI Loss | Distal RTA (Type 1) | Proximal RTA (Type 2) | Type 4 RTA (Hypoaldosteronism) | Gordon Syndrome (PHA2) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Serum Potassium (K+) | Hypokalemia | Hypokalemia | Hypokalemia | Hyperkalemia | Hyperkalemia |
+| Minimal Urine pH | < 5.5 | > 5.5 | < 5.5 | < 5.5 (usually) | < 5.5 |
+| Urine Anion Gap (UAG) | Negative (< 0) | Positive (> 0) | Negative or Positive | Positive (> 0) | Positive (> 0) |
+| Urine Osmolal Gap (UOG) | High (> 200) | Low (< 150) | High (> 200) | Low (< 150) | Low (< 150) |
+| FE-HCO3 at Normal HCO3- | < 5% | < 5% | > 15% | 5-10% | < 5% |
+| Urinary Citrate Excretion | Low / Normal | Very Low (Hypocitraturia) | Normal / Mild Low | Normal | Normal |
+| Nephrocalcinosis | Absent | Present (Very High) | Absent | Absent | Absent |
+| Blood Pressure | Low / Normal | Normal | Normal | Low / Normal | High (Hypertension) |
+
+### 3. Pathophysiological Decision Tree
+
+Patient Presents with NAGMA (Hyperchloremic Acidosis) ➔ Check Serum K+ ➔ IF Serum K+ is LOW ➔ Measure Urine pH during active Acidosis (Serum HCO3- < 16 mEq/L) ➔ IF Urine pH > 5.5 ➔ Confirm Distal RTA (Type 1) ➔ Measure U-B PCO2 & Check Hearing (ATP6V1B1 vs ATP6V0A4 vs SLC4A1) ➔ IF Urine pH < 5.5 ➔ Measure FE-HCO3 during HCO3- Infusion ➔ IF FE-HCO3 > 15% ➔ Confirm Proximal RTA (Type 2) ➔ Evaluate for Fanconi Syndrome (Glucosuria, Phosphaturia, Aminoaciduria) ➔ IF Serum K+ is HIGH ➔ Check Blood Pressure & Plasma Renin/Aldosterone ➔ IF BP is HIGH with Suppressed Renin ➔ Confirm Gordon Syndrome (PHA2) ➔ Start Low-Dose Thiazide Diuretics ➔ IF BP is LOW/Normal with High Renin & Aldosterone ➔ Confirm Pseudohypoaldosteronism Type 1 (PHA1).
+
+### 4. Conceptual Trap Analysis
+
+**Trap**: 依靠 Urine Anion Gap (UAG = Na + K - Cl) 評估含有大量 Ketoacids、Hippurate 或 Bicarbonate 的尿液排氨量。
+**Analysis**: 第一，Urine Anion Gap (UAG) 的假設為尿液中主要的未測量陽離子為 Ammonium (NH4+)，而主要的陰離子為 Chloride (Cl-)。因此當排氨能力正常時，Urinary Cl- 會顯著高於 Na+ + K+，使 UAG 呈 **Negative (< 0)**。第二，若尿液中存在大量未測量的陰離子 (Unmeasured Anions)，如 D-Lactate, Acetoacetate, Beta-hydroxybutyrate, Hippurate (Toluene Inhalation) 或 Bicarbonate (HCO3-)，陰離子會吸引 Na+ 與 K+ 一同排出，導致 UAG 變成偽陽性 **Positive (> 0)**，進而誤判為 RTA！第三，當存在未測量陰離子時，必須改用 **Urine Osmolal Gap (UOG = Measured UOsm - Calculated UOsm)**。由於 NH4+ 及其隨行陰離子各佔 Osmolality 的一半，估計的 Urinary Ammonium 可精準由 $0.5 \times UOG$ 計算求出，不受未測量陰離子之干擾。""",
+      "diagrams": [
+        {
+          "id": "Inherited_RTA_Module4_AI",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/rta_diagnostic_algorithm_flowchart.jpg",
+          "caption": "High-Yield Clinical Diagnostic Algorithm Flowchart for Renal Tubular Acidosis (RTA) Workup."
+        }
+      ]
+    }
+  ]
+}
+
+os.makedirs('public/server-data/tutorials', exist_ok=True)
+with open('public/server-data/tutorials/2026_Inherited_RTA_(主題備考)_tutorial.json', 'w', encoding='utf-8') as f:
+    json.dump(tutorial_data, f, ensure_ascii=False, indent=2)
+
+print("Tutorial JSON created successfully!")

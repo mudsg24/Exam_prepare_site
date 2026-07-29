@@ -1,0 +1,511 @@
+{
+  "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+  "sourceCategory": "2026 年主題練習",
+  "examTitle": "2026 inherited Renal Phosphate Wasting Spectrum (主題備考)",
+  "questions": [
+    {
+      "id": "q1",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following sodium-dependent phosphate cotransporters located in the renal proximal tubule apical membrane is strictly electroneutral, carrying 2 sodium ions for each divalent phosphate molecule?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NaPi-IIa (SLC34A1)"
+        },
+        {
+          "id": "B",
+          "text": "NaPi-IIc (SLC34A3)"
+        },
+        {
+          "id": "C",
+          "text": "Pit-1 (SLC20A1)"
+        },
+        {
+          "id": "D",
+          "text": "Pit-2 (SLC20A2)"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "NaPi-IIc (SLC34A3) 屬於 100% Electroneutral cotransporter，運送 2 個 Na+ 與 1 個 H2PO4-。相反地，NaPi-IIa (SLC34A1) 屬於 Electrogenic cotransporter，運送 3 個 Na+ 與 1 個 H2PO4-。NaPi-IIc 的基因突變會導致 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
+      ]
+    },
+    {
+      "id": "q2",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "A 7-year-old boy presents with severe rickets, lower extremity bowing, and mark hypercalciuria with recurrent nephrolithiasis. Laboratory evaluation reveals low serum phosphate, normal serum calcium, suppressed serum intact FGF23, and markedly elevated serum 1,25-dihydroxyvitamin D. Which of the following genetic mutations is most likely responsible for his condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loss-of-function mutation in PHEX"
+        },
+        {
+          "id": "B",
+          "text": "Loss-of-function mutation in SLC34A3"
+        },
+        {
+          "id": "C",
+          "text": "Gain-of-function mutation in FGF23"
+        },
+        {
+          "id": "D",
+          "text": "Loss-of-function mutation in CLCN5"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q3",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Regarding the administration of active vitamin D (Calcitriol) in patients with Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH), which of the following statements represents the standard clinical management guideline?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calcitriol is the cornerstone of therapy and should be co-administered with oral phosphate to heal rickets."
+        },
+        {
+          "id": "B",
+          "text": "Calcitriol is strictly contraindicated because it exacerbates hypercalciuria and accelerates nephrocalcinosis."
+        },
+        {
+          "id": "C",
+          "text": "Calcitriol should be given only if serum intact FGF23 levels exceed 100 pg/mL."
+        },
+        {
+          "id": "D",
+          "text": "Calcitriol should be combined with Burosumab to achieve optimal renal phosphate reabsorption."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q4",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following molecular mechanisms explains why loss-of-function mutations in PHEX cause X-linked hypophosphatemia (XLH)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PHEX directly cleaves and inactivates circulating intact FGF23 in the renal proximal tubule."
+        },
+        {
+          "id": "B",
+          "text": "Mutant PHEX in osteocytes leads to uninhibited expression and impaired degradation of intact FGF23 via downstream signaling pathways."
+        },
+        {
+          "id": "C",
+          "text": "PHEX acts as an apical sodium-phosphate cotransporter that undergoes degradation when mutated."
+        },
+        {
+          "id": "D",
+          "text": "PHEX mutation prevents the O-glycosylation of FGF23 by GALNT3, accelerating Furin cleavage."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q5",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "A 28-year-old woman with a history of normal childhood development presents with recent-onset bone pain, muscle weakness, and pseudofractures. Lab testing demonstrates hypophosphatemic osteomalacia with elevated serum intact FGF23. Genetic sequencing confirms a heterozygous R176Q mutation in the FGF23 gene. Which of the following systemic conditions is most recognized as an environmental trigger for disease manifestations in this disorder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systemic iron deficiency"
+        },
+        {
+          "id": "B",
+          "text": "Chronic metabolic alkalosis"
+        },
+        {
+          "id": "C",
+          "text": "Hypercalciuria induced by loop diuretics"
+        },
+        {
+          "id": "D",
+          "text": "Vitamin A toxicity"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q6",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following clinical features distinguishes Dent disease 1 (caused by CLCN5 mutations) from X-linked hypophosphatemia (XLH)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presence of low-molecular-weight proteinuria (such as beta-2 microglobulin) and marked hypercalciuria"
+        },
+        {
+          "id": "B",
+          "text": "Elevated serum intact FGF23 levels causing renal phosphate wasting"
+        },
+        {
+          "id": "C",
+          "text": "Marked suppression of 1,25-dihydroxyvitamin D levels"
+        },
+        {
+          "id": "D",
+          "text": "Autosomal dominant pattern of inheritance"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q7",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Burosumab is an FDA-approved therapeutic agent for X-linked hypophosphatemia (XLH). What is the precise pharmacological mechanism of action of Burosumab?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recombinant PTH receptor antagonist that prevents PTH-mediated endocytosis of NaPi-IIa."
+        },
+        {
+          "id": "B",
+          "text": "Recombinant human IgG1 monoclonal antibody that binds to and neutralizes intact FGF23."
+        },
+        {
+          "id": "C",
+          "text": "Small molecule agonist of the extracellular calcium-sensing receptor (CaSR)."
+        },
+        {
+          "id": "D",
+          "text": "Selective inhibitor of renal 24-hydroxylase (CYP24A1) enzyme activity."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q8",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "In the renal proximal tubule, which scaffolding protein physically anchors NaPi-IIa to the actin cytoskeleton via PDZ domain interactions, and whose loss-of-function mutation causes autosomal dominant hypophosphatemic nephrolithiasis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ezrin"
+        },
+        {
+          "id": "B",
+          "text": "NHERF1 (SLC9A3R1)"
+        },
+        {
+          "id": "C",
+          "text": "Megalin"
+        },
+        {
+          "id": "D",
+          "text": "Cubilin"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceExplanation": "NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
+      ]
+    },
+    {
+      "id": "q9",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "A 16-year-old adolescent boy presents with severe subcutaneous, periarticular calcified masses around his elbows and hips. Laboratory evaluation reveals hyperphosphatemia (serum phosphate 8.2 mg/dL), normal serum calcium, elevated 1,25-dihydroxyvitamin D, and markedly suppressed intact FGF23 levels. Genetic testing demonstrates a homozygous loss-of-function mutation in GALNT3. What is the diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)"
+        },
+        {
+          "id": "B",
+          "text": "Autosomal Recessive Hypophosphatemic Rickets Type 1 (ARHR1)"
+        },
+        {
+          "id": "C",
+          "text": "X-linked Recessive Hypophosphatemic Rickets"
+        },
+        {
+          "id": "D",
+          "text": "Pseudohypoparathyroidism Type 1A"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
+      ]
+    },
+    {
+      "id": "q10",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following inherited disorders is associated with severe resistance to FGF23 due to a loss-of-function mutation in the obligate co-receptor required for FGF23 signaling in the proximal tubule?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Klotho deficiency"
+        },
+        {
+          "id": "B",
+          "text": "DMP1 deficiency"
+        },
+        {
+          "id": "C",
+          "text": "ENPP1 deficiency"
+        },
+        {
+          "id": "D",
+          "text": "FAM20C deficiency"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
+      ]
+    },
+    {
+      "id": "q11",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "In patients with X-linked hypophosphatemia (XLH) receiving conventional therapy with oral soluble phosphate and calcitriol, which of the following parameters must be routinely monitored to prevent severe treatment-related complications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urinary calcium-to-creatinine ratio and renal ultrasonography for nephrocalcinosis"
+        },
+        {
+          "id": "B",
+          "text": "Serum aluminum levels for osteomalacia toxicity"
+        },
+        {
+          "id": "C",
+          "text": "Urinary uric acid excretion for gouty nephropathy"
+        },
+        {
+          "id": "D",
+          "text": "Serum calcitonin levels for medullary thyroid cancer"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q12",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following genes is mutated in Dent disease 2, an X-linked disorder presenting with proximal tubular Fanconi syndrome, cataracts, and intellectual impairment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OCRL1"
+        },
+        {
+          "id": "B",
+          "text": "CLCN5"
+        },
+        {
+          "id": "C",
+          "text": "CTNS"
+        },
+        {
+          "id": "D",
+          "text": "ATP7B"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q13",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following lab findings is characteristic of Autosomal Recessive Hypophosphatemic Rickets Type 1 (ARHR1)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loss-of-function mutation in DMP1 with elevated serum intact FGF23"
+        },
+        {
+          "id": "B",
+          "text": "Loss-of-function mutation in SLC34A1 with suppressed serum intact FGF23"
+        },
+        {
+          "id": "C",
+          "text": "Gain-of-function mutation in PHEX with low serum intact FGF23"
+        },
+        {
+          "id": "D",
+          "text": "Loss-of-function mutation in GALNT3 with hyperphosphatemia"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q14",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "A 4-year-old child presents with failure to thrive, rickets, glucosuria with normal blood glucose, generalized aminoaciduria, and hypophosphatemia. Biopsy and leukocyte testing reveal intracellular accumulation of cystine crystals. What is the underlying genetic defect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CTNS gene mutation encoding cystinosin"
+        },
+        {
+          "id": "B",
+          "text": "SLC7A9 gene mutation encoding b(0,+)AT"
+        },
+        {
+          "id": "C",
+          "text": "SLC3A1 gene mutation encoding rBAT"
+        },
+        {
+          "id": "D",
+          "text": "ATP7B gene mutation encoding copper-transporting ATPase"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q15",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following statements correctly describes the effect of Parathyroid Hormone (PTH) on proximal tubular phosphate reabsorption?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PTH binds to basolateral PTHR1, activating PKA and PKC pathways to induce endocytosis and lysosomal degradation of apical NaPi-IIa and NaPi-IIc cotransporters."
+        },
+        {
+          "id": "B",
+          "text": "PTH directly upregulates NHERF1 expression to stabilize NaPi-IIa on the apical brush border membrane."
+        },
+        {
+          "id": "C",
+          "text": "PTH inhibits CYP27B1 (1-alpha-hydroxylase), thereby suppressing intestinal phosphate absorption."
+        },
+        {
+          "id": "D",
+          "text": "PTH increases maximum tubular reabsorption of phosphate per glomerular filtration rate (TmP/GFR)."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
+      ]
+    },
+    {
+      "id": "q16",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Raine syndrome (Autosomal Recessive Hypophosphatemic Rickets Type 3 / ARHR3) is caused by loss-of-function mutations in which of the following Golgi-resident kinases?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FAM20C"
+        },
+        {
+          "id": "B",
+          "text": "ENPP1"
+        },
+        {
+          "id": "C",
+          "text": "GALNT3"
+        },
+        {
+          "id": "D",
+          "text": "PHEX"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q17",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Which of the following lab profiles correctly matches the indicated hypophosphatemic disorder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "XLH (PHEX mutation): Low serum phosphate, Low/Normal 1,25(OH)2D, High FGF23, Normal/Low urinary calcium"
+        },
+        {
+          "id": "B",
+          "text": "HHRH (SLC34A3 mutation): Low serum phosphate, Low 1,25(OH)2D, High FGF23, Low urinary calcium"
+        },
+        {
+          "id": "C",
+          "text": "Dent disease (CLCN5 mutation): Low serum phosphate, High 1,25(OH)2D, High FGF23, Low urinary calcium"
+        },
+        {
+          "id": "D",
+          "text": "FTC (GALNT3 mutation): Low serum phosphate, Low 1,25(OH)2D, Low FGF23, High urinary calcium"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
+      ]
+    },
+    {
+      "id": "q18",
+      "paperId": "2026_inherited_Renal_Phosphate_Wasting_Spectrum_(主題備考)",
+      "stem": "Tumor-Induced Osteomalacia (TIO) is an acquired phosphaturic disorder that closely mimics XLH clinically and biochemically. Which type of neoplasm is overwhelmingly responsible for secreting excess FGF23 in TIO?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phosphaturic Mesenchymal Tumor (PMT)"
+        },
+        {
+          "id": "B",
+          "text": "Renal Cell Carcinoma (Clear Cell subtype)"
+        },
+        {
+          "id": "C",
+          "text": "Medullary Thyroid Carcinoma"
+        },
+        {
+          "id": "D",
+          "text": "Pheochromocytoma"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceExplanation": "Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。",
+      "resolvedImages": [
+        "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Box_18_2.png"
+      ]
+    }
+  ]
+}

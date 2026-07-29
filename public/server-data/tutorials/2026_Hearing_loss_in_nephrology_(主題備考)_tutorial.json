@@ -1,0 +1,108 @@
+{
+  "id": "2026_Hearing_loss_in_nephrology_(主題備考)",
+  "title": "Hearing loss in nephrology 主題備考",
+  "description": "Comprehensive review of the intersection between nephrology and otology, focusing on genetic syndromes, channelopathies, metabolic storage diseases, and synergistic pharmacological toxicities.",
+  "sections": [
+    {
+      "title": "Genetics, Collagen IV Heterotrimers & GBM Pathophysiology (Alport Syndrome & TBMN)",
+      "content": "### 1. Genetics, Collagen IV Heterotrimers & GBM Pathophysiology Topology Matrix\n\n| Disease | Gene Mutation | Inheritance Pattern | Clinical Presentation | Glomerular Basement Membrane Pathology | Extrarenal Manifestations |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Alport Syndrome | COL4A3, COL4A4, COL4A5 | X-linked (80%), Autosomal Recessive, Autosomal Dominant | Hematuria, Proteinuria, ESRD | Lamellated, split, and thickened GBM (Basket-weave appearance) | Sensorineural hearing loss, Anterior lenticonus, Maculopathy |\n| TBMN | COL4A3, COL4A4 | Autosomal Dominant | Isolated microscopic hematuria | Diffuse thinning of the GBM | Usually none |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | X-linked Alport Syndrome | Autosomal Recessive Alport Syndrome | Thin Basement Membrane Nephropathy |\n| :--- | :--- | :--- | :--- |\n| Pathogenesis | Mutation in COL4A5 | Mutation in COL4A3 or COL4A4 | Heterozygous mutation in COL4A3 or COL4A4 |\n| Alpha Chain Staining | Absent alpha-3, 4, 5 (GBM) | Absent alpha-3, 4 (GBM), Present alpha-5 (Bowman's capsule/Epidermis) | Normal alpha-3, 4, 5 |\n| Progression to ESRD | High risk (especially males) | High risk | Very low risk |\n| Deafness Onset | Early adolescence | Early adolescence | Rare |\n\n### 3. Pathophysiological Decision Tree\n\nGenetic Mutation (COL4A3/4/5) ➔ Defective Alpha-3/4/5(IV) Chain Assembly ➔ Failure of Collagen IV Network Switch ➔ Persistence of Alpha-1/1/2(IV) in GBM ➔ Structural Instability of GBM ➔ Proteolytic Degradation by MMPs ➔ GBM Thickening and Splitting (Basket-Weave) ➔ Progressive Glomerulosclerosis ➔ ESRD.\nConcurrent process: Defective Collagen IV in Stria Vascularis ➔ Sensorineural Hearing Loss.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為所有帶有 COL4A 基因突變的患者最終都會發展為 ESRD 並且一定伴隨 Sensorineural hearing loss。\n**Analysis**: 並非所有帶有 COL4A 突變的患者都會進展至 ESRD。例如 TBMN 患者通常僅表現為 Isolated microscopic hematuria，極少發展為 ESRD 或出現 Sensorineural hearing loss。此外，X-linked Alport Syndrome 的女性帶因者臨床表現差異極大，從無症狀到 ESRD 皆有可能，取決於 X-chromosome inactivation。",
+      "images": [
+        "Brenner_Fig_43_1.png",
+        "Brenner_Fig_43_2.png",
+        "alport_pathogenesis.png"
+      ],
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_43_1",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_43_1.png",
+          "caption": "Brenner 11e Ch 43: Glomerular filtration barrier schematic showing podocyte foot processes, slit diaphragm, and GBM collagen IV network.",
+          "sourceBook": "Brenner 11e Ch 43"
+        },
+        {
+          "id": "alport_pathogenesis_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/alport_pathogenesis.png",
+          "caption": "Molecular Pathogenesis of COL4A5/COL4A3/COL4A4 Mutations, GBM Basket-Weave Splitting, and Cochlear Basilar Membrane Dysfunction in Alport Syndrome."
+        }
+      ]
+    },
+    {
+      "title": "Tubular Channelopathies & Endolymphatic Electrolyte Dysregulation (Bartter Type IV, dRTA with Deafness & EAST Syndrome)",
+      "content": "### 1. Tubular Channelopathies & Endolymphatic Electrolyte Dysregulation Topology Matrix\n\n| Disease | Gene Mutation | Channel/Transporter | Primary Defect Location | Associated Hearing Loss Type |\n| :--- | :--- | :--- | :--- | :--- |\n| Bartter Syndrome Type IV | BSND | Barttin (ClC-Ka/ClC-Kb subunit) | Thick Ascending Limb, Stria Vascularis | Sensorineural hearing loss |\n| dRTA with Deafness | ATP6V1B1 | Vacuolar H+-ATPase B1 subunit | Intercalated Cells, Endolymphatic Sac | Sensorineural hearing loss |\n| EAST Syndrome | KCNJ10 | Kir4.1 (Potassium channel) | Distal Convoluted Tubule, Stria Vascularis | Sensorineural hearing loss |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Bartter Syndrome Type IV | dRTA with Deafness | EAST Syndrome |\n| :--- | :--- | :--- | :--- |\n| Acid-Base Status | Metabolic Alkalosis | Normal Anion Gap Metabolic Acidosis | Metabolic Alkalosis |\n| Serum Potassium | Hypokalemia | Hypokalemia | Hypokalemia |\n| Serum Magnesium | Usually Normal | Normal | Hypomagnesemia |\n| Neurological Signs | None | None | Seizures, Ataxia |\n\n### 3. Pathophysiological Decision Tree\n\nBSND Mutation ➔ Defective Barttin Subunit ➔ Dysfunction of ClC-Ka and ClC-Kb ➔ Impaired Chloride Efflux in Thick Ascending Limb ➔ Reduced Sodium/Potassium/Chloride Reabsorption ➔ Salt Wasting and Hypokalemic Metabolic Alkalosis.\nSimultaneously: Dysfunction of ClC-K Channels in Stria Vascularis ➔ Failure to Maintain Endolymphatic Potassium Secretion ➔ Depolarization Defect of Hair Cells ➔ Sensorineural Hearing Loss.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 誤以為 Bartter Syndrome Type IV 的聽力損失是因為鈉離子通道異常導致的。\n**Analysis**: Bartter Syndrome Type IV 的根本原因是 BSND 基因突變，該基因編碼 Barttin，這是 ClC-Ka 和 ClC-Kb 氯離子通道的重要附屬蛋白。這些通道不僅存在於 Thick Ascending Limb，也大量存在於內耳的 Stria Vascularis。因此，聽力損失是由於氯離子通道功能障礙導致內耳鉀離子分泌異常，進而破壞 Endolymph 的電化學梯度所致，而非鈉離子通道問題。",
+      "images": [
+        "Brenner_Fig_44_10.png",
+        "Brenner_Fig_44_9.png",
+        "bartter_drta_channelopathy.png"
+      ],
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_44_10",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_10.png",
+          "caption": "Brenner 11e Ch 44: Transepithelial salt reabsorption in thick ascending limb (TAL) via NKCC2, ROMK, and basolateral ClC-Ka/Kb-Barttin complex.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "bartter_drta_channelopathy_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/bartter_drta_channelopathy.png",
+          "caption": "Pathophysiological Decision Tree of Inner Ear Stria Vascularis Secretion Failure in Bartter Syndrome Type IV (BSND/Barttin) and Distal RTA (ATP6V1B1)."
+        }
+      ]
+    },
+    {
+      "title": "Inborn Metabolic Storage & Mitochondrial Cytopathy (Fabry Disease, MIDD & COQ6 Deficiency)",
+      "content": "### 1. Inborn Metabolic Storage & Mitochondrial Cytopathy Topology Matrix\n\n| Disease | Defective Enzyme/Gene | Accumulating Metabolite / Defect | Renal Manifestations | Otorhinolaryngological Manifestations |\n| :--- | :--- | :--- | :--- | :--- |\n| Fabry Disease | Alpha-Galactosidase A (GLA) | Globotriaosylceramide (GL-3) | Proteinuria, CKD, Podocyte inclusion bodies (Zebra bodies) | Sensorineural hearing loss, Tinnitus |\n| MIDD | MT-TL1 (m.3243A>G) | Mitochondrial tRNA Leucine | FSGS, Tubulointerstitial Nephritis | Sensorineural hearing loss |\n| COQ6 Deficiency | COQ6 | Coenzyme Q10 biosynthesis | Steroid-Resistant Nephrotic Syndrome, FSGS | Sensorineural hearing loss |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Fabry Disease | MIDD (Maternally Inherited Diabetes and Deafness) | COQ6 Deficiency |\n| :--- | :--- | :--- | :--- |\n| Inheritance | X-linked | Mitochondrial (Maternal) | Autosomal Recessive |\n| Key Extrarenal Signs | Angiokeratoma, Neuropathic pain, Cornea verticillata | Diabetes Mellitus, Macular dystrophy | Seizures, Ataxia (variable) |\n| Pathognomonic EM Findings | Zebra bodies in Podocytes, Endothelium, Mesangium | Abnormal mitochondria in tubular cells and podocytes | Mitochondrial structural abnormalities |\n| Treatment Implication | Enzyme Replacement Therapy (Agalsidase) | Coenzyme Q10 supplementation is ineffective | Responsive to Coenzyme Q10 supplementation |\n\n### 3. Pathophysiological Decision Tree\n\nGLA Gene Mutation ➔ Alpha-Galactosidase A Deficiency ➔ Lysosomal Accumulation of GL-3 in Podocytes, Endothelium, and Tubular Cells ➔ Progressive Glomerulosclerosis and Proteinuria ➔ CKD/ESRD.\nConcurrently: GL-3 Accumulation in Endothelial Cells of Vasa Nervorum and Inner Ear Vasculature ➔ Microvascular Ischemia of Cochlea and Auditory Nerve ➔ Sensorineural Hearing Loss.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 以為 MIDD 和 COQ6 Deficiency 造成的聽力障礙機轉完全一樣，且對治療的反應也相同。\n**Analysis**: 兩者雖然都與粒線體功能障礙有關，但 MIDD 是粒線體 DNA (MT-TL1) 突變，導致整體氧化磷酸化障礙，對 Coenzyme Q10 補充治療通常無效；而 COQ6 Deficiency 是核基因突變導致特定的 Coenzyme Q10 合成障礙，給予大劑量 Coenzyme Q10 補充不僅可以顯著改善或穩定腎臟病況（Steroid-Resistant Nephrotic Syndrome），也能預防或減緩 Sensorineural hearing loss 的惡化。",
+      "images": [
+        "Brenner_Fig_32_46.png",
+        "fabry_mitochondrial_nephropathy.png"
+      ],
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_32_46",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_32_46.png",
+          "caption": "Brenner 11e Ch 32: Transmission electron micrograph of Fabry disease showing whorled myelin figures and zebra bodies within podocyte cytoplasm.",
+          "sourceBook": "Brenner 11e Ch 32"
+        },
+        {
+          "id": "fabry_mitochondrial_nephropathy_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/fabry_mitochondrial_nephropathy.png",
+          "caption": "Lysosomal Gb3 Storage in Fabry Disease vs Mitochondrial Respiratory Chain Failure (MIDD/MELAS, COQ6) in Podocytes and Auditory Neurons."
+        }
+      ]
+    },
+    {
+      "title": "Nephrotoxicity & Ototoxicity Synergism in Clinical Pharmacology (Loop Diuretics, Aminoglycosides, Cisplatin & Vancomycin)",
+      "content": "### 1. Nephrotoxicity & Ototoxicity Synergism in Clinical Pharmacology Topology Matrix\n\n| Drug Class | Nephrotoxic Mechanism | Ototoxic Mechanism | Synergistic Risk Factors |\n| :--- | :--- | :--- | :--- |\n| Loop Diuretics (e.g., Furosemide) | Ischemic tubular injury (due to volume depletion) | Inhibition of Na-K-2Cl cotransporter (NKCC1) in Stria Vascularis | High IV dose, Rapid infusion, Concomitant Aminoglycosides |\n| Aminoglycosides (e.g., Gentamicin) | Proximal tubular necrosis (accumulation in lysosomes) | Hair cell apoptosis (ROS generation, Megalin-mediated uptake) | CKD, Loop Diuretics, Mitochondrial mutations (m.1555A>G) |\n| Cisplatin | Proximal tubular necrosis, Apoptosis | Apoptosis of Outer Hair Cells and Stria Vascularis | Cumulative dose, CKD, Concomitant ototoxins |\n| Vancomycin | Acute Tubulointerstitial Nephritis, ATN | Unknown (controversial, possibly hair cell damage) | Co-administration with Aminoglycosides or Loop Diuretics |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | Loop Diuretics | Aminoglycosides | Cisplatin |\n| :--- | :--- | :--- | :--- |\n| Reversibility of Hearing Loss | Usually Reversible | Irreversible | Irreversible |\n| Primary Inner Ear Target | Stria Vascularis | Outer Hair Cells | Outer Hair Cells |\n| Dose-Dependency | Peak plasma concentration dependent | Cumulative dose and trough level dependent | Cumulative dose dependent |\n| Synergistic Interaction | Potentiates Aminoglycoside ototoxicity | Potentiated by Loop Diuretics | Exacerbated by other nephrotoxins/ototoxins |\n\n### 3. Pathophysiological Decision Tree\n\nAdministration of Aminoglycoside ➔ Receptor-mediated endocytosis via Megalin/Cubilin in Proximal Tubule ➔ Lysosomal accumulation and rupture ➔ ROS production and Mitochondrial dysfunction ➔ Acute Tubular Necrosis (ATN) ➔ Decreased GFR.\nSimultaneously: Aminoglycoside uptake in Inner Ear ➔ Accumulation in Cochlear Hair Cells ➔ Iron-aminoglycoside complex formation ➔ Excessive ROS generation ➔ Caspase activation and Hair Cell Apoptosis ➔ Irreversible Sensorineural Hearing Loss.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為使用 Loop Diuretics 造成的聽力損失與 Aminoglycosides 一樣，都是永久性的，且機轉相同。\n**Analysis**: 這是一個危險的誤解。Loop Diuretics 的耳毒性主要是因為抑制了 Stria Vascularis 中的 NKCC1 transporter，導致 Endolymph 的離子組成暫時性改變，因此其聽力損失通常是 Reversible 的（尤其在停藥後）。相反，Aminoglycosides 會直接導致 Hair cells 的 Apoptosis，造成的 Sensorineural hearing loss 是 Irreversible 的。兩者併用時會產生強烈的協同毒性。",
+      "images": [
+        "Brenner_Fig_50_6.png",
+        "ototoxicity_nephrotoxicity_synergy.png"
+      ],
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_50_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_50_6.png",
+          "caption": "Brenner 11e Ch 50: Loop diuretic pharmacology on renal TAL NKCC2 cotransporter and inner ear stria vascularis NKCC1 cotransporter.",
+          "sourceBook": "Brenner 11e Ch 50"
+        },
+        {
+          "id": "ototoxicity_nephrotoxicity_synergy_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/ototoxicity_nephrotoxicity_synergy.png",
+          "caption": "Pharmacological Mechanisms of Ototoxicity and Nephrotoxicity for Loop Diuretics (NKCC1/NKCC2), Aminoglycosides (Megalin/MET), and Cisplatin (OCT2)."
+        }
+      ]
+    }
+  ],
+  "paperId": "2026_Hearing_loss_in_nephrology_(主題備考)",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-29T23:25:00.000Z",
+  "qcVerified": true,
+  "qcStatus": "PASSED",
+  "qcVerifiedAt": "2026-07-29T23:33:00.000Z"
+}

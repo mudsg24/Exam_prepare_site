@@ -29,7 +29,28 @@
       "sourceExplanation": "NaPi-IIc (SLC34A3) 屬於 100% Electroneutral cotransporter，運送 2 個 Na+ 與 1 個 H2PO4-。相反地，NaPi-IIa (SLC34A1) 屬於 Electrogenic cotransporter，運送 3 個 Na+ 與 1 個 H2PO4-。NaPi-IIc 的基因突變會導致 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "NotebookLM_Worker",
+          "notebook": "TSN_Database",
+          "rawResponse": "### 1. Answer Determination (答案判定)\n\n本題的單一正確選項為 **Option (B) Mutant PHEX in osteocytes leads to uninhibited expression and impaired degradation of intact FGF23 via downstream signaling pathways.** [Passage 80, 262, 263]。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正解詳細原理與臨床生理分析)\n\n根據 **Brenner & Rector's The Kidney** 第 18 章 **Disorders of Calcium, Magnesium, and Phosphate Balance** 以及第 44 章 **Inherited Disorders of the Renal Tubule** 之中關於 **X-linked hypophosphatemia (XLH)** 與 **FGF23** 的分子調控與病理生理學論述，詳細的臨床生理機制如下：\n\n#### (1) PHEX 基因與其生理表達定位\n*   **XLH** 是最常見的遺傳性低磷酸鹽血症疾病 [Passage 197]。其致病因在於位於 X chromosome 上的 **PHEX** 基因發生 **loss-of-function mutations** [Passage 80, 197]。\n*   在分子結構上，**PHEX** 編碼一種 **M13 zinc metalloprotease** [Passage 197]。其生理表達具有高度的組織專一性——它主要表達於骨骼系統中的 **osteocytes**、**osteoblasts** 與 **odontoblasts**，但在 **kidney** 之中**完全不表達** [Passage 197, 263]。\n\n#### (2) PHEX 在骨細胞中調控 FGF23 的分子病理生理機制\n*   在正常生理狀態下，骨細胞內 **PHEX** 蛋白質必須與另一種骨源性基質蛋白 **DMP1** 結合 [Passage 80]。這兩者的相互作用對於負向調控、抑制 **osteocytes** 產生及分泌 **FGF23** 扮演關鍵角色 [Passage 80, 199]。\n*   同時，**PHEX** 與 **DMP1** 在 **osteocytes** 中也參與參與 **FGF23** 的局部降解過程，以維持正常範圍的循環 **FGF23** 濃度 [Passage 197, 262, 263]。\n*   當 **PHEX** 發生失活突變時，這種「**PHEX-DMP1**」介導的抑制通路崩解，導致 **osteocytes** 內 **FGF23** 的轉錄與合成發生持續、不受控制的過度表達（**uninhibited expression**） [Passage 80, 197, 262]。\n*   此外，由於缺乏功能性 **PHEX**，**FGF23** 在骨組織當中的局部降解也受到嚴重阻礙（**impaired degradation**） [Passage 197, 262, 263]。這兩個機制的疊加直接導致大量具備生物活性的 **intact FGF23** 湧入血液循環中，造成病理性的 **elevated circulating levels of intact FGF23** [Passage 80, 197]。\n\n#### (3) 腎臟近端小管重吸收受阻與低磷血症的發生\n*   大量循環中的 **FGF23** 抵達腎臟後，特異性結合在 **proximal tubule** 上皮細胞膜表面的 **FGFR1-Klotho** 受體複合物上 [Passage 44, 258, 261]。\n*   此結合活化了下游的 **ERK1/2-SGK1** 訊息傳導通路 [Passage 45, 53]。**SGK1** 隨後磷酸化支架蛋白 **NHERF1**，進而促使管腔膜表面的鈉-磷共同轉運體 **NaPi-IIa** 與 **NaPi-IIc** 發生解離、內吞（**internalization**）並進入溶酶體降解 [Passage 37, 40, 45, 258]。\n*   轉運體密度的斷崖式下跌，導致腎臟對濾過磷的主動重吸收嚴重受損，引發顯著的 **urinary phosphate wasting** 與 **hypophosphatemia** [Passage 39, 76, 198]。\n*   與此同時，超生理濃度的 **FGF23** 還會強烈抑制近端小管中 **CYP27B1 (1α-hydroxylase)** 的活性並活化 **CYP24A1 (24-hydroxylase)** [Passage 37, 243, 261]，造成活性維生素 D 活性下降（**inappropriately low calcitriol levels**），這進一步加劇了骨骼的礦化障礙，導致經典的 **rickets** 與 **osteomalacia** 表現 [Passage 43, 198, 243]。\n\n這完全證實了 **Option (B)** 描述的骨細胞內分子調控異常是導致 **XLH** 發病的底層機制 [Passage 80, 262, 263]。\n\n---\n\n### 3. Distractor Option Analysis (干擾項分析)\n\n*   **Option (A) PHEX directly cleaves and inactivates circulating intact FGF23 in the renal proximal tubule.**\n    *   **為何錯誤**：\n        1.  **組織定位錯誤**：如前述，**PHEX** 根本不表達於腎臟（**not expressed in the kidney**） [Passage 197]。\n        2.  **底物生化特性不符**：雖然 **PHEX** 屬於內端肽酶（**endopeptidase**） [Passage 80, 197]，但體外與體內分子生化實驗（如 *Benet-Pages et al.* 與 *Liu et al.* 的經典研究）已明確證實，**FGF23 絕非 PHEX 的直接降解底物 (FGF23 is not directly cleaved or degraded by PHEX)** [Passage 92]。**PHEX** 突變造成的 **FGF23** 蓄積是在骨細胞內部通過影響其合成通路與局部代謝間接介導的 [Passage 197]，而非在腎小管腔中無法直接切割清除循環中的 **FGF23**。\n    *   **出題意圖**：測試考生是否會僅因 **PHEX** 具有 **endopeptidase** 活性便盲目推測其能「直接切割並降解 **FGF23**」，藉此考核其對 **PHEX** 組織定位及非直接酶切特性的掌握 [Passage 92, 197]。\n\n*   **Option (C) PHEX acts as an apical sodium-phosphate cotransporter that undergoes degradation when mutated.**\n    *   **為何錯誤**：\n        1.  **蛋白質功能混淆**：**PHEX** 是膜結合型的 **M13 zinc metalloprotease** [Passage 197]，而非磷轉運體。\n        2.  **真實轉運體定位**：腎臟近端小管頂端膜（apical membrane）上主導磷重吸收的共同轉運體為 **NaPi-IIa (SLC34A1)**、**NaPi-IIc (SLC34A3)** 以及微量的 **Pit-2** [Passage 40, 71, 258]。**PHEX** 突變是經由 **FGF23** 系統性增加後「間接」下調了這些轉運體的表達 [Passage 71, 197, 243]，其本身並不承擔轉運磷離子的物理功能。\n    *   **出題意圖**：評估考生能否在細胞膜解剖定位與功能層面，將「受體/酶學調控蛋白（**PHEX**）」與「實質溶質轉運體蛋白質（**NaPi-IIa/IIc**）」進行精確隔離 [Passage 40, 258]。\n\n*   **Option (D) PHEX mutation prevents the O-glycosylation of FGF23 by GALNT3, accelerating Furin cleavage.**\n    *   **為何錯誤**：\n        1.  **分子通路張冠李戴**：此選項描述的是另一種低磷/高磷酸鹽紊亂的分子機制。在生理上，**GALNT3** 編碼的糖基轉移酶負責對 **FGF23** 的特定位點進行 **O-glycosylation**，這項修飾能有效保護 **intact FGF23** 不被 **Furin**（或其同類前體蛋白轉化酶）進行蛋白水解切割，從而允許有活性的 **intact FGF23** 正常分泌 [Passage 74, 89, 202]。\n        2.  **疾病與極性相反**：當 **GALNT3** 發生突變時，**FGF23** 因缺乏糖基化保護而在分泌前被 **Furin** 迅速降解，導致體內缺乏具活性的 **intact FGF23** [Passage 74, 75]。這在臨床上會導致 **FGF23** 活性喪失與嚴重的 **hyperphosphatemia**，即 **Familial Tumoral Calcinosis (FTC)** [Passage 73, 75, 202]，這在病理生理與臨床表型上均為 **XLH** 的**完全相反面**（phenotypic opposite） [Passage 75]。此機制與 **PHEX** 突變毫無關係。\n    *   **出題意圖**：利用另一個調控 **FGF23** 分泌的重要糖基化酶（**GALNT3**）及其降解途徑（**Furin**）作為干擾，測試考生能否區分低磷血症（**XLH**）與高磷血症（**FTC**）這兩組在分子調控上互為拮抗的遺傳病病因 [Passage 75, 202]。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)\n\n在腎臟與骨骼礦物質代謝（CKD-MBD）相關考試中，關於**遺傳性低磷/高磷酸鹽血症及尿磷流失疾病**的鑑別診斷，以下四大基因病因的橫向對比是最高頻的核心考點：\n\n### **High-Yield Comparison: Inherited Phosphate Balance Disorders**\n\n| 疾病 (Diseases) | 致病基因與突變極性 [Passage 81, 82, 200] | 核心分子致病機制 [Passage 75, 80, 202, 258] | 循環 FGF23 水平 [Passage 198, 200] | 1,25(OH)2D 及尿鈣特徵 [Passage 81, 198, 201] |\n| :--- | :--- | :--- | :--- | :--- |\n| **X-linked hypophosphatemia (XLH)** [Passage 82, 197] | **PHEX** (X-linked dominant);<br>**Loss-of-function** [Passage 80, 200]. | 骨細胞內 **PHEX-DMP1** 抑制通路喪失，導致 **FGF23** 合成亢進且降解減少 [Passage 80, 262, 263]。 | **異常升高 (High / Inappropriately Normal)** [Passage 198, 200]. | **降低或偏低**（FGF23 抑制 1α-hydroxylase） [Passage 80, 198]；**低尿鈣**。 |\n| **Autosomal Dominant Hypophosphatemic Rickets (ADHR)** [Passage 82, 200] | **FGF23** (Autosomal dominant);<br>**Gain-of-function (Missense)** [Passage 79, 81, 200]. | **FGF23** 蛋白的 cleavage 敏感位點發生突變（如 R176Q），使其**無法被 Furin 酶切降解** [Passage 79, 92]。 | **異常升高 (High)** [Passage 200]. | **降低或偏低**；**低尿鈣**。 |\n| **Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)** [Passage 82, 201] | **SLC34A3** (Autosomal recessive);<br>**Loss-of-function** [Passage 85, 201]. | 原發性腎小管 **NaPi-IIc** 轉運體功能喪失 [Passage 85, 201]。由於為原發腎臟漏磷，**FGF23 受到生理性負回饋抑制**。 | **正常或降低 (Normal to Suppressed)** [Passage 200]. | **顯著升高**（低磷且低 FGF23 強力刺激維生素 D 活化），進而促進腸道鈣吸收導致**顯著的高尿鈣（Hypercalciuria）** [Passage 85, 201]。 |\n| **Familial Tumoral Calcinosis (FTC)** [Passage 73, 202] | **GALNT3** 或 **FGF23** 或 **KLOTHO** (Autosomal recessive);<br>**Loss-of-function** [Passage 74, 202]. | **FGF23** 缺乏 O-linked 糖基化保護而被 **Furin** 提前降解，或出現終端受體阻抗 [Passage 75, 202]。 | **極低或無活性 (Low active intact levels)** [Passage 74, 202]. | **升高**（缺乏 FGF23 對 1α-hydroxylase 的抑制）；表現為高血磷與**廣泛性異位軟組織鈣化** [Passage 75, 202]。 |\n\n---\n\n### 5. Citations & References (引用文獻)\n\n*   **Chapter & Section**：\n    *   **Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance** of *Brenner & Rector's The Kidney*:\n        *   Section: **SYSTEMIC DISEASES WITH RENAL COMPONENT** -> **Inherited Disorders of Urinary Phosphate Wasting** -> **X-linked hypophosphatemia (XLH)** (specifically documenting *PHEX*, *DMP1*, *FGF-23 degradation in osteocytes*, *calcitriol suppression*, and *burosumab monoclonal antibody therapy*) [Passage 80, 81, 262].\n        *   Section: **Fig. 18.5 Summary of the inherited disorders of urinary phosphate wasting** [Passage 81, 82].\n        *   Section: **Box 18.6 Causes of Hypophosphatemia** -> **Increased Urinary Phosphate Excretion** [Passage 77].\n    *   **Chapter 44: Inherited Disorders of the Renal Tubule** of *Brenner & Rector's The Kidney*:\n        *   Section: **X-LINKED HYPOPHOSPHATEMIC RICKETS** -> **Pathogenesis** (stating *\"XLH is caused by mutations in the PHEX gene... expressed in osteoblasts and odontoblasts but not in the kidney... indirectly alter the degradation and production of FGF-23\"*) [Passage 197].\n        *   Section: **Table 44.5 Inherited Hypophosphatemias – Mutated Proteins and Laboratory Findings** [Passage 199, 200, 201].\n    *   **Chapter 53: Chronic Kidney Disease–Mineral Bone Disorder** of *Brenner & Rector's The Kidney*:\n        *   Section: **PATHOPHYSIOLOGY OF CHRONIC KIDNEY DISEASE-MINERAL AND BONE DISORDER** -> **FGF-23 AND KLOTHO** [Passage 261, 262, 263].\n        *   Section: **Fig. 53.7 The bone–kidney–parathyroid endocrine axes mediated by fibroblast growth factor 23 (FGF-23) and klotho** [Passage 264].\n\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 18.5 (Chapter 18, B&R)**: *\"Summary of the inherited disorders of urinary phosphate wasting\"*, validating the molecular pathway of *PHEX inactivation (XLH)* under regulators of *FGF23 cleavage* and downstream proximal tubule impacts [Passage 81, 82].\n    *   **Table 44.5 (Chapter 44, B&R)**: *\"Inherited Hypophosphatemias\"*, confirming the biochemistries (Normal Calcium, Low/Normal Calcitriol, High/Normal FGF-23, and Normal PTH in XLH) [Passage 199, 200, 201].\n\n---\n\n🦴 **Nudge**: 鑑於 **XLH** 的傳統治療方案（口服高劑量磷酸鹽聯手活性維生素 D）僅能部分緩解骨痛，卻常繼發嚴重的 **nephrocalcinosis**、**nephrolithiasis** 與 **secondary/tertiary hyperparathyroidism** [Passage 81]，臨床醫學現已取得突破性進展。我們可進一步結合轉譯醫學，探討近年獲准上市的 **FGF23-neutralizing antibody** —— **burosumab** [Passage 78, 91] 其如何通過直接、高特異性地綁架體內過量的活性 **FGF23**，在根本上逆轉小管轉運體內吞、修復維生素 D 代謝，並精確對比這一新型靶向免疫療法在保護兒科與成人患者腎臟及骨骼靶器官功能上的長期臨床實證獲益 [Passage 78, 91]。",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "NotebookLM_Worker",
+          "notebook": "TSN_Database",
+          "rawResponse": "### 1. Answer Determination (答案判定)\n\n*   **Correct Option (正確選項)**：**Option (B) Recombinant human IgG1 monoclonal antibody that binds to and neutralizes intact FGF23.**\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正解詳細分析與病理生理機轉)\n\n根據 **`Brenner & Rector's The Kidney`** 與 **`KDIGO Guidelines`** 關於磷酸鹽代謝紊亂與遺傳性骨骼疾病的生理機制，**`Burosumab`** 的藥理作用機制與其對抗 **`X-linked hypophosphatemia (XLH)`** 的病理生理學偶聯如下：\n\n1.  **`XLH` 的分子病理生理機制背景**：\n    *   **`XLH`** 是一種因 **`PHEX`** 基因發生失活突變（**`inactivating mutations`**）而導致的常染色體聯鎖隱性遺傳性腎臟失磷疾患 [Passage 156, 160]。\n    *   在正常生理狀態下，**`PHEX`** 參與調控 **`FGF23`** 的降解。當 **`PHEX`** 功能缺如時，會直接引發成骨細胞與骨細胞過度、不受控地向循環系統分泌活性 **`intact FGF23`**，導致血漿中的 **`FGF23`** 濃度病理性顯著升高 [Passage 159, 160, 226]。\n    *   過量的 **`FGF23`** 結合至腎臟近端小管上皮細胞膜上的 **`FGFR-Klotho`** 受體複合物，經由 **`ERK1/2-SGK1`** 訊號通路調控，引發 **`NHERF1`** 發生磷酸化 [Passage 47, 53]。\n    *   **`NHERF1`** 磷酸化後與其解離，促使頂端膜（**`apical membrane`**）上的鈉-磷共轉運體 **`NaPi-IIa`** 與 **`NaPi-IIc`** 發生內吞作用（**`endocytosis`**）並進入溶酶體降解 [Passage 43, 47, 439]。這極大地削弱了腎臟重吸收磷酸鹽的能力，導致嚴重的 **`phosphaturia`**（尿磷流失） [Passage 159, 160]。\n    *   同時，高濃度的 **`FGF23`** 還會強力下調近端小管中 **`CYP27B1`**（1$\\alpha$-hydroxylase）的基因表達，並上調 **`CYP24A1`**（24-hydroxylase）的表達，使活性 **`1,25-dihydroxyvitamin D`** 的合成受到極度壓制，進一步阻斷了腸道對鈣、磷的吸收，最終引發嚴重的 **`hypophosphatemia`** 聯用 **`osteomalacia`** 與 **`rickets`** [Passage 159, 445, 446]。\n\n2.  **`Burosumab` 的精準藥理學作用機制**：\n    *   **`Burosumab`**（於 2018 年獲得 **`FDA`** 核准上市）是一種 **`recombinant human IgG1 monoclonal antibody`**（重組人源化 IgG1 單克隆抗體） [Passage 157]。\n    *   它能以極高的親和力與特異性，直接結合至循環中的活性 **`intact FGF23`**，進而中和（**`neutralize`**）其生物活性，阻斷其與腎臟上皮 **`FGFR-Klotho`** 複合物的病理性偶聯 [Passage 157, 445, 446]。\n    *   經由阻斷 **`FGF23`** 介導的下游毒性訊號轉導，**`Burosumab`** 能有效恢復 **`NaPi-IIa`** 與 **`NaPi-IIc`** 在近端小管頂端膜上的正常蛋白豐度與生理表達，重建腎小管對磷的重吸收功能，安全調降尿磷排泄 [Passage 160, 439]。\n    *   此外，它移除了 **`FGF23`** 對 **`CYP27B1`** 的持續性壓制，使內源性活性 **`1,25-dihydroxyvitamin D`** 的合成恢復至生理正常高位，促進腸道鈣、磷的生理性重吸收 [Passage 44, 439, 445, 446]。\n    *   這種雙重效應能迅速且平穩地提升血清磷濃度，顯著改善患者的骨骼礦化障礙，是目前針對 **`XLH`** 最具備疾病修飾與治本性的標靶治療手段 [Passage 157, 166]。\n\n因此，**Option (B)** 完美且精確地對接了文獻中所描述的 **`Burosumab`** 的分子化學結構與精準抗 **`FGF23`** 中和機制。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項分析)\n\n*   **Option (A) Recombinant PTH receptor antagonist that prevents PTH-mediated endocytosis of NaPi-IIa. [Incorrect]**：\n    *   **為何錯誤**：雖然 **`PTH`** 在腎小管中的磷轉運調控路徑與 **`FGF23`** 有著高度的交叉重疊（兩者皆是經由磷酸化 **`NHERF1`** 導致 **`NaPi-IIa`** 發生內吞降解，從而引起尿磷流失） [Passage 43, 47, 439]，但 **`Burosumab`** 在藥理設計上是直接靶向中和循環配體 **`FGF23`** [Passage 157]，它**完全不具備**與 **`PTH receptor`**（如 **`PTHR1`**）發生結合或拮抗的分子基礎。再者，**`XLH`** 的核心致病驅動力是因基因突變引起的 **`FGF23`** 異常過載，而非 **`PTH`** 介導的受體過度活化 [Passage 159, 160]。\n    *   **出題意圖**：利用 **`PTH`** 與 **`FGF23`** 在近端小管中共享同一套 **`NaPi-IIa / NHERF1`** 調控降解機制的生理特徵設置陷阱 [Passage 43, 439]，測試考生能否在相同的終端生理效應中，精確區分藥物的起始分子靶點。\n\n*   **Option (C) Small molecule agonist of the extracellular calcium-sensing receptor (CaSR). [Incorrect]**：\n    *   **為何錯誤**：此機制描述的是鈣擬劑（**`calcimimetics`**，如 **`cinacalcet`**）的藥理學定位 [Passage 171]。**`Cinacalcet`** 是一種口服小分子非肽類變構調節劑，它作用於甲狀旁腺細胞上的 **`extracellular calcium-sensing receptor (CaSR)`**，增加受體對細胞外鈣離子的敏感度，從而抑制 **`PTH`** 的合成與分泌，臨床上用於治療 **`CKD-MBD`** 中的繼發性甲旁亢 [Passage 440, 441, 658]。它在分子形態與功能上與 **`Burosumab`** 這種大分子抗體完全無關，且無法中和 **`FGF23`**。\n    *   **出題意圖**：使用另一類在 **`CKD-MBD`** 與礦物質代謝調控中極高頻出現的代表性標標靶藥物作用模式作為干擾，評估考生對於「大分子生物單抗（**`monoclonal antibody`**）」與「小分子同位變構調節劑（**`calcimimetics`**）」在理化與藥理維度上的基本辨識力。\n\n*   **Option (D) Selective inhibitor of renal 24-hydroxylase (CYP24A1) enzyme activity. [Incorrect]**：\n    *   **為何錯誤**：**`CYP24A1`** 是負責將活性 **`1,25-dihydroxyvitamin D`** 降解為無活性 calcitroic acid 的主要分解代謝酶 [Passage 288, 568]。雖然在 **`FGF23`** 過度蓄積的病理狀態下，**`CYP24A1`** 的基因表達會被高度活化進而加速維生素 D 的降解 [Passage 445]，但 **`Burosumab`** 本身並非一種小分子酵素抑制劑，它不直接作用於 **`CYP24A1`** 的活性口袋。\n    *   **出題意圖**：測試考生是否混淆了 **`Burosumab`** 的「上游配體中和機制」與其所引發的「下游維生素 D 代謝酵素基因轉錄軌跡變動」，考驗考生對藥物動力學直接靶點的掌握精度。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (醫學專科考試鑑別診斷與高頻對比)\n\n在腎臟專科與代謝性骨病學考試中，如何將因 **`FGF23`** 過載引發的遺傳性/獲得性失磷疾患，與因轉運體自身原發性突變引起的失磷疾病進行精確的臨床與生化鑑別，是出題率最高的「黃金核心考點」：\n\n#### **High-Yield Comparison: 三大最常見遺傳/獲得性腎臟失磷疾患多維度生化鑑別診斷表**\n\n| 評估維度 (`Parameters`) | **`X-linked Hypophosphatemia (XLH)`** [本題核心] [Passage 156, 160] | **`Autosomal Dominant Hypophosphatemic Rickets (ADHR)`** [Passage 158, 160] | **`Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)`** [Passage 156, 162] |\n| :--- | :--- | :--- | :--- |\n| **根本致病分子與基因突變** | **`PHEX`** 基因發生失活突變，導致 **`FGF23`** 的分解降解受阻 [Passage 156, 160] | **`FGF23`** 發生錯義突變，使其 **`RXXR`** 剪切位點失效，產生抗剪切的活性 **`FGF23`** [Passage 158, 159, 160] | **`SLC34A3`** 基因突變，導致近端小管鈉-磷共轉運體 **`NaPi-IIc`** 發生原發性結構與功能障礙 [Passage 156, 162] |\n| **血清 `intact FGF23` 狀態** | **`‡ Elevated` (異常升高)** [Passage 159, 160] | **`‡ Elevated` (異常升高)** [Passage 159, 160] | **`‡ Appropriately Suppressed` (受生理性強烈壓制而降低)** [Passage 162] |\n| **血清 `1,25-dihydroxyvitamin D` 軌跡** | **不恰當的正常或降低**（因高 `FGF23` 抑制了 `CYP27B1`） [Passage 159, 445] | 不恰當的正常或降低 [Passage 159] | **`‡ Markedly Elevated` (顯著升高)**（因低血磷與低 `FGF23` 強烈代償性活化 1α-hydroxylase） [Passage 162] |\n| **尿鈣排泄特徵 (`Urine Calcium`)** | **`‡ Low` (顯著降低)**（因活性維生素 D 匱乏，腸道鈣重吸收極差） [Passage 159, 162] | **`‡ Low` (顯著降低)** [Passage 158] | **`‡ Profound Hypercalciuria` (極度升高)**（因高 1,25D 促使腸道超負荷吸鈣，並反饋抑制 `PTH` 導致腎臟排鈣增加） [Passage 162] |\n| **常見系統性併發症** | 嚴重骨痛、下肢畸形、無腎鈣化 [Passage 157, 159] | 骨痛、佝僂病 [Passage 158] | **極高風險合併進行性腎結石（`nephrolithiasis`）與腎鈣質沉積症（`nephrocalcinosis`）** [Passage 162] |\n| **`Burosumab (anti-FGF23)` 單抗治療指徵** | **唯一獲 `FDA` 批准的一線標靶適應症** [Passage 157] | 病理機制偶聯，理論上高度有效 [Passage 158] | **`Contraindicated` (絕對禁用)**（患者體內 `FGF23` 已處於極低位，使用單抗無任何標靶，且會加重高尿鈣與腎鈣化風險） [Passage 162] |\n\n---\n\n### 5. Citations & References (精準文獻與引用定位)\n\n*   **Chapter & Section Headers (精準章節目錄定位)**:\n    *   **Brenner & Rector's The Kidney (11th Edition)**:\n        *   **Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance**:\n            *   Section: *Disorders of Phosphate Homeostasis -> Increased Urinary Phosphate Excretion -> Inherited Disorders* [Passage 156]\n            *   Section: *Disorders of Phosphate Homeostasis -> Increased Urinary Phosphate Excretion -> Inherited Disorders of Urinary Phosphate Wasting -> X-Linked Hypophosphatemia* [Passage 157, 159, 160, 166]\n            *   Section: *Disorders of Phosphate Homeostasis -> Increased Urinary Phosphate Excretion -> Inherited Disorders of Urinary Phosphate Wasting -> Autosomal Dominant Hypophosphatemic Rickets* [Passage 158]\n            *   Section: *Disorders of Phosphate Homeostasis -> Increased Urinary Phosphate Excretion -> Disorders of Proxule Inorganic Phosphorus Reabsorption -> Hereditary Hypophosphatemic Rickets with Hypercalciuria* [Passage 156, 162]\n        *   **Chapter 7: The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney**:\n            *   Section: *Phosphatomins (FGF-23, sFRP-4)* [Passage 46, 47, 53]\n        *   **Chapter 53: Chronic Kidney Disease–Mineral Bone Disorder**:\n            *   Section: *Pathophysiology of Chronic Kidney Disease-Mineral and Bone Disorder -> FGF-23 and Klotho* [Passage 445, 446]\n\n*   **Figures, Tables, & Boxes (圖表與總結框清單)**:\n    *   **Figure 18.5 (Chapter 18)**: *Summary of the inherited disorders of urinary phosphate wasting*, 詳繪了 **`PHEX`** 失活引發 **`elevated plasma FGF23`** 進而下調 **`NaPi`** 共轉運體的通路 [Passage 160]。\n    *   **Figure 53.7 (Chapter 53)**: *The bone–kidney–parathyroid endocrine axes mediated by fibroblast growth factor 23 (FGF-23) and klotho*, 明確展示了 **`FGF-23`** 抑制 **`Cyp27b1`** 與活化 **`Cyp24`** 的負反饋環路 [Passage 446]。\n    *   **Figure 53.15 (Chapter 53)**: *Fibroblast growth factor 23 (FGF-23) assays*, 標明了 **`intact FGF23`** 在 **`XLH`** 與 **`TIO`** 患者中的超高濃度分佈圖譜 [Passage 448]。\n    *   **Passage 157 (Chapter 18)**: \"In 2018, the FDA approved burosumab, a human anti-FGF23 monoclonal antibody that appears to be effective for treatment of XLH in children 1 year and older. Burosumab offers a more effective therapeutic strategy, with limited side effects.\" [Passage 157]\n\n***\n\n🧬 **下一步建議：** 我們可以進一步深入研討，當這名 **`XLH`** 患者在接受 **`Burosumab`** 治療期間，在最新 **`KDIGO` 臨床指引** 的規範下，應如何精確制定隨訪的血清 **`phosphate`** 與尿液 **`calcium-to-creatinine ratio`** 監測方案，以防範因藥物反應過度、不當引發活性維生素 D 飆升而繼發的 **`hypercalciuria`** 與腎臟微小鈣化風險。",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Dual NLM consensus (A) aligns perfectly across both independent Notebooks.",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q2",
@@ -57,7 +78,28 @@
       "sourceExplanation": "此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. 此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. 此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進腸道大量吸收鈣質，引起高尿鈣 (Hypercalciuria) 與腎結石 (Nephrolithiasis)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q3",
@@ -85,7 +127,28 @@
       "sourceExplanation": "在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. 在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. 在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 在 HHRH 患者中，Calcitriol 屬於嚴格禁忌症 (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因低血磷刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化腸道鈣吸收，導致極度嚴重的高尿鈣症 (Hypercalciuria)、腎結石與腎鈣化 (Nephrocalcinosis)，最終破壞腎功能。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q4",
@@ -113,7 +176,28 @@
       "sourceExplanation": "PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. PHEX 屬於表達於 Osteocytes 與 Osteoblasts 的 Endopeptidase。雖然過去曾以為 PHEX 直接切割 FGF23，但最新研究證實 PHEX 並不直接胜肽切割 Intact FGF23；變異的 PHEX 會經由骨細胞內轉錄調節與細胞外基質訊息傳遞失調，導致 Intact FGF23 轉錄與分泌過量且降解受阻，引發全身性高 FGF23 症候群。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q5",
@@ -141,7 +225,28 @@
       "sourceExplanation": "患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。缺鐵 (Iron Deficiency) 會刺激骨細胞轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q6",
@@ -169,7 +274,28 @@
       "sourceExplanation": "Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於近端腎小管內體酸化異常 (Endosomal Acidification Defect)，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的高尿鈣症 (Hypercalciuria) 以及早發性腎鈣化 (Nephrocalcinosis) 與腎功能衰竭。XLH 則無 LMWP，且一般無自發性高尿鈣。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q7",
@@ -197,7 +323,28 @@
       "sourceExplanation": "Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Burosumab 是一種全人類源化 IgG1 單株抗體 (Human Recombinant Monoclonal Antibody)，可特異性結合並中和過量的 Intact FGF23，進而解除其對近端腎小管 NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進佝僂病與骨軟化症的癒合。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q8",
@@ -225,7 +372,28 @@
       "sourceExplanation": "NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (B) is the correct answer. NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的骨架蛋白質 (Scaffolding Protein)，負責將 NaPi-IIa 穩定錨定在近端腎小管刷狀緣的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的頂端膜表達，引起腎臟失磷、血磷低下、1,25(OH)2D 繼發性升高與腎結石。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q9",
@@ -253,7 +421,28 @@
       "sourceExplanation": "患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、近端腎小管排磷減少 (高血磷) 及 1,25(OH)2D 升高，導致關節周圍異位性鈣化 (Tumoral Calcinosis)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q10",
@@ -281,7 +470,28 @@
       "sourceExplanation": "FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO 基因發生隱性雙合子失能突變 (Loss-of-function mutation) 會導致近端腎小管對 FGF23 產生完全的末端器官阻抗 (End-organ resistance)，表現為極高濃度的 Intact FGF23、高血磷、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q11",
@@ -309,7 +519,28 @@
       "sourceExplanation": "XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. XLH 的傳統治療為口服補充 Soluble Phosphate 加上 Calcitriol。補充口服磷會引起暫時性血鈣降低並刺激 PTH 產生 Secondary/Tertiary Hyperparathyroidism；而 Calcitriol 會增加腸道鈣吸收，當兩者劑量過高或不平衡時，極易引發高尿鈣症 (Hypercalciuria) 與腎鈣化 (Nephrocalcinosis)。因此必須定期監測 Urinary Calcium/Creatinine ratio 與 Renal Ultrasonography。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q12",
@@ -337,7 +568,28 @@
       "sourceExplanation": "Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響腎臟而缺少眼部與中樞神經系統症狀。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q13",
@@ -365,7 +617,28 @@
       "sourceExplanation": "ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在骨細胞中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致骨細胞分泌大量 Intact FGF23，表現為與 XLH 極為相似的低血磷性佝僂病。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q14",
@@ -393,7 +666,28 @@
       "sourceExplanation": "這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 這是典型的 Infantile Nephropathic Cystinosis，屬於兒童期 Proximal Tubule Fanconi Syndrome 最常見的遺傳原因。由於 CTNS 基因突變致使溶酶體膜轉運蛋白 Cystinosin 失能，Cystine 水晶體於近端腎小管細胞溶酶體內大量蓄積，破壞 ATP 產生，造成全盤性近端腎小管再吸收障礙 (Fanconi syndrome)。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q15",
@@ -421,7 +715,28 @@
       "sourceExplanation": "PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. PTH 結合至近端腎小管基底側膜的 PTHR1 受體後，同時啟動 Gs-PKA 與 Gq-PKC 訊息傳導路徑，促使 NHERF1 磷酸化並與 NaPi-IIa / NaPi-IIc 解離。頂端膜上的 NaPiCotransporters 迅速經由 Clathrin-coated pits 發生內吞作用 (Endocytosis) 並在 Lysosome 內進行降解，導致 TmP/GFR 降低與尿磷排泄增加。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q16",
@@ -449,7 +764,28 @@
       "sourceExplanation": "Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、骨硬化症、過度分泌 Intact FGF23 及嚴重失磷。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q17",
@@ -477,7 +813,28 @@
       "sourceExplanation": "選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. 選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. 選項 (A) 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、低血磷、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。選項 (B) HHRH 應為低 FGF23、高 1,25(OH)2D、高尿鈣；選項 (C) Dent disease 應為正常 FGF23、高尿鈣、LMWP；選項 (D) FTC 應為高血磷。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     },
     {
       "id": "q18",
@@ -505,7 +862,28 @@
       "sourceExplanation": "Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。",
       "resolvedImages": [
         "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Box_18_2.png"
-      ]
+      ],
+      "nlmResponses": [
+        {
+          "account": "mudskipper24_worker_1",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "account": "mudskipper24_worker_2",
+          "notebook": "Brenner_11e_Phosphate_Transporters_Notebook",
+          "rawResponse": "### 1. Answer Determination\nBased on Brenner and Rector's The Kidney (11th Edition), Chapter 7 & Chapter 44, Option (A) is the correct answer. Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。\n\n### 2. Detailed Rationale\nThe proximal tubule apical sodium-phosphate cotransport is mediated by NaPi-IIa, NaPi-IIc, and Pit-2. Intact FGF23 binds the FGFR1c-alphaKlotho receptor complex to suppress transporter expression. Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性骨軟化症。徹底切除腫瘤可獲得 100% 治癒。\n\n### 3. Distractor Analysis\nOther options do not match the pathophysiology defined in Brenner 11e Table 44.5.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
+      "qcVerified": true,
+      "qcStatus": "PASSED",
+      "qcVerifiedAt": "2026-07-29T23:42:00Z"
     }
   ]
 }

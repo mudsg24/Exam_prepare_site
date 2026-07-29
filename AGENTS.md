@@ -61,6 +61,14 @@
 > 8. **ABSOLUTE BAN ON MECHANICAL REGEX CHUNKING (禁用所有機械式切分 & 100% LLM Subagent 直接 JSON 輸出)**:
 >    - **全管道（包含主 Session、Python 腳本與 Subagents）絕對禁止**撰寫或執行任何帶有 Regex (`re.split()`, `re.match(r'^\s*\d+...')`, `#` 標題字串切割) 的 Python 機械切分腳本進行文章、講堂、章節或考題的 Chunk 切分。
 >    - 所有 Chunk 與 JSON 物件**必須且只能由 LLM Subagent 親自閱讀原始 Markdown/源文件並直接語意分析後輸出 JSON**。凡使用機械式 Regex 切分產生的 Chunk 內容自動視為無效與不可信。
+>
+> 9. **ABSOLUTE BAN ON MECHANICAL REGEX OPTION EXTRACTION & ANSWER ADJUDICATION (全管道嚴禁 Regex/機械判讀擷取選項與答案裁決)**:
+>    - **全管道（主 Session、Python 腳本、Shell 指令與 Subagents）絕對禁止**使用正則表達式 (`re.search`, `re.findall`)、機械式字串比對或腳本邏輯去剖析 NLM 回答內文以決定/擷取選項字母 (A-E) 或自創「無正確答案 (NONE)」。
+>    - NLM 選項研判與對答摘要**一律且只能由 LLM 語言模型透過自然語言語意理解進行判讀**；題目之正解選項 `selectedOption` 一律且只能 100% 尊奉原始試卷標示之 `sourceProvidedAnswer`（Ground Truth）。
+>    - **SUBAGENT 零內容裁決權鐵律 (Zero Subagent Adjudication Rule)**：
+>      - Subagent 與主 Session 絕無內容裁決權、絕無修改原廠答案權、亦絕無自創「無正確答案 (NONE)」之權限。
+>      - 題目之正解選項 `selectedOption` 一律且只能 100% 尊奉原始試卷標示之 `sourceProvidedAnswer`（Ground Truth）。
+>      - Subagents 唯一職責為忠實記錄 NLM 原文對答狀態 (`rawResponse`)，絕不可插入 Subagent 個人學術見解或自創「Subagent 判定」稱謂。
 
 
 ## Single Source of Truth (SSOT) Data Sources

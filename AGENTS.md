@@ -12,8 +12,10 @@
 ## Mandatory Question Extraction Governance Rule
 
 > [!CRITICAL]
-> [!CRITICAL]
 > **STRICT LIFECYCLE QUESTION EXTRACTION & FORMATTING GOVERNANCE RULES (全生命週期考題處理與排版五大強制規範)**:
+> 
+> **ZERO MECHANICAL EXTRACTION MEMORY GUARD (機械切分絕對警示鐵律)**:
+> **用機械切分 (Regex / 腳本字串比對)，抓到的只有屎！** 全生命週期所有考題內文 (`stem`)、選項 (`options`) 與 NLM 對答 (`selectedOption`) 研判，**100% 必須派發 Subagents 透過 LLM 語言能力進行自然語言語意理解與邏輯研判**。全管道絕對禁止使用 Regex 或機械腳本進行選答或選項擷取。
 > 
 > 1. **LIFECYCLE ABSOLUTE BAN ON REGEX & SCRIPTS (全生命週期全管道嚴禁 Regex 與腳本改檔鐵律)**:
 >    - **全管道（包含主 Session、Python 腳本與 Subagents）絕對禁止**撰寫或執行任何 Regex 正則表達式 (`re.sub()`, `re.compile()`, `sed`, `awk`) 或批次取代腳本進行考題內文 (`stem`)、選項 (`options`)、解說 (`sourceExplanation`) 之抓取、段落切分、換行插入或排版修復。

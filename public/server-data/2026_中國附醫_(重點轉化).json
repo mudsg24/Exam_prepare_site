@@ -33,8 +33,8 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "根據最新 KDIGO Clinical Practice Guidelines 的更新，proteinuria 被證實為 IgA nephropathy (IgAN) 疾病進展與 long-term kidney failure risk 最強烈的 surrogate endpoint。持續降至 < 0.5 g/day (或 UPCR < 0.5 g/g) 能顯著減緩 eGFR decline rate 並維持長遠的 kidney survival。當患者經過至少 3–6 個月充分的支持性治療後每日尿蛋白仍 ≥ 0.75–1.0 g/day，應評估使用標靶型疾病修飾藥物 (如 targeted-release budesonide, sparsentan) 或參加臨床試驗以將蛋白尿降至 <0.5 g/day 目標。",
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -49,7 +49,9 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "NotebookLM 知識庫證據不足"
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "qcNotes": "Both NLM responses independently determined that no option is correct (NONE). KDIGO 2021 specifies the IgAN-specific proteinuria target as < 1.0 g/day as an ungraded Practice Point, whereas Option A incorrectly states < 0.5 g/day and \"strongly recommended\". Source provided answer A is disputed (DISPUTED_SOURCE_VS_NLM).",
+      "qcVerifiedAt": "2026-07-30T01:32:45+08:00"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q2",

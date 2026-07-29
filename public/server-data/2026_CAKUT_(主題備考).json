@@ -44,7 +44,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`Which molecular signaling pathway provides the primary inductive signal from the metanephric mesenchyme to direct ureteric bud outgrowth and branching morphogenesis during early kidney development?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(A)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Metanephric Kidney 的初期發育仰賴 Metanephric Mesenchyme (MM) 分泌的 GDNF，作用於 Wolffian Duct (Mesonephric Duct) 表面的 RET Receptor 與 GFRalpha1 Cofactor，誘導 Ureteric Bud 萌出並進行 Branching Morphogenesis。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -52,12 +53,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `Which molecular signaling pathway provides the primary inductive signal from the metanephric mesenchyme to direct ureteric bud outgrowth and branching morphogenesis during early kidney development?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   Metanephric Kidney 的初期發育仰賴 Metanephric Mesenchyme (MM) 分泌的 GDNF，作用於 Wolffian Duct (Mesonephric Duct) 表面的 RET Receptor 與 GFRalpha1 Cofactor，誘導 Ureteric Bud 萌出並進行 Branching Morphogenesis。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses consistently selected Option A, matching source provided answer A.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q02",
@@ -96,7 +100,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 12-year-old child presents with progressive chronic kidney disease and optic nerve coloboma. Genetic testing reveals a heterozygous loss-of-function mutation in PAX2. Which of the following is the diagnosis?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(B)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   PAX2 轉錄因子突變引發 Renal Coloboma Syndrome (亦稱 Papillorenal Syndrome)，特徵為 Optic Nerve Coloboma 伴隨 Renal Hypodysplasia 及 Vesicoureteral Reflux (VUR)。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -104,12 +109,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 12-year-old child presents with progressive chronic kidney disease and optic nerve coloboma. Genetic testing reveals a heterozygous loss-of-function mutation in PAX2. Which of the following is the diagnosis?`，正確答案為 **(B)**。\n\n2. **病生理機轉說明**:\n   PAX2 轉錄因子突變引發 Renal Coloboma Syndrome (亦稱 Papillorenal Syndrome)，特徵為 Optic Nerve Coloboma 伴隨 Renal Hypodysplasia 及 Vesicoureteral Reflux (VUR)。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses consistently selected Option B, matching source provided answer B.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q03",
@@ -148,7 +156,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 16-year-old female presents with hypomagnesemia, young-onset diabetes mellitus (MODY5), early-onset gout, and renal ultrasound showing bilateral small kidneys with cortical microcysts. Mutation in which gene is responsible for this condition?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(C)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   HNF1B (TCF2) 基因突變引發 Renal Cysts and Diabetes (RCAD) Syndrome，臨床表徵包括 MODY5、Pancreatic Hypoplasia、Hypomagnesemia、Hyperuricemia/Gout 及 Multicystic Dysplastic Kidney (MCDK) 或 Renal Dysplasia。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -156,12 +165,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 16-year-old female presents with hypomagnesemia, young-onset diabetes mellitus (MODY5), early-onset gout, and renal ultrasound showing bilateral small kidneys with cortical microcysts. Mutation in which gene is responsible for this condition?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   HNF1B (TCF2) 基因突變引發 Renal Cysts and Diabetes (RCAD) Syndrome，臨床表徵包括 MODY5、Pancreatic Hypoplasia、Hypomagnesemia、Hyperuricemia/Gout 及 Multicystic Dysplastic Kidney (MCDK) 或 Renal Dysplasia。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses consistently selected Option C, matching source provided answer C.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q04",
@@ -200,7 +212,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A patient with branchial cleft fistulas, preauricular pits, sensorineural hearing loss, and unilateral renal agenesis is diagnosed with Branchio-Oto-Renal (BOR) Syndrome. Which gene mutation is most frequently associated with this autosomal dominant disorder?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(D)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Branchio-Oto-Renal (BOR) Syndrome 最常見的基因突變為 EYA1 (亦包含 SIX1 與 SIX5)，臨床上以 Branchial Cleft Cysts/Fistulae、Preauricular Pits、Hearing Loss 及 CAKUT (Renal Agenesis / Dysplasia) 為特徵。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -208,12 +221,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A patient with branchial cleft fistulas, preauricular pits, sensorineural hearing loss, and unilateral renal agenesis is diagnosed with Branchio-Oto-Renal (BOR) Syndrome. Which gene mutation is most frequently associated with this autosomal dominant disorder?`，正確答案為 **(D)**。\n\n2. **病生理機轉說明**:\n   Branchio-Oto-Renal (BOR) Syndrome 最常見的基因突變為 EYA1 (亦包含 SIX1 與 SIX5)，臨床上以 Branchial Cleft Cysts/Fistulae、Preauricular Pits、Hearing Loss 及 CAKUT (Renal Agenesis / Dysplasia) 為特徵。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses consistently selected Option D, matching source provided answer D.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q05",
@@ -252,7 +268,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A newborn delivered at 34 weeks displays pulmonary hypoplasia, compressed facies (low-set ears, flattened nose), and limb positional deformities. Autopsy reveals bilateral renal agenesis. What is the primary pathogenetic cascade leading to these extrarenal deformities?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(A)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Potter Sequence 的致病核心是因雙側 Renal Agenesis 或嚴重的 Severe LUTO 導致 Fetal Urine 產量銳減，引發 In utero Oligohydramnios。缺乏羊水緩衝使得子宮壁對胎兒產生物理性壓迫，導致 Pulmonary Hypoplasia、Compressed Potter Facies 及 Limb Deformities。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -260,12 +277,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A newborn delivered at 34 weeks displays pulmonary hypoplasia, compressed facies (low-set ears, flattened nose), and limb positional deformities. Autopsy reveals bilateral renal agenesis. What is the primary pathogenetic cascade leading to these extrarenal deformities?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   Potter Sequence 的致病核心是因雙側 Renal Agenesis 或嚴重的 Severe LUTO 導致 Fetal Urine 產量銳減，引發 In utero Oligohydramnios。缺乏羊水緩衝使得子宮壁對胎兒產生物理性壓迫，導致 Pulmonary Hypoplasia、Compressed Potter Facies 及 Limb Deformities。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option A, matching source answer A.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q06",
@@ -305,7 +325,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`Antenatal ultrasound detects a non-functioning unilateral kidney composed of multiple large non-communicating cysts separated by dysplastic stroma, with complete absence of normal renal parenchyma. What is the recommended long-term management strategy for this Multicystic Dysplastic Kidney (MCDK)?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(B)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   對單側 Multicystic Dysplastic Kidney (MCDK) 的現行標準處置為 Conservative Management，因為絕大多數 MCDK 會隨時間 Involution。重點是檢查對側正常腎臟是否伴隨 Vesicoureteral Reflux (VUR) 或 UPJO。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -313,12 +334,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `Antenatal ultrasound detects a non-functioning unilateral kidney composed of multiple large non-communicating cysts separated by dysplastic stroma, with complete absence of normal renal parenchyma. What is the recommended long-term management strategy for this Multicystic Dysplastic Kidney (MCDK)?`，正確答案為 **(B)**。\n\n2. **病生理機轉說明**:\n   對單側 Multicystic Dysplastic Kidney (MCDK) 的現行標準處置為 Conservative Management，因為絕大多數 MCDK 會隨時間 Involution。重點是檢查對側正常腎臟是否伴隨 Vesicoureteral Reflux (VUR) 或 UPJO。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option B, matching source answer B.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q07",
@@ -358,7 +382,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`An adult undergoing abdominal CT for trauma is incidentally found to have a Horseshoe Kidney. Which vascular structure arrested the normal embryological cephalad ascent of the fused renal mass at the L3 vertebral level?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(C)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Horseshoe Kidney 通常在兩側腎臟 Inferior Poles 發生 Isthmus 融合。胚胎發育中由盆腔向上推升時，Isthmus 會勾住 Inferior Mesenteric Artery (IMA) 的起點 (L3 Level)，使 Cephalad Ascent 停止於腰椎下段。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -366,12 +391,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `An adult undergoing abdominal CT for trauma is incidentally found to have a Horseshoe Kidney. Which vascular structure arrested the normal embryological cephalad ascent of the fused renal mass at the L3 vertebral level?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   Horseshoe Kidney 通常在兩側腎臟 Inferior Poles 發生 Isthmus 融合。胚胎發育中由盆腔向上推升時，Isthmus 會勾住 Inferior Mesenteric Artery (IMA) 的起點 (L3 Level)，使 Cephalad Ascent 停止於腰椎下段。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option C, matching source answer C.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q08",
@@ -410,7 +438,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`Which of the following statements regarding Ectopic Kidney and Crossed Fused Ectopia is CORRECT?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(D)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Crossed Fused Ectopia 的解剖特徵為 Crossed Ectopic Kidney 跨過中線移位至對側並與對側腎融合，但其 Ureter 仍引流回原本同側的 Bladder Trigone，故 Ureter 跨越中線。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -418,12 +447,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `Which of the following statements regarding Ectopic Kidney and Crossed Fused Ectopia is CORRECT?`，正確答案為 **(D)**。\n\n2. **病生理機轉說明**:\n   Crossed Fused Ectopia 的解剖特徵為 Crossed Ectopic Kidney 跨過中線移位至對側並與對側腎融合，但其 Ureter 仍引流回原本同側的 Bladder Trigone，故 Ureter 跨越中線。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option D, matching source answer D.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q09",
@@ -463,20 +495,24 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`According to the Weigert-Meyer Law in a complete Duplex Collecting System, what are the typical anatomical insertions and clinical complications of the Upper Pole and Lower Pole ureters?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(A)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Weigert-Meyer Law 規範完整 Duplex Collecting System 的解剖規律：Upper Pole Ureter 開口於 Medial & Inferior 位置，常伴隨 Ureterocele 或 Ectopic Insertion 造成 Upper Pole Obstruction；Lower Pole Ureter 開口於 Lateral & Superior 位置，因內壁隧道較短易引起 Vesicoureteral Reflux (VUR)。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
           "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
           "accountProfile": "kuonephro",
-          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `According to the Weigert-Meyer Law in a complete Duplex Collecting System, what are the typical anatomical insertions and clinical complications of the Upper Pole and Lower Pole ureters?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   Weigert-Meyer Law 規範完整 Duplex Collecting System 的解剖規律：Upper Pole Ureter 開口於 Medial & Inferior 位置，常伴隨 Ureterocele 或 Ectopic Insertion 造成 Upper Pole Obstruction；Lower Pole Ureter 開口於 Lateral & Superior 位置，因內壁隧道較短易引起 Vesicoureteral Reflux (VUR)。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
+          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `According to the Weigert-Meyer Law in a complete Duplex Collecting System, what are the typical anatomical insertions and clinical complications of the Upper Pole and Lower Pole ureters?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   Weigert-Meyer Law 規範完整 Duplex Collecting System 的解剖規律：Upper Pole Ureter 開口於 Medial & Inferior 位置，常伴隨 Ureterocele 或 Ectopic Insertion 造成 Upper Pole Obstruction；Lower Pole Ureter 開口於 Lateral & Superior 位置，因內壁隧道較短易引起 Vesicoureteral Reflux (VUR)。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option A, matching source answer A.",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q10",
@@ -515,7 +551,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 2-year-old girl evaluated for febrile urinary tract infection undergoes Voiding Cystourethrogram (VCUG), which demonstrates reflux of contrast into a moderately dilated ureter and renal pelvis with blunting of the renal calyces. How is this Vesicoureteral Reflux (VUR) graded?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(B)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Grade III Vesicoureteral Reflux (VUR) 的國際分級特徵為：對照劑逆流至 Ureter、Renal Pelvis 及 Calyces，伴隨 Ureter 及 Pelvis 的 Mild-to-moderate Dilation 以及 Calyceal Blunting。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -523,12 +560,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 2-year-old girl evaluated for febrile urinary tract infection undergoes Voiding Cystourethrogram (VCUG), which demonstrates reflux of contrast into a moderately dilated ureter and renal pelvis with blunting of the renal calyces. How is this Vesicoureteral Reflux (VUR) graded?`，正確答案為 **(B)**。\n\n2. **病生理機轉說明**:\n   Grade III Vesicoureteral Reflux (VUR) 的國際分級特徵為：對照劑逆流至 Ureter、Renal Pelvis 及 Calyces，伴隨 Ureter 及 Pelvis 的 Mild-to-moderate Dilation 以及 Calyceal Blunting。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option B (Grade III VUR with calyceal blunting and ureteral/pelvic dilation).",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q11",
@@ -567,7 +607,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`Which of the following is considered an indication for continuous prophylactic antibiotic therapy (CAP) or surgical intervention in children with Vesicoureteral Reflux (VUR)?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(C)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Continuous Prophylactic Antibiotic (CAP) 或手術干預 (如 Endoscopic Deflux 與 Ureteral Reimplantation) 的主要臨床指徵為：反覆發作的 Febrile UTIs、高分級 VUR (Grade IV-V) 或出現 Breakthrough Infections 與新發 Cortical Scarring。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -575,12 +616,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `Which of the following is considered an indication for continuous prophylactic antibiotic therapy (CAP) or surgical intervention in children with Vesicoureteral Reflux (VUR)?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   Continuous Prophylactic Antibiotic (CAP) 或手術干預 (如 Endoscopic Deflux 與 Ureteral Reimplantation) 的主要臨床指徵為：反覆發作的 Febrile UTIs、高分級 VUR (Grade IV-V) 或出現 Breakthrough Infections 與新發 Cortical Scarring。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option C (Indication for CAP/surgical intervention in VUR: recurrent fUTIs or high-grade VUR with breakthrough infections).",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q12",
@@ -619,7 +663,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A newborn male presents with poor urinary stream, palpable distended urinary bladder, and bilateral hydroureteronephrosis on ultrasound. VCUG reveals dilation of the posterior prostatic urethra with a classic keyhole sign. What is the diagnosis?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(D)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Posterior Urethral Valves (PUV) 是男嬰最嚴重的 Severe LUTO。超音波及 VCUG 上呈現厚壁膀胱與擴張的 Prostatic Urethra，構成典型的 Keyhole Sign，常伴雙側 Hydroureteronephrosis。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -627,12 +672,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A newborn male presents with poor urinary stream, palpable distended urinary bladder, and bilateral hydroureteronephrosis on ultrasound. VCUG reveals dilation of the posterior prostatic urethra with a classic keyhole sign. What is the diagnosis?`，正確答案為 **(D)**。\n\n2. **病生理機轉說明**:\n   Posterior Urethral Valves (PUV) 是男嬰最嚴重的 Severe LUTO。超音波及 VCUG 上呈現厚壁膀胱與擴張的 Prostatic Urethra，構成典型的 Keyhole Sign，常伴雙側 Hydroureteronephrosis。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option D (Posterior Urethral Valves presenting with keyhole sign on VCUG).",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q13",
@@ -671,7 +719,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`What is the initial immediate management step for a male infant diagnosed with Posterior Urethral Valves (PUV) presenting with acute urinary retention and electrolyte derangements?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(A)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   PUV 新生兒的急診第一步為立即放置小號 Feeding Tube 或 Transurethral Catheter 進行 Urinary Decompression，並矯正電解質與酸鹼異常。病情穩定後首選微創 Endoscopic Valve Ablation。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -679,12 +728,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `What is the initial immediate management step for a male infant diagnosed with Posterior Urethral Valves (PUV) presenting with acute urinary retention and electrolyte derangements?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   PUV 新生兒的急診第一步為立即放置小號 Feeding Tube 或 Transurethral Catheter 進行 Urinary Decompression，並矯正電解質與酸鹼異常。病情穩定後首選微創 Endoscopic Valve Ablation。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option A (Initial immediate management for PUV is urinary decompression via catheter/feeding tube and electrolyte stabilization).",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q14",
@@ -723,7 +775,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 5-year-old child is found to have marked renal pelvis dilation without ureteral dilation on ultrasound. MAG3 furosemide renogram demonstrates a washout half-life (T1/2) of 28 minutes. What is the diagnosis and appropriate management?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(B)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Ureteropelvic Junction Obstruction (UPJO) 特徵為 Renal Pelvis 擴張但 Ureter 無擴張。MAG3 輸尿管利尿掃描判定 Washout T1/2 > 20 分鐘代表具有顯著 Obstruction，外科重建首選 Surgical Pyeloplasty (Dismembered Pyeloplasty)。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -731,12 +784,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 5-year-old child is found to have marked renal pelvis dilation without ureteral dilation on ultrasound. MAG3 furosemide renogram demonstrates a washout half-life (T1/2) of 28 minutes. What is the diagnosis and appropriate management?`，正確答案為 **(B)**。\n\n2. **病生理機轉說明**:\n   Ureteropelvic Junction Obstruction (UPJO) 特徵為 Renal Pelvis 擴張但 Ureter 無擴張。MAG3 輸尿管利尿掃描判定 Washout T1/2 > 20 分鐘代表具有顯著 Obstruction，外科重建首選 Surgical Pyeloplasty (Dismembered Pyeloplasty)。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option B (UPJO with MAG3 clearance T1/2 > 20 min indicated for Pyeloplasty).",
+      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
     },
     {
       "id": "cakut_q15",
@@ -775,7 +831,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 7-year-old girl presents with continuous dribbling of urine since birth despite having normal, periodic voiding habits. Which anatomical anomaly accounts for this presentation?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(C)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   女性 Ectopic Ureter 若開口於 External Sphincter 之遠端 (如 Vagina, Vestibule 或 Distal Urethra)，會出現 Continuous Dribbling Incontinence 但同時伴隨正常的週期性排尿；男性的異位開口皆在括約肌近端，故男性不會出現浸尿失禁。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -783,12 +840,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 7-year-old girl presents with continuous dribbling of urine since birth despite having normal, periodic voiding habits. Which anatomical anomaly accounts for this presentation?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   女性 Ectopic Ureter 若開口於 External Sphincter 之遠端 (如 Vagina, Vestibule 或 Distal Urethra)，會出現 Continuous Dribbling Incontinence 但同時伴隨正常的週期性排尿；男性的異位開口皆在括約肌近端，故男性不會出現浸尿失禁。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses and source provided answer consistently selected Option C.",
+      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
     },
     {
       "id": "cakut_q16",
@@ -827,7 +887,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`Antenatal ultrasound at 32 weeks gestation reveals a fetal renal pelvis anteroposterior diameter (APD) of 12 mm. What is the post-natal evaluation protocol for this infant?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(D)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   產前 Antenatal Hydronephrosis (32 週 APD >= 10 mm) 的新生兒，建議於出生 48 小時後 (避開出生頭兩天生理性脫水導致超音波假陰性) 安排產後超音波評估，並依據指引評估是否使用 Prophylactic Antibiotics 與 VCUG。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -835,12 +896,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `Antenatal ultrasound at 32 weeks gestation reveals a fetal renal pelvis anteroposterior diameter (APD) of 12 mm. What is the post-natal evaluation protocol for this infant?`，正確答案為 **(D)**。\n\n2. **病生理機轉說明**:\n   產前 Antenatal Hydronephrosis (32 週 APD >= 10 mm) 的新生兒，建議於出生 48 小時後 (避開出生頭兩天生理性脫水導致超音波假陰性) 安排產後超音波評估，並依據指引評估是否使用 Prophylactic Antibiotics 與 VCUG。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses and source provided answer consistently selected Option D.",
+      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
     },
     {
       "id": "cakut_q17",
@@ -879,7 +943,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A young adult with a history of unilateral renal agenesis and congenital solitary functioning kidney is evaluated for routine checkup. Urinalysis shows trace proteinuria and GFR is 65 mL/min/1.73m2. What is the primary pathophysiological driver of long-term CKD progression in a single functioning kidney?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(A)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Single Functioning Kidney 的長遠風險來自於代償性 Glomerular Hyperfiltration，導致 Intraglomerular Hypertension、Podocyte Injury 及次發性 Focal Segmental Glomerulosclerosis (FSGS)，引發 Proteinuria 與 CKD 進展。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -887,12 +952,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A young adult with a history of unilateral renal agenesis and congenital solitary functioning kidney is evaluated for routine checkup. Urinalysis shows trace proteinuria and GFR is 65 mL/min/1.73m2. What is the primary pathophysiological driver of long-term CKD progression in a single functioning kidney?`，正確答案為 **(A)**。\n\n2. **病生理機轉說明**:\n   Single Functioning Kidney 的長遠風險來自於代償性 Glomerular Hyperfiltration，導致 Intraglomerular Hypertension、Podocyte Injury 及次發性 Focal Segmental Glomerulosclerosis (FSGS)，引發 Proteinuria 與 CKD 進展。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses and source provided answer consistently selected Option A.",
+      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
     },
     {
       "id": "cakut_q18",
@@ -931,7 +999,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A child presents with imperforate anus, triphalangeal thumbs, dysmorphic ears, and bilateral renal hypoplasia. Genetic testing identifies a mutation in the SALL1 gene. What syndrome does this clinical picture represent?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(B)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   SALL1 基因突變可引發 Townes-Brocks Syndrome，臨床特徵包含 Imperforate Anus、Triphalangeal Thumbs / Thumb Malformations、Dysmorphic Ears / Hearing Loss 及 CAKUT (Renal Hypoplasia / Dysplasia)。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -939,12 +1008,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A child presents with imperforate anus, triphalangeal thumbs, dysmorphic ears, and bilateral renal hypoplasia. Genetic testing identifies a mutation in the SALL1 gene. What syndrome does this clinical picture represent?`，正確答案為 **(B)**。\n\n2. **病生理機轉說明**:\n   SALL1 基因突變可引發 Townes-Brocks Syndrome，臨床特徵包含 Imperforate Anus、Triphalangeal Thumbs / Thumb Malformations、Dysmorphic Ears / Hearing Loss 及 CAKUT (Renal Hypoplasia / Dysplasia)。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses and source provided answer consistently selected Option B.",
+      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
     },
     {
       "id": "cakut_q19",
@@ -983,20 +1055,24 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A patient evaluated for hypocalcemia and tetany is found to have Primary Hypoparathyroidism, Sensorineural Deafness, and bilateral Renal Dysplasia (HDR Syndrome). Mutation in which gene causes HDR Syndrome?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(C)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   GATA3 轉錄因子突變導致 HDR Syndrome (Hypoparathyroidism, Sensorineural Deafness, and Renal Dysplasia)，為常染色體顯性遺傳的 CAKUT 症候群。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
           "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
           "accountProfile": "kuonephro",
-          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(C)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A patient evaluated for hypocalcemia and tetany is found to have Primary Hypoparathyroidism, Sensorineural Deafness, and bilateral Renal Dysplasia (HDR Syndrome). Mutation in which gene causes HDR Syndrome?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   GATA3 轉錄因子突變導致 HDR Syndrome (Hypoparathyroidism, Sensorineural Deafness, and Renal Dysplasia)，為常染色體顯性遺傳的 CAKUT 症候群。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
+          "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A patient evaluated for hypocalcemia and tetany is found to have Primary Hypoparathyroidism, Sensorineural Deafness, and bilateral Renal Dysplasia (HDR Syndrome). Mutation in which gene causes HDR Syndrome?`，正確答案為 **(C)**。\n\n2. **病生理機轉說明**:\n   GATA3 轉錄因子突變導致 HDR Syndrome (Hypoparathyroidism, Sensorineural Deafness, and Renal Dysplasia)，為常染色體顯性遺傳的 CAKUT 症候群。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney maternal-fetal & Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "C"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses and source provided answer consistently selected Option C.",
+      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
     },
     {
       "id": "cakut_q20",
@@ -1035,7 +1111,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 **`Brenner & Rector's The Kidney`** (11th Edition) 與 **`KDIGO Guidelines`** 的權威論述，針對 **`CAKUT` (Congenital Anomalies of the Kidney and Urinary Tract)** 的生理、胚胎解剖與基因分子病理解析如下：\n\n1. **解剖與分子機制 (Anatomical & Molecular Rationale)**:\n   本題題目題幹指出：`A 22-year-old male with a history of severe uncorrected Vesicoureteral Reflux in childhood presents with hypertension and heavy proteinuria. Renal biopsy demonstrates focal segmental glomerulosclerosis with extensive tubulointerstitial scarring. What is the diagnosis?`。在腎臟胚胎發育與 CAKUT 病生理學中，這直接對應至選項 **(D)** 的關鍵機轉。\n\n2. **臨床與基因病理連結 (Clinical & Genetic Correlation)**:\n   Reflux Nephropathy 是因長期未矯正的高分級 VUR 導致 Intrarenal Reflux 及反覆感染，最終引發 Cortical Scarring、Tubulointerstitial Fibrosis 及代償性 Hyperfiltration 造成的 Secondary FSGS，臨床表現為 Hypertension 及 Proteinuria。\n\n3. **權威文獻實證 (Authoritative Evidence)**:\n   根據 Brenner 11e 的記載，Metanephric Mesenchyme 與 Ureteric Bud 之間的相互作用及微觀調控基因 (如 PAX2, HNF1B, EYA1, GATA3, GDNF/RET) 構成了 CAKUT 臨床多樣性的基礎。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner & Rector's The Kidney (11th Edition)**: Chapter 1 (Embryology of the Kidney) & Chapter 72 (Diseases of the Kidney and Upper Urinary Tract in Children).\n* **KDIGO Guidelines**: Pediatric CKD & CAKUT long-term management framework.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -1043,12 +1120,15 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D)**。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 **`CAKUT`** 專科考試中，本題深入考核了臨床胚胎學、基因突變及下泌尿道結構異常的黃金考點：\n\n1. **題目解析與正解邏輯**:\n   針對題目 `A 22-year-old male with a history of severe uncorrected Vesicoureteral Reflux in childhood presents with hypertension and heavy proteinuria. Renal biopsy demonstrates focal segmental glomerulosclerosis with extensive tubulointerstitial scarring. What is the diagnosis?`，正確答案為 **(D)**。\n\n2. **病生理機轉說明**:\n   Reflux Nephropathy 是因長期未矯正的高分級 VUR 導致 Intrarenal Reflux 及反覆感染，最終引發 Cortical Scarring、Tubulointerstitial Fibrosis 及代償性 Hyperfiltration 造成的 Secondary FSGS，臨床表現為 Hypertension 及 Proteinuria。\n\n3. **臨床處置與指引重點**:\n   臨床上針對 CAKUT (如 VUR, PUV, UPJO, MCDK) 的處置強調產前超音波篩檢、產後 48 小時追蹤超音波、VCUG 及必要的微創手術干預 (如 Valve Ablation 或 Pyeloplasty)，以保護殘存 Nephron 數量並防範進展至 CKD。\n\n---\n\n### **3. 課本章節與圖表定位 (Citations & References)**\n* **Brenner 11e Chapter 1**: Embryology of the Kidney.\n* **Brenner 11e Chapter 37**: Urinary Tract Obstruction.\n* **Brenner 11e Chapter 72**: Diseases of the Kidney and Upper Urinary Tract in Children.",
           "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "qcStatus": "PASSED",
+          "selectedOption": "D"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Both NLM responses consistently selected Option D, matching source provided answer D.",
+      "qcVerifiedAt": "2026-07-30T01:32:17.698983+08:00"
     }
   ]
 }

@@ -1617,8 +1617,8 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "Mayo Class 1C/1D/1E 屬高風險快速進展者 (rapid progressors)。34 歲且 htTKV 850 mL/m 屬 Mayo Class 1E。Tolvaptan (V2 antagonist) 能減緩 TKV 增長與 eGFR 下降。因 DILI 風險，治療前 18 個月必須每月監測 LFT (ALT/AST)。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "DISPUTED",
+      "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -1642,8 +1642,8 @@
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_1.png",
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
+      "qcVerifiedAt": "2026-07-30T01:32:33Z",
+      "qcNotes": "Dispute: NLM #1 identified Option B as the intended correct answer despite a minor classification typo (1D vs 1E), while NLM #2 strictly selected NONE due to the typo. Source answer is B.",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
     },
     {

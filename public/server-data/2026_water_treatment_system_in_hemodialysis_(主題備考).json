@@ -218,7 +218,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "本題測試血液透析用水處理中 Reverse Osmosis 與 Thin-Film Composite (TFC) 膜的流體力學。Cross-Flow Filtration 的機制是利用高壓驅使流體平行於膜表面流動，將水流分為 pure permeate 與 continuous concentrate reject。這種設計能藉由流體的剪切力帶走 foulants，有效減少 fouling，以維持系統的高純化效率。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -280,7 +280,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "本題旨在探討 Reverse Osmosis (RO) water distribution loop 防止細菌附著與 biofilm 形成的工程規格。為避免低流速與停滯點（stagnation points）誘發 biofilm deposition，系統應採用 continuous circulating loop 並嚴禁 dead-ends。同時需配合適當的 fluid velocity 與光滑管材（如 PVDF 或 PEX），藉由物理剪切力阻斷微生物附著。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -342,7 +342,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "現有資料庫中未記載 Taiwan Society of Nephrology (TSN) 關於 standard RO water 與 dialysate 中 bacterial colony counts 的具體限制與 Action Level，無法從文獻中確認精確的容許閾值。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -404,7 +404,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "本題考查 hemodialysis RO water 的 endotoxin 檢測與規範。依據 AAMI 與 ISO 國際標準，standard dialysate 的 endotoxin 最大容許濃度為 < 0.25 EU/ml，而 action level 設為 0.125 EU/ml。臨床與工業界對 endotoxin 定量測定的黃金標準為 Limulus Amebocyte Lysate (LAL) assay，其對 bacterial endotoxins 具有極高靈敏度與生物學特異性。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -584,7 +584,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "本題考查 water softener 故障導致的急性毒性。當大量 calcium 與 magnesium 進入 dialysate 並跨膜進入患者血液時，會造成 acute hypercalcemia 與 acute hypermagnesemia。臨床表現包含 nausea、vomiting、severe headache、hypertension 以及 muscle weakness，此現象特稱為 Hard water syndrome。這有別於 dialysis disequilibrium syndrome (DDS) 引起的 cerebral edema，或是 endotoxins 污染導致的 pyrogenic reactions。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -705,7 +705,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "本題詢問在 AAMI 2014 與 Taiwan TSN guidelines 規範下，hemodialysis 水進行完整化學與重金屬分析的法定頻率。根據文獻記載，雖然水質標準有嚴格的 microbial 與 endotoxin 規範，但缺乏具體的 chemical contaminants 檢測頻率，且無 Taiwan TSN 的本土指引。儘管如此，透析用水中的化學污染物如 aluminum 會累積引發 dialysis dementia、osteomalacia 與 microcytic anemia，fluoride 洩漏會引起致命的 cardiac arrhythmias，chloramines 則會導致 acute hemolysis。由於選項缺乏明確的文獻支持，本題判定為無明確答案。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [

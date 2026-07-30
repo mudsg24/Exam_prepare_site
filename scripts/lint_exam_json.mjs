@@ -75,17 +75,77 @@ function lintExamFile(filePath) {
   return { errors, warnings };
 }
 
+function lintManifestFile() {
+  const manifestPath = path.join(SERVER_DATA_DIR, 'exams_manifest.json');
+  if (!fs.existsSync(manifestPath)) {
+    return [`exams_manifest.json not found in ${SERVER_DATA_DIR}`];
+  }
+
+  const errors = [];
+  let manifest;
+  try {
+    manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+  } catch (err) {
+    return [`Failed to parse exams_manifest.json: ${err.message}`];
+  }
+
+  if (!Array.isArray(manifest)) {
+    return ['exams_manifest.json content must be an array of ExamManifestItem objects.'];
+  }
+
+  manifest.forEach((item, idx) => {
+    const itemLabel = `Manifest Item #${idx + 1} (${item.id || item.paperId || 'no-id'})`;
+
+    // Forbidden Key Aliases
+    if (item.name && !item.title) {
+      errors.push(`[${itemLabel}] Prohibited key "name" used instead of "title".`);
+    }
+    if (item.totalQuestions !== undefined && item.questionCount === undefined) {
+      errors.push(`[${itemLabel}] Prohibited key "totalQuestions" used instead of "questionCount".`);
+    }
+
+    // Required Field Schema Checks
+    if (!item.id) {
+      errors.push(`[${itemLabel}] Missing required field "id".`);
+    }
+    if (!item.title) {
+      errors.push(`[${itemLabel}] Missing required field "title".`);
+    }
+    if (!item.sourceCategory) {
+      errors.push(`[${itemLabel}] Missing required field "sourceCategory".`);
+    }
+    if (item.questionCount === undefined || typeof item.questionCount !== 'number') {
+      errors.push(`[${itemLabel}] Missing or invalid numeric field "questionCount".`);
+    }
+
+    // Disk File Resolution Check
+    const filename = item.filename || `${item.id}.json`;
+    const targetPath = filename.startsWith('/') ? path.join(__dirname, '../public', filename) : path.join(SERVER_DATA_DIR, filename);
+    const fallbackPath = path.join(SERVER_DATA_DIR, `${item.id}.json`);
+    if (!fs.existsSync(targetPath) && !fs.existsSync(fallbackPath)) {
+      errors.push(`[${itemLabel}] Targeted JSON file does not exist: ${filename}`);
+    }
+  });
+
+  return errors;
+}
+
 function runLinter() {
-  console.log('🔍 Running Exam JSON Static Linter (Checking Synthetic Headers & Broken Sentences)...');
+  console.log('🔍 Running Exam JSON Static Linter (Checking Schema Keys, Synthetic Headers & Broken Sentences)...');
 
   if (!fs.existsSync(SERVER_DATA_DIR)) {
     console.error(`❌ Error: Directory not found: ${SERVER_DATA_DIR}`);
     process.exit(1);
   }
 
+  let totalErrors = [];
+  const manifestErrors = lintManifestFile();
+  if (manifestErrors.length > 0) {
+    totalErrors.push(...manifestErrors);
+  }
+
   const files = fs.readdirSync(SERVER_DATA_DIR);
   let totalFilesChecked = 0;
-  let totalErrors = [];
 
   files.forEach(f => {
     const fullPath = path.join(SERVER_DATA_DIR, f);
@@ -98,7 +158,7 @@ function runLinter() {
     }
   });
 
-  console.log(`📊 Checked ${totalFilesChecked} exam database JSON files.`);
+  console.log(`📊 Checked exams_manifest.json (${manifestErrors.length === 0 ? 'SCHEMA VALID' : 'SCHEMA ERRORS'}) and ${totalFilesChecked} exam database JSON files.`);
 
   if (totalErrors.length > 0) {
     console.error(`❌ Exam JSON Lint Failed with ${totalErrors.length} error(s):\n`);
@@ -106,7 +166,7 @@ function runLinter() {
     console.error('\n🚫 Build aborted due to exam data governance violations.');
     process.exit(1);
   } else {
-    console.log('✅ Exam JSON Lint Passed! All exam files are clean (0 synthetic headers, 0 broken sentences).');
+    console.log('✅ Exam JSON Lint Passed! All manifest schemas and exam files are clean (0 synthetic headers, 0 broken sentences, 0 schema key violations).');
     process.exit(0);
   }
 }

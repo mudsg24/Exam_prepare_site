@@ -62,6 +62,8 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
 }) => {
   const isLight = themeMode === 'light';
 
+  if (!question) return null;
+
   // Defensive normalization of attachedImages
   const rawAttached = question.attachedImages || [];
   const normalizedAttachedImages: AttachedImage[] = rawAttached.map((img: any, idx: number) => {
@@ -165,7 +167,7 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
 
         {/* Options List */}
         <div className="space-y-3 mb-6">
-          {question.options.map((rawOpt: any, optIdx: number) => {
+          {(question.options || []).map((rawOpt: any, optIdx: number) => {
             const letters: OptionId[] = ['A', 'B', 'C', 'D', 'E'];
             const opt = typeof rawOpt === 'string'
               ? { id: letters[optIdx] || ('A' as OptionId), text: rawOpt }

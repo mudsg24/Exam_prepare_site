@@ -92,6 +92,7 @@ export interface ExamManifestItem {
   sourceCategory: string;
   questionCount: number;
   year: number;
+  filename?: string;
   hasTutorial?: boolean;
   tutorialId?: string;
   tutorialFilename?: string;

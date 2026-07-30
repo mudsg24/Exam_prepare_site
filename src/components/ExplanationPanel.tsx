@@ -91,6 +91,8 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
 
   const isLight = themeMode === 'light';
 
+  if (!question) return null;
+
   const hasSourceAnswer = (question.sourceAnswerStatus === 'provided' || question.sourceAnswerStatus === 'synthetic_tonks') && !!question.sourceProvidedAnswer;
   const isSynthetic = question.sourceAnswerStatus === 'synthetic_tonks';
   const nlmResponses = question.nlmResponses || [];

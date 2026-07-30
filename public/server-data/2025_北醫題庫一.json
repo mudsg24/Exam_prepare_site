@@ -2727,7 +2727,7 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
       "attachedImages": null,
       "qcVerified": true,
@@ -3751,7 +3751,7 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (A) 不符",
       "attachedImages": [
         {

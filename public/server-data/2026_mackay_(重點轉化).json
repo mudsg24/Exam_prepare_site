@@ -509,7 +509,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 NotebookLM 的分析，現有資料庫文獻缺乏足夠資訊來確定正確選項。文獻中雖記錄了 `glomerular endothelial cells` (`GEnCs`) 在遭受急性損傷（如在 `thrombotic microangiopathy` 或 `TMA` 中）時，表現為細胞體腫脹 (`swelling of the cell body`)、內皮糖萼變薄 (`thinning of the glycocalyx`) 以及內皮窗孔喪失 (`loss of fenestrations`)，並會上調如 `CD34` 與 `E-selectin` (`CD62E`) 等標記，但並未具體提及或區分選項中所列分子（如 `Tissue Factor`、`Thrombomodulin`、`CD31`、`Nephrin` 等）的表現變化組合。",
       "resolvedImages": [],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [

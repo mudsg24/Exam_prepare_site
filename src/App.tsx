@@ -154,45 +154,86 @@ export const App: React.FC = () => {
     }
   }, [themeMode]);
 
+const sanitizeManifestItem = (raw: any): ExamManifestItem => {
+  if (!raw || typeof raw !== 'object') {
+    return {
+      id: 'unknown',
+      title: '未命名試卷',
+      sourceCategory: '未分類',
+      questionCount: 0,
+      year: 2026,
+    };
+  }
+  const id = raw.id || raw.paperId || 'unknown_paper';
+  const title = raw.title || raw.name || raw.paperTitle || id;
+  const sourceCategory = raw.sourceCategory || raw.category || '2026 年主題練習';
+  const questionCount = typeof raw.questionCount === 'number' ? raw.questionCount : (raw.totalQuestions || 0);
+  const year = raw.year || 2026;
+  const filename = raw.filename || `${id}.json`;
+
+  return {
+    ...raw,
+    id,
+    title,
+    sourceCategory,
+    questionCount,
+    year,
+    filename,
+  };
+};
+
+const normalizePaperData = (paperData: any, itemOrId: string | ExamManifestItem): ExamPaper => {
+  const itemId = typeof itemOrId === 'string' ? itemOrId : itemOrId.id;
+  const itemTitle = typeof itemOrId === 'string' ? itemOrId : itemOrId.title;
+  const itemCategory = typeof itemOrId === 'string' ? '' : itemOrId.sourceCategory;
+  const itemYear = typeof itemOrId === 'string' ? 2026 : itemOrId.year;
+
+  const rawQuestions = Array.isArray(paperData) ? paperData : (paperData.questions || []);
+  const questions = rawQuestions.map((q: any, qIdx: number) => ({
+    ...q,
+    number: q.number || qIdx + 1,
+    options: (q.options || []).map((opt: any, optIdx: number) => {
+      if (typeof opt === 'string') {
+        const letters: OptionId[] = ['A', 'B', 'C', 'D', 'E'];
+        return { id: letters[optIdx] || 'A', text: opt };
+      }
+      return opt;
+    }),
+  }));
+
+  return {
+    id: paperData.id || paperData.paperId || itemId,
+    title: paperData.title || paperData.paperTitle || itemTitle,
+    rawTitle: paperData.rawTitle || paperData.paperTitle || itemTitle,
+    sourceCategory: paperData.sourceCategory || paperData.category || itemCategory,
+    year: paperData.year || itemYear || 2026,
+    questionCount: paperData.questionCount || paperData.totalQuestions || questions.length,
+    createdAt: paperData.createdAt || new Date().toISOString(),
+    questions,
+  };
+};
+
   // Load Manifest & Preload All Paper JSONs for Global Analytics
   useEffect(() => {
     fetch('/server-data/exams_manifest.json')
       .then((res) => (res.ok ? res.json() : null))
       .then(async (manifestData: ExamManifestItem[]) => {
         if (manifestData && Array.isArray(manifestData) && manifestData.length > 0) {
-          setManifest(manifestData);
+          const sanitizedManifest = manifestData.map(sanitizeManifestItem);
+          setManifest(sanitizedManifest);
 
           // Preload paper JSONs
           const loadedMap: Record<string, ExamPaper> = {};
           await Promise.all(
-            manifestData.map((item) => {
+            sanitizedManifest.map((item) => {
               if (!item || !item.id) return Promise.resolve();
-              return fetch(`/server-data/${item.id}.json`)
-                .then((r) => (r.ok ? r.json() : null))
+              const filename = item.filename || `${item.id}.json`;
+              const url = filename.startsWith('/') ? filename : `/server-data/${filename}`;
+              return fetch(url)
+                .then((r) => (r.ok ? r.json() : fetch(`/server-data/${item.id}.json`).then((r2) => (r2.ok ? r2.json() : null))))
                 .then((paperData: any) => {
                   if (paperData) {
-                    const rawQuestions = Array.isArray(paperData) ? paperData : (paperData.questions || []);
-                    const questions = rawQuestions.map((q: any, qIdx: number) => ({
-                      ...q,
-                      number: q.number || qIdx + 1,
-                      options: (q.options || []).map((opt: any, optIdx: number) => {
-                        if (typeof opt === 'string') {
-                          const letters = ['A', 'B', 'C', 'D', 'E'];
-                          return { id: letters[optIdx] || 'A', text: opt };
-                        }
-                        return opt;
-                      }),
-                    }));
-                    const normalizedPaper: ExamPaper = {
-                      id: paperData.id || paperData.paperId || item.id,
-                      title: paperData.title || paperData.paperTitle || item.title,
-                      rawTitle: paperData.rawTitle || paperData.paperTitle || item.title,
-                      sourceCategory: paperData.sourceCategory || paperData.category || item.sourceCategory,
-                      year: paperData.year || item.year || 2026,
-                      questionCount: paperData.questionCount || paperData.totalQuestions || questions.length,
-                      createdAt: paperData.createdAt || new Date().toISOString(),
-                      questions,
-                    };
+                    const normalizedPaper = normalizePaperData(paperData, item);
                     loadedMap[item.id] = normalizedPaper;
                   }
                 })
@@ -229,8 +270,19 @@ export const App: React.FC = () => {
     const saved = localStorage.getItem(`attempt_${selectedPaperId}`);
     if (saved) {
       try {
-        setAttemptState(JSON.parse(saved));
-        return;
+        const parsed = JSON.parse(saved);
+        if (parsed && typeof parsed === 'object' && parsed.answers && typeof parsed.answers === 'object') {
+          setAttemptState({
+            paperId: parsed.paperId || selectedPaperId,
+            answers: parsed.answers || {},
+            flagged: parsed.flagged || {},
+            startTime: parsed.startTime || Date.now(),
+            elapsedSeconds: parsed.elapsedSeconds || 0,
+            isSubmitted: !!parsed.isSubmitted,
+            submittedAt: parsed.submittedAt || null,
+          });
+          return;
+        }
       } catch (e) {
         /* ignore */
       }
@@ -248,7 +300,7 @@ export const App: React.FC = () => {
 
   // Auto-Save Attempt State
   useEffect(() => {
-    if (attemptState.paperId === selectedPaperId) {
+    if (attemptState && attemptState.paperId === selectedPaperId) {
       localStorage.setItem(`attempt_${selectedPaperId}`, JSON.stringify(attemptState));
     }
   }, [attemptState, selectedPaperId]);
@@ -402,15 +454,72 @@ export const App: React.FC = () => {
 
   const [activeTutorial, setActiveTutorial] = useState<ExamTutorial | null>(null);
 
-  // Select Paper from Dashboard
-  const handleSelectPaperFromDashboard = (paperId: string) => {
-    setSelectedPaperId(paperId);
-    if (allPapersMap[paperId]) {
-      setCurrentPaper(allPapersMap[paperId]);
+  // On-demand paper loader helper
+  const ensurePaperLoaded = useCallback(
+    async (paperId: string): Promise<ExamPaper | null> => {
+      if (!paperId) return null;
+      if (allPapersMap[paperId]) {
+        return allPapersMap[paperId];
+      }
+      try {
+        const manifestItem = manifest.find((m) => m.id === paperId || (m as any).paperId === paperId);
+        const filename = manifestItem?.filename || `${paperId}.json`;
+        const url = filename.startsWith('/') ? filename : `/server-data/${filename}`;
+        let res = await fetch(url);
+        if (!res.ok) {
+          res = await fetch(`/server-data/${paperId}.json`);
+          if (!res.ok) return null;
+        }
+        const data = await res.json();
+        const normalized = normalizePaperData(data, manifestItem || paperId);
+        setAllPapersMap((prev) => ({ ...prev, [paperId]: normalized }));
+        return normalized;
+      } catch (e) {
+        console.error('Failed to load paper on demand:', e);
+        return null;
+      }
+    },
+    [allPapersMap, manifest]
+  );
+
+  // Unified Select Paper Handler
+  const handleSelectPaper = useCallback(
+    async (paperId: string) => {
+      if (!paperId) return;
+      setSelectedPaperId(paperId);
+      setFilterMode('all');
+      setCurrentIndex(0);
+
+      let paper = allPapersMap[paperId];
+      if (!paper) {
+        paper = (await ensurePaperLoaded(paperId)) || currentPaper;
+      }
+      if (paper) {
+        setCurrentPaper(paper);
+      }
+      setCurrentView('exam');
+    },
+    [allPapersMap, currentPaper, ensurePaperLoaded]
+  );
+
+  // Handle Paper Selection Change & Fallback Load
+  useEffect(() => {
+    if (!selectedPaperId) return;
+    const paper = allPapersMap[selectedPaperId];
+    if (paper) {
+      setCurrentPaper(paper);
+      setCurrentIndex(0);
+      setFilterMode('all');
+    } else {
+      ensurePaperLoaded(selectedPaperId).then((loaded) => {
+        if (loaded) {
+          setCurrentPaper(loaded);
+          setCurrentIndex(0);
+          setFilterMode('all');
+        }
+      });
     }
-    setCurrentIndex(0);
-    setCurrentView('exam');
-  };
+  }, [selectedPaperId, allPapersMap, ensurePaperLoaded]);
 
   // Select Tutorial from Dashboard
   const handleSelectTutorialFromDashboard = (paperId: string) => {
@@ -525,31 +634,41 @@ export const App: React.FC = () => {
       });
   };
 
-  // Filtered Questions in Active Exam
-  const isEffectiveSubmitted = attemptState.isSubmitted || studyMode === 'work';
+  // Filtered Questions in Active Exam & Defensive Fallbacks
+  const safeQuestions = Array.isArray(currentPaper?.questions) ? currentPaper.questions : [];
+  const safeAnswers = attemptState?.answers || {};
+  const safeFlagged = attemptState?.flagged || {};
+  const isEffectiveSubmitted = !!attemptState?.isSubmitted || studyMode === 'work';
 
-  const filteredQuestions = currentPaper.questions.filter((q) => {
+  const filteredQuestions = safeQuestions.filter((q) => {
+    if (!q) return false;
     if (filterMode === 'disputed') {
       return q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED');
     }
     if (filterMode === 'wrong') {
-      const userAns = attemptState.answers[q.id];
+      const userAns = safeAnswers[q.id];
       return q.sourceProvidedAnswer && userAns && userAns !== q.sourceProvidedAnswer;
     }
     return true;
   });
 
-  const activeQuestion = filteredQuestions[currentIndex] || currentPaper.questions[0];
+  const activeQuestion = filteredQuestions[currentIndex] || safeQuestions[0];
 
   // Actions
   const handleSelectOption = (optId: OptionId) => {
-    if (isEffectiveSubmitted && studyMode !== 'work') return;
+    if (attemptState?.isSubmitted || !activeQuestion) return;
     setAttemptState((prev) => ({
       ...prev,
+      paperId: selectedPaperId,
       answers: {
-        ...prev.answers,
+        ...(prev?.answers || {}),
         [activeQuestion.id]: optId,
       },
+      flagged: prev?.flagged || {},
+      startTime: prev?.startTime || Date.now(),
+      elapsedSeconds: prev?.elapsedSeconds || 0,
+      isSubmitted: !!prev?.isSubmitted,
+      submittedAt: prev?.submittedAt || null,
     }));
   };
 
@@ -557,16 +676,26 @@ export const App: React.FC = () => {
     if (!activeQuestion) return;
     setAttemptState((prev) => ({
       ...prev,
+      paperId: selectedPaperId,
+      answers: prev?.answers || {},
       flagged: {
-        ...prev.flagged,
-        [activeQuestion.id]: !prev.flagged[activeQuestion.id],
+        ...(prev?.flagged || {}),
+        [activeQuestion.id]: !(prev?.flagged || {})[activeQuestion.id],
       },
+      startTime: prev?.startTime || Date.now(),
+      elapsedSeconds: prev?.elapsedSeconds || 0,
+      isSubmitted: !!prev?.isSubmitted,
+      submittedAt: prev?.submittedAt || null,
     }));
-  }, [activeQuestion]);
+  }, [activeQuestion, selectedPaperId]);
 
   const handleSubmitExam = () => {
     setAttemptState((prev) => ({
-      ...prev,
+      paperId: selectedPaperId,
+      answers: prev?.answers || {},
+      flagged: prev?.flagged || {},
+      startTime: prev?.startTime || Date.now(),
+      elapsedSeconds: prev?.elapsedSeconds || 0,
       isSubmitted: true,
       submittedAt: Date.now(),
     }));
@@ -591,19 +720,19 @@ export const App: React.FC = () => {
 
   // Score computation
   let scoreCorrect = 0;
-  currentPaper.questions.forEach((q) => {
-    if (q.sourceProvidedAnswer) {
-      if (attemptState.answers[q.id] === q.sourceProvidedAnswer || studyMode === 'work') {
+  safeQuestions.forEach((q) => {
+    if (q && q.sourceProvidedAnswer) {
+      if (safeAnswers[q.id] === q.sourceProvidedAnswer || studyMode === 'work') {
         scoreCorrect++;
       }
     }
   });
 
-  const activeDisputedCount = currentPaper.questions.filter((q) =>
-    q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED')
+  const activeDisputedCount = safeQuestions.filter((q) =>
+    q && q.reconciliationStatus && q.reconciliationStatus.startsWith('DISPUTED')
   ).length;
 
-  const answeredCount = Object.keys(attemptState.answers).length;
+  const answeredCount = Object.keys(safeAnswers).length;
 
   // Keyboard Shortcuts: t = flag, z = prev, v = next, a-e = select
   const handleKeyDown = useCallback(
@@ -643,7 +772,7 @@ export const App: React.FC = () => {
       <Header
         manifest={manifest}
         selectedPaperId={selectedPaperId}
-        onSelectPaper={(id) => setSelectedPaperId(id)}
+        onSelectPaper={(id) => handleSelectPaper(id)}
         elapsedSeconds={attemptState.elapsedSeconds}
         totalQuestions={currentPaper.questions.length}
         answeredCount={answeredCount}
@@ -668,7 +797,7 @@ export const App: React.FC = () => {
           <DashboardView
             manifest={manifest}
             stats={globalStats}
-            onSelectPaper={handleSelectPaperFromDashboard}
+            onSelectPaper={handleSelectPaper}
             onSelectTutorial={handleSelectTutorialFromDashboard}
             onStartCustomPractice={handleStartCustomPractice}
             paperProgressMap={paperProgressMap}
@@ -681,7 +810,7 @@ export const App: React.FC = () => {
             tutorial={activeTutorial}
             themeMode={themeMode}
             onBack={() => setCurrentView('dashboard')}
-            onStartExam={handleSelectPaperFromDashboard}
+            onStartExam={handleSelectPaper}
           />
         </main>
       ) : (
@@ -691,8 +820,8 @@ export const App: React.FC = () => {
             questions={filteredQuestions}
             currentIndex={currentIndex}
             onSelectIndex={(idx) => setCurrentIndex(idx)}
-            userAnswers={attemptState.answers}
-            flagged={attemptState.flagged}
+            userAnswers={safeAnswers}
+            flagged={safeFlagged}
             isSubmitted={isEffectiveSubmitted}
             themeMode={themeMode}
           />
@@ -705,13 +834,13 @@ export const App: React.FC = () => {
                   question={activeQuestion}
                   currentIndex={currentIndex}
                   totalQuestions={filteredQuestions.length}
-                  selectedOption={attemptState.answers[activeQuestion.id]}
+                  selectedOption={safeAnswers[activeQuestion.id]}
                   onSelectOption={handleSelectOption}
-                  isFlagged={!!attemptState.flagged[activeQuestion.id]}
+                  isFlagged={!!safeFlagged[activeQuestion.id]}
                   onToggleFlag={handleToggleFlag}
                   onPrev={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
                   onNext={() => setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1))}
-                  isSubmitted={isEffectiveSubmitted}
+                  isSubmitted={!!attemptState?.isSubmitted}
                   themeMode={themeMode}
                   onOpenAttachedImage={(img) => setModalImage(img)}
                 />

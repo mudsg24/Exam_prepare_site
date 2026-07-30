@@ -71,6 +71,15 @@
 >      - Subagent 與主 Session 絕無內容裁決權、絕無修改原廠答案權、亦絕無自創「無正確答案 (NONE)」之權限。
 >      - 題目之正解選項 `selectedOption` 一律且只能 100% 尊奉原始試卷標示之 `sourceProvidedAnswer`（Ground Truth）。
 >      - Subagents 唯一職責為忠實記錄 NLM 原文對答狀態 (`rawResponse`)，絕不可插入 Subagent 個人學術見解或自創「Subagent 判定」稱謂。
+>
+> 10. **MANIFEST & EXAM JSON SCHEMA CONTRACT RULE (全管道嚴禁 Key 別名寫錯鐵律)**:
+>     - **exams_manifest.json Mandatory Schema**:
+>       - Every entry MUST contain exact standard property names: `id` (string), `title` (string), `sourceCategory` (string), `year` (number), `questionCount` (number), `filename` (string).
+>       - **ABSOLUTE BAN ON ALIAS KEYS**: Never write `name` (must be `title`), `totalQuestions` (must be `questionCount`), or `category` (must be `sourceCategory`).
+>     - **Exam Paper JSON Mandatory Schema**:
+>       - Every question bank JSON MUST contain top-level `paperId` (string), `title` (string), `sourceCategory` (string), `year` (number), `questionCount` (number), and `questions` array.
+>       - Each question inside `questions` MUST contain `id`, `number`, `stem`, `options` (array of `{id, text}`), `sourceProvidedAnswer`, `sourceAnswerStatus`, `nlmResponses` array, and `reconciliationStatus`.
+>     - **PRE-PUBLISH LINTER GATE**: Before committing or publishing any generated JSON to `public/server-data/`, main session and subagents MUST execute `node scripts/lint_exam_json.mjs`. Any schema key violation will fail the build.
 
 
 ## Single Source of Truth (SSOT) Data Sources

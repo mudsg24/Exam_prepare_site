@@ -121,7 +121,7 @@
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcNotes": "Both NLM responses returned INSUFFICIENT_DATABASE_EVIDENCE and selected NONE without concluding an option, which differs from source answer B.",
       "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
     },
@@ -826,7 +826,7 @@
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcNotes": "Both NotebookLM responses returned INSUFFICIENT_DATABASE_EVIDENCE without concluding an option (NONE) in the text, whereas source provided answer is B (TMP-SMX).",
       "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
     },
@@ -936,7 +936,7 @@
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcNotes": "Both NotebookLM responses returned INSUFFICIENT_DATABASE_EVIDENCE without specifying immunosuppression modification option (NONE), whereas source answer is D.",
       "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
     }

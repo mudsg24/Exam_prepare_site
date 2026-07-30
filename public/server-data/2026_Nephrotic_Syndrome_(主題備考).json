@@ -30,7 +30,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "患者為典型 Pediatric Minimal Change Disease (MCD)。MCD 在 Light Microscopy 下Glomeruli 近乎正常，Immunofluorescence 為 Negative，其特徵性診斷關鍵為 Electron Microscopy 下呈現 Diffuse Foot Process Effacement。",
+      "sourceExplanation": "患者為典型 Pediatric Minimal Change Disease (MCD)。MCD 在 Light Microscopy 下 Glomeruli 近乎正常，Immunofluorescence 為 Negative，其特徵性診斷關鍵為 Electron Microscopy 下呈現 Diffuse Foot Process Effacement。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_4.png",
@@ -66,8 +66,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
+      "number": 1,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q02",
@@ -93,7 +96,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Secondary FSGS (如 Obesity-induced hyperfiltration) 的 Electron Microscopy 特徵為 Segmental (非 Diffuse) Foot Process Effacement。相較之下，Primary FSGS 常為 Abrupt onset 且 Foot Process Effacement 呈 Diffuse pattern。Secondary FSGS 應以 Hyperfiltration Control (RAS Blockade, SGLT2i) 為主，禁用高劑量 Steroids。",
+      "sourceExplanation": "Secondary FSGS (如 Obesity-induced Hyperfiltration) 的 Electron Microscopy 特徵為 Segmental Foot Process Effacement (非 Diffuse Pattern)。相較之下，Primary FSGS 常為 Abrupt Onset 且 Foot Process Effacement 呈 Diffuse Pattern。Secondary FSGS 應以 Hyperfiltration Control (RAS Blockade, SGLT2i) 為主，對 High-Dose Steroids 反應佳之可能性極低。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_5.png",
@@ -129,8 +132,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
+      "number": 2,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q03",
@@ -156,7 +162,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "KDIGO 2021 指引針對 High Risk 的 Primary Membranous Nephropathy (Anti-PLA2R high-titer autoantibodies 或 heavy proteinuria)，第一線建議使用 Rituximab 或 Cyclophosphamide 加 Alternating Corticosteroids (Modified Ponticelli Regimen)，單用 Prednisone 對 Primary MN 無效。",
+      "sourceExplanation": "KDIGO 2021 指引針對 High Risk 的 Primary Membranous Nephropathy (Anti-PLA2R High-Titer Autoantibodies 或 Heavy Proteinuria)，第一線建議使用 Rituximab 或 Cyclophosphamide 加 Alternating Corticosteroids (Modified Ponticelli Regimen)，單用 Prednisone Monotherapy 對 Primary MN 無效。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_9.png",
@@ -192,8 +198,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
+      "number": 3,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q04",
@@ -253,8 +262,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
+      "number": 4,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q05",
@@ -280,7 +292,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Diabetic Kidney Disease 的典型 Nodular Glomerulosclerosis nodules 稱為 Kimmelstiel-Wilson Nodules。此為 PAS 陽性之 Mesangial Matrix Expansion。",
+      "sourceExplanation": "Diabetic Kidney Disease 的典型 Nodular Glomerulosclerosis Nodules 稱為 Kimmelstiel-Wilson Nodules。此為 PAS Positive 之 Mesangial Matrix Expansion。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_39_6.png",
@@ -316,8 +328,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
+      "number": 5,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q06",
@@ -379,8 +394,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
+      "number": 6,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q07",
@@ -406,7 +424,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "Secondary Syphilis 引起的 nephropathy 典型臨床呈現為 maculopapular rash 伴隨 Nephrotic Syndrome，其 Renal Biopsy Pathology 最常表現為 Membranous Nephropathy (Subepithelial Immune Deposits)。病患接受 Penicillin 治療後 nephropathy 可完全緩解。",
+      "sourceExplanation": "Secondary Syphilis 引起的 Nephropathy 典型臨床呈現為 Maculopapular Rash 伴隨 Nephrotic Syndrome，其 Renal Biopsy Pathology 最常表現為 Membranous Nephropathy Pattern (帶有 Subepithelial Immune Deposits)。病患在接受 Penicillin 治療後 Nephropathy 可達到 Complete Remission。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -434,8 +452,11 @@
       ],
       "reconciliationStatus": "DISPUTED",
       "qcVerified": true,
-      "qcStatus": "QC_DISPUTED_RESOLVED",
-      "reconciliationNotes": "NLM #1 declared INSUFFICIENT due to Brenner 11e database grounding limitation on secondary syphilis. Medical intervention confirmed Option (D) Membranous Nephropathy pattern as clinical consensus."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "NLM #1 declared INSUFFICIENT due to Brenner 11e database grounding limitation on secondary syphilis. Medical intervention confirmed Option (D) Membranous Nephropathy pattern as clinical consensus.",
+      "number": 7,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q08",
@@ -461,7 +482,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Nephrotic Syndrome 患者極易引發 Hypercoagulability 與 Renal Vein Thrombosis。主因為低分子量之 Endogenous Anticoagulants (特別是 Antithrombin III 及 Protein S/C) 經由 urine 大量流失，同時肝臟代償性增加 Fibrinogen, Factor V, Factor VIII 等 Procoagulant Factors 合成。",
+      "sourceExplanation": "Nephrotic Syndrome 患者極易引發 Hypercoagulability 與 Renal Vein Thrombosis。主因為低分子量之 Endogenous Anticoagulants (特別是 Antithrombin III 及 Protein S/C) 經由 Urine 大量流失，同時 Liver 代償性增加 Fibrinogen, Factor V, Factor VIII 等 Procoagulant Factors 合成。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -491,8 +512,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
+      "number": 8,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q09",
@@ -518,7 +542,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "NPHS1 gene 轉譯產物為 Nephrin，其突變導致 Congenital Nephrotic Syndrome of the Finnish Type。NPHS2 則編碼 Podocin。",
+      "sourceExplanation": "NPHS1 Gene 轉譯產物為 Nephrin，其 Gene Mutation 導致 Congenital Nephrotic Syndrome of the Finnish Type。NPHS2 則編碼 Podocin。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_4_2.png",
@@ -554,8 +578,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
+      "number": 9,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q10",
@@ -581,7 +608,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "HIVAN (HIV-Associated Nephropathy) 之特徵病理為 Collapsing Variant FSGS，伴隨 Glomerular Tuft Collapse, Podocyte Hyperplasia 以及 Tubular Microcysts。該型態預後極差。",
+      "sourceExplanation": "HIVAN (HIV-Associated Nephropathy) 之特徵病理為 Collapsing Variant FSGS，伴隨 Glomerular Tuft Collapse, Podocyte Hyperplasia 以及 Tubular Microcysts。該 Histologic Variant 之 Prognosis 極差。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_5.png",
@@ -617,8 +644,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
+      "number": 10,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q11",
@@ -644,7 +674,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Anti-PLA2R Antibody Titer 代表 Immunologic Activity。在成功治療後，Immunologic Remission (Anti-PLA2R 清除) 領先 Clinical Remission (Proteinuria 下降) 約 3 至 6 個月。",
+      "sourceExplanation": "Anti-PLA2R Antibody Titer 代表 Immunologic Activity。在成功治療後，Immunologic Remission (Anti-PLA2R Clearance) 領先 Clinical Remission (Proteinuria Reduction) 約 3 至 6 個月。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -674,8 +704,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
+      "number": 11,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q12",
@@ -701,7 +734,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "HCV 感染常透過 Type II Mixed Cryoglobulinemia 引發 Immune-complex mediated MPGN。輕微及Electron Microscopy 下呈 Double-contour Tram-track 樣翻倍，且 C3 與 C4 皆會因 Classical Pathway 消耗而降低。",
+      "sourceExplanation": "HCV Infection 常透過 Type II Mixed Cryoglobulinemia 引發 Immune-Complex Mediated MPGN。Light Microscopy 及 Electron Microscopy 下呈 Double-Contour Tram-Track Appearance，且 C3 與 C4 皆會因 Classical Pathway Complement Consumption 而降低。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_11.png",
@@ -737,8 +770,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
+      "number": 12,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q13",
@@ -764,7 +800,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Tip Lesion Variant FSGS (Sclerosis 位於 Tubular Outlet 鄰近之 Proximal Tubule Pole) 具備最佳預後，對 Steroids 反應良好。",
+      "sourceExplanation": "Tip Lesion Variant FSGS (Sclerosis 位於 Tubular Outlet 鄰近之 Proximal Tubule Pole) 具備最佳 Prognosis，對 Corticosteroid Therapy 之 Remission Rate 最高且反應良好。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -794,8 +830,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
+      "number": 13,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q14",
@@ -821,7 +860,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "成人 MCD 對 Steroid 反應較兒童慢。KDIGO 指引建議成人高劑量 Prednisone 需維持至 Remission 或最長達 16 週，方可判定為 Steroid-Resistant MCD。",
+      "sourceExplanation": "Adult MCD 對 Corticosteroid Therapy 的 Response 較 Pediatric 病患為慢。KDIGO 指引建議 Adult 病患接受 High-Dose Prednisone 需維持至 Remission 或最長達 16 週，方可判定為 Steroid-Resistant MCD。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -851,8 +890,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
+      "number": 14,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q15",
@@ -878,7 +920,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Nephrotic Overfill Mechanism 主要是由於大量漏出至 urine 中的 Plasminogen 被轉化為 Plasmin，進而 Proteolytic Cleavage 切割並異常活化 Cortical Collecting Duct 之 Epithelial Sodium Channel (ENaC)。",
+      "sourceExplanation": "Nephrotic Overfill Mechanism 主要是由於大量漏出至 Urine 中的 Plasminogen 被轉化為 Plasmin，進而以 Proteolytic Cleavage 切割並異常活化 Cortical Collecting Duct 之 Epithelial Sodium Channel (ENaC)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -908,8 +950,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
+      "number": 15,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q16",
@@ -935,7 +980,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "患者為長期 Rheumatoid Arthritis引發之 Secondary AA Amyloidosis。Congo Red 陽性且 Serum Amyloid A (SAA) protein 陽性，fibril diameter 為 8-12 nm。",
+      "sourceExplanation": "患者為長期 Rheumatoid Arthritis 引發之 Secondary AA Amyloidosis。Congo Red Positive 且 Serum Amyloid A (SAA) Protein Positive，Fibril Diameter 為 8-12 nm。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -965,8 +1010,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
+      "number": 16,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q17",
@@ -992,7 +1040,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "KDIGO 2021 指引規定 Steroid-Resistant Primary FSGS 的首選第二線治療為 Calcineurin Inhibitor (CNI，如 Tacrolimus 或 Cyclosporine) 療程至少 6 個月。",
+      "sourceExplanation": "KDIGO 2021 指引規定 Steroid-Resistant Primary FSGS 的首選 Second-Line Therapy 為 Calcineurin Inhibitor (CNI, Tacrolimus or Cyclosporine) 療程至少 6 個月。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1022,8 +1070,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
+      "number": 17,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q18",
@@ -1079,8 +1130,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
+      "number": 18,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q19",
@@ -1106,7 +1160,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Membranous Nephropathy Stage II 的關鍵特徵為 GBM 增生形成包繞 Subepithelial Deposits 之 Spikes。Stage I 僅有 Deposits 無 Spikes；Stage III 為 Dome-and-Spike 完全包覆；Stage IV 為 Moth-eaten Lucent Deposits。",
+      "sourceExplanation": "Membranous Nephropathy Stage II 的關鍵特徵為 GBM 增生形成包繞 Subepithelial Deposits 之 Spikes。Stage I 僅有 Subepithelial Deposits 無 Spikes；Stage III 為 Dome-and-Spike 完全包覆；Stage IV 為 Moth-Eaten Lucent Deposits。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_7.png",
@@ -1142,8 +1196,11 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
+      "number": 19,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q20",
@@ -1169,7 +1226,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "APOL1 (Apolipoprotein L1) high-risk alleles (G1/G2) 是引發 African Ancestry 人群之 Non-diabetic CKD, HIVAN 與 Primary FSGS (特別是 Collapsing FSGS) 的強烈遺傳風險因子。",
+      "sourceExplanation": "APOL1 (Apolipoprotein L1) High-Risk Alleles (G1/G2) 是引發 African Ancestry 人群之 Non-Diabetic CKD, HIVAN 與 Primary FSGS (特別是 Collapsing FSGS) 的強烈 Genetic Risk Factor。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1199,8 +1256,14 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D)."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
+      "number": 20,
+      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     }
-  ]
+  ],
+  "updatedAt": "2026-07-30T04:06:47.263Z",
+  "qcVerifiedCount": 20,
+  "nlmProcessedCount": 20
 }

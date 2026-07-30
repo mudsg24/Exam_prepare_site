@@ -32,9 +32,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Anti-GBM Disease 及 Goodpasture Syndrome 的主導致病 Autoantibodies 為針對 Type IV Collagen 的 alpha-3 chain non-collagenous domain 1 [alpha3(IV)NC1 domain]。在正常生理結構中，該 Hexamer 結構呈 Cryptic Epitope 隱密狀態，受 Environmental Triggers 如 Cigarette Smoking、Hydrocarbon Solvents 破壞後暴露，誘發致病性 IgG Autoantibodies 生成與沉積。",
+      "sourceExplanation": "Anti-GBM Disease 及 Goodpasture Syndrome 的主要致病 Autoantibodies 為針對 Type IV Collagen 的 alpha3(IV)NC1 domain。在正常生理結構中，該 Hexamer 結構呈 Cryptic Epitope 狀態，受 Environmental Triggers 如 Cigarette Smoking、Hydrocarbon Solvents 破壞後暴露，誘發致病性 IgG Autoantibodies 生成與沉積。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -61,7 +61,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q2",
@@ -88,9 +90,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Direct Immunofluorescence 的金標準經典表現為沿著 Glomerular Capillary Loops 呈平滑、連續、帶狀的 Continuous smooth ribbon-like linear IgG staining。Option B 粒狀沉積為 Post-infectious GN; Option C 為 ANCA-associated Vasculitis (Pauci-immune); Option D 為 Lupus Nephritis (Full-house)。",
+      "sourceExplanation": "Direct Immunofluorescence 的 Gold standard 經典表現為沿著 Glomerular Capillary Loops 呈 Continuous smooth ribbon-like linear IgG staining。Option B Granular deposition 為 Post-infectious GN; Option C 為 ANCA-associated Vasculitis (Pauci-immune); Option D 為 Lupus Nephritis (Full-house)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -117,7 +119,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q3",
@@ -144,9 +148,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 Anti-GBM Disease 的 Electron Microscopy 下，經典特徵為完全 Absence of discrete electron-dense deposits，並可在 Bowman space 內觀察到 Fibrin tactoids within cellular crescents。這容易成為考題中的反直覺陷阱選項。Option A 為 PSGN (Humps); Option B 為 Lupus Class IV; Option D 為 Dense Deposit Disease。",
+      "sourceExplanation": "在 Anti-GBM Disease 的 Electron Microscopy 下，經典特徵為完全 Absence of discrete electron-dense deposits，並可在 Bowman space 內觀察到 Fibrin tactoids within cellular crescents。這容易成為考題中的陷阱選項。Option A 為 PSGN (Humps); Option B 為 Lupus Class IV; Option D 為 Dense Deposit Disease。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -173,7 +177,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q4",
@@ -200,9 +206,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "當 Anti-GBM Disease 發生 Diffuse Alveolar Hemorrhage (Goodpasture Syndrome) 時，肺泡腔內充斥游離 RBCs。吸入的 Carbon Monoxide 會物理性結合肺泡內游離 Hemoglobin，使 Diffusing Capacity of Carbon Monoxide (DLCO) 呈現特徵性 paradoxical 高升 (常增加 > 30% above baseline)。這是評估活動性肺泡出血最具特異性的非侵入性床邊肺功能指標。",
+      "sourceExplanation": "當 Anti-GBM Disease 發生 Diffuse Alveolar Hemorrhage (Goodpasture Syndrome) 時，Alveolar space 內充斥 free RBCs。吸入的 Carbon Monoxide 會物理性結合 alveolar free Hemoglobin，使 Diffusing Capacity of Carbon Monoxide (DLCO) 呈現特徵性 paradoxical 高升 (常增加 > 30% above baseline)。這是評估 active Diffuse Alveolar Hemorrhage 最具特異性的 non-invasive bedside Pulmonary function parameter。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -229,7 +235,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q5",
@@ -256,9 +264,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "在 Anti-GBM Disease 中，Renal Function 無法恢復 (Kidney Non-recovery) 最強烈的預測因子為：初次就診時 Serum Creatinine > 5.7 mg/dL (500 umol/L)、Oligo-anuria、Dialysis dependency 以及切片呈現 100% Cellular Crescents。此類患者若無 Pulmonary Hemorrhage，脫離 Dialysis 機率 < 5%。",
+      "sourceExplanation": "在 Anti-GBM Disease 中，Kidney Non-recovery 最強烈的預測因子為：初次就診時 Serum Creatinine > 5.7 mg/dL (500 umol/L)、Oligo-anuria、Dialysis dependency 以及 Biopsy 呈現 100% Cellular Crescents。此類患者若無 Pulmonary Hemorrhage，達成 Dialysis independence 的機率 < 5%。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -285,7 +293,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q6",
@@ -314,7 +324,7 @@
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "Plasmapheresis 的核心作用機制為 Rapid mechanical clearance 循環中的致病性 Anti-GBM IgG Autoantibodies，防止其繼續結合並摧毀 Glomerular Basement Membrane 與 Alveolar Basement Membrane。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -341,7 +351,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q7",
@@ -368,9 +380,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "KDIGO 標準 Triple Therapy 誘導方案為：(1) 每日或隔日 Plasmapheresis; (2) 口服 Cyclophosphamide (2 mg/kg/day); (3) 靜脈 Pulse IV Methylprednisolone 後續口服 Prednisone。",
+      "sourceExplanation": "KDIGO 標準 Triple Therapy Induction protocol 為：(1) 每日或隔日 Plasmapheresis; (2) Oral Cyclophosphamide (2 mg/kg/day); (3) Pulse IV Methylprednisolone 後續 Oral Prednisone。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -397,7 +409,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q8",
@@ -424,9 +438,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "當患者對 Cyclophosphamide 存有禁忌症 (如 Gonadotoxicity 疑慮、嚴重 Leukopenia 或過敏) 時，KDIGO 指引推薦可以使用 B-cell Monoclonal Antibody Rituximab 作為第一線替代藥物。",
+      "sourceExplanation": "當患者對 Cyclophosphamide 存有 Contraindications (如 Gonadotoxicity 疑慮、severe Leukopenia 或 Allergy) 時，KDIGO 指引推薦可以使用 B-cell Monoclonal Antibody Rituximab 作為 First-line alternative agent。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -453,7 +467,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q9",
@@ -480,9 +496,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "KDIGO 指引極具關鍵的決策原則：當患者在初次就診時即需 Dialysis-dependent、且切片呈現 100% Cellular Crescents、且無 Pulmonary Hemorrhage 時，Renal Function 恢復率 < 5%。此時積極 Immunosuppressive Therapy 只會增加嚴重感染與死亡風險，因此應 Withhold 強烈 Immunosuppressive Therapy 與 Plasmapheresis。",
+      "sourceExplanation": "KDIGO 指引極具關鍵的決策原則：當患者在初次就診時即呈 Dialysis-dependent、且 Biopsy 呈現 100% Cellular Crescents、且無 Pulmonary Hemorrhage 時，Renal recovery rate < 5%。此時積極 Immunosuppressive Therapy 只會增加 severe Infection 及 Mortality risk，因此應 Withhold 強烈 Immunosuppressive Therapy 與 Plasmapheresis。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -509,7 +525,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q10",
@@ -536,9 +554,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Double-Positive (Anti-GBM + ANCA) 患者在臨床表現上兼具兩者特性：急性期像 Anti-GBM 一樣表現為極其嚴重的 RPGN；但在遠期追蹤中，其 Relapse Rate 高達 30-40% (如同 ANCA Vasculitis)。因此在 Anti-GBM Autoantibodies 清除後，必須繼續給予長期的 Long-term Maintenance Therapy。",
+      "sourceExplanation": "Double-Positive (Anti-GBM + ANCA) 患者在 Clinical presentation 上兼具兩者特性：Acute phase 像 Anti-GBM 一樣表現為極其嚴重的 RPGN；但在 Long-term follow-up 中，其 Relapse Rate 高達 30-40% (如同 ANCA Vasculitis)。因此在 Anti-GBM Autoantibodies 清除後，必須繼續給予 Long-term Maintenance Therapy。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -565,7 +583,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q11",
@@ -592,9 +612,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Alport Syndrome 患者自幼缺乏 alpha3/4/5(IV) Collagen 鏈。當接受正常人的 Kidney Transplantation 時，受體的免疫系統首次接觸到捐贈者腎臟中的正常 alpha3/4/5 鏈，將其視為 Foreign Antigens，進而產生 De novo Anti-GBM Autoantibodies，攻擊移植腎基底膜引發 Post-transplant Anti-GBM Nephritis。",
+      "sourceExplanation": "Alport Syndrome 患者自幼缺乏 alpha3/4/5(IV) Collagen 鏈。當接受正常人的 Kidney Transplantation 時，Recipient 的 Immune system 首次接觸到 Donor kidney 中的正常 alpha3/4/5 鏈，將其視為 Foreign Antigens，進而產生 De novo Anti-GBM Autoantibodies，攻擊 Allograft GBM 引發 Post-transplant Anti-GBM Nephritis。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -621,7 +641,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q12",
@@ -648,9 +670,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "在循環中帶有 Anti-GBM Autoantibodies 的患者中，主動 Cigarette Smoking 或暴露於 Hydrocarbon Solvents 會破壞 Alveolar-Capillary Endothelial Barrier，增加基底膜 alpha3(IV)NC1 domain 的暴露，是誘發 Pulmonary Hemorrhage 最強烈的環境因子。",
+      "sourceExplanation": "在循環中帶有 Anti-GBM Autoantibodies 的患者中，主動 Cigarette Smoking 或暴露於 Hydrocarbon Solvents 會破壞 Alveolar-Capillary Endothelial Barrier，增加 Basement membrane alpha3(IV)NC1 domain 的暴露，是誘發 Pulmonary Hemorrhage 最強烈的 Environmental risk factor。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -677,7 +699,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q13",
@@ -704,9 +728,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Anti-GBM Disease 的 Light Microscopy 特徵為新月體呈 Synchronous，即幾乎所有 Glomeruli 上的 Cellular Crescents 都處於相同的發展階段 (全為急性的 Cellular Crescents)；相反地，ANCA Vasculitis 的新月體常呈 Asynchronous，新舊不一。",
+      "sourceExplanation": "Anti-GBM Disease 的 Light Microscopy 特徵為 Crescents 呈 Synchronous，即幾乎所有 Glomeruli 上的 Cellular Crescents 都處於相同的發展階段 (全為急性的 Cellular Crescents)；相反地，ANCA Vasculitis 的 Crescents 常呈 Asynchronous，新舊不一。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -733,7 +757,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q14",
@@ -760,9 +786,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "單純性 Anti-GBM Disease 患者的血清 C3 與 C4 Complement 水準通常為 Normal C3 & C4。雖然局部基底膜有 Complement 結合，但全身 Complement 消耗極微，此特徵可用於與 Lupus Nephritis 或 MPGN 等Hypocomplementemic Nephritis進行鑑別。",
+      "sourceExplanation": "Uncomplicated pure Anti-GBM Disease 患者的 Serum C3 與 C4 Complement 水準通常為 Normal C3 & C4。雖然 local GBM 有 Complement 結合，但 systemic Complement consumption 極微，此特徵可用於與 Lupus Nephritis 或 MPGN 等 Hypocomplementemic Nephritis 進行 Differential diagnosis。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -789,7 +815,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q15",
@@ -816,9 +844,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "評估 Plasmapheresis 療效與決定停藥的金標準指標為：使用 ELISA 定量監測血清 Anti-GBM Autoantibodies 價位，直到 Undetectable anti-GBM antibody titers。",
+      "sourceExplanation": "評估 Plasmapheresis 療效與決定停藥的 Gold standard 指標為：使用 ELISA 定量監測 Serum Anti-GBM Autoantibodies titers，直到 Undetectable anti-GBM antibody titers。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -845,7 +873,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q16",
@@ -872,9 +902,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "當 Anti-GBM 病患伴隨活躍的 Pulmonary Hemorrhage 或剛做完 Kidney Biopsy 時，Plasmapheresis 置換液不能僅用 5% Albumin，必須部分或全部使用 Fresh Frozen Plasma (FFP) 以補充被置換掉的凝血因子，防止肺出血惡化。",
+      "sourceExplanation": "當 Anti-GBM 病患伴隨 active Pulmonary Hemorrhage 或剛做完 Kidney Biopsy 時，Plasmapheresis Replacement fluid 不能僅用 5% Albumin，必須部分或全部使用 Fresh Frozen Plasma (FFP) 以補充被置換掉的 Clotting factors，防止 Pulmonary Hemorrhage 惡化。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -901,7 +931,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q17",
@@ -928,9 +960,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "為防止 Anti-GBM Disease 在移植腎中復發，KDIGO 與臨床指引建議患者必須在 At least 6 months of persistent seronegativity for anti-GBM antibodies 後，方可安全進行 Kidney Transplantation。",
+      "sourceExplanation": "為防止 Anti-GBM Disease 在 Allograft 中復發，KDIGO 與 Clinical practice guidelines 建議患者必須在 At least 6 months of persistent seronegativity for anti-GBM antibodies 後，方可安全進行 Kidney Transplantation。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -957,7 +989,9 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Anti-GBM_disease_(主題備考)_q18",
@@ -984,9 +1018,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 Pulmonary-Renal Syndrome 的鑑別中，Anti-GBM Disease 與 ANCA Vasculitis 在 Light Microscopy 下皆可呈現嚴重的壞死性新月體腎炎，唯有 Direct Immunofluorescence 能絕對區分：Anti-GBM 呈現經典平滑帶狀的 Linear IgG；ANCA 則呈現無或極微抗體沉積的 Pauci-immune 模式。",
+      "sourceExplanation": "在 Pulmonary-Renal Syndrome 的 Differential diagnosis 中，Anti-GBM Disease 與 ANCA Vasculitis 在 Light Microscopy 下皆可呈現嚴重的 Necrotizing crescentic glomerulonephritis (NCGN)，唯有 Direct Immunofluorescence 能絕對區分：Anti-GBM 呈現經典平滑帶狀的 Linear IgG；ANCA 則呈現無或極微 Immune deposit 的 Pauci-immune 模式。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -1013,7 +1047,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "error": null
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-07-30T04:06:36.617379+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     }
-  ]
+  ],
+  "updatedAt": "2026-07-30T04:06:47.292Z",
+  "qcVerifiedCount": 18,
+  "nlmProcessedCount": 18
 }

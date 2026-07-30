@@ -27,7 +27,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "IgA nephropathy (IgAN) 發病機轉遵守 Four-Hit Hypothesis。Hit 1 為在腸道黏膜 MALT (Peyer's patches) 中產生 Galactose-deficient IgA1 (Gd-IgA1)。Option B 為 Anti-GBM disease 的機制；Option C 中 IgAN 通常為 C1q negative；Option D 為 Primary Membranous Nephropathy 的機制。",
+      "sourceExplanation": "IgA Nephropathy (IgAN) 的 Pathogenesis 遵循 Four-Hit Hypothesis。Hit 1 為在 Gut Mucosal MALT (Peyer's Patches) 中產生 Galactose-deficient IgA1 (Gd-IgA1)。Option B 為 Anti-GBM Disease 的機制；Option C 中 IgAN 通常為 C1q Negative；Option D 為 Primary Membranous Nephropathy 的機制。",
       "nlmResponses": [
         {
           "accountName": "kuonephro",
@@ -47,11 +47,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 1
     },
     {
       "id": "q2",
@@ -76,7 +77,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "IgAN 的免疫螢光 (IF) 典型為Mesangium IgA 占主導地位 (Dominant/Co-dominant IgA)，並常伴隨 C3 沉積，且 C1q 呈 Negative。若出現 Full-house pattern (C1q 陽性) 應懷疑 Lupus Nephritis (Option A)；Option C 為 Anti-GBM disease；Option D 為 Membranous Nephropathy。",
+      "sourceExplanation": "IgAN 的 Immunofluorescence (IF) 典型為 Mesangial IgA 呈 Dominant/Co-dominant IgA，並常伴隨 C3 Deposition，且 C1q 呈 Negative。若出現 Full-house Pattern (C1q positive) 應懷疑 Lupus Nephritis (Option A)；Option C 為 Anti-GBM Disease；Option D 為 Membranous Nephropathy。",
       "nlmResponses": [
         {
           "accountName": "kuonephro",
@@ -96,11 +97,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (B) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (B) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 2
     },
     {
       "id": "q3",
@@ -125,7 +127,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Oxford MEST-C 分級中，Tubular atrophy and interstitial fibrosis (T1: 26-50%, T2: >50%) 是預測 eGFR 下降速率與 ESKD 風險的最強獨立因子 (Strongest Independent Predictor)。",
+      "sourceExplanation": "在 Oxford MEST-C Classification 中，Tubular Atrophy and Interstitial Fibrosis (T1: 26-50%, T2: >50%) 是預測 eGFR 下降速率與 ESKD 風險的 Strongest Independent Predictor。",
       "nlmResponses": [
         {
           "accountName": "kuonephro",
@@ -145,11 +147,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (C) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (C) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 3
     },
     {
       "id": "q4",
@@ -174,7 +177,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "KDIGO 指引強調，若腎Biopsy出現 Crescents 但血清 Creatinine 完全穩定、未呈現 Rapidly Progressive eGFR drop 者，不符合 RPGN 診斷，絕對不應盲目啟動強效 Immunosuppressant，而應採優化支持治療 (Optimized Supportive Care) 與密切監測。",
+      "sourceExplanation": "KDIGO Guidelines 強調，若 Renal Biopsy 出現 Crescents 但 Serum Creatinine 完全穩定、未呈現 Rapidly Progressive eGFR drop 者，不符合 RPGN 診斷，絕對不應盲目啟動強效 Immunosuppressant，而應採取 Optimized Supportive Care 與密切監測。",
       "nlmResponses": [
         {
           "accountName": "kuonephro",
@@ -194,11 +197,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (B) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (B) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 4
     },
     {
       "id": "q5",
@@ -223,7 +227,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Podocytopathic IgAN Variant (MCD-like IgAN) 臨床呈現大量蛋白尿與水腫，EM 顯示廣泛 Foot Process Effacement。KDIGO 指引建議應比照 Minimal Change Disease (MCD) 給予高劑量 Systemic Glucocorticoids，通常可獲得快速完全緩解。",
+      "sourceExplanation": "Podocytopathic IgAN Variant (MCD-like IgAN) 臨床呈現 Nephrotic-range Proteinuria and Edema，EM 顯示廣泛 Foot Process Effacement。KDIGO Guidelines 建議應比照 Minimal Change Disease (MCD) 給予高劑量 Systemic Glucocorticoids，通常可獲得 Rapid Complete Remission。",
       "nlmResponses": [
         {
           "accountName": "kuonephro",
@@ -243,11 +247,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 5
     },
     {
       "id": "q6",
@@ -272,7 +277,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "KDIGO 指引建議，IgAN 優化支持治療的核心蛋白尿控制目標為降至 < 0.5 - 1.0 g/day。若低於此範圍，能顯著減緩長期腎功能衰退率。",
+      "sourceExplanation": "KDIGO Guidelines 建議，IgAN Optimized Supportive Care 的核心 Proteinuria 控制目標為降至 < 0.5 - 1.0 g/day。若低於此範圍，能顯著減緩長期 Renal Function 衰退率。",
       "nlmResponses": [
         {
           "accountName": "sandbox0505",
@@ -292,11 +297,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 6
     },
     {
       "id": "q7",
@@ -321,7 +327,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "SGLT2 抑制劑藉由激活 Macula Densa 之 Tubuloglomerular Feedback (TGF)，使 Afferent Arteriole 收縮以降低 Intra-glomerular Pressure。使用前幾週出現 <30% 的 eGFR Dip 屬於預期的血流動力學效應，不需停藥。",
+      "sourceExplanation": "SGLT2 Inhibitors 藉由激活 Macula Densa 之 Tubuloglomerular Feedback (TGF)，使 Afferent Arteriole 收縮以降低 Intra-glomerular Pressure。使用前幾週出現 <30% 的 eGFR Dip 屬於預期的 Hemodynamic Effect，不需停藥。",
       "nlmResponses": [
         {
           "accountName": "sandbox0505",
@@ -341,11 +347,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 7
     },
     {
       "id": "q8",
@@ -370,7 +377,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Sparsentan 為世界首創之雙重 Endothelin Type A (ETA) 區與 Angiotensin II Type 1 (AT1) 受體拮抗劑 (Dual ERA/ARB)，PROTECT 試驗證實其降蛋白尿效果優於傳統高劑量 Irbesartan。",
+      "sourceExplanation": "Sparsentan 為首創之 Dual Endothelin Type A (ETA) and Angiotensin II Type 1 (AT1) Receptor Antagonist (Dual ERA/ARB)，PROTECT Trial 證實其 Antiproteinuric Effect 優於傳統高劑量 Irbesartan。",
       "nlmResponses": [
         {
           "accountName": "sandbox0505",
@@ -390,11 +397,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 8
     },
     {
       "id": "q9",
@@ -419,7 +427,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Nefecon (TRF-Budesonide) 為特殊腸溶錠，專一釋放於迴腸末端 (Distal Ileum) 之 Peyer's patches，在源頭抑制 Galactose-deficient IgA1 (Gd-IgA1) 的合成，顯著降低全身性類固醇副作用。",
+      "sourceExplanation": "Nefecon (TRF-Budesonide) 為特殊 Targeted-release Formulation，專一釋放於 Distal Ileum 之 Peyer's Patches，在源頭抑制 Galactose-deficient IgA1 (Gd-IgA1) 的合成，顯著降低 Systemic Steroid Side Effects。",
       "nlmResponses": [
         {
           "accountName": "sandbox0505",
@@ -439,11 +447,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 9
     },
     {
       "id": "q10",
@@ -468,7 +477,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "TESTING 試驗顯示高劑量口服類固醇會增加重度感染風險。因此在實施全身性類固醇治療時，強制要求併用 Pneumocystis jirovecii (PJP) 預防性抗生素 (如 TMP-SMX)。",
+      "sourceExplanation": "TESTING Trial 顯示高劑量 Oral Steroids 會增加 Severe Infection 風險。因此在實施 Systemic Steroid Therapy 時，強制要求併用 Pneumocystis jirovecii (PJP) Prophylactic Antibiotics (如 TMP-SMX)。",
       "nlmResponses": [
         {
           "accountName": "sandbox0505",
@@ -488,11 +497,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 10
     },
     {
       "id": "q11",
@@ -517,7 +527,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "KDIGO 指引指出，Mycophenolate Mofetil (MMF) 在亞洲人群 (Asian Population) 中作為類固醇減量/替代藥物 (Steroid-sparing agent) 展現出顯著之療效與腎臟保護作用。",
+      "sourceExplanation": "KDIGO Guidelines 指出，Mycophenolate Mofetil (MMF) 在 Asian Population 中作為 Steroid-sparing Agent 展現出顯著之療效與 Renal Protection 作用。",
       "nlmResponses": [
         {
           "accountName": "mudkaku",
@@ -537,11 +547,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 11
     },
     {
       "id": "q12",
@@ -566,7 +577,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Sibeprenlimab 與 Telitacicept 為雙重 BAFF/APRIL 抑制劑，能抑制 B-cell 及 Plasma cell 分化，從源頭減少 Gd-IgA1 及 Autoantibodies 產生。",
+      "sourceExplanation": "Sibeprenlimab 與 Telitacicept 為 Dual BAFF/APRIL Inhibitors，能抑制 B-cell 及 Plasma Cell 分化，從源頭減少 Gd-IgA1 及 Autoantibodies 產生。",
       "nlmResponses": [
         {
           "accountName": "mudkaku",
@@ -586,11 +597,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 12
     },
     {
       "id": "q13",
@@ -615,7 +627,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "酒精性肝硬化患者因肝臟網狀內皮系統 (Kupffer Cells) 功能受損，無法正常清除循環中自然發生的 IgA 複合物，導致二度Mesangium IgA 沉積 (Hepatic IgAN)。",
+      "sourceExplanation": "Alcoholic Cirrhosis 患者因 Hepatic Reticuloendothelial System (Kupffer Cells) 功能受損，無法正常清除循環中自然發生的 IgA Immune Complexes，導致 Mesangial IgA Deposition (Hepatic IgAN)。",
       "nlmResponses": [
         {
           "accountName": "mudkaku",
@@ -635,11 +647,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 13
     },
     {
       "id": "q14",
@@ -664,7 +677,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "IgA Vasculitis (HSP) 與 Primary IgAN 在腎Biopsy之光學、螢光與電鏡下完全無法劃分 (Identical histopathology)。兩者之鑑別完全仰賴有無腎外症狀 (如紫斑、關節痛、腹痛)。",
+      "sourceExplanation": "IgA Vasculitis (HSP) 與 Primary IgAN 在 Renal Biopsy 之 Light Microscopy, Immunofluorescence, and Electron Microscopy 下呈現 Identical Histopathology。兩者之鑑別完全仰賴有無 Extra-renal Symptoms (如 Purpura, Arthralgia, Abdominal Pain)。",
       "nlmResponses": [
         {
           "accountName": "mudkaku",
@@ -684,11 +697,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 14
     },
     {
       "id": "q15",
@@ -713,7 +727,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Celiac disease (麩質過敏性腸病) 及 Crohn's disease 因腸道黏膜屏障破壞，導致抗原暴露增加與 Gd-IgA1 過度合成，為次發性 IgAN 之典型腸道誘因。",
+      "sourceExplanation": "Celiac Disease 及 Crohn's Disease 因 Gut Mucosal Barrier Breakdown，導致 Antigen Exposure 增加與 Gd-IgA1 過度合成，為 Secondary IgAN 之典型腸道誘因。",
       "nlmResponses": [
         {
           "accountName": "mudkaku",
@@ -733,11 +747,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 15
     },
     {
       "id": "q16",
@@ -762,7 +777,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Sirolimus (mTOR 抑制劑) 在器官移植患者中被報導與 de novo IgA nephropathy 以及 focal segmental glomerulosclerosis (FSGS) 的發生相關。",
+      "sourceExplanation": "Sirolimus (mTOR Inhibitors) 在 Solid Organ Transplant 患者中被報導與 de novo IgA Nephropathy 以及 Focal Segmental Glomerulosclerosis (FSGS) 的發生相關。",
       "nlmResponses": [
         {
           "accountName": "mudskipper24",
@@ -782,11 +797,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 16
     },
     {
       "id": "q17",
@@ -811,7 +827,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Secondary Syphilis (二期梅毒) 典型表現為手掌腳掌皮疹 (Palmoplantar lesions) 並可併發腎病變 (呈 IgAN 或 Membranous Pattern)。治療抗生素 (Penicillin) 後腎病變通常可逆。",
+      "sourceExplanation": "Secondary Syphilis 典型表現為 Palmoplantar Lesions 並可併發 Renal Involvement (呈 IgAN 或 Membranous Pattern)。Antibiotic Therapy (Penicillin) 後 Renal Involvement 通常可逆。",
       "nlmResponses": [
         {
           "accountName": "mudskipper24",
@@ -831,11 +847,12 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 17
     },
     {
       "id": "q18",
@@ -860,7 +877,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "IgA nephropathy 在腎臟移植後有高達 20% - 60% 的 Recurrence Rate (組織學上相當常見)，但大部分患者在移植腎中進展緩解，僅少數會導致全移植腎失能 (Graft Loss)。",
+      "sourceExplanation": "IgA Nephropathy 在 Kidney Transplantation 後有高達 20% - 60% 的 Recurrence Rate，但大部分患者在 Graft 中進展緩解，僅少數會導致 Graft Loss。",
       "nlmResponses": [
         {
           "accountName": "mudskipper24",
@@ -880,15 +897,19 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth 正解 (A) 吻合，學理邏輯完整致密。",
+      "reconciliationNotes": "NLM 雙重對答 (`nlmResponses.length === 2`) 均與 Ground Truth Option (A) 吻合，學理邏輯完整致密。",
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-30T10:15:00Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English stem/options, nlmResponses.length === 2, len(rawResponse) >= 200."
+      "qcVerifiedAt": "2026-07-30T04:06:42.410609Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "number": 18
     }
   ],
   "year": 2026,
   "category": "TSN 歷年交換題",
   "id": "2026_IgA_Nephropathy_(主題備考)",
-  "title": "2026 IgA Nephropathy (主題備考)"
+  "title": "2026 IgA Nephropathy (主題備考)",
+  "updatedAt": "2026-07-30T04:06:47.279Z",
+  "qcVerifiedCount": 18,
+  "nlmProcessedCount": 18
 }

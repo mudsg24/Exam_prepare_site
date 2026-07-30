@@ -3,7 +3,7 @@
   "title": "2026 腎臟專科 Fabry Disease (法布瑞氏症與法布瑞腎病) 主題式練習題庫",
   "sourceCategory": "2026 GN",
   "year": 2026,
-  "updatedAt": "2026-07-29T16:05:00.000Z",
+  "updatedAt": "2026-07-30T04:06:47.283Z",
   "questions": [
     {
       "id": "2026_Fabry_disease_(主題備考)_Q01",
@@ -27,7 +27,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題考點為 Fabry disease 之致病基因與缺陷水解酵素。Fabry disease 為 X-linked lysosomal storage disorder，因 *GLA* 基因突變導致 Lysosomal Alpha-Galactosidase A (Ceramide trihexosidase) 活性完全缺失或下降，使得末端糖基無法被切割，大量 Globotriaosylceramide (Gb3 / GL-3) 與去醯基化衍生物 Globotriaosylsphingosine (Lyso-Gb3) 在 Podocytes, Endothelial cells 與 Smooth muscle cells 內之 Lysosomes 進行性沉積。選項 (A) Glucocerebrosidase 缺陷為 Gaucher disease；選項 (B) Sphingomyelinase 缺陷為 Niemann-Pick disease；選項 (D) Arylsulfatase A 缺陷為 Metachromatic leukodystrophy，故選 (C)。",
+      "sourceExplanation": "本題考點為 Fabry disease 之 Pathogenic Gene Variant 與 Deficient Lysosomal Hydrolase。Fabry disease 為 X-linked Lysosomal Storage Disorder，因 *GLA* 基因突變導致 Lysosomal Alpha-Galactosidase A (Ceramide Trihexosidase) 活性完全缺失或下降，使得 Terminal Galactose Residue 無法被切割，大量 Globotriaosylceramide (Gb3 / GL-3) 與 Deacylated Derivative Globotriaosylsphingosine (Lyso-Gb3) 在 Podocytes, Endothelial Cells 與 Smooth Muscle Cells 內之 Lysosomes 發生 Progressive Storage。選項 (A) Glucocerebrosidase Deficiency 為 Gaucher Disease；選項 (B) Sphingomyelinase Deficiency 為 Niemann-Pick Disease；選項 (D) Arylsulfatase A Deficiency 為 Metachromatic Leukodystrophy，故選 (C)。",
       "resolvedImages": [
         {
           "id": "brenner_fig_32_46",
@@ -68,7 +68,9 @@
       "number": 1,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q02",
@@ -92,7 +94,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本題考點為 Fabry nephropathy 在腎臟切片光學鏡檢下的主要沉積細胞。Fabry disease 雖然會累及全腎臟細胞（包含 Endothelium, Mesangium 與 Tubular epithelium），但其最早期、最沉重且具診斷指標性的 glycosphingolipid 沉積部位位於 Glomerular Visceral Epithelial Cells (Podocytes)。在光鏡常規 HE 染色下，因脂質在固定過程中被有機溶劑洗去，Podocytes 呈現顯著腫大且胞質充斥細小蜂窩狀空泡 (Foamy enlarged podocytes / Honeycomb appearance)。故選 (A)。",
+      "sourceExplanation": "本題考點為 Fabry nephropathy 在 Renal Biopsy Light Microscopy 下的主要沉積細胞。Fabry disease 雖然會累及 All Renal Cell Populations（包含 Endothelium, Mesangium 與 Tubular Epithelium），但其最早期、最沉重且具 Diagnostic Hallmark 的 Glycosphingolipid Storage 部位位於 Glomerular Visceral Epithelial Cells (Podocytes)。在 Light Microscopy 之 Routine HE Staining 下，因 Glycosphingolipids 在 Fixation Process 中被 Organic Solvents 洗去，Podocytes 呈現顯著腫大且 Cytoplasm 充斥細小蜂窩狀空泡 (Foamy Enlarged Podocytes / Honeycomb Appearance)。故選 (A)。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_4",
@@ -133,7 +135,9 @@
       "number": 2,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q03",
@@ -157,7 +161,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題考點為 Fabry disease 在 Transmission Electron Microscopy (TEM) 下特有的超微結構特徵。電子顯微鏡為診斷 Fabry disease 的 Gold Standard 之一，受累之 Podocytes 與 Endothelial cells 的 Lysosomes 內部會出現高度特徵性、由單膜包覆且呈同心圓狀層板或平行板狀排列的密集脂質包涵體，即經典的 Concentric whorled lamellated myelin figures 與 Zebra bodies。選項 (A) 為 Postinfectious GN；選項 (B) 為 Amyloidosis (7-12 nm non-branching fibrils)；選項 (C) 為 Immunotactoid GN (30 nm microtubules)，故選 (D)。",
+      "sourceExplanation": "本題考點為 Fabry disease 在 Transmission Electron Microscopy (TEM) 下特有的 Ultrastructural Features。Transmission Electron Microscopy 為診斷 Fabry disease 的 Gold Standard 之一，受累之 Podocytes 與 Endothelial Cells 之 Cytoplasm 內充滿由 Single Membrane-Bound、呈 Concentric Whorled Lamellar 排列的 Electron-Dense Inclusions，即 Concentric Whorled Lamellated Myelin Figures (或稱為 Zebra Bodies)。選項 (A) 為 Post-Infectious Glomerulonephritis 特徵；選項 (B) 為 Amyloidosis (7-12 nm Non-Branching Fibrils) 特徵；選項 (C) 為 Immunotactoid Glomerulopathy 特徵，故選 (D)。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_8",
@@ -198,7 +202,9 @@
       "number": 3,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q04",
@@ -222,7 +228,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題考點為 Fabry disease 之皮膚特徵性病變。Gb3 於真皮層微血管 Endothelial cells 內進行性沉積，引發微血管壁結構破壞與角化過度，形成深紅至紫色的Angiokeratoma corporis diffusum。其臨床診斷要點在於特殊的 Bathing-Suit Distribution (下腹部、臍周、臀部、陰囊/生殖器與大腿上端)，玻璃片壓迫不褪色。選項 (A) Palpable purpura 為 IgA Vasculitis / HSP；選項 (C) Necrobiosis lipoidica 與 Diabetes 相關；選項 (D) Livedo reticularis 見於 Atheroembolism 或 Calciphylaxis，故選 (B)。",
+      "sourceExplanation": "本題考點為 Fabry disease 之 Characteristic Dermatologic Lesions。Gb3 於 Dermal Microvessels 之 Endothelial Cells 內發生 Progressive Storage，引發 Microvascular Wall Structural Damage 與 Hyperkeratosis，形成深紅至紫色的 Angiokeratoma Corporis Diffusum。其 Clinical Diagnostic Key Points 在於特殊的 Bathing-Suit Distribution (Lower Abdomen, Umbilicus, Buttocks, Scrotum/Genitalia, and Upper Thighs)，呈 Non-Blanching on Diascopy。選項 (A) Palpable Purpura 為 IgA Vasculitis / HSP；選項 (C) Necrobiosis Lipoidica 與 Diabetes 相關；選項 (D) Livedo Reticularis 見於 Atheroembolism 或 Calciphylaxis，故選 (B)。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_4",
@@ -263,7 +269,9 @@
       "number": 4,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q05",
@@ -287,7 +295,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本題考點為 Fabry disease 的眼部特徵性病變。Gb3 沉積於 Corneal epithelial cells 中，隨角膜細胞更新向外周生長，在 Slit-lamp 下展現出雙側旋渦狀、黃棕色的角膜上皮沉積，稱為 Cornea verticillata (Whorl keratopathy)。這是幾乎見於所有男性 Hemizygotes 與大部分女性 Heterozygous Carriers 的指標性眼部表型。選項 (B) Kayser-Fleischer ring 見於 Wilson disease (Descemet membrane 銅沉積)；選項 (C) Lisch nodules 見於 NF1；選項 (D) Band keratopathy 見於 Hypercalcemia，故選 (A)。",
+      "sourceExplanation": "本題考點為 Fabry disease 的 Characteristic Ocular Findings。Gb3 沉積於 Corneal Epithelial Cells 中，隨 Corneal Epithelial Cell Turnover 向外周生長，在 Slit-lamp 下展現出 Bilateral Whorl-Like Golden-Brown Corneal Epithelial Opacities，稱為 Cornea Verticillata (Whorl Keratopathy)。這是幾乎見於所有 Male Hemizygotes 與大部分 Female Heterozygous Carriers 的 Pathognomonic Ocular Phenotype。選項 (B) Kayser-Fleischer Ring 見於 Wilson Disease (Descemet Membrane Copper Deposition)；選項 (C) Lisch Nodules 見於 NF1；選項 (D) Band Keratopathy 見於 Hypercalcemia，故選 (A)。",
       "resolvedImages": [
         {
           "id": "brenner_fig_32_45",
@@ -328,7 +336,9 @@
       "number": 5,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q06",
@@ -352,7 +362,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題考點為 Fabry disease 晚期心臟與神經系統的多器官致死表型。Gb3 沉積於 Cardiomyocytes 與心臟傳導系統引發 Concentric Hypertrophic Cardiomyopathy, Arrhythmia, Conduction Block 與 Heart Failure；沉積於腦微血管 Endothelium 與 Smooth muscle 引發微血管重塑與局部血栓，導致早發性 Ischemic Stroke 與 TIA。神經系統兼具 Small-fiber sensory neuropathy (Acroparesthesias)。選項 (A) Constrictive pericarditis 非其特徵；選項 (B) 為 Dilated cardiomyopathy；選項 (D) 為 Mitral stenosis，故選 (C)。",
+      "sourceExplanation": "本題考點為 Fabry disease 晚期 Cardiac 與 Neurological Systems 的 Multisystem Manifestations。Gb3 沉積於 Cardiomyocytes 與 Cardiac Conduction System 引發 Concentric Hypertrophic Cardiomyopathy, Arrhythmia, Conduction Block 與 Heart Failure；沉積於 Cerebral Microvascular Endothelium 與 Smooth Muscle 引發 Microvascular Remodeling 與 Local Thrombosis，導致 Early-Onset Ischemic Stroke 與 TIA。Neurological System 兼具 Small-Fiber Sensory Neuropathy (Acroparesthesias)。選項 (A) Constrictive Pericarditis 非其特徵；選項 (B) 為 Dilated Cardiomyopathy；選項 (D) 為 Mitral Stenosis，故選 (C)。",
       "resolvedImages": [
         {
           "id": "brenner_fig_32_46",
@@ -393,7 +403,9 @@
       "number": 6,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q07",
@@ -417,7 +429,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題考點為藥物誘發之 Acquired Lysosomal Phospholipidosis 與 Fabry disease 之超微結構鑑別。Cationic Amphiphilic Drugs (如 Amiodarone, Chloroquine, Hydroxychloroquine) 能抑制 Lysosomal Phospholipase A2，導致脂質於 Podocytes 與 Tubular cells 內異常蓄積，在電鏡下可產生與 Fabry disease 極度相似的 Zebra Bodies 與 Whorled Myelin Figures。臨床發現 Zebra bodies 時必須詳細核對 Amiodarone 等用藥史並檢測 Alpha-Gal A 活性進行鑑別，故選 (B)。",
+      "sourceExplanation": "本題考點為 Drug-Induced Acquired Lysosomal Phospholipidosis 與 Fabry disease 之 Ultrastructural Differential Diagnosis。Cationic Amphiphilic Drugs (如 Amiodarone, Chloroquine, Hydroxychloroquine) 能抑制 Lysosomal Phospholipase A2，導致 Phospholipids 於 Podocytes 與 Tubular Cells 內 Abnormal Accumulation，在 Transmission Electron Microscopy 下可產生與 Fabry disease 極度相似的 Zebra Bodies 與 Whorled Myelin Figures。臨床發現 Zebra bodies 時必須詳細核對 Amiodarone 等 Medication History 並檢測 Alpha-Gal A Enzyme Activity 進行鑑別，故選 (B)。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_8",
@@ -455,8 +467,10 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 7,
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "Option B (Amiodarone) verified academically as cationic amphiphilic drug causing acquired lysosomal lipidosis / zebra bodies."
+      "qcStatus": "PASSED",
+      "reconciliationNotes": "Option B (Amiodarone) verified academically as cationic amphiphilic drug causing acquired lysosomal lipidosis / zebra bodies.",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q08",
@@ -480,7 +494,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題考點為 Fabry disease 在女性 Heterozygous Carriers 中的診斷挑戰。因為 Fabry disease 為 X-linked 遺傳，女性細胞受隨機 X-chromosome Inactivation (Lyonization) 影響，帶有正常 X 染色體的細胞比例個體差異極大，導致高達 30-50% 的女性 Carriers 血液中 Plasma/Leukocyte Alpha-Gal A Activity 呈正常或僅輕微偏低。因此女性疑似個案診斷絕對不能僅靠酵素活性，必須進行全基因定序 (Full GLA Gene Sequencing) 確立診斷，故選 (D)。",
+      "sourceExplanation": "本題考點為 Fabry disease 在 Female Heterozygous Carriers 中的診斷挑戰。因為 Fabry disease 為 X-linked 遺傳，Female Cells 受 Random X-Chromosome Inactivation (Lyonization) 影響，帶有 Active Wild-Type X-Chromosome 的細胞比例個體差異極大，導致高達 30-50% 的 Female Carriers 血液中 Plasma/Leukocyte Alpha-Gal A Activity 呈 Normal or Borderline Low。因此 Suspected Female Cases 診斷絕對不能僅靠 Enzymatic Activity Alone，必須進行 Full GLA Gene Sequencing 確立診斷，故選 (D)。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_4",
@@ -521,7 +535,9 @@
       "number": 8,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q09",
@@ -545,7 +561,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本題考點為 Fabry disease 具活性之關鍵血漿生物標記。過量 Gb3 被 Acid Ceramidase 脫去脂肪醯基鏈 (Deacylation) 轉化為水溶性、兩親性的 Globotriaosylsphingosine (Lyso-Gb3)。Lyso-Gb3 容易釋放至血漿中，其濃度與器官受累嚴重度 (Classical vs Late-onset) 高度相關，且在給予 ERT 後會迅速下降，為診斷女性 Carriers、評估預後與監測 ERT 療效最敏感之 Biomarker。選項 (B) ADMA 為 CKD 內皮功能障礙標記；選項 (C) Lyso-Gb1 為 Gaucher disease 標記；選項 (D) Psychosine 為 Krabbe disease 標記，故選 (A)。",
+      "sourceExplanation": "本題考點為 Fabry disease 之 Bioactive Key Plasma Biomarker。過量 Gb3 被 Acid Ceramidase 經 Deacylation 轉化為 Water-Soluble, Amphiphilic 之 Globotriaosylsphingosine (Lyso-Gb3)。Lyso-Gb3 容易釋放至 Plasma 中，其濃度與 Organ Involvement Severity (Classical vs Late-Onset) 高度相關，且在給予 ERT 後會迅速下降，為診斷 Female Carriers、評估預後與監測 ERT 療效最敏感之 Biomarker。選項 (B) ADMA 為 CKD Endothelial Dysfunction Biomarker；選項 (C) Lyso-Gb1 為 Gaucher Disease Biomarker；選項 (D) Psychosine 為 Krabbe Disease Biomarker，故選 (A)。",
       "resolvedImages": [
         {
           "id": "brenner_fig_32_45",
@@ -586,7 +602,9 @@
       "number": 9,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q10",
@@ -610,7 +628,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題考點為 Enzyme Replacement Therapy (Agalsidase alfa / Agalsidase beta) 在 Fabry nephropathy 的治療準則。臨床指引強調 ERT 應在診斷確立或出現微量蛋白尿早期儘快啟動，以在發生不可逆 Focal Segmental Glomerulosclerosis 與 Interstitial Fibrosis 前清除內皮細胞與足細胞內的 Gb3。此外，即使 GFR 下降或已接受 Dialysis，ERT 仍能清除心肌與血管內皮 Gb3 減緩心血管死亡率，故不應僅因 eGFR 下降而停用。選項 (B) 敘述完全正確。",
+      "sourceExplanation": "本題考點為 Enzyme Replacement Therapy (Agalsidase Alfa / Agalsidase Beta) 在 Fabry nephropathy 的 Clinical Guidelines Recommendations。Clinical Guidelines 強調 ERT 應在診斷確立或出現 Microalbuminuria 早期儘快啟動，以在發生 Irreversible Focal Segmental Glomerulosclerosis 與 Interstitial Fibrosis 前清除 Endothelial Cells 與 Podocytes 內的 Gb3。此外，即使 GFR 下降或已接受 Dialysis，ERT 仍能清除 Myocardium 與 Vascular Endothelium 內的 Gb3 以減緩 Cardiovascular Mortality，故不應僅因 eGFR 下降而停用。選項 (B) 敘述完全正確。",
       "resolvedImages": [
         {
           "id": "brenner_fig_32_46",
@@ -651,7 +669,9 @@
       "number": 10,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q11",
@@ -675,7 +695,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題考點為口服小分子 Chaperone 藥物 Migalastat 的藥理機制與適用條件。Migalastat 為小分子構形護航劑，能特異性結合於特定 Amenable Mutant Alpha-Gal A 酵素上，穩定其在 Endoplasmic Reticulum 内的立體構型，促進其正確 Trafficking 至 Lysosomes。篩選病患前必須進行基因定序確認其突變屬於 Amenable Mutation，且病患 eGFR 必須 >= 30 mL/min/1.73m2。選項 (C) 敘述完全正確。",
+      "sourceExplanation": "本題考點為 Oral Pharmacological Chaperone 藥物 Migalastat 的 Mechanism of Action 與 Prerequisite Criteria。Migalastat 為 Pharmacological Chaperone，能特異性結合於特定 Amenable Mutant Alpha-Gal A 酵素上，穩定其在 Endoplasmic Reticulum 內的 Conformational Stability，促進其正確 Trafficking 至 Lysosomes。篩選病患前必須進行 GLA Gene Sequencing 確認其突變屬於 Amenable Mutation，且病患 eGFR 必須 >= 30 mL/min/1.73m2。選項 (C) 敘述完全正確。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_8",
@@ -716,7 +736,9 @@
       "number": 11,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     },
     {
       "id": "2026_Fabry_disease_(主題備考)_Q12",
@@ -740,7 +762,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題考點為 Fabry disease 在腎臟移植 (Kidney Transplantation) 後的預後。Fabry ESKD 患者接受腎臟移植後，移植之 donor 腎臟實質細胞 (Podocytes & Tubular cells) 帶有正常 GLA 基因，能自體合成足量的 Alpha-Gal A 酵素，因此移植腎移植物本身絕不會發生原發性 Fabry Gb3 沉積復發 (No primary storage recurrence in graft)。但病患體內其他器官 (心臟、血管、神經) 仍有 Gb3 沉積，故全身性 ERT 仍需視臨床評估持續給予。選項 (D) 敘述完全正確。",
+      "sourceExplanation": "本題考點為 Fabry disease 在 Kidney Transplantation 後的 Prognosis。Fabry ESKD 患者接受 Kidney Transplantation 後，移植之 Donor Renal Parenchymal Cells (Podocytes & Tubular Cells) 帶有 Wild-Type GLA Gene，能自體合成足量的 Alpha-Gal A 酵素，因此 Renal Graft 本身絕不會發生 No Primary Storage Recurrence in Graft。但病患體內 Other Extra-Renal Organs (Cardiac, Vascular, Neurological) 仍有 Gb3 沉積，故全身性 ERT 仍需視臨床評估持續給予。選項 (D) 敘述完全正確。",
       "resolvedImages": [
         {
           "id": "ajkd_fabry_fig_4",
@@ -781,7 +803,11 @@
       "number": 12,
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationNotes": "原始答案與對照權威課本 Brenner 11e & KDIGO 指引 100% 完全吻合"
+      "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
+      "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
     }
-  ]
+  ],
+  "qcVerifiedCount": 12,
+  "nlmProcessedCount": 12
 }

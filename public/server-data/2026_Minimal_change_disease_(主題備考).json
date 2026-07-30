@@ -48,7 +48,10 @@
     "reconciledAnswer": "B",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q2",
@@ -99,7 +102,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q3",
@@ -149,7 +155,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q4",
@@ -199,7 +208,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q5",
@@ -249,7 +261,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q6",
@@ -299,7 +314,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q7",
@@ -350,7 +368,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q8",
@@ -388,19 +409,22 @@
         "notebookTitle": "TSN：出題 (5-3)",
         "rawResponse": "### **1. Answer Determination (解答判定)**\n\n**`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`**\n\n#### **不確定性聲明說明 (Database Gap Analysis)**\n根據隨附的 **`notebook sources`**（包含《*Brenner & Rector's The Kidney*》與 **`KDIGO 2021/2024 Glomerular Diseases Guidelines`**）：\n1. 文獻明確記載，對於 **`adult frequently relapsing minimal change disease (FRMCD)`** 或 **`steroid-dependent minimal change disease (SDMCD)`**，給予 **`oral cyclophosphamide`** 作為二線治療的標準劑量為 **`2 mg/kg/day`**，標準療程為 **`8 to 12 weeks`** [1, 2]。\n2. 依此劑量與期間計算，患者單個療程的累積劑量（**`cumulative dose`**）範圍約在 **`112 mg/kg`**（8週療程：$56\\text{ days} \\times 2\\text{ mg/kg/day}$）至 **`168 mg/kg`**（12週療程：$84\\text{ days} \\times 2\\text{ mg/kg/day}$）之間 [1]。\n3. 然而，隨附的所有文獻中，**並未包含任何直接宣告「MCD 患者的 Cyclophosphamide 累積劑量上限為 <150 mg/kg」這一具體數值的定性或定量描述**（如 **Option A** 所列）。\n4. 關於 **`cyclophosphamide`** 的生殖毒性（**`gonadal toxicity`**，如 **`azoospermia`** 與 **`premature ovarian failure`**）與繼發性惡性腫瘤（**`bladder cancer`**、**`leukemia`**）的累積劑量警戒閾值，文獻中僅在 **`Chapter 1`**（通用原則）、**`Chapter 3`**（膜性腎病）以及 **`Chapter 10`**（狼瘡腎炎）中提及：\n   - 預防 **`gonadal toxicity`** 且有生育意願者的累積總劑量應限制在 **`<10 g`** 內 [3-5]。\n   - 成人生殖毒性受損的總量閾值約為 **`300 mg/kg`** [6]。\n   - 預防 **`secondary urinary bladder malignancies`** 的終身累積總劑量上限應嚴格限制在 **`<36 g`**（對應成人約 **`500 mg/kg`**）以內 [6, 7]。\n5. 由於數據庫中並未直接收錄適用於 **`MCD`** 單一療程預防生殖毒性的 **`<150 mg/kg`** 累積上限證據，為秉持 **`NotebookLM`** 嚴格遵循隨附文獻的誠實承諾，於首行明確輸出證據不足。以下將基於現有資料，提供循序漸進的臨床病理與高凝/毒性管理機制剖析。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正確選項詳細臨床與生理機制分析)**\n\n在臨床藥理學與免疫抑制管理中，若排除數據庫的文字截斷與數值偏差，**Option (A) Duration of 8 to 12 weeks with a cumulative dose cap of <150 mg/kg** 在臨床實務上是最契合標準支持治療與毒性控制邊界的推薦方案：\n\n#### **(1) 治療期間的生理與病理決策機制 (Physiological Rationale for 8-12 Weeks)**\n*   **`Minimal Change Disease (MCD)` 的發病機制**：\n    本質上是一種由 **`T-cell dysregulation`** 驅動的足細胞病變（**`podocytopathy`**），異常的細胞因子網絡會引發嚴重的 **`podocyte foot process effacement`** 與 **`microvillous transformation`** [8, 9]。\n*   **二線細胞毒性藥物的介入**：\n    對於 **`FRMCD`** 或 **`SDMCD`** 患者，為了減少長期暴露於高劑量 **`glucocorticoids`**（如 **`prednisone`**）所引發的嚴重併發症（如 `osteoporosis`、`Cushing syndrome`、`hyperglycemia` 與 `infections` [10-12]），推薦引入 **`oral cyclophosphamide`** 作為二線 **`glucocorticoid-sparing agent`** [13]。\n*   **療程強度的權衡 (Efficacy vs. Toxicity)**：\n    文獻與臨床試驗表明，**`oral cyclophosphamide` 療程給予 8 至 12 週（即 2 至 3 個月）是最優的平衡點** [1, 2]。\n    與僅接受 8 週治療的患者相比，接受 12 週治療的 **`SDMCD`** 患者通常能獲得更為持久、穩固的緩解（**`more durable remissions`**），且緩解後 2 年內無復發生存率高達 75% [1, 14]。然而，若療程進一步延長（**`>12 weeks`**），其臨床緩解率並不會隨之顯著增加，反而會導致嚴重的蓄積性不良反應（**`cumulative toxicities`**）呈指數級上升 [2]。\n\n#### **(2) 累積劑量上限控制的毒理學基礎 (Toxicological Basis of Cumulative Cap)**\n*   **防範生殖細胞毒性 (Gonadal Toxicity Prevention)**：\n    作為一種烷化劑（**`alkylating agent`**），**`cyclophosphamide`** 的活性代謝物會直接與 **`germ cells`** 的 **`DNA`** 發生共價結合，引發嚴重的雙鏈斷裂與細胞凋亡。在男性中，這會造成 **`azoospermia`**（無精子症）與永久性不孕 [15]；在女性中則會破壞卵巢中的原始卵泡儲備，引發 **`premature ovarian failure`** [6, 15-17]。\n    此生殖毒性具有高度的累積劑量相依性，成人的卵巢毒性與生殖失效閾值約為 **`300 mg/kg`**（或有生育意願者累計上限應限制在 **`<10 g`** 內）[3, 6]。因此，將單個療程的累積劑量嚴格控制在 **`<150 mg/kg`** 內（約為 2 mg/kg/d 給予 10 週的總量），能安全地避開 300 mg/kg 的毒性臨界點，最大限度保留患者的生育能力。\n*   **規避出血性膀胱炎與膀胱癌 (Bladder Malignancy Abrogating)**：\n    **`cyclophosphamide`** 在體內經由肝臟代謝後會釋放出有毒的中間產物 —— **`acrolein`**（丙烯醛）。**`acrolein`** 隨尿液高度濃縮排泄並在膀胱內蓄積，會直接化學性灼傷膀胱上皮，引發 **`hemorrhagic cystitis`** [1, 7]。更為致命的是，長期的化學刺激與轉錄損傷會誘發 **`secondary urinary bladder malignancies`**（**`bladder cancer`**，其發生率在超量暴露後會上升達 9.5 倍 [18]）。\n    文獻指出，**`bladder cancer`** 的終身累積總劑量安全警戒線為 **`<36 g`**（成人約為 **`500 mg/kg`**）[6, 7]。將 **`MCD`** 單次療程的累積劑量嚴格鎖定在 **`<150 mg/kg`**（遠低於 500 mg/kg 終身極限），能為患者留出足夠的安全空間，避免在未來數十年間暴發災難性的繼發性膀胱癌。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項排除與分析)**\n\n*   **Option (B) Duration of 24 to 36 weeks with a cumulative dose cap of <500 mg/kg 錯誤**：\n    *   *為何錯誤*：第一，對於 **`MCD`**，投予 **`cyclophosphamide`** 超過 12 週以上（更遑論 24 至 36 週，即 6 至 9 個月）在臨床上是完全被禁止的（**`should be avoided`**），因為這無法提升 Remission 率，反而會直接跨越累積毒性的安全紅線 [2]。第二，累積劑量上限 **`<500 mg/kg`**（對應成人終身極限 **`36 g`** [7]）雖然是預防 **`bladder cancer`** 的絕對終身極限，但它**絕非**單一療程的推薦控制上限。若單次療程的累積量逼近 500 mg/kg，患者將百分之百發生永久性的 **`azoospermia`** 或 **`premature ovarian failure`** [6]。\n    *   *出題者意圖*：利用「終身防癌累積上限（`<500 mg/kg / 36 g`）」與「單次安全療程控制上限（`<150 mg/kg`）」進行概念拼湊，測試考生是否混淆了兩者在生殖與癌症毒性控制維度上的不對稱安全邊界。\n\n*   **Option (C) Continuous lifelong therapy with a monthly cumulative dose of 100 mg/kg 錯誤**：\n    *   *為何錯誤*：**`cyclophosphamide` 絕對不允許作為 continuous lifelong therapy**。如果終身持續給藥，患者的總累積暴露劑量將迅速超越 **`36 g`** 的防癌底線以及 **`80 g`** 的骨髓纖維化（**`myelofibrosis`**）極限 [6, 17]。這將導致暴發性的 **`acute myelocytic leukemia (AML)`**（發生率暴增 59.0 倍 [18, 19]）、**`bladder cancer`** 以及徹底的骨髓衰竭與致死性重症感染。\n    *   *出題者意圖*：作為絕對錯誤的臨床用藥禁忌，用以篩選出對烷化劑累積蓄積毒性（**`cumulative toxicities`**）缺乏基本安全警示意識的考生。\n\n*   **Option (D) Single 3-day course with a cumulative dose cap of <10 mg/kg 錯誤**：\n    *   *為何錯誤*：僅給予單次 3 天的超短程治療在 **`MCD`** 的免疫病理學管理中是完全無效（**`sub-therapeutic`**）的。這無法提供足夠的藥物濃度與時間來抑制過度活化的致病性 T/B 細胞克隆，無法促成足突重塑與蛋白尿消退 [1, 2]。\n    *   *出題者意圖*：利用常規在發炎暴發期使用的「3 天靜脈甲基潑尼松龍衝擊療法（**`pulse methylprednisolone for 3 consecutive days`** [20, 21]）」的超短程時間框架來設計陷阱，考核考生是否混淆了糖皮質激素衝擊與細胞毒性烷化劑療程的藥代動力學特性。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)**\n\n在 **`Nephrology Board Examination`** 中，針對因足細胞或基底膜免疫受損而面臨蛋白尿風險的患者，如何在病理特徵、用藥期間、累積劑量上限以及替代策略上，將 **`Minimal Change Disease (MCD)`**、**`Membranous Nephropathy (MN)`** 與 **`Lupus Nephritis (LN) Class IV`** 引用的 **`cyclophosphamide`** 方案進行精細對比，是區分度最大的核心考點：\n\n#### **High-Yield Comparison: Cyclophosphamide Protocols and Alternatives Across Glomerular Diseases**\n*(根據 Chapter 31 [Passage 19, 395, 396], Chapter 32 [Passage 64, 65, 68], Chapter 33 [Passage 77, 79, 80] 與 KDIGO 2021/2024 數據整合)*\n\n| 臨床與病理評估維度 | **`Minimal Change Disease (MCD)`** (本題情境) | **`Membranous Nephropathy (MN)`** | **`Lupus Nephritis (LN) Class IV`** |\n| :--- | :--- | :--- | :--- |\n| **首選的一線/誘導方案**| 首選高劑量口服 **`glucocorticoids`**（1C）[22]。 | 依據風險分級，首選 **`rituximab`**、**`cyclophosphamide`** 聯用激素，或 **`CNIs`** [23]。 | 立即給予 **`induction therapy`**：**`MMF`** 或 **`low-dose IV cyclophosphamide`**（1B）[24]。 |\n| **`Cyclophosphamide` 用藥指徵**| 僅限於 **`frequently relapsing (FR)`** 或 **`steroid-dependent (SD)`** 且激素毒性高者 [2]。 | 限於 **`high or very high risk`** 且有 eGFR 惡化傾向的患者（1B） [23, 25, 26]。 | 用於重症、有快速惡化（**`RPGN`**）風險或口服順應性極差的患者 [27, 28]。 |\n| **單個療程/誘導推薦期間**| **嚴格限制於 `8 to 12 weeks` (2-3個月)** [1, 2]。 | 經典 Ponticelli 方案中，**於 6 個月中交替使用 3 個月** [29, 30]。 | **`Euro-Lupus` 方案給予 3 個月 (12週)** [31, 32]；**`NIH` 方案給予 6 個月** [32, 33]。 |\n| **推薦投藥途徑 (Route)** | 經典為 **`oral (p.o.)`**（每日 2 mg/kg）[1, 20]。 | 經典為 **`oral (p.o.)`**（1.5-2.5 mg/kg/d）[34]；亦可考慮靜脈。 | 首選 **`intravenous (i.v.) pulse`** 以顯著降低累積暴露量與中性粒細胞減少風險 [6, 35, 36]。 |\n| **單次/終身累積劑量安全上限**| **單次療程控制在 `<112-168 mg/kg`**；終身總量防癌上限 **`<36 g` (約 `500 mg/kg`)** [1, 7]。 | **終身累積總劑量嚴格限制在 `<36 g` 以內 (為安全起見，通常限制在 `<25 g`)** [34, 37]。 | **終身累積總劑量嚴格限制在 `<36 g` 以內**；生育保存需求者限制在 **`<10 g`** 內 [6, 17]。 |\n| **首選的其他免役抑制替代藥**| **`rituximab`** (單次/雙次輸注) [38, 39]；或 **`CNIs` (cyclosporine/tacrolimus)** [40, 41]。 | **`rituximab`** (一線首選) [23, 26]；或 **`CNIs` (tacrolimus/cyclosporine)** [23, 42]。 | **`mycophenolate mofetil (MMF)`**（亞洲及非裔患者首選，1B）[24, 43]。 |\n\n---\n\n### **5. Citations & References (精確引用與文獻出處)**\n\n*   **Brenner & Rector's The Kidney - Chapter 31:** *Primary Glomerular Disease*\n    *   **Section:** *Minimal Change Disease / Treatment*\n        *   (Passage 19: **\"When oral cyclophosphamide is given in dosages of 2 mg/kg for 8 to 12 weeks, 75% of patients remain free of proteinuria for at least 2 years.\"** —— 證實了 MCD 二線治療中 oral cyclophosphamide 的 2 mg/kg 劑量與 8-12 週的標準療程)。\n*   **Brenner & Rector's The Kidney - Chapter 33:** *Treatment of Glomerulonephritis*\n    *   **Section:** *Alkylating Agents / Cyclophosphamide / Toxicity*\n        *   (Passage 77: **\"...Danish patients with ANCA-associated vasculitis treated with cyclophosphamide... received a cumulative dose of more than 36 g of cyclophosphamide (equivalent to 2 mg/kg for 8 months in a 70-kg patient) had a substantially increased risk for the development of a malignancy... SIR of bladder cancer was 9.5... requiring lifelong screening.\"** —— 證實了 36 g 累積總量作為誘發膀胱癌與白血貝等 malignancies 發生率急劇攀升的關鍵分水嶺)。\n*   **KDIGO 2021 Glomerular Diseases Guideline - Chapter 1:** *General principles for the management of glomerular disease*\n    *   **Section 1.12:** *Use of glucocorticoids and immunosuppressive therapy / Cyclophosphamide*\n        *   (Passage 353: **\"To reduce bladder toxicity, the duration of cyclophosphamide treatment should not exceed 6 months... The risk of bladder cancer (and other cancers) is greater if the total cumulative dose of cyclophosphamide exceeds 36 grams (about 500 mg/kg in adults) in a patient's lifetime. Dosing above this threshold should be scrupulously avoided.\"** —— 提供了 36 g 累積劑量等同於成人 500 mg/kg 體重、且必須嚴格避免超越該上限的官方安全規範)。\n*   **KDIGO 2021 Glomerular Diseases Guideline - Chapter 5:** *Minimal change disease (MCD) in adults*\n    *   **Section 5.3.1:** *Treatment of relapses*\n        *   (Passage 396: **\"Cyclophosphamide. ... Prolonged therapy (>12 weeks) and repeated courses of cyclophosphamide should be avoided, in view of cumulative toxicities. Cyclophosphamide tends to be associated with more durable remission rates than CNI. Compared to 8 weeks of therapy, 12 weeks of treatment with cyclophosphamide may be associated with more durable remissions in SD MCD.\"** —— 證實了 8 週與 12 週療程在緩解持久度上的對比、以及嚴禁重複多療程給藥以防止蓄積毒性的安全性共識)。\n\n---\n\n### **6. Language & Terminology Rules (語言與專有名詞規範)**\n\n*   內文所有生理學、毒理學機制之說明與推導，一律且完全使用繁體中文（**`Traditional Chinese`**）進行敘述。\n*   所有涉及解剖部位、細胞、轉運體、離子、通道、受體、臨床指標、藥物分型及疾病名稱等醫學專有名詞，一律、且僅使用英文（**`English`**）書寫（如：**`minimal change disease`**、**`cyclophosphamide`**、**`premature ovarian failure`**、**`azoospermia`**、**`bladder cancer`**、**`leukemia`**、**`glucocorticoid-sparing agent`**、**`remission`**、**`proteinuria`** 等），絕對無任何中文翻譯或中英文併列格式（不出現 Chinese (English) 格式），完全符合專有名詞防護線規定與中英文併列禁止令。\n\n---\n\n### **7. Database Limitation Guard (數據與文獻限制聲明)**\n\n本分析所述之所有關於 **`oral cyclophosphamide`** 調控 **`MCD`** 緩解的動態動力學、**`acrolein`** 於膀胱蓄積引發 **`hemorrhagic cystitis`** 與致癌SIR標準、**`gonadal toxicity`** 隨年齡與累積量劣化的病理生理學機制，均完全、嚴格地基於隨附之《*Brenner & Rector's The Kidney*》與相關 *KDIGO* 官方指引數據庫文獻進行撰寫。由於文獻中不含有可以直接拼合並定性證實 **`MCD`** 單一療程「累積劑量上限為 `<150 mg/kg`」的直接文獻記載，本分析已在首行明確輸出證據不足之不確定性聲明，拒絕調用任何超出此範圍之外的外部學術庫進行猜測，以確保醫學專科分析的極致精準度。\n\n***\n\n🧩 **相關高頻考點建議 (High-Yield Nudge)：**\n在實際管理因 **`FRMCD / SDMCD`** 而需要接受 **`cyclophosphamide`** 治療的患者時，**`KDIGO 2021 Chapter 1 (Passage 351, 352)`** 與 **`Chapter 5 (Passage 401, 402)`** 提出了一個在專科應試與臨床照護中極具人文關懷與安全性防禦價值的「**生育與膀胱防衛**」考點：**「在臨床上，為最大限度降低藥物的 gonadal toxicity，指引明確推薦（Practice Point 1.13.3）：(1) 對於所有有生育意願的患者，在啟動 cyclophosphamide 之前，必須『offer the opportunity for sperm or ovum storage/preservation (主動提供精子銀行或卵子冷凍保存，參見 Passage 351)』；(2) 在治療期間，女性患者可同時接受 gonadotropin-releasing hormone agonist（如 leuprolide）治療，男性患者可接受 testosterone 治療以提供生殖腺保護（Passage 352）；(3) 為規避 acrolein 引發的 bladder toxicity，口服 cyclophosphamide 必須安排在『清晨/早晨服用（should be taken in the morning，Passage 353）』，並衛教患者在白天進行『大量飲水（copious fluid intake，Passage 353）』以促進尿液稀釋與排空，避免有毒代謝物於夜間在膀胱長時間滯留蓄積。」** 您是否需要我為您建立一個「**臨床處理頻繁復發型足細胞病期間，如何聯合患者的『年齡與卵巢儲備估算』、滴定『CYC 晨間服藥與 Mesna 膀胱防禦指徵』、以及在 CYC 失敗後無縫橋接『Rituximab B細胞清除方案』的多步驟安全臨床決策路徑**」，以協助您設計更具實戰辨析深度與臨床安全教學價值的整合性情境題？",
         "databaseSufficiency": "SUFFICIENT",
-        "selectedOption": "A"
+        "selectedOption": "NONE"
       },
       {
         "notebookTitle": "TSN：出題 (5-3)",
         "rawResponse": "### **1. Answer Determination (解答判定)**\n\n**`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`**\n\n#### **不確定性聲明說明 (Database Gap Analysis)**\n根據隨附的 **`notebook sources`**（包含《*Brenner & Rector's The Kidney*》與 **`KDIGO 2021/2024 Glomerular Diseases Guidelines`**）：\n1. 文獻明確記載，對於 **`adult frequently relapsing minimal change disease (FRMCD)`** 或 **`steroid-dependent minimal change disease (SDMCD)`**，給予 **`oral cyclophosphamide`** 作為二線治療的標準劑量為 **`2 mg/kg/day`**，標準療程為 **`8 to 12 weeks`** [1, 2]。\n2. 依此劑量與期間計算，患者單個療程的累積劑量（**`cumulative dose`**）範圍約在 **`112 mg/kg`**（8週療程：$56\\text{ days} \\times 2\\text{ mg/kg/day}$）至 **`168 mg/kg`**（12週療程：$84\\text{ days} \\times 2\\text{ mg/kg/day}$）之間 [1]。\n3. 然而，隨附的所有文獻中，**並未包含任何直接宣告「MCD 患者的 Cyclophosphamide 累積劑量上限為 <150 mg/kg」這一具體數值的定性或定量描述**（如 **Option A** 所列）。\n4. 關於 **`cyclophosphamide`** 的生殖毒性（**`gonadal toxicity`**，如 **`azoospermia`** 與 **`premature ovarian failure`**）與繼發性惡性腫瘤（**`bladder cancer`**、**`leukemia`**）的累積劑量警戒閾值，文獻中僅在 **`Chapter 1`**（通用原則）、**`Chapter 3`**（膜性腎病）以及 **`Chapter 10`**（狼瘡腎炎）中提及：\n   - 預防 **`gonadal toxicity`** 且有生育意願者的累積總劑量應限制在 **`<10 g`** 內 [3-5]。\n   - 成人生殖毒性受損的總量閾值約為 **`300 mg/kg`** [6]。\n   - 預防 **`secondary urinary bladder malignancies`** 的終身累積總劑量上限應嚴格限制在 **`<36 g`**（對應成人約 **`500 mg/kg`**）以內 [6, 7]。\n5. 由於數據庫中並未直接收錄適用於 **`MCD`** 單一療程預防生殖毒性的 **`<150 mg/kg`** 累積上限證據，為秉持 **`NotebookLM`** 嚴格遵循隨附文獻的誠實承諾，於首行明確輸出證據不足。以下將基於現有資料，提供循序漸進的臨床病理與高凝/毒性管理機制剖析。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正確選項詳細臨床與生理機制分析)**\n\n在臨床藥理學與免疫抑制管理中，若排除數據庫的文字截斷與數值偏差，**Option (A) Duration of 8 to 12 weeks with a cumulative dose cap of <150 mg/kg** 在臨床實務上是最契合標準支持治療與毒性控制邊界的推薦方案：\n\n#### **(1) 治療期間的生理與病理決策機制 (Physiological Rationale for 8-12 Weeks)**\n*   **`Minimal Change Disease (MCD)` 的發病機制**：\n    本質上是一種由 **`T-cell dysregulation`** 驅動的足細胞病變（**`podocytopathy`**），異常的細胞因子網絡會引發嚴重的 **`podocyte foot process effacement`** 與 **`microvillous transformation`** [8, 9]。\n*   **二線細胞毒性藥物的介入**：\n    對於 **`FRMCD`** 或 **`SDMCD`** 患者，為了減少長期暴露於高劑量 **`glucocorticoids`**（如 **`prednisone`**）所引發的嚴重併發症（如 `osteoporosis`、`Cushing syndrome`、`hyperglycemia` 與 `infections` [10-12]），推薦引入 **`oral cyclophosphamide`** 作為二線 **`glucocorticoid-sparing agent`** [13]。\n*   **療程強度的權衡 (Efficacy vs. Toxicity)**：\n    文獻與臨床試驗表明，**`oral cyclophosphamide` 療程給予 8 至 12 週（即 2 至 3 個月）是最優的平衡點** [1, 2]。\n    與僅接受 8 週治療的患者相比，接受 12 週治療的 **`SDMCD`** 患者通常能獲得更為持久、穩固的緩解（**`more durable remissions`**），且緩解後 2 年內無復發生存率高達 75% [1, 14]。然而，若療程進一步延長（**`>12 weeks`**），其臨床緩解率並不會隨之顯著增加，反而會導致嚴重的蓄積性不良反應（**`cumulative toxicities`**）呈指數級上升 [2]。\n\n#### **(2) 累積劑量上限控制的毒理學基礎 (Toxicological Basis of Cumulative Cap)**\n*   **防範生殖細胞毒性 (Gonadal Toxicity Prevention)**：\n    作為一種烷化劑（**`alkylating agent`**），**`cyclophosphamide`** 的活性代謝物會直接與 **`germ cells`** 的 **`DNA`** 發生共價結合，引發嚴重的雙鏈斷裂與細胞凋亡。在男性中，這會造成 **`azoospermia`**（無精子症）與永久性不孕 [15]；在女性中則會破壞卵巢中的原始卵泡儲備，引發 **`premature ovarian failure`** [6, 15-17]。\n    此生殖毒性具有高度的累積劑量相依性，成人的卵巢毒性與生殖失效閾值約為 **`300 mg/kg`**（或有生育意願者累計上限應限制在 **`<10 g`** 內）[3, 6]。因此，將單個療程的累積劑量嚴格控制在 **`<150 mg/kg`** 內（約為 2 mg/kg/d 給予 10 週的總量），能安全地避開 300 mg/kg 的毒性臨界點，最大限度保留患者的生育能力。\n*   **規避出血性膀胱炎與膀胱癌 (Bladder Malignancy Abrogating)**：\n    **`cyclophosphamide`** 在體內經由肝臟代謝後會釋放出有毒的中間產物 —— **`acrolein`**（丙烯醛）。**`acrolein`** 隨尿液高度濃縮排泄並在膀胱內蓄積，會直接化學性灼傷膀胱上皮，引發 **`hemorrhagic cystitis`** [1, 7]。更為致命的是，長期的化學刺激與轉錄損傷會誘發 **`secondary urinary bladder malignancies`**（**`bladder cancer`**，其發生率在超量暴露後會上升達 9.5 倍 [18]）。\n    文獻指出，**`bladder cancer`** 的終身累積總劑量安全警戒線為 **`<36 g`**（成人約為 **`500 mg/kg`**）[6, 7]。將 **`MCD`** 單次療程的累積劑量嚴格鎖定在 **`<150 mg/kg`**（遠低於 500 mg/kg 終身極限），能為患者留出足夠的安全空間，避免在未來數十年間暴發災難性的繼發性膀胱癌。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項排除與分析)**\n\n*   **Option (B) Duration of 24 to 36 weeks with a cumulative dose cap of <500 mg/kg 錯誤**：\n    *   *為何錯誤*：第一，對於 **`MCD`**，投予 **`cyclophosphamide`** 超過 12 週以上（更遑論 24 至 36 週，即 6 至 9 個月）在臨床上是完全被禁止的（**`should be avoided`**），因為這無法提升 Remission 率，反而會直接跨越累積毒性的安全紅線 [2]。第二，累積劑量上限 **`<500 mg/kg`**（對應成人終身極限 **`36 g`** [7]）雖然是預防 **`bladder cancer`** 的絕對終身極限，但它**絕非**單一療程的推薦控制上限。若單次療程的累積量逼近 500 mg/kg，患者將百分之百發生永久性的 **`azoospermia`** 或 **`premature ovarian failure`** [6]。\n    *   *出題者意圖*：利用「終身防癌累積上限（`<500 mg/kg / 36 g`）」與「單次安全療程控制上限（`<150 mg/kg`）」進行概念拼湊，測試考生是否混淆了兩者在生殖與癌症毒性控制維度上的不對稱安全邊界。\n\n*   **Option (C) Continuous lifelong therapy with a monthly cumulative dose of 100 mg/kg 錯誤**：\n    *   *為何錯誤*：**`cyclophosphamide` 絕對不允許作為 continuous lifelong therapy**。如果終身持續給藥，患者的總累積暴露劑量將迅速超越 **`36 g`** 的防癌底線以及 **`80 g`** 的骨髓纖維化（**`myelofibrosis`**）極限 [6, 17]。這將導致暴發性的 **`acute myelocytic leukemia (AML)`**（發生率暴增 59.0 倍 [18, 19]）、**`bladder cancer`** 以及徹底的骨髓衰竭與致死性重症感染。\n    *   *出題者意圖*：作為絕對錯誤的臨床用藥禁忌，用以篩選出對烷化劑累積蓄積毒性（**`cumulative toxicities`**）缺乏基本安全警示意識的考生。\n\n*   **Option (D) Single 3-day course with a cumulative dose cap of <10 mg/kg 錯誤**：\n    *   *為何錯誤*：僅給予單次 3 天的超短程治療在 **`MCD`** 的免疫病理學管理中是完全無效（**`sub-therapeutic`**）的。這無法提供足夠的藥物濃度與時間來抑制過度活化的致病性 T/B 細胞克隆，無法促成足突重塑與蛋白尿消退 [1, 2]。\n    *   *出題者意圖*：利用常規在發炎暴發期使用的「3 天靜脈甲基潑尼松龍衝擊療法（**`pulse methylprednisolone for 3 consecutive days`** [20, 21]）」的超短程時間框架來設計陷阱，考核考生是否混淆了糖皮質激素衝擊與細胞毒性烷化劑療程的藥代動力學特性。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)**\n\n在 **`Nephrology Board Examination`** 中，針對因足細胞或基底膜免疫受損而面臨蛋白尿風險的患者，如何在病理特徵、用藥期間、累積劑量上限以及替代策略上，將 **`Minimal Change Disease (MCD)`**、**`Membranous Nephropathy (MN)`** 與 **`Lupus Nephritis (LN) Class IV`** 引用的 **`cyclophosphamide`** 方案進行精細對比，是區分度最大的核心考點：\n\n#### **High-Yield Comparison: Cyclophosphamide Protocols and Alternatives Across Glomerular Diseases**\n*(根據 Chapter 31 [Passage 19, 395, 396], Chapter 32 [Passage 64, 65, 68], Chapter 33 [Passage 77, 79, 80] 與 KDIGO 2021/2024 數據整合)*\n\n| 臨床與病理評估維度 | **`Minimal Change Disease (MCD)`** (本題情境) | **`Membranous Nephropathy (MN)`** | **`Lupus Nephritis (LN) Class IV`** |\n| :--- | :--- | :--- | :--- |\n| **首選的一線/誘導方案**| 首選高劑量口服 **`glucocorticoids`**（1C）[22]。 | 依據風險分級，首選 **`rituximab`**、**`cyclophosphamide`** 聯用激素，或 **`CNIs`** [23]。 | 立即給予 **`induction therapy`**：**`MMF`** 或 **`low-dose IV cyclophosphamide`**（1B）[24]。 |\n| **`Cyclophosphamide` 用藥指徵**| 僅限於 **`frequently relapsing (FR)`** 或 **`steroid-dependent (SD)`** 且激素毒性高者 [2]。 | 限於 **`high or very high risk`** 且有 eGFR 惡化傾向的患者（1B） [23, 25, 26]。 | 用於重症、有快速惡化（**`RPGN`**）風險或口服順應性極差的患者 [27, 28]。 |\n| **單個療程/誘導推薦期間**| **嚴格限制於 `8 to 12 weeks` (2-3個月)** [1, 2]。 | 經典 Ponticelli 方案中，**於 6 個月中交替使用 3 個月** [29, 30]。 | **`Euro-Lupus` 方案給予 3 個月 (12週)** [31, 32]；**`NIH` 方案給予 6 個月** [32, 33]。 |\n| **推薦投藥途徑 (Route)** | 經典為 **`oral (p.o.)`**（每日 2 mg/kg）[1, 20]。 | 經典為 **`oral (p.o.)`**（1.5-2.5 mg/kg/d）[34]；亦可考慮靜脈。 | 首選 **`intravenous (i.v.) pulse`** 以顯著降低累積暴露量與中性粒細胞減少風險 [6, 35, 36]。 |\n| **單次/終身累積劑量安全上限**| **單次療程控制在 `<112-168 mg/kg`**；終身總量防癌上限 **`<36 g` (約 `500 mg/kg`)** [1, 7]。 | **終身累積總劑量嚴格限制在 `<36 g` 以內 (為安全起見，通常限制在 `<25 g`)** [34, 37]。 | **終身累積總劑量嚴格限制在 `<36 g` 以內**；生育保存需求者限制在 **`<10 g`** 內 [6, 17]。 |\n| **首選的其他免役抑制替代藥**| **`rituximab`** (單次/雙次輸注) [38, 39]；或 **`CNIs` (cyclosporine/tacrolimus)** [40, 41]。 | **`rituximab`** (一線首選) [23, 26]；或 **`CNIs` (tacrolimus/cyclosporine)** [23, 42]。 | **`mycophenolate mofetil (MMF)`**（亞洲及非裔患者首選，1B）[24, 43]。 |\n\n---\n\n### **5. Citations & References (精確引用與文獻出處)**\n\n*   **Brenner & Rector's The Kidney - Chapter 31:** *Primary Glomerular Disease*\n    *   **Section:** *Minimal Change Disease / Treatment*\n        *   (Passage 19: **\"When oral cyclophosphamide is given in dosages of 2 mg/kg for 8 to 12 weeks, 75% of patients remain free of proteinuria for at least 2 years.\"** —— 證實了 MCD 二線治療中 oral cyclophosphamide 的 2 mg/kg 劑量與 8-12 週的標準療程)。\n*   **Brenner & Rector's The Kidney - Chapter 33:** *Treatment of Glomerulonephritis*\n    *   **Section:** *Alkylating Agents / Cyclophosphamide / Toxicity*\n        *   (Passage 77: **\"...Danish patients with ANCA-associated vasculitis treated with cyclophosphamide... received a cumulative dose of more than 36 g of cyclophosphamide (equivalent to 2 mg/kg for 8 months in a 70-kg patient) had a substantially increased risk for the development of a malignancy... SIR of bladder cancer was 9.5... requiring lifelong screening.\"** —— 證實了 36 g 累積總量作為誘發膀胱癌與白血貝等 malignancies 發生率急劇攀升的關鍵分水嶺)。\n*   **KDIGO 2021 Glomerular Diseases Guideline - Chapter 1:** *General principles for the management of glomerular disease*\n    *   **Section 1.12:** *Use of glucocorticoids and immunosuppressive therapy / Cyclophosphamide*\n        *   (Passage 353: **\"To reduce bladder toxicity, the duration of cyclophosphamide treatment should not exceed 6 months... The risk of bladder cancer (and other cancers) is greater if the total cumulative dose of cyclophosphamide exceeds 36 grams (about 500 mg/kg in adults) in a patient's lifetime. Dosing above this threshold should be scrupulously avoided.\"** —— 提供了 36 g 累積劑量等同於成人 500 mg/kg 體重、且必須嚴格避免超越該上限的官方安全規範)。\n*   **KDIGO 2021 Glomerular Diseases Guideline - Chapter 5:** *Minimal change disease (MCD) in adults*\n    *   **Section 5.3.1:** *Treatment of relapses*\n        *   (Passage 396: **\"Cyclophosphamide. ... Prolonged therapy (>12 weeks) and repeated courses of cyclophosphamide should be avoided, in view of cumulative toxicities. Cyclophosphamide tends to be associated with more durable remission rates than CNI. Compared to 8 weeks of therapy, 12 weeks of treatment with cyclophosphamide may be associated with more durable remissions in SD MCD.\"** —— 證實了 8 週與 12 週療程在緩解持久度上的對比、以及嚴禁重複多療程給藥以防止蓄積毒性的安全性共識)。\n\n---\n\n### **6. Language & Terminology Rules (語言與專有名詞規範)**\n\n*   內文所有生理學、毒理學機制之說明與推導，一律且完全使用繁體中文（**`Traditional Chinese`**）進行敘述。\n*   所有涉及解剖部位、細胞、轉運體、離子、通道、受體、臨床指標、藥物分型及疾病名稱等醫學專有名詞，一律、且僅使用英文（**`English`**）書寫（如：**`minimal change disease`**、**`cyclophosphamide`**、**`premature ovarian failure`**、**`azoospermia`**、**`bladder cancer`**、**`leukemia`**、**`glucocorticoid-sparing agent`**、**`remission`**、**`proteinuria`** 等），絕對無任何中文翻譯或中英文併列格式（不出現 Chinese (English) 格式），完全符合專有名詞防護線規定與中英文併列禁止令。\n\n---\n\n### **7. Database Limitation Guard (數據與文獻限制聲明)**\n\n本分析所述之所有關於 **`oral cyclophosphamide`** 調控 **`MCD`** 緩解的動態動力學、**`acrolein`** 於膀胱蓄積引發 **`hemorrhagic cystitis`** 與致癌SIR標準、**`gonadal toxicity`** 隨年齡與累積量劣化的病理生理學機制，均完全、嚴格地基於隨附之《*Brenner & Rector's The Kidney*》與相關 *KDIGO* 官方指引數據庫文獻進行撰寫。由於文獻中不含有可以直接拼合並定性證實 **`MCD`** 單一療程「累積劑量上限為 `<150 mg/kg`」的直接文獻記載，本分析已在首行明確輸出證據不足之不確定性聲明，拒絕調用任何超出此範圍之外的外部學術庫進行猜測，以確保醫學專科分析的極致精準度。\n\n***\n\n🧩 **相關高頻考點建議 (High-Yield Nudge)：**\n在實際管理因 **`FRMCD / SDMCD`** 而需要接受 **`cyclophosphamide`** 治療的患者時，**`KDIGO 2021 Chapter 1 (Passage 351, 352)`** 與 **`Chapter 5 (Passage 401, 402)`** 提出了一個在專科應試與臨床照護中極具人文關懷與安全性防禦價值的「**生育與膀胱防衛**」考點：**「在臨床上，為最大限度降低藥物的 gonadal toxicity，指引明確推薦（Practice Point 1.13.3）：(1) 對於所有有生育意願的患者，在啟動 cyclophosphamide 之前，必須『offer the opportunity for sperm or ovum storage/preservation (主動提供精子銀行或卵子冷凍保存，參見 Passage 351)』；(2) 在治療期間，女性患者可同時接受 gonadotropin-releasing hormone agonist（如 leuprolide）治療，男性患者可接受 testosterone 治療以提供生殖腺保護（Passage 352）；(3) 為規避 acrolein 引發的 bladder toxicity，口服 cyclophosphamide 必須安排在『清晨/早晨服用（should be taken in the morning，Passage 353）』，並衛教患者在白天進行『大量飲水（copious fluid intake，Passage 353）』以促進尿液稀釋與排空，避免有毒代謝物於夜間在膀胱長時間滯留蓄積。」** 您是否需要我為您建立一個「**臨床處理頻繁復發型足細胞病期間，如何聯合患者的『年齡與卵巢儲備估算』、滴定『CYC 晨間服藥與 Mesna 膀胱防禦指徵』、以及在 CYC 失敗後無縫橋接『Rituximab B細胞清除方案』的多步驟安全臨床決策路徑**」，以協助您設計更具實戰辨析深度與臨床安全教學價值的整合性情境題？",
         "databaseSufficiency": "SUFFICIENT",
-        "selectedOption": "A"
+        "selectedOption": "NONE"
       }
     ],
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "UNVERIFIED",
+    "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q9",
@@ -450,7 +474,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q10",
@@ -500,7 +527,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q11",
@@ -551,7 +581,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q12",
@@ -601,7 +634,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q13",
@@ -651,7 +687,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q14",
@@ -701,7 +740,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q15",
@@ -751,7 +793,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q16",
@@ -801,7 +846,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q17",
@@ -851,7 +899,10 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   },
   {
     "id": "mcd_q18",
@@ -901,6 +952,9 @@
     "reconciledAnswer": "A",
     "qcStatus": "PASSED",
     "qcVerified": true,
-    "disputeStatus": "HIGH_CONFIDENCE"
+    "disputeStatus": "HIGH_CONFIDENCE",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+    "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
   }
 ]

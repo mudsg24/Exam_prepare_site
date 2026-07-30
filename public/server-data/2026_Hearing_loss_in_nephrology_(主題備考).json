@@ -43,12 +43,14 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "1",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。"
     },
     {
       "stem": "A 25-year-old female is evaluated for asymptomatic persistent microscopic hematuria. Her blood pressure and serum creatinine are normal. Her mother and sister also have isolated hematuria. Audiometry reveals normal hearing. Renal biopsy electron microscopy is most likely to show which of the following?",
@@ -89,12 +91,14 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "2",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。"
     },
     {
       "stem": "A neonate is born with severe polyhydramnios, polyuria, and profound sensorineural hearing loss. Laboratory findings reveal hypokalemia, metabolic alkalosis, and hyperreninemia. Genetic testing is most likely to reveal a mutation in which of the following genes?",
@@ -135,12 +139,14 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "3",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。"
     },
     {
       "stem": "A 3-year-old boy presents with failure to thrive, recurrent nephrolithiasis, and bilateral sensorineural hearing loss. Laboratory tests show normal anion gap metabolic acidosis, hypokalemia, and urine pH of 6.8. A defect in which of the following is the most likely cause?",
@@ -181,12 +187,14 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "4",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。"
     },
     {
       "stem": "A 5-year-old child presents with global developmental delay, ataxia, and sensorineural hearing loss. Laboratory evaluation reveals hypokalemia and metabolic alkalosis. Blood pressure is normal. A mutation in which of the following genes is the underlying cause?",
@@ -227,12 +235,14 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "5",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。"
     },
     {
       "stem": "A 30-year-old male presents with proteinuria, angiokeratomas, neuropathic pain in his extremities, and mild sensorineural hearing loss. Urinalysis shows Maltese cross configurations. Deficiency of which of the following enzymes is responsible for this condition?",
@@ -273,12 +283,14 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "6",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。"
     },
     {
       "stem": "A 40-year-old female with short stature and a history of type 2 diabetes mellitus since age 25 presents with progressive chronic kidney disease and sensorineural hearing loss. Renal biopsy demonstrates focal segmental glomerulosclerosis. Which of the following genetic abnormalities is most likely present?",
@@ -319,12 +331,14 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "7",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。"
     },
     {
       "stem": "An infant presents with nephrotic syndrome that does not respond to corticosteroids, accompanied by severe sensorineural hearing loss. Renal biopsy reveals collapsing focal segmental glomerulosclerosis. Genetic testing shows a defect in coenzyme Q10 biosynthesis. Which gene is most likely mutated?",
@@ -365,12 +379,14 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "8",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。"
     },
     {
       "stem": "A 65-year-old male with severe heart failure receives a high-dose continuous intravenous infusion of furosemide. He suddenly complains of tinnitus and bilateral hearing loss. The ototoxicity is primarily mediated by the inhibition of which transporter in the inner ear?",
@@ -398,25 +414,27 @@
         {
           "notebookTitle": "Brenner & KDIGO 11e Medical Evidence",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 數據庫限制與文獻檢索分析 (Database Limitation & Source Analysis)\n\n經詳細檢索與比對隨附之 **Brenner & Rector's The Kidney** 與 **KDIGO Guidelines** 等文獻資料庫，現有 sources 之中僅記載了 **loop diuretics** 引發 **ototoxicity** 的**臨床表現與預防手段**，但**並未**提及或解析其於內耳中作用之分子靶點（即 **NKCC1** 抑制機制）。以下為文獻資料庫的具體覆蓋評估：\n\n*   **現有文獻中關於 Loop Diuretic Ototoxicity 的記載 (What the Sources Cover)**：\n    *   在 **KDIGO 2021 Glomerular Diseases Guideline** 與 **KDIGO 2026 AKI-AKD Guideline** 中明確指出，**ototoxicity**（臨床表現為 **hearing loss** 與 **tinnitus**）是 **loop diuretics** 的重要 **adverse effect**，特別是當投予 **high doses** 時 [Passage 790, 932]。\n    *   指南強調，在臨床給藥時應絕對避免將 **loop diuretics** 以快速靜脈推注（**rapid intravenous \"push\"**）的方式給予 [Passage 790]。\n    *   為了降低 **ototoxicity** 的發生風險，臨床上建議將 **loop diuretics** 改為持續靜脈輸注（**continuous intravenous infusion**），此給藥模式不僅能減輕毒性，還能維持穩定的利尿排泄效果 [Passage 790]。\n    *   在 **Brenner & Rector's The Kidney** 第 74 章中，亦提到在罹患 **CKD** 的兒童中，頻繁使用的 **furosemide** 聯手 **aminoglycoside antibiotics** 皆具有潛在的 **ototoxic** 損害 [Passage 714]。\n*   **現有文獻中缺乏之關鍵資訊 (What is Missing in the Sources)**：\n    *   隨附文獻中**完全沒有**說明 **furosemide** 引起 **ototoxicity** 的微觀細胞生理學與解剖學定位。\n    *   文獻中未提及內耳中（如 **stria vascularis**）是否存在 **Na-K-2Cl cotransporter 1 (NKCC1)** 及其在維持 **endocochlear potential** 中的作用。\n    *   文獻中關於 **NKCC** 家族的詳細分析，幾乎完全局限於腎臟生理：即表達於 **thick ascending limb (TAL)** 與 **macula densa** 頂端膜、介導 **NaCl** 重吸收與 **tubuloglomerular feedback (TGF)** 的 **NKCC2** [Passage 157, 158, 199, 537]；以及表達於 **cortical collecting duct (CCD)** 之 **type A intercalated cells** 基底側膜、介導 **Cl−** 吸收的 **NKCC1** [Passage 51]，均與內耳聽力受損機制無涉。\n\n因此，本題觸發 **Database Limitation Guard**。為了維護醫學專科評估的絕對嚴謹性，本分析判定現有資料庫缺乏直接的分子病理生理學證據以確認正確選項。\n\n---\n\n### 2. 模擬專科醫學分析：選項生理學與干擾項論述 (Clinical Context & Option Analysis)\n\n若結合轉譯醫學與外部專科臨床共識，本題在學理上的正確答案應指向 **Option (A) Na-K-2Cl cotransporter 1 (NKCC1)**。以下基於現有文獻所載之相關轉運體生理學，進行模擬分析：\n\n*   **NKCC1 (Option A) 生理定位與機制**：\n    *   雖然 sources 僅記載 **NKCC1** 於腎臟 **CCD** 的 **intercalated cells** 參與 **Cl−** 轉運 [Passage 51] 並在 **renin secretion** 中發揮部分作用 [Passage 204]，但在耳科生理學中，**NKCC1** 高度表達於內耳的 **stria vascularis** 內。\n    *   當投予 **high-dose continuous intravenous infusion of furosemide** 時，藥物會抑制內耳的 **NKCC1**，阻斷內淋巴液（**endolymph**）中鉀離子（$K^+$）的分泌，導致 **endocochlear potential** 驟降，進而引發耳蝸毛細胞功能暫時或永久性受損，臨床上突發 **tinnitus** 與 **bilateral hearing loss**。\n*   **NCC (Option B) 干擾項分析**：\n    *   **NCC** 是 **thiazide-sensitive Na-Cl cotransporter**，專一性表達於 **distal convoluted tubule (DCT)** [Passage 41, 114]。\n    *   **NCC** 的主要臨床相關突變會導致 **Gitelman's syndrome**（表現為 **hypokalemic metabolic alkalosis**、**hypomagnesemia** 與 **hypocalciuria**） [Passage 293, 322, 695]。**NCC** 並非 **loop diuretics** 的藥理靶點，亦無文獻支持其與內耳 **ototoxicity** 具有病理生理學關聯。\n*   **ENaC (Option C) 干擾項分析**：\n    *   **ENaC** 是 **epithelial sodium channel**，表達於 **ASDN**（包括 **connecting tubule** 與 **collecting duct**） [Passage 178, 180]。其藥理學阻斷劑為 **amiloride**、**triamterene**、**trimethoprim** 與 **pentamidine** [Passage 229, 253, 255]，而非 **furosemide**。\n    *   **ENaC** 突變可引發 **Liddle's syndrome** 或 **pseudohypoaldosteronism type 1 (PHA-1)** [Passage 222, 485]，其與 **loop diuretic-induced ototoxicity** 無涉。\n*   **Na-K-ATPase (Option D) 干擾項分析**：\n    *   **Na-K-ATPase** 廣泛表達於幾乎所有腎小管上皮細胞的基底側膜（**basolateral membrane**），負責建立跨膜電化學梯度 [Passage 19, 29, 178]。\n    *   雖然其為所有主動轉運的能量泉源，但其特異性抑制劑為 **cardiac glycosides**（如 **digoxin** 與 **ouabain**） [Passage 244]，並非 **loop diuretics** 的直接藥理阻斷靶點。\n\n---\n\n### 3. Citations & References (引用文獻)\n\n*   **Chapter & Section**：\n    *   **Chapter 50: Diuretics** of *Brenner & Rector's The Kidney*:\n        *   Section: **CLINICAL USES OF DIURETICS** -> **CHRONIC KIDNEY DISEASE** (identifying *high plasma levels of furosemide can cause ototoxicity* and referencing ceiling doses to prevent toxicity) [Passage 557].\n        *   Section: **ADVERSE EFFECTS OF DIURETICS** (referencing Rybak LP [Passage 607] and Humes HD [Passage 603] regarding loop diuretic ototoxicity).\n    *   **Chapter 74: Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease** of *Brenner & Rector's The Kidney*:\n        *   Section: **COGNITIVE AND NEURODEVELOPMENTAL OUTCOMES** (noting that *furosemide is potentially ototoxic* in children with CKD) [Passage 714].\n    *   **Chapter 5: Minimal change disease (MCD) in adults** of the *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*:\n        *   Section: **Practice Point 5.5.4** (advising: *\"Avoid administration of loop diuretics as a rapid intravenous 'push,' as toxicity can occur (hearing loss and/or tinnitus)\"*) [Passage 790].\n    *   **Chapter 6: Transport of Sodium, Chloride, and Potassium** of *Brenner & Rector's The Kidney*:\n        *   Section: **Cl− Transport** (documenting basolateral *NKCC1* in *type A intercalated cells*) [Passage 51].\n        *   Section: **ANATOMY OF THE DISTAL NEPHRON** (discussing *NCC* in the *DCT*) [Passage 41].\n\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 50.9 (Chapter 50)**: *\"Mechanisms of distal convoluted tubule (DCT) and collecting duct (CD) diuretics\"*, demonstrating ENaC, ROMK, and NCC pathways [Passage 545].\n    *   **Table 50.1 (Chapter 50)**: *\"Ceiling Doses of Loop Diuretics (in mL)\"*, showing dose limits in various GFR categories to prevent adverse outcomes including ototoxicity [Passage 558, 559].\n\n---\n\n🎧 **Nudge**: 雖然本題的內耳轉運體細節超出了您現有文獻庫的範圍，但我們可以進一步探討在 **congestive heart failure** 患者中，如何利用 **furosemide stress test (FST)** [Passage 383, 389] 聯手監測 **fractional excretion of sodium (FENa)** [Passage 408]，來在早期動態評估患者的 **renal tubular function reserve**（腎小管功能儲備），並優化 **decongestive therapy** 的安全性與反應性。",
-          "selectedOption": "A",
+          "selectedOption": "NONE",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED"
         },
         {
           "notebookTitle": "Brenner & KDIGO 11e Medical Evidence",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 數據庫限制與文獻檢索分析 (Database Limitation & Source Analysis)\n\n經詳細檢索與比對隨附之 **Brenner & Rector's The Kidney** 與 **KDIGO Guidelines** 等文獻資料庫，現有 sources 之中僅記載了 **loop diuretics** 引發 **ototoxicity** 的**臨床表現與預防手段**，但**並未**提及或解析其於內耳中作用之分子靶點（即 **NKCC1** 抑制機制）。以下為文獻資料庫的具體覆蓋評估：\n\n*   **現有文獻中關於 Loop Diuretic Ototoxicity 的記載 (What the Sources Cover)**：\n    *   在 **KDIGO 2021 Glomerular Diseases Guideline** 與 **KDIGO 2026 AKI-AKD Guideline** 中明確指出，**ototoxicity**（臨床表現為 **hearing loss** 與 **tinnitus**）是 **loop diuretics** 的重要 **adverse effect**，特別是當投予 **high doses** 時 [Passage 790, 932]。\n    *   指南強調，在臨床給藥時應絕對避免將 **loop diuretics** 以快速靜脈推注（**rapid intravenous \"push\"**）的方式給予 [Passage 790]。\n    *   為了降低 **ototoxicity** 的發生風險，臨床上建議將 **loop diuretics** 改為持續靜脈輸注（**continuous intravenous infusion**），此給藥模式不僅能減輕毒性，還能維持穩定的利尿排泄效果 [Passage 790]。\n    *   在 **Brenner & Rector's The Kidney** 第 74 章中，亦提到在罹患 **CKD** 的兒童中，頻繁使用的 **furosemide** 聯手 **aminoglycoside antibiotics** 皆具有潛在的 **ototoxic** 損害 [Passage 714]。\n*   **現有文獻中缺乏之關鍵資訊 (What is Missing in the Sources)**：\n    *   隨附文獻中**完全沒有**說明 **furosemide** 引起 **ototoxicity** 的微觀細胞生理學與解剖學定位。\n    *   文獻中未提及內耳中（如 **stria vascularis**）是否存在 **Na-K-2Cl cotransporter 1 (NKCC1)** 及其在維持 **endocochlear potential** 中的作用。\n    *   文獻中關於 **NKCC** 家族的詳細分析，幾乎完全局限於腎臟生理：即表達於 **thick ascending limb (TAL)** 與 **macula densa** 頂端膜、介導 **NaCl** 重吸收與 **tubuloglomerular feedback (TGF)** 的 **NKCC2** [Passage 157, 158, 199, 537]；以及表達於 **cortical collecting duct (CCD)** 之 **type A intercalated cells** 基底側膜、介導 **Cl−** 吸收的 **NKCC1** [Passage 51]，均與內耳聽力受損機制無涉。\n\n因此，本題觸發 **Database Limitation Guard**。為了維護醫學專科評估的絕對嚴謹性，本分析判定現有資料庫缺乏直接的分子病理生理學證據以確認正確選項。\n\n---\n\n### 2. 模擬專科醫學分析：選項生理學與干擾項論述 (Clinical Context & Option Analysis)\n\n若結合轉譯醫學與外部專科臨床共識，本題在學理上的正確答案應指向 **Option (A) Na-K-2Cl cotransporter 1 (NKCC1)**。以下基於現有文獻所載之相關轉運體生理學，進行模擬分析：\n\n*   **NKCC1 (Option A) 生理定位與機制**：\n    *   雖然 sources 僅記載 **NKCC1** 於腎臟 **CCD** 的 **intercalated cells** 參與 **Cl−** 轉運 [Passage 51] 並在 **renin secretion** 中發揮部分作用 [Passage 204]，但在耳科生理學中，**NKCC1** 高度表達於內耳的 **stria vascularis** 內。\n    *   當投予 **high-dose continuous intravenous infusion of furosemide** 時，藥物會抑制內耳的 **NKCC1**，阻斷內淋巴液（**endolymph**）中鉀離子（$K^+$）的分泌，導致 **endocochlear potential** 驟降，進而引發耳蝸毛細胞功能暫時或永久性受損，臨床上突發 **tinnitus** 與 **bilateral hearing loss**。\n*   **NCC (Option B) 干擾項分析**：\n    *   **NCC** 是 **thiazide-sensitive Na-Cl cotransporter**，專一性表達於 **distal convoluted tubule (DCT)** [Passage 41, 114]。\n    *   **NCC** 的主要臨床相關突變會導致 **Gitelman's syndrome**（表現為 **hypokalemic metabolic alkalosis**、**hypomagnesemia** 與 **hypocalciuria**） [Passage 293, 322, 695]。**NCC** 並非 **loop diuretics** 的藥理靶點，亦無文獻支持其與內耳 **ototoxicity** 具有病理生理學關聯。\n*   **ENaC (Option C) 干擾項分析**：\n    *   **ENaC** 是 **epithelial sodium channel**，表達於 **ASDN**（包括 **connecting tubule** 與 **collecting duct**） [Passage 178, 180]。其藥理學阻斷劑為 **amiloride**、**triamterene**、**trimethoprim** 與 **pentamidine** [Passage 229, 253, 255]，而非 **furosemide**。\n    *   **ENaC** 突變可引發 **Liddle's syndrome** 或 **pseudohypoaldosteronism type 1 (PHA-1)** [Passage 222, 485]，其與 **loop diuretic-induced ototoxicity** 無涉。\n*   **Na-K-ATPase (Option D) 干擾項分析**：\n    *   **Na-K-ATPase** 廣泛表達於幾乎所有腎小管上皮細胞的基底側膜（**basolateral membrane**），負責建立跨膜電化學梯度 [Passage 19, 29, 178]。\n    *   雖然其為所有主動轉運的能量泉源，但其特異性抑制劑為 **cardiac glycosides**（如 **digoxin** 與 **ouabain**） [Passage 244]，並非 **loop diuretics** 的直接藥理阻斷靶點。\n\n---\n\n### 3. Citations & References (引用文獻)\n\n*   **Chapter & Section**：\n    *   **Chapter 50: Diuretics** of *Brenner & Rector's The Kidney*:\n        *   Section: **CLINICAL USES OF DIURETICS** -> **CHRONIC KIDNEY DISEASE** (identifying *high plasma levels of furosemide can cause ototoxicity* and referencing ceiling doses to prevent toxicity) [Passage 557].\n        *   Section: **ADVERSE EFFECTS OF DIURETICS** (referencing Rybak LP [Passage 607] and Humes HD [Passage 603] regarding loop diuretic ototoxicity).\n    *   **Chapter 74: Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease** of *Brenner & Rector's The Kidney*:\n        *   Section: **COGNITIVE AND NEURODEVELOPMENTAL OUTCOMES** (noting that *furosemide is potentially ototoxic* in children with CKD) [Passage 714].\n    *   **Chapter 5: Minimal change disease (MCD) in adults** of the *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*:\n        *   Section: **Practice Point 5.5.4** (advising: *\"Avoid administration of loop diuretics as a rapid intravenous 'push,' as toxicity can occur (hearing loss and/or tinnitus)\"*) [Passage 790].\n    *   **Chapter 6: Transport of Sodium, Chloride, and Potassium** of *Brenner & Rector's The Kidney*:\n        *   Section: **Cl− Transport** (documenting basolateral *NKCC1* in *type A intercalated cells*) [Passage 51].\n        *   Section: **ANATOMY OF THE DISTAL NEPHRON** (discussing *NCC* in the *DCT*) [Passage 41].\n\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 50.9 (Chapter 50)**: *\"Mechanisms of distal convoluted tubule (DCT) and collecting duct (CD) diuretics\"*, demonstrating ENaC, ROMK, and NCC pathways [Passage 545].\n    *   **Table 50.1 (Chapter 50)**: *\"Ceiling Doses of Loop Diuretics (in mL)\"*, showing dose limits in various GFR categories to prevent adverse outcomes including ototoxicity [Passage 558, 559].\n\n---\n\n🎧 **Nudge**: 雖然本題的內耳轉運體細節超出了您現有文獻庫的範圍，但我們可以進一步探討在 **congestive heart failure** 患者中，如何利用 **furosemide stress test (FST)** [Passage 383, 389] 聯手監測 **fractional excretion of sodium (FENa)** [Passage 408]，來在早期動態評估患者的 **renal tubular function reserve**（腎小管功能儲備），並優化 **decongestive therapy** 的安全性與反應性。",
-          "selectedOption": "A",
+          "selectedOption": "NONE",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED"
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "9",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。"
     },
     {
       "stem": "A patient with a severe Pseudomonas aeruginosa infection is treated with amikacin. After a week of therapy, he develops acute kidney injury and high-frequency hearing loss. Which of the following receptors facilitates the entry of this drug into both renal tubular cells and cochlear hair cells?",
@@ -457,12 +475,14 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "10",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。"
     },
     {
       "stem": "A 55-year-old man receiving chemotherapy for a solid tumor develops acute kidney injury, hypomagnesemia, and irreversible sensorineural hearing loss. Which of the following transporters is essential for the uptake of this chemotherapeutic agent into proximal tubular cells?",
@@ -503,12 +523,14 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "11",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。"
     },
     {
       "stem": "A 45-year-old male presents with hemoptysis, hematuria, and rapidly progressive glomerulonephritis. He also complains of chronic purulent nasal discharge, epistaxis, and bilateral conductive hearing loss. Laboratory tests are positive for PR3-ANCA. What is the most likely diagnosis?",
@@ -549,12 +571,14 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "12",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。"
     },
     {
       "stem": "A 20-year-old male with known Alport syndrome is planning to have children. His wife is healthy. He has an X-linked COL4A5 mutation. What is the risk that his daughters will inherit the mutated gene?",
@@ -595,12 +619,14 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "13",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。"
     },
     {
       "stem": "In a patient diagnosed with Bartter syndrome type IV, profound deafness is observed alongside renal salt wasting. The defective protein, Barttin, normally functions as an essential beta subunit for which of the following channels?",
@@ -641,12 +667,14 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "14",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。"
     },
     {
       "stem": "Rapid intravenous administration of ethacrynic acid in a patient with acute pulmonary edema leads to transient profound hearing loss. The ototoxic effect occurs due to dysfunction in which specific anatomical structure of the inner ear?",
@@ -687,12 +715,14 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "15",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。"
     },
     {
       "stem": "A patient treated with gentamicin develops high-frequency hearing loss. The ototoxicity is primarily thought to result from the accumulation of the drug inside hair cells, which subsequently triggers apoptosis through the generation of which of the following?",
@@ -733,12 +763,14 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "16",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。"
     },
     {
       "stem": "To minimize the risk of ototoxicity and nephrotoxicity in a patient receiving high-dose cisplatin therapy, robust intravenous hydration is initiated. Which of the following statements best describes the nature of cisplatin-induced hearing loss?",
@@ -779,12 +811,14 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "17",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。"
     },
     {
       "stem": "A renal biopsy from a male patient with a known GLA gene mutation and sensorineural hearing loss is examined under electron microscopy. Which of the following ultrastructural findings is highly characteristic of this condition?",
@@ -825,12 +859,14 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "18",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。"
     },
     {
       "stem": "A patient with maternally inherited diabetes and deafness (MIDD) develops proteinuria and a rising serum creatinine. A kidney biopsy is performed. Which of the following is the most frequently observed histological pattern in the kidneys of patients with MIDD?",
@@ -858,25 +894,27 @@
         {
           "notebookTitle": "Brenner & KDIGO 11e Medical Evidence",
           "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 隨附文獻內容與缺乏資訊分析 (Analysis of Available Evidence and Missing Information)\n\n雖然隨附的 **`Brenner & Rector's The Kidney`** 與 **`KDIGO Guidelines`** 包含了關於遺傳性與代謝性腎臟病的詳細分類，並多次提及縮寫為 **`MIDD`** 的另一種疾病，但並未提供關於 **`Maternally Inherited Diabetes and Deafness` (MIDD)** 這一特定 **`mitochondrial cytopathy`** 於 **`kidney biopsy`** 組織學表現上的特徵性數據。\n\n以下為現有文獻所載內容與缺失資訊之詳細對比：\n\n#### 1. 隨附文獻中已涵蓋的相關內容 (Available Evidence in Sources)：\n*   **文獻中縮寫 `MIDD` 指代之疾病 (Monoclonal Immunoglobulin Deposition Disease)**：\n    *   在 **`Chapter 32: Secondary Glomerular Disease`**（`Passage 257, 283`）中，縮寫 **`MIDD`** 被明確用於指代 **`Monoclonal Immunoglobulin Deposition Disease`**。\n    *   此疾病包含 **`LCDD`**、**`LHCDD`** 與 **`HCDD`** `[Passage 257]`。其在 **`light microscopy`** 下最典型的表現為 **`nodular sclerosing glomerulopathy`**，呈現與 **`diabetic nephropathy`** 相似的 **`mesangial nodules`** `[Passage 259, 262]`。\n*   **與「母體糖尿病」及「聽力喪失」相關之零星記載 (Associated Scatters in Sources)**：\n    *   在 **`Chapter 21: Developmental Programming of Blood Pressure and Renal Function Through the Life Course`**（`Passage 51`）中，提及了在 **`rat models`** 中，**`maternal diabetes`** 與子代 **`oligonephronia`**、高血傷以及加速進展至 **`FSGS`** 相關。\n    *   在 **`Chapter 32: Secondary Glomerular Disease`**（`Passage 251, 284, 287`）與 **`Chapter 43: Inherited Disorders of the Glomerulus`**（`Passage 401`）中，多次提及 **`Alport syndrome`** 伴隨 **`nerve deafness`** 的遺傳學與臨床特徵。\n    *   在 **`Chapter 43: Inherited Disorders of the Glomerulus`** 的 **`Table 43.1`** 縮寫表（`Passage 388`）中，提及了 **`MELAS`**。\n\n#### 2. 隨附文獻中缺乏的關鍵細節 (Missing Information in Sources)：\n*   **缺乏對 `Maternally Inherited Diabetes and Deafness` (MIDD) 腎臟病理之論述**：\n    *   隨附的所有文獻中，**完全沒有**提及因線粒體 **`tRNA`**（特別是 **`m.3243A>G`** 突變）異常所導致的 **`Maternally Inherited Diabetes and Deafness` (MIDD)**。\n    *   文獻中亦完全缺乏關於此類 **`mitochondrial cytopathies`** 在進行 **`kidney biopsy`** 時，最常觀察到的特徵性 **`histological pattern`** 為 **`Focal Segmental Glomerulosclerosis` (FSGS)** 的病理學機制與臨床診斷指引。\n*   **容易混淆之同名縮寫學術陷阱**：\n    *   在醫學專科檢定中，此題為經典的雙重縮寫混淆陷阱。若未能區分文獻中已詳細記載之 **`Monoclonal Immunoglobulin Deposition Disease` (MIDD)**（其特徵組織學為 **`nodular glomerulosclerosis`**）與本題所問之線粒體病變 **`Maternally Inherited Diabetes and Deafness` (MIDD)**（其特徵組織學為 **`FSGS`**），則極易落入病理診斷與分子分類的盲區。由於後者在隨附文獻中無文字記載，因此無法依靠現有 sources 確認。\n\n基於 **`NotebookLM`** 嚴格的「**真實與源頭文獻精準對齊**」承諾，在隨附資料完全缺乏此等線粒體遺傳性腎病變之病理組織型態細節的情況下，無法在不調用外部知識的前提下確認正確選項。因此，在此輸出 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n---\n\n🔍 您是否想進一步深入討論，在 **`Brenner & Rector`** 原始完整文獻中，關於 **`mitochondrial cytopathies`**（如 **`MELAS`** 與 **`MIDD`**）如何因為 **`coenzyme Q10`** 合成途徑相關基因（例如 **`COQ2`**、**`COQ6`**、**`ADCK4`**）突變導致 **`podocyte`** 能量代謝障礙，進而引發 **`steroid-resistant nephrotic syndrome`** 伴隨 **`FSGS`** 的分子致病機制？我隨時可以為您作深度剖析。",
-          "selectedOption": "C",
+          "selectedOption": "NONE",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED"
         },
         {
           "notebookTitle": "Brenner & KDIGO 11e Medical Evidence",
           "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 隨附文獻內容與缺乏資訊分析 (Analysis of Available Evidence and Missing Information)\n\n雖然隨附的 **`Brenner & Rector's The Kidney`** 與 **`KDIGO Guidelines`** 包含了關於遺傳性與代謝性腎臟病的詳細分類，並多次提及縮寫為 **`MIDD`** 的另一種疾病，但並未提供關於 **`Maternally Inherited Diabetes and Deafness` (MIDD)** 這一特定 **`mitochondrial cytopathy`** 於 **`kidney biopsy`** 組織學表現上的特徵性數據。\n\n以下為現有文獻所載內容與缺失資訊之詳細對比：\n\n#### 1. 隨附文獻中已涵蓋的相關內容 (Available Evidence in Sources)：\n*   **文獻中縮寫 `MIDD` 指代之疾病 (Monoclonal Immunoglobulin Deposition Disease)**：\n    *   在 **`Chapter 32: Secondary Glomerular Disease`**（`Passage 257, 283`）中，縮寫 **`MIDD`** 被明確用於指代 **`Monoclonal Immunoglobulin Deposition Disease`**。\n    *   此疾病包含 **`LCDD`**、**`LHCDD`** 與 **`HCDD`** `[Passage 257]`。其在 **`light microscopy`** 下最典型的表現為 **`nodular sclerosing glomerulopathy`**，呈現與 **`diabetic nephropathy`** 相似的 **`mesangial nodules`** `[Passage 259, 262]`。\n*   **與「母體糖尿病」及「聽力喪失」相關之零星記載 (Associated Scatters in Sources)**：\n    *   在 **`Chapter 21: Developmental Programming of Blood Pressure and Renal Function Through the Life Course`**（`Passage 51`）中，提及了在 **`rat models`** 中，**`maternal diabetes`** 與子代 **`oligonephronia`**、高血傷以及加速進展至 **`FSGS`** 相關。\n    *   在 **`Chapter 32: Secondary Glomerular Disease`**（`Passage 251, 284, 287`）與 **`Chapter 43: Inherited Disorders of the Glomerulus`**（`Passage 401`）中，多次提及 **`Alport syndrome`** 伴隨 **`nerve deafness`** 的遺傳學與臨床特徵。\n    *   在 **`Chapter 43: Inherited Disorders of the Glomerulus`** 的 **`Table 43.1`** 縮寫表（`Passage 388`）中，提及了 **`MELAS`**。\n\n#### 2. 隨附文獻中缺乏的關鍵細節 (Missing Information in Sources)：\n*   **缺乏對 `Maternally Inherited Diabetes and Deafness` (MIDD) 腎臟病理之論述**：\n    *   隨附的所有文獻中，**完全沒有**提及因線粒體 **`tRNA`**（特別是 **`m.3243A>G`** 突變）異常所導致的 **`Maternally Inherited Diabetes and Deafness` (MIDD)**。\n    *   文獻中亦完全缺乏關於此類 **`mitochondrial cytopathies`** 在進行 **`kidney biopsy`** 時，最常觀察到的特徵性 **`histological pattern`** 為 **`Focal Segmental Glomerulosclerosis` (FSGS)** 的病理學機制與臨床診斷指引。\n*   **容易混淆之同名縮寫學術陷阱**：\n    *   在醫學專科檢定中，此題為經典的雙重縮寫混淆陷阱。若未能區分文獻中已詳細記載之 **`Monoclonal Immunoglobulin Deposition Disease` (MIDD)**（其特徵組織學為 **`nodular glomerulosclerosis`**）與本題所問之線粒體病變 **`Maternally Inherited Diabetes and Deafness` (MIDD)**（其特徵組織學為 **`FSGS`**），則極易落入病理診斷與分子分類的盲區。由於後者在隨附文獻中無文字記載，因此無法依靠現有 sources 確認。\n\n基於 **`NotebookLM`** 嚴格的「**真實與源頭文獻精準對齊**」承諾，在隨附資料完全缺乏此等線粒體遺傳性腎病變之病理組織型態細節的情況下，無法在不調用外部知識的前提下確認正確選項。因此，在此輸出 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n---\n\n🔍 您是否想進一步深入討論，在 **`Brenner & Rector`** 原始完整文獻中，關於 **`mitochondrial cytopathies`**（如 **`MELAS`** 與 **`MIDD`**）如何因為 **`coenzyme Q10`** 合成途徑相關基因（例如 **`COQ2`**、**`COQ6`**、**`ADCK4`**）突變導致 **`podocyte`** 能量代謝障礙，進而引發 **`steroid-resistant nephrotic syndrome`** 伴隨 **`FSGS`** 的分子致病機制？我隨時可以為您作深度剖析。",
-          "selectedOption": "C",
+          "selectedOption": "NONE",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED"
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "19",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。"
     },
     {
       "stem": "A 5-year-old girl is evaluated for short stature and bilateral sensorineural hearing loss. She has recurrent episodes of muscle weakness. Laboratory evaluation reveals a serum potassium of 2.8 mEq/L, serum bicarbonate of 14 mEq/L, and a positive urine anion gap. Her condition is caused by a mutation in a subunit of which of the following?",
@@ -917,12 +955,14 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:20.272979+00:00",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "id": "20",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check."
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。"
     }
   ],
   "qcVerified": true,

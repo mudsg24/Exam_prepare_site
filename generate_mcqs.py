@@ -1,0 +1,383 @@
+import json
+
+questions = [
+    {
+        "id": "q1",
+        "number": 1,
+        "stem": "A 64-year-old male with early AKI (KDIGO Stage 2) and persistent oliguria is evaluated for a Furosemide Stress Test (FST). He has no prior history of loop diuretic use and is euvolemic following initial fluid resuscitation. What is the standard recommended IV furosemide dose for this test, and what 2-hour urine output cutoff best predicts non-progression to KDIGO Stage 3 AKI or need for RRT?",
+        "options": [
+            {"id": "A", "text": "1.0 mg/kg IV furosemide; 2-hour urine output ≥ 200 mL"},
+            {"id": "B", "text": "1.5 mg/kg IV furosemide; 2-hour urine output ≥ 200 mL"},
+            {"id": "C", "text": "1.0 mg/kg IV furosemide; 2-hour urine output ≥ 500 mL"},
+            {"id": "D", "text": "1.5 mg/kg IV furosemide; 2-hour urine output ≥ 100 mL"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Furosemide Stress Test (FST) 的標準試驗劑量在 Loop-Naive（先前未曾使用迴路利尿劑）患者中為 1.0 mg/kg IV Bolus；若患者先前有 Loop Diuretic 使用史，則劑量需調整至 1.5 mg/kg IV Bolus。評估 2 小時累積尿量（Cumulative 2-Hour Urine Output），若尿量 ≥ 200 mL（相當於平均 ≥ 100 mL/hr），判定為 FST Positive，代表 Tubular Functional Integrity 依然保存良好，極高敏感度（87%）與特異度（84%）預測其不會進展至 KDIGO Stage 3 AKI 或需要 Renal Replacement Therapy (RRT)。",
+        "resolvedImages": [
+            {
+                "id": "FST_Protocol_AI",
+                "type": "ai_illustration",
+                "imagePath": "/server-data/assets/furosemide_fst_protocol.jpg",
+                "caption": "Furosemide Stress Test Protocol and 2-Hour Urine Output Cutoff."
+            }
+        ]
+    },
+    {
+        "id": "q2",
+        "number": 2,
+        "stem": "A 58-year-old female with chronic kidney disease (CKD Stage 3b) and severe hypertension has been taking maintenance furosemide 40 mg PO daily. She is evaluated for a Furosemide Stress Test (FST) due to new-onset oliguric AKI. Which of the following is the correct IV furosemide challenge dose for this patient?",
+        "options": [
+            {"id": "A", "text": "0.5 mg/kg IV furosemide"},
+            {"id": "B", "text": "1.5 mg/kg IV furosemide"},
+            {"id": "C", "text": "2.5 mg/kg IV furosemide"},
+            {"id": "D", "text": "1.0 mg/kg IV furosemide"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "對於有過往 Loop Diuretic 使用經驗的患者，腎小管遠端已產生一定程度的 Compensatory Tubular Adaptation 與 Distal Remodeling。因此在執行 Furosemide Stress Test (FST) 時，標準挑戰劑量必須升級至 1.5 mg/kg IV furosemide（相較於 Loop-Naive 患者的 1.0 mg/kg IV furosemide），以利克服 pre-existing resistance 並精確測量 Tubular Secretion 與 NKCC2 抑制能力。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_15",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_15.png",
+                "caption": "Dose-response curve rightward shift in CKD."
+            }
+        ]
+    },
+    {
+        "id": "q3",
+        "number": 3,
+        "stem": "Which of the following conditions represents an absolute contraindication to performing a Furosemide Stress Test (FST)?",
+        "options": [
+            {"id": "A", "text": "Baseline Serum Creatinine of 2.5 mg/dL"},
+            {"id": "B", "text": "KDIGO Stage 1 Acute Kidney Injury"},
+            {"id": "C", "text": "Uncorrected severe volume depletion / hypovolemia"},
+            {"id": "D", "text": "Concomitant use of ACE inhibitors"}
+        ],
+        "selectedOption": "C",
+        "sourceProvidedAnswer": "C",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Furosemide Stress Test (FST) 的絕對禁忌症包括：Uncorrected Severe Volume Depletion / Hypovolemia（未矯正的嚴重大水份流失）以及 Severe Urinary Tract Obstruction（雙側或單腎尿路阻塞）。在 Volume Depletion 狀態下給予大劑量 Loop Diuretic，會加速 Renal Perfusion 惡化引發 Ischemic ATN 與 Prerenal Failure，甚至致使過度 Dehydration。進行 FST 前必須確認患者血容量充足 (Euvolemic) 並排除阻塞。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q4",
+        "number": 4,
+        "stem": "A 72-year-old male with chronic heart failure takes furosemide 80 mg daily. For chronic osteoarthritis knee pain, he self-administered ibuprofen 400 mg thrice daily for 2 weeks. He presents with worsening peripheral edema, weight gain of 4 kg, and elevated serum creatinine. Which mechanism best explains the blunting of furosemide efficacy by ibuprofen?",
+        "options": [
+            {"id": "A", "text": "NSAID inhibition of COX reduces renal PGE2 and PGI2, causing afferent arteriolar constriction and reducing OAT-mediated tubular secretion of furosemide"},
+            {"id": "B", "text": "NSAID directly binds to NKCC2 and prevents furosemide from reaching its binding site"},
+            {"id": "C", "text": "NSAID causes severe hypoalbuminemia by suppressing hepatic albumin synthesis"},
+            {"id": "D", "text": "NSAID downregulates Organic Cation Transporters (OCT) in the distal convoluted tubule"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "NSAIDs (如 Ibuprofen) 透過雙重機制阻斷 Furosemide 的利尿與排鈉效果：(1) 抑制 Cyclooxygenase (COX-1/COX-2)，減少 Prostaglandin PGE2 與 PGI2 合成。PGE2/PGI2 在 Furosemide 刺激下原本能擴張 Afferent Arterioles 以維繫 GFR 與 Renal Blood Flow，NSAID 阻斷後導致 Afferent Vasoconstriction 與 GFR 下降；(2) NSAIDs 作為 Organic Anions，直接競爭近曲小管 Basolateral Membrane 的 Organic Anion Transporter 1 and 3 (OAT1/OAT3)，嚴重阻礙 Furosemide 分泌至 Tubular Lumen，使其在 NKCC2 的作用濃度大幅降低 50% 以上。",
+        "resolvedImages": [
+            {
+                "id": "NSAID_Furosemide_AI",
+                "type": "ai_illustration",
+                "imagePath": "/server-data/assets/furosemide_nsaid_interaction.jpg",
+                "caption": "Mechanism of NSAID-induced blunting of Furosemide effect."
+            }
+        ]
+    },
+    {
+        "id": "q5",
+        "number": 5,
+        "stem": "A 35-year-old female with Nephrotic Syndrome (Serum Albumin 1.5 g/dL, 24-hr urine protein 9.5 g) exhibits severe diuretic resistance to oral furosemide 80 mg twice daily. Which luminal molecular phenomenon contributes significantly to her impaired diuretic response inside the renal tubule?",
+        "options": [
+            {"id": "A", "text": "Complete downregulation of NKCC2 transporters along the thick ascending limb"},
+            {"id": "B", "text": "Binding of secreted luminal furosemide to heavy filtered urinary albumin, reducing free active drug concentration at NKCC2"},
+            {"id": "C", "text": "Direct enzymatic degradation of furosemide by urinary alkaline phosphatase"},
+            {"id": "D", "text": "Hyperpolarization of ROMK channels preventing lumen-positive potential generation"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "在 Nephrotic Syndrome 伴隨 Heavy Albuminuria 下，大量過濾至 Tubular Lumen 的 Albumin 會在管腔內形成「Urinary Albumin Entrapment (管腔內蛋白陷阱)」。由於 Furosemide 對 Albumin 有高親和力，管腔中游離的 Furosemide 會被大量結合 (Bound Furosemide)，致使能真正結合並抑制 Apical NKCC2 的 Free Active Furosemide 濃度顯著下降，引發嚴重的 Luminal Diuretic Resistance。",
+        "resolvedImages": [
+            {
+                "id": "Furosemide_Albumin_AI",
+                "type": "ai_illustration",
+                "imagePath": "/server-data/assets/furosemide_albumin_delivery.jpg",
+                "caption": "Luminal Albumin Entrapment and Protein Binding Dynamics."
+            }
+        ]
+    },
+    {
+        "id": "q6",
+        "number": 6,
+        "stem": "Regarding the clinical practice of co-administering IV 25% Albumin with IV Furosemide in edematous patients with hypoalbuminemia, which statement is most consistent with current evidence-based guidelines and meta-analyses?",
+        "options": [
+            {"id": "A", "text": "Routine co-administration is recommended for all patients with serum albumin < 3.5 g/dL to enhance diuretic response"},
+            {"id": "B", "text": "Co-administration provides significant long-term mortality benefit in chronic heart failure regardless of albumin levels"},
+            {"id": "C", "text": "Co-administration is primarily effective in severe hypoalbuminemia (Serum Albumin < 2.0 g/dL) with refractory edema, providing modest transient increase in short-term natriuresis"},
+            {"id": "D", "text": "Albumin should always be given 12 hours after furosemide to prevent systemic hypotension"}
+        ],
+        "selectedOption": "C",
+        "sourceProvidedAnswer": "C",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "根據 Cochrane 與多項系統性 Meta-analyses，將 IV 25% Albumin 與 IV Furosemide 併用，其臨床實證效益僅顯著於「Serum Albumin < 2.0 g/dL 伴隨 Refractory Edema / Severe Hypovolemia」的特定患者。在血清蛋白 > 2.0–2.5 g/dL 時常規併用，並無法顯著增加累積利尿量或降低死亡率，且效益多僅維持前 6-8 小時（Modest transient natriuresis）。KDIGO 與權威實證均建議不可全盤常態性使用，應優先發揮 Furosemide 高階天花板劑量與連續滴注效益。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q7",
+        "number": 7,
+        "stem": "A 50-year-old male with a severe anaphylactic sulfa allergy (developed Toxic Epidermal Necrolysis to Trimethoprim-Sulfamethoxazole) presents with acute pulmonary edema. Which loop diuretic can be safely administered to this patient?",
+        "options": [
+            {"id": "A", "text": "Ethacrynic acid"},
+            {"id": "B", "text": "Bumetanide"},
+            {"id": "C", "text": "Torsemide"},
+            {"id": "D", "text": "Furosemide"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Ethacrynic Acid 是唯一不含 Sulfonamide (Sulfa) 結構的 Loop Diuretic（化學上屬於 Phenoxyacetic Acid 衍生物）。Furosemide, Bumetanide, 及 Torsemide 皆含有 Sulfonamide 官能基。因此對於嚴重的 Sulfa Anaphylaxis 或 Stevens-Johnson Syndrome / TEN 患者，Ethacrynic Acid 為唯一安全替代首選。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_3",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_3.png",
+                "caption": "Loop diuretic classifications and chemical structures."
+            }
+        ]
+    },
+    {
+        "id": "q8",
+        "number": 8,
+        "stem": "Which loop diuretic has the highest oral bioavailability (80-100%) and a longer elimination half-life (~3-4 hours), making it particularly useful in chronic heart failure patients with bowel edema?",
+        "options": [
+            {"id": "A", "text": "Furosemide"},
+            {"id": "B", "text": "Torsemide"},
+            {"id": "C", "text": "Ethacrynic acid"},
+            {"id": "D", "text": "Metolazone"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Torsemide 具有高度且可預測的 Oral Bioavailability (80–100%)，且半衰期較長 (3–4 小時，在 Cirrhosis/HF 患者可延長)。相對而言，Furosemide 口服吸收率不穩定 (10–90%，平均 50%) 且易受腸道水腫 (Gut Edema) 干擾。Torsemide 的高吸收率與長半衰期使其在 Chronic Heart Failure 處置中表現優異，且部分研究顯示其具有額外的 Anti-fibrotic (Aldosterone antagonist-like) 心臟重塑保護效益。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_6",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_6.png",
+                "caption": "Pharmacokinetics of Furosemide, Bumetanide, and Torsemide."
+            }
+        ]
+    },
+    {
+        "id": "q9",
+        "number": 9,
+        "stem": "What is the primary cellular transport target of loop diuretics in the Thick Ascending Limb (TAL) of Henle, and what ionic charge modification occurs across the lumen epithelium during its inhibition?",
+        "options": [
+            {"id": "A", "text": "Inhibition of apical Na-Cl cotransporter (NCC); abolishes lumen-negative potential"},
+            {"id": "B", "text": "Inhibition of apical Na-K-2Cl cotransporter (NKCC2); abolishes lumen-positive transepithelial potential (~+10 to +20 mV)"},
+            {"id": "C", "text": "Inhibition of basolateral Na/K-ATPase; enhances lumen-positive potential"},
+            {"id": "D", "text": "Inhibition of epithelial sodium channel (ENaC); abolishes lumen-negative potential"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Loop Diuretics 直接競爭性抑制 Thick Ascending Limb (TAL) Apical Membrane 的 Na-K-2Cl Cotransporter 2 (NKCC2)。正常情況下，NKCC2 運送 1 Na+, 1 K+, 2 Cl- 進入細胞後，K+ 經由 Apical ROMK 通道 Recycling 回到 Lumen，產生 +10 至 +20 mV 的 Lumen-Positive Transepithelial Potential。當 NKCC2 被阻斷時，Lumen-Positive Potential 徹底消失，使導引 Ca²⁺ 與 Mg²⁺ 經 Paracellular Pathway 重吸收的驅動力喪失，導致 Hypercalciuria 與 Hypomagnesemia。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_6_14",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_6_14.png",
+                "caption": "TAL transport pathways and lumen-positive voltage generation."
+            }
+        ]
+    },
+    {
+        "id": "q10",
+        "number": 10,
+        "stem": "A 45-year-old male receiving chronic high-dose IV furosemide for refractory nephrotic edema develops muscle cramps, cardiac ectopy, and refractory hypokalemia. Serum magnesium is 1.1 mg/dL. What is the mechanism of loop diuretic-induced hypomagnesemia?",
+        "options": [
+            {"id": "A", "text": "Direct inhibition of TRPM6 channels in the distal convoluted tubule"},
+            {"id": "B", "text": "Loss of the lumen-positive transepithelial voltage in the TAL, impairing paracellular magnesium reabsorption"},
+            {"id": "C", "text": "Inhibition of basolateral Mg-ATPase in the proximal tubule"},
+            {"id": "D", "text": "Increased aldosterone-stimulated excretion of magnesium in the collecting duct"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Loop Diuretics 抑制 TAL 的 NKCC2，導致 ROMK 介導的 K+ Lumen Recycling 大幅減少，使 TAL 的 Lumen-Positive Transepithelial Voltage (+10 to +20 mV) 消失。由於 60–70% 的過濾 Mg²⁺ 依賴此正電位驅動經由 Claudin-16/19 進出 Paracellular Pathway 進行重吸收，電位消失直接造成大量 Mg²⁺ 從尿液流失 (Renal Magnesium Wasting)。低血鎂會解禁 ROMK 並抑制 Na/K-ATPase，引發難治性低血鉀 (Refractory Hypokalemia)。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q11",
+        "number": 11,
+        "stem": "Which adverse effect of loop diuretics is particularly associated with rapid IV high-dose bolus administration (infusion rate > 4 mg/min) and concurrent aminoglycoside therapy, mediated by NKCC1 inhibition in the inner ear?",
+        "options": [
+            {"id": "A", "text": "Nephrocalcinosis"},
+            {"id": "B", "text": "Ototoxicity (sensorineural hearing loss / tinnitus)"},
+            {"id": "C", "text": "Retroperitoneal fibrosis"},
+            {"id": "D", "text": "Aplastic anemia"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Ototoxicity (耳毒性，表現為耳鳴 Tinnitus、眩暈 Vertigo、聽力喪失 Hearing Loss) 是 Loop Diuretics 的重要副作用，主因內耳 Stria Vascularis 表達 NKCC1，Loop Diuretics 阻斷 NKCC1 會破壞內淋巴 (Endolymph) 的電位與離子平衡。其發病與高血漿峰值濃度 (High Peak Concentration) 強烈相關，故急速 IV Bolus (> 4 mg/min) 或與 Aminoglycosides (如 Gentamicin) 併用時風險最高。Ethacrynic Acid 的耳毒性最強。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q12",
+        "number": 12,
+        "stem": "A 68-year-old male with acute decompensated heart failure and CKD Stage 4 (eGFR 22 mL/min/1.73m²) fails to show diuresis with furosemide 40 mg IV bolus. What is the physiological 'ceiling dose' concept for single IV furosemide administration in severe CKD?",
+        "options": [
+            {"id": "A", "text": "Single doses above 40 mg IV produce no additional natriuresis"},
+            {"id": "B", "text": "A single IV dose of 160–240 mg is required to reach the effective tubular natriuretic threshold in severe CKD"},
+            {"id": "C", "text": "Single IV doses up to 1000 mg should be given every hour until diuresis occurs"},
+            {"id": "D", "text": "Ceiling dose concept does not apply to CKD patients"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "在 CKD 或是 Severely Reduced GFR 患者中，由於 Endogenous Organic Anions (Uremic Toxins) 累積並競爭 OAT1/OAT3 轉運體，且功能性 Nephron Mass 減少，利尿劑向管腔分泌受阻。低劑量 (如 40 mg IV) 完全無法達到開啟 NKCC2 抑制的「Tubular Threshold Concentration」。因此，CKD Stage 4-5 的單次最大天花板劑量 (Ceiling Dose) 需調高至 160–240 mg IV Furosemide。高於天花板劑量的單次平移給藥無法增加利尿效益，只會增加毒性。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_15",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_15.png",
+                "caption": "Ceiling Doses and Dose-Response Curves in CKD."
+            }
+        ]
+    },
+    {
+        "id": "q13",
+        "number": 13,
+        "stem": "Long-term high-dose loop diuretic administration often leads to 'Diuretic Resistance' through distal nephron remodeling. Which specific structural and functional adaptation occurs in the Distal Convoluted Tubule (DCT)?",
+        "options": [
+            {"id": "A", "text": "DCT cellular atrophy and downregulation of NCC transporters"},
+            {"id": "B", "text": "DCT epithelial cell hypertrophy, hyperplasia, and upregulation of Na-Cl cotransporter (NCC) activity"},
+            {"id": "C", "text": "Apoptosis of DCT cells and increased paracellular sodium loss"},
+            {"id": "D", "text": "Conversion of DCT cells into intercalated alpha cells"}
+        ],
+        "selectedOption": "B",
+        "sourceProvidedAnswer": "B",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "長期給予高劑量 Loop Diuretics 會持續將大量未再吸收的 NaCl 衝刷遞送至遠端腎小管 (Distal Solute Delivery)。這會刺激 Distal Convoluted Tubule (DCT) 上皮細胞發生 Structural Hypertrophy (細胞肥大) 與 Hyperplasia (增生)，同時顯著 Upregulate 遠端 Thiazide-Sensitive Na-Cl Cotransporter (NCC / NCCT) 與 ENaC 的表現量。肥大的 DCT 轉運能力增加數倍，將 TAL 漏掉的 Na+ 在遠端全數『回收捕捉』，引發嚴重的 Diuretic Resistance。",
+        "resolvedImages": [
+            {
+                "id": "Diuretic_Resistance_AI",
+                "type": "ai_illustration",
+                "imagePath": "/server-data/assets/loop_diuretic_resistance_blockade.jpg",
+                "caption": "DCT Cell Hypertrophy and Remodeling Mechanism."
+            }
+        ]
+    },
+    {
+        "id": "q14",
+        "number": 14,
+        "stem": "To overcome severe diuretic resistance caused by DCT hypertrophy in a patient with decompensated heart failure on maximum dose furosemide, which combination strategy represents 'Sequential Nephron Blockade'?",
+        "options": [
+            {"id": "A", "text": "Adding oral Metolazone 30 minutes prior to IV Furosemide administration"},
+            {"id": "B", "text": "Discontinuing Furosemide and switching to high-dose Spironolactone monotherapy"},
+            {"id": "C", "text": "Combining Furosemide with high-dose IV Mannitol"},
+            {"id": "D", "text": "Decreasing furosemide dose and adding Amiloride only"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Sequential Nephron Blockade (階梯式腎小管順序阻斷) 是突破 Diuretic Resistance 的標準精準策略。當長期使用 Loop Diuretic 引發 DCT Remodeling 與 NCC Upregulation 時，在給予 IV Furosemide 前 30 分鐘口服 Thiazide-like Diuretic（如 Metolazone 2.5–5 mg PO 或 Hydrochlorothiazide），能預先精確阻斷肥大 DCT 的 NCC 再吸收，使 TAL 漏下的 Na+ 無法在遠端被回收，兩藥產生強烈的 Synregistic Natriuresis (協同排鈉利尿效益)。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_13",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_13.png",
+                "caption": "Sequential nephron blockade algorithm in diuretic resistance."
+            }
+        ]
+    },
+    {
+        "id": "q15",
+        "number": 15,
+        "stem": "A 70-year-old female receiving continuous IV furosemide and oral metolazone for severe volume overload develops severe Hypokalemic Metabolic Alkalosis (Serum K+ 2.8 mEq/L, Serum HCO3- 38 mEq/L). Which adjunctive diuretic agent can be added to simultaneously treat her metabolic alkalosis and enhance distal nephron blockade?",
+        "options": [
+            {"id": "A", "text": "Acetazolamide"},
+            {"id": "B", "text": "Indomethacin"},
+            {"id": "C", "text": "Chlorthalidone"},
+            {"id": "D", "text": "Furosemide dose escalation"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Acetazolamide 是 Carbonic Anhydrase (CA) Inhibitor，作用於 Proximal Tubule (PT)，能抑制 NaHCO3 的再吸收並促進尿中 HCO3- 排泄 (Bicarbonaturia)。在強效排鈉利尿引發嚴重 Hypokalemic Metabolic Alkalosis 時，加用 Acetazolamide (250–500 mg IV/PO) 不僅能有效糾正 Metabolic Alkalosis，還能增加水與電解質向遠端遞送，達成近曲小管層級的 Sequential Nephron Blockade。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q16",
+        "number": 16,
+        "stem": "What is the physiological mechanism underlying the 'Braking Phenomenon' observed after initial doses of loop diuretics?",
+        "options": [
+            {"id": "A", "text": "Volume depletion triggers neurohormonal activation (RAAS and SNS), promoting compensatory sodium reabsorption in unblocked nephron segments"},
+            {"id": "B", "text": "Loop diuretics undergo rapid hepatic clearance by CYP3A4 after the first dose"},
+            {"id": "C", "text": "Apical NKCC2 receptors internalize into lysosomes within 1 hour"},
+            {"id": "D", "text": "Direct inhibition of aldosterone receptors by furosemide metabolites"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Braking Phenomenon (煞車現象) 指的是在施加首劑或早期 Loop Diuretic 引起顯著排鈉利尿後，隨著體內 Effective Arterial Blood Volume (EABV) 減少，身體啟動自體穩態保護，大幅活化 Renin-Angiotensin-Aldosterone System (RAAS) 與 Sympathetic Nervous System (SNS)。這會刺激 Proximal Tubule (via Angiotensin II) 與 Distal Tubule / CD (via Aldosterone) 的 Na+ 重吸收，使後續藥物劑量的排鈉效益逐漸下降遞減。",
+        "resolvedImages": [
+            {
+                "id": "Brenner_Fig_50_10",
+                "type": "micrograph",
+                "imagePath": "/server-data/assets/Brenner_Fig_50_10.png",
+                "caption": "The diuretic braking phenomenon and post-diuretic sodium retention."
+            }
+        ]
+    },
+    {
+        "id": "q17",
+        "number": 17,
+        "stem": "In patients with acute decompensated heart failure and severe edema, how does continuous IV furosemide infusion compare to intermittent IV bolus administration regarding pharmacokinetics and adverse effect profiles?",
+        "options": [
+            {"id": "A", "text": "Continuous infusion maintains steady-state luminal concentration above the natriuretic threshold and reduces peak-dose ototoxicity risk"},
+            {"id": "B", "text": "Intermittent bolus administration causes less neurohormonal activation and lower risk of hypokalemia"},
+            {"id": "C", "text": "Continuous infusion is associated with significantly higher peak plasma concentrations and greater ototoxicity"},
+            {"id": "D", "text": "There is no difference in pharmacokinetics or electrolyte shifts between the two administration routes"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "Continuous IV Furosemide Infusion (連續靜脈滴注) 在藥動學上的優勢在於能將管腔內的藥物濃度持續穩定維繫在「Natriuretic Threshold (排鈉門檻)」之上，避免像 Intermittent IV Bolus 一樣產生濃度起伏過大與 Bolus 後的 Sub-therapeutic Gaps。此外，Continuous Infusion 避免了高尖峰血漿濃度 (High Peak Plasma Levels)，從而顯著降低了 Ototoxicity (耳毒性) 的發生風險。",
+        "resolvedImages": []
+    },
+    {
+        "id": "q18",
+        "number": 18,
+        "stem": "A 52-year-old male with chronic alcohol-related cirrhosis (Child-Pugh Class C) and refractory ascites is prescribed furosemide and spironolactone. What is the standard recommended ratio of Oral Spironolactone to Oral Furosemide to maintain normokalemia during paracentesis and diuresis?",
+        "options": [
+            {"id": "A", "text": "100 mg Spironolactone : 40 mg Furosemide"},
+            {"id": "B", "text": "40 mg Spironolactone : 100 mg Furosemide"},
+            {"id": "C", "text": "50 mg Spironolactone : 50 mg Furosemide"},
+            {"id": "D", "text": "200 mg Spironolactone : 10 mg Furosemide"}
+        ],
+        "selectedOption": "A",
+        "sourceProvidedAnswer": "A",
+        "sourceAnswerStatus": "provided",
+        "sourceExplanation": "在 Cirrhosis with Ascites 的利尿處置中，患者體內有極度亢進的 Secondary Hyperaldosteronism。因此，主要利尿劑為 Mineralocorticoid Receptor Antagonist (Spironolactone)。經典標準聯合比例為 100 mg Oral Spironolactone 比 40 mg Oral Furosemide (比例 100:40 或 5:2)。此黃金比例能在發揮最大排鈉抗水腫效益的同時，精確維持血鉀平衡 (Normokalemia)。劑量向上階梯梯次調升時亦維持此 100:40 比例（最大至 400 mg : 160 mg）。",
+        "resolvedImages": []
+    }
+]
+
+paper_data = {
+    "paperId": "2026_Furosemide_and_Loop_Diuretics_(主題備考)",
+    "title": "2026 Furosemide Stress Test 與 Loop Diuretics (迴路利尿劑) 藥理機制、臨床爭議與抗藥性極限突破",
+    "description": "精選 18 題純英文腎臟專科高分選擇題，涵蓋 NKCC2 藥理、Furosemide Stress Test (FST)、NSAID 與 Albumin 交互作用、Diuretic Resistance 與 Sequential Nephron Blockade。",
+    "sourceCategory": "2026 Electrolytes",
+    "year": 2026,
+    "questions": questions
+}
+
+with open("/Users/yuan/Projects/Exam/Exam_prepare_site/public/server-data/2026_Furosemide_and_Loop_Diuretics_(主題備考).json", "w", encoding="utf-8") as f:
+    json.dump(paper_data, f, ensure_ascii=False, indent=2)
+
+print("2026_Furosemide_and_Loop_Diuretics_(主題備考).json created successfully with 18 questions!")

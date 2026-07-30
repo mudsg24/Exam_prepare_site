@@ -1,0 +1,343 @@
+import json
+
+questions = [
+    {
+        "id": "q1",
+        "stem": "Which of the following best describes the differential effect of Aldosterone on the distal nephron during Hypovolemia versus Hyperkalemia?",
+        "options": [
+            {"id": "A", "text": "Hypovolemia predominantly increases sodium reabsorption without significant potassium wasting due to concurrent Angiotensin II action."},
+            {"id": "B", "text": "Hyperkalemia decreases Aldosterone secretion to prevent further potassium retention."},
+            {"id": "C", "text": "Angiotensin II acts synergistically with Aldosterone during Hyperkalemia to maximize potassium excretion."},
+            {"id": "D", "text": "Aldosterone paradox dictates that Hypovolemia leads to maximal potassium secretion regardless of Angiotensin II levels."}
+        ],
+        "sourceProvidedAnswer": "A",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Hypovolemia 時，Angiotensin II 與 Aldosterone 同時升高。Angiotensin II 會活化 WNK4 與 NCC，促進鈉的重吸收，同時抑制 ROMK，防止過度鉀流失。相反地，在 Hyperkalemia 時，僅有 Aldosterone 升高，缺乏 Angiotensin II 的協同作用，導致 NCC 活性下降，大量鈉流向 CCD，進而最大化鉀的排泄。此現象被稱為 Aldosterone Paradox。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q2",
+        "stem": "Regarding the potassium sensing mechanism in the Distal Convoluted Tubule (DCT), how does the Kir4.1/Kir5.1 channel complex respond to Hypokalemia?",
+        "options": [
+            {"id": "A", "text": "It depolarizes the basolateral membrane, activating ClC-Kb channels."},
+            {"id": "B", "text": "It hyperpolarizes the basolateral membrane, driving intracellular chloride exit and promoting WNK4 activation."},
+            {"id": "C", "text": "It hyperpolarizes the basolateral membrane, causing intracellular chloride accumulation."},
+            {"id": "D", "text": "It directly phosphorylates NCC independently of intracellular chloride concentration."}
+        ],
+        "sourceProvidedAnswer": "B",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Hypokalemia 時，DCT 側底膜的 Kir4.1/Kir5.1 通道會導致細胞膜 Hyperpolarization。此電位變化驅使細胞內 Cl- 透過通道流出，當細胞內 Cl- 濃度下降時，會解除對 WNK4 的抑制，進而活化下游的 NCC 以保留鉀離子。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q3",
+        "stem": "Under conditions of low intracellular Cl- concentration in the Distal Convoluted Tubule, which of the following signaling cascades is correctly described?",
+        "options": [
+            {"id": "A", "text": "WNK4 is directly inhibited by binding to CUL3."},
+            {"id": "B", "text": "SPAK and OSR1 kinases are dephosphorylated and inactivated by WNK4."},
+            {"id": "C", "text": "WNK4 becomes active and phosphorylates SPAK and OSR1, which subsequently phosphorylate and activate NCC."},
+            {"id": "D", "text": "WNK1 forms an inhibitory complex with KLHL3 to prevent NCC phosphorylation."}
+        ],
+        "sourceProvidedAnswer": "C",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "當細胞內 Cl- 濃度下降時，Cl- 與 WNK4 的結合減少，解除對 WNK4 的抑制。活化的 WNK4 會磷酸化並活化 SPAK 與 OSR1，接著 SPAK/OSR1 會磷酸化 NCC 的 N 端，增加 NCC 在頂端膜的表現與活性。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q4",
+        "stem": "How does Angiotensin II synergize with Aldosterone during volume depletion to conserve sodium without inducing hypokalemia?",
+        "options": [
+            {"id": "A", "text": "Angiotensin II inhibits ENaC directly in the Principal Cells."},
+            {"id": "B", "text": "Angiotensin II suppresses WNK4 expression via SGK1 activation."},
+            {"id": "C", "text": "Angiotensin II induces rapid insertion of ROMK into the apical membrane."},
+            {"id": "D", "text": "Angiotensin II activates WNK4 to stimulate NCC, and simultaneously activates c-Src to inhibit ROMK in the Collecting Duct."}
+        ],
+        "sourceProvidedAnswer": "D",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Volume Depletion 狀態下，Angiotensin II 扮演關鍵角色以防止 Aldosterone 造成的 K+ 流失。Angiotensin II 活化 WNK4 與 NCC 促進鈉重吸收，同時透過 c-Src 促進 ROMK 內吞，減少鉀排泄，從而達成保留鈉與體液但不流失鉀的目的。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q5",
+        "stem": "During acute potassium loading, what is the primary mechanism leading to the dephosphorylation and rapid inactivation of NCC?",
+        "options": [
+            {"id": "A", "text": "Activation of phosphatases such as Calcineurin (PP3) and PP2A, alongside GILZ downregulation."},
+            {"id": "B", "text": "Direct phosphorylation of NCC by SGK1 on serine residues."},
+            {"id": "C", "text": "Upregulation of Kir4.1/Kir5.1 activity leading to extreme hyperpolarization."},
+            {"id": "D", "text": "Binding of Angiotensin II to AT2 receptors in the Distal Convoluted Tubule."}
+        ],
+        "sourceProvidedAnswer": "A",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Acute K+ Loading 時，為了迅速將鈉負載轉移至遠端以排鉀，NCC 必須被快速去磷酸化而失去活性。此過程涉及磷酸酶如 Calcineurin (PP3) 及 PP2A 的活化，同時 GILZ 等調節蛋白的參與也有助於 NCC 的去磷酸化與失活。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q6",
+        "stem": "What is the physiological role of Mineralocorticoid Receptor (MR) Ser-843 phosphorylation in Type B Intercalated Cells?",
+        "options": [
+            {"id": "A", "text": "It activates MR to promote Pendrin insertion during hyperkalemia."},
+            {"id": "B", "text": "It acts as a switch; phosphorylation inhibits MR ligand binding, preventing Aldosterone action during volume depletion."},
+            {"id": "C", "text": "It enhances MR binding to Aldosterone in Principal Cells."},
+            {"id": "D", "text": "It triggers apoptosis of Type B Intercalated Cells during systemic acidosis."}
+        ],
+        "sourceProvidedAnswer": "B",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Type B Intercalated Cells 中，MR 在 Ser-843 位點的磷酸化具有開關功能。當 Ser-843 被磷酸化時，MR 無法與 Aldosterone 結合而被抑制；在 Volume Depletion 時，此位點去磷酸化，使得 Aldosterone 能活化 MR，進而促進 Pendrin 的表現以吸收 Cl-。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q7",
+        "stem": "Which combination of transporters mediates electroneutral NaCl reabsorption in the Cortical Collecting Duct (CCD) without driving potassium excretion?",
+        "options": [
+            {"id": "A", "text": "ENaC and ROMK"},
+            {"id": "B", "text": "NCC and Kir4.1"},
+            {"id": "C", "text": "Pendrin (SLC26A4) and NDCBE (SLC4A8)"},
+            {"id": "D", "text": "NHE3 and ClC-Ka"}
+        ],
+        "sourceProvidedAnswer": "C",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 CCD 中，Type B Intercalated Cells 透過頂端膜的 Pendrin (SLC26A4, 進行 Cl-/HCO3- 交換) 與 SLC4A8 (NDCBE, 進行 Na+-dependent Cl-/HCO3- 交換) 協同運作，達成 Electroneutral NaCl Reabsorption。因為此過程不產生跨膜電位差 (Lumen-negative potential)，故不會驅使鉀離子透過 ROMK 流失。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q8",
+        "stem": "Which of the following genetic mutations is a known cause of Gordon Syndrome (Pseudohypoaldosteronism Type 2)?",
+        "options": [
+            {"id": "A", "text": "Loss-of-function mutation in ENaC beta-subunit"},
+            {"id": "B", "text": "Gain-of-function mutation in the Mineralocorticoid Receptor"},
+            {"id": "C", "text": "Loss-of-function mutation in 11-beta-hydroxysteroid dehydrogenase type 2"},
+            {"id": "D", "text": "Mutations in WNK1, WNK4, KLHL3, or CUL3 leading to NCC overactivation"}
+        ],
+        "sourceProvidedAnswer": "D",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "Gordon Syndrome (Pseudohypoaldosteronism Type 2, PHA2 或 FHHt) 的致病基因包含 WNK1, WNK4, KLHL3, 與 CUL3。KLHL3/CUL3 複合體正常情況下負責降解 WNK 激酶，這些基因突變會導致 WNK 降解減少或 WNK4 功能改變，最終造成 NCC 過度活化，引發高血壓、高血鉀與代謝性酸中毒。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q9",
+        "stem": "A patient diagnosed with Gordon Syndrome is evaluated for optimal pharmacological treatment. Which of the following responses to therapy is most characteristic of this condition?",
+        "options": [
+            {"id": "A", "text": "Exquisite sensitivity and prompt correction of hypertension and hyperkalemia with low-dose Thiazides."},
+            {"id": "B", "text": "Rapid normalization of blood pressure with high-dose Spironolactone."},
+            {"id": "C", "text": "Significant worsening of hyperkalemia when treated with Furosemide."},
+            {"id": "D", "text": "Symptom resolution following physiological doses of Fludrocortisone."}
+        ],
+        "sourceProvidedAnswer": "A",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "Gordon Syndrome (FHHt) 的病理機轉為 NCC 過度活化。因此，這類患者對於極低劑量的 Thiazides 具有極高的敏感性 (Exquisite sensitivity)，使用 Thiazides 能迅速且有效地矯正其 Hypertension 與 Hyperkalemia。Fludrocortisone 無效且可能惡化高血壓。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q10",
+        "stem": "How does Serum and Glucocorticoid-regulated Kinase 1 (SGK1) enhance sodium reabsorption in the Principal Cells of the collecting duct?",
+        "options": [
+            {"id": "A", "text": "By phosphorylating NCC directly to increase its half-life."},
+            {"id": "B", "text": "By phosphorylating and inhibiting Nedd4-2, thereby preventing the ubiquitination and degradation of ENaC."},
+            {"id": "C", "text": "By dephosphorylating the Mineralocorticoid Receptor to increase its nuclear translocation."},
+            {"id": "D", "text": "By acting as an endocytic adaptor protein for ROMK retrieval."}
+        ],
+        "sourceProvidedAnswer": "B",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "Aldosterone 進入 Principal Cells 後會促進 SGK1 的轉錄與表現。SGK1 能夠磷酸化 Nedd4-2，使其失去與 ENaC 結合的能力，進而阻止 ENaC 被 Ubiquitination 與降解。這導致 ENaC 在頂端膜的密度增加，促進鈉的重吸收。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q11",
+        "stem": "During states of potassium restriction, how is ROMK (KCNJ1) channel activity downregulated in the distal nephron?",
+        "options": [
+            {"id": "A", "text": "Direct degradation by the KLHL3/CUL3 ubiquitin ligase complex."},
+            {"id": "B", "text": "Upregulation of ROMK mRNA cleavage by microRNAs."},
+            {"id": "C", "text": "Tyrosine phosphorylation by c-Src and c-Yes, leading to increased channel endocytosis."},
+            {"id": "D", "text": "Dephosphorylation by Calcineurin (PP3) resulting in channel closure."}
+        ],
+        "sourceProvidedAnswer": "C",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Potassium Restriction 時，為了減少鉀的流失，ROMK 必須從頂端膜移除。此過程受到 Tyrosine Kinases (如 c-Src 與 c-Yes) 的調控；這些激酶將 ROMK 磷酸化後，會誘發 ROMK 的 Endocytosis，從而降低鉀排泄。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q12",
+        "stem": "Which of the following processes is crucial for the maximal activation of the Epithelial Sodium Channel (ENaC) at the apical membrane?",
+        "options": [
+            {"id": "A", "text": "Phosphorylation of the alpha subunit by PKA."},
+            {"id": "B", "text": "Ubiquitination of the gamma subunit by Nedd4-2."},
+            {"id": "C", "text": "Internalization via Clathrin-coated pits."},
+            {"id": "D", "text": "Proteolytic cleavage of the alpha and gamma subunits by serine proteases such as Prostasin or Tissue Kallikrein."}
+        ],
+        "sourceProvidedAnswer": "D",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "ENaC 由 alpha, beta, gamma 三個次單位組成。要達到最大活化狀態，alpha 與 gamma 次單位必須在細胞外側被 Serine Proteases (如 Furin, Prostasin, Tissue Kallikrein 等) 進行 Proteolytic Cleavage，這會改變通道構型並大幅增加通道的開放機率 (Open probability)。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q13",
+        "stem": "What is the primary physiological distinction between electrogenic and electroneutral NaCl reabsorption in the distal nephron?",
+        "options": [
+            {"id": "A", "text": "Electrogenic reabsorption via ENaC generates a lumen-negative potential driving K+ and H+ excretion, whereas electroneutral reabsorption via Pendrin/SLC4A8 does not."},
+            {"id": "B", "text": "Electroneutral reabsorption requires Aldosterone, while electrogenic reabsorption is entirely Aldosterone-independent."},
+            {"id": "C", "text": "Electrogenic reabsorption occurs exclusively in the DCT, while electroneutral reabsorption occurs only in the PCT."},
+            {"id": "D", "text": "Electroneutral reabsorption via NCC strongly drives Mg2+ secretion, whereas electrogenic reabsorption conserves Mg2+."}
+        ],
+        "sourceProvidedAnswer": "A",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "透過 ENaC 進行的鈉重吸收是 Electrogenic 的，會產生 Lumen-negative potential，進而成為驅動 K+ (經 ROMK) 與 H+ (經 H+-ATPase) 排出的原動力。相反地，Type B Intercalated Cells 透過 Pendrin 與 SLC4A8 進行的 Electroneutral NaCl Reabsorption 不會改變管腔電位，因此不會促使 K+ 流失。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q14",
+        "stem": "Why does a patient with Primary Hyperaldosteronism typically present with severe hypokalemia, whereas a patient with Secondary Hyperaldosteronism due to heart failure rarely exhibits significant K+ wasting?",
+        "options": [
+            {"id": "A", "text": "Heart failure patients have increased dietary potassium intake."},
+            {"id": "B", "text": "In heart failure, severe volume depletion limits distal sodium delivery, impairing the electrogenic exchange needed for K+ excretion."},
+            {"id": "C", "text": "Primary hyperaldosteronism is associated with a concomitant increase in Angiotensin II, which maximizes K+ secretion."},
+            {"id": "D", "text": "Heart failure causes downregulation of Mineralocorticoid Receptors in the ASDN."}
+        ],
+        "sourceProvidedAnswer": "B",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Primary Hyperaldosteronism (如 Conn Syndrome) 中，患者通常呈現 Volume Expansion，使得近端腎小管鈉重吸收減少，大量鈉流向遠端，加上 Aldosterone 活化 ENaC，產生強大的 Lumen-negative potential，造成嚴重 Hypokalemia。相反地，在 Heart Failure (Secondary Hyperaldosteronism) 時，Effective Arterial Blood Volume (EABV) 降低，近端鈉重吸收極高，到達遠端的鈉量大幅減少 (Decreased distal delivery of sodium)，因此即使 Aldosterone 很高，也無法產生足夠的電位差來驅動 K+ 流失。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q15",
+        "stem": "Which of the following comparisons between Aldosterone antagonists (Spironolactone) and ENaC inhibitors (Amiloride) is accurate?",
+        "options": [
+            {"id": "A", "text": "Spironolactone acts from the tubular lumen, while Amiloride must enter the cell to block transcription."},
+            {"id": "B", "text": "Amiloride prevents MR nuclear translocation, whereas Spironolactone directly blocks the pore of ENaC."},
+            {"id": "C", "text": "Spironolactone blocks the Mineralocorticoid Receptor competitively in the cytoplasm, whereas Amiloride blocks the ENaC pore directly from the luminal side."},
+            {"id": "D", "text": "Both agents cause severe hypokalemia due to increased distal sodium delivery."}
+        ],
+        "sourceProvidedAnswer": "C",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "Spironolactone 與 Eplerenone 是 MR Antagonists，經由血液循環進入細胞質內競爭性地阻斷 MR 的活化；而 Amiloride 與 Triamterene 是 ENaC Inhibitors，直接在管腔側 (Luminal side) 物理性地阻擋 ENaC 的孔道。兩者皆為 Potassium-sparing Diuretics，不會造成 Hypokalemia。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q16",
+        "stem": "In Type A Intercalated Cells, how does the H+/K+-ATPase respond to systemic potassium depletion compared to systemic acidosis?",
+        "options": [
+            {"id": "A", "text": "It is downregulated in both conditions to prevent further ion imbalances."},
+            {"id": "B", "text": "It exclusively secretes potassium during acidosis."},
+            {"id": "C", "text": "Systemic acidosis inhibits its expression, while potassium depletion solely activates H+-ATPase."},
+            {"id": "D", "text": "Potassium depletion strongly upregulates H+/K+-ATPase to reabsorb K+ at the expense of H+ secretion, contributing to hypokalemic alkalosis."},
+        ],
+        "sourceProvidedAnswer": "D",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "在 Potassium Depletion 的情況下，Type A Intercalated Cells 會大幅增加 H+/K+-ATPase 的表現與活性。這個幫浦會將管腔中的 K+ 重吸收回細胞，同時將細胞內的 H+ 排出至管腔。因此，嚴重的 Hypokalemia 常常會伴隨發生 Metabolic Alkalosis (Hypokalemic Alkalosis)。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q17",
+        "stem": "Following chronic administration of Thiazide diuretics or in genetic NCC knockout models, what compensatory intersegmental crosstalk occurs in the distal nephron?",
+        "options": [
+            {"id": "A", "text": "Hypertrophy of the Connecting Tubule (CNT) and Cortical Collecting Duct (CCD) with upregulation of ENaC to increase distal sodium reabsorption."},
+            {"id": "B", "text": "Atrophy of the Connecting Tubule and decreased expression of ROMK."},
+            {"id": "C", "text": "Decreased Renin secretion from the Juxtaglomerular Apparatus due to macula densa sensing."},
+            {"id": "D", "text": "Downregulation of Pendrin to minimize electroneutral NaCl uptake."}
+        ],
+        "sourceProvidedAnswer": "A",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "長期使用 Thiazides 或是 NCC 基因剔除 (如 Gitelman Syndrome 模型) 會導致 DCT 萎縮與功能低下。作為代償，更遠端的節段如 CNT 與 CCD 會發生 Hypertrophy，並且 ENaC 的表現量會顯著上升 (Upregulation)，以試圖回收流失的鈉離子。這種 Intersegmental Crosstalk 是造成長期利尿劑抗性 (Diuretic Resistance) 的原因之一。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    },
+    {
+        "id": "q18",
+        "stem": "Which novel feed-forward mechanism rapidly enhances renal potassium excretion following a potassium-rich meal, prior to significant increases in plasma Aldosterone?",
+        "options": [
+            {"id": "A", "text": "Direct inhibition of ENaC by elevated insulin levels."},
+            {"id": "B", "text": "Gut/hepatoportal potassium sensing that releases a circulating factor, leading to Tissue Kallikrein-mediated activation of apical potassium channels."},
+            {"id": "C", "text": "Immediate downregulation of the Na+/K+-ATPase in the basolateral membrane."},
+            {"id": "D", "text": "Decreased GFR mediated by the tubuloglomerular feedback mechanism."}
+        ],
+        "sourceProvidedAnswer": "B",
+        "sourceProvidedAnswerReason": "",
+        "sourceExplanation": "研究指出，在進食富含鉀的食物後 (Postprandial state)，腸道或肝門脈系統 (Gut/hepatoportal potassium sensing) 會偵測到鉀攝取，並在血清鉀或 Aldosterone 顯著上升前，釋放未知的循環因子 (Gut factor)。此機制會促使腎臟釋放 Tissue Kallikrein 等蛋白酶，進而切割並活化 ENaC 等通道，快速促進 Kaliuresis 以避免餐後高血鉀。",
+        "resolvedImages": [],
+        "nlmResponses": [],
+        "reconciliationStatus": "PENDING_NLM",
+        "qcVerified": False,
+        "qcStatus": "PENDING_QC"
+    }
+]
+
+output_json = {
+    "id": "2026_Aldosterone_Paradox_(主題備考)",
+    "paperId": "2026_Aldosterone_Paradox_(主題備考)",
+    "title": "2026 Aldosterone Paradox (醛固酮悖論) 腎專主題精選與實戰模擬題庫",
+    "sourceCategory": "2026 Electrolytes",
+    "year": 2026,
+    "totalQuestions": 18,
+    "questions": questions
+}
+
+with open("/Users/yuan/Projects/Exam/Exam_prepare_site/public/server-data/2026_Aldosterone_Paradox_(主題備考).json", "w", encoding="utf-8") as f:
+    json.dump(output_json, f, ensure_ascii=False, indent=2)
+
+print("JSON file generated successfully with 18 questions.")

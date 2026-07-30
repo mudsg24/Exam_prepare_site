@@ -60,7 +60,14 @@ export const Header: React.FC<HeaderProps> = ({
   const [currentTime, setCurrentTime] = useState<string>('');
 
   const groupedPaperOptgroups = useMemo(() => {
+    const isGN = (p: ExamManifestItem) =>
+      Boolean(
+        (p.sourceCategory && p.sourceCategory.includes('GN')) ||
+        (p.title && p.title.includes('GN'))
+      );
+
     const isTopic = (p: ExamManifestItem) =>
+      !isGN(p) &&
       Boolean(
         (p.sourceCategory && p.sourceCategory.includes('主題練習')) ||
         (p.title && p.title.includes('主題備考')) ||
@@ -68,6 +75,7 @@ export const Header: React.FC<HeaderProps> = ({
       );
 
     const isKeyPoint = (p: ExamManifestItem) =>
+      !isGN(p) &&
       !isTopic(p) &&
       Boolean(
         (p.sourceCategory && p.sourceCategory.includes('重點轉化')) ||
@@ -82,10 +90,13 @@ export const Header: React.FC<HeaderProps> = ({
     years.forEach((year) => {
       const yearPapers = manifest.filter((p) => p.year === year);
       const standard = yearPapers
-        .filter((p) => !isKeyPoint(p) && !isTopic(p))
+        .filter((p) => !isKeyPoint(p) && !isTopic(p) && !isGN(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
       const keyPoint = yearPapers
         .filter((p) => isKeyPoint(p))
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+      const gn = yearPapers
+        .filter((p) => isGN(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
       const topic = yearPapers
         .filter((p) => isTopic(p))
@@ -103,6 +114,13 @@ export const Header: React.FC<HeaderProps> = ({
           key: `${year}-keypoint`,
           label: `${year} 醫院重點轉化`,
           papers: keyPoint,
+        });
+      }
+      if (gn.length > 0) {
+        groups.push({
+          key: `${year}-gn`,
+          label: `${year} GN`,
+          papers: gn,
         });
       }
       if (topic.length > 0) {

@@ -6,6 +6,7 @@ import {
   sanitizePaperTitle,
   isKeyPointTransformationPaper,
   isTopicPracticePaper,
+  isGNPaper,
 } from '../DashboardView';
 import { ExamManifestItem, GlobalPracticeStats } from '../../types/exam';
 
@@ -17,13 +18,25 @@ describe('DashboardView Component & Helpers', () => {
       expect(sanitizePaperTitle('')).toBe('');
     });
 
+    it('isGNPaper should correctly identify GN papers', () => {
+      const gn1: ExamManifestItem = { id: 'p1', title: '2026 IgA Nephropathy (主題備考)', sourceCategory: '2026 GN', questionCount: 18, year: 2026 };
+      const gn2: ExamManifestItem = { id: 'p2', title: '2026 ANCA-Associated Glomerulonephritis', sourceCategory: '2026 GN', questionCount: 18, year: 2026 };
+      const tp: ExamManifestItem = { id: 'p3', title: 'UTI 練習', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
+
+      expect(isGNPaper(gn1)).toBe(true);
+      expect(isGNPaper(gn2)).toBe(true);
+      expect(isGNPaper(tp)).toBe(false);
+    });
+
     it('isTopicPracticePaper should correctly identify topic practice papers', () => {
       const tp1: ExamManifestItem = { id: 'p1_(主題備考)', title: '高草酸尿症 (主題備考)', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
       const tp2: ExamManifestItem = { id: 'p2', title: 'UTI 練習', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
-      const std: ExamManifestItem = { id: 'p3', title: 'Standard Paper', sourceCategory: '歷年考題', questionCount: 10, year: 2025 };
+      const gn: ExamManifestItem = { id: 'p3', title: '2026 IgA Nephropathy (主題備考)', sourceCategory: '2026 GN', questionCount: 18, year: 2026 };
+      const std: ExamManifestItem = { id: 'p4', title: 'Standard Paper', sourceCategory: '歷年考題', questionCount: 10, year: 2025 };
 
       expect(isTopicPracticePaper(tp1)).toBe(true);
       expect(isTopicPracticePaper(tp2)).toBe(true);
+      expect(isTopicPracticePaper(gn)).toBe(false);
       expect(isTopicPracticePaper(std)).toBe(false);
     });
 

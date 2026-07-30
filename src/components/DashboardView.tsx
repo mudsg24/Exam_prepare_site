@@ -32,7 +32,15 @@ export const sanitizePaperTitle = (title: string): string => {
   return (title || '').replace(/\s*\(\s*重點轉化\s*\)/g, '').trim();
 };
 
+export const isGNPaper = (paper: ExamManifestItem): boolean => {
+  return Boolean(
+    (paper.sourceCategory && paper.sourceCategory.includes('GN')) ||
+    (paper.title && paper.title.includes('GN'))
+  );
+};
+
 export const isTopicPracticePaper = (paper: ExamManifestItem): boolean => {
+  if (isGNPaper(paper)) return false;
   return Boolean(
     (paper.sourceCategory && paper.sourceCategory.includes('主題練習')) ||
     (paper.title && paper.title.includes('主題備考')) ||
@@ -41,7 +49,7 @@ export const isTopicPracticePaper = (paper: ExamManifestItem): boolean => {
 };
 
 export const isKeyPointTransformationPaper = (paper: ExamManifestItem): boolean => {
-  if (isTopicPracticePaper(paper)) return false;
+  if (isGNPaper(paper) || isTopicPracticePaper(paper)) return false;
   return Boolean(
     (paper.sourceCategory && paper.sourceCategory.includes('重點轉化')) ||
     (paper.title && paper.title.includes('重點轉化')) ||
@@ -66,7 +74,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       ? Math.round((stats.correctCount / stats.completedQuestions) * 100)
       : 0;
 
-  // Group manifest by year (2026 then 2025), and sub-group into Standard Library vs Key Point Transformation vs Topic Practice
+  // Group manifest by year (2026 then 2025), and sub-group into Standard Library vs Key Point Transformation vs GN vs Topic Practice
   const groupedPaperSections = useMemo(() => {
     const years = Array.from(
       new Set(manifest.map((p) => p?.year).filter((y): y is number => typeof y === 'number'))
@@ -76,11 +84,15 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       const yearPapers = manifest.filter((p) => p && p.year === year);
 
       const standardPapers = yearPapers
-        .filter((p) => !isKeyPointTransformationPaper(p) && !isTopicPracticePaper(p))
+        .filter((p) => !isKeyPointTransformationPaper(p) && !isTopicPracticePaper(p) && !isGNPaper(p))
         .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
 
       const keyPointPapers = yearPapers
         .filter((p) => isKeyPointTransformationPaper(p))
+        .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
+
+      const gnPapers = yearPapers
+        .filter((p) => isGNPaper(p))
         .sort((a, b) => (b.title || '').localeCompare(a.title || '', 'zh-Hant', { numeric: true }));
 
       const topicPapers = yearPapers
@@ -102,6 +114,14 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           title: `${year} 醫院重點轉化`,
           papers: keyPointPapers,
           categoryType: 'keyPoint' as const,
+        });
+      }
+      if (gnPapers.length > 0) {
+        sections.push({
+          key: `${year}-gn`,
+          title: `${year} GN`,
+          papers: gnPapers,
+          categoryType: 'gn' as const,
         });
       }
       if (topicPapers.length > 0) {
@@ -360,14 +380,18 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                 <div className="flex items-center justify-between pt-2">
                   <span
                     className={`px-3 py-1 rounded-xl text-xs font-bold border flex items-center gap-1.5 shadow-sm ${
-                      section.categoryType === 'topic'
+                      section.categoryType === 'gn'
+                        ? 'bg-cyan-500/10 text-cyan-800 dark:text-cyan-300 border-cyan-500/30'
+                        : section.categoryType === 'topic'
                         ? 'bg-emerald-500/10 text-emerald-800 dark:text-emerald-300 border-emerald-500/30'
                         : section.categoryType === 'keyPoint'
                         ? 'bg-[#e9d5ff]/40 text-purple-800 dark:text-purple-200 border-[#d8b4fe]/60'
                         : 'bg-sky-500/10 text-sky-700 dark:text-sky-300 border-sky-500/20'
                     }`}
                   >
-                    {section.categoryType === 'topic' ? (
+                    {section.categoryType === 'gn' ? (
+                      <Target className="w-3.5 h-3.5 text-cyan-500" />
+                    ) : section.categoryType === 'topic' ? (
                       <BookOpen className="w-3.5 h-3.5 text-emerald-500" />
                     ) : section.categoryType === 'keyPoint' ? (
                       <Sparkles className="w-3.5 h-3.5 text-purple-500" />
@@ -395,7 +419,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                       >
                         <div className="space-y-2">
                           {paper.sourceCategory &&
-                            !/^\d{4}\s*年?(交換題|試卷與章節練習庫|重點轉化|主題練習)$/.test(paper.sourceCategory) &&
+                            !/^\d{4}\s*年?(交換題|試卷與章節練習庫|重點轉化|主題練習|GN)$/.test(paper.sourceCategory) &&
                             section.categoryType === 'standard' && (
                               <div className="flex items-center justify-between">
                                 <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-400 text-[11px] font-semibold border border-sky-500/20">

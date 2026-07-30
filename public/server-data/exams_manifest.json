@@ -9,9 +9,9 @@
     "questionCount": 18,
     "hasTutorial": true,
     "tutorialFilename": "tutorials/2026_ANCA-associated_Glomerulonephritis_(主題備考)_tutorial.json",
-    "updatedAt": "2026-07-30T09:50:00.000Z",
-    "nlmProcessedCount": 0,
-    "qcVerifiedCount": 0
+    "updatedAt": "2026-07-30T10:15:00.000Z",
+    "nlmProcessedCount": 18,
+    "qcVerifiedCount": 18
   },
   {
     "id": "2026_Anti-GBM_disease_(主題備考)",
@@ -696,5 +696,23 @@
     "tutorialId": "2026_Heparin-Induced_Thrombocytopenia_(主題備考)",
     "nlmProcessedCount": 20,
     "qcVerifiedCount": 20
+  },
+  {
+    "paperId": "2026_IgA_Nephropathy_(主題備考)",
+    "paperTitle": "2026 IgA Nephropathy (主題備考)",
+    "sourceCategory": "2026 年主題練習",
+    "totalQuestions": 18,
+    "hasTutorial": true
+  },
+  {
+    "id": "2026_Nephrotic_Syndrome_(主題備考)",
+    "paperId": "2026_Nephrotic_Syndrome_(主題備考)",
+    "title": "Nephrotic Syndrome 專題精選試題與雙重 NLM 解析 (2026)",
+    "year": 2026,
+    "category": "TSN 歷年交換題",
+    "sourceCategory": "2026 年主題練習",
+    "totalQuestions": 20,
+    "hasTutorial": true,
+    "tutorialPath": "/server-data/tutorials/2026_Nephrotic_Syndrome_(主題備考)_tutorial.json"
   }
 ]

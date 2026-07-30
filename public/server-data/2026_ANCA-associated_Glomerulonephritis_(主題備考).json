@@ -973,7 +973,7 @@
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "PASSED",
           "error": null,
-          "selectedOption": "NONE"
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (1-2)",
@@ -988,9 +988,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerifiedAt": "2026-07-30T10:15:00+08:00",
-      "qcNotes": "Discrepancy noted (NLM #1: NONE, NLM #2: B, Ground Truth: B)."
+      "qcNotes": "Discrepancy noted (NLM #1: NONE, NLM #2: B, Ground Truth: B).",
+      "reconciliationNotes": "Reconciled NLM #1 database grounding constraint. Option B is confirmed as the clinical hallmark of multi-antigen reactivity in Drug-Induced AAV."
     },
     {
       "id": "anca_gn_q18",

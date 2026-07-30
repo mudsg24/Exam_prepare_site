@@ -9,7 +9,7 @@
     "questionCount": 18,
     "hasTutorial": true,
     "tutorialFilename": "tutorials/2026_ANCA-associated_Glomerulonephritis_(主題備考)_tutorial.json",
-    "updatedAt": "2026-07-30T10:15:00.000Z",
+    "updatedAt": "2026-07-30T02:40:06.234Z",
     "nlmProcessedCount": 18,
     "qcVerifiedCount": 18
   },
@@ -23,7 +23,7 @@
     "questionCount": 18,
     "hasTutorial": true,
     "tutorialFilename": "tutorials/2026_Anti-GBM_disease_(主題備考)_tutorial.json",
-    "updatedAt": "2026-07-30T10:00:00.000Z",
+    "updatedAt": "2026-07-30T02:40:06.231Z",
     "nlmProcessedCount": 18,
     "qcVerifiedCount": 18
   },
@@ -166,7 +166,8 @@
     "hasTutorial": true,
     "tutorialId": "2026_Fabry_disease_(主題備考)",
     "nlmProcessedCount": 12,
-    "qcVerifiedCount": 12
+    "qcVerifiedCount": 12,
+    "updatedAt": "2026-07-30T02:40:06.226Z"
   },
   {
     "id": "2026_kaohsiung_clinical_(重點轉化)",
@@ -673,7 +674,8 @@
     "hasTutorial": true,
     "tutorialId": "2026_slit_diaphragm_(主題備考)",
     "nlmProcessedCount": 12,
-    "qcVerifiedCount": 12
+    "qcVerifiedCount": 12,
+    "updatedAt": "2026-07-30T02:40:06.221Z"
   },
   {
     "id": "2026_高長_(重點轉化)",
@@ -706,7 +708,11 @@
     "sourceCategory": "2026 GN",
     "totalQuestions": 20,
     "hasTutorial": true,
-    "tutorialPath": "/server-data/tutorials/2026_Nephrotic_Syndrome_(主題備考)_tutorial.json"
+    "tutorialPath": "/server-data/tutorials/2026_Nephrotic_Syndrome_(主題備考)_tutorial.json",
+    "questionCount": 20,
+    "nlmProcessedCount": 20,
+    "qcVerifiedCount": 20,
+    "updatedAt": "2026-07-30T02:40:06.210Z"
   },
   {
     "id": "2026_IgA_Nephropathy_(主題備考)",
@@ -719,6 +725,8 @@
     "hasTutorial": true,
     "tutorialId": "2026_IgA_Nephropathy_(主題備考)_tutorial",
     "nlmProcessedCount": 18,
-    "qcVerifiedCount": 18
+    "qcVerifiedCount": 18,
+    "questionCount": 18,
+    "updatedAt": "2026-07-30T02:40:06.224Z"
   }
 ]

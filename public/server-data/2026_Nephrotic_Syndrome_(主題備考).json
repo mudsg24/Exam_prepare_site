@@ -30,7 +30,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "患者為典型 Pediatric Minimal Change Disease (MCD)。MCD 在 Light Microscopy 下球體近乎正常，Immunofluorescence 為 Negative，其特徵性診斷關鍵為 Electron Microscopy 下呈現 Diffuse Foot Process Effacement。",
+      "sourceExplanation": "患者為典型 Pediatric Minimal Change Disease (MCD)。MCD 在 Light Microscopy 下Glomeruli 近乎正常，Immunofluorescence 為 Negative，其特徵性診斷關鍵為 Electron Microscopy 下呈現 Diffuse Foot Process Effacement。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_4.png",
@@ -156,7 +156,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "KDIGO 2021 指引針對 High Risk 的 Primary Membranous Nephropathy (Anti-PLA2R 高滴定抗體或高度蛋白尿)，第一線建議使用 Rituximab 或 Cyclophosphamide 加 Alternating Corticosteroids (Modified Ponticelli Regimen)，單用 Prednisone 對 Primary MN 無效。",
+      "sourceExplanation": "KDIGO 2021 指引針對 High Risk 的 Primary Membranous Nephropathy (Anti-PLA2R high-titer autoantibodies 或 heavy proteinuria)，第一線建議使用 Rituximab 或 Cyclophosphamide 加 Alternating Corticosteroids (Modified Ponticelli Regimen)，單用 Prednisone 對 Primary MN 無效。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_9.png",
@@ -229,16 +229,14 @@
       ],
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-1)",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的單一正確選項為 **(A) Class V (Membranous Lupus Nephritis)**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確選項詳細原理與病理生理學機制分析)\n\n根據 *Brenner & Rector's The Kidney*（第 31、32 章）與最新之 *KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis* 關於 **`Lupus Nephritis` (LN)** 的臨床與病理生理學分類標準，本病例診斷為 **`Class V (Membranous Lupus Nephritis)`** 的循序漸進臨床與組織病理學分析如下：\n\n1.  **病理組織學特徵分析 (Histopathological Evaluation)**：\n    *   **`Light Microscopy` (LM)** 與 **`Jones’ Methenamine Silver Stain`**：腎臟切片顯示 **`diffuse uniform thickening of glomerular basement membranes`**（彌漫性、均勻的 **`GBM`** 增厚），且在 **`GBM`** 外側（上皮下）有顯著的反應性基底膜增生，於二維橫截面下呈現特徵性的 **`GBM Spike Formation`**（釘突形成）[Passage 156, 162/Fig 32.11]。\n    *   **`Electron Microscopy` (EM)**：在超微結構上，證實存在廣泛分佈於上皮下的 **`diffuse subepithelial immune deposits`**（電子緻密物），這是定義膜性病變模式（**`membranous pattern`**）的核心病理依據 [Passage 156, 162/Fig 32.12]。\n    *   **排除增生與壞死病變**：切片中完全 **`without endocapillary proliferation or necrosis`**（無內皮下細胞增生或纖維素樣壞死），亦無 **`karyorrhexis`**（核碎裂）或 **`cellular crescents`**（細胞性新月體）[Passage 153, 158]。這在病理分類學上，排除了合併存在活動性增生性病變（**`Class III`** 或 **`Class IV`**）的可能性，確立了其為純粹的 **`pure Class V (Membranous Lupus Nephritis)`** [Passage 152, 159]。\n\n2.  **臨床表型與血清學指標之病理生理學偶聯 (Clinical and Serological Correlation)**：\n    *   **`Proteinuria` (5.5 g/24h)**：患者表現為典型的重度 **`nephrotic-range proteinuria`**，此為 **`Class V Membranous Lupus Nephritis`** 最具代表性的臨床表型 [Passage 165]。\n    *   **`Normal Serum Complement Levels (C3, C4)` 與 `Negative Anti-dsDNA Antibodies`**：在 **`Systemic Lupus Erythematosus` (SLE)** 的臨床進程中，活動性的增生性腎炎（如 **`Class III/IV LN`**）由於抗原抗體複合物的大量沉積與對經典補體途徑的強烈激活，必然伴隨顯著的 **`complement consumption / depletion`**（低補體血症，即 **`low C3, C4`**）與高滴度的 **`anti-dsDNA antibodies`** [Passage 150, 164]。然而，相較之下，**`pure Class V Membranous Lupus Nephritis`** 的系統性免疫活動度通常較為溫和，在臨床確診時，**高達 40% 的患者表現為正常的 `serum complement levels` 以及陰性的 `anti-dsDNA antibodies`** [Passage 165]。因此，本例中完全正常的補體與陰性自身抗體，與其病理上的純 **`Class V`** 表現具備完美的臨床生理學一致性。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項分析)\n\n*   **Option (B) — Class II (Mesangial Proliferative Lupus Nephritis)**\n    *   *為何錯誤*：在組織病理學上，**`Class II`** 的定義為純粹的 **`mesangial hypercellularity`**（每個系膜區遠離血管極的切面上大於 3 個系膜細胞）伴隨 **`mesangial immune deposits`**（於 IF 或 EM 下可見） [Passage 148, 154/Figs 32.1-32.3]。其毛細血管袢壁通常完全正常，在電鏡或光鏡下**絕對不允許**出現彌漫性的 **`subepithelial immune deposits`** 或者是 **`GBM spike formation`** [Passage 148]。\n    *   *典型臨床特徵*：臨床上多表現為輕度或中度的無症狀 **`isolated proteinuria`**（通常 $< 1.0 \\text{ g/day}$）或鏡下血尿，腎功能長期保持優異，極其罕見會以 **`5.5 g/24h`** 的重度 **`nephrotic-range proteinuria`** 為首發表現 [Passage 163, 170, 583]。\n    *   *出題者意圖*：測試考生是否會僅因患者的血清學指標完全「安靜（正常補體與陰性抗體）」，便錯誤地將其與預後最溫和的系膜病變（Class II）進行偶聯，進而忽視了毛細血管壁嚴重的膜性結構毀損。\n\n*   **Option (C) — Class III (Focal Lupus Nephritis)**\n    *   *為何錯誤*：根據 **`ISN/RPS 2003 classification`**，**`Class III`** 定義為累及少於 50% 腎小球的局灶節段性或全球性內皮內/外增生性病變 [Passage 149, 152]。其最特徵性的病理改變為毛細血管腔內細胞增生（**`endocapillary proliferation`**）、中性粒細胞浸潤、核碎裂、**`fibrinoid necrosis`**（纖維素樣壞死）以及 **`wire loop`** 樣內皮下免疫複合物沉積 [Passage 153, 158]。而本例患者的腎臟切片上**明確指出無任何內皮細胞增生或壞死**，從病理學定義上直接否定了 **`Class III`** 的診斷 [Passage 156]。\n    *   *典型臨床特徵*：常伴有活躍的尿沉渣（**`active urine sediment`**，包括大量的變形紅血球與細胞管型）以及高度活動性的血清學異常 [Passage 163]。\n    *   *出題者意圖*：評估考生能否在發病空間定位上，將「內皮下/毛細血管腔內增生（Class III）」與「基底膜外側/上皮下非增生病變（Class V）」這兩大截然不同的發病軸線進行本質上的物理切割。\n\n*   **Option (D) — Class IV (Diffuse Lupus Nephritis)**\n    *   *為何錯誤*：**`Class IV`** 是最嚴重、也最常見的 **`Lupus Nephritis`** 類型，定義為累及 $\\ge 50\\%$ 腎小球的彌漫性內皮內/外高度增生與炎性損毀 [Passage 154, 158]。其病理典型呈現為廣泛且嚴重的毛細血管袢內皮與系膜細胞大範圍增殖（**`global endocapillary hypercellularity`**）、大片 **`fibrinoid necrosis`**、顯著的內皮下大規模 **`wire loop deposits`** 與 **`hyaline thrombi`**（透明血栓） [Passage 153, 157, 158]。這與本例「無內皮細胞增生或壞死、僅有純粹上皮下 spikes」的鏡下特徵完全相悖。\n    *   *典型臨床特徵*：臨床上病情極其兇險，典型呈現為急性腎炎綜合徵（**`nephritic syndrome`**）或快速進行性腎小球腎炎（**`RPGN`**），伴隨極重度的 **`hypocomplementemia`**（補體 C3, C4 降至極低）與極高滴度的 **`anti-dsDNA antibodies`** [Passage 164]。\n    *   *出題者意圖*：測試考生是否會僅因患者呈現大量的 **`nephrotic-range proteinuria`**，便盲目地將其歸類為最常見的重症 Class IV，以此篩選出能夠利用病理「無增殖/無壞死」與血清學「正常補體」這兩大金標準進行精細化排除的高階考生。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試鑑別診斷與高頻對照)\n\n在 **`nephrology board exams`** 中，關於狼瘡性膜性病變與其模擬病變的鑑別診斷，是最高頻的核心考點矩陣：\n\n#### (1) Pure Class V LN versus Combined Proliferative Classes (Class III + V or Class IV + V)\n這是決定臨床治療強度與用藥選擇（支持治療 vs. 強力誘導治療）的最重要病理分流：\n*   **`Pure Class V Lupus Nephritis` (本題診斷)**：\n    *   *病理特徵*：常規 subepithelial 沉積與 spikes，**絕對不伴有**任何內皮細胞增生、核碎裂、壞死或顯著的 subendothelial 沉積 [Passage 156, 159]。\n    *   *臨床決策*：根據最新 **`KDIGO 2024 Guideline`**，若尿蛋白在非腎病範圍，可僅給予優化的 **`Supportive Care`**；若呈現腎病症候群範圍蛋白尿（如本例），治療應結合 **`MMF (MPAA)` 聯合 `glucocorticoids`**（通常為中低劑量減量方案，以避免過度免疫抑制） [Passage 571, 597, 599]。\n*   **`Combined Class III+V or Class IV+V` (混合型狼瘡腎炎)**：\n    *   *病理特徵*：在瀰漫性上皮下沉積的基礎上，同時出現顯著的 subendothelial 沉積、毛細血管袢內皮細胞重度增殖、壞死甚至新月體形成 [Passage 159]。\n    *   *臨床決策*：其臨床進程與系統毒性完全由活動性的增生性（proliferative）成分主導。**臨床上必須無條件直接遵循 `Class III/IV` 的強力誘導緩解指引**，立即給予大劑量 **`glucocorticoid pulses`** 聯合 **`low-dose IV Cyclophosphamide` (Euro-Lupus regimen)** 或 **`MPAA`**，並可合適地聯用 **`Belimumab`** 或 **`Voclosporin`** 等多靶點藥物 [Passage 566, 567, 589]。\n\n#### (2) Lupus Membranous Nephropathy (Class V) versus Primary Membranous Nephropathy (PMN)\n這是病理科與腎臟科在遭遇「膜性病變」切片後，最重要的「原發與繼發」病因學篩查對照：\n*   **`Lupus Membranous Nephropathy (Class V LN)`**：\n    *   *切片超微特徵*：在 **`Electron Microscopy`** 下，除上皮下沉積外，**高達 $>90\\%$ 的切片會伴有顯著的 `mesangial electron-dense deposits`** 或者是 subendothelial 沉積 [Passage 50, 52]；此外，常伴隨特徵性的 **`tubuloreticular inclusions (TRIs)`**（內皮細胞內小管網狀包涵體，由高濃度干擾素-alpha 誘導，是狼瘡的診斷特徵）[Passage 53/Table 31.5]。\n    *   *免疫螢光特徵*：典型呈現強烈、均勻的 **`full house pattern`**（即 **`IgG, IgA, IgM, C3, C1q`** 均為強陽性），且常伴隨有顯著的 tubular basement membrane 沉積 [Passage 55, 160]。\n    *   *血清靶抗原*：對於足細胞表面原發性抗原（如 **`anti-PLA2R`** 與 **`anti-THSD7A`**）之自體抗體檢測，**典型呈陰性** [Passage 56, 268]。\n*   **`Primary Membranous Nephropathy (PMN)`**：\n    *   *切片超微特徵*：沉積物幾乎**完全、孤立地局限於 `subepithelial space`**，極其罕見 mesangial 或 subendothelial 沉積，TRIs 通常陰性 [Passage 50, 53]。\n    *   *免疫螢光特徵*：通常僅為單純的 **`IgG`**（以 **`IgG4` subclass** 為主 [Passage 268]）與 **`C3`** 呈顆粒狀沿毛細血管袢著色；**`C1q, IgA, IgM` 典型為陰性或極微弱的 trace 著色** [Passage 53/Table 31.5]。\n    *   *血清靶抗原*：血清中 **`anti-PLA2R autoantibodies` 呈現高度特異性強陽性**（佔 70%–80%），或 `anti-THSD7A` 陽性（佔 5%–10%） [Passage 35, 49]。\n\n#### (3) Lupus Podocytopathy versus Class I/II Lupus Nephritis with Nephrotic Syndrome\n*   **`Lupus Podocytopathy` (狼瘡足細胞病變)**：\n    *   這是近年被正式納入指引更新、且臨床實戰極具迷惑性的亞型 [Passage 150, 583]。\n    *   *病理特徵*：其 **`Light Microscopy`**（LM）可以完全正常（外觀呈 Class I 或 Class II mesangial 樣改變），且 **`IF` 染色不含有任何 glomerular capillary wall 的免疫複合物沉積** [Passage 150, 583]。然而，在 **`Electron Microscopy`** 下，會顯現出極其特徵性的 **`diffuse podocyte foot process effacement`**（瀰漫性足突融合，病生理特徵與微小病變 `MCD` 相同） [Passage 583, 587]。\n    *   *治療*：這類患者雖屬於 Class I/II 組織學，但因合併有足細胞病變，**不能**僅採取保守治療，而**必須嚴格遵循 `Minimal Change Disease (MCD)` 的指引，首選給予高劑量口服 `corticosteroids` 誘導治療** [Passage 565, 583]。\n\n---\n\n### 5. Citations & References (文獻與引用來源)\n\n*   **Chapter Name & Section Headers**:\n    *   **Brenner & Rector's The Kidney, Chapter 32: \"Secondary Glomerular Disease\"**：\n        *   Section: **\"SYSTEMIC LUPUS ERYTHEMATOSUS\"** $\\rightarrow$ **\"PATHOLOGY OF LUPUS NEPHRITIS\"** [Passages 151, 152, 153, 156, 159, 160]。\n        *   Section: **\"SYSTEMIC LUPUS ERYTHEMATOSUS\"** $\\rightarrow$ **\"CLINICAL MANIFESTATIONS\"** [Passages 163, 164, 165]。\n    *   **B&R The Kidney, Chapter 31: \"Primary Glomerular Disease\"**：\n        *   Section: **\"MEMBRANOUS NEPHROPATHY\"** $\\rightarrow$ **\"Pathology\"** [Passages 50, 51, 52, 53]。\n    *   **KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis (including Jan 2024 Chapter Updates)**：\n        *   Section: **\"10.1 Diagnosis\"** [Passages 562, 578, 579, 580]。\n        *   Section: **\"10.2.2 Class I or Class II lupus nephritis\"**（內含 `Lupus Podocytopathy` 定義，Passages 565, 583, 584）。\n        *   Section: **\"10.2.4 Class V lupus nephritis\"** [Passages 571, 595, 596, 597, 598, 599]。\n\n*   **Figures, Tables, & Boxes**:\n    *   **Table 32.1 (Chapter 32, B&R)**：*\"International Society of Nephrology/Renal Pathology Society (2003) Classification of Lupus Nephritis\"* [Passage 152]。\n    *   **Figure 32.11 (Chapter 32, B&R)**：*\"Lupus nephritis class V. Silver stain highlights glomerular basement membrane spikes projecting outward from the glomerular basement membranes...\"* [Passage 162]。\n    *   **Figure 32.12 (Chapter 32, B&R)**：*\"Lupus nephritis class V. Electron micrograph showing numerous subepithelial electron-dense deposits as well as mesangial deposits.\"* [Passage 162]。\n    *   **Figure 2 (KDIGO 2024)**：*\"Activity and chronicity items included in lupus nephritis kidney biopsy report\"* [Passage 579, 581]。\n    *   **Figure 4 (KDIGO 2024)**：*\"Immunosuppressive treatment for patients with Class I or Class II lupus nephritis\"* [Passage 584]。\n    *   **Figure 10 (KDIGO 2024)**：*\"Management of patients with pure Class V lupus nephritis\"* [Passage 597]。\n\n---\n\n### 6. Language & Terminology Rules (繁體中文與英語專業術語規範)\n\n*   本分析全篇之組織病理學、病理生理學機制以及臨床決策分流闡述，一律使用繁體中文（Traditional Chinese）進行專業、流暢之論述。\n*   所有的解剖、病理、臨床、藥理、影像及診斷學術語（如 `Systemic Lupus Erythematosus`、`Lupus Nephritis`、`Class V Membranous Lupus Nephritis`、`Proteinuria`、`Glomerular Basement Membrane`、`GBM Spike Formation`、`Subepithelial Immune Deposits`、`Endocapillary Proliferation`、`Fibrinoid Necrosis`、`Serum Complement Levels`、`C3`、`C4`、`Anti-dsDNA Antibodies`、`Nephrotic Syndrome`、`Jones’ Methenamine Silver Stain`、`Light Microscopy`、`Electron Microscopy`、`Immunofluorescence`、`Lupus Podocytopathy` 等）均維持純英文書寫，無任何中文對照或中英併列，嚴格遵守國際高階專科考題的學術寫作格式。\n\n---\n\n### 7. Database Limitation Guard (數據庫無瑕聲明)\n\n*   本分析完全基於隨書附帶之 100 篇原廠 hydrated PDFs 數據庫進行。所有組織病理分期、ISN/RPS 分類標準定義與 KDIGO 2024 最新修訂指引均與原文無縫對接。無任何憑空臆測，數據精準，證據完整。\n\n---\n\n📊 **下一步建議**：在明確掌握了該 38 歲女性患者切片呈現的 **`diffuse subepithelial immune deposits`** 聯袂 **`GBM spike formation`**、且無任何活動性內皮增生與壞死、並確立其屬於純粹的 **`Class V Membranous Lupus Nephritis`** 的分子病理生理學本質後，臨床管理的下一個關鍵挑戰在於治療決策的優化滴定。我們可以進一步針對該患者 **「在面臨 5.5 g/24h 的 nephrotic-range proteinuria 且 renal function 尚屬穩定（eGFR 正常）的情況下，如何依據 KDIGO 2024 最新更新指引（Practice Point 10.2.4.1 / Figure 10），安全、精確地實施『以 Mycophenolate Mofetil (MMF) 或者是其活性成分 MPAA 聯合 moderate-dose oral Glucocorticoids』作為首選的 induction therapy（Figure 10 / Figure 7）；並探討在何種特定的藥物耐受或生育力保護需求下，可將其安全地更換為『Calcineurin Inhibitors (CNIs，如 Voclosporin 或者是 Tacrolimus) 聯合低劑量激素快速減量』或加用『Belimumab』進行多靶點協同滴定，同時制定精準的『Anticoagulant Therapy』（Figure 38）以防範致死性 renal vein thrombosis 的發生」**，進行深度的專科臨床決策演練。",
+          "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A",
-          "rawResponse": "",
-          "formattedResponse": "",
-          "citations": [],
-          "figureMentions": [],
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "qcStatus": "PASSED",
+          "qcReason": null,
+          "error": null,
+          "timestamp": "2026-07-30T02:39:14.227Z"
         },
         {
           "notebookTitle": "TSN：出題 (5-3)",
@@ -282,7 +280,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Diabetic Kidney Disease 的典型 Nodular Glomerulosclerosis 結節稱為 Kimmelstiel-Wilson Nodules。此為 PAS 陽性之 Mesangial Matrix Expansion。",
+      "sourceExplanation": "Diabetic Kidney Disease 的典型 Nodular Glomerulosclerosis nodules 稱為 Kimmelstiel-Wilson Nodules。此為 PAS 陽性之 Mesangial Matrix Expansion。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_39_6.png",
@@ -408,7 +406,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "Secondary Syphilis 引起的腎病變典型臨床呈現為手掌/腳掌皮疹伴隨 Nephrotic Syndrome，其 Renal Biopsy Pathology 最常表現為 Membranous Nephropathy (Subepithelial Immune Deposits)。病患接受 Penicillin 治療後腎病可完全緩解。",
+      "sourceExplanation": "Secondary Syphilis 引起的 nephropathy 典型臨床呈現為 maculopapular rash 伴隨 Nephrotic Syndrome，其 Renal Biopsy Pathology 最常表現為 Membranous Nephropathy (Subepithelial Immune Deposits)。病患接受 Penicillin 治療後 nephropathy 可完全緩解。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -424,22 +422,20 @@
           "error": null
         },
         {
-          "notebookTitle": "TSN：出題 (1-4)",
-          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
-          "accountProfile": "mudskipper24",
-          "selectedOption": "NONE",
-          "rawResponse": "",
-          "formattedResponse": "",
-          "citations": [],
-          "figureMentions": [],
+          "notebookTitle": "TSN：出題 (2-2)",
+          "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 1. Answer Determination & Database Limitation Guard (正解判定與資料庫限制防衛)\n\n在臨床醫學中，**`Secondary Syphilitic Nephropathy`** 是因梅毒螺旋體（**`Treponema pallidum`**）感染所引發的一類免疫複合物介導的腎小球腎炎。當患者表現為 **`nephrotic-range proteinuria`**、**`hypoalbuminemia`** 且伴有特徵性的梅毒二期皮膚病變（**`maculopapular skin rash on palms and soles`**）以及血清學強陽性（**`positive RPR and TPPA`**）時，其最典型的 **`glomerular histopathological pattern`** 是 **`Membranous Nephropathy pattern with subepithelial immune deposits`**（對應 **Option D**）。在發病機制上，這是由於梅毒螺旋體相關抗原與宿主特異性抗體形成循環或原位 **`immune complexes`**，並精確沉積於 **`subepithelial space`**，進而活化補體並造成足細胞的局部物理屏障毀損。\n\n然而，經詳細檢索本專科資料庫所收錄之文獻（包括 *Brenner & Rector's The Kidney* 與各項 *KDIGO Guidelines*），**現有文獻中完全沒有任何段落提及 `Syphilis`、`Syphilitic Nephropathy`、`RPR` 或 `TPPA` 等與梅毒相關之診斷、病理或治療條款**。\n\n因此，本題涉及的特定繼發性感染腎病變超出了現有資料庫的收錄範圍。為了秉持嚴格的學術真實性與不憑空猜測之誠信承諾，在此啟動資料庫限制防衛。以下將依據現有文獻中有關 **`Membranous Nephropathy`**、**`Infection-Related Glomerulonephritis`** 以及其他干擾項病理機制的記載，為您提供最高規格的專科學術解析與高頻考點對比。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確臨床與生理病理學分析)\n\n雖然資料庫缺乏對梅毒性腎病變的直接論述，但資料庫中關於 **`Membranous Nephropathy`** 以及 **`Infection-Related Glomerulonephritis`** 的病理生理學記載，與本題的機制具有高度的學術關聯：\n\n1.  **`Membranous Nephropathy` 的超微結構與病理特徵**：\n    *   根據資料庫第 72 章中的描述，**`Membranous Nephropathy`** 在形態學上表現為 **`global/homogeneous glomerular capillary wall thickening`** ［162］。\n    *   在 **`Immunofluorescence (IF)`** 下，典型呈現沿著基底膜 contours 分佈的 **`granular capillary staining for IgG and C3`** ［162］。\n    *   在 **`Electron Microscopy (EM)`** 下，其最具診斷特異性的超微表現為 **`diffuse subepithelial deposits close to the podocyte`** ［162］。隨著病程進展（如 **`Stage II`** 改變），沉積物會逐漸併入並被增生的 **`glomerular basement membrane`** 包繞，形成釘突（**`spike formation`**）［39, 162］。\n2.  **`Secondary Membranous Nephropathy` 的感染病因偶聯**：\n    *   資料庫第 31 章與第 72 章指出，許多系統性感染會引發繼發性膜性腎病變。例如，在兒童與特定亞洲人群中，**`hepatitis B virus (HBV)`** 感染與 **`Membranous Nephropathy`** 之間存在強烈的流行病學與病理因果偶聯 ［60, 160］。\n    *   這類繼發性病變的生理機制均源於循環或原位形成的感染性抗原-抗體 **`immune complexes`**。當這些複合物跨越毛細血管內皮，穿過基底膜並最終精確滯留沉積於 **`subepithelial space`**（外尿側）時，會引發足細胞足突融合（**`foot process effacement`**），並釋放大量蛋白。這與本題 **`Secondary Syphilitic Nephropathy`** 作為經典繼發性膜性腎炎的生理學本質完全一致。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項剖析)\n\n*   **Option (A) Crescentic Glomerulonephritis with pauci-immune pattern (不正確)**：\n    *   *資料庫病理特徵*：**`Crescentic Glomerulonephritis`** 是一類進展極快的壞死性腎小球炎。當其呈現 **`pauci-immune pattern`** 時，定義為在 **`IF`** 下幾乎不伴有或僅有極微弱（**`< 2+`**）的免疫球蛋白或補體沉積 ［58］，這在發病機制上主要是由 **`antineutrophil cytoplasmic antibody (ANCA)`** 介導的小血管壞死與中性粒細胞活化所致，典型見於 **`ANCA-associated vasculitis`** ［54, 55, 153］。\n    *   *為何錯誤*：梅毒性腎病變本質上是典型的 **`immune complex-mediated`**（免疫複合物介導）疾患，其 **`IF`** 與 **`EM`** 必定會顯現出極為豐富且定位明確的免疫球蛋白與補體沉積，與 **`pauci-immune`**（寡免疫沉積）特徵完全相反。\n    *   *出題者意圖*：測試考生能否精確區分「非免疫複合物介導的壞死性新月體病變」與「系統性感染介導的體液免疫複合物沉積病變」的免疫病理界限。\n\n*   **Option (B) Focal Segmental Glomerulosclerosis collapsing variant (不正確)**：\n    *   *資料庫病理特徵*：**`Collapsing variant of FSGS`**（即 **`collapsing glomerulopathy`**）是一類病理上極具侵略性的足細胞硬化亞型。其特徵是 **`segmental collapse of capillaries accompanied by hypertrophy and hyperplasia of epithelial cells`** ［36］。\n    *   *為何錯誤*：在臨床與感染病學中，該病理模式是 **`human immunodeficiency virus (HIV)`** 感染（即 **`HIV-associated nephropathy / HIVAN`**）的標誌性特徵 ［160, 225］，近年也見於攜帶 **`APOL1`** 高風險等位基因的 **`SARS-CoV-2`** 感染患者 ［160, 207］。雖然也是感染相關，但其病生基礎是足細胞分裂週期的失控性增生，而非梅毒螺旋體抗原沉積引發的膜性上皮下免疫損害。\n    *   *出題者意圖*：利用同樣與病毒性傳染病（如 `HIV`）強烈偶聯的特異性腎小球病理表型（`collapsing FSGS`）進行跨病因干擾，考查考生對不同病原體引發特異性腎小球受損格局的精準辨識度。\n\n*   **Option (C) Dense Deposit Disease (不正確)**：\n    *   *資料庫病理特徵*：**`Dense Deposit Disease (DDD)`**（舊稱 **`Type II MPGN`**）屬於補體介導的腎小球病變（**`C3 glomerulopathy`**）［42, 161］。其病理特徵是 **`pathognomonic electron dense transformation of the basement membrane`**（電鏡下基底膜呈現極其緻密、連續帶狀的異常電子緻密物沉積）［161］。\n    *   *為何錯誤*：**`DDD`** 的底層發病機制是由於體內存在 **`C3 nephritic factor (C3Nef)`** 或其他遺傳缺陷，導致替代途徑補體活化失控（**`alternative complement pathway dysregulation`**）［42, 56］，與外源性細菌感染（如梅毒）引發的典型經典途徑免疫複合物沉積完全不同。\n    *   *出題者意圖*：測試考生能否將「補體系統內源性失調所致的帶狀基底膜病變」與「外源性病原體體液反應所致的上皮下斑駁沉積病變」在分子生理層面進行徹底切分。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科高頻對比與鑑別)\n\n在醫學專科考試中，當患者表現為 **`nephrotic syndrome`** 且病理切片呈現 **`Membranous Nephropathy`** 樣結構改變時，臨床上最常被拿來進行高頻鑑別與對比的疾病譜系如下：\n\n#### **Table 1: High-Yield Contrast of Membranous Histopathological Patterns**\n| **鑑別與病理維度** | **`Primary Membranous Nephropathy (PMN)`** | **`Secondary Syphilitic Membranous Nephropathy`** | **`Lupus Nephritis Class V (Membranous)`** |\n| :--- | :--- | :--- | :--- |\n| **主要致病靶抗原** | 針對足細胞表面特異性自體抗原：**`PLA2R1` (70%)** ［5, 26］ 或 **`THSD7A` (5%-10%)** ［5, 26］。 | 外源性梅毒螺旋體（**`Treponema pallidum`**）抗原與宿主抗體複合物。 | 系統性核抗原（如 **`nucleosomes`**, dsDNA）自體複合物。 |\n| **`IF` 免疫沉積模式** | 僅 **`IgG`**（**`IgG4` 佔絕對優勢**）與 **`C3`** 呈毛細血管襻顆粒狀沉積。 | **`IgG`** 與 **`C3`** 沉積；**`IgG1` 或 `IgG3` 常佔優勢**。 | 經典的 **`Full-House staining`**：**`IgG`、`IgA`、`IgM`、`C3`、`C1q` 均呈強陽性** ［125］。 |\n| **`EM` 超微結構特徵** | **僅侷限於 `subepithelial space`** 的電子緻密物沉積。 | 主要沉積於 **`subepithelial space`**；部分伴有輕度繫膜沉積。 | 廣泛的 **`subepithelial`** 沉積，且**典型伴隨 `mesangial dense deposits` 及 `tubuloreticular inclusions`** ［39, 71］。 |\n| **臨床血清學特徵** | **`anti-PLA2R1` 陽性** ［5］；自體免疫與感染指標呈陰性。 | **`RPR` 與 `TPPA` 強陽性**；**`anti-PLA2R1` 陰性**。 | **`ANA`、`anti-dsDNA` 陽性**；**補體 `C3/C4` 顯著降低** ［258］。 |\n| **首要處置原則** | 支持治療無效後起用 **`Rituximab`**、**`CNIs`** 或 **`Cyclophosphamide`** ［193］。 | **首選立即給予足量 `Penicillin G` 進行驅梅治療**。 | 類固醇聯合 **`Mycophenolate Mofetil / CNI`** 等免疫抑制治療 ［179, 257］。 |\n\n---\n\n### 5. Citations & References (精準文獻引用)\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, **Chapter 31: Primary Glomerular Disease**\n        *   Section: **MEMBRANOUS NEPHROPATHY** $\\rightarrow$ *Pathology* ［39］\n    *   *Brenner & Rector's The Kidney*, **Chapter 72: Diseases of the Kidney and Upper Urinary Tract in Children**\n        *   Section: **GLOMERULAR DISEASES** $\\rightarrow$ *Nephrotic Syndrome* ［160］\n        *   Section: *Figure 72.11 Histopathologic findings in membranous nephropathy...* ［162］\n    *   *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*\n        *   **Chapter 3: Membranous nephropathy** $\\rightarrow$ *3.1 Diagnosis* ［217］\n        *   **Chapter 6: Focal segmental glomerulosclerosis (FSGS) in adults** $\\rightarrow$ *Figure 52: Causes of secondary FSGS* ［207, 223］\n\n---\n\n📊 **下一步建議**：鑑於此 **`Secondary Syphilitic Nephropathy`** 患者起病年齡極輕（26 歲），且表現為嚴重的 **`nephrotic syndrome`**（ 蛋白尿 4.2 g/day ），在臨床安全隨訪與血管炎防禦層面，我們是否可以進一步討論：當為其執行首選一線驅梅治療（如 **`Intramuscular Benzathine Penicillin G`**）時，鑑於其體內存在極高的梅毒螺旋體菌血載量，在治療啟動後的最初 24 小時內「如何正確預防與監護突發的 **`Jarisch-Herxheimer reaction`** 這一致命的全身性急性炎性風暴」，並評估「該反應在腎臟微循環上是否會誘發突發性的 **`acute kidney injury (AKI)`**，以及此時應如何與青黴素直接引發的 **`acute allergic tubulointerstitial nephritis (ATIN)`** 進行精確的尿沉渣與臨床指標鑑別」之核心專科與藥物安全防禦考點？",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "selectedOption": "D",
+          "qcStatus": "FAILED",
+          "qcReason": "REFUSAL",
+          "error": null,
+          "timestamp": "2026-07-30T02:39:14.243Z"
         }
       ],
       "reconciliationStatus": "DISPUTED",
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED_RESOLVED",
-      "reconciliationNotes": "NLM #1 & #2 declared INSUFFICIENT due to Brenner 11e database grounding limitation on secondary syphilis. Main session medical intervention confirmed Option (D) Membranous Nephropathy pattern with subepithelial deposits as the clinical consensus."
+      "reconciliationNotes": "NLM #1 declared INSUFFICIENT due to Brenner 11e database grounding limitation on secondary syphilis. Medical intervention confirmed Option (D) Membranous Nephropathy pattern as clinical consensus."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q08",
@@ -465,7 +461,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Nephrotic Syndrome 患者極易引發 Hypercoagulability 與 Renal Vein Thrombosis。主因為低分子量之 Endogenous Anticoagulants (特別是 Antithrombin III 及 Protein S/C) 經由尿液大量流失，同時肝臟代償性增加 Fibrinogen, Factor V, Factor VIII 等 Procoagulant Factors 合成。",
+      "sourceExplanation": "Nephrotic Syndrome 患者極易引發 Hypercoagulability 與 Renal Vein Thrombosis。主因為低分子量之 Endogenous Anticoagulants (特別是 Antithrombin III 及 Protein S/C) 經由 urine 大量流失，同時肝臟代償性增加 Fibrinogen, Factor V, Factor VIII 等 Procoagulant Factors 合成。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -522,7 +518,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "NPHS1 基因轉譯產物為 Nephrin，其突變導致 Congenital Nephrotic Syndrome of the Finnish Type。NPHS2 則編碼 Podocin。",
+      "sourceExplanation": "NPHS1 gene 轉譯產物為 Nephrin，其突變導致 Congenital Nephrotic Syndrome of the Finnish Type。NPHS2 則編碼 Podocin。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_4_2.png",
@@ -705,7 +701,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "HCV 感染常透過 Type II Mixed Cryoglobulinemia 引發 Immune-complex mediated MPGN。輕微及電子顯微鏡下呈 Double-contour Tram-track 樣翻倍，且 C3 與 C4 皆會因 Classical Pathway 消耗而降低。",
+      "sourceExplanation": "HCV 感染常透過 Type II Mixed Cryoglobulinemia 引發 Immune-complex mediated MPGN。輕微及Electron Microscopy 下呈 Double-contour Tram-track 樣翻倍，且 C3 與 C4 皆會因 Classical Pathway 消耗而降低。",
       "resolvedImages": [
         {
           "id": "Brenner 11e_Fig_31_11.png",
@@ -882,7 +878,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Nephrotic Overfill Mechanism 主要是由於大量漏出至尿液中的 Plasminogen 被轉化為 Plasmin，進而 Proteolytic Cleavage 切割並異常活化 Cortical Collecting Duct 之 Epithelial Sodium Channel (ENaC)。",
+      "sourceExplanation": "Nephrotic Overfill Mechanism 主要是由於大量漏出至 urine 中的 Plasminogen 被轉化為 Plasmin，進而 Proteolytic Cleavage 切割並異常活化 Cortical Collecting Duct 之 Epithelial Sodium Channel (ENaC)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -939,7 +935,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "患者為長期 Rheumatoid Arthritis引發之 Secondary AA Amyloidosis。Congo Red 陽性且 Serum Amyloid A (SAA) 蛋白陽性，纖維直徑為 8-12 nm。",
+      "sourceExplanation": "患者為長期 Rheumatoid Arthritis引發之 Secondary AA Amyloidosis。Congo Red 陽性且 Serum Amyloid A (SAA) protein 陽性，fibril diameter 為 8-12 nm。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1053,7 +1049,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "KDIGO 建議在 Membranous Nephropathy 當 Serum Albumin < 2.0-2.5 g/dL 且伴有 High VTE Risk 時，考量預防性抗凝血治療 (Prophylactic Anticoagulation)。",
+      "sourceExplanation": "KDIGO 建議在 Membranous Nephropathy 當 Serum Albumin < 2.0-2.5 g/dL 且伴有 High VTE Risk 時，考量 Prophylactic Anticoagulation。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1173,7 +1169,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "APOL1 (Apolipoprotein L1) 高風險對偶基因 (G1/G2) 是引發 African Ancestry 人群之 Non-diabetic CKD, HIVAN 與 Primary FSGS (特別是 Collapsing FSGS) 的強烈遺傳風險因子。",
+      "sourceExplanation": "APOL1 (Apolipoprotein L1) high-risk alleles (G1/G2) 是引發 African Ancestry 人群之 Non-diabetic CKD, HIVAN 與 Primary FSGS (特別是 Collapsing FSGS) 的強烈遺傳風險因子。",
       "resolvedImages": [],
       "nlmResponses": [
         {

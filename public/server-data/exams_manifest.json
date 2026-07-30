@@ -698,13 +698,6 @@
     "qcVerifiedCount": 20
   },
   {
-    "paperId": "2026_IgA_Nephropathy_(主題備考)",
-    "paperTitle": "2026 IgA Nephropathy (主題備考)",
-    "sourceCategory": "2026 年主題練習",
-    "totalQuestions": 18,
-    "hasTutorial": true
-  },
-  {
     "id": "2026_Nephrotic_Syndrome_(主題備考)",
     "paperId": "2026_Nephrotic_Syndrome_(主題備考)",
     "title": "Nephrotic Syndrome 專題精選試題與雙重 NLM 解析 (2026)",
@@ -714,5 +707,18 @@
     "totalQuestions": 20,
     "hasTutorial": true,
     "tutorialPath": "/server-data/tutorials/2026_Nephrotic_Syndrome_(主題備考)_tutorial.json"
+  },
+  {
+    "id": "2026_IgA_Nephropathy_(主題備考)",
+    "paperId": "2026_IgA_Nephropathy_(主題備考)",
+    "title": "2026 IgA Nephropathy (主題備考)",
+    "year": 2026,
+    "category": "TSN 歷年交換題",
+    "sourceCategory": "2026 年主題練習",
+    "totalQuestions": 18,
+    "hasTutorial": true,
+    "tutorialId": "2026_IgA_Nephropathy_(主題備考)_tutorial",
+    "nlmProcessedCount": 18,
+    "qcVerifiedCount": 18
   }
 ]

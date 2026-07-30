@@ -9,15 +9,27 @@
       "diagrams": [
         {
           "id": "diag_1_1",
-          "path": "/server-data/assets/mcd_podocyte_effacement.jpg",
           "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_podocyte_effacement.jpg",
           "caption": "Molecular Pathogenesis and Podocyte Foot Process Effacement in Minimal Change Disease"
         },
         {
           "id": "diag_1_2",
-          "path": "/server-data/assets/Brenner_Fig_31_3.png",
+          "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_selective_barrier.jpg",
+          "caption": "Glomerular Filtration Barrier Architecture & Selective Albuminuria Mechanics"
+        },
+        {
+          "id": "diag_1_3",
           "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_31_3.png",
           "caption": "Brenner 11e Fig 31.3: Ultrastructural Comparison of Normal Capillary Loop vs Minimal Change Disease"
+        },
+        {
+          "id": "diag_1_4",
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_31_1.png",
+          "caption": "Brenner 11e Fig 31.1: Frequencies of Glomerular Diseases by Age Group"
         }
       ]
     },
@@ -28,20 +40,26 @@
       "diagrams": [
         {
           "id": "diag_2_1",
-          "path": "/server-data/assets/mcd_pathology_em.jpg",
           "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_pathology_em.jpg",
           "caption": "Histopathological Diagnostic Triad (LM, IF, EM) of Minimal Change Disease"
         },
         {
           "id": "diag_2_2",
-          "path": "/server-data/assets/Brenner_Fig_31_2.png",
-          "type": "micrograph",
-          "caption": "Brenner 11e Fig 31.2: Unremarkable Light Microscopy Appearance in Minimal Change Disease"
+          "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_vs_fsgs_pathology.jpg",
+          "caption": "Clinical and Pathological Differential Diagnosis: Minimal Change Disease vs FSGS"
         },
         {
           "id": "diag_2_3",
-          "path": "/server-data/assets/Brenner_Fig_31_4.png",
           "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_31_2.png",
+          "caption": "Brenner 11e Fig 31.2: Unremarkable Light Microscopy Appearance in Minimal Change Disease"
+        },
+        {
+          "id": "diag_2_4",
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Fig_31_4.png",
           "caption": "Brenner 11e Fig 31.4: Electron Micrograph Showing Widespread Podocyte Foot Process Effacement"
         }
       ]
@@ -53,9 +71,15 @@
       "diagrams": [
         {
           "id": "diag_3_1",
-          "path": "/server-data/assets/mcd_secondary_causes.jpg",
           "type": "ai_illustration",
-          "caption": "Overview of Secondary Etiologies, Drug Associations, and Triggers in Minimal Change Disease"
+          "path": "/server-data/assets/mcd_secondary_causes.jpg",
+          "caption": "Overview of Secondary Etiologies, Drug Associations, and Environmental Triggers in MCD"
+        },
+        {
+          "id": "diag_3_2",
+          "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Box_31_4.png",
+          "caption": "Brenner 11e Box 31.4: Common Associations With Minimal Change Disease"
         }
       ]
     },
@@ -66,14 +90,20 @@
       "diagrams": [
         {
           "id": "diag_4_1",
-          "path": "/server-data/assets/mcd_kdigo_treatment.jpg",
           "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_kdigo_treatment.jpg",
           "caption": "KDIGO Guidelines Clinical Treatment Algorithm for Minimal Change Disease"
         },
         {
           "id": "diag_4_2",
-          "path": "/server-data/assets/Brenner_Table_31_5.png",
+          "type": "ai_illustration",
+          "path": "/server-data/assets/mcd_relapse_sparing.jpg",
+          "caption": "Steroid Response Patterns and Mechanisms of Steroid-Sparing Immunosuppressive Therapies"
+        },
+        {
+          "id": "diag_4_3",
           "type": "micrograph",
+          "path": "/server-data/assets/Brenner_Table_31_5.png",
           "caption": "Brenner 11e Box 31.5: Patterns of Response of Minimal Change Disease to Corticosteroid Treatment"
         }
       ]

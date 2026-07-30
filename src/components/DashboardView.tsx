@@ -433,6 +433,10 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                     const prog = paperProgressMap[paper.id] || { total: paper.questionCount, answered: 0, correct: 0 };
                     const percent = prog.total > 0 ? Math.round((prog.answered / prog.total) * 100) : 0;
                     const isCompleted = prog.answered === prog.total && prog.total > 0;
+                    const wrongCount = Math.max(0, prog.total - prog.correct);
+                    const accuracyPercent = prog.total > 0 ? Math.round((prog.correct / prog.total) * 100) : 0;
+                    const correctRatio = prog.total > 0 ? (prog.correct / prog.total) * 100 : 0;
+                    const wrongRatio = prog.total > 0 ? (wrongCount / prog.total) * 100 : 0;
                     const displayTitle = sanitizePaperTitle(paper.title);
 
                     return (
@@ -460,29 +464,55 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
                         <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-slate-800">
                           {/* Progress info */}
-                          <div className="flex items-center justify-between text-xs">
-                            <span className="text-slate-500">
-                              進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
-                            </span>
-                            <span className="font-mono text-slate-500">{percent}%</span>
-                          </div>
+                          {isCompleted ? (
+                            <>
+                              <div className="flex items-center justify-between text-xs">
+                                <span className="text-slate-500 dark:text-slate-400">
+                                  最近完成：<span className="font-medium text-slate-700 dark:text-slate-200">正確 {prog.correct} 題</span>
+                                  <span className="mx-1 text-slate-400 dark:text-slate-500">·</span>
+                                  <span className="font-medium text-slate-700 dark:text-slate-200">錯誤 {wrongCount} 題</span>
+                                </span>
+                                <span className={`font-mono font-bold text-sm ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
+                                  {accuracyPercent}%
+                                </span>
+                              </div>
 
-                          <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
-                            <div
-                              className={`h-full transition-all duration-300 ${
-                                isCompleted
-                                  ? 'bg-emerald-500'
-                                  : section.categoryType === 'electrolytes'
-                                  ? 'bg-gradient-to-r from-amber-500 to-amber-600'
-                                  : section.categoryType === 'topic'
-                                  ? 'bg-gradient-to-r from-emerald-500 to-teal-600'
-                                  : section.categoryType === 'keyPoint'
-                                  ? 'bg-gradient-to-r from-[#d8b4fe] to-[#c084fc]'
-                                  : 'bg-gradient-to-r from-sky-500 to-blue-600'
-                              }`}
-                              style={{ width: `${percent}%` }}
-                            />
-                          </div>
+                              <div className={`w-full h-2 rounded-full overflow-hidden flex ${isLight ? 'bg-rose-100 border border-slate-200' : 'bg-rose-950/40 border border-slate-800'}`}>
+                                <div
+                                  className="h-full bg-emerald-500 transition-all duration-300"
+                                  style={{ width: `${correctRatio}%` }}
+                                />
+                                <div
+                                  className="h-full bg-rose-500 transition-all duration-300"
+                                  style={{ width: `${wrongRatio}%` }}
+                                />
+                              </div>
+                            </>
+                          ) : (
+                            <>
+                              <div className="flex items-center justify-between text-xs">
+                                <span className="text-slate-500">
+                                  進度: <strong className={isLight ? 'text-slate-800' : 'text-slate-200'}>{prog.answered} / {prog.total} 題</strong>
+                                </span>
+                                <span className="font-mono text-slate-500">{percent}%</span>
+                              </div>
+
+                              <div className={`w-full h-2 rounded-full overflow-hidden ${isLight ? 'bg-slate-100 border border-slate-200' : 'bg-slate-800 border border-slate-800'}`}>
+                                <div
+                                  className={`h-full transition-all duration-300 ${
+                                    section.categoryType === 'electrolytes'
+                                      ? 'bg-gradient-to-r from-amber-500 to-amber-600'
+                                      : section.categoryType === 'topic'
+                                      ? 'bg-gradient-to-r from-emerald-500 to-teal-600'
+                                      : section.categoryType === 'keyPoint'
+                                      ? 'bg-gradient-to-r from-[#d8b4fe] to-[#c084fc]'
+                                      : 'bg-gradient-to-r from-sky-500 to-blue-600'
+                                  }`}
+                                  style={{ width: `${percent}%` }}
+                                />
+                              </div>
+                            </>
+                          )}
 
                           {/* Topic Tutorial Button */}
                           <button

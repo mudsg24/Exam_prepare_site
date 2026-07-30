@@ -192,5 +192,22 @@ describe('DashboardView Component & Helpers', () => {
       render(<DashboardView {...defaultProps} stats={zeroStats} />);
       expect(screen.getAllByText('0%').length).toBeGreaterThan(0);
     });
+
+    it('should render completed paper breakdown (correct/wrong count and accuracy percentage)', () => {
+      render(<DashboardView {...defaultProps} />);
+
+      // For paper_2026_kp1: total 20, answered 20, correct 18, wrong 2 => 90%
+      expect(screen.getByText('最近完成：')).toBeInTheDocument();
+      expect(screen.getByText('正確 18 題')).toBeInTheDocument();
+      expect(screen.getByText('錯誤 2 題')).toBeInTheDocument();
+      expect(screen.getByText('90%')).toBeInTheDocument();
+    });
+
+    it('should render uncompleted paper progress (answered / total)', () => {
+      render(<DashboardView {...defaultProps} />);
+
+      // For paper_2025_std1: total 50, answered 15
+      expect(screen.getByText('15 / 50 題')).toBeInTheDocument();
+    });
   });
 });

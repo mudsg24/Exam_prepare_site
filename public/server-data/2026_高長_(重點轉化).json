@@ -346,7 +346,7 @@
         "C. The inferior parathyroid glands originate from the fourth pharyngeal pouch.",
         "D. The superior parathyroid glands migrate with the ultimobranchial body."
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Inferior parathyroid glands 在胚胎發育時源自 third pharyngeal pouch，並與 thymus 一同向下遷移，因此常出現於 ectopic mediastinal location。相對地，superior parathyroid glands 源自 fourth pharyngeal pouch，遷移路徑較短，位置較為固定。在此 patient 中，Sestamibi scan 呈現 mediastinal uptake，高度提示 ectopic parathyroid adenoma，這正是因為 inferior parathyroid migration 的胚胎學特性。另外，patient 的 calcified TB lymph nodes 可能在 imaging 上造成干擾，但其 ectopic adenoma 本身的解剖位置仍由 embryological migration 決定。選項 (A) 和 (D) 錯誤，因為 superior glands 不隨 thyroid 或 thymus 向下深層遷移；選項 (C) 錯誤，inferior glands 是來自 third pharyngeal pouch。",
       "resolvedImages": [
@@ -389,7 +389,7 @@
         "C. Calcified TB lymph nodes can cause false-positive results on anatomical or functional imaging targeting parathyroid adenomas.",
         "D. The presence of mediastinal uptake indicates that the superior parathyroid gland has migrated ectopically."
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "在進行 parathyroid adenoma 的 localization 時，Sestamibi scan 是一項常用且敏感的檢查。然而，calcified TB lymph nodes 或是其他 granulomatous disease 造成的 lymphadenopathy，可能會在 CT 上呈現 nodular appearance，甚至在某些情況下引起非特異性的 tracer uptake，導致 false-positive 結果。因此，必須結合 clinical history 與 functional/anatomical imaging 仔細鑑別。選項 (B) 錯誤，Sestamibi 也可以被 thyroid nodules 或惡性腫瘤等其他組織攝取。選項 (A) 錯誤，calcification 較常是 granulomatous inflammation 的後遺症，而非 carcinoma 的絕對特徵。選項 (D) 錯誤，mediastinal ectopic parathyroid 通常是 inferior parathyroid gland (與 thymus 同行) 而非 superior parathyroid gland。",
       "resolvedImages": [
@@ -417,7 +417,7 @@
       ],
       "reconciliationStatus": "DISPUTED",
       "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcStatus": "QC_PASSED",
       "qcNotes": "NLM Response 0 declared INSUFFICIENT with no option selection (selectedOption=NONE). NLM Response 1 selected Option C based on clinical consensus regarding false-positive imaging results from calcified TB lymph nodes.",
       "qcVerifiedAt": "2026-07-30T01:33:00+08:00"
     },
@@ -719,7 +719,7 @@
         "C. Rapid dissipation of the glucose osmotic gradient characteristic of high transporters.",
         "D. Excessive sodium accumulation in the dialysate due to high diffusion rates."
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "在使用 3.86% glucose solution 進行 peritoneal equilibration test (PET) 時，前 60 分鐘通常會因為 free water 經由 aquaporin-1 快速進入 peritoneal cavity 而導致 dialysate sodium concentration 出現短暫的下降，此現象在臨床上被稱為 sodium dip。Sodium dip 的大小直接反映了 free water transport 的功能與效率。在 high transporter 的病患中，由於 peritoneal membrane 對 small solutes 的 permeability 異常升高，glucose 會非常迅速地被吸收進入血液循環，導致驅動 free water 移動的 glucose osmotic gradient 快速消散。這使得 free water 經由 aquaporin-1 進入 dialysate 的動力大幅減弱，因此觀察到的 sodium dip 會明顯減少甚至消失。雖然 aquaporin-1 dysfunction 也會導致 sodium dip 減少（如選項 A 所描述），但在實際臨床表現中，rapid dissipation of the glucose osmotic gradient 是 high transporter 展現出減少的 sodium dip 的最主要機制。選項 (B) 提到的 low solute permeability 其實是代表 low transporter，這類病患通常能維持較久的 osmotic gradient，因此 sodium dip 會較為明顯。選項 (D) 描述的機制不正確，sodium dip 減少的本質是因為 free water dilution 的程度不足，而非 sodium diffusion 的速率增加所致。",
       "resolvedImages": [

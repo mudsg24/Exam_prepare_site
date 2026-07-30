@@ -91,7 +91,7 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "文獻中詳細記載了急性或慢性腎衰竭合併呼吸窘迫與咳血的經典鑑別診斷，如由 autoantibodies 驅動的 anti-GBM disease (Goodpasture syndrome) 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -781,7 +781,7 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Tenofovir disoproxil fumarate (TDF) 可引發 renal Fanconi syndrome 與 Type 2 renal tubular acidosis (RTA)。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等主動轉運停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。病理特徵包含 acute tubular injury、megamitochondria 與 loss of cristae。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -912,7 +912,7 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "來源文獻不足，無法提供足夠的分析。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -1029,8 +1029,8 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
-      "sourceAnswerStatus": "provided",
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 KDIGO 2021 指引，針對合併 abnormal kidney function 的 idiopathic immune complex–mediated membranoproliferative glomerulonephritis (idiopathic ICGN) 患者，本題所提供的選項中無完全正確的選項。在標準臨床指引下，除了給予 renin-angiotensin system inhibition 等最優支持性治療之外，首選的初始免疫抑制方案應為 oral glucocorticoid monotherapy（具體為口服 prednisone 或 prednisolone，持續 12-16 weeks）。選項 (A) 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為常規推薦，因為長期給予 alkylating agents 並未優於單純類固醇，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動聯用治療。選項 (B) 錯誤，plasma exchange therapy 缺乏隨機對照試驗獲益證據，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。選項 (C) 錯誤，大劑量 intravenous pulse methylprednisolone 通常保留給呈 rapidly progressive glomerulonephritis (RPGN)、病理呈廣泛 crescentic glomerulonephritis 或伴有嚴重腎外受累的患者。選項 (D) 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20 (如 rituximab) 的應用仍缺乏大型前瞻性臨床試驗支持，並非初始推薦首選。",
       "reconciliationStatus": "HIGH_CONFIDENCE_NLM_CORRECTION",
       "qcStatus": "QC_PASSED",
@@ -1170,7 +1170,7 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據目前提供的文獻資料，無足夠證據確認本題的正確答案。",
       "reconciliationStatus": "HIGH_CONFIDENCE_MATCH",
@@ -1351,13 +1351,13 @@
         },
         {
           "key": "D",
-          "text": "Hepatitis C virus infection",
+          "text": "Hodgkin lymphoma",
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "由於文獻中並未包含足以證實任何選項為 adult-onset minimal change disease (MCD) 的公認 secondary trigger，故本題無正確選項。MCD 是一種典型的 podocytopathy。文獻中記載的 secondary triggers 包括 drugs (如 nonsteroidal antiinflammatory drugs (NSAIDs) 與 lithium)、malignancy (特別是 Hodgkin lymphoma) 以及其他 toxic podocyte injury (如 bisphosphonate 與 heroin)。選項 (A) 錯誤，polycystic kidney disease (如 autosomal dominant polycystic kidney disease) 為遺傳性腎臟病，非 MCD 誘因。選項 (B) 錯誤，長期暴露於 lead 會引發 chronic tubulointerstitial nephritis，非 MCD。選項 (C) 錯誤，長期 essential hypertension 會引發 secondary focal segmental glomerulosclerosis (FSGS)，而非 MCD。選項 (D) 錯誤，hepatitis C virus infection 感染主要引起 membranoproliferative glomerulonephritis (MPGN) 或 membranous glomerulonephritis (MN)，其病理機制與 MCD 的非免疫沉積特徵互不相容。",
+      "sourceExplanation": "根據臨床與 Brenner 11e 記載，Hodgkin lymphoma (霍奇金淋巴瘤) 是成人 Minimal Change Disease (MCD) 極為著名的二次誘因 (Secondary trigger)。其餘選項：Polycystic kidney disease 為遺傳性腎病，Lead toxicity 引發 Chronic tubulointerstitial nephritis，Essential hypertension 常伴隨 secondary FSGS，而 Hepatitis C virus 主要引起 MPGN 或 MN。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1551,7 +1551,7 @@
           "id": "D"
         }
       ],
-      "sourceProvidedAnswer": "NONE",
+      "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "本題考查代謝性鹼中毒 (metabolic alkalosis) 的病理生理學機制與分類。代謝性鹼中毒可依據尿液氯離子 (urine chloride) 濃度分為 saline-responsive (尿氯 < 25 mmol/L) 與 chloride-unresponsive (或 saline-resistant，尿氯 > 40 mmol/L)。該病患尿氯升高至 45 mmol/L，符合 chloride-unresponsive 分類。其發病機制 (pathophysiology) 是由於慢性濫用瀉藥 (laxative abuse) 導致下消化道大量流失氫離子 (H+) 與氯離子 (Cl-)，加上口服過量碳酸氫鈉 (sodium bicarbonate)，並且由於本身患有慢性腎臟病 (CKD)，腎臟排泄 bicarbonate 的能力受損而使鹼中毒持續並加重。選項 (B) 錯誤，尿氯升高不屬於 saline-responsive。選項 (C) 錯誤，這並非原發性呼吸代償缺陷，且高尿氯為 chloride-unresponsive。選項 (D) 錯誤，鉀離子轉移並非主要驅動因素，且尿氯並不低。",
       "reconciliationStatus": "HIGH_CONFIDENCE",

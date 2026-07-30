@@ -11,6 +11,8 @@ import {
   ExamPaper,
   ExamQuestion,
   ExamTutorial,
+  TutorialModule,
+  TutorialSection,
   OptionId,
   ResolvedImage,
   AttachedImage,
@@ -412,18 +414,109 @@ export const App: React.FC = () => {
 
   // Select Tutorial from Dashboard
   const handleSelectTutorialFromDashboard = (paperId: string) => {
-    const manifestItem = manifest.find((item) => item.id === paperId);
-    const tutorialId = manifestItem?.tutorialId || `${paperId}_tutorial`;
+    const manifestItem = manifest.find((item) => item.id === paperId || (item as any).paperId === paperId);
     
-    fetch(`/server-data/tutorials/${tutorialId}.json`)
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data: ExamTutorial | null) => {
-        if (data && data.modules) {
-          setActiveTutorial(data);
-          setCurrentView('tutorial');
-        } else {
-          alert('該試卷的主題式備考教學載入失敗或尚在編寫中');
+    // Build candidate fetch URLs in order of specificity
+    const candidates: string[] = [];
+    if (manifestItem?.tutorialPath) {
+      candidates.push(
+        manifestItem.tutorialPath.startsWith('/')
+          ? manifestItem.tutorialPath
+          : `/${manifestItem.tutorialPath}`
+      );
+    }
+    if (manifestItem?.tutorialFilename) {
+      const fn = manifestItem.tutorialFilename;
+      candidates.push(fn.startsWith('/') ? fn : `/server-data/${fn}`);
+    }
+    if (manifestItem?.tutorialId) {
+      const tutId = manifestItem.tutorialId;
+      if (tutId.endsWith('.json')) {
+        candidates.push(`/server-data/tutorials/${tutId}`);
+      } else if (tutId.endsWith('_tutorial')) {
+        candidates.push(`/server-data/tutorials/${tutId}.json`);
+      } else {
+        candidates.push(`/server-data/tutorials/${tutId}_tutorial.json`);
+        candidates.push(`/server-data/tutorials/${tutId}.json`);
+      }
+    }
+
+    // Standard fallbacks
+    candidates.push(`/server-data/tutorials/${paperId}_tutorial.json`);
+    candidates.push(`/server-data/tutorials/${paperId}.json`);
+
+    const uniqueCandidates = Array.from(new Set(candidates));
+
+    const tryFetch = async (urls: string[]): Promise<any | null> => {
+      for (const url of urls) {
+        try {
+          const res = await fetch(url);
+          if (res.ok) {
+            const json = await res.json();
+            if (json) return json;
+          }
+        } catch (e) {
+          /* ignore & continue */
         }
+      }
+      return null;
+    };
+
+    tryFetch(uniqueCandidates)
+      .then((data: any) => {
+        if (!data) {
+          alert('該試卷的主題式備考教學載入失敗或尚在編寫中');
+          return;
+        }
+
+        // Normalize tutorial modules / sections into unified TutorialModule[] format
+        const rawModules = data.modules || data.sections || [];
+        if (!Array.isArray(rawModules) || rawModules.length === 0) {
+          alert('該試卷的主題式備考教學載入失敗或尚在編寫中');
+          return;
+        }
+
+        const normalizedModules: TutorialModule[] = rawModules.map((mod: any, idx: number) => {
+          const modId = mod.moduleId || mod.id || `module-${idx + 1}`;
+          const modTitle = mod.moduleTitle || mod.title || `Module ${idx + 1}`;
+          const studyGuide = mod.studyGuide || mod.description || '';
+          const diagrams = mod.diagrams || [];
+
+          let sections: TutorialSection[] = [];
+          if (mod.sections && Array.isArray(mod.sections) && mod.sections.length > 0) {
+            sections = mod.sections;
+          } else if (mod.content) {
+            sections = [
+              {
+                heading: mod.title || modTitle,
+                content: mod.content,
+                diagrams: mod.diagrams || [],
+              },
+            ];
+          }
+
+          return {
+            moduleId: modId,
+            moduleTitle: modTitle,
+            studyGuide,
+            diagrams,
+            sections,
+            relatedQuestionIds: mod.relatedQuestionIds || [],
+          };
+        });
+
+        const normalizedTutorial: ExamTutorial = {
+          id: data.id || paperId,
+          paperId: data.paperId || paperId,
+          title: data.title || manifestItem?.title || paperId,
+          sourceCategory: data.sourceCategory || manifestItem?.sourceCategory || '主題式備考教學',
+          year: data.year || manifestItem?.year || 2026,
+          updatedAt: data.updatedAt || new Date().toISOString(),
+          modules: normalizedModules,
+        };
+
+        setActiveTutorial(normalizedTutorial);
+        setCurrentView('tutorial');
       })
       .catch((e) => {
         console.error('Failed to load tutorial:', e);

@@ -60,13 +60,21 @@ export const Header: React.FC<HeaderProps> = ({
   const [currentTime, setCurrentTime] = useState<string>('');
 
   const groupedPaperOptgroups = useMemo(() => {
+    const isElectrolytes = (p: ExamManifestItem) =>
+      Boolean(
+        p.sourceCategory &&
+          (p.sourceCategory === '2026 Electrolytes' || p.sourceCategory.includes('Electrolytes'))
+      );
+
     const isGN = (p: ExamManifestItem) =>
+      !isElectrolytes(p) &&
       Boolean(
         (p.sourceCategory && p.sourceCategory.includes('GN')) ||
         (p.title && p.title.includes('GN'))
       );
 
     const isTopic = (p: ExamManifestItem) =>
+      !isElectrolytes(p) &&
       !isGN(p) &&
       Boolean(
         (p.sourceCategory && p.sourceCategory.includes('主題練習')) ||
@@ -75,6 +83,7 @@ export const Header: React.FC<HeaderProps> = ({
       );
 
     const isKeyPoint = (p: ExamManifestItem) =>
+      !isElectrolytes(p) &&
       !isGN(p) &&
       !isTopic(p) &&
       Boolean(
@@ -90,10 +99,13 @@ export const Header: React.FC<HeaderProps> = ({
     years.forEach((year) => {
       const yearPapers = manifest.filter((p) => p.year === year);
       const standard = yearPapers
-        .filter((p) => !isKeyPoint(p) && !isTopic(p) && !isGN(p))
+        .filter((p) => !isKeyPoint(p) && !isTopic(p) && !isGN(p) && !isElectrolytes(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
       const keyPoint = yearPapers
         .filter((p) => isKeyPoint(p))
+        .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
+      const electrolytes = yearPapers
+        .filter((p) => isElectrolytes(p))
         .sort((a, b) => b.title.localeCompare(a.title, 'zh-Hant', { numeric: true }));
       const gn = yearPapers
         .filter((p) => isGN(p))
@@ -114,6 +126,13 @@ export const Header: React.FC<HeaderProps> = ({
           key: `${year}-keypoint`,
           label: `${year} 醫院重點轉化`,
           papers: keyPoint,
+        });
+      }
+      if (electrolytes.length > 0) {
+        groups.push({
+          key: `${year}-electrolytes`,
+          label: `${year} Electrolytes`,
+          papers: electrolytes,
         });
       }
       if (gn.length > 0) {

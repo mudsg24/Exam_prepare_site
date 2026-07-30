@@ -94,6 +94,8 @@ export interface ExamManifestItem {
   year: number;
   hasTutorial?: boolean;
   tutorialId?: string;
+  tutorialFilename?: string;
+  tutorialPath?: string;
 }
 
 export interface UserAttemptState {

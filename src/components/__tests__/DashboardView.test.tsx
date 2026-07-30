@@ -7,6 +7,7 @@ import {
   isKeyPointTransformationPaper,
   isTopicPracticePaper,
   isGNPaper,
+  isElectrolytesPaper,
 } from '../DashboardView';
 import { ExamManifestItem, GlobalPracticeStats } from '../../types/exam';
 
@@ -16,6 +17,15 @@ describe('DashboardView Component & Helpers', () => {
       expect(sanitizePaperTitle('2026 大林 (重點轉化)')).toBe('2026 大林');
       expect(sanitizePaperTitle('Standard Title')).toBe('Standard Title');
       expect(sanitizePaperTitle('')).toBe('');
+    });
+
+    it('isElectrolytesPaper should correctly identify electrolyte papers', () => {
+      const el1: ExamManifestItem = { id: 'p1_(主題備考)', title: '2026 Pseudohypoparathyroidism 與 Albright 氏遺傳性骨性失養症 (主題備考)', sourceCategory: '2026 Electrolytes', questionCount: 18, year: 2026 };
+      const tp: ExamManifestItem = { id: 'p2', title: 'UTI 練習', sourceCategory: '2026 年主題練習', questionCount: 12, year: 2026 };
+
+      expect(isElectrolytesPaper(el1)).toBe(true);
+      expect(isElectrolytesPaper(tp)).toBe(false);
+      expect(isTopicPracticePaper(el1)).toBe(false);
     });
 
     it('isGNPaper should correctly identify GN papers', () => {

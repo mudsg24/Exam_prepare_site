@@ -1,0 +1,91 @@
+{
+  "id": "2026_Anti-GBM_disease_(主題備考)",
+  "paperId": "2026_Anti-GBM_disease_(主題備考)",
+  "title": "Anti-GBM Disease & Goodpasture Syndrome: Molecular Pathogenesis, Diagnostic Spectrum, KDIGO Guidelines & Special Scenarios",
+  "description": "整合 Anti-Glomerular Basement Membrane Disease 與 Goodpasture Syndrome 之 alpha3(IV)NC1 domain、Linear Immunofluorescence 與 Electron Microscopy 超微特徵、KDIGO 指引之 Plasmapheresis 與 Triple Therapy 處置切點、Double-Positive 及 Post-transplant Anti-GBM Nephritis in Alport Syndrome 之專科講堂。",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-30T10:00:00.000Z",
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Molecular Immunopathogenesis, Target Autoantigens & Environmental Triggers",
+      "content": "### 1. Molecular Pathophysiology Matrix\n\nAnti-Glomerular Basement Membrane Disease 為一種由致病性 Autoantibodies 直接攻擊 Glomerular Basement Membrane 與 Alveolar Basement Membrane 引發之 Rapidly Progressive Autoimmune Disease。其主要 Target Autoantigens 為 Type IV Collagen 的 non-collagenous domain 1 of the alpha-3 chain [alpha3(IV)NC1 domain]。在正常生理狀況下，alpha3(IV)NC1 domain 隱藏於 Type IV Collagen 密實 Hexamer 結構內部 (Cryptic Epitopes)。當暴露於 Environmental Triggers，如 Cigarette Smoking、Hydrocarbon Solvents Inhalation、Upper Respiratory Tract Infections 或 Extracorporeal Shock Wave Lithotripsy 時，Basement Membrane 結構發生 Conformational Changes，暴露此致病 Epitopes，引發 B-cell Autoantibodies 生成。\n\n| Molecular Aspect | Pathophysiological Feature | Clinical & Diagnostic Significance |\n| --- | --- | --- |\n| Target Autoantigen | Non-collagenous domain 1 of alpha-3 chain of Type IV collagen [alpha3(IV)NC1] | Highly specific epitope; recognized by circulating serum Anti-GBM autoantibodies |\n| Epitope Conformation | Cryptic epitope within the hexameric NC1 domain of Type IV collagen | Normally hidden; unmasked by environmental injury or chemical exposure |\n| HLA Genetic Association | Strongly associated with HLA-DRB1*1501 and HLA-DR4; protective allele HLA-DRB1*0701 | Demonstrates strong immunogenetic susceptibility in Caucasian populations |\n| Environmental Triggers | Cigarette smoking, Hydrocarbon solvents, Volatile organic chemicals, ESWL | Cigarette smoking specifically precipitates Pulmonary Hemorrhage in Anti-GBM patients |\n| Complement Activation | Classical complement pathway activation (C1q, C4, C3 binding along GBM) | Direct antibody binding triggers membrane attack complex (MAC) and neutrophil influx |\n\n### 2. High-Yield Differential Comparison Table\n\n| Diagnostic Metric | Anti-GBM Disease | ANCA-Associated Vasculitis | Immune Complex Glomerulonephritis |\n| --- | --- | --- | --- |\n| Primary Autoantibody | Anti-GBM IgG (targeting alpha3(IV)NC1) | Anti-MPO or Anti-PR3 ANCA | Anti-dsDNA, Anti-PLA2R, IgA, etc. |\n| Immunofluorescence Pattern | Continuous smooth Linear IgG staining along GBM | Pauci-immune (< 2+ Ig/complement staining) | Granular immune complex deposition along GBM/mesangium |\n| Complement Levels (C3/C4) | Normal serum C3 and C4 levels | Normal serum C3 and C4 levels | Frequently Low serum C3 or C4 (e.g., Lupus, MPGN, PSGN) |\n| Relapse Risk | Low relapse rate (< 3-5%) once antibodies clear | High relapse rate (30-50%); requires maintenance | Moderate to High relapse rate |\n| Pulmonary Involvement | Alveolar Hemorrhage without lung nodules/cavities | Pulmonary Capillaritis, Nodules, Cavities, Asthma | Rare alveolar hemorrhage (except Lupus Pneumonitis) |\n\n### 3. Pathophysiological Decision Tree\n\nSuspected Pulmonary-Renal Syndrome or RPGN ➔ Order Urgent Serology (Anti-GBM, ANCA, C3/C4, ANA) ➔ Anti-GBM Autoantibody Positive ➔ Perform Kidney Biopsy ➔ Direct Immunofluorescence ➔ Continuous Linear IgG Deposition along GBM ➔ Confirm Diagnosis of Anti-GBM Disease ➔ Evaluate Pulmonary Symptoms & Chest Imaging ➔ Hemoptysis or Diffuse Infiltrates Present ➔ Diagnosis: Goodpasture Syndrome.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Anti-GBM Disease 的 C3 與 C4 Complement 必定下降。\n**Analysis**: 雖然 Anti-GBM Antibodies 與 GBM 結合後會活化 Classical Complement Pathway，但由於 Antibodies 為高度局部耗竭於 Basement Membrane，全身性 Complement 消耗極少。因此，Serum C3 與 C4 水準在純 Anti-GBM Disease 患者中多維持於 Normal Complement Levels。若發現 Hypocomplementemia，應警惕是否合併 Post-infectious GN, Lupus Nephritis 或 Cryoglobulinemia。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_36",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_36.png",
+          "caption": "Brenner 11e Fig. 31.36: Immunofluorescence micrograph showing continuous linear IgG staining along the glomerular basement membrane (GBM).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "antigbm_pathogenesis_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/antigbm_pathogenesis.jpg",
+          "caption": "Immunopathogenesis of Anti-GBM Disease: alpha3(IV)NC1 Epitope Targeting & Complement Activation."
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Clinical Presentation, Histopathological Spectrum & Laboratory Diagnostics",
+      "content": "### 1. Clinical & Histopathological Spectrum Matrix\n\nAnti-GBM Disease 的典型臨床特徵為 Rapidly Progressive Glomerulonephritis (RPGN)，伴隨 Oliguria, Anuria 與 Serum Creatinine 快速竄升。當同時合併 Diffuse Alveolar Hemorrhage 與 Hemoptysis 時，即稱為 Goodpasture Syndrome。Kidney Biopsy 是診斷的金標準，Light Microscopy 呈現極度嚴重的 Necrotizing Crescentic Glomerulonephritis，Cellular Crescents 常影響 > 50-80% 的 Glomeruli。\n\n| Diagnostic Modality | Pathological Finding | Diagnostic Significance |\n| --- | --- | --- |\n| Direct Immunofluorescence (DIF) | Smooth, continuous, ribbon-like Linear IgG deposition along GBM | Pathognomonic hallmark; smooth linear ribbon pattern along capillary walls |\n| Light Microscopy (LM) | Fibrinoid necrosis and extensive circumferential cellular crescents | Typically > 50-80% gloms affected; synchronous lesion age (all crescents same age) |\n| Electron Microscopy (EM) | Fibrin tactoids in Bowman space; ABSENCE of electron-dense deposits | Absence of subepithelial/subendothelial deposits rules out immune-complex GN |\n| Urinalysis & Microscopy | Dysmorphic Red Blood Cells (RBCs) and Red Blood Cell Casts | Indicates active glomerular basement membrane rupture and severe glomerulonephritis |\n| Carbon Monoxide Diffusing Capacity (DLCO) | Markedly Increased DLCO (> 30% baseline increase) during pulmonary hemorrhage | Highly sensitive bedside marker for active intra-alveolar bleeding |\n\n### 2. High-Yield Differential Comparison Table\n\n| Histopathological Marker | Anti-GBM Disease | ANCA-Associated GN | Lupus Nephritis Class IV |\n| --- | --- | --- | --- |\n| Crescent Synchronicity | Synchronous (All crescents same stage) | Asynchronous (Different stages of crescents) | Asynchronous (Active & chronic lesions) |\n| Fibrinoid Necrosis | Severe, extensive in tuft | Severe, extensive in tuft | Severe ('Wire-looping', thrombi) |\n| Subendothelial Deposits | Absent | Absent | Abundant ('Wire loop' lesions) |\n| Direct Immunofluorescence | Continuous Linear IgG | Pauci-immune (Negative / trace) | Full-house (IgG, IgA, IgM, C3, C1q) |\n| Electron Microscopy | No electron-dense deposits | No electron-dense deposits | Subendothelial & Mesangial deposits |\n\n### 3. Pathophysiological Decision Tree\n\nAcute Kidney Injury & Hematuria ➔ Urinalysis shows Dysmorphic RBCs & RBC Casts ➔ Perform Renal Biopsy ➔ Direct Immunofluorescence Examination ➔ Linear Ribbon-like IgG along GBM ➔ Electron Microscopy confirms Absence of Electron-dense Deposits ➔ Confirm Anti-GBM Glomerulonephritis ➔ Measure DLCO & Perform Chest CT ➔ Elevated DLCO & Diffuse Infiltrates ➔ Active Alveolar Hemorrhage (Goodpasture Syndrome).\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 看到 Electron Microscopy 報告沒有 Electron-dense deposits 就以為排除了 Autoimmune Glomerulonephritis。\n**Analysis**: 很多學者誤以為 Autoantibodies 引起的疾病必然形成 Electron-dense deposits。然而，Anti-GBM Autoantibodies 是以均勻、極為平滑的方式結合於 Basement Membrane 的 alpha3(IV)NC1 domain，不會聚集成大分子的 Immune-complex Aggregates。因此，EM 下 Absence of electron-dense deposits (這與 ANCA-associated vasculitis 相似，但 DIF 上 Anti-GBM 為強烈 Linear IgG，ANCA 則為 Pauci-immune)。這是考題極高頻的誤導選項！",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_37",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_37.png",
+          "caption": "Brenner 11e Fig. 31.37: Electron micrograph of Anti-GBM GN showing fibrin tactoids in Bowman space and complete absence of immune complex electron-dense deposits.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "antigbm_pathology_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/antigbm_pathology.jpg",
+          "caption": "Diagnostic Spectrum of Anti-GBM Disease: Linear IF, Crescentic GN & Pulmonary Hemorrhage."
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: KDIGO Guidelines, Therapeutic Protocols & Predictors of Renal Non-Recovery",
+      "content": "### 1. KDIGO Treatment Guidelines Matrix\n\n根據 KDIGO 2024 Clinical Practice Guidelines，所有急性的 Anti-GBM Disease 患者，一經診斷應立刻啟動 Triple Therapy: (1) Plasmapheresis; (2) Pulse IV Methylprednisolone followed by oral Prednisone; (3) Oral Cyclophosphamide。Plasmapheresis 的目標在於快速清除循環中的致病性 Anti-GBM Autoantibodies，每日或隔日執行，直到 Anti-GBM Autoantibodies 轉為陰性 (通常為 14 天)。\n\n| Therapeutic Pillar | Regimen & Dosage | Target Mechanism & Clinical Goal |\n| --- | --- | --- |\n| Plasmapheresis (Plasma Exchange) | 4 L exchange daily or alternate-day for 14 days or until anti-GBM titers undetectable | Rapid physical clearance of circulating pathogenic IgG autoantibodies |\n| Corticosteroid Therapy | Pulse IV Methylprednisolone (500-1000 mg/day for 3 days), then Oral Prednisone 1 mg/kg/day | Rapid suppression of cellular inflammation and cellular crescent formation |\n| Alkylating Agent (Cyclophosphamide) | Oral Cyclophosphamide (2 mg/kg/day for 2-3 months; max 150 mg/day) | Shut down B-cell autoantibody production; prevent ongoing antibody synthesis |\n| Second-line Alternative (Rituximab) | Rituximab 375 mg/m2 weekly x 4 doses or 1000 mg IV on days 1 & 15 | Used when Cyclophosphamide is contraindicated, in severe toxicity, or relapse |\n\n### 2. Predictors of Renal Non-Recovery & Treatment Withholding Decision Node\n\n| Clinical Parameter | Favorable Recovery Prognosis | Unfavorable (Kidney Non-recovery Predictor) |\n| --- | --- | --- |\n| Presentation Serum Creatinine | Serum Creatinine < 5.7 mg/dL (500 umol/L) | Serum Creatinine > 5.7 mg/dL (500 umol/L) at presentation |\n| Urine Output | Non-oliguric / Preserved urine output | Severe Oliguria or Anuria |\n| Biopsy Cellular Crescents | Crescents < 50-80% of glomeruli | 100% Cellular Crescents or circumferential fibrocellular crescents |\n| Initial Dialysis Dependency | Patient DOES NOT require acute dialysis | Patient IS Dialysis-Dependent at initial presentation |\n| Pulmonary Hemorrhage Status | Absence or presence of hemoptysis | Treat REGARDLESS of renal status IF Pulmonary Hemorrhage is present! |\n\n### 3. Pathophysiological Decision Tree\n\nConfirmed Anti-GBM Disease Diagnosis ➔ Check Pulmonary Status ➔ Pulmonary Hemorrhage Present? ➔ YES ➔ Initiate Immediate Triple Therapy (Plasmapheresis + Steroids + Cyclophosphamide) REGARDLESS of initial renal function or dialysis status ➔ NO Pulmonary Hemorrhage ➔ Is Patient Dialysis-Dependent at presentation AND has 100% crescents on biopsy? ➔ YES ➔ Withhold Intensive Immunosuppressive Therapy (Kidney recovery rate < 5%; risks of infection outweigh benefits) ➔ NO (Non-dialysis dependent or Cr < 5.7 mg/dL) ➔ Initiate Full Triple Therapy Immediately.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為只要 Anti-GBM 患者進入 Dialysis-dependent，就一律不給予 Plasmapheresis 與 Immunosuppressive Therapy。\n**Analysis**: 這是 KDIGO 指引中最常考的關鍵決策題！如果患者初次就診時就已 Dialysis-dependent、且無 Pulmonary Hemorrhage、且切片呈現 100% Crescents，Renal Function 恢復機率小於 5%，此時應 Withhold 積極 Immunosuppressive Therapy 以防感染致死。但是，只要患者伴隨 Pulmonary Hemorrhage，不論 Renal Function 或 Dialysis 狀態如何，必須立刻啟動 Plasmapheresis 與 Triple Therapy 以拯救致命的 Pulmonary Hemorrhage！",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_35",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_35.png",
+          "caption": "Brenner 11e Fig. 31.35: Diagnostic algorithm for glomerulonephritis showing integration of immunofluorescence, electron microscopy, and clinical presentation.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "antigbm_treatment_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/antigbm_treatment.jpg",
+          "caption": "KDIGO Treatment Guidelines for Anti-GBM Disease: Plasmapheresis, Steroids, Cyclophosphamide & Critical Decision Nodes."
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: Special Scenarios: Double-Positive (Anti-GBM + ANCA) & Post-Transplant Anti-GBM Nephritis",
+      "content": "### 1. Special Clinical Scenarios Matrix\n\n臨床上有兩種極具考點的特殊表現亞型：(1) Double-Positive Anti-GBM and ANCA Disease (約 10-35% 的 Anti-GBM 患者同時帶有 MPO-ANCA 或 PR3-ANCA); (2) Post-transplant Anti-GBM Nephritis in Alport Syndrome (約 2-5% 的 Alport Syndrome 患者接受 Kidney Transplantation 後發生)。\n\n| Clinical Variant | Pathophysiology & Mechanism | Clinical Behavior & Management Strategy |\n| --- | --- | --- |\n| Double-Positive (Anti-GBM + ANCA) | Dual autoantibody positivity; ANCA induces neutrophil priming and unmasks alpha3(IV)NC1 epitope | Initial presentation resembles Anti-GBM (severe RPGN); long-term behavior resembles ANCA (HIGH RELAPSE RISK!); requires long-term maintenance immunosuppression! |\n| Post-transplant Anti-GBM Nephritis | Host with Alport Syndrome lacks alpha3/4/5(IV) chains; recognizes donor kidney COL4A3 as foreign antigen | Develops de novo linear Anti-GBM antibodies against allograft; leads to graft loss; requires aggressive plasmapheresis and immunosuppression |\n| Refractory / Relapsing Anti-GBM | Rare true relapse of classic Anti-GBM disease (< 3-5%); driven by persistent B-cell clone | Add Rituximab to eliminate B-cell lineage; re-initiate plasmapheresis until titers clear |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical Feature | Classic Anti-GBM Disease | Double-Positive (Anti-GBM + ANCA) | Post-Transplant Anti-GBM in Alport |\n| --- | --- | --- | --- |\n| Underlying Genetics | HLA-DRB1*1501 | HLA-DRB1*1501 / HLA-DQB1 | COL4A3, COL4A4, COL4A5 mutations |\n| Acute Phase Severity | Extremely Severe (RPGN) | Extremely Severe (RPGN) | Severe allograft loss |\n| Relapse Frequency | Extremely Low (< 3-5%) | HIGH Relapse Risk (30-40%) | Variable in allograft |\n| Maintenance Therapy Needed? | NO long-term maintenance required after antibody clearance | YES! Long-term maintenance (e.g., Azathioprine, Rituximab) REQUIRED due to ANCA | Intensive immunosuppression for allograft preservation |\n| Optimal Transplant Timing | Wait > 6 months after Anti-GBM antibody clearance | Wait > 6 months after both antibody clearances | Avoid transplantation if high anti-COL4 antibody titers present |\n\n### 3. Pathophysiological Decision Tree\n\nPatient with Double-Positive (Anti-GBM + ANCA) ➔ Initiate Acute Induction Phase (Plasmapheresis + Corticosteroids + Cyclophosphamide) ➔ Monitor Anti-GBM & ANCA Antibody Titers ➔ Anti-GBM Titers Become Negative ➔ DO NOT STOP IMMUNOSUPPRESSION! ➔ Transition to Long-term Maintenance Therapy (Azathioprine or Rituximab) due to ANCA Relapse Risk.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Double-Positive (Anti-GBM + ANCA) 患者在 Anti-GBM Autoantibodies 轉陰性後就可以停藥。\n**Analysis**: 這是專科筆試的頂級坑題！單純 Anti-GBM 病患在 Autoantibodies 清除後復發率低，不需長期的 Maintenance Therapy。但是 Double-Positive 患者兼具兩者特徵：急性期像 Anti-GBM 一樣兇猛，但遠期 Relapse Rate 跟 ANCA 一樣高 (30-40%)！因此，當 Anti-GBM Autoantibodies 清空後，絕對不能停藥，必須像 ANCA Vasculitis 一樣給予 18-24 個月的 Long-term Maintenance Therapy (Azathioprine or Rituximab)！",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_36",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_36.png",
+          "caption": "Brenner 11e Fig. 31.36: High-power immunofluorescence showing linear IgG deposition along the GBM, contrasting with pauci-immune ANCA vasculitis.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "antigbm_scenarios_ai",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/antigbm_scenarios.jpg",
+          "caption": "Special Clinical Scenarios: Double-Positive Anti-GBM + ANCA Disease & Post-Transplant Anti-GBM Nephritis in Alport Syndrome."
+        }
+      ]
+    }
+  ]
+}

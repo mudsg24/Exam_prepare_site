@@ -1,76 +1,165 @@
 {
-  "id": "2026_Hypokalemic_periodic_paralysis_(主題備考)_tutorial",
+  "id": "2026_Hypokalemic_periodic_paralysis_(主題備考)",
   "paperId": "2026_Hypokalemic_periodic_paralysis_(主題備考)",
   "title": "2026 Kidney專科 Hypokalemic Periodic Paralysis 與 Thyrotoxic Periodic Paralysis 主題式備考教學講堂",
+  "description": "整合 Hypokalemic Periodic Paralysis (HPP) 與 Thyrotoxic Periodic Paralysis (TPP) 之 Transcellular Shift 動態機轉、CACNA1S/SCN4A/KCNJ2 基因變異、Gating Pore Leak Current (Omega Current) 生理學、Rebound Hyperkalemia 處置陷阱與 Secondary Hypokalemic Paralysis 鑑別診斷。",
   "sourceCategory": "2026 Electrolytes",
   "year": 2026,
-  "updatedAt": "2026-07-29T15:50:00.000Z",
+  "updatedAt": "2026-07-31T01:48:00.000Z",
   "modules": [
     {
-      "id": "hpp_transcellular_shift_dynamics",
-      "title": "1. Pathophysiology & Transcellular Shift Dynamics of Hypokalemic Periodic Paralysis",
-      "content": "### Pathophysiology & Transcellular Shift Dynamics\n\nHypokalemic Periodic Paralysis 是一種急性的 Flaccid paralysis，其特徵為嚴重的 Hypokalemia。其核心病理機轉為劇烈的 Transcellular potassium shift，而非實質的 Total body potassium deficit。當 Na+/K+-ATPase 受到異常的 Hyperactivation 時，大量的 Potassium 會發生 Intracellular sequestration。常見的 Trigger factors 包括大量的 Carbohydrate ingestion 刺激 Insulin 分泌，以及強烈的 Beta-adrenergic stimuli。\n\n在診斷上，由於體內並無真正的 Potassium 消耗，因此 Renal potassium excretion 會顯著降低。這反映在尿液檢查上，呈現 Spot K+ < 20 mEq/L 以及 TTKG < 3 的特徵。\n\n#### Topology Mapping Matrix\n透過建構 Topology Mapping Matrix，可清楚呈現 Transcellular shift 發生時，Extracellular fluid 與 Intracellular fluid 之間 Ion gradients 的瞬時變化。\n\n#### High-Yield Differential Comparison Tables\n建立對比表格以釐清 Intracellular sequestration 與 True total body potassium depletion 之間，在 Electrolyte panels 與 Urine indices 的本質差異。\n\n#### Pathophysiological Decision Trees\n運用 Decision trees 分析從 Trigger exposure 至 Flaccid paralysis 發作的 Cascade，幫助快速定位 Na+/K+-ATPase hyperactivation 的源頭。\n\n#### Conceptual Trap Analysis\n臨床上常將 Hypokalemia 誤判為 Potassium depletion，此 Conceptual trap 極易導致錯誤的治療方向。必須謹記 HPP 的核心在於 Transcellular shift 而非 Deficit。",
-      "images": [
+      "moduleId": "module-1",
+      "moduleTitle": "Module 1: Pathophysiology & Transcellular Shift Dynamics of Hypokalemic Periodic Paralysis",
+      "studyGuide": "重點掌握 HPP 的核心病理為 Transcellular Potassium Shift 而非 Total Body Potassium Deficit。關注 Insulin 與 Beta-2 Adrenergic Stimulation 對於 Sarcolemmal Na+/K+-ATPase 的雙重活化效應，以及 Urine Potassium Excretion Indices (Spot K+ < 20 mEq/L, TTKG < 3) 的低排泄特徵。",
+      "diagrams": [
         {
+          "id": "Brenner_Fig_17_6",
           "type": "micrograph",
-          "path": "/server-data/assets/Brenner_Fig_17_11.png",
-          "caption": "Brenner 11e Ch 17 Fig 17.11: Diagnostic Approach to Hypokalemia"
+          "imagePath": "/server-data/assets/Brenner_Fig_17_6.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.6: Transcellular Potassium Shift Mechanisms and Sarcolemmal Na+/K+-ATPase Regulation",
+          "sourceBook": "Brenner 11e Ch 17"
         },
         {
+          "id": "shuangho_hpp_transcellular_shift_ai",
           "type": "ai_illustration",
-          "path": "/server-data/assets/hpp_transcellular_shift.jpg",
-          "caption": "AI Illustration: Transcellular Shift Dynamics & Sarcolemma Ion Flux"
+          "imagePath": "/server-data/assets/shuangho_hpp_transcellular_shift.jpg",
+          "caption": "AI Medical Illustration: Transcellular Shift Dynamics, Carbohydrate Load, Insulin & Beta-Adrenergic Na+/K+-ATPase Activation Cascade",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Pathophysiology & Transcellular Shift Dynamics of Hypokalemic Periodic Paralysis",
+          "content": "### 1. Topology & Molecular Mechanism Matrix\n\nHypokalemic Periodic Paralysis (HPP) 是一種急性的 Flaccid Paralysis，臨床特徵為 Serum Potassium 濃度劇烈下降（常小於 2.5 mEq/L）。其核心病理機轉在於大量的 Transcellular Potassium Shift，將 Extracellular Fluid (ECF) 中的 Potassium 迅速移入 Intracellular Fluid (ICF)，特別是 Skeletal Muscle Cell 內部，而非真正的 Total Body Potassium Deficit。當 Sarcolemma 上的 Na+/K+-ATPase 受到異常 Hyperactivation 時，離子幫浦過度將 3 個 Na+ 泵出 Extracellular Space、並將 2 個 K+ 泵入 Intracellular Space，導致嚴重的 Intracellular Potassium Sequestration。\n\n常見的 Trigger Factors 包括大量 Carbohydrate Ingestion，刺激 Pancreatic Beta Cells 分泌大量 Insulin；以及 Post-exercise Rest 或 Stress，激發高活性的 Beta-2 Adrenergic Stimuli。Insulin 與 Epinephrine 皆能透過 Membrane Receptors 活化 Signaling Cascade，強烈刺激 Na+/K+-ATPase 的轉運速率。\n\n在診斷分流上，由於體內並無實質的 Potassium Deficit 或 Renal Loss，Renal Tubular Epithelium 會做出生理性反應，極力保留 Potassium。因此在發作期間，Urine Analysis 會展現特徵性的低 Potassium Excretion Profile：Spot Urine K+ < 20 mEq/L、Transtubular Potassium Gradient (TTKG) < 3，以及 Fractional Excretion of Potassium (FEK) < 1.5%。\n\n| Compartment / Molecule | Physiological Location | Primary Action in HPP | Impact on Potassium Gradient | Associated Clinical Phenotype |\n| --- | --- | --- | --- | --- |\n| Na+/K+-ATPase | Skeletal Muscle Sarcolemma | Hyperactivated by Insulin & Beta-2 Agonists | Massive ECF to ICF K+ influx | Sudden severe Hypokalemic Flaccid Paralysis |\n| Beta-2 Adrenergic Receptor | Skeletal Muscle Membrane | Activated by Epinephrine surge during stress/rest | Stimulates cAMP-PKA pathway to drive Na+/K+-ATPase | Post-exercise or stress-induced paralytic attacks |\n| Insulin Receptor | Skeletal Muscle Membrane | Activated by postprandial glucose spike | Promotes GLUT4 translocation & Na+/K+-ATPase uptake | Carbohydrate-rich meal triggered paralysis |\n| Cortical Collecting Duct (CCD) | Renal Tubular Epithelium | Intact renal retention response | Spot Urine K+ < 20 mEq/L, TTKG < 3 | Normal renal preservation, zero renal potassium wasting |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical / Lab Parameter | Transcellular Shift (HPP / TPP) | True Total Body Potassium Deficit (RTA / Gitelman) | Gastrointestinal Loss (Diarrhea) |\n| --- | --- | --- | --- |\n| **Total Body Potassium Store** | Normal (No net body loss) | Severely Depleted | Severely Depleted |\n| **Spot Urine K+** | < 20 mEq/L (Low) | > 20 mEq/L (High renal wasting) | < 20 mEq/L (Appropriate retention) |\n| **TTKG Index** | < 3 | > 4 | < 3 |\n| **Acid-Base Profile** | Normal (Normal Arterial pH) | Metabolic Acidosis (RTA) or Alkalosis (Gitelman) | Normal Anion Gap Metabolic Acidosis |\n| **Rebound Risk post-K+ Supplementation** | High Risk of Rebound Hyperkalemia (40–50%) | Low Risk (Requires massive deficit replacement) | Low Risk |\n| **Primary Therapeutic Goal** | Block Na+/K+-ATPase hyperactivation (Beta-blocker) | Replace deficient potassium deficit + Treat cause | Replace volume and potassium deficit |\n\n### 3. Pathophysiological Decision Tree\n\nTrigger Exposure (Carbohydrate Load / Post-Exercise Rest / Stress) ➔ Sympathetic Adrenergic Surge & Postprandial Insulin Secretion ➔ Binding to Beta-2 Receptors & Insulin Receptors on Skeletal Muscle ➔ Cascade Activation of cAMP-PKA & Tyrosine Kinase Pathways ➔ Sarcolemmal Na+/K+-ATPase Hyperactivation ➔ Massive Inward Shift of Extracellular K+ into Skeletal Muscle Intracellular Fluid ➔ Severe ECF Hypokalemia (< 2.5 mEq/L) ➔ Reduced ECF K+ triggers paradoxical membrane depolarization & sodium channel inactivation ➔ Acute Skeletal Muscle Inexcitability & Flaccid Paralysis ➔ Cortical Collecting Duct (CCD) retains K+ (Spot K+ < 20 mEq/L, TTKG < 3).\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 臨床遇到 Hypokalemic Paralysis 病患時，未經評估即投予大劑量 IV KCl (IV KCl > 40 mEq/hr)。\n**Analysis**: HPP 的核心在於 Transcellular Shift，身體的 Total Body Potassium 總量並未減少。當發作終止或 Trigger 消除後，被封存在 Skeletal Muscle Cells 內的 Potassium 會大量釋放回 ECF。若在發作期過度給予高劑量 Potassium 補充，當 Skeletal Muscle 內的 Potassium 釋放回 Bloodstream 時，極易引發致命性的 Rebound Hyperkalemia（發生率高達 40-50%），導致 Arrhythmia。正確策略為謹慎小劑量補充 (PO/IV KCl <= 10 mEq/hr)，或給予 Non-selective Beta-blockers 阻斷轉移。",
+          "diagrams": [
+            {
+              "id": "Brenner_Fig_17_6",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_17_6.png",
+              "caption": "Brenner 11e Ch 17 Fig 17.6: Transcellular Potassium Shift Mechanisms and Sarcolemmal Na+/K+-ATPase Regulation",
+              "sourceBook": "Brenner 11e Ch 17"
+            },
+            {
+              "id": "shuangho_hpp_transcellular_shift_ai",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/shuangho_hpp_transcellular_shift.jpg",
+              "caption": "AI Medical Illustration: Transcellular Shift Dynamics, Carbohydrate Load, Insulin & Beta-Adrenergic Na+/K+-ATPase Activation Cascade",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "hpp_molecular_channelopathies",
-      "title": "2. Molecular Channelopathies & Hereditary Subtypes (FHypoPP1, FHypoPP2, Andersen-Tawil Syndrome)",
-      "content": "### Molecular Channelopathies & Hereditary Subtypes\n\nHereditary Hypokalemic Periodic Paralysis 主要源自特定的 Molecular channelopathies。最常見的 Subtype 為 FHypoPP1，其由 CACNA1S (Cav1.1) 的突變引起；其次為 FHypoPP2，與 SCN4A (Nav1.4) 的突變相關。這些突變會導致 Gating pore leak current (Omega current) 的異常，進一步引發 Sarcolemmal resting membrane potential 的Depolarization與激發 Flaccid paralysis。\n\n#### Andersen-Tawil Syndrome\n另一個關鍵的 Subtype 為 Andersen-Tawil Syndrome，其由 KCNJ2 (Kir2.1) 的突變所致。此症候群具有經典的 Triad：Periodic paralysis、Dysmorphic features，以及 QU prolongation 與 Bidirectional ventricular tachycardia。\n\n#### Prophylaxis & Conceptual Traps\n在預防與治療上，Carbonic anhydrase inhibitors 如 Acetazolamide 被廣泛應用於 FHypoPP 的預防。但在某些特定的 Channelopathies 中，Acetazolamide 可能會引發 Paradoxical exacerbation，這是臨床上必須警覺的 Conceptual trap。",
-      "images": [
+      "moduleId": "module-2",
+      "moduleTitle": "Module 2: Molecular Channelopathies & Hereditary Subtypes (FHypoPP1, FHypoPP2, Andersen-Tawil Syndrome)",
+      "studyGuide": "掌握遺傳性 Hypokalemic Periodic Paralysis 的三大主要亞型：FHypoPP1 (CACNA1S Gene Mutation)、FHypoPP2 (SCN4A Gene Mutation) 以及 Andersen-Tawil Syndrome (KCNJ2 Gene Mutation)。特別深入理解 S4 Voltage Sensor 上 Arginine Mutation 引發的 Gating Pore Leak Current (Omega Current) 如何造成低電解質下的 Paradoxical Sarcolemmal Depolarization。",
+      "diagrams": [
         {
+          "id": "Brenner_Fig_17_8",
           "type": "micrograph",
-          "path": "/server-data/assets/Brenner_Fig_17_8.png",
-          "caption": "Brenner 11e Ch 17 Fig 17.8: Skeletal Muscle Voltage-Gated Channel Mutations"
+          "imagePath": "/server-data/assets/Brenner_Fig_17_8.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.8: Skeletal Muscle Voltage-Gated Channel Mutations (CACNA1S, SCN4A) & Gating Pore Leak",
+          "sourceBook": "Brenner 11e Ch 17"
         },
         {
+          "id": "shuangho_hpp_channelopathies_ai",
           "type": "ai_illustration",
-          "path": "/server-data/assets/hpp_gating_pore_current.jpg",
-          "caption": "AI Illustration: Molecular Channelopathies & Gating Pore Current Leak"
+          "imagePath": "/server-data/assets/shuangho_hpp_channelopathies.jpg",
+          "caption": "AI Medical Illustration: Molecular Channelopathies (FHypoPP1, FHypoPP2, KCNJ2) & Omega Current Gating Leak Physiology",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Molecular Channelopathies & Hereditary Subtypes (FHypoPP1, FHypoPP2, Andersen-Tawil Syndrome)",
+          "content": "### 1. Topology & Molecular Subtype Matrix\n\nHereditary Familial Hypokalemic Periodic Paralysis (FHypoPP) 屬於 Autosomal Dominant 的單基因 Ion Channelopathies。最常見的亞型為 FHypoPP1 (占 55–70%)，源自 CACNA1S Gene Mutation，該基因編碼 Skeletal Muscle L-type Voltage-Gated Calcium Channel (Cav1.1) 的 alpha-1S subunit。第二常見的亞型為 FHypoPP2 (占 20–30%)，由 SCN4A Gene Mutation 引起，編碼 Skeletal Muscle Voltage-Gated Sodium Channel (Nav1.4) 的 alpha subunit。\n\n在生物物理學上，這些 Point Mutations 多發生於 Voltage-Sensing Domain (S4 Segment) 的帶正電 Arginine Residues。當 Arginine 被中性或較小 Amino Acids 取代時，Ion Channel Protein 會在 Voltage Sensor 旁形成一個異常的非選擇性 Leak Pathway，稱為 Gating Pore Leak Current (亦稱 Omega Current)。在生理 Extracellular K+ 濃度下，Omega Current 保持關閉；但當 Serum K+ 下降時，這條 Leak Pathway 會產生持續性的跨膜微弱 Inward Cation Influx (Na+ 或 H+ Influx)，引發 Sarcolemma 的 Paradoxical Depolarization。Resting Membrane Potential Depolarization 進一步導致 Voltage-Gated Sodium Channels 進入慢性 Inactivation State，使 Skeletal Muscle Cells 失去產生 Action Potential 的能力，引發 Paralysis。\n\n另一極高分亞型為 Andersen-Tawil Syndrome (ATS / FHypoPP3)，源自 KCNJ2 Gene Mutation，編碼 Inward Rectifier Potassium Channel 2.1 (Kir2.1)。ATS 展現經典的 Classic Triad：(1) Periodic Paralysis、(2) Development Dysmorphic Features（Micrognathia、Low-set Ears、Clinodactyly/Syndactyly）、以及 (3) Cardiac Arrhythmias（ECG 上顯著 QU Prolongation、Prominent U waves 與 Characteristic Bidirectional Ventricular Tachycardia）。\n\n| Subtype | Mutated Gene | Protein / Channel | Inheritance | Key Biophysical Defect | Unique Clinical Features |\n| --- | --- | --- | --- | --- | --- |\n| FHypoPP1 | CACNA1S | Cav1.1 (L-type Ca2+ channel) | Autosomal Dominant | S4 Arginine mutation → Gating pore leak (Omega current) | Most common subtype; Responsive to Acetazolamide |\n| FHypoPP2 | SCN4A | Nav1.4 (Voltage sodium channel) | Autosomal Dominant | S4 Arginine mutation → Inward Na+/H+ omega current leak | May show paradoxical worsening with Acetazolamide |\n| Andersen-Tawil (ATS) | KCNJ2 | Kir2.1 (Inward rectifier K+ channel) | Autosomal Dominant | Loss of Kir2.1 function → Impaired resting potential stability | Triad: Paralysis + Dysmorphism + Bidirectional VT |\n\n### 2. High-Yield Differential Comparison Table\n\n| Feature | FHypoPP1 (CACNA1S) | FHypoPP2 (SCN4A) | Andersen-Tawil Syndrome (KCNJ2) |\n| :--- | :--- | :--- | :--- |\n| **Primary Gene** | CACNA1S (1q32) | SCN4A (17q23) | KCNJ2 (17q24) |\n| **Dominant Channel Impacted** | Cav1.1 Calcium Channel | Nav1.4 Sodium Channel | Kir2.1 Potassium Channel |\n| **Cardiac Involvement** | Absent | Absent | Frequent (Prominent U wave, QU prolongation, Bidirectional VT) |\n| **Dysmorphic Features** | Absent | Absent | Present (Micrognathia, Low-set ears, Clinodactyly) |\n| **Response to Acetazolamide** | Prophylaxis Effective | Variable / Potential Exacerbation | Modest response (requires Antiarrhythmics) |\n| **Myotonia Association** | Absent | Rare | Absent |\n\n### 3. Pathophysiological Decision Tree\n\nPoint Mutation in Voltage-Sensing S4 Segment (Arginine Substitution) of CACNA1S or SCN4A ➔ Structural Disruption of Ion Pathway Canal ➔ Formation of Gating Pore Leak Pathway (Omega Current) ➔ Exposure to Low Extracellular K+ Concentration ➔ Continuous Inward Influx of Na+ & H+ through Gating Pore ➔ Paradoxical Sarcolemmal Depolarization ➔ Continuous Voltage-Gated Na+ Channel (Nav1.4) Inactivation ➔ Failure of Action Potential Generation & Propagation ➔ Severe Skeletal Muscle Paralysis.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Hypokalemic Environment 必定會使 Resting Membrane Potential 呈 Hyperpolarization。\n**Analysis**: 在正常 Skeletal Muscle 中，Hypokalemic Environment 確實會透過 Nernst Equation 使 K+ Equilibrium Potential 更負（Hyperpolarization）。然而在具有 FHypoPP Gene Mutation 的病患中，當 ECF K+ 下降時，Gating Pore (Omega Current) 的 Inward Na+ Leak Current 會超越 K+ Efflux 的影響，引發「Paradoxical Sarcolemmal Depolarization」。Depolarization 使 Voltage-Gated Sodium Channels 處於持久的 Inactivation State，這才是造成 Skeletal Muscle 無法傳導 Action Potential 與 Paralysis 的根本分子物理學原因。此外，在 SCN4A Mutation 患者中，使用 Acetazolamide 預防發作可能誘發 Paradoxical Exacerbation，需密切評估。",
+          "diagrams": [
+            {
+              "id": "Brenner_Fig_17_8",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_17_8.png",
+              "caption": "Brenner 11e Ch 17 Fig 17.8: Skeletal Muscle Voltage-Gated Channel Mutations (CACNA1S, SCN4A) & Gating Pore Leak",
+              "sourceBook": "Brenner 11e Ch 17"
+            },
+            {
+              "id": "shuangho_hpp_channelopathies_ai",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/shuangho_hpp_channelopathies.jpg",
+              "caption": "AI Medical Illustration: Molecular Channelopathies (FHypoPP1, FHypoPP2, KCNJ2) & Omega Current Gating Leak Physiology",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "tpp_clinical_spectrum_management",
-      "title": "3. Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum & Emergency Management",
-      "content": "### Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum\n\nThyrotoxic Periodic Paralysis 是一種常見於 Asian male 的急症，其發生率呈現極端的 Male-to-female ratio。其病理機制主要由 Hyperthyroidism 引起，過高的 Thyroid hormone 會誘發 Na+/K+-ATPase 的 Hyperactivation，並與 KCNJ18 (Kir2.6) 的 Channel defect 密切相關。\n\n#### Emergency Management & Rebound Hyperkalemia\n在 Emergency management 方面，核心原則為 Cautious low-dose Potassium repletion。由於病患體內並無實質的 Total body potassium depletion，若給予過快的 High-dose potassium 補充，在 Transcellular shift 隨時間緩解後，極易引發嚴重的 Rebound hyperkalemia，其發生率可高達 40-50%。\n\n#### Acute Therapy & Prophylaxis\n針對 Acute therapy 與初期的 Prophylaxis，首選藥物為 Non-selective beta-blockers 如 Propranolol，可有效阻斷 Beta-adrenergic stimuli 對 Na+/K+-ATPase 的過度刺激。長期的治療終極目標則為徹底的 Euthyroid state restoration。",
-      "images": [
+      "moduleId": "module-3",
+      "moduleTitle": "Module 3: Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum & Emergency Management",
+      "studyGuide": "掌握 TPP 專屬於 Asian Male Predominance 的流行病學特徵，理解 Thyroid Hormone 如何轉錄性上調 Na+/K+-ATPase 及其與 KCNJ18 (Kir2.6) 通道變異的協同作用。熟記急診急性期使用 Non-selective Beta-blocker (Propranolol) 阻斷 shift 的首選地位，以及嚴禁高劑量補鉀以防範 Rebound Hyperkalemia 的核心鐵律。",
+      "diagrams": [
         {
+          "id": "Brenner_Fig_17_3",
           "type": "micrograph",
-          "path": "/server-data/assets/Brenner_Fig_17_11.png",
-          "caption": "Brenner 11e Ch 17 Fig 17.11: Hypokalemic Diagnostic Algorithm (TPP Context)"
+          "imagePath": "/server-data/assets/Brenner_Fig_17_3.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.3: Physiological Distribution of Potassium Between Intracellular and Extracellular Fluid Compartments",
+          "sourceBook": "Brenner 11e Ch 17"
         },
         {
+          "id": "shuangho_tpp_management_ai",
           "type": "ai_illustration",
-          "path": "/server-data/assets/shuangho_tpp_management.jpg",
-          "caption": "AI Illustration: TPP Emergency Management & Beta-blocker Action"
+          "imagePath": "/server-data/assets/shuangho_tpp_management.jpg",
+          "caption": "AI Medical Illustration: Thyrotoxic Periodic Paralysis (TPP) Pathophysiology, Kir2.6 Channel Defect & Beta-blocker Action",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Thyrotoxic Periodic Paralysis (TPP) Clinical Spectrum & Emergency Management",
+          "content": "### 1. Topology & Clinical Spectrum Matrix\n\nThyrotoxic Periodic Paralysis (TPP) 是一種 Acquired 且可逆的 Hypokalemic Paralysis 急症，極常見於年輕 Asian Males。儘管 Hyperthyroidism (Graves Disease) 在女性的發病率高出男性 9 倍，但 TPP 的男女發生率卻呈極端的倒轉比例（Male-to-Female ratio 高達 20:1）。這反映了 Androgens 可能進一步增強 Na+/K+-ATPase 活性與 Expression Levels 的生理效應。\n\n在分子病理學上，過量的 Thyroid Hormones (T3/T4) 透過兩大途徑強烈驅動 Transcellular Shift：第一，T3 直接結合至 Na+/K+-ATPase 基因的 Thyroid Hormone Response Element (TRE)，上調其 Gene Transcription 與 Protein Translation；第二，Thyroid Hormones 增加 Skeletal Muscle Membrane 上 Beta-2 Adrenergic Receptors 的 Density 與 Sensitivity。近年基因研究更證實，高達 33% 的 TPP 患者帶有 KCNJ18 Gene Mutation（編碼 Inward Rectifier Potassium Channel Kir2.6）， Kir2.6 的功能缺陷使得 Skeletal Muscle Cells 在 Thyroid Hormones 刺激下更易發生 Membrane Potential Imbalance。\n\n在 Emergency Management 上，治療的核心為「謹慎低劑量補充 Potassium」搭配「Non-selective Beta-blocker (Propranolol)」。由於病患體內的 Total Body Potassium 並無實質流失，大劑量的靜脈 Potassium 補充在 Paralysis 緩解後極易引發高達 40–50% 的 Rebound Hyperkalemia。Non-selective Beta-blockers 如 Propranolol (1–3 mg IV 或 3 mg/kg PO) 能精準阻斷 Beta-2 Receptors 帶動的 Na+/K+-ATPase 活性，在不增加體內 Total Body Potassium 的安全前提下迅速逆轉 Paralysis。長期的終極治療則為恢復正常的 Euthyroid State Restoration。\n\n| Parameter / Aspect | Thyrotoxic Periodic Paralysis (TPP) | Familial Hypokalemic Periodic Paralysis (FHypoPP) |\n| --- | --- | --- |\n| **Epidemiology / Demographics** | Young Asian Males (Male:Female = 20:1); Age 20–40 | Caucasians; Age < 20; Autosomal Dominant |\n| **Thyroid Function Status** | Thyrotoxicosis (High FT4, Suppressed TSH, clinically overt or subtle) | Strictly Euthyroid |\n| **Genetics** | Acquired + KCNJ18 (Kir2.6) susceptibility variant | CACNA1S (FHypoPP1) or SCN4A (FHypoPP2) |\n| **Acute Therapy of Choice** | Non-selective Beta-blocker (Propranolol) + Low-dose K+ | Cautious low-dose Potassium supplement |\n| **Definitive Cure** | Antithyroid Therapy (MMI, PTU, RAI, Surgery) to reach Euthyroid state | Prophylactic Acetazolamide or Potassium-sparing diuretics |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical Parameter | Acute TPP Attack | Refractory Secondary Hypokalemia | Hyperkalemic Periodic Paralysis |\n| :--- | :--- | :--- | :--- |\n| **Serum Potassium Level** | Severe Hypokalemia (< 2.5 mEq/L) | Low Serum K+ (< 3.0 mEq/L) | Hyperkalemia (> 5.0 mEq/L during attack) |\n| **Urine Potassium Indices** | Spot K+ < 20 mEq/L, TTKG < 3 | Spot K+ > 20 mEq/L, TTKG > 4 | High urine K+ excretion |\n| **Acid-Base Profile** | Normal pH and Normal Bicarbonate | Metabolic Alkalosis or Acidosis | Normal pH |\n| **Propranolol Therapeutic Effect** | Rapidly reverses paralysis & hypokalemia | Ineffective for potassium replenishment | Ineffective |\n| **Rebound Hyperkalemia Risk** | Very High (40-50% with IV KCl) | Minimal Risk | N/A |\n\n### 3. Pathophysiological Decision Tree\n\nHyperthyroidism (Graves Disease / Toxic Adenoma) ➔ Elevated Free T3 & T4 Levels ➔ Transcriptional Upregulation of Sarcolemmal Na+/K+-ATPase Gene Expression & Increased Beta-2 Receptor Density ➔ High Male Androgen Baseline + Carbohydrate/Exercise Trigger ➔ Massive Epinephrine & Insulin Mediated Na+/K+-ATPase Activation ➔ Intracellular Potassium Trapping into Muscle ➔ Severe ECF Hypokalemia & Muscle Inexcitability ➔ Emergency Presentation with Acute Flaccid Paralysis ➔ Administer Non-selective Beta-blocker (Propranolol 3 mg/kg PO or 1-3 mg slow IV) ➔ Rapidly Inhibit Beta-2 Driven Na+/K+-ATPase Pump ➔ ECF Potassium Normalizes & Paralysis Resolves WITHOUT Rebound Hyperkalemia.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 遇到 TPP 急症病患時，因看到 Serum K+ 僅 1.8 mEq/L，立即給予快速高劑量 IV KCl (如 40 mEq/hr 連續施打 4 小時)。\n**Analysis**: TPP 的 Intracellular Potassium Store 完全正常，Hypokalemia 完全是因 Thyroid Hormones 與 Sympathetic Stimulation 造成的「暫時性 Intracellular Trapping」。當投予快速高劑量 IV KCl 時，外源性 Potassium 與隨後自 Skeletal Muscle 釋放出的內源性 Potassium 疊加，在 Paralysis 恢復的 24 小時內有高達 40-50% 的患者會爆發危及生命的 Rebound Hyperkalemia。正確的做法是首選 Non-selective Beta-blocker (Propranolol)，若需 Potassium Supplementation，靜脈點滴速率應嚴格限制在 <= 10 mEq/hr，且總劑量不宜超過 30-50 mEq。",
+          "diagrams": [
+            {
+              "id": "Brenner_Fig_17_3",
+              "type": "micrograph",
+              "imagePath": "/server-data/assets/Brenner_Fig_17_3.png",
+              "caption": "Brenner 11e Ch 17 Fig 17.3: Physiological Distribution of Potassium Between Intracellular and Extracellular Fluid Compartments",
+              "sourceBook": "Brenner 11e Ch 17"
+            },
+            {
+              "id": "shuangho_tpp_management_ai",
+              "type": "ai_illustration",
+              "imagePath": "/server-data/assets/shuangho_tpp_management.jpg",
+              "caption": "AI Medical Illustration: Thyrotoxic Periodic Paralysis (TPP) Pathophysiology, Kir2.6 Channel Defect & Beta-blocker Action",
+              "sourceBook": "AI Medical Illustration"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "hpp_differential_diagnosis_traps",
-      "title": "4. Differential Diagnosis & High-Yield Diagnostic Traps (HPP vs Secondary Hypokalemic Paralysis)",
-      "content": "### Differential Diagnosis of Acute Flaccid Paralysis\n\n在面對 Acute flaccid paralysis 合併 Hypokalemia 的病患時，必須進行全面的 Differential diagnosis。核心挑戰在於區分真正的 Hypokalemic Periodic Paralysis 與 Secondary Hypokalemic Paralysis。\n\n#### Secondary Hypokalemic Paralysis\n必須將 Gitelman syndrome、Bartter syndrome、Distal RTA、Licorice ingestion，以及 Diuretic abuse 等 Secondary causes 列入考量。這些 Secondary causes 通常伴隨明顯的 Body potassium deficit 與高量的 Renal potassium wasting，與 HPP 截然不同。\n\n#### Neuromuscular Disorders & Hyperkalemic PP\n此外，Neuromuscular disorders 如 Guillain-Barré syndrome 與 Myasthenia gravis，以及 Hyperkalemic Periodic Paralysis 也必須透過詳細的 History taking 與 Laboratory evaluation 進行排除。\n\n#### Summary Matrix & Decision Trees\n透過 Systematic decision trees 與 Summary matrix，針對 Potassium status、Acid-base balance (Metabolic acidosis/alkalosis) 與 Urine indices 進行交叉比對，可以有效避免 Clinical misdiagnosis 與 Diagnostic traps。",
-      "images": [
+      "moduleId": "module-4",
+      "moduleTitle": "Module 4: Differential Diagnosis & High-Yield Diagnostic Traps (HPP vs Secondary Hypokalemic Paralysis)",
+      "studyGuide": "建立急診與腎臟專科臨床面對 Acute Flaccid Paralysis 伴隨 Hypokalemia 時的系統化鑑別流程。重點劃分 Transcellular Shift (HPP/TPP) 與 Secondary Renal/GI Potassium Wasting (RTA, Gitelman, Bartter, Diuretic Abuse, Diarrhea) 的核心差異，靈活運用 Spot Urine K+、TTKG、FEK、Arterial Blood Gas 與 Blood Pressure 進行精準診斷。",
+      "diagrams": [
         {
+          "id": "Brenner_Fig_17_11",
           "type": "micrograph",
-          "path": "/server-data/assets/Brenner_Fig_17_11.png",
-          "caption": "Brenner 11e Ch 17 Fig 17.11: Comprehensive Hypokalemic Diagnostic Algorithm"
+          "imagePath": "/server-data/assets/Brenner_Fig_17_11.png",
+          "caption": "Brenner 11e Ch 17 Fig 17.11: Comprehensive Diagnostic Algorithm for Hypokalemia and Periodic Paralysis",
+          "sourceBook": "Brenner 11e Ch 17"
         },
         {
+          "id": "shuangho_hpp_differential_diagnosis_ai",
           "type": "ai_illustration",
-          "path": "/server-data/assets/shuangho_hpp_differential_diagnosis.jpg",
-          "caption": "AI Illustration: Differential Diagnosis Traps & Acid-Base Cross Comparison"
+          "imagePath": "/server-data/assets/shuangho_hpp_differential_diagnosis.jpg",
+          "caption": "AI Medical Illustration: Differential Diagnosis Flowchart: Hypokalemic Periodic Paralysis vs Secondary Renal/GI Potassium Wasting",
+          "sourceBook": "AI Medical Illustration"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Differential Diagnosis & High-Yield Diagnostic Traps (HPP vs Secondary Hypokalemic Paralysis)",
+          "content": "### 1. Differential Diagnostic Matrix\n\n在臨床面對 Acute Flaccid Paralysis 合併 Hypokalemia 的病患時，必須進行極嚴密的 Differential Diagnosis。最大的臨床盲點在於將 Primary Hypokalemic Periodic Paralysis (HPP/TPP) 誤判為 Secondary Hypokalemic Paralysis（如 Distal RTA Type 1、Gitelman Syndrome、Bartter Syndrome、Licorice Ingestion 或 Diuretic Abuse）。Secondary Causes 通常伴隨強烈的 Total Body Potassium Depletion 以及顯著的 Renal Potassium Wasting，治療策略需大量長期補充 Potassium 與 Bicarbonate，與 HPP 的處置截然不同。\n\n鑑別診斷的第一核心關卡為「Urine Potassium Excretion Indices」：在發作時採集 Spot Urine K+ 與 Creatinine 計算，若 Spot Urine K+ < 20 mEq/L、TTKG < 3 且 FEK < 1.5%，強力指向 Transcellular Shift (HPP / TPP 或 GI Diarrhea)；相反地，若 Spot Urine K+ > 20 mEq/L、TTKG > 4 且 FEK > 2.0%，則證實為 Renal Potassium Wasting。\n\n第二關卡為「Acid-Base Status」：HPP 與 TPP 在發作時 Arterial Blood Gas 呈正常的 pH 與 Bicarbonate 濃度。若伴隨 Normal Anion Gap Metabolic Acidosis，第一時間應考慮 Distal RTA Type 1；若伴隨 Metabolic Alkalosis，則需評估 Gitelman / Bartter Syndrome、Diuretic Abuse 或 Hyperaldosteronism。第三關卡為「Blood Pressure & Volume Status」：伴隨 Hypertension 者應追查 Liddle Syndrome、SAME 或 Primary Aldosteronism。\n\n| Etiology / Syndrome | Spot Urine K+ | TTKG Index | Acid-Base Status | Blood Pressure | Key Pathognomonic Clue |\n| --- | --- | --- | --- | --- | --- |\n| Primary HPP / TPP | < 20 mEq/L | < 3 | Normal pH | Normal | Sudden attack, rapid resolution, Asian male (TPP) |\n| Distal RTA Type 1 | > 20 mEq/L | > 4 | Metabolic Acidosis (pH < 7.35, HCO3- < 18) | Normal | Urine pH > 5.5, Nephrocalcinosis, Sjögren Syndrome |\n| Gitelman Syndrome | > 20 mEq/L | > 4 | Metabolic Alkalosis (HCO3- > 30) | Normal / Low | Hypocalciuria (Urine Ca/Cr < 0.2), Hypomagnesemia |\n| Bartter Syndrome | > 20 mEq/L | > 4 | Metabolic Alkalosis | Normal / Low | Hypercalciuria, Early childhood onset, Normal Mg |\n| Primary Aldosteronism | > 20 mEq/L | > 4 | Metabolic Alkalosis | Elevated (HTN) | High ARR (Aldosterone-to-Renin Ratio > 20) |\n| GI Diarrhea Loss | < 20 mEq/L | < 3 | Metabolic Acidosis | Low (Dehydrated) | History of severe watery diarrhea |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical Parameter | Hypokalemic Periodic Paralysis (HPP) | Distal Renal Tubular Acidosis (dRTA) | Gitelman Syndrome |\n| :--- | :--- | :--- | :--- |\n| **Mechanism of Hypokalemia** | Transcellular Shift into Muscle | Renal Tubular Secretion Wasting | Distal Convoluted Tubule Wasting |\n| **Urine Calcium Excretion** | Normal | Hypercalciuria (Nephrolithiasis risk) | Marked Hypocalciuria |\n| **Urine pH Value** | Normal (< 5.5 during acidosis) | Inappropriately High (> 5.5) | Variable |\n| **Serum Magnesium** | Normal | Normal | Severe Hypomagnesemia |\n| **Primary Treatment Requirement** | Avoid triggers + Low-dose K+ / Beta-blocker | Potassium Citrate (Replace K+ & Bicarbonate) | Potassium & Magnesium Replenishment |\n\n### 3. Pathophysiological Decision Tree\n\nPatient Presents with Acute Flaccid Paralysis & Serum K+ < 3.0 mEq/L ➔ Obtain Immediate Spot Urine K+, Urine Creatinine & Blood Gas ➔ Check Spot Urine K+ & TTKG ➔ Spot K+ < 20 mEq/L & TTKG < 3 (Renal Retention Intact) ➔ Check Acid-Base Status ➔ Normal pH & HCO3- ➔ Transcellular Shift ➔ Check Thyroid Function (TSH, Free T4) ➔ Suppressed TSH / High FT4 ➔ Thyrotoxic Periodic Paralysis (TPP) ➔ Normal TSH ➔ Familial HPP (FHypoPP) ➔ Spot K+ > 20 mEq/L & TTKG > 4 (Renal Potassium Wasting) ➔ Check Acid-Base Status ➔ Metabolic Acidosis (Urine pH > 5.5) ➔ Distal RTA Type 1 ➔ Metabolic Alkalosis ➔ Check Urine Calcium & Serum Magnesium ➔ Hypocalciuria & Hypomagnesemia ➔ Gitelman Syndrome.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 將 Distal RTA 引發的 Hypokalemic Paralysis 誤診為 HPP，並僅給予少量 IV KCl。\n**Analysis**: Distal RTA Type 1 患者由於 alpha-Intercalated Cells 的 H+-ATPase 或 AE1 Transporter Mutation，無法向 Urine 分泌 H+，導致持續性的 Systemic Metabolic Acidosis 與嚴重 Renal Potassium Wasting（Spot Urine K+ > 20 mEq/L, TTKG > 4）。這類患者體內的 Total Body Potassium 嚴重耗竭，且如果不同時補充 Bicarbonate / Citrate 糾正 Acidosis，單純補充 Potassium 無法恢復 Renal Tubular Function，甚至會加重 Nephrocalcinosis。臨床第一時間必須透過 Spot Urine K+ 與 ABG 進行精準鑑別。"
         }
       ]
     }

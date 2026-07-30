@@ -304,79 +304,84 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                       </h3>
 
                       {/* Explanation Images (解釋圖片) */}
-                      {secDiagrams.map((diag) => (
-                        <div
-                          key={diag.id}
-                          className={`p-4 md:p-5 rounded-2xl border shadow-sm space-y-3 transition-all ${
-                            isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950/60 border-slate-800'
-                          }`}
-                        >
-                          <div className="flex items-center justify-between">
-                            <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-300 text-[11px] font-mono font-extrabold border border-sky-500/20 flex items-center gap-1">
-                              <FileImage className="w-3 h-3 text-sky-500" />
-                              <span>{diag.sourceBook || 'AI Medical Illustration'}</span>
-                            </span>
+                      {secDiagrams.map((diag) => {
+                        const displayImagePath = diag.imagePath || (diag as any).url || (diag as any).relPath;
+                        const displayCaption = diag.caption || (diag as any).title || '';
 
-                            {diag.imagePath && (
-                              <div className="flex items-center gap-1.5 bg-slate-200/60 dark:bg-slate-800/60 p-1 rounded-xl border border-slate-300/50 dark:border-slate-700/50">
-                                <button
-                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'width' }))}
-                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                        return (
+                          <div
+                            key={diag.id}
+                            className={`p-4 md:p-5 rounded-2xl border shadow-sm space-y-3 transition-all ${
+                              isLight ? 'bg-slate-50/80 border-slate-200' : 'bg-slate-950/60 border-slate-800'
+                            }`}
+                          >
+                            <div className="flex items-center justify-between">
+                              <span className="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-700 dark:text-sky-300 text-[11px] font-mono font-extrabold border border-sky-500/20 flex items-center gap-1">
+                                <FileImage className="w-3 h-3 text-sky-500" />
+                                <span>{diag.sourceBook || 'AI Medical Illustration'}</span>
+                              </span>
+
+                              {displayImagePath && (
+                                <div className="flex items-center gap-1.5 bg-slate-200/60 dark:bg-slate-800/60 p-1 rounded-xl border border-slate-300/50 dark:border-slate-700/50">
+                                  <button
+                                    onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'width' }))}
+                                    className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                      (imageFitMode[diag.id] || 'width') === 'width'
+                                        ? 'bg-sky-500 text-white shadow-sm'
+                                        : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                    }`}
+                                    title="Fit 寬度 (滿寬排版)"
+                                  >
+                                    Fit 寬度
+                                  </button>
+                                  <button
+                                    onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'height' }))}
+                                    className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
+                                      imageFitMode[diag.id] === 'height'
+                                        ? 'bg-sky-500 text-white shadow-sm'
+                                        : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                    }`}
+                                    title="Fit 高度 (限制最大高度 500px)"
+                                  >
+                                    Fit 高度
+                                  </button>
+                                  <button
+                                    onClick={() => setZoomDiagram({ ...diag, imagePath: displayImagePath, caption: displayCaption })}
+                                    className="px-2.5 py-1 rounded-lg text-xs font-extrabold text-slate-600 dark:text-slate-300 hover:text-sky-500 flex items-center gap-1 transition-all cursor-pointer"
+                                    title="全螢幕放大顯示"
+                                  >
+                                    <Maximize2 className="w-3.5 h-3.5" />
+                                    <span>放大顯示</span>
+                                  </button>
+                                </div>
+                              )}
+                            </div>
+
+                            {displayImagePath && (
+                              <div
+                                onClick={() => setZoomDiagram({ ...diag, imagePath: displayImagePath, caption: displayCaption })}
+                                className="overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-2 flex justify-center cursor-pointer group"
+                              >
+                                <img
+                                  src={displayImagePath}
+                                  alt={displayCaption}
+                                  className={`rounded-lg transition-transform duration-300 group-hover:scale-[1.01] ${
                                     (imageFitMode[diag.id] || 'width') === 'width'
-                                      ? 'bg-sky-500 text-white shadow-sm'
-                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                                      ? 'w-full h-auto'
+                                      : 'w-full max-h-[500px] object-contain'
                                   }`}
-                                  title="Fit 寬度 (滿寬排版)"
-                                >
-                                  Fit 寬度
-                                </button>
-                                <button
-                                  onClick={() => setImageFitMode((prev) => ({ ...prev, [diag.id]: 'height' }))}
-                                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
-                                    imageFitMode[diag.id] === 'height'
-                                      ? 'bg-sky-500 text-white shadow-sm'
-                                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                                  }`}
-                                  title="Fit 高度 (限制最大高度 500px)"
-                                >
-                                  Fit 高度
-                                </button>
-                                <button
-                                  onClick={() => setZoomDiagram(diag)}
-                                  className="px-2.5 py-1 rounded-lg text-xs font-extrabold text-slate-600 dark:text-slate-300 hover:text-sky-500 flex items-center gap-1 transition-all cursor-pointer"
-                                  title="全螢幕放大顯示"
-                                >
-                                  <Maximize2 className="w-3.5 h-3.5" />
-                                  <span>放大顯示</span>
-                                </button>
+                                />
                               </div>
                             )}
+
+                            {displayCaption && (
+                              <p className={`text-xs font-medium leading-relaxed ${isLight ? 'text-slate-600' : 'text-slate-400'}`}>
+                                {displayCaption}
+                              </p>
+                            )}
                           </div>
-
-                          {diag.imagePath && (
-                            <div
-                              onClick={() => setZoomDiagram(diag)}
-                              className="overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-2 flex justify-center cursor-pointer group"
-                            >
-                              <img
-                                src={diag.imagePath}
-                                alt={diag.caption}
-                                className={`rounded-lg transition-transform duration-300 group-hover:scale-[1.01] ${
-                                  (imageFitMode[diag.id] || 'width') === 'width'
-                                    ? 'w-full h-auto'
-                                    : 'w-full max-h-[500px] object-contain'
-                                }`}
-                              />
-                            </div>
-                          )}
-
-                          {diag.caption && (
-                            <p className="text-xs font-bold text-center text-slate-600 dark:text-slate-400 italic leading-relaxed">
-                              {diag.caption}
-                            </p>
-                          )}
-                        </div>
-                      ))}
+                        );
+                      })}
 
                       {/* Explanation Text (解釋文字) */}
                       {sec.content && (

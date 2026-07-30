@@ -486,7 +486,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
                           {/* Topic Tutorial Button */}
                           <button
-                            onClick={() => onSelectTutorial && onSelectTutorial(paper.id)}
+                            onClick={() => onSelectTutorial && onSelectTutorial(paper.id || (paper as any).paperId)}
                             disabled={!paper.hasTutorial}
                             className={`w-full py-2 px-3 rounded-xl text-xs font-extrabold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
                               paper.hasTutorial

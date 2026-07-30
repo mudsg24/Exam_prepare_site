@@ -414,6 +414,7 @@ export const App: React.FC = () => {
 
   // Select Tutorial from Dashboard
   const handleSelectTutorialFromDashboard = (paperId: string) => {
+    if (!paperId) return;
     const manifestItem = manifest.find((item) => item.id === paperId || (item as any).paperId === paperId);
     
     // Build candidate fetch URLs in order of specificity

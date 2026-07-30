@@ -33,14 +33,14 @@ function checkAssetPathsInFile(filePath) {
   }
 
   const missingAssets = [];
-  // Regex matching any path starting with /server-data/assets/ or server-data/assets/
-  const assetRegex = /"?(\/server-data\/assets\/[^"\s]+)"?/g;
+  // Regex matching any quoted path starting with /server-data/assets/, /reference-images/, or /exam-images/
+  const assetRegex = /"(\/(?:server-data\/assets|reference-images|exam-images)\/[^"]+)"/g;
   let match;
 
   while ((match = assetRegex.exec(raw)) !== null) {
     const imageRelPath = match[1];
     // Strip query strings or trailing punctuation if any
-    const cleanRelPath = imageRelPath.split('?')[0].replace(/[,\s]+$/, '');
+    const cleanRelPath = imageRelPath.split('?')[0].replace(/["'}]+$/, '');
     const absoluteImagePath = path.join(PUBLIC_DIR, cleanRelPath);
 
     if (!fs.existsSync(absoluteImagePath)) {

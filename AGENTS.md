@@ -80,6 +80,12 @@
 >       - Every question bank JSON MUST contain top-level `paperId` (string), `title` (string), `sourceCategory` (string), `year` (number), `questionCount` (number), and `questions` array.
 >       - Each question inside `questions` MUST contain `id`, `number`, `stem`, `options` (array of `{id, text}`), `sourceProvidedAnswer`, `sourceAnswerStatus`, `nlmResponses` array, and `reconciliationStatus`.
 >     - **PRE-PUBLISH LINTER GATE**: Before committing or publishing any generated JSON to `public/server-data/`, main session and subagents MUST execute `node scripts/lint_exam_json.mjs`. Any schema key violation will fail the build.
+>
+> 11. **MANDATORY IMAGE SCHEMA & PATH INTEGRITY RULE (圖表 Schema 與實體路徑雙重硬性門閥鐵律)**:
+>     - **Mandatory Property**: Every image object in `resolvedImages`, `stemImages`, and `sections[i].images` MUST contain `relPath` (string).
+>     - **Absolute Ban on Missing Path Prefixes**: `relPath` MUST start with `/reference-images/` (for KDIGO/Brenner figures) or `/server-data/assets/` (for generated/attached diagrams). Raw filenames without leading web path or missing `/reference-images/` are strictly prohibited.
+>     - **Disk Existence Verification**: The file referenced by `relPath` MUST exist on disk in `public/`.
+>     - **Pre-Publish Verification Gate**: Before publishing, execute `node scripts/lint_exam_json.mjs && node scripts/check_assets.mjs`. Any invalid path or missing `relPath` will fail the lint check.
 
 
 ## Single Source of Truth (SSOT) Data Sources

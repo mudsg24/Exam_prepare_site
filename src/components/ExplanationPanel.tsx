@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, Sparkles, FileText, ChevronDown, ChevronRight } from 'lucide-react';
+import { BookOpen, Image as ImageIcon, CheckCircle, AlertTriangle, Sparkles, FileText, ChevronDown, ChevronRight, ImageOff } from 'lucide-react';
 import { renderFormattedMarkdownToHTML } from '../utils/markdownRenderer';
 import { ExamQuestion, ResolvedImage, ThemeMode } from '../types/exam';
+import { resolveImageUrl } from '../utils/imageUtils';
 
 interface ExplanationPanelProps {
   question: ExamQuestion;
@@ -397,33 +398,60 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {question.resolvedImages.map((img) => (
-              <button
+              <ReferenceImageItem
                 key={img.id}
-                onClick={() => onOpenImage(img)}
-                className={`group p-2.5 rounded-2xl border text-left flex flex-col justify-between overflow-hidden transition-all cursor-pointer ${
-                  isLight
-                    ? 'bg-white border-slate-200 hover:border-sky-300 hover:shadow-md'
-                    : 'bg-slate-950 border-slate-800 hover:border-sky-500/30'
-                }`}
-              >
-                <div className="h-32 w-full rounded-xl bg-slate-950 overflow-hidden mb-2 border border-slate-800 flex items-center justify-center">
-                  <img
-                    src={img.relPath}
-                    alt={img.title}
-                    className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
-                  />
-                </div>
-                <div className="px-1">
-                  <div className={`text-xs font-semibold truncate ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
-                    {img.title}
-                  </div>
-                  <div className="text-[11px] text-sky-600 dark:text-sky-400 font-mono">{img.bookSource}</div>
-                </div>
-              </button>
+                img={img}
+                isLight={isLight}
+                onOpenImage={onOpenImage}
+              />
             ))}
           </div>
         </div>
       )}
     </div>
+  );
+};
+
+const ReferenceImageItem: React.FC<{
+  img: ResolvedImage;
+  isLight: boolean;
+  onOpenImage: (image: ResolvedImage) => void;
+}> = ({ img, isLight, onOpenImage }) => {
+  const [hasError, setHasError] = useState(false);
+  const resolvedUrl = resolveImageUrl(img);
+
+  return (
+    <button
+      onClick={() => onOpenImage(img)}
+      className={`group p-2.5 rounded-2xl border text-left flex flex-col justify-between overflow-hidden transition-all cursor-pointer ${
+        isLight
+          ? 'bg-white border-slate-200 hover:border-sky-300 hover:shadow-md'
+          : 'bg-slate-900/80 border-slate-800 hover:border-sky-500/30'
+      }`}
+    >
+      <div className={`h-32 w-full rounded-xl overflow-hidden mb-2 border flex items-center justify-center ${
+        isLight ? 'bg-slate-100 border-slate-200' : 'bg-slate-950 border-slate-800'
+      }`}>
+        {!hasError && resolvedUrl ? (
+          <img
+            src={resolvedUrl}
+            alt={img.title}
+            onError={() => setHasError(true)}
+            className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
+          />
+        ) : (
+          <div className="flex flex-col items-center justify-center p-2 text-center text-slate-400 dark:text-slate-600 gap-1">
+            <ImageOff className="w-6 h-6 text-slate-400 dark:text-slate-600" />
+            <span className="text-[10px]">圖片無法載入</span>
+          </div>
+        )}
+      </div>
+      <div className="px-1">
+        <div className={`text-xs font-semibold truncate ${isLight ? 'text-slate-900' : 'text-slate-100'}`}>
+          {img.title}
+        </div>
+        <div className="text-[11px] text-sky-600 dark:text-sky-400 font-mono">{img.bookSource}</div>
+      </div>
+    </button>
   );
 };

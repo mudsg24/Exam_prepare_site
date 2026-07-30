@@ -36,7 +36,8 @@
           "id": "FST_Protocol_AI",
           "type": "ai_illustration",
           "imagePath": "/server-data/assets/furosemide_fst_protocol.jpg",
-          "caption": "Furosemide Stress Test Protocol and 2-Hour Urine Output Cutoff."
+          "caption": "Furosemide Stress Test Protocol and 2-Hour Urine Output Cutoff.",
+          "relPath": "/server-data/assets/furosemide_fst_protocol.jpg"
         }
       ],
       "nlmResponses": [
@@ -92,7 +93,8 @@
           "id": "Brenner_Fig_50_15",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_15.png",
-          "caption": "Dose-response curve rightward shift in CKD."
+          "caption": "Dose-response curve rightward shift in CKD.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_15.png"
         }
       ],
       "nlmResponses": [
@@ -197,7 +199,8 @@
           "id": "NSAID_Furosemide_AI",
           "type": "ai_illustration",
           "imagePath": "/server-data/assets/furosemide_nsaid_interaction.jpg",
-          "caption": "Mechanism of NSAID-induced blunting of Furosemide effect."
+          "caption": "Mechanism of NSAID-induced blunting of Furosemide effect.",
+          "relPath": "/server-data/assets/furosemide_nsaid_interaction.jpg"
         }
       ],
       "nlmResponses": [
@@ -253,7 +256,8 @@
           "id": "Furosemide_Albumin_AI",
           "type": "ai_illustration",
           "imagePath": "/server-data/assets/furosemide_albumin_delivery.jpg",
-          "caption": "Luminal Albumin Entrapment and Protein Binding Dynamics."
+          "caption": "Luminal Albumin Entrapment and Protein Binding Dynamics.",
+          "relPath": "/server-data/assets/furosemide_albumin_delivery.jpg"
         }
       ],
       "nlmResponses": [
@@ -358,30 +362,38 @@
           "id": "Brenner_Fig_50_3",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_3.png",
-          "caption": "Loop diuretic classifications and chemical structures."
+          "caption": "Loop diuretic classifications and chemical structures.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_3.png"
         }
       ],
       "nlmResponses": [
         {
-          "accountProfile": "kuonephro",
-          "notebookTitle": "TSN：出題 (5-2)",
-          "rawResponse": "`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`\n\n---\n\n### 1. 說明來源資料庫之內容與限制 (Detailed Analysis of Database Limitations)\n\n在本臨床案例中，患者具有嚴重的 **`anaphylactic sulfa allergy`**，曾因使用 **`Trimethoprim-Sulfamethoxazole`** 導致致命性的 **`Toxic Epidermal Necrolysis`**，目前因 **`acute pulmonary edema`** 送醫，需要使用 **`loop diuretics`** 進行緊急治療。\n\n根據臨床醫學界的 **`clinical consensus`**，此時唯一能安全使用的 **`loop diuretic`** 為 **`Ethacrynic acid`**（因其為非 **`sulfonamide`** 衍生物）。然而，本案之 **`notebook sources`**（包含 **`Brenner & Rector's The Kidney`** 與各項 **`KDIGO Guidelines`**）缺乏足夠之直接資訊以完整佐證此一臨床判定。\n\n以下為根據來源資料庫進行的循序漸進剖析與限制說明：\n\n*   **`Loop Diuretics` 的分類與作用機制**：\n    來源中明確指出，**`furosemide`**、**`bumetanide`**、**`torsemide`** 與 **`ethacrynic acid`** 皆屬於強力之 **`loop diuretics`** [1, 2]。其生理學作用皆是藉由抑制位於 **`thick ascending limb of the loop of Henle`** 頂端膜（**`apical membrane`**）之 **`NKCC2`** 轉運體 [1, 3]。它們常用於治療嚴重的 **`hypervolemia`**、**`edema`** 與 **`hypertension`** [1, 4-6]。\n*   **資料庫中關於 `Allergy` 與 `Sulfonamide` 的記載**：\n    來源中提及了 **`sulfonamide hypersensitivity reactions`** [7] 以及 **`anaphylaxis to oral furosemide`** [7]，並指出 **`diuretics`** 之罕見副作用包含 **`cutaneous allergic reactions`** 與 **`acute interstitial nephritis`** [8]。\n*   **資料庫之核心限制（Missing Information）**：\n    雖然來源列出了所有 **`loop diuretics`** 且提及了 **`sulfonamide`** 過敏，但**完全缺乏**以下關鍵的分子結構與藥理學對比資訊：\n    1.  未提及 **`furosemide`**、**`bumetanide`** 與 **`torsemide`** 在化學結構上含有 **`sulfonamide group`**。\n    2.  未提及 **`ethacrynic acid`** 屬於 **`phenoxyacetic acid derivative`**，且不含 **`sulfonamide group`**。\n    3.  未討論 **`sulfonamide antibiotics`**（如 **`Trimethoprim-Sulfamethoxazole`**）與 **`sulfonamide-containing loop diuretics`** 之間是否會發生臨床上的 **`cross-reactivity`**（交叉反應），亦無提供在 **`Toxic Epidermal Necrolysis`** 等嚴重 **`sulfa allergy`** 下應如何選擇 **`diuretics`** 的臨床指引。\n\n---\n\n### 2. Distractor Option Analysis based on Sources (干擾選項之資料庫現有文獻分析)\n\n*   **Option (A) Ethacrynic acid [Correct under Clinical Consensus, but Unconfirmed by Sources]**：\n    *   **來源記載**：**`Ethacrynic acid`** 在來源中被歸類為強力之 **`loop diuretics`** 之一 [1, 2]。其相關文獻僅包含探討其對 **`intrarenal hemodynamics`** 之影響 [9]，以及其 **`clinical pharmacology`** 之研究 [10]。\n    *   **限制與不足**：來源中**無任何文字**說明其在 **`sulfa allergy`** 患者中之安全推薦或化學結構特性。\n    *   **出題意圖**：測試考生是否掌握 **`loop diuretics`** 中唯一不具備 **`sulfonamide`** 結構之藥物（**`ethacrynic acid`**），以在遭遇極致嚴重之 **`sulfonamide-induced Toxic Epidermal Necrolysis`** 時，做出正確的臨床避險抉擇。\n\n*   **Option (B) Bumetanide [Incorrect Distractor]**：\n    *   **來源記載**：**`Bumetanide`** 被列為 **`loop diuretics`** 之一 [1, 2]。來源中指出，與 **`furosemide`** 不同，**`bumetanide`** 主要在 **`liver`** 進行 **`metabolic inactivation`**，因此其 **`elimination`** 與半衰期不受 **`uremia`** 之影響 [2, 11]。其與 **`furosemide`** 在 **`chronic kidney disease`** 患者中之 **`pharmacokinetics`** 與 **`pharmacodynamics`** 對比細節亦有圖表呈現 [12]。\n    *   **限制與不足**：來源中未提及 **`bumetanide`** 含有 **`sulfonamide group`** 且可能與 **`sulfa allergy`** 產生交叉反應。\n    *   **出題意圖**：測試考生是否誤認為在 **`kidney`** 功能受損或需要肝臟代謝藥物時，**`bumetanide`** 可作為安全替代，從而忽略了其潛在的 **`sulfonamide`** 交叉過敏風險。\n\n*   **Option (C) Torsemide [Incorrect Distractor]**：\n    *   **來源記載**：**`Torsemide`** 亦為 **`loop diuretics`** 之一 [1, 2]。來源指出，在 **`heart failure`** 患者中，**`torsemide`** 因具備更優異且穩定的 **`bioavailability`**，且常用劑量下不易引發 **`hypokalemia`**，臨床預後優於其他 **`loop diuretics`**，因而被推薦為治療 **`heart failure`** 的首選 [4, 13, 14]。它與 **`bumetanide`** 相同，主要在 **`liver`** 進行代謝 [2, 11]。\n    *   **限制與不足**：同樣地，來源中未提及其 **`sulfonamide`** 結構與相關的 **`allergy`** 警示。\n    *   **出題意圖**：利用 **`torsemide`** 作為近年 **`heart failure`** 臨床指引高度推崇之強力藥物來干擾考生，測試考生是否能在特定藥物優勢（如優異的 **`bioavailability`** 與心衰竭預後）與致命的全身性過敏反應（如 **`TEN`**）之間，做出正確的臨床優先級排序。\n\n*   **Option (D) Furosemide [Incorrect Distractor]**：\n    *   **來源記載**：**`Furosemide`** 是臨床上最常被處方之 **`loop diuretic`** [15]，其緊密與 **`albumin`** 結合，經由 **`organic anion transporter`**（如 **`hOAT1`** 與 **`hOAT3`**）分泌至腎小管腔中作用 [16-18]。在 **`acute kidney injury`** 與 **`extracellular volume overload`** 的管理中，其扮演重要角色 [19-21]，但高劑量下可能引發 **`reversible or permanent ototoxicity`** [11, 20, 22, 23]。\n    *   **限制與不足**：雖然來源特別收錄了關於 **`anaphylaxis to oral furosemide`** 的病例研究 [7]，但未討論其結構中的 **`sulfonamide`** 官能基。\n    *   **出題意圖**：作為臨床上最常用、最容易直覺反射選取的 **`loop diuretic`**，用以測試考生是否具備「在面臨嚴重 **`sulfa allergy / TEN`** 時，必須避開 **`furosemide`** 等含有 **`sulfonamide`** 結構藥物」之高階臨床警覺心。\n\n---\n\n### 3. Exam Differential Diagnosis & High-Yield Comparisons (專科考試高頻對比與鑑別診斷)\n\n在醫學專科甄審中，**`sulfonamide-containing drugs`** 與 **`non-sulfonamide alternatives`** 之間的 **`cross-reactivity`** 以及其高風險臨床替代方案，是極高頻的分子藥理學考點：\n\n#### **High-Yield Comparison: 常用利尿劑與相關藥物之磺胺結構與交叉反應對比表**\n\n| 評估維度 (`Parameters`) | **`Sulfonamide Loop Diuretics`** (如 **`furosemide`**, **`bumetanide`**, **`torsemide`**) [1, 2] | **`Non-Sulfonamide Loop Diuretics`** (如 **`ethacrynic acid`**) [1, 9] | **`Thiazide Diuretics`** (如 **`hydrochlorothiazide`**, **`chlorthalidone`**) [24-26] | **`Sulfonamide Antibiotics`** (如 **`Trimethoprim-Sulfamethoxazole`**) [27, 28] |\n| :--- | :--- | :--- | :--- | :--- |\n| **化學結構本質** | 含有 **`sulfonamide group`** 的有機酸衍生物 | **`‡ Phenoxyacetic acid derivative`**，不含任何 **`sulfonamide`** 結構 | 含有 **`sulfonamide group`** 的苯接口雜環化合物 | 含有 **`arylamine sulfonamide`** 結構的抗生素 |\n| **`NKCC2` 抑制活性** | **`‡ Yes`** (強效，作用於 **`thick ascending limb`**) [1, 3] | **`‡ Yes`** (強效，作用於 **`thick ascending limb`**) [1, 9] | 否 (主要作用於 **`DCT`** 頂端膜的 **`NCC`**) [3, 24] | 否 (為葉酸合成代謝抑制劑) |\n| **對 `Severe Sulfa Allergy` (如 `TEN`) 之交叉過敏風險** | **理論上存在風險** (雖臨床爭議，但考試中為 **`relative contraindication`**) | **`‡ Completely Safe` (完全安全)** | **理論上存在風險** (考試中列為相對禁忌) | **極高風險** (為此類嚴重過敏之始作俑者) |\n| **特異性之嚴重毒性副作用** | 劑量依賴性之 **`ototoxicity`** [11, 22, 23] | **`‡ Higher risk of ototoxicity`** (聽力毒性風險通常顯著高於其他 **`loop diuretics`**) [20, 29] | **`‡ Thiazide-induced hyponatremia`** [13, 30, 31] | **`‡ Hyperkalemia`** [32-34]、**`allergic interstitial nephritis`** [35-38] |\n\n---\n\n### 4. Citations & References (精準文獻與引用定位)\n\n*   **Chapter & Section Headers (精準章節目錄定位)**：\n    *   **Brenner & Rector's The Kidney (11th Edition)**：\n        *   **Chapter 14: Disorders of Sodium Balance**：\n            *   *Section: Loop Diuretics* [Passage 15, 16]\n        *   **Chapter 27: Biomarkers in Acute and Chronic Kidney Diseases**：\n            *   *Section: Furosemide Stress Test -> hOAT system secretion* [Passage 81, 83]\n        *   **Chapter 29: Prevention and Management of Acute Kidney Injury**：\n            *   *Section: Acute Interstitial Nephritis* [Passage 91, 97, 103, 116]\n            *   *Section: Pharmacologic Therapy for Acute Tubular Necrosis -> Loop Diuretics* [Passage 102, 114, 115]\n        *   **Chapter 50: Diuretics**：\n            *   *Section: Loop Diuretics -> Sites and Mechanisms of Action* [Passage 230, 231]\n            *   *Section: Loop Diuretics -> Pharmacokinetics* [Passage 233, 234, 235]\n            *   *Section: Adverse Effects of Diuretics* [Passage 276, 277, 279]\n    *   **KDIGO Guidelines**：\n        *   **KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury**：\n            *   *Chapter 3.4: Diuretics* [Passage 491, 497, 498, 499, 500, 501]\n\n*   **Figures, Tables, & Boxes (圖表與總結框清單)**：\n    *   **Figure 50.6 (Chapter 50)**：*Comparison of the pharmacokinetics and dynamics of furosemide and bumetanide in chronic kidney disease* [Passage 234]。\n    *   **Figure 50.7 (Chapter 50)**：*Diagrammatic representation of the disposition of intravenous furosemide* [Passage 235]。\n    *   **Table 50.1 (Chapter 50)**：*Ceiling Doses of Loop Diuretics*，列出了 furosemide, bumetanide, 與 torsemide 的天花板劑量 [Passage 248]。\n    *   **Figure 9 & Figure 10 (KDIGO 2012)**：*Effect of furosemide vs. control on mortality and need for RRT* [Passage 491, 501]。\n    *   **Passage 16 (Chapter 14)**：\"Loop Diuretics. This group includes the most powerful diuretics, furosemide, bumetanide, torsemide, and ethacrynic acid.\"\n    *   **Passage 276 (Chapter 50)**：\"569. Dominguez-Ortega J, Martinez-Alonso JC, Dominguez-Ortega C, et al. Anaphylaxis to oral furosemide. Allergol Immunopathol (Madr). 2003;31:345–347.\"\n    *   **Passage 276 (Chapter 50)**：\"570. Cribb AE, Pohl LR, Spielberg SP, et al. Patients with delayed-onset sulfonamide hypersensitivity reactions...\"\n\n---\n\n🔍 **下一步建議：** 由於此處涉及嚴格的藥物過敏與化學結構交互反應，我可以協助在 **`Web`** 上檢索關於 **`sulfonamide cross-reactivity`**（特別是 **`antibiotic sulfonamides`** 與 **`non-antibiotic sulfonamides`** 如 **`loop diuretics`** 之間）的最新臨床回顧文獻與藥理指引，以釐清在真實臨床世界中，這類交叉過敏的發生率以及 **`ethacrynic acid`** 聽力毒性（**`ototoxicity`**）的管理策略。",
-          "selectedOption": "A",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
           "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED"
+          "qcStatus": "FAILED",
+          "qcReason": "REFUSAL",
+          "selectedOption": "NONE"
         },
         {
+          "notebookTitle": "TSN：出題 (2-4)",
+          "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
           "accountProfile": "sandbox0505",
-          "notebookTitle": "TSN：出題 (2-2)",
-          "rawResponse": "### 1. Answer Determination (正解判定)\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n本題的唯一正確選項為 **Option (A) Ethacrynic acid**。\n\n*(說明：雖然在臨床藥理學與治療指引中，對於具有嚴重 `sulfa allergy` 且呈現 `acute pulmonary edema` 的患者，**`Ethacrynic acid`** 是唯一安全且不含 `sulfonamide` 結構的 `loop diuretic` 首選藥物。但經詳細檢索本專科資料庫所收錄之文獻，現有文獻僅在 *Brenner & Rector's The Kidney* 第 14 章 ［17］ 與第 50 章 ［233, 236, 251］ 中將 `Ethacrynic acid`、`furosemide`、`bumetanide`、`torsemide` 歸類為 `loop diuretics`，並探討了其 `ototoxicity` 與藥物動力學，但**完全未收錄**關於其化學結構分類（如 `sulfonamide-containing` vs. `phenoxyacetic acid derivative`）與 `sulfa allergy` 或 `Toxic Epidermal Necrolysis (TEN)` 跨家族交叉過敏反應（`cross-reactivity`）之臨床防禦指引。因此，本題判定為資料庫證據不足。以下將依據國際醫學界共識與本專科資料庫之相關生化藥理記載提供詳細解析。)*\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確臨床與生理藥理學分析)\n\n在 `acute pulmonary edema`（急性肺水腫）的緊急救治情境下，迅速給予 `loop diuretics` 進行靜脈注射以達到利尿、減輕心臟前負荷（`preload`）與緩解肺淤血是極其關鍵的一線治療。然而，在面對合併有嚴重、致死性過敏反應病史的患者時，藥物的結構學鑑別診斷具有關鍵的臨床防禦價值：\n\n1. **`Sulfa Allergy` 與化學結構的生理偶聯 (`Chemical Structure and Hypersensitivity`)**：\n   * 在藥理學分類上，大部份臨床常用的 `loop diuretics`（包括 **`furosemide`**、**`bumetanide`**、**`torsemide`**）在分子結構中均包含一個磺胺官能基（**`sulfonamide moiety`**）。\n   * 患者若對 `sulfonamide` 類藥物（如抗菌藥物 **`Trimethoprim-Sulfamethoxazole` [ `TMP-SMX` ]**）具有嚴重的 `anaphylactic`（過敏性休克）或 **`Toxic Epidermal Necrolysis` ( `TEN` )** 病史，使用包含 `sulfonamide moiety` 的非抗菌藥物時，理論上存在交叉過敏（**`cross-reactivity`**）的潛在風險 ［280］。\n   * 雖然在一般輕微皮疹（如 `maculopapular rash`）患者中，抗菌型磺胺與非抗菌型磺胺之間的交叉過敏率較低，但在遭遇過 **`TEN`** 這一類死亡率極高（可達 30% 以上）且由 T 細胞介導的嚴重表皮壞死溶解性疾病（**`severe cutaneous adverse reactions [SCARs]`**）患者時，**任何具有潛在交叉反應性的藥物（`sulfonamide-containing loop diuretics`）皆被列為絕對禁忌**。\n\n2. **`Ethacrynic acid` 的結構優勢與安全性 (`Non-Sulfonamide Loop Diuretic`)**：\n   * **`Ethacrynic acid`** 是一類 **`phenoxyacetic acid derivative`**（苯氧乙酸衍生物），其化學分子結構中**完全不含 `sulfonamide moiety`** ［283］。\n   * 因此，它在發病機制上與 `sulfonamide` 誘發的體液或細胞介導型 `hypersensitivity reactions` 具有天然的免疫學阻斷性。\n   * 對於因 `TMP-SMX` 引發嚴重 `TEN` 或 `anaphylaxis` 的患者，**`Ethacrynic acid`** 是唯一可以安全施予、完全不需擔心引發致死性 `sulfonamide-mediated SCARs` 的 `loop diuretic`。這使其成為 **Option (A)** 唯一的正確答案。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項剖析)\n\n* **Option (B) Bumetanide (不正確)**：\n  * *藥理結構與過敏風險*：**`Bumetanide`** 是一類 3-aminobenzoic acid 衍生的 `loop diuretic`。其結構中帶有經典的 `sulfonamide moiety` ［58, 233］。在發生過 **`TEN`** 這一類致死性過敏的患者中，給予 **`Bumetanide`** 會有面臨極高且無法預測的交叉過敏反應風險，屬於臨床用藥的絕對禁忌。\n  * *出題者意圖*：此干擾項旨在考查考生是否僅知道 `furosemide` 是磺胺類，而誤以為結構略有不同的強效利尿劑 `bumetanide` 可以安全替代，測試其對 loop 家族中「磺胺結構普適性」的掌握。\n\n* **Option (C) Torsemide (不正確)**：\n  * *藥理結構與過敏風險*：**`Torsemide`** 屬於 `sulfonylurea-pyridine` 結構的 `loop diuretic` ［119, 236］。雖然其半衰期較長、生物利用度更佳（*Chapter 50*）［97, 235］，但其結構本質上仍包含 `sulfonamide` 的核心衍生物骨架。在 `TEN` 高危過敏背景下，使用 **`Torsemide`** 同樣存在觸發急性免疫病理風暴的極高風險，絕不安全。\n  * *出題者意圖*：利用近年指引高度推薦、具有高生物利用度且在心臟衰竭中療效優異的 `torsemide` 作為干擾，測試考生是否會因其優異的臨床療效而忽略了核心的結構性禁忌症。\n\n* **Option (D) Furosemide (不正確)**：\n  * *藥理結構與過敏風險*：**`Furosemide`**（速尿）是臨床最常用的 `loop diuretic`，但它也是最經典的 `sulfonamide` 衍生物。在有 `sulfa allergy` 且曾發生過 `TEN` 如此嚴重致命反應的患者中，靜脈注射 **`Furosemide`** 具有極高的危險性。\n  * *出題者意圖*：作為最常規的急性肺水腫救救治藥物，出題者以此作為強烈直覺干擾，考查考生在面臨急症搶救時，能否保持冷靜，嚴格執行用藥安全防禦與病史排查，避免「慣性用藥」導致災難性醫療事故。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科高頻對比與鑑別)\n\n在腎臟專科與重症醫學板考中，當患者表現為 **`volume overload`** 或 **`acute pulmonary edema`** 時，關於不含磺胺結構的 **`Ethacrynic acid`** 與傳統 **`Furosemide`** 的藥理特性與毒性對比，是主考官最常測試的高頻考點：\n\n#### **Table 1: High-Yield Contrast of Furosemide and Ethacrynic acid**\n| **比較與藥理維度** | **`Furosemide`** (傳統代表) | **`Ethacrynic acid`** (本題正確考點) |\n| :--- | :--- | :--- |\n| **化學結構分類** | **`Sulfonamide derivative`** | **`Phenoxyacetic acid derivative`** |\n| **`Sulfa Allergy` 交叉反應** | **存在潛在 cross-reactivity**（嚴重 `TEN/SJS/anaphylaxis` 患者禁用）。 | **完全無 cross-reactivity**（嚴重 `sulfa allergy` 患者的唯一安全選擇）。 |\n| **主要作用位點** | 亨氏環升支粗段（`TAL`）頂端膜的 **`NKCC2`** 協同轉運體 ［13, 17］。 | 亨氏環升支粗段（`TAL`）頂端膜的 **`NKCC2`** 協同轉運體 ［17］。 |\n| **聽力毒性 (`Ototoxicity`) 比較** | 具有 `ototoxicity` 風險（尤其在快速大劑量 iv 或 renal insufficiency 時）［104, 236, 251］。 | **具有 loop 家族中最高的 `ototoxicity` 風險**，更易引發暫時或永久性聽力喪失 ［283］。 |\n| **肝臟與腎臟排泄代謝** | 約 50% 經由腎臟代謝為 inactive glucuronide；腎衰竭時易蓄積 ［236］。 | 主要經由肝臟膽汁與腎臟排泄；不依賴腎臟葡萄糖醛酸化代謝。 |\n\n---\n\n### 5. Citations & References (精準引用與出處)\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, **Chapter 14: Disorders of Sodium Balance**\n        *   Section: **Loop Diuretics** ［17］[：將 furosemide、bumetanide、torsemide、ethacrynic acid 共同歸類為抑制 NKCC2 的強力 loop 利尿劑家族]。\n    *   *Brenner & Rector's The Kidney*, **Chapter 50: Diuretics**\n        *   Section: **SITES AND MECHANISMS OF ACTION** ［233］[：詳細論述了 loop 利尿劑在 TAL 上與 NKCC2 結合的生化轉運機制]。\n        *   Section: **PHARMACOKINETICS** ［236］[：記錄了 loop 利尿劑的代謝差異、furosemide 腎臟代謝蓄積與 ototoxicity 風險]。\n        *   Section: **ACUTE KIDNEY INJURY** ［251, 283］[：引證了 high doses of loop diuretics 導致 deafness/tinnitus 的 ototoxicity 文獻，並特別提及 ethacrynic acid ［283］ 的臨床藥理]。\n    *   *Brenner & Rector's The Kidney*, **Chapter 35: Tubulointerstitial Diseases**\n        *   Section: **Etiology of ATIN** ［154］[：將 furosemide 與 thiazides 歸為利尿劑類，並與 sulfonamides 共同列為引發 type IV 過敏性間質性腎炎的代表性藥物]。\n    *   *KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD*\n        *   Chapter 4: **Table 31 Key examples of common medications with documented nephrotoxicity...** ［674, 675］[：將 sulfonamides 藥物過敏，與其 non-nephrotoxic alternatives（如 pentamidine / atovaquone）進行了明確的過敏性替代對照]。\n\n---\n\n📊 **下一步建議**：鑑於該 **`severe sulfa allergy`** 患者因急性肺水腫必須起用非磺胺類的 **`Ethacrynic acid`** 治療。在臨床重症監護與藥理安全防禦層面，我們是否可以進一步討論：由於 **`Ethacrynic acid`** 具有 loop 家族中最高的**聽力毒性（`ototoxicity`）**風險，當為該患者進行靜脈注射時，「如何精確控制其靜脈滴注速率與累積日劑量以最大化防範不可逆性耳聾（**`KDIGO 2012/2026`** 指引）」，並評估「若該患者後續因肺水腫引發急性腎損傷（**`AKI`**）需要進行抗感染預防時，如何避開其他可能具有相同 `ototoxicity` 協同毒性的抗菌藥物（如 **`aminoglycosides / vancomycin`**）」之核心重症安全用藥與多重毒性防禦考點？",
-          "selectedOption": "A",
+          "rawResponse": "",
           "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED"
+          "qcStatus": "FAILED",
+          "qcReason": "EMPTY_RESPONSE",
+          "selectedOption": "NONE"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "INSUFFICIENT_DATABASE_EVIDENCE",
+      "qcNotes": "NLM textbook database lacks direct coverage on sulfa cross-reactivity for ethacrynic acid in this query batch; source answer is A (Ethacrynic acid).",
+      "qcVerifiedAt": "2026-07-30T18:48:22.168Z",
+      "qcVerifiedBy": "Tonks"
     },
     {
       "id": "q8",
@@ -414,7 +426,8 @@
           "id": "Brenner_Fig_50_6",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_6.png",
-          "caption": "Pharmacokinetics of Furosemide, Bumetanide, and Torsemide."
+          "caption": "Pharmacokinetics of Furosemide, Bumetanide, and Torsemide.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_6.png"
         }
       ],
       "nlmResponses": [
@@ -470,7 +483,8 @@
           "id": "Brenner_Fig_6_14",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_6_14.png",
-          "caption": "TAL transport pathways and lumen-positive voltage generation."
+          "caption": "TAL transport pathways and lumen-positive voltage generation.",
+          "relPath": "/server-data/assets/Brenner_Fig_6_14.png"
         }
       ],
       "nlmResponses": [
@@ -569,7 +583,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Ototoxicity (耳毒性，表現為耳鳴 Tinnitus、眩暈 Vertigo、聽力喪失 Hearing Loss) 是 Loop Diuretics 的重要副作用，主因內耳 Stria Vascularis 表達 NKCC1，Loop Diuretics 阻斷 NKCC1 會破壞內淋巴 (Endolymph) 的電位與離子平衡。其發病與高血漿峰值濃度 (High Peak Concentration) 強烈相關，故急速 IV Bolus (> 4 mg/min) 或與 Aminoglycosides (如 Gentamicin) 併用時風險最高。Ethacrynic Acid 的耳毒性最強。",
+      "sourceExplanation": "Ototoxicity (表現為 tinnitus, vertigo, hearing loss) 是 Loop Diuretics 的重要副作用，主因內耳 stria vascularis 表達 NKCC1，Loop Diuretics 阻斷 NKCC1 會破壞 endolymph 的電位與離子平衡。其發病與 high peak plasma concentration 強烈相關，故急速 IV bolus (> 4 mg/min) 或與 aminoglycosides (如 Gentamicin) 併用時風險最高。Ethacrynic acid 的 ototoxicity 最強。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -578,7 +592,8 @@
           "accountProfile": "mudskipper24",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. Database Limitation Analysis (資料庫限制與檢索分析)\n\n經系統化且詳盡地檢索與分析您所提供的 100 篇 `notebook sources`，發現**現有資料庫中缺乏足夠的細節資訊以直接證實或完整推導 `NKCC1` 在內耳的病理機制，以及大劑量快速靜脈注射（`infusion rate > 4 mg/min`）的精確安全紅線**。檢索結果分析如下：\n\n*   **資料庫現有的直接與間接記載**：\n    1.  在 **`74. Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease.pdf`**（**`Passage 226`**）中，明確指出：\n        > *\"Some medications frequently given to CKD patients, including aminoglycoside antibiotics (limited use, only in anuric patients) and furosemide, are potentially ototoxic.\"*\n        （證實了 `aminoglycoside` 與 `furosemide` 皆具備 `ototoxicity`，且常在 `CKD` 患者中產生共病毒性）。\n    2.  在 **`KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf`**（**`Passage 365`**）中，指出：\n        > *\"Side effects of diuretics include electrolyte disorders, metabolic alkalosis, ototoxicity (particularly with high doses of loop diuretics)...\"*\n        （證實了 `ototoxicity` 是 `loop diuretics` 的經典副作用，且與大劑量 `high doses` 密切相關）。\n    3.  在 **`KDIGO-2012-AKI-Guideline-English.pdf`**（**`Passage 261`**）中，亦將 `aminoglycosides` 與 `high doses of loop diuretics` 同步列為需要密切監測並防範協同毒性的高危藥物組合。\n    4.  在文獻引用中，亦收錄了經典的耳毒性專著，如 **`Passage 101 / Ref 526`**（*Molecular and clinical implications of loop diuretic ototoxicity*）與 **`Passage 178 / Ref 555`**（*Ototoxicity of loop diuretics*）。\n*   **關鍵細節之缺失**：\n    雖然資料庫完全支持 **Option (B) Ototoxicity** 是正確答案，但資料庫的所有 `<passage>` 條文中，**並未提及 `NKCC1` 這一特異性亞型（資料庫僅在小管轉運中提及 `NKCC2`，如 `Passage 12, 259`），且未寫出大劑量靜脈注射時 `infusion rate > 4 mg/min` 的具體滴定流速界限**。\n\n基於 NotebookLM 100% 忠實於所給資料庫且不憑空臆測之承諾，特此輸出 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n為了協助您作為資深命題專家進行試題開發，以下在**明確聲明調用外部腎臟生理學與臨床藥理學專家知識 (External Expert Knowledge)** 的前提下，為您提供此一專科核心考點的深度病理生理學與藥理學解析：\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確選項與病理生理學深度分析)\n\n依據臨床藥理學與耳學病理生理學共識，本題唯一正確的選項為 **Option (B) Ototoxicity (sensorineural hearing loss / tinnitus)**。其循序漸進的生理與毒理學機制如下：\n\n#### (1) NKCC1 在內耳的生理學定位與作用\n*   在人體中，**`Na-K-2Cl cotransporter`** 存在兩種不同的亞型（**`isoforms`**）：\n    1.  **`NKCC2`**：特異性表達於腎臟 **`thick ascending limb (TAL)`** 的 **`apical membrane`**，是 **`loop diuretics`** 實現利尿作用的靶點。\n    2.  **`NKCC1`**：廣泛表達於全身非上皮細胞，特別是表達於內耳 **`inner ear`** 的 **`stria vascularis`**（血管紋）的 **`basolateral membrane`** 上。\n*   在正常生理下，內耳的 **`stria vascularis`** 依靠 **`NKCC1`** 連續將 `K+` 泵入內淋巴液（**`endolymph`**）中，維持高達 **`+80 mV`** 的高內耳電位（**`endocochlear potential`**）。這是維持耳蝸毛細胞（**`hair cells`**）傳導聲音訊號的關鍵物理儲備。\n\n#### (2) Loop Diuretics 介導的耳毒性病理生理學\n*   當給予超大劑量（**`high-dose`**）的 **`loop diuretics`**（如 `furosemide`、`bumetanide` 或 `ethacrynic acid`），或者由於**快速靜脈注射（`rapid IV bolus administration > 4 mg/min`）**導致血藥濃度瞬間達到峰值時，藥物會跨過血耳蝸屏障，病理性地阻斷 **`stria vascularis`** 頂端的 **`NKCC1`**。\n*   這會引發內淋巴液中的 `K+` 濃度斷崖式下跌，使 **`endocochlear potential`** 迅速崩塌，導致耳蝸毛細胞無法發生去極化，臨床上表現為突發性的 **`sensorineural hearing loss`**、**`tinnitus`**（耳鳴）甚至永久性耳聾。\n\n#### (3) 與 Aminoglycoside 的協同耳毒性機制 (Synergistic Toxicity)\n*   當 **`loop diuretics`** 與 **`aminoglycoside`**（如 `gentamicin`、`tobramycin`）聯用時，毒性會發生幾何級數的相加。\n*   **`Aminoglycosides`** 會經由毛細胞頂端的轉運通道進入細胞內部，且極難被排出。其在細胞內會誘導產生海量的活性氧（**`reactive oxygen species [ROS]`**），引發線粒體功能障礙，最終直接導致耳蝸與前庭毛細胞發生不可逆的 **`apoptosis`**（凋亡）。\n*   **`loop diuretics`** 阻斷 **`NKCC1`** 後引發的內淋巴屏障通透性改變，會進一步**加速並增加 `aminoglycoside` 進入內耳毛細胞的蓄積量**。因此，兩者共用是臨床上引發永久性、毀滅性耳聾的最高危藥物組合，這也就是臨床指引（如 `KDIGO`）強烈建議避免快速注射與聯用的原因。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項排除與分析)\n\n*   **Option (A) Nephrocalcinosis (錯誤)**：\n  *   *為何錯誤*：**`Nephrocalcinosis`**（腎鈣質沉積症）是指鈣鹽（通常為 `calcium phosphate`）在腎實質（間質或小管）發生病理性沉積（見 **`Passage 28`**）。雖然 **`loop diuretics`** 阻斷了 **`NKCC2`**，使 **`TAL`** 的 **`lumen-positive potential`** 消失，進而抑制了 `Ca2+` 的旁路重吸收，導致顯著的 **`hypercalciuria`**（尿鈣升高）；但這是一項慢性的腎臟局部病理改變，通常在長期治療（如嬰幼兒長期使用，見 **`Passage 220`**）中才會緩慢形成，**與「急性快速靜脈注射流速（> 4 mg/min）」或「內耳 NKCC1 阻斷」完全無關**。\n  *   *出題意圖*：利用利尿劑在腎臟引起的鈣代謝副作用，測試考生能否釐清「急毒性（耳毒性）」與「慢毒性（腎鈣化）」在發病時間軸與分子靶點上的根本差異。\n\n*   **Option (C) Retroperitoneal fibrosis (錯誤)**：\n  *   *為何錯誤*：**`Retroperitoneal fibrosis`**（後腹腔纖維化）是一種慢性、非特異性的自體免疫介導性炎症病變，其特徵為纖維組織在後腹腔（通常圍繞腹主動脈）病理性沉積，進而壓迫輸尿管引發梗阻性腎病（**`obstructive uropathy`**）。這項病理在臨床上常與 **`IgG4-related disease`** 緊密相關（見 **`Passage 132`**），其發病機制與 **`loop diuretics`**、**`aminoglycosides`** 或 **`NKCC1`** 毫無關聯。\n  *   *出題意圖*：此選項作為完全無關的纖維化病理，用以篩選出對臨床系統性病變與藥物副反應定位模糊的考生。\n\n*   **Option (D) Aplastic anemia (錯誤)**：\n  *   *為何錯誤*：**`Aplastic anemia`**（再生障礙性貧血）屬於骨髓造血幹細胞受損導致的 **`pancytopenia`**（全血細胞減少症），其發病通常與特定的化療藥物（如烷化劑）、嚴重自身免疫或特定病毒感染相關。**`loop diuretics`** 與 **`aminoglycoside`** 的毒性光譜中**「完全不包含」**這項骨髓抑制特徵。\n  *   *出題意圖*：混淆臨床上重症血液系統毒性，測試考生對藥物特異性靶器官毒性的掌握精確度。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試關鍵對比與科學鑑別)\n\n在 **`Nephrology Board Exams`** 中，關於利尿劑與藥物毒性的管理，以下幾組對比是極高頻的考點：\n\n#### (1) Loop Diuretics Ototoxicity vs. Aminoglycoside Ototoxicity\n*   **`Loop Diuretics (e.g., Furosemide)`**：\n    *   *病理部位*：主要累及 **`stria vascularis`**。\n    *   *可逆性*：在停藥且血藥濃度下降後，**通常是完全可逆的 (reversible)**。\n*   **`Aminoglycosides (e.g., Gentamicin)`**：\n    *   *病理部位*：直接破壞耳蝸的 **`hair cells`** 與前庭神經元。\n    *   *可逆性*：由於細胞發生凋亡壞死，其引起的聽力與平衡覺喪失通常是 **不可逆的永久性損傷 (irreversible/permanent)**。\n\n#### (2) NKCC2 (Kidney) vs. NKCC1 (Systemic / Inner Ear)\n這是生理學與藥理學交叉考核的黃金題眼：\n*   **`NKCC2`**：僅表達於腎臟 **`TAL`** 頂端膜。突變會導致 **`Type 1 Bartter syndrome`**（表現為嚴重的失鹽、代謝性鹼中毒與 `hypercalciuria`）。\n*   **`NKCC1`**：廣泛表達於內耳血管紋、唾液腺與血管平滑肌。突變或發育異常在臨床上常與綜合徵型感音神經性耳聾（**`sensorineural hearing loss`**）密切相關。\n\n#### (3) Aminoglycoside Nephrotoxicity vs. Loop Diuretic Nephrotoxicity\n*   **`Aminoglycoside Nephrotoxicity`**：經典的 **`damage without dysfunction`** 或者是隨後進展的 **`nephrotoxic ATN`**（見 **`Passage 69, 346, 366`**）。其藉由巨噬蛋白（**`megalin/cubilin`**）內吞入近端小管上皮細胞蓄積，發病通常呈 **遲發性 (delayed onset 7-10 days)**（見 **`Passage 88`**）。\n*   **`Loop Diuretic Nephrotoxicity`**：本身極少直接引起急性小管壞死，但大劑量使用易引發 **`volume depletion`**，繼而惡化為缺血性 **`ATN`**（見 **`Passage 96, 367`**），或偶可誘發過敏性急性間質性腎炎（**`allergic AIN`**，見 **`Passage 177`**）。\n\n---\n\n### 5. Citations & References (精確文獻與相關章節引用)\n\n*   **Brenner & Rector's *The Kidney*, Chapter 50: *Diuretics***\n    *   *Section*: **`ADVERSE EFFECTS OF DIURETICS: Loop Diuretics: Ototoxicity`**\n        *   **Ref 555 & 556 (Passage 178)**：指出耳毒性與給藥流速及大劑量的關聯。\n*   **`KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Public Review Draft)`**\n    *   *Chapter 4: Drug and Nephrotoxin-associated AKI*\n        *   **Section 4.1 & Figure 42 (Passage 346 & 366)**：系統化分類了 `furosemide`、`aminoglycosides` 在小管端及系統端的損傷分光，並警示了兩者在 `CKD / AKI` 中的危險偶聯。\n        *   **Section 4.2: Diuretic safety profile (Passage 365)**：權威記載：`Side effects of diuretics include... ototoxicity (particularly with high doses of loop diuretics)...`。\n*   **`KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury`**\n    *   *Chapter 3: Prevention and Treatment of AKI (Section 3.4)*\n        *   **Passage 259 & 261**：指出了 `loop diuretics` 抑制 `Na-K-2Cl` 轉運與氧耗的機制，並將 `aminoglycosides` 與高劑量 `loop diuretics` 同列為高危共毒物。\n*   **Chapter 74: Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease**\n    *   *Section*: **`SENSORY IMPAIRMENTS IN CKD`**\n        *   **Passage 226**：`Some medications frequently given to CKD patients, including aminoglycoside antibiotics... and furosemide, are potentially ototoxic... Sensorineural hearing loss was found in 14% to 18% of the patients.`。\n\n---\n\n🎧 **Nudge**: 本題深入剖析了 **`loop diuretics`** 引起的耳毒性與 **`NKCC1`** 離子通道失衡的生理學關聯。如果您目前正在為專科醫師設計這套關於 **「利尿劑耐受（Diuretic Resistance）的梯級藥理阻斷、利用超濾 [Ultrafiltration] 逆轉心腎症候群頑固性水腫的安全指徵、以及不同 loop diuretics [Furosemide vs. Torsemide vs. Bumetanide] 在口服生物利用度與 clearance 上的多維度對照」** 等題目，我可以為您量身打造一個 **Clinical Simulation on Managing Refractory Edema and Diuretic Resistance in Advanced CKD**（包含結合 `spot urine Na/K` 指標、利尿劑應激試驗 `FST`、與階梯式聯用 `Metolazone / Acetazolamide` 的臨床病例決策題），以便您隨時充實您的專科試題庫。",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "error": null,
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (2-2)",
@@ -586,12 +601,16 @@
           "accountProfile": "sandbox0505",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. Answer Determination (正解判定)\n\n* **唯一正確選項**：**Option (B) Ototoxicity (sensorineural hearing loss / tinnitus)**\n\n*(說明：雖然在臨床藥理學中，**`Ethacrynic acid`** 與 **`Furosemide`** 等 **`loop diuretics`** 在快速、高劑量 **`IV bolus`** 給藥且合併使用 **`aminoglycoside`** 治療時，其最經典且特異性的嚴重副作用為 **`ototoxicity`**（臨床表現為 **`sensorineural hearing loss`** 與 **`tinnitus`**），其發病機制是由於阻斷了 **`inner ear`** 中 **`stria vascularis`** 頂端膜表面的 **`NKCC1`** 轉運體。然而，經詳細檢索本專科資料庫所收錄之文獻，雖然在 *Brenner & Rector's The Kidney* 第 29 章 ［98］、第 74 章 ［221］ 與 *KDIGO 2026 AKI Guideline (Draft)* ［359］ 中均明確記載了 **`loop diuretics`** 具有 **`ototoxicity`** 副作用、與 **`aminoglycosides`** 具有協同耳毒性，並指出其在 **`CKD / ESKD`** 兒童中可引發 14% 至 18% 的 **`sensorineural hearing loss`** ［221］，但**資料庫中完全缺乏**關於 **`NKCC1`** 分子靶點在耳部的功能、以及 **`infusion rate > 4 mg/min`** 這一項具體臨床輸注速度閾值的直接記載。因此，本題判定為資料庫證據不足。以下將依據國際醫學共識與本資料庫之現有記載，為您提供詳盡的專科臨床病理生理分析。)*\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確臨床與生理病理學分析)\n\n即便受到資料庫收錄深度的限制，根據資料庫中現有的 **`Brenner & Rector's The Kidney`** 與 **`KDIGO Guidelines`** 記載，針對 **`loop diuretics`** 誘發 **`ototoxicity`** 且與 **`aminoglycosides`** 產生強烈協同毒性的分子與生理學機制，可進行以下循序漸進的分析：\n\n1. **`Loop Diuretics` 介導的耳毒性特徵**：\n   * 根據 *KDIGO 2026 AKI Guideline (Draft)* ［359］，使用 **`diuretics`**（特別是高劑量的 **`loop diuretics`**）其最經典且需嚴密防範的副作用之一即為 **`ototoxicity`**。\n   * 在病理生理學上，**`loop diuretics`**（如 **`furosemide`**）在腎臟中是通過強烈結合並抑制 **`thick ascending limb of the loop of Henle`** 頂端膜上的 **`NKCC2`** 協同轉運體發揮強效利尿作用 ［12, 253］。\n   * 然而，在 **`inner ear`** 的 **`stria vascularis`**（負責分泌內淋巴 **`endolymph`** 的組織）中，高度表達了 **`NKCC2`** 的同源異構體 **`NKCC1`**。\n   * 當給予快速、高劑量的 **`intravenous (IV) bolus`** 輸注時，血液與內耳局部的藥物濃度會在極短時間內跨越毒性閾值，強力抑制 **`NKCC1`**。這會直接阻斷內耳毛細胞與 **`stria vascularis`** 的鈉、鉀、氯離子轉運，導致內淋巴電位（**`endocochlear potential`**）急性、功能性地驟降，進而引發急性 **`sensorineural hearing loss`** 與 **`tinnitus`** ［221, 359］。\n\n2. **與 `Aminoglycosides` 的致命協同作用**：\n   * 根據 *Brenner & Rector's The Kidney* 第 74 章的記載，在 **`CKD`** 與重症患者中，同時給予 **`aminoglycoside`** 類抗生素與 **`furosemide`** 被證實具有高度的 **`ototoxic`** 協同破壞性 ［221］。\n   * **`aminoglycosides`** 具有直接的耳蝸與前庭毛細胞毒性，且極易在內耳組織中發生蓄積。\n   * 當患者同時接受這兩類藥物治療時，**`loop diuretics`** 對 **`NKCC1`** 的阻斷會急劇改變內耳的屏障通透性與電化學梯度，進一步**加速並放大 `aminoglycosides` 在內耳毛細胞內的蓄積與細胞毒性**，導致嚴重的、高機率為永久性的 **`sensorineural hearing loss`** ［221］。這在兒童 **`ESKD`** 患者中已錄得高達 14% 至 18% 的發病率 ［221］。因此，**Option (B)** 提供了最符合藥理學與臨床指引的病理生理學解讀。\n\n---\n\n### 3. Distractor Option Analysis (干擾選項剖析)\n\n* **Option (A) Nephrocalcinosis (不正確)**：\n  * *病理與特徵*：**`nephrocalcinosis`** 是一類因鈣磷代謝失調、重度尿鈣流失（**`hypercalciuria`**）或特定的轉運體基因突變，導致鈣鹽在腎臟實質中發生彌漫性沉積的慢性病變 ［28, 215］。\n  * *為何錯誤*：雖然 **`loop diuretics`** 因為抑制了 **`TAL`** 的 **`NKCC2`**，進而摧毀了鈣重吸收的驅動力，會引發顯著的 **`hypercalciuria`** ［9］；然而，這項電解質排泄異常是一類長期的慢性累積效應，與急性、快速的 **`IV bolus`** 給藥以及耳部 **`NKCC1`** 抑制完全不具備任何超急性的病理生理偶聯。\n  * *出題者意圖*：此選項利用了 **`loop diuretics`** 作用於腎臟時對鈣離子排泄的慢性物理影響（可能引發 **`nephrocalcinosis`**），考查考生能否將「慢性腎臟電解質排泄副反應」與「超急性、高濃度快速給藥誘發的感官系統急性損害（**`ototoxicity`**）」進行精確的時間與空間維度切分。\n\n* **Option (C) Retroperitoneal fibrosis (不正確)**：\n  * *病理與特徵*：**`retroperitoneal fibrosis`** 是一類腹膜後間質的慢性纖維化與炎性包塊，常壓迫輸尿管引發後腎性梗阻。這在臨床病理上典型屬於 **`IgG4-related disease`** ［129］，其特徵為豐富的 **`lymphoplasmacytic infiltrate`** 伴隨特徵性的 **`storiform`** 組織纖維化格局 ［129］。\n  * *為何錯誤*：該纖維化病變為慢性、免疫介導的系統性疾患，與 **`loop diuretics`** 的急性靜脈推注速度、耳蝸 **`NKCC1`** 活性或 **`aminoglycoside`** 的毛細胞毒性完全無關。\n  * *出題者意圖*：利用其他同樣會累及腎臟/腹膜後結構的嚴重慢性纖維化病變設置障礙，評估考生對於藥物直接急性毒性與自體免疫慢性纖維化病變的鑑別力。\n\n* **Option (D) Aplastic anemia (不正確)**：\n  * *病理與特徵*：**`aplastic anemia`** 是一類因骨髓造血幹細胞增殖分化受損，導致外周血呈現紅細胞、白細胞與血小板三系減少（**`pancytopenia`**）的血液系統危重症。\n  * *為何錯誤*：**`loop diuretics`** 與 **`aminoglycosides`** 的協同耳毒性在解剖學與細胞學上完全局限於內耳的膜性迷路與毛細胞，與骨髓造血微環境及幹細胞分化調控完全不產生任何生理或免疫學交叉。\n  * *出題者意圖*：利用其他重症患者可能出現的嚴重血液學不良反應進行干擾，測試考生是否真正掌握了 **`loop diuretics`** 耳毒性的靶器官與受體特異性。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科高頻對比與鑑別)\n\n在腎臟專科與重症加護醫學考試中，針對 **`oliguric AKI`** 或 **`volume overload`** 的重症患者，在聯用利尿與抗感染治療時，**`Loop Diuretic-Induced Ototoxicity`** 與其引發的 **`AKI`**，以及 **`Aminoglycoside-Induced ATN`** 之間的多維度鑑別，是主考官最常測試的高頻對比點：\n\n#### **Table 1: High-Yield Contrast of Loop Diuretic and Aminoglycoside Toxicities**\n| **對照與鑑別維度** | **`Loop Diuretic-Induced Ototoxicity`** (本題正確考點) | **`Aminoglycoside-Induced Nephrotoxicity (ATN)`** |\n| :--- | :--- | :--- |\n| **主要毒性靶解剖位置** | **`Inner ear` (耳蝸 stria vascularis 與前庭毛細胞)**。 | **`Kidney` (近端小管上皮細胞 proximal tubular cells)** ［67］。 |\n| **核心分子靶點與機制** | 抑制耳部 **`NKCC1`** 導致內淋巴電位驟降 ［359］；與 aminoglycoside 產生局部細胞毒性協同 ［221］。 | 經由 **`megalin-cubilin`** 介導受體內吞進入上皮細胞，蓄積於溶酶體引發 **`lysosomal rupture / necrosis`** ［67, 72］。 |\n| **給藥速度（`Infusion Rate`）依賴性** | **極高！**與 **`rapid IV bolus / infusion > 4 mg/min`** 密切相關（血液局部峰濃度過高）。 | **無直接速度依賴！**主要與累積暴露劑量及血藥谷濃度（**`trough levels`**）相關 ［71］。 |\n| **臨床典型表現特徵** | **`Sensorineural hearing loss`**、**`tinnitus`**（可為暫時性或永久性）［221］。 | **`Non-oliguric AKI`**，尿液鏡檢典型呈現 **`muddy brown granular casts`** 與腎小管上皮細胞 ［80, 86］。 |\n| **臨床防禦與減毒策略** | 嚴格限制 IV 輸注速度維持 **`< 4 mg/min`**；改用連續靜脈輸注（**`continuous infusion`**）［273］。 | 實施一日單次給藥（**`once-daily dosing`**）［195］；嚴密監測血藥谷濃度；起用早期小管損傷標誌物。 |\n\n---\n\n### 5. Citations & References (精準文獻與出處引用)\n\n* **Chapter & Section**：\n  * *Brenner & Rector's The Kidney*, **Chapter 29: Prevention and Management of Acute Kidney Injury**\n    * Section: **LOOP DIURETICS** ［98］[：記載了 loop 利尿劑可能引發的 ototoxicity，以及與耳毒性藥物聯用之風險，參照 526, 555]。\n  * *Brenner & Rector's The Kidney*, **Chapter 74: Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease**\n    * Section: **CLINICAL MANAGEMENT** ［221］[：詳細記載了 aminoglycosides 與 furosemide 具備潛在 ototoxicity，且在 CKD/ESRD 兒童中導致 14%-18% sensorineural hearing loss 的數據]。\n  * *KDIGO 2026 AKI-AKD Guideline (Draft March 2026)*, **Chapter 3: Prevention and treatment of AKI**\n    * Section: **3.3 Use of diuretics** ［359］[：記載了 diuretics 的副作用包括 ototoxicity（特別是高劑量時）]。\n  * *Brenner & Rector's The Kidney*, **Chapter 28: Pathophysiology of Acute Kidney Injury**\n    * Section: **Aminoglycoside Nephrotoxicity** ［67］[：詳細記載了 aminoglycoside 經由腎小管濾過、帶正電 cationic amino groups 偶聯内吞與溶酶體毒性引起 ATN 的機制]。\n  * *Brenner & Rector's The Kidney*, **Chapter 35: Tubulointerstitial Diseases**\n    * Section: **CHRONIC TUBULOINTERSTITIAL DISEASES** $\\rightarrow$ *IgG4-Related Kidney Disease* ［129］[：記載了 IgG4 相關疾病引發 lymphoplasmacytic infiltrate、storiform 纖維化與 retroperitoneal fibrosis 的病理]。\n\n* **Figures, Tables, & Boxes**：\n  * **Table S36 (KDIGO 2026 / Chapter 2)**: \"Muddy brown granular casts in adults...\" ［336］[：確認了 ATN 發生時的鏡檢診斷，對照了非結構性損傷的 ototoxicity]。\n\n---\n\n🎧 鑑於重症或 **`CKD`** 患者在並用 **`furosemide`** 與 **`aminoglycoside`** 治療期間會面臨極高且具破壞性的雙重器官毒性風險（耳毒性與近端小管毒性）。在臨床安全性監控與藥物管理層面，我們是否可以進一步討論：依據最新 **`KDIGO 2026`** 與 **`PK/PD`** 滴定規範，在抗感染期間如何正確實施 **`therapeutic drug monitoring (TDM)`** 以將 **`aminoglycoside`** 的谷濃度（**`trough levels`**）控制在安全閾值內（**`Practice Point 4.5.1`**），並評估「當患者合併發生 **`oliguric AKI`** 時，如何正確實施 **`Furosemide Stress Test (FST)`** 以安全評估其腎小管儲備功能，同時完美防範耳毒性進一步失控」之核心重症安全用藥與多重毒性防禦考點？",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "error": null,
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcVerifiedAt": "2026-07-30T18:49:19.255Z",
+      "qcVerifiedBy": "Tonks"
     },
     {
       "id": "q12",
@@ -624,7 +643,8 @@
           "id": "Brenner_Fig_50_15",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_15.png",
-          "caption": "Ceiling Doses and Dose-Response Curves in CKD."
+          "caption": "Ceiling Doses and Dose-Response Curves in CKD.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_15.png"
         }
       ],
       "nlmResponses": [
@@ -680,7 +700,8 @@
           "id": "Diuretic_Resistance_AI",
           "type": "ai_illustration",
           "imagePath": "/server-data/assets/loop_diuretic_resistance_blockade.jpg",
-          "caption": "DCT Cell Hypertrophy and Remodeling Mechanism."
+          "caption": "DCT Cell Hypertrophy and Remodeling Mechanism.",
+          "relPath": "/server-data/assets/loop_diuretic_resistance_blockade.jpg"
         }
       ],
       "nlmResponses": [
@@ -736,7 +757,8 @@
           "id": "Brenner_Fig_50_13",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_13.png",
-          "caption": "Sequential nephron blockade algorithm in diuretic resistance."
+          "caption": "Sequential nephron blockade algorithm in diuretic resistance.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_13.png"
         }
       ],
       "nlmResponses": [
@@ -841,7 +863,8 @@
           "id": "Brenner_Fig_50_10",
           "type": "micrograph",
           "imagePath": "/server-data/assets/Brenner_Fig_50_10.png",
-          "caption": "The diuretic braking phenomenon and post-diuretic sodium retention."
+          "caption": "The diuretic braking phenomenon and post-diuretic sodium retention.",
+          "relPath": "/server-data/assets/Brenner_Fig_50_10.png"
         }
       ],
       "nlmResponses": [

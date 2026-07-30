@@ -70,6 +70,25 @@ function lintExamFile(filePath) {
     if (!Array.isArray(q.options) || q.options.length < 2) {
       errors.push(`[${fileName} -> ${qLabel}] Insufficient options (count: ${q.options ? q.options.length : 0}).`);
     }
+
+    // Check 6: Image Schema & Asset Existence Gate
+    const PUBLIC_DIR = path.resolve(SERVER_DATA_DIR, '..');
+    const imagesToCheck = [...(q.resolvedImages || []), ...(q.stemImages || [])];
+    imagesToCheck.forEach((img, iIdx) => {
+      if (typeof img === 'object' && img !== null) {
+        if (!img.relPath && img.imagePath) {
+          errors.push(`[${fileName} -> ${qLabel}] Image #${iIdx + 1} uses prohibited key "imagePath" instead of standard "relPath".`);
+        } else if (!img.relPath) {
+          errors.push(`[${fileName} -> ${qLabel}] Image #${iIdx + 1} is missing mandatory field "relPath".`);
+        } else {
+          const cleanRel = img.relPath.trim().replace(/^\//, '');
+          const diskPath = path.join(PUBLIC_DIR, cleanRel);
+          if (!fs.existsSync(diskPath)) {
+            errors.push(`[${fileName} -> ${qLabel}] Referenced image file does not exist on disk: "${img.relPath}"`);
+          }
+        }
+      }
+    });
   });
 
   return { errors, warnings };

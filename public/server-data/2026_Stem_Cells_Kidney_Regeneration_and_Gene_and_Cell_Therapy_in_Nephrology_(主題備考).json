@@ -48,8 +48,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q2",
@@ -94,7 +95,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q3",
@@ -138,8 +140,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q4",
@@ -184,7 +187,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q5",
@@ -229,7 +233,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q6",
@@ -274,7 +279,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q7",
@@ -319,7 +325,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q8",
@@ -363,8 +370,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q9",
@@ -408,8 +416,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q10",
@@ -454,7 +463,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q11",
@@ -498,8 +508,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q12",
@@ -544,7 +555,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q13",
@@ -589,7 +601,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q14",
@@ -633,8 +646,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q15",
@@ -678,8 +692,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q16",
@@ -724,7 +739,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q17",
@@ -769,7 +785,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q18",
@@ -814,7 +831,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     },
     {
       "id": "q19",
@@ -858,8 +876,9 @@
         }
       ],
       "reconciliationStatus": "SINGLE_NLM_RESOLVED",
-      "qcVerified": true,
-      "qcStatus": "PASSED"
+      "qcVerified": false,
+      "qcStatus": "SINGLE_NLM_RESOLVED",
+      "qcNotes": "Single NLM response verified from Account 1. Account 2 returned insufficient evidence in this run."
     },
     {
       "id": "q20",
@@ -904,7 +923,8 @@
       ],
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcVerified": false,
-      "qcStatus": "INSUFFICIENT_EVIDENCE"
+      "qcStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "NotebookLM sources do not cover this topic in sufficient detail to confirm the correct answer."
     }
   ]
 }

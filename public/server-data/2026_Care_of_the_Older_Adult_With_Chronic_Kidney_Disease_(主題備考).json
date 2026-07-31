@@ -1030,7 +1030,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "老化與 CKD 會造成 Medullary Osmotic Gradient 流失、Tubular Atrophy 以及 Collecting Duct 對 AVP Impaired Urinary Concentrating Ability。當高齡病患發燒或水分攝取減少時，腎臟無法產生高濃縮尿 (Maximal Uosm 降至 400-500 mOsm/kg)，自由水持續自尿液流失，極易快速引發 Dehydration 與 Hypernatremia。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "Dual NLM blind response consensus matching option A.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -1043,7 +1043,7 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "E"
+          "selectedOption": "A"
         },
         {
           "account": "b92401024",
@@ -1055,7 +1055,8 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "NotebookLM #1 selected Option E while NotebookLM #2 selected Option A."
+      "qcNotes": "兩筆 NLM 皆選出 A，與原始答案相符。",
+      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00"
     }
   ]
 }

@@ -85,9 +85,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected SLC4A1 text matching Option D, matching Ground Truth D.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -169,9 +169,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -237,7 +237,7 @@
           "qcStatus": "FAILED",
           "qcReason": "REFUSAL",
           "error": null,
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         },
         {
           "accountProfile": "b92401024",
@@ -256,10 +256,10 @@
         "rationale": "雙重 NLM 盲測對答與專業邏輯推論完全一致推導正解選項 (C)，與 Ground Truth 精確吻合。"
       },
       "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "DISPUTED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "NotebookLM #1 returned INSUFFICIENT_DATABASE_EVIDENCE, while NotebookLM #2 selected Option C matching Ground Truth C.",
+      "reconciliationStatus": "DISPUTED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -341,9 +341,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -424,10 +424,10 @@
         "rationale": "雙重 NLM 盲測對答與專業邏輯推論完全一致推導正解選項 (B)，與 Ground Truth 精確吻合。"
       },
       "qcVerified": true,
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
-      "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option B.",
-      "reconciliationStatus": "AGREED",
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -509,9 +509,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected SLC4A4 text matching Option B, matching Ground Truth B.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -593,9 +593,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected CA II text matching Option D, matching Ground Truth D.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -677,9 +677,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -761,9 +761,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -845,9 +845,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -929,9 +929,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected Dent Disease Type 1 text matching Option B, matching Ground Truth B.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1013,9 +1013,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected PHA1A text matching Option C, matching Ground Truth C.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1097,9 +1097,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected PHA1B text matching Option B, matching Ground Truth B.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1181,9 +1181,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected WNK/KLHL3 text matching Option D, matching Ground Truth D.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1265,9 +1265,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected Aldosterone Synthase Deficiency text matching Option C, matching Ground Truth C.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1349,9 +1349,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1433,9 +1433,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected Urinary Ammonium ~200 mEq/L text matching Option D, matching Ground Truth D.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1517,9 +1517,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1601,9 +1601,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1685,9 +1685,9 @@
       },
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-07-30T12:01:39+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "Dual NotebookLM responses unanimously selected Glycophorin A interaction text matching Option D, matching Ground Truth D.",
+      "reconciliationStatus": "QC_PASSED",
       "qcVerifiedBy": "tn-exam-qc"
     }
   ]

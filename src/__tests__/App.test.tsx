@@ -285,4 +285,37 @@ describe('App Root Integration', () => {
       expect(screen.getByText('Stem Q1')).toBeInTheDocument();
     });
   });
+
+  it('should treat z / ArrowLeft and v / ArrowRight as equivalent navigation shortcuts', async () => {
+    render(<App />);
+    fireEvent.click(screen.getByText('答題測驗室'));
+
+    await waitFor(() => {
+      expect(screen.getByText('Stem Q1')).toBeInTheDocument();
+    });
+
+    // Press 'v' to navigate to Q2
+    act(() => {
+      fireEvent.keyDown(window, { key: 'v' });
+    });
+    expect(screen.getByText('Stem Q2')).toBeInTheDocument();
+
+    // Press 'z' to navigate back to Q1
+    act(() => {
+      fireEvent.keyDown(window, { key: 'z' });
+    });
+    expect(screen.getByText('Stem Q1')).toBeInTheDocument();
+
+    // Press 'ArrowRight' to navigate to Q2
+    act(() => {
+      fireEvent.keyDown(window, { key: 'ArrowRight' });
+    });
+    expect(screen.getByText('Stem Q2')).toBeInTheDocument();
+
+    // Press 'ArrowLeft' to navigate back to Q1
+    act(() => {
+      fireEvent.keyDown(window, { key: 'ArrowLeft' });
+    });
+    expect(screen.getByText('Stem Q1')).toBeInTheDocument();
+  });
 });

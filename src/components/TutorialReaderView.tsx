@@ -52,7 +52,7 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
     (m) => m.moduleId === activeModuleId
   ) || tutorial.modules[0];
 
-  // Keyboard shortcut for chapter navigation (ArrowLeft / ArrowRight)
+  // Keyboard shortcut for chapter navigation (Z / ArrowLeft, V / ArrowRight)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (
@@ -63,12 +63,15 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
         return;
       }
 
-      if (e.key === 'ArrowLeft') {
+      const key = e.key.toLowerCase();
+      if (key === 'z' || e.key === 'ArrowLeft') {
+        e.preventDefault();
         const currentIndex = tutorial.modules.findIndex((m) => m.moduleId === activeModuleId);
         if (currentIndex > 0) {
           setActiveModuleId(tutorial.modules[currentIndex - 1].moduleId);
         }
-      } else if (e.key === 'ArrowRight') {
+      } else if (key === 'v' || e.key === 'ArrowRight') {
+        e.preventDefault();
         const currentIndex = tutorial.modules.findIndex((m) => m.moduleId === activeModuleId);
         if (currentIndex !== -1 && currentIndex < tutorial.modules.length - 1) {
           setActiveModuleId(tutorial.modules[currentIndex + 1].moduleId);
@@ -126,9 +129,9 @@ export const TutorialReaderView: React.FC<TutorialReaderViewProps> = ({
                 <Layers className="w-3.5 h-3.5 text-sky-500" />
                 <span>講堂章節目錄 ({tutorial.modules.length})</span>
               </span>
-              <span className="text-[10px] font-medium text-slate-400 dark:text-slate-500 flex items-center gap-0.5" title="使用鍵盤左右方向鍵翻閱章節">
-                <kbd className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-mono text-[9px]">←</kbd>
-                <kbd className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-mono text-[9px]">→</kbd>
+              <span className="text-[10px] font-medium text-slate-400 dark:text-slate-500 flex items-center gap-1" title="使用鍵盤 Z / ← 或 V / → 翻閱章節">
+                <kbd className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-mono text-[9px]">Z / ←</kbd>
+                <kbd className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-mono text-[9px]">V / →</kbd>
               </span>
             </h3>
 

@@ -734,10 +734,16 @@ const normalizePaperData = (paperData: any, itemOrId: string | ExamManifestItem)
 
   const answeredCount = Object.keys(safeAnswers).length;
 
-  // Keyboard Shortcuts: t = flag, z = prev, v = next, a-e = select
+  // Keyboard Shortcuts: t = flag, z / ← = prev, v / → = next, a-e = select
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (currentView !== 'exam') return;
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement
+      ) {
+        return;
+      }
       const key = e.key.toLowerCase();
 
       if (key === 't') {

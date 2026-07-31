@@ -255,7 +255,7 @@ export const QuestionPanel: React.FC<QuestionPanelProps> = ({
         </button>
 
         <span className="text-xs text-slate-500 font-mono hidden sm:inline">
-          快捷鍵: Z (上一題) | V (下一題) | T (標記) | A-E (選擇)
+          快捷鍵: Z / ← (上一題) | V / → (下一題) | T (標記) | A-E (選擇)
         </span>
 
         <button

@@ -60,8 +60,8 @@ normalized_explanations = {
 
 ### 2. Mechanism & Rationale
 `Preeclampsia` 的核心病理為 `placental vascular remodeling` 不良 (`shallow cytotrophoblast invasion`) 導致 `placental ischemia` 與 `angiogenic imbalance`：
-- **Risk / Anti-angiogenic Markers (危險/抗血管生成標記)**：`hypoxic placenta` 大量分泌 `soluble fms-like tyrosine kinase-1 (sFlt1)` 與 `soluble endoglin (sEng)` 入 `maternal blood` 中，濃度顯著**升高**。`first trimester` 由 `placenta` 分泌的 `placental protein 13 (PP-13)` 則顯著**降低** (與後續 `preeclampsia` 發生相關)。
-- **Protective / Pro-angiogenic Marker (保護/促血管生成標記)**：`Placental growth factor (PlGF)` 在 `healthy pregnancy` 中應保持高濃度；但在 `preeclampsia` 病患中，高濃度的 `sFlt1` 會結合並螯合 `PlGF`，導致血液中 `free PlGF` 濃度顯著**下降**，使 `sFlt1 / PlGF ratio` 大幅升高。因此 (A) 符合正確標記模式。
+- **Risk / Anti-angiogenic Markers**：`hypoxic placenta` 大量分泌 `soluble fms-like tyrosine kinase-1 (sFlt1)` 與 `soluble endoglin (sEng)` 入 `maternal blood` 中，濃度顯著**升高**。`first trimester` 由 `placenta` 分泌的 `placental protein 13 (PP-13)` 則顯著**降低** (與後續 `preeclampsia` 發生相關)。
+- **Protective / Pro-angiogenic Marker**：`Placental growth factor (PlGF)` 在 `healthy pregnancy` 中應保持高濃度；但在 `preeclampsia` 病患中，高濃度的 `sFlt1` 會結合並螯合 `PlGF`，導致血液中 `free PlGF` 濃度顯著**下降**，使 `sFlt1 / PlGF ratio` 大幅升高。因此 (A) 符合正確標記模式。
 
 ### 3. Distractor Analysis
 - **(B) 錯誤**：標記變化方向完全顛倒。
@@ -108,9 +108,9 @@ normalized_explanations = {
 
 ### 2. Mechanism & Rationale
 `end-stage kidney disease` (ESKD) `hemodialysis` 患者懷孕時，處方調整的三大黃金原則為：
-1. **Intensive Dialysis (高強度透析)**：每週透析時數應大幅提升至 **≥37 小時/週** (甚至 `daily dialysis` 或 `nocturnal dialysis`)，使 `predialysis BUN` 維持在 **< 35–45 mg/dL** 降至接近生理濃度。這能顯著降低 `polyhydramnios` 劑量效應，使 `live birth rate` 提升至 80%–90% 以上。
-2. **Hemoglobin Target (血色素目標)**：目標控制在 **10–11 g/dL**，防止嚴重 `anemia` 引發 `fetal hypoxia`，同時避免 `ESA` 使用過量引起 `hypertension`。
-3. **Gradual Dry Weight Gain (乾體重遞增)**：`second and third trimesters` 應每週循序漸進增加 `dry weight` 約 **0.3–0.5 kg/week**，以包含 `fetus`、`placenta` 與 `amniotic fluid` 的生理成長，避免過度 `ultrafiltration` 致 `maternal intravascular volume depletion` 與 `placental hypoperfusion`。因此 (D) 完全正確。
+1. **Intensive Dialysis**：每週透析時數應大幅提升至 **≥37 小時/週** (甚至 `daily dialysis` 或 `nocturnal dialysis`)，使 `predialysis BUN` 維持在 **< 35–45 mg/dL** 降至接近生理濃度。這能顯著降低 `polyhydramnios` 劑量效應，使 `live birth rate` 提升至 80%–90% 以上。
+2. **Hemoglobin Target**：目標控制在 **10–11 g/dL**，防止嚴重 `anemia` 引發 `fetal hypoxia`，同時避免 `ESA` 使用過量引起 `hypertension`。
+3. **Gradual Dry Weight Gain**：`second and third trimesters` 應每週循序漸進增加 `dry weight` 約 **0.3–0.5 kg/week**，以包含 `fetus`、`placenta` 與 `amniotic fluid` 的生理成長，避免過度 `ultrafiltration` 致 `maternal intravascular volume depletion` 與 `placental hypoperfusion`。因此 (D) 完全正確。
 
 ### 3. Distractor Analysis
 - **(C) 錯誤**：減少 `dialysis frequency` 會使 `BUN` 積聚 (> 80 mg/dL)，嚴重損害 `fetal outcome`，增加 `intrauterine fetal demise` 與 `extreme prematurity` 風險。
@@ -146,8 +146,8 @@ normalized_explanations = {
 
 ### 4. Exam Differential Diagnosis & High-Yield Comparisons
 - **Immunosuppressives Safety Category in Pregnancy**：
-  - **Safe (相對安全)**：`Prednisone`, `Azathioprine` (< 2 mg/kg/day), `Tacrolimus`, `Cyclosporine` (須常規追蹤 `trough level`)。
-  - **Contraindicated / Teratogenic (絕對禁忌/致畸胎)**：`Mycophenolate Mofetil (MMF)`, `Mycophenolic Acid (MPA)`, `Sirolimus / Everolimus (mTOR inhibitors)`。
+  - **Safe**：`Prednisone`, `Azathioprine` (< 2 mg/kg/day), `Tacrolimus`, `Cyclosporine` (須常規追蹤 `trough level`)。
+  - **Contraindicated / Teratogenic**：`Mycophenolate Mofetil (MMF)`, `Mycophenolic Acid (MPA)`, `Sirolimus / Everolimus (mTOR inhibitors)`。
 
 ### 5. Citations & References
 - *Brenner & Rector's The Kidney, 11th Edition*, Chapter 48 (Pregnancy and Kidney Disease):
@@ -245,7 +245,6 @@ for q in data:
     qid = q['id']
     if qid in normalized_explanations:
         q['sourceExplanation'] = normalized_explanations[qid]
-    # reconciliationNotes remains as "原始答案與兩組 NLM 回答一致"
 
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=2)

@@ -32,7 +32,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "根據最新 KDIGO Clinical Practice Guidelines 的更新，proteinuria 被證實為 IgA nephropathy (IgAN) 疾病進展與 long-term kidney failure risk 最強烈的 surrogate endpoint。持續降至 < 0.5 g/day (或 UPCR < 0.5 g/g) 能顯著減緩 eGFR decline rate 並維持長遠的 kidney survival。當患者經過至少 3–6 個月充分的支持性治療後每日尿蛋白仍 ≥ 0.75–1.0 g/day，應評估使用標靶型疾病修飾藥物 (如 targeted-release budesonide, sparsentan) 或參加臨床試驗以將蛋白尿降至 <0.5 g/day 目標。",
+      "sourceExplanation": "根據最新 KDIGO Clinical Practice Guidelines 的更新，proteinuria 被證實為 IgA nephropathy (IgAN) disease progression 與 long-term kidney failure risk 最強烈的 surrogate endpoint。持續降至 < 0.5 g/day (或 UPCR < 0.5 g/g) 能顯著減緩 eGFR decline rate 並維持長遠的 kidney survival。當患者經過至少 3–6 個月充分的 supportive care 後 daily proteinuria 仍 ≥ 0.75–1.0 g/day，應評估使用 targeted disease-modifying drugs (如 targeted-release budesonide, sparsentan) 或參加 clinical trials 以將 proteinuria 降至 <0.5 g/day 目標。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED_RESOLVED",
       "qcVerified": true,
@@ -49,7 +49,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "雙重 NLM 提問皆一致判決本題無正確選項 (NONE)，與原廠答案 A 產生爭議 (DISPUTED)。根據 KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases，針對 primary IgA nephropathy (IgAN) 之 proteinuria reduction 臨床控制目標應為 < 1.0 g/day (或 UPCR < 1.0 g/g)，且屬於未分級之 Practice Point；而 Option (A) 將目標誤植為 < 0.5 g/day 並標註為 strongly recommended，且 Option (B) 宣稱 < 1.5 g/day 即足夠，Option (C) 誤指 RAS inhibitor 僅需依據 blood pressure 調整，Option (D) 錯誤主張 proteinuria > 0.5 g/day 應立即啟動 immunosuppressive therapy。因此全數選項皆含有指引概念瑕疵。",
+      "reconciliationNotes": "Dual NLM evaluation 皆一致判決本題 NONE，與 original provided answer A 產生 DISPUTED。根據 KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases，針對 primary IgA nephropathy (IgAN) 之 proteinuria reduction clinical control target 應為 < 1.0 g/day (或 UPCR < 1.0 g/g)，且屬於 ungraded Practice Point；而 Option (A) 將目標誤植為 < 0.5 g/day 並標註為 strongly recommended，且 Option (B) 宣稱 < 1.5 g/day 即足夠，Option (C) 誤指 RAS inhibitor 僅需依據 blood pressure 調整，Option (D) 錯誤主張 proteinuria > 0.5 g/day 應立即啟動 immunosuppressive therapy。因此全數 Option 皆含有 guideline 概念瑕疵。",
       "qcNotes": "雙重 NLM 盲測提問皆一致判定本題無正確選項 (NONE)。原始答案標示 A 存在 KDIGO 2021 指引細節之瑕疵，已被雙重 NLM 標示並詳細解說爭議所在。",
       "qcVerifiedAt": "2026-07-30T02:47:10.490Z",
       "qcVerifiedBy": "tn-exam-qc"
@@ -79,7 +79,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 KDIGO IgA nephropathy 更新指引中，所有患者在考慮任何高度免疫抑制或標靶疾病修飾治療前，必須首先完成至少 3–6 個月的最佳化支持性治療 (optimized supportive care)。包含了最大耐受劑量的 RAS 阻斷劑 (ACEi/ARB)、SGLT2 抑制劑、雙重內皮素/血管緊張素受體拮抗劑 (DEARA/sparsentan) 以及生活型態調整與嚴格血壓控制。",
+      "sourceExplanation": "在 updated KDIGO IgA nephropathy guidelines 中，所有患者在考慮任何高度 immunosuppression 或 targeted disease-modifying therapy 前，必須首先完成至少 3–6 個月的 optimized supportive care。包含了 maximal tolerated dose 的 RAS blockers (ACEi/ARB)、SGLT2 inhibitors、dual endothelin/angiotensin receptor antagonists (DEARA/sparsentan) 以及 lifestyle modification 與嚴格 blood pressure control。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -96,7 +96,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q3",
@@ -123,7 +123,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "登革熱（Dengue virus infection）引發 Acute Kidney Injury (AKI) 的主要病理機轉包含：(1) Capillary leakage & plasma leakage 導致血漿外滲、hemoconcentration、intravascular hypovolemia、低血壓甚至 dengue shock syndrome (DSS)，造成腎臟 hypoperfusion 與 ischemic acute tubular necrosis (ATN)；(2) Dengue-induced rhabdomyolysis 肌紅蛋白引發管腔堵塞與毒性；(3) Immune-mediated mechanisms。",
+      "sourceExplanation": "Dengue virus infection 引發 Acute Kidney Injury (AKI) 的 main pathological mechanisms 包含：(1) Capillary leakage & plasma leakage 導致 plasma extravasation、hemoconcentration、intravascular hypovolemia、hypotension 甚至 dengue shock syndrome (DSS)，造成 renal hypoperfusion 與 ischemic acute tubular necrosis (ATN)；(2) Dengue-induced rhabdomyolysis 之中 myoglobin 引發 tubular lumen obstruction and toxicity；(3) Immune-mediated mechanisms。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -140,7 +140,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q4",
@@ -167,7 +167,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "熱帶與亞熱帶常見 Mosquito-borne arboviral infections 鑑別重點：Severe Dengue 核心特色為 severe plasma leakage、hemoconcentration、顯著 thrombocytopenia、出血傾向與 DSS 引發的 AKI；Chikungunya 特色為劇烈且持久的多發性關節痛 (debilitating polyarthralgia)；Zika 特色為輕微發燒、斑丘疹、雙眼結膜炎與孕婦小頭症。",
+      "sourceExplanation": "熱帶與亞熱帶常見 Mosquito-borne arboviral infections 之 differential diagnosis points：Severe Dengue key features 為 severe plasma leakage、hemoconcentration、significant thrombocytopenia、bleeding tendency 與 DSS-induced AKI；Chikungunya key features 為 debilitating polyarthralgia；Zika key features 為 low-grade fever、maculopapular rash、bilateral conjunctivitis 與 fetal microcephaly in pregnant women。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -184,7 +184,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q5",
@@ -211,7 +211,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Online hemodiafiltration (HDF) 結合了擴散 (diffusion) 與對流 (convection) 的雙重清除機制。Online HDF 透過產生大量過濾液 (high ultrafiltration volume) 觸發強烈對流作用（即溶劑拖曳 solvent drag），並同步注入即時製造的無菌置換液以維護體液平衡，從而顯著提升中大分子尿毒毒素 (如 beta-2 microglobulin) 的清除率。",
+      "sourceExplanation": "Online hemodiafiltration (HDF) 結合了 diffusion 與 convection 的 dual clearance mechanism。Online HDF 透過產生 high ultrafiltration volume 觸發強烈 convection（即 solvent drag），並同步注入即時製造的 sterile substitution fluid 以維護 fluid balance，從而顯著提升 middle-to-large molecular uremic toxins (如 beta-2 microglobulin) 的 clearance rate。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -228,7 +228,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q6",
@@ -255,7 +255,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "漸進式血液透析 (Incremental hemodialysis) 適用於剛進入透析且仍保有顯著殘餘腎功能 (residual kidney function, RKF，每日尿量 > 500–1000 mL) 的病人。保留 RKF 能提供全天候不間斷的連續性中分子與蛋白質結合毒素清除、促進體液平衡 (volume control)、有利於磷酸鹽排泄與貧血控制，並可顯著降低病人死亡率。",
+      "sourceExplanation": "Incremental hemodialysis 適用於剛進入 dialysis 且仍保有顯著 residual kidney function (RKF, daily urine output > 500–1000 mL) 的病人。保留 RKF 能提供全天候不間斷的連續性 middle molecules 與 protein-bound uremic toxins clearance、促進 volume control、有利於 phosphate excretion 與 anemia control，並可顯著降低病人 mortality rate。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -272,7 +272,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q7",
@@ -299,7 +299,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在器官分配系統中，EPTS (Estimated Post-Transplant Survival) 是用來估算受贈者在接受移植後預期存活時間的分數（採計受體年齡、糖尿病、前次移植、透析時間等 4 項變數）；KDPI (Kidney Donor Profile Index) 評估捐贈腎臟品質。Longevity matching 原則為將前 20% 最優質腎臟 (lowest 20% KDPI) 優先分配給前 20% 預期存活最長之受體 (lowest 20% EPTS)。",
+      "sourceExplanation": "在 organ allocation system 中，EPTS (Estimated Post-Transplant Survival) 是用來估算 recipient 在接受 transplantation 後 expected survival time 的分數（採計 recipient age, diabetes mellitus, prior transplant, time on dialysis 等 4 項 variables）；KDPI (Kidney Donor Profile Index) 評估 donor kidney quality。Longevity matching 原則為將前 20% 最優質腎臟 (lowest 20% KDPI) 優先分配給前 20% 預期存活最長之 recipient (lowest 20% EPTS)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -316,7 +316,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q8",
@@ -343,7 +343,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "KDPI 較高的捐贈腎臟 (>85%) 雖然移植物存活期較短，但對於高 EPTS (>80%，即高齡、透析時間長、預期存活壽命較短) 的候補者而言，接受 High-KDPI 腎臟移植相較於繼續留在透析等待名單中，能帶來顯著的整體生存獲益 (overall survival benefit)。",
+      "sourceExplanation": "KDPI 較高的 donor kidney (>85%) 雖然 graft survival 較短，但對於 high EPTS (>80%，即 advanced age, long duration of dialysis, shorter expected survival) 的 waitlist candidates 而言，接受 High-KDPI kidney transplantation 相較於繼續留在 dialysis waitlist 中，能帶來顯著的 overall survival benefit。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -360,7 +360,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q9",
@@ -387,7 +387,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "對於年齡 ≥ 50 歲且伴隨 CKD G1–G5 的 ADPKD 患者，最新 KDIGO 臨床實踐指南建議採用標準化診所收縮壓 (standardized office SBP) 目標值控制在 < 120 mmHg。此建議主要外推自 SPRINT 試驗的臨床實益，證實控制 SBP < 120 mmHg 能顯著降低心血管事件與全因死亡率。",
+      "sourceExplanation": "對於年齡 ≥ 50 歲且伴隨 CKD G1–G5 的 ADPKD 患者，最新 KDIGO Clinical Practice Guidelines 建議採用 standardized office SBP 目標值控制在 < 120 mmHg。此建議主要外推自 SPRINT trial 的 clinical benefit，證實控制 SBP < 120 mmHg 能顯著降低 cardiovascular events 與 all-cause mortality。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -404,7 +404,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q10",
@@ -431,7 +431,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "依據 HALT-PKD Study A 與 ADPKD 臨床指引最新文獻，針對年輕（18–49 歲）、腎功能尚保存 (CKD G1–G2) 之 ADPKD 患者，採用較為嚴格的居家血壓控制目標 (Home BP target 95–110 / 60–75 mmHg) 能有效降低總腎臟體積 (Total Kidney Volume, TKV) 的年成長率，並減緩左心室重量指數 (LVMI) 的增加。",
+      "sourceExplanation": "依據 HALT-PKD Study A 與 ADPKD clinical guidelines 最新文獻，針對年輕（18–49 歲）、kidney function 尚 preserved (CKD G1–G2) 之 ADPKD 患者，採用較為嚴格的 home BP target (95–110 / 60–75 mmHg) 能有效降低 Total Kidney Volume (TKV) 的 annual growth rate，並減緩 Left Ventricular Mass Index (LVMI) 的增加。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -448,7 +448,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "Original provided answer 與兩組 NLM 回答一致"
     },
     {
       "id": "2026_中國附醫_(重點轉化)_q11",
@@ -475,7 +475,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "HIF-PHI (如 daprodustat, vadadustat, roxadustat) 為口服治療 CKD 貧血的新型藥物。機制為競爭性抑制脯胺酸羥基化酶 (PHD)，穩定 HIF-alpha 蛋白，刺激腎臟與肝臟內源性 EPO 生理性分泌，同時抑制肝臟合成鐵調素 (Hepcidin)，促進腸道鐵吸收與鐵動員。",
+      "sourceExplanation": "HIF-PHIs (如 daprodustat, vadadustat, roxadustat) 為口服治療 CKD anemia 的新型藥物。其機制為 competitive inhibition of prolyl hydroxylase (PHD)，stabilizing HIF-α protein，刺激 kidneys 與 liver 分泌 endogenous EPO，同時抑制 liver 合成 hepcidin，促進 intestinal iron absorption 與 iron mobilization。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -519,7 +519,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "在 HIF-PHI 大型三期臨床試驗中，vadadustat 在非透析患者 (ND-CKD, PRO2TECT 試驗) 未能達成 MACE 的非劣效性 (failed non-inferiority, HR 1.17)，但在透析患者 (DD-CKD, INNO2VATE 試驗) 則成功達成非劣效性 (HR 0.96)。此差異導致 US FDA 僅核准 vadadustat 用於透析 (DD-CKD) 患者。",
+      "sourceExplanation": "在 HIF-PHIs 的 Phase 3 clinical trials 中，vadadustat 在 ND-CKD 的 PRO2TECT trial 中未能達成 MACE 的 non-inferiority (HR 1.17)，但在 DD-CKD 的 INNO2VATE trials 中則成功達成 non-inferiority (HR 0.96)。此差異導致 US FDA 僅核准 vadadustat 用於 DD-CKD patients。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -563,7 +563,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Finerenone 為非類固醇選擇性礦物皮質複合物受體拮抗劑 (ns-MRA)，其與 MR 結合時呈現 bulky antagonist 立體構造，能有效阻斷 MR 輔助活化因子招募。與傳統類固醇 MRA (如 spironolactone) 相比，finerenone 在心臟與腎臟呈平衡分佈，高血鉀風險顯著降低，且無性激素副作用。",
+      "sourceExplanation": "Finerenone 為 nonsteroidal selective mineralocorticoid receptor antagonist (ns-MRA)，其與 MR 結合時呈現 bulky antagonist conformation，能有效阻斷 MR co-activator recruitment。與 classic steroidal MRAs (如 spironolactone) 相比，finerenone 在 heart 與 kidney 呈 balanced distribution，hyperkalemia risk 顯著降低，且無 sex hormone side effects。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -607,7 +607,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "根據 KDIGO 指南與 finerenone 的仿單規範，當 eGFR 為 25–60 mL/min/1.73 m² 且血清鉀 ≤ 4.8 mEq/L 時，起始劑量為 10 mg QD；治療 4 週後複查血清鉀與 eGFR，若血清鉀仍 ≤ 4.8 mEq/L，可滴定上調至目標劑量 20 mg QD。",
+      "sourceExplanation": "根據 KDIGO guidelines 與 finerenone 的 label guidance，當 eGFR 為 25–60 mL/min/1.73 m² 且 serum potassium ≤ 4.8 mEq/L 時，starting dose 為 10 mg QD；治療 4 週後 re-check serum potassium 與 eGFR，若 serum potassium 仍 ≤ 4.8 mEq/L，可 up-titrate 至 target dose 20 mg QD。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -651,7 +651,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本例為腺嘌呤磷酸核糖轉移酶缺乏症 (APRT deficiency)，屬於隱性遺傳之嘌呤代謝異常。未被利用的 adenine 經黃嘌呤脫氫酶 (XDH) 代謝生成極難溶解的 2,8-DHA。結石在 X 光下呈透光性 (radiolucent)，顯微鏡下呈紅褐色圓形晶體與馬爾他十字 (Maltese cross) 圖樣。首選治療為使用 XDH 抑制劑 (allopurinol 或 febuxostat)。",
+      "sourceExplanation": "本例為 APRT deficiency，屬於 autosomal recessive 的 purine metabolic disorder。未被利用的 adenine 經 xanthine dehydrogenase (XDH) 代謝生成 insoluble 2,8-DHA。Stones 在 X-ray 下呈 radiolucent，microscopy 下呈 reddish-brown spherical crystals 與 Maltese cross pattern。First-line therapy 為使用 XDH inhibitors (如 allopurinol 或 febuxostat)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -695,7 +695,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本例為胱胺酸尿症 (Cystinuria)，由 SLC3A1 (rBAT) 或 SLC7A9 (b0,+AT) 基因突變所致，導致近端小管頂端膜對二元胺基酸 (COLA: cystine, ornithine, lysine, arginine) 重吸收缺陷。結晶為平坦的六角形晶體 (hexagonal crystals)。治療首要為高水分攝取 (每日尿量 > 3L)、限制鈉鹽攝取與尿液鹼化 (維持 pH 7.0–7.5)。",
+      "sourceExplanation": "本例為 Cystinuria，由 SLC3A1 (rBAT) 或 SLC7A9 (b0,+AT) gene mutations 所致，導致 proximal tubule apical membrane 對 dibasic amino acids (cystine, ornithine, lysine, arginine) 產生 reabsorption defect。Crystals 為 flat, hexagonal crystals。首要 management 為 high fluid intake (daily urine output > 3L)、dietary sodium restriction 與 urine alkalinization (維持 target urine pH 7.0–7.5)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

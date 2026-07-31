@@ -33,7 +33,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在腎小球過濾後，約 60–70% 的 filtered calcium 在 **proximal tubule (PT)** 被重吸收。此處的 calcium reabsorption 主要透過 **passive, paracellular pathway** 進行，其驅動力來自於 **sodium** 與水的重吸收所引發的 **solvent drag**，以及在 **late proximal tubule** 由高 **chloride** 濃度所建立的 **lumen-positive transepithelial potential difference**。極重要的是，**parathyroid hormone (PTH)** 在 **proximal tubule** 並不直接調控 calcium 的重吸收；PTH 對於 calcium reabsorption 的刺激作用主要發生在 **thick ascending limb (TAL)** 以及 **distal convoluted tubule (DCT)**。因此 (A) 選項敘述完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：TRPV5 主要表現於 DCT 與 CNT，受 PTH 上調以增加 calcium 的主動跨細胞重吸收，而非在 PT。\n- **(C) 錯誤**：PT 的 calcium 重吸收以 passive paracellular 為主，非 active transcellular，且此處不受 PTH 直接調控。\n- **(D) 錯誤**：PTH 會在 PT 抑制 phosphate reabsorption，但不會在 PT 抑制 calcium reabsorption。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n在 glomerular filtration 後，約 60–70% 的 filtered calcium 在 **proximal tubule (PT)** 被 reabsorbed。此處的 calcium reabsorption 主要透過 **passive, paracellular pathway** 進行，其驅動力來自於 **sodium** 與 water 的 reabsorption 所引發的 **solvent drag**，以及在 **late proximal tubule** 由高 **chloride** 濃度所建立的 **lumen-positive transepithelial potential difference**。極重要的是，**parathyroid hormone (PTH)** 在 **proximal tubule** 並不直接調控 calcium 的 reabsorption；PTH 對於 calcium reabsorption 的刺激作用主要發生在 **thick ascending limb (TAL)** 以及 **distal convoluted tubule (DCT)**。因此 (A) 選項敘述完全正確。\n\n### 3. Distractor Analysis\n- **(B) Incorrect**：TRPV5 主要 expressed in DCT 與 CNT，受 PTH upregulation 以增加 calcium 的 active transcellular reabsorption，而非在 PT。\n- **(C) Incorrect**：PT 的 calcium reabsorption 以 passive paracellular 為主，非 active transcellular，且此處不受 PTH 直接調控。\n- **(D) Incorrect**：PTH 會在 PT 抑制 phosphate reabsorption，但不會在 PT 抑制 calcium reabsorption.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -50,7 +50,7 @@
         }
       ],
       "number": 1,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q2",
@@ -78,7 +78,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nProximal tubule 是腎臟進行 phosphate reabsorption 最主要的部位，主要透過管腔頂端膜上的 NPT2a (SLC34A1) 與 NPT2c (SLC34A3) 進行主動同向轉運。當 PTH 與 PT 基底側膜上的 PTH1R 結合後，會同時活化 PKA 與 PKC 訊息傳遞路徑。這會導致 NPT2a 與 NPT2c 發生磷酸化，促使 cotransporter 從 apical membrane 被內吞 (endocytosis) 並至 lysosomes 進行降解，從而顯著抑制 phosphate 的重吸收，引發 phosphaturia。因此 (C) 選項描述精準且正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Na+/K+-ATPase 位於 basolateral membrane，活化 Na+/K+-ATPase 會維持 sodium gradient 促進而非阻斷同向轉運。\n- **(B) 錯誤**：PTH 引起之 NPT2a/NPT2c 內吞屬於幾分鐘內發生的 rapid post-translational regulation，而非基因轉錄抑制。\n- **(D) 錯誤**：Stabilization of NHERF-1 會將 NPT2a 錨定在 apical membrane 防止內吞，此為抑制 phosphaturia 的機制。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\nProximal tubule 是 kidney 進行 phosphate reabsorption 最主要的部位，主要透過 luminal apical membrane 上的 NPT2a (SLC34A1) 與 NPT2c (SLC34A3) 進行 active cotransport。當 PTH 與 PT basolateral membrane 上的 PTH1R 結合後，會同時活化 PKA 與 PKC signaling pathways。這會導致 NPT2a 與 NPT2c 發生 phosphorylation，促使 cotransporter 從 apical membrane 被 endocytosis 並至 lysosomes 進行 degradation，從而顯著抑制 phosphate 的 reabsorption，引發 phosphaturia。因此 (C) 選項描述精準且正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：Na+/K+-ATPase 位於 basolateral membrane，activation of Na+/K+-ATPase 會維持 sodium gradient 促進而非阻斷 cotransport。\n- **(B) Incorrect**：PTH 引起之 NPT2a/NPT2c endocytosis 屬於幾分鐘內發生的 rapid post-translational regulation，而非 gene transcriptional repression。\n- **(D) Incorrect**：Stabilization of NHERF-1 會將 NPT2a 錨定在 apical membrane 防止 endocytosis，此為抑制 phosphaturia 的機制。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -95,7 +95,7 @@
         }
       ],
       "number": 2,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q3",
@@ -123,7 +123,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nFGF-23 與 sFRP-4 皆屬重要之 phosphatonins (排磷素)。在正常生理狀況下，低血磷原本會刺激腎臟 proximal tubule 中的 1-α-hydroxylase (CYP27B1) 活性以合成活化型 1,25(OH)2D3。然而，當 FGF-23 或 sFRP-4 濃度異常升高時，它們會直接抑制 CYP27B1 的基因表達與酵素活性，同時上調轉化降解酵素 24-hydroxylase (CYP24A1) 的活性，將 25(OH)D3 與 1,25(OH)2D3 代謝為無活性的 calcitroic acid。這導致患者即使處於嚴重 hypophosphatemia 狀態下，血清中的 1,25(OH)2D3 仍呈現異常降低或不適當的正常低值。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：CYP27A1 與 CYP2R1 主要位於肝臟，負責將 vitamin D3 轉化為 25(OH)D3。\n- **(C) 錯誤**：腎臟不進行 25-hydroxylation，且 phosphatonins 的主要標的為 CYP27B1 與 CYP24A1。\n- **(D) 錯誤**：FGF-23 與 sFRP-4 是「抑制」而非「誘導」CYP27B1 轉錄。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\nFGF-23 與 sFRP-4 皆屬重要之 phosphatonins。在正常生理狀況下，hypophosphatemia 原本會刺激 kidney proximal tubule 中的 1-α-hydroxylase (CYP27B1) activity 以合成 active 1,25(OH)2D3。然而，當 FGF-23 或 sFRP-4 濃度異常升高時，它們會直接抑制 CYP27B1 的 gene expression 與 enzyme activity，同時 upregulation 降解 enzyme 24-hydroxylase (CYP24A1) 的 activity，將 25(OH)D3 與 1,25(OH)2D3 metabolize 為 inactive 的 calcitroic acid。這導致患者即使處於嚴重 hypophosphatemia 狀態下，serum 中的 1,25(OH)2D3 仍呈現異常降低或 inappropriately normal 的低值。因此 (B) 選項正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：CYP27A1 與 CYP2R1 主要位於 liver，負責將 vitamin D3 conversion 為 25(OH)D3。\n- **(C) Incorrect**：Kidney 不進行 25-hydroxylation，且 phosphatonins 的主要 targets 為 CYP27B1 與 CYP24A1。\n- **(D) Incorrect**：FGF-23 與 sFRP-4 是「inhibition」而非「induction」CYP27B1 transcription。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -140,7 +140,7 @@
         }
       ],
       "number": 3,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q4",
@@ -168,7 +168,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nMEPE 與 FGF-23、sFRP-4 同屬 phosphatonins 家族，皆能抑制 proximal tubule 的 Na-Pi cotransporters (NPT2a/NPT2c)，從而誘發 phosphaturia 與 hypophosphatemia。然而，三者對 vitamin D 代謝的調控具有關鍵性的相異點：FGF-23 與 sFRP-4 會直接作用於 PT 細胞抑制 1-α-hydroxylase (CYP27B1)；相對地，MEPE 雖然會引發排磷與低血磷，但它並不直接抑制 CYP27B1 活性。因此，MEPE 所導致的 hypophosphatemia 會適度引發反向代償性刺激 (counter-stimulates 1,25(OH)2D synthesis)，維持或提升 1,25(OH)2D3 濃度。因此 (D) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：MEPE 的主要標的為磷酸鹽轉運，且 PT 的 calcium 重吸收主要為 paracellular。\n- **(B) 錯誤**：MEPE 主要作用於腎臟引發 phosphaturia，不會直接獨立於 vitamin D 之外促進小腸 NPT2b 上調。\n- **(C) 錯誤**：MEPE 促進而非抑制 renal phosphate excretion，且 CYP27B1 主要位於 proximal tubule 而非 collecting duct。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nMEPE 與 FGF-23、sFRP-4 同屬 phosphatonins family，皆能抑制 proximal tubule 的 Na-Pi cotransporters (NPT2a/NPT2c)，從而誘發 phosphaturia 與 hypophosphatemia。然而，三者對 vitamin D metabolism 的調控具有關鍵性的相異點：FGF-23 與 sFRP-4 會直接作用於 PT cells 抑制 1-α-hydroxylase (CYP27B1)；相對地，MEPE 雖然會引發 phosphaturia 與 hypophosphatemia，但它並不直接抑制 CYP27B1 activity。因此，MEPE 所導致的 hypophosphatemia 會適度 counter-stimulate 1,25(OH)2D synthesis，維持或提升 1,25(OH)2D3 濃度。因此 (D) 選項正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：MEPE 的主要 target 為 phosphate transport，且 PT 的 calcium reabsorption 主要為 paracellular pathway。\n- **(B) Incorrect**：MEPE 主要作用於 kidney 引發 phosphaturia，不會獨立於 vitamin D 之外促進 small intestine NPT2b upregulation。\n- **(C) Incorrect**：MEPE promotes 而非 inhibits renal phosphate excretion，且 CYP27B1 主要位於 proximal tubule 而非 collecting duct。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -185,7 +185,7 @@
         }
       ],
       "number": 4,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q5",
@@ -213,7 +213,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNHERF-1 在近端小管刷狀緣膜上對 NHE3 與 NPT2a 展現出高度特異的差異化調控：\n1. 對 NHE3 的調控：NHERF-1 透過其 PDZ domain 結合 NHE3，並透過 Ezrin 召集 PKA 靠近 NHE3。當 PKA 磷酸化 NHE3 後，促進 NHE3 發生 endocytosis 被抑制。\n2. 對 NPT2a 的調控：NHERF-1 的 PDZ domain 專一性結合 NPT2a，將 NPT2a 與 actin cytoskeleton 牢固錨定，維持 NPT2a 在 apical membrane 上的結構穩定性，防止 NPT2a 發生 endocytosis 與降解。\n因此 (A) 選項精準呈現了 NHERF-1 對這兩個轉運體的差異化調控本質。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：NHERF-1 介導 PKA 磷酸化使 NHE3 被抑制/內吞，且 NHERF-1 是「穩定」而非「促進降解」apical NPT2a。\n- **(C) 錯誤**：NHERF-1 不抑制 NPT2a 轉運，而是穩定 NPT2a 促進 phosphate 吸收。\n- **(D) 錯誤**：NHERF-1 需要結合 Ezrin 來連結 actin cytoskeleton，而非降解 Ezrin。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\nNHERF-1 在 proximal tubule brush border membrane 上對 NHE3 與 NPT2a 展現出高度特異的差異化調控：\n1. 對 NHE3 的調控：NHERF-1 透過其 PDZ domain 結合 NHE3，並透過 Ezrin 召集 PKA 靠近 NHE3。當 PKA phosphorylates NHE3 後，促進 NHE3 發生 endocytosis 被抑制。\n2. 對 NPT2a 的調控：NHERF-1 的 PDZ domain 專一性結合 NPT2a，將 NPT2a 與 actin cytoskeleton 牢固錨定，維持 NPT2a 在 apical membrane 上的結構穩定性，防止 NPT2a 發生 endocytosis 與 degradation。\n因此 (A) 選項精準呈現了 NHERF-1 對這兩個 transporters 的差異化調控本質。\n\n### 3. Distractor Analysis\n- **(B) Incorrect**：NHERF-1 介導 PKA phosphorylation 使 NHE3 被 inhibition / endocytosis，且 NHERF-1 是「穩定」而非「促進 degradation」apical NPT2a。\n- **(C) Incorrect**：NHERF-1 不抑制 NPT2a transport，而是穩定 NPT2a 促進 phosphate reabsorption。\n- **(D) Incorrect**：NHERF-1 需要結合 Ezrin 來連結 actin cytoskeleton，而非 degradation Ezrin。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -230,7 +230,7 @@
         }
       ],
       "number": 5,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q6",
@@ -258,7 +258,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nNHERF-1 (SLC9A3R1) 在近端小管中對於 NPT2a (SLC34A1) 的表面穩定度扮演決定性角色。當 NHERF-1 發生 loss-of-function mutation 時，NPT2a 無法錨定至 apical actin cytoskeleton，導致 NPT2a 發生持續性 constitutive endocytosis 與 lysosomal degradation。頂端膜上的 NPT2a 數量減少後，引發 phosphaturia 與 hypophosphatemia。低血磷刺激 1-α-hydroxylase 合成 1,25(OH)2D3，進而增加小腸 calcium 吸收，導致 secondary hypercalciuria 與 nephrolithiasis。因此 (B) 選項正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：NHERF-1 缺失導致 NPT2a 被內吞降解，而非囊泡外吐至尿液中。\n- **(C) 錯誤**：NHERF-1 主要作用於 proximal tubule，與 Henle 氏環無關。\n- **(D) 錯誤**：NHERF-1 缺失不會高度活化鹼性磷酸酶。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\nNHERF-1 (SLC9A3R1) 在 proximal tubule 中對於 NPT2a (SLC34A1) 的表面穩定度扮演決定性角色。當 NHERF-1 發生 loss-of-function mutation 時，NPT2a 無法錨定至 apical actin cytoskeleton，導致 NPT2a 發生持續性 constitutive endocytosis 與 lysosomal degradation。Apical membrane 上的 NPT2a 數量減少後，引發 phosphaturia 與 hypophosphatemia。Hypophosphatemia 刺激 1-α-hydroxylase 合成 1,25(OH)2D3，進而增加 small intestine calcium absorption，導致 secondary hypercalciuria 與 nephrolithiasis。因此 (B) 選項正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：NHERF-1 loss-of-function 導致 NPT2a 被 endocytosis and degradation，而非 exocytosis 至 urine 中。\n- **(C) Incorrect**：NHERF-1 主要作用於 proximal tubule，與 loop of Henle 無關。\n- **(D) Incorrect**：NHERF-1 loss-of-function 不會高度活化 alkaline phosphatase。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -275,7 +275,7 @@
         }
       ],
       "number": 6,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q7",
@@ -303,7 +303,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在 RAS 系統與胜肽降解途徑中，關鍵酵素的基質專一性存在顯著差異：\n- Enzyme X (Renin)：由 JGA 增殖細胞分泌，具有極高的基質專一性，生理上唯一的天然基質為 Angiotensinogen，剪切生成 Ang I。\n- Enzyme Y (ACE)：缺乏專一性，不僅將 Ang I 轉化為 Ang II，同時降解並去活化具血管舒張作用的 bradykinin。\n- Enzyme Z (Neprilysin / NEP)：中性內胜肽酶，廣泛降解 ANP, BNP, CNP 以及 substance P, enkephalins 與 amyloid-beta。因此 (B) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：將 Enzyme X 誤認為 ACE，Enzyme Y 誤認為 Renin。\n- **(C) 錯誤**：將 Enzyme X 誤認為 Neprilysin。\n- **(D) 錯誤**：將 Enzyme Y 與 Enzyme Z 之標籤倒置。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n在 renin-angiotensin system 與 peptide degradation pathways 中，關鍵 enzymes 的 substrate specificity 存在顯著差異：\n- Enzyme X (Renin)：由 JGA granular cells 分泌，具有極高的 substrate specificity，生理上唯一的天然 substrate 為 Angiotensinogen，cleave 生成 Ang I。\n- Enzyme Y (ACE)：缺乏 substrate specificity，不僅將 Ang I convert 為 Ang II，同時 degrade 並 inactivate 具 vasodilatory 作用的 bradykinin。\n- Enzyme Z (Neprilysin / NEP)：neutral endopeptidase，廣泛 degrade ANP, BNP, CNP 以及 substance P, enkephalins 與 amyloid-beta。因此 (B) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：將 Enzyme X 誤認為 ACE，Enzyme Y 誤認為 Renin。\n- **(C) Incorrect**：將 Enzyme X 誤認為 Neprilysin。\n- **(D) Incorrect**：將 Enzyme Y 與 Enzyme Z 之標籤倒置。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -320,7 +320,7 @@
         }
       ],
       "number": 7,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q8",
@@ -348,7 +348,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nRenin 具高度絕佳的基質專一性，生理環境下唯一的酵素基質為 angiotensinogen；ACE 缺乏專一性，同時催化 Ang I -> Ang II 以及降解 bradykinin；Neprilysin (NEP) 降解利尿鈉胜肽 (ANP, BNP, CNP) 外，亦代謝多種胜肽 (enkephalins, substance P, amyloid-beta)。因此 (D) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Renin 具有極高的基質專一性，非具寬廣催化雜食性。\n- **(B) 錯誤**：ACE 缺乏基質專一性，抑制 ACE 會同步阻斷 bradykinin 分解引發乾咳與水腫。\n- **(C) 錯誤**：Neprilysin 降解多種胜肽，使用 sacubitril 亦提升 substance P, enkephalins 等。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nRenin 具高度絕佳的 substrate specificity，生理環境下唯一的 enzyme substrate 為 angiotensinogen；ACE 缺乏 substrate specificity，同時 catalyzes Ang I -> Ang II 以及 degrades bradykinin；Neprilysin (NEP) degrades natriuretic peptides (ANP, BNP, CNP) 外，亦 metabolizes 多種 peptides (enkephalins, substance P, amyloid-beta)。因此 (D) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：Renin 具有極高的 substrate specificity，非具寬廣催化 promiscuity。\n- **(B) Incorrect**：ACE 缺乏 substrate specificity，inhibition of ACE 會同步阻斷 bradykinin degradation 引發 dry cough 與 angioedema。\n- **(C) Incorrect**：Neprilysin degrades 多種 peptides，使用 sacubitril 亦提升 substance P, enkephalins 等。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -365,7 +365,7 @@
         }
       ],
       "number": 8,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q9",
@@ -393,7 +393,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n在皮質集尿管 principal cells 中，SGK-1 能將泛素連接酶 Nedd4-2 磷酸化，使其與 14-3-3 蛋白結合而去活化，從而減少 ENaC 內吞與降解，大幅增加 ENaC 在頂端膜的細胞表面表現量。SGK-1 促進腎臟 K+ 分泌的作用主要是間接的 (經由 ENaC 大量再吸收 Na+ 產生管腔負電位驅導 K+ 分泌)，並非透過直接磷酸化 ROMK 通道。因此 (A) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：SGK-1 促進 K+ 分泌並非經由直接磷酸化 ROMK C-端所致。\n- **(C) 錯誤**：SGK-1 本身是激酶而非泛素連接酶。\n- **(D) 錯誤**：SGK-1 促進而非抑制 ENaC 基因轉錄。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n在 cortical collecting duct principal cells 中，SGK-1 能將 ubiquitin ligase Nedd4-2 phosphorylate，使其與 14-3-3 protein 結合而去活化，從而減少 ENaC endocytosis 與 degradation，大幅增加 ENaC 在 apical membrane 的 cell surface expression。SGK-1 促進 renal K+ secretion 的作用主要是間接的 (經由 ENaC 大量 reabsorption Na+ 產生 lumen-negative potential 驅導 K+ secretion)，並非透過直接 phosphorylate ROMK channels。因此 (A) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(B) Incorrect**：SGK-1 促進 K+ secretion 並非經由直接 phosphorylate ROMK C-terminus 所致。\n- **(C) Incorrect**：SGK-1 本身是 kinase 而非 ubiquitin ligase。\n- **(D) Incorrect**：SGK-1 促進而非抑制 ENaC gene transcription。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -410,7 +410,7 @@
         }
       ],
       "number": 9,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q10",
@@ -438,7 +438,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nSGK-1 主要透過磷酸化去活化 Nedd4-2 防止 ENaC 泛素化降解，維持 ENaC 頂端膜高密度表達與 Na+ 大量再吸收，在管腔側建立強大負電位，驅動 K+ 透過 ROMK/BK 通道被動分泌。SGK-1 增強 K+ 分泌並非經由對 ROMK 進行直接磷酸化；ROMK 的頂端膜嵌入與通道門控主要是由 WNK/SPAK 傳導路徑與細胞內 ATP/pH 獨立調控。因此 (C) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：SGK-1 並非直接磷酸化 ROMK 並將其轉位至頂端膜的必要主導激酶。\n- **(B) 錯誤**：剔除 SGK-1 基因主要會減弱 ENaC 介導的鈉離子再吸收，而非消除 ROMK 蛋白 synthesis。\n- **(D) 錯誤**：SGK-1 會促進而非抑制 basolateral Na+/K+-ATPase 活性。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\nSGK-1 主要透過 phosphorylating and inactivating Nedd4-2 防止 ENaC ubiquitination and degradation，維持 ENaC apical membrane 高密度 expression 與 Na+ 大量 reabsorption，在 luminal side 建立強大 lumen-negative potential，驅動 K+ 透過 ROMK/BK channels 被動 secretion。SGK-1 增強 K+ secretion 並非經由對 ROMK 進行直接 phosphorylation；ROMK 的 apical membrane insertion 與 channel gating 主要是由 WNK/SPAK signaling pathways 與 intracellular ATP/pH 獨立調控。因此 (C) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) Incorrect**：SGK-1 並非直接 phosphorylate ROMK 並將其 translocation 至 apical membrane 的必要主導 kinase。\n- **(B) Incorrect**：Knockout SGK-1 gene 主要會減弱 ENaC 介導的 sodium reabsorption，而非消除 ROMK protein synthesis。\n- **(D) Incorrect**：SGK-1 會促進而非抑制 basolateral Na+/K+-ATPase activity。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -455,7 +455,7 @@
         }
       ],
       "number": 10,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "sourceProvidedAnswer 與兩組 NLM responses 一致"
     },
     {
       "id": "2026_台大考訓_(重點轉化)_q11",
@@ -483,7 +483,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nSerum Cystatin C 由全身體細胞恆定產生，自由通過腎小球過濾，為反映 GFR 的優異 filtration marker。Urinary Cystatin C 在正常情況下會被近端腎小管上皮細胞經 megalin/cubilin 受體 100% 完全再吸收並降解；若尿液中測得 Cystatin C，代表 proximal tubular reabsorption impairment / injury。因此 (A) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：Serum Cystatin C 由全身有核細胞持續生成，非遠端小管缺血時特異合成。\n- **(C) 錯誤**：Urinary Cystatin C 是未被再吸收的過濾蛋白質，非集尿管主動分泌產物。\n- **(D) 錯誤**：Cystatin C 非足細胞脫落產物。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\nSerum Cystatin C 由全身 nucleated cells 恆定產生，自由通過 glomerulus filtration，為反映 GFR 的優異 filtration marker。Urinary Cystatin C 在正常情況下會被 proximal tubular epithelial cells 經 megalin/cubilin receptor 100% 完全 reabsorb 並 degrade；若 urine 中測得 Cystatin C，代表 proximal tubular reabsorption impairment / injury。因此 (A) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Serum Cystatin C 由全身 nucleated cells 持續生成，非 distal tubule ischemia 時特異 synthesize。\n- **(C) 錯誤**：Urinary Cystatin C 是未被 reabsorb 的 filtered protein，非 collecting duct active secretion 產物。\n- **(D) 錯誤**：Cystatin C 非 podocyte detachment 產物。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -528,7 +528,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nGentamicin 經近端腎小管頂端膜 megalin/cubilin 受體內吞進入細胞蓄積引發 ATN。當近端小管受損壞死時，其再吸收與降解 Cystatin C 的能力喪失，導致尿液 Cystatin C 顯著升高。Minimal change disease 主要為 podocyte effacement，但近端小管再吸收功能完好，故濾過之 Cystatin C 仍被 100% 再吸收與降解，尿中檢測不到。因此 (C) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Aminoglycosides 非刺激遠端小管分泌 Cystatin C。\n- **(B) 錯誤**：Gentamicin 標的在近端小管非引發腎小球微血管血栓。\n- **(D) 錯誤**：Minimal change disease 不會抑制全身 Cystatin C 基因轉錄。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\nGentamicin 經 proximal tubule apical membrane megalin/cubilin receptor endocytosis 進入 cell 蓄積引發 ATN。當 proximal tubule 受損 necrosis 時，其 reabsorption 與 degradation Cystatin C 的能力喪失，導致 urine Cystatin C 顯著升高。Minimal change disease 主要為 podocyte effacement，但 proximal tubule reabsorption 功能完好，故 filtered 之 Cystatin C 仍被 100% reabsorb 並 degrade，urine 中檢測不到。因此 (C) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aminoglycosides 非刺激 distal tubule secretion Cystatin C。\n- **(B) 錯誤**：Gentamicin 標的在 proximal tubule 非引發 glomerulus capillary thrombosis。\n- **(D) 錯誤**：Minimal change disease 不會抑制全身 Cystatin C gene transcription。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -573,7 +573,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nCIN 注入後會引發腎內髓質血管強烈且持久的收縮，造成髓質缺血。然而在發病初期，近端小管鈉重吸收保持高亢，因此 CIN 的 FENa 典型呈現 < 1%，這與一般毒性或缺血性 ATI (FENa > 2%) 截然不同。此外 CIN 通常為非少尿型，肌酸酐多於 3-5 天達峰值，於 7-10 天自發恢復。因此 (A) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：CIN 通常為一過性、非少尿型且預後良好，極少需要透析。\n- **(C) 錯誤**：CIN 的肌酸酐峰值出現在暴露後 3-5 天而非 10-14 天。\n- **(D) 錯誤**：CIN 的 FENa 典型小於 1% 非大於 2%。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\nCIN 注入後會引發 intrarenal renal medulla vasculature 強烈且持久的 vasoconstriction，造成 renal medulla ischemia。然而在發病初期，proximal tubule sodium reabsorption 保持高亢，因此 CIN 的 FENa 典型呈現 < 1%，這與一般 nephrotoxic 或 ischemic ATI (FENa > 2%) 截然不同。此外 CIN 通常為 non-oliguric，serum creatinine 多於 3-5 天達峰值，於 7-10 天自發恢復。因此 (A) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：CIN 通常為一過性、non-oliguric 且預後良好，極少需要 dialysis。\n- **(C) 錯誤**：CIN 的 serum creatinine 峰值出現在暴露後 3-5 天而非 10-14 天。\n- **(D) 錯誤**：CIN 的 FENa 典型小於 1% 非大於 2%。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -618,7 +618,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(B)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\n大型 RCT (如 PRESERVE Trial) 證實，口服 N-acetylcysteine (NAC) 搭配水合作用相較於單純水合作用，在降低 CIN 發生率或透析需求上完全沒有統計學上的顯著益處 (NO proven clinical benefit)。相反地，等滲透壓生理食鹽水水合、減少對照劑用量與停用 NSAIDs 為實證指引強烈推薦之措施。因此 (B) 選項為正確解答。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：靜脈給予 0.9% NaCl 水合作用是目前實證最確立的 CIN 預防首選手段。\n- **(C) 錯誤**：術前停用 NSAIDs 可避免加重腎內血管收縮，屬標準預防措施。\n- **(D) 錯誤**：減少對照劑總量是確立能顯著降低 CIN 風險的關鍵介入。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(B)**。\n\n### 2. Mechanism & Rationale\n大型 RCT (如 PRESERVE Trial) 證實，口服 N-acetylcysteine (NAC) 搭配 hydration 相較於單純 hydration，在降低 CIN 發生率或 dialysis 需求上完全沒有統計學上的顯著益處 (NO proven clinical benefit)。相反地，isotonic normal saline hydration、減少 contrast agent 用量與停用 NSAIDs 為實證指引強烈推薦之措施。因此 (B) 選項為正確解答。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：intravenous 給予 0.9% NaCl hydration 是目前實證最確立的 CIN 預防首選手段。\n- **(C) 錯誤**：術前停用 NSAIDs 可避免加重 intrarenal vasoconstriction，屬標準預防措施。\n- **(D) 錯誤**：減少 contrast agent 總量是確立能顯著降低 CIN 風險的關鍵介入。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -663,7 +663,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(C)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nTPE 在 anti-GBM disease 中可迅速清除循環致病性抗體。強烈適應症包含：(1) 尚未進入晚期不可逆腎衰竭者；(2) 合併瀰漫性肺泡出血 (diffuse alveolar hemorrhage, DAH) 者，無論其腎功能受損程度或是否已需透析，皆必須立即執行 TPE 以救命。因此 (C) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：MM cast nephropathy 無 hyperviscosity syndrome 時，TPE 效果存有爭議。\n- **(B) 錯誤**：Anti-GBM 患者若初診即無尿且需透析、同時無 DAH，TPE 無法逆轉腎衰竭。\n- **(D) 錯誤**：ANCA 血管炎在輕度腎受損且無 DAH 時，無 TPE 適應症。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\nTPE 在 anti-GBM disease 中可迅速清除循環 pathogenic antibodies。強烈 indications 包含：(1) 尚未進入晚期 irreversible renal failure 者；(2) 合併 diffuse alveolar hemorrhage (DAH) 者，無論其 renal function 受損程度或是否已需 dialysis，皆必須立即執行 TPE 以救命。因此 (C) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：MM cast nephropathy 無 hyperviscosity syndrome 時，TPE 效果存有爭議。\n- **(B) 錯誤**：Anti-GBM 患者若初診即 anuria 且需 dialysis、同時無 DAH，TPE 無法逆轉 renal failure。\n- **(D) 錯誤**：ANCA vasculitis 在輕度 renal impairment 且無 DAH 時，無 TPE indications。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -708,7 +708,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nTiclopidine 誘發之 TMA 屬於免疫介導 (immune-mediated / autoantibody against ADAMTS13)，臨床表現與自發性 TTP 相似，為目前唯一確定具備實證且強烈推薦實施 TPE 的藥物誘發型 TMA。相對地，Cyclosporine, Tacrolimus, Gemcitabine 引起的 TMA 屬直接毒性，主要處置為停藥，TPE 無顯著效益。因此 (D) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Cyclosporine TMA 屬毒性機轉，首選治療為停藥，TPE 無明確適應症。\n- **(B) 錯誤**：Tacrolimus TMA 同屬 CNI 毒性，TPE 無實證獲益。\n- **(C) 錯誤**：Gemcitabine TMA 為累積型內皮損傷，TPE 效果極差。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nTiclopidine 誘發之 TMA 屬於 immune-mediated with autoantibody against ADAMTS13，臨床表現與 idiopathic TTP 相似，為目前唯一確定具備實證且強烈推薦實施 TPE 的 drug-induced TMA。相對地，Cyclosporine, Tacrolimus, Gemcitabine 引起的 TMA 屬 direct toxicity，主要處置為停藥，TPE 無顯著效益。因此 (D) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Cyclosporine TMA 屬 toxic mechanism，首選治療為停藥，TPE 無明確 indications。\n- **(B) 錯誤**：Tacrolimus TMA 同屬 CNI toxicity，TPE 無實證獲益。\n- **(C) 錯誤**：Gemcitabine TMA 為 cumulative endothelial injury，TPE 效果極差。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -753,7 +753,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(A)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nBeta-2 microglobulin (~11.8 kDa) 屬於中分子溶質，擴散速率極低，清除必須依賴對流作用 (convection) 與更大孔徑膜。High-flux 膜定義為高超濾係數 (KUF > 12-20 mL/mmHg/h) 且對 beta-2 microglobulin 具備高清除能力 (> 20 mL/min)。因此 (A) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(B) 錯誤**：Low-flux 膜孔徑極小，無法清除 beta-2 microglobulin。\n- **(C) 錯誤**：High-efficiency 膜僅代表對尿素等小分子清除率高，若 KUF 低仍屬 Low-flux 膜。\n- **(D) 錯誤**：Cuprophane 膜為低通量舊型膜，無中分子清除能力。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\nBeta-2 microglobulin (~11.8 kDa) 屬於 middle-molecule solutes，diffusion 速率極低，clearance 必須依賴 convection 與更大 membrane pore size。High-flux membrane 定義為高 ultrafiltration coefficient (KUF > 12-20 mL/mmHg/h) 且對 beta-2 microglobulin 具備高 clearance capacity (> 20 mL/min)。因此 (A) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Low-flux membrane pore size 極小，無法 clearance beta-2 microglobulin。\n- **(C) 錯誤**：High-efficiency membrane 僅代表對 urea 等 small molecules clearance 高，若 KUF 低仍屬 Low-flux membrane。\n- **(D) 錯誤**：Cuprophane membrane 為 low-flux 舊型 membrane，無 middle molecules clearance 能力。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -798,7 +798,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "### 1. 答案確定 (Answer Determination)\n正確答案為 **(D)**。\n\n### 2. 生理機轉與正解剖析 (Mechanism & Rationale)\nKappa 游離輕鏈分子量約 22.5 kDa，Lambda 游離輕鏈分子量約 45 kDa。標準 High-flux 膜截留分子量約 15-20 kDa，對 FLC 清除受限。High Cut-Off (HCO) 膜其孔徑顯著擴大，截留分子量拉高至 45-50 kDa，能有效大量清除循環中的 kappa 與 lambda 游離輕鏈。因此 (D) 選項完全正確。\n\n### 3. 誘答選項逐一解析 (Distractor Analysis)\n- **(A) 錯誤**：Low-flux 膜截留分子量小 (< 3-5 kDa)，無法清除游離輕鏈。\n- **(B) 錯誤**：標準 High-flux 膜對 FLC 清除效能顯著低於 HCO 膜。\n- **(C) 錯誤**：Cuprophane 膜極度不具備透過輕鏈之孔徑規格。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\nKappa free light chains 分子量約 22.5 kDa，Lambda free light chains 分子量約 45 kDa。標準 High-flux membrane molecular weight cut-off (MWCO) 約 15-20 kDa，對 FLC clearance 受限。High Cut-Off (HCO) membrane 其 pore size 顯著擴大，MWCO 拉高至 45-50 kDa，能有效大量 clearance 循環中的 kappa 與 lambda free light chains。因此 (D) 選項完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Low-flux membrane MWCO 小 (< 3-5 kDa)，無法 clearance free light chains。\n- **(B) 錯誤**：標準 High-flux membrane 對 FLC clearance 效能顯著低於 HCO membrane。\n- **(C) 錯誤**：Cuprophane membrane 極度不具備透過 free light chains 之 pore size 規格。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

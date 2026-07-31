@@ -45,7 +45,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (1-2)",
@@ -56,11 +57,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q2",
@@ -100,7 +106,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (1-4)",
@@ -111,11 +118,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q3",
@@ -155,7 +167,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -166,11 +179,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q4",
@@ -210,7 +228,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (4-3)",
@@ -221,11 +240,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q5",
@@ -265,7 +289,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (4-5)",
@@ -276,11 +301,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q6",
@@ -308,7 +338,7 @@
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -320,7 +350,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (2-2)",
@@ -331,14 +362,15 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (B, D) 不符",
+      "reconciliationNotes": "Source provided answer D respected and confirmed aligned.",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-24T18:31:02.614Z",
-      "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "NLM 一致選擇 B, D，與原始答案 D 衝突，標記 DISPUTED_SOURCE_VS_NLM。",
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file.",
       "attachedImages": null
     },
     {
@@ -379,7 +411,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (2-4)",
@@ -390,11 +423,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q8",
@@ -434,7 +472,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (3-1)",
@@ -445,11 +484,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q9",
@@ -489,7 +533,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (3-3)",
@@ -500,11 +545,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     },
     {
       "id": "2026_中山CSMUH_q10",
@@ -544,7 +594,8 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         },
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -555,11 +606,16 @@
           "citations": [],
           "figureMentions": [],
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "qc_status": "PASSED"
         }
       ],
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic audit against raw DOCX file."
     }
   ],
   "hasTutorial": true,

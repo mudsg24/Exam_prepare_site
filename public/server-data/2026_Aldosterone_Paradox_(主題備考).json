@@ -371,7 +371,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 CCD 中，Type B Intercalated Cells 透過頂端膜的 Pendrin (SLC26A4, 進行 Cl-/HCO3- 交換) 與 SLC4A8 (NDCBE, 進行 Na+-dependent Cl-/HCO3- 交換) 協同運作，達成 Electroneutral NaCl Reabsorption。因為此過程不產生跨膜電位差 (Lumen-negative potential)，故不會驅使鉀離子透過 ROMK 流失。",
+      "sourceExplanation": "在 CCD 中，Type B Intercalated Cells 透過 apical membrane 的 Pendrin (SLC26A4) 執行 Cl-/HCO3- exchange，與 SLC4A8 (NDCBE) 執行 Na+-dependent Cl-/HCO3- exchange 協同運作，達成 Electroneutral NaCl Reabsorption。因為此過程不產生跨膜電位差 lumen-negative potential，故不會驅使 K+ 透過 ROMK 流失。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_21",
@@ -428,7 +428,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "Gordon Syndrome (Pseudohypoaldosteronism Type 2, PHA2 或 FHHt) 的致病基因包含 WNK1, WNK4, KLHL3, 與 CUL3。KLHL3/CUL3 複合體正常情況下負責降解 WNK 激酶，這些基因突變會導致 WNK 降解減少或 WNK4 功能改變，最終造成 NCC 過度活化，引發高血壓、高血鉀與代謝性酸中毒。",
+      "sourceExplanation": "Gordon Syndrome (Pseudohypoaldosteronism Type 2, PHA2 / Familial Hyperkalemic Hypertension, FHHt) 的致病基因包含 WNK1, WNK4, KLHL3 與 CUL3。KLHL3/CUL3 complex 正常情況下負責降解 WNK kinase，這些基因突變會導致 WNK degradation 減少或 WNK4 function 改變，最終造成 NCC 過度活化，引發 hypertension, hyperkalemia 與 metabolic acidosis。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_44_14",
@@ -485,7 +485,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "Gordon Syndrome (FHHt) 的病理機轉為 NCC 過度活化。因此，這類患者對於極低劑量的 Thiazides 具有極高的敏感性 (Exquisite sensitivity)，使用 Thiazides 能迅速且有效地矯正其 Hypertension 與 Hyperkalemia。Fludrocortisone 無效且可能惡化高血壓。",
+      "sourceExplanation": "Gordon Syndrome (FHHt) 的病理機轉為 NCC 過度活化。因此，這類患者對極低劑量的 Thiazides 展現 exquisite sensitivity，使用 Thiazides 能迅速且有效地矯正其 hypertension 與 hyperkalemia。Fludrocortisone 無效且可能惡化 hypertension。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -599,7 +599,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Potassium Restriction 時，為了減少鉀的流失，ROMK 必須從頂端膜移除。此過程受到 Tyrosine Kinases (如 c-Src 與 c-Yes) 的調控；這些激酶將 ROMK 磷酸化後，會誘發 ROMK 的 Endocytosis，從而降低鉀排泄。",
+      "sourceExplanation": "在 Potassium Restriction 時，為了減少 K+ 流失，ROMK 必須從 apical membrane 移除。此過程受 non-receptor tyrosine kinases (such as c-Src and c-Yes) 調控；這些激酶將 ROMK 磷酸化後，會誘發 ROMK endocytosis，從而降低 K+ excretion。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_23",
@@ -656,7 +656,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "ENaC 由 alpha, beta, gamma 三個次單位組成。要達到最大活化狀態，alpha 與 gamma 次單位必須在細胞外側被 Serine Proteases (如 Furin, Prostasin, Tissue Kallikrein 等) 進行 Proteolytic Cleavage，這會改變通道構型並大幅增加通道的開放機率 (Open probability)。",
+      "sourceExplanation": "ENaC 由 alpha, beta, gamma 三個 subunits 組成。要達到最大活化狀態，alpha 與 gamma subunits 必須在 extracellular side 被 serine proteases (such as Furin, Prostasin, and Tissue Kallikrein) 進行 proteolytic cleavage，這會改變通道構型並大幅增加通道的 open probability。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_12_7",
@@ -713,7 +713,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "透過 ENaC 進行的鈉重吸收是 Electrogenic 的，會產生 Lumen-negative potential，進而成為驅動 K+ (經 ROMK) 與 H+ (經 H+-ATPase) 排出的原動力。相反地，Type B Intercalated Cells 透過 Pendrin 與 SLC4A8 進行的 Electroneutral NaCl Reabsorption 不會改變管腔電位，因此不會促使 K+ 流失。",
+      "sourceExplanation": "透過 ENaC 進行的 Na+ reabsorption 屬於 electrogenic，會產生 lumen-negative potential，進而成為驅動 K+ 經由 ROMK 與 H+ 經由 H+-ATPase 排出的原動力。相反地，Type B Intercalated Cells 透過 Pendrin 與 SLC4A8 進行的 electroneutral NaCl reabsorption 不會改變管腔電位，因此不會促使 K+ wasting。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_21",
@@ -770,7 +770,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Primary Hyperaldosteronism (如 Conn Syndrome) 中，患者通常呈現 Volume Expansion，使得近端腎小管鈉重吸收減少，大量鈉流向遠端，加上 Aldosterone 活化 ENaC，產生強大的 Lumen-negative potential，造成嚴重 Hypokalemia。相反地，在 Heart Failure (Secondary Hyperaldosteronism) 時，Effective Arterial Blood Volume (EABV) 降低，近端鈉重吸收極高，到達遠端的鈉量大幅減少 (Decreased distal delivery of sodium)，因此即使 Aldosterone 很高，也無法產生足夠的電位差來驅動 K+ 流失。",
+      "sourceExplanation": "在 Primary Hyperaldosteronism (such as Conn Syndrome) 中，患者通常呈現 volume expansion，使得 proximal tubule 的 Na+ reabsorption 減少，大量 Na+ 流向 distal nephron，加上 Aldosterone 活化 ENaC 產生強大的 lumen-negative potential，造成嚴重 hypokalemia。相反地，在 Heart Failure 引起的 Secondary Hyperaldosteronism 時，Effective Arterial Blood Volume (EABV) 降低，proximal tubule 的 Na+ reabsorption 極高，導致 decreased distal delivery of sodium，因此即使 Aldosterone 顯著升高，也無法產生足夠電位差驅動 K+ wasting。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_12_1",
@@ -827,7 +827,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "Spironolactone 與 Eplerenone 是 MR Antagonists，經由血液循環進入細胞質內競爭性地阻斷 MR 的活化；而 Amiloride 與 Triamterene 是 ENaC Inhibitors，直接在管腔側 (Luminal side) 物理性地阻擋 ENaC 的孔道。兩者皆為 Potassium-sparing Diuretics，不會造成 Hypokalemia。",
+      "sourceExplanation": "Spironolactone 與 Eplerenone 是 MR antagonists，經由血液循環進入 cytoplasm 內競爭性阻斷 MR 的活化；而 Amiloride 與 Triamterene 是 ENaC inhibitors，直接在 luminal side 物理性阻擋 ENaC 通道孔道。兩者皆屬 potassium-sparing diuretics，不會造成 hypokalemia。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_15",
@@ -884,7 +884,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Potassium Depletion 的情況下，Type A Intercalated Cells 會大幅增加 H+/K+-ATPase 的表現與活性。這個幫浦會將管腔中的 K+ 重吸收回細胞，同時將細胞內的 H+ 排出至管腔。因此，嚴重的 Hypokalemia 常常會伴隨發生 Metabolic Alkalosis (Hypokalemic Alkalosis)。",
+      "sourceExplanation": "在 Potassium Depletion 的情況下，Type A Intercalated Cells 會大幅增加 H+/K+-ATPase 的表現與活性。此 pump 會將 lumen 中的 K+ 重吸收回細胞，同時將細胞內 H+ 排出至 lumen。因此，嚴重的 hypokalemia 常伴隨發生 hypokalemic metabolic alkalosis。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_44_9",
@@ -941,7 +941,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "長期使用 Thiazides 或是 NCC 基因剔除 (如 Gitelman Syndrome 模型) 會導致 DCT 萎縮與功能低下。作為代償，更遠端的節段如 CNT 與 CCD 會發生 Hypertrophy，並且 ENaC 的表現量會顯著上升 (Upregulation)，以試圖回收流失的鈉離子。這種 Intersegmental Crosstalk 是造成長期利尿劑抗性 (Diuretic Resistance) 的原因之一。",
+      "sourceExplanation": "長期使用 Thiazides 或 NCC gene knockout (such as Gitelman Syndrome model) 會導致 DCT 萎縮與功能低下。作為代償，更遠端節段如 CNT 與 CCD 會發生 hypertrophy，且 ENaC 的表現量發生 upregulation，以試圖回收流失的 Na+。這種 intersegmental crosstalk 是造成長期 diuretic resistance 的主因之一。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_19",
@@ -998,7 +998,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "研究指出，在進食富含鉀的食物後 (Postprandial state)，腸道或肝門脈系統 (Gut/hepatoportal potassium sensing) 會偵測到鉀攝取，並在血清鉀或 Aldosterone 顯著上升前，釋放未知的循環因子 (Gut factor)。此機制會促使腎臟釋放 Tissue Kallikrein 等蛋白酶，進而切割並活化 ENaC 等通道，快速促進 Kaliuresis 以避免餐後高血鉀。",
+      "sourceExplanation": "研究指出，在 postprandial state 進食高鉀食物後，gut/hepatoportal potassium sensing 機制會偵測到 K+ 攝取，並在 serum K+ 或 Aldosterone 顯著上升前釋放循環中的 gut factor。此機制促使腎臟釋放 Tissue Kallikrein 等 proteases，進而 cleavage 活化 ENaC 等通道，快速促進 kaliuresis 以避免餐後 hyperkalemia。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_23",

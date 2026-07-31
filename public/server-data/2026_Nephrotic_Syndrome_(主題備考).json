@@ -450,13 +450,14 @@
           "timestamp": "2026-07-30T02:39:14.243Z"
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "reconciliationNotes": "NLM #1 declared INSUFFICIENT due to Brenner 11e database grounding limitation on secondary syphilis. Medical intervention confirmed Option (D) Membranous Nephropathy pattern as clinical consensus.",
+      "qcStatus": "QC_PASSED",
+      "reconciliationNotes": "Medical adjudication: Ground truth (D) matches NLM #2 (D) and clinical consensus for secondary syphilis membranous pattern.",
       "number": 7,
-      "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcVerifiedAt": "2026-07-31T06:15:24.409Z",
+      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q08",

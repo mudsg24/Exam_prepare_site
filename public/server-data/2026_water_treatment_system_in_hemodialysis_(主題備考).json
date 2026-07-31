@@ -63,7 +63,9 @@
         }
       ],
       "resolvedImages": [
-        "2020 Brenner 11e/63. Hemodialysis/Fig_63_18.png"
+        {
+          "relPath": "/2020 Brenner 11e/63. Hemodialysis/Fig_63_18.png"
+        }
       ],
       "selectedOption": "A",
       "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
@@ -465,7 +467,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**絕對禁止將體外迴路中的血液趕回病人體內 (DISCARD extracorporeal blood)**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性高血鉀與心臟驟停。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**絕對禁止將體外迴路中的血液趕回病人體內 (DISCARD extracorporeal blood)**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性hyperkalemia與心臟驟停。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "PASSED",
       "qcVerified": true,
@@ -741,5 +743,6 @@
       "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
     }
   ],
-  "updatedAt": "2026-07-29T00:29:30.000Z"
+  "updatedAt": "2026-07-29T00:29:30.000Z",
+  "paperId": "2026_water_treatment_system_in_hemodialysis_(主題備考)"
 }

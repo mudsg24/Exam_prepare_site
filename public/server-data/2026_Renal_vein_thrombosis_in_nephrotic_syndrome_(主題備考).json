@@ -140,7 +140,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在所有原發性腎絲球疾病中，Membranous NephropathyMN 併發 Venous ThromboembolismVTE 包括 Renal Vein ThrombosisRVT 與 Deep Vein ThrombosisDVT 之風險最高，文獻統計發生率高達 10%–40%。其次為 Membranoproliferative GlomerulonephritisMPGN 與 Amyloidosis。Minimal Change Disease 與 FSGS 雖然亦可併發thrombosis，但頻率顯著低於 Membranous Nephropathy。(依據 Brenner 11e Chapter 31 與 KDIGO 2021 Guidelines Chapter 3)",
+      "sourceExplanation": "在所有原發性Glomerular疾病中，Membranous NephropathyMN 併發 Venous ThromboembolismVTE 包括 Renal Vein ThrombosisRVT 與 Deep Vein ThrombosisDVT 之風險最高，文獻統計發生率高達 10%–40%。其次為 Membranoproliferative GlomerulonephritisMPGN 與 Amyloidosis。Minimal Change Disease 與 FSGS 雖然亦可併發thrombosis，但頻率顯著低於 Membranous Nephropathy。(依據 Brenner 11e Chapter 31 與 KDIGO 2021 Guidelines Chapter 3)",
       "resolvedImages": [
         {
           "id": "rvt_img_3",
@@ -386,11 +386,13 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified."
+      "qcVerifiedAt": "2026-07-31T06:15:24.384Z",
+      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (A) matches NLM #2 (A). NLM #1 False-NONE header resolved.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "rvt_ns_q08",
@@ -662,11 +664,13 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified."
+      "qcVerifiedAt": "2026-07-31T06:15:24.392Z",
+      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (D) matches NLM #2 (D). NLM #1 False-NONE header resolved.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "rvt_ns_q13",
@@ -773,11 +777,13 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified."
+      "qcVerifiedAt": "2026-07-31T06:15:24.396Z",
+      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (C) matches NLM #2 (C). NLM #1 False-NONE header resolved.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "rvt_ns_q15",
@@ -1049,11 +1055,13 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified."
+      "qcVerifiedAt": "2026-07-31T06:15:24.399Z",
+      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (A) matches NLM #2 (A). NLM #1 False-NONE header resolved.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "rvt_ns_q20",

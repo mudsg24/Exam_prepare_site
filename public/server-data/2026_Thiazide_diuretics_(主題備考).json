@@ -149,7 +149,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Thiazide 類利尿劑會引發尿鈣減少 (Hypocalciuria)，其雙重機轉包含：(1) Thiazide 引起 ECF Volume Contraction，刺激 Proximal Tubule 被動式 Paracellular Na+ 與 Ca2+ 重吸收顯著增加；(2) 在 DCT1/DCT2 抑制 NCC 使細胞內 Na+ 降低，促使 Basolateral NCX1 增加驅動力將 Na+ 汲入、Ca2+ 幫至血液中，進一步使細胞內 Ca2+ 降低，拉大 Apical TRPV5 鈣通道的被動流入梯度，強效促進遠端 Calcium Reabsorption。選項 (A) 為 Loop Diuretics 作用；選項 (C) 敘述相反；選項 (D) 酸中毒會抑制而不是增加 Citrate 吐出。",
+      "sourceExplanation": "Thiazide Hypocalciuria，其雙重機轉包含：(1) Thiazide 引起 ECF Volume Contraction，刺激 Proximal Tubule 被動式 Paracellular Na+ 與 Ca2+ 重吸收顯著增加；(2) 在 DCT1/DCT2 抑制 NCC 使細胞內 Na+ 降低，促使 Basolateral NCX1 增加驅動力將 Na+ 汲入、Ca2+ 幫至血液中，進一步使細胞內 Ca2+ 降低，拉大 Apical TRPV5 鈣通道的被動流入梯度，強效促進遠端 Calcium Reabsorption。選項 (A) 為 Loop Diuretics 作用；選項 (C) 敘述相反；選項 (D) 酸中毒會抑制而不是增加 Citrate 吐出。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_4",
@@ -209,7 +209,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "Chlorthalidone 的半衰期長達 40-60 小時（遠長於 HCTZ 的 6-12 小時），主因是 Chlorthalidone 會大量且高親和力地結合於血球內的 Carbonic Anhydrase 中，形成大型藥物儲庫 (Drug Reservoir)，緩慢釋放至血漿並作用於腎臟。大型臨床試驗 (ALLHAT) 證實 Chlorthalidone 在夜間降壓與減少心血管事件方面顯著優於 HCTZ。",
+      "sourceExplanation": "Chlorthalidone 的半衰期長達 40-60 小時（遠長於 HCTZ 的 6-12 小時），主因是 Chlorthalidone 會大量且高親和力地結合於血球內的 Carbonic Anhydrase 中，Drug Reservoir，緩慢釋放至血漿並作用於腎臟。ALLHAT 證實 Chlorthalidone 在夜間降壓與減少心血管事件方面顯著優於 HCTZ。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -269,7 +269,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類利尿劑 (如 HCTZ) 因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone (以及部分高劑量 Chlorthalidone) 即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade 以打破利尿劑抗藥性 (Diuretic Resistance)。",
+      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類利尿劑 (如 HCTZ) 因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone (以及部分高劑量 Chlorthalidone) 即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade Diuretic Resistance。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -389,7 +389,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "SLCO2A1 基因編碼 Prostaglandin Transporter (PGT)。在正常低 ADH 狀態下，集尿管頂膜的 PGT 會主動清除管腔內的 PGE2，使 AQP2 水通道維持在細胞內；當 SLCO2A1 突變導致 PGT 失能時，管腔內積聚過量的 PGE2，持續刺激 Apical EP4 受體，誘發 ADH-independent 的 Aquaporin-2 (AQP2) 移位並插入細胞膜，導致水份非適當重吸收，引發嚴重的稀釋性低血鈉 (TIH)。",
+      "sourceExplanation": "SLCO2A1 基因編碼 Prostaglandin Transporter (PGT)。在正常低 ADH 狀態下，集尿管頂膜的 PGT 會主動清除管腔內的 PGE2，使 AQP2 水通道維持在細胞內；當 SLCO2A1 突變導致 PGT 失能時，管腔內積聚過量的 PGE2，持續刺激 Apical EP4 受體，誘發 ADH-independent 的 Aquaporin-2 (AQP2) 移位並插入細胞膜，導致水份非適當重吸收，TIH。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_19",
@@ -449,7 +449,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "TIH 臨床上有兩種極端表型：SIADH-like Phenotype 與 Gitelman-like Phenotype。本例患者呈 Euvolemic（體液正常）、高尿滲透壓 (Uosm 480 > 300) 且高尿鈉 (Una 45 > 30)，臨床實驗室數據與 SIADH 完全相同，此即為 SIADH-like TIH Phenotype。其原因為 Thiazide 特異性破壞 DCT 的自由水清除率（Medullary Dilution），配合 PGT 缺陷誘發 AQP2 膜插入。處置首要為停用 Thiazide 藥物。",
+      "sourceExplanation": "TIH 臨床上有兩種極端表型：SIADH-like Phenotype 與 Gitelman-like Phenotype。本例患者呈Euvolemic、高尿滲透壓 (Uosm 480 > 300) 且高尿鈉 (Una 45 > 30)，臨床實驗室數據與 SIADH 完全相同，此即為 SIADH-like TIH Phenotype。其原因為 Thiazide 特異性破壞 DCT Medullary Dilution，配合 PGT 缺陷誘發 AQP2 膜插入。處置首要為停用 Thiazide 藥物。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_19",
@@ -633,7 +633,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Thiazide 用於 NDI 稱為 Paradoxical Antidiuresis (矛盾抗利尿作用)。Thiazide 透過輕微排鈉引起輕度 ECF Volume Depletion，代償性活化 RAAS 並刺激 Proximal Tubule 重吸收大量的等滲透壓水鈉，使最終抵達 Distal Nephron 與 Collecting Duct 的原尿量大幅減少，從而降低總每日尿量（可減少高達 50% 尿量）。",
+      "sourceExplanation": "Thiazide 用於 NDI 稱為Paradoxical Antidiuresis。Thiazide 透過輕微排鈉引起輕度 ECF Volume Depletion，代償性活化 RAAS 並刺激 Proximal Tubule 重吸收大量的等滲透壓水鈉，使最終抵達 Distal Nephron 與 Collecting Duct 的原尿量大幅減少，從而降低總每日尿量（可減少高達 50% 尿量）。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -753,7 +753,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Digoxin 的作用標的為心肌細胞膜上的 Na+/K+-ATPase。低血鉀 (Hypokalemia) 會減少 K+ 與幫浦的競爭，使 Digoxin 更易結合至 Na+/K+-ATPase；同時低血鎂 (Hypomagnesemia) 會降低幫浦活性，兩者相輔相成顯著增加 Digoxin 中毒與致命心律不整的風險。",
+      "sourceExplanation": "Digoxin 的作用標的為心肌細胞膜上的 Na+/K+-ATPase。Hypokalemia 會減少 K+ 與幫浦的競爭，使 Digoxin 更易結合至 Na+/K+-ATPase；Hypomagnesemia 會降低幫浦活性，兩者相輔相成顯著增加 Digoxin 中毒與致命心律不整的風險。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_20",
@@ -813,7 +813,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Thiazide 引發高尿酸血症 (Hyperuricemia) 與痛風 (Gout) 的主要機轉為：(1) Thiazide 引起的體液扣減 (Volume Depletion) 會強效刺激 Proximal Tubule 經由 URAT1 與 OAT4 增加尿酸 (Urate) 的被動與主動重吸收；(2) Thiazide 本身為有機陰離子，在 PCT 分泌時會與尿酸競爭 OAT1/OAT3 分泌通道。",
+      "sourceExplanation": "Thiazide Hyperuricemia Gout 的主要機轉為：(1) Thiazide Volume Depletion 會強效刺激 Proximal Tubule 經由 URAT1 與 OAT4 Urate 的被動與主動重吸收；(2) Thiazide 本身為有機陰離子，在 PCT 分泌時會與尿酸競爭 OAT1/OAT3 分泌通道。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_5",
@@ -873,7 +873,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Thiazide 引發高血糖 (Hyperglycemia) 的核心離子機轉為 Hypokalemia (低血鉀)。胰臟 Beta 細胞分泌 Insulin 依賴 ATP-sensitive K+ 通道 (K-ATP) 的關閉與膜去極化；當細胞外鉀離子過低時，K-ATP 通道關閉受阻，抑制膜去極化與 Calcium 流入，致使 Insulin 吐出量顯著減少。臨床上矯正低血鉀可改善 Thiazide 引起的耐糖不良。",
+      "sourceExplanation": "Thiazide Hyperglycemia 的核心離子機轉為Hypokalemia。胰臟 Beta 細胞分泌 Insulin 依賴 ATP-sensitive K+ K-ATP 的關閉與膜去極化；當細胞外鉀離子過低時，K-ATP 通道關閉受阻，抑制膜去極化與 Calcium 流入，致使 Insulin 吐出量顯著減少。臨床上矯正低血鉀可改善 Thiazide 引起的耐糖不良。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_21",
@@ -933,7 +933,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "Indapamide 屬於脂溶性高的 Thiazide-like Diuretic，在常用劑量 (1.25-2.5 mg/day) 下具有顯著的血管擴張與降壓效果，且對血糖 (Glucose Profile) 與血脂 (Lipid Profile) 的負面代謝影響最小（Metabolically Neutral），特別適合併有 Diabetes 或 Metabolic Syndrome 的高血壓患者。",
+      "sourceExplanation": "Indapamide 屬於脂溶性高的 Thiazide-like Diuretic，在常用劑量 (1.25-2.5 mg/day) 下具有顯著的血管擴張與降壓效果，Glucose Profile Lipid Profile Metabolically Neutral，特別適合併有 Diabetes 或 Metabolic Syndrome 的高血壓患者。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -993,7 +993,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "NSAIDs (如 Ibuprofen, Indomethacin) 會抑制腎臟 COX-1/COX-2 酵素，減少局部前列腺素 (PGE2, PGI2) 的合成。前列腺素具有擴張進球小動脈與直接抑制小管排鈉的作用；當前列腺素被 NSAID 阻斷時，會引發腎血管收縮與水鈉滯留，從而顯著減弱 (Blunt) Thiazide 與 Loop 利尿劑的利尿降壓效果。",
+      "sourceExplanation": "NSAIDs (如 Ibuprofen, Indomethacin) 會抑制腎臟 COX-1/COX-2 酵素，減少局部前列腺素 (PGE2, PGI2) 的合成。前列腺素具有擴張進球小動脈與直接抑制小管排鈉的作用；當前列腺素被 NSAID 阻斷時，會引發腎血管收縮與水鈉滯留，Blunt Thiazide 與 Loop 利尿劑的利尿降壓效果。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_12",

@@ -37,7 +37,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_3.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_3.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -98,7 +100,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_2.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_2.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -159,7 +163,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_5.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_5.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -220,7 +226,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_6.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_6.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -281,7 +289,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_7.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_7.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -342,7 +352,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_8.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_8.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -403,8 +415,12 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_4_part2.png",
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_9.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_4_part2.png"
+        },
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_9.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -465,7 +481,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -535,7 +553,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -596,7 +616,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -666,7 +688,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Fig_36_1.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Fig_36_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -727,7 +751,9 @@
       "qcStatus": "PASSED",
       "qcVerified": true,
       "resolvedImages": [
-        "2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_4_part1.png"
+        {
+          "relPath": "/2020 Brenner 11e/36. Urinary Tract Infection in Adults/Table_36_4_part1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -759,5 +785,6 @@
       "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
     }
   ],
-  "updatedAt": "2026-07-29T02:41:55.000Z"
+  "updatedAt": "2026-07-29T02:41:55.000Z",
+  "paperId": "2026_Urinary_Tract_Infection_(主題備考)"
 }

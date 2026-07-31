@@ -34,8 +34,12 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Metanephric Kidney 的初期發育仰賴 Metanephric Mesenchyme (MM) 分泌的 GDNF，作用於 Wolffian Duct (Mesonephric Duct) 表面的 RET Receptor 與 GFRalpha1 Cofactor，誘導 Ureteric Bud 萌出並進行 Branching Morphogenesis。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_1_2.png",
-        "/server-data/assets/cakut_embryology_gene_pathway.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_1_2.png"
+        },
+        {
+          "relPath": "/server-data/assets/cakut_embryology_gene_pathway.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -91,7 +95,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "PAX2 轉錄因子突變引發 Renal Coloboma Syndrome (亦稱 Papillorenal Syndrome)，特徵為 Optic Nerve Coloboma 伴隨 Renal Hypodysplasia 及 Vesicoureteral Reflux (VUR)。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -147,7 +153,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "HNF1B (TCF2) 基因突變引發 Renal Cysts and Diabetes (RCAD) Syndrome，臨床表徵包括 MODY5、Pancreatic Hypoplasia、Hypomagnesemia、Hyperuricemia/Gout 及 Multicystic Dysplastic Kidney (MCDK) 或 Renal Dysplasia。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -203,7 +211,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Branchio-Oto-Renal (BOR) Syndrome 最常見的基因突變為 EYA1 (亦包含 SIX1 與 SIX5)，臨床上以 Branchial Cleft Cysts/Fistulae、Preauricular Pits、Hearing Loss 及 CAKUT (Renal Agenesis / Dysplasia) 為特徵。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -259,7 +269,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Potter Sequence 的致病核心是因雙側 Renal Agenesis 或嚴重的 Severe LUTO 導致 Fetal Urine 產量銳減，引發 In utero Oligohydramnios。缺乏羊水緩衝使得子宮壁對胎兒產生物理性壓迫，導致 Pulmonary Hypoplasia、Compressed Potter Facies 及 Limb Deformities。",
       "resolvedImages": [
-        "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        {
+          "relPath": "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -315,8 +327,12 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對單側 Multicystic Dysplastic Kidney (MCDK) 的現行標準處置為 Conservative Management，因為絕大多數 MCDK 會隨時間 Involution。重點是檢查對側正常腎臟是否伴隨 Vesicoureteral Reflux (VUR) 或 UPJO。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_72_3.png",
-        "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_72_3.png"
+        },
+        {
+          "relPath": "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -372,8 +388,12 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Horseshoe Kidney 通常在兩側腎臟 Inferior Poles 發生 Isthmus 融合。胚胎發育中由盆腔向上推升時，Isthmus 會勾住 Inferior Mesenteric Artery (IMA) 的起點 (L3 Level)，使 Cephalad Ascent 停止於腰椎下段。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_72_5.png",
-        "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_72_5.png"
+        },
+        {
+          "relPath": "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -429,7 +449,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Crossed Fused Ectopia 的解剖特徵為 Crossed Ectopic Kidney 跨過中線移位至對側並與對側腎融合，但其 Ureter 仍引流回原本同側的 Bladder Trigone，故 Ureter 跨越中線。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_72_5.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_72_5.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -485,8 +507,12 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Weigert-Meyer Law 規範完整 Duplex Collecting System 的解剖規律：Upper Pole Ureter 開口於 Medial & Inferior 位置，常伴隨 Ureterocele 或 Ectopic Insertion 造成 Upper Pole Obstruction；Lower Pole Ureter 開口於 Lateral & Superior 位置，因內壁隧道較短易引起 Vesicoureteral Reflux (VUR)。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_72_6.png",
-        "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_72_6.png"
+        },
+        {
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -542,7 +568,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Grade III Vesicoureteral Reflux (VUR) 的國際分級特徵為：對照劑逆流至 Ureter、Renal Pelvis 及 Calyces，伴隨 Ureter 及 Pelvis 的 Mild-to-moderate Dilation 以及 Calyceal Blunting。",
       "resolvedImages": [
-        "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        {
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -598,7 +626,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Continuous Prophylactic Antibiotic (CAP) 或手術干預 (如 Endoscopic Deflux 與 Ureteral Reimplantation) 的主要臨床指徵為：反覆發作的 Febrile UTIs、高分級 VUR (Grade IV-V) 或出現 Breakthrough Infections 與新發 Cortical Scarring。",
       "resolvedImages": [
-        "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        {
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -654,7 +684,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Posterior Urethral Valves (PUV) 是男嬰最嚴重的 Severe LUTO。Ultrasound 及 VCUG 上呈現thickened Bladder wall與擴張的 Prostatic Urethra，構成典型的 Keyhole Sign，常伴雙側 Hydroureteronephrosis。",
       "resolvedImages": [
-        "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        {
+          "relPath": "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -710,7 +742,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "PUV 新生兒的急診第一步為立即放置小號 Feeding Tube 或 Transurethral Catheter 進行 Urinary Decompression，並矯正電解質與酸鹼異常。病情穩定後首選微創 Endoscopic Valve Ablation。",
       "resolvedImages": [
-        "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        {
+          "relPath": "/server-data/assets/cakut_puv_keyhole_potter_sequence.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -766,7 +800,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Ureteropelvic Junction Obstruction (UPJO) 特徵為 Renal Pelvis 擴張但 Ureter 無擴張。MAG3 Diuretic Renogram判定 Washout T1/2 > 20 分鐘代表具有顯著 Obstruction，外科重建首選 Surgical Pyeloplasty (Dismembered Pyeloplasty)。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_37_4.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_37_4.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -822,7 +858,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "女性 Ectopic Ureter 若開口於 External Sphincter 之遠端 (如 Vagina, Vestibule 或 Distal Urethra)，會出現 Continuous Dribbling Incontinence 但同時伴隨正常的週期性排尿；男性的Ectopic Orifice皆在Sphincter近端，故男性不會出現Continuous Dribbling Incontinence。",
       "resolvedImages": [
-        "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        {
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -878,7 +916,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "產前 Antenatal Hydronephrosis (32 週 APD >= 10 mm) 的新生兒，建議於出生 48 小時後 (避開出生頭兩天生理性脫水導致Ultrasound假陰性) 安排產後Ultrasound評估，並依據指引評估是否使用 Prophylactic Antibiotics 與 VCUG。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_37_4.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_37_4.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -934,7 +974,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Single Functioning Kidney 的長遠風險來自於代償性 Glomerular Hyperfiltration，導致 Intraglomerular Hypertension、Podocyte Injury 及次發性 Focal Segmental Glomerulosclerosis (FSGS)，引發 Proteinuria 與 CKD 進展。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -990,7 +1032,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "SALL1 基因突變可引發 Townes-Brocks Syndrome，臨床特徵包含 Imperforate Anus、Triphalangeal Thumbs / Thumb Malformations、Dysmorphic Ears / Hearing Loss 及 CAKUT (Renal Hypoplasia / Dysplasia)。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -1046,7 +1090,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "GATA3 轉錄因子突變導致 HDR Syndrome (Hypoparathyroidism, Sensorineural Deafness, and Renal Dysplasia)，為常染色體顯性遺傳的 CAKUT 症候群。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Table_72_1.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Table_72_1.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -1102,7 +1148,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Reflux Nephropathy 是因長期未矯正的高分級 VUR 導致 Intrarenal Reflux 及反覆感染，最終引發 Cortical Scarring、Tubulointerstitial Fibrosis 及代償性 Hyperfiltration 造成的 Secondary FSGS，臨床表現為 Hypertension 及 Proteinuria。",
       "resolvedImages": [
-        "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        {
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png"
+        }
       ],
       "nlmResponses": [
         {

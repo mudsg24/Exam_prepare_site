@@ -253,7 +253,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "長期使用 Lithium 最典型的腎臟病理變化為 Chronic Tubulointerstitial Nephritis (CTIN)，常伴隨有 Interstitial Fibrosis 與 Tubular Atrophy。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_35_4.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_35_4.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -310,7 +312,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Lithium 造成的腎臟病變在 MRI 上的典型影像學特徵為散佈於 Distal Tubules 與 Collecting Ducts 的 Microcysts，呈現 T2 Hyperintense 訊號。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_25_63.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_25_63.png"
+        }
       ],
       "nlmResponses": [
         {

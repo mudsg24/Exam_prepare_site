@@ -33,7 +33,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Delayed Graft Function (DGF) 在臨床上最傳統且普遍採納的定義為 Kidney Transplantation 後首週內（First 7 Days）需要接受 Dialysis 支持。正解為 Option A。其餘選項如單日尿量未達標或一個月 Creatinine 仍高非標準 DGF 定義。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        {
+          "relPath": "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -90,7 +92,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Deceased Donor 移植後引發 Delayed Graft Function (DGF) 最主要且核心的病理生理學機轉為 Ischemia-Reperfusion Injury (IRI)，進而導致 Acute Tubular Injury (ATI) 或 Acute Tubular Necrosis (ATN)。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        {
+          "relPath": "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -147,7 +151,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Donation after Circulatory Death (DCD) 捐贈者由於經歷心跳停止前後的 Warm Ischemia Time (WIT)，加上 Cold Ischemia Time (CIT)，其發生 Delayed Graft Function (DGF) 的風險最高（高達 40-60%）。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_6.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_6.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -202,9 +208,11 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "移植後 Post-Op Day 1 突然無尿、伴隨移植腎疼痛與肉眼血尿，Doppler Ultrasound 顯示主腎動脈出現 Reversed Diastolic Flow，為典型的 Renal Vein Thrombosis 表現，屬於緊急手術探查之適應症。正解為 Option B。",
+      "sourceExplanation": "移植後 Post-Op Day 1 突然無尿、伴隨移植腎疼痛與肉眼hematuria，Doppler Ultrasound 顯示主腎動脈出現 Reversed Diastolic Flow，為典型的 Renal Vein Thrombosis 表現，屬於緊急手術探查之適應症。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ultrasound_doppler_ddx.png"
+        {
+          "relPath": "/server-data/assets/dgf_ultrasound_doppler_ddx.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -261,7 +269,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Doppler Ultrasound 的 Resistive Index (RI > 0.80) 代表 Intrarenal Microvascular Resistance 增加。這是一個高敏感度但低特異度的指標，Ischemic ATN、Acute Rejection、CNI Nephrotoxicity 及 Extrinsic Compression 皆可引起。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_3.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_3.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -318,7 +328,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "在低免疫風險的 Deceased Donor 移植患者中，若無特殊抗體抗原不相容，出現持續性 Delayed Graft Function (DGF) 時，建議於 Post-Op Day 7 至 10 執行 Diagnostic Renal Allograft Biopsy 以評估小管恢復情形或排查 Subclinical Rejection。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_4.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_4.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -375,7 +387,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Biopsy 顯示 Tubular Epithelial Cell Flattening、Loss of Brush Border、Tubular Luminal Dilatation 與 Desquamation，且 Glomeruli/Vessels 完整、C4d 為陰性，完全符合 Ischemic Acute Tubular Injury (ATI/ATN) 之病理表現。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        {
+          "relPath": "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -432,7 +446,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Acute Antibody-Mediated Rejection (ABMR) 在 Banff 病理診斷中需要三大要件：Donor-Specific Antibody (DSA) 陽性、Microvascular Inflammation（Glomerulitis 與 Peritubular Capillaritis），以及 Peritubular Capillaries 上的 Linear C4d Deposition。正解為 Option A。",
       "resolvedImages": [
-        "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        {
+          "relPath": "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -489,7 +505,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Calcineurin Inhibitor (CNI) 急性毒性主要源於 Afferent Arteriolar Vasoconstriction，引起可逆性的 GFR 下降與血中 CNI Trough Level 升高，調降 CNI 劑量後功能即可改善。正解為 Option A。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_5.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_5.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -546,7 +564,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對於 DCD 捐贈或高 DGF 風險的受體，臨床推薦採用 Antibody Induction（如 Basiliximab 或 rATG）結合 Delayed CNI Initiation（待 Diuresis 出現後再加入 CNI），以減輕 CNI 對缺血小管的血管收縮毒性。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_immunosuppression_cni_delay.png"
+        {
+          "relPath": "/server-data/assets/dgf_immunosuppression_cni_delay.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -601,7 +621,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "DGF 患者在接受維持性透析時，應嚴格避免 Intradialytic Hypotension（內透析低血壓），並維持適當的 Mean Arterial Pressure (MAP >80-85 mmHg)，以防止修復中的小管上皮細胞再次遭遇二度缺血損傷。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_immunosuppression_cni_delay.png"
+        {
+          "relPath": "/server-data/assets/dgf_immunosuppression_cni_delay.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -656,7 +678,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "大量臨床數據顯示，經歷 Delayed Graft Function (DGF) 的移植腎受體，其 Subclinical 與 Clinical Acute Rejection 的發生率顯著增加，且長期 Allograft Survival 較無 DGF 者偏低。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_6.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_6.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -711,7 +735,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "開刀房內 Vascular Unclamping 後數分鐘內移植腎即出現 Cyanosis 與 Flaccidity，組織切片呈 Intravascular Platelet Aggregation 與 Neutrophilic Arteritis，為 Pre-formed Donor-Specific Antibodies 引起的 Hyperacute Rejection。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        {
+          "relPath": "/server-data/assets/dgf_biopsy_histopathology_ddx.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -766,7 +792,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "多項隨機對照臨床試驗（RCT）證實，Deceased Donor（包含 DCD 與 ECD）腎臟在器官保存期間採用 Hypothermic Machine Perfusion (HMP) 相較於靜態冷保存（Static Cold Storage），可顯著降低 Delayed Graft Function (DGF) 的發生率。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        {
+          "relPath": "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -821,7 +849,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對於 DGF 持續超過 14 天的患者，最妥適的下一步臨床處置為執行 Repeat Renal Allograft Biopsy，以排除是否演變出疊加的 Acute Rejection 或其他 Double Pathology。正解為 Option A。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_4.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_4.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -876,7 +906,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Neutrophil Gelatinase-Associated Lipocalin (NGAL) 與 Kidney Injury Molecule-1 (KIM-1) 為評估 DGF 患者 Renal Tubular Damage 程度與復原潛力的敏感生物標記 Biomarkers。正解為 Option A。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        {
+          "relPath": "/server-data/assets/dgf_ischemia_reperfusion_pathophysiology.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -931,7 +963,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "當手術引流管出現大量清澈液體時，檢測 Fluid Creatinine Level 若遠高於同時期的 Serum Creatinine Level（通常倍數大於數倍以上），即可確診為 Urinary Leak。正解為 Option A。",
       "resolvedImages": [
-        "/server-data/assets/dgf_ultrasound_doppler_ddx.png"
+        {
+          "relPath": "/server-data/assets/dgf_ultrasound_doppler_ddx.png"
+        }
       ],
       "nlmResponses": [
         {
@@ -986,7 +1020,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Kidney Donor Profile Index (KDPI > 85%) 代表偏高的 Donor 邊緣性風險，臨床上對應較高率的 DGF 發生率、對 Ischemic Injury 的敏感度增加，以及較短的 Median Graft Survival。正解為 Option B。",
       "resolvedImages": [
-        "/server-data/assets/Brenner_Fig_70_6.png"
+        {
+          "relPath": "/server-data/assets/Brenner_Fig_70_6.png"
+        }
       ],
       "nlmResponses": [
         {

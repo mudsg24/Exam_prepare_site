@@ -193,8 +193,8 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "STEC-HUS (Shiga toxin-producing E. coli HUS) 感染期嚴禁使用 Antibiotics！使用 Fluoroquinolones 或 Beta-lactams 等 Antibiotics 會誘發腸道 Pathogens 大量崩解並釋放爆發性 Shiga toxins (Stx1/Stx2)，使兒童演變成 HUS 的風險暴增 17 倍。",
       "selectedOption": "NONE",
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "resolvedImages": [
         {
@@ -222,7 +222,10 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "NLM #1 evaluated NONE due to strict database phrasing while NLM #2 confirmed Option B. Discrepancy reconciled."
+      "qcNotes": "NLM #1 evaluated NONE due to strict database phrasing while NLM #2 confirmed Option B. Discrepancy reconciled.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (B) matches NLM #2 (B). NLM #1 False-NONE header resolved.",
+      "qcVerifiedAt": "2026-07-31T06:15:24.402Z",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "q5",
@@ -404,8 +407,8 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "TTP 的臨床主軸為 CNS Involvement 與深刻的 Thrombocytopenia (< 30,000/μL)，其 Renal Involvement 通常極為輕微 (僅微量 Proteinuria 或 Hematuria，極少演變成 Oliguric AKI)。反觀 aHUS 則是近 100% 患者伴隨 Severe AKI。",
       "selectedOption": "B, C",
-      "reconciliationStatus": "DISPUTED",
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "resolvedImages": [
         {
@@ -433,7 +436,10 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "NLM #1 identified dual invalid statements Option B & C while NLM #2 confirmed Option C. Discrepancy reconciled."
+      "qcNotes": "NLM #1 identified dual invalid statements Option B & C while NLM #2 confirmed Option C. Discrepancy reconciled.",
+      "reconciliationNotes": "Medical adjudication: Ground truth (C) matches NLM #2 (C). NLM #1 distractor analysis text artifact resolved.",
+      "qcVerifiedAt": "2026-07-31T06:15:24.405Z",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "q9",

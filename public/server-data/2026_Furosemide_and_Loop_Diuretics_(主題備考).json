@@ -30,7 +30,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Furosemide Stress Test (FST) 的標準試驗劑量在 Loop-Naive（先前未曾使用迴路利尿劑）患者中為 1.0 mg/kg IV Bolus；若患者先前有 Loop Diuretic 使用史，則劑量需調整至 1.5 mg/kg IV Bolus。評估 2 小時累積尿量（Cumulative 2-Hour Urine Output），若尿量 ≥ 200 mL（相當於平均 ≥ 100 mL/hr），判定為 FST Positive，代表 Tubular Functional Integrity 依然保存良好，極高敏感度（87%）與特異度（84%）預測其不會進展至 KDIGO Stage 3 AKI 或需要 Renal Replacement Therapy (RRT)。",
+      "sourceExplanation": "Furosemide Stress Test (FST) 的標準試驗劑量在Loop-Naive患者中為 1.0 mg/kg IV Bolus；若患者先前有 Loop Diuretic 使用史，則劑量需調整至 1.5 mg/kg IV Bolus。評估 2 Cumulative 2-Hour Urine Output，若尿量 ≥ 200 mL（相當於平均 ≥ 100 mL/hr），判定為 FST Positive，代表 Tubular Functional Integrity 依然保存良好，極高敏感度（87%）與特異度（84%）預測其不會進展至 KDIGO Stage 3 AKI 或需要 Renal Replacement Therapy (RRT)。",
       "resolvedImages": [
         {
           "id": "FST_Protocol_AI",
@@ -144,7 +144,7 @@
       "selectedOption": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Furosemide Stress Test (FST) 的絕對禁忌症包括：Uncorrected Severe Volume Depletion / Hypovolemia（未矯正的嚴重大水份流失）以及 Severe Urinary Tract Obstruction（雙側或單腎尿路阻塞）。在 Volume Depletion 狀態下給予大劑量 Loop Diuretic，會加速 Renal Perfusion 惡化引發 Ischemic ATN 與 Prerenal Failure，甚至致使過度 Dehydration。進行 FST 前必須確認患者血容量充足 (Euvolemic) 並排除阻塞。",
+      "sourceExplanation": "Furosemide Stress Test (FST) 的絕對禁忌症包括：Uncorrected Severe Volume Depletion /Hypovolemia以及Severe Urinary Tract Obstruction。在 Volume Depletion 狀態下給予大劑量 Loop Diuretic，會加速 Renal Perfusion 惡化引發 Ischemic ATN 與 Prerenal Failure，甚至致使過度 Dehydration。進行 FST Euvolemic 並排除阻塞。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -250,7 +250,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Nephrotic Syndrome 伴隨 Heavy Albuminuria 下，大量過濾至 Tubular Lumen 的 Albumin 會在管腔內形成「Urinary Albumin Entrapment (管腔內蛋白陷阱)」。由於 Furosemide 對 Albumin 有高親和力，管腔中游離的 Furosemide 會被大量結合 (Bound Furosemide)，致使能真正結合並抑制 Apical NKCC2 的 Free Active Furosemide 濃度顯著下降，引發嚴重的 Luminal Diuretic Resistance。",
+      "sourceExplanation": "在 Nephrotic Syndrome 伴隨 Heavy Albuminuria 下，大量過濾至 Tubular Lumen 的 Albumin 會在管腔內形成「Urinary Albumin Entrapment」。由於 Furosemide 對 Albumin 有高親和力，管腔中游離的 Furosemide Bound Furosemide，致使能真正結合並抑制 Apical NKCC2 的 Free Active Furosemide 濃度顯著下降，引發嚴重的 Luminal Diuretic Resistance。",
       "resolvedImages": [
         {
           "id": "Furosemide_Albumin_AI",
@@ -307,7 +307,7 @@
       "selectedOption": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 Cochrane 與多項系統性 Meta-analyses，將 IV 25% Albumin 與 IV Furosemide 併用，其臨床實證效益僅顯著於「Serum Albumin < 2.0 g/dL 伴隨 Refractory Edema / Severe Hypovolemia」的特定患者。在血清蛋白 > 2.0–2.5 g/dL 時常規併用，並無法顯著增加累積利尿量或降低死亡率，且效益多僅維持前 6-8 小時（Modest transient natriuresis）。KDIGO 與權威實證均建議不可全盤常態性使用，應優先發揮 Furosemide 高階天花板劑量與連續滴注效益。",
+      "sourceExplanation": "根據 Cochrane 與多項系統性 Meta-analyses，將 IV 25% Albumin 與 IV Furosemide 併用，其臨床實證效益僅顯著於「Serum Albumin < 2.0 g/dL 伴隨 Refractory Edema / Severe Hypovolemia」的特定患者。在血清蛋白 > 2.0–2.5 g/dL 時常規併用，並無法顯著增加累積利尿量或降低死亡率，且效益多僅維持前 6-8 Modest transient natriuresis。KDIGO 與權威實證均建議不可全盤常態性使用，應優先發揮 Furosemide 高階天花板劑量與連續滴注效益。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -420,7 +420,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Torsemide 具有高度且可預測的 Oral Bioavailability (80–100%)，且半衰期較長 (3–4 小時，在 Cirrhosis/HF 患者可延長)。相對而言，Furosemide 口服吸收率不穩定 (10–90%，平均 50%) 且易受腸道水腫 (Gut Edema) 干擾。Torsemide 的高吸收率與長半衰期使其在 Chronic Heart Failure 處置中表現優異，且部分研究顯示其具有額外的 Anti-fibrotic (Aldosterone antagonist-like) 心臟重塑保護效益。",
+      "sourceExplanation": "Torsemide 具有高度且可預測的 Oral Bioavailability (80–100%)，且半衰期較長 (3–4 小時，在 Cirrhosis/HF 患者可延長)。相對而言，Furosemide 口服吸收率不穩定 (10–90%，平均 50%) Gut Edema 干擾。Torsemide 的高吸收率與長半衰期使其在 Chronic Heart Failure 處置中表現優異，且部分研究顯示其具有額外的 Anti-fibrotic (Aldosterone antagonist-like) 心臟重塑保護效益。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_6",
@@ -534,7 +534,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Loop Diuretics 抑制 TAL 的 NKCC2，導致 ROMK 介導的 K+ Lumen Recycling 大幅減少，使 TAL 的 Lumen-Positive Transepithelial Voltage (+10 to +20 mV) 消失。由於 60–70% 的過濾 Mg²⁺ 依賴此正電位驅動經由 Claudin-16/19 進出 Paracellular Pathway 進行重吸收，電位消失直接造成大量 Mg²⁺ 從尿液流失 (Renal Magnesium Wasting)。低血鎂會解禁 ROMK 並抑制 Na/K-ATPase，引發難治性低血鉀 (Refractory Hypokalemia)。",
+      "sourceExplanation": "Loop Diuretics 抑制 TAL 的 NKCC2，導致 ROMK 介導的 K+ Lumen Recycling 大幅減少，使 TAL 的 Lumen-Positive Transepithelial Voltage (+10 to +20 mV) 消失。由於 60–70% 的過濾 Mg²⁺ 依賴此正電位驅動經由 Claudin-16/19 進出 Paracellular Pathway 進行重吸收，電位消失直接造成大量 Mg²⁺ Renal Magnesium Wasting。低血鎂會解禁 ROMK 並抑制 Na/K-ATPase，Refractory Hypokalemia。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -637,7 +637,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 CKD 或是 Severely Reduced GFR 患者中，由於 Endogenous Organic Anions (Uremic Toxins) 累積並競爭 OAT1/OAT3 轉運體，且功能性 Nephron Mass 減少，利尿劑向管腔分泌受阻。低劑量 (如 40 mg IV) 完全無法達到開啟 NKCC2 抑制的「Tubular Threshold Concentration」。因此，CKD Stage 4-5 的單次最大天花板劑量 (Ceiling Dose) 需調高至 160–240 mg IV Furosemide。高於天花板劑量的單次平移給藥無法增加利尿效益，只會增加毒性。",
+      "sourceExplanation": "在 CKD 或是 Severely Reduced GFR 患者中，由於 Endogenous Organic Anions (Uremic Toxins) 累積並競爭 OAT1/OAT3 轉運體，且功能性 Nephron Mass 減少，利尿劑向管腔分泌受阻。低劑量 (如 40 mg IV) 完全無法達到開啟 NKCC2 抑制的「Tubular Threshold Concentration」。因此，CKD Stage 4-5 Ceiling Dose 需調高至 160–240 mg IV Furosemide。高於天花板劑量的單次平移給藥無法增加利尿效益，只會增加毒性。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_15",
@@ -694,7 +694,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "長期給予高劑量 Loop Diuretics 會持續將大量未再吸收的 NaCl 衝刷遞送至遠端腎小管 (Distal Solute Delivery)。這會刺激 Distal Convoluted Tubule (DCT) 上皮細胞發生 Structural Hypertrophy (細胞肥大) 與 Hyperplasia (增生)，同時顯著 Upregulate 遠端 Thiazide-Sensitive Na-Cl Cotransporter (NCC / NCCT) 與 ENaC 的表現量。肥大的 DCT 轉運能力增加數倍，將 TAL 漏掉的 Na+ 在遠端全數『回收捕捉』，引發嚴重的 Diuretic Resistance。",
+      "sourceExplanation": "長期給予高劑量 Loop Diuretics 會持續將大量未再吸收的 NaCl Distal Solute Delivery。這會刺激 Distal Convoluted Tubule (DCT) 上皮細胞發生Structural Hypertrophy 與Hyperplasia，同時顯著 Upregulate 遠端 Thiazide-Sensitive Na-Cl Cotransporter (NCC / NCCT) 與 ENaC 的表現量。肥大的 DCT 轉運能力增加數倍，將 TAL 漏掉的 Na+ 在遠端全數『回收捕捉』，引發嚴重的 Diuretic Resistance。",
       "resolvedImages": [
         {
           "id": "Diuretic_Resistance_AI",
@@ -751,7 +751,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Sequential Nephron Blockade (階梯式腎小管順序阻斷) 是突破 Diuretic Resistance 的標準精準策略。當長期使用 Loop Diuretic 引發 DCT Remodeling 與 NCC Upregulation 時，在給予 IV Furosemide 前 30 分鐘口服 Thiazide-like Diuretic（如 Metolazone 2.5–5 mg PO 或 Hydrochlorothiazide），能預先精確阻斷肥大 DCT 的 NCC 再吸收，使 TAL 漏下的 Na+ 無法在遠端被回收，兩藥產生強烈的 Synregistic Natriuresis (協同排鈉利尿效益)。",
+      "sourceExplanation": "Sequential Nephron Blockade 是突破 Diuretic Resistance 的標準精準策略。當長期使用 Loop Diuretic 引發 DCT Remodeling 與 NCC Upregulation 時，在給予 IV Furosemide 前 30 分鐘口服 Thiazide-like Diuretic（如 Metolazone 2.5–5 mg PO 或 Hydrochlorothiazide），能預先精確阻斷肥大 DCT 的 NCC 再吸收，使 TAL 漏下的 Na+ 無法在遠端被回收，兩藥產生強烈的Synregistic Natriuresis。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -808,7 +808,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Acetazolamide 是 Carbonic Anhydrase (CA) Inhibitor，作用於 Proximal Tubule (PT)，能抑制 NaHCO3 的再吸收並促進尿中 HCO3- 排泄 (Bicarbonaturia)。在強效排鈉利尿引發嚴重 Hypokalemic Metabolic Alkalosis 時，加用 Acetazolamide (250–500 mg IV/PO) 不僅能有效糾正 Metabolic Alkalosis，還能增加水與電解質向遠端遞送，達成近曲小管層級的 Sequential Nephron Blockade。",
+      "sourceExplanation": "Acetazolamide 是 Carbonic Anhydrase (CA) Inhibitor，作用於 Proximal Tubule (PT)，能抑制 NaHCO3 的再吸收並促進尿中 HCO3- Bicarbonaturia。在強效排鈉利尿引發嚴重 Hypokalemic Metabolic Alkalosis 時，加用 Acetazolamide (250–500 mg IV/PO) 不僅能有效糾正 Metabolic Alkalosis，還能增加水與電解質向遠端遞送，達成近曲小管層級的 Sequential Nephron Blockade。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -857,7 +857,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Braking Phenomenon (煞車現象) 指的是在施加首劑或早期 Loop Diuretic 引起顯著排鈉利尿後，隨著體內 Effective Arterial Blood Volume (EABV) 減少，身體啟動自體穩態保護，大幅活化 Renin-Angiotensin-Aldosterone System (RAAS) 與 Sympathetic Nervous System (SNS)。這會刺激 Proximal Tubule (via Angiotensin II) 與 Distal Tubule / CD (via Aldosterone) 的 Na+ 重吸收，使後續藥物劑量的排鈉效益逐漸下降遞減。",
+      "sourceExplanation": "Braking Phenomenon 指的是在施加首劑或早期 Loop Diuretic 引起顯著排鈉利尿後，隨著體內 Effective Arterial Blood Volume (EABV) 減少，身體啟動自體穩態保護，大幅活化 Renin-Angiotensin-Aldosterone System (RAAS) 與 Sympathetic Nervous System (SNS)。這會刺激 Proximal Tubule (via Angiotensin II) 與 Distal Tubule / CD (via Aldosterone) 的 Na+ 重吸收，使後續藥物劑量的排鈉效益逐漸下降遞減。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_10",
@@ -914,7 +914,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Continuous IV Furosemide Infusion (連續靜脈滴注) 在藥動學上的優勢在於能將管腔內的藥物濃度持續穩定維繫在「Natriuretic Threshold (排鈉門檻)」之上，避免像 Intermittent IV Bolus 一樣產生濃度起伏過大與 Bolus 後的 Sub-therapeutic Gaps。此外，Continuous Infusion 避免了高尖峰血漿濃度 (High Peak Plasma Levels)，從而顯著降低了 Ototoxicity (耳毒性) 的發生風險。",
+      "sourceExplanation": "Continuous IV Furosemide Infusion 在藥動學上的優勢在於能將管腔內的藥物濃度持續穩定維繫在「Natriuretic Threshold」之上，避免像 Intermittent IV Bolus 一樣產生濃度起伏過大與 Bolus 後的 Sub-therapeutic Gaps。此外，Continuous Infusion High Peak Plasma Levels，從而顯著降低了Ototoxicity 的發生風險。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -963,7 +963,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Cirrhosis with Ascites 的利尿處置中，患者體內有極度亢進的 Secondary Hyperaldosteronism。因此，主要利尿劑為 Mineralocorticoid Receptor Antagonist (Spironolactone)。經典標準聯合比例為 100 mg Oral Spironolactone 比 40 mg Oral Furosemide (比例 100:40 或 5:2)。此黃金比例能在發揮最大排鈉抗水腫效益的同時，精確維持血鉀平衡 (Normokalemia)。劑量向上階梯梯次調升時亦維持此 100:40 比例（最大至 400 mg : 160 mg）。",
+      "sourceExplanation": "在 Cirrhosis with Ascites 的利尿處置中，患者體內有極度亢進的 Secondary Hyperaldosteronism。因此，主要利尿劑為 Mineralocorticoid Receptor Antagonist (Spironolactone)。經典標準聯合比例為 100 mg Oral Spironolactone 比 40 mg Oral Furosemide (比例 100:40 或 5:2)。此黃金比例能在發揮最大排鈉抗水腫效益的同時，Normokalemia。劑量向上階梯梯次調升時亦維持此 100:40 比例（最大至 400 mg : 160 mg）。",
       "resolvedImages": [],
       "nlmResponses": [
         {

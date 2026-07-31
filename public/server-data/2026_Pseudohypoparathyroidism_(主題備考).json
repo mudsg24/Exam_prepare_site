@@ -673,10 +673,11 @@
       },
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcVerifiedAt": "2026-07-30T04:02:18.622122+00:00",
+      "qcVerifiedAt": "2026-07-31T06:13:08.845Z",
       "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "RECONCILED_MATCH",
+      "qcVerifiedBy": "Tonks",
+      "reconciliationNotes": "Verified by tn-exam-qc: Both NLM Run 1 and Run 2 selected Option A matching Ground Truth A."
     },
     {
       "id": "q12",

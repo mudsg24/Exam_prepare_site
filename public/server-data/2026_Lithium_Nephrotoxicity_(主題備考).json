@@ -55,9 +55,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). ENaC entry, GSK-3beta inhibition, and AQP2 downregulation verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -110,9 +110,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Nephrogenic Diabetes Insipidus association verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -151,7 +151,7 @@
           "rawResponse": "### **1. Answer Determination (解答判定)**\n\n本題**無正確選項 (No option is correct)**。\n\n在 **`Lithium-induced Nephrogenic Diabetes Insipidus`** 患者中，其尿液呈極度稀釋狀態。當患者合併嚴重 **`hypernatremia`** 與 **`volume depletion`**，且經初始輸液補足血管內容積（**`intravascular volume`**）後，用以糾正剩餘 **`free water deficit`** 的最合適液體應為不含電解質的純水（**`solute-free water`**），臨床上主要以靜脈輸注 **`5% Dextrose in Water`**（即 **`D5W`**）或口服/經鼻胃管灌注純水（**`water`**）的方式進行，然而此二者皆未列在選項 (A)、(B)、(C)、(D) 當中。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis (正解詳細臨床與生理機制分析)**\n\n在 **`Lithium-induced Nephrogenic Diabetes Insipidus`** 的病理生理學與液體治療管理中，理解腎臟對水分與溶質的排泄限制是制定正確臨床決策的關鍵：\n\n1.  **鋰鹽誘導腎因性尿崩症的微觀機制 (Pathophysiology of Lithium-induced NDI)**：\n    鋰離子（**`Lithium`**）會經由集合管上皮細胞頂端膜的 **`epithelial sodium channel`**（**`ENaC`**）進入細胞內 [1-3]。蓄積的鋰離子會抑制細胞內訊號傳導，進而下調 **`aquaporin-2`**（**`AQP2`**）水通道蛋白的轉錄、表達與頂端膜插入 [4-6]。這導致 **`collecting duct`** 對抗利尿激素（**`vasopressin`** 或 **`AVP`**）產生嚴重的抵抗性 [5, 7, 8]。\n\n2.  **極度稀釋尿液與水分流失 (Dilute Urine and Free Water Loss)**：\n    由於 **`collecting duct`** 喪失了對水分的重吸收能力，患者會持續排出大量且極度稀釋的尿液，其 **`urine osmolality`** 通常極低（典型低於 **`100 to 200 mOsm/kg H2O`**） [7, 9, 10]。當患者無法攝取足夠水分代償尿液流失時，體內會發生嚴重的 **`free water deficit`**，繼而引發 **`severe hypernatremia`** 與 **`volume depletion`** [11, 12]。\n\n3.  **液體治療的兩階段原則與 NDI 的獨特物理限制**：\n    *   **第一階段：容積復甦 (Volume Resuscitation)**：當患者合併血液動力學不穩定或嚴重 **`volume depletion`** 時，首要任務是使用 **`0.9% Sodium Chloride`**（**`isotonic saline`**）重建血管內容積，確保重要器官灌流 [13, 14]。\n    *   **第二階段：糾正自由水赤字 (Correcting Free Water Deficit)**：一旦血管內容積得到恢復，必須針對剩餘的 **`free water deficit`** 進行補充。然而，由於 **`NDI`** 患者的腎臟完全喪失了濃縮功能，其排出尿液的溶質與鈉濃度極低 [15]。\n    *   **為何不能使用含鈉液體**：在 **`NDI`** 患者中，即使投予 **`0.45% Sodium Chloride`**（其鈉濃度為 **`77 mEq/L`**，張力為 **`154 mOsm/kg H2O`**），其鈉濃度與滲透壓仍遠高於患者排出的極稀釋尿液 [15, 16]。此時若輸入任何含鈉的 hypotonic 溶液，會增加體內的溶質負荷（**`solute load`**）。為了排泄這些額外的鈉與溶質，受損的 **`NDI`** 腎臟將不得不排出更多容積的稀釋尿液，這會造成代償性排尿與進一步的腎臟自由水流失，進而反常地**加重高鈉血症 (worsen the hypernatremia)** [15]。\n\n4.  **官方指引的黃金推薦**：\n    根據《*Brenner & Rector's The Kidney*》與 **`KDIGO`** 規範，針對 **`NDI`** 引起的 **`hyperosmolar dehydration`** 狀態：\n    *   **`Chapter 15 (Passage 61)`** 明確指出：**\"In the acute setting... only free water administration can reverse hyperosmolality.\"**（在急性期，只有投予 free water 才能逆轉高滲透壓狀態）。\n    *   **`Chapter 73 (Passage 483, 484)`** 強調：**\"Patients with NDI essentially lose pure water in the urine and thus should receive dextrose in water as IV fluid...\"**（NDI 患者在尿中流失的實質上是純水，因此應接受 dextrose in water 作為靜脈補液）。並且警告，**\"...the administration of a fluid with a higher sodium concentration than the urine, such as 0.9% or even 0.45% saline, will worsen the hypernatremia.\"**（給予鈉濃度高於患者尿液的液體，如 0.9% 甚至 0.45% 的鹽水，將會惡化其 hypernatremia）。\n    *   因此，唯一合乎生理學邏輯的治療液體是不含鈉的 **`dextrose in water`**（如 **`D5W`**）或口服 **`free water`** [15, 17]。\n\n---\n\n### **3. Distractor Option Analysis (干擾選項分析)**\n\n*   **Option (A) 0.9% Sodium Chloride (Isotonic Saline)**：\n    *   *為何錯誤*：**`0.9% Sodium Chloride`** 的鈉濃度為 **`154 mEq/L`**，與正常血漿等張 [16, 18]。它在臨床上是 **`volume resuscitation`** 的首選，用於擴張細胞外液容積（**`ECF`**）以逆轉休克與重度 **`volume depletion`** [13, 18]。然而，當血管内容積恢復、進入補水階段後，持續給予 **`0.9% Sodium Chloride`** 會輸入大量的鈉離子，無法提供任何有效 **`free water`**，反而會急劇升高血鈉 [18, 19]。\n    *   *出題者意圖*：此選項是典型的「時序性陷阱（temporal trap）」，測試考生能否區分「急診搶救休克期（首選 0.9% 鹽水）」與「後期安全糾正細胞內脫水期（首選不含溶質的自由水）」在治療方針與生理需求上的本質差異。\n\n*   **Option (B) 3% Sodium Chloride (Hypertonic Saline)**：\n    *   *為何錯誤*：**`3% Sodium Chloride`** 是極高濃度的鹽水（鈉濃度達 **`513 mEq/L`**），其唯一的臨床指徵是搶救伴隨嚴重神經系統症狀的急性 **`hyponatremia`**（低鈉血症），以快速將血鈉拉升至安全區帶，減輕腦水腫 [20, 21]。如果將其使用於本例已處於重度 **`hypernatremia`**（高鈉血症）且合併 **`NDI`** 的患者，將會導致災難性的滲透壓暴增、神經細胞脫水皺縮，甚至引發死亡。\n    *   *出題者意圖*：測試考生是否會因看見「危急值」或「電解質急症」而產生方向性混淆，評估其對高血鈉與低鈉血症搶救液體（**`3% NaCl`**）兩者生理效應的辨析精度。\n\n*   **Option (C) 0.45% Sodium Chloride (Half-Isotonic Saline)**：\n    *   *為何錯誤*：對於**腎臟濃縮功能正常**的普通高鈉血症患者，**`0.45% Sodium Chloride`** 確實是臨床常用的低張補液選擇 [22]。然而，對於 **`NDI`** 患者而言，其排尿時的尿鈉濃度極低 [15]。**`0.45% Sodium Chloride`** 的鈉濃度（**`77 mEq/L`**）仍遠高於 **`NDI`** 尿液 [15, 16]。輸入該液體會增加腎臟排泄溶質的負擔，進而帶走更多水分，導致 hypernatremia 惡化 [15]。\n    *   *出題者意圖*：這是最巧妙且最具殺傷力的干擾項。旨在篩選出那些僅機械性背誦「高鈉血症補低張鹽水（**`0.45% NaCl`**）」、卻未真正掌握「**`NDI`** 患者因固定排出極低張尿，導致任何含鈉輸液皆會惡化高鈉」這一特殊病理生理限制的高階應試者。\n\n*   **Option (D) Albumin**：\n    *   *為何錯誤*：**`Albumin`** 是一種膠體溶液（**`colloid`**），其分子量大，主要留在血管腔內以維持膠體滲透壓，僅用於特定的血流動力學重建或嚴重 hypoalbuminemia 伴隨的難治性水腫管理中 [23, 24]。它完全不含有自由水，亦無法進入細胞內，因此對糾正細胞內脫水與 **`free water deficit`** 毫無治療作用 [18]。\n    *   *出題者意圖*：評估考生對於晶體溶液（**`crystalloids`**）與膠體溶液（**`colloids`**）在體內水分區隔分布（**`fluid compartmentalization`**）上的基本物理概念認知。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點與臨床鑑別診斷)**\n\n在 **`Nephrology Board Examination`** 中，當患者表現為 **`polyuria`**（尿多）與 **`hypernatremia`**（高鈉血症）時，如何精確鑑別 **`Nephrogenic Diabetes Insipidus (NDI)`**、**`Central Diabetes Insipidus (CDI)`** 以及 **`Primary Polydipsia (PP)`**，是最核心且最具深度的對比考點：\n\n#### **High-Yield Comparison: Clinical and Diagnostic Profiles of Polyuric Disorders**\n*(根據 Chapter 15, Chapter 24 與 Chapter 72 數據整合)*\n\n| 臨床與診斷評估維度 | **`Nephrogenic Diabetes Insipidus (NDI)`** | **`Central Diabetes Insipidus (CDI)`** | **`Primary Polydipsia (PP)`** |\n| :--- | :--- | :--- | :--- |\n| **病理生理機制本質** | 腎臟對 **`AVP`** 產生抵抗性（如 **`AVPR2`** 或 **`AQP2`** 突變，或鋰鹽毒性）[5, 8]。 | 下丘腦-垂體後葉分泌與釋放 **`AVP`** 不足 [25, 26]。 | 精神性或下丘腦病變導致過度主動飲水，代償性抑制 AVP [27, 28]。 |\n| **`Water Deprivation` 後之 `Uosm` 變動** | 無法濃縮尿液（**`Uosm < 300 mOsm/kg`**）[7, 10]。 | 無法濃縮尿液（**`Uosm < 300 mOsm/kg`**）[7]。 | 尿液可顯著濃縮（**`Uosm`** 可上升，但若有嚴重 medullary washout 則可能受限）[27]。 |\n| **給予外源性 `DDAVP` 後之反應** | **無反應**（**`Uosm`** 增幅 **`< 10%`**）[7, 29]。 | **反應顯著**（**`Uosm`** 增幅 **`> 50%`**）[7, 29]。 | **無明顯進一步反應**（體內 endogenous AVP 在脫水後已達最大）[29]。 |\n| **基準 `Plasma AVP / Copeptin` 水平** | **顯著升高**（**`AVP >= 3.0 pg/mL`**，**`copeptin >= 21.4 pmol/L`**）[30-32]。 | **極低或測不到**（完全性或部分性缺乏）[7, 33]。 | **正常或偏低**，但可隨血鈉上升正常激發 [30, 32]。 |\n| **一線核心治療策略** | 1. 停用 Offending drug；<br>2. 限制鈉鹽攝入；<br>3. 給予 **`thiazide`** + **`amiloride`** / **`indomethacin`** [1, 34, 35]。 | 給予 **`desmopressin (DDAVP)`** 替代治療（鼻噴、口服或靜脈）[12, 36]。 | **行為認知治療與限水**；禁用 desmopressin（避免誘發致死性低鈉血症）[37]。 |\n\n---\n\n### **5. Citations & References (精確引用與文獻出處)**\n\n*   **Brenner & Rector's The Kidney - Chapter 15:** *Disorders of Water Balance*\n    *   **Section:** *Therapeutic Agents* $\\rightarrow$ (Passage 55: **\"Water should be considered a therapeutic agent because, when ingested or infused in sufficient quantity, there is no abnormality of body fluid volume or composition.\"** —— 支持了水作為糾正高滲透壓最天然且無害的治療製劑地位)。\n    *   **Section:** *Treatment of Different Types of Diabetes Insipidus -> Nephrogenic Diabetes Insipidus*\n        *   (Passage 61: **\"In the acute setting, diuretics are of no use in NDI, and only free water administration can reverse hyperosmolality.\"** —— **黃金文獻證據之一**，直接指出在急性期 NDI 中，利尿劑無效，僅有 free water 補充能逆轉高滲透壓狀態)。\n        *   (Passage 60: **\"...the combination of thiazides with the potassium-sparing diuretic amiloride... amiloride also has the advantage of decreasing lithium entrance into cells in the distal tubule and, because of this, may have a preferable action for the treatment of lithium-induced NDI.\"** —— 詳述了 amiloride 在治療 Lithium-induced NDI 時，經由阻斷 ENaC 減少鋰進入細胞的特異性機制基礎)。\n*   **Brenner & Rector's The Kidney - Chapter 73:** *Fluid, Electrolyte, and Acid-Base Disorders in Children*\n    *   **Section:** *Nephrogenic Diabetes Insipidus -> Presentation / Treatment*\n        *   (Passage 483: **\"Patients with NDI essentially lose pure water in the urine and thus should receive dextrose in water as IV fluid, just as they would otherwise drink water.\"** —— **黃金文獻證據之二**，確立了 NDI 的補液首選為不含鹽的 dextrose in water 溶液)。\n        *   (Passage 484: **\"Again, although this makes perfect sense in the child with a normal urinary concentrating ability, it can have disastrous consequences in the rare child with NDI because the administration of a fluid with a higher sodium concentration than the urine, such as 0.9% or even 0.45% saline, will worsen the hypernatremia. ...rather than by resorting to a fluid with a sodium and effective osmolality concentration that exceeds that of the child’s urine. Increasing the osmotic load by provision of fluids high in sodium increases the obligate water losses needed for the kidneys to excrete this increased load.\"** —— **黃金文獻證據之三**，從物理溶質排泄與滲透壓角度，徹底解釋了為什麼 0.9% 甚至 0.45% 鹽水皆會因鈉濃度與張力高於患者尿液，而惡化 NDI 患者的高鈉血症)。\n*   **KDIGO 2026 AKI-AKD Guideline - Draft:**\n    *   **Section:** *3.1 Fluid Management* $\\rightarrow$ (Passage 756, 757: 重申在無 hemorrhagic shock 狀態下使用 crystalloids 進行容積復甦的 Level 1 指引，以及 balanced 晶體在避免 hyperchloremic acidosis 上的優勢)。\n\n---\n\n### **6. Language & Terminology Rules (語言與專有名詞規範)**\n\n*   內文所有機制推導、選項剖析與對比說明，均完全使用繁體中文（**`Traditional Chinese`**）進行撰寫。\n*   所有涉及遺傳、細胞、解剖、病理、臨床表現、藥物、疾病與實驗室檢驗名稱等醫學專有名詞，均嚴格、且僅使用英文（**`English`**）書寫，完全無任何中文翻譯或中英文併列（如：**`Nephrogenic Diabetes Insipidus`**、**`free water deficit`**、**`dextrose in water`**、**`D5W`**、**`hypernatremia`**、**`Copeptin`** 等），完全符合專有名詞防護線與中英文併列禁止令。\n\n---\n\n### **7. Database Limitation Guard (數據庫限制聲明)**\n\n本篇關於 **`Lithium-induced NDI`** 的病理生理學機制、固定低張尿導致含鈉輸液（如 **`0.45% NaCl`**）惡化高鈉血症的物理機理解析、利用 **`D5W`** 進行自由水糾正的官方推薦、以及與 **`CDI`** 和 **`PP`** 的多維度鑑別，均完全基於提供的《*Brenner & Rector's The Kidney*》（第 15, 24, 72, 73 章）及最新 **`KDIGO`** 官方指引數據庫文獻進行撰寫，無任何超出此範圍之外的臨床與病理臆測。\n\n---\n\n🧬 **下一步建議：**\n您是否需要我為您建立一個完整的臨床補液與電解質監測決策樹流程圖（flowchart），系統性展示當在急診或病房遇到一位因 **`Lithium` 蓄積** 出現急性神態改變、重度高鈉（**`Na+ 168 mEq/L`**）且合併嚴重脫水的患者時，如何依據最新 **`KDIGO/Brenner 規範`**，分步實施「第一階段使用 **`0.9% NaCl`** 快速重建血流動力學、第二階段精準計算 **`free water deficit`** 並改用 **`D5W`** 以安全的速度進行細胞內補水，同時滴定給予 **`amiloride`** 以阻止鋰鹽繼續進入主細胞（參見 **`Passage 60, 473`**）」的標準化床邊決策路徑，以協助您為高階專科醫師考試設計最具實務價值的情境題？",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         },
         {
           "notebookTitle": "TSN：出題 (5-5)",
@@ -163,11 +163,11 @@
           "selectedOption": "C"
         }
       ],
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "DISPUTED",
+      "qcNotes": "NLM #1 determines NONE due to hypotonic vs volume resuscitation phase distinction, whereas NLM #2 confirms Option C (0.45% NaCl) for hypernatremia correction.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -220,9 +220,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). Amiloride ENaC blockade for lithium NDI verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -279,9 +279,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Chronic Tubulointerstitial Nephritis histology verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -338,9 +338,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). T2 hyperintense microcysts on renal MRI verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -388,14 +388,14 @@
           "rawResponse": "### 1. Answer Determination (正解判定)\n\n根據隨附的 **Brenner & Rector's The Kidney** 來源文獻，本題**沒有任何一個選項是完全正確且無瑕疵的**。\n\n*   **文獻記載的黃金預測因子**：\n    文獻明確指出，在已發生 `lithium-induced chronic tubulointerstitial nephritis` (`CTIN`) 的患者中，不論是否停用 `lithium`，**「切片時的 `serum creatinine > 2.5 mg/dL`」才是預測其最終進展至 `ESRD` 最強力且獨立的預測因子 (The most powerful predictor of ultimate progression to ESRD)** [1]。\n*   **選項 (A) 的病理生理學瑕疵**：\n    選項 **(A) Prolonged duration of Lithium therapy and pre-existing Chronic Kidney Disease** 雖然提及了 `pre-existing Chronic Kidney Disease`（可對應高 `serum creatinine` 的病理狀態），但其併列的 **`Prolonged duration of Lithium therapy`** 在病理生理學上是**錯誤的**。文獻明確記載：在長期服用 `lithium` 的患者中，約有 20% 會出現緩慢進行性的 `serum creatinine` 升高（即代表 `CKD` 的惡化與進展），但**「此進展與 `lithium` 的治療持續時間（duration of therapy）或累積劑量（cumulative dose）完全不相關」** [2]。\n*   **出題官的臨床權衡與判定**：\n    若本題為標準單選題且必須選出一個「最符合出題官原意但帶有常見臨床迷思」的選項，則為 **Option (A)**。然而，身為資深腎臟專科醫學出題官，必須在此明確指出：**嚴格來說本題無完全正確之選項**。因為 `duration of therapy` 不能預測停藥後的 `ESRD` 進展，唯有停藥時已存在的**嚴重腎功能不全（`serum creatinine > 2.5 mg/dL`，即重度 `pre-existing CKD`）**才是決定其跨越「無法逆轉點（point of no return）」並 autonomous 惡化至 `ESRD` 的唯一核心因子 [1]。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確生理與病理機制分析)\n\n在 `clinical nephrology` 中，`lithium-induced chronic tubulointerstitial nephritis` 是一種極具特徵性的藥物源性腎病變。其發生、維持以及在停藥後（`after discontinuation`）依然持續進展至 `ESRD` 的病理生理學機轉如下：\n\n1.  **Lithium 的上皮轉運與早期細胞毒性 (Cellular Entry and Early Injury)**：\n    *   `lithium` 經由腎小球自由濾過後，在 `proximal tubule` 被重吸收 [1]；隨後，在遠端管段主要經由 `collecting duct` 的 `principal cells` 頂端膜上的 **`ENaC`**（上皮鈉通道）進入細胞內蓄積 [1, 3]。\n    *   細胞內高濃度的 `lithium` 會干擾多種細胞內訊號通路（如 `calcium signaling`、`glycogen synthase kinase-3beta` 抑制等），進而下調由 `vasopressin` 調控的 **`aquaporin-2`** 水通道蛋白在頂端膜的部署，引發早期特徵性的 **`nephogenic diabetes insipidus`** [1, 4]。\n2.  **慢性結構重塑與微囊腫形成 (Chronic Remodeling and Cystogenesis)**：\n    *   隨著 `lithium` 的長期蓄積，會進一步誘發局部慢性發炎與細胞變性。在病理組織學上，典型表現為 **`focal interstitial nephritis`**，伴隨進行性的 **`tubular atrophy`**（小管萎縮）與 **`interstitial fibrosis`**（間質纖維化） [1]。\n    *   最 pathognomonic（具診斷特異性）的結構改變是：主要源自於 `distal tubule` 與 `collecting duct` 的 **`tubular dilation and microcyst formation`**（小管擴張與微囊腫形成），這是 `lithium` 毒性直接作用於 `principal cells` 的特徵性結構重塑 [1, 5]。\n3.  **無回歸點與自主進展機制 (The \"Point of No Return\" and Autonomous Progression)**：\n    *   當病患的 `CTIN` 尚未進展至重度階段（`serum creatinine < 2.5 mg/dL`）時，及時停用 `lithium` 通常能使腎功能穩定，減緩或阻斷後續的惡化。\n    *   然而，一旦 `lithium-induced CTIN` 已造成大範圍的 `interstitial fibrosis` 並且並發了嚴重的 **`focal or global glomerulosclerosis`**（腎小球硬化）時，患者的 `serum creatinine` 典型會超越 **`2.5 mg/dL`** [1]。\n    *   此時，由於大量腎元發生不可逆的結構性毀損，剩餘的健全腎元會產生代償性的 `glomerular hyperfiltration`（超濾過）與 `capillary hypertension`，這會與局部釋放的 **`TGF-beta1`**（轉化生長因子-β1）等促纖維化因子協同作用，啟動一個**自我持續、不依賴原發藥物毒性的纖維化惡性循環** [2, 6]。\n    *   因此，即使此時完全停用（`discontinue`）`lithium`，已經跨越臨界點的腎臟仍會自主性地、不可逆地進展至 **`ESRD`** [1]。而此時，患者過往服用 `lithium` 的持續時間（`duration of therapy`）已不再是決定後續進展速度的關鍵，**停藥當下的結構受損嚴重度（即 `serum creatinine > 2.5 mg/dL` 所代表的先進 `CKD` 階段）才具有決定性的預測價值** [1, 2]。\n\n---\n\n### 3. Distractor Option Analysis (其餘干擾選項分析)\n\n*   **(B) Development of Nephrogenic Diabetes Insipidus**：\n    *   **為何錯誤**：`nephrogenic diabetes insipidus`（腎因性尿崩症）雖然是 `lithium` 治療中最常見、發生最早且最特徵性的功能性腎小管病變（源於 `aquaporin-2` 水通道蛋白的下調） [1, 4]，但它**不預測**停藥後向 `ESRD` 的進行性惡化。在許多僅有 `nephrogenic diabetes insipidus` 而無嚴重間質纖維化的患者中，停用 `lithium` 後，尿液濃縮功能常可獲得部分或完全恢復 [4]。\n    *   **典型表現**：多尿（`polyuria`）、劇渴（`polydipsia`）、夜尿（`nocturia`）以及對外源性 `DDAVP` 無響應的低滲透壓尿 [4, 7]。\n    *   **出題意圖**：測試考生能否將「早期、常呈可逆性的功能性小管病變（`nephrogenic diabetes insipidus`）」與「晚期、不可逆的結構性慢性小管間質纖維化及硬化（`CTIN` 導致的 `ESRD` 進展）」進行本質上的概念分流。\n\n*   **(C) Occurrence of hypercalcemia**：\n    *   **為何錯誤**：`lithium` 可以干擾甲狀旁腺主細胞上的 `calcium-sensing receptor`（鈣敏受體）敏感度，引發繼發性甲狀旁腺功能亢進並導致 **`hypercalcemia`**。雖然 `hypercalcemia` 本身是一個可以獨立引發 `CTIN` 的代謝性因子 [8]，且是 `lithium` 眾所周知的副作用，但它並非預測 `lithium-induced CTIN` 停藥後惡化至 `ESRD` 的病理生理學驅動因子。\n    *   **典型表現**：血清鈣升高、`PTH` 異常升高或不恰當正常。\n    *   **出題意圖**：利用 `lithium` 另一個特徵性的內分泌與電解質副作用作為學術干擾，測試考生是否會將「副反應的伴隨表型」誤視為「移植物/自體腎失能的進展預測指標」。\n\n*   **(D) Microscopic hematuria**：\n    *   **為何錯誤**：`microscopic hematuria`（微觀血尿）是典型的 `glomerular disease`（如 `IgA nephropathy`）或尿路腫瘤/結石的特徵 [9, 10]，但在以間質硬化和小管萎縮為主要病理特徵的 `lithium-induced CTIN` 中，尿液沉渣典型呈現 **`benign urinary sediment`**，或僅有極微量的非特異性白細胞與上皮細胞，**`microscopic hematuria` 絕非其特徵，更無法預測其向 `ESRD` 的進展** [7]。\n    *   **典型表現**：尿液顯微鏡下每高倍視野見到 $> 3$ 個紅細胞 [11]。\n    *   **出題意圖**：評估考生是否明白 `chronic tubulointerstitial diseases` 的尿液診斷學特徵（通常為 `non-nephrotic proteinuria`、`tubular proteinuria`，不伴隨 active 腎小球血尿或紅細胞管型） [7]，從而排除非特異性的血管或腎小球受損標誌。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試高頻對比)\n\n在 `nephrology` 專科檢定中，`lithium-induced CTIN` 最常與其他兩種經典的毒性/藥物源性 `chronic tubulointerstitial nephritis`（即 **`Analgesic Nephropathy`** 與 **`Balkan Endemic Nephropathy`**）放在一起進行鑑別診斷與臨床病理特徵對比。這三者在臨床、影像學與預後軌跡上具有極高難度的鑑別點：\n\n#### **High-Yield Comparison: Toxic and Drug-Induced Chronic Tubulointerstitial Nephropathies**\n\n| 臨床與病理評估維度 | **`Lithium-Induced CTIN`** [1, 2] | **`Analgesic Nephropathy (AN)`** [12, 13] | **`Balkan Endemic Nephropathy (BEN)`** [13] |\n| :--- | :--- | :--- | :--- |\n| **關鍵致病物質 (`Etiology`)** | 長期使用抗躁狂藥物 **`lithium carbonate`** [1, 5]。 | 長期過量服用 **`combination analgesics`**（如含 `phenacetin`、`aspirin` 等複方） [8, 12]。 | 慢性環境暴露於 **`aristolochic acids`**（馬兜鈴酸，經由污染食物） [13, 14]。 |\n| **特徵性組織病理 (`Pathology`)** | 局灶性間質纖維化伴隨 **`distal tubular dilation & microcyst formation`** [1, 5]。 | **`renal papillary necrosis`**（腎乳頭壞死）繼發慢性間質小管炎。 | 雙側對稱、自外皮質向內皮質遞減的 **`hypocellular interstitial fibrosis`** [13]。 |\n| **特徵性影像表現 (`Imaging`)** | `renal ultrasound` 早期正常，晚期萎縮，可見特徵性的 **`cortical/medullary cysts`** [1, 5]。 | 非造影 `CT` 呈現 **`decreased renal size`**、**`bumpy contours`** 與 **`papillary calcifications`** [13]。 | 雙側對稱、表面平滑的極度縮小腎臟（`symmetrically shrunken kidneys`） [13]。 |\n| **特異性尿液動力學改變** | **`nephrogenic diabetes insipidus`**（`AQP2` 下調） [1, 4]；可伴隨遠端 `RTA` [15, 16]。 | 尿液濃縮功能受損；小管排鈉障礙（`sodium wasting`） [7]。 | 早期出現顯著的 **`proximal tubulopathy`**（如 `glycosuria`、`tubular proteinuria`） [7, 13]。 |\n| **伴隨惡性腫瘤風險 (`Cancers`)** | 無特定上皮或尿路腫瘤風險。 | 顯著增加 **`transitional cell carcinoma`**（尿路上皮癌）風險。 | 強烈偶聯 **`urothelial carcinoma of the upper urinary tract`** [13]。 |\n| **停藥後的預後軌跡 (`Prognosis`)** | **取決於臨界值**：若停藥時 `serum creatinine > 2.5 mg/dL`，則停藥後仍會 autonomous 惡化至 `ESRD` [1]。 | 若能在早期 papillae 徹底壞死前**及時終止服用**，腎功能通常可穩定或停止惡化。 | **極差**：即使停止環境接觸，仍呈緩慢進行性、不可逆地走向 `ESRD` [13]。 |\n\n---\n\n### 5. Citations & References (精準文獻與章節指引)\n\n*   **Brenner & Rector's The Kidney (11th Edition)**:\n    *   **Chapter 35: Tubulointerstitial Diseases**:\n        *   Section Header: **LITHIUM-INDUCED CHRONIC TUBULOINTERSTITIAL NEPHRITIS** [Passage 75, 76, 77]（最核心、最直接之數據與病理生理學機制出處。明確指出：*“A serum creatinine value >2.5 mg/dL at the time of biopsy was the most powerful predictor of ultimate progression to ESRD, which occurred even if lithium was discontinued.”* [1]；以及 *“Rising serum creatinine values... did not correlate with duration of therapy or cumulative dose.”* [2]）。\n        *   **Figure 35.4**: titled *\"Severe lithium-associated chronic tubulointerstitial nephropathy...\"* [Passage 76]（展示了伴隨微囊腫 [`microcyst`] 與嚴重 `interstitial fibrosis` 的鋰腎病特徵性病理切片）。\n        *   Section Header: **CHRONIC TUBULOINTERSTITIAL DISEASES** $\\rightarrow$ Subsection: **CLINICAL FEATURES** [Passage 71]（表列了慢性小管間質疾病的尿液動力學特徵，包括 `low-molecular-weight proteinuria`、`nocturia` 等）。\n        *   Section Header: **CHRONIC TUBULOINTERSTITIAL DISEASES** $\\rightarrow$ Subsection: **DIFFERENTIAL DIAGNOSIS** [Passage 72, 73]（以及 **Table 35.8**: *\"Etiologies of Chronic Tubulointerstitial Nephritis\"* [8]，明確將 `Lithium` 與 `Hypercalcemia` 並列為藥物/代謝性 CTIN 的獨立病因）。\n        *   Section Header: **CHRONIC TUBULOINTERSTITIAL DISEASES** $\\rightarrow$ Subsection: **Balkan Endemic Nephropathy** [Passage 74]（與 **Fig. 35.3** [13] 共同提供了 `AN` 與 `BEN` 的影像學及流行病學鑑別診斷基準數據）。\n    *   **Chapter 24: Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine**:\n        *   Section: **Step 4: Establish the Basis for Nephrogenic Diabetes Insipidus** [Passage 32]（詳述了 `lithium` 進入細胞內導致 `V2R` 與 `AQP2` 轉移受阻、引發 `nephrogenic DI` 的分子動力學原理）。\n\n---\n\n### 6. Summary for Exam Author (出題官考點提煉)\n\n💡 **考場高分秒殺邏輯**：\n在解答有關 `lithium-induced nephrotoxicity` 的高級試題時，考生必須建立以下兩條極具對比性的思維鋼軌：\n1.  **診斷/病理特徵（問表現）**：\n    *   **臨床**：`nephrogenic diabetes insipidus`（對 `DDAVP` 無反應之多尿） [1, 4]。\n    *   **病理**：間質纖維化伴隨 **`collecting duct-derived microcysts`** [1, 5]。\n2.  **進展/預後評估（問停藥後惡化）**：\n    *   **核心關鍵**：停藥後的預後與服用時間或累積劑量**不相關** [2]，唯一的決定性預測因子是**停藥當下的腎功能受損基準值（`serum creatinine > 2.5 mg/dL`）** [1]。\n掌握「**進展看肌酐，長短不相關**」的黃金生理規律，便能瞬間擊破本題的所有陷阱。",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
-          "selectedOption": "A"
+          "selectedOption": "NONE"
         }
       ],
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "DISPUTED",
+      "qcNotes": "NLM #1 selects Option A whereas NLM #2 determines NONE noting that duration of therapy does not predict progression to ESRD.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -448,9 +448,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). MCD and FSGS glomerular presentation with lithium verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -503,9 +503,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). CaSR set-point shift to the right causing hypercalcemia verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -558,9 +558,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Inappropriately normal or elevated PTH in lithium hypercalcemia verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -613,9 +613,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Phenotypic similarity to Familial Hypocalciuric Hypercalcemia (FHH) verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -668,9 +668,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). Type 1 Distal RTA association with lithium toxicity verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -723,9 +723,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Low MW (7 Da), 0% protein binding, low Vd for HD dialyzability verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -778,9 +778,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). Emergent HD indications (Li > 5.0 or > 2.5 with severe symptoms/AKI) verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -833,9 +833,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Post-dialysis lithium rebound from intracellular compartment verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -888,9 +888,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). CRRT prevention of intracellular rebound phenomenon verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -943,9 +943,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Discontinuing Lithium with psychiatry consultation verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -998,9 +998,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
+      "reconciliationStatus": "QC_PASSED",
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). Non-nephrotoxic mood stabilizers (Aripiprazole, Lamotrigine, Valproate) verified.",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "tn-exam-qc"
     }
   ],

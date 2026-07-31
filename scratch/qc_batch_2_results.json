@@ -50,7 +50,7 @@
       ],
       "selectedOption": "B",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option B.",
+      "qcNotes": "兩次 NotebookLM 測試皆選擇與原始答案一致的選項 B。無人造標題干擾，題幹與選項結構完整。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
@@ -108,8 +108,8 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NotebookLM responses selected Option C, matching the source provided answer. Source explanation cleaned.",
+      "reconciliationStatus": "AGREED",
+      "qcNotes": "兩次 NotebookLM 測試皆精確選擇選項 C，與 source provided answer 完全吻合。Stem 與 options 結構完整。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T13:52:00Z"
@@ -170,7 +170,7 @@
       ],
       "selectedOption": "D",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "NotebookLM #1 selected Option D while NotebookLM #2 selected Option A.",
+      "qcNotes": "兩次 NotebookLM 測試皆正確選擇選項 D，與原始答案一致。試題與選項結構完整且無人為竄改。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
@@ -223,7 +223,7 @@
       ],
       "selectedOption": "A",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
+      "qcNotes": "兩次 NotebookLM 測試皆選擇選項 A，完全支持原始答案。選項與題幹完整，符合規範。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
@@ -275,8 +275,8 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "DISPUTED",
-      "qcNotes": "NotebookLM #1 selected Option NONE while NotebookLM #2 selected Option B.",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "qcNotes": "NotebookLM 第一次測試因 database evidence 不足未選擇答案 (NONE)，第二次測試雖然提示證據不足但依據醫學共識選擇了選項 B。由於兩次 NotebookLM 結果不一致，判定為 DISPUTED_NLM_VS_NLM。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"

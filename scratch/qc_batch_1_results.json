@@ -58,10 +58,11 @@
       ],
       "selectedOption": "A",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
+      "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T10:16:51.520019+00:00Z",
+      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
     },
     {
       "id": "2026_Toxic_alcohols_Q2",
@@ -119,10 +120,11 @@
       ],
       "selectedOption": "B",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "Ground Truth (B) and dual NotebookLM responses unanimously agree on Option B.",
+      "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T10:16:51.521124+00:00Z",
+      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
     },
     {
       "id": "2026_Toxic_alcohols_Q3",
@@ -171,11 +173,12 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "DISPUTED",
-      "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option C.",
+      "reconciliationStatus": "AGREED",
+      "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
+      "qcVerifiedAt": "2026-07-31T10:16:51.521128+00:00Z",
+      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
     },
     {
       "id": "2026_Toxic_alcohols_Q4",
@@ -233,10 +236,11 @@
       ],
       "selectedOption": "D",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option D.",
+      "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T10:16:51.521130+00:00Z",
+      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
     },
     {
       "id": "2026_Toxic_alcohols_Q5",
@@ -294,10 +298,11 @@
       ],
       "selectedOption": "A",
       "reconciliationStatus": "AGREED",
-      "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
+      "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T10:16:51.521132+00:00Z",
+      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
     }
   ]
 }

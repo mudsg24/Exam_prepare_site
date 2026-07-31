@@ -57,10 +57,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q02",
@@ -114,10 +114,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q03",
@@ -171,10 +171,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q04",
@@ -228,10 +228,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q05",
@@ -285,10 +285,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q06",
@@ -342,10 +342,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q07",
@@ -399,10 +399,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q08",
@@ -442,7 +442,7 @@
           "rawResponse": "## 1. Answer Determination\n\n本題在嚴格的臨床生理學與 **`Brenner & Rector's The Kidney`** 權威實證下，**無任何正確選項（No valid options are correct）**。\n\n### 核心科學依據分析：\n\n1. **本題的生理學前提錯誤**：\n   本題題幹詢問「何種細胞機制導致了 **`Gitelman syndrome`** 患者在**遠曲小管（`Distal Convoluted Tubule / DCT`）**中的鈣離子重吸收增加」。然而，根據 **`Brenner & Rector's The Kidney`** 的權威闡述，**`Gitelman syndrome`** 與長期使用 **`thiazide diuretics`** 所致的 **`hypocalciuria`**，其根本機制**並非**源於 **`DCT`** 的主動鈣轉運增強，而是由於細胞外液容量耗竭（**`extracellular fluid volume depletion`**）介導 **`proximal tubule (PT)`** 對鈉和鈣的**被動、旁路重吸收代償性增加（`enhanced passive paracellular calcium reabsorption`）** [Passage 182, 694]。\n2. **`Option D` 的考點陷阱屬性**：\n   **`Option D`** 描述了經典藥理學與生理學教科書中，常用於解釋 **`thiazide diuretics`** *急性（`acute / in vitro`）* 施用時，在 **`DCT`** 上皮細胞內引起的理論模型（即阻斷 **`NCC`** 降低胞內鈉，進而加速基底側 **`NCX1`** 活性並間接拉高頂端 **`TRPV5`** 鈣流入）。然而，**`Brenner & Rector`** 明確指出，在慢性的 **`Gitelman syndrome`**（或長期使用 **`thiazides`**）的患者體內，**`DCT` 的主動鈣轉運機制完全未受影響** [Passage 182]。因此，在慢性臨床病理狀態下，**`Option D`** 依然是錯誤的。\n\n---\n\n## 2. Detailed Rationale & Correct Physiology Analysis\n\n根據 **`Brenner & Rector's The Kidney`** 第 18 章與第 44 章的記載，**`Gitelman syndrome`** 導致 **`hypocalciuria`** 的正確、循序漸進的臨床與病理生理學機制如下：\n\n1. **NCC 基因突變與 Renal Salt Wasting**：\n   * **`Gitelman syndrome`** 是一種因 **`SLC12A3`** 基因突變導致 **`DCT`** 頂端膜表面的 **`NCC`** 發生 **`loss-of-function`** 的體染色體隱性遺傳病 [Passage 73, 695]。\n   * 因為 **`NCC`** 終身喪失活性，患者會出現持續性的 **`renal salt wasting`**，進而引發慢性的 **`extracellular fluid (ECF) volume depletion`**（細胞外液容量枯竭） [Passage 182, 392]。\n\n2. **近端小管的代償性重吸收（Compensatory PT Reabsorption）**：\n   * 為了維持血流動力學與體液容量的穩定，腎臟會啟動強烈的全身性與局部代償機制。\n   * **`ECF volume depletion`** 會顯著上調 **`proximal tubule (PT)`** 頂端膜上 **`Na+/H+ exchanger (NHE3)`** 的表達與活性，從而極大地促進近端小管對鈉離子與水分的重吸收 [Passage 182, 230]。\n\n3. **PT 內 Ca2+ 的被動旁路轉運（Passive Paracellular Ca2+ Transport）**：\n   * 在腎小球過濾的鈣離子中，高達 **`60% to 70%`** 是在 **`proximal tubule`** 被重吸收的 [Passage 174, 794]。這一過程完全是**被動的、旁路途徑（`passive paracellular pathway`）**，且與鈉、水的重吸收高度偶聯 [Passage 176, 794]。\n   * 隨著 **`PT`** 對鈉和水分的重吸收顯著增加，管腔液體被濃縮，小管腔內與間質之間的鈣離子濃度梯度隨之急劇拉大，進而強烈驅動鈣離子經由旁路被動重吸收回血液中 [Passage 182]。\n   * 這導致被遞送至 downstream 段落（如 **`loop of Henle`** 與 **`distal tubule`**）的鈣離子負荷（**`divalent calcium load`**）大幅減少，最終在尿液中表現為極其顯著的 **`hypocalciuria`** [Passage 182, 694]。\n\n4. **DCT 主動轉運蛋白未受影響（Unaltered DCT Active Transport）**：\n   * 實證研究表明，慢性 **`NCC`** 缺失患者的 **`DCT`** 細胞中，參與主動跨細胞鈣轉運（**`active transcellular transport`**）的核心蛋白（包括頂端 **`TRPV5`** 鈣通道、胞質 **`calbindin-D28k`**、以及基底側 **`NCX1`** 與 **`PMCA1b`**）其表達水平與活性**完全沒有改變（`unaltered`）** [Passage 182]。\n   * 最關鍵的基因工程小鼠證據顯示，在敲除 **`TRPV5`** 鈣通道的小鼠（**`Trpv5-knockout mice`**）中，給予 **`thiazide`** 阻斷 **`NCC`** 依然能夠成功誘發 **`hypocalciuria`** [Passage 182]。\n   * 這項決定性的生化證據直接證實了 **`Gitelman syndrome`** 的 **`hypocalciuria`** 是由 **`proximal tubule`** 的被動旁路重吸收所主導，而非 **`DCT`** 內主動跨細胞轉運的改建 [Passage 182, 694]。\n\n---\n\n## 3. Distractor Option Analysis\n\n*   **Option A (Increased lumen-positive transepithelial voltage driving passive paracellular calcium transport) 錯誤分析**：\n    *   *生理機制*：這是在 **`thick ascending limb (TAL) of Henle's loop`**（髓袢粗上升支）發生的鈣重吸收機制 [Passage 175, 852]。在 **`TAL`** 中，藉由 **`NKCC2`** 的協同轉運、**`ROMK`** 的頂端鉀離子回漏、以及基底側 **`ClC-Kb`** 通道的排出，共同建立了約 $+10\\text{ mV}$ 的 **`lumen-positive transepithelial voltage`** [Passage 175, 751]。此正電位提供了跨上皮的物理驅動力，推動 **`Ca2+`** 和 **`Mg2+`** 經由 **`claudin-16/19`** 構成的孔道進行被動旁路重吸收 [Passage 175, 696]。\n    *   *為何錯誤*：**`DCT`** 屬於緊密上皮（**`tight epithelium`**），幾乎不具備旁路通透性，其鈣重吸收完全是主動的、跨細胞轉運（**`active transcellular Ca2+ transport`**） [Passage 178, 855]。此外，在 **`Bartter syndrome`** 中正是此 **`TAL`** 機制受損，才導致 **`hypercalciuria`** [Passage 176, 834]。因此，本選項在解剖定位與生理學上皆與 **`DCT`** 或 **`Gitelman`** 無關。\n\n*   **Option B (Direct stimulation of Parathyroid Hormone receptors on the apical membrane of DCT cells) 錯誤分析**：\n    *   *生理機制*：**`Parathyroid Hormone (PTH)`** 確能通過結合其受體（**`PTHR`**）活化 **`cAMP-PKA/PKC`** 通路，進而提高 **`TRPV5`** 通道的開放概率與細胞表面表達，增加遠端重吸收 [Passage 179, 796]。\n    *   *為何錯誤*：首先，**`PTHR`** 位於 **`DCT`** 上皮細胞的**基底側膜（`basolateral membrane`）**，而非頂端膜（**`apical membrane`**，頂端膜表面為 **`TRPV5`** 通道） [Passage 796]。其次，**`Gitelman syndrome`** 的 **`hypocalciuria`** 是 **`PTH-independent`**（非甲狀旁腺激素依賴性）的，其發病並不依賴 **`PTH`** 濃度的升高或受體活化 [Passage 182, 426]。\n\n*   **Option C (Downregulation of basolateral Na-Ca exchanger 1 (NCX1) due to intracellular calcium overload) 錯誤分析**：\n    *   *生理機制*：**`NCX1`** 是負責將細胞內鈣離子主動排出至間質與血液中的核心轉運體。若 **`NCX1`** 被下調（**`downregulated`**），會直接阻礙 **`transcellular calcium transport`** 的排出步驟，導致鈣離子在胞內積聚或重吸收受阻，臨床上會引起 **`hypercalciuria`** [Passage 218]，這與 **`Gitelman`** 的表現完全相反。\n    *   *為何錯誤*：此描述在生化機制與臨床轉歸（低尿鈣）上皆完全顛倒。\n\n*   **Option D (Decreased intracellular sodium concentration accelerating basolateral NCX1 activity and apical TRPV5 calcium entry) 考點陷阱分析**：\n    *   *急性/體外模型*：此選項是藥理學大考中極具殺傷力的**經典概念陷阱**。它精確描述了體外（**`in vitro`**）或急性施用 **`thiazide`** 時的假說：阻斷 **`NCC`** 減少了鈉的流入，導致 **`DCT`** 胞內鈉濃度降低，從而拉大了基底側 **`NCX1`**（以 $3\\text{ Na+ in / 1 Ca2+ out}$ 模式）向胞內運鈉、向胞外排鈣的電化學驅動力，使胞內鈣降低；胞內低鈣隨後拉大了頂端膜 **`TRPV5`** 的跨膜電化學梯度，促進鈣離子流入 [Passage 178, 855]。\n    *   *為何臨床慢性患者不成立*：然而，根據 **`Brenner & Rector`** 提供的臨床與體內（**`in vivo`**）慢性實證，在 **`Gitelman syndrome`** 患者（以及長期服用 **`thiazide`** 的人）體內，**`DCT` 中的主動鈣轉運蛋白表達與活性均完全未受影響** [Passage 182]，且在 **`Trpv5-knockout`** 小鼠中該效應依然存在 [Passage 182]。因此，該選項描述的僅是一個「體外/急性假說」，不能解釋慢性 **`Gitelman`** 患者的 **`hypocalciuria`**。出題者常用此選項來篩選出僅死記硬背藥理公式、而未能掌握整體代償性生理（近端小管被動重吸收）的考生。\n\n---\n\n## 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在腎臟專科與電解質紊亂大考中，關於 **`Gitelman vs. Bartter`** 的鈣、鎂與酸鹼動力學鑑別，是最高頻、最具區分度的核心考點：\n\n### 1. High-Yield Comparison: Gitelman Syndrome vs. Bartter Syndrome\n\n這是考查失鹽性小管病變時，最經典的雙向對照矩陣：\n\n| 鑑別與臨床維度 | `Gitelman Syndrome` (本題相關病症) [Passage 829, 853] | `Bartter Syndrome` (Type 1, 2) [Passage 693, 834] |\n| :--- | :--- | :--- |\n| **主要受累基因與轉運體** | **`SLC12A3`** (編碼 **`NCC`**) [Passage 695, 829]。 | **`SLC12A1`** (編碼 **`NKCC2`**) 或 **`KCNJ1`** (編碼 **`ROMK`**) [Passage 692, 826]。 |\n| **主要定位與段落** | **`Distal Convoluted Tubule (DCT)`** [Passage 693, 829]。 | **`Thick Ascending Limb (TAL) of Henle's loop`** [Passage 694, 826]。 |\n| **尿鈣排泄特徵** | **`Hypocalciuria` (極低：`FECa < 0.2%`)** [Passage 392, 693]。 | **`Hypercalciuria` (顯著升高：`FECa > 0.2%`)** [Passage 391, 693]。 |\n| **主要鈣重吸收驅動部位** | **`Proximal Tubule (PT)`** [Passage 694]。<br>(因容量枯竭引起的代償性被動旁路重吸收增加) | 原本應在 **`TAL`** 進行，但因 **`TAL`** 轉運受損而廢用 [Passage 694]。 |\n| **`Nephrocalcinosis`** | **`Absent` (基本不發生)** [Passage 367, 834]。 | **`Present` (極其常見)** (因長期高尿鈣在髓質沉積) [Passage 693, 834]。 |\n| **血清鎂離子水平** | **顯著降低（`profound hypomagnesemia`）** [Passage 392, 829]。 | 通常正常或僅輕微偏低 [Passage 391, 854]。 |\n| **管球反饋 (TGF) 狀態** | **保存完好（`intact TGF`）**；其 `renin` 升高完全呈容量依賴性，補充鹽分（**`salt supplementation`**）能顯著穩定血鉀 [Passage 853, 888]。 | **受損（`impaired TGF`）**；`JGA` 會持續且非容量依賴地大量合成前列腺素，故常需給予 **`NSAIDs`** 阻斷前列腺素 [Passage 349, 888]。 |\n\n### 2. High-Yield Comparison: Thiazides vs. Loop Diuretics on Calcium Handling\n這是大考中用以考查利尿劑引發鈣平衡改變的藥理與生理學機制：\n*   **`Thiazide Diuretics (NCC Inhibitors)`**：\n    *   *機制*：阻斷 **`DCT`** 頂端膜的 **`NCC`** [Passage 182]。\n    *   *臨床效應*：長期使用引發輕度 **`ECF volume depletion`**，代償性增加 **`PT`** 的被動、旁路鈉和鈣重吸收，最終導致 **`hypocalciuria`** [Passage 182]。\n    *   *臨床應用*：廣泛用於預防復發性 **`calcium phosphate / calcium oxalate`** 腎結石 [Passage 183]。\n*   **`Loop Diuretics (NKCC2 Inhibitors)`**：\n    *   *機制*：阻斷 **`TAL`** 頂端膜的 **`NKCC2`** [Passage 182]。\n    *   *臨床效應*：完全阻斷了管腔正電位（**`lumen-positive voltage`**）的建立，消除驅動鈣、鎂等陽離子經由旁路重吸收的核心驅動力，導致鈣離子大量隨尿液排出，呈現 **`hypercalciuria`** [Passage 182, 753]。\n    *   *臨床應用*：在積極補液擴容的支持下，用於急性重症高鈣血症（**`hypercalcemia`**）的急診洗脫治療 [Passage 675, 759]。\n\n---\n\n## 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, Chapter 18: \"Disorders of Calcium, Magnesium, and Phosphate Balance\"\n        *   Section: \"Regulation of Ca2+ Transport in the Kidney\" — Subsection: \"Diuretics\" [Passages 182, 213].\n        *   Section: \"Key References\" [Passages 208, 213, 216].\n    *   *Brenner & Rector's The Kidney*, Chapter 44: \"Inherited Disorders of the Renal Tubule\"\n        *   Section: \"Bartter and Gitelman Syndromes\" — Subsection: \"Gitelman Syndrome - Pathogenesis\" [Passage 694].\n    *   *Brenner & Rector's The Kidney*, Chapter 72: \"Diseases of the Kidney and Upper Urinary Tract in Children\"\n        *   Section: \"Disorders of Renal Tubular NaCl Transport\" — Subsection: \"Gitelman Syndrome\" [Passage 829] & Table 72.21: \"Genetic Conditions Displaying Hypercalciuria\" [Passage 833, 834].\n    *   *Brenner & Rector's The Kidney*, Chapter 73: \"Fluid, Electrolyte, and Acid-Base Disorders in Children\"\n        *   Section: \"Renal Hypokalemia\" — Board Review Question 2 & Rationale [Passages 887, 888].\n\n*   **Figures, Tables, & Boxes**：\n    *   *Chapter 44*, **Figure 44.12** [Passage 697]：`Genotype-phenotype correlation in untreated salt-losing tubulopathies`（直觀且詳盡地以圖表展示了 `NCCT / Gitelman` 患者相對於 `NKCC2 / ROMK`，在低血鎂、低尿鈣排泄及medullary nephrocalcinosis 發生率為 0% 上的動態統計分佈特徵）。\n    *   *Chapter 53*, **Figure 53.2** [Passage 796]：`Epithelial calcium active transport`（極其詳盡地描繪了 DCT / CNT 細胞頂端 TRPV5 通道、胞內 Calbindin-D28K、基底側 NCX1 與 PMCA1b 偶聯進行 active transcellular Ca2+ transport 的細胞超微結構與分子調控機制）。\n\n---\n🧬 **`Gitelman syndrome`** 導致的 **`hypocalciuria`** 是理解腎臟「系統性容量代償與局部分子重組」之間最經典的病理生理學對照。它精確地展示了：在慢性狀態下，體內的系統性容量調節（近端小管被動旁路重吸收）可以完全超越或遮蔽局部靶器官（DCT 主動轉運）的微觀分子應答。",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
-          "selectedOption": "D"
+          "selectedOption": "NONE"
         },
         {
           "notebookTitle": "TSN：出題 (5-1)",
@@ -451,15 +451,15 @@
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n**`No option is correct`（無正確選項）**。\n\n#### **核心解析**\n雖然在許多標準醫學課程或早期的體外實驗中，**Option (D)** 常被視為解釋 `thiazide diuretics` 引起 `hypocalciuria` 的經典細胞學假說；但根據 **`Brenner & Rector's The Kidney`** 與最新臨床共識指引，在**慢性狀態（如 `Gitelman syndrome` 或者是 `chronic thiazide` 治療）下，`Distal Convoluted Tubule` (DCT) 的主動轉運並非引起 `hypocalciuria` 的主導機制 [1, 2]**。\n\n文獻明確證實，在 `Trpv5-knockout` 小鼠中，給予 `thiazide` 依然能安全引發相同程度的 `hypocalciuria` [1, 2]。這在病理生理學上否定了「遠端 `DCT` 主動重吸收增加是 `hypocalciuria` 主因」的假說。\n\n其實實質的病理生理機制是：**`NCC` 喪失活性導致 `renal salt wasting`，進而引發 `extracellular fluid volume contraction`，代償性地極度亢進了 `Proximal Tubule` (PT) 的 `passive paracellular transport`，將 `Na+` 與 `Ca2+` 協同重吸收回體內 [1-3]**。因此，本題所有選項（包括 A、B、C、D）均不正確。\n\n---\n\n### **2. 詳細臨床與生理學機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n在 `nephrology` 的遺傳性小管病變中，**`Gitelman syndrome`** 表現出的 **`marked hypocalciuria`（`Fractional Excretion of Calcium < 0.2%`）**，其循序漸進的系統性生理調控機制如下：\n\n#### **第一階段：NCC 喪失活性與容量收縮 (NCC Inactivation and Volume Contraction)**\n*   患者由於 **`SLC12A3`** 基因發生失活型突變，導致位於 `DCT` 頂端膜的 **`NCC`**（`thiazide-sensitive Na-Cl cotransporter`）功能完全喪失 [4, 5]。\n*   `NCC` 負責重吸收約 `7%` 的濾過 `NaCl` [6]。其功能喪失直接引發持續的 `renal salt wasting` [1, 3]。\n*   鹽分的持續流失導致患者體內出現慢性的 **`extracellular fluid volume contraction`** [1, 3]。\n\n#### **第二階段：近端小管的代償性旁細胞轉運 (Proximal Tubule Passive Reabsorption)**\n*   為了維持血流動力學穩定，`volume contraction` 會強烈激活腎臟的整體代償，特別是顯著上調了 **`Proximal Tubule` (PT)** 對水分與 `Na+` 的重吸收 [1, 2]。\n*   在正常的腎臟生理中，約有 **`60% to 70%`** 的濾過 `Ca2+` 是在 **`Proximal Tubule`** 經由被動的 **`passive paracellular transport`** 與 `Na+` 及水分進行協同重吸收的 [7-9]。\n*   當 `volume contraction` 驅使近端小管上調 `Na+` 的主動重吸收與水分的被動重吸收時，溶劑拖拽（`solvent drag`）與電化學梯度會同步拉動大量的 `Ca2+` 經由旁細胞途徑（主要是 `claudin-2` 通道）回收到血液中 [1, 8, 10]。\n\n#### **第三階段：遠端主動轉運對慢性低尿鈣的無涉性 (Distal Active Transport is Unaffected)**\n*   在 `Gitelman syndrome` 患者中，雖然其 `DCT` 的結構可能因慢性鹽流失而發生重塑，但負責 `transcellular active calcium reabsorption` 的核心蛋白——包括頂端膜的 **`TRPV5`**、胞質內的 **`calbindin-D28k`**、以及基底膜的 **`NCX1`** 與 **`PMCA1b`**，其整體表達與功能在慢性狀態下並無顯著改變 [1, 2, 9, 11]。\n*   這已在基因敲除動物模型中獲得證實：**在缺乏頂端膜鈣通道的 `Trpv5-knockout` 小鼠中，阻斷 `NCC` 依然能安全地引發 hypocalciuria [1, 2]**。\n*   因此，`Gitelman syndrome` 的 `hypocalciuria` **本質上完全是由 `Proximal Tubule` 的代償性被動旁細胞重吸收所驅動 [1-3]**，而非 `DCT` 細胞內主動轉運機制的直接改變。\n\n---\n\n### **3. 干擾選項解析 (Distractor Option Analysis)**\n\n*   **(A) Increased lumen-positive transepithelial voltage driving passive paracellular calcium transport (錯誤)**\n    *   **為何錯誤**：此選項描述的是 **`Thick Ascending Limb` (TAL)** 的被動旁細胞 `Ca2+` 重吸收機制，而非 `DCT` [12, 13]。在 `TAL` 中，`NKCC2` 與 `ROMK` 協同運作產生約 `10 mV` 的 `lumen-positive transepithelial voltage` [12, 14]，這是驅動 `Ca2+` 與 `Mg2+` 經由 `claudin-16` 與 `claudin-19` 旁細胞孔道重吸收的根本動力 [12, 13]。在 `Bartter syndrome` 中，此電位崩解導致 `hypercalciuria` [1, 12]；而 `DCT` 上皮細胞緊密連接極高，且其 `transepithelial voltage` 呈 `lumen-negative` [15, 16]，故無法進行此類電位驅動的被動重吸收。\n    *   **考官命題意圖**：測試考生是否混淆了 `TAL`（旁細胞被動、電位驅動、`Bartter` 受損）與 `DCT`（跨細胞主動、非電位驅動、`Gitelman` 定位）在 `Ca2+` 轉運物理化學基礎上的本質差異 [12, 17]。\n\n*   **(B) Direct stimulation of Parathyroid Hormone receptors on the apical membrane of DCT cells (錯誤)**\n    *   **為何錯誤**：首先，在 `DCT` 與 `Connecting Tubule` 中，`Parathyroid Hormone` (PTH) 的受體（`PTHR`）是表達在細胞的 **`basolateral membrane`**，而非管腔側的 `apical membrane` [11, 17]。其次，`Gitelman syndrome` 患者體內的血清 `PTH`、活性維生素 D 水平通常維持在 **`normal`** 狀態，並無原發性的高抗或對 `DCT` 轉運體的直接超生理刺激 [2]。\n    *   **考官命題意圖**：考核考生關於 `PTH` 調控遠端小管鈣轉運的細胞解剖學定位（基底膜受體活化下游 `cAMP-PKA` 磷酸化 `TRPV5`）及內分泌反饋穩態的細節記憶 [17, 18]。\n\n*   **(C) Downregulation of basolateral Na-Ca exchanger 1 (NCX1) due to intracellular calcium overload (錯誤)**\n    *   **為何錯誤**：基底膜的 `NCX1` 是負責將 `Ca2+` 擠出上皮細胞進入血液的核心主動轉運體 [9, 17]。若將其下調（`downregulated`），會阻斷跨細胞鈣重吸收，進而引發高尿鈣而非低尿鈣。此外，`Gitelman syndrome` 的 `DCT` 細胞並無 `intracellular calcium overload` 的病理表現。\n    *   **考官命題意圖**：利用反向的轉運體調控方向設置陷阱，測試考生對跨細胞轉運極性（頂端膜流入、基底膜泵出）的邏輯推理能力 [9, 17]。\n\n*   **(D) Lower intracellular sodium concentration accelerating basolateral NCX1 activity and apical TRPV5 calcium entry (錯誤)**\n    *   **為何錯誤**：此選項代表了經典生理學在解釋 **「急性（`acute`）或體外（`in vitro`）實驗中 `thiazide` 對 `Ca2+` 影響」的過時或局部細胞假說 [1]**。該理論推論，當 `NCC` 被急性阻斷時，細胞內 `Na+` 驟降會加速基底膜 `NCX1` 以 `3 Na+ : 1 Ca2+` 的比例將 `Ca2+` 泵出細胞，進而降低細胞內 `Ca2+` 濃度，並增強頂端膜 `TRPV5` 的流入張力 [9, 17]。\n    *   然而，**Brenner & Rector's The Kidney** 明確指出，在**慢性（`chronic`）遺傳性狀態**或長期利尿劑暴露下，**`DCT` 的跨細胞 `Ca2+` 轉運實際上完全不受影響 [1]**，低尿鈣純粹是由於 `Proximal Tubule` 的代償性 `passive transport` 所主導 [2, 3]。\n    *   **考官命題意圖**：這是本題最具殺傷力的干擾項。旨在篩選出僅機械性記憶「急性/局部細胞假說」、而無法結合「慢性/全身性容量代償模型」進行臨床決策分流的高階考生 [1]。\n\n---\n\n### **4. 專科考試高頻對照與鑑別診斷 (Exam High-Yield Comparisons)**\n\n在腎臟專科醫師檢定中，將表現為 **`hypocalciuria`** 或 **`hypercalciuria`** 的幾種關鍵疾病進行橫向鑑別，是最高頻的經典考點：\n\n#### **高頻遺傳性鈣與電解質異常疾患之鑑別診斷矩陣**\n\n| 鑑別維度 (Parameters) | **`Gitelman syndrome`** [本題背景] | **`Bartter syndrome`** (NKCC2/ROMK/ClC-Kb) | **`Familial Hypocalciuric Hypercalcemia` (FHH)** |\n| :--- | :--- | :--- | :--- |\n| **突變基因與性質** | **`SLC12A3`** (失活突變，體染色體隱性) [5, 19] | **`SLC12A1` / `KCNJ1`** 等 (失活突變，體染色體隱性) [20] | **`CASR`** (失活突變，體染色體顯性) [21, 22] |\n| **臨床血壓狀態** | **正常或偏低**，伴隨 ECF 容積收縮 [5, 23] | **正常或偏低**，伴隨顯著脫水 [20, 23] | **正常**，無失鹽或容量異常 [21] |\n| **血清鈣離子特徵** | **`Normal` (正常)** [2] | **`Normal` (正常)** | **`Hypercalcemia` (病理性高血鈣)** [21, 22] |\n| **尿鈣排泄特徵 (FECa)** | **極低尿鈣（`marked hypocalciuria`）**，`FECa < 0.2%` [24] | **高尿鈣（`hypercalciuria`）**，常伴隨 `nephrocalcinosis` [25, 26] | **低尿鈣（`hypocalciuria`）**，`FECa < 1.0%` [22, 27] |\n| **尿鈣降低之病生理機制** | **`volume contraction` 驅動 `Proximal Tubule` 的被動旁細胞重吸收** [1, 2] | `TAL` 的 `lumen-positive voltage` 崩解，阻斷旁細胞重吸收 [12, 26] | `parathyroid` 與 `kidney` 的 `CaSR` 敏感性下降，不當保鈣 [21, 22] |\n| **血清鎂離子特徵** | **恆常且嚴重的 `hypomagnesemia`**  | 通常維持正常；僅少數 `ClC-Kb` 突變者可輕微降低 [25, 26] | 正常或輕度升高 |\n| **血清 PTH 特徵** | **`Normal` (正常)** [2] | **`Normal` (正常)** | **異常高亢或不當正常（`elevated / high-normal`）** [21, 27] |\n\n---\n\n### **5. 課本章節與圖表定位 (Citations & References)**\n\n#### **對應章節定位**\n*   **Chapter 44: Inherited Disorders of the Renal Tubule** (*Brenner & Rector's The Kidney*)\n    *   Section: *BARTTER AND GITELMAN SYNDROMES / GITELMAN SYNDROME / PATHOGENESIS* [Passage 686]\n    *   Section: *GITELMAN SYNDROME / CLINICAL PRESENTATION* [Passage 821]\n*   **Chapter 17: Disorders of Potassium Balance** (*Brenner & Rector's The Kidney*)\n    *   Section: *FAMILIAL HYPOKALEMIC ALKALOSIS: GITELMAN SYNDROME / Treatment* [Passages 415, 416, 425]\n*   **Chapter 7: The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney** (*Brenner & Rector's The Kidney*)\n    *   Section: *CA2+ REABSORPTION IN THE PROXIMAL TUBULE* [Passage 171]\n    *   Section: *CA2+ REABSORPTION IN THE LOOP OF HENLE* [Passage 172]\n    *   Section: *CA2+ REABSORPTION IN THE DISTAL TUBULE* [Passage 174]\n    *   Section: *DIURETICS / Thiazide diuretics* [Passages 179, 203]\n*   **Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance** (*Brenner & Rector's The Kidney*)\n    *   Section: *HYPERCALCEMIA / Familial hypocalciuric hypercalcemia* [Passages 458, 460, 462, 471]\n\n#### **對應重要圖表與指引條文定位**\n*   **Figure 44.11 (Chapter 44, Brenner & Rector)**：*Gitelman syndrome: loss-of-function mutations of the thiazide-sensitive Na–Cl cotransporter (NCC).* —— 展示了 `NCC` 失去活性的上皮模型 [Passage 689]。\n*   **Figure 44.12 (Chapter 44, Brenner & Rector, Page 1475)**：*Genotype–phenotype correlation in untreated salt-losing tubulopathies.* —— 該數據對照圖清晰展現了 `NCCT`（Gitelman）組特異性地呈現極低的尿鈣（`marked hypocalciuria`）與極低的血鎂 [Passage 689]。\n*   **Figure 7.8 (Chapter 7, Brenner & Rector)**：*Mechanisms of calcium transport in the distal convoluted tubule.* —— 該圖解詳細繪製了 `DCT` 與 `CNT` 的主動跨細胞鈣轉運機制，並以實驗數據證實 `Trpv5-knockout`（Panel A）會造成遠端保鈣失效，但在整體動物中 `thiazide` 仍能藉由近端代償引發 `hypocalciuria` [Passages 177, 179]。\n\n---\n\n🧩 鑑於在 **`Gitelman syndrome`** 的長期隨訪中，患者除了存在特徵性的 `hypocalciuria` 外，常因嚴重的慢性低血鎂而併發 **`chondrocalcinosis`（軟骨鈣化症）** 與反覆的關節劇烈疼痛 [2, 28]。在臨床實際滴定補給時，如何安全選擇 `organic magnesium salts`（如 `magnesium aspartate` 或者是 `lactate`）以避免引發嚴重的胃腸道滲透性腹瀉，是備考的經典實務考點 [29]。您是否需要我為您進一步整理一份關於「在失鹽低血壓背景下，如何安全制定『小兒與成人 Gitelman 臨床鉀/鎂電解質動態補充核對表、以及預防心律不整之 QTc 間期動態追蹤流程圖』」的黃金備考高頻複習指南呢？",
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
-          "selectedOption": "D"
+          "selectedOption": "NONE"
         }
       ],
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "DISCREPANCY_HIGH_CONFIDENCE",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答皆分析 Brenner 11e 權威文獻，判定本題經典選項 (D) 離子轉運假說前提不成立，一致裁決無正確選項 (NONE)。因 NLM 兩筆對答高度一致但與原始解答 (D) 不符，標註為 DISCREPANCY_HIGH_CONFIDENCE。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q09",
@@ -513,10 +513,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q10",
@@ -568,12 +568,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "AGREED",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
-      "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q11",
@@ -627,10 +627,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q12",
@@ -684,10 +684,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q13",
@@ -741,10 +741,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q14",
@@ -798,10 +798,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q15",
@@ -855,10 +855,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q16",
@@ -912,10 +912,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q17",
@@ -969,10 +969,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
       "id": "bartter_gitelman_q18",
@@ -1026,10 +1026,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerifiedAt": "2026-07-30T12:01:38+08:00",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T18:42:00Z",
+      "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
+      "qcVerifiedBy": "Tonks QC Subagent"
     }
   ],
   "paperId": "2026_Bartter_and_Gitelman_syndrome_(主題備考)"

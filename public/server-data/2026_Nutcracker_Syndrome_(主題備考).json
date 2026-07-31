@@ -3,7 +3,7 @@
   "title": "2026 Nutcracker Syndrome & Left Renal Vein Entrapment Masterclass Practice Bank",
   "sourceCategory": "2026 年主題練習",
   "year": 2026,
-  "updatedAt": "2026-07-29T23:25:00.000Z",
+  "updatedAt": "2026-07-31T06:22:22.582Z",
   "questions": [
     {
       "id": "q1",
@@ -33,7 +33,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Anterior Nutcracker Syndrome 主要的解剖特徵為 Left Renal Vein 在穿過 Abdominal Aorta 前方與 Superior Mesenteric Artery (SMA) 後方形成的狹窄夾角時受到解剖壓迫。正常情況下 SMA-Aortic Angle 約為 45° 至 60°，當此夾角銳角化 (< 35°) 或距離過短 (< 4-5 mm) 時，即會引發 Left Renal Vein Entrapment。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-1)",
@@ -50,9 +50,10 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q2",
@@ -82,7 +83,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Posterior Nutcracker Syndrome Retroaortic Left Renal Vein，當 Left Renal Vein 從 Abdominal Aorta 後方走行時，被夾在 Abdominal Aorta 與 Lumbar Vertebral Column 之間受到擠壓。若伴隨臨床症狀（如 Left Flank Pain、Hematuria），則診斷為 Posterior Nutcracker Syndrome。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -99,9 +100,10 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q3",
@@ -131,7 +133,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Nutcracker Syndrome 引發 Hematuria 的核心機轉在於 Left Renal Vein 受到狹窄壓迫，導致近端 Left Renal Vein Venous Hypertension。高壓血流造成Renal Pelvis與 Calyceal System Venous Varices或 Thin-Walled Septa 破裂，血流滲入 Calyces，Non-dysmorphic的 Hematuria。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-3)",
@@ -148,9 +150,10 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q4",
@@ -180,7 +183,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Left Gonadal Vein（Left Testicular/Ovarian Vein）與 Left Inferior Phrenic Vein 及 Left Adrenal Vein 會直接注入 Left Renal Vein（而 Right Gonadal Vein 則是直接注入 Inferior Vena Cava）。當 Left Renal Vein 出口受阻高壓時，血流會逆流至 Left Gonadal Vein，Collateral Circulation。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-4)",
@@ -197,9 +200,10 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q5",
@@ -229,7 +233,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "男性 Nutcracker Syndrome 患者常出現單側（左側）Varicocele。其解剖學依據為 Left Testicular Vein 直角注入高壓的 Left Renal Vein，當 Left Renal Vein 發生 Entrapment 時，逆流血流蓄積於 Pampiniform Plexus，導致Left Varicocele。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-5)",
@@ -246,9 +250,10 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q6",
@@ -278,7 +283,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "女性患者若患有 Nutcracker Syndrome，高壓的 Left Renal Vein 會導致血流逆流至 Left Ovarian Vein，進而引起 Pelvic Venous Plexus 充血與曲張，臨床上表現為典型的 Pelvic Congestion Syndrome（包括 Chronic Pelvic Pain、Dyspareunia、Dysmenorrhea 及 Vulvar Varices）。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-1)",
@@ -295,9 +300,10 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q7",
@@ -327,7 +333,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Upright standing 或 Lumbar Extension Lumbar Lordosis，拉緊 Superior Mesenteric Artery (SMA)，進一步縮小 SMA-Aortic Angle，加重 Left Renal Vein 的壓迫；反之，Supine Position 或前傾姿勢可稍微減輕壓迫與症狀。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-2)",
@@ -344,9 +350,10 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q8",
@@ -376,7 +383,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Nutcracker Syndrome 在青少年中常引起 Orthostatic Proteinuria。站立時 Left Renal Vein 充血使 Glomerular Capillary Pressure 暫時升高導致 Proteinuria；First Morning Voiding血液回流改善，Proteinuria消失。這是一種良性且位置相關的Proteinuria型態。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-3)",
@@ -393,9 +400,10 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q9",
@@ -425,7 +433,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Doppler Ultrasound (DUS) 是非侵入性首選工具。Aortomesenteric Segment的 Peak Systolic Velocity (PV) Hilar SegmentPV ratio> 5.0（部分指引採用 > 4.0 至 > 4.9）時，表示存在高度顯著的血流加速與狹窄。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-4)",
@@ -442,9 +450,10 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q10",
@@ -474,7 +483,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "在 CT 或 MRI 橫切面上，Left Renal Vein 於 SMA 與 Abdominal Aorta 夾角處受壓急劇變細，近端腎門段顯著擴張，形似鳥嘴，稱為『Beak Sign』，這是診斷 Nutcracker Syndrome 的特異性影像學特徵。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-5)",
@@ -491,9 +500,10 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q11",
@@ -523,7 +533,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Invasive Retrograde Venography 與 Renocaval Pressure Measurement 是診斷的金標準。正常情況下 Left Renal Vein 與 Inferior Vena Cava (IVC) 之間的壓力差 < 1 mmHg。當 Renocaval Pressure Gradient >= 3 mmHg 時，代表存在具有臨床與血液動力學意義的靜脈高壓。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-1)",
@@ -540,9 +550,10 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q12",
@@ -572,7 +583,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Superior Mesenteric Artery (SMA) Syndrome（又稱 Wilkie Syndrome）是指 SMA 與 Aorta 夾角過小壓迫第三段 Duodenum 造成腸阻塞。由於兩者皆導因於 SMA-Aortic Angle 銳角化與 Retroperitoneal Fat 減少，SMA Syndrome 常與 Nutcracker Syndrome 同時或相繼發生。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-2)",
@@ -589,9 +600,10 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q13",
@@ -621,7 +633,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對於年齡小於 18 歲且症狀輕微、Renal Function正常的青少年患者，首選為 Conservative Management。隨著體格發育與 Retroperitoneal Fat Pad 增加，SMA-Aortic Angle 可能自然增寬，約有 75% 的青少年在 24 Weight Gain治療後症狀能自行緩解。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-3)",
@@ -638,9 +650,10 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q14",
@@ -670,7 +683,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "針對保守治療無效且症狀嚴重（嚴重痛楚、反覆重度Hematuria、Renal Function受損）的患者，外科首選手術為 Left Renal Vein Transposition。該手術切斷 Left Renal Vein，將其向下方移位並重新吻合至 Inferior Vena Cava (IVC)，擺脫 SMA 與 Aorta 的夾角壓迫。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-4)",
@@ -687,9 +700,10 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q15",
@@ -719,7 +733,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Endovascular Stenting (EVTS) 是微創血管內治療選擇，但其重大併發症為 Stent Migration。由於 Left Renal Vein 口徑大且受動脈波幅影響，支架可能向內側滑脫至 Inferior Vena Cava Right Atrium，需要緊急手術移除。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -736,9 +750,10 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q16",
@@ -768,7 +783,7 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "從 Conservative Management 轉向 Surgical / Endovascular Intervention 的明確強指徵包含：(1) 反覆大量 Gross Hematuria 導致 Anemia/Transfusion 需求；(2) 嚴重持續性 Left Flank Pain 影響生活；(3) Progressive Renal Dysfunction；(4) 經 24 個月保守治療症狀完全無改善者。",
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -785,9 +800,12 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     }
-  ]
+  ],
+  "qcVerifiedCount": 16,
+  "nlmProcessedCount": 16
 }

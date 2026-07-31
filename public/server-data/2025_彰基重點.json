@@ -185,10 +185,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.365Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_彰基重點_q7",
@@ -241,10 +244,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.366Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_彰基重點_q8",

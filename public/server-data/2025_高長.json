@@ -58,10 +58,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.525Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q2",
@@ -114,10 +117,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.527Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q3",
@@ -170,10 +176,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.528Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q4",
@@ -226,10 +235,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.530Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q5",
@@ -282,10 +294,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.533Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q6",
@@ -338,10 +353,13 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A, C) 不符",
+      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 語意推論為 (A, C)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "qcStatus": "QC_DISPUTED",
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.535Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q7",
@@ -394,10 +412,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.539Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q8",
@@ -454,10 +475,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.540Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_高長_q9",
@@ -514,10 +538,13 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B, D, E) 不符",
+      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 語意推論為 (B, D, E)。",
       "resolvedImages": [],
-      "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "qcStatus": "QC_DISPUTED",
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.542Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z"

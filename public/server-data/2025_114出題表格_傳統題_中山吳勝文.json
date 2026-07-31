@@ -59,7 +59,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.633059Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% semantic check. Task 1: Stem and options intact, 0% synthetic headers, 0% word alteration. Task 2: Run 1 Section 1 Answer Determination selects C (Systemic lupus nephritis, class III or IV is Category IV, not standard primary therapy); Run 2 Section 1 selects C. Task 3: Ground truth sourceProvidedAnswer is C, matching both NLM runs (HIGH_CONFIDENCE). Medical terms in rationale are 100% pure English."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q2",
@@ -113,7 +118,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.633059Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% semantic check. Task 1: Stem and options intact, 0% synthetic headers, 0% word alteration. Task 2: Run 1 Section 1 Answer Determination selects C (clearance of larger molecules is membrane-limited and independent of flow rates); Run 2 Section 1 selects C. Task 3: Ground truth sourceProvidedAnswer is C, matching both NLM runs (HIGH_CONFIDENCE). Medical terms in rationale are 100% pure English."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q3",
@@ -167,7 +177,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.633059Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% semantic check. Task 1: Stem and options intact, 0% synthetic headers, 0% word alteration. Task 2: Run 1 Section 1 Answer Determination selects D (blood clotting in dialyzer causes high venous pressure, not low arterial pressure); Run 2 Section 1 selects D. Task 3: Ground truth sourceProvidedAnswer is D, matching both NLM runs (HIGH_CONFIDENCE). Medical terms in rationale are 100% pure English."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q4",
@@ -221,7 +236,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.633059Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% semantic check. Task 1: Stem and options intact, 0% synthetic headers, 0% word alteration. Task 2: Run 1 Section 1 Answer Determination selects A (Dialysate Potassium: 1.0 mEq/L causes rapid intracellular shift, QT prolongation, and sudden cardiac death); Run 2 Section 1 selects A. Task 3: Ground truth sourceProvidedAnswer is A, matching both NLM runs (HIGH_CONFIDENCE). Medical terms in rationale are 100% pure English."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q5",
@@ -275,7 +295,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.891822Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options intact with zero synthetic headers. Both NLM runs independently select D in Section 1 (Answer Determination), matching sourceProvidedAnswer (D)."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q6",
@@ -329,7 +354,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.891822Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options intact with zero synthetic headers. Both NLM runs independently select C in Section 1 (Answer Determination), matching sourceProvidedAnswer (C)."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q7",
@@ -442,7 +472,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.891822Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options intact with zero synthetic headers. Both NLM runs independently select C in Section 1 (Answer Determination), matching sourceProvidedAnswer (C)."
     },
     {
       "id": "2025_114出題表格_傳統題_中山吳勝文_q9",
@@ -555,7 +590,12 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:22:45.891822Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options intact with zero synthetic headers. Both NLM runs independently select B in Section 1 (Answer Determination), matching sourceProvidedAnswer (B)."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z"

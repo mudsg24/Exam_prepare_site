@@ -750,7 +750,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q12_1",
@@ -783,10 +783,11 @@
           "caption": "考題附圖 5"
         }
       ],
-      "qcVerified": false,
-      "qcStatus": "QC_UNVERIFIED",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcNotes": "Reset for dual-stage QC re-asking & semantic verification.",
-      "qcVerifiedAt": "2026-07-25T04:09:10.997368+00:00"
+      "qcVerifiedAt": "2026-07-31T06:23:01.356Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_北醫題庫一_q13",
@@ -2226,12 +2227,13 @@
       "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，正確選項為 (B)。\n\n根據 KDIGO 指引與常規感染管制規範，hepatitis B virus (HBV) 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg 陽性的患者必須採取嚴格的隔離政策 (strict isolation)，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，在人員配置上必須安排專用的工作人員 (dedicated staff)，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，因此選項 (B) 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，對於 hepatitis C virus (HCV) 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
-          "rawResponse": "",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "notebookTitle": "TSN：出題 (4-1)",
+          "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
+          "accountProfile": "mudkaku",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n根據血液透析室的感染管制（`infection control`）與防止血體液傳染病傳播之臨床指引，本題的正確選項（即描述不正確者）為：\n\n**Option (B) Healthcare staff with well hand hygiene and personal protective equipment can allow taking care of hepatitis B patients and patients who are not immune to hepatitis B virus at the same time.**\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (學理與正解分析)\n\n在 `hemodialysis unit` 中，**`Hepatitis B Virus (HBV)`** 具有極高的傳染性與環境存活能力，因此其防範措施比其他血體液傳染病更為嚴格。\n\n*   **專屬醫療人員配置 (Dedicated Staff / Personnel)**：\n    *   根據 `notebook sources` 記載，在 `hemodialysis` 期間，`HBV` 的有效預防及阻斷傳播，高度仰賴「**`strict implementation of segregation of HBsAg-positive from HBsAg-negative patients during hemodialysis with dedicated machines and staff for each group`**」（即對 `HBsAg-positive` 與 `HBsAg-negative` 兩組患者實施嚴格的分流與隔離，並為各組患者配置**專屬的透析機與專屬醫護人員**）[1]。\n    *   `HBV` 德 **`contact isolation`** 在臨床指引中的定義非常明確，必須包含 **`dedicated room`**、**`dedicated machine`**、**`dedicated equipment`**、**`dedicated gowns`** 以及 **`dedicated personnel`** [2]。\n    *   因此，**絕對禁止**同一名 `healthcare staff` 在同一時段或同一班次中，同時照顧 `HBsAg-positive` 患者與對 `HBV` 沒有免疫力（`non-immune` / `susceptible`）的患者。\n    *   即使醫護人員具備良好的 **`hand hygiene`** 並確實穿戴 **`personal protective equipment (PPE)`**，在頻繁處置多位患者的血液通路與透析管路時，仍存在高度的微量血液 **`cross-contamination`** 風險。必須實施人員強制隔離（`staff segregation`），才能有效切斷因人員交叉接觸引發的 **`nosocomial transmission`** [1, 2]。\n\n因此，**Option (B)** 聲稱「只要做好手部衛生與防護裝備即可同時照顧兩類患者」的說法在病理生理學與感控制度上是完全錯誤的，故為本題的正解。\n\n---\n\n### 3. Distractor Option Analysis (干擾項深度剖析與命題思維)\n\n*   **Option (A) HBsAg positive patients be dialyzed in isolation or cohorted in an area that is separate to that where patients who are HBsAg negative receive dialysis. (描述正確，故非正解)**：\n    *   *學理依據*：對於 `HBsAg-positive` 德患者，必須進行實體隔離或在血液透析室內劃分獨立的區域（`cohorted area`）進行分流透析，以避免與 `HBsAg-negative` 的患者發生接觸。這在 Passage 115（`strict isolation procedures`）、Passage 339（`segregation of HBsAg-positive from HBsAg-negative patients`）與 Passage 661 中皆獲得強烈支持。\n    *   *出題意圖*：測試考生是否清楚 `HBV` 德實體隔離政策（與不需要專機或實體隔離的 `HCV` 政策形成強烈對比，評估考生的感染管制核心概念分流）[3-5]。\n\n*   **Option (C) Designated Hemodialysis machines for hepatitis B patients must be thoroughly disinfected between shifts. (描述正確，故非正解)**：\n    *   *學理依據*：專用於 `Hepatitis B` 患者的透析機（`dedicated machines`）在班次更替之間（`between shifts`）必須進行徹底的環境與儀器表面消毒（**`cleaning and disinfection of surfaces at the dialysis station`**），特別是頻繁接觸的表面（**`high-touch surfaces`**）如操作面板、血壓計袖帶與病床扶手 [6, 7]。\n    *   *出題意圖*：考查考生對於透析機器外部與環境表面在預防接觸傳播（`contact transmission`）中所需之消毒與清潔標準的認知 [6]。\n\n*   **Option (D) Healthcare staffs should wear at least mask and eye protection during cannulation and de-cannulation procedures for caring hepatitis B patients within the hemodialysis session. (描述正確，故非正解)**：\n    *   *學理依據*：在為患者進行 **`cannulation`**（建立血管通路）與 **`de-cannulation`**（拔針與止血）時，因極易發生血液噴濺或針刺意外，醫護人員必須佩戴至少 **`mask`**（口罩）與 **`eye protection`**（護目鏡/面罩），以實施 **`maximal sterile barrier precautions`** 並防範眼口鼻黏膜與血液直接接觸 [6, 8]。\n    *   *出題意圖*：評估考生對於侵入性血管通路處置時，個人防護裝備在防範血液與飛沫噴濺屏障（**`droplet and blood splash protection`**）中的臨床應用熟練度 [6, 8]。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (高頻比較與鑑別)\n\n在血液透析專科與感控檢定中，關於 **`HBV`** 與 **`HCV`** 在透析室中的感染控制（`infection control`）政策對比，是最高頻的黃金考點：\n\n| 感染控制項目 | **`Hepatitis B Virus (HBV)`** | **`Hepatitis C Virus (HCV)`** |\n| :--- | :--- | :--- |\n| **隔離要求 (Isolation)** | **強制實施實體隔離 (Contact Isolation)** [2, 9]。 | **不需要實體隔離** (Do not require isolation) [3, 5, 10]。 |\n| **透析機配置 (Machines)** | 必須使用 **專用透析機 (Dedicated Machines)** [1, 2]。 | **不推薦使用專用透析機** (We recommend not using dedicated machines) [4, 10, 11]。 |\n| **醫療人員配置 (Staff)** | 必須配置 **專屬醫療人員 (Dedicated Staff)** [1, 2]。 | **不需要專屬醫療人員**，但建議由資深人員照護以降低針刺風險 [5, 12]。 |\n| **核心預防策略 (Prevention)** | **`HBV vaccination`** 加上抗體滴度監測（**`anti-HBs / HBsAb titers`**）與人員實體分流 [13, 14]。 | 嚴格且無例外地遵守 **`standard universal precautions` (Hygienic precautions)** [3, 4, 15]。 |\n\n---\n\n### 5. Citations & References (指引與章節出處)\n\n*   **Chapter & Section**：\n    *   *KDIGO 2009 Clinical Practice Guideline for the Care of Kidney Transplant Recipients*\n        - Chapter 13: `Viral Diseases` $\\rightarrow$ Section 13.6: `Hepatitis B Virus` (Passage 339：描述了利用 `vaccination`、專用機器及專屬人員隔離阻斷 `HBV` 的歷史實證)。\n    *   *KDIGO 2022 Clinical Practice Guideline for the Prevention, Diagnosis, Evaluation, and Treatment of Hepatitis C in Chronic Kidney Disease*\n        - Chapter 3: `Preventing HCV transmission in hemodialysis units` (Passage 593, 594：`Table 1` 定義了血液透析室的手部與給藥安全衛生預防措施；Passage 647, 648：`Recommendation 3.1.2 & 3.1.3` 強烈指出 `HCV` 患者不需專用機器或實體隔離；Passage 661：明確對照了 `HBV` 所需的 `contact isolation` 包含 `dedicated room, machine, equipment, gowns, and personnel` 三大金標準)。\n        - Chapter 1: `Detection and evaluation of HCV in CKD` (Passage 611：記載了 `HBsAg-negative` 與 `HBsAg-positive` 人員分流的基本原則)。\n    *   *Brenner & Rector's The Kidney, Chapter 63: Hemodialysis*\n        - Section: `INFECTIONS AND RESPONSE TO VACCINATION` (Passage 111, 115：詳述了 `HBV` 疫苗接種、嚴格隔離程序與 `HCV` 僅需遵循通用預防措施、不需隔離的學理差異)。\n    *   *KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury (AKI)*\n        - Chapter 5.4: `Vascular access` (Passage 388：記載了在進行血管穿刺時需落實手部清潔與最大屏障防護 `maximal sterile barrier precautions` 包括 `mask` 等的實施細則)。\n\n*   **Figures, Tables, & Boxes**：\n    *   **Table 1 (Chapter 3, KDIGO 2022 HCV Guideline)**：`Infection control practices particularly relevant for preventing blood-borne pathogen transmission` (Passage 594)。\n    *   **Table 4 (Chapter 3, KDIGO 2022 HCV Guideline)**：`Hygienic precautions for hemodialysis (dialysis machines)` (Passage 672)。\n    *   **Table 7 (Chapter 3, KDIGO 2022 HCV Guideline)**：`Key hygienic precautions for hemodialysis staff` (Passage 689)。\n\n---\n\n🛡️ **High-Yield Exam Nudge**:\n在設計與解答血液透析室傳染病管制考題時，請熟記這條極其對稱的感控制度紅線：**HBV control strictly mandates contact isolation, consisting of dedicated rooms, dedicated machines, and dedicated staff to prevent cross-contamination. Conversely, HCV control relies solely on standard hygienic precautions and explicitly forbids the use of dedicated dialysis machines or physical isolation to avoid clinical complacency (HBV 感染控制嚴格要求接觸隔離，包含專屬透析室、專用透析機與專屬醫療人員以防微量血液交叉污染。與之形成鮮明對比的是，HCV 的感控則完全依賴標準衛生預防措施，且明確禁用專用透析機或實體隔離，以避免造成臨床人員的防護懈怠)**！掌握這套「HBV 專機專人隔離 vs. HCV 禁用專機隔離」的對稱性政策，即可輕鬆秒殺所有高階透析與感控管理大題。",
+          "databaseSufficiency": "SUFFICIENT",
+          "qcStatus": "PASSED",
+          "selectedOption": "B"
         },
         {
           "notebookTitle": "TSN：出題 (5-1)",

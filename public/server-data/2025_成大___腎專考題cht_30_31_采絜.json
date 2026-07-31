@@ -65,7 +65,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.116422Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 = A, Run 2 = A. Both match sourceProvidedAnswer A. Protein overload induces TGF-β1 (not TGF-β2). Zero synthetic headers, pure English medical terms."
     },
     {
       "id": "2025_成大___腎專考題cht_30_31_采絜_q2",
@@ -125,7 +129,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.116422Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 = D, Run 2 = D. Both match sourceProvidedAnswer D. Increased (not decreased) Na+-K+-ATPase activity drives renal sodium reabsorption in nephrotic syndrome overfill model. Zero synthetic headers, pure English medical terms."
     },
     {
       "id": "2025_成大___腎專考題cht_30_31_采絜_q3",
@@ -185,7 +193,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.116422Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 = B, Run 2 = B. Both match sourceProvidedAnswer B. Lower molecular weight factors IX, X, XII decrease due to urinary loss exceeding hepatic synthesis. Zero synthetic headers, pure English medical terms."
     },
     {
       "id": "2025_成大___腎專考題cht_30_31_采絜_q4",
@@ -245,7 +257,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.116422Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 = D, Run 2 = D. Both match sourceProvidedAnswer D. MCD pathogenesis is classically defined as T cell subset dysregulation, not B cell subset. Zero synthetic headers, pure English medical terms."
     },
     {
       "id": "2025_成大___腎專考題cht_30_31_采絜_q5",
@@ -305,7 +321,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.320230Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options are intact with 0% synthetic headers and pure English terms. Run 1 and Run 2 NLM responses both semantically confirm Option C in Section 1, which aligns 100% with sourceProvidedAnswer (C)."
     },
     {
       "id": "2025_成大___腎專考題cht_30_31_采絜_q6",
@@ -365,7 +385,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:47.320230Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Stem and options are intact with 0% synthetic headers and pure English terms. Run 1 and Run 2 NLM responses both semantically confirm Option E in Section 1, which aligns 100% with sourceProvidedAnswer (E)."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z"

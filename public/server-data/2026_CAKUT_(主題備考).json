@@ -4,7 +4,7 @@
   "title": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
   "sourceCategory": "2026 年主題練習",
   "year": 2026,
-  "updatedAt": "2026-07-29T23:23:00.000Z",
+  "updatedAt": "2026-07-31T06:22:22.582Z",
   "questions": [
     {
       "id": "cakut_q01",
@@ -63,9 +63,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses consistently selected Option A, matching source provided answer A.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q02",
@@ -121,9 +121,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses consistently selected Option B, matching source provided answer B.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q03",
@@ -179,9 +179,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses consistently selected Option C, matching source provided answer C.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q04",
@@ -237,9 +237,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses consistently selected Option D, matching source provided answer D.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q05",
@@ -295,9 +295,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option A, matching source answer A.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q06",
@@ -356,9 +356,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option B, matching source answer B.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q07",
@@ -417,9 +417,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option C, matching source answer C.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q08",
@@ -475,9 +475,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option D, matching source answer D.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q09",
@@ -536,9 +536,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "100% LLM semantic parsing: Both NLM #1 and NLM #2 selected option A, matching source answer A.",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q10",
@@ -594,9 +594,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option B (Grade III VUR with calyceal blunting and ureteral/pelvic dilation).",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q11",
@@ -652,9 +652,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option C (Indication for CAP/surgical intervention in VUR: recurrent fUTIs or high-grade VUR with breakthrough infections).",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q12",
@@ -710,9 +710,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option D (Posterior Urethral Valves presenting with keyhole sign on VCUG).",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q13",
@@ -768,9 +768,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option A (Initial immediate management for PUV is urinary decompression via catheter/feeding tube and electrolyte stabilization).",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q14",
@@ -826,9 +826,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM models (5-1, 5-2) and source answer agree on Option B (UPJO with MAG3 clearance T1/2 > 20 min indicated for Pyeloplasty).",
-      "qcVerifiedAt": "2026-07-30T01:31:48+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q15",
@@ -884,9 +884,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source provided answer consistently selected Option C.",
-      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q16",
@@ -942,9 +942,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source provided answer consistently selected Option D.",
-      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q17",
@@ -1000,9 +1000,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source provided answer consistently selected Option A.",
-      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q18",
@@ -1058,9 +1058,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source provided answer consistently selected Option B.",
-      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q19",
@@ -1116,9 +1116,9 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source provided answer consistently selected Option C.",
-      "qcVerifiedAt": "2026-07-30T01:31:50+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "cakut_q20",
@@ -1174,9 +1174,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses consistently selected Option D, matching source provided answer D.",
-      "qcVerifiedAt": "2026-07-30T01:32:17.698983+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     }
-  ]
+  ],
+  "qcVerifiedCount": 20,
+  "nlmProcessedCount": 20
 }

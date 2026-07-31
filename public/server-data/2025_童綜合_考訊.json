@@ -58,10 +58,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.367Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q2",
@@ -114,10 +117,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.369Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q3",
@@ -170,10 +176,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.371Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q4",
@@ -226,10 +235,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.373Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q5",
@@ -282,10 +294,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.374Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q6",
@@ -338,10 +353,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.375Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q7",
@@ -394,10 +412,13 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:23:01.377Z",
+      "qcVerifiedBy": "tn-exam-qc (Subagent Batch Audit)"
     },
     {
       "id": "2025_童綜合_考訊_q8",
@@ -482,12 +503,13 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (1-5)",
-          "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
-          "accountProfile": "mudskipper24",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 來源文獻檢索與缺失資訊分析 (Analysis of Source Evidence and Gaps)\n\n根據 **`Database Limitation Guard`** 規範，在對提供的 **`notebook sources`**（包含 **`Brenner & Rector's The Kidney`** 與各年份的 **`KDIGO Guidelines`**）進行深度檢索後，確認現有的文獻段落中**缺乏足夠的細節資訊**以回答與判定此一特定毒理學與急診醫學案例的正確答案。\n\n現有來源中與本題中提及的關鍵字（如 **`chloramine`** 與 **`methemoglobin`**）相關的既有資訊僅限於以下片段，且均與本題的吸入性臨床情境無關：\n\n1.  **`chloramine`（氯胺）在來源中的記載**：\n    *   在 **`Brenner & Rector's The Kidney` (Chapter 63: Hemodialysis)** 之中，**`chloramine`** 僅被提及為一種血液透析用水中的微量污染物。\n    *   **`Passage 494`** 引用了文獻：*\"Warning: an anemia outbreak due to chloramine exposure in a clean hemodialysis unit–an issue to be revisited. Ren Fail. 2009\"* 以及 *\"Chloramine, a sneaky contaminant of dialysate. Nephrol Dial Transplant. 1999\"*[1]。\n    *   這說明來源中僅將 **`chloramine`** 視為會導致 **`hemodialysis`** 患者並發 **`anemia`**（貧血）暴發的 **`dialysate contaminant`**（透析液污染物）[1]，**完全沒有**提及 **`chloramine gas`**（氯胺氣體）的吸入、其特異的 **`ammonia-like odor`**、或是其引發 **`methemoglobinemia`** 的急診毒理學機制。\n\n2.  **`methemoglobin`（變性血紅素）在來源中的記載**：\n    *   在 **`Chapter 42: Onconephrology-Kidney Disease and Cancer`** 之中，**`methemoglobin`** 僅在腫瘤腎臟學藥物不良反應中被提及。\n    *   **`Passage 354`** 引用了文獻：*\"Rasburicase-induced methemoglobinemia: case report, literature review and proposed treatment algorithm. Clin Case Rep. 2016\"*[2]。\n    *   這說明來源中對 **`methemoglobinemia`** 的討論僅限於使用 **`Rasburicase`** 治療 **`tumor lysis syndrome`** 時誘發的藥物不良反應，**完全沒有**記載任何因吸入特定氣體（如 **`chloramine gas`**）而引發的 **`methemoglobinemia`** 臨床案例。\n\n3.  **其他干擾項在來源中的記載**：\n    *   **`Carbon monoxide`（一氧化碳）**：僅在 **`Chapter 3: The Renal Circulations and Glomerular Filtration`** 中被提及為生理學上的擴張血管分子（如 **`carbon monoxide-releasing molecule [CORM-A1]`**）[3]，無吸入中毒與變性血紅素關聯之記載。\n    *   **`Cyanide`（氰化物）** 與 **`Nitrous oxide`（一氧化二氮）**：在提供的文獻片段中**完全沒有**任何記載。\n\n由於來源中缺乏 **`chloramine gas`** 造成吸入性 **`methemoglobinemia`**、吸入 **`ammonia-like odor`** 伴隨 **`dyspnea`** 與 **`dizziness`** 的任何急診與臨床病理生理學描述，因此無法單純基於給定的文獻庫確認正確答案。\n\n---\n\n### 2. 相關醫學病理生理學背景分析 (Clinical and Pathological Context for Exam Design)\n\n為了提供作為高階醫學考試出題者的學術參考，以下針對此一臨床情境的底層醫學與毒理學機制進行生理學與病理學剖析（此部分為外部學術共識，來源數據庫本身並未完整覆蓋）：\n\n*   **致病機制 (Causative Mechanism)**：\n    *   在清潔或高溫環境中，若不當將含有次氯酸鈉（**`sodium hypochlorite`**，如漂白水）的清潔劑與含有氨水（**`ammonia`**）的清潔劑混合，會發生化學反應並釋放出具有高度刺激性、帶有強烈氨味的 **`chloramine gas`**。\n    *   **`chloramine gas`** 吸入後會迅速溶於呼吸道黏膜水分中，釋放出 **`ammonia`** 與 **`hypochlorous acid`**，引發急性呼吸道刺激症狀，如 **`dyspnea`**（呼吸困難）、**`nausea`**（噁心）與 **`dizziness`**（眩暈）。\n    *   在毒理學上，吸入高濃度的 **`chloramine`** 會引發全身性氧化壓力，使紅血球內血紅素的雙價鐵（**`Fe2+`**）被病理性氧化為三價鐵（**`Fe3+`**），形成不具備攜氧能力的 **`methemoglobin`**，在臨床上導致 **`methemoglobinemia`**（本例中為 **`15%`**，正常值通常 $<1.5\\%$）。\n\n*   **干擾項之鑑別診斷 (Differential Diagnosis of Distractors)**：\n    *   **(A) Carbon monoxide**：吸入中毒時主要引發 **`carboxyhemoglobinemia`**（碳氧血紅素血症），患者血中 **`methemoglobin`** 通常正常，且一氧化碳本身無刺激性，無氨味。\n    *   **(C) Cyanide**：主要阻斷細胞線粒體內的 **`cytochrome c oxidase`**，引發嚴重的 **`lactic acidosis`**（乳酸酸中毒）與細胞缺氧，並不以生成 **`methemoglobin`** 為其主要毒性表現。\n    *   **(D) Nitrous oxide**：主要用於吸入麻醉（笑氣），長期接觸會干擾 **`cobalamin / Vitamin B12`** 代謝而導致 **`megaloblastic anemia`** 或脊髓亞急性聯合變性，急性吸入不表現為顯著的變性血紅素血症。\n\n---\n\n### 3. Citations & References (文獻引用與出處)\n\n*   **Brenner & Rector's The Kidney (11th Edition)**\n    *   **Chapter 42: Onconephrology-Kidney Disease and Cancer**\n        *   **Passage 354**: 提及 **`Rasburicase-induced methemoglobinemia`** 相關文獻。\n    *   **Chapter 63: Hemodialysis**\n        *   **Passage 494**: 提及 **`chloramine`** 作為 **`dialysate contaminant`** 與 **`anemia`** 的關聯文獻。",
+          "notebookTitle": "TSN：出題 (4-2)",
+          "notebookId": "cfede8f7-956c-47ff-9848-508a8336fa2b",
+          "accountProfile": "mudkaku",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 說明與資料庫限制評估 (Database Limitation Evaluation)\n\n本題描述了一名具有 **`hypertension`** 病史的 29 歲男性，在炎熱環境中工作，吸入類似 **`ammonia`** 的氣味 30 分鐘後出現 **`nausea`**、**`dizziness`**、**`mild dyspnea`**，且急診實驗室數據顯示 **`elevated methemoglobin of 15%`**，而 **`CXR`** 未見活動性病變。\n\n經詳細檢索與比對所有提供的 `notebook sources`（包含 *Brenner & Rector's The Kidney* 與相關 *KDIGO Guidelines*），**現有文獻中完全缺乏與此臨床案例、吸入性暴露毒性、或特定的吸入性化學物質直接導致 `methemoglobinemia` 相關的詳細分析與病理生理敘述**。\n\n雖然在現有文獻的參考書目中，有極為零星地提及相關專有名詞，例如：\n*   在 **Chapter 42** 的參考文獻中提及了 **`Rasburicase-induced methemoglobinemia`** [42:352]。\n*   在 **Chapter 63** 的參考文獻中提及了 **`chloramine`** 作為透析液污染物引發的貧血事件（如 **`an anemia outbreak due to chloramine exposure in a clean hemodialysis unit`** 暨 **`Chloramine, a sneaky contaminant of dialysate`**） [63:492]。\n\n然而，這些文獻僅限於書目名稱，**並無任何關於吸入性 `chloramine gas`（或 options 中其他氣體如 `carbon monoxide`、`cyanide`、`nitrous oxide`）在非血液透析情境下（如炎熱工作環境）引發急性 `methemoglobinemia`、`dyspnea` 與類似 `ammonia` 氣味特徵的臨床病例討論與生理機轉細節**。\n\n為了維護醫學專科考試分析的絕對嚴謹性與對 `notebook sources` 的學術誠實，本處不進行無證據的推測。\n\n---\n📊 雖然目前的 sources 缺乏此特定吸入性中毒病例的直接文獻，但如果您想進一步分析，當慢性腎臟病（**`CKD`**）或接受 **`hemodialysis`** 的患者（依據 **Chapter 63** 規範）因透析用水遭到 **`chloramine`** 污染（見 **Passage 492** 所示）而爆發急性 **`hemolytic anemia`** 與 **`methemoglobinemia`** 時，在細胞與藥理學上應如何進行水質淨化篩檢與防護，我隨時可以為您展開相關的透析化學與水質監測動力學分析。",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "qcStatus": "FAILED",
+          "selectedOption": "NONE"
         },
         {
           "notebookTitle": "TSN：出題 (4-5)",

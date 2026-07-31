@@ -65,7 +65,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:42.059410Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% LLM semantic check. Raw source file inspected: stem and options are intact with zero synthetic headers and zero word alteration. Source provided answer is A. Both NLM Run 1 and Run 2 concluded option A in Section 1 (Answer Determination). Medical terms are pure English without Chinese translation. All 3 criteria met."
     },
     {
       "id": "2025_成大___114練習題Chapter_39_Diabetic_kidney_disease_曾進忠_q2",
@@ -125,7 +129,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:42.059410Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% LLM semantic check. Raw source file inspected: stem and options are intact with zero synthetic headers and zero word alteration. Source provided answer is C. Both NLM Run 1 and Run 2 concluded option C in Section 1 (Answer Determination). Medical terms are pure English without Chinese translation. All 3 criteria met."
     },
     {
       "id": "2025_成大___114練習題Chapter_39_Diabetic_kidney_disease_曾進忠_q3",
@@ -185,7 +193,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:42.059410Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% LLM semantic check. Raw source file inspected: stem and options are intact with zero synthetic headers and zero word alteration. Source provided answer is B. Both NLM Run 1 and Run 2 concluded option B in Section 1 (Answer Determination). Medical terms are pure English without Chinese translation. All 3 criteria met."
     },
     {
       "id": "2025_成大___114練習題Chapter_39_Diabetic_kidney_disease_曾進忠_q4",
@@ -245,7 +257,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:42.059410Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% LLM semantic check. Raw source file inspected: stem and options are intact with zero synthetic headers and zero word alteration. Source provided answer is C. Both NLM Run 1 and Run 2 concluded option C in Section 1 (Answer Determination). Medical terms are pure English without Chinese translation. All 3 criteria met."
     },
     {
       "id": "2025_成大___114練習題Chapter_39_Diabetic_kidney_disease_曾進忠_q5",
@@ -305,7 +321,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:42.059410Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent 100% LLM semantic check. Raw source file inspected: stem and options are intact with zero synthetic headers and zero word alteration. Source provided answer is D. Both NLM Run 1 and Run 2 concluded option D in Section 1 (Answer Determination). Medical terms are pure English without Chinese translation. All 3 criteria met."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z"

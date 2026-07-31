@@ -61,7 +61,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:44.620476Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: 100% match between source answer B and dual NLM responses (B, B). Zero synthetic headers, clean stem/options, pure English medical terminology verified."
     },
     {
       "id": "2025_中榮考訓25不外傳_q2",
@@ -117,7 +121,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.022420Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 selected B (Lymphocele), Run 2 selected B (Lymphocele). Matches sourceProvidedAnswer B with high confidence. Stem and options intact without synthetic headers."
     },
     {
       "id": "2025_中榮考訓25不外傳_q3",
@@ -173,7 +181,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.022420Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 selected B (Induction of cytochrome P-450 (CYP3A) isoenzymes), Run 2 selected B (Induction of cytochrome P-450 (CYP3A) isoenzymes). Matches sourceProvidedAnswer B with high confidence. Stem and options intact without synthetic headers."
     },
     {
       "id": "2025_中榮考訓25不外傳_q4",
@@ -229,7 +241,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.022420Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 selected C (Discontinue mycophenolate mofetil), Run 2 selected C (Discontinue mycophenolate mofetil). Matches sourceProvidedAnswer C with high confidence. Stem and options intact without synthetic headers."
     },
     {
       "id": "2025_中榮考訓25不外傳_q5",
@@ -285,7 +301,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.022420Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 selected C (Excisional biopsy of the largest lymph node for histopathology and immunohistochemistry), Run 2 selected C (Excisional biopsy of the largest lymph node for histopathology and immunohistochemistry). Matches sourceProvidedAnswer C with high confidence. Stem and options intact without synthetic headers."
     },
     {
       "id": "2025_中榮考訓25不外傳_q6",
@@ -341,7 +361,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.022420Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: Run 1 selected B (Initiate cinacalcet therapy to increase calcium-sensing receptor sensitivity and suppress PTH secretion), Run 2 selected B (Initiate cinacalcet therapy to increase calcium-sensing receptor sensitivity and suppress PTH secretion). Matches sourceProvidedAnswer B with high confidence. Stem and options intact without synthetic headers."
     },
     {
       "id": "2025_中榮考訓25不外傳_q7",
@@ -397,7 +421,11 @@
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
-      "attachedImages": null
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T14:22:45.215383Z",
+      "qcVerifiedBy": "tn-exam-qc subagent semantic check",
+      "qcNotes": "Verified by subagent semantic check: both NLM runs (Run 1: D, Run 2: D) agree with sourceProvidedAnswer (D). Stem and options are intact with zero synthetic headers and zero word alterations. Medical terms in explanations are 100% pure English."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z"

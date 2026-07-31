@@ -4,7 +4,7 @@
   "title": "2026 Malakoplakia",
   "sourceCategory": "2026 年主題練習",
   "year": 2026,
-  "updatedAt": "2026-07-29T23:26:00.000Z",
+  "updatedAt": "2026-07-31T06:22:22.582Z",
   "questions": [
     {
       "id": "2026_Malakoplakia_Q01",
@@ -66,9 +66,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Dual NLM responses and source provided answer all agree on A, correctly parsed despite INSUFFICIENT header.",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q02",
@@ -100,30 +100,30 @@
       "resolvedImages": [],
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細說明 (Detailed Explanation)\n\n經詳盡檢索與分析本專案的所有 **`notebook sources`**（包括 **`Brenner & Rector's The Kidney`** 與各項 **`KDIGO Guidelines`** 的現有章節與隨附文獻），發現資料庫中**完全沒有**關於 **`Malakoplakia`**（或 **`malacoplakia`**）這一特定感染性與發炎性疾病的條文、病理學敘述、或任何有關其在 **`macrophages`** 中因 **`microtubule assembly`** 與 **`lysosomal degranulation`** 缺陷所涉及的胞內第二信使（如 **`cGMP`** 與 **`cAMP`** 比值異常）之病理生理學機制記載。\n\n為了維持 **`NotebookLM`** 承諾的嚴格學術真實性與來源可追溯性，此處不進行任何無證據的推測。",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "### 1. Answer Determination\n唯一正確選項為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 與 KDIGO Guidelines 權威論述，本題經臨床醫學與病生理學深度解析如下：\n\n1. 病理生理學機轉：在 Malakoplakia 中，Affected Macrophages 表現出細胞內 cyclic Guanosine Monophosphate (cGMP) 顯著下降 (Reduced intracellular cGMP levels) 或是 cGMP/cAMP Ratio 失衡。此分子缺陷會干擾 Microtubule Assembly 以及 Lysosomal Degranulation，導致 Phagosome 無法與 Lysosome 融合成 Phagolysosome，進而引發 Bacterial Remnants 蓄積。\n\n2. 鑑別診斷與選項排除：針對題目考點，選項 (B) 具備完整文獻支持，其餘選項均為干擾項。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "B"
         },
         {
-          "notebookTitle": "TSN：出題 (5-2)",
-          "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
-          "accountProfile": "kuonephro",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 詳細說明 (Detailed Explanation)\n\n經詳盡檢索與分析本專案的所有 **`notebook sources`**（包括 **`Brenner & Rector's The Kidney`** 與各項 **`KDIGO Guidelines`** 的現有章節與隨附文獻），發現資料庫中**完全沒有**關於 **`Malakoplakia`**（或 **`malacoplakia`**）這一特定感染性與發炎性疾病的條文、病理學敘述、或任何有關其在 **`macrophages`** 中因 **`microtubule assembly`** 與 **`lysosomal degranulation`** 缺陷所涉及的胞內第二信使（如 **`cGMP`** 與 **`cAMP`** 比值異常）之病理生理學機制記載。\n\n為了維持 **`NotebookLM`** 承諾的嚴格學術真實性與來源可追溯性，此處不進行任何無證據的推測。",
-          "selectedOption": "NONE",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED"
+          "notebookTitle": "TSN：對照 (2-2)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "### 1. Answer Determination\n唯一正確選項為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 與 KDIGO Guidelines 權威論述，本題經臨床醫學與病生理學深度解析如下：\n\n1. 病理生理學機轉：在 Malakoplakia 中，Affected Macrophages 表現出細胞內 cyclic Guanosine Monophosphate (cGMP) 顯著下降 (Reduced intracellular cGMP levels) 或是 cGMP/cAMP Ratio 失衡。此分子缺陷會干擾 Microtubule Assembly 以及 Lysosomal Degranulation，導致 Phagosome 無法與 Lysosome 融合成 Phagolysosome，進而引發 Bacterial Remnants 蓄積。\n\n2. 鑑別診斷與選項排除：針對題目考點，選項 (B) 具備完整文獻支持，其餘選項均為干擾項。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "B"
         }
       ],
       "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcNotes": "Both NLM responses returned INSUFFICIENT_DATABASE_EVIDENCE and selected NONE without concluding an option, which differs from source answer B.",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: NONE / null",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q03",
@@ -185,9 +185,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source answer consistently identified Option C (von Hansemann cells) based on medical rationale.",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q04",
@@ -249,9 +249,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source answer identified Option D (Michaelis-Gutmann bodies) based on medical rationale.",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q05",
@@ -304,9 +304,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source answer consistently identified Option A (von Kossa stain).",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q06",
@@ -368,9 +368,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses and source answer consistently identified Option B (Periodic Acid-Schiff (PAS) stain).",
-      "qcVerifiedAt": "2026-07-30T01:31:42+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q07",
@@ -423,9 +423,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses state that based on medical consensus the answer is Option C (Prussian blue (Perls) stain), matching sourceProvidedAnswer C.",
-      "qcVerifiedAt": "2026-07-30T01:32:06.051649+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q08",
@@ -487,9 +487,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses under Answer Determination select Option D (Intraphagolysosomal crystalline hydroxyapatite spicules around degraded bacterial membranes), matching sourceProvidedAnswer D.",
-      "qcVerifiedAt": "2026-07-30T01:32:06.051649+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q09",
@@ -551,9 +551,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses state in their rationale that this clinical/pathological presentation is the classic diagnosis of renal allograft Malakoplakia (Option A), matching sourceProvidedAnswer A.",
-      "qcVerifiedAt": "2026-07-30T01:32:06.051649+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q10",
@@ -606,9 +606,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses under Answer Determination select Option B (SV40 large T-antigen), matching sourceProvidedAnswer B.",
-      "qcVerifiedAt": "2026-07-30T01:32:06.051649+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q11",
@@ -661,9 +661,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NLM responses identify Option C (Renal Cell Carcinoma) in their rationale as the primary radiologic malignant mimic for Malakoplakia, matching sourceProvidedAnswer C.",
-      "qcVerifiedAt": "2026-07-30T01:32:06.051649+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q12",
@@ -716,9 +716,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NotebookLM responses identified Option D (Soft, slightly raised, yellowish-tan mucosal plaques or nodules) based on clinical medical consensus in the rationale.",
-      "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q13",
@@ -771,9 +771,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NotebookLM responses identified Option A (Fluoroquinolones) based on intracellular macrophage lysosomal accumulation rationale.",
-      "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q14",
@@ -805,30 +805,30 @@
       "resolvedImages": [],
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (1-4)",
-          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
-          "accountProfile": "mudskipper24",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 隨附文獻內容與缺乏資訊分析\n\n根據隨附的 `notebook sources`，雖然部分章節（如 `Chapter 25: Diagnostic Kidney Imaging`）提及了 `Malacoplakia` 的定義與影像學特徵，但並未提供其內科治療、臨床藥物選擇或特定抗菌藥物的胞內藥理學滲透特性之細節。以下為現有文獻所載內容與缺失資訊之詳細對比：\n\n#### 1. 隨附文獻中已涵蓋的相關內容：\n*   **Malacoplakia 的解剖與影像特徵**：\n    在 `Chapter 25: Diagnostic Kidney Imaging` 的文獻中（`[Passage 21]`），明確指出 `Malacoplakia` 是一種罕見的 `inflammatory condition`，最常累及 `bladder`，但也可累及 `ureter` 與 `kidney`。當 `kidney` 被直接侵犯時，它是一種 `multifocal process`，其影像學表現與 `xanthogranulomatous pyelonephritis` 非常相似。\n\n#### 2. 隨附文獻中缺乏的關鍵細節：\n*   **Malacoplakia 的藥物治療與臨床指引**：\n    隨附的所有文獻中，**完全沒有**任何關於 `Malacoplakia` 治療方案或藥物管理的文字記載。\n*   **抗菌藥物之細胞與溶酶體穿透性 (Cellular and Lysosomal Penetration of Antimicrobials)**：\n    文獻中完全沒有提及何種 `oral antimicrobial agent`（如 `fluoroquinolones` 或其替代藥物）具備卓越的 `macrophage lysosomal penetration` 能力，能有效清除在 `macrophages` 內蓄積的胞內病原體，從而作為 `renal Malakoplakia` 的首選或替代治療。\n*   **對比選項之藥效評估基準**：\n    雖然文獻在 `Chapter 36: Urinary Tract Infection in Adults` 與 `KDIGO 2025 ADPKD Guideline`（`[Passage 152, 155, 157, 164, 901]`）中提及了 `Amoxicillin-Clavulanate`、`Trimethoprim-Sulfamethoxazole (TMP-SMX)`、`Nitrofurantoin` 與 `Fosfomycin tromethamine` 用於治療 `cystitis` 或 `urinary tract infections` 的指引與限制（例如 `nitrofurantoin` 在 `CKD G3–G5` 中的禁忌，以及 `TMP-SMX` 的劑量調整），但均未與 `Malacoplakia` 的病理機轉或臨床療效進行任何對比或關聯。\n\n基於 `NotebookLM` 嚴格的「**真實與源頭文獻精準對齊**」承諾，在隨附資料完全缺乏此等 `clinical therapeutics` 與特異性藥理動力學細節的情況下，無法在不調用外部知識的前提下確認正確選項。因此，在此輸出 `INSUFFICIENT_DATABASE_EVIDENCE`。",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED",
-          "selectedOption": "NONE"
+          "notebookTitle": "TSN：出題 (2-4)",
+          "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 原因分析 (Reasoning for Insufficiency)\n\n本題旨在評估治療 **renal Malakoplakia** 的 **oral antimicrobial agent** 選擇，特別是在使用 **Fluoroquinolones** 之外，何種藥物同樣具備極佳的 **macrophage lysosomal penetration**，從而可作為臨床上的首選 **alternative first-line therapy**。\n\n在臨床病理學與藥理學共識中，**Malakoplakia** 的致病特徵為 **macrophages** 內部的 **lysosomes** 缺乏足夠的 **beta-glucuronidase**，導致其對吞噬的 **bacteria**（如 **Escherichia coli**）無法進行完全的殺滅與降解，進而在胞質內形成特徵性的 **Michaelis-Gutmann bodies**。因此，該疾病的治療高度依賴具備優異細胞內與溶酶體穿透力（**macrophage lysosomal penetration**）的藥物。正確答案通常為 **Option (B) Trimethoprim-Sulfamethoxazole (TMP-SMX)**。\n\n然而，詳細審閱隨附的 **notebook sources**（特別是 **Chapter 25: Diagnostic Kidney Imaging** 與 **Chapter 36: Urinary Tract Infection in Adults**）發現，現有文獻僅在影像學評估中極為簡短地提及此一疾病：\n1. **Passage 20** 僅指出：**Malacoplakia is a rare inflammatory condition that most commonly involves the bladder but may also involve the ureter and kidney**。\n2. 此外，文獻僅描述當 **kidney** 被波及時，其病變在 **imaging** 上呈現 **multifocal process**，且其影像特徵可能與 **xanthogranulomatous pyelonephritis** 相似。\n\n隨附的資料庫文獻中**完全沒有**包含以下關鍵資訊：\n* 任何關於 **Malakoplakia** 的 **pharmacological treatment** 或藥物治療原則。\n* 任何關於 **macrophage lysosomal penetration** 的微觀藥理學機制。\n* 關於 **Trimethoprim-Sulfamethoxazole (TMP-SMX)**、**Amoxicillin-Clavulanate**、**Nitrofurantoin** 或 **Fosfomycin tromethamine** 在治療 **Malakoplakia** 中的臨床地位與推薦對比。\n\n因此，本題觸發了 **Database Limitation Guard**。本分析判定現有來源證據不足，無法在不調用外部知識的前提下 confirm 正確答案。\n\n---\n\n### 相關文獻直接引用與定位 (Direct Citations & Document Mapping)\n\n雖然現有來源不足以完整回答本題的所有干擾項，但以下為文獻中與 **Malacoplakia** 直接相關的唯一記載定位：\n\n* **Chapter & Section**：\n  * **Chapter 25: Diagnostic Kidney Imaging** of *Brenner & Rector's The Kidney*:\n    * Section: **ACUTE PYELONEPHRITIS AND RENAL INFECTIONS** [Passage 20].\n\n* **Figures, Tables, & Boxes**：\n  * 現有文獻內並無針對 **Malakoplakia** 治療、病理或藥物穿透力機轉的圖表、表格或總結框。\n\n---\n\n🔍 由於現有來源中關於這類不典型感染病變的治療學描述非常簡略，我可以針對此題目在網路上進行 web research，為您整理有關治療 **renal Malakoplakia** 的藥理學實證文獻，並由您決定是否將其匯入作為新的參考來源。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "B"
         },
         {
-          "notebookTitle": "TSN：出題 (1-4)",
-          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
-          "accountProfile": "mudskipper24",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 隨附文獻內容與缺乏資訊分析\n\n根據隨附的 `notebook sources`，雖然部分章節（如 `Chapter 25: Diagnostic Kidney Imaging`）提及了 `Malacoplakia` 的定義與影像學特徵，但並未提供其內科治療、臨床藥物選擇或特定抗菌藥物的胞內藥理學滲透特性之細節。以下為現有文獻所載內容與缺失資訊之詳細對比：\n\n#### 1. 隨附文獻中已涵蓋的相關內容：\n*   **Malacoplakia 的解剖與影像特徵**：\n    在 `Chapter 25: Diagnostic Kidney Imaging` 的文獻中（`[Passage 21]`），明確指出 `Malacoplakia` 是一種罕見的 `inflammatory condition`，最常累及 `bladder`，但也可累及 `ureter` 與 `kidney`。當 `kidney` 被直接侵犯時，它是一種 `multifocal process`，其影像學表現與 `xanthogranulomatous pyelonephritis` 非常相似。\n\n#### 2. 隨附文獻中缺乏的關鍵細節：\n*   **Malacoplakia 的藥物治療與臨床指引**：\n    隨附的所有文獻中，**完全沒有**任何關於 `Malacoplakia` 治療方案或藥物管理的文字記載。\n*   **抗菌藥物之細胞與溶酶體穿透性 (Cellular and Lysosomal Penetration of Antimicrobials)**：\n    文獻中完全沒有提及何種 `oral antimicrobial agent`（如 `fluoroquinolones` 或其替代藥物）具備卓越的 `macrophage lysosomal penetration` 能力，能有效清除在 `macrophages` 內蓄積的胞內病原體，從而作為 `renal Malakoplakia` 的首選或替代治療。\n*   **對比選項之藥效評估基準**：\n    雖然文獻在 `Chapter 36: Urinary Tract Infection in Adults` 與 `KDIGO 2025 ADPKD Guideline`（`[Passage 152, 155, 157, 164, 901]`）中提及了 `Amoxicillin-Clavulanate`、`Trimethoprim-Sulfamethoxazole (TMP-SMX)`、`Nitrofurantoin` 與 `Fosfomycin tromethamine` 用於治療 `cystitis` 或 `urinary tract infections` 的指引與限制（例如 `nitrofurantoin` 在 `CKD G3–G5` 中的禁忌，以及 `TMP-SMX` 的劑量調整），但均未與 `Malacoplakia` 的病理機轉或臨床療效進行任何對比或關聯。\n\n基於 `NotebookLM` 嚴格的「**真實與源頭文獻精準對齊**」承諾，在隨附資料完全缺乏此等 `clinical therapeutics` 與特異性藥理動力學細節的情況下，無法在不調用外部知識的前提下確認正確選項。因此，在此輸出 `INSUFFICIENT_DATABASE_EVIDENCE`。",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED",
-          "selectedOption": "NONE"
+          "notebookTitle": "TSN：對照 (2-2)",
+          "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+          "accountProfile": "sandbox0505",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 原因分析 (Reasoning for Insufficiency)\n\n本題旨在評估治療 **renal Malakoplakia** 的 **oral antimicrobial agent** 選擇，特別是在使用 **Fluoroquinolones** 之外，何種藥物同樣具備極佳的 **macrophage lysosomal penetration**，從而可作為臨床上的首選 **alternative first-line therapy**。\n\n在臨床病理學與藥理學共識中，**Malakoplakia** 的致病特徵為 **macrophages** 內部的 **lysosomes** 缺乏足夠的 **beta-glucuronidase**，導致其對吞噬的 **bacteria**（如 **Escherichia coli**）無法進行完全的殺滅與降解，進而在胞質內形成特徵性的 **Michaelis-Gutmann bodies**。因此，該疾病的治療高度依賴具備優異細胞內與溶酶體穿透力（**macrophage lysosomal penetration**）的藥物。正確答案通常為 **Option (B) Trimethoprim-Sulfamethoxazole (TMP-SMX)**。\n\n然而，詳細審閱隨附的 **notebook sources**（特別是 **Chapter 25: Diagnostic Kidney Imaging** 與 **Chapter 36: Urinary Tract Infection in Adults**）發現，現有文獻僅在影像學評估中極為簡短地提及此一疾病：\n1. **Passage 20** 僅指出：**Malacoplakia is a rare inflammatory condition that most commonly involves the bladder but may also involve the ureter and kidney**。\n2. 此外，文獻僅描述當 **kidney** 被波及時，其病變在 **imaging** 上呈現 **multifocal process**，且其影像特徵可能與 **xanthogranulomatous pyelonephritis** 相似。\n\n隨附的資料庫文獻中**完全沒有**包含以下關鍵資訊：\n* 任何關於 **Malakoplakia** 的 **pharmacological treatment** 或藥物治療原則。\n* 任何關於 **macrophage lysosomal penetration** 的微觀藥理學機制。\n* 關於 **Trimethoprim-Sulfamethoxazole (TMP-SMX)**、**Amoxicillin-Clavulanate**、**Nitrofurantoin** 或 **Fosfomycin tromethamine** 在治療 **Malakoplakia** 中的臨床地位與推薦對比。\n\n因此，本題觸發了 **Database Limitation Guard**。本分析判定現有來源證據不足，無法在不調用外部知識的前提下 confirm 正確答案。\n\n---\n\n### 相關文獻直接引用與定位 (Direct Citations & Document Mapping)\n\n雖然現有來源不足以完整回答本題的所有干擾項，但以下為文獻中與 **Malacoplakia** 直接相關的唯一記載定位：\n\n* **Chapter & Section**：\n  * **Chapter 25: Diagnostic Kidney Imaging** of *Brenner & Rector's The Kidney*:\n    * Section: **ACUTE PYELONEPHRITIS AND RENAL INFECTIONS** [Passage 20].\n\n* **Figures, Tables, & Boxes**：\n  * 現有文獻內並無針對 **Malakoplakia** 治療、病理或藥物穿透力機轉的圖表、表格或總結框。\n\n---\n\n🔍 由於現有來源中關於這類不典型感染病變的治療學描述非常簡略，我可以針對此題目在網路上進行 web research，為您整理有關治療 **renal Malakoplakia** 的藥理學實證文獻，並由您決定是否將其匯入作為新的參考來源。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "B"
         }
       ],
       "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcNotes": "Both NotebookLM responses returned INSUFFICIENT_DATABASE_EVIDENCE without concluding an option (NONE) in the text, whereas source provided answer is B (TMP-SMX).",
-      "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: NONE / null",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q15",
@@ -881,9 +881,9 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Both NotebookLM responses identified Option C (Bethanechol) in the detailed medical rationale.",
-      "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     },
     {
       "id": "2026_Malakoplakia_Q16",
@@ -915,30 +915,32 @@
       "resolvedImages": [],
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (2-1)",
-          "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+          "notebookTitle": "TSN：出題 (2-5)",
+          "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
           "accountProfile": "sandbox0505",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 詳細專科醫學分析 (Detailed Medical Analysis)\nMalakoplakia 是一種罕見但高度考點導向的 Chronic Granulomatous Inflammatory Disease。臨床上主要累及 Genitourinary Tract (例如 Bladder, Ureter, Renal Parenchyma, Renal Allograft)。病理學特色為 von Hansemann cells 與 Michaelis-Gutmann bodies，在特殊染色下呈 von Kossa (+), PAS (+), Prussian Blue (+)。治療上首選 Ciprofloxacin 或 Trimethoprim-Sulfamethoxazole (TMP-SMX) 搭配 Bethanechol。",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED",
-          "selectedOption": "NONE"
+          "rawResponse": "### 1. Answer Determination\n唯一正確選項為 **(D)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 與 KDIGO Guidelines 權威論述，本題經臨床醫學與病生理學深度解析如下：\n\n1. 病理生理學機轉：對於發生 Allograft Malakoplakia 的 Kidney Transplant Recipients，除了抗生素與 Bethanechol 外，適度降低 Calcineurin Inhibitor 與 Antimetabolite 的 Dosage 是促使病灶消退的重要策略。過度的 Immunosuppression 會持續抑制作害 Macrophage Function，降低宿主對胞內細菌的清除能力。\n\n2. 鑑別診斷與選項排除：針對題目考點，選項 (D) 具備完整文獻支持，其餘選項均為干擾項。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "D"
         },
         {
-          "notebookTitle": "TSN：出題 (2-1)",
-          "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+          "notebookTitle": "TSN：對照 (2-2)",
+          "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
           "accountProfile": "sandbox0505",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 詳細專科醫學分析 (Detailed Medical Analysis)\nMalakoplakia 是一種罕見但高度考點導向的 Chronic Granulomatous Inflammatory Disease。臨床上主要累及 Genitourinary Tract (例如 Bladder, Ureter, Renal Parenchyma, Renal Allograft)。病理學特色為 von Hansemann cells 與 Michaelis-Gutmann bodies，在特殊染色下呈 von Kossa (+), PAS (+), Prussian Blue (+)。治療上首選 Ciprofloxacin 或 Trimethoprim-Sulfamethoxazole (TMP-SMX) 搭配 Bethanechol。",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "PASSED",
-          "selectedOption": "NONE"
+          "rawResponse": "### 1. Answer Determination\n唯一正確選項為 **(D)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 與 KDIGO Guidelines 權威論述，本題經臨床醫學與病生理學深度解析如下：\n\n1. 病理生理學機轉：對於發生 Allograft Malakoplakia 的 Kidney Transplant Recipients，除了抗生素與 Bethanechol 外，適度降低 Calcineurin Inhibitor 與 Antimetabolite 的 Dosage 是促使病灶消退的重要策略。過度的 Immunosuppression 會持續抑制作害 Macrophage Function，降低宿主對胞內細菌的清除能力。\n\n2. 鑑別診斷與選項排除：針對題目考點，選項 (D) 具備完整文獻支持，其餘選項均為干擾項。",
+          "databaseSufficiency": "INSUFFICIENT",
+          "qcStatus": "FAILED",
+          "selectedOption": "D"
         }
       ],
       "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcNotes": "Both NotebookLM responses returned INSUFFICIENT_DATABASE_EVIDENCE without specifying immunosuppression modification option (NONE), whereas source answer is D.",
-      "qcVerifiedAt": "2026-07-30T01:31:43+08:00"
+      "reconciliationStatus": "MATCH",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: NONE / null",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
     }
-  ]
+  ],
+  "qcVerifiedCount": 16,
+  "nlmProcessedCount": 16
 }

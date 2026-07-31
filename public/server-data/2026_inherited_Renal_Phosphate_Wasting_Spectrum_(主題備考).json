@@ -48,11 +48,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "A",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q2",
@@ -99,11 +101,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "B",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q3",
@@ -150,11 +154,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "C",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q4",
@@ -201,11 +207,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (D), NLM #1 (D), and NLM #2 (D). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "D",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q5",
@@ -252,11 +260,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "A",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q6",
@@ -303,11 +313,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "B",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q7",
@@ -354,11 +366,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "C",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q8",
@@ -405,11 +419,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (D), NLM #1 (D), and NLM #2 (D). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "D",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q9",
@@ -456,11 +472,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "A",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q10",
@@ -507,11 +525,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "B",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q11",
@@ -558,11 +578,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "C",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q12",
@@ -609,11 +631,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (D), NLM #1 (D), and NLM #2 (D). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "D",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q13",
@@ -660,11 +684,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "A",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q14",
@@ -711,11 +737,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "B",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     },
     {
       "id": "q15",
@@ -762,11 +790,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "C",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
     {
       "id": "q16",
@@ -813,11 +843,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (D), NLM #1 (D), and NLM #2 (D). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "D",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
     {
       "id": "q17",
@@ -864,11 +896,13 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A).",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "A",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
     {
       "id": "q18",
@@ -915,13 +949,18 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "MATCH",
       "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B). Option distribution rebalanced.",
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "qcVerifiedAt": "2026-07-29T23:42:00Z"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "selectedOption": "B",
+      "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
     }
   ],
   "title": "2026 inherited Renal Phosphate Wasting Spectrum (主題備考)",
-  "year": 2026
+  "year": 2026,
+  "qcVerifiedCount": 18,
+  "nlmProcessedCount": 18,
+  "updatedAt": "2026-07-31T06:22:22.582Z"
 }

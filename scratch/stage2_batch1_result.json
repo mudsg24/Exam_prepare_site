@@ -1,0 +1,92 @@
+[
+  {
+    "paperId": "2025_北醫題庫一",
+    "paperTitle": "2025北醫題庫一",
+    "id": "2025_北醫題庫一_q12",
+    "number": 12,
+    "stem": "Acute kidney injury (AKI) in coronavirus infection disease (COVID-19) is associated with disease severity.\n\nWhich one of the following descriptions about AKI in COVID-19 Patients is NOT CORRECT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Global collapse of the glomerular tuft with overlying podocyte hyperplasia"
+      },
+      {
+        "id": "B",
+        "text": "Tubular microcystic dilation, and prominent tubular protein reabsorption droplets"
+      },
+      {
+        "id": "C",
+        "text": "Subendothelial electron-dense deposits, some associated with short glomerular basement membrane spikes"
+      },
+      {
+        "id": "D",
+        "text": "Cellular crescents, mesangial hypercellularity and segmental endocapillary hypercellularity"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "nlm1SelectedOption": "C",
+    "nlm2SelectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。"
+  },
+  {
+    "paperId": "2025_彰基重點",
+    "paperTitle": "2025 彰基重點",
+    "id": "2025_彰基重點_q6",
+    "number": 3,
+    "stem": "A 63 years old man, who has past history of type 2 DM、hypertension and prostatic malignancy. Malaise and weakness noticed for weeks. Blood tests were: Na:136 mmol/L, K: 4.4 mmol/L, Ca:12.2 mg/dL, Cl: 104mmol/L, P:3.3mg/dL, albumin:3.9, iPTH:1.2pg/mL (12-88 pg/mL), 25,(OH) D: 39 (20-50ng/mL) 1,25(OH)D: 110 (18-78pg/mL)。\nWhich one is the most probably diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prostatic cancer the bone metastasis"
+      },
+      {
+        "id": "B",
+        "text": "Milk-alkali syndrome"
+      },
+      {
+        "id": "C",
+        "text": "Overuse of vitamin D"
+      },
+      {
+        "id": "D",
+        "text": "Cryptococcus infection"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "nlm1SelectedOption": "D",
+    "nlm2SelectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。"
+  },
+  {
+    "paperId": "2025_彰基重點",
+    "paperTitle": "2025 彰基重點",
+    "id": "2025_彰基重點_q7",
+    "number": 4,
+    "stem": "A 70 years old woman who has ESRD from diabetes and received hemodialysis for 2 years. Fluctuation of her blood calcium level found by the physician. No dialysate calcium level (2.5adjusted in recent month. Traced her series data was below.\nDec. 03, 2016 | Mar. 05, 2017 | Jun.07, 2017 | Sep. 04, 2017\nCa (total, correct) (mg/dL): 9.2 | 7.7 | 9.1 | 6.8\nPhosphate (mg/dL): 5.6 | 4.2 | 4.9 | 4.1\nIntact PTH (pg/mL): 192 | 1203 | 259 | 1251\nWhich is the most probable cause for this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Poor compliance of Phosphate binder and calcitriol prescribed"
+      },
+      {
+        "id": "B",
+        "text": "Teriparatide (Forteo) injected on the day Mar, 01, 2017 and Sep. 01, 2017"
+      },
+      {
+        "id": "C",
+        "text": "Took calcitriol (0.5µg, three times a week) since Mar. 2017 to Jan 2017, then discontinued."
+      },
+      {
+        "id": "D",
+        "text": "Denosumab injected regularly"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "nlm1SelectedOption": "D",
+    "nlm2SelectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "原始答案與兩組 NotebookLM 檢索結果完全一致。"
+  }
+]

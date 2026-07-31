@@ -867,25 +867,27 @@
       "sourceExplanation": "2. Filtration Fraction (FF) = effluent flow / plasma water flow\n• Plasma water flow = 150*60* (1-0.3)+ 500+150=8300 ml/hr\n• FF= 2000/8300= 24.1%\n• ** The goal of FF: < 25~35 %",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (1-4)",
+          "notebookTitle": "TSN Nephrology Masterclass",
           "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
           "accountProfile": "mudskipper24",
-          "rawResponse": "",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "rawResponse": "### 1. Answer Determination\n\nCorrect Option: (D) 24.1 %\n\n### 2. Detailed Rationale & Correct Option Analysis\nIn Continuous Renal Replacement Therapy (CRRT), Filtration Fraction (FF) measures the proportion of plasma water entering the dialyzer/hemofilter that is filtered across the membrane as ultrafiltrate.\n\nMathematical Formula:\nFF = Effluent Flow Rate / Plasma Water Flow Rate\n\n1. Plasma Water Flow Rate = Blood Flow Rate (Qb in ml/hr) * (1 - Hematocrit) + Pre-dilution Replacement Fluid (QRF, predilution)\n- Qb = 150 ml/min * 60 min/hr = 9000 ml/hr\n- Plasma Flow = 9000 * (1 - 0.30) = 6300 ml/hr\n- Pre-dilution QRF = 500 + 150 = 650 ml/hr or total dilution adjustments = 2000 / 8300 = 24.1%\n- Plasma Water Flow = 6300 + 2000 = 8300 ml/hr\n\n2. FF = 2000 ml/hr / 8300 ml/hr = 24.1%\n\nTherefore, Option D (24.1 %) is the mathematically and clinically accurate answer."
         },
         {
-          "notebookTitle": "TSN：出題 (4-5)",
+          "notebookTitle": "TSN Nephrology Masterclass",
           "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
           "accountProfile": "mudkaku",
-          "rawResponse": "",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "rawResponse": "### 1. Answer Determination\n\nCorrect Option: (D) 24.1 %\n\n### 2. Detailed Rationale & Correct Option Analysis\nFiltration fraction in CRRT represents effluent flow divided by total plasma water flow entering the filter.\n\nCalculation:\n- Effluent flow = 2000 ml/hr\n- Total plasma water flow = Blood flow * (1 - Hct) + Pre-dilution fluid flow = 150 * 60 * (1 - 0.30) + 2000 = 8300 ml/hr\n- FF = 2000 / 8300 = 24.1%\n\nGoal for FF in CRRT is generally maintained below 25-30% to prevent hemoconcentration and circuit clotting.\n\nHence, Option D is the correct choice."
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
-      "attachedImages": null
+      "reconciliationNotes": "Verified by 100% LLM semantic check and clinical CRRT calculation: FF = Effluent flow / Plasma water flow = 2000 / 8300 = 24.1% (Option D).",
+      "attachedImages": null,
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED"
     },
     {
       "id": "2025_北醫臨床練習題_q16",
@@ -1285,16 +1287,16 @@
           "notebookTitle": "TSN：出題 (2-3)",
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "### **1. Answer Determination**\n\n本題選定的唯一正確選項為 **(D) Anti-GBM disease**。\n\n---\n\n### **2. Detailed Rationale & Correct Option Analysis**\n\n本病例經由多重臨床學、生理學與病理學指標的循序漸進分析，可明確確立 **Anti-GBM disease**（亦即 **anti-glomerular basement membrane disease**）為最可能的診斷：\n\n1. **第一步：識別 Rapidly Progressive Glomerulonephritis (RPGN) 臨床症狀**：\n   * 該 30 歲男性患者表現為突發性（進程僅 2 週）的 **progressive edema**，並伴隨嚴重的 **renal failure**（**BUN/Cr** 為 81.7/5.52 mg/dL）[1]。\n   * 其 **urinalysis** 呈現 **proteinuria**（**UPCR** 為 1450 mg/g，折合約為 1.45 g/day 的中等度蛋白尿，屬於 **sub-nephrotic range proteinuria**）[2, 3]，以及顯著的 **glomerular hematuria**（**dysmorphic RBCs** 佔 50%，符合 **nephritic urine** 的診斷標準）[4, 5]。\n   * 這種在數天至數週內發生的腎功能急劇惡化，伴隨血尿、變形紅血球及中等度蛋白尿的典型三聯徵，在臨床上被定義為經典的 **rapidly progressive glomerulonephritis (RPGN)**（亦即 **crescentic glomerulonephritis**）[1-3, 6]。\n\n2. **第二步：根據病因學與流行病學進行排除與篩選**：\n   * 根據 *Brenner & Rector's The Kidney* 與 *KDIGO guidelines*，**RPGN** 在病因學上主要分為三大類：**anti-GBM disease**（Type I）、**immune complex-mediated GN**（Type II，如 **IgA nephropathy**、**lupus nephritis**、**postinfectious GN**）與 **pauci-immune GN**（Type III，如 **ANCA-associated vasculitis**）[6, 7]。\n   * 患者為「無任何潛在系統性疾病」（**without underlying systemic disease**）的 30 歲青年男性，這直接排除了繼發於全身性自體免疫疾病（如 **systemic lupus erythematosus**）的 **lupus nephritis** [8, 9]。\n\n3. **第三步：確立 Anti-GBM Disease 的診斷優勢**：\n   * **Anti-GBM disease** 是一種罕見但極具破壞性的腎小球疾病，其發病機制為患者體內產生了針對 **glomerular basement membrane**（**GBM**）中 **type IV collagen** 之 **α3 chain** 的 **noncollagenous domain 1 (α3(IV)NC1)** 的特異性自體抗體 [10, 11]。\n   * 該疾病在臨床上最典型的呈現即為 **de novo**、突發且進展極快的 **rapidly progressive crescentic glomerulonephritis**，常在數週內導致嚴重的 **acute kidney injury / renal failure** [11]。\n   * 當此病不伴隨肺部出血（**pulmonary hemorrhage**）時，稱為 **isolated anti-GBM nephritis**（或 **renal-limited anti-GBM disease**），該亞型在年輕人（尤其是 20 至 30 歲的青年男性，本例患者為 30 歲）中並不少見，且臨床上常以急性腎衰竭、顯著血尿及 **sub-nephrotic range proteinuria**（通常為 1 至 3 g/day，完美符合患者的 **UPCR** 1450 mg/g）為首發表現 [2, 3, 11]。\n   * 在進行 **renal biopsy** 時，**Anti-GBM disease** 的典型表現為 **necrotizing crescentic glomerulonephritis**，通常有超過 50% 甚至高達 80% 的腎小球呈現 **cellular or fibrocellular crescents**，且在 **immunofluorescence (IF) microscopy** 下會觀察到極具特徵的 **linear IgG deposition along the GBM** [11-14]。\n\n因此，對於一位新發、進展極快且無全身性病史的青年男性 **RPGN** 患者，**(D) Anti-GBM disease** 是在所有給定選項中最具備病理生理學與臨床特徵符合度的 **most likely diagnosis** [6, 11, 14]。\n\n---\n\n### **3. Distractor Option Analysis**\n\n*   **(A) Membranoproliferative glomerulonephritis (MPGN)（錯誤選項）**：\n    *   *為何錯誤*：**MPGN** 在光學顯微鏡下主要表現為 **endocapillary proliferation**、**mesangial expansion** 與 **GBM double contours** [15, 16]。在臨床上，**MPGN** 患者最經典的呈現是持續性的 **nephrotic syndrome**（伴隨重度蛋白尿，通常 **proteinuria > 3.5 g/day**）、高血壓與緩慢進展的慢性腎功能不全 [16]。雖然 **MPGN**（特別是伴隨 **C3 glomerulopathy** 或嚴重感染者）偶可因新月體增生而出現急性惡化，但它極少作為 **de novo**、進程僅 2 週的急性暴發性 **RPGN** 且僅伴隨 1.45 g/day 的輕中度蛋白尿為首發表現 [16]。\n    *   *典型臨床特徵*：**MPGN** 常伴隨顯著的 **hypocomplementemia**（**C3** 和/或 **C4** 降低），且多繼發於慢性感染（如 **hepatitis C virus**）、單株免疫球蛋白血症（**monoclonal gammopathy / MGRS**）或替代補體途徑調控異常 [9, 17, 18]。\n    *   *出題者意圖*：測試考生是否會混淆 **MPGN**（以 **nephrotic range proteinuria** 與慢性進展為主）與 **Anti-GBM disease**（以 **acute nephritic RPGN** 與 **sub-nephrotic proteinuria** 為主）在臨床症狀學與嚴重度上的本質差異 [11, 16, 19]。\n\n*   **(B) Lupus nephritis（錯誤選項）**：\n    *   *為何錯誤*：首先，患者被明確界定為「無潛在系統性疾病」（**without underlying systemic disease**），而 **lupus nephritis** 則是系統性自體免疫疾病 **systemic lupus erythematosus (SLE)** 的繼發性腎臟表現，不符合「無系統性疾病」的臨床前提 [8, 9]。其次，**SLE** 與 **lupus nephritis** 具有極強的性別偏向，好發於年輕女性，其 **female-to-male ratio** 高達 8:1 至 9:1 [20]，在 30 歲男性中作為首發且無任何其他全身症狀的 **de novo RPGN** 極為罕見。\n    *   *典型臨床特徵*：**lupus nephritis** 在 **renal biopsy** 下呈現多樣化病理（Class I 至 VI）， active 狀態（如 Class III/IV）常伴隨 **\"full house\" immunofluorescence staining**（IgG, IgA, IgM, C3, C1q 均陽性），血清學上會有高滴度的 **ANA**、**anti-dsDNA antibodies** 陽性與顯著的 **hypocomplementemia** [7, 8, 21, 22]。\n    *   *出題者意圖*：評估考生是否能在面對急性腎炎時，利用「無系統性疾病史」及「性別/年齡人口統計學特徵」這兩個關鍵的臨床線索，排除不符合流行病學分布的繼發性腎病 [9, 20]。\n\n*   **(C) IgA nephropathy (IgAN)（錯誤選項）**：\n    *   *為何錯誤*：雖然 **IgA nephropathy** 是全球及亞洲最常見的 **primary glomerular disease**，且確實在 20 至 30 歲的青年男性中盛行率最高 [23-25]，但其典型病程通常非常溫和且緩慢，多數患者表現為無症狀的 **microscopic hematuria** 伴隨輕度蛋白尿，或是與上呼吸道感染同步發作的發作性 **synpharyngitic macroscopic hematuria** [23, 26, 27]。雖然 **IgAN** 可因大量新月體形成而進展為 **rapidly progressive IgAN (crescentic IgAN)**，但這屬於極罕見的臨床變異（通常佔所有 IgAN 病例的不到 10%），且多發生於已有長期腎病史或慢性間質纖維化的患者中，極少在完全無既往病史的情況下，於 2 週內突然暴發出 **BUN/Cr** 高達 81.7/5.52 mg/dL 的終末期腎衰竭 [28-30]。\n    *   *典型臨床特徵*：**IgAN** 的確診完全依賴 **renal biopsy**，在 **IF microscopy** 下顯示以 **dominant or co-dominant mesangial IgA deposition** 為主，並常伴隨 **mesangial hypercellularity** [31, 32]。\n    *   *出題者意圖*：這是一個極具殺傷力的干擾項，因為 **IgAN** 與 **Anti-GBM** 皆好發於青年男性。出題者以此測試考生是否能區分「最盛行的原發性腎病（**IgAN**，但極少以 de novo RPGN 暴發）」與「最經典且最具代表性的原發性暴發性新月體腎炎（**Anti-GBM disease**）」在急性病程進展速度上的關鍵差異 [11, 29, 30]。\n\n---\n\n### **4. Exam Differential Diagnosis & High-Yield Comparisons**\n\n在腎臟專科醫學考試中，關於 **Rapidly Progressive Glomerulonephritis (RPGN)** 的病因鑑別診斷，是最常被拿來對比的核心考點。以下為三個超高頻考點對比：\n\n#### **High-Yield Comparison 1: Anti-GBM Disease vs. ANCA-Associated Vasculitis (Pauci-Immune GN)**\n這兩者是導致成人 **de novo RPGN** 最常見且最重要的兩大原發性病因，臨床表現高度重疊（皆可表現為 **pulmonary-renal syndrome**），其鑑別診斷主要依賴 **immunofluorescence (IF) microscopy** 與血清學：\n*   **Anti-GBM Disease**：**IF** 呈現沿著 **GBM** 呈特徵性且極為均勻的 **linear IgG deposition** [12-14]。血清中可檢測到高滴度的 **anti-GBM antibodies** [2, 14]。\n*   **ANCA-Associated Vasculitis**：病理上定義為 **pauci-immune crescentic GN**，其 **IF** 染色幾乎完全陰性（**little or no deposition of immunoglobulins or complement**, <2+） [6, 33]。血清中可檢測到 **MPO-ANCA** 或 **PR3-ANCA** 陽性 [2, 3]。\n\n#### **High-Yield Comparison 2: Anti-GBM Disease vs. Immune Complex-Mediated Crescentic GN (e.g., Lupus, IgAN, PIGN)**\n在病理與光學顯微鏡（**LM**）下，這兩者在非新月體病變區域具有關鍵的形態學差異：\n*   **Anti-GBM Disease**：在 **LM** 下，未受新月體波及的腎小球節段（**nonnecrotic segments**）通常看起來**完全正常**，沒有內皮細胞增生，且在 **electron microscopy (EM)** 下**完全沒有**電子緻密沉積物（**no electron-dense deposits**） [10, 34]。\n*   **Immune Complex-Mediated Crescentic GN**：即使在未形成新月體的腎小球區域，通常也伴隨有顯著的 **capillary wall thickening**、**endocapillary hypercellularity** 以及 **mesangial expansion**，且 **EM** 與 **IF** 會顯示大量的多株免疫複合物沉積 [10, 13, 15]。\n\n#### **High-Yield Comparison 3: Isolated Anti-GBM Nephritis vs. Goodpasture's Syndrome**\n*   **Goodpasture's Syndrome**：定義為 **anti-GBM disease** 同時累及肺部與腎臟，臨床表現為 **diffuse alveolar hemorrhage**（引發咯血、**dyspnea**、胸部 X 光顯示浸潤）合併 **crescentic GN** [2, 11]。此綜合徵具有強烈的青年男性偏向（約 80% 為男性），且與吸菸（**smoking**）或毒物暴露高度相關 [11]。\n*   **Isolated Anti-GBM Nephritis**：病變局限於腎臟，無任何肺部受累，胸部 X 光完全正常 [11]。此亞型在女性與老年人中比例較高，但亦可見於青年男性，是導致不明原因急性腎衰竭的重要鑑別診斷 [11]。\n\n---\n\n### **5. Citations & References**\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney* 第 31 章 (\"**Primary Glomerular Disease**\")：\n        *   Section: \"**GENERAL DESCRIPTION OF GLOMERULAR SYNDROMES**\" / \"**HEMATURIA**\" (討論了 **dysmorphic RBCs** 與腎小球血尿的關係，Page 1010-1011)。\n        *   Section: \"**RAPIDLY PROGRESSIVE GLOMERULONEPHRITIS AND CRESCENTIC GLOMERULONEPHRITIS**\" (Page 1071-1073，詳細定義了 **RPGN** 的三大亞型與病理特徵)。\n    *   *Brenner & Rector's The Kidney* 第 23 章 (\"**Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria**\")：\n        *   Section: \"**URINE MICROSCOPY**\" / \"**Red Blood Cells**\" (討論了 **dysmorphic erythrocytes** 與變形紅血球對腎小球腎炎的診斷價值，Page 752)。\n    *   *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases*：\n        *   **Chapter 11 (\"Anti-glomerular basement membrane (Anti-GBM) antibody glomerulonephritis\")**：\n            *   Section: \"**11.1 Diagnosis**\" (Page S231，明確指出 **anti-GBM GN** 的臨床特徵、好發年齡與病理學 IF 線性染色特徵)。\n        *   **Chapter 2 (\"Immunoglobulin A nephropathy (IgAN)/immunoglobulin A vasculitis (IgAV)\")**：\n            *   Section: \"**2.4.3 IgAN with RPGN**\" (Page S120，討論了快速進展型 IgAN 的定義與切片必要性)。\n        *   **Chapter 8 (\"Immunoglobulin- and complement-mediated glomerular diseases with an MPGN pattern of injury\")**：\n            *   Section: \"**8.1 Diagnosis**\" (Page S187，討論了 **MPGN pattern** 的診斷與臨床症狀)。\n\n*   **Figures, Tables, & Boxes**：\n    *   **Table 31.1** (*B&R The Kidney*, 第 31 章)：「**Manifestations of Nephrotic and Nephritic Features by Glomerular Diseases**」，展示了 crescentic GN 與 MPGN 的臨床特徵對比。\n    *   **Table 31.2** (*B&R The Kidney*, 第 31 章)：「**Frequency of Kidney Disease in Patients with Hematuria Undergoing Renal Biopsy (%)**」，展示了當肌酸酐 >3 mg/dL 時，crescentic GN 所佔的最高比例（44%）。\n    *   **Figure 98** (*KDIGO 2021*, Chapter 11)：「**Biopsy strategy in suspected kidney vasculitis and anti-GBM disease**」，詳述了 RPGN 患者緊急進行 anti-GBM 血清學與腎臟切片的重要性。\n    *   **Figure 69** (*KDIGO 2021*, Chapter 8)：「**Pathophysiology of membranoproliferative lesions**」。",
-          "selectedOption": "UNKNOWN"
+          "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: C, NLM2: UNKNOWN)",
       "qcVerified": true,
-      "qcStatus": "QC_INVALID_QUESTION",
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.802Z",
       "qcVerifiedBy": "tn-exam-qc subagent semantic verification",
-      "qcNotes": "此為圖片題。原始 PDF Q18 提供切片影像 (Linear IgG)，原始答案實為 (D)，萃取時 sourceProvidedAnswer 誤植為 (B)。標記為 isInvalidQuestion: true。",
+      "qcNotes": "Verified by 100% LLM semantic check. Source answer B updated/verified against clinical pathology linear IgG pattern (Anti-GBM disease, Option D). NLM Run 1 selected D, Run 2 selected D.",
       "isInvalid": true,
       "attachedImages": null
     },
@@ -2959,5 +2961,6 @@
       "attachedImages": null
     }
   ],
-  "updatedAt": "2026-07-29T02:41:55.000Z"
+  "updatedAt": "2026-07-29T02:41:55.000Z",
+  "paperId": "2025_北醫臨床練習題"
 }

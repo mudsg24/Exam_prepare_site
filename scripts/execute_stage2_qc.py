@@ -16,9 +16,13 @@ FILES = [
 
 DATA_DIR = "public/server-data"
 
+# DEPRECATED / GOVERNANCE WARNING:
+# Per AGENTS.md Mandatory Question Extraction Governance Rules 1, 4, 9:
+# ALL mechanical / regex option extraction is STRICTLY PROHIBITED.
+# selectedOption MUST be determined 100% via LLM Subagent semantic parsing.
+
 def extract_selected_option(raw_response):
-    if not raw_response or len(raw_response) < 50:
-        return "NONE"
+    raise NotImplementedError("Regex option extraction is banned per AGENTS.md Rules 1, 4, 9. Use LLM Subagent semantic parsing.")
     
     # Locate section 1 (Answer Determination / 答案判定)
     section1_match = re.search(r'###\s*(?:\d+\.|\*\*?\d+\.?\*\*?)\s*(?:Answer Determination|正解判定|答案判定)[\s\S]*?(?=###|\Z)', raw_response, re.IGNORECASE)

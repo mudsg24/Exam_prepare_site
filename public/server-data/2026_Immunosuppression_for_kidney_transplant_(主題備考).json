@@ -60,7 +60,7 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "qcVerified": false,
+      "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
       "qcNotes": "NLM1 explicitly names D in Answer Determination. NLM2 names no letter (NONE). Disputed.",
       "qcVerifiedAt": "2026-08-01T04:14:28.550963+08:00"

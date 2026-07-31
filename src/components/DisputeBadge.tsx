@@ -66,6 +66,17 @@ export const DisputeBadge: React.FC<DisputeBadgeProps> = ({ status, notes, size 
         </span>
       );
 
+    case 'UNRESOLVED_NEEDS_RETRY':
+      return (
+        <span
+          title={notes || 'QC 品質門閥待重試'}
+          className={`inline-flex items-center rounded-md bg-amber-500/10 text-amber-400 border border-amber-500/30 ${getSizeClasses()}`}
+        >
+          <AlertCircle className="w-3.5 h-3.5" />
+          <span>待重試 / 驗證未完成</span>
+        </span>
+      );
+
     case 'UNVERIFIED':
     default:
       return (

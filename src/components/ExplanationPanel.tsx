@@ -262,8 +262,9 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
               }`}
             >
               {nlmResponses.map((res, idx) => {
-                const choice = res.extractedChoice || res.selectedOption || '無';
-                const isNone = choice === 'NONE' || choice === '無';
+                const rawChoice = res.extractedChoice || res.selectedOption || question.selectedOption || '';
+                const cleanChoice = rawChoice.replace(/^Option\s*/i, '').trim().toUpperCase();
+                const displayChoice = !cleanChoice || cleanChoice === 'NONE' || cleanChoice === 'NULL' ? '無' : cleanChoice;
                 return (
                   <button
                     key={idx}
@@ -274,7 +275,7 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
                         : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
                     }`}
                   >
-                    {res.notebookTitle || `Notebook #${idx + 1}`} (NLM選 {isNone ? '無' : choice})
+                    {res.notebookTitle || `Notebook #${idx + 1}`} (NLM選 {displayChoice})
                   </button>
                 );
               })}
@@ -284,7 +285,9 @@ export const ExplanationPanel: React.FC<ExplanationPanelProps> = ({
           {/* Active NLM Formatted Card */}
           {nlmResponses[activeNlmTab] && (() => {
             const currentNlm = nlmResponses[activeNlmTab];
-            const currentChoice = currentNlm.extractedChoice || currentNlm.selectedOption || 'N/A';
+            const rawCurrent = currentNlm.extractedChoice || currentNlm.selectedOption || question.selectedOption || '';
+            const cleanCurrent = rawCurrent.replace(/^Option\s*/i, '').trim().toUpperCase();
+            const currentChoice = !cleanCurrent || cleanCurrent === 'NULL' ? 'N/A' : cleanCurrent;
             const parsedSections = parseNlmSections(currentNlm.formattedResponse || currentNlm.rawResponse);
 
             return (

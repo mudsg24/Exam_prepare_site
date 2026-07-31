@@ -846,7 +846,7 @@ const normalizePaperData = (paperData: any, itemOrId: string | ExamManifestItem)
                   onToggleFlag={handleToggleFlag}
                   onPrev={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
                   onNext={() => setCurrentIndex((prev) => Math.min(filteredQuestions.length - 1, prev + 1))}
-                  isSubmitted={!!attemptState?.isSubmitted}
+                  isSubmitted={isEffectiveSubmitted}
                   themeMode={themeMode}
                   onOpenAttachedImage={(img) => setModalImage(img)}
                 />

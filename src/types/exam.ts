@@ -31,7 +31,8 @@ export type DisputeStatus =
   | 'DISPUTED_SOURCE_VS_NLM'        // Source differs from NLM
   | 'DISPUTED_NLM_VS_NLM'          // NLM 1 differs from NLM 2
   | 'UNVERIFIED'                   // No source answer & NLM insufficient
-  | 'INSUFFICIENT_EVIDENCE';       // NLM evidence insufficient
+  | 'INSUFFICIENT_EVIDENCE'        // NLM evidence insufficient
+  | 'UNRESOLVED_NEEDS_RETRY';      // QC Needs Retry
 
 export interface ResolvedImage {
   id: string;
@@ -66,11 +67,16 @@ export interface ExamQuestion {
   options: QuestionOption[];
   sourceAnswerStatus: 'provided' | 'absent' | 'ambiguous' | 'synthetic_tonks';
   sourceProvidedAnswer: OptionId | null;
+  selectedOption?: string | null;
   sourceExplanation?: string | null;
   codexExplanation?: CodexExplanation;
   nlmResponses: NlmResponseItem[];
   reconciliationStatus: DisputeStatus;
   reconciliationNotes: string;
+  qcStatus?: string;
+  qcVerified?: boolean;
+  qcVerifiedAt?: string;
+  qcNotes?: string;
   resolvedImages: ResolvedImage[];
   attachedImages?: AttachedImage[];
 }

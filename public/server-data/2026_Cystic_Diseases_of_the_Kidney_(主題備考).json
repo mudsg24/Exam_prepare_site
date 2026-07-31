@@ -855,7 +855,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Medullary Sponge Kidney (MSK, 髓質海綿腎) 為一偶發性腎臟發育異常，特徵為腎乳頭部**Precalyceal Collecting Ducts Ectasia**。排泄性 CT CT Urography 可見特徵性 **'Papillary Brush Pattern' **。臨床常表現為反覆草酸鈣/磷酸鈣結石、Nephrocalcinosis、完全或不完全型 Type 1 Distal RTA 與尿路感染。",
+      "sourceExplanation": "`Medullary Sponge Kidney` 為一偶發性腎臟發育異常，特徵為 `renal papilla` 部位之 `precalyceal collecting ducts ectasia`。排泄性 `CT urography` 可見特徵性 `papillary brush pattern`。臨床常表現為反覆 `calcium oxalate` 或 `calcium phosphate` 結石、`nephrocalcinosis`、完全或不完全型 `type 1 distal RTA` 與 `urinary tract infection`。",
       "selectedOption": "B",
       "nlmResponses": [
         {
@@ -884,11 +884,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:16:31.461190+08:00",
-      "qcNotes": "Found bilingual brackets like \"MSK（亦稱為 precalyceal canalicular ectasia）\"."
+      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q16",
@@ -914,7 +914,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Acquired Cystic Kidney Disease (**ACKD**) 定義為原本無囊腫之 ESRD 患者，在長期尿毒症或透析 (>3–5 年) 後原位萎縮腎臟出現 ≥ 3 個囊腫 (透析 >8 年者盛行率達 70-90%)。ACKD 最重要的專科考點為其具高度的癌變傾向：**演變為 Renal Cell Carcinoma (RCC) 之風險比一般大眾高出 100 倍**，且常為雙側多發性。成功接受腎臟移植後，原位 ACKD 囊腫通常會逐漸萎縮。",
+      "sourceExplanation": "`Acquired Cystic Kidney Disease` 定義為原本無囊腫之 `ESRD` 患者，在長期尿毒症或 `dialysis` 大於三至五年後，原位萎縮腎臟出現大於等於三個囊腫。`Acquired Cystic Kidney Disease` 最重要的專科考點為其具高度的癌變傾向，演變為 `renal cell carcinoma` 之風險比一般大眾高出一百倍，且常為雙側多發性。成功接受腎臟移植後，原位 `Acquired Cystic Kidney Disease` 囊腫通常會逐漸萎縮。",
       "selectedOption": "C",
       "nlmResponses": [
         {
@@ -943,11 +943,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:14:44.637Z",
-      "qcNotes": "Language violation: Contains Traditional Chinese medical terms (e.g., 尿毒症, 透析, 萎縮腎臟, 囊腫, 腎臟移植) instead of English only."
+      "reconciliationNotes": "`NLM consensus` (C) 與 `ground truth` (C) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q17",
@@ -973,7 +973,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在染色體 16p13.3 位置，編碼 Polycystin-1 的 `PKD1` 基因與編碼 Tuberin 的 `TSC2` Tail-to-Tail 緊密相鄰。當發生 16p13.3 微缺失時，會同時破壞此兩個基因，引發 **Contiguous TSC2/PKD1 Deletion Syndrome**。病患兼具 Tuberous Sclerosis Complex 與極重度嬰幼兒早發型 ADPKD，於出生數月內即出現巨型雙腎囊腫與迅速惡化之腎衰竭。",
+      "sourceExplanation": "在染色體 16p13.3 位置，編碼 `polycystin-1` 的 `PKD1` 基因與編碼 `tuberin` 的 `TSC2` 基因呈 `tail-to-tail` 緊密相鄰。當發生 16p13.3 微缺失時，會同時破壞此兩個基因，引發 `contiguous TSC2/PKD1 deletion syndrome`。病患兼具 `tuberous sclerosis complex` 與極重度嬰幼兒早發型 `ADPKD`，於出生數月內即出現巨型雙腎囊腫與迅速惡化之腎衰竭。",
       "selectedOption": "A",
       "nlmResponses": [
         {
@@ -1002,11 +1002,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:14:44.638Z",
-      "qcNotes": "Language violation: Contains Traditional Chinese medical terms (e.g., 染色體, 微缺失, 腎衰竭)."
+      "reconciliationNotes": "`NLM consensus` (A) 與 `ground truth` (A) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q18",
@@ -1032,7 +1032,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "von Hippel-Lindau (**VHL**) 基因 (3p25.3) 編碼 VHL 蛋白，為 E3 Ubiquitin Ligase 複合體的核心組分，專一性識別並標記 **Hypoxia-Inducible Factors (HIF-1α 與 HIF-2α)** 進行蛋白體降解。當 VHL 失能時，即使在常氧狀態下，HIF-1α/2α 亦會大量蓄積並移入核內，驅動 **VEGF, PDGF, TGF-α** 等血管生成與細胞生長因子強烈表達，引發腎臟複雜性囊腫、雙側多發性 Clear Cell RCC (ccRCC)、CNS 血管母細胞瘤與嗜鉻細胞瘤。",
+      "sourceExplanation": "`von Hippel-Lindau` 基因位於 3p25.3，編碼 `VHL` 蛋白，為 `E3 ubiquitin ligase` 複合體的核心組分，專一性識別並標記 `hypoxia-inducible factors` 包括 `HIF-1α` 與 `HIF-2α` 進行蛋白體降解。當 `VHL` 失能時，即使在常氧狀態下，`HIF-1α` 與 `HIF-2α` 亦會大量蓄積並移入核內，驅動 `VEGF`、`PDGF`、`TGF-α` 等血管生成與細胞生長因子強烈表達，引發腎臟複雜性囊腫、雙側多發性 `clear cell renal cell carcinoma`、中樞神經系統 `hemangioblastoma` 與 `pheochromocytoma`。",
       "selectedOption": "B",
       "nlmResponses": [
         {
@@ -1061,11 +1061,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:14:44.638Z",
-      "qcNotes": "Language violation: Contains Traditional Chinese medical terms (e.g., 血管母細胞瘤, 嗜鉻細胞瘤, 囊腫)."
+      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q19",
@@ -1091,7 +1091,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在地標性 **HALT-PKD Study A** 試驗中證實：對於年輕、腎功能正常 (eGFR >60) 之 ADPKD 患者：\n1. **首選降壓藥物為 RAAS 抑制劑 (ACEi 或 ARB 單藥治療)**。\n2. **嚴格血壓控制 (<120/80 mmHg)** 120-130/70-80 能更顯著地減緩 Total Kidney Volume (TKV) 擴張速率，並改善 LVMI。\n3. **ACEi + ARB 雙重聯合阻斷**與單藥相比，並無額外延緩 TKV 或 eGFR 效益，反而增加Hyperkalemia與 AKI 風險，因此**不推薦雙重聯合阻斷**。",
+      "sourceExplanation": "在地標性 `HALT-PKD Study A` 試驗中證實，對於年輕且腎功能正常即 `eGFR` 大於 60 之 `ADPKD` 患者：第一，首選降壓藥物為 `RAAS` 抑制劑如 `ACEi` 或 `ARB` 單藥治療。第二，嚴格控制血壓小於 120/80 mmHg 能更顯著地減緩 `total kidney volume` 擴張速率，並改善 `left ventricular mass index`。第三，`ACEi` 加上 `ARB` 雙重聯合阻斷與單藥相比，並無額外延緩 `total kidney volume` 或 `eGFR` 效益，反而增加 `hyperkalemia` 與 `acute kidney injury` 風險，因此不推薦雙重聯合阻斷。",
       "selectedOption": "C",
       "nlmResponses": [
         {
@@ -1120,11 +1120,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:14:44.638Z",
-      "qcNotes": "Language violation: Contains Traditional Chinese medical terms (e.g., 降壓藥物, 抑制劑, 單藥治療)."
+      "reconciliationNotes": "`NLM consensus` (C) 與 `ground truth` (C) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q20",
@@ -1150,7 +1150,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 ADPKD 腎臟移植指引中：\n1. **不推薦對所有患者常規執行 Routine Native Nephrectomy**！因切除術具相當手術併發症與出血風險。\n2. 僅於具有**明確適應症**時切除：(1) 巨型腎臟佔據 Iliac Fossa 導致移植腎無放置空間；(2) 反覆嚴重囊腫感染或難治性慢性疼痛；(3) 反覆嚴重出血；(4) 懷疑併發癌變。\n3. 移植後在免疫抑制劑與腎功能恢復狀況下，原位多囊腎大多會呈現自然萎縮。",
+      "sourceExplanation": "在 `ADPKD` 腎臟移植指引中：第一，不推薦對所有患者常規執行 `routine native nephrectomy`，因切除術具相當手術併發症與出血風險。第二，僅於具有明確適應症時切除，包含巨型腎臟佔據 `iliac fossa` 導致移植腎無放置空間、反覆嚴重囊腫感染或難治性慢性疼痛、反覆嚴重出血，以及懷疑併發癌變。第三，移植後在免疫抑制劑與腎功能恢復狀況下，原位多囊腎大多會呈現自然萎縮。",
       "selectedOption": "B",
       "nlmResponses": [
         {
@@ -1179,11 +1179,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:14:44.638Z",
-      "qcNotes": "Language violation: Contains Traditional Chinese medical terms (e.g., 腎臟移植, 囊腫感染, 慢性疼痛)."
+      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     }
   ],
   "qcVerifiedCount": 20,

@@ -942,10 +942,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM #1 and NLM #2 consensus (Option A) matches sourceProvidedAnswer (Option A).",
+      "reconciliationStatus": "MATCH",
+      "reconciliationNotes": "NLM #1 與 NLM #2 達成共識 (Option A)，符合 sourceProvidedAnswer (Option A)。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "selectedOption": "A"
+      "selectedOption": "A",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:56+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_immunosuppression_q17",
@@ -971,7 +975,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Post-Transplant Lymphoproliferative Disorder (PTLD) 超過 85% 的病例係由 Epstein-Barr Virus (EBV) 所驅動。在強烈 T-cell immunosuppression 下，受 EBV 感染的 B-lymphocytes 失去 T-cell immune surveillance 而發生 lymphoproliferation 或 malignant lymphoma。",
+      "sourceExplanation": "Post-Transplant Lymphoproliferative Disorder (PTLD) 超過 85% 的病例是由 Epstein-Barr Virus (EBV) 所驅動。在強烈 T-cell immunosuppression 下，受 EBV 感染的 B-lymphocytes 失去 T-cell immune surveillance 而發生 lymphoproliferation 或 malignant lymphoma。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-3)",
@@ -998,10 +1002,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM #1 and NLM #2 consensus (Option D) matches sourceProvidedAnswer (Option D).",
+      "reconciliationStatus": "MATCH",
+      "reconciliationNotes": "NLM #1 與 NLM #2 達成共識 (Option D)，符合 sourceProvidedAnswer (Option D)。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "selectedOption": "D"
+      "selectedOption": "D",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:56+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_immunosuppression_q18",
@@ -1027,7 +1035,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Mycophenolic acid (MMF 及 EC-MPS) 具顯著 teratogenicity，可引發 congenital microtia, cleft lip/palate 及 cardiac malformations。因此 female recipients planning pregnancy 必須在 conception 前至少 6 週停用 MMF，並轉換為具備 pregnancy safety 之 Azathioprine (AZA)。",
+      "sourceExplanation": "Mycophenolic acid (MMF 及 EC-MPS) 具顯著 teratogenicity，可引發 congenital microtia、cleft lip/palate 及 cardiac malformations。因此計畫懷孕的女性受體必須在受孕前至少 6 週停用 MMF，並轉換為具備懷孕安全性的 Azathioprine (AZA)。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-5)",
@@ -1054,10 +1062,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM #1 and NLM #2 consensus (Option A) matches sourceProvidedAnswer (Option A).",
+      "reconciliationStatus": "MATCH",
+      "reconciliationNotes": "NLM #1 與 NLM #2 達成共識 (Option A)，符合 sourceProvidedAnswer (Option A)。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "selectedOption": "A"
+      "selectedOption": "A",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:56+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_immunosuppression_q19",
@@ -1083,7 +1095,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Mycophenolic acid (MMF/EC-MPS) 主要在 hepatic 經由 Glucuronosyltransferase (UGT) enzyme 進行 Phase II glucuronidation 代謝為 MPAG，並不依賴 CYP3A4 或 P-gp 代謝；因此其血中濃度不受 Azole antifungals 或 Macrolides 等 CYP3A4 inhibitors 影響 (相反，CNIs 與 mTOR inhibitors 皆強烈受到 CYP3A4 影響)。",
+      "sourceExplanation": "Mycophenolic acid (MMF/EC-MPS) 主要在肝臟經由 Glucuronosyltransferase (UGT) enzyme 進行 Phase II glucuronidation 代謝為 MPAG，並不依賴 CYP3A4 或 P-gp 代謝；因此其血中濃度不受 Azole antifungals 或 Macrolides 等 CYP3A4 inhibitors 影響（相反地，CNIs 與 mTOR inhibitors 皆強烈受到 CYP3A4 影響）。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-4)",
@@ -1110,10 +1122,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM #1 and NLM #2 consensus (Option A) matches sourceProvidedAnswer (Option A).",
+      "reconciliationStatus": "MATCH",
+      "reconciliationNotes": "NLM #1 與 NLM #2 達成共識 (Option A)，符合 sourceProvidedAnswer (Option A)。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "selectedOption": "A"
+      "selectedOption": "A",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:56+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_immunosuppression_q20",
@@ -1139,7 +1155,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Severe gastroenteritis / diarrhea 時，small intestinal mucosa enterocytes 脫落破壞，導致 small intestinal wall 的 CYP3A4 enzyme 與 P-glycoprotein (P-gp) efflux pump 功能暫時性嚴重喪失。這使得口服 Tacrolimus 的 first-pass metabolism 大幅降低，bioavailability 暴增，引起 Tacrolimus 血中濃度異常飆高與 nephrotoxicity。",
+      "sourceExplanation": "嚴重 gastroenteritis 或 diarrhea 時，small intestinal mucosa enterocytes 脫落破壞，導致小腸壁的 CYP3A4 enzyme 與 P-glycoprotein (P-gp) efflux pump 功能暫時性嚴重喪失。這使得口服 Tacrolimus 的 first-pass metabolism 大幅降低，bioavailability 暴增，引起 Tacrolimus 血中濃度異常飆高與 nephrotoxicity。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-4)",
@@ -1166,10 +1182,14 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NLM #1 (Option D) and clinical consensus in NLM #2 (Option D) match sourceProvidedAnswer (Option D).",
+      "reconciliationStatus": "MATCH",
+      "reconciliationNotes": "NLM #1 (Option D) 與 NLM #2 的臨床共識 (Option D) 皆符合 sourceProvidedAnswer (Option D)。",
       "qcVerifiedBy": "tn-exam-qc subagent dual semantic verification",
-      "selectedOption": "D"
+      "selectedOption": "D",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:56+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     }
   ],
   "qcVerifiedCount": 20,

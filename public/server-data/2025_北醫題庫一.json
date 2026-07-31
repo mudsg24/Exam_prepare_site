@@ -560,7 +560,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
+      "reconciliationNotes": "C 與 NotebookLM B 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q7_1",
@@ -627,7 +627,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (A) 不符",
+      "reconciliationNotes": "D 與 NotebookLM A 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q10_1",
@@ -975,7 +975,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B, D) 不符",
+      "reconciliationNotes": "B 與 NotebookLM 解析 (B, D) 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -1033,7 +1033,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C) 不符",
+      "reconciliationNotes": "D 與 NotebookLM C 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q16_1",
@@ -1072,7 +1072,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題正確選項為 (D)。\n\n根據 continuous renal replacement therapy (CRRT) 的物理學與數學計算公式，患者的 filtration fraction (FF) 計算如下：\n\n首先計算基礎血漿流速 (plasma flow rate)：已知患者的 blood flow rate 為 150 mL/min，hematocrit 為 30%，因此血漿在未經稀釋前的基礎流速為 $150 \\times 60 \\times (1 - 0.30) = 6300 \\text{ mL/hr}$。\n\n接著計算總超過濾率 (total ultrafiltration rate)：在 continuous venovenous hemodiafiltration (CVVHDF) 模式下，跨越 hemofilter 膜濾出的對流清除總容積 (total convective volume) 為 replacement fluid (pre-dilution)、replacement fluid (post-dilution) 與 patient net fluid removal rate 的總和，即 $750 + 750 + 0 = 1500 \\text{ mL/hr}$。需注意，effluent flow 中包含的 dialysate flow 走的是 diffusion 途徑，並不計入超濾液計算。\n\n在計算 filtration fraction 時，若未校正 pre-dilution，其值為 $1500 / 6300 = 23.81\\%$；若採用經 pre-dilution 校正的精確生理公式，其值為 $1500 / (6300 + 750) = 21.28\\%$。兩者計算結果均落於 21% 至 24% 之間，這符合 KDIGO 指引所建議之小於 25% 的安全上限，能有效預防 hemofilter 內部發生極端的 hemoconcentration 並避免 filter clotting。因此，選項 (D) 24.1% 為唯一合理之解答。",
+      "sourceExplanation": "D。\n\n根據 continuous renal replacement therapy (CRRT) 的物理學與數學計算公式，患者的 filtration fraction (FF) 計算如下：\n\nplasma flow rate：已知患者的 blood flow rate 為 150 mL/min，hematocrit 為 30%，因此血漿在未經稀釋前的基礎流速為 $150 \\times 60 \\times (1 - 0.30) = 6300 \\text{ mL/hr}$。\n\ntotal ultrafiltration rate：在 continuous venovenous hemodiafiltration (CVVHDF) 模式下，跨越 hemofilter total convective volume 為 replacement fluid (pre-dilution)、replacement fluid (post-dilution) 與 patient net fluid removal rate 的總和，即 $750 + 750 + 0 = 1500 \\text{ mL/hr}$。需注意，effluent flow 中包含的 dialysate flow 走的是 diffusion 途徑，並不計入超濾液計算。\n\n在計算 filtration fraction 時，若未校正 pre-dilution，其值為 $1500 / 6300 = 23.81\\%$；若採用經 pre-dilution 校正的精確生理公式，其值為 $1500 / (6300 + 750) = 21.28\\%$。兩者計算結果均落於 21% 至 24% 之間，這符合 KDIGO 指引所建議之小於 25% 的安全上限，能有效預防 hemofilter 內部發生極端的 hemoconcentration 並避免 filter clotting。因此，D 24.1% 為唯一合理之解答。",
       "nlmResponses": [
         {
           "account": "kuonephro",
@@ -1287,7 +1287,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A) 不符",
+      "reconciliationNotes": "C 與 NotebookLM A 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q20_1",
@@ -1358,7 +1358,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (D) 不符",
+      "reconciliationNotes": "C 與 NotebookLM D 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q21_1",
@@ -1693,7 +1693,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (C) 不符",
+      "reconciliationNotes": "A 與 NotebookLM C 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -2224,7 +2224,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，正確選項為 (B)。\n\n根據 KDIGO 指引與常規感染管制規範，hepatitis B virus (HBV) 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg 陽性的患者必須採取嚴格的隔離政策 (strict isolation)，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，在人員配置上必須安排專用的工作人員 (dedicated staff)，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，因此選項 (B) 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，對於 hepatitis C virus (HCV) 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
+      "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，B。\n\n根據 KDIGO 指引與常規感染管制規範，hepatitis B virus (HBV) 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg strict isolation，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，dedicated staff，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，B 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，對於 hepatitis C virus (HCV) 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -2241,7 +2241,8 @@
           "accountProfile": "kuonephro",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項（即敘述錯誤之選項）為 **(B) Healthcare staff with well hand hygiene and personal protective equipment can allow taking care of hepatitis B patients and patients who are not immune to hepatitis B virus at the same time.** [1]。\n\n---\n\n### **2. 詳細病理生理學與臨床機制解析 (Detailed Rationale & Correct Option Analysis)**\n\n根據 provided notebook sources，特別是 *Brenner & Rector's The Kidney (Chapter 63 & Chapter 80)* 與相關 **`KDIGO Guidelines`** 關於 **`hemodialysis unit`** 內 **`blood-borne viruses (BBVs)`** 感染控制與預防之規範，針對 **`Hepatitis B Virus (HBV)`** 傳播控制之病理生理與臨床機制解析如下：\n\n#### **第一階段：HBV 的高傳播力與環境生存力 (High Infectivity of HBV)**\n*   在 **`hemodialysis unit`** 的環境中，**`HBV`** 具有極高的 **`infectivity`** [2, 3]。其病毒顆粒在微量血液中即可存在高濃度病毒載量，且即使在無肉眼可見血跡的 **`environmental surfaces`** 上，病毒仍可維持存活並具傳播力達數日之久 [4]。\n*   主要傳播途徑為 **`nosocomial transmission`**（院內橫向傳播），最常因 **`healthcare staff`** 的手部暴露、醫療耗材共用、儀器外部表面污染、或是不當的 **`injection safety`** 疏失所致 [5-7]。\n\n#### **第二階段：Dedicated Staff 與專屬照護人力原則 (The Absolute Requirement for Dedicated Staff)**\n*   為了在 **`hemodialysis session`** 中徹底阻斷 **`HBV`** 傳播，指引強制要求對 **`HBsAg positive patients`** 實施「人機雙重隔離與專屬編排」：\n    1.  **物理隔離**：病人必須在獨立的室內或劃定之 **`segregated area`** 接受 **`dialysis`** [1, 8]。\n    2.  **專人專照 (Dedicated Staff)**：這是防範 **`HBV`** 交叉感染最關鍵的基石。指引明確規定，**照顧 `HBsAg positive patients` 的 `healthcare staff`，在同一個 `shift` 內絕對禁止同時、或是交替照顧 `HBsAg negative patients`（特別是尚未產生抗體的 `non-immune / susceptible patients`）** [1, 9, 10]。\n*   **為何單純依賴手部衛生與 PPE 不足夠**：雖然良好的 **`hand hygiene`** 與妥善更換 **`gloves`** 能降低大部分病原體的傳播 [11, 12]，但在極度繁忙且充滿 **`blood exposure`** 風險的 **`hemodialysis`** 臨床實務中，醫護人員在處理多位患者時，極易在不經意間觸碰機器面板、拉動窗簾、或是移除 **`gloves`** 時造成環境微量污染（**`microscopic blood contamination`**） [4, 10, 13]。\n*   一旦 **`healthcare staff`** 跨區同時照護這兩類患者，將會帶來極高的 **`cross-infection`** 隱患 [1]。因此，**`dedicated staff for each group`** 是一項不容妥協的硬性隔離要求 [1]，選項 (B) 的宣稱嚴重違反了這一核心感染管制原則。\n\n---\n\n### **3. 干擾選項解析 (Distractor Option Analysis)**\n\n*   **(A) HBsAg positive patients be dialyzed in isolation or cohorted in an area that is separate to that where patients who are HBsAg negative receive dialysis (敘述正確，故不選)**：\n    *   *病理機制*：此描述完全符合標準 **`infection control`** 指引。**`HBsAg positive patients`** 必須實施空間上的 **`segregation`** 或 **`cohorting`** [1]。由於 **`HBV`** 的傳播途徑與動力學特性（微量血液即可長效傳播），實體物理空間的區隔能為 **`hemodialysis unit`** 內的其他易感者提供最穩固的屏障保護 [1, 2]。\n    *   *考官命題意圖*：測試考生是否掌握 **`HBV`**（要求強制 **`segregation`** 隔離）與 **`HCV`**（**`KDIGO 2022`** 明確反對常規實施物理 **`isolation`**，主要依賴標準無菌防護與手部衛生）在空間管理政策上的關鍵差異 [1, 14, 15]。\n\n*   **(C) Designated Hemodialysis machines for hepatitis B patients must be thoroughly disinfected between shifts (敘述正確，故不選)**：\n    *   *病理機制*：雖然現代 **`single-pass machines`** 的內部管路因單向排放且有屏障保護，幾乎不曾發生過病毒跨內部管路的橫向傳播 [16, 17]；然而，在透析進行時，機器外部面板、**`blood pump`**、按鈕及 **`Hansen connectors`** 極易因醫護人員手部觸碰、或是 **`de-cannulation`** 過程而遭受不可見的微量血液噴濺與污染 [4, 13]。為確保安全，針對 **`HBsAg positive patients`** 的 **`designated machines`**，在每個 **`shift`** 的下一位患者上機前，外部表面與接觸表面均必須使用化學消毒劑進行徹底清洗與 **`disinfection`** [18-20]。\n    *   *考官命題意圖*：評估考生對透析機「班次間消毒（**`disinfection between shifts`**）」與外部環境污染作為主要傳播媒介之病理機制的正確認知 [13, 19, 20]。\n\n*   **(D) Healthcare staffs should wear at least mask and eye protection during cannulation and de-cannulation procedures for caring hepatitis B patients within the hemodialysis session (敘述正確，故不選)**：\n    *   *病理機制*：在 **`hemodialysis`** 操作中，動靜脈廔管（**`AVF / AVG`**）的穿刺（**`cannulation`**）與拔針（**`de-cannulation`**）是體液暴露與 **`blood splashing`** 風險最高的關鍵步驟 [21]。由於 **`HBV`** 能透過極微量的體液與黏膜接觸完成感染，醫護人員在執行這些侵入性、高濺灑機率的操作時，除了配戴 **`gloves`** 與 **`protective gown`** 外，必須配戴 **`mask`** 與 **`eye protection`**，以全面阻斷可能發生的 **`occupational exposure`** 與眼口鼻黏膜污染 [11, 12, 22]。\n    *   *考官命題意圖*：測試考生在執行高風險透析通路操作時，對個人防護裝備（**`PPE`**）之最低臨床防護要求的熟練度 [11, 22]。\n\n---\n\n### **4. 專科考試高頻對照與鑑別診斷 (Exam High-Yield Comparisons)**\n\n在腎臟專科與感控制度檢定中，將 **`HBV`** 與 **`HCV`** 在 **`hemodialysis unit`** 內隔離與管制政策的實務差異進行對照，是最經典且必考的黃金考點：\n\n#### **HBV vs. HCV 於 Hemodialysis Unit 內感控與隔離政策多維度對照表**\n\n| 鑑別維度 (Parameters) | **`Hepatitis B Virus (HBV)`** [本題考點] | **`Hepatitis C Virus (HCV)`** [高頻對照] |\n| :--- | :--- | :--- |\n| **空間實體隔離 (Isolation)** | **強制要求劃定區域隔離或實體隔離 (`Segregation / Cohorting`)** [1] | **指引反對進行常規物理隔離 (`Do not isolate`)** [14, 15] |\n| **專機專用 (Dedicated Machine)** | **必須指定、並使用專屬透析機 (`Dedicated machines`)** [1] | **指引推薦不需指定專屬透析機 (`Do not use dedicated machines`)** [13, 14] |\n| **照護人力分配 (Staff Assignment)** | **必須編排專屬護理人員，同 shift 禁止跨區照顧 susceptible 者** [1] | **指引反對編排專屬人員，但建議由資深、具感控 competency 者優先照護** [23] |\n| **人工腎臟重複使用 (Reuse)** | **絕對禁止重複使用 (`Do not reuse dialyzers`)** [24] | **在嚴格遵循標準感控與 disinfected 下，允許重複使用** [14, 25] |\n| **首要傳播控制依賴路徑** | **主動免疫補體保護 (`HBV vaccination`)** + **物理物理防線雙重隔離** [2, 26] | **完全依賴醫護人員嚴格落實標準預防感控 (`Standard precautions`)** [6, 27] |\n| **病毒物理環境耐受度** | **極強。長存活期且極耐受，微量不可見血液即具傳播性** [4] | 中至高。對環境表面 **`disinfection`** 非常敏感 [4] |\n\n---\n\n### **5. 課本章節與指引定位 (Citations & References)**\n\n*   **KDIGO 2009 Transplant Recipient Guideline**\n    *   *Chapter 13: Viral Diseases / 13.6: HEPATITIS B VIRUS / Rationale / Hepatitis B vaccination & isolation practices* [Passages 310, 311, 335, 337, 338]\n*   **KDIGO 2022 Hepatitis C in CKD Guideline**\n    *   *Chapter 3: Preventing HCV transmission in hemodialysis units / Recommendation 3.1.2 & 3.1.3 & 3.1.4* [Passages 591, 643]\n    *   *Preventing HCV transmission / Rationale / Isolation & Dedicated dialysis machines* [Passages 656, 657, 663, 664, 665]\n    *   *Table 4: Hygienic precautions for hemodialysis (dialysis machines) / External cleaning* [Passages 563, 669, 670]\n    *   *Table 7: Key hygienic precautions for hemodialysis staff / Hand hygiene, Injection Safety, & Equipment management* [Passages 564, 687, 688, 690]\n*   **Brenner & Rector's The Kidney (Chapter 63: Hemodialysis)**\n    *   *COMPLICATIONS OF HEMODIALYSIS / INFECTIONS AND RESPONSE TO VACCINATION* [Passages 109, 110, 112, 113]\n*   **Brenner & Rector's The Kidney (Chapter 80: The Far East)**\n    *   *HEPATITIS B IN KIDNEY TRANSPLANT RECIPIENTS* [Passage 247]\n*   **KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury**\n    *   *Chapter 5.4: Dialysis catheters / Rationale / Catheter insertion precautions* [Passage 386]\n\n---\n\n📊 在 **`hemodialysis`** 照護中，針對各類血源性病毒（如 **`HBV`**, **`HCV`**, **`HIV`**）與結核病（**`tuberculosis`**）的感染管制、**`screening frequency`**、以及最新 **`DAAs`** 與 **`immunoneutralization`** 的藥物相互作用，是專科考試極高頻的核心考點。您是否需要我為您進一步整理一份關於「在透析單位與 **`transplant candidates`** 背景下，如何依據最新指引制定『**透析感控黃金標準：HBV/HCV/HIV 篩檢與陽性爆發 `outbreak checklist`、HCV 陽性 `kidney transplantation` 前 DAA 治療流程、以及 CKD 患者之 BBV 疫苗接種時機與抗體滴度追蹤方案**』」的黃金備考高頻複習指南呢？",
           "databaseSufficiency": "SUFFICIENT",
-          "error": null
+          "error": null,
+          "selectedOption": "A"
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -2346,7 +2347,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本題現有文獻資料庫並未涵蓋 SARS-CoV-2 誘發 acute kidney injury (AKI) 的確切病理學與流行病學數據，無法明確判定單一正確選項，故標記為無答案。\n\n根據現有醫學知識與相關文獻，SARS-CoV-2 相關的 AKI 主要由 systemic inflammation、hemodynamic instability 與 sepsis 等多重因素引起。在 postmortem autopsies 中，腎臟病理切片最主要的發現為 acute tubular necrosis (ATN) 以及不同程度的 lymphocyte infiltration，此與選項 (B) 和 (D) 的描述吻合。然而，關於病毒對腎臟細胞的 direct cytopathic effect，後續的權威研究多持保留態度，認為缺乏確鑿證據支持其為核心發病機轉；同時，與先前的 SARS 或 MERS-CoV 相比，COVID-19 併發 AKI 的確切相對發生率與臨床嚴重度在不同世代研究中存在較大異質性。基於文獻證據不足以做出絕對判定，本題不予強制選答。",
+      "sourceExplanation": "本題現有文獻資料庫並未涵蓋 SARS-CoV-2 誘發 acute kidney injury (AKI) 的確切病理學與流行病學數據，無法明確判定單一正確選項，故標記為無答案。\n\n根據現有醫學知識與相關文獻，SARS-CoV-2 相關的 AKI 主要由 systemic inflammation、hemodynamic instability 與 sepsis 等多重因素引起。在 postmortem autopsies 中，腎臟病理切片最主要的發現為 acute tubular necrosis (ATN) 以及不同程度的 lymphocyte infiltration，B D 的描述吻合。然而，關於病毒對腎臟細胞的 direct cytopathic effect，後續的權威研究多持保留態度，認為缺乏確鑿證據支持其為核心發病機轉；同時，與先前的 SARS 或 MERS-CoV 相比，COVID-19 併發 AKI 的確切相對發生率與臨床嚴重度在不同世代研究中存在較大異質性。基於文獻證據不足以做出絕對判定，本題不予強制選答。",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -2453,7 +2454,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C) 不符",
+      "reconciliationNotes": "D 與 NotebookLM C 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -2734,7 +2735,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
+      "reconciliationNotes": "C 與 NotebookLM B 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
@@ -3443,7 +3444,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (B) 不符",
+      "reconciliationNotes": "C 與 NotebookLM B 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -3675,7 +3676,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C, D) 不符",
+      "reconciliationNotes": "D 與 NotebookLM 解析 (C, D) 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q58_1",
@@ -3758,7 +3759,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (A) 不符",
+      "reconciliationNotes": "D 與 NotebookLM A 不符",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q59_1",

@@ -34,7 +34,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題的核心在於診斷 multiple myeloma (MM) 造成的 cast nephropathy。病患表現出典型 MM 症狀，包含 hypercalcemia、anemia、骨頭痛，以及 acute kidney injury (AKI)。尿液檢查中 dipstick 針對 albumin 較敏感，因此對於單株免疫球蛋白輕鏈 (monoclonal light chains) 經常呈現陰性，但 24-hour urine collection 卻顯示出大量 proteinuria，這就是所謂的 Bence Jones proteinuria。選項 (C) 正確，因為 MM 造成 AKI 最常見的原因是 cast nephropathy，其機轉為過量過濾的 monoclonal light chains 在遠端小管與 Tamm-Horsfall protein 結合，形成阻塞性的管型 (casts) 並引發發炎反應，進而導致腎小管上皮細胞受損。選項 (A) AL amyloidosis 雖然也與 MM 有關，但通常表現為 nephrotic syndrome，且 dipstick 會呈現強陽性，不符合本題的尿液分析表現。選項 (B) uric acid crystals 多見於 tumor lysis syndrome，雖然 MM 治療後可能發生，但在初診斷未經化療時，較少單獨造成如此嚴重的 AKI，且尿液分析通常會看到大量的尿酸結晶。選項 (D) hypercalcemia 確實會造成 nephrogenic diabetes insipidus 及 volume depletion，進而引發 pre-renal AKI 或 ischemic acute tubular necrosis (ATN)，但單純的 ATN 無法解釋為何會出現高達 3.5 g 的嚴重 proteinuria。",
+      "sourceExplanation": "本題的核心在於診斷 multiple myeloma (MM) 造成的 cast nephropathy。病患表現出典型 MM 症狀，包含 hypercalcemia、anemia、骨頭痛，以及 acute kidney injury (AKI)。尿液檢查中 dipstick 針對 albumin 較敏感，monoclonal light chains 經常呈現陰性，但 24-hour urine collection 卻顯示出大量 proteinuria，這就是所謂的 Bence Jones proteinuria。選項 C 正確，因為 MM 造成 AKI 最常見的原因是 cast nephropathy，其機轉為過量過濾的 monoclonal light chains 在遠端小管與 Tamm-Horsfall protein 結合，casts 並引發發炎反應，進而導致腎小管上皮細胞受損。選項 A AL amyloidosis 雖然也與 MM 有關，但通常表現為 nephrotic syndrome，且 dipstick 會呈現強陽性，不符合本題的尿液分析表現。選項 B uric acid crystals 多見於 tumor lysis syndrome，雖然 MM 治療後可能發生，但在初診斷未經化療時，較少單獨造成如此嚴重的 AKI，且尿液分析通常會看到大量的尿酸結晶。選項 D hypercalcemia 確實會造成 nephrogenic diabetes insipidus 及 volume depletion，進而引發 pre-renal AKI 或 ischemic acute tubular necrosis (ATN)，但單純的 ATN 無法解釋為何會出現高達 3.5 g 的嚴重 proteinuria。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -52,7 +52,10 @@
         }
       ],
       "number": 1,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 2,
@@ -81,7 +84,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討 multiple myeloma 合併 cast nephropathy 導致嚴重 AKI 的急性處置。選項 (A) 正確。對於血清 free light chain 極高的 cast nephropathy 患者，迅速清除 free light chains 能夠減少 tubular 阻塞並提高 renal recovery 的機率。High cut-off hemodialysis (HCO-HD) 使用具有較大孔徑的人工腎臟，能夠有效移除分子量較大的 free light chains (包含 kappa 與 lambda 型)。雖然近期隨機試驗 (如 MYRE 與 EuLITE trial) 對於 HCO-HD 的長期好處結論不一，但在特定高 free light chain 負擔的患者中，結合 bortezomib-based chemotherapy 仍是一項可考慮的血液淨化介入手段，能快速降低毒性輕鏈的濃度。選項 (B) intravenous bisphosphonates 適用於治療 hypercalcemia 與 osteolytic bone lesions，但部分藥物 (如 zoledronic acid) 本身具有 nephrotoxicity，在 severe AKI 患者中需調整劑量或避免使用，無法直接改善 cast nephropathy。選項 (C) empiric loop diuretics 若在未充分評估 volume status 下給予，可能會加重 volume depletion，反而促使輕鏈與 Tamm-Horsfall protein 沉澱，惡化 cast nephropathy，因此必須在確認體液充足的狀態下謹慎使用。選項 (D) routine therapeutic plasma exchange (TPE) 過去曾被使用，但在多項大型隨機臨床試驗中並未顯示出優於單純化學治療的顯著成效，目前指引並不建議將其作為常規治療首選。",
+      "sourceExplanation": "本題探討 multiple myeloma 合併 cast nephropathy 導致嚴重 AKI 的急性處置。選項 A 正確。對於血清 free light chain 極高的 cast nephropathy 患者，迅速清除 free light chains 能夠減少 tubular 阻塞並提高 renal recovery 的機率。High cut-off hemodialysis (HCO-HD) 使用具有較大孔徑的人工腎臟，能夠有效移除分子量較大的 free light chains (包含 kappa 與 lambda 型)。雖然近期隨機試驗 (如 MYRE 與 EuLITE trial) 對於 HCO-HD 的長期好處結論不一，但在特定高 free light chain 負擔的患者中，結合 bortezomib-based chemotherapy 仍是一項可考慮的血液淨化介入手段，能快速降低毒性輕鏈的濃度。選項 B intravenous bisphosphonates 適用於治療 hypercalcemia 與 osteolytic bone lesions，但部分藥物 (如 zoledronic acid) 本身具有 nephrotoxicity，在 severe AKI 患者中需調整劑量或避免使用，無法直接改善 cast nephropathy。選項 C empiric loop diuretics 若在未充分評估 volume status 下給予，可能會加重 volume depletion，反而促使輕鏈與 Tamm-Horsfall protein 沉澱，惡化 cast nephropathy，因此必須在確認體液充足的狀態下謹慎使用。選項 D routine therapeutic plasma exchange (TPE) 過去曾被使用，但在多項大型隨機臨床試驗中並未顯示出優於單純化學治療的顯著成效，目前指引並不建議將其作為常規治療首選。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -99,7 +102,10 @@
         }
       ],
       "number": 2,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 3,
@@ -128,7 +134,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題討論一位高齡 (80歲) 病患罹患 ANCA-associated vasculitis (AAV) 併發 rapidly progressive glomerulonephritis (RPGN) 的 induction therapy 選擇策略。病患血清 MPO-ANCA 陽性，且 biopsy 顯示 pauci-immune crescentic glomerulonephritis，確診為 AAV。選項 (D) 正確。在高齡患者中，感染是造成早期死亡的最主要原因，因此選擇低毒性的療程至關重要。使用 rituximab 搭配 reduced-dose glucocorticoids 是一種極佳的 induction regimen。PEXIVAS trial 與其他近期大型研究明確顯示，reduced-dose corticosteroids 在達到 remission 的效果上不劣於 standard-dose，且能顯著降低 severe infections 的風險，這對於高齡且免疫力較弱的族群具有決定性的生存優勢。選項 (A) high-dose intravenous cyclophosphamide 雖然傳統上有效，但其骨髓抑制與感染毒性極高，對於 80 歲患者而言風險遠大於 rituximab。選項 (B) rituximab monotherapy 未合併任何 glucocorticoids 並非常規的 induction therapy，標準指引仍強烈建議初期必須搭配一段時間的類固醇以迅速控制急性發炎。選項 (C) plasma exchange 雖然可快速清除抗體，但目前並不建議作為常規 induction 治療的唯一主力，且 azathioprine 主要是用於 maintenance therapy 階段，而非急性的 induction therapy。",
+      "sourceExplanation": "本題討論一位高齡 (80歲) 病患罹患 ANCA-associated vasculitis (AAV) 併發 rapidly progressive glomerulonephritis (RPGN) 的 induction therapy 選擇策略。病患血清 MPO-ANCA 陽性，且 biopsy 顯示 pauci-immune crescentic glomerulonephritis，確診為 AAV。選項 D 正確。在高齡患者中，感染是造成早期死亡的最主要原因，因此選擇低毒性的療程至關重要。使用 rituximab 搭配 reduced-dose glucocorticoids 是一種極佳的 induction regimen。PEXIVAS trial 與其他近期大型研究明確顯示，reduced-dose corticosteroids 在達到 remission 的效果上不劣於 standard-dose，且能顯著降低 severe infections 的風險，這對於高齡且免疫力較弱的族群具有決定性的生存優勢。選項 A high-dose intravenous cyclophosphamide 雖然傳統上有效，但其骨髓抑制與感染毒性極高，對於 80 歲患者而言風險遠大於 rituximab。選項 B rituximab monotherapy 未合併任何 glucocorticoids 並非常規的 induction therapy，標準指引仍強烈建議初期必須搭配一段時間的類固醇以迅速控制急性發炎。選項 C plasma exchange 雖然可快速清除抗體，但目前並不建議作為常規 induction 治療的唯一主力，且 azathioprine 主要是用於 maintenance therapy 階段，而非急性的 induction therapy。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -153,7 +159,10 @@
         }
       ],
       "number": 3,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 4,
@@ -182,7 +191,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 ANCA-associated vasculitis (AAV) 併發 pulmonary renal syndrome 時，therapeutic plasma exchange (TPE) 的最新適應症。選項 (B) 正確。根據指標性的 PEXIVAS trial 結果，常規在所有嚴重 AAV 患者中使用 TPE 並不能顯著降低發展至 ESKD 或全因死亡的長期風險。然而，對於合併 severe alveolar hemorrhage 導致 respiratory failure 這種危及生命的急性併發症，各大臨床指引 (如 KDIGO) 仍將其列為可以考慮的適應症，建議將 TPE 加入 standard induction immunosuppression therapy 中，以迅速移除循環中的 autoantibodies，期能爭取時間控制致命性的肺出血。選項 (A) advanced age 本身並非 TPE 的 indication，高齡患者進行血漿置換反而可能面臨較高的導管感染與血流動力學不穩的風險。選項 (C) 雖然過去早期的 MEPEX trial 認為 serum creatinine > 5.7 mg/dL 時 TPE 有益，但 PEXIVAS trial 已推翻了這項常規建議，單純的高 creatinine 或 severe AKI 目前已不再是絕對必須進行 TPE 的適應症。選項 (D) PR3-ANCA 或 MPO-ANCA 的亞型差異並不影響 TPE 的適應症判定，決定是否洗血漿的關鍵在於臨床症狀的嚴重度與器官衰竭的速度。",
+      "sourceExplanation": "本題考查 ANCA-associated vasculitis (AAV) 併發 pulmonary renal syndrome 時，therapeutic plasma exchange (TPE) 的最新適應症。選項 B 正確。根據指標性的 PEXIVAS trial 結果，常規在所有嚴重 AAV 患者中使用 TPE 並不能顯著降低發展至 ESKD 或全因死亡的長期風險。然而，對於合併 severe alveolar hemorrhage 導致 respiratory failure 這種危及生命的急性併發症，各大臨床指引 (如 KDIGO) 仍將其列為可以考慮的適應症，建議將 TPE 加入 standard induction immunosuppression therapy 中，以迅速移除循環中的 autoantibodies，期能爭取時間控制致命性的肺出血。選項 A advanced age 本身並非 TPE 的 indication，高齡患者進行血漿置換反而可能面臨較高的導管感染與血流動力學不穩的風險。選項 C 雖然過去早期的 MEPEX trial 認為 serum creatinine > 5.7 mg/dL 時 TPE 有益，但 PEXIVAS trial 已推翻了這項常規建議，單純的高 creatinine 或 severe AKI 目前已不再是絕對必須進行 TPE 的適應症。選項 D PR3-ANCA 或 MPO-ANCA 的亞型差異並不影響 TPE 的適應症判定，決定是否洗血漿的關鍵在於臨床症狀的嚴重度與器官衰竭的速度。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -207,7 +216,10 @@
         }
       ],
       "number": 4,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 5,
@@ -236,7 +248,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題描述一位長期接受 hemodialysis (長達15年) 的病患，出現 painless gross hematuria 及影像學上的 bilateral small cystic kidneys 與 complex solid mass。選項 (A) 正確。這臨床表現典型符合 acquired cystic kidney disease (ACKD) 以及其極易併發的 acquired cystic kidney disease-associated renal cell carcinoma (ACKD-RCC)。長期 uremia 與透析會導致原先正常的腎臟萎縮，並在皮質與髓質形成多發性囊腫。當透析時間超過 10 年，發生 ACKD 的機率接近 90%，且這些患者罹患 RCC 的風險比一般大眾高出數十倍，腫瘤常表現為囊腫內的實體突起或是複雜性的囊腫質量。選項 (B) autosomal dominant polycystic kidney disease (ADPKD) 的特徵是雙側腎臟巨大且充滿囊腫 (bilaterally massively enlarged kidneys)，而本題病患的腎臟是萎縮的 (small, contracted)，完全不符合 ADPKD 晚期的解剖表現。選項 (C) angiomyolipoma 是一種良性腫瘤，常見於 tuberous sclerosis，其影像學特徵為富含脂肪組織 (macroscopic fat)，通常在 CT 上呈現 low attenuation (-20 to -100 HU)，而非本題描述的 hyperdense mass。選項 (D) transitional cell carcinoma (TCC) 通常起源於 renal pelvis 或 ureter 的尿路上皮，與長期吸菸或馬兜鈴酸 (aristolochic acid) 暴露有關。雖然 TCC 也可能表現為 gross hematuria，但在長期透析且已有滿佈囊腫的 ACKD 患者中，產生實質性的皮質腫瘤 (ACKD-RCC) 機率遠高於 TCC。",
+      "sourceExplanation": "本題描述一位長期接受 hemodialysis (長達15年) 的病患，出現 painless gross hematuria 及影像學上的 bilateral small cystic kidneys 與 complex solid mass。選項 A 正確。這臨床表現典型符合 acquired cystic kidney disease (ACKD) 以及其極易併發的 acquired cystic kidney disease-associated renal cell carcinoma (ACKD-RCC)。長期 uremia 與透析會導致原先正常的腎臟萎縮，並在皮質與髓質形成多發性囊腫。當透析時間超過 10 年，發生 ACKD 的機率接近 90%，且這些患者罹患 RCC 的風險比一般大眾高出數十倍，腫瘤常表現為囊腫內的實體突起或是複雜性的囊腫質量。選項 B autosomal dominant polycystic kidney disease (ADPKD) bilaterally massively enlarged kidneys，而本題病患的腎臟是 small, contracted，完全不符合 ADPKD 晚期的解剖表現。選項 C angiomyolipoma 是一種良性腫瘤，常見於 tuberous sclerosis，macroscopic fat，通常在 CT 上呈現 low attenuation (-20 to -100 HU)，而非本題描述的 hyperdense mass。選項 D transitional cell carcinoma (TCC) 通常起源於 renal pelvis 或 ureter 的尿路上皮，aristolochic acid 暴露有關。雖然 TCC 也可能表現為 gross hematuria，但在長期透析且已有滿佈囊腫的 ACKD 患者中，ACKD-RCC 機率遠高於 TCC。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -254,7 +266,10 @@
         }
       ],
       "number": 5,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 6,
@@ -283,7 +298,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討長期 end-stage kidney disease (ESKD) 患者發生 acquired cystic kidney disease-associated renal cell carcinoma (ACKD-RCC) 的致病機轉與病理特徵。病理切片上發現腫瘤細胞具有 abundant eosinophilic cytoplasm 並形成 papillary structures，同時伴隨周遭組織的 hemosiderin 沉積與 oxalate crystals，這是 ACKD-RCC (特別是 papillary subtype) 極具鑑別度的特徵。選項 (C) 正確。ACKD 及後續 RCC 的發生，強烈關聯於長期 prolonged uremic state。尿毒症會導致腎臟內殘存的未完全損壞 nephrons 發生 compensatory hyperplasia。此外，uremia 環境中會累積多種 growth factors、cytokines 以及 proto-oncogenes 的活化，這些促生長訊號持續不斷地刺激 tubular epithelial cells，最終導致囊腫形成及上皮細胞的惡性轉化，發展成專屬於透析病患的 ACKD-RCC。選項 (A) germline mutation of VHL gene 導致的是 Von Hippel-Lindau disease，其主要表現為 clear cell RCC 以及其他系統性血管母細胞瘤 (hemangioblastomas)，與 ACKD-RCC 的病理表現及成因無直接關聯。選項 (B) chronic immunosuppression 通常見於 kidney transplant recipients，這類患者容易因 viral oncogenesis (例如 EBV 導致 PTLD) 發生惡性腫瘤，但本題患者單純接受 hemodialysis，並未提及長期使用免疫抑制藥物。選項 (D) overexpression (或是 mutation) of PKD1 and PKD2 是 autosomal dominant polycystic kidney disease (ADPKD) 的核心致病機轉，而 ACKD 完全是後天環境因素造成，並非由遺傳性的 PKD 基因缺陷所引起。",
+      "sourceExplanation": "本題探討長期 end-stage kidney disease (ESKD) 患者發生 acquired cystic kidney disease-associated renal cell carcinoma (ACKD-RCC) 的致病機轉與病理特徵。病理切片上發現腫瘤細胞具有 abundant eosinophilic cytoplasm 並形成 papillary structures，同時伴隨周遭組織的 hemosiderin 沉積與 oxalate crystals，這是 ACKD-RCC (特別是 papillary subtype) 極具鑑別度的特徵。選項 C 正確。ACKD 及後續 RCC 的發生，強烈關聯於長期 prolonged uremic state。尿毒症會導致腎臟內殘存的未完全損壞 nephrons 發生 compensatory hyperplasia。此外，uremia 環境中會累積多種 growth factors、cytokines 以及 proto-oncogenes 的活化，這些促生長訊號持續不斷地刺激 tubular epithelial cells，最終導致囊腫形成及上皮細胞的惡性轉化，發展成專屬於透析病患的 ACKD-RCC。選項 A germline mutation of VHL gene 導致的是 Von Hippel-Lindau disease，其主要表現為 clear cell RCC hemangioblastomas，與 ACKD-RCC 的病理表現及成因無直接關聯。選項 B chronic immunosuppression 通常見於 kidney transplant recipients，這類患者容易因 viral oncogenesis (例如 EBV 導致 PTLD) 發生惡性腫瘤，但本題患者單純接受 hemodialysis，並未提及長期使用免疫抑制藥物。選項 D overexpression (或是 mutation) of PKD1 and PKD2 是 autosomal dominant polycystic kidney disease (ADPKD) 的核心致病機轉，而 ACKD 完全是後天環境因素造成，並非由遺傳性的 PKD 基因缺陷所引起。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -301,7 +316,10 @@
         }
       ],
       "number": 6,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 7,
@@ -330,7 +348,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 IgA nephropathy 的典型臨床表現。患者在發生上呼吸道感染（upper respiratory tract infection）的同時（通常在 1 到 2 天內）出現肉眼可見的血尿（macroscopic hematuria），這被稱為 synpharyngitic hematuria，是 IgA nephropathy 的經典特徵。相比之下，post-streptococcal glomerulonephritis（選項 A）通常在咽喉炎後 1 到 3 週才出現，並且常伴隨血清 C3 下降，病程有明顯的潛伏期。Thin basement membrane nephropathy（選項 B）通常表現為持續性微觀血尿（microscopic hematuria），極少出現肉眼血尿或顯著蛋白尿。Alport syndrome（選項 D）會有聽力與視力異常，且伴隨基底膜的病理改變，有明顯的家族史，不符合本題單純的 IgA 沉積與感染同步發作的表現。因此，結合無症狀間歇期極短及正常補體，IgA nephropathy 是最可能的診斷。",
+      "sourceExplanation": "本題考查 IgA nephropathy 的典型臨床表現。患者在發生 upper respiratory tract infection的同時（通常在 1 到 2 天內）出現 macroscopic hematuria，這被稱為 synpharyngitic hematuria，是 IgA nephropathy 的經典特徵。相比之下，post-streptococcal glomerulonephritis（選項 A）通常在咽喉炎後 1 到 3 週才出現，並且常伴隨血清 C3 下降，病程有明顯的潛伏期。Thin basement membrane nephropathy（選項 B）通常表現為 microscopic hematuria，極少出現肉眼血尿或顯著蛋白尿。Alport syndrome（選項 D）會有聽力與視力異常，且伴隨基底膜的病理改變，有明顯的家族史，不符合本題單純的 IgA 沉積與感染同步發作的表現。因此，結合無症狀間歇期極短及正常補體，IgA nephropathy 是最可能的診斷。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -355,7 +373,10 @@
         }
       ],
       "number": 7,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 8,
@@ -384,7 +405,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Atypical Hemolytic Uremic Syndrome (aHUS) 的診斷與治療。患者表現出微血管病性溶血性貧血（microangiopathic hemolytic anemia）、血小板低下（thrombocytopenia）以及急性腎損傷（acute kidney injury），這是典型的 Thrombotic Microangiopathy (TMA) 表現。由於 ADAMTS13 活性大於 60%，可排除 Thrombotic Thrombocytopenic Purpura (TTP)，因此不需要首選 Therapeutic plasma exchange（選項 B）。患者沒有腹瀉且 Shiga toxin 陰性，排除了典型的 STEC-HUS。患者血清 C3 下降且 C4 正常，提示有 alternative complement pathway 的過度活化，這強烈懷疑為 aHUS。aHUS 的發病機制主要與補體系統（complement system）的基因突變或自體抗體有關。針對 aHUS 的標準與首選標靶治療是使用 Eculizumab（選項 A），這是一種阻斷 C5 裂解的單株抗體，能有效阻止 membrane attack complex (MAC) 的形成，改善腎臟預後。High-dose corticosteroids（選項 C）與 Rituximab（選項 D）在此情境下並非 aHUS 的首選針對性治療。",
+      "sourceExplanation": "本題考查 Atypical Hemolytic Uremic Syndrome (aHUS) 的診斷與治療。患者表現出 microangiopathic hemolytic anemia、thrombocytopenia以及 acute kidney injury，這是典型的 Thrombotic Microangiopathy (TMA) 表現。由於 ADAMTS13 活性大於 60%，可排除 Thrombotic Thrombocytopenic Purpura (TTP)，因此不需要首選 Therapeutic plasma exchange（選項 B）。患者沒有腹瀉且 Shiga toxin 陰性，排除了典型的 STEC-HUS。患者血清 C3 下降且 C4 正常，提示有 alternative complement pathway 的過度活化，這強烈懷疑為 aHUS。aHUS 的發病機制主要與 complement system的基因突變或自體抗體有關。針對 aHUS 的標準與首選標靶治療是使用 Eculizumab（選項 A），這是一種阻斷 C5 裂解的單株抗體，能有效阻止 membrane attack complex (MAC) 的形成，改善腎臟預後。High-dose corticosteroids（選項 C）與 Rituximab（選項 D）在此情境下並非 aHUS 的首選針對性治療。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -402,7 +423,10 @@
         }
       ],
       "number": 8,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 9,
@@ -431,7 +455,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本患者展現了典型的 Thrombotic Thrombocytopenic Purpura (TTP) 臨床五重奏（pentad），包括微血管病性溶血性貧血（microangiopathic hemolytic anemia, MAHA）、重度血小板低下（thrombocytopenia）、神經系統症狀（neurological symptoms，如意識改變）、發燒（fever）以及輕度的腎臟功能異常（renal impairment）。實驗室數據中的高 LDH、不可測得的 haptoglobin 及周邊血液抹片出現的 schistocytes 皆強烈支持血管內溶血的診斷。TTP 的核心病理生理機制為 ADAMTS13 酶的嚴重缺乏（選項 D），這是一種負責切割超大型 von Willebrand factor (vWF) 多聚體的蛋白酶（von Willebrand factor-cleaving protease）。當 ADAMTS13 活性嚴重降低（通常 <10%）時，未被切割的 vWF 會在微血管內形成富含血小板的微血栓，導致上述臨床表現。Complement alternative pathway dysregulation（選項 A）是 Atypical Hemolytic Uremic Syndrome (aHUS) 的主要致病機制；Endothelial damage by Shiga toxin（選項 B）是典型 STEC-HUS 的機制；Immune complex deposition（選項 C）則常見於各類腎絲球腎炎（如 Lupus nephritis），均不符合本題 TTP 的典型表現。",
+      "sourceExplanation": "本患者展現了典型的 Thrombotic Thrombocytopenic Purpura (TTP) pentad，microangiopathic hemolytic anemia (MAHA)、thrombocytopenia、神經系統症狀（neurological symptoms，如意識改變）、fever以及 renal impairment。實驗室數據中的高 LDH、不可測得的 haptoglobin 及周邊血液抹片出現的 schistocytes 皆強烈支持血管內溶血的診斷。TTP 的核心病理生理機制為 ADAMTS13 酶的嚴重缺乏（選項 D），這是一種負責切割超大型 von Willebrand factor (vWF) 多聚體的 von Willebrand factor-cleaving protease。當 ADAMTS13 活性嚴重降低（通常 <10%）時，未被切割的 vWF 會在微血管內形成富含血小板的微血栓，導致上述臨床表現。Complement alternative pathway dysregulation（選項 A）是 Atypical Hemolytic Uremic Syndrome (aHUS) 的主要致病機制；Endothelial damage by Shiga toxin（選項 B）是典型 STEC-HUS 的機制；Immune complex deposition（選項 C）則常見於各類腎絲球腎炎（如 Lupus nephritis），均不符合本題 TTP 的典型表現。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -449,7 +473,10 @@
         }
       ],
       "number": 9,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 10,
@@ -478,7 +505,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討針對難治性或對初始治療反應不佳的 Thrombotic Thrombocytopenic Purpura (TTP) 的進階治療策略。患者已確診為免疫介導的 TTP（ADAMTS13 活性極低且帶有 inhibitor），在接受標準的 therapeutic plasma exchange (TPE) 與 high-dose glucocorticoids 治療三天後，血小板仍未見明顯回升，且出現了新的神經學症狀（transient ischemic attack），這顯示病情具有高度危險性且對初步治療呈現抗性，屬於 refractory TTP。根據目前的臨床指引，應及早加入 Caplacizumab（一種抗 vWF 的奈米抗體，能阻斷 vWF 與血小板的結合，迅速遏制微血栓形成）以及 Rituximab（一種 anti-CD20 單株抗體，用於清除產生 ADAMTS13 抑制性抗體的 B 細胞）（選項 B）。在 TTP 中，血小板輸注（platelet transfusion，選項 A）通常是絕對禁忌症，因為可能加重微血栓的形成，除非發生危及生命的出血。Hemodialysis（選項 C）對 TTP 本身無治療作用，且患者目前無透析指徵。Eculizumab（選項 D）是 Atypical Hemolytic Uremic Syndrome (aHUS) 的標靶藥物，並不適用於 TTP 治療。",
+      "sourceExplanation": "本題探討針對難治性或對初始治療反應不佳的 Thrombotic Thrombocytopenic Purpura (TTP) 的進階治療策略。患者已確診為免疫介導的 TTP（ADAMTS13 活性極低且帶有 inhibitor），在接受標準的 therapeutic plasma exchange (TPE) 與 high-dose glucocorticoids 治療三天後，血小板仍未見明顯回升，且出現 transient ischemic attack，這顯示病情具有高度危險性且對初步治療呈現抗性，屬於 refractory TTP。根據目前的臨床指引，應及早加入 Caplacizumab（一種抗 vWF 的奈米抗體，能阻斷 vWF 與血小板的結合，迅速遏制微血栓形成）以及 Rituximab（一種 anti-CD20 單株抗體，用於清除產生 ADAMTS13 抑制性抗體的 B 細胞）（選項 B）。在 TTP 中，血小板輸注（platelet transfusion，選項 A）通常是絕對禁忌症，因為可能加重微血栓的形成，除非發生危及生命的出血。Hemodialysis（選項 C）對 TTP 本身無治療作用，且患者目前無透析指徵。Eculizumab（選項 D）是 Atypical Hemolytic Uremic Syndrome (aHUS) 的標靶藥物，並不適用於 TTP 治療。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -496,7 +523,10 @@
         }
       ],
       "number": 10,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 11,
@@ -525,7 +555,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討 Systemic lupus erythematosus (SLE) 患者併發 Lupus nephritis 及次發性 Thrombotic Microangiopathy (TMA) 的病理特徵。患者表現出快速惡化的急性腎損傷（acute kidney injury）、嚴重的血壓升高、微血管病性溶血性貧血（microangiopathic hemolytic anemia, MAHA）與血小板低下（thrombocytopenia），且其 antiphospholipid antibodies 呈陽性，這些都是高度懷疑 TMA 疊加於 Lupus nephritis 上的臨床線索。在腎臟切片（renal biopsy）中，secondary TMA 的確切病理證據是出現微血管內的血栓，即 fibrin thrombi within the glomerular capillaries and afferent arterioles（選項 C）。血管內皮細胞的腫脹與微血栓形成是 TMA 的核心病理特徵。選項 A 描述的 \"wire loop\" lesions 雖然是 Class IV Lupus nephritis 的典型表現（diffuse subendothelial immune complex deposits），但這代表的是活躍的免疫複合體發炎，而非微血栓病變。選項 B 描述的是 Minimal change disease 或 podocytopathy 的特徵。選項 D 描述的 crescent formation 顯示有 rapidly progressive glomerulonephritis (RPGN)，這在嚴重的 Lupus nephritis 中可見，但不能直接證明有微血管血栓 TMA 的發生。",
+      "sourceExplanation": "本題探討 Systemic lupus erythematosus (SLE) 患者併發 Lupus nephritis 及次發性 Thrombotic Microangiopathy (TMA) 的病理特徵。患者表現出 acute kidney injury、嚴重的血壓升高、microangiopathic hemolytic anemia (MAHA)與 thrombocytopenia，且其 antiphospholipid antibodies 呈陽性，這些都是高度懷疑 TMA 疊加於 Lupus nephritis 上的臨床線索。在 renal biopsy中，secondary TMA 的確切病理證據是出現微血管內的血栓，即 fibrin thrombi within the glomerular capillaries and afferent arterioles（選項 C）。血管內皮細胞的腫脹與微血栓形成是 TMA 的核心病理特徵。選項 A 描述的 \"wire loop\" lesions 雖然是 Class IV Lupus nephritis 的典型表現 diffuse subendothelial immune complex deposits，但這代表的是活躍的免疫複合體發炎，而非微血栓病變。選項 B 描述的是 Minimal change disease 或 podocytopathy 的特徵。選項 D 描述的 crescent formation 顯示有 rapidly progressive glomerulonephritis (RPGN)，這在嚴重的 Lupus nephritis 中可見，但不能直接證明有微血管血栓 TMA 的發生。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -550,7 +580,10 @@
         }
       ],
       "number": 11,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 12,
@@ -579,7 +612,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討 Lupus nephritis 患者併發 secondary Thrombotic Microangiopathy (TMA) 的常見致病機制。該名女性患者已知有 Class IV lupus nephritis，並同時出現急性腎衰竭與典型的 TMA 臨床表現（微血管病性溶血性貧血與血小板低下）。她的 ADAMTS13 活性正常（>80%），明確排除了 Thrombotic Thrombocytopenic Purpura (TTP，選項 B）。雖然病患的補體低下，但這主要是源自於古典路徑（classical pathway）的活化（完全符合 SLE 疾病活躍期的表現），而缺乏 alternative complement pathway 的基因突變證據與典型 aHUS 表現（選項 A）。在 SLE 族群中，引發 secondary TMA 的一個極為關鍵的次發性因素是併發 antiphospholipid syndrome (APS)。Antiphospholipid antibodies 會直接與血管內皮細胞（endothelial cells）結合並使其活化，進而誘發發炎反應、組織因子表現與局部血栓形成（endothelial activation and injury mediated by antiphospholipid antibodies，選項 D），這完美解釋了她在高抗體力價下發生的廣泛微血栓現象。直接的病毒感染（選項 C）雖偶可誘發 TMA，但在這位帶有強烈自體免疫與抗磷脂抗體強陽性特徵的患者中，絕非最主要或最直接的致病機制。",
+      "sourceExplanation": "本題探討 Lupus nephritis 患者併發 secondary Thrombotic Microangiopathy (TMA) 的常見致病機制。該名女性患者已知有 Class IV lupus nephritis，並同時出現急性腎衰竭與典型的 TMA 臨床表現（微血管病性溶血性貧血與血小板低下）。她的 ADAMTS13 活性正常（>80%），明確排除了 Thrombotic Thrombocytopenic Purpura (TTP，選項 B）。雖然病患的補體低下，但這主要是源自於 classical pathway的活化（完全符合 SLE 疾病活躍期的表現），而缺乏 alternative complement pathway 的基因突變證據與典型 aHUS 表現（選項 A）。在 SLE 族群中，引發 secondary TMA 的一個極為關鍵的次發性因素是併發 antiphospholipid syndrome (APS)。Antiphospholipid antibodies 會直接與 endothelial cells結合並使其活化，進而誘發發炎反應、組織因子表現與局部血栓形成（endothelial activation and injury mediated by antiphospholipid antibodies，選項 D），這完美解釋了她在高抗體力價下發生的廣泛微血栓現象。直接的病毒感染（選項 C）雖偶可誘發 TMA，但在這位帶有強烈自體免疫與抗磷脂抗體強陽性特徵的患者中，絕非最主要或最直接的致病機制。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -604,7 +637,10 @@
         }
       ],
       "number": 12,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 13,
@@ -633,7 +669,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Immune Checkpoint Inhibitor (ICI) 相關的 Acute Kidney Injury (AKI)，最常見的病理表現為 Acute Tubulointerstitial Nephritis (AIN)。患者在使用 pembrolizumab 後出現 serum creatinine 顯著上升，且 urinalysis 呈現無菌性膿尿 (sterile pyuria) 與中度蛋白尿，高度提示 ICI-related AKI。對於 grade 2 或以上的 ICI-related AKI，目前的臨床指引強烈建議應立即暫停 (hold) ICI 治療，並及早給予 systemic corticosteroids (如 prednisone 1-2 mg/kg/day)。雖然 urine eosinophils 在傳統 AIN 中可能有時會出現，但其 sensitivity 與 specificity 皆極低，不應用作排除診斷。選項 (B) 錯誤，cyclophosphamide 並非 ICI-AIN 的第一線用藥，且不一定需要永久停用 ICI (若類固醇反應良好且腫瘤需要，可能重新挑戰或轉換治療)。選項 (C) 錯誤，雖然 kidney biopsy 是確診的黃金標準，但在強烈懷疑 ICI-AIN 且無禁忌症時，通常可以先經驗性投與 corticosteroids 並觀察反應，不應為了等待切片而延誤初步治療。選項 (D) 錯誤，creatinine 已達 2.8 mg/dL (從 0.9 上升超過 3 倍)，符合 grade 3 AKI，絕不可僅作觀察，必須積極介入以避免產生不可逆的腎臟損傷。",
+      "sourceExplanation": "本題考查 Immune Checkpoint Inhibitor (ICI) 相關的 Acute Kidney Injury (AKI)，最常見的病理表現為 Acute Tubulointerstitial Nephritis (AIN)。患者在使用 pembrolizumab 後出現 serum creatinine 顯著上升，且 urinalysis sterile pyuria 與中度蛋白尿，高度提示 ICI-related AKI。對於 grade 2 或以上的 ICI-related AKI，hold ICI 治療，並及早給予 systemic corticosteroids (如 prednisone 1-2 mg/kg/day)。雖然 urine eosinophils 在傳統 AIN 中可能有時會出現，但其 sensitivity 與 specificity 皆極低，不應用作排除診斷。選項 B 錯誤，cyclophosphamide 並非 ICI-AIN 的第一線用藥，且不一定需要永久停用 ICI (若類固醇反應良好且腫瘤需要，可能重新挑戰或轉換治療)。選項 C 錯誤，雖然 kidney biopsy 是確診的黃金標準，但在強烈懷疑 ICI-AIN 且無禁忌症時，通常可以先經驗性投與 corticosteroids 並觀察反應，不應為了等待切片而延誤初步治療。選項 D 錯誤，creatinine 已達 2.8 mg/dL (從 0.9 上升超過 3 倍)，符合 grade 3 AKI，絕不可僅作觀察，必須積極介入以避免產生不可逆的腎臟損傷。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -651,7 +687,10 @@
         }
       ],
       "number": 13,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 14,
@@ -680,7 +719,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題測試對於 Immune Checkpoint Inhibitor (ICI) 引起的腎毒性之組織學特徵的認識。ICI 引起的腎臟損傷最典型的病理表現是 Acute Tubulointerstitial Nephritis (AIN)。在 kidney biopsy 的 light microscopy 影像下，最經典的特徵為廣泛的間質性淋巴球浸潤 (lymphocytic interstitial infiltrates) 合併 tubulitis。這些浸潤的細胞主要是 T cells (CD3+)，這與 ICI 阻斷 PD-1/PD-L1 或 CTLA-4 路徑而引發的免疫過度活化機制完全吻合。選項 (A) 描述的是 Minimal Change Disease，雖然少數 ICI 治療可能併發 podocytopathy，但 AIN 依然是絕大多數 ICI-related AKI 的主要表現。選項 (B) 描述的是 Anti-GBM disease，表現為 rapidly progressive glomerulonephritis (RPGN)，並非 ICI 腎毒性的典型特徵。選項 (C) 描述的是 Diabetic Nephropathy 的特徵性病變，與 ICI 造成的急性間質性腎炎毫無關聯。因此，了解 ICI-related AKI 的典型病理型態對於正確診斷與後續決定是否能重新挑戰 (rechallenge) 免疫療法至關重要。",
+      "sourceExplanation": "本題測試對於 Immune Checkpoint Inhibitor (ICI) 引起的腎毒性之組織學特徵的認識。ICI 引起的腎臟損傷最典型的病理表現是 Acute Tubulointerstitial Nephritis (AIN)。在 kidney biopsy 的 light microscopy 影像下，lymphocytic interstitial infiltrates 合併 tubulitis。這些浸潤的細胞主要是 T cells (CD3+)，這與 ICI 阻斷 PD-1/PD-L1 或 CTLA-4 路徑而引發的免疫過度活化機制完全吻合。選項 A 描述的是 Minimal Change Disease，雖然少數 ICI 治療可能併發 podocytopathy，但 AIN 依然是絕大多數 ICI-related AKI 的主要表現。選項 B 描述的是 Anti-GBM disease，表現為 rapidly progressive glomerulonephritis (RPGN)，並非 ICI 腎毒性的典型特徵。選項 C 描述的是 Diabetic Nephropathy 的特徵性病變，與 ICI 造成的急性間質性腎炎毫無關聯。因此，了解 ICI-related AKI rechallenge 免疫療法至關重要。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -698,7 +737,10 @@
         }
       ],
       "number": 14,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 15,
@@ -727,7 +769,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題探討 Metformin-Associated Lactic Acidosis (MALA) 的急性處置。患者因服用高劑量 metformin 加上近期可能因 NSAID (ibuprofen) 與 ACE inhibitor (lisinopril) 引發的 Acute Kidney Injury (AKI)，導致 metformin 蓄積並產生嚴重的 MALA。其特徵為 profound high anion gap metabolic acidosis 與極高的 serum lactate 數值。Metformin 是一種低分子量 (129 Da)、水溶性且 protein binding 極低的藥物，這使其非常適合透過 hemodialysis 清除。指引強烈建議對於伴隨嚴重酸血症 (pH < 7.1)、血流動力學不穩或嚴重 AKI 的 MALA 患者，首選的治療方式為 standard intermittent hemodialysis (IHD) 或 Prolonged intermittent renal replacement therapy (PIRRT)，因為它們能提供最快的 clearance 來移除 metformin 並迅速透過 dialysate 提供 bicarbonate 以矯正 acidosis。選項 (A) 的 CVVH 雖然可用於血流動力學極度不穩的病患，但其對於毒物清除的效率 (clearance rate) 遠低於 IHD，且在嚴重肝功能受損或缺血的情況下，使用 citrate anticoagulation 可能導致 citrate accumulation，進一步惡化酸血症。選項 (B) 錯誤，Peritoneal dialysis 的藥物清除率極低，且使用 lactate-buffered dialysate 在 lactic acidosis 患者身上會加劇病情。選項 (D) 錯誤，單純注射 sodium bicarbonate 無法移除體內蓄積的 metformin，且可能造成 volume overload 與 paradoxial intracellular acidosis，無法取代 renal replacement therapy 的角色。",
+      "sourceExplanation": "本題探討 Metformin-Associated Lactic Acidosis (MALA) 的急性處置。患者因服用高劑量 metformin 加上近期可能因 NSAID (ibuprofen) 與 ACE inhibitor (lisinopril) 引發的 Acute Kidney Injury (AKI)，導致 metformin 蓄積並產生嚴重的 MALA。其特徵為 profound high anion gap metabolic acidosis 與極高的 serum lactate 數值。Metformin 129 Da、水溶性且 protein binding 極低的藥物，這使其非常適合透過 hemodialysis 清除。指引強烈建議對於伴隨嚴重酸血症 (pH < 7.1)、血流動力學不穩或嚴重 AKI 的 MALA 患者，首選的治療方式為 standard intermittent hemodialysis (IHD) 或 Prolonged intermittent renal replacement therapy (PIRRT)，因為它們能提供最快的 clearance 來移除 metformin 並迅速透過 dialysate 提供 bicarbonate 以矯正 acidosis。選項 A 的 CVVH 雖然可用於血流動力學極度不穩的病患，clearance rate 遠低於 IHD，且在嚴重肝功能受損或缺血的情況下，使用 citrate anticoagulation 可能導致 citrate accumulation，進一步惡化酸血症。選項 B 錯誤，Peritoneal dialysis 的藥物清除率極低，且使用 lactate-buffered dialysate 在 lactic acidosis 患者身上會加劇病情。選項 D 錯誤，單純注射 sodium bicarbonate 無法移除體內蓄積的 metformin，且可能造成 volume overload 與 paradoxial intracellular acidosis，無法取代 renal replacement therapy 的角色。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -745,7 +787,10 @@
         }
       ],
       "number": 15,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 16,
@@ -774,7 +819,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題測試 Metformin 的藥理學特性及其在 Metformin-Associated Lactic Acidosis (MALA) 發生時的清除機制。Metformin 是一種低分子量 (129 Daltons) 且幾乎不與血漿蛋白結合 (negligible protein binding) 的小分子藥物。基於這些特性，Metformin 能夠非常有效地穿透透析膜，因此非常容易透過 Hemodialysis (HD) 被清除。選項 (B) 正確描述了這一藥物動力學特性，這也是為何在嚴重的 MALA 合併 AKI 時，HD 成為快速移除藥物並同時矯正嚴重 metabolic acidosis 的黃金標準。選項 (A) 錯誤，Metformin 的 protein binding 極低，因此完全不需要使用 therapeutic plasma exchange (TPE)。選項 (C) 錯誤，Metformin 引起 lactic acidosis 的主要病理機制是透過抑制粒線體的 respiratory chain complex I，減少肝臟的 gluconeogenesis，進而導致 lactate 轉化受阻與蓄積，而非直接抑制 pyruvate dehydrogenase。選項 (D) 錯誤，Metformin 實際上具有相當大的 volume of distribution (Vd)，它廣泛分佈於細胞內（尤其是紅血球中）。這個特性意味著在初次 hemodialysis 結束後，往往會發生從組織或紅血球回到血漿的藥物重新分佈，導致血中濃度反彈 (rebound increase)。這也是為何在治療嚴重的 MALA 時，有時需要較長時間的透析或 Prolonged intermittent renal replacement therapy (PIRRT) 來確保持續的清除效果。",
+      "sourceExplanation": "本題測試 Metformin 的藥理學特性及其在 Metformin-Associated Lactic Acidosis (MALA) 發生時的清除機制。Metformin 129 Daltons negligible protein binding 的小分子藥物。基於這些特性，Metformin 能夠非常有效地穿透透析膜，因此非常容易透過 Hemodialysis (HD) 被清除。選項 B 正確描述了這一藥物動力學特性，這也是為何在嚴重的 MALA 合併 AKI 時，HD 成為快速移除藥物並同時矯正嚴重 metabolic acidosis 的黃金標準。選項 A 錯誤，Metformin 的 protein binding 極低，因此完全不需要使用 therapeutic plasma exchange (TPE)。選項 C 錯誤，Metformin 引起 lactic acidosis 的主要病理機制是透過抑制粒線體的 respiratory chain complex I，減少肝臟的 gluconeogenesis，進而導致 lactate 轉化受阻與蓄積，而非直接抑制 pyruvate dehydrogenase。選項 D 錯誤，Metformin 實際上具有相當大的 volume of distribution (Vd)，它廣泛分佈於細胞內（尤其是紅血球中）。這個特性意味著在初次 hemodialysis 結束後，往往會發生從組織或紅血球回到血漿的藥物重新分佈，rebound increase。這也是為何在治療嚴重的 MALA 時，有時需要較長時間的透析或 Prolonged intermittent renal replacement therapy (PIRRT) 來確保持續的清除效果。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -792,7 +837,10 @@
         }
       ],
       "number": 16,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 17,
@@ -821,7 +869,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題的核心在於治療橫紋肌溶解症 (rhabdomyolysis) 併發的急性腎損傷 (acute kidney injury, AKI)。患者長時間倒地不動，產生嚴重的肌肉損傷，表現為極高的 creatine kinase (CK) 與尿液試紙潛血陽性但鏡檢無紅血球 (myoglobinuria 的典型表現)。橫紋肌溶解症造成 AKI 的機轉包括 myoglobin 導致的腎小管毒性、管狀阻塞 (tubular obstruction) 以及體液流失導致的腎臟缺血 (renal ischemia)。治療的首要步驟是給予積極的等張生理食鹽水 (isotonic normal saline) 進行體液復甦 (volume resuscitation) (選項 C 正確)。充足的輸液可以增加腎臟血流、提高腎小管流速並稀釋 myoglobin，從而降低管狀阻塞的風險。選項 A (sodium bicarbonate) 的使用有爭議，主要用於嚴重的代謝性酸中毒 (metabolic acidosis) 或作為輔助治療，但並非最初的首要步驟，且若患者有低血鈣 (hypocalcemia) 時可能加重症狀。選項 B (CVVH) 僅在出現難以控制的高血鉀 (hyperkalemia)、體液過載 (volume overload) 或嚴重酸血症等緊急透析適應症時才考慮。選項 D (mannitol) 僅在輸液治療已達到足夠體液狀態但尿量仍不足時才可能考慮，但其療效尚未被明確證實。",
+      "sourceExplanation": "rhabdomyolysis 併發的 acute kidney injury (AKI)。患者長時間倒地不動，產生嚴重的肌肉損傷，表現為極高的 creatine kinase (CK) 與尿液試紙潛血陽性但鏡檢無紅血球 (myoglobinuria 的典型表現)。橫紋肌溶解症造成 AKI 的機轉包括 myoglobin 導致的腎小管毒性、tubular obstruction renal ischemia。isotonic normal saline volume resuscitation (選項 C 正確)。充足的輸液可以增加腎臟血流、提高腎小管流速並稀釋 myoglobin，從而降低管狀阻塞的風險。選項 A (sodium bicarbonate) 的使用有爭議，metabolic acidosis 或作為輔助治療，但並非最初的首要步驟，hypocalcemia 時可能加重症狀。選項 B (CVVH) hyperkalemia、volume overload 或嚴重酸血症等緊急透析適應症時才考慮。選項 D (mannitol) 僅在輸液治療已達到足夠體液狀態但尿量仍不足時才可能考慮，但其療效尚未被明確證實。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -839,7 +887,10 @@
         }
       ],
       "number": 17,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 18,
@@ -868,7 +919,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "橫紋肌溶解症 (rhabdomyolysis) 在早期 (oliguric phase) 常會合併低血鈣 (hypocalcemia)，這是由於受損的肌肉細胞釋放大量磷酸鹽，導致高血磷 (hyperphosphatemia)，進而使鈣質沉積在受損的肌肉組織中 (metastatic calcification)。在治療上，除非患者出現低血鈣的臨床症狀 (如抽搐、tetany、Chvostek sign 或 Trousseau sign 陽性) 或心電圖出現嚴重異常 (如 QTc 延長誘發致命心律不整)，否則建議採取保守觀察 (選項 A 正確)。若在無症狀的情況下給予鈣劑補充 (選項 B、C)，會進一步增加 calcium-phosphate product，加劇軟組織與腎臟的鈣化，反而造成更嚴重的器官損傷。此外，在恢復期 (diuretic phase) 隨著沉積在肌肉的鈣質重新釋放回血液中，可能會出現反彈性的高血鈣 (rebound hypercalcemia)。選項 D (hemodialysis) 適用於存在嚴重且難治的電解質異常、尿毒症或體液過載，目前患者尿量已恢復且無嚴重症狀，不需啟動透析。",
+      "sourceExplanation": "rhabdomyolysis oliguric phase hypocalcemia，這是由於受損的肌肉細胞釋放大量磷酸鹽，hyperphosphatemia，metastatic calcification。在治療上，除非患者出現低血鈣的臨床症狀 (如抽搐、tetany、Chvostek sign 或 Trousseau sign 陽性) 或心電圖出現嚴重異常 (如 QTc 延長誘發致命心律不整)，否則建議採取保守觀察 (選項 A 正確)。若在無症狀的情況下給予鈣劑補充 (選項 B、C)，會進一步增加 calcium-phosphate product，加劇軟組織與腎臟的鈣化，反而造成更嚴重的器官損傷。此外，diuretic phase 隨著沉積在肌肉的鈣質重新釋放回血液中，rebound hypercalcemia。選項 D (hemodialysis) 適用於存在嚴重且難治的電解質異常、尿毒症或體液過載，目前患者尿量已恢復且無嚴重症狀，不需啟動透析。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -886,7 +937,10 @@
         }
       ],
       "number": 18,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 19,
@@ -915,7 +969,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Sjögren's syndrome (修格蘭氏症候群) 引起的遠端腎小管酸中毒 (distal renal tubular acidosis, dRTA) 與間質性腎炎 (tubulointerstitial nephritis, TIN)。患者呈現嚴重的低血鉀 (hypokalemia) 導致下肢無力甚至癱瘓，合併高氯性代謝性酸中毒 (hyperchloremic metabolic acidosis)，且尿液呈鹼性 (pH 6.5) 與正的尿液陰離子間隙 (positive urine anion gap)，這些都是 dRTA (Type 1 RTA) 的典型特徵。患者同時有口乾、眼乾的乾燥症狀，加上腎臟切片顯示間質有密集的淋巴球浸潤 (lymphocytic infiltrate in the interstitium) 且腎絲球相對正常，診斷為 Sjögren's syndrome 合併 TIN。Sjögren's syndrome 最常相關的自體抗體為 Anti-Ro/SSA 及 Anti-La/SSB (選項 D 正確)。選項 A (Anti-GBM) 主要見於 Goodpasture's disease，表現為快速進展性腎絲球腎炎 (RPGN) 與肺出血。選項 B (ANCA) 見於 ANCA 相關血管炎 (如 GPA, MPA)，常表現為寡免疫性 (pauci-immune) 壞死性腎絲球腎炎。選項 C (Anti-dsDNA) 是全身性紅斑狼瘡 (SLE) 的標記，通常引起狼瘡性腎炎 (lupus nephritis)，病理特徵為免疫複合體沉積在腎絲球，而非單純的淋巴球性間質性腎炎。",
+      "sourceExplanation": "本題考查 Sjögren's syndrome Sjögren syndrome 引起 distal renal tubular acidosis, dRTA 與 tubulointerstitial nephritis (TIN)。hypokalemia 導致下肢無力甚至癱瘓，hyperchloremic metabolic acidosis，且尿液呈鹼性 (pH 6.5) positive urine anion gap，這些都是 dRTA (Type 1 RTA) 的典型特徵。患者同時有口乾、眼乾的乾燥症狀，lymphocytic infiltrate in the interstitium 且腎絲球相對正常，診斷為 Sjögren's syndrome 合併 TIN。Sjögren's syndrome 最常相關的自體抗體為 Anti-Ro/SSA 及 Anti-La/SSB (選項 D 正確)。選項 A (Anti-GBM) 主要見於 Goodpasture's disease，RPGN 與肺出血。選項 B (ANCA) 見於 ANCA 相關血管炎 (如 GPA, MPA)，pauci-immune 壞死性腎絲球腎炎。選項 C (Anti-dsDNA) SLE 的標記，lupus nephritis，病理特徵為免疫複合體沉積在腎絲球，而非單純的淋巴球性間質性腎炎。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -933,7 +987,10 @@
         }
       ],
       "number": 19,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": 20,
@@ -962,7 +1019,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "患者患有原發性 Sjögren's syndrome，常會併發慢性間質性腎炎 (TIN) 並導致遠端腎小管酸中毒 (distal RTA, Type 1)。Distal RTA 的特徵是無法在遠端腎小管正常排泌氫離子，導致慢性代謝性酸中毒 (chronic metabolic acidosis) 與鹼性尿液。長期的酸血症會促進骨骼中的鈣質釋放作為緩衝，導致高血鈣與高尿鈣 (hypercalciuria)。同時，酸中毒會增加近曲小管對檸檬酸 (citrate) 的重吸收，導致尿中檸檬酸顯著降低 (hypocitraturia)。由於 citrate 是一種能與鈣結合並抑制結石形成的保護性物質，高尿鈣加上低尿檸檬酸，以及 dRTA 典型的鹼性尿液，這三個因素共同促進了磷酸鈣 (calcium phosphate) 的結晶沉澱，進而形成腎髓質鈣化 (medullary nephrocalcinosis) 與腎結石 (選項 B 正確)。選項 A 與 C 描述的是高鈣血症的其他成因，並非 dRTA 導致 nephrocalcinosis 的機轉。選項 D 描述的厚距支 (thick ascending limb) 受損會導致 Bartter syndrome，這通常不會引起嚴重的 acidosis，而是表現為代謝性鹼中毒 (metabolic alkalosis)。",
+      "sourceExplanation": "患者患有原發性 Sjögren's syndrome，TIN 並導致 distal RTA, Type 1。Distal RTA 的特徵是無法在遠端腎小管正常排泌氫離子，chronic metabolic acidosis 與鹼性尿液。長期的酸血症會促進骨骼中的鈣質釋放作為緩衝，hypercalciuria。同時，citrate 的重吸收，hypocitraturia。由於 citrate 是一種能與鈣結合並抑制結石形成的保護性物質，高尿鈣加上低尿檸檬酸，以及 dRTA 典型的鹼性尿液，calcium phosphate 的結晶沉澱，medullary nephrocalcinosis 與腎結石 (選項 B 正確)。選項 A 與 C 描述的是高鈣血症的其他成因，並非 dRTA 導致 nephrocalcinosis 的機轉。選項 D thick ascending limb 受損會導致 Bartter syndrome，這通常不會引起嚴重的 acidosis，metabolic alkalosis。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -980,7 +1037,10 @@
         }
       ],
       "number": 20,
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z",

@@ -32,7 +32,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n標準血液透析水處理 Pre-treatment Train 的淨化流向順序為：\n1. **Multimedia Sediment Filter**：首先過濾自來水中的粗大懸浮微粒與泥沙。\n2. **Water Softener**：經由鈉型陽離子交換樹脂去除水中的 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 硬度離子，防範結晶沉澱 Scaling。\n3. **Dual Activated Carbon Tanks in Series**：於軟水後吸附有機物並經由化學還原反應去除 Free chlorine & Chloramines。\n4. **5-Micron Depth Filter**：放置於 RO 幫浦正前方，捕捉脫落的 Carbon fines，確保進入 RO 膜的水質粒徑 $< 5\\,\\mu\\text{m}$。\n因此選項 (A) 完全正確。\n\n### 3. Distractor Analysis\n- **(B), (C), (D) 錯誤**：將 Activated Carbon 置於沉澱過濾器或 Water Softener 之前會導致活性碳孔隙遭懸浮泥沙堵塞與硬度離子覆蓋而迅速失效；若將 5-Micron Depth Filter 置於活性碳之前，則無法捕捉活性碳槽洩漏出的微小碳粉，會直接造成 RO 膜磨損破壞。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n標準血液透析水處理 Pre-treatment Train 的淨化流向順序為：\n1. **Multimedia Sediment Filter**：首先過濾自來水中的粗大懸浮微粒與泥沙。\n2. **Water Softener**：經由鈉型陽離子交換樹脂去除水中的 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 硬度離子，防範結晶沉澱 Scaling。\n3. **Dual Activated Carbon Tanks in Series**：於軟水後吸附有機物並經由化學還原反應去除 Free chlorine & Chloramines。\n4. **5-Micron Depth Filter**：放置於 RO 幫浦正前方，捕捉脫落的 Carbon fines，確保進入 RO 膜的水質粒徑 $< 5\\,\\mu\\text{m}$。\nA 完全正確。\n\n### 3. Distractor Analysis\n- **(B), (C), (D) 錯誤**：將 Activated Carbon 置於沉澱過濾器或 Water Softener 之前會導致活性碳孔隙遭懸浮泥沙堵塞與硬度離子覆蓋而迅速失效；若將 5-Micron Depth Filter 置於活性碳之前，則無法捕捉活性碳槽洩漏出的微小碳粉，會直接造成 RO 膜磨損破壞。",
       "reconciliationStatus": "MATCH",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -62,11 +62,7 @@
           "selectedOption": "A"
         }
       ],
-      "resolvedImages": [
-        {
-          "relPath": "/reference-images/2020 Brenner 11e/63. Hemodialysis/Fig_63_18.png"
-        }
-      ],
+      "resolvedImages": [],
       "selectedOption": "A",
       "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
@@ -433,7 +429,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**絕對禁止將體外迴路中的血液趕回病人體內 (DISCARD extracorporeal blood)**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性hyperkalemia與心臟驟停。因此 (D) 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**DISCARD extracorporeal blood**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性hyperkalemia與心臟驟停。D 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
       "reconciliationStatus": "MATCH",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -494,7 +490,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n**Aluminum Toxicity** 是早期透析水質處理不佳 (如添加明礬淨水或使用含鋁透析水) 時典型的重金屬蓄積症狀：\n1. **Dialysis Encephalopathy / Dementia**：鋁沉積於中樞神經系統，表現為 Dyspraxia of speech、Myoclonus、失智與癲癇發作。\n2. **Low-Turnover Osteomalacia / Adynamic Bone Disease**：鋁沉積於 Mineralization front，直接抑制 Osteoblast 活性與 PTH 作用，導致劇烈骨痛與骨折。\n3. **Microcytic Normochromic Anemia**：干擾鐵質在 Heme 合成中的利用，給予高劑量 EPO 治療無效。三聯徵完全吻合 (A)。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Copper Toxicity 主要表現為 Acute Intravascular Hemolysis、胃腸道症狀與代謝性酸中毒。\n- **(C) 錯誤**：Magnesium Toxicity 引發 Hard Water Syndrome (嗜睡、高血壓、肌無力)。\n- **(D) 錯誤**：Lead Toxicity 引發周邊神經病變與 Saturnine gout。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n**Aluminum Toxicity** 是早期透析水質處理不佳 如添加明礬淨水或使用含鋁透析水 時典型的重金屬蓄積症狀：\n1. **Dialysis Encephalopathy / Dementia**：鋁沉積於中樞神經系統，表現為 Dyspraxia of speech、Myoclonus、失智與癲癇發作。\n2. **Low-Turnover Osteomalacia / Adynamic Bone Disease**：鋁沉積於 Mineralization front，直接抑制 Osteoblast 活性與 PTH 作用，導致劇烈骨痛與骨折。\n3. **Microcytic Normochromic Anemia**：干擾鐵質在 Heme 合成中的利用，給予高劑量 EPO 治療無效。A。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Copper Toxicity 主要表現為 Acute Intravascular Hemolysis、胃腸道症狀與代謝性酸中毒。\n- **(C) 錯誤**：Magnesium Toxicity 引發 Hard Water Syndrome (嗜睡、高血壓、肌無力)。\n- **(D) 錯誤**：Lead Toxicity 引發周邊神經病變與 Saturnine gout。",
       "reconciliationStatus": "MATCH",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -611,7 +607,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n- **Copper & Zinc Leaching Toxicity**：當透析水處理系統或迴水管線使用銅管、黃銅配件或鍍鋅管時，酸性的純水 (RO水) 會侵蝕金屬管壁，致使 Copper 離子或 Zinc 離子溶出進入透析水。\n- **病理毒性**：Copper 離子為強烈之紅血球毒素，會破壞紅血球細胞膜並抑制 G6PD 活性，引發 **Acute Intravascular Hemolysis**、腹痛、噁心、嘔吐、黃疸與代謝性酸中毒。因此 (C) 完全正確。\n\n### 3. Distractor Analysis\n- **(A), (B), (D) 錯誤**：Copper / Zinc 重金屬溶出不會直接引發純粹的高鈉高滲透壓昏迷或肺纖維化，其特徵性的血球打擊為 Acute Intravascular Hemolysis 與消化道毒性。",
+      "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n- **Copper & Zinc Leaching Toxicity**：當透析水處理系統或迴水管線使用銅管、黃銅配件或鍍鋅管時，酸性的純水 (RO水) 會侵蝕金屬管壁，致使 Copper 離子或 Zinc 離子溶出進入透析水。\n- **病理毒性**：Copper 離子為強烈之紅血球毒素，會破壞紅血球細胞膜並抑制 G6PD 活性，引發 **Acute Intravascular Hemolysis**、腹痛、噁心、嘔吐、黃疸與代謝性酸中毒。C 完全正確。\n\n### 3. Distractor Analysis\n- **(A), (B), (D) 錯誤**：Copper / Zinc 重金屬溶出不會直接引發純粹的高鈉高osmolality昏迷或肺纖維化，其特徵性的血球打擊為 Acute Intravascular Hemolysis 與消化道毒性。",
       "reconciliationStatus": "MATCH",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

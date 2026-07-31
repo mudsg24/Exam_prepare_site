@@ -16,12 +16,38 @@ if (!fs.existsSync(STAGE1_OUTPUT)) {
 const newNlmData = JSON.parse(fs.readFileSync(STAGE1_OUTPUT, 'utf-8'));
 console.log(`Loaded ${newNlmData.length} re-asked question responses from ${STAGE1_OUTPUT}.`);
 
+// Build qId -> paperId map from payload if available or by searching server-data
+const qIdToPaperIdMap = {};
+const payloadPath = path.join(process.cwd(), 'scratch', 'qc_reask_payload.json');
+if (fs.existsSync(payloadPath)) {
+  const payloadData = JSON.parse(fs.readFileSync(payloadPath, 'utf-8'));
+  for (const item of payloadData) {
+    if (item.q_id && item.paperId) qIdToPaperIdMap[item.q_id] = item.paperId;
+  }
+}
+
+// Fallback search in server-data
+const allServerFiles = fs.readdirSync(SERVER_DATA_DIR).filter(f => f.endsWith('.json') && !['exams_manifest.json', 'image_index.json'].includes(f));
+for (const file of allServerFiles) {
+  const pId = file.replace('.json', '');
+  const pData = JSON.parse(fs.readFileSync(path.join(SERVER_DATA_DIR, file), 'utf-8'));
+  if (pData.questions && Array.isArray(pData.questions)) {
+    for (const q of pData.questions) {
+      if (!qIdToPaperIdMap[q.id]) qIdToPaperIdMap[q.id] = pId;
+    }
+  }
+}
+
 // Group by paperId
 const paperMap = {};
 for (const item of newNlmData) {
   const qId = item.q_id || item.id;
   if (!qId) continue;
-  const paperId = item.paperId || qId.substring(0, qId.lastIndexOf('_q'));
+  const paperId = item.paperId || qIdToPaperIdMap[qId] || (qId.includes('_q') ? qId.substring(0, qId.lastIndexOf('_q')) : null);
+  if (!paperId) {
+    console.warn(`Could not resolve paperId for question: ${qId}`);
+    continue;
+  }
   if (!paperMap[paperId]) paperMap[paperId] = [];
   
   const mappedResp = {

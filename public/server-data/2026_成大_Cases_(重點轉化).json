@@ -1456,7 +1456,7 @@
       ],
       "qcVerified": true,
       "number": 23,
-      "reconciliationNotes": "adult minimal change disease 合併 active newly diagnosed Hepatitis C virus infection 時，由於 minimal change disease 為 severe nephrotic syndrome 且具 acute kidney injury 風險，不可延後 immunosuppression；同時 HCV infection 需以 direct-acting antiviral therapy 治療。臨床最佳處置為 high-dose systemic corticosteroids 聯合 direct-acting antiviral therapy 治療 (Option A)。NLM 雙重 Run 與 sourceProvidedAnswer 100% 一致選擇 Option A，判定為 HIGH_CONFIDENCE_MATCH。",
+      "reconciliationNotes": "adult minimal change disease 合併 active newly diagnosed Hepatitis C virus infection 時，由於 minimal change disease 為 severe nephrotic syndrome 且具 acute kidney injury 風險，不可延後 immunosuppression；同時 HCV infection 需以 direct-acting antiviral therapy 治療。臨床最佳處置為 high-dose systemic corticosteroids 聯合 direct-acting antiviral therapy Option A。NLM 雙重 Run 與 sourceProvidedAnswer 100% 一致選擇 Option A，判定為 HIGH_CONFIDENCE_MATCH。",
       "qcNotes": "NLM 兩次 Run 皆精確一致選擇 Option A。與原始 Ground Truth (Option A) 100% 吻合。全解答與敘述符合 100% 繁體中文與 100% Pure English 醫學專有名詞規範。",
       "qcVerifiedAt": "2026-07-30T02:47:10.451Z",
       "qcVerifiedBy": "tn-exam-qc"
@@ -1488,7 +1488,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 chronic kidney disease stage 4 併發 severe metabolic alkalosis 的臨床診斷。該病患表現出 delirium 及 lower extremity weakness，blood gas analysis 確認存在嚴重的 alkalemia 與 hyperbicarbonatemia。病患因慢性濫用 laxatives 造成 gastrointestinal tract 流失 H+ 與 Cl-，加上過度攝取 sodium bicarbonate 藥片，引發了 metabolic alkalosis。urine chloride concentration 大於 40 mmol/L 表示此為 chloride-unresponsive (或 saline-resistant) 狀態，且由於病患本身有 advanced CKD，腎臟排泄 bicarbonate 的能力嚴重受損，進一步惡化了 alkalosis 的程度。選項 (A) 錯誤，因為 urine chloride 大於 40 mmol/L 不符合 saline-responsive 狀態 (通常 urine chloride < 25 mmol/L)。選項 (B) 錯誤，lactic acidosis 會造成 metabolic acidosis。選項 (C) 錯誤，primary disturbance 為 metabolic alkalosis，PCO2 升高為 compensatory response。",
+      "sourceExplanation": "本題考查 chronic kidney disease stage 4 併發 severe metabolic alkalosis 的臨床診斷。該病患表現出 delirium 及 lower extremity weakness，blood gas analysis 確認存在嚴重的 alkalemia 與 hyperbicarbonatemia。病患因慢性濫用 laxatives 造成 gastrointestinal tract 流失 H+ 與 Cl-，加上過度攝取 sodium bicarbonate 藥片，引發了 metabolic alkalosis。urine chloride concentration 大於 40 mmol/L 表示此為 chloride-unresponsive (或 saline-resistant) 狀態，且由於病患本身有 advanced CKD，腎臟排泄 bicarbonate 的能力嚴重受損，進一步惡化了 alkalosis 的程度。A 錯誤，因為 urine chloride 大於 40 mmol/L 不符合 saline-responsive 狀態 (通常 urine chloride < 25 mmol/L)。B 錯誤，lactic acidosis 會造成 metabolic acidosis。C 錯誤，primary disturbance 為 metabolic alkalosis，PCO2 升高為 compensatory response。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1553,7 +1553,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 metabolic alkalosis 的 pathophysiological mechanism 與分類。metabolic alkalosis 可依據 urine chloride 濃度分為 saline-responsive (urine chloride < 25 mmol/L) 與 chloride-unresponsive (或 saline-resistant，urine chloride > 40 mmol/L)。該病患 urine chloride 升高至 45 mmol/L，符合 chloride-unresponsive 分類。其 pathophysiology 是由於 chronic laxative abuse 導致 lower gastrointestinal tract 大量流失 H+ 與 Cl-，加上口服過量 sodium bicarbonate，並且由於本身患有 chronic kidney disease，renal bicarbonate excretory capacity 受損而使 alkalosis 持續並加重。選項 (B) 錯誤，urine chloride 升高不屬於 saline-responsive。選項 (C) 錯誤，這並非 primary respiratory compensation defect，且高 urine chloride 為 chloride-unresponsive。選項 (D) 錯誤，K+ shift 並非主要驅動因素，且 urine chloride 並不低。",
+      "sourceExplanation": "本題考查 metabolic alkalosis 的 pathophysiological mechanism 與分類。metabolic alkalosis 可依據 urine chloride 濃度分為 saline-responsive (urine chloride < 25 mmol/L) 與 chloride-unresponsive (或 saline-resistant，urine chloride > 40 mmol/L)。該病患 urine chloride 升高至 45 mmol/L，符合 chloride-unresponsive 分類。其 pathophysiology 是由於 chronic laxative abuse 導致 lower gastrointestinal tract 大量流失 H+ 與 Cl-，加上口服過量 sodium bicarbonate，並且由於本身患有 chronic kidney disease，renal bicarbonate excretory capacity 受損而使 alkalosis 持續並加重。B 錯誤，urine chloride 升高不屬於 saline-responsive。C 錯誤，這並非 primary respiratory compensation defect，且高 urine chloride 為 chloride-unresponsive。D 錯誤，K+ shift 並非主要驅動因素，且 urine chloride 並不低。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1655,7 +1655,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.465Z",
       "qcNotes": "NotebookLM 第一次對答因文獻庫缺乏特定病患臨床個案數據宣告 INSUFFICIENT_DATABASE_EVIDENCE (NONE)；第二次對答明確指出在 clinical physiology 與藥理學上 Option (C) 為唯一正確選項。題目與解答經醫學邏輯審查無誤。",
-      "reconciliationNotes": "患者為 chronic kidney disease stage 4 伴隨 severe metabolic alkalosis，在使用 normal saline 與 oral acetazolamide 治療後第 3 天，venous blood gas 顯示 tissue PCO2 一過性攀升至 86 mmHg 且無 hypercapnic symptoms。Acetazolamide 作為 carbonic anhydrase inhibitor，會系統性抑制 erythrocyte CA II 與 pulmonary capillary CA IV，阻斷 bicarbonate 與 carbon dioxide 在 erythrocyte 及 pulmonary capillary microenvironment 的快速雙向 hydration and dehydration reactions，導致 carbon dioxide clearance 效率下降與 tissue-to-arterial PCO2 gradient 顯著擴大 (Option C)。選項 A (central respiratory depression)、B (renal tubular H+ secretion 障礙) 及 D (rapid metabolic conversion) 在生理學上均不成立。原始答案 Option (C) 100% 正確。",
+      "reconciliationNotes": "患者為 chronic kidney disease stage 4 伴隨 severe metabolic alkalosis，在使用 normal saline 與 oral acetazolamide 治療後第 3 天，venous blood gas 顯示 tissue PCO2 一過性攀升至 86 mmHg 且無 hypercapnic symptoms。Acetazolamide 作為 carbonic anhydrase inhibitor，會系統性抑制 erythrocyte CA II 與 pulmonary capillary CA IV，阻斷 bicarbonate 與 carbon dioxide 在 erythrocyte 及 pulmonary capillary microenvironment 的快速雙向 hydration and dehydration reactions，導致 carbon dioxide clearance 效率下降與 tissue-to-arterial PCO2 gradient Option C。選項 A (central respiratory depression)、B (renal tubular H+ secretion 障礙) 及 D (rapid metabolic conversion) 在生理學上均不成立。原始答案 Option (C) 100% 正確。",
       "responses": [
         {
           "account": "sandbox0505",
@@ -1699,7 +1699,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 peritoneal dialysis-associated eosinophilic peritonitis 的診斷標準。eosinophilic peritonitis 的定義為 dialysate effluent 中 eosinophils 絕對數值大於 100/mm³ (100/µL)，或其比例超過非 erythrocyte 總數的 10%。該病患的 dialysate effluent 中 WBC 高達 986/µL 且 eosinophil 比例達 49%，完全符合診斷標準。此併發症通常發生在開始 peritoneal dialysis 後的三個月內，主要表現為 asymptomatic 的 cloudy dialysate effluent，且 microbial culture results 為陰性。選項 (A) 與 (C) 錯誤，這是 bacterial peritonitis 的特徵，通常伴隨 abdominal pain 及 neutrophils 升高。選項 (D) 錯誤，fungal peritonitis 不會以單純的高 eosinophil 且 asymptomatic 作為典型表現。",
+      "sourceExplanation": "本題考查 peritoneal dialysis-associated eosinophilic peritonitis 的診斷標準。eosinophilic peritonitis 的定義為 dialysate effluent 中 eosinophils 絕對數值大於 100/mm³ (100/µL)，或其比例超過非 erythrocyte 總數的 10%。該病患的 dialysate effluent 中 WBC 高達 986/µL 且 eosinophil 比例達 49%，完全符合診斷標準。此併發症通常發生在開始 peritoneal dialysis 後的三個月內，主要表現為 asymptomatic 的 cloudy dialysate effluent，且 microbial culture results 為陰性。A C 錯誤，這是 bacterial peritonitis 的特徵，通常伴隨 abdominal pain 及 neutrophils 升高。D 錯誤，fungal peritonitis 不會以單純的高 eosinophil 且 asymptomatic 作為典型表現。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1764,7 +1764,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據 Brenner & Rector's The Kidney，eosinophilic peritonitis 典型表現為 minimal abdominal pain，這與 acute bacterial peritonitis 伴隨的劇烈 abdominal pain 形成關鍵鑑別。eosinophilic peritonitis 是一種對 catheter 組件或 dialysis solutions 產生的 localized hypersensitivity reaction。當 cloudy effluent 中的 eosinophils 比例大於 10% 且 peritoneal fluid culture 陰性時，即可確診。由於本病屬於良性且高度 self-limiting 的 immune response，常規無需給予 antibiotics。然而，為防止大量 fibrin 析出導致 catheter obstruction，可使用 low-dose oral glucocorticoids 或 antihistamines 進行 systemic anti-allergic therapy。選項 (E) 錯誤，因其為 sterile hypersensitivity reaction，不會表現為 severe abdominal pain，且給予 intraperitoneal antibiotics 無效。選項 (B) 錯誤，該病症屬於 noninfectious hypersensitivity reaction，具有自限性，無需進行 surgical removal of the peritoneal dialysis catheter。選項 (C) 錯誤，此病症為 localized hypersensitivity reaction，極少誘發 systemic anaphylaxis，無需中斷 peritoneal dialysis 並切換至 continuous venovenous hemofiltration。",
+      "sourceExplanation": "根據 Brenner & Rector's The Kidney，eosinophilic peritonitis 典型表現為 minimal abdominal pain，這與 acute bacterial peritonitis 伴隨的劇烈 abdominal pain 形成關鍵鑑別。eosinophilic peritonitis 是一種對 catheter 組件或 dialysis solutions 產生的 localized hypersensitivity reaction。當 cloudy effluent 中的 eosinophils 比例大於 10% 且 peritoneal fluid culture 陰性時，即可確診。由於本病屬於良性且高度 self-limiting 的 immune response，常規無需給予 antibiotics。然而，為防止大量 fibrin 析出導致 catheter obstruction，可使用 low-dose oral glucocorticoids 或 antihistamines 進行 systemic anti-allergic therapy。E 錯誤，因其為 sterile hypersensitivity reaction，不會表現為 severe abdominal pain，且給予 intraperitoneal antibiotics 無效。B 錯誤，該病症屬於 noninfectious hypersensitivity reaction，具有自限性，無需進行 surgical removal of the peritoneal dialysis catheter。C 錯誤，此病症為 localized hypersensitivity reaction，極少誘發 systemic anaphylaxis，無需中斷 peritoneal dialysis 並切換至 continuous venovenous hemofiltration。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [

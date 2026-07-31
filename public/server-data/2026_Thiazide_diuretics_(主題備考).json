@@ -29,7 +29,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Thiazide 類利尿劑的核心作用部位為 Distal Convoluted Tubule (DCT，特別是 DCT1)，其分子標的為位於 Apical Membrane 的 Na+-Cl- Cotransporter (NCC)，對應基因名稱為 SLC12A3。Thiazide 藥物會競爭性結合至 NCC 的 Cl- 結合位點，進而阻斷 Na+ 與 Cl- 的等電位重吸收。選項 (B) 為 Loop Diuretics (作用於 TAL 之 NKCC2)；選項 (C) 為 Acetazolamide (作用於 PCT 之 CA II)；選項 (D) 為 Amiloride / Triamterene (作用於 CCD 之 ENaC)。",
+      "sourceExplanation": "Thiazide 類diuretic的核心作用部位為 Distal Convoluted Tubule (DCT，特別是 DCT1)，其分子標的為位於 Apical Membrane 的 Na+-Cl- Cotransporter (NCC)，對應基因名稱為 SLC12A3。Thiazide 藥物會競爭性結合至 NCC 的 Cl- 結合位點，進而阻斷 Na+ 與 Cl- 的等電位重吸收。B 為 Loop Diuretics (作用於 TAL 之 NKCC2)；C 為 Acetazolamide (作用於 PCT 之 CA II)；D 為 Amiloride / Triamterene (作用於 CCD 之 ENaC)。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -62,7 +62,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -89,7 +89,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "解剖與功能上，DCT 可分為 DCT1 與 DCT2 兩段。DCT1 僅單純表現 Na+-Cl- Cotransporter (NCC)，因此其跨膜電位接近 0 mV (Electroneutral)；而 DCT2 則為過渡區，同時表現 NCC、ENaC 鈉通道以及鈣離子通道 TRPV5。因為 DCT2 表現 ENaC，使其呈現 Lumen-Negative 的電位差，並受 Aldosterone 的調控。選項 (A) 錯在 NKCC2 僅表現於 TAL；選項 (B) 電位敘述顛倒；選項 (D) 醛固酮調控排鉀主戰場在 DCT2, CNT 及 CCD。",
+      "sourceExplanation": "解剖與功能上，DCT 可分為 DCT1 與 DCT2 兩段。DCT1 僅單純表現 Na+-Cl- Cotransporter (NCC)，因此其跨膜電位接近 0 mV (Electroneutral)；而 DCT2 則為過渡區，同時表現 NCC、ENaC 鈉通道以及鈣離子通道 TRPV5。因為 DCT2 表現 ENaC，使其呈現 Lumen-Negative 的電位差，並受 Aldosterone 的調控。A 錯在 NKCC2 僅表現於 TAL；B 電位敘述顛倒；D 醛固酮調控排鉀主戰場在 DCT2, CNT 及 CCD。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -122,7 +122,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -149,7 +149,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Thiazide Hypocalciuria，其雙重機轉包含：(1) Thiazide 引起 ECF Volume Contraction，刺激 Proximal Tubule 被動式 Paracellular Na+ 與 Ca2+ 重吸收顯著增加；(2) 在 DCT1/DCT2 抑制 NCC 使細胞內 Na+ 降低，促使 Basolateral NCX1 增加驅動力將 Na+ 汲入、Ca2+ 幫至血液中，進一步使細胞內 Ca2+ 降低，拉大 Apical TRPV5 鈣通道的被動流入梯度，強效促進遠端 Calcium Reabsorption。選項 (A) 為 Loop Diuretics 作用；選項 (C) 敘述相反；選項 (D) 酸中毒會抑制而不是增加 Citrate 吐出。",
+      "sourceExplanation": "Thiazide Hypocalciuria，其雙重機轉包含：(1) Thiazide 引起 ECF Volume Contraction，刺激 Proximal Tubule 被動式 Paracellular Na+ 與 Ca2+ 重吸收顯著增加；(2) 在 DCT1/DCT2 抑制 NCC 使細胞內 Na+ 降低，促使 Basolateral NCX1 增加驅動力將 Na+ 汲入、Ca2+ 幫至血液中，進一步使細胞內 Ca2+ 降低，拉大 Apical TRPV5 鈣通道的被動流入梯度，強效促進遠端 Calcium Reabsorption。A 為 Loop Diuretics 作用；C 敘述相反；D 酸中毒會抑制而不是增加 Citrate 吐出。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_4",
@@ -182,7 +182,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -241,9 +241,10 @@
       ],
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: D vs NLM 2: NONE)。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "Reconciled by tn-exam-qc."
     },
     {
       "id": "2026_Thiazide_diuretics_Q5",
@@ -269,7 +270,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類利尿劑 (如 HCTZ) 因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone (以及部分高劑量 Chlorthalidone) 即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade Diuretic Resistance。",
+      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類diuretic (如 HCTZ) 因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone (以及部分高劑量 Chlorthalidone) 即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade Diuretic Resistance。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -302,7 +303,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -329,7 +330,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "全基因體關聯研究 (GWAS, Ware et al. JCI 2017) 發現，Thiazide-Induced Hyponatremia (TIH) 的主要易感基因失能突變位於 SLCO2A1 (編碼 Prostaglandin Transporter, PGT)，特定變異位點為 A396T。攜帶此風險等位基因的患者在服用 Thiazide 後極易發生嚴重低血鈉。選項 (A) SLC12A3 為 NCC 基因；選項 (B) AVPR2 為 V2 受體基因；選項 (D) KCNJ1 為 ROMK 基因。",
+      "sourceExplanation": "全基因體關聯研究 (GWAS, Ware et al. JCI 2017) 發現，Thiazide-Induced Hyponatremia (TIH) 的主要易感基因失能突變位於 SLCO2A1 (編碼 Prostaglandin Transporter, PGT)，特定變異位點為 A396T。攜帶此風險等位基因的患者在服用 Thiazide 後極易發生嚴重hyponatremia。A SLC12A3 為 NCC 基因；B AVPR2 為 V2 受體基因；D KCNJ1 為 ROMK 基因。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_18",
@@ -362,7 +363,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -422,7 +423,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -449,7 +450,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "TIH 臨床上有兩種極端表型：SIADH-like Phenotype 與 Gitelman-like Phenotype。本例患者呈Euvolemic、高尿滲透壓 (Uosm 480 > 300) 且高尿鈉 (Una 45 > 30)，臨床實驗室數據與 SIADH 完全相同，此即為 SIADH-like TIH Phenotype。其原因為 Thiazide 特異性破壞 DCT Medullary Dilution，配合 PGT 缺陷誘發 AQP2 膜插入。處置首要為停用 Thiazide 藥物。",
+      "sourceExplanation": "TIH 臨床上有兩種極端表型：SIADH-like Phenotype 與 Gitelman-like Phenotype。本例患者呈Euvolemic、高尿osmolality (Uosm 480 > 300) 且高尿鈉 (Una 45 > 30)，臨床實驗室數據與 SIADH 完全相同，此即為 SIADH-like TIH Phenotype。其原因為 Thiazide 特異性破壞 DCT Medullary Dilution，配合 PGT 缺陷誘發 AQP2 膜插入。處置首要為停用 Thiazide 藥物。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_19",
@@ -482,7 +483,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -573,7 +574,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "治療 TIH 的核心原則為：(1) 立即停用 Thiazide 藥物；(2) 積極補充電解質 (特別是 KCl)。補充 K+ 可使移入細胞內的 Na+ 重新移回血漿，迅速提升血清鈉濃度。若未矯正缺鉀，單純限水 (Option B) 或單給高濃度鹽水 (Option A) 無法維持血鈉矯正成果。",
+      "sourceExplanation": "治療 TIH 的核心原則為：(1) 立即停用 Thiazide 藥物；(2) 積極補充電解質 (特別是 KCl)。補充 K+ 可使移入細胞內的 Na+ 重新移回血漿，迅速提升血清鈉濃度。若未矯正缺鉀，Option B Option A 無法維持血鈉矯正成果。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_20",
@@ -606,7 +607,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -633,7 +634,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Thiazide 用於 NDI 稱為Paradoxical Antidiuresis。Thiazide 透過輕微排鈉引起輕度 ECF Volume Depletion，代償性活化 RAAS 並刺激 Proximal Tubule 重吸收大量的等滲透壓水鈉，使最終抵達 Distal Nephron 與 Collecting Duct 的原尿量大幅減少，從而降低總每日尿量（可減少高達 50% 尿量）。",
+      "sourceExplanation": "Thiazide 用於 NDI 稱為Paradoxical Antidiuresis。Thiazide 透過輕微排鈉引起輕度 ECF Volume Depletion，代償性活化 RAAS 並刺激 Proximal Tubule 重吸收大量的等osmolality水鈉，使最終抵達 Distal Nephron 與 Collecting Duct 的原尿量大幅減少，從而降低總每日尿量（可減少高達 50% 尿量）。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -666,7 +667,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -726,7 +727,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -786,7 +787,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -846,7 +847,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -873,7 +874,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Thiazide Hyperglycemia 的核心離子機轉為Hypokalemia。胰臟 Beta 細胞分泌 Insulin 依賴 ATP-sensitive K+ K-ATP 的關閉與膜去極化；當細胞外鉀離子過低時，K-ATP 通道關閉受阻，抑制膜去極化與 Calcium 流入，致使 Insulin 吐出量顯著減少。臨床上矯正低血鉀可改善 Thiazide 引起的耐糖不良。",
+      "sourceExplanation": "Thiazide Hyperglycemia 的核心離子機轉為Hypokalemia。胰臟 Beta 細胞分泌 Insulin 依賴 ATP-sensitive K+ K-ATP 的關閉與膜去極化；當細胞外鉀離子過低時，K-ATP 通道關閉受阻，抑制膜去極化與 Calcium 流入，致使 Insulin 吐出量顯著減少。臨床上矯正hypokalemia可改善 Thiazide 引起的耐糖不良。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_21",
@@ -906,7 +907,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -993,7 +994,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "NSAIDs (如 Ibuprofen, Indomethacin) 會抑制腎臟 COX-1/COX-2 酵素，減少局部前列腺素 (PGE2, PGI2) 的合成。前列腺素具有擴張進球小動脈與直接抑制小管排鈉的作用；當前列腺素被 NSAID 阻斷時，會引發腎血管收縮與水鈉滯留，Blunt Thiazide 與 Loop 利尿劑的利尿降壓效果。",
+      "sourceExplanation": "NSAIDs (如 Ibuprofen, Indomethacin) 會抑制腎臟 COX-1/COX-2 酵素，減少局部prostate素 (PGE2, PGI2) 的合成。prostate素具有擴張進球小動脈與直接抑制小管排鈉的作用；當prostate素被 NSAID 阻斷時，會引發腎vasoconstriction與水鈉滯留，Blunt Thiazide 與 Loop diuretic的利尿降壓效果。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_12",
@@ -1026,7 +1027,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {
@@ -1053,7 +1054,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Gitelman Syndrome 為 SLC12A3 (NCC 基因) 的體隱性失能突變，其臨床表徵（低血鉀、低血鎂、低尿鈣、代謝性鹼中毒、正常或偏低血壓）與使用 Thiazide 完全相同，因此 Thiazide 作用常被稱為 Gitelman Phenocopy。本例患者尿液利尿劑篩檢為陰性，且基因檢測證實 SLC12A3 突變，故診斷為 Gitelman Syndrome。選項 (A) Bartter 為 NKCC2/ROMK/ClC-Kb 突變，呈現 Hypercalciuria；選項 (D) Gordon 為 WNK1/4 突變，呈現高血壓與高血鉀。",
+      "sourceExplanation": "Gitelman Syndrome 為 SLC12A3 (NCC 基因) 的體隱性失能突變，其臨床表徵（hypokalemia、低血鎂、低尿鈣、代謝性鹼中毒、正常或偏低血壓）與使用 Thiazide 完全相同，因此 Thiazide 作用常被稱為 Gitelman Phenocopy。本例患者尿液diuretic篩檢為陰性，且基因檢測證實 SLC12A3 突變，故診斷為 Gitelman Syndrome。A Bartter 為 NKCC2/ROMK/ClC-Kb 突變，呈現 Hypercalciuria；D Gordon 為 WNK1/4 突變，呈現高血壓與hyperkalemia。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -1086,7 +1087,7 @@
       "qcVerified": true,
       "qcStatus": "PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     }
   ]

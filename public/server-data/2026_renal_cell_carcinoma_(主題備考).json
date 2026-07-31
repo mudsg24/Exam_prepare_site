@@ -29,7 +29,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **細胞起源 (Anatomical Origin)**：`clear cell renal cell carcinoma (ccRCC)` 佔所有 `renal cell carcinoma (RCC)` 病例的 70% 至 85%，為最常見的病理亞型。其解剖與細胞學起源確定為 **`proximal tubular epithelial cells` (近端小管上皮細胞)**。\n* **分子遺傳學 (Cytogenetics)**：超過 80% 至 90% 的散發型 `ccRCC` 存在 **`chromosome 3p deletion` (染色體 3p21-25 缺失)**，並伴隨位於 3p25 上的 **`von Hippel-Lindau (VHL) gene`** 發生雙等位基因失活 (`somatic mutation` + `promoter hypermethylation`)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：起源於 `collecting duct intercalated cells` 並伴隨 `trisomy 7` 與 `MET` 基因活化的分別為 `chromophobe RCC` / `oncocytoma` 以及 `Type 1 papillary RCC`，而非 `ccRCC`。\n* **(C) 錯誤**：`ccRCC` 是最常見的亞型 (非第二常見)，且其不具備 `papillary architecture`；與 `FH gene` 突變相關者為 `Type 2 papillary RCC`。\n* **(D) 錯誤**：整條染色體缺失 (`hypodiploidy`) 為 `chromophobe RCC` 的典型特徵，非 `ccRCC`。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **Anatomical Origin**：`clear cell renal cell carcinoma (ccRCC)` 佔所有 `renal cell carcinoma (RCC)` 病例的 70% 至 85%，為最常見的病理亞型。其解剖與細胞學起源確定為 **`proximal tubular epithelial cells` 近端小管上皮細胞**。\n* **Cytogenetics**：超過 80% 至 90% 的散發型 `ccRCC` 存在 **`chromosome 3p deletion` (染色體 3p21-25 缺失)**，並伴隨位於 3p25 上的 **`von Hippel-Lindau (VHL) gene`** 發生雙等位基因失活 (`somatic mutation` + `promoter hypermethylation`)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：起源於 `collecting duct intercalated cells` 並伴隨 `trisomy 7` 與 `MET` 基因活化的分別為 `chromophobe RCC` / `oncocytoma` 以及 `Type 1 papillary RCC`，而非 `ccRCC`。\n* **(C) 錯誤**：`ccRCC` 是最常見的亞型 非第二常見，且其不具備 `papillary architecture`；與 `FH gene` 突變相關者為 `Type 2 papillary RCC`。\n* **(D) 錯誤**：整條染色體缺失 (`hypodiploidy`) 為 `chromophobe RCC` 的典型特徵，非 `ccRCC`。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-5)",
@@ -57,7 +57,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -115,7 +115,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "D",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
@@ -145,7 +145,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(A)**。\n* **臨床預後差異**：根據 *Brenner & Rector's The Kidney* (Chapter 41)，在組織學與分子基因學上，`papillary RCC (pRCC)` 分為 `Type 1` 與 `Type 2`。**`Type 2 pRCC` 的侵襲性顯著高於 `Type 1 pRCC`，其臨床預後顯著較差 (`considerably worse prognosis`)**。\n\n### 2. 誘答選項解析\n* **(B) 錯誤**：與 `HLRCC syndrome` (與 `FH gene` 突變相關) 密切連結的是 `Type 2 pRCC`，非 `Type 1`。\n* **(C) 錯誤**：由 `MET proto-oncogene` 活化突變與 `trisomy 7/17` 驅動的是 `Type 1 pRCC`。\n* **(D) 錯誤**：`Type 1` 與 `Type 2 pRCC` 兩者皆起源於 `proximal tubular epithelial cells` (近端小管上皮)。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(A)**。\n* **臨床預後差異**：根據 *Brenner & Rector's The Kidney* (Chapter 41)，在組織學與分子基因學上，`papillary RCC (pRCC)` 分為 `Type 1` 與 `Type 2`。**`Type 2 pRCC` 的侵襲性顯著高於 `Type 1 pRCC`，其臨床預後顯著較差 (`considerably worse prognosis`)**。\n\n### 2. 誘答選項解析\n* **(B) 錯誤**：與 `HLRCC syndrome` (與 `FH gene` 突變相關) 密切連結的是 `Type 2 pRCC`，非 `Type 1`。\n* **(C) 錯誤**：由 `MET proto-oncogene` 活化突變與 `trisomy 7/17` 驅動的是 `Type 1 pRCC`。\n* **(D) 錯誤**：`Type 1` 與 `Type 2 pRCC` 兩者皆起源於 `proximal tubular epithelial cells` 近端小管上皮。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -173,7 +173,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "A",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
@@ -261,7 +261,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **`Oncocytoma` 病理特徵**：`Oncocytoma` 為良性上皮腫瘤，大體切面常可見中央星狀瘢痕 (`central stellate scar`)；電鏡下胞質充滿密集的 `mitochondria`。基因上無 `chRCC` 所特有的全染色體缺失 (`widespread hypodiploidy`: loss of 1, 2, 6, 10, 13, 17, 21)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`Oncocytoma` 與 `chRCC` 兩者皆起源於 `collecting duct intercalated cells` (集尿管間質細胞)。\n* **(C) 錯誤**：`VHL gene` 與 `3p deletion` 為 `ccRCC` 之特徵。\n* **(D) 錯誤**：`psammoma bodies` 為 `papillary RCC` 之特徵，非 `oncocytoma`。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **`Oncocytoma` 病理特徵**：`Oncocytoma` 為良性上皮腫瘤，大體切面常可見中央星狀瘢痕 (`central stellate scar`)；電鏡下胞質充滿密集的 `mitochondria`。基因上無 `chRCC` 所特有的全染色體缺失 (`widespread hypodiploidy`: loss of 1, 2, 6, 10, 13, 17, 21)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`Oncocytoma` 與 `chRCC` 兩者皆起源於 `collecting duct intercalated cells` 集尿管間質細胞。\n* **(C) 錯誤**：`VHL gene` 與 `3p deletion` 為 `ccRCC` 之特徵。\n* **(D) 錯誤**：`psammoma bodies` 為 `papillary RCC` 之特徵，非 `oncocytoma`。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-2)",
@@ -289,7 +289,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -319,7 +319,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **代謝重編排機制**：在 `ccRCC` 中，由於 `VHL` 缺失引發 `HIF-1α/2α` 病理性活化，線粒體 `TCA cycle` 被下調。細胞轉向依賴 **`glutamine-driven reductive carboxylation` (逆向還原羧化作用)**，將 `glutamine` 轉化為 `isocitrate` 與 `citrate`，為 `de novo lipid synthesis` 提供核心碳骨架，形成特徵性的透明胞質。\n\n### 2. 誘答選項解析\n* **(A) & (C) 錯誤**：`oxidative phosphorylation` 與 `fatty acid beta-oxidation` 在 `ccRCC` 中均為顯著**下調 (downregulated)**，以減少 `ROS` 產生。\n* **(D) 錯誤**：`urea cycle` (缺 `ASS1`) 在 `ccRCC` 中亦為顯著下調。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **代謝重編排機制**：在 `ccRCC` 中，由於 `VHL` 缺失引發 `HIF-1α/2α` 病理性活化，線粒體 `TCA cycle` 被下調。細胞轉向依賴 **`glutamine-driven reductive carboxylation` 逆向還原羧化作用**，將 `glutamine` 轉化為 `isocitrate` 與 `citrate`，為 `de novo lipid synthesis` 提供核心碳骨架，形成特徵性的透明胞質。\n\n### 2. 誘答選項解析\n* **(A) & (C) 錯誤**：`oxidative phosphorylation` 與 `fatty acid beta-oxidation` 在 `ccRCC` 中均為顯著**downregulated**，以減少 `ROS` 產生。\n* **(D) 錯誤**：`urea cycle` (缺 `ASS1`) 在 `ccRCC` 中亦為顯著下調。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-2)",
@@ -347,7 +347,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -377,7 +377,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **色胺酸代謝與免疫逃逸**：根據 *Brenner & Rector's The Kidney* (Figure 41.1)，`ccRCC` 中 `tryptophan degradation pathway` 顯著上調，其降解產物 **`kynurenine` 與 `quinolinate`** 在腫瘤微環境 (`TME`) 中蓄積，發揮強效 `immunosuppressive` (免疫抑制) 功能，抑制 effector T-cells 活化。\n\n### 2. 誘答選項解析\n* **(A) & (B) 錯誤**：`succinate`, `fumarate`, `oxaloacetate` 等為 `TCA cycle` 中間產物，非色胺酸降解物。\n* **(D) 錯誤**：`GSH` 在 `ccRCC` 中上調的作用是 `antioxidant` (抗氧化/ROS inhibition)，而非 `immunosuppressive`。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **色胺酸代謝與免疫逃逸**：根據 *Brenner & Rector's The Kidney* (Figure 41.1)，`ccRCC` 中 `tryptophan degradation pathway` 顯著上調，其降解產物 **`kynurenine` 與 `quinolinate`** 在腫瘤微環境 (`TME`) 中蓄積，發揮強效 `immunosuppressive` 免疫抑制 功能，抑制 effector T-cells 活化。\n\n### 2. 誘答選項解析\n* **(A) & (B) 錯誤**：`succinate`, `fumarate`, `oxaloacetate` 等為 `TCA cycle` 中間產物，非色胺酸降解物。\n* **(D) 錯誤**：`GSH` 在 `ccRCC` 中上調的作用是 `antioxidant` (抗氧化/ROS inhibition)，而非 `immunosuppressive`。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -405,7 +405,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "C",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
@@ -463,7 +463,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "D",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
@@ -493,7 +493,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(A)**。\n* **`Warburg Effect` 分子機制**：在 `ccRCC` 中，`VHL gene` 失活導致 `pVHL` 無法將 `HIF-1α` 與 `HIF-2α` 進行多泛素化標記降解。`HIF-α` 在常氧下穩定積聚，轉錄激活 `GLUT1`、`LDHA` 等，驅動 `aerobic glycolysis` (`Warburg effect`)。\n\n### 2. 誘答選項解析\n* **(B) 錯誤**：`MET` 基因與 `Type 1 pRCC` 相關，非 `ccRCC Warburg effect` 主因。\n* **(C) 錯誤**：`HIF` 活化會增加 (非減少) `glucose transporter (GLUT1)` 表達。\n* **(D) 錯誤**：`Warburg effect` 會增加 `lactate` 產出與排除。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(A)**。\n* **`Warburg Effect` 分子機制**：在 `ccRCC` 中，`VHL gene` 失活導致 `pVHL` 無法將 `HIF-1α` 與 `HIF-2α` 進行多泛素化標記降解。`HIF-α` 在常氧下穩定積聚，轉錄激活 `GLUT1`、`LDHA` 等，驅動 `aerobic glycolysis` (`Warburg effect`)。\n\n### 2. 誘答選項解析\n* **(B) 錯誤**：`MET` 基因與 `Type 1 pRCC` 相關，非 `ccRCC Warburg effect` 主因。\n* **(C) 錯誤**：`HIF` 活化會增加 非減少 `glucose transporter (GLUT1)` 表達。\n* **(D) 錯誤**：`Warburg effect` 會增加 `lactate` 產出與排除。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-5)",
@@ -521,7 +521,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "A",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
@@ -551,7 +551,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **代謝基質對比**：正常的 `proximal tubular cells` 具高 ATP 需求，主要利用 **`fatty acid beta-oxidation` 與 `oxidative phosphorylation`**；而 `ccRCC` 轉化細胞則表現出 **`aerobic glycolysis (Warburg effect)` 與 `glutamine addiction`** (用於逆向羧化合成脂質)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：兩者的代謝偏好敘述剛好顛倒。\n* **(B) 錯誤**：具高 `reductive carboxylation` 的是 `ccRCC`，非正常小管細胞。\n* **(D) 錯誤**：正常小管細胞不會大量合成 `lactate`。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **代謝基質對比**：正常的 `proximal tubular cells` 具高 ATP 需求，主要利用 **`fatty acid beta-oxidation` 與 `oxidative phosphorylation`**；而 `ccRCC` 轉化細胞則表現出 **`aerobic glycolysis (Warburg effect)` 與 `glutamine addiction`** 用於逆向羧化合成脂質。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：兩者的代謝偏好敘述剛好顛倒。\n* **(B) 錯誤**：具高 `reductive carboxylation` 的是 `ccRCC`，非正常小管細胞。\n* **(D) 錯誤**：正常小管細胞不會大量合成 `lactate`。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-3)",
@@ -579,7 +579,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "C",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
@@ -609,7 +609,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **`Bosniak Classification` 鑑別門閥**：根據 *Brenner & Rector's The Kidney* (Chapter 25 & 41)，區分 `Bosniak IIF` 與 `Bosniak III` 最關鍵核心的影像特徵為 **`Measurable Contrast Enhancement is Present` (存在明確可測量之造影劑強化)**。若壁/中隔不規則增厚但無顯影強化，應歸為 `Category IIF` (隨訪)；若出現可測量顯影，則升級為 `Category III` (需手術切除)。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`hairline-thin septa` 為 `Category I/II` 之特徵。\n* **(B) 錯誤**：高密度小於 3 cm 且無顯影為 `Category II` 之特徵。\n* **(D) 錯誤**：有無鈣化非區分 IIF 與 III 的唯一顯影分水嶺。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(C)**。\n* **`Bosniak Classification` 鑑別門閥**：根據 *Brenner & Rector's The Kidney* (Chapter 25 & 41)，區分 `Bosniak IIF` 與 `Bosniak III` 最關鍵核心的影像特徵為 **`Measurable Contrast Enhancement is Present` 存在明確可測量之造影劑強化**。若壁/中隔不規則增厚但無顯影強化，應歸為 `Category IIF` 隨訪；若出現可測量顯影，則升級為 `Category III` 需手術切除。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`hairline-thin septa` 為 `Category I/II` 之特徵。\n* **(B) 錯誤**：高密度小於 3 cm 且無顯影為 `Category II` 之特徵。\n* **(D) 錯誤**：有無鈣化非區分 IIF 與 III 的唯一顯影分水嶺。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -637,7 +637,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "C",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
@@ -667,7 +667,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **高密度囊腫規範**：此病灶為直徑 `< 3 cm` (2.5 cm)、邊界清晰、均勻高密度 (`>70 HU`/65 HU) 且**無顯影**的 `high-attenuation / hyperdense cyst`。符合 **`Bosniak Category II`** 的標準定義。`Bosniak Category II` 的惡性率極低 (~1%)，臨床規範為 **`No further evaluation or follow-up required` (不需後續追蹤或處置)**。\n\n### 2. 誘答選項解析\n* **(A) & (D) 錯誤**：`Category II` 為良性，絕不需手術或切片。\n* **(C) 錯誤**：需定期隨訪 (`serial follow-up`) 的是 `Category IIF` (例如直徑 `> 3 cm` 的高密度囊腫)。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(B)**。\n* **高密度囊腫規範**：此病灶為直徑 `< 3 cm` (2.5 cm)、邊界清晰、均勻高密度 (`>70 HU`/65 HU) 且**無顯影**的 `high-attenuation / hyperdense cyst`。符合 **`Bosniak Category II`** 的標準定義。`Bosniak Category II` 的惡性率極低 (~1%)，臨床規範為 **`No further evaluation or follow-up required` 不需後續追蹤或處置**。\n\n### 2. 誘答選項解析\n* **(A) & (D) 錯誤**：`Category II` 為良性，絕不需手術或切片。\n* **(C) 錯誤**：需定期隨訪 (`serial follow-up`) 的是 `Category IIF` (例如直徑 `> 3 cm` 的高密度囊腫)。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-3)",
@@ -695,7 +695,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -725,7 +725,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceCategory": "2026 年主題練習",
-      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(D)**。\n* **`Bosniak Category IV` 定義**：`Bosniak Category IV` 代表明確惡性的囊性腫塊。其最具特徵性的影像指標為囊壁或中隔旁出現 **`contrast-enhancing solid soft tissue nodules` (顯影實體軟組織結節)**。其病理證實惡性率高達 **> 80%-90%** (如 cystic ccRCC 或 pRCC)，必須行外科手術切除。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`Category I` 為單純囊腫 (惡性率 <1%)。\n* **(B) 錯誤**：`Category II` 為良性複雜囊腫 (惡性率 ~1-3%)。\n* **(C) 錯誤**：`Category IIF` 無實體顯影結節 (惡性率 ~5-15%)。",
+      "sourceExplanation": "### 1. 正確答案與病理學分析\n本題正確答案為 **(D)**。\n* **`Bosniak Category IV` 定義**：`Bosniak Category IV` 代表明確惡性的囊性腫塊。其最具特徵性的影像指標為囊壁或中隔旁出現 **`contrast-enhancing solid soft tissue nodules` 顯影實體軟組織結節**。其病理證實惡性率高達 **> 80%-90%** (如 cystic ccRCC 或 pRCC)，必須行外科手術切除。\n\n### 2. 誘答選項解析\n* **(A) 錯誤**：`Category I` 為單純囊腫 (惡性率 <1%)。\n* **(B) 錯誤**：`Category II` 為良性複雜囊腫 (惡性率 ~1-3%)。\n* **(C) 錯誤**：`Category IIF` 無實體顯影結節 (惡性率 ~5-15%)。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-1)",
@@ -753,7 +753,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "D",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
@@ -811,7 +811,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "A",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
@@ -869,7 +869,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -927,7 +927,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "A",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
@@ -985,7 +985,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "D",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
@@ -1101,7 +1101,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "B",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B"
@@ -1159,7 +1159,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "selectedOption": "D",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"

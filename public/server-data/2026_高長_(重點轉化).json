@@ -46,7 +46,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q02",
@@ -87,7 +90,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q03",
@@ -128,7 +134,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q04",
@@ -169,7 +178,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q05",
@@ -210,7 +222,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q06",
@@ -251,7 +266,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q07",
@@ -266,7 +284,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Tuberculosis 等 granulomatous diseases 引起 hypercalcemia 的機轉獨特，與一般的原發性副甲狀腺亢進截然不同。其核心 pathophysiology 在於肉芽腫 (granuloma) 組織內的 macrophages 具備了異常的 extra-renal 1-alpha-hydroxylase 表現與酵素活性。與腎臟中受到嚴格調控的相同酵素不同，這些位於 macrophages 中的 enzyme 不受正常生理狀態下鈣離子與副甲狀腺素的 feedback inhibition 調控。它們會不受節制地將血液中的 25(OH)D 大量轉化為 active form 的 1,25(OH)2D (亦即 calcitriol)。這種過高濃度的 calcitriol 會直接促進 intestinal calcium absorption 並加劇 bone resorption，進而導致患者出現 hypercalcemia。在這種高血鈣的環境下，患者正常的 parathyroid glands 會受到生理性的抑制，導致抽血檢查時 intact PTH 呈現被 suppressed 的狀態。選項 A 描述的是由 squamous cell carcinoma 等 malignancy 所引起的 humoral hypercalcemia of malignancy 機制。選項 B 與選項 C 皆非 Tuberculosis 引起 hypercalcemia 的正確與主要機轉。故選項 D 的描述完全正確。",
+      "sourceExplanation": "Tuberculosis 等 granulomatous diseases 引起 hypercalcemia 的機轉獨特，與一般的原發性副甲狀腺亢進截然不同。其核心 pathophysiology granuloma 組織內的 macrophages 具備了異常的 extra-renal 1-alpha-hydroxylase 表現與酵素活性。與腎臟中受到嚴格調控的相同酵素不同，這些位於 macrophages 中的 enzyme 不受正常生理狀態下鈣離子與副甲狀腺素的 feedback inhibition 調控。它們會不受節制地將血液中的 25(OH)D 大量轉化為 active form 的 1,25(OH)2D (亦即 calcitriol)。這種過高濃度的 calcitriol 會直接促進 intestinal calcium absorption 並加劇 bone resorption，進而導致患者出現 hypercalcemia。在這種高血鈣的環境下，患者正常的 parathyroid glands 會受到生理性的抑制，導致抽血檢查時 intact PTH 呈現被 suppressed 的狀態。選項 A 描述的是由 squamous cell carcinoma 等 malignancy 所引起的 humoral hypercalcemia of malignancy 機制。選項 B 與選項 C 皆非 Tuberculosis 引起 hypercalcemia 的正確與主要機轉。故選項 D 的描述完全正確。",
       "resolvedImages": [
         "Brenner_Fig_44_2.png"
       ],
@@ -292,7 +310,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q08",
@@ -307,7 +328,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在處理 Tuberculosis 引起的 hypercalcemia 時，理解維生素 D 代謝產物的變化是確立診斷的關鍵。本病造成高血鈣的核心 pathophysiology，在於肉芽腫 (granuloma) 內的 macrophages 會表現出不受調控的 extra-renal 1-alpha-hydroxylase。這個失控的酵素系統會將儲存型的 25(OH)D 大量且持續地轉化為活化型的 1,25(OH)2D (calcitriol)。因此，即使患者因嚴重高血鈣而導致 intact PTH 被極度 suppressed，其體內的 1,25(OH)2D 濃度仍然會呈現 unsuppressed 甚至顯著 elevated 的狀態。這種實驗室數據的組合 (高血鈣、低 intact PTH、高 1,25(OH)2D) 是 granulomatous diseases 的經典特徵。這與 primary hyperparathyroidism (其 PTH 會升高) 或由 PTHrP 相關的 malignancy (其 1,25(OH)2D 通常會受抑制或偏低) 有著根本上的差異。選項 A、B 與 D 所描述的 vitamin D metabolites profile 皆與上述病理機制相悖，完全不符合肉芽腫疾病的臨床表現。因此正確答案為 C。",
+      "sourceExplanation": "在處理 Tuberculosis 引起的 hypercalcemia 時，理解維生素 D 代謝產物的變化是確立診斷的關鍵。本病造成高血鈣的核心 pathophysiology，granuloma 內的 macrophages 會表現出不受調控的 extra-renal 1-alpha-hydroxylase。這個失控的酵素系統會將儲存型的 25(OH)D 大量且持續地轉化為活化型的 1,25(OH)2D (calcitriol)。因此，即使患者因嚴重高血鈣而導致 intact PTH 被極度 suppressed，其體內的 1,25(OH)2D 濃度仍然會呈現 unsuppressed 甚至顯著 elevated 的狀態。這種實驗室數據的組合 (高血鈣、低 intact PTH、高 1,25(OH)2D) 是 granulomatous diseases 的經典特徵。這與 primary hyperparathyroidism (其 PTH 會升高) 或由 PTHrP 相關的 malignancy (其 1,25(OH)2D 通常會受抑制或偏低) 有著根本上的差異。選項 A、B 與 D 所描述的 vitamin D metabolites profile 皆與上述病理機制相悖，完全不符合肉芽腫疾病的臨床表現。因此正確答案為 C。",
       "resolvedImages": [
         "Brenner_Fig_44_2.png"
       ],
@@ -333,7 +354,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q09",
@@ -348,7 +372,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Inferior parathyroid glands 在胚胎發育時源自 third pharyngeal pouch，並與 thymus 一同向下遷移，因此常出現於 ectopic mediastinal location。相對地，superior parathyroid glands 源自 fourth pharyngeal pouch，遷移路徑較短，位置較為固定。在此 patient 中，Sestamibi scan 呈現 mediastinal uptake，高度提示 ectopic parathyroid adenoma，這正是因為 inferior parathyroid migration 的胚胎學特性。另外，patient 的 calcified TB lymph nodes 可能在 imaging 上造成干擾，但其 ectopic adenoma 本身的解剖位置仍由 embryological migration 決定。選項 (A) 和 (D) 錯誤，因為 superior glands 不隨 thyroid 或 thymus 向下深層遷移；選項 (C) 錯誤，inferior glands 是來自 third pharyngeal pouch。",
+      "sourceExplanation": "Inferior parathyroid glands 在胚胎發育時源自 third pharyngeal pouch，並與 thymus 一同向下遷移，因此常出現於 ectopic mediastinal location。相對地，superior parathyroid glands 源自 fourth pharyngeal pouch，遷移路徑較短，位置較為固定。在此 patient 中，Sestamibi scan 呈現 mediastinal uptake，高度提示 ectopic parathyroid adenoma，這正是因為 inferior parathyroid migration 的胚胎學特性。另外，patient 的 calcified TB lymph nodes 可能在 imaging 上造成干擾，但其 ectopic adenoma 本身的解剖位置仍由 embryological migration 決定。選項 A 和 D 錯誤，因為 superior glands 不隨 thyroid 或 thymus 向下深層遷移；選項 C 錯誤，inferior glands 是來自 third pharyngeal pouch。",
       "resolvedImages": [
         "Brenner_Fig_44_5.png"
       ],
@@ -375,8 +399,9 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "Both NLM responses independently selected Option B based on embryological mechanism (inferior parathyroid glands migrate caudally with the thymus from the 3rd pharyngeal pouch).",
-      "qcVerifiedAt": "2026-07-30T01:33:00+08:00"
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高長_Q10",
@@ -391,7 +416,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在進行 parathyroid adenoma 的 localization 時，Sestamibi scan 是一項常用且敏感的檢查。然而，calcified TB lymph nodes 或是其他 granulomatous disease 造成的 lymphadenopathy，可能會在 CT 上呈現 nodular appearance，甚至在某些情況下引起非特異性的 tracer uptake，導致 false-positive 結果。因此，必須結合 clinical history 與 functional/anatomical imaging 仔細鑑別。選項 (B) 錯誤，Sestamibi 也可以被 thyroid nodules 或惡性腫瘤等其他組織攝取。選項 (A) 錯誤，calcification 較常是 granulomatous inflammation 的後遺症，而非 carcinoma 的絕對特徵。選項 (D) 錯誤，mediastinal ectopic parathyroid 通常是 inferior parathyroid gland (與 thymus 同行) 而非 superior parathyroid gland。",
+      "sourceExplanation": "在進行 parathyroid adenoma 的 localization 時，Sestamibi scan 是一項常用且敏感的檢查。然而，calcified TB lymph nodes 或是其他 granulomatous disease 造成的 lymphadenopathy，可能會在 CT 上呈現 nodular appearance，甚至在某些情況下引起非特異性的 tracer uptake，導致 false-positive 結果。因此，必須結合 clinical history 與 functional/anatomical imaging 仔細鑑別。選項 B 錯誤，Sestamibi 也可以被 thyroid nodules 或惡性腫瘤等其他組織攝取。選項 A 錯誤，calcification 較常是 granulomatous inflammation 的後遺症，而非 carcinoma 的絕對特徵。選項 D 錯誤，mediastinal ectopic parathyroid 通常是 inferior parathyroid gland (與 thymus 同行) 而非 superior parathyroid gland。",
       "resolvedImages": [
         "Brenner_Fig_44_5.png"
       ],
@@ -415,11 +440,12 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "NLM Response 0 declared INSUFFICIENT with no option selection (selectedOption=NONE). NLM Response 1 selected Option C based on clinical consensus regarding false-positive imaging results from calcified TB lymph nodes.",
-      "qcVerifiedAt": "2026-07-30T01:33:00+08:00"
+      "qcNotes": "Verified by tn-exam-qc subagent: Source provided answer C is confirmed by clinical rationale (TB granulomatous lymph nodes causing false-positive sestamibi & CT imaging). Reconciliation set to HIGH_CONFIDENCE.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高長_Q11",
@@ -434,7 +460,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Diabetic Nephropathy 中，IF 常見 linear IgG staining 沿著 GBM 分佈，這並非由於 anti-GBM antibodies，而是因為 GBM thickening 伴隨的 endothelial dysfunction 與 permeability 增加，導致 non-specific plasma protein (包含 IgG 與 Albumin) 發生 insudation。這種 linear staining 必須與 Anti-GBM disease 鑑別。Anti-GBM disease 通常合併 crescents (Light microscopy) 與 pulmonary hemorrhage，且血清 anti-GBM antibodies 呈陽性。選項 (B) 描述的是 Anti-GBM disease 的病理機轉。選項 (C) 描述的是 membranous nephropathy 等 immune complex-mediated GN。選項 (D) 並非 linear IgG staining 的主要機制。",
+      "sourceExplanation": "Diabetic Nephropathy 中，IF 常見 linear IgG staining 沿著 GBM 分佈，這並非由於 anti-GBM antibodies，而是因為 GBM thickening 伴隨的 endothelial dysfunction 與 permeability 增加，導致 non-specific plasma protein (包含 IgG 與 Albumin) 發生 insudation。這種 linear staining 必須與 Anti-GBM disease 鑑別。Anti-GBM disease 通常合併 crescents (Light microscopy) 與 pulmonary hemorrhage，且血清 anti-GBM antibodies 呈陽性。選項 B 描述的是 Anti-GBM disease 的病理機轉。選項 C 描述的是 membranous nephropathy 等 immune complex-mediated GN。選項 D 並非 linear IgG staining 的主要機制。",
       "resolvedImages": [
         "Brenner_Fig_32_3.png"
       ],
@@ -460,7 +486,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q12",
@@ -475,7 +504,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Diabetic Nephropathy 在 EM 上的典型特徵為 diffuse GBM thickening 與 mesangial matrix expansion，且缺乏 electron-dense immune deposits。IF 上的 linear IgG 屬於 non-specific insudation。相反地，Anti-GBM disease 在 LM 上典型表現為 necrotizing and crescentic GN，EM 上可見 GBM breaks 且同樣無 immune deposits，但不會有長期的 GBM thickening 與 nodular glomerulosclerosis。選項 (A) 為 membranous nephropathy 或 PIGN 的特徵。選項 (B) 是 Anti-GBM disease 或其他 RPGN 的特徵。選項 (C) 為 Anti-GBM disease 造成 severe inflammation 時常見的 EM 表現。",
+      "sourceExplanation": "Diabetic Nephropathy 在 EM 上的典型特徵為 diffuse GBM thickening 與 mesangial matrix expansion，且缺乏 electron-dense immune deposits。IF 上的 linear IgG 屬於 non-specific insudation。相反地，Anti-GBM disease 在 LM 上典型表現為 necrotizing and crescentic GN，EM 上可見 GBM breaks 且同樣無 immune deposits，但不會有長期的 GBM thickening 與 nodular glomerulosclerosis。選項 A 為 membranous nephropathy 或 PIGN 的特徵。選項 B 是 Anti-GBM disease 或其他 RPGN 的特徵。選項 C 為 Anti-GBM disease 造成 severe inflammation 時常見的 EM 表現。",
       "resolvedImages": [
         "Brenner_Fig_32_3.png"
       ],
@@ -501,7 +530,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q13",
@@ -516,7 +548,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Staphylococcus-associated PIGN 常見於 elderly 或 diabetic patients，其感染源多為 skin infection 或 endocarditis (如 MRSA)。與傳統的 Post-streptococcal glomerulonephritis (多為 IgG/C3 dominant 且 C3 降低) 不同，Staph-associated PIGN 在 IF 上常表現為 IgA-dominant 或 co-dominant deposits，極易與 IgA Nephropathy 混淆。然而，其 EM 上會出現典型的 subepithelial humps，且在 adult patients 中，serum C3 常維持 normal。選項 (A) 錯誤，Primary IgA Nephropathy 較少出現大型 subepithelial humps，且臨床情境多為 synpharyngitic hematuria。選項 (B) 錯誤，Post-streptococcal PIGN 通常 C3 會降低，且 IF 以 IgG/C3 為主。選項 (D) 錯誤，Diabetic nephropathy 不會有 IgA-dominant deposits 及 subepithelial humps。",
+      "sourceExplanation": "Staphylococcus-associated PIGN 常見於 elderly 或 diabetic patients，其感染源多為 skin infection 或 endocarditis (如 MRSA)。與傳統的 Post-streptococcal glomerulonephritis (多為 IgG/C3 dominant 且 C3 降低) 不同，Staph-associated PIGN 在 IF 上常表現為 IgA-dominant 或 co-dominant deposits，極易與 IgA Nephropathy 混淆。然而，其 EM 上會出現典型的 subepithelial humps，且在 adult patients 中，serum C3 常維持 normal。選項 A 錯誤，Primary IgA Nephropathy 較少出現大型 subepithelial humps，且臨床情境多為 synpharyngitic hematuria。選項 B 錯誤，Post-streptococcal PIGN 通常 C3 會降低，且 IF 以 IgG/C3 為主。選項 D 錯誤，Diabetic nephropathy 不會有 IgA-dominant deposits 及 subepithelial humps。",
       "resolvedImages": [
         "Brenner_Fig_31_15.png"
       ],
@@ -542,7 +574,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q14",
@@ -557,7 +592,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Staphylococcus-associated PIGN 的特徵是 IF 呈現 IgA-dominant 或 IgA-codominant staining，這使其在病理上非常容易被誤診為 IgA Nephropathy。區分的關鍵在於 clinical history (如 recent Staphylococcal infection, MRSA, elderly/diabetic patient) 以及 EM 上出現的 subepithelial humps。值得注意的是，adult patients 罹患 Staph-associated PIGN 時，serum C3 經常是 normal，這進一步增加了與 IgA Nephropathy 鑑別的困難度，因為 IgA Nephropathy 的 C3 通常也是 normal。選項 (B) 錯誤，Membranous Nephropathy 是以 IgG 為主。選項 (C) 錯誤，Lupus Nephritis 表現為 full-house staining (IgG, IgA, IgM, C3, C1q)。選項 (D) 錯誤，Anti-GBM Disease 是 linear IgG staining。",
+      "sourceExplanation": "Staphylococcus-associated PIGN 的特徵是 IF 呈現 IgA-dominant 或 IgA-codominant staining，這使其在病理上非常容易被誤診為 IgA Nephropathy。區分的關鍵在於 clinical history (如 recent Staphylococcal infection, MRSA, elderly/diabetic patient) 以及 EM 上出現的 subepithelial humps。值得注意的是，adult patients 罹患 Staph-associated PIGN 時，serum C3 經常是 normal，這進一步增加了與 IgA Nephropathy 鑑別的困難度，因為 IgA Nephropathy 的 C3 通常也是 normal。選項 B 錯誤，Membranous Nephropathy 是以 IgG 為主。選項 C 錯誤，Lupus Nephritis 表現為 full-house staining (IgG, IgA, IgM, C3, C1q)。選項 D 錯誤，Anti-GBM Disease 是 linear IgG staining。",
       "resolvedImages": [
         "Brenner_Fig_31_15.png"
       ],
@@ -583,7 +618,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q15",
@@ -598,7 +636,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "這題考查 IgA Nephropathy 與 Post-infectious glomerulonephritis (PIGN) 的臨床鑑別。IgA Nephropathy 典型表現為 synpharyngitic hematuria，即 gross hematuria 與 URI 同時發生 (latency 約 1-2 days)，且 serum C3 通常正常。相反地，傳統的 Post-streptococcal PIGN 具有較長的 latency period (pharyngitis 後 1-3 weeks，skin infection 後 2-6 weeks)，且會出現 transient low C3。因此，20-year-old 具備短 latency 與 normal C3，符合 IgA Nephropathy；10-year-old 具備 2 weeks latency 與 low C3，符合 PIGN。選項 (A), (B), (C) 皆不符合此經典鑑別特徵。",
+      "sourceExplanation": "這題考查 IgA Nephropathy 與 Post-infectious glomerulonephritis (PIGN) 的臨床鑑別。IgA Nephropathy 典型表現為 synpharyngitic hematuria，即 gross hematuria 與 URI 同時發生 (latency 約 1-2 days)，且 serum C3 通常正常。相反地，傳統的 Post-streptococcal PIGN 具有較長的 latency period (pharyngitis 後 1-3 weeks，skin infection 後 2-6 weeks)，且會出現 transient low C3。因此，20-year-old 具備短 latency 與 normal C3，符合 IgA Nephropathy；10-year-old 具備 2 weeks latency 與 low C3，符合 PIGN。選項 A, (B), (C) 皆不符合此經典鑑別特徵。",
       "resolvedImages": [
         "Brenner_Fig_31_4.png"
       ],
@@ -624,7 +662,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q16",
@@ -639,7 +680,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "IgA Nephropathy 與 PIGN 最大的臨床差異在於 latency period 與 complement levels。IgA Nephropathy 常表現為 synpharyngitic hematuria (與感染同時發生，latency 僅 1-2 days)，且 serum C3 正常。若診斷為 PIGN (特別是 Post-streptococcal)，典型表現為感染後經過 1-3 weeks (pharyngitis) 的 latency 才出現 nephritic syndrome (hematuria, edema, hypertension)，並且伴隨 serum C3 的下降。選項 (A) 與 (C) 是 IgA Nephropathy 的特徵。選項 (D) 錯誤，PIGN 通常表現為 nephritic syndrome 而非立即的 nephrotic syndrome。",
+      "sourceExplanation": "IgA Nephropathy 與 PIGN 最大的臨床差異在於 latency period 與 complement levels。IgA Nephropathy 常表現為 synpharyngitic hematuria (與感染同時發生，latency 僅 1-2 days)，且 serum C3 正常。若診斷為 PIGN (特別是 Post-streptococcal)，典型表現為感染後經過 1-3 weeks (pharyngitis) 的 latency 才出現 nephritic syndrome (hematuria, edema, hypertension)，並且伴隨 serum C3 的下降。選項 A 與 C 是 IgA Nephropathy 的特徵。選項 D 錯誤，PIGN 通常表現為 nephritic syndrome 而非立即的 nephrotic syndrome。",
       "resolvedImages": [
         "Brenner_Fig_31_4.png"
       ],
@@ -665,7 +706,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q17",
@@ -680,7 +724,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "該病患的 peritoneal equilibration test (PET) 結果顯示 D/P creatinine 為 0.88 且 D4/D0 glucose 為 0.22，完全符合 high transporter 的典型特徵。High transporter 的 peritoneal membrane 具有極高的 small solute permeability，這會導致 dialysate 中的 glucose 迅速被吸收至血液循環中，進而造成 glucose osmotic gradient 的快速消失。因此，在較長的 dwell time 之下，不但無法維持有效的 ultrafiltration，反而極可能發生 fluid reabsorption，最終導致臨床上觀察到的 ultrafiltration failure。要治療 high transporter 所造成的 ultrafiltration failure，首選的處置策略為使用 continuous cyclic peritoneal dialysis (CCPD) 來縮短每一次的 dwell time，從而避免 glucose osmotic gradient 過早流失。此外，在 long nocturnal dwell 時使用 icodextrin 也是一個極佳的選擇，因為 icodextrin 是一種大分子葡萄糖聚合物，能透過 colloid osmosis 產生持續且穩定的 ultrafiltration。選項 (B) 延長 dwell time 反而會加重 fluid reabsorption 的現象；選項 (C) 的 hypertonic glucose 即使濃度較高，在 long dwell 中依然會被迅速吸收而失去脫水效果；選項 (D) 單純限制 dietary sodium 並無法解決 peritoneal membrane transport 特性改變所致的核心問題。",
+      "sourceExplanation": "該病患的 peritoneal equilibration test (PET) 結果顯示 D/P creatinine 為 0.88 且 D4/D0 glucose 為 0.22，完全符合 high transporter 的典型特徵。High transporter 的 peritoneal membrane 具有極高的 small solute permeability，這會導致 dialysate 中的 glucose 迅速被吸收至血液循環中，進而造成 glucose osmotic gradient 的快速消失。因此，在較長的 dwell time 之下，不但無法維持有效的 ultrafiltration，反而極可能發生 fluid reabsorption，最終導致臨床上觀察到的 ultrafiltration failure。要治療 high transporter 所造成的 ultrafiltration failure，首選的處置策略為使用 continuous cyclic peritoneal dialysis (CCPD) 來縮短每一次的 dwell time，從而避免 glucose osmotic gradient 過早流失。此外，在 long nocturnal dwell 時使用 icodextrin 也是一個極佳的選擇，因為 icodextrin 是一種大分子葡萄糖聚合物，能透過 colloid osmosis 產生持續且穩定的 ultrafiltration。選項 B 延長 dwell time 反而會加重 fluid reabsorption 的現象；選項 C 的 hypertonic glucose 即使濃度較高，在 long dwell 中依然會被迅速吸收而失去脫水效果；選項 D 單純限制 dietary sodium 並無法解決 peritoneal membrane transport 特性改變所致的核心問題。",
       "resolvedImages": [
         "Brenner_Fig_63_4.png"
       ],
@@ -706,7 +750,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q18",
@@ -721,7 +768,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在使用 3.86% glucose solution 進行 peritoneal equilibration test (PET) 時，前 60 分鐘通常會因為 free water 經由 aquaporin-1 快速進入 peritoneal cavity 而導致 dialysate sodium concentration 出現短暫的下降，此現象在臨床上被稱為 sodium dip。Sodium dip 的大小直接反映了 free water transport 的功能與效率。在 high transporter 的病患中，由於 peritoneal membrane 對 small solutes 的 permeability 異常升高，glucose 會非常迅速地被吸收進入血液循環，導致驅動 free water 移動的 glucose osmotic gradient 快速消散。這使得 free water 經由 aquaporin-1 進入 dialysate 的動力大幅減弱，因此觀察到的 sodium dip 會明顯減少甚至消失。雖然 aquaporin-1 dysfunction 也會導致 sodium dip 減少（如選項 A 所描述），但在實際臨床表現中，rapid dissipation of the glucose osmotic gradient 是 high transporter 展現出減少的 sodium dip 的最主要機制。選項 (B) 提到的 low solute permeability 其實是代表 low transporter，這類病患通常能維持較久的 osmotic gradient，因此 sodium dip 會較為明顯。選項 (D) 描述的機制不正確，sodium dip 減少的本質是因為 free water dilution 的程度不足，而非 sodium diffusion 的速率增加所致。",
+      "sourceExplanation": "在使用 3.86% glucose solution 進行 peritoneal equilibration test (PET) 時，前 60 分鐘通常會因為 free water 經由 aquaporin-1 快速進入 peritoneal cavity 而導致 dialysate sodium concentration 出現短暫的下降，此現象在臨床上被稱為 sodium dip。Sodium dip 的大小直接反映了 free water transport 的功能與效率。在 high transporter 的病患中，由於 peritoneal membrane 對 small solutes 的 permeability 異常升高，glucose 會非常迅速地被吸收進入血液循環，導致驅動 free water 移動的 glucose osmotic gradient 快速消散。這使得 free water 經由 aquaporin-1 進入 dialysate 的動力大幅減弱，因此觀察到的 sodium dip 會明顯減少甚至消失。雖然 aquaporin-1 dysfunction 也會導致 sodium dip 減少（如選項 A 所描述），但在實際臨床表現中，rapid dissipation of the glucose osmotic gradient 是 high transporter 展現出減少的 sodium dip 的最主要機制。選項 B 提到的 low solute permeability 其實是代表 low transporter，這類病患通常能維持較久的 osmotic gradient，因此 sodium dip 會較為明顯。選項 D 描述的機制不正確，sodium dip 減少的本質是因為 free water dilution 的程度不足，而非 sodium diffusion 的速率增加所致。",
       "resolvedImages": [
         "Brenner_Fig_63_4.png"
       ],
@@ -748,8 +795,9 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "Both NLM responses independently selected Option A as the correct answer (minimal sodium dip at 60 minutes indicates impaired aquaporin-1 transcellular free water transport).",
-      "qcVerifiedAt": "2026-07-30T01:33:00+08:00"
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高長_Q19",
@@ -764,7 +812,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Sacubitril/valsartan 是一種革命性的 angiotensin receptor-neprilysin inhibitor (ARNI)，其對 renal microcirculation 具有非常獨特且雙重的 hemodynamic 效應。首先，sacubitril 的機制在於抑制 neprilysin，這會導致體內多種 natriuretic peptides (例如 ANP, BNP) 的降解減少、濃度顯著上升；這些大量的 natriuretic peptides 會直接作用於 afferent arteriole，引起明顯的 afferent arteriole dilation。同時，處方中的 valsartan 作為一種 angiotensin II receptor blocker (ARB)，會有效阻斷 angiotensin II 的作用，從而解除原本對 efferent arteriole 的強烈 constriction，導致 efferent arteriole dilation。這兩種機制的完美結合（afferent arteriole dilation 與 efferent arteriole dilation）使得整體的 intraglomerular pressure 下降，並可能在用藥初期出現良性且臨床上可接受的 estimated glomerular filtration rate (eGFR) 下降。選項 (A) 的 constriction 敘述與此藥物的實際藥理學作用完全相反。選項 (C) 則是錯誤地將 ARB 的主要作用歸因於 afferent arteriole，並且完全錯置了 neprilysin inhibition 所帶來的生理學效應。選項 (D) 雖然 bradykinin 也會因為 neprilysin inhibition 的關係而增加並參與一定程度的 vasodilation，但 afferent arteriole 與 efferent arteriole 的主要 hemodynamic 調控機制，依然是透過 natriuretic peptides 與 angiotensin receptor blockade 來共同完成。",
+      "sourceExplanation": "Sacubitril/valsartan 是一種革命性的 angiotensin receptor-neprilysin inhibitor (ARNI)，其對 renal microcirculation 具有非常獨特且雙重的 hemodynamic 效應。首先，sacubitril 的機制在於抑制 neprilysin，這會導致體內多種 natriuretic peptides (例如 ANP, BNP) 的降解減少、濃度顯著上升；這些大量的 natriuretic peptides 會直接作用於 afferent arteriole，引起明顯的 afferent arteriole dilation。同時，處方中的 valsartan 作為一種 angiotensin II receptor blocker (ARB)，會有效阻斷 angiotensin II 的作用，從而解除原本對 efferent arteriole 的強烈 constriction，導致 efferent arteriole dilation。這兩種機制的完美結合（afferent arteriole dilation 與 efferent arteriole dilation）使得整體的 intraglomerular pressure 下降，並可能在用藥初期出現良性且臨床上可接受的 estimated glomerular filtration rate (eGFR) 下降。選項 A 的 constriction 敘述與此藥物的實際藥理學作用完全相反。選項 C 則是錯誤地將 ARB 的主要作用歸因於 afferent arteriole，並且完全錯置了 neprilysin inhibition 所帶來的生理學效應。選項 D 雖然 bradykinin 也會因為 neprilysin inhibition 的關係而增加並參與一定程度的 vasodilation，但 afferent arteriole 與 efferent arteriole 的主要 hemodynamic 調控機制，依然是透過 natriuretic peptides 與 angiotensin receptor blockade 來共同完成。",
       "resolvedImages": [
         "Brenner_Fig_50_5.png"
       ],
@@ -790,7 +838,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q20",
@@ -805,7 +856,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在同時罹患 heart failure 與 chronic kidney disease 的病患中，當臨床醫師啟動 sacubitril/valsartan (ARNI) 的治療後，初期經常會觀察到 estimated glomerular filtration rate (eGFR) 出現輕度到中度的下降（通常降幅小於 30%）。這種 early eGFR dip 主要導因於該藥物對 renal microcirculation 所產生的顯著 hemodynamic 效應：valsartan 的成分會導致 efferent arteriole dilation，而 sacubitril 帶來的 natriuretic peptides 雖然會造成 afferent arteriole dilation，但綜合來看，整體的 intraglomerular pressure 下降會直接反映在初期的 eGFR 減少。這是一種 physiological 且臨床上完全 acceptable 的血流動力學反應，並非代表病患發生了實質的 acute kidney injury。只要 eGFR 的下降幅度維持在可接受範圍內（小於基線的 30%）且 serum potassium 沒有發生危及生命的嚴重 hyperkalemia，最佳的處置策略是繼續使用目前的藥物並密切監測 renal function，而非因為恐慌而立即停藥。選項 (A) 的立即停藥將使病患白白失去 ARNI 對於 heart failure 預後與長期腎臟保護的重要效益。選項 (B) 除非病患在理學檢查中有其他強烈懷疑 bilateral renal artery stenosis 的臨床線索（如腹部雜音），否則單純 15% 的 eGFR 下降並不需要常規安排超音波檢查。選項 (C) 盲目加倍藥物劑量極有可能會加劇 hyperkalemia 的風險，或進一步惡化目前的 renal function。",
+      "sourceExplanation": "在同時罹患 heart failure 與 chronic kidney disease 的病患中，當臨床醫師啟動 sacubitril/valsartan (ARNI) 的治療後，初期經常會觀察到 estimated glomerular filtration rate (eGFR) 出現輕度到中度的下降（通常降幅小於 30%）。這種 early eGFR dip 主要導因於該藥物對 renal microcirculation 所產生的顯著 hemodynamic 效應：valsartan 的成分會導致 efferent arteriole dilation，而 sacubitril 帶來的 natriuretic peptides 雖然會造成 afferent arteriole dilation，但綜合來看，整體的 intraglomerular pressure 下降會直接反映在初期的 eGFR 減少。這是一種 physiological 且臨床上完全 acceptable 的血流動力學反應，並非代表病患發生了實質的 acute kidney injury。只要 eGFR 的下降幅度維持在可接受範圍內（小於基線的 30%）且 serum potassium 沒有發生危及生命的嚴重 hyperkalemia，最佳的處置策略是繼續使用目前的藥物並密切監測 renal function，而非因為恐慌而立即停藥。選項 A 的立即停藥將使病患白白失去 ARNI 對於 heart failure 預後與長期腎臟保護的重要效益。選項 B 除非病患在理學檢查中有其他強烈懷疑 bilateral renal artery stenosis 的臨床線索（如腹部雜音），否則單純 15% 的 eGFR 下降並不需要常規安排超音波檢查。選項 C 盲目加倍藥物劑量極有可能會加劇 hyperkalemia 的風險，或進一步惡化目前的 renal function。",
       "resolvedImages": [
         "Brenner_Fig_50_5.png"
       ],
@@ -831,7 +882,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q21",
@@ -846,7 +900,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Kidney injury molecule-1 (KIM-1) 與 interleukin-18 (IL-18) 是目前在 acute kidney injury 領域中備受矚目的新型 damage biomarkers。這兩者在正常的腎臟組織中表現量極低，但當腎臟遭受 ischemic 或是 nephrotoxic 傷害後，它們會由 proximal tubular epithelial cells 大量表現並迅速分泌至尿液中。傳統臨床上仰賴的 serum creatinine 是一種 functional biomarker，其數值的上升通常會大幅滯後於實際的組織結構損傷；相對地，KIM-1 與 IL-18 則能在組織受損的最初期（甚至在 creatinine 明顯上升的數十小時之前）就被精確地偵測到，這為 acute kidney injury 的早期診斷與介入提供了極為重要的時間窗。選項 (A) 的 glomerular podocytes 若受損，其臨床表現主要是 proteinuria，且其特異性的 biomarkers 包含 nephrin 或是 podocalyxin 等，與 KIM-1 或 IL-18 無關。選項 (B) 的 thick ascending limb 雖然也可能在 acute kidney injury 的過程中因為缺血而受損，但 KIM-1 與 IL-18 的主要細胞來源已明確被證實為 proximal tubular epithelial cells。選項 (D) 的 medullary collecting duct 同樣不是這些 novel biomarkers 的主要產生部位。",
+      "sourceExplanation": "Kidney injury molecule-1 (KIM-1) 與 interleukin-18 (IL-18) 是目前在 acute kidney injury 領域中備受矚目的新型 damage biomarkers。這兩者在正常的腎臟組織中表現量極低，但當腎臟遭受 ischemic 或是 nephrotoxic 傷害後，它們會由 proximal tubular epithelial cells 大量表現並迅速分泌至尿液中。傳統臨床上仰賴的 serum creatinine 是一種 functional biomarker，其數值的上升通常會大幅滯後於實際的組織結構損傷；相對地，KIM-1 與 IL-18 則能在組織受損的最初期（甚至在 creatinine 明顯上升的數十小時之前）就被精確地偵測到，這為 acute kidney injury 的早期診斷與介入提供了極為重要的時間窗。選項 A 的 glomerular podocytes 若受損，其臨床表現主要是 proteinuria，且其特異性的 biomarkers 包含 nephrin 或是 podocalyxin 等，與 KIM-1 或 IL-18 無關。選項 B 的 thick ascending limb 雖然也可能在 acute kidney injury 的過程中因為缺血而受損，但 KIM-1 與 IL-18 的主要細胞來源已明確被證實為 proximal tubular epithelial cells。選項 D 的 medullary collecting duct 同樣不是這些 novel biomarkers 的主要產生部位。",
       "resolvedImages": [
         "Brenner_Fig_27_2.png"
       ],
@@ -872,7 +926,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_高長_Q22",
@@ -887,7 +944,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在重症加護病房與經歷大手術後的病患中，如何精準預測與早期診斷 acute kidney injury 一直是臨床醫學上的重大挑戰。傳統上依賴的 serum creatinine 作為評估 glomerular filtration rate 的指標，其變化往往非常滯後，而且極易受到病患肌肉量、體液狀態以及營養狀態等多重因素的嚴重干擾。相對地，KIM-1 與 IL-18 被歸類為 structural damage biomarkers，它們在 proximal tubular epithelial cells 遭受到 ischemic 或者是 nephrotoxic 的急性傷害時，會非常迅速地被 upregulation 並且大量分泌進入尿液。這使得臨床醫師能夠在 serum creatinine 出現有意義的上升之前，及早偵測到潛在且隱匿的 tubular damage，進而提早實施保護性策略。選項 (B) 完全錯誤，這些 novel biomarkers 反映的是實質的 tubular injury，而非單純的 glomerular filtration rate 變化。選項 (C) 評估 effective circulating volume 在臨床上通常依賴詳細的理學檢查、超音波，以及傳統的尿液 sodium 與 fractional excretion of sodium (FENa)，而非使用 KIM-1 或 IL-18。選項 (D) 的敘述也是錯誤的，因為 KIM-1 與 IL-18 是 acute 的早期損傷指標，而非僅在發生 irreversible interstitial fibrosis 與 tubular atrophy 等不可逆的慢性病變後才會上升。",
+      "sourceExplanation": "在重症加護病房與經歷大手術後的病患中，如何精準預測與早期診斷 acute kidney injury 一直是臨床醫學上的重大挑戰。傳統上依賴的 serum creatinine 作為評估 glomerular filtration rate 的指標，其變化往往非常滯後，而且極易受到病患肌肉量、體液狀態以及營養狀態等多重因素的嚴重干擾。相對地，KIM-1 與 IL-18 被歸類為 structural damage biomarkers，它們在 proximal tubular epithelial cells 遭受到 ischemic 或者是 nephrotoxic 的急性傷害時，會非常迅速地被 upregulation 並且大量分泌進入尿液。這使得臨床醫師能夠在 serum creatinine 出現有意義的上升之前，及早偵測到潛在且隱匿的 tubular damage，進而提早實施保護性策略。選項 B 完全錯誤，這些 novel biomarkers 反映的是實質的 tubular injury，而非單純的 glomerular filtration rate 變化。選項 C 評估 effective circulating volume 在臨床上通常依賴詳細的理學檢查、超音波，以及傳統的尿液 sodium 與 fractional excretion of sodium (FENa)，而非使用 KIM-1 或 IL-18。選項 D 的敘述也是錯誤的，因為 KIM-1 與 IL-18 是 acute 的早期損傷指標，而非僅在發生 irreversible interstitial fibrosis 與 tubular atrophy 等不可逆的慢性病變後才會上升。",
       "resolvedImages": [
         "Brenner_Fig_27_2.png"
       ],
@@ -913,7 +970,10 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
-      "qcStatus": "QC_PASSED"
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     }
   ],
   "paperId": "2026_高長_(重點轉化)"

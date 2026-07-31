@@ -32,7 +32,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Calcific uremic arteriolopathy (CUA，又稱 Calciphylaxis) 是一種罕見但致死率極高的微血管鈣化與血栓性缺血病變。主要風險因子包括 ESKD（維持性血液透析）、高血磷 (hyperphosphatemia)、高 Ca × P product、次發性副甲狀腺機能亢進 (high PTH)、高鈣負荷（如使用含鈣磷結合劑 calcium-based binders 及維生素 D 補充劑 active vitamin D），以及使用 Warfarin。Warfarin 會抑制 Vitamin K-dependent Matrix Gla protein (MGP) 的羧化活化 (gamma-carboxylation)，缺乏功能的 MGP 無法正常抑制血管平滑肌與內皮的血管壁鈣化，因而大幅增加 CUA 發生率。相對地，Aspirin、Loop diuretics 與 Beta-blocker 並非 CUA 之高風險致病藥物。",
+      "sourceExplanation": "Calcific uremic arteriolopathy (CUA，又稱 Calciphylaxis) 是一種罕見但致死率極高的微血管鈣化與血栓性缺血病變。主要風險因子包括ESKD、hyperphosphatemia、高 Ca × P product、high PTH、高鈣負荷（如使用含鈣磷結合劑 calcium-based binders 及維生素 D 補充劑 active vitamin D），以及使用 Warfarin。Warfarin 會抑制 Vitamin K-dependent Matrix Gla protein (MGP) gamma-carboxylation，缺乏功能的 MGP 無法正常抑制血管平滑肌與內皮的血管壁鈣化，因而大幅增加 CUA 發生率。相對地，Aspirin、Loop diuretics 與 Beta-blocker 並非 CUA 之高風險致病藥物。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -55,9 +55,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q2",
@@ -84,7 +85,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Calcific uremic arteriolopathy (CUA) 的核心治療策略為多管道綜合管理 (Multimodal approach)：(1) 立即停用促進鈣化劑 (pro-calcifying agents)，包括停止含鈣磷結合劑 (calcium binders)、活性維生素 D (active vitamin D analogs) 及 Warfarin（可替換為其他抗凝血方案）；(2) 嚴格控制血鈣、血磷與 PTH，選用非鈣磷結合劑 (non-calcium binders like sevelamer/lanthanum) 或 Calcimimetics；(3) 積極傷口照護 (wound care) 與感染控制 (infection control)；(4) 投予 Sodium thiosulfate (STS，硫代硫酸鈉)，具備抗氧化、血管擴張及螯合鈣離子溶解鈣鹽沉積之作用。提高 calcitriol 或繼續使用 calcium binders / warfarin 皆會惡化血管鈣化，屬禁忌處置。",
+      "sourceExplanation": "Calcific uremic arteriolopathy (CUA) Multimodal approach：(1) pro-calcifying agents，calcium binders、活性維生素 D (active vitamin D analogs) 及 Warfarin（可替換為其他抗凝血方案）；(2) 嚴格控制血鈣、血磷與 PTH，non-calcium binders like sevelamer/lanthanum 或 Calcimimetics；(3) wound care infection control；(4) 投予 Sodium thiosulfate (STS，硫代硫酸鈉)，具備抗氧化、血管擴張及螯合鈣離子溶解鈣鹽沉積之作用。提高 calcitriol 或繼續使用 calcium binders / warfarin 皆會惡化血管鈣化，屬禁忌處置。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -107,9 +108,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q3",
@@ -136,7 +138,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "根據最新 KDIGO CKD-MBD 臨床指引修正，對於 CKD G3a–G5D (包含血液透析與腹膜透析) 患者，若 BMD 檢測結果會影響臨床治療決策，建議進行 Dual-Energy X-ray Absorptiometry (DXA) 測量骨密度 (BMD) 以評估骨折風險 (fracture risk assessment)。過去認為 CKD-MBD 中的血管鈣化會破壞 DXA 準確度的觀念已被修正，前瞻性研究證實 DXA 低 BMD 仍可獨立預測 CKD 患者之骨折風險。然而，DXA 無法區分骨病變微觀亞型（如 adynamic bone disease 骨軟化症 vs. osteitis fibrosa cystica 高轉動骨病），區分亞型仍需依賴金標準 Bone biopsy (骨切片)。",
+      "sourceExplanation": "根據最新 KDIGO CKD-MBD 臨床指引修正，對於 CKD G3a–G5D 包含血液透析與腹膜透析 患者，若 BMD 檢測結果會影響臨床治療決策，建議進行 Dual-Energy X-ray Absorptiometry (DXA) BMD fracture risk assessment。過去認為 CKD-MBD 中的血管鈣化會破壞 DXA 準確度的觀念已被修正，前瞻性研究證實 DXA 低 BMD 仍可獨立預測 CKD 患者之骨折風險。然而，DXA 無法區分骨病變微觀亞型（如 adynamic bone disease 骨軟化症 vs. osteitis fibrosa cystica 高轉動骨病），區分亞型仍需依賴金標準 Bone biopsy bone biopsy。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -162,9 +164,10 @@
         "KDIGO/KDIGO-2017-KDIGO-CKD-MBD-GL-Update/Table_1.png",
         "KDIGO/KDIGO-2017-KDIGO-CKD-MBD-GL-Update/Table_2_part1.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q4",
@@ -191,7 +194,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "對於 G5D (透析患者) 次發性副甲狀腺機能亢進 (secondary hyperparathyroidism, SHPT) 且伴隨血鈣偏高或高鈣負荷 (high calcium load) 的狀況，降 PTH 治療首選 Calcimimetics (擬鈣劑，如 Cinacalcet 或 Etelcalcetide)。Calcimimetics 透過變構活化副甲狀腺 Calcium-sensing receptor (CaSR)，能有效降低 iPTH 且同時降低血鈣與血磷，不會造成高血鈣負擔。若血鈣許可，亦可聯合使用 Active Vitamin D analogs (如 Calcitriol 或 Paricalcitol) 或兩者組合治療 (combination therapy)。對高血鈣/高血磷患者使用高劑量 calcitriol 或 calcium carbonate 會進一步加重高鈣血症與血管鈣化，屬不當處置。",
+      "sourceExplanation": "對於 G5D 透析患者 secondary hyperparathyroidism (SHPT) high calcium load 的狀況，降 PTH 治療首選 Calcimimetics (擬鈣劑，如 Cinacalcet 或 Etelcalcetide)。Calcimimetics 透過變構活化副甲狀腺 Calcium-sensing receptor (CaSR)，能有效降低 iPTH 且同時降低血鈣與血磷，不會造成高血鈣負擔。若血鈣許可，亦可聯合使用 Active Vitamin D analogs (如 Calcitriol 或 Paricalcitol) combination therapy。對高血鈣/高血磷患者使用高劑量 calcitriol 或 calcium carbonate 會進一步加重高鈣血症與血管鈣化，屬不當處置。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -217,9 +220,10 @@
         "KDIGO/KDIGO-2017-KDIGO-CKD-MBD-GL-Update/Table_1.png",
         "KDIGO/KDIGO-2017-KDIGO-CKD-MBD-GL-Update/Table_2_part1.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q5",
@@ -246,7 +250,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "根據國際腹膜透析學會 (ISPD) 指引，Peritoneal Dialysis-related Peritonitis (腹膜透析相關腹膜炎) 的診斷標準需滿足下列 3 項中的至少 2 項：(1) 腹痛或混濁廢液 (cloudy effluent) 等臨床症狀；(2) 留置時間 (dwell time) 至少 2 小時的透析廢液中，白血球總數 (effluent WBC) > 100/µL，且嗜中性白血球比例 (PMN) > 50%；(3) 廢液革蘭氏染色 (Gram stain) 或細菌培養 (culture) 為陽性。因此選項 A 符合作為腹膜炎診斷之透析廢液標準。",
+      "sourceExplanation": "ISPD 指引，Peritoneal Dialysis-related Peritonitis peritoneal dialysis-related peritonitis 的診斷標準需滿足下列 3 項中的至少 2 項：(1) cloudy effluent 等臨床症狀；(2) dwell time 至少 2 小時的透析廢液中，effluent WBC > 100/µL，PMN > 50%；(3) Gram stain culture 為陽性。因此選項 A 符合作為腹膜炎診斷之透析廢液標準。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -269,9 +273,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q6",
@@ -298,7 +303,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "根據 ISPD 指引，腹膜透析導管拔除 (PD catheter removal) 之高風險硬指標包括：(1) 抗生素治療 5 天後症狀與廢液未改善之難治性腹膜炎 (Refractory peritonitis)；(2) 腸道源性多重菌株感染 (Polymicrobial enteric peritonitis)；(3) 真菌性腹膜炎 (Fungal peritonitis) 或非結核分枝桿菌 (NTM / Non-tuberculous mycobacteria) 腹膜炎；(4) 假單胞菌 (Pseudomonas aeruginosa) 腹膜炎同時合併出口/隧道感染 (exit-site/tunnel infection)；(5) 反覆發作 (relapsing) 腹膜炎。單純 coagulase-negative Staph 或輕微 culture-negative peritonitis 經適當抗生素治療反應良好者，不需要拔除導管。",
+      "sourceExplanation": "根據 ISPD 指引，PD catheter removal 之高風險硬指標包括：(1) 抗生素治療 5 Refractory peritonitis；(2) Polymicrobial enteric peritonitis；(3) Fungal peritonitis NTM / Non-tuberculous mycobacteria 腹膜炎；(4) Pseudomonas aeruginosa 腹膜炎同時合併出口/exit-site/tunnel infection；(5) relapsing 腹膜炎。單純 coagulase-negative Staph 或輕微 culture-negative peritonitis 經適當抗生素治療反應良好者，不需要拔除導管。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -321,9 +326,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q7",
@@ -350,7 +356,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在腹膜透析的三孔模型中，超濾作用主要透過超微孔、小孔與大孔進行。其中超微孔即為表現於腹膜內皮細胞上的 aquaporin-1 (AQP1) 水通道。當使用高濃度葡萄糖透析液 (4.25% glucose) 進行短留置時，強烈的晶體滲透壓梯度會驅使大量水分透過 AQP1 進行極快速的 transcellular free-water transport。因為 AQP1 僅傳遞水分子而不允許鈉離子等溶質通過，這便構成了鈉篩分現象 (sodium sieving) 的分子基礎。",
+      "sourceExplanation": "在腹膜透析的三孔模型中，超濾作用主要透過超微孔、小孔與大孔進行。其中超微孔即為表現於腹膜內皮細胞上的 aquaporin-1 (AQP1) 水通道。當使用 4.25% glucose 進行短留置時，強烈的晶體osmolality梯度會驅使大量水分透過 AQP1 進行極快速的 transcellular free-water transport。因為 AQP1 僅傳遞水分子而不允許鈉離子等溶質通過，sodium sieving 的分子基礎。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -373,9 +379,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q8",
@@ -402,7 +409,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "在 APD 採用短留置時間 (60 分鐘) 與高糖透析液 (4.25% glucose) 時，aquaporin-1 (AQP1) 水通道被高度活化，快速引流出不含鈉離子的純水 (free water)。然而鈉離子的跨小孔擴散需要較長時間，短留置導致大量純水被引出體外，鈉離子相對被留在體內 (sodium sieving)。連續多次短留置高糖 APD 交換累積的純水流失顯著高於鈉流失，最終造成急性高鈉血症 (acute hypernatremia)。",
+      "sourceExplanation": "在 APD 採用短留置時間 (60 分鐘) 與 4.25% glucose 時，aquaporin-1 (AQP1) 水通道被高度活化，free water。然而鈉離子的跨小孔擴散需要較長時間，短留置導致大量純水被引出體外，sodium sieving。連續多次短留置高糖 APD 交換累積的純水流失顯著高於鈉流失，acute hypernatremia。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -425,9 +432,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q9",
@@ -454,7 +462,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "根據最新 KDIGO 臨床指引，IgA 腎病變治療的核心基礎為最佳化支持性治療 (optimized supportive care)，包含最大耐受劑量的 RAS blockade (ACEi/ARB)、SGLT2 inhibitors 以及嚴格的血壓控制。當患者經過至少 3–6 個月充分的支持性治療後，每日尿蛋白仍持續 ≥ 0.75–1.0 g/day 時，即代表其長期腎功能惡化風險極高。此時應評估使用標靶型疾病修飾藥物 (disease-modifying therapies，如 targeted-release budesonide、sparsentan) 或參加臨床試驗。",
+      "sourceExplanation": "根據最新 KDIGO 臨床指引，IgA optimized supportive care，包含最大耐受劑量的 RAS blockade (ACEi/ARB)、SGLT2 inhibitors 以及嚴格的血壓控制。當患者經過至少 3–6 個月充分的支持性治療後，每日尿蛋白仍持續 ≥ 0.75–1.0 g/day 時，即代表其長期腎功能惡化風險極高。此時應評估使用標靶型疾病修飾藥物 (disease-modifying therapies，如 targeted-release budesonide、sparsentan) 或參加臨床試驗。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -480,9 +488,10 @@
         "KDIGO/KDIGO-2025-IgAN-IgAV-Guideline/Fig_1.png",
         "KDIGO/KDIGO-2025-IgAN-IgAV-Guideline/Fig_2.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q10",
@@ -535,9 +544,10 @@
         "KDIGO/KDIGO-2025-IgAN-IgAV-Guideline/Fig_1.png",
         "KDIGO/KDIGO-2025-IgAN-IgAV-Guideline/Fig_2.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q11",
@@ -564,7 +574,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "在原發性膜性腎病變 (MN) 中，循環 anti-PLA2R antibody 滴度是疾病免疫活性的直接指標。接受免疫抑制治療 (如 Rituximab) 後，immunological remission (抗體清除) 必然先發生，而 clinical remission (尿蛋白顯著下降) 通常會落後數月 (3 至 12 個月)。這是因為上皮下免疫複合物的清除與足細胞濾過屏障的修復需要時間。6 個月時抗體清零預示未來尿蛋白將逐漸下降。",
+      "sourceExplanation": "MN 中，循環 anti-PLA2R antibody 滴度是疾病免疫活性的直接指標。接受免疫抑制治療 (如 Rituximab) 後，immunological remission antibody clearance 必然先發生，而 clinical remission significant reduction in proteinuria 通常會落後數月 (3 至 12 個月)。這是因為上皮下免疫複合物的清除與podocyte濾過屏障的修復需要時間。6 個月時抗體清零預示未來尿蛋白將逐漸下降。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -587,9 +597,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q12",
@@ -616,7 +627,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "在所有腎病症候群中，膜性腎病變 (MN) 發生靜脈血栓 (如腎靜脈血栓 RVT) 及動脈血栓的風險最高。當血清白蛋白低於 2.5 g/dL 時，血栓風險急劇上升。大量抗凝血酵素 (Antithrombin III) 自尿液流失，肝臟代償性增加凝血因子合成。指引建議給予高風險患者預防性抗凝血治療。MN 腎移植後復發率可達 30–50%。",
+      "sourceExplanation": "在所有腎病症候群中，MN 發生靜脈血栓 (如腎靜脈血栓 RVT) 及動脈血栓的風險最高。當血清白蛋白低於 2.5 g/dL 時，血栓風險急劇上升。Antithrombin III 自尿液流失，肝臟代償性增加凝血因子合成。指引建議給予高風險患者預防性抗凝血治療。MN 腎移植後復發率可達 30–50%。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -639,9 +650,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q13",
@@ -668,7 +680,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本案例為典型之 Secondary FSGS (次發性 FSGS)。病因來自於單腎導致剩餘腎小球發生 hyperfiltration (高過濾) 與 glomerulomegaly (腎小球肥大)。次發性 FSGS 對免疫抑制治療 (如類固醇、CNI) 完全無效，盲目給予僅會增加感染風險。首選處置為 conservative management (使用 ACEi/ARB 或 SGLT2i 降低腎小球內壓)。",
+      "sourceExplanation": "本案例為典型之 Secondary FSGS (次發性 FSGS)。病因來自於單腎導致剩餘腎小球發生 hyperfiltration hyperfiltration 與 glomerulomegaly glomerulomegaly。次發性 FSGS 對免疫抑制治療 (如類固醇、CNI) 完全無效，盲目給予僅會增加感染風險。首選處置為 conservative management (使用 ACEi/ARB 或 SGLT2i 降低腎小球內壓)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -691,9 +703,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q14",
@@ -720,7 +733,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "根據 Columbia Classification，微血管塌陷 (segmental collapse) 伴隨足細胞顯著肥大增生 (pseudocrescent) 為 Collapsing variant of FSGS。Collapsing FSGS 是所有 FSGS 病理分型中預後最差 (worst prognosis) 的型態，臨床表現為嚴重腎病症候群與快速進展至 ESKD。",
+      "sourceExplanation": "根據 Columbia Classification，segmental collapse pseudocrescent 為 Collapsing variant of FSGS。Collapsing FSGS 是所有 FSGS worst prognosis 的型態，臨床表現為嚴重腎病症候群與快速進展至 ESKD。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -743,9 +756,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q15",
@@ -772,7 +786,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Anti-GBM disease (Goodpasture syndrome) 的病理標誌為免疫螢光檢查呈 diffuse linear pattern of IgG deposition along the GBM (沿 GBM 線狀 IgG 沉積)。自體抗體主要針對 type IV collagen alpha-3 chain NC1 domain。光學顯微鏡下常伴隨全壁或大面積之 cellular crescents (新月體)。",
+      "sourceExplanation": "Anti-GBM disease (Goodpasture syndrome) 的病理標誌為免疫螢光檢查呈 diffuse linear pattern of IgG deposition along the GBM (沿 GBM 線狀 IgG 沉積)。自體抗體主要針對 type IV collagen alpha-3 chain NC1 domain。光學顯微鏡下常伴隨全壁或大面積之 cellular crescents crescents。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -795,9 +809,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:40:41.270Z",
-      "qcNotes": "Re-verified & corrected Q15 to B (Diffuse linear pattern of IgG deposition along GBM for Goodpasture/anti-GBM disease).",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q16",
@@ -847,9 +862,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:40:41.271Z",
-      "qcNotes": "Re-verified & corrected Q16 to D (High-dose corticosteroids, oral cyclophosphamide, and daily PLEX for anti-GBM disease).",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q17",
@@ -876,7 +892,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Immunotactoid Glomerulopathy (ITG) 特徵為 Congo red 陰性；EM 下呈 30–50 nm 中空管狀構造 (hollow microtubules)，成平行排列。高度與 Monoclonal gammopathy 相關。Fibrillary GN 為 16-24 nm 實心纖維且 DNAJB9 陽性；Amyloidosis 為 Congo red 陽性蘋果綠雙折射。",
+      "sourceExplanation": "Immunotactoid Glomerulopathy (ITG) 特徵為 Congo red 陰性；EM 下呈 30–50 nm hollow microtubules，成平行排列。高度與 Monoclonal gammopathy 相關。Fibrillary GN 為 16-24 nm 實心纖維且 DNAJB9 陽性；Amyloidosis 為 Congo red 陽性蘋果綠birefringence。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -899,9 +915,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q18",
@@ -951,9 +968,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q19",
@@ -980,7 +998,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "HELLP syndrome 在產後 48-72 小時內溶血、血小板與肝功能多自發緩解。若產後超過 48-72 小時仍持續存在微血管病性溶血貧血 (MAHA)、重度血小板低下與急性腎損傷，加上 ADAMTS13 活性 > 10% 排除 TTP，提示為補體調控非典型尿毒溶血症候群 (complement-mediated aHUS)。",
+      "sourceExplanation": "HELLP syndrome 在產後 48-72 小時內溶血、血小板與肝功能多自發緩解。若產後超過 48-72 MAHA、重度血小板低下與急性腎損傷，加上 ADAMTS13 活性 > 10% 排除 TTP，complement-mediated aHUS。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1006,9 +1024,10 @@
         "Brenner 11e/48. Pregnancy and Kidney Disease/Fig_48_1.png",
         "Brenner 11e/48. Pregnancy and Kidney Disease/Fig_48_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q20",
@@ -1035,7 +1054,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "產後出現 MAHA、血小板低下與 AKI，且 ADAMTS13 活性 > 10% 排除 TTP、Shiga-toxin 陰性，產後 > 72 小時未緩解時，首選治療為 C5 抑制劑 Eculizumab / Ravulizumab，特異性阻斷末端補體複合體 (C5b-9 MAC) 形成，拯救腎功能。",
+      "sourceExplanation": "產後出現 MAHA、血小板低下與 AKI，且 ADAMTS13 活性 > 10% 排除 TTP、Shiga-toxin 陰性，產後 > 72 小時未緩解時，首選治療為 C5 抑制劑 Eculizumab / Ravulizumab，C5b-9 MAC 形成，拯救腎功能。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1061,9 +1080,10 @@
         "Brenner 11e/48. Pregnancy and Kidney Disease/Fig_48_1.png",
         "Brenner 11e/48. Pregnancy and Kidney Disease/Fig_48_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q21",
@@ -1090,7 +1110,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "MCP (CD46) 為跨膜蛋白 (cell membrane-bound complement regulator)。由於捐贈者腎臟移植物 (Donor renal allograft) 本身表達正常野生型 MCP (wild-type MCP)，能在移植腎內皮提供補體保護，因此 MCP 變異 aHUS 腎移植後復發風險極低 (< 15-20%)。",
+      "sourceExplanation": "MCP (CD46) cell membrane-bound complement regulator。Donor renal allograft 本身表達正常野生型 MCP (wild-type MCP)，能在移植腎內皮提供補體保護，因此 MCP 變異 aHUS 腎移植後復發風險極低 (< 15-20%)。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1113,9 +1133,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q22",
@@ -1142,7 +1163,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "MCP 固著於細胞膜，血漿置換 (PEX) 無法補充膜上 MCP，故 PEX 療效差。Eculizumab 為特異性抗 C5 單株抗體，阻斷下游末端補體複合體 (C5b-9 MAC) 形成，不論上游缺陷為膜蛋白 (MCP) 或可溶蛋白 (Factor H)，均能截斷微血管發炎與血栓。",
+      "sourceExplanation": "MCP 固著於細胞膜，PEX 無法補充膜上 MCP，故 PEX 療效差。Eculizumab 為特異性抗 C5 單株抗體，C5b-9 MAC 形成，MCP Factor H，均能截斷微血管發炎與血栓。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1165,9 +1186,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q23",
@@ -1194,7 +1216,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Streptococcus pneumoniae 產生的 Neuraminidase 切除紅血球與內皮細胞膜上 Sialic acid (唾液酸)，暴露原本隱藏的 Thomsen-Friedenreich (T) 抗原。人體血漿中天然存在的 anti-T IgM 與 T 抗原結合，導致 Direct Coombs test 呈陽性反應，引發溶血與微血栓。",
+      "sourceExplanation": "Streptococcus pneumoniae 產生的 Neuraminidase 切除紅血球與內皮細胞膜上 Sialic acid sialic acid，暴露原本隱藏的 Thomsen-Friedenreich (T) 抗原。人體血漿中天然存在的 anti-T IgM 與 T 抗原結合，導致 Direct Coombs test 呈陽性反應，引發溶血與微血栓。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1217,9 +1239,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q24",
@@ -1246,7 +1269,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "健康捐血者血漿含有天然 anti-T IgM 抗體。未洗滌血漿 (Unwashed plasma / FFP) 輸入後會與 Sp-HUS 患者暴露的 T 抗原大量結合，急劇惡化溶血與血栓。輸血必須使用洗滌紅血球 (Washed RBC) 與洗滌血小板 (Washed platelets)。",
+      "sourceExplanation": "健康捐血者血漿含有天然 anti-T IgM 抗體。Unwashed plasma / FFP 輸入後會與 Sp-HUS 患者暴露的 T 抗原大量結合，急劇惡化溶血與血栓。Washed RBC Washed platelets。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1269,9 +1292,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q25",
@@ -1298,7 +1322,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "膽固醇栓塞性腎病 (AERD) 可模擬 TMA。結晶表面活化補體引發低補體血症 (low C3/C4) 與嗜酸性球增多症 (eosinophilia)。鑑別要點為 ADAMTS13 活性 > 10% (排除 TTP) 及腎切片小動脈內雙凹針狀膽固醇空隙 (biconcave needle-shaped cholesterol clefts)。",
+      "sourceExplanation": "AERD 可模擬 TMA。low C3/C4 eosinophilia。鑑別要點為 ADAMTS13 活性 > 10% (排除 TTP) biconcave needle-shaped cholesterol clefts。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1321,9 +1345,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q26",
@@ -1350,7 +1375,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "AERD 鑑別 TMA 金標準為切片見雙凹針狀膽固醇空隙 (cholesterol ghost clefts) 圍繞異物巨細胞，配合 ADAMTS13 > 10%。網狀青斑與藍趾症為 AERD 經典皮膚特徵。",
+      "sourceExplanation": "AERD 鑑別 TMA cholesterol ghost clefts 圍繞異物巨細胞，配合 ADAMTS13 > 10%。網狀青斑與藍趾症為 AERD 經典皮膚特徵。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1373,9 +1398,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q27",
@@ -1402,7 +1428,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "移植腎靜脈血栓 (RVT) 為早期術後急症。彩色多普勒超音波診斷雙標誌為：(1) 靜脈血流訊號完全消失 (absent venous flow)；(2) 腎動脈舒張期血流倒流 (arterial diastolic flow reversal)。",
+      "sourceExplanation": "RVT 為早期術後急症。彩色多普勒超音波診斷雙標誌為：(1) absent venous flow；(2) arterial diastolic flow reversal。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1428,9 +1454,10 @@
         "KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
         "KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_2.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q28",
@@ -1457,7 +1484,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "RVT 靜脈流出完全阻塞導致腎內靜脈壓與間質壓飆升，舒張期腎動脈出現逆向血流倒流。RVT 需緊急手術剖腹探查 (surgical re-exploration)，單用抗凝血劑無法救腎。",
+      "sourceExplanation": "RVT 靜脈流出完全阻塞導致腎內靜脈壓與間質壓飆升，舒張期腎動脈出現逆向血流倒流。RVT surgical re-exploration，單用抗凝血劑無法救腎。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1483,9 +1510,10 @@
         "KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
         "KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_2.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q29",
@@ -1512,7 +1540,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "FMD 血管攝影呈串珠狀 (string-of-beads) 為 Medial fibroplasia。首選治療為 PTA without stenting (不常規放支架)。抽菸 (cigarette smoking) 為強烈風險因子，會加速疾病進展、增加動脈瘤並降低 PTA 治癒率。",
+      "sourceExplanation": "FMD string-of-beads 為 Medial fibroplasia。首選治療為 PTA without stenting 不常規放支架。cigarette smoking 為強烈風險因子，會加速疾病進展、增加動脈瘤並降低 PTA 治癒率。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1535,9 +1563,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q30",
@@ -1564,7 +1593,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "FMD 主要侵犯腎動脈中遠段 (mid-to-distal)，不同於粥狀硬化侵犯開口處 (ostium)。首選 PTA without stenting 即可獲得極高治癒率與血壓改善。",
+      "sourceExplanation": "FMD mid-to-distal，ostium。首選 PTA without stenting 即可獲得極高治癒率與血壓改善。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1587,9 +1616,10 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q31",
@@ -1616,9 +1646,9 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Mayo Class 1C/1D/1E 屬高風險快速進展者 (rapid progressors)。34 歲且 htTKV 850 mL/m 屬 Mayo Class 1E。Tolvaptan (V2 antagonist) 能減緩 TKV 增長與 eGFR 下降。因 DILI 風險，治療前 18 個月必須每月監測 LFT (ALT/AST)。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "qcStatus": "QC_DISPUTED",
+      "sourceExplanation": "Mayo Class 1C/1D/1E rapid progressors。34 歲且 htTKV 850 mL/m 屬 Mayo Class 1E。Tolvaptan (V2 antagonist) 能減緩 TKV 增長與 eGFR 下降。因 DILI 風險，治療前 18 個月必須每月監測 LFT (ALT/AST)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -1642,9 +1672,10 @@
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_1.png",
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_10.png"
       ],
-      "qcVerifiedAt": "2026-07-30T01:32:33Z",
-      "qcNotes": "Dispute: NLM #1 identified Option B as the intended correct answer despite a minor classification typo (1D vs 1E), while NLM #2 strictly selected NONE due to the typo. Source answer is B.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent: Mathematical formula yields Mayo Class 1D (5.1% growth rate), but Option B describes the correct disease-modifying therapy (Tolvaptan) and LFT monitoring for rapid progressors. Reconciliation set to HIGH_CONFIDENCE.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q32",
@@ -1671,7 +1702,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "Tolvaptan 的 DILI 安全門哨規定：若 ALT 或 AST 升高 > 3 × ULN（本例達 340 U/L），應立即停藥 (discontinue/hold)，評估 DILI 因子並頻繁複查 LFT 直至恢復正常。",
+      "sourceExplanation": "Tolvaptan 的 DILI 安全門哨規定：若 ALT 或 AST 升高 > 3 × ULN（本例達 340 U/L），discontinue/hold，評估 DILI 因子並頻繁複查 LFT 直至恢復正常。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1697,9 +1728,10 @@
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_1.png",
         "KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q33",
@@ -1726,7 +1758,7 @@
       ],
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Orthostatic proteinuria (直立性蛋白尿) 為青少年無症狀蛋白尿最常見良性原因。白天立位 UPCR 升高，但晨尿 (first-morning UPCR) 完全恢復正常 (< 0.2 mg/mg)。預後極佳，不需切片或免疫抑制劑，給予衛教並定期觀察即可。",
+      "sourceExplanation": "Orthostatic proteinuria orthostatic proteinuria 為青少年無症狀蛋白尿最常見良性原因。白天立位 UPCR 升高，first-morning UPCR < 0.2 mg/mg。預後極佳，不需切片或免疫抑制劑，給予衛教並定期觀察即可。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1752,9 +1784,10 @@
         "KDIGO/KDIGO-2024_Lupus_Nephritis_Guideline/Fig_1.png",
         "KDIGO/KDIGO-2024_Lupus_Nephritis_Guideline/Fig_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "2026_高榮與林長小人科_(重點轉化)_q34",
@@ -1807,9 +1840,10 @@
         "KDIGO/KDIGO-2024_Lupus_Nephritis_Guideline/Fig_1.png",
         "KDIGO/KDIGO-2024_Lupus_Nephritis_Guideline/Fig_10.png"
       ],
-      "qcVerifiedAt": "2026-07-28T02:32:02.174Z",
-      "qcNotes": "Reconciled via 100% LLM semantic analysis from NLM raw responses and source explanation.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedBy": "tn-exam-qc"
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z",

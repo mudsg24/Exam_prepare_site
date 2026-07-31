@@ -58,7 +58,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C) 不符",
+      "reconciliationNotes": "D 與 NotebookLM C 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -174,7 +174,7 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A) 不符",
+      "reconciliationNotes": "C 與 NotebookLM A 不符",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",

@@ -23,7 +23,7 @@
     ],
     "sourceProvidedAnswer": "A",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "Calculated Serum Osmolality 計算公式為 2 * Na + Glucose / 18 + BUN / 2.8。帶入數據：2 * 140 + 90 / 18 + 14 / 2.8 = 280 + 5 + 5 = 290 mOsm/kg H2O。Measured Serum Osmolality 為 340 mOsm/kg H2O，因此 Serum Osmolal Gap = 340 - 290 = 50 mOsm/kg H2O。正常的 Osmolal Gap 通常 <= 10 mOsm/kg H2O，顯著升高的 Osmolal Gap 強烈提示血中存在大量未被常規生化測量的低分子量滲透壓活性物質 (如 Ethylene Glycol 或 Methanol)。",
+    "sourceExplanation": "Calculated Serum Osmolality 計算公式為 2 * Na + Glucose / 18 + BUN / 2.8。帶入數據：2 * 140 + 90 / 18 + 14 / 2.8 = 280 + 5 + 5 = 290 mOsm/kg H2O。Measured Serum Osmolality 為 340 mOsm/kg H2O，因此 Serum Osmolal Gap = 340 - 290 = 50 mOsm/kg H2O。正常的 Osmolal Gap 通常 <= 10 mOsm/kg H2O，顯著升高的 Osmolal Gap 強烈提示血中存在大量未被常規生化測量的低分子量osmolality活性物質 (如 Ethylene Glycol 或 Methanol)。",
     "resolvedImages": [
       {
         "id": "Brenner_Table_67_4",
@@ -155,7 +155,7 @@
     ],
     "sourceProvidedAnswer": "A",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "Ethylene Glycol 的終末產物 Oxalic Acid 與血鈣結合形成 Calcium Oxalate Crystals。其中 Calcium Oxalate Monohydrate 呈啞鈴狀 (Dumbbell-shaped)、卵圓形或針狀 (Needle-like)，在偏光顯微鏡 (Polarized Light Microscopy) 下展現強烈的雙折射 (Strongly Birefringent / Polarizable)；而 Dihydrate 呈雙錐體信封狀 (Envelope-shaped)。",
+    "sourceExplanation": "Ethylene Glycol 的終末產物 Oxalic Acid 與血鈣結合形成 Calcium Oxalate Crystals。其中 Calcium Oxalate Monohydrate Dumbbell-shaped、Needle-like，Polarized Light Microscopy Strongly Birefringent / Polarizable；而 Dihydrate Envelope-shaped。",
     "resolvedImages": [
       {
         "id": "Brenner_Table_23_11",
@@ -279,7 +279,7 @@
     ],
     "sourceProvidedAnswer": "A",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "Propylene Glycol 常被用作靜脈注射 Lorazepam、Diazepam、Nitroglycerin 等藥物的助溶劑 (Solvent / Vehicle)。在 ICU 長期或高劑量輸注 Lorazepam 時，Propylene Glycol 蓄積並經 ADH 代謝為 L-lactate 與 D-lactate，造成典型醫源性 Lactic Acidosis (HAGMA) + High Osmolal Gap + AKI。",
+    "sourceExplanation": "Propylene Glycol 常被用作靜脈注射 Lorazepam、Diazepam、Nitroglycerin Solvent / Vehicle。在 ICU 長期或高劑量輸注 Lorazepam 時，Propylene Glycol 蓄積並經 ADH 代謝為 L-lactate 與 D-lactate，造成典型醫源性 Lactic Acidosis (HAGMA) + High Osmolal Gap + AKI。",
     "resolvedImages": []
   },
   {
@@ -333,7 +333,7 @@
     ],
     "sourceProvidedAnswer": "C",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "Fomepizole (4-MP) 為 Alcohol Dehydrogenase (ADH) 的強效競爭性抑制劑，其與 ADH 的親和力約為 Ethanol 的 8000 倍。與傳統解毒劑 Ethanol 相比，Fomepizole 不會引起中樞神經抑制 (CNS depression) 或低血糖 (Hypoglycemia)，且血中濃度穩定好控制。",
+    "sourceExplanation": "Fomepizole (4-MP) 為 Alcohol Dehydrogenase (ADH) 的強效競爭性抑制劑，其與 ADH 的親和力約為 Ethanol 的 8000 倍。與傳統解毒劑 Ethanol 相比，Fomepizole CNS depression Hypoglycemia，且血中濃度穩定好控制。",
     "resolvedImages": [
       {
         "id": "Brenner_Table_67_6",
@@ -403,7 +403,7 @@
     ],
     "sourceProvidedAnswer": "A",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "Fomepizole 分子量小且蛋白結合率低，在進行 Intermittent Hemodialysis (IHD) 時會被透析器高效清除！為了維持血中足夠的 ADH 抑制濃度，透析期間 Fomepizole 的給藥頻率必須調高至每 4 小時一次 (q4h) 或改為連續靜脈輸注 1.0-1.5 mg/kg/h。",
+    "sourceExplanation": "Fomepizole 分子量小且蛋白結合率低，在進行 Intermittent Hemodialysis (IHD) 時會被透析器高效清除！為了維持血中足夠的 ADH 抑制濃度，透析期間 Fomepizole 的給藥頻率必須調高至每 4 q4h 或改為連續靜脈輸注 1.0-1.5 mg/kg/h。",
     "resolvedImages": [
       {
         "id": "Brenner_Table_67_6",
@@ -438,7 +438,7 @@
     ],
     "sourceProvidedAnswer": "B",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "根據 EXTRIP 國際指引，Methanol 中毒啟動緊急血液透析 (IHD) 的主要適應症包括：(1) 血清 Methanol 濃度 > 50 mg/dL (15.6 mmol/L)；(2) 存在重度酸中毒 (Arterial pH < 7.25)；(3) 出現 Target Organ Damage (如視覺障礙 Visual Impairment / Optic Disc Edema) 或腎衰竭。",
+    "sourceExplanation": "根據 EXTRIP 國際指引，Methanol IHD 的主要適應症包括：(1) 血清 Methanol 濃度 > 50 mg/dL (15.6 mmol/L)；(2) 存在重度酸中毒 (Arterial pH < 7.25)；(3) 出現 Target Organ Damage (如視覺障礙 Visual Impairment / Optic Disc Edema) 或腎衰竭。",
     "resolvedImages": [
       {
         "id": "Brenner_Fig_67_3",
@@ -473,7 +473,7 @@
     ],
     "sourceProvidedAnswer": "C",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "在 Ethylene Glycol 或 Methanol 中毒臨床處置中，若急診缺乏 Fomepizole，絕對不可單純給予 Bicarbonate 支持治療拖延。當毒物濃度 > 50 mg/dL、存在重度酸中毒 (pH < 7.25) 或 AKI 時，無論解毒劑是否到位，皆應**立即啟動緊急血液透析 (IHD)** 以清除體內毒物與代謝酸。",
+    "sourceExplanation": "在 Ethylene Glycol 或 Methanol 中毒臨床處置中，若急診缺乏 Fomepizole，絕對不可單純給予 Bicarbonate 支持治療拖延。當毒物濃度 > 50 mg/dL、存在重度酸中毒 (pH < 7.25) 或 AKI 時，無論解毒劑是否到位，皆應**IHD** 以清除體內毒物與代謝酸。",
     "resolvedImages": []
   },
   {
@@ -527,7 +527,7 @@
     ],
     "sourceProvidedAnswer": "A",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "輕度升高的 Osmolal Gap (10-20 mOsm/kg H2O) 可見於 Alcoholic Ketoacidosis (AKA)、Diabetic Ketoacidosis (DKA)、Severe Lactic Acidosis 或 End-Stage Renal Disease，這是由於內源性 Glycerol, Acetone, Amino acids 等微量滲透壓顆粒蓄積所致。但 Toxic Alcohol Poisoning 引發的 Osmolal Gap 通常顯著高於此範圍 (> 20-50+ mOsm/kg H2O)。",
+    "sourceExplanation": "輕度升高的 Osmolal Gap (10-20 mOsm/kg H2O) 可見於 Alcoholic Ketoacidosis (AKA)、Diabetic Ketoacidosis (DKA)、Severe Lactic Acidosis 或 End-Stage Renal Disease，這是由於內源性 Glycerol, Acetone, Amino acids 等微量osmolality顆粒蓄積所致。但 Toxic Alcohol Poisoning 引發的 Osmolal Gap 通常顯著高於此範圍 (> 20-50+ mOsm/kg H2O)。",
     "resolvedImages": [
       {
         "id": "Brenner_Flow_Chart_24_15",
@@ -562,7 +562,7 @@
     ],
     "sourceProvidedAnswer": "B",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "市售汽車水箱防凍劑 (Antifreeze) 通常會添加 **Sodium Fluorescein** (螢光黃/螢光綠染料) 以便於車主檢測引擎水箱滲漏。因此，誤飲防凍劑者的尿液在 Wood's Lamp (紫外燈) 照射下可呈現明顯的綠色螢光反應，輔助早期快速診斷。",
+    "sourceExplanation": "Antifreeze 通常會添加 **Sodium Fluorescein** (螢光黃/螢光綠染料) 以便於車主檢測引擎水箱滲漏。因此，誤飲防凍劑者的尿液在 Wood's Lamp 紫外燈 照射下可呈現明顯的綠色螢光反應，輔助早期快速診斷。",
     "resolvedImages": []
   },
   {
@@ -616,7 +616,7 @@
     ],
     "sourceProvidedAnswer": "D",
     "sourceAnswerStatus": "provided",
-    "sourceExplanation": "理想的透析清除毒理特性包含：小分子量 (MW < 100 Da)、零蛋白質結合率 (Protein Binding 0%)、極小分佈體積 (Vd < 0.6 L/kg) 以及高水溶性。Methanol (32 Da) 與 Ethylene Glycol (62 Da) 完全符合這些條件，因此 **Intermittent Hemodialysis (IHD)** 的擴散清除率 (Diffusion Clearance) 遠高於 CRRT，為首選解毒透析模式。",
+    "sourceExplanation": "理想的透析清除毒理特性包含：小分子量 (MW < 100 Da)、零蛋白質結合率 (Protein Binding 0%)、極小分佈體積 (Vd < 0.6 L/kg) 以及高水溶性。Methanol (32 Da) 與 Ethylene Glycol (62 Da) 完全符合這些條件，因此 **Intermittent Hemodialysis (IHD)** Diffusion Clearance 遠高於 CRRT，為首選解毒透析模式。",
     "resolvedImages": [
       {
         "id": "Brenner_Table_67_3",

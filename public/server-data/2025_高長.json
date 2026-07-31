@@ -353,7 +353,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (C)，但 NotebookLM 語意推論為 (A, C)。",
+      "reconciliationNotes": "有爭議：C，但 NotebookLM 語意推論為 (A, C)。",
       "resolvedImages": [],
       "qcStatus": "QC_DISPUTED",
       "attachedImages": null,
@@ -538,7 +538,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "有爭議：原始答案給予 (B)，但 NotebookLM 語意推論為 (B, D, E)。",
+      "reconciliationNotes": "有爭議：B，但 NotebookLM 語意推論為 (B, D, E)。",
       "resolvedImages": [],
       "qcStatus": "QC_DISPUTED",
       "attachedImages": null,

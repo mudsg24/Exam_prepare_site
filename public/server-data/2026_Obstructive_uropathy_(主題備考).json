@@ -99,7 +99,7 @@
       "providedAnswer": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Doppler Ultrasonography 之 Resistive Index (RI) 在急診診斷 Acute Obstructive Nephropathy 的診斷標準。\n1. **Doppler Resistive Index (RI)**: 計算公式為 $(\\text{Peak Systolic Velocity} - \\text{End Diastolic Velocity}) / \\text{Peak Systolic Velocity}$。在 Acute Ureteral Obstruction 發生時，受腎內血管收縮影響，End Diastolic Flow 顯著降低，導致 RI 升高。\n2. **Diagnostic Threshold**: RI 顯著升高 ($\\text{RI} > 0.70$) 或患側與健側之 $\\Delta\\text{RI} > 0.05$ 為確診 Acute Obstructive Nephropathy 的黃金診斷指標，特別適用於 Renal Ultrasound 尚末看到明顯 Hydronephrosis 的早期阻塞或 Retroperitoneal Fibrosis 患者。",
+      "sourceExplanation": "本題考查 Doppler Ultrasonography 之 Resistive Index (RI) 在急診診斷 Acute Obstructive Nephropathy 的診斷標準。\n1. **Doppler Resistive Index (RI)**: 計算公式為 $(\\text{Peak Systolic Velocity} - \\text{End Diastolic Velocity}) / \\text{Peak Systolic Velocity}$。在 Acute Ureteral Obstruction 發生時，受腎內vasoconstriction影響，End Diastolic Flow 顯著降低，導致 RI 升高。\n2. **Diagnostic Threshold**: RI 顯著升高 ($\\text{RI} > 0.70$) 或患側與健側之 $\\Delta\\text{RI} > 0.05$ 為確診 Acute Obstructive Nephropathy 的黃金診斷指標，特別適用於 Renal Ultrasound 尚末看到明顯 Hydronephrosis 的早期阻塞或 Retroperitoneal Fibrosis 患者。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_1",
@@ -168,7 +168,7 @@
       "providedAnswer": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Diuretic Renography (MAG3 Scan + Furosemide) 評估腎輸尿管連接處阻塞 (UPJ Obstruction) 的功能性診斷指標。\n1. **Diuretic Renography ($T_{1/2}$)**: 給予 Furosemide 後，放射性追蹤劑 (MAG3) 自 Pelvicalyceal System 洗刷排出的半衰期 ($T_{1/2}$) 為區分 True Mechanical Obstruction 與 Non-obstructed Dilated Collecting System (Megaureter) 的標準測試。\n2. **Diagnostic Criteria**:\n   - **$T_{1/2} > 20\\text{ minutes}$**: 代表存在明確之 True Mechanical Obstruction。\n   - **$T_{1/2} < 10\\text{ minutes}$**: 代表無阻塞 (Normal or non-obstructed dilatation)。\n   - **$T_{1/2} 10-20\\text{ minutes}$**: 代表 Equivocal / Indeterminate，需進一步追蹤。",
+      "sourceExplanation": "本題考查 Diuretic Renography (MAG3 Scan + Furosemide) UPJ Obstruction 的功能性診斷指標。\n1. **Diuretic Renography ($T_{1/2}$)**: 給予 Furosemide 後，MAG3 自 Pelvicalyceal System 洗刷排出的半衰期 ($T_{1/2}$) 為區分 True Mechanical Obstruction 與 Non-obstructed Dilated Collecting System (Megaureter) 的標準測試。\n2. **Diagnostic Criteria**:\n   - **$T_{1/2} > 20\\text{ minutes}$**: 代表存在明確之 True Mechanical Obstruction。\n   - **$T_{1/2} < 10\\text{ minutes}$**: Normal or non-obstructed dilatation。\n   - **$T_{1/2} 10-20\\text{ minutes}$**: 代表 Equivocal / Indeterminate，需進一步追蹤。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_6",
@@ -306,7 +306,7 @@
       "providedAnswer": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Unilateral Ureteral Obstruction (UUO) Phase 2 (2-5 Hours) 與Phase 3 (>5-24 Hours) 的腎血管收縮分子。\n1. **Phase 2 & Phase 3 Hemodynamics**: 在阻塞持續 2 小時後，$\text{PGE}_2$ 的擴血管作用被強烈的血管收縮因子超越。內源性 Angiotensin II (ANG II) 與局部浸潤 Macrophages 釋放的 Thromboxane $A_2$ ($\text{TXA}_2$) 開始佔據主導地位。\n2. **Vascular Impact**: ANG II 與 $\text{TXA}_2$ 引發極度強烈之 Afferent Arteriolar Vasoconstriction ($R_A \\uparrow\\uparrow$)，使 $P_{GC}$ 下降，引發 RBF 與 SNGFR 的嚴重衰退與缺血性損害。",
+      "sourceExplanation": "本題考查 Unilateral Ureteral Obstruction (UUO) Phase 2 (2-5 Hours) 與Phase 3 (>5-24 Hours) 的腎vasoconstriction分子。\n1. **Phase 2 & Phase 3 Hemodynamics**: 在阻塞持續 2 小時後，$\text{PGE}_2$ 的擴血管作用被強烈的vasoconstriction因子超越。內源性 Angiotensin II (ANG II) 與局部浸潤 Macrophages 釋放的 Thromboxane $A_2$ ($\text{TXA}_2$) 開始佔據主導地位。\n2. **Vascular Impact**: ANG II 與 $\text{TXA}_2$ 引發極度強烈之 Afferent Arteriolar Vasoconstriction ($R_A \\uparrow\\uparrow$)，使 $P_{GC}$ 下降，引發 RBF 與 SNGFR 的嚴重衰退與缺血性損害。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_1",
@@ -445,7 +445,7 @@
       "providedAnswer": "D",
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Obstructive Nephropathy 引發 Nephrogenic Diabetes Insipidus (NDI) 與濃縮功能障礙的分子轉運體機制。\n1. **Transporter Downregulation**: 阻塞發生後，Medullary Thick Ascending Limb (mTAL) 上之 $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-transporter (NKCC2) 重吸收降至低谷，導致髓質高滲透壓梯度 (Medullary Hypertonicity) 喪失；同時 Collecting Duct 上皮細胞膜之 Aquaporin-2 (AQP2) 水通道蛋白高度下調。\n2. **Vasopressin-Resistant NDI**: 缺乏髓質高滲透壓梯度與 AQP2 水通道，腎小管對 ADH 產生完全抵抗 (Vasopressin Resistance)，導致尿液無法濃縮 (Hyposthenuria, Urine Osm < 200 mOsm/kg)，呈現 Vasopressin-Resistant NDI。",
+      "sourceExplanation": "本題考查 Obstructive Nephropathy 引發 Nephrogenic Diabetes Insipidus (NDI) 與濃縮功能障礙的分子轉運體機制。\n1. **Transporter Downregulation**: 阻塞發生後，Medullary Thick Ascending Limb (mTAL) 上之 $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-transporter (NKCC2) 重吸收降至低谷，Medullary Hypertonicity 喪失；同時 Collecting Duct 上皮細胞膜之 Aquaporin-2 (AQP2) 水通道蛋白高度下調。\n2. **Vasopressin-Resistant NDI**: 缺乏髓質高osmolality梯度與 AQP2 水通道，腎小管對 ADH Vasopressin Resistance，導致尿液無法濃縮 (Hyposthenuria, Urine Osm < 200 mOsm/kg)，呈現 Vasopressin-Resistant NDI。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_3",
@@ -583,7 +583,7 @@
       "providedAnswer": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 2025 馬偕醫院與 Brenner 11e Box 37.3 關於阻塞後腎細胞酵素與基因表達改變的高頻考題陷阱。\n1. **Increased Enzyme & Gene Activity**: 阻塞引發缺血與細胞壓力，細胞轉向無氧代謝，Anaerobic Glycolysis, G6PD, Phosphogluconate Dehydrogenase, Mitogen-Activated Protein Kinases (MAPKs: ERK/p38/JNK), Angiotensin II 及 NF-$\\kappa$B 表達均顯著**增加 (INCREASED)**。\n2. **Decreased Enzyme & Metabolic Activity**: 氧氣消耗量 (Oxygen Consumption)、基底側 $\text{Na}^+/\text{K}^+$-ATPase 活性、NADH/NADPH Dehydrogenase 則顯著**降低 (DECREASED)**。\n3. **Exam Trap**: 2025 年考題陷阱常將 MAPKs 錯寫為降低；正確觀念為 MAPKs 呈高度激活以驅動 Tubulointerstitial Fibrosis。",
+      "sourceExplanation": "本題考查 2025 馬偕醫院與 Brenner 11e Box 37.3 關於阻塞後腎細胞酵素與基因表達改變的高頻考題陷阱。\n1. **Increased Enzyme & Gene Activity**: 阻塞引發缺血與細胞壓力，細胞轉向無氧代謝，Anaerobic Glycolysis, G6PD, Phosphogluconate Dehydrogenase, Mitogen-Activated Protein Kinases (MAPKs: ERK/p38/JNK), Angiotensin II 及 NF-$\\kappa$B 表達均顯著**INCREASED**。\n2. **Decreased Enzyme & Metabolic Activity**: Oxygen Consumption、基底側 $\text{Na}^+/\text{K}^+$-ATPase 活性、NADH/NADPH Dehydrogenase 則顯著**DECREASED**。\n3. **Exam Trap**: 2025 年考題陷阱常將 MAPKs 錯寫為降低；正確觀念為 MAPKs 呈高度激活以驅動 Tubulointerstitial Fibrosis。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_3",
@@ -721,7 +721,7 @@
       "providedAnswer": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Pathologic Post-Obstructive Diuresis (POD) 臨床輸液處置的黃金準則與避坑防線。\n1. **100% Replacement Fallacy**: 若採取 1:1 (100%) 完全等量補水，會持續維持腔內 Osmotic & Fluid Burden，引發醫源性利尿 (Iatrogenic Diuresis)，使得 POD 永不停止。\n2. **50-75% Hypotonic Replacement Rule**: 正確處置為點滴給予 0.45% Saline (Hypotonic Fluid)，補充前一小時尿量的 **50% 至 75%**，並密切監測 Serum Electrolytes ($Na^+, K^+, Mg^{2+}$)。此舉可在防範 Hypovolemia 的同時，允許體內水鹽負擔逐步降至生理平衡。",
+      "sourceExplanation": "本題考查 Pathologic Post-Obstructive Diuresis (POD) 臨床輸液處置的黃金準則與避坑防線。\n1. **100% Replacement Fallacy**: 若採取 1:1 (100%) 完全等量補水，會持續維持腔內 Osmotic & Fluid Burden，Iatrogenic Diuresis，使得 POD 永不停止。\n2. **50-75% Hypotonic Replacement Rule**: 正確處置為點滴給予 0.45% Saline (Hypotonic Fluid)，補充前一小時尿量的 **50% 至 75%**，並密切監測 Serum Electrolytes ($Na^+, K^+, Mg^{2+}$)。此舉可在防範 Hypovolemia 的同時，允許體內水鹽負擔逐步降至生理平衡。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_4",
@@ -790,7 +790,7 @@
       "providedAnswer": "D",
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 2023 台大臨床題陷阱：Obstructive Uropathy 引發極重度 Uremia 時的急診首選處置觀念。\n1. **Clinical Vignette**: 患者因 Obstructive Uropathy 呈現 BUN 112 mg/dL, Creatinine 9.5 mg/dL 之極重度 Uremia。\n2. **Decompression Priority**: 儘管患者 BUN 極高，其根源為 Post-renal Obstruction。首選處置為**立即執行 Urinary Tract Decompression (置入 Foley Catheter, PCN 或 Percutaneous Stent)**。只要通暢尿路，腎功能與 Uremia 即可迅速改善。透析 (Hemodialysis) 絕非第一時間處置，僅在引流失敗、或伴隨難治性致命hyperkalemia/肺水腫時始考慮。",
+      "sourceExplanation": "本題考查 2023 台大臨床題陷阱：Obstructive Uropathy 引發極重度 Uremia 時的急診首選處置觀念。\n1. **Clinical Vignette**: 患者因 Obstructive Uropathy 呈現 BUN 112 mg/dL, Creatinine 9.5 mg/dL 之極重度 Uremia。\n2. **Decompression Priority**: 儘管患者 BUN 極高，其根源為 Post-renal Obstruction。首選處置為**立即執行 Urinary Tract Decompression (置入 Foley Catheter, PCN 或 Percutaneous Stent)**。只要通暢尿路，腎功能與 Uremia 即可迅速改善。Hemodialysis 絕非第一時間處置，僅在引流失敗、或伴隨難治性致命hyperkalemia/肺水腫時始考慮。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_5",

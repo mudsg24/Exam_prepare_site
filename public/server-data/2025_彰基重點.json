@@ -58,7 +58,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (D) 不符",
+      "reconciliationNotes": "A 與 NotebookLM D 不符",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -90,7 +90,7 @@
           "text": "Decreased the incidence of Encapsulation Peritoneal Sclerosis"
         }
       ],
-      "sourceExplanation": "本題正確選項為 (B)。\n\n針對患有 diabetic kidney disease 且長期接受 peritoneal dialysis (PD) 的患者，若為了控制波動的 blood glucose 而選擇在 dialysate 中加入 intra-peritoneal insulin，腎臟科醫師必須特別警覺 hepatic subcapsular steatosis (HSS) 的風險。因為由腹腔內給予的 insulin 會直接經由腹膜吸收並進入 portal vein 系統，這會導致肝臟局部組織（尤其是肝包膜下區域）暴露於極高濃度的 insulin 中，進而刺激局部脂肪的大量生成與沉積，誘發肝臟包膜下脂肪變性。此為 intra-peritoneal insulin 特有的局部併發症。\n\n此外，在併發 sepsis 或 peritonitis 的狀態下，腹膜的 peritoneal transport characteristics 常因急性發炎而暫時性轉變為 high transporter 狀態，造成葡萄糖快速吸收並導致 ultrafiltration 衰退，這亦是臨床重症照護中需密切監控的重點。",
+      "sourceExplanation": "B。\n\n針對患有 diabetic kidney disease 且長期接受 peritoneal dialysis (PD) 的患者，若為了控制波動的 blood glucose 而選擇在 dialysate 中加入 intra-peritoneal insulin，腎臟科醫師必須特別警覺 hepatic subcapsular steatosis (HSS) 的風險。因為由腹腔內給予的 insulin 會直接經由腹膜吸收並進入 portal vein 系統，這會導致肝臟局部組織（尤其是肝包膜下區域）暴露於極高濃度的 insulin 中，進而刺激局部脂肪的大量生成與沉積，誘發肝臟包膜下脂肪變性。此為 intra-peritoneal insulin 特有的局部併發症。\n\n此外，在併發 sepsis 或 peritonitis 的狀態下，腹膜的 peritoneal transport characteristics 常因急性發炎而暫時性轉變為 high transporter 狀態，造成葡萄糖快速吸收並導致 ultrafiltration 衰退，這亦是臨床重症照護中需密切監控的重點。",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
@@ -348,7 +348,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (UNKNOWN) 不符",
+      "reconciliationNotes": "D 與 NotebookLM UNKNOWN 不符",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

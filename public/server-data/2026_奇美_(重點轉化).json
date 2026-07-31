@@ -37,7 +37,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 後天性尿路阻塞成因 (Intrinsic vs Extrinsic Causes & Retroperitoneal Fibrosis) 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：尿路阻塞 - 後天性尿路阻塞成因 (Intrinsic vs Extrinsic Causes & Retroperitoneal Fibrosis)。",
+      "sourceExplanation": "本題考查 後天性尿路阻塞成因 (Intrinsic vs Extrinsic Causes & Retroperitoneal Fibrosis) 之核心病理生理與臨床處置原則。正解為 C。\n\n詳細解析：尿路阻塞 - 後天性尿路阻塞成因 (Intrinsic vs Extrinsic Causes & Retroperitoneal Fibrosis)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -57,7 +57,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q02",
@@ -89,7 +92,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 **Acute Complete Bilateral Ureteral Obstruction (BUO) vs. Unilateral Ureteral Obstruction (UUO) 超早期 (2–5 小時) 血流動力學分歧與 Renorenal Reflex** 之核心病理生理學機制。正解為 **(A)**。\n\n#### **1. 病理生理學與微血管動力學剖析**\n- **UUO 超早期代償 (The Early, Hyperemic Phase, 0–2 hours)**：在單側梗阻初期，`intratubular pressure` (Proximal Tubular Pressure, $P_T$) 劇烈升高。為防止 `SNGFR` 瞬間歸零，腎臟會啟動內源性代償，局部釋放 `Prostaglandin E2 (PGE2)` 與 `Prostacyclin (PGI2)` 引發強烈的 **Afferent Arteriolar Vasodilation**（`afferent arteriolar resistance` $R_A \\downarrow$），進而調高 `glomerular capillary hydraulic pressure` ($P_{GC} \\uparrow$) 以克服高企的管腔反壓，使 `renal blood flow (RBF)` 出現短暫升幅。\n- **BUO 超早期血流阻斷 (Neural Renorenal Reflex, 2–5 hours)**：相對地，在急性雙側梗阻 (`BUO`) 發生後的 2–5 小時內，這種保護性的 `RBF` 升幅與 `afferent vasodilation` **完全消失或顯著受抑**。此病理分歧並非源自體液因子蓄積（如 `ANP`，其生理作用為 `afferent vasodilator`），而是由神經介導的 **Vasoconstrictive Renorenal Reflex** 主導。雙側腎盂高壓劇烈刺激受阻側的 `sensory receptors` 與 `afferent renal nerve activity`，經由中樞反射傳出高頻的 `efferent sympathetic adrenergic tone` 至 `afferent arterioles`，引發強烈的血管收縮 ($R_A \\uparrow\\uparrow$)，直接覆蓋並抵消了局部 `prostaglandins` 的舒張效應。\n\n#### **2. 選項逐一解析**\n- **Option (A) 正確**：精準指出 `BUO` 早期 `RBF` 升幅受抑是經由神經介導的 `vasoconstrictive renorenal reflex` 激活傳出交感神經，引發 `efferent sympathetic adrenergic tone to afferent arterioles`。\n- **Option (B) 錯誤**：`PGE2` 缺乏並非主要原因，且機轉並非引發 `efferent vasodilation`。\n- **Option (C) 錯誤**：`BUO` 在 24 小時內 `RBF` 會顯著下降，而非持續升高。\n- **Option (D) 錯誤**：`BUO` 會導致 `GFR` 劇降而非上升。",
+      "sourceExplanation": "本題考查 **Acute Complete Bilateral Ureteral Obstruction (BUO) vs. Unilateral Ureteral Obstruction (UUO) 超早期 (2–5 小時) 血流動力學分歧與 Renorenal Reflex** 之核心病理生理學機制。正解為 **(A)**。\n\n#### **1. 病理生理學與微血管動力學剖析**\n- **UUO 超早期代償 (The Early, Hyperemic Phase, 0–2 hours)**：在單側梗阻初期，`intratubular pressure` (Proximal Tubular Pressure, $P_T$) 劇烈升高。為防止 `SNGFR` 瞬間歸零，腎臟會啟動內源性代償，局部釋放 `Prostaglandin E2 (PGE2)` 與 `Prostacyclin (PGI2)` 引發強烈的 **Afferent Arteriolar Vasodilation**（`afferent arteriolar resistance` $R_A \\downarrow$），進而調高 `glomerular capillary hydraulic pressure` ($P_{GC} \\uparrow$) 以克服高企的管腔反壓，使 `renal blood flow (RBF)` 出現短暫升幅。\n- **BUO 超早期血流阻斷 (Neural Renorenal Reflex, 2–5 hours)**：相對地，在急性雙側梗阻 (`BUO`) 發生後的 2–5 小時內，這種保護性的 `RBF` 升幅與 `afferent vasodilation` **完全消失或顯著受抑**。此病理分歧並非源自體液因子蓄積（如 `ANP`，其生理作用為 `afferent vasodilator`），而是由神經介導的 **Vasoconstrictive Renorenal Reflex** 主導。雙側腎盂高壓劇烈刺激受阻側的 `sensory receptors` 與 `afferent renal nerve activity`，經由中樞反射傳出高頻的 `efferent sympathetic adrenergic tone` 至 `afferent arterioles`，引發強烈的vasoconstriction ($R_A \\uparrow\\uparrow$)，直接覆蓋並抵消了局部 `prostaglandins` 的舒張效應。\n\n#### **2. 選項逐一解析**\n- **Option A 正確**：精準指出 `BUO` 早期 `RBF` 升幅受抑是經由神經介導的 `vasoconstrictive renorenal reflex` 激活傳出交感神經，引發 `efferent sympathetic adrenergic tone to afferent arterioles`。\n- **Option B 錯誤**：`PGE2` 缺乏並非主要原因，且機轉並非引發 `efferent vasodilation`。\n- **Option C 錯誤**：`BUO` 在 24 小時內 `RBF` 會顯著下降，而非持續升高。\n- **Option D 錯誤**：`BUO` 會導致 `GFR` 劇降而非上升。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -127,8 +130,9 @@
         }
       ],
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:45+08:00",
-      "qcNotes": "Both NLM responses and source answer unanimously agree on Option A."
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q03",
@@ -160,7 +164,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 **Established Unilateral Ureteral Obstruction (UUO, >24 hours) 之 Glomerular Hemodynamics & Starling Forces 分歧** 之核心病理生理學機制。正解為 **(D)**。\n\n#### **1. 病理生理學與微血管動力學剖析**\n- **Established UUO (>24 hours) 的 Starling Forces 演變**：在 complete `UUO` 梗阻持續超過 24 小時後，管腔與 Bowman space 內的液體反壓 ($P_{BS}$ / $P_T$) 經由腎小球與腎小管淋巴/靜脈重吸收，已自早期的高點顯著回落，降至接近正常基線水平 ($P_{BS} =$ baseline)。\n- **SNGFR 劇降的核心驅動力**：此階段引發 `Single Nephron GFR (SNGFR)` 與 whole-kidney `GFR` 劇烈且持續下降的主導因素，是腎內局部活化的 `Thromboxane A2 (TXA2)`、`Angiotensin II (Ang II)` 與 `Endothelin-1 (ET-1)` 引發極為強烈的 **Afferent Arteriolar Vasoconstriction** ($R_A \\uparrow\\uparrow$)。高額的進球小動脈阻力限制了血液進入腎小球，導致 **Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 發生斷崖式劇降 ($P_{GC} \\downarrow\\downarrow$)**。\n- **與 BUO >24h 之對比 (Brenner 11e Table 37.1)**：\n  - **UUO (>24h)**：$P_{BS} =$ baseline，核心驅動力為 **Profound reduction in $P_{GC}$** ($P_{GC} \\downarrow\\downarrow$)。\n  - **BUO (>24h)**：因全身容量擴張與高濃度 `ANP` 舒張保護，其 $P_{GC} =$ baseline；但因無處排泄，其 **$P_{BS}$ 維持於極高反壓 ($P_{BS} \\uparrow\\uparrow$)**。\n  - 絕無任何梗阻階段會同時存在「**Elevated $P_{BS}$** 結合 **Profoundly Reduced $P_{GC}$**」之力學狀態。\n\n#### **2. 選項逐一解析**\n- **Option (D) 正確**：精準描述了 established UUO 的病生理——`P_GC` 由於 `afferent arteriolar vasoconstriction` 顯著劇降，且 `Bowman space pressure` 已回落至基線水平。\n- **Option (A) 錯誤**：$P_{GC}$ 在 established UUO 呈現顯著下降，而非上升。\n- **Option (B) 錯誤**：體循環膠體滲透壓下降並非主導 SNGFR 劇降的原因。\n- **Option (C) 錯誤**：$P_{BS}$ 是回落至接近正常基線，而非完全消失 (complete abolition)。",
+      "sourceExplanation": "本題考查 **Established Unilateral Ureteral Obstruction (UUO, >24 hours) 之 Glomerular Hemodynamics & Starling Forces 分歧** 之核心病理生理學機制。正解為 **(D)**。\n\n#### **1. 病理生理學與微血管動力學剖析**\n- **Established UUO (>24 hours) 的 Starling Forces 演變**：在 complete `UUO` 梗阻持續超過 24 小時後，管腔與 Bowman space 內的液體反壓 ($P_{BS}$ / $P_T$) 經由腎小球與腎小管淋巴/靜脈重吸收，已自早期的高點顯著回落，降至接近正常基線水平 ($P_{BS} =$ baseline)。\n- **SNGFR 劇降的核心驅動力**：此階段引發 `Single Nephron GFR (SNGFR)` 與 whole-kidney `GFR` 劇烈且持續下降的主導因素，是腎內局部活化的 `Thromboxane A2 (TXA2)`、`Angiotensin II (Ang II)` 與 `Endothelin-1 (ET-1)` 引發極為強烈的 **Afferent Arteriolar Vasoconstriction** ($R_A \\uparrow\\uparrow$)。高額的進球小動脈阻力限制了血液進入腎小球，導致 **Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 發生斷崖式劇降 ($P_{GC} \\downarrow\\downarrow$)**。\n- **與 BUO >24h 之對 Brenner 11e Table 37.1**：\n - **UUO (>24h)**：$P_{BS} =$ baseline，核心驅動力為 **Profound reduction in $P_{GC}$** ($P_{GC} \\downarrow\\downarrow$)。\n - **BUO (>24h)**：因全身容量擴張與高濃度 `ANP` 舒張保護，其 $P_{GC} =$ baseline；但因無處排泄，其 **$P_{BS}$ 維持於極高反壓 ($P_{BS} \\uparrow\\uparrow$)**。\n - 絕無任何梗阻階段會同時存在「**Elevated $P_{BS}$** 結合 **Profoundly Reduced $P_{GC}$**」之力學狀態。\n\n#### **2. 選項逐一解析**\n- **Option D 正確**：精準描述了 established UUO 的病生理——`P_GC` 由於 `afferent arteriolar vasoconstriction` 顯著劇降，且 `Bowman space pressure` 已回落至基線水平。\n- **Option A 錯誤**：$P_{GC}$ 在 established UUO 呈現顯著下降，而非上升。\n- **Option B 錯誤**：體循環膠體osmolality下降並非主導 SNGFR 劇降的原因。\n- **Option C 錯誤**：$P_{BS}$ 是回落至接近正常基線，complete abolition。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -198,8 +202,9 @@
         }
       ],
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:45+08:00",
-      "qcNotes": "Both NLM responses and source answer unanimously agree on Option D."
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q04",
@@ -231,7 +236,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Molecular Changes & Impaired Urinary Concentrating Ability 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：尿路阻塞 - Molecular Changes & Impaired Urinary Concentrating Ability。",
+      "sourceExplanation": "本題考查 Molecular Changes & Impaired Urinary Concentrating Ability 之核心病理生理與臨床處置原則。正解為 B。\n\n詳細解析：尿路阻塞 - Molecular Changes & Impaired Urinary Concentrating Ability。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -251,7 +256,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q05",
@@ -283,7 +291,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Post-obstructive Diuresis 之發生條件與生理機轉 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Post-obstructive Diuresis 之發生條件與生理機轉。",
+      "sourceExplanation": "本題考查 Post-obstructive Diuresis 之發生條件與生理機轉 之核心病理生理與臨床處置原則。正解為 D。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Post-obstructive Diuresis 之發生條件與生理機轉。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -303,7 +311,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q06",
@@ -335,7 +346,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Pathological Post-obstructive Diuresis & Molecular Defects 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Pathological Post-obstructive Diuresis & Molecular Defects。",
+      "sourceExplanation": "本題考查 Pathological Post-obstructive Diuresis & Molecular Defects 之核心病理生理與臨床處置原則。正解為 D。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Pathological Post-obstructive Diuresis & Molecular Defects。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -355,7 +366,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q07",
@@ -387,7 +401,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Doppler Renal Resistive Index (RI) in Acute Obstruction 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Doppler Renal Resistive Index (RI) in Acute Obstruction。",
+      "sourceExplanation": "本題考查 Doppler Renal Resistive Index (RI) in Acute Obstruction 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Doppler Renal Resistive Index (RI) in Acute Obstruction。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -407,7 +421,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q08",
@@ -439,7 +456,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "傳統的 functional biomarkers 如 serum creatinine 存在嚴重的時間滯後 (trailing marker)。在早期小管間質受損時，受惠於 renal reserve 與殘餘腎單位的 compensatory hyperfiltration，serum creatinine 的上升會出現延遲。新型的小管損傷結構性標誌物 (structural biomarkers of tubular injury) 如 Urinary NGAL 與 Urinary KIM-1 能更早識別早期小管間質的結構性受損 (tubulointerstitial injury)。NGAL 主要在 distal tubule epithelium 受損時表達上調，而 KIM-1 則在 proximal tubular cells 受損時爆發性高表達。藉由評估這兩種指標的動態變化，能精確評估並預測 relief of obstruction 後 renal function recovery 的概率與程度。",
+      "sourceExplanation": "傳統的 functional biomarkers 如 serum creatinine trailing marker。在早期小管間質受損時，受惠於 renal reserve 與殘餘腎單位的 compensatory hyperfiltration，serum creatinine 的上升會出現延遲。structural biomarkers of tubular injury 如 Urinary NGAL 與 Urinary KIM-1 tubulointerstitial injury。NGAL 主要在 distal tubule epithelium 受損時表達上調，而 KIM-1 則在 proximal tubular cells 受損時爆發性高表達。藉由評估這兩種指標的動態變化，能精確評估並預測 relief of obstruction 後 renal function recovery 的概率與程度。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -462,8 +479,8 @@
       "qcVerified": true,
       "selectedOption": "B",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:45+08:00",
-      "qcNotes": "Both NLM responses and source answer unanimously agree on Option B.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "responses": [
         {
@@ -478,7 +495,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "這是一份身為高階腎臟醫學考試命題委員與權威專家的專業分析，針對您提出的國考/專科醫師學術考試模擬試題進行深度解析。\n\n---\n\n### 1. Answer Determination（答案判定）\n\n本題之正確解答為：**(B) Urinary Neutrophil Gelatinase-Associated Lipocalin (NGAL) and Kidney Injury Molecule-1 (KIM-1)**\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis（詳細病理生理機制與正解分析）\n\n#### (1) Obstructive Nephropathy 的 tubulointerstitial injury 機制\n當發生持續性（大於 24 小時）的 **urinary tract obstruction** 時，會導致近端小管壓力（**proximal tubule hydraulic pressure, $P_T$**）顯著上升，進而對小管上皮細胞（**tubular epithelial cells**）產生機械性牽拉（**tubular stretch**）與剪力壓力 [1-3]。\n此機械性壓力會活化 **MAPK**、**NF-κB** 等細胞內訊號路徑，促使小管細胞釋放促發炎與促纖維化因子，如 **TNF-α**、**TGF-β1**、**MCP-1** 及 **angiotensin II (Ang II)** [4-7]。這些因子會召集巨噬細胞（**macrophages**）與肥大細胞（**mast cells**）浸潤腎間質，進而引發小管上皮細胞凋亡（**apoptosis**）、上皮間質轉化（**epithelial-to-mesenchymal transition, EMT**）以及肌纖維母細胞（**myofibroblasts**）累積，最終導致不可逆的 **tubulointerstitial fibrosis** 與腎功能喪失 [4, 6, 7]。\n\n#### (2) 傳統功能性指標的局限性\n在臨床上，當尿路阻塞被解除（**relief of obstruction**）後，傳統指標如 **serum creatinine** 與 **urine output** 僅能反映整體的腎小球濾過率（**glomerular filtration rate, GFR**），且常有嚴重的「時間滯後性」（**lagging marker**）[8, 9]。**serum creatinine** 在腎臟儲備功能（**renal reserve**）良好或僅有單側阻塞時可能維持正常，無法早期診斷出亞臨床的腎小管間質損傷（**subclinical tubulointerstitial injury**），亦無法準確預測解除阻塞後小管功能的恢復潛能 [10, 11]。\n\n#### (3) NGAL 與 KIM-1 之臨床生理角色與預測價值\n為了解決傳統指標的局限，臨床上引入了反應腎小管受損而非僅反映濾過率變化的 **novel urinary biomarkers** [12, 13]：\n*   **Urinary Neutrophil Gelatinase-Associated Lipocalin (NGAL)**：\n    *   **NGAL**（亦稱 **lipocalin 2**）為一種 **25-kDa glycoprotein** [14, 15]。在發生急性小管損傷或 **urinary tract obstruction** 時，**NGAL** 的基因表現在遠端腎單位（如 **thick ascending limb of Henle** 與 **collecting ducts**）會被高度上調並大量釋放入尿液中 [16-18]。尿液中的 **NGAL** 水平與腎小管間質受損程度（**interstitial fibrosis and tubular atrophy**）呈高度正相關，能有效偵測阻塞早期的細胞受損 [18, 19]。\n*   **Urinary Kidney Injury Molecule-1 (KIM-1)**：\n    *   **KIM-1** 是一種 **type I transmembrane glycoprotein** [15, 20]。在正常健康的腎臟中幾乎偵測不到 **KIM-1**，但當近端小管細胞（**proximal tubular cells**）受到缺血或毒性損傷時，其表現量會極度上升，其胞外域（**ectodomain**）會被剪切並釋放入尿液中 [20-23]。尿液中 **KIM-1** 濃度的升高是早期近端小管受損的極敏感指標 [22]。\n*   **預測腎功能恢復（Predicting Recovery）**：\n    *   這兩種生物標記在尿液中的濃度變化能即時反映腎小管上皮細胞的存活與去分化/再生能力（**dedifferentiation and proliferation**）[24-26]。當阻塞解除後，**urinary NGAL** 與 **KIM-1** 的下降軌跡可作為臨床上評估小管間質再生、預測腎功能得以成功恢復（**recovery of renal function**）或是否已進展至不可逆轉纖維化之關鍵無創預後指標 [18, 27, 28]。\n\n---\n\n### 3. Distractor Option Analysis（干擾選項分析）\n\n#### (A) Serum creatinine alone without urinary output monitoring\n*   **錯誤原因**：**serum creatinine** 是一個功能性指標而非結構性受損指標，對早期腎小管損傷極不敏感 [9, 29]。當發生急性或慢性尿路阻塞時，**serum creatinine** 容易受到肌肉量、年齡、飲食等非腎臟因素影響 [30, 31]；且在雙側腎臟儲備能力良好時，即使單側小管已發生顯著損傷，**serum creatinine** 仍可維持在正常範圍內（即 **creatinine-blind range**）[10, 32]。此外，單獨檢測 **serum creatinine** 而不監測 **urine output**，將無法有效評估阻塞性腎病變最具臨床預後意義的排尿狀態，更無法用於識別早期腎小管間質受損或預測解除阻塞後的腎功能恢復進程 [10, 31]。\n\n#### (C) Urine uric acid to creatinine ratio < 0.1\n*   **錯誤原因**：此指標在臨床上常被用於鑑別診斷因 **uric acid** 沉澱引起的急性尿酸性腎病變（**acute uric acid nephropathy**）或腫瘤溶解症候群（**tumor lysis syndrome, TLS**），其中比值 $>1.0$ 提示急性尿酸腎病變 [33]。\n*   另外，基因突變導致的體染色體顯性腎小管間質腎病變（**Autosomal Dominant Tubulointerstitial Kidney Disease, ADTKD-UMOD**）雖然與高尿酸血症（**hyperuricemia**）及極低的尿酸清除分數（**low fractional excretion of uric acid**）相關 [34, 35]；但在解除「尿路阻塞（**urinary tract obstruction**）」後，尿液中的尿酸與肌酸酐比值（**uric acid to creatinine ratio**）並非臨床用來判定小管間質受損與預測功能恢復的 novel biomarker [18, 36]。\n\n#### (D) Serum cystatin C combined with urine osmolality > 1200 mOsm/kg\n*   **錯誤原因**：此選項在生理學上完全不成立（**physiologically impossible**）。\n    1.  **尿液濃縮能力喪失（Concentrating Defect）**：持續性的尿路阻塞會導致腎臟髓質結構受損，使小管上皮細胞內的各種轉運蛋白（如 **NKCC2**、**Na+,K+-ATPase**）以及集尿管上的水通道蛋白（**Aquaporin-2, AQP2**）發生嚴重的下調（**downregulation**）[37-40]。這使得腎臟完全失去濃縮與稀釋尿液的能力 [41, 42]。在解除阻塞後，尿液滲透壓（**urine osmolality**）會接近等滲尿（**isosthenuria**），即逼近血漿滲透壓（約 **300 mOsm/kg**），根本不可能達到 **$> 1200\\text{ mOsm/kg}$** 的超高度濃縮狀態 [42, 43]。\n    2.  **指標性質錯誤**：**Serum cystatin C** 是反映 **GFR** 的血清過濾功能指標 [44, 45]，並非用於偵測早期腎小管間質受損並預測解除阻塞後功能恢復的尿液結構受損生物標記。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons（高頻考點比較）\n\n在醫學專科考試中，**Urinary Tract Obstruction (Postrenal AKI)** 最常與 **Prerenal Azotemia** 以及 **Acute Tubular Necrosis (ATN)** 進行臨床與實驗室數據的比較：\n\n| 診斷指標 (Diagnostic Index) | Prerenal Azotemia | Acute Tubular Necrosis (ATN) | Urinary Tract Obstruction (Postrenal) [43, 46] |\n| :--- | :--- | :--- | :--- |\n| **Urine Sodium ($U_{Na}$)** | $< 20\\text{ mmol/L}$ | $> 40\\text{ mmol/L}$ | 急性期：$< 20\\text{ mmol/L}$；慢性期：$> 20\\text{ mmol/L}$ |\n| **Fractional Excretion of Na ($FE_{Na}$)** | $< 1\\%$ | $> 2\\%$ | 急性期：$< 1\\%$；慢性期（小管受損後）：$> 1\\%$ |\n| **Urine Osmolality ($U_{osm}$)** | $> 500\\text{ mOsm/kg}$ | $\\approx 300\\text{ mOsm/kg}$ | 隨病程進展逐漸降至 $\\approx 300\\text{ mOsm/kg}$（等滲尿） |\n| **Urine Sediment (尿沉渣)** | **Hyaline casts** (透明管型) | **Muddy brown granular casts** (泥褐色顆粒管型) | 早期多呈 **Benign sediment** (無特異性)；若合併結石或腫瘤可見紅血球 |\n| **Novel Biomarkers** | 正常或極輕微上升 | **NGAL**, **KIM-1**, **IL-18** 顯著上升 [47, 48] | **Urinary NGAL** 與 **KIM-1** 呈中度至高度上升 [18] |\n\n此外，考試中常將 **Urinary Tract Obstruction** 引起的慢性變化與 **ADTKD-UMOD**（體染色體顯性腎小管間質腎病變）進行比較：\n*   **ADTKD-UMOD** [34, 35]：\n    *   遺傳方式：**Autosomal dominant**。\n    *   基因突變：*UMOD*（表現於 **TAL** 的 **uromodulin**）[34, 35]。\n    *   特徵：早期呈現痛風（**gout**）與高尿酸血症（**hyperuricemia**），尿沉渣通常為 **benign** 且無顯著蛋白尿（**nonproteinuric CKD**）[34, 35, 49]。\n*   **Urinary Tract Obstruction** [41, 50]：\n    *   病史通常有前列腺肥大、腹膜後腔纖維化或婦科腫瘤病史 [50, 51]；\n    *   臨床上主要表現為非對稱性腎臟大小改變（超音波檢查）、局部疼痛、尿量波動、排尿困難 [50, 52]。\n\n---\n\n### 5. Citations & References（文獻引用與出處）\n\n*   **Chapter & Section References**:\n    *   **Brenner & Rector's The Kidney, Chapter 37**: *Urinary Tract Obstruction*\n        *   Section: *Biomarkers for Evaluation of Urinary Tract Obstruction* [18, 36]\n        *   Section: *Effects of Obstruction on Urinary Concentration and Dilution* [42]\n        *   Section: *Recovery of Glomerular Function After Relief of Obstruction* [53, 54]\n    *   **Brenner & Rector's The Kidney, Chapter 35**: *Tubulointerstitial Diseases*\n        *   Section: *Mechanisms of Tubulointerstitial Injury* [55, 56]\n        *   Section: *Acute Tubulointerstitial Nephritis* (Sub-section: *Novel Urinary Biomarkers*) [57]\n    *   **Brenner & Rector's The Kidney, Chapter 27**: *Biomarkers in Acute and Chronic Kidney Diseases*\n        *   Section: *Urinary Tubular Injury Markers* (Sub-sections: *Neutrophil Gelatinase-Associated Lipocalin*, *Kidney Injury Molecule-1*) [14, 20, 22]\n    *   **KDIGO Guidelines**:\n        *   **KDIGO 2012 Acute Kidney Injury Guideline** & **KDIGO 2026 AKI-AKD Guideline Public Review Draft**:\n            *   Section: *Biomarkers for AKI Risk Stratification and Etiology* [58, 59]\n            *   Table: *Description and characteristics of select AKI biomarkers* [60-62]\n\n---\n\n### 6. Language & Terminology Rules（語言與術語規範）\n\n*   本學術分析內文之說明完全使用繁體中文（Traditional Chinese）撰寫。\n*   所有醫學專業術語均維持、且僅用標準英文（English Medical Terminology）表述，未混雜任何中文翻譯，以確保學術考題分析之最高嚴謹度。\n\n---\n\n🔍 **建議命題追蹤**：是否需要我進一步針對解除了 obstruction 後，因小管功能未恢復所導致之「生理性多尿與後續鹽份流失症候群（**salt-wasting syndrome**）」在考試中的生理學機制及電解質變化（如 **fractional excretion of magnesium** 變化）為您撰寫相關的考題與詳解分析？"
         }
-      ]
+      ],
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q09",
@@ -533,8 +551,8 @@
       "qcVerified": true,
       "selectedOption": "B",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:45+08:00",
-      "qcNotes": "Both NLM responses and source answer unanimously agree on Option B.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "responses": [
         {
@@ -549,7 +567,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "### 1. Answer Determination\n本題的正確選項為 **(B) Loss of detrusor compliance due to massive collagen deposition, leading to high storage pressures and bilateral ureteral reflux/hydronephrosis**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n*   **BPH 引起的 subvesical BOO 生理代償機制**：\n    在老年男性中，**Benign Prostatic Hyperplasia (BPH)** 是引起 subvesical **bladder outlet obstruction (BOO)** 最常見的 acquired 原因 [1, 2]。當 **prostate** 增生並壓迫 **urethra** 時，**bladder** 必須產生更高的壓力以克服排尿阻力。在早期代償階段（**compensated phase**），**detrusor muscle** 會發生 **smooth muscle cell hypertrophy**，藉此維持足夠的 **voiding pressure** [3]。\n*   **失代償階段（Decompensated Phase）的結構重塑（Structural Remodeling）**：\n    然而，在 **long-standing untreated severe BPH** 的情況下，**bladder wall** 因長期遭受機械性牽拉（**mechanical stretch**）而啟動一系列 **profibrotic pathways** [4]。當病程進入失代償階段（**decompensated phase**），其病理特徵轉變為 **detrusor muscle** 的進行性纖維化，伴隨大量的 **collagen** 等 **extracellular matrix (ECM)** 沉積，逐漸取代原本肥大的 **smooth muscle cells**。\n*   **Detrusor compliance 喪失與高儲尿壓（High Storage Pressures）**：\n    這種 **massive collagen deposition** 會嚴重破壞 **bladder wall** 的彈性，導致 **detrusor compliance** 發生不可逆的喪失（即 **bladder** 變得極度僵硬，在 **filling** 過程中無法在低壓下擴張）[3, 5]。這會導致在 **storage** 階段，**intravesical pressure** 隨著 **urine** 累積而急遽上升，形成持續性的 **high storage pressures** [3]。\n*   **逆行性壓力傳導與雙側 Hydronephrosis**：\n    當 **bladder** 的 **resting intravesical pressure** 異常升高且無法有效 **empty** 時，此高壓會逆行性地（**retrogradely**）傳導至雙側的 **ureters** 與 **renal pelvis** [3]。這不僅會破壞 **ureterovesical junction (UVJ)** 的生理抗反流機制，引起 **vesicoureteral reflux (VUR)**，也會阻礙 **ureter** 的正常蠕動排空 [3, 5]，進而造成雙側的 **hydroureter** 與 **chronic bilateral hydronephrosis** [3, 6, 7]。\n*   **Obstructive Nephropathy 與進行性 CKD**：\n    這種逆行性的 **hydrostatic pressure** 會進一步傳導至 **Bowman's space** 與 **tubules**，直接對 **glomerular filtration** 產生物理性阻力，導致 **GFR** 急劇下降 [8, 9]。此外，長期的高壓與組織缺氧會引發 **obstructive nephropathy**，其特徵為進行性的 **tubular atrophy**、**tubulointerstitial inflammation**，以及由 **cytokines**（如 **TNF-α**, **TGF-β1**, **Ang II**）驅動的 **interstitial fibrosis** [4, 7, 10-12]。這在臨床上會表現為進行性的 **renal failure / CKD**，使該名患者的 **serum creatinine** 升高至 **4.2 mg/dL** [13]。\n\n---\n\n### 3. Distractor Option Analysis\n*   **(A) Smooth muscle cell hypertrophy without ECM deposition 錯誤分析**：\n    **Smooth muscle cell hypertrophy** 是 **BOO** 早期（**compensated phase**）的主要代償性病理變化 [3]。然而，本題詢問的是晚期或失代償階段（**decompensated phase**）。此時結構重塑的核心病理特徵是伴隨 **massive collagen deposition** 等 **ECM** 沉積，這也是導致 **detrusor compliance** 喪失的關鍵，因此 \"without ECM deposition\" 與失代償期的生理演變完全不符。\n*   **(C) Marked increase in bladder wall compliance with zero resting intravesical pressure 錯誤分析**：\n    在 **decompensated phase**，由於大量 **collagen** 的沉積與纖維化，**bladder wall compliance** 是「顯著下降」（**loss of detrusor compliance**）而非增加；且由於阻力增加與 **urinary retention**，其 **resting intravesical pressure (storage pressure)** 會顯著升高 [3]，絕對不可能維持在 **zero** 的水平。\n*   **(D) Complete loss of alpha-1 adrenergic receptor responsiveness in the prostate capsule 錯誤分析**：\n    即使在嚴重的 **BPH** 患者中，**prostate smooth muscle** 與 **prostate capsule** 上的 **alpha-1 adrenergic receptors**（主要是 **α1A** 亞型）依然保有高度的活性與 **responsiveness** [14]。這也是為什麼 selective **alpha-1 adrenergic antagonists**（如 **tamsulosin**, **doxazosin** 等 **alpha-blockers**）在臨床上仍被列為緩解 **BOO**、放鬆 **prostate smooth muscle** 並改善 **voiding symptoms** 的一線治療藥物 [14, 15]，並未發生受體反應性完全喪失的情況。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n在醫學專科考試中，此 disease 及其 clinical condition 常被拿來與以下疾病或檢查結果進行比較：\n*   **Acute Unilateral Obstruction (e.g., Nephrolithiasis) vs. Chronic Bilateral Subvesical Obstruction (e.g., BPH)**：\n    *   *Acute Unilateral Obstruction*：通常因 **kidney stone** 突然卡在 **ureter** 所致 [16]，由於突發性的 **renal capsule** 與 **collecting system** 擴張 [17]，會引發劇烈的急性 **renal colic** [17, 18]，但由於對側 **kidney** 代償，患者的 whole-kidney **GFR** 與 **serum creatinine** 通常維持正常，僅有單側 **hydronephrosis** [16, 19]。\n    *   *Chronic Bilateral BOO*：病程發展隱匿（**insidious**）[17, 20]，常無劇烈 pain，但會導致雙側 **hydronephrosis** [6] 並逐漸進展為雙側 **obstructive nephropathy** 與進行性 **renal failure** [13, 20]。\n*   **Primary Glomerulopathy vs. Obstructive Nephropathy**：\n    *   *Primary Glomerulopathy*（如 **FSGS**, **Minimal Change Disease**）：常表現為顯著的 **proteinuria**（常達 **nephrotic range > 3.5 g/24 hours**）及 **active urinary sediment**（出現 **dysmorphic RBCs**、**RBC casts**） [21-23]。\n    *   *Obstructive Nephropathy*：其 **urinalysis** 上的 **proteinuria** 通常較輕微（一般 **< 2 g/day**） [24]，且 **urinary sediment** 通常呈現「溫和」或「乾淨」的狀態（**bland urinary sediment**） [24]。診斷高度依賴 **US** 或 **CT** 顯示雙側 **hydronephrosis** 伴隨 **renal parenchymal atrophy / cortical thinning** [25, 26]。\n*   **Neurogenic Bladder (Detrusor-Sphincter Dyssynergia) vs. BOO due to BPH**：\n    *   在 **upper motor neuron lesions**（如 **spinal cord injury**, **multiple sclerosis**）中，由於 **detrusor-sphincter dyssynergia (DSD)**，**detrusor contraction** 與 **urethral sphincter opening** 無法協調，也會導致高 **storage pressure**、**loss of compliance** 與 **retrograde pressure transmission** [3, 27]。在臨床上，常需要透過病史（神經系統受損表現）及 **urodynamic studies** 來進行鑑別診斷 [1, 27]。\n*   **Postobstructive Diuresis (Bilateral vs. Unilateral Relief)**：\n    *   當解除雙側慢性 **BOO**（如為 **BPH** 患者放置 **bladder catheter**）時，常會引發嚴重的 **postobstructive diuresis** 與 **natriuresis** [28-30]。這是因為體內累積了大量的 **volume** 與 **urea**，且高濃度的 **ANP** 會抑制 **sodium transport** [31]，同時受損的小管上皮也存在對 **sodium, solutes, water** 的重吸收障礙（如 **NKCC2, ENaC, AQP2** 的 **downregulation**） [11, 32-34]。相較之下，解除單側 **obstruction**（若對側 **kidney** 正常）則鮮少發生全身性 **postobstructive diuresis** [30]。\n\n---\n\n### 5. Citations & References\n*   **Brenner & Rector's The Kidney / Reference Chapters**：\n    *   **Chapter 37: Urinary Tract Obstruction**\n        *   *Section: Etiology (Acquired Causes of Obstruction - Intrinsic Processes / Extrinsic Processes)* [1, 3, 27]\n        *   *Section: Clinical Aspects* [2, 17, 24]\n        *   *Section: Pathophysiology of Obstructive Nephropathy (Effects of Obstruction on Renal Blood Flow and Glomerular Filtration / Effects of Obstruction on Tubule Function)* [4, 8-11, 32-35]\n        *   *Section: Treatment of Urinary Tract Obstruction and Recovery of Renal Function* [13, 36, 37]\n        *   *Section: Postobstructive Diuresis* [29, 30]\n    *   **Chapter 49: Antihypertensive Therapy**\n        *   *Section: α1-Adrenergic antagonists / Prostatic hypertrophy* [14, 15]\n\n---\n\n📊 我可以為您進一步整理一份關於 **obstructive nephropathy** 解除梗阻後，引發 **postobstructive diuresis** 的細胞分子機制（如各類通道蛋白的表現量變化）與臨床電解質處置的對照表，方便您設計更具臨床鑑別度的高階考題。"
         }
-      ]
+      ],
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q10",
@@ -581,7 +600,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Fluid Management Strategy for Severe Post-obstructive Diuresis 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Fluid Management Strategy for Severe Post-obstructive Diuresis。",
+      "sourceExplanation": "本題考查 Fluid Management Strategy for Severe Post-obstructive Diuresis 之核心病理生理與臨床處置原則。正解為 D。\n\n詳細解析：UUO & BUO 的血液動力學差異 - Fluid Management Strategy for Severe Post-obstructive Diuresis。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -601,7 +620,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q11",
@@ -633,7 +655,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 阻塞後腎纖維化機轉 (Ang II/TGF-β1) 與 EMT 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：UUO & BUO 的血液動力學差異 - 阻塞後腎纖維化機轉 (Ang II/TGF-β1) 與 EMT。",
+      "sourceExplanation": "本題考查 阻塞後腎纖維化機轉 (Ang II/TGF-β1) 與 EMT 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：UUO & BUO 的血液動力學差異 - 阻塞後腎纖維化機轉 (Ang II/TGF-β1) 與 EMT。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -653,7 +675,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q12",
@@ -685,7 +710,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在 obstructive nephropathy 的病理生理學中，解除 complete ureteral obstruction 後，kidney 的長期功能恢復潛力 (long-term functional recovery) 主要取決於 duration of obstruction (梗阻持續時間)。急性梗阻時，集尿系統內壓力迅速上升，導致 afferent glomerular arteriole 發生強烈 vasoconstriction，進而使 renal blood flow 與 glomerular filtration rate (GFR) 顯著下降。若能在此階段（1 至 2 週內）迅速診斷並 prompt relief of obstruction，GFR 通常能夠獲得顯著或完全的恢復。當 complete ureteral obstruction 持續時間延長時，腎小管上皮細胞會釋放多種 proinflammatory and profibrotic molecules，驅動 inflammatory cells 浸潤腎間質，誘發 interstitial myofibroblasts 蓄積，最終導致嚴重的 tubulointerstitial fibrosis、tubular atrophy 以及實質性結構完全損毀。若梗阻超過 8 週，即使解除梗阻，GFR 恢復通常極為有限。",
+      "sourceExplanation": "在 obstructive nephropathy 的病理生理學中，解除 complete ureteral obstruction 後，kidney long-term functional recovery 主要取決於 duration of obstruction duration of obstruction。急性梗阻時，集尿系統內壓力迅速上升，導致 afferent glomerular arteriole 發生強烈 vasoconstriction，進而使 renal blood flow 與 glomerular filtration rate (GFR) 顯著下降。若能在此階段（1 至 2 週內）迅速診斷並 prompt relief of obstruction，GFR 通常能夠獲得顯著或完全的恢復。當 complete ureteral obstruction 持續時間延長時，腎小管上皮細胞會釋放多種 proinflammatory and profibrotic molecules，驅動 inflammatory cells 浸潤腎間質，誘發 interstitial myofibroblasts 蓄積，最終導致嚴重的 tubulointerstitial fibrosis、tubular atrophy 以及實質性結構完全損毀。若梗阻超過 8 週，即使解除梗阻，GFR 恢復通常極為有限。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -708,8 +733,8 @@
       "qcVerified": true,
       "selectedOption": "C",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:45+08:00",
-      "qcNotes": "Both NLM responses and source answer unanimously agree on Option C.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "responses": [
         {
@@ -724,7 +749,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "## 1. Answer Determination\n\n本題的唯一正確選項為 **Option C (Duration of complete obstruction (with full recovery expected if relieved within 1 to 2 weeks, and minimal recovery after 8 weeks))** [1, 2]。\n\n---\n\n## 2. Detailed Rationale & Correct Option Analysis (Option C)\n\n### 臨床病理生理學與細胞外基質重塑動力學之循序漸進分析：\n\n1.  **`Obstructive Nephropathy` 中 `GFR` 恢復的決定性因果鏈**：\n    *   根據 *Brenner & Rector's The Kidney* 第 37 章所述，在解除 **`complete ureteral obstruction`** 後，**`glomerular filtration`** 與整體 **`renal function`** 能否實現長期恢復，其最核心且主導性的限制因子為 **`duration of complete obstruction`**（梗阻持續時間） [2]。\n    *   在 **`obstructive AKI`** 的超早期，**`renal parenchyma`** 的組織學與微血管結構尚未發生嚴重的器質性退化 [3]。此時迅速解除 **`obstruction`**，可以立即逆轉因 Bowman 空間反壓升高而受到抑制的 **`SNGFR`**，使 **`kidney function`** 迅速重歸基線 [1, 3, 4]。\n\n2.  **不同時間窗口（Time Windows）下的病理組織學演變**：\n    *   **梗阻時間 $\\le$ `1 to 2 weeks`**：\n        研究與臨床實證表明，若 **`complete ureteral obstruction`** 在 **`1 to 2 weeks`** 的黃金窗口內被及時 relief，**`kidney`** 的代償性修復機制能有效啟動，此時預期可以獲得極為顯著或近乎完全的 **`functional recovery`** [1, 2]。\n    *   **梗阻時間 $\\ge$ `8 weeks`**：\n        然而，若 **`complete ureteral obstruction`** 持續時間拉長至 **`8 weeks`** 以上，此時 **`kidney`** 內部會爆發高度複雜的神經-體液與促炎級聯反應 [4, 5]。\n        這會導致 **`tubular cells`** 大量釋放 **`TGF-beta`**、**`TNF-alpha`**、**`Ang II`** 以及多種 **`proinflammatory and profibrotic molecules`** [5]。\n        這些上游因子會進一步刺激 **`myofibroblasts`** 的異常集聚與活化，引發瀰漫性的 **`tubulointerstitial fibrosis`**（小管間質纖維化）與不可逆的 **`tubular atrophy`**（腎小管萎縮） [4-6]。其最終的共同通路是功能性 **`nephron mass`** 的永久性物理喪失，此時即使解除梗阻，其長期 **`functional recovery`** 仍舊極度有限（`minimal recovery`） [4, 6]。\n\n3.  **多變量微環境調控指標（Co-determinants of Recovery）**：\n    *   除了 **`duration of obstruction`** 這一首要決定性因子外，**`glomerular function`** 的恢復程度還受到以下生理變量的共同調控：\n        *   **`presence or absence of a functioning contralateral kidney`**：若對側存在一隻健康的 **`contralateral kidney`**，由於其強大的生理代償功能，受累側 **`kidney`** 的 **`atrophy`** 與 **`fibrosis`** 速度會顯著加快，且在解除梗阻後的恢復能力會比無對側代償（如孤立腎梗阻）時顯著變差 [2]。\n        *   **`presence or absence of associated infection`**：合併 **`infection`** 會加速實質的壞死與疤痕形成 [2]。\n        *   **`level of preobstruction renal blood flow`**：梗阻前基線的 **`RBF`** 決定了小管細胞應對缺氧與壓力打擊時的代償邊界 [2]。\n\n因此，**Option C** 完美且精確地對接了實驗與臨床研究中關於梗阻時間長短（**`duration of complete obstruction`**）如何直接決定長期恢復潛力（**`long-term functional recovery`**）的分子與解剖生理學規律。\n\n---\n\n## 3. Distractor Option Analysis\n\n*   **Option A (Patient's baseline blood pressure alone) 錯誤分析**：\n    *   *為何錯誤*：患者基線的 **`blood pressure`** 雖然會影響其全身 **`cardiovascular`** 負荷以及慢性腎病的長期惡化斜率 [7]，但其絕非決定急性梗阻性腎病在解除物理壓迫後能否恢復的首要指標。將其列為 **`alone`**（單一決定因素）在病理生理學因果鏈上完全不成立 [2]。\n    *   *臨床特徵與典型表現*：**`essential hypertension`** 典型表現為全身小動脈硬化、**`afferent arteriolar narrowing`**，在病理上可見代償性的 **`glomerular hyperfiltration`**，臨床上常表現為輕度 **`proteinuria`** 但早期 **`eGFR`** 維持穩定 [8, 9]。\n    *   *出題者意圖*：此選項旨在測試考生是否容易被「全身性血流動力學指標（**`systemic hemodynamic indices`**）」所誤導，從而忽視了梗阻解除後腎小管上皮重建和功能修復實際上高度依賴於局部受壓時間（**`duration`**）的物理力學與微環境重塑規律。\n\n*   **Option B (Serum uric acid level at presentation) 錯誤分析**：\n    *   *為何錯誤*：\n        1. **生理指標角色錯位**：在急性尿路梗阻（如結石、腫瘤壓迫）發生後，**`serum uric acid`** 可能會因為排泄受阻而繼發性上升 [10]，但其本身僅是腎排泄功能癱瘓的「繼發性伴隨指標」，而非導致功能無法恢復的「病理損害驅動源」 [2]。\n        2. **遺傳病變干擾**：雖然在某些遺傳性間質病變中（如由 **`UMOD`** 基因突變引發的 **`ADTKD`**），高尿酸血症（**`hyperuricemia`**）與早發痛風（**`gout`**）是極具診斷特異性的核心表型 [11, 12]，但這與急性梗阻性腎病解梗阻後的恢復動力學毫無因果關係。\n    *   *臨床特徵與典型表現*：**`hyperuricemia`** 患者典型表現為反覆發作的急性關節炎（**`gouty arthritis`**），在 **`urinalysis`** 下可檢出黃色呈鑽石狀或梭形的 **`uric acid crystals`** [12, 13]。\n    *   *出題者意圖*：利用常見的伴隨生化異常指標設置陷阱，評估考生能否在病理生理機制上，將「繼發性廢物蓄積指標（**`retention marker`**）」與「決定實質再生與重塑的結構性限制因素（**`duration`**）」進行正確分離。\n\n*   **Option D (Presence of asymptomatic microscopic hematuria) 錯誤分析**：\n    *   *為何錯誤*：\n        1. **病理生理基礎脫節**：**`asymptomatic microscopic hematuria`** 通常是由於結石磨損黏膜、腫瘤浸潤或腎小球基底膜完整性受損等病因所產生的「臨床診斷表徵」 [14, 15]。它完全不參與控制小管上皮細胞凋亡、間質纖維化及微血管 rarefaction 等決定 **`parenchymal recovery`** 的物理與分子生理過程 [2, 5]。\n        2. **無預後預測效能**：該指標無力預測解除梗阻後 **`GFR`** 與 **`RBF`** 的長期動力學軌跡 [2]。\n    *   *臨床特徵與典型表現*：定義為在無劇烈運動、外傷等干擾下，連續多次 **`urinalysis`** 顯微鏡檢下可見每高倍視野下有 **`2 to 5 red blood cells`** [16, 17]。多見於 **`thin basement membrane nephropathy`** 或早期 **`IgA nephropathy`**，多數患者終身無臨床症狀 [15, 18]。\n    *   *出題者意圖*：此選項利用梗阻最常見的病因徵象（如結石引起的血尿）進行干擾，測試考生能否釐清「病因之診斷性徵象（**`diagnostic sign of etiology`**）」與「結構修復之預後決定指標（**`prognostic determinant of repair`**）」之間的本質界限。\n\n---\n\n## 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在醫學專科大考（如腎臟專科與重症醫學會考）中，關於 **`Obstructive Nephropathy`** 的病理生理學演變及其與 **`Prerenal Azotemia`**、**`Acute Tubular Necrosis (ATN)`** 的鑑別，是最高頻、最硬核的黃金考點：\n\n### 1. High-Yield Urine Indices Comparison (黃金生化指標對照)\n\n在梗阻性腎病中，其 **`urinary chemistry`** 與 **`urine indices`** 會隨著梗阻的「急性期」與「確立期/慢性期」發生截然不同的病生理轉變，極易在考試中形成跨學科的鑑別診斷考點 [10, 19, 20]：\n\n| 診斷指標 (Index) | `Prerenal Azotemia` [20] | `Acute Tubular Necrosis (ATN)` [20] | `Acute Obstruction` (急性梗阻早期, <2-3 hrs) [10] | `Established Obstruction` (慢性確立期, >24 hrs) [10] |\n| :--- | :--- | :--- | :--- | :--- |\n| **`FENa (%)`** | **`< 1%`** | **`> 2%`** | **`< 1%`** (類前腎性) | **`> 1%`** (小管癱瘓樣) |\n| **`UNa (mmol/L)`** | **`< 20`** | **`> 40`** | **`< 20`** | **`> 20-40`** |\n| **`Uosm (mOsm/kg H2O)`** | **`> 500`** | **`~ 300`** | **`> 500`** | **`< 350`** (等張尿) |\n| **`Specific Gravity`** | **`> 1.018`** | **`~ 1.010`** | **`> 1.018`** | **`~ 1.010`** |\n| **`Urine Sediment`** | **`Hyaline casts`** [20] | **`Muddy brown granular casts`** [20, 21] | **`Benign / Normal`** [14] | **`Renal tubular epithelial cells / Granular casts`** [10] |\n| **底層小管生理學機制** | 小管結構完整，最大限度重吸收水鈉以代償灌注 [19]。 | 小管上皮發生器質性壞死，重吸收功能完全崩潰 [21]。 | 小管上皮轉運功能尚未受損，高壓僅局限於物理反壓 [10]。 | 長期高壓導致上皮壞死，**`NKCC2`**、**`NHE3`** 與 **`AQP2`** 轉運體發生嚴重的 **`downregulation`** [4, 10]。 |\n\n### 2. High-Yield Board Review Concept: \"Post-Obstructive Diuresis\"\n這是在解除雙側或孤立腎梗阻（如解除了由 **`retroperitoneal fibrosis`** 引起的雙側梗阻）後，極易在臨床與考試中並發的電解質動力學危象 [22]：\n*   *機制*：因小管細胞長期高壓受損導致轉運體表達下調，解梗阻後，體內滯留的 **`urea`** 驅動強烈的 **`solute diuresis`** [4, 23]。同時，大量水分與鈉鹽無法被重吸收，導致髓質發生 **`medullary washout`**，臨床呈現嚴重的等張性多尿 [4, 10, 23]。\n*   *臨床管理*：**嚴禁等量（$1:1$）補液**，這會引發醫源性多尿持續。必須以慢於尿量（**`at a rate somewhat slower than that of the urine output`**）的速度補充 **`0.45% saline`**，強迫腎髓質梯度重建，促使濃縮功能恢復。\n\n---\n\n## 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, Chapter 37: \"Urinary Tract Obstruction\"\n        *   Section: \"Pathophysiology of Obstructive Nephropathy\" — Subsection: \"Effects of Obstruction on Renal Blood Flow and Glomerular Filtration\" & \"Recovery of Glomerular Function After Relief of Obstruction\" [Passages 110, 118].\n        *   Section: \"Biochemical Evaluation of Blood and Urine\" [Passages 111, 112].\n        *   Section: \"Biomarkers for Evaluation of Urinary Tract Obstruction\" [Passage 114].\n    *   *Brenner & Rector's The Kidney*, Chapter 28: \"Pathophysiology of Acute Kidney Injury\"\n        *   Section: \"Postrenal Acute Kidney Injury\" [Passage 64].\n    *   *Brenner & Rector's The Kidney*, Chapter 29: \"Prevention and Management of Acute Kidney Injury\"\n        *   Section: \"Table 29.4: Useful Clinical Features, Urinary Findings...\" [Passages 68, 70] & \"Table 29.5: Urine Indices...\" [Passage 72].\n\n*   **Figures, Tables, & Boxes**：\n    *   *Chapter 37*, **Section: Recovery of Glomerular Function** [Passage 118]：明確指出 `\"The extent of recovery of glomerular filtration following release of obstruction depends on several factors, including the duration and extent of obstruction...\"`，並引用了著名的 `dogs` 梗阻恢復實驗。\n    *   *Chapter 29*, **Table 29.4** [Passage 68] & **Table 29.5** [Passage 72]：權威圖示並寫出了在 `prerenal` 狀態與 `ATN` 狀態下，`FeNa`（$<1\\%$ vs. $>2\\%$）與 `urine osmolality`（$>500$ vs. $\\sim 300$）的生理學診斷界限。\n\n---\n🔍 在腎臟病理生理學中，**`Obstructive Nephropathy`** 的長期功能恢復與時間窗口（**`duration of complete obstruction`**）之偶聯關係，完美展現了「物理壓迫張力 $\\rightarrow$ 細胞激素轉錄調控 $\\rightarrow$ 間質實質重塑」的分子醫學轉歸演變。\n\n本題對梗阻性腎損害的恢復界限與生化對照考查得極具深度。如果您需要為臨床團隊或 ICU 同仁準備一堂「從腎髓質高壓力學反饋看小管細胞上皮-間質轉化（`EMT`）與間質 `fibrosis` 演變，並結合最新指引演練『利用 `FeNa` 與尿滲透壓動態評估急性/慢性梗阻分期、解除梗阻後 `post-obstructive diuresis` 的限速補液滴定方案、以及多通道 `biomarker` 監護路徑』」的專科查房教學簡報，我可以為您製作一份詳細的**雙人臨床語音簡報與學術教學查房演練大綱（Audio Overview Script）**，方便您進行精確的教學與查房演練。得分關鍵在於牢記「解梗阻後長期 renal function 恢復的首要決定因素為 duration of complete obstruction，1-2 週解除多能完全恢復，超過 8 週則因發生不可逆 fibrosis 與小管萎縮而恢復極微」。"
         }
-      ]
+      ],
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q13",
@@ -756,7 +782,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 飲食攝取與原發性高尿鈣症之 Thiazide / 限鈉治療 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：尿路結石 - 飲食攝取與原發性高尿鈣症之 Thiazide / 限鈉治療。",
+      "sourceExplanation": "本題考查 飲食攝取與原發性高尿鈣症之 Thiazide / 限鈉治療 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：尿路結石 - 飲食攝取與原發性高尿鈣症之 Thiazide / 限鈉治療。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -776,7 +802,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q14",
@@ -808,7 +837,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 腸源性高草酸尿症 (Enteric Hyperoxaluria) 與脂肪吸收不良機轉 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：尿路結石 - 腸源性高草酸尿症 (Enteric Hyperoxaluria) 與脂肪吸收不良機轉。",
+      "sourceExplanation": "本題考查 Enteric Hyperoxaluria 與脂肪吸收不良機轉 之核心病理生理與臨床處置原則。正解為 C。\n\n詳細解析：尿路結石 - Enteric Hyperoxaluria 與脂肪吸收不良機轉。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -828,7 +857,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q15",
@@ -860,7 +892,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Primary Hyperoxaluria 分型 (AGXT / PH1) 與臨床特徵 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：尿路結石 - Primary Hyperoxaluria 分型 (AGXT / PH1) 與臨床特徵。",
+      "sourceExplanation": "本題考查 Primary Hyperoxaluria AGXT / PH1 與臨床特徵 之核心病理生理與臨床處置原則。正解為 B。\n\n詳細解析：尿路結石 - Primary Hyperoxaluria AGXT / PH1 與臨床特徵。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -880,7 +912,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q16",
@@ -916,12 +951,10 @@
       "resolvedImages": [],
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (3-3)",
-          "notebookId": "56fce15d-9829-491d-8b7e-4459538e8d44",
-          "accountProfile": "b92401024",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "notebookTitle": "TSN：出題 (1-2)",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### **關於 Primary Hyperoxaluria Type I (PH1) 治療之現有來源證據說明**\n\n雖然 **`Lumasiran`** 是臨床上用於治療 **`Primary Hyperoxaluria Type I (PH1)`** 且作用於 **`glycolate oxidase (HAO1 mRNA)`** 的 **`RNA interference (RNAi)`** 標靶藥物，但此藥物機制與名詞在目前提供的 notebook sources 中**完全沒有記載**。\n\n根據提供的來源文獻，關於 **`Primary Hyperoxaluria Type I (PH1)`** 的病理機制與現有治療手段之記載如下：\n\n#### **(1) 病理生理學機制 (Pathophysiology)**\n*   **`PH1`** 是一種體染色體隱性遺傳的肝臟代謝缺陷，主因是缺乏肝臟特異性的過氧化物酶體酶 **`alanine-glyoxylate aminotransferase` (AGT)**（由 **`AGXT`** 基因編碼）或發生定位錯誤（如常見的 **`p.Gly170Arg`** 突變導致其被錯誤靶向至線粒體內）[1-3]。\n*   此酶缺陷會導致 **`glyoxylate`** 在細胞質內蓄積，並被 **`lactate dehydrogenase` (LDH)** 氧化成大量的 **`oxalate`** [2]。\n*   過量產生的 **`oxalate`** 經由腎臟排出，與鈣結合形成難溶的 **`calcium oxalate`** 結晶，進而引發 **`nephrocalcinosis`**、**`kidney stones`**、**`kidney failure`**，並最終在全身組織中引發嚴重的 **`systemic oxalosis`** [2]。\n\n#### **(2) 來源中記載之現行常規治療方案 (Current Treatment Options Covered in Sources)**\n*   **`pyridoxine` (Vitamin B6)**：主要針對具有 **`p.Gly170Arg`** 等特定突變且仍保有部分殘餘酶活性的患者。給予高劑量 **`pyridoxine`**（$5-10\\text{ mg/kg/day}$）可刺激 **`AGT`** 活性，減少尿中 **`oxalate`** 排泄 [1, 3-5]。\n*   **`potassium citrate` (or sodium citrate)**：提供尿液鹼化，並在尿液中與鈣離子螯合形成高度可溶的複合物，阻止其與 **`oxalate`** 結合，從而抑制 **`calcium oxalate`** 結晶的沉澱 [4, 6, 7]。\n*   **大量補充水分 (aggressive fluid administration / high fluid intake)**：在術後或日常中，必須維持極高的液體攝入量（通常要求每日尿量在 $2.5-3.5\\text{ L/m}^2$ 以上）以維持尿液的高度稀釋 [4, 6, 7]。\n*   **結晶抑制劑 (crystallization inhibitors)**：聯用 **`orthophosphate`** 與 **`magnesium oxide`** 來減少尿中結晶析出 [6, 7]。\n*   **`intensive hemodialysis`**：當患者進展至晚期腎臟病變時，須採取高頻率的血液透析以盡可能清除循環中的 **`oxalate`** [6]。\n*   **器官移植方案 (Organ Transplantation)**：由於 **`AGT`** 只在肝臟中特異性表達，單純的 **`isolated kidney transplantation`** 無法糾正原發性的代謝缺陷，且會導致新植入的腎臟迅速發生嚴重的草酸鹽沉積與早期功能衰竭 [4, 8]。因此，對於腎功能嚴重受損的患者，**`combined liver-kidney transplantation`** 是最根治性的首選方案；而在腎功能尚未完全受損前（**`GFR > 40 mL/min/1.73 m²`**），可考慮進行 **`isolated liver transplantation`** [4, 8]。\n\n---\n\n### **Citations & References (精確文獻引用與來源)**\n\n*   **Brenner & Rector's The Kidney (11th Edition)**：\n    *   **Chapter 72 (\"Diseases of the Kidney and Upper Urinary Tract in Children\")**：\n        *   *Section: **PRIMARY HYPEROXALURIAS*** [Passages 322, 325, 326]：詳述了 PH1 的基因突變（**`alanine-glyoxalate aminotransferase`**）、臨床表現、**`pyridoxine`** 刺激殘餘活性的反應性，以及綜合水分、**`potassium citrate`**、**`Oxalobacter formigenes`** 療效不佳和聯合移植的治療規範。\n    *   **Chapter 78 (\"Near and Middle East\")**：\n        *   *Section: **Primary hyperoxaluria*** [Passages 373, 374, 375]：詳細記錄了 **`AGT`**（**`AGXT`基因**）突變、**`LDH`** 催化氧化、**`p.Gly170Arg`** 突變的定位異常、**`systemic oxalosis`** 的病理生理學，以及中東地區的流行病學。\n*   **KDIGO 2009 Clinical Practice Guideline for the Care of Kidney Transplant Recipients**：\n    *   **Chapter 10 (\"Treatment of recurrent kidney disease\")**：\n        *   *Guideline 10.5.4 & Rationale* [Passages 409, 411, 412, 413]：詳細規定了針對 PH1 受體在移植術後的保護性管理措施，包括大量的液體輸入（**`urine output > 3.0-3.5 L/day`**）、**`alkaline citrate`**、**`orthophosphate`** 與高劑量 **`pyridoxine`** 的使用標準。\n\n---\n\n📊 雖然來源指引尚未收錄最新的 **`RNAi`** 標靶藥物（如 **`Lumasiran`**），但了解傳統的 **`cofactor replacement (pyridoxine)`**、**`urinary crystallization inhibitors`** 以及 **`liver-kidney combined transplantation`** 仍是專科醫師考查先天性失鹽與代謝障礙的黃金基石。\n\n是否需要我為您建立一幅「**臨床遺傳性小兒腎結石與腎鈣質沉著症（Urolithiasis / Nephrocalcinosis）之多維度生化篩檢（Cystine / Oxalate / Citrate）、`Miller-Moses` 水分平衡與 `KDIGO` 圍手術期安全移植管理決策路徑導航圖**」，以利您接下來進行專科出題的擴充或晨會病例討論之用？",
+          "selectedOption": "D"
         },
         {
           "notebookTitle": "TSN：出題 (4-4)",
@@ -929,7 +962,8 @@
           "accountProfile": "mudkaku",
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 說明：\n雖然在 **_KDIGO 2024 CKD Guideline_** 中關於 **_Actionable genes in kidney disease_** 的章節（如 *Figure 9*）曾簡要提及與 **_AGXT_** 突變相關的基因靶向治療 [1]，但現有的 notebook sources 之中並無任何 passages 詳細提及或記載 **_Lumasiran_**、**_glycolate oxidase (HAO1 mRNA)_**、以及其作為 **_RNA interference (RNAi)_** 治療 **_Primary Hyperoxaluria Type I (PH1)_** 的詳細作用機制、臨床療效與藥理學實證數據。\n\n### 依據現有來源（Notebook Sources）所記載之 PH1 相關資訊整理：\n1. **發病機制 (Pathophysiology)**：\n   * **_Primary Hyperoxaluria Type I (PH1)_** 是一種常染色體隱性遺傳疾病（**_autosomal recessive disorder_**），是由於肝臟特異性過氧化物酶體 **_alanine-glyoxylate aminotransferase (AGT)_**（由 **_AGXT_** 基因編碼）的缺乏、功能不足或粒線體異常靶向（**_mistargeting_**）所致 [38, Passage 120; 78, Passage 372]。\n   * 該酶的缺陷導致其底物 **_glyoxylate_** 在細胞質中異常累積，進而被 **_lactate dehydrogenase (LDH)_** 氧化為大量的 **_oxalate_**，並與鈣離子結合形成難溶的 **_calcium oxalate crystals_** 沉積於腎臟，引發 **_nephrocalcinosis_**、**_urolithiasis_** 甚至 **_kidney failure_** [78, Passage 372]。\n\n2. **傳統與支持性治療方案 (Traditional & Supportive Therapies)**：\n   * **維生素 B6 (Pyridoxine)**：作為 AGT 酶的輔因子，部分特定突變（如 **_p.Gly170Arg_**）患者對 **_pyridoxine_** 敏感，給予藥理劑量的 **_pyridoxine_** 可有效活化殘餘酶活性並減少尿草酸排泄 [78, Passage 371, 373; 74, Passage 323]。\n   * **尿液鹼化與結晶抑制劑 (Urinary Alkalinization and Crystallization Inhibitors)**：建議補充足量水分（維持尿量在大於 $2.5\\text{ to }3.5\\text{ L/day}$）並給予 **_potassium citrate_**（檸檬酸鉀）或 **_sodium citrate_** 以增加尿液鹼化度，檸檬酸能與鈣結合形成可溶性複合物，阻止草酸鈣結晶析出 [38, Passage 128; 74, Passage 324; 86, Passage 407, 411]。\n   * **器官移植 (Transplantation)**：由於 AGT 酶僅在肝臟中特異性表達，單純的腎移植無法解決源頭的代謝缺陷，因此對於進展至 **_ESKD_** 的 PH1 患者，首選聯合或順序進行的**肝腎聯合移植（_combined liver-kidney transplantation_）** [74, Passage 324, 356]。\n\n---\n\n📊 **Nudge**: 雖然現有來源缺乏關於新型 **_RNAi_** 藥物 **_Lumasiran_** 的詳細記載，但我們仍可以利用外部分析工具為您檢索並整合 **_Lumasiran_** 與另一種新型針對 **_LDHA mRNA_** 的 RNAi 藥物 **_Nedosiran_** 在治療 **_PH1_** 時的臨床試驗對照（如 **_ILLUMINATE_** 系列研究）、以及其與 **_pyridoxine_** 對不同基因型患者的療效差異，您是否需要我啟動網路檢索功能來補充這部分前沿的專科考試核心考點？",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null
+          "error": null,
+          "selectedOption": "D"
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -937,9 +971,10 @@
       "qcVerified": true,
       "selectedOption": "D",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:29+08:00",
-      "qcNotes": "NLM rawResponse identified Lumasiran (Option D) as the RNAi agent targeting glycolate oxidase (HAO1 mRNA) based on medical consensus, despite noting insufficient database evidence in NLM source documents. Aligns with source answer D.",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足"
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
+      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q17",
@@ -971,7 +1006,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Cystine Stones 特徵、SLC3A1/SLC7A9 分型與鹼化治療目標 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：尿路結石 - Cystine Stones 特徵、SLC3A1/SLC7A9 分型與鹼化治療目標。",
+      "sourceExplanation": "本題考查 Cystine Stones 特徵、SLC3A1/SLC7A9 分型與鹼化治療目標 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：尿路結石 - Cystine Stones 特徵、SLC3A1/SLC7A9 分型與鹼化治療目標。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -991,7 +1026,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q18",
@@ -1023,7 +1061,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Uric Acid Stones 溶解治療與 Potassium Citrate 尿液鹼化 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：尿路結石 - Uric Acid Stones 溶解治療與 Potassium Citrate 尿液鹼化。",
+      "sourceExplanation": "本題考查 Uric Acid Stones 溶解治療與 Potassium Citrate 尿液鹼化 之核心病理生理與臨床處置原則。正解為 C。\n\n詳細解析：尿路結石 - Uric Acid Stones 溶解治療與 Potassium Citrate 尿液鹼化。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1043,7 +1081,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q19",
@@ -1075,7 +1116,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Struvite 結石風險因子、Urease 產氣菌株 (Proteus) 與反應式 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：尿路結石 - Struvite 結石風險因子、Urease 產氣菌株 (Proteus) 與反應式。",
+      "sourceExplanation": "本題考查 Struvite 結石風險因子、Urease Proteus 與反應式 之核心病理生理與臨床處置原則。正解為 B。\n\n詳細解析：尿路結石 - Struvite 結石風險因子、Urease Proteus 與反應式。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1095,7 +1136,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q20",
@@ -1127,7 +1171,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Struvite 結石圍手術期處置與 Urosepsis 預防 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：尿路結石 - Struvite 結石圍手術期處置與 Urosepsis 預防。",
+      "sourceExplanation": "本題考查 Struvite 結石圍手術期處置與 Urosepsis 預防 之核心病理生理與臨床處置原則。正解為 C。\n\n詳細解析：尿路結石 - Struvite 結石圍手術期處置與 Urosepsis 預防。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1147,7 +1191,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q21",
@@ -1179,7 +1226,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Tumor Lysis Syndrome (TLS) 之 Cairo-Bishop 診斷標準 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Tumor Lysis Syndrome (TLS) 之 Cairo-Bishop 診斷標準。",
+      "sourceExplanation": "本題考查 Tumor Lysis Syndrome (TLS) 之 Cairo-Bishop 診斷標準 之核心病理生理與臨床處置原則。正解為 D。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Tumor Lysis Syndrome (TLS) 之 Cairo-Bishop 診斷標準。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1199,7 +1246,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q22",
@@ -1231,7 +1281,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Rasburicase (重組 Urate Oxidase) 藥理機轉與 G6PD 禁忌 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Rasburicase (重組 Urate Oxidase) 藥理機轉與 G6PD 禁忌。",
+      "sourceExplanation": "本題考查 Rasburicase (重組 Urate Oxidase) 藥理機轉與 G6PD 禁忌 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Rasburicase (重組 Urate Oxidase) 藥理機轉與 G6PD 禁忌。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1251,7 +1301,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q23",
@@ -1283,7 +1336,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Clear Cell RCC 局部腫瘤與 Partial Nephrectomy 腎元保存首選 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Clear Cell RCC 局部腫瘤與 Partial Nephrectomy 腎元保存首選。",
+      "sourceExplanation": "本題考查 Clear Cell RCC 局部腫瘤與 Partial Nephrectomy 腎元保存首選 之核心病理生理與臨床處置原則。正解為 B。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Clear Cell RCC 局部腫瘤與 Partial Nephrectomy 腎元保存首選。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1303,7 +1356,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q24",
@@ -1335,7 +1391,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Renal Cell Carcinoma 副腫瘤綜合徵 (EPO 與 Erythrocytosis) 之核心病理生理與臨床處置原則。正解為 (C)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Renal Cell Carcinoma 副腫瘤綜合徵 (EPO 與 Erythrocytosis)。",
+      "sourceExplanation": "本題考查 Renal Cell Carcinoma 副腫瘤綜合徵 (EPO 與 Erythrocytosis) 之核心病理生理與臨床處置原則。正解為 C。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Renal Cell Carcinoma 副腫瘤綜合徵 (EPO 與 Erythrocytosis)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1355,7 +1411,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q25",
@@ -1387,7 +1446,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Multiple Myeloma Cast Nephropathy (FLC-Uromodulin 結合機轉) 之核心病理生理與臨床處置原則。正解為 (A)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Multiple Myeloma Cast Nephropathy (FLC-Uromodulin 結合機轉)。",
+      "sourceExplanation": "本題考查 Multiple Myeloma Cast Nephropathy (FLC-Uromodulin 結合機轉) 之核心病理生理與臨床處置原則。正解為 A。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Multiple Myeloma Cast Nephropathy (FLC-Uromodulin 結合機轉)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1407,7 +1466,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q26",
@@ -1439,7 +1501,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 AL Amyloidosis (Congo Red 蘋果綠雙折射光) 診斷 之核心病理生理與臨床處置原則。正解為 (B)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - AL Amyloidosis (Congo Red 蘋果綠雙折射光) 診斷。",
+      "sourceExplanation": "本題考查 AL Amyloidosis (Congo Red 蘋果綠birefringence光) 診斷 之核心病理生理與臨床處置原則。正解為 B。\n\n詳細解析：Kidney Cancer 和 Onconephrology - AL Amyloidosis (Congo Red 蘋果綠birefringence光) 診斷。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1459,7 +1521,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "Q27",
@@ -1491,7 +1556,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "正常情況下，glomerular endothelial cell integrity 的維持高度依賴於由 podocytes 分泌並結合至內皮細胞 VEGFR 的 VEGF 旁分泌信號。使用 VEGFR tyrosine kinase inhibitors (如 sunitinib) 或抗 VEGF 單株抗體會強烈阻斷此 VEGF 滋養信號，導致 endothelial dysfunction 與結構退化，最典型的超微結構改變為 loss of endothelial fenestrations。這會引發內皮細胞腫脹 (endotheliosis) 與微血管內凝血級聯反應，導致 renal Thrombotic Microangiopathy (TMA)。病理特徵包括 fibrin thrombi 形成與 glomerular basement membrane 呈現 double contours。臨床上，內皮屏障崩解與 TMA 會導致血管內阻力急劇上升與電荷屏障破壞，表現為嚴重的 new-onset hypertension 與 new-onset proteinuria。",
+      "sourceExplanation": "正常情況下，glomerular endothelial cell integrity 的維持高度依賴於由 podocytes 分泌並結合至內皮細胞 VEGFR 的 VEGF 旁分泌信號。使用 VEGFR tyrosine kinase inhibitors (如 sunitinib) 或抗 VEGF 單株抗體會強烈阻斷此 VEGF 滋養信號，導致 endothelial dysfunction 與結構退化，最典型的超微結構改變為 loss of endothelial fenestrations。endotheliosis 與微血管內凝血級聯反應，導致 renal Thrombotic Microangiopathy (TMA)。病理特徵包括 fibrin thrombi 形成與 glomerular basement membrane 呈現 double contours。臨床上，內皮屏障崩解與 TMA 會導致血管內阻力急劇上升與電荷屏障破壞，表現為嚴重的 new-onset hypertension 與 new-onset proteinuria。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1514,8 +1579,8 @@
       "qcVerified": true,
       "selectedOption": "C",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-30T01:32:29+08:00",
-      "qcNotes": "Both NLM responses independently selected Option C (Renal Thrombotic Microangiopathy and loss of endothelial fenestrations), matching the source provided answer C.",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "responses": [
         {
@@ -1530,7 +1595,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "### 1. Answer Determination\n\n本題的正確選項為 **(C) Renal Thrombotic Microangiopathy (TMA) and loss of endothelial fenestrations**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n\n根據 **Brenner & Rector's The Kidney (11th Edition)** 關於 `onco-nephrology` 以及 `VEGF` 相關血管內皮生物學的記載，選定 **(C)** 的病理生理學與臨床診斷原理詳細分析如下：\n\n1.  **`VEGF` 在 `glomerular capillaries` 中的生理角色 (Physiological Role of VEGF in Glomerular Microvasculature)**：\n    在正常的 `glomerulus` 中，`VEGF` 是由 `podocytes` 持續合成與分泌的 [1, 2]。分泌後的 `VEGF` 會跨越 `GBM`，特異性地與位於 `glomerular endothelial cells` 上的 `VEGFR` 結合 [2]。此旁分泌信號通路對於維繫 `glomerular endothelial cell` 的生存、結構完整性、以及高度特異性的 **`endothelial fenestrations`** 具有決定性的 `physiological function` [1, 2]。\n\n2.  **`VEGF` 阻斷的分子與病理生理機制 (Pathophysiological Mechanism of VEGF Blockade)**：\n    當患者因 `metastatic clear cell renal cell carcinoma` 使用 `Sunitinib`（一種 `multi-targeted VEGFR tyrosine kinase inhibitor`）時，該藥物會直接阻斷 `VEGFR` 的胞內激酶活性 [1-3]。這導致 `VEGF` 介導的 `endothelial cell` 存活與維護信號中斷，進而引發嚴重的 `glomerular endothelial cell dysfunction` 以及 `filtration barrier disruption` [2]。\n\n3.  **特徵性 `renal pathology` 變化與臨床表徵 (Characteristic Pathological Lesions and Clinical Presentation)**：\n    隨著 `VEGF` 信號的阻斷，超微結構上最典型的改變是 **`loss of endothelial fenestrations`** 與 **`endothelial cell swelling`**（即 `glomerular endotheliosis`） [1]。當此損傷進一步加重時，會形成局部的 **`thrombotic microangiopathy (TMA)`** [1-3]。\n    在 `renal biopsy pathology` 上，這典型地表現為 `arterioles or capillary loops` 內出現 `fibrinoid necrosis`、`microthrombi` 形成、以及 `capillary endothelial cell proliferation` [4]。\n    這種內皮細胞屏障的受損會導致 `filtration barrier` 的通透性急劇上升，進而產生 `new-onset proteinuria` 甚至 `nephrotic syndrome` [1, 2]。同時，由於 `impaired intrarenal nitric oxide synthesis` 以及 `systemic vascular bed endothelial injury`，會迅速引起嚴重的全身性 `hypertension` [1, 2]。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) Acute interstitial nephritis with eosinophiluria (錯誤選項)**：\n    *   *臨床與病理分析*：`acute interstitial nephritis` 伴隨 `eosinophiluria` 主要是由藥物引起的過敏性或免疫介導型 `delayed-type hypersensitivity reaction` [5-7]。常見的 `culprit medications` 包括 `penicillins`、`sulfonamides`、`NSAIDs`、`proton pump inhibitors`，以及新型的 `immunotherapy agents` 如 `checkpoint inhibitors`（如 `ipilimumab`、`nivolumab`、`pembrolizumab`） [5, 6, 8]。雖然 `Sunitinib` 等 `tyrosine kinase inhibitors` 在少數情況下可能與 `acute interstitial nephritis` 相關 [9]，但它**並非** `anti-VEGF` 靶向治療中最具特徵性、機理性（`class-effect`）的微血管病變。\n    *   *出題者意圖*：此選項利用腫瘤科常見的藥物副作用及腎功能受損（特別是 `immunotherapy` 引起的 `acute interstitial nephritis`）來設置干擾 [5, 8]，測試考生能否精確區分「過敏或免疫介導的間質小管病變（`acute interstitial nephritis`）」與「內皮細胞毒性引發的血管內皮病變（`TMA`）」。\n\n*   **(B) Minimal change disease with foot process effacement (錯誤選項)**：\n    *   *臨床與病理分析*：`minimal change disease` 的特徵為 `normal-appearing glomeruli` 伴隨廣泛的 `podocyte foot process effacement` [10, 11]。其 `secondary triggers` 通常為 `NSAIDs`、`lithium` 或 `Hodgkin's lymphoma` [11]，而非 `anti-VEGF` 藥物。雖然 `anti-VEGF` 治療會影響 `slit diaphragm` 的完整性 [1]，但其最典型且決定預後的腎臟病理標誌依然是內皮起源的 `TMA`，而非單純的足細胞疾病 `minimal change disease` [1-3]。\n    *   *出題者意圖*：利用 `MCD` 作為蛋白尿相關足細胞病變的代表性疾病，測試考生對於「主要受損靶細胞」的認知。`anti-VEGF` 治療的下游靶細胞為 `endothelial cells`（因而發生 `TMA`），而非 `MCD` 中原發受損的 `podocytes` [2]。\n\n*   **(D) Acute uric acid nephropathy (錯誤選項)**：\n    *   *臨床與病理分析*：`acute uric acid nephropathy` 是一種由於 `acute crystallization and precipitation of uric acid within the tubular lumen` 引起的 `intrarenal obstructive disease` [12, 13]，典型繼發於 `hematologic malignancies` 或高度增殖性的 `solid tumors` 患者在接受 `cytotoxic chemotherapy` 後發生的 `tumor lysis syndrome (TLS)` [13-15]。`Sunitinib` 作為 `small-molecule targeted therapy`，極少引起超急性的 `tumor lysis syndrome`，且其引起的 `proteinuria` 與 `hypertension` 無法用尿酸結晶沉澱機制解釋。\n    *   *出題者意圖*：利用腫瘤學中極其經典且與腎功能衰竭高度相關的併發症（`tumor lysis syndrome` 引發的 `acute uric acid nephropathy`）作為大跨度學科干擾，評估考生能否鎖定「抗血管生成靶向治療的特異性內皮副作用」這一病理生理學核心。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在 `onco-nephrology` 與微血管病變的醫學專科考試中，以下為最高頻的核心鑑別考點：\n\n#### (1) `Anti-VEGF Induced TMA` vs. `Preeclampsia`\n這兩者的致病機制在分子水平上完全是一面鏡子，在考試中常被拿來並列對比其生理病理相似性：\n*   **`Preeclampsia`**：`placenta under hypoxic conditions` 會過度釋放內源性 `VEGF` 拮抗劑 **`sFlt-1`** 進入 `maternal circulation` [1, 16]。`sFlt-1` 中和了 `systemic circulating` 中的 `VEGF`，導致母體發生系統性 `hypertension`、`proteinuria` 以及 `renal pathological` 上的 `glomerular endotheliosis` [1, 16]。\n*   **`Anti-VEGF Induced TMA`**：臨床上直接投予 `bevacizumab` 或 `Sunitinib` 等外源性 `VEGF` 阻斷劑 [1, 2]。其病理與臨床表現完全模擬了 `preeclampsia` 的表現 [1]。\n\n#### (2) `Sunitinib-induced TMA` (局部內皮受損) vs. `CNI-induced / HSCT-associated TMA` (全身系統性 TMA)\n這是臨床重症管理與鑑別診斷上的核心考點：\n*   **`Sunitinib-induced TMA`**：發病機制為局部 `VEGF` 的耗竭，損害 `endothelial cells` 的自我修復能力，病變主要限制在 `glomerular capillaries`，有時全身性的 `hemolytic markers`（如 `schistocytes`、`LDH` 升高、`haptoglobin` 降低）僅呈輕度或完全不顯著 [2, 4]。\n*   **`CNI-induced / HSCT-associated TMA`**：通常繼發於 `cyclosporine` 或 `tacrolimus` 治療或 `hematopoietic stem cell transplantation` 後 [17-19]。其往往伴隨顯著的全身性 `MAHA`、嚴重的 `thrombocytopenia`、`peripheral blood` 可見大量 `schistocytes`、`LDH` 顯著飆升與 `haptoglobin` 消失 [17, 19]。其 `first-line therapy` 除了減停 `CNI` 外，常需合併進行 `TPE` [17, 18]。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section (Brenner & Rector's The Kidney, 11th Edition)**:\n    *   **Chapter 41**: *\"Kidney Cancer\"*\n        *   Section: *\"POSTTREATMENT SURVEILLANCE OF LOCALIZED TUMORS: Adverse effects of VEGF inhibitors\"* [Passage 134] (detailing that VEGF inhibitors induce HTN, proteinuria, and the primary pathological presentation of thrombotic microangiopathy, mirroring preeclampsia).\n    *   **Chapter 42**: *\"Onconephrology-Kidney Disease and Cancer\"*\n        *   Section: *\"Targeted Agents: Anti-VEGF agents and Tyrosine kinase inhibitors\"* [Passage 140, 141] (Table detailing HTN, proteinuria, and TMA for both Bevacizumab and Sunitinib).\n        *   Section: *\"GLOMERULAR AND MICROVASCULAR DISEASES: VEGF-Targeted Therapy\"* [Passage 144] (describing podocyte secretion of VEGF, crossing the basement membrane to VEGFR, maintaining glomerular endothelial integrity, and how blockade by sunitinib leads to endothelial cell dysfunction, proteinuria, hypertension, and TMA).\n        *   Section: *\"THROMBOTIC MICROANGIOPATHY\"* [Passage 138] (noting that systemic signs of MAHA may be mild or absent, but renal biopsy confirms TMA with edematous intimal expansion, fibrinoid necrosis, and capillary collapse).\n    *   **Chapter 29**: *\"Prevention and Management of Acute Kidney Injury\"*\n        *   Section: *\"Ischemia or Nephrotoxic Acute Tubular Necrosis: Exogenous toxin\"* [Passage 58] (linking bevacizumab and sunitinib to HTN, proteinuria, TMA, and AKI).\n*   **Figures, Tables, & Boxes**:\n    *   **Table under \"Targeted Agents\" in Chapter 42** [Passage 140, 141].\n\n---\n\n🎧 深入掌握 **`VEGF`** 信號通路在維持 **`endothelial fenestrations`** 盒 **`glomerular endothelial cell`** 結構穩定上的分子生理學機制、其受阻斷後引發 **`TMA`** 盒 **`preeclampsia-like`** 臨床表徵的病理學本質，以及其與 **`CNI-induced TMA`** 的全身性表現鑑別，是腫瘤腎臟病學與專科醫師考試中極具臨床與實務價值的核心考點。如果您有需要，我可以為您建立一個 **`Quiz`**（互動式測驗 App），包含多道精選的腫瘤相關腎臟病、藥物毒性病理、以及最新 **`KDIGO` 腎絲球疾病診治指引** 的模擬考題，協助您高效備考。您是否需要我啟動此項客製化工具的建置？"
         }
-      ]
+      ],
+      "qcVerifiedBy": "tn-exam-qc"
     },
     {
       "id": "Q28",
@@ -1562,7 +1628,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 Belzutifan 治療 Clear Cell RCC 之機轉 (HIF-2α / VHL) 之核心病理生理與臨床處置原則。正解為 (D)。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Belzutifan 治療 Clear Cell RCC 之機轉 (HIF-2α / VHL)。",
+      "sourceExplanation": "本題考查 Belzutifan 治療 Clear Cell RCC 之機轉 (HIF-2α / VHL) 之核心病理生理與臨床處置原則。正解為 D。\n\n詳細解析：Kidney Cancer 和 Onconephrology - Belzutifan 治療 Clear Cell RCC 之機轉 (HIF-2α / VHL)。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1582,7 +1648,10 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     }
   ],
   "updatedAt": "2026-07-29T02:41:55.000Z",

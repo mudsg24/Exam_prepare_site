@@ -291,7 +291,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C, D) 不符",
+      "reconciliationNotes": "C 與 NotebookLM 解析 (C, D) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:02.604Z",
@@ -930,7 +930,7 @@
         }
       ],
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (C, D) 不符",
+      "reconciliationNotes": "D 與 NotebookLM 解析 (C, D) 不符",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:02.607Z",
@@ -1133,7 +1133,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "本題探討一名 79 歲男性從越南返國後，因 urinary tract infection 在當地接受藥物治療，隨後出現藍綠色 urine discoloration 的最可能病因。根據臨床藥理學，Domitazol 是越南極為廣泛使用的 over-the-counter 或處方尿路殺菌劑，其核心活性成分為 Methylene blue 與 Monobromated Camphor。口服後，Methylene blue 經由 glomerular filtration 與 tubular secretion 排泄。在患者 urinalysis 顯示 pH 7.0 的中性環境下，Methylene blue 維持穩定的有色氧化狀態，使尿液呈現特徵性的藍色或與 urochrome 混合成藍綠色，與患者病史高度吻合。選項 (A) Pseudomonas 雖可分泌藍綠色的 pyocyanin，但患者缺乏典型活動性 pyuria，且尿色改變發生於服藥後。選項 (B) Phenazopyridine 是一種 urinary tract analgesic，會使尿液呈現橘紅色。選項 (C) Chronic bacterial prostatitis 雖符合 kidney echo 的 prostate calcification，但其發炎僅會引起 hematuria，不會產生藍綠色尿液。因此，最可能的病因為 Domitazol。",
+      "sourceExplanation": "本題探討一名 79 歲男性從越南返國後，因 urinary tract infection 在當地接受藥物治療，隨後出現藍綠色 urine discoloration 的最可能病因。根據臨床藥理學，Domitazol 是越南極為廣泛使用的 over-the-counter 或處方尿路殺菌劑，其核心活性成分為 Methylene blue 與 Monobromated Camphor。口服後，Methylene blue 經由 glomerular filtration 與 tubular secretion 排泄。在患者 urinalysis 顯示 pH 7.0 的中性環境下，Methylene blue 維持穩定的有色氧化狀態，使尿液呈現特徵性的藍色或與 urochrome 混合成藍綠色，與患者病史高度吻合。A Pseudomonas 雖可分泌藍綠色的 pyocyanin，但患者缺乏典型活動性 pyuria，且尿色改變發生於服藥後。B Phenazopyridine 是一種 urinary tract analgesic，會使尿液呈現橘紅色。C Chronic bacterial prostatitis 雖符合 kidney echo 的 prostate calcification，但其發炎僅會引起 hematuria，不會產生藍綠色尿液。因此，最可能的病因為 Domitazol。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-1)",

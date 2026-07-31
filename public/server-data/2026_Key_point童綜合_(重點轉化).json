@@ -47,7 +47,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q02",
@@ -89,7 +92,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q03",
@@ -131,7 +137,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q04",
@@ -173,7 +182,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q05",
@@ -199,7 +211,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Porphyrinuria 與 alkaptonuria 的典型特徵是排出的尿液在久置後顏色會發生變化 (change from red to black upon standing)。而 myoglobinuria 與 hematuria 通常在一排出時即呈現異常顏色。",
+      "sourceExplanation": "Porphyrinuria 與 alkaptonuria change from red to black upon standing。而 myoglobinuria 與 hematuria 通常在一排出時即呈現異常顏色。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -215,7 +227,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q06",
@@ -241,7 +256,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "尿液呈現紅色且沉渣 (sediment) 清澈且無紅血球時，最常見的原因為 myoglobinuria (如劇烈運動造成的橫紋肌溶解) 或是特定的 porphyrias。相對地，若為 hematuria，則其尿液沉渣應可見明顯的紅血球 (red sediment)。",
+      "sourceExplanation": "sediment 清澈且無紅血球時，最常見的原因為 myoglobinuria 如劇烈運動造成的橫紋肌溶解 或是特定的 porphyrias。相對地，若為 hematuria，red sediment。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -257,7 +272,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q07",
@@ -283,7 +301,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "增加 urinary protein 或 albumin 排出的常見病患相關因素包含：posture (postural proteinuria)、urinary tract infection、hematuria、high dietary protein intake、high-intensity exercise、congestive cardiac failure、menstruation/vaginal discharge 等。低蛋白飲食 (low dietary protein intake) 並不會造成尿蛋白排出增加。",
+      "sourceExplanation": "增加 urinary protein 或 albumin 排出的常見病患相關因素包含：posture (postural proteinuria)、urinary tract infection、hematuria、high dietary protein intake、high-intensity exercise、congestive cardiac failure、menstruation/vaginal discharge 等。low dietary protein intake 並不會造成尿蛋白排出增加。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -299,7 +317,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q08",
@@ -341,7 +362,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q09",
@@ -383,7 +407,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q10",
@@ -409,7 +436,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "當 polyuria 患者的 Uosm > 300 mOsm/kg 時，代表屬於 solute diuresis 的範疇 (例如可能由 glycosuria 引起的 osmotic diuresis)。相比之下，water diuresis (如 primary polydipsia 或 diabetes insipidus) 的尿液滲透壓通常會 < 250 mOsm/kg。",
+      "sourceExplanation": "當 polyuria 患者的 Uosm > 300 mOsm/kg 時，代表屬於 solute diuresis 的範疇 (例如可能由 glycosuria 引起的 osmotic diuresis)。相比之下，water diuresis (如 primary polydipsia 或 diabetes insipidus) 的尿液osmolality通常會 < 250 mOsm/kg。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -425,7 +452,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q11",
@@ -451,7 +481,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Liddle Syndrome 是一種自體顯性遺傳疾病，主因為集尿管 (collecting duct) 上的上皮鈉離子通道 (ENaC) 發生持續活化 (constitutive activation) 的突變。這會導致鈉離子過度重吸收與鉀離子排出，引發高血壓 (hypertension) 與低血鉀 (hypokalemia)。因為體液容積擴張，會透過負回饋抑制 renin 與 aldosterone，因此呈現 Low Plasma Renin 與 Low Plasma Aldosterone 的特徵。",
+      "sourceExplanation": "Liddle Syndrome 是一種自體顯性遺傳疾病，collecting duct ENaC constitutive activation 的突變。這會導致鈉離子過度重吸收與鉀離子排出，hypertension hypokalemia。因為體液容積擴張，會透過負回饋抑制 renin 與 aldosterone，因此呈現 Low Plasma Renin 與 Low Plasma Aldosterone 的特徵。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -467,7 +497,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q12",
@@ -493,7 +526,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "典型的 Liddle syndrome 表現為低血鉀 (hypokalemia) 且伴隨高血壓。由於上皮鈉離子通道 (ENaC) 的過度活化導致體液容積增加，腎素-血管張力素-醛固酮系統 (RAAS) 會被強烈抑制，造成 plasma renin 與 plasma aldosterone 均顯著降低。選項 (C) 最符合此血清學特徵。",
+      "sourceExplanation": "典型的 Liddle syndrome hypokalemia 且伴隨高血壓。ENaC 的過度活化導致體液容積增加，腎素-血管張力素-RAAS 會被強烈抑制，造成 plasma renin 與 plasma aldosterone 均顯著降低。選項 C 最符合此血清學特徵。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -509,7 +542,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q13",
@@ -535,7 +571,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在評估 non-anion gap metabolic acidosis 時，如果起因於腸胃道碳酸氫鹽流失 (GI NaHCO3 loss)，腎臟會代償性地增加銨離子 (NH4+) 的排泄以排除酸。此時尿液中與 NH4+ 共同排泄的主要陰離子是氯離子 (Urine Cl-)。因此，測定 Urine Cl- 可以用來評估伴隨 NH4+ 排出的陰離子，並在計算 Urine anion gap 時作為關鍵參數。",
+      "sourceExplanation": "在評估 non-anion gap metabolic acidosis 時，GI NaHCO3 loss，NH4+ 的排泄以排除酸。此時尿液中與 NH4+ Urine Cl-。因此，測定 Urine Cl- 可以用來評估伴隨 NH4+ 排出的陰離子，並在計算 Urine anion gap 時作為關鍵參數。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -551,7 +587,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q14",
@@ -577,7 +616,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在 Metabolic Acidosis 的實驗室評估中，Brachial venous PCO2 是用來評估骨骼肌碳酸氫鹽緩衝 (skeletal muscle bicarbonate buffering) 是否足夠的獨特指標。它能反映局部組織灌流 (tissue perfusion) 以及二氧化碳清除 (CO2 clearance) 的狀態。",
+      "sourceExplanation": "在 Metabolic Acidosis 的實驗室評估中，Brachial venous PCO2 skeletal muscle bicarbonate buffering 是否足夠的獨特指標。tissue perfusion CO2 clearance 的狀態。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -593,7 +632,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q15",
@@ -619,7 +661,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據 GBCA 顯影劑與腎因性全身性纖維化 (Nephrogenic Systemic Fibrosis, NSF) 的安全指引，對於嚴重腎功能不全 (eGFR <= 30 mL/min/1.73 m²) 的病患，若絕對需要進行 MRI，應優先選擇 Group II GBCA。Group I GBCA 由於引發 NSF 的風險極高，在這些病患中被列為絕對禁忌症 (strictly contraindicated)。",
+      "sourceExplanation": "根據 GBCA 顯影劑與 Nephrogenic Systemic Fibrosis (NSF) 的安全指引，對於嚴重腎功能不全 (eGFR <= 30 mL/min/1.73 m²) 的病患，若絕對需要進行 MRI，應優先選擇 Group II GBCA。Group I GBCA 由於引發 NSF 的風險極高，strictly contraindicated。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -635,7 +677,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q16",
@@ -661,7 +706,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據 NSF 安全指引，急性腎損傷 (Acute Kidney Injury, AKI) 病患由於腎功能急急劇變化且清除顯影劑的能力無法預測，發生 Nephrogenic Systemic Fibrosis (NSF) 的風險顯著增加。因此，在這類病患中應避免使用所有類型的含釓顯影劑 (gadolinium-based contrast agents)。",
+      "sourceExplanation": "根據 NSF 安全指引，Acute Kidney Injury (AKI) 病患由於腎功能急急劇變化且清除顯影劑的capacity無法預測，發生 Nephrogenic Systemic Fibrosis (NSF) 的風險顯著增加。因此，gadolinium-based contrast agents。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -677,7 +722,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q17",
@@ -703,7 +751,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "腎臟切片 (Renal Biopsy) 的絕對禁忌症 (absolute contraindications) 包括：未控制的高血壓 (uncontrolled hypertension)、出血傾向 (bleeding diathesis)、廣泛性囊泡疾病 (widespread cystic disease，例如廣泛的多囊腎)、腎水腫 (hydronephrosis) 以及無法配合的病患 (uncooperative patient)。而 BMI > 40、解剖構造異常以及單一腎臟 (single kidney) 皆屬於相對禁忌症 (relative contraindications)。",
+      "sourceExplanation": "Renal Biopsy absolute contraindications 包括：uncontrolled hypertension、bleeding diathesis、廣泛性囊泡疾病 (widespread cystic disease，例如廣泛的多囊腎)、hydronephrosis uncooperative patient。而 BMI > 40、single kidney relative contraindications。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -719,7 +767,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q18",
@@ -745,7 +796,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在腎臟切片的禁忌症評估中，活動性泌尿道或皮膚感染 (active urinary/skin sepsis) 屬於相對禁忌症 (relative contraindications)，可以經過抗生素治療後再評估。相對地，出血傾向、無法配合的病患及嚴重的雙側腎水腫則屬於絕對禁忌症 (absolute contraindications)。",
+      "sourceExplanation": "在腎臟切片的禁忌症評估中，active urinary/skin sepsis relative contraindications，可以經過抗生素治療後再評估。相對地，出血傾向、absolute contraindications。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -761,7 +812,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q19",
@@ -787,7 +841,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "自體動靜脈瘻管 (Autogenous AV Fistula, AVF) 雖然需要數週至數月的成熟時間 (maturation time)，但一旦成熟，它具有所有血液透析血管通路中最高的長期存活率 (highest long-term survival)、最低的血栓形成率 (lowest thrombosis rate) 以及最低的感染風險 (lowest infection rate)。",
+      "sourceExplanation": "自 Autogenous AV Fistula (AVF) maturation time，但一旦成熟，highest long-term survival、lowest thrombosis rate lowest infection rate。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -803,7 +857,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q20",
@@ -829,7 +886,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "中央靜脈導管 (Central Venous Catheter, CVC) 的主要優點是置入後可以立即使用 (instant usability)，不需成熟時間。然而，其最大的缺點包括長期存活率差、血流速較低，且伴隨極高的導管相關血液感染風險 (high infection risk) 與血栓形成風險 (high thrombosis risk)。",
+      "sourceExplanation": "Central Venous Catheter (CVC) instant usability，不需成熟時間。然而，其最大的缺點包括長期存活率差、血流速較低，high infection risk high thrombosis risk。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -845,7 +902,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q21",
@@ -871,7 +931,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "對於 small molecules (例如 urea) 的 clearance，在 hemodialysis 中最重要的決定因素依序為：1. Blood and dialysate flow rate (血流與透析液流速)，2. Membrane surface area，3. Treatment time，4. Membrane permeability。因此正確答案為 (A)。",
+      "sourceExplanation": "對於 small molecules (例如 urea) 的 clearance，在 hemodialysis 中最重要的決定因素依序為：1. Blood and dialysate flow rate 血流與透析液流速，2. Membrane surface area，3. Treatment time，4. Membrane permeability。因此正確答案為 A。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -887,7 +947,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q22",
@@ -929,7 +992,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q23",
@@ -955,7 +1021,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "對於 high risk of bleeding 的 hemodialysis 評估，若患者在 7 天內接受過 major surgery、有 active bleeding 或在 14 天內接受過 intracranial surgery，應採用 no anticoagulation 或 regional anticoagulation (如 regional citrate anticoagulation)。此病患 5 天前剛接受 major surgery，因此選擇 (A)。",
+      "sourceExplanation": "對於 high risk of bleeding 的 hemodialysis 評估，若患者在 7 天內接受過 major surgery、有 active bleeding 或在 14 天內接受過 intracranial surgery，應採用 no anticoagulation 或 regional anticoagulation (如 regional citrate anticoagulation)。此病患 5 天前剛接受 major surgery，因此選擇 A。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -971,7 +1037,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q24",
@@ -1013,7 +1082,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q25",
@@ -1039,7 +1111,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "使用 icodextrin 作為 PD solution 的患者，其代謝物 maltose 會累積在血液中。若使用含 glucose dehydrogenase pyrroloquinoline-quinone (GDH-PQQ) 的 glucometer 測量血糖，會因為對 maltose 的 cross-reactivity 而導致假性高血糖 (falsely overestimate blood glucose)。",
+      "sourceExplanation": "使用 icodextrin 作為 PD solution 的患者，其代謝物 maltose 會累積在血液中。若使用含 glucose dehydrogenase pyrroloquinoline-quinone (GDH-PQQ) 的 glucometer 測量血糖，會因為對 maltose 的 cross-reactivity falsely overestimate blood glucose。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1055,7 +1127,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q26",
@@ -1097,7 +1172,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q27",
@@ -1139,7 +1217,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q28",
@@ -1181,7 +1262,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q29",
@@ -1223,7 +1307,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q30",
@@ -1265,7 +1352,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q31",
@@ -1307,7 +1397,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q32",
@@ -1333,7 +1426,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在重症 AKI 病人接受 CRRT 時，目前的 effluent dose target 建議為 25 mL/kg/hour（選項 B 正確）。Lung-protective low tidal volume ventilation 可能會導致 permissive hypercapnia，這在 AKI 無法代償的情況下會引起嚴重的 mixed acidosis（選項 A 錯誤）。Early goal-directed therapy (EGDT) 在 sepsis 中無法證實能預防 AKI 或改善 mortality（選項 C 錯誤）。急性肝衰竭（Acute Liver Failure）合併 AKI 時，CRRT 才是首選，以避免 brain herniation（選項 D 錯誤）。",
+      "sourceExplanation": "在重症 AKI 病人接受 CRRT 時，目前的 effluent dose target 建議為 25 mL/kg/hour（選項 B 正確）。Lung-protective low tidal volume ventilation 可能會導致 permissive hypercapnia，這在 AKI 無法代償的情況下會引起嚴重的 mixed acidosis（選項 A 錯誤）。Early goal-directed therapy (EGDT) 在 sepsis 中無法證實能預防 AKI 或改善 mortality（選項 C 錯誤）。Acute Liver Failure合併 AKI 時，CRRT 才是首選，以避免 brain herniation（選項 D 錯誤）。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1349,7 +1442,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q33",
@@ -1391,7 +1487,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q34",
@@ -1433,7 +1532,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q35",
@@ -1459,7 +1561,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "進行 Urine Alkalinization 時，維持 Normokalemia 是絕對的先決條件。因為在 Hypokalemia 的狀態下，腎小管（Collecting tubule）會為了 reabsorption K+ 而分泌 H+，導致無法有效鹼化尿液（選項 A 正確，C 錯誤）。在急性中毒的處置中，Forced Diuresis 已經不再被建議使用（NEVER recommended）（選項 B、D 錯誤）。",
+      "sourceExplanation": "進行 Urine Alkalinization 時，維持 Normokalemia 是絕對的先決條件。因為在 Hypokalemia 的狀態下，Collecting tubule會為了 reabsorption K+ 而分泌 H+，導致無法有效鹼化尿液（選項 A 正確，C 錯誤）。在急性中毒的處置中，Forced Diuresis 已經不再被 NEVER recommended（選項 B、D 錯誤）。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -1475,7 +1577,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q36",
@@ -1517,7 +1622,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q37",
@@ -1559,7 +1667,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q38",
@@ -1601,7 +1712,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q39",
@@ -1643,7 +1757,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     },
     {
       "id": "2026_Key_point童綜合_Q40",
@@ -1685,7 +1802,10 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致"
+      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
+      "qcVerifiedBy": "tn-exam-qc",
+      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z",

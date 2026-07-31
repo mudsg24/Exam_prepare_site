@@ -29,7 +29,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
-      "sourceExplanation": "Type II Heparin-Induced Thrombocytopenia (HIT) 屬於免疫介導的重症病變。當 Unfractionated Heparin (UFH) 或 Low-Molecular-Weight Heparin (LMWH) 與 Platelet 顆粒中釋放的 Platelet Factor 4 (PF4) 結合形成超大 Tetramer Complex 時，會誘發產生對抗 PF4-Heparin Complex 的 IgG Autoantibodies。此 Immune Complex 透過與 Platelet 膜上的 FcγRIIa Receptor 跨聯 (Cross-linking)，傳遞強烈的 Platelet Activation 信號，導致 Platelet Microparticles 釋放、Thrombin 大量生成與全血管床血栓形成。",
+      "sourceExplanation": "Type II Heparin-Induced Thrombocytopenia (HIT) 屬於免疫介導的重症病變。當 Unfractionated Heparin (UFH) 或 Low-Molecular-Weight Heparin (LMWH) 與 Platelet 顆粒中釋放的 Platelet Factor 4 (PF4) 結合形成超大 Tetramer Complex 時，會誘發產生對抗 PF4-Heparin Complex 的 IgG Autoantibodies。此 Immune Complex 透過與 Platelet 膜上的 FcγRIIa Receptor Cross-linking，傳遞強烈的 Platelet Activation 信號，導致 Platelet Microparticles 釋放、Thrombin 大量生成與全血管床血栓形成。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -149,7 +149,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
-      "sourceExplanation": "在 4Ts Score 評分系統中，Timing 項目的最高分 (2 分) 標準為：(1) 在首次暴露 Heparin 後的第 5 至 10 天之間發生 Platelet 下降；或者 (2) 患者在過去 100 天內曾接受過 Heparin 暴露，本次暴露後在 24 小時內發生 Rapid-onset Platelet 下降（因為體內殘存對抗 PF4-Heparin 的 IgG 記憶抗體）。",
+      "sourceExplanation": "在 4Ts Score 評分系統中，Timing 項目的最高分 (2 分) 標準為：(1) 在首次暴露 Heparin 後的第 5 至 10 天之間發生 Platelet 下降；2 患者在過去 100 天內曾接受過 Heparin 暴露，本次暴露後在 24 小時內發生 Rapid-onset Platelet 下降（因為體內殘存對抗 PF4-Heparin 的 IgG 記憶抗體）。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -209,7 +209,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
-      "sourceExplanation": "Serotonin Release Assay (SRA) 是診斷 HIT 的黃金標準功能性檢驗 (Gold Standard Functional Assay)。SRA 利用經 14C-Serotonin 標記的 Donor Platelets，加入患者血清與低/高濃度 Heparin，量測 Platelet 釋放 Serotonin 的比例，具有 >95% 的極高 Sensitivity 與 Specificity。相對地，Anti-PF4 ELISA 為敏感度高但特異度較低的 Screening Assay。",
+      "sourceExplanation": "Serotonin Release Assay (SRA) 是診斷 HIT Gold Standard Functional Assay。SRA 利用經 14C-Serotonin 標記的 Donor Platelets，加入患者血清與低/高濃度 Heparin，量測 Platelet 釋放 Serotonin 的比例，具有 >95% 的極高 Sensitivity 與 Specificity。相對地，Anti-PF4 ELISA 為敏感度高但特異度較低的 Screening Assay。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -329,7 +329,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
-      "sourceExplanation": "Argatroban 是一種小分子的 Direct Thrombin Inhibitor (DTI)，其清除完全依賴肝臟代謝與膽汁排泄 (Hepatic Metabolism)，其 Elimination Half-life (~45 min) 在 End-Stage Renal Disease (ESRD) 或 Hemodialysis 患者體內完全不受影響。因此 Argatroban 是腎功能衰竭與透析患者發生 HIT 時的首選抗凝血劑。相較之下，Fondaparinux 與 Dabigatran 依賴腎臟排泄，在 ESRD 會嚴重蓄積。",
+      "sourceExplanation": "Argatroban 是一種小分子的 Direct Thrombin Inhibitor (DTI)，Hepatic Metabolism，其 Elimination Half-life (~45 min) 在 End-Stage Renal Disease (ESRD) 或 Hemodialysis 患者體內完全不受影響。因此 Argatroban 是腎功能衰竭與透析患者發生 HIT 時的首選抗凝血劑。相較之下，Fondaparinux 與 Dabigatran 依賴腎臟排泄，在 ESRD 會嚴重蓄積。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -509,7 +509,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
-      "sourceExplanation": "在 HIT 急性期，患者循環中存在高濃度的 Anti-PF4/Heparin Immune Complexes。此時若輸注外源性 Platelets，輸入的血小板會提供大量的 PF4 與 FcγRIIa Receptor，如同「加油添火 (Fueling the fire)」，引發更為劇烈的 Platelet Activation 與 Thrombin 暴衝，進而誘發致命的 Arterial and Venous Thrombosis。因此除危及生命的出血外，HIT 嚴禁預防性輸注 Platelets。",
+      "sourceExplanation": "在 HIT 急性期，患者循環中存在高濃度的 Anti-PF4/Heparin Immune Complexes。此時若輸注外源性 Platelets，輸入的血小板會提供大量的 PF4 與 FcγRIIa Receptor，如同「Fueling the fire」，引發更為劇烈的 Platelet Activation 與 Thrombin 暴衝，進而誘發致命的 Arterial and Venous Thrombosis。因此除危及生命的出血外，HIT 嚴禁預防性輸注 Platelets。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -569,7 +569,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
-      "sourceExplanation": "Bivalirudin 是一種短效的 IV Direct Thrombin Inhibitor (DTI)，半衰期約 25 分鐘，主要經由血漿蛋白酶水解 (80%) 與腎臟清除 (20%)。在心導管 Percutaneous Coronary Intervention (PCI) 或心臟手術中，對於近代 (90天內) 曾發生 HIT 或 SRA 仍呈陽性的患者，Bivalirudin 是美國胸腔醫師學會 (ACCP) 指引首選推薦的術中抗凝血藥物。",
+      "sourceExplanation": "Bivalirudin 是一種短效的 IV Direct Thrombin Inhibitor (DTI)，半衰期約 25 分鐘，主要經由血漿蛋白酶水解 (80%) 與腎臟清除 (20%)。在心導管 Percutaneous Coronary Intervention (PCI) 或心臟手術中，對於近代 (90天內) 曾發生 HIT 或 SRA 仍呈陽性的患者，Bivalirudin ACCP 指引首選推薦的術中抗凝血藥物。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -689,7 +689,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
-      "sourceExplanation": "對於洗腎室 (Hemodialysis Unit) 確診或高度懷疑 HIT 的患者，透析迴路 (Dialysis Circuit) 的首選抗凝策略為 Regional Citrate Anticoagulation (RCA) 或無抗凝洗腎 (Saline Flushes)。Regional Citrate 透過在透析器前螯合 Calcium 離子發揮局部抗凝作用，完全不含有任何 Heparin 成分，且不增加全身性出血或血栓風險。使用 Heparin Flushes 或 Heparin-coated Membranes 均為嚴禁項目。",
+      "sourceExplanation": "Hemodialysis Unit 確診或高度懷疑 HIT 的患者，Dialysis Circuit 的首選抗凝策略為 Regional Citrate Anticoagulation (RCA) Saline Flushes。Regional Citrate 透過在透析器前螯合 Calcium 離子發揮局部抗凝作用，完全不含有任何 Heparin 成分，且不增加全身性出血或血栓風險。使用 Heparin Flushes 或 Heparin-coated Membranes 均為嚴禁項目。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -749,7 +749,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
-      "sourceExplanation": "Type 1 HIT 是由 Heparin 直接與 Platelet 結合引發的非免疫性輕微血小板聚集 (Non-immune direct aggregation)，通常在用藥 1–4 天內發生，Platelet 輕微下降且很少 <100,000/μL，無血栓風險且可自行恢復。而 Type 2 HIT 則是抗體介導的重症病變 (Immune-mediated via IgG against PF4-heparin)，伴隨高度血栓風險與顯著 Platelet 驟降，必須立即停用 Heparin 並使用替代抗凝血劑。",
+      "sourceExplanation": "Type 1 HIT 是由 Heparin 直接與 Platelet Non-immune direct aggregation，通常在用藥 1–4 天內發生，Platelet 輕微下降且很少 <100,000/μL，無血栓風險且可自行恢復。而 Type 2 HIT Immune-mediated via IgG against PF4-heparin，伴隨高度血栓風險與顯著 Platelet 驟降，必須立即停用 Heparin 並使用替代抗凝血劑。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -869,7 +869,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
-      "sourceExplanation": "Argatroban 透過持續靜脈輸注給藥，其療效與安全性的主要監測指標為 Activated Partial Thromboplastin Time (aPTT)。臨床目標需將 aPTT 控制在患者基期值 (Baseline) 的 1.5 至 3.0 倍（通常為 55–90 秒）。開始輸注或調整劑量後 2–4 小時需抽血確認 aPTT，達標後每日監測即可。",
+      "sourceExplanation": "Argatroban 透過持續靜脈輸注給藥，其療效與安全性的主要監測指標為 Activated Partial Thromboplastin Time (aPTT)。臨床目標需將 aPTT Baseline 的 1.5 至 3.0 倍（通常為 55–90 秒）。開始輸注或調整劑量後 2–4 小時需抽血確認 aPTT，達標後每日監測即可。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -929,7 +929,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
-      "sourceExplanation": "HIT 導致的皮下注射部位壞死 (Heparin-induced Skin Necrosis) 與肢端缺血壞死 (Venous Limb Gangrene / Phlegmasia cerulea dolens)，是極致高凝血狀態下 Microvascular Thrombosis 的典範表現。此現象源於 Anti-PF4/Heparin 免疫複合物引發爆發性的 Platelet Activation、Platelet Microparticle 釋放與 Thrombin 生成，導致微血管床普遍被微血栓堵塞。",
+      "sourceExplanation": "HIT Heparin-induced Skin Necrosis Venous Limb Gangrene / Phlegmasia cerulea dolens，是極致高凝血狀態下 Microvascular Thrombosis 的典範表現。此現象源於 Anti-PF4/Heparin 免疫複合物引發爆發性的 Platelet Activation、Platelet Microparticle 釋放與 Thrombin 生成，導致微血管床普遍被微血栓堵塞。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -989,7 +989,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
-      "sourceExplanation": "在末期腎病 (ESRD) 患者中，即便沒有接受全身性 Therapeutic Heparin 治療，僅僅用於中心靜脈透析導管 (Central Venous Catheter) 封管或沖洗的小劑量 Heparin Flushes (Heparin Lock)，也足以誘發 Anti-PF4/Heparin 抗體產生並引發經典的 HIT。因此診斷 HIT 時，必須徹底封殺包含導管 Flush 在內的所有潛在 Heparin 來源。",
+      "sourceExplanation": "ESRD 患者中，即便沒有接受全身性 Therapeutic Heparin 治療，Central Venous Catheter 封管或沖洗的小劑量 Heparin Flushes (Heparin Lock)，也足以誘發 Anti-PF4/Heparin 抗體產生並引發經典的 HIT。因此診斷 HIT 時，必須徹底封殺包含導管 Flush 在內的所有潛在 Heparin 來源。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -1049,7 +1049,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
-      "sourceExplanation": "Argatroban 主要經由肝臟代謝 (Hepatic Clearance)。在肝功能正常的患者中，初始劑量為 2.0 μg/kg/min；但在重度肝功能不全 (Child-Pugh Class C)、嚴重淤膽或多器官衰竭 (Shock Liver) 的 ICU 重症患者中，Argatroban 的 Clearance 會大幅下降 4 倍以上。因此初始劑量必須顯著調降至 0.5 μg/kg/min 甚至更低，並嚴密監測 aPTT 防止嚴重出血。",
+      "sourceExplanation": "Argatroban Hepatic Clearance。在肝功能正常的患者中，初始劑量為 2.0 μg/kg/min；Child-Pugh Class C、Shock Liver 的 ICU 重症患者中，Argatroban 的 Clearance 會大幅下降 4 倍以上。因此初始劑量必須顯著調降至 0.5 μg/kg/min 甚至更低，並嚴密監測 aPTT 防止嚴重出血。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_63_8",
@@ -1137,7 +1137,7 @@
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: A / A",
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "原始答案標示為 (C)，但 NotebookLM 雙重對答皆指向選項 (A)。"
+      "reconciliationNotes": "C，但 NotebookLM A。"
     },
     {
       "id": "q20",

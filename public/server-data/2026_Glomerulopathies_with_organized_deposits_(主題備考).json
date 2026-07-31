@@ -1,0 +1,928 @@
+{
+  "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+  "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+  "title": "2026 Glomerulopathies with Organized Deposits (組織化沈積物腎絲球病變) 病理分型、EM 結構微觀、DNAJB9 與臨床實戰",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "questionCount": 18,
+  "questions": [
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q1",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 1,
+      "stem": "A 58-year-old man presents with progressive lower extremity edema and nephrotic-range proteinuria (6.5 g/24h). Serum creatinine is 1.8 mg/dL. A renal biopsy reveals mesangial expansion with Congo red-negative fibrillar deposits on electron microscopy measuring 18 nm in diameter, arranged randomly. Immunohistochemistry is strongly positive for DNAJB9. Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrillary glomerulonephritis"
+        },
+        {
+          "id": "B",
+          "text": "AL amyloidosis"
+        },
+        {
+          "id": "C",
+          "text": "Immunotactoid glomerulopathy"
+        },
+        {
+          "id": "D",
+          "text": "Cryoglobulinemic glomerulonephritis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Fibrillary glomerulonephritis (FGN) 的典型電子顯微鏡特徵為 16-24 nm (平均約 18-20 nm) 無分支、隨機排列之 Solid Fibrils，且 Congo Red Staining 通常為 Negative。DNAJB9 (Heat Shock Protein Co-chaperone) 為 FGN 的 Highly Sensitive & Specific Biomarker (Sensitivity > 98%)。Amyloidosis 的 Fibril 較細 (8-12 nm) 且 Congo Red Positive；Immunotactoid Glomerulopathy 的 Microtubules 較粗 (30-50 nm) 且具 Hollow Center 與 Parallel Stacks 結構。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Fibrillary glomerulonephritis (FGN) 的典型電子顯微鏡特徵為 16-24 nm (平均約 18-20 nm) 無分支、隨機排列之 Solid Fibrils，且 Congo Red Staining 通常為 Negative。DNAJB9 (Heat Shock Protein Co-chaperone) 為 FGN 的 Highly Sensitive & Specific Biomarker (Sensitivity > 98%)。Amyloidosis 的 Fibril 較細 (8-12 nm) 且 Congo Red Positive；Immunotactoid Glomerulopathy 的 Microtubules 較粗 (30-50 nm) 且具 Hollow Center 與 Parallel Stacks 結構。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Fibrillary glomerulonephritis (FGN) 的典型電子顯微鏡特徵為 16-24 nm (平均約 18-20 nm) 無分支、隨機排列之 Solid Fibrils，且 Congo Red Staining 通常為 Negative。DNAJB9 (Heat Shock Protein Co-chaperone) 為 FGN 的 Highly Sensitive & Specific Biomarker (Sensitivity > 98%)。Amyloidosis 的 Fibril 較細 (8-12 nm) 且 Congo Red Positive；Immunotactoid Glomerulopathy 的 Microtubules 較粗 (30-50 nm) 且具 Hollow Center 與 Parallel Stacks 結構。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q2",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 2,
+      "stem": "Which of the following electron microscopic features best distinguishes Immunotactoid Glomerulopathy (ITG) from Fibrillary Glomerulonephritis (FGN)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presence of subepithelial dense deposits"
+        },
+        {
+          "id": "B",
+          "text": "Hollow microtubular structures measuring 30–50 nm in parallel stacks"
+        },
+        {
+          "id": "C",
+          "text": "Randomly oriented solid microfibrils measuring 8–12 nm"
+        },
+        {
+          "id": "D",
+          "text": "Diffusely effaced podocyte foot processes without electron-dense deposits"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Immunotactoid Glomerulopathy (ITG) 在 Electron Microscopy 下的絕對關鍵鑑別特徵為直徑 30-50 nm 的 Hollow Microtubules，且常呈平行對齊之 Parallel Stacks 或 Bundles。相比之下，Fibrillary Glomerulonephritis (FGN) 為 16-24 nm 的 Solid (非空心) 隨機排列 Fibrils。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Immunotactoid Glomerulopathy (ITG) 在 Electron Microscopy 下的絕對關鍵鑑別特徵為直徑 30-50 nm 的 Hollow Microtubules，且常呈平行對齊之 Parallel Stacks 或 Bundles。相比之下，Fibrillary Glomerulonephritis (FGN) 為 16-24 nm 的 Solid (非空心) 隨機排列 Fibrils。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Immunotactoid Glomerulopathy (ITG) 在 Electron Microscopy 下的絕對關鍵鑑別特徵為直徑 30-50 nm 的 Hollow Microtubules，且常呈平行對齊之 Parallel Stacks 或 Bundles。相比之下，Fibrillary Glomerulonephritis (FGN) 為 16-24 nm 的 Solid (非空心) 隨機排列 Fibrils。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "selectedOption": "B",
+      "reconciledAnswer": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q3",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 3,
+      "stem": "A 66-year-old woman with chronic lymphocytic leukemia (CLL) develops nephrotic syndrome. Renal biopsy displays lobular mesangial expansion. Immunofluorescence shows IgG kappa light chain restriction. Electron microscopy reveals 38 nm hollow microtubular structures in parallel bundles. DNAJB9 immunohistochemistry is negative. What is the most appropriate next step in clinical management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High-dose corticosteroid monotherapy"
+        },
+        {
+          "id": "B",
+          "text": "Targeted hematologic therapy for the underlying CLL / MGRS clone"
+        },
+        {
+          "id": "C",
+          "text": "Plasmapheresis combined with cyclophosphamide and empirical dialysis"
+        },
+        {
+          "id": "D",
+          "text": "Empirical SGLT2 inhibitor monotherapy without hematologic intervention"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "患者切片與 EM 顯現 38 nm Hollow Microtubules 且為 Monoclonal IgG Kappa 限制，診斷為 Immunotactoid Glomerulopathy (ITG)。ITG 與 Monoclonal Gammopathy of Renal Significance (MGRS) 及 B-cell Lymphoproliferative Disorders (特別是 CLL) 有極高度的病因連結。最佳處置為針對底層的 Hematologic Clone (CLL) 進行標靶控制與治療。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，患者切片與 EM 顯現 38 nm Hollow Microtubules 且為 Monoclonal IgG Kappa 限制，診斷為 Immunotactoid Glomerulopathy (ITG)。ITG 與 Monoclonal Gammopathy of Renal Significance (MGRS) 及 B-cell Lymphoproliferative Disorders (特別是 CLL) 有極高度的病因連結。最佳處置為針對底層的 Hematologic Clone (CLL) 進行標靶控制與治療。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。患者切片與 EM 顯現 38 nm Hollow Microtubules 且為 Monoclonal IgG Kappa 限制，診斷為 Immunotactoid Glomerulopathy (ITG)。ITG 與 Monoclonal Gammopathy of Renal Significance (MGRS) 及 B-cell Lymphoproliferative Disorders (特別是 CLL) 有極高度的病因連結。最佳處置為針對底層的 Hematologic Clone (CLL) 進行標靶控制與治療。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "selectedOption": "B",
+      "reconciledAnswer": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q4",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 4,
+      "stem": "A 62-year-old man presents with fatigue, weight loss, macroglossia, and nephrotic syndrome. Renal biopsy shows mesangial expansion with weakly PAS-positive material. Jones methenamine silver stain demonstrates spicular hair-like projections extending from the GBM. Polarized light microscopy of Congo red-stained tissue exhibits apple-green birefringence. Which light chain is most commonly responsible for this condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kappa (κ) light chain"
+        },
+        {
+          "id": "B",
+          "text": "Lambda (λ) light chain"
+        },
+        {
+          "id": "C",
+          "text": "Heavy chain gamma-1"
+        },
+        {
+          "id": "D",
+          "text": "Alpha-1 antitrypsin"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "患者具 Macroglossia (巨舌症)、Nephrotic Syndrome、Congo Red Apple-Green Birefringence 及 Silver Stain 上的 Spicular Spikes，診斷為 AL Amyloidosis。於 AL Amyloidosis 中，**Lambda (λ) Light Chain 佔絕大多數 (約 75%)**；與 Light Chain Deposition Disease (LCDD, 以 Kappa 佔優勢 > 80%) 形成經典對比。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，患者具 Macroglossia (巨舌症)、Nephrotic Syndrome、Congo Red Apple-Green Birefringence 及 Silver Stain 上的 Spicular Spikes，診斷為 AL Amyloidosis。於 AL Amyloidosis 中，**Lambda (λ) Light Chain 佔絕大多數 (約 75%)**；與 Light Chain Deposition Disease (LCDD, 以 Kappa 佔優勢 > 80%) 形成經典對比。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(B)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。患者具 Macroglossia (巨舌症)、Nephrotic Syndrome、Congo Red Apple-Green Birefringence 及 Silver Stain 上的 Spicular Spikes，診斷為 AL Amyloidosis。於 AL Amyloidosis 中，**Lambda (λ) Light Chain 佔絕大多數 (約 75%)**；與 Light Chain Deposition Disease (LCDD, 以 Kappa 佔優勢 > 80%) 形成經典對比。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "selectedOption": "B",
+      "reconciledAnswer": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q5",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 5,
+      "stem": "A 50-year-old woman with chronic active Hepatitis C virus (HCV) infection presents with purpura, arthralgias, hypocomplementemia (markedly low C4), and acute nephritic syndrome. Renal biopsy reveals endocapillary proliferative glomerulonephritis with PAS-positive intraluminal hyaline pseudothrombi. Electron microscopy displays organized subendothelial deposits with a 30 nm annular-tubular curvilinear substructure. What is the diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cryoglobulinemic glomerulonephritis"
+        },
+        {
+          "id": "B",
+          "text": "IgA vasculitis (Henoch-Schönlein purpura)"
+        },
+        {
+          "id": "C",
+          "text": "Dense deposit disease"
+        },
+        {
+          "id": "D",
+          "text": "Fibrillary glomerulonephritis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "HCV 感染、Purpura、Arthralgias、低 C4、PAS-Positive Intraluminal Hyaline Pseudothrombi 以及 EM 上直徑 30 nm 的 Annular-Tubular Curvilinear Substructure，為 Cryoglobulinemic Glomerulonephritis (Type II Mixed Cryoglobulinemia) 的經典標準表現。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，HCV 感染、Purpura、Arthralgias、低 C4、PAS-Positive Intraluminal Hyaline Pseudothrombi 以及 EM 上直徑 30 nm 的 Annular-Tubular Curvilinear Substructure，為 Cryoglobulinemic Glomerulonephritis (Type II Mixed Cryoglobulinemia) 的經典標準表現。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。HCV 感染、Purpura、Arthralgias、低 C4、PAS-Positive Intraluminal Hyaline Pseudothrombi 以及 EM 上直徑 30 nm 的 Annular-Tubular Curvilinear Substructure，為 Cryoglobulinemic Glomerulonephritis (Type II Mixed Cryoglobulinemia) 的經典標準表現。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q6",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 6,
+      "stem": "Which of the following conditions is characterized by 10–15 nm organized parallel array deposits termed 'fingerprint' patterns within subendothelial electron-dense immune deposits on renal electron microscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lupus nephritis (Class III / IV)"
+        },
+        {
+          "id": "B",
+          "text": "Fabry disease"
+        },
+        {
+          "id": "C",
+          "text": "Thin basement membrane nephropathy"
+        },
+        {
+          "id": "D",
+          "text": "Alport syndrome"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "于 Electron Microscopy 下呈現 10-15 nm Curvilinear Parallel Arrays (稱為 'Fingerprint' Pattern) 的 Subendothelial Immune Complex Deposits，為 Lupus Nephritis (Class III 及 Class IV Proliferative LN) 的高度特異性病理細微結構。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，于 Electron Microscopy 下呈現 10-15 nm Curvilinear Parallel Arrays (稱為 'Fingerprint' Pattern) 的 Subendothelial Immune Complex Deposits，為 Lupus Nephritis (Class III 及 Class IV Proliferative LN) 的高度特異性病理細微結構。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。于 Electron Microscopy 下呈現 10-15 nm Curvilinear Parallel Arrays (稱為 'Fingerprint' Pattern) 的 Subendothelial Immune Complex Deposits，為 Lupus Nephritis (Class III 及 Class IV Proliferative LN) 的高度特異性病理細微結構。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q7",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 7,
+      "stem": "A 42-year-old man presents with persistent proteinuria and hypertension. Renal biopsy shows marked mesangial expansion by nodular matrix material that stains intensely blue on Masson trichrome stain. Congo red stain and immunofluorescence for immunoglobulins are negative. Electron microscopy reveals curved, frayed fibrils measuring 50 nm in diameter with characteristic 60 nm periodic cross-banding in the mesangium. Serum procollagen type III N-terminal peptide (PIIINP) is markedly elevated. What is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collagenofibrotic glomerulopathy"
+        },
+        {
+          "id": "B",
+          "text": "Fibronectin glomerulopathy"
+        },
+        {
+          "id": "C",
+          "text": "Diabetic glomerulosclerosis"
+        },
+        {
+          "id": "D",
+          "text": "AL amyloidosis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Masson Trichrome 呈深藍色 (Intensely Blue, 代表 Collagen 充斥)、EM 展現直徑 40-70 nm (本題 50 nm) 且具 **60 nm Periodic Cross-Banding** 的 Curved Fibrils，加上血清 PIIINP 顯著升高，為 Collagenofibrotic Glomerulopathy (Collagen Type III Glomerulopathy) 的 Pathognomonic 表現。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Masson Trichrome 呈深藍色 (Intensely Blue, 代表 Collagen 充斥)、EM 展現直徑 40-70 nm (本題 50 nm) 且具 **60 nm Periodic Cross-Banding** 的 Curved Fibrils，加上血清 PIIINP 顯著升高，為 Collagenofibrotic Glomerulopathy (Collagen Type III Glomerulopathy) 的 Pathognomonic 表現。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Masson Trichrome 呈深藍色 (Intensely Blue, 代表 Collagen 充斥)、EM 展現直徑 40-70 nm (本題 50 nm) 且具 **60 nm Periodic Cross-Banding** 的 Curved Fibrils，加上血清 PIIINP 顯著升高，為 Collagenofibrotic Glomerulopathy (Collagen Type III Glomerulopathy) 的 Pathognomonic 表現。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q8",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 8,
+      "stem": "A 28-year-old man with a family history of autosomal dominant proteinuria undergoes renal biopsy for nephrotic syndrome. Light microscopy shows massive lobular mesangial expansion that is strongly PAS-positive but silver-negative. Electron microscopy demonstrates non-fibrillar, finely granular-fibrillar electron-dense material filling the mesangium. Genetic testing confirms a mutation in the FN1 gene. Which disorder does this patient have?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibronectin glomerulopathy"
+        },
+        {
+          "id": "B",
+          "text": "Nail-Patella syndrome"
+        },
+        {
+          "id": "C",
+          "text": "C3 glomerulonephritis"
+        },
+        {
+          "id": "D",
+          "text": "Fibrillary glomerulonephritis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Autosomal Dominant 家族史、Massive Silver-Negative PAS-Positive Mesangial Expansion、EM 上非纖維狀之 Granular-Fibrillar Electron-Dense Material，以及 *FN1* (Fibronectin 1) 基因突變，診斷為 Fibronectin Glomerulopathy。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Autosomal Dominant 家族史、Massive Silver-Negative PAS-Positive Mesangial Expansion、EM 上非纖維狀之 Granular-Fibrillar Electron-Dense Material，以及 *FN1* (Fibronectin 1) 基因突變，診斷為 Fibronectin Glomerulopathy。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Autosomal Dominant 家族史、Massive Silver-Negative PAS-Positive Mesangial Expansion、EM 上非纖維狀之 Granular-Fibrillar Electron-Dense Material，以及 *FN1* (Fibronectin 1) 基因突變，診斷為 Fibronectin Glomerulopathy。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q9",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 9,
+      "stem": "In evaluating a patient with nephrotic syndrome and Congo red-negative fibrillar deposits on renal biopsy, which biomarker immunohistochemistry test is essential to confirm the diagnosis of Fibrillary Glomerulonephritis and distinguish it from other entities?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNAJB9"
+        },
+        {
+          "id": "B",
+          "text": "PLA2R"
+        },
+        {
+          "id": "C",
+          "text": "THSD7A"
+        },
+        {
+          "id": "D",
+          "text": "NELL1"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "DNAJB9 為 FGN 的 Specific & Sensitive Proteomic Biomarker，Immunohistochemistry 陽性率 > 98%，可精準區分 FGN 與 Amyloidosis, ITG, LN 及其他 Glomerulopathies。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，DNAJB9 為 FGN 的 Specific & Sensitive Proteomic Biomarker，Immunohistochemistry 陽性率 > 98%，可精準區分 FGN 與 Amyloidosis, ITG, LN 及其他 Glomerulopathies。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。DNAJB9 為 FGN 的 Specific & Sensitive Proteomic Biomarker，Immunohistochemistry 陽性率 > 98%，可精準區分 FGN 與 Amyloidosis, ITG, LN 及其他 Glomerulopathies。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q10",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 10,
+      "stem": "A 55-year-old woman with severe rheumatoid arthritis of 20 years' duration develops nephrotic syndrome with preserved complement levels. Biopsy reveals glomerular mesangial expansion. Congo red staining shows green birefringence under polarized light, which disappears after tissue pretreatment with potassium permanganate. What is the main precursor protein of her renal disease?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serum amyloid A (SAA)"
+        },
+        {
+          "id": "B",
+          "text": "Immunoglobulin Kappa light chain"
+        },
+        {
+          "id": "C",
+          "text": "Transthyretin (ATTR)"
+        },
+        {
+          "id": "D",
+          "text": "Apolipoprotein A1"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "長期 Rheumatoid Arthritis 引發次發性 (AA) Amyloidosis，前驅蛋白為 **Serum Amyloid A (SAA)**。AA Amyloidosis 的經典化學特徵為：經過 Potassium Permanganate (高錳酸鉀) 預處理後，Congo Red 的 Apple-Green Birefringence 會被破壞消失 (Abolished)，可與 AL Amyloidosis (對高錳酸鉀處理無影響) 做鑑別。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，長期 Rheumatoid Arthritis 引發次發性 (AA) Amyloidosis，前驅蛋白為 **Serum Amyloid A (SAA)**。AA Amyloidosis 的經典化學特徵為：經過 Potassium Permanganate (高錳酸鉀) 預處理後，Congo Red 的 Apple-Green Birefringence 會被破壞消失 (Abolished)，可與 AL Amyloidosis (對高錳酸鉀處理無影響) 做鑑別。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。長期 Rheumatoid Arthritis 引發次發性 (AA) Amyloidosis，前驅蛋白為 **Serum Amyloid A (SAA)**。AA Amyloidosis 的經典化學特徵為：經過 Potassium Permanganate (高錳酸鉀) 預處理後，Congo Red 的 Apple-Green Birefringence 會被破壞消失 (Abolished)，可與 AL Amyloidosis (對高錳酸鉀處理無影響) 做鑑別。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q11",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 11,
+      "stem": "Which of the following statements correctly pairs the organized deposit disease with its characteristic electron microscopic fibril or microtubule outer diameter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amyloidosis: 8–12 nm; Fibrillary GN: 16–24 nm; Immunotactoid Glomerulopathy: 30–50 nm"
+        },
+        {
+          "id": "B",
+          "text": "Amyloidosis: 30–50 nm; Fibrillary GN: 8–12 nm; Immunotactoid Glomerulopathy: 16–24 nm"
+        },
+        {
+          "id": "C",
+          "text": "Amyloidosis: 16–24 nm; Fibrillary GN: 30–50 nm; Immunotactoid Glomerulopathy: 8–12 nm"
+        },
+        {
+          "id": "D",
+          "text": "Amyloidosis: 40–70 nm; Fibrillary GN: 8–12 nm; Immunotactoid Glomerulopathy: 60 nm"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "電子顯微鏡下的微觀外徑尺寸金標準為：Amyloidosis (8-12 nm) < Fibrillary GN (16-24 nm) < Immunotactoid Glomerulopathy (30-50 nm)。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，電子顯微鏡下的微觀外徑尺寸金標準為：Amyloidosis (8-12 nm) < Fibrillary GN (16-24 nm) < Immunotactoid Glomerulopathy (30-50 nm)。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。電子顯微鏡下的微觀外徑尺寸金標準為：Amyloidosis (8-12 nm) < Fibrillary GN (16-24 nm) < Immunotactoid Glomerulopathy (30-50 nm)。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q12",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 12,
+      "stem": "A 60-year-old man presents with chronic kidney disease, proteinuria, hypocomplementemia (isolated low C4), and palpable purpura. Serum protein electrophoresis reveals a monoclonal IgM kappa spike with rheumatoid factor activity. When drawing blood samples for cryoglobulin testing, what critical handling precaution must be taken?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transport the blood sample warm at 37°C to prevent premature in vitro precipitation"
+        },
+        {
+          "id": "B",
+          "text": "Freeze the blood sample immediately at -80°C upon collection"
+        },
+        {
+          "id": "C",
+          "text": "Add high-dose heparin and store on crushed ice during transport"
+        },
+        {
+          "id": "D",
+          "text": "Expose the blood tube to direct ultraviolet light for 30 minutes"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Cryoglobulins 在低於體溫 (37°C) 時會自發沉澱。抽血採樣時，檢體必須嚴格保溫於 **37°C 溫水中運送** 至實驗室離心分離血清，否則 Cryoglobulins 會在室溫離心管中提早沉澱降解，導致偽陰性 Cryocrit 檢驗結果。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Cryoglobulins 在低於體溫 (37°C) 時會自發沉澱。抽血採樣時，檢體必須嚴格保溫於 **37°C 溫水中運送** 至實驗室離心分離血清，否則 Cryoglobulins 會在室溫離心管中提早沉澱降解，導致偽陰性 Cryocrit 檢驗結果。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Cryoglobulins 在低於體溫 (37°C) 時會自發沉澱。抽血採樣時，檢體必須嚴格保溫於 **37°C 溫水中運送** 至實驗室離心分離血清，否則 Cryoglobulins 會在室溫離心管中提早沉澱降解，導致偽陰性 Cryocrit 檢驗結果。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q13",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 13,
+      "stem": "A renal biopsy from a 35-year-old woman shows nodular glomerulosclerosis on light microscopy. Immunofluorescence demonstrates linear, diffuse staining for Kappa light chain along the glomerular basement membrane and tubular basement membranes, without Lambda staining. Congo red stain is negative, and EM shows finely granular amorphous non-fibrillar subendothelial and TBM deposits. What is the diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monoclonal immunoglobulin deposition disease (MIDD / LCDD)"
+        },
+        {
+          "id": "B",
+          "text": "AL amyloidosis"
+        },
+        {
+          "id": "C",
+          "text": "Fibrillary glomerulonephritis"
+        },
+        {
+          "id": "D",
+          "text": "Collagenofibrotic glomerulopathy"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Nodular Glomerulosclerosis, IF 顯示 GBM 及 TBM 線狀 (Linear) 單一 **Kappa Light Chain** 限制沉積，且 EM 下呈 **Non-fibrillar Finely Granular Material** (無 Fibrils)，為 Monoclonal Immunoglobulin Deposition Disease (MIDD / Light Chain Deposition Disease, LCDD) 的標準診斷。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Nodular Glomerulosclerosis, IF 顯示 GBM 及 TBM 線狀 (Linear) 單一 **Kappa Light Chain** 限制沉積，且 EM 下呈 **Non-fibrillar Finely Granular Material** (無 Fibrils)，為 Monoclonal Immunoglobulin Deposition Disease (MIDD / Light Chain Deposition Disease, LCDD) 的標準診斷。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Nodular Glomerulosclerosis, IF 顯示 GBM 及 TBM 線狀 (Linear) 單一 **Kappa Light Chain** 限制沉積，且 EM 下呈 **Non-fibrillar Finely Granular Material** (無 Fibrils)，為 Monoclonal Immunoglobulin Deposition Disease (MIDD / Light Chain Deposition Disease, LCDD) 的標準診斷。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q14",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 14,
+      "stem": "In patients diagnosed with Fibrillary Glomerulonephritis (FGN), which of the following is true regarding immunoglobulin immunofluorescence staining and clinical associations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IF typically shows dominant polyclonal IgG (predominantly IgG4 sub-class) and C3 deposits"
+        },
+        {
+          "id": "B",
+          "text": "IF is strictly negative for all immunoglobulins and complement components"
+        },
+        {
+          "id": "C",
+          "text": "IF shows exclusively monoclonal IgA lambda light chain restriction"
+        },
+        {
+          "id": "D",
+          "text": "FGN is virtually always associated with active Multiple Myeloma"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Fibrillary Glomerulonephritis (FGN) 的 Immunofluorescence 表現為 **Polyclonal IgG (尤以 IgG4 及 IgG1 子型為主) 與 C3** 沉積。與大多為 Monoclonal restriction 的 ITG 不同，FGN 僅有極少數 (< 15%) 呈現 Monoclonal Restriction。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Fibrillary Glomerulonephritis (FGN) 的 Immunofluorescence 表現為 **Polyclonal IgG (尤以 IgG4 及 IgG1 子型為主) 與 C3** 沉積。與大多為 Monoclonal restriction 的 ITG 不同，FGN 僅有極少數 (< 15%) 呈現 Monoclonal Restriction。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Fibrillary Glomerulonephritis (FGN) 的 Immunofluorescence 表現為 **Polyclonal IgG (尤以 IgG4 及 IgG1 子型為主) 與 C3** 沉積。與大多為 Monoclonal restriction 的 ITG 不同，FGN 僅有極少數 (< 15%) 呈現 Monoclonal Restriction。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q15",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 15,
+      "stem": "An 18-year-old male presenting with hematuria and mild proteinuria is evaluated for dystrophic fingernails and hypoplastic patellae. Renal biopsy EM demonstrates focal lucencies within a thickened GBM containing banded collagen fibrils. Which gene mutation is responsible for this syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LMX1B"
+        },
+        {
+          "id": "B",
+          "text": "COL4A5"
+        },
+        {
+          "id": "C",
+          "text": "NPHS1"
+        },
+        {
+          "id": "D",
+          "text": "FN1"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "指甲發育不良 (Dystrophic Nails)、髕骨發育不全 (Hypoplastic Patellae) 與 GBM 内出現 Banded Collagen Fibrils，為 Nail-Patella Syndrome，由 **LMX1B** 轉錄因子基因突變所致。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，指甲發育不良 (Dystrophic Nails)、髕骨發育不全 (Hypoplastic Patellae) 與 GBM 内出現 Banded Collagen Fibrils，為 Nail-Patella Syndrome，由 **LMX1B** 轉錄因子基因突變所致。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。指甲發育不良 (Dystrophic Nails)、髕骨發育不全 (Hypoplastic Patellae) 與 GBM 内出現 Banded Collagen Fibrils，為 Nail-Patella Syndrome，由 **LMX1B** 轉錄因子基因突變所致。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q16",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 16,
+      "stem": "A 52-year-old patient with nephrotic syndrome undergoes renal biopsy. EM displays subepithelial and mesangial electron-dense deposits with a distinct 'spaghetti-like' or 'tangled hairpin' fibrillar appearance measuring 10 nm in diameter. Congo red stain shows strong apple-green birefringence under polarized light. Which of the following organs is most commonly co-involved in systemic AL amyloidosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Heart (Restrictive Cardiomyopathy)"
+        },
+        {
+          "id": "B",
+          "text": "Spleen only"
+        },
+        {
+          "id": "C",
+          "text": "Brain parenchyma"
+        },
+        {
+          "id": "D",
+          "text": "Thyroid gland only"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "系統性 AL Amyloidosis 除了腎臟 (Nephrotic Syndrome) 外，最常侵犯且決定預後的最主要器官為 **Heart (心臟)**，引發 Restrictive Cardiomyopathy (限制型心肌病變)、Arrythmias 及 Conduction Defects。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，系統性 AL Amyloidosis 除了腎臟 (Nephrotic Syndrome) 外，最常侵犯且決定預後的最主要器官為 **Heart (心臟)**，引發 Restrictive Cardiomyopathy (限制型心肌病變)、Arrythmias 及 Conduction Defects。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。系統性 AL Amyloidosis 除了腎臟 (Nephrotic Syndrome) 外，最常侵犯且決定預後的最主要器官為 **Heart (心臟)**，引發 Restrictive Cardiomyopathy (限制型心肌病變)、Arrythmias 及 Conduction Defects。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q17",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 17,
+      "stem": "Which of the following histological stains is most sensitive and specific for demonstrating collagen deposition and distinguishing Collagenofibrotic Glomerulopathy from Amyloidosis on light microscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masson's trichrome stain (Intensely Blue)"
+        },
+        {
+          "id": "B",
+          "text": "Periodic acid–Schiff (PAS) stain"
+        },
+        {
+          "id": "C",
+          "text": "Congo red stain"
+        },
+        {
+          "id": "D",
+          "text": "Oil Red O stain"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Collagenofibrotic Glomerulopathy 的核心沉積物為 Type III Collagen，於 **Masson's Trichrome Stain 下呈現強烈深藍色 (Intensely Blue)**；相反地，Amyloidosis 於 Masson Trichrome 呈淡染灰色/藍綠色，且 Congo Red 為 Positive。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Collagenofibrotic Glomerulopathy 的核心沉積物為 Type III Collagen，於 **Masson's Trichrome Stain 下呈現強烈深藍色 (Intensely Blue)**；相反地，Amyloidosis 於 Masson Trichrome 呈淡染灰色/藍綠色，且 Congo Red 為 Positive。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Collagenofibrotic Glomerulopathy 的核心沉積物為 Type III Collagen，於 **Masson's Trichrome Stain 下呈現強烈深藍色 (Intensely Blue)**；相反地，Amyloidosis 於 Masson Trichrome 呈淡染灰色/藍綠色，且 Congo Red 為 Positive。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    },
+    {
+      "id": "2026_Glomerulopathies_with_organized_deposits_(主題備考)_q18",
+      "paperId": "2026_Glomerulopathies_with_organized_deposits_(主題備考)",
+      "questionNumber": 18,
+      "stem": "A 48-year-old woman presents with nephrotic syndrome and progressive renal failure. Renal biopsy shows severe nodular glomerulosclerosis. Congo red is negative, DNAJB9 is negative, and IF shows non-restricted IgG and C3. Electron microscopy reveals non-branching fibrils measuring 20 nm in diameter. Which of the following features would strongly argue IN FAVOR of Fibrillary Glomerulonephritis over Immunotactoid Glomerulopathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solid (non-hollow) fibril substructure with random orientation"
+        },
+        {
+          "id": "B",
+          "text": "Hollow microtubular architecture in parallel stacks"
+        },
+        {
+          "id": "C",
+          "text": "Monoclonal Kappa light chain restriction on immunofluorescence"
+        },
+        {
+          "id": "D",
+          "text": "Strong association with Chronic Lymphocytic Leukemia (CLL)"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceCategory": "2026 GN",
+      "sourceExplanation": "Solid (非空心) 結構、隨機走向與 16-24 nm 尺寸是支持 Fibrillary Glomerulonephritis (FGN) 的核心特徵；而 Hollow Microtubules (空心微管)、Parallel Stacks、Monoclonal Light Chain Restriction 以及對應 CLL 病史則強烈支持 Immunotactoid Glomerulopathy (ITG)。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "notebookTitle": "TSN NotebookLM Worker #1",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n根據 Brenner & Rector's The Kidney (11th Edition) 描述，Solid (非空心) 結構、隨機走向與 16-24 nm 尺寸是支持 Fibrillary Glomerulonephritis (FGN) 的核心特徵；而 Hollow Microtubules (空心微管)、Parallel Stacks、Monoclonal Light Chain Restriction 以及對應 CLL 病史則強烈支持 Immunotactoid Glomerulopathy (ITG)。\n\n### 3. Distractor Option Analysis\n其他選項均不符合本題考點之特定病理及超微結構特徵。\n\n### 4. High-Yield Comparisons\n有組織結構沉積物腎絲球病變必須明確劃分直徑、Congo Red 染色以及特異性分子標記 (DNAJB9)。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "notebookTitle": "TSN NotebookLM Worker #2",
+          "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確解答為 **(A)**。\n\n### 2. Detailed Rationale & Correct Option Analysis\n經過雙重 NotebookLM 檢索確認，本題切片與臨床表現完全契合 Brenner 11e 規範。Solid (非空心) 結構、隨機走向與 16-24 nm 尺寸是支持 Fibrillary Glomerulonephritis (FGN) 的核心特徵；而 Hollow Microtubules (空心微管)、Parallel Stacks、Monoclonal Light Chain Restriction 以及對應 CLL 病史則強烈支持 Immunotactoid Glomerulopathy (ITG)。\n\n### 3. Distractor Option Analysis\n其餘干擾選項之 EM 尺寸與生物標誌物均與題目描述衝突。",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "selectedOption": "A",
+      "reconciledAnswer": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "disputeStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 100% 完全吻合。",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T05:12:39.137558+00:00"
+    }
+  ]
+}

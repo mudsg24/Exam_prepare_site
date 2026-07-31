@@ -1,0 +1,79 @@
+{
+  "paperId": "2026_Autosomal_Dominant_Tubulointerstitial_Kidney_Disease_(主題備考)",
+  "title": "2026 Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD) 基因亞型、致病機制、臨床痛風與精準診斷主題講堂",
+  "sections": [
+    {
+      "id": "sec_1",
+      "title": "Molecular Genetics & Subtype Classification",
+      "content": "Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD) 是一組由單基因突變引發之體顯性遺傳性腎臟病，其臨床核心特徵為漸進性 Chronic Kidney Disease (CKD)、Bland Urine Sediment (無顯著 Proteinuria 或 Hematuria) 以及腎臟皮髓質交界處 Cyst Formation。過去本組疾病常被冠以 Medullary Cystic Kidney Disease (MCKD) 或 Familial Juvenile Hyperuricemic Nephropathy (FJHN) 等名稱，造成臨床診斷與編碼混淆。Kidney Disease Improving Global Outcomes (KDIGO) 共識會議將其統一定名為 ADTKD，並依據突變基因進行二級分類。\n\n### ADTKD 分子基因亞型與歷史名稱對照\n\n1. **ADTKD-UMOD**: 突變位於 16p12.3 之 *UMOD* Gene，編碼 Uromodulin (又稱 Tamm-Horsfall Protein)。過去名稱包括 Uromodulin Kidney Disease、FJHN Type 1 以及 Medullary Cystic Kidney Disease Type 2 (MCKD2)。本亞型最主要的臨床特徵為 Early-Onset Gout (常發生於青少年或二十多歲) 以及低尿酸排泄率 (Low Fractional Excretion of Uric Acid)。\n\n2. **ADTKD-MUC1**: 突變位於 1q22 之 *MUC1* Gene，編碼 Mucin-1 (一型跨膜醣蛋白質)。過去名稱為 Medullary Cystic Kidney Disease Type 1 (MCKD1)。致病突變為 Variable Number Tandem Repeat (VNTR) 區域內之特定單一 Cytosine 插入或刪除，產生Frameshift Mucin-1 (fs-MUC1) 異常蛋白。本亞型極少伴隨早發性痛風，臨床常表現為無症狀但漸進性之 End-Stage Renal Disease (ESRD)。\n\n3. **ADTKD-REN**: 突變位於 1q32 之 *REN* Gene，編碼 Preprorenin。過去名稱為 FJHN Type 2。由於 Renin 合成與分泌障礙，患者在兒童時期即呈現 Childhood Anemia、Severe Hyperkalemia、Mild Hypotension 以及 Hyperuricemia。\n\n4. **ADTKD-HNF1B**: 突變位於 17q12 之 *HNF1B* Gene (編碼 Hepatocyte Nuclear Factor-1β 轉錄因子)。過去稱為 Maturity-Onset Diabetes of the Young Type 5 (MODY5) 或 Renal Cyst and Diabetes Syndrome。臨床特徵包含 Early-Onset Diabetes Mellitus、Hypomagnesemia、Hyperuricemia、Pancreatic Atrophy 以及 Genital Tract Malformations。\n\n5. **ADTKD-SEC61A1**: 突變位於 3q21 之 *SEC61A1* Gene，編碼 Endoplasmic Reticulum (ER) Translocon Alpha Subunit。突變導致 Protein Translocation 機制受損，除 Tubulointerstitial Nephropathy 外，常伴隨 Neutropenia 及 Hypogammaglobulinemia。",
+      "diagrams": [
+        {
+          "id": "diag_35_2",
+          "title": "Brenner 11e Table 35.2 KDIGO ADTKD Classification",
+          "caption": "Official KDIGO terminology, gene mutations, historical names, clinical, laboratory, and histological features of ADTKD subtypes.",
+          "sourceBook": "Brenner 11e Ch 35",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
+          "imagePath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png"
+        },
+        {
+          "id": "diag_genetics_matrix",
+          "title": "ADTKD Molecular Genetics & Subclassification Overview",
+          "caption": "Schematic architecture depicting the 5 distinct genetic subtypes of Autosomal Dominant Tubulointerstitial Kidney Disease.",
+          "sourceBook": "Gemini AI Masterclass",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/adtkd_genetics_matrix.jpg",
+          "imagePath": "/server-data/assets/adtkd_genetics_matrix.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "title": "Pathophysiology & Intracellular Accumulation Mechanisms",
+      "content": "ADTKD 的分子致病核心在於毒性蛋白質於細胞內之異常堆積 (Toxic Gain-of-Function / Intracellular Aggregate Accumulation)，進而引發 Endoplasmic Reticulum (ER) Stress 與 Unfolded Protein Response (UPR)。\n\n### 質網壓力與細胞毒性路徑\n\n- **ADTKD-UMOD 緻密聚集**: 正常的 Uromodulin 於 Thick Ascending Limb (TAL) 之 Endoplasmic Reticulum 進行正確摺疊與 Disulfide Bond 形成，經由 Golgi Apparatus 運送至 Apical Membrane 分泌至尿液中。*UMOD* Missense Mutation 導致 Protein Misfolding，無法進入 Golgi Apparatus，滯留於 ER 中形成極高密度的 Intracellular Inclusions。聚集的 UMOD 引發 ER Stress，調升 CHOP 與 GADD34 等 Pro-Apoptotic Pathways，導致 TAL Tubular Cell Death、Tubular Atrophy 以及 Secondary Interstitial Fibrosis。\n\n- **ADTKD-MUC1 移碼蛋白蓄積**: *MUC1* VNTR 區域之 Frameshift Mutation 產生帶有全新 C-terminal Sequence 之 fs-MUC1 毒性蛋白。fs-MUC1 缺乏正常的 Transmembrane Domain，無法被運送至 Apical Plasma Membrane，反而轉運至 Endosomal/Lysosomal System 與 Cytoplasm 中堆積。長期蓄積引發 Distal Tubule 與 Collecting Duct 上皮細胞之慢性損傷與 Apoptosis。\n\n- **ADTKD-REN 近腎絲球細胞衰亡**: *REN* 突變引發 Preprorenin 在 Juxtaglomerular Apparatus (JGA) 細胞內之 ER 中堆積。JGA 細胞逐步凋亡導致 Renin 與 Aldosterone 嚴重缺乏。腎臟失去對 Extra-Cellular Fluid Volume 與 Potassium Excretion 的微調能力，臨床出現 Chronic Hypotension、Hyperkalemia 以及 Renal Anemia。\n\n### 尿酸代謝異常與鈉重吸收連動機制\n\nUromodulin 於 TAL Apical Membrane 之正常表現對於維護 Na-K-2Cl Cotransporter (NKCC2) 之穩定度至關重要。*UMOD* 突變導致 Apical UMOD 缺失與 TAL 鈉重吸收功能輕度下降。為了補償體液流失，Proximal Convoluted Tubule (PCT) 被迫大幅上調 Urates 與 Sodium 之 Passive and Active Reabsorption (透過 URAT1 與 GLUT9 轉運體)。PCT 尿酸重吸收增加導致 Hyperuricemia 以及 Fractional Excretion of Uric Acid (< 4%) 顯著降低，此即為 ADTKD-UMOD 患者發病早期即出現 Early-Onset Gout 的細胞生理學基礎。",
+      "diagrams": [
+        {
+          "id": "diag_er_stress",
+          "title": "Cellular Pathophysiology & ER Stress in ADTKD",
+          "caption": "Detailed diagram illustrating mutant UMOD and fs-MUC1 aggregation in ER, leading to UPR activation, apoptosis, and tubulointerstitial fibrosis.",
+          "sourceBook": "Gemini AI Masterclass",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/adtkd_er_stress_patho.jpg",
+          "imagePath": "/server-data/assets/adtkd_er_stress_patho.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "title": "Clinical Presentation, Hyperuricemia & Extrarenal Manifestations",
+      "content": "ADTKD 的臨床表現具有極高的隱蔽性，多數患者在青年至中年時期僅呈現無症狀之 Serum Creatinine 升高。尿液檢查通常為「Bland Urine Sediment」，無顯著 Proteinuria (< 0.5 g/day) 或 Microscopic Hematuria，容易被誤診為未特定 Chronic Interstitial Nephritis。\n\n### 各基因亞型臨床與腎外表現高頻對照表\n\n| Clinical & Lab Feature | ADTKD-UMOD | ADTKD-MUC1 | ADTKD-REN | ADTKD-HNF1B |\n| :--- | :--- | :--- | :--- | :--- |\n| **Age at ESRD (Years)** | 30 - 50 | 40 - 70 | 30 - 50 | 20 - 50 |\n| **Early-Onset Gout** | 關鍵特徵 (>75%) | 罕見 (<10%) | 常見 (30-50%) | 偶見 |\n| **Childhood Anemia** | 無 | 無 | 顯著特徵 (Severe) | 無 |\n| **Blood Pressure** | Normal to High | Normal to High | Mild Hypotension | Normal to High |\n| **Potassium Level** | Normal | Normal | Hyperkalemia | Hypokalaemia / Normal |\n| **Magnesium Level** | Normal | Normal | Normal | Hypomagnesemia |\n| **Extrarenal Features** | Gout (Adolescence) | None | Childhood Anemia | MODY5, Genital Abnormalities, Pancreatic Atrophy |\n\n### 鑑別診斷關鍵與地雷陷阱\n\n- **Gout in Young Females / Non-Obese Males**: 若未滿 30 歲且無肥胖、Metabolic Syndrome 或 Diuretic Use 之患者出現單關節痛風發作 (如 First Metatarsophalangeal Joint)，且伴隨家族性 CKD 病史，必須首先考慮 ADTKD-UMOD 或 ADTKD-REN。\n- **Childhood Anemia out of proportion to CKD stage**: 於 CKD Stage 1-2 即可觀察到顯著 Normocytic Normochromic Anemia，且伴隨 Hyperkalemia 與低血壓者，為 ADTKD-REN 之獨門判斷標記。\n- **Cysts on Imaging**: 雖然名為 Medullary Cystic Kidney Disease，但腎臟 Corticomedullary Cysts 並非診斷必需條件！多數年輕患者之 Renal Ultrasound 或 CT 僅顯示正常或雙側輕度縮小之腎臟，超音波未見 Cyst 絕不能排除 ADTKD 診斷。",
+      "diagrams": [
+        {
+          "id": "diag_clinical_features",
+          "title": "Comparison of Clinical Presentations & Extrarenal Manifestations",
+          "caption": "Comparative layout highlighting key clinical and extrarenal features across ADTKD-UMOD, ADTKD-REN, ADTKD-HNF1B, and ADTKD-MUC1.",
+          "sourceBook": "Gemini AI Masterclass",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/adtkd_clinical_features.jpg",
+          "imagePath": "/server-data/assets/adtkd_clinical_features.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "title": "Diagnostic Workup, Renal Biopsy & Genetic Testing",
+      "content": "ADTKD 的確定診斷依賴家族病史調查、臨床特徵比對以及精準分子遺傳學檢測 (Molecular Genetic Testing)。\n\n### 診斷處置路徑與基因檢測門閥\n\n1. **Clinical Suspicion**: 當患者符合 (1) 家族史呈現 Autosomal Dominant CKD；(2) Bland Urine Sediment；(3) 腎臟大小正常或雙側對稱縮小 時，即應啟動 ADTKD 專案診斷流程。\n\n2. **Targeted Next-Generation Sequencing (NGS)**: 採用 NGS Panel 針對 *UMOD*, *REN*, *HNF1B*, *SEC61A1* 進行 Coding Region 定序。約 50-60% 的 ADTKD 患者可藉由 NGS 檢出 *UMOD* 或 *REN* 之 Pathogenic Missense Variants。\n\n3. **Specialized MUC1 VNTR Analysis**: 若標準 NGS 為 Negative，絕對不能排除 ADTKD！因為傳統短讀取 (Short-Read) NGS 無法定序 *MUC1* 高度重複且 GC-rich 之 VNTR 區域。必須轉轉介至專門實驗室採用 Single Molecule Real-Time (SMRT) Sequencing 或 Mass Spectrometry 檢測 fs-MUC1 Frameshift Protein。\n\n4. **Renal Biopsy Role**: 腎臟切片於光學顯微鏡 (H&E / PAS) 下僅呈現非特異性 Tubular Atrophy, Thickening of Tubular Basement Membrane, 以及 Interstitial Fibrosis。然而，Immunohistochemistry (IHC) 具備高診斷價值：ADTKD-UMOD 於 TAL 細胞內可見強陽性 UMOD Staining；ADTKD-MUC1 於遠端腎管可見抗 fs-MUC1 特異性抗體陽性；ADTKD-REN 於 JGA 細胞則呈現 Renin Staining 顯著減弱或缺失。\n\n### 臨床處置與照護原則\n\n- **Hyperuricemia & Gout Control**: 建議首選 Xanthine Oxidase Inhibitors (Allopurinol 或 Febuxostat) 積極控制血尿酸。預防性處置能大幅降低痛風發作頻率，但無法減緩 CKD 漸進性惡化。\n- **Avoidance of Nephrotoxins**: 嚴格避免使用 NSAIDs 與 Nephrotoxic Drugs。在使用 Diuretics 時需特別謹慎，避免加重 Volume Depletion 與 Hyperuricemia。\n- **ADTKD-REN Specific Therapy**: 對於伴隨低血壓與高血鉀之 ADTKD-REN 患者，可給予低劑量 Fludrocortisone 或 EPO 補充。\n- **Kidney Transplantation**: ADTKD 在移植腎中**絕對不會復發 (Zero Allograft Recurrence)**，因為捐贈者的腎臟上皮細胞表達正常的 UMOD/MUC1/REN 基因。因此，Allogeneic Kidney Transplantation 為 ESRD 患者最佳之首選治療方案。",
+      "diagrams": [
+        {
+          "id": "diag_diagnostic_workup",
+          "title": "ADTKD Clinical Decision Tree & Diagnostic Workflow",
+          "caption": "Step-by-step diagnostic flow chart from clinical suspicion, laboratory workup, NGS panel, specialized MUC1 VNTR testing, to biopsy immunohistochemistry.",
+          "sourceBook": "Gemini AI Masterclass",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/adtkd_diagnostic_workup.jpg",
+          "imagePath": "/server-data/assets/adtkd_diagnostic_workup.jpg"
+        }
+      ]
+    }
+  ]
+}

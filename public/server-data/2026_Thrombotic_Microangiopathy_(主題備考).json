@@ -1,0 +1,1006 @@
+{
+  "id": "2026_Thrombotic_Microangiopathy_(主題備考)",
+  "paperId": "2026_Thrombotic_Microangiopathy_(主題備考)",
+  "title": "2026 Thrombotic Microangiopathy (血栓性微血管病變) 臨床病理分型、補體調控機制、TTP 與 aHUS 鑑別診斷與分子標的治療",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "stem": "A 34-year-old female presents with acute microangiopathic hemolytic anemia (MAHA) and severe thrombocytopenia. Blood tests reveal an ADAMTS13 activity level of 2%. Which of the following is the primary pathophysiological mechanism underlying her condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autoantibody-mediated neutralization or constitutional deficiency of ADAMTS13 activity"
+        },
+        {
+          "id": "B",
+          "text": "Continuous alternative complement pathway overactivation due to heterozygous factor H mutation"
+        },
+        {
+          "id": "C",
+          "text": "Endothelial ribosomal 28S RNA inactivation induced by circulating Shiga toxin"
+        },
+        {
+          "id": "D",
+          "text": "Direct dose-dependent endothelial toxicity mediated by calcineurin inhibitor therapy"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Thrombotic Thrombocytopenic Purpura (TTP) 致病核心為 ADAMTS13 protease activity 嚴重缺失 (< 10%)。ADAMTS13 負責將 Ultra-Large von Willebrand Factor (UL-vWF) multimers 切短；缺乏 ADAMTS13 時，過長的 UL-vWF multimers 會誘發自發性 platelet activation 與 microvascular thrombosis。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_7.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_7.png",
+          "caption": "Brenner 11e Fig 34.7: Pathophysiology of TTP and ADAMTS13 Deficiency",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q1: The correct option is (A). Thrombotic Thrombocytopenic Purpura (TTP) 致病核心為 ADAMTS13 protease activity 嚴重缺失 (< 10%)。ADAMTS13 負責將 Ultra-Large von Willebrand Factor (UL-vWF) multimers 切短；缺乏 ADAMTS13 時，過長的 UL-vWF multimers 會誘發自發性 platelet activation 與 microvascular thrombosis。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "stem": "A 24-year-old male with recurrent episodes of acute kidney injury and thrombocytopenia is diagnosed with complement-mediated atypical hemolytic uremic syndrome (aHUS). Genetic testing reveals a loss-of-function mutation. Which of the following complement regulatory proteins is a transmembrane cell-surface cofactor for Factor I-mediated cleavage of C3b?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complement Factor H (CFH)"
+        },
+        {
+          "id": "B",
+          "text": "Membrane Cofactor Protein (CD46 / MCP)"
+        },
+        {
+          "id": "C",
+          "text": "Complement Factor B (CFB)"
+        },
+        {
+          "id": "D",
+          "text": "Complement Component 3 (C3)"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Membrane Cofactor Protein (CD46 / MCP) 為跨膜細胞表面補體調控蛋白 (Transmembrane cell-surface cofactor)，專司輔助 Factor I 切割 C3b 成為 inactive iC3b，保護 Glomerular Endothelium 免受 MAC 破壞。Loss-of-function 突變會導致局部微血管補體過度活化與 aHUS。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_4.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_4.png",
+          "caption": "Brenner 11e Fig 34.4: Complement Regulators in aHUS",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q2: The correct option is (B). Membrane Cofactor Protein (CD46 / MCP) 為跨膜細胞表面補體調控蛋白 (Transmembrane cell-surface cofactor)，專司輔助 Factor I 切割 C3b 成為 inactive iC3b，保護 Glomerular Endothelium 免受 MAC 破壞。Loss-of-function 突變會導致局部微血管補體過度活化與 aHUS。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "stem": "A 58-year-old patient undergoing chemotherapy for pancreatic adenocarcinoma develops progressive acute kidney injury, hypertension, and microangiopathic hemolytic anemia with schistocytes on peripheral smear. Which of the following antineoplastic agents is most notorious for causing dose-dependent endothelial toxicity and renal thrombotic microangiopathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pembrolizumab"
+        },
+        {
+          "id": "B",
+          "text": "Methotrexate"
+        },
+        {
+          "id": "C",
+          "text": "5-Fluorouracil"
+        },
+        {
+          "id": "D",
+          "text": "Gemcitabine"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Gemcitabine 為常見引發 Dose-Dependent Endothelial Toxicity 之化療藥物。其造成的 Secondary Drug-Induced TMA (D-TMA) 常呈劑量累積性內皮細胞損傷，臨床表現為漸進性 AKI、Hypertension 與 MAHA。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q3: The correct option is (D). Gemcitabine 為常見引發 Dose-Dependent Endothelial Toxicity 之化療藥物。其造成的 Secondary Drug-Induced TMA (D-TMA) 常呈劑量累積性內皮細胞損傷，臨床表現為漸進性 AKI、Hypertension 與 MAHA。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "stem": "A 6-year-old child presents with bloody diarrhea, oliguria, and schistocytes on blood smear 7 days after eating undercooked beef. Stool PCR is positive for Shiga toxin 2 (Stx2). Which of the following statements regarding the management of this patient is CORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediate administration of oral fluoroquinolones is indicated to eradicate intestinal pathogen colonization."
+        },
+        {
+          "id": "B",
+          "text": "Antibiotics are strictly contraindicated because bactericidal induction increases Shiga toxin release and worsens HUS risk."
+        },
+        {
+          "id": "C",
+          "text": "Emergency plasma exchange should be initiated immediately as first-line therapy."
+        },
+        {
+          "id": "D",
+          "text": "High-dose corticosteroid pulse therapy should be administered to suppress systemic cytokine release."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "STEC-HUS (Shiga toxin-producing E. coli HUS) 感染期**嚴禁使用抗生素**！使用 Fluoroquinolones 或 Beta-lactams 等抗生素會誘發腸道細菌大量崩解並釋放爆發性 Shiga toxins (Stx1/Stx2)，使兒童演變成 HUS 的風險暴增 17 倍。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_9.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_9.png",
+          "caption": "Brenner 11e Fig 34.9: Shiga Toxin Inactivation of Endothelial Ribosomes",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q4: The correct option is (B). STEC-HUS (Shiga toxin-producing E. coli HUS) 感染期**嚴禁使用抗生素**！使用 Fluoroquinolones 或 Beta-lactams 等抗生素會誘發腸道細菌大量崩解並釋放爆發性 Shiga toxins (Stx1/Stx2)，使兒童演變成 HUS 的風險暴增 17 倍。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "stem": "A 2-year-old infant with severe Streptococcus pneumoniae pneumonia develops acute kidney injury, Coombs-positive microangiopathic hemolytic anemia, and thrombocytopenia. What is the mechanism by which S. pneumoniae induces hemolytic uremic syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Direct autoantibody production against ADAMTS13 metalloprotease"
+        },
+        {
+          "id": "B",
+          "text": "Cleavage of complement Factor H by pneumococcal serine proteases"
+        },
+        {
+          "id": "C",
+          "text": "Secretion of bacterial neuraminidase (sialidase) that cleaves cell-surface N-acetylneuraminic acid and exposes the Thomsen-Friedenreich (T) antigen"
+        },
+        {
+          "id": "D",
+          "text": "Endothelial Gb3 receptor up-regulation leading to complement activation"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Streptococcus pneumoniae 分泌之 Neuraminidase (Sialidase) 會切除 RBC、Platelet 及 Endothelial Cells 表面的 N-acetylneuraminic acid，裸露出隱蔽之 Thomsen-Friedenreich (T) antigen，引發 IgM 抗體結合與 Coombs-positive HUS。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q5: The correct option is (C). Streptococcus pneumoniae 分泌之 Neuraminidase (Sialidase) 會切除 RBC、Platelet 及 Endothelial Cells 表面的 N-acetylneuraminic acid，裸露出隱蔽之 Thomsen-Friedenreich (T) antigen，引發 IgM 抗體結合與 Coombs-positive HUS。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "stem": "A 28-year-old primigravida at 38 weeks of gestation develops severe hypertension, right upper quadrant pain, elevated liver enzymes, and low platelets. Delivery is performed, and her symptoms resolve within 48 hours. Three weeks postpartum, a different patient presents with acute renal failure, schistocytes, and normal ADAMTS13 activity (> 10%). Which of the following statements regarding TMAs in pregnancy is CORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HELLP syndrome typically manifests in the early postpartum period, whereas complement-mediated aHUS manifests predominantly antepartum."
+        },
+        {
+          "id": "B",
+          "text": "Over 80% of pregnancy-associated complement-mediated aHUS cases manifest in the postpartum period due to the loss of placental complement regulatory proteins."
+        },
+        {
+          "id": "C",
+          "text": "Plasma exchange is contraindicated in all postpartum patients presenting with microangiopathic hemolytic anemia."
+        },
+        {
+          "id": "D",
+          "text": "Pregnancy-associated aHUS is never associated with underlying genetic complement mutations."
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "超過 80% 的 Pregnancy-associated complement-mediated aHUS 發生於 **Postpartum (產後)**。主因為胎盤移除後丟失了胎盤所分泌之高濃度補體抑制蛋白，使帶有潛在 CFH/CFI 基因突變之產婦暴露於補體過度活化風暴中。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_10.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_10.png",
+          "caption": "Brenner 11e Fig 34.10: Timing of TMAs in Pregnancy and Postpartum",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q6: The correct option is (B). 超過 80% 的 Pregnancy-associated complement-mediated aHUS 發生於 **Postpartum (產後)**。主因為胎盤移除後丟失了胎盤所分泌之高濃度補體抑制蛋白，使帶有潛在 CFH/CFI 基因突變之產婦暴露於補體過度活化風暴中。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "stem": "A 42-year-old female is evaluated for fatigue, jaundice, and petechiae. Peripheral blood smear reveals numerous helmet cells and triangular fragmented red blood cells (schistocytes). Laboratory evaluation demonstrates elevated LDH, low haptoglobin, and severe thrombocytopenia. Which of the following laboratory findings would exclude a diagnosis of primary Thrombotic Microangiopathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A positive Direct Antiglobulin Test (Coombs test)"
+        },
+        {
+          "id": "B",
+          "text": "Normal serum complement C3 and C4 levels"
+        },
+        {
+          "id": "C",
+          "text": "Severely reduced serum haptoglobin level (< 10 mg/dL)"
+        },
+        {
+          "id": "D",
+          "text": "Elevated total bilirubin with predominant indirect hyperbilirubinemia"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Thrombotic Microangiopathy (TMA) 引起的 Microangiopathic Hemolytic Anemia (MAHA) 屬於機械性紅血球破裂，**Direct Antiglobulin Test (Coombs test) 必須為 Negative**。若 Coombs test 為 Positive，則代表 Autoimmune Hemolytic Anemia (AIHA) 或 Evans Syndrome，非原發性 TMA。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q7: The correct option is (A). Thrombotic Microangiopathy (TMA) 引起的 Microangiopathic Hemolytic Anemia (MAHA) 屬於機械性紅血球破裂，**Direct Antiglobulin Test (Coombs test) 必須為 Negative**。若 Coombs test 為 Positive，則代表 Autoimmune Hemolytic Anemia (AIHA) 或 Evans Syndrome，非原發性 TMA。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "stem": "Comparing the clinical presentation of Thrombotic Thrombocytopenic Purpura (TTP) and atypical Hemolytic Uremic Syndrome (aHUS), which of the following statements is INCORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neurologic involvement and severe thrombocytopenia (< 30,000/μL) are predominant features of TTP."
+        },
+        {
+          "id": "B",
+          "text": "Severe acute kidney injury requiring renal replacement therapy occurs in nearly 100% of patients with complement-mediated aHUS."
+        },
+        {
+          "id": "C",
+          "text": "Evidence of severe renal involvement with acute oliguric renal failure is present in over 90% of patients presenting with TTP."
+        },
+        {
+          "id": "D",
+          "text": "ADAMTS13 activity level < 10% is diagnostic of TTP and differentiates it from complement-mediated aHUS."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "TTP 的臨床主軸為 CNS involvement 與深刻的 Thrombocytopenia (< 30,000/μL)，其 Renal involvement 通常極為輕微 (僅微量蛋白尿或血尿，極少演變成 Oliguric AKI)。反觀 aHUS 則是近 100% 患者伴隨 Severe AKI。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_3.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_3.png",
+          "caption": "Brenner 11e Fig 34.3: Differential Diagnostic Algorithm for TMA",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q8: The correct option is (C). TTP 的臨床主軸為 CNS involvement 與深刻的 Thrombocytopenia (< 30,000/μL)，其 Renal involvement 通常極為輕微 (僅微量蛋白尿或血尿，極少演變成 Oliguric AKI)。反觀 aHUS 則是近 100% 患者伴隨 Severe AKI。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "number": 9,
+      "stem": "A 30-year-old male presents with acute kidney injury, microangiopathic hemolytic anemia, and hypertension. ADAMTS13 activity is 65%. Genetic analysis confirms a heterozygous CFH loss-of-function mutation. Serum complement C3 level is within normal limits. Which of the following explains why serum C3 levels may remain normal in complement-mediated aHUS?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serum C3 is an acute phase reactant that is falsely elevated by liver hyperproduction."
+        },
+        {
+          "id": "B",
+          "text": "Factor H mutations specifically inhibit classic pathway activation while sparing alternative pathway C3 cleavage."
+        },
+        {
+          "id": "C",
+          "text": "C3 convertase activity is completely blocked in patients with complement factor H loss-of-function mutations."
+        },
+        {
+          "id": "D",
+          "text": "Complement alternative pathway dysregulation in aHUS occurs predominantly on the endothelial cell surface rather than in systemic fluid phase."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "超過 50% 的 Complement-mediated aHUS 患者其血清 Serum C3 濃度完全正常。因為 Complement Alternative Pathway (AP) 的過度活化主要發生於 Glomerular Endothelial Cell Surface (細胞表面局部破壞)，非全身系統性體液相崩解。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q9: The correct option is (D). 超過 50% 的 Complement-mediated aHUS 患者其血清 Serum C3 濃度完全正常。因為 Complement Alternative Pathway (AP) 的過度活化主要發生於 Glomerular Endothelial Cell Surface (細胞表面局部破壞)，非全身系統性體液相崩解。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "stem": "According to the multi-hit model of complement-mediated atypical hemolytic uremic syndrome (aHUS), which of the following combinations is typically required for clinical disease manifestation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Homozygous deletion of ADAMTS13 combined with high-titer anti-platelet autoantibodies"
+        },
+        {
+          "id": "B",
+          "text": "A rare genetic mutation in a complement gene, an at-risk complement risk haplotype (e.g., CFH-H3), and an environmental trigger (e.g., infection or pregnancy)"
+        },
+        {
+          "id": "C",
+          "text": "Direct infection of podocytes by cytomegalovirus combined with calcineurin inhibitor toxicity"
+        },
+        {
+          "id": "D",
+          "text": "Monoclonal immunoglobulin light chain deposition combined with systemic vasculitis"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "aHUS 遵循 Multi-Hit Model：罕見 Complement 基因突變 (如 CFH/CFI) 外，常需合併 Risk Haplotypes (如 CFH-H3 或 CD46-GGAAC) 以及環境觸發因子 Trigger (如感染、懷孕、手術) 方會誘發疾病顯性發作。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q10: The correct option is (B). aHUS 遵循 Multi-Hit Model：罕見 Complement 基因突變 (如 CFH/CFI) 外，常需合併 Risk Haplotypes (如 CFH-H3 或 CD46-GGAAC) 以及環境觸發因子 Trigger (如感染、懷孕、手術) 方會誘發疾病顯性發作。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "stem": "A 35-year-old female with complement-mediated aHUS is initiated on Eculizumab therapy. Which of the following best describes the precise molecular target and mechanism of action of Eculizumab?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It binds specifically to complement protein C5, inhibiting its cleavage into C5a and C5b and blocking terminal Membrane Attack Complex (C5b-9) assembly."
+        },
+        {
+          "id": "B",
+          "text": "It neutralizes circulating Shiga toxins (Stx1 and Stx2) in the gastrointestinal tract."
+        },
+        {
+          "id": "C",
+          "text": "It binds to the A1 domain of von Willebrand factor, blocking its interaction with platelet glycoprotein Ib receptors."
+        },
+        {
+          "id": "D",
+          "text": "It selectively inhibits C3 convertase (C3bBb) formation in the fluid phase."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Eculizumab 為 Humanized IgG monoclonal antibody，專一性結合補體 C5，阻斷其切分為 C5a (Anaphylatoxin) 與 C5b，進而阻止 Terminal Membrane Attack Complex (MAC, C5b-9) 於腎絲球內皮細胞表面組裝與破壞。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_4.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_4.png",
+          "caption": "Brenner 11e Fig 34.4: Eculizumab C5 Blockade Mechanism",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q11: The correct option is (A). Eculizumab 為 Humanized IgG monoclonal antibody，專一性結合補體 C5，阻斷其切分為 C5a (Anaphylatoxin) 與 C5b，進而阻止 Terminal Membrane Attack Complex (MAC, C5b-9) 於腎絲球內皮細胞表面組裝與破壞。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "stem": "Prior to starting long-acting C5 inhibitor therapy (Ravulizumab) in a patient with complement-mediated aHUS, which mandatory clinical prophylactic safeguard must be instituted immediately?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine daily administration of intravenous immunoglobulin (IVIG) for 6 months"
+        },
+        {
+          "id": "B",
+          "text": "High-dose oral trimethoprim-sulfamethoxazole for Pneumocystis jirovecii prophylaxis"
+        },
+        {
+          "id": "C",
+          "text": "Annual inactivated influenza vaccination only"
+        },
+        {
+          "id": "D",
+          "text": "Administration of quadrivalent (ACWY) and Serogroup B meningococcal vaccines along with immediate prophylactic antibiotic coverage for at least 2 weeks"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "阻斷 C5 補體會使患者對包膜細菌 (如 Neisseria meningitidis) 的抵抗力下降 1,000 ~ 2,000 倍。使用 Eculizumab / Ravulizumab 前必須立即施打 Quadrivalent (ACWY) 及 Serogroup B 腦膜炎雙球菌疫苗，並給予至少 2 週的預防性抗生素 (Penicillin V / Ciprofloxacin)。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q12: The correct option is (D). 阻斷 C5 補體會使患者對包膜細菌 (如 Neisseria meningitidis) 的抵抗力下降 1,000 ~ 2,000 倍。使用 Eculizumab / Ravulizumab 前必須立即施打 Quadrivalent (ACWY) 及 Serogroup B 腦膜炎雙球菌疫苗，並給予至少 2 週的預防性抗生素 (Penicillin V / Ciprofloxacin)。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "stem": "A 45-year-old patient with immune Thrombotic Thrombocytopenic Purpura (iTTP) is treated with plasma exchange, corticosteroids, rituximab, and Caplacizumab. What is the therapeutic mechanism of Caplacizumab?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bivalent anti-vWF nanobody that inhibits the interaction between ultra-large von Willebrand factor multimers and platelets"
+        },
+        {
+          "id": "B",
+          "text": "Recombinant ADAMTS13 enzyme replacement therapy"
+        },
+        {
+          "id": "C",
+          "text": "Humanized monoclonal antibody blocking complement component C5"
+        },
+        {
+          "id": "D",
+          "text": "Selective B-cell depleting anti-CD20 antibody"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Caplacizumab 為 Bivalent anti-vWF nanobody，能直接阻斷 Ultra-Large vWF multimers 的 A1 domain 與 Platelet GP Ib-IX-V receptor 結合，立即阻止 iTTP 患者體內的微血管血栓形成。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q13: The correct option is (A). Caplacizumab 為 Bivalent anti-vWF nanobody，能直接阻斷 Ultra-Large vWF multimers 的 A1 domain 與 Platelet GP Ib-IX-V receptor 結合，立即阻止 iTTP 患者體內的微血管血栓形成。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "stem": "A 28-year-old end-stage kidney disease patient secondary to complement-mediated aHUS is evaluated for kidney transplantation. Genetic testing reveals a loss-of-function mutation in CD46 (Membrane Cofactor Protein). What is the expected risk of aHUS recurrence in the renal allograft for this patient compared to patients with CFH mutations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extremely high recurrence risk (> 90%) because CD46 is synthesized exclusively by recipient hepatic parenchymal cells."
+        },
+        {
+          "id": "B",
+          "text": "100% recurrence risk requiring mandatory pre-transplant total plasma exchange."
+        },
+        {
+          "id": "C",
+          "text": "Recurrence is impossible because kidney transplantation cures all genetic complement disorders."
+        },
+        {
+          "id": "D",
+          "text": "Low recurrence risk (10-20%) because CD46 is a membrane-bound protein expressed by the healthy donor allograft endothelium."
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "CD46 (MCP) 屬於 Membrane-bound protein。當進行腎臟移植時，正常的 Donor Allograft 內皮細胞自帶正常的 Donor CD46，因此 isolated CD46 突變患者移植後 aHUS 復發率極低 (10-20%)；反之 CFH/CFI 因子由肝臟分泌，復發率極高 (> 80%)。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q14: The correct option is (D). CD46 (MCP) 屬於 Membrane-bound protein。當進行腎臟移植時，正常的 Donor Allograft 內皮細胞自帶正常的 Donor CD46，因此 isolated CD46 突變患者移植後 aHUS 復發率極低 (10-20%)；反之 CFH/CFI 因子由肝臟分泌，復發率極高 (> 80%)。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "stem": "A 50-year-old male presents to the emergency room with confusion, petechiae, acute anemia, and severe thrombocytopenia (platelets 12,000/μL). Blood samples are drawn for ADAMTS13 activity and inhibitor assays. What is the correct immediate management strategy while awaiting laboratory results?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Initiate immediate plasma exchange (PEX) on clinical suspicion without waiting for ADAMTS13 test results."
+        },
+        {
+          "id": "B",
+          "text": "Hold all invasive treatments and wait 48 to 72 hours for ADAMTS13 test confirmation before initiating PEX."
+        },
+        {
+          "id": "C",
+          "text": "Administer immediate platelet transfusions to raise platelet count above 50,000/μL."
+        },
+        {
+          "id": "D",
+          "text": "Initiate hemodialysis immediately and withhold plasma therapy."
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "成人疑似 TTP 為醫療急症！未治療的 TTP 死亡率超過 90%。急診抽取 ADAMTS13 檢體後，**絕不可以等待數天後的報告，必須立即開始 Plasma Exchange (PEX)**！",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_3.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_3.png",
+          "caption": "Brenner 11e Fig 34.3: Emergency Management Algorithm",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q15: The correct option is (A). 成人疑似 TTP 為醫療急症！未治療的 TTP 死亡率超過 90%。急診抽取 ADAMTS13 檢體後，**絕不可以等待數天後的報告，必須立即開始 Plasma Exchange (PEX)**！",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "stem": "Renal biopsy of a patient presenting with acute hypertension, hematuria, and renal failure reveals subendothelial widening, detachment of endothelial cells from the GBM, fibrin thrombi in capillary loops, and double contours (tram-tracking) on silver stain. What electron microscopic feature is characteristic of acute TMA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diffuse subepithelial electron-dense humps along the capillary wall"
+        },
+        {
+          "id": "B",
+          "text": "Organized wavy microtubular structures within mesangial matrix"
+        },
+        {
+          "id": "C",
+          "text": "Accumulation of electron-lucent fluffy material in the widened subendothelial space with endothelial swelling"
+        },
+        {
+          "id": "D",
+          "text": "Diffuse podocyte foot process effacement without GBM alteration"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Acute TMA 的電鏡 (EM) 典型特徵為內皮細胞腫脹與內皮下間隙擴大 (Subendothelial Widening)，內有 Electron-lucent fluffy material 沉積，伴隨微血管內皮細胞自 GBM 剝離。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [
+        {
+          "imagePath": "/server-data/assets/Brenner_Fig_34_2.png",
+          "relPath": "/server-data/assets/Brenner_Fig_34_2.png",
+          "caption": "Brenner 11e Fig 34.2: Pathological Electron Microscopic Features of TMA",
+          "sourceBook": "Brenner 11e Ch 34"
+        }
+      ],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q16: The correct option is (C). Acute TMA 的電鏡 (EM) 典型特徵為內皮細胞腫脹與內皮下間隙擴大 (Subendothelial Widening)，內有 Electron-lucent fluffy material 沉積，伴隨微血管內皮細胞自 GBM 剝離。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "stem": "Ravulizumab is an engineered long-acting C5 inhibitor used in complement-mediated aHUS. What specific molecular modification allows Ravulizumab to extend its dosing interval to every 8 weeks compared to Eculizumab's 2-week interval?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Addition of a polyethylene glycol (PEG) polymer chain to prevent renal clearance"
+        },
+        {
+          "id": "B",
+          "text": "Irreversible covalent binding to serum C5 protein"
+        },
+        {
+          "id": "C",
+          "text": "Enhanced FcRn-mediated recycling and pH-dependent target dissociation in endosomes"
+        },
+        {
+          "id": "D",
+          "text": "Conversion of the IgG molecule into a single-chain variable fragment (scFv)"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Ravulizumab 為長效型 Anti-C5 antibody，透過點突變增強內體 (Endosome) 內的 pH-dependent target dissociation 以及 FcRn-mediated recycling，將半衰期大幅延長，給藥間隔由 Eculizumab 的 2 週延長至 8 週。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "FAILED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q17: The correct option is (C). Ravulizumab 為長效型 Anti-C5 antibody，透過點突變增強內體 (Endosome) 內的 pH-dependent target dissociation 以及 FcRn-mediated recycling，將半衰期大幅延長，給藥間隔由 Eculizumab 的 2 週延長至 8 週。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "stem": "A 32-year-old female with systemic lupus erythematosus and catastrophic antiphospholipid syndrome (CAPS) develops acute malignant hypertension, proteinuria, and microvascular thrombosis. Biopsy demonstrates renal TMA. Which of the following therapeutic modalities is indicated for managing APS-associated TMA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High-dose loop diuretic monotherapy"
+        },
+        {
+          "id": "B",
+          "text": "Immediate discontinuation of all systemic corticosteroids"
+        },
+        {
+          "id": "C",
+          "text": "Antibiotic prophylaxis with ciprofloxacin alone"
+        },
+        {
+          "id": "D",
+          "text": "Anticoagulation combined with therapeutic plasma exchange and immunosuppression"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Catastrophic Antiphospholipid Syndrome (CAPS) 引發之 Secondary TMA 需採取三聯療法：Therapeutic Plasma Exchange (PEX) 移除抗體與促凝因子 + 抗凝血劑 (Anticoagulation) + 高劑量 Immunosuppression (Steroids / Rituximab)。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q18: The correct option is (D). Catastrophic Antiphospholipid Syndrome (CAPS) 引發之 Secondary TMA 需採取三聯療法：Therapeutic Plasma Exchange (PEX) 移除抗體與促凝因子 + 抗凝血劑 (Anticoagulation) + 高劑量 Immunosuppression (Steroids / Rituximab)。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "number": 19,
+      "stem": "An 8-month-old infant presents with developmental delay, megaloblastic anemia, methylmalonic aciduria, homocystinuria, and thrombotic microangiopathy. Genetic analysis reveals an MMACHC gene mutation. What is the underlying cause of TMA in this infant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autoantibody production against complement Factor H"
+        },
+        {
+          "id": "B",
+          "text": "Inborn error of vitamin B12 (cobalamin C) metabolism causing intracellular accumulation of homocysteine and endothelial cell injury"
+        },
+        {
+          "id": "C",
+          "text": "Congenital deficiency of platelet glycoprotein IIb/IIIa receptors"
+        },
+        {
+          "id": "D",
+          "text": "Shiga toxin production by commensal intestinal flora"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "MMACHC 基因突變導致 Cobalamin C (cblC) 代謝缺陷，使嬰幼兒體內 Homocysteine 劇烈累積引發內皮細胞毒性與內皮損傷，表現為 Cobalamin C-associated TMA。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q19: The correct option is (B). MMACHC 基因突變導致 Cobalamin C (cblC) 代謝缺陷，使嬰幼兒體內 Homocysteine 劇烈累積引發內皮細胞毒性與內皮損傷，表現為 Cobalamin C-associated TMA。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "number": 20,
+      "stem": "A 1-year-old child presents with atypical HUS refractory to plasma exchange and anti-C5 monoclonal antibody therapy. Genetic testing reveals biallelic mutations in DGKE (diacylglycerol kinase ε). Which of the following statements regarding DGKE-associated TMA is CORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DGKE encodes a circulating plasma complement regulatory protein synthesized by the liver."
+        },
+        {
+          "id": "B",
+          "text": "DGKE-associated TMA responds dramatically to single-dose Eculizumab infusion."
+        },
+        {
+          "id": "C",
+          "text": "DGKE mutations cause TMA via complement-independent intracellular lipid signaling alterations in endothelial cells and podocytes, explaining the lack of response to anti-C5 therapy."
+        },
+        {
+          "id": "D",
+          "text": "DGKE mutations are inherited in an autosomal dominant pattern with 100% penetrance."
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "DGKE (Diacylglycerol kinase ε) 基因突變導致 Podocyte 與 Endothelial cell 內的 Lipid signaling pathway 失調，屬 Non-complement mediated aHUS，故對 Eculizumab 補體抑制劑無反應。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "account_1",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        },
+        {
+          "accountProfile": "mudskipper24",
+          "notebookTitle": "Brenner 11e & KDIGO",
+          "rawResponse": "Detailed NLM analysis for question q20: The correct option is (C). DGKE (Diacylglycerol kinase ε) 基因突變導致 Podocyte 與 Endothelial cell 內的 Lipid signaling pathway 失調，屬 Non-complement mediated aHUS，故對 Eculizumab 補體抑制劑無反應。",
+          "qcStatus": "PASSED",
+          "databaseSufficiency": "SUFFICIENT"
+        }
+      ]
+    }
+  ]
+}

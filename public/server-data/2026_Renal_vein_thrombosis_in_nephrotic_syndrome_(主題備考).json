@@ -1,0 +1,770 @@
+{
+  "id": "2026_Renal_vein_thrombosis_in_nephrotic_syndrome_(主題備考)",
+  "paperId": "2026_Renal_vein_thrombosis_in_nephrotic_syndrome_(主題備考)",
+  "title": "2026 Renal Vein Thrombosis in Nephrotic Syndrome (腎病症候群併發腎靜脈血栓) 臨床病理、解剖學變異、KDIGO 風險分層與抗凝血指引題庫",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "rvt_ns_q01",
+      "number": 1,
+      "stem": "Which of the following alterations in circulating plasma proteins is the primary driver of the severe hypercoagulable state and venous thromboembolism in patients with Nephrotic Syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compensatory hepatic hyper-synthesis of Protein C and Protein S"
+        },
+        {
+          "id": "B",
+          "text": "Urinary loss of low-molecular-weight Antithrombin III combined with hepatic overproduction of Fibrinogen"
+        },
+        {
+          "id": "C",
+          "text": "Marked decrease in plasma Factor V and Factor VIII due to urinary excretion"
+        },
+        {
+          "id": "D",
+          "text": "Isolated deficiency of Plasminogen Activator Inhibitor-1 (PAI-1)"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Nephrotic Syndrome 引發 Hypercoagulable State 之核心病態生理為：分子量較小之天然抗凝血蛋白質（特別是 Antithrombin III，分子量 65 kDa）隨大量蛋白尿流失，導致 Plasma Antithrombin III 水平急劇下降；同時為代償 Severe Hypoalbuminemia，肝臟大量過度合成高分子量之 Fibrinogen (340 kDa)、Factor V 及 Factor VIII。此一『抗凝血蛋白質流失 + 促凝血因子肝臟過度合成』之雙重失衡為引發 Renal Vein Thrombosis 與 Deep Vein Thrombosis 之主因。(依據 Brenner 11e Chapter 30 & 31)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_1",
+          "relPath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "caption": "Pathophysiological Mechanisms of Hypercoagulability in Nephrotic Syndrome",
+          "sourceBook": "Brenner 11e Ch 30"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q02",
+      "number": 2,
+      "stem": "A 45-year-old male with nephrotic range proteinuria undergoes plasma coagulation factor profiling. Which of the following plasma proteins is typically DECREASED due to urinary wasting in Nephrotic Syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrinogen"
+        },
+        {
+          "id": "B",
+          "text": "Factor VIII"
+        },
+        {
+          "id": "C",
+          "text": "Antithrombin III"
+        },
+        {
+          "id": "D",
+          "text": "von Willebrand Factor (vWF)"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在 Nephrotic Syndrome 中，血漿蛋白質之變化主要取決於分子量大小。低分子量蛋白質如 Antithrombin III (~65 kDa)、Free Protein S (~69 kDa) 及 Plasminogen (~90 kDa) 會經由瓦解之 Glomerular Basement Membrane 漏出至尿液中，造成血漿中濃度顯著下降 (Decreased)。相對地，大分子蛋白質如 Fibrinogen (340 kDa)、Factor VIII 及 vWF 則無法自由過濾，並因肝臟代償性合成增加而使血漿濃度顯著升高。(依據 Brenner 11e Chapter 31 Box 31.2 & Box 31.3)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_2",
+          "relPath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "caption": "Plasma Protein Alterations in Nephrotic Range Proteinuria",
+          "sourceBook": "Brenner 11e Ch 31"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q03",
+      "number": 3,
+      "stem": "Among primary adult glomerulopathies, which underlying disease carries the HIGHEST clinical incidence (10% to 40%) of Renal Vein Thrombosis (RVT) and systemic thromboembolism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Membranous Nephropathy"
+        },
+        {
+          "id": "B",
+          "text": "Minimal Change Disease"
+        },
+        {
+          "id": "C",
+          "text": "IgA Nephropathy"
+        },
+        {
+          "id": "D",
+          "text": "Focal Segmental Glomerulosclerosis (FSGS)"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在所有原發性腎絲球疾病中，Membranous Nephropathy (MN) 併發 Venous Thromboembolism (VTE) 包括 Renal Vein Thrombosis (RVT) 與 Deep Vein Thrombosis (DVT) 之風險最高，文獻統計發生率高達 10%–40%。其次為 Membranoproliferative Glomerulonephritis (MPGN) 與 Amyloidosis。Minimal Change Disease 與 FSGS 雖然亦可併發血栓，但頻率顯著低於 Membranous Nephropathy。(依據 Brenner 11e Chapter 31 與 KDIGO 2021 Guidelines Chapter 3)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_3",
+          "relPath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "caption": "Thromboembolism Incidence across Primary Glomerular Subtypes",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q04",
+      "number": 4,
+      "stem": "A 38-year-old male with untreated Membranous Nephropathy presents with sudden left flank pain and a newly discovered non-tender left scrotal swelling that does not decompress when lying flat. What anatomical feature explains why left-sided Renal Vein Thrombosis leads to a left varicocele?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The left testicular artery originates directly from the main renal vein"
+        },
+        {
+          "id": "B",
+          "text": "The left renal vein courses posterior to the abdominal aorta causing mechanical compression"
+        },
+        {
+          "id": "C",
+          "text": "The left lymphatic duct drains into the renal hilum causing lymphatic obstruction"
+        },
+        {
+          "id": "D",
+          "text": "The left testicular vein drains perpendicularly into the left renal vein"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "解剖學上，Left Testicular Vein (Gonadal Vein) 呈 90 度垂直注入 Left Renal Vein，而 Right Testicular Vein 則直接斜向回流注入 Inferior Vena Cava (IVC)。當 Left Renal Vein 發生 Renal Vein Thrombosis 形成管腔阻塞時，左側腎靜脈內壓急劇升高，阻礙 Left Testicular Vein 回流，引發 Left Pampiniform Plexus 靜脈曲張，表現為 New-Onset Left Varicocele。右側血栓則極少單獨引發右側 Varicocele。(依據 Brenner 11e Chapter 29)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_4",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Anatomical Course of Left Testicular Vein Draining into Left Renal Vein",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q05",
+      "number": 5,
+      "stem": "Which of the following statements regarding the clinical presentation of chronic Renal Vein Thrombosis (RVT) in adult nephrotic patients is CORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chronic RVT always presents with severe excruciating flank pain and anuria"
+        },
+        {
+          "id": "B",
+          "text": "Chronic RVT is frequently asymptomatic and Pulmonary Embolism may be the first clinical manifestation"
+        },
+        {
+          "id": "C",
+          "text": "Gross hematuria with passage of worm-like blood clots is universally present in chronic RVT"
+        },
+        {
+          "id": "D",
+          "text": "Chronic RVT rapidly causes acute ischemic necrosis requiring emergency nephrectomy"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Chronic Renal Vein Thrombosis (RVT) 在成人 Nephrotic Syndrome 中發展緩慢，常可建立側枝循環 (Collateral Venous Circulation)，因此大多數患者臨床上完全無症狀 (Silent)。高達 40% 的 Chronic RVT 患者其首發臨床症狀為突發之 **Pulmonary Embolism (PE)** 或 Deep Vein Thrombosis (DVT)。只有在 Acute RVT 時，才會出現劇烈 Flank Pain、Gross Hematuria 與 AKI。(依據 Brenner 11e Chapter 29 Table 29.4 與 KDIGO 2021)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_5",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Clinical Spectrum of Acute versus Chronic Renal Vein Thrombosis",
+          "sourceBook": "KDIGO 2021"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q06",
+      "number": 6,
+      "stem": "A 52-year-old female with nephrotic syndrome develops sudden right flank pain and hematuria. Bedside Doppler ultrasound of the right kidney is performed. Which vascular Doppler finding is characteristic of acute complete Renal Vein Thrombosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased continuous forward flow in the main renal vein"
+        },
+        {
+          "id": "B",
+          "text": "Marked elevation of peak systolic velocity in the renal artery with normal diastolic flow"
+        },
+        {
+          "id": "C",
+          "text": "Absence of renal venous flow accompanied by end-diastolic flow reversal in the main renal artery"
+        },
+        {
+          "id": "D",
+          "text": "Low resistive index (RI < 0.5) in intrarenal arcuate arteries"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "急性完整 Renal Vein Thrombosis 時，Doppler Ultrasound 之特徵性表現包括：(1) 主靜脈內完全無法偵測出靜脈回流訊號 (Absence of Venous Flow)；(2) 由於靜脈流出道完全阻塞，腎臟內部靜脈壓與血管阻力升至極限，導致腎動脈在舒張期出現 **Reversal of End-Diastolic Flow**（舒張期血流倒流）。此為極具診斷特異性之 Doppler 表現。(依據 Brenner 11e Chapter 29 Table 29.4)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_6",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Doppler Waveform Criteria for Acute Renal Vein Thrombosis",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q07",
+      "number": 7,
+      "stem": "What is considered the non-invasive imaging gold standard for establishing the definitive diagnosis of Renal Vein Thrombosis by directly visualizing lumen filling defects?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Computed Tomography Angiography / Venography (CTA / CTV)"
+        },
+        {
+          "id": "B",
+          "text": "Plain Abdominal Radiography (KUB)"
+        },
+        {
+          "id": "C",
+          "text": "Radionuclide Renal Scan (MAG3)"
+        },
+        {
+          "id": "D",
+          "text": "Intravenous Pyelogram (IVP)"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "診斷 Renal Vein Thrombosis (RVT) 之首選非侵入性黃金標準為 **Computed Tomography Angiography / Venography (CTA/CTV)**，其能精確顯示 Renal Vein 與 Inferior Vena Cava (IVC) 內部之 Filling Defect，敏感度與特異度均超過 95%。Doppler Ultrasound 雖然便利，但受限於操作者技術且敏感度較低。MR Venography 可用於顯影劑過敏者。(依據 Brenner 11e Chapter 29)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_7",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Imaging Modalities for Definitive RVT Diagnosis",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q08",
+      "number": 8,
+      "stem": "According to the KDIGO 2021 Clinical Practice Guidelines for Glomerular Diseases, what is the key serum albumin threshold below which prophylactic anticoagulation should be STRONGLY CONSIDERED in low-bleeding-risk patients with Membranous Nephropathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serum Albumin < 3.5 g/dL"
+        },
+        {
+          "id": "B",
+          "text": "Serum Albumin < 3.0 g/dL"
+        },
+        {
+          "id": "C",
+          "text": "Serum Albumin < 2.8 g/dL"
+        },
+        {
+          "id": "D",
+          "text": "Serum Albumin < 2.0 to 2.5 g/dL"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "依據 *KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases* Practice Point 3.3.1，針對 Membranous Nephropathy 患者，當 **Serum Albumin < 2.0 to 2.5 g/dL** 且 Bleeding Risk 較低時，VTE 及 RVT 發生率急劇上升，此時建議評估並啟動 Prophylactic Anticoagulation。當 Serum Albumin > 3.0 g/dL 時，通常不建議常規進行預防性抗凝血。(依據 KDIGO 2021 Guidelines Chapter 3)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_8",
+          "relPath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "caption": "KDIGO 2021 Serum Albumin Thresholds for Prophylactic Anticoagulation",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q09",
+      "number": 9,
+      "stem": "A patient with severe nephrotic syndrome is initiated on Unfractionated Heparin (UFH) for acute Renal Vein Thrombosis, but failure to prolong the activated partial thromboplastin time (aPTT) is observed despite escalated doses. What underlying mechanism accounts for this 'Heparin Resistance'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rapid hepatic degradation of heparin by cytochrome P450"
+        },
+        {
+          "id": "B",
+          "text": "Severe urinary loss of Antithrombin III which is required for heparin's anticoagulant action"
+        },
+        {
+          "id": "C",
+          "text": "Excessive accumulation of circulating Protein C neutralizing heparin molecules"
+        },
+        {
+          "id": "D",
+          "text": "Antibody-mediated destruction of Factor Xa"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Unfractionated Heparin (UFH) 之抗凝血作用完全仰賴體內 **Antithrombin III** 之存在（Heparin 與 AT-III 結合後可使其構型改變，抑制 Thrombin 及 Factor Xa 達 1000 倍）。在 Severe Nephrotic Syndrome 中，AT-III 隨尿液大量流失，導致血清 AT-III 嚴重不足，引發臨床上之 **Heparin Resistance**（給予高劑量 Heparin 仍無法拉長 aPTT）。此時處置需補充 Antithrombin III 濃縮劑，或轉用 Direct Thrombin Inhibitors 或 LMWH。(依據 Brenner 11e Chapter 55)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_9",
+          "relPath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "caption": "Antithrombin III Depletion and Mechanism of Heparin Resistance",
+          "sourceBook": "Brenner 11e Ch 55"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q10",
+      "number": 10,
+      "stem": "A 50-year-old male with Membranous Nephropathy is successfully treated for acute RVT with Warfarin (INR 2.5). After 6 months of therapy, his nephrotic syndrome remains active with Serum Albumin 1.8 g/dL and UPCR 8.5 g/d. According to guidelines, how long should anticoagulation be continued?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discontinue Warfarin immediately as 6 months is the absolute maximum duration"
+        },
+        {
+          "id": "B",
+          "text": "Switch to low-dose Aspirin only and stop all oral anticoagulants"
+        },
+        {
+          "id": "C",
+          "text": "Continue full-dose anticoagulation as long as severe hypoalbuminemia (Serum Albumin < 3.0 g/dL) persists"
+        },
+        {
+          "id": "D",
+          "text": "Discontinue Warfarin and perform immediate bilateral renal vein stenting"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "對於已確診併發 Thromboembolism (RVT / DVT / PE) 的 Nephrotic Syndrome 患者，抗凝血治療之標準療程雖然最少為 3–6 個月，但**核心原則為：只要 Severe Hypoalbuminemia (Serum Albumin < 3.0 g/dL) 及 Severe Proteinuria 未達成完全解離緩解，高凝血狀態之致病根源即持續存在，抗凝血治療必須繼續延長**，直到 Serum Albumin 回升至 > 3.0 g/dL 始可考慮停藥。(依據 KDIGO 2021 Guidelines Chapter 3)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_10",
+          "relPath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "caption": "Duration Criteria for Therapeutic Anticoagulation in RVT",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q11",
+      "number": 11,
+      "stem": "In which of the following extreme clinical scenarios is Catheter-Directed Thrombolysis or Surgical Thrombectomy STRONGLY INDICATED over systemic anticoagulation alone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acute bilateral Renal Vein Thrombosis presenting with anuric Acute Kidney Injury"
+        },
+        {
+          "id": "B",
+          "text": "Asymptomatic unilateral partial RVT detected incidentally on routine CT"
+        },
+        {
+          "id": "C",
+          "text": "Chronic silent RVT with stable eGFR of 60 mL/min/1.73m²"
+        },
+        {
+          "id": "D",
+          "text": "Membranous nephropathy with Serum Albumin 2.4 g/dL and no evidence of thrombosis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "全身性或經導管 Catheter-Directed Thrombolysis (如 tPA 局部灌注) 或 Surgical Thrombectomy 於 RVT 中非屬第一線常規處置。其明確適應症僅限於危及生命或腎臟存活之極端狀況，包括：(1) **Acute Bilateral Renal Vein Thrombosis 伴隨無尿性 AKI**；(2) 孤立腎 (Solitary Kidney) 發生完全性靜脈血栓；(3) 在足量抗凝血下仍反覆發作 Massive Life-Threatening Pulmonary Embolism。(依據 Brenner 11e Chapter 29 & KDIGO 2021)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_11",
+          "relPath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "caption": "Indications for Endovascular Thrombolysis and Surgical Thrombectomy",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q12",
+      "number": 12,
+      "stem": "Regarding Protein C and Protein S dynamics in Nephrotic Syndrome, which statement accurately describes their plasma level alterations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Protein C and Protein S levels are universally decreased to < 10% of normal"
+        },
+        {
+          "id": "B",
+          "text": "Protein S level is elevated while Protein C is markedly depleted due to urinary loss"
+        },
+        {
+          "id": "C",
+          "text": "Protein C and Protein S function normally because neither is affected by glomerular permeability"
+        },
+        {
+          "id": "D",
+          "text": "Free Protein S is decreased due to urinary loss and C4b-binding protein shifts, whereas Protein C levels are often normal or elevated"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在 Nephrotic Syndrome 中，Free Protein S 因分子量較小經尿液流失，且血漿中 C4b-binding Protein (C4b-BP) 增加導致 Free Protein S 比例下降，使活性 Free Protein S 顯著降低。相反地，Protein C 分子量較大，在腎病症候群中肝臟代償性合成常使血清 Total Protein C 濃度維持正常或甚至升高。此為考題中極易混淆之高頻概念。(依據 Brenner 11e Chapter 31 & Chapter 55)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_12",
+          "relPath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "caption": "Protein C and Protein S Dynamics in Nephrotic State",
+          "sourceBook": "Brenner 11e Ch 55"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q13",
+      "number": 13,
+      "stem": "Which of the following blood rheology and platelet abnormalities contributes directly to the increased risk of microvascular thrombosis in Nephrotic Syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Severe thrombocytopenia with prolonged bleeding time"
+        },
+        {
+          "id": "B",
+          "text": "Hemoconcentration, elevated blood viscosity, and enhanced platelet hyperaggregability with elevated beta-thromboglobulin"
+        },
+        {
+          "id": "C",
+          "text": "Decreased von Willebrand factor leading to impaired platelet adhesion"
+        },
+        {
+          "id": "D",
+          "text": "Marked decrease in hematocrit and blood viscosity"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "除了蛋白流失與肝臟合成失衡外，Nephrotic Syndrome 尚伴隨顯著之血液流變學 (Rheology) 與血小板異常：(1) 低血清蛋白引發血管內水份移轉至組織間隙，造成 Intravascular Volume Depletion、Hemoconcentration 與血液黏稠度 (Blood Viscosity) 上升；(2) 血小板呈 Hyperaggregability 狀態，血漿中 Beta-Thromboglobulin 與 Platelet Factor 4 顯著升高，促進微血管靜脈血栓形成。(依據 Brenner 11e Chapter 30 Box 30.3)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_13",
+          "relPath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_pathophysiology_illustration.jpg",
+          "caption": "Rheological and Platelet Factors in Nephrotic Hypercoagulability",
+          "sourceBook": "Brenner 11e Ch 30"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q14",
+      "number": 14,
+      "stem": "A 55-year-old male with nephrotic syndrome is evaluated for a new ISOLATED RIGHT-SIDED varicocele. Which statement best reflects the clinical significance of this finding compared to a left-sided varicocele?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolated right varicocele is a pathognomonic sign of benign left renal vein thrombosis"
+        },
+        {
+          "id": "B",
+          "text": "Right testicular vein drains into the right renal vein, so right RVT is the most likely cause"
+        },
+        {
+          "id": "C",
+          "text": "Right testicular vein drains directly into the IVC; an isolated right varicocele strongly suggests retroperitoneal mass or IVC obstruction rather than isolated left RVT"
+        },
+        {
+          "id": "D",
+          "text": "Isolated right varicocele is completely physiological and requires no imaging"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "解剖學上，Right Testicular Vein 直接斜向回流注入 Inferior Vena Cava (IVC)，而非注入 Right Renal Vein。因此，Left Renal Vein Thrombosis 只會引起 Left Varicocele。若患者出現 **Isolated Right Varicocele**，代表靜脈阻塞發生於 IVC 或有 Retroperitoneal Tumor / Renal Cell Carcinoma 直接侵犯阻塞 IVC，必須進行緊急腹部 CT 掃描。(依據 Brenner 11e Chapter 29)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_14",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Anatomical Drainage Disparity of Left versus Right Testicular Vein",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q15",
+      "number": 15,
+      "stem": "A kidney transplant recipient on post-operative Day 3 develops sudden oliguria, severe graft tenderness, and gross hematuria. Renal allograft Doppler ultrasound shows complete absence of renal vein flow and diastolic flow reversal in the main renal artery. What is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allograft Renal Vein Thrombosis"
+        },
+        {
+          "id": "B",
+          "text": "Renal Artery Stenosis"
+        },
+        {
+          "id": "C",
+          "text": "Calcineurin Inhibitor Toxicity"
+        },
+        {
+          "id": "D",
+          "text": "BK Virus Nephropathy"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "移植腎 Renal Vein Thrombosis (RVT) 為早期術後極危急之 vascular complication (常發生於術後前幾天)，臨床表現為突發少尿/無尿 (Oliguria/Anuria)、移植腎劇烈壓痛腫大與 Gross Hematuria。Doppler Ultrasound 顯示 **Absent Venous Flow 配合 Renal Artery Reversal of Diastolic Flow**。此狀況需緊急探查，否則常導致 Allograft Loss。(依據 2026 高榮考訊與 Brenner 11e Chapter 70)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_15",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Renal Allograft Venous Thrombosis and Vascular Doppler Characteristics",
+          "sourceBook": "Brenner 11e Ch 70"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q16",
+      "number": 16,
+      "stem": "A 62-year-old male with Membranous Nephropathy has a Serum Albumin of 1.9 g/dL. However, he has a history of recent active peptic ulcer bleeding and severe thrombocytopenia (platelets 35,000/µL). According to KDIGO 2021 guidelines, what is the appropriate management regarding anticoagulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer high-dose Unfractionated Heparin infusion immediately"
+        },
+        {
+          "id": "B",
+          "text": "Initiate full-dose Warfarin target INR 3.0-4.0"
+        },
+        {
+          "id": "C",
+          "text": "Perform bilateral prophylactic inferior vena cava filter placement"
+        },
+        {
+          "id": "D",
+          "text": "Withhold full therapeutic anticoagulation due to high bleeding risk, and consider antiplatelet therapy or close monitoring"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "KDIGO 2021 預防性抗凝血指引強調：即便 Serum Albumin < 2.0 g/dL，亦必須同時評估 Bleeding Risk。若患者存在 High Bleeding Risk（如近期消化道出血、重度血小板低下 < 50,000/µL），強效抗凝血 (Heparin/Warfarin) 之出血危害遠高於血栓預防收益，此時應 **Withhold Anticoagulation**，可考慮以 Low-dose Aspirin 代替或密切進行臨床監測。(依據 KDIGO 2021 Guidelines Chapter 3 Practice Point 3.3.1)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_16",
+          "relPath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "caption": "Bleeding Risk Balancing in KDIGO Anticoagulation Protocol",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q17",
+      "number": 17,
+      "stem": "Which oral anticoagulant regimen and monitoring parameter is correct for long-term treatment of confirmed Renal Vein Thrombosis in a nephrotic patient with an eGFR of 50 mL/min/1.73m²?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aspirin 81 mg daily with aPTT monitoring target 1.5-2.0 times control"
+        },
+        {
+          "id": "B",
+          "text": "Warfarin target INR 2.0 to 3.0 (or DOAC such as Apixaban), bridged initially with LMWH"
+        },
+        {
+          "id": "C",
+          "text": "Clopidogrel 75 mg daily with bleeding time monitoring"
+        },
+        {
+          "id": "D",
+          "text": "Subcutaneous Fondaparinux without oral agent bridge"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "確診 Renal Vein Thrombosis 後，標準長期口服抗凝血治療首選為 **Warfarin (Target INR 2.0 – 3.0)**，且初始階段需以 LMWH 或 UFH 銜接 (Bridge) 至少 5 天直至 INR 達標。在 eGFR >= 30 mL/min/1.73m² 之患者中，Direct Oral Anticoagulants (DOACs, 如 Apixaban 或 Rivaroxaban) 亦為目前 KDIGO 認可之有效替代選擇。(依據 KDIGO 2021 Guidelines & Brenner 11e Chapter 55)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_17",
+          "relPath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "caption": "Oral Anticoagulant Choice and INR Monitoring Targets",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q18",
+      "number": 18,
+      "stem": "A 68-year-old smoker presents with nephrotic syndrome and left renal vein thrombosis. Kidney biopsy reveals membranous nephropathy with subepithelial deposits. Tissue immunostaining is NEGATIVE for PLA2R but POSITIVE for THSD7A. What secondary underlying condition must be thoroughly screened?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Primary Antiphospholipid Syndrome"
+        },
+        {
+          "id": "B",
+          "text": "Type 1 Diabetes Mellitus"
+        },
+        {
+          "id": "C",
+          "text": "Occult Solid Tumor Malignancy (e.g., lung, GI tract)"
+        },
+        {
+          "id": "D",
+          "text": "Herpes Simplex Infection"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "THSD7A (Thrombospondin Type-1 Domain-Containing 7A) 占 Primary Membranous Nephropathy 約 3%–5%。高達 20% 之 Anti-THSD7A 陽性患者伴隨 **Occult Malignancy**（如肺癌、腸胃道癌症、膽囊癌）。實體腫瘤本身亦會獨立增加靜脈血栓 (RVT/DVT) 之風險。因此 Anti-THSD7A 陽性或 Anti-PLA2R 陰性之老年 MN 患者必須進行詳盡之 Cancer Screening。(依據 Brenner 11e Chapter 31 & Chapter 42 Table 42.7)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_18",
+          "relPath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_kdigo_stratification_illustration.jpg",
+          "caption": "THSD7A Positivity and Occult Malignancy Association",
+          "sourceBook": "Brenner 11e Ch 42"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q19",
+      "number": 19,
+      "stem": "On contrast-enhanced CT or IVU of a patient with chronic left Renal Vein Thrombosis, characteristic extrinsic 'notching' of the left ureter is visualized. What is the pathophysiological cause of this radiographic finding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Engorged periureteral collateral veins attempting to bypass the obstructed renal vein"
+        },
+        {
+          "id": "B",
+          "text": "Direct invasion of the ureteral lumen by acute blood clots"
+        },
+        {
+          "id": "C",
+          "text": "Fibrotic stricture of the ureteropelvic junction"
+        },
+        {
+          "id": "D",
+          "text": "Multiple renal cortical cysts compressing the ureter"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在 Chronic Renal Vein Thrombosis (RVT) 中，主靜脈阻塞後引發側肢靜脈網 (Collateral Venous Circulation) 擴張。位於輸尿管周圍之 **Engorged Periureteral Collateral Veins** (包括 Gonadal Vein 與 Lumbar Veins 之分支) 擴張彎曲，對輸尿管壁造成外在壓迫 (Extrinsic Compression)，在 IVU 或 CT 上呈現經典之 **Ureteral Notching** (輸尿管壓跡)。此為 2021 成大專科考題考過之關鍵影像概念。(依據 Brenner 11e Chapter 29)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_19",
+          "relPath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_clinical_anatomy_illustration.jpg",
+          "caption": "Radiographic Ureteral Notching from Collateral Venous Engorgement",
+          "sourceBook": "Brenner 11e Ch 29"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    },
+    {
+      "id": "rvt_ns_q20",
+      "number": 20,
+      "stem": "Which of the following clinical criteria represents the safest milestone for deciding to safely DISCONTINUE prophylactic or therapeutic anticoagulation in a patient treated for nephrotic Renal Vein Thrombosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completion of exactly 30 days of oral anticoagulation regardless of albumin"
+        },
+        {
+          "id": "B",
+          "text": "Normalization of serum cholesterol only"
+        },
+        {
+          "id": "C",
+          "text": "Disappearance of peripheral lower extremity edema"
+        },
+        {
+          "id": "D",
+          "text": "Complete remission of nephrotic syndrome with sustained recovery of Serum Albumin to > 3.0 g/dL"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "安全停用抗凝血劑之關鍵指標為：腎病症候群達成緩解，且 **Serum Albumin 持續恢復至 > 3.0 g/dL**。當血清蛋白恢復至 3.0 g/dL 以上時，尿中 Antithrombin III 流失停止且肝臟過度合成凝血因子趨於正常，Systemic Hypercoagulability 完全消失。若血清蛋白仍低於 3.0 g/dL，即刻停藥將使血栓復發風險劇增。(依據 KDIGO 2021 Practice Point 3.3.1)",
+      "resolvedImages": [
+        {
+          "id": "rvt_img_20",
+          "relPath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "imagePath": "/server-data/assets/rvt_treatment_management_illustration.jpg",
+          "caption": "Milestones for Safe Anticoagulation Discontinuation",
+          "sourceBook": "KDIGO 2021 Ch 3"
+        }
+      ],
+      "nlmResponses": [],
+      "reconciliationStatus": "UNPROCESSED",
+      "qcStatus": "UNVERIFIED"
+    }
+  ]
+}

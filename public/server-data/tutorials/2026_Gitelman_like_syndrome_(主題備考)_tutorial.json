@@ -1,0 +1,107 @@
+{
+  "paperId": "2026_Gitelman_like_syndrome_(主題備考)",
+  "title": "2026 Gitelman-like Syndrome (次發性與繼發性 Gitelman 樣症候群) 分子調控機轉、藥物與自體免疫致病原因、臨床鑑別診斷與專科試題實戰",
+  "sourceCategory": "2026 Electrolytes",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Section 1: Molecular Pathophysiology of Distal Convoluted Tubule (DCT) NaCl & Mg Transport",
+      "content": "Gitelman Syndrome 與 Gitelman-like Syndrome 的核心病理機轉源於 Distal Convoluted Tubule 內離子通道的失調。正常生理狀態下，Distal Convoluted Tubule 頂端膜的 NCCT (SLC12A3) 負責 NaCl 的重吸收，此過程受到 WNK4-SPAK/OSR1 Kinase Cascade 的精準調控；同時，TRPM6 通道主導了頂端膜 Mg 重吸收，而基底側膜的 Na-K-ATPase 與 Kir4.1 則維持了跨膜電位與離子梯度。當此系統因先天基因突變或後天因素受損時，會導致 NCCT 與 TRPM6 功能下降，引發典型的生化特徵：Hypokalemic Metabolic Alkalosis、Hypomagnesemia (FEMg > 4%)、Hypocalciuria (UCa/UCr < 0.2 mmol/mmol)，以及伴隨正常或偏低 Blood Pressure 的 Renin-Angiotensin-Aldosterone System 活化。\n\nTopology Mapping Matrix 顯示，任何直接抑制 NCCT、干擾 WNK4 訊號傳遞、或破壞基底側電位 (如 Kir4.1 突變) 的因子，最終皆會匯聚於 Distal Convoluted Tubule 的功能衰竭，產生與先天性 SLC12A3 突變如出一轍的異常表現。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_44_11",
+          "title": "Molecular Physiology of the Distal Convoluted Tubule",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_11.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_11.png",
+          "caption": "Molecular mechanisms of NaCl, Ca, and Mg transport in the DCT, highlighting NCCT, TRPM6, and basolateral channels.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "gitelman_dct_pathophysiology",
+          "title": "Pathophysiology Map of DCT Dysfunction",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/gitelman_dct_pathophysiology.jpg",
+          "imagePath": "/server-data/assets/gitelman_dct_pathophysiology.jpg",
+          "caption": "Detailed visual map of WNK4-SPAK/OSR1 cascade and down-stream channel derangements leading to Gitelman phenotype.",
+          "sourceBook": "Gemini AI Illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Section 2: Primary Gitelman Syndrome vs Acquired / Secondary Gitelman-like Syndrome",
+      "content": "Primary Gitelman Syndrome 主要肇因於 SLC12A3 基因的 Inactivating Mutations，呈 Autosomal Recessive 遺傳，且患者常因 Calcium Pyrophosphate Dihydrate (CPPD) 沉積而表現 Chondrocalcinosis。然而，在成人臨床實務中，Acquired Gitelman-like Syndrome 更具鑑別挑戰性。\n\n藥物誘導方面：Calcineurin Inhibitors (包含 Tacrolimus 與 Cyclosporine) 透過下調 NCCT 與 TRPM6，加上 Epidermal Growth Factor (EGF) 抑制，極易引發此症候群；Cisplatin 不僅造成直接 Tubular Injury，亦會下調 TRPM6 表現；Aminoglycosides (如 Gentamicin, Amikacin) 可藉由活化 Calcium-Sensing Receptor (CaSR) 或引發 Tubular Injury 導致病徵；Proton Pump Inhibitors (PPIs) 則主要抑制腸道 Mg 吸收並可進一步誘發 Secondary Gitelman Syndrome 特徵；SGLT2 Inhibitors 近期亦被提出具備潛在相關性。\n\n自體免疫與間質發炎方面：Sjögren's Syndrome 藉由 Anti-Ro/SSA Antibodies 導致 Lymphoplasmacytic Tubulointerstitial Nephritis，進而破壞 Distal Convoluted Tubule 引發 Salt Wasting；IgG4-Related Disease (IgG4-RD) 則以 Storiform Fibrosis 與 IgG4+ Plasma Cell Infiltration 為特徵，亦能影響 Tubular 功能；此外，Sarcoidosis 也是造成此症候群表現的潛在原因。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_44_16",
+          "title": "Genetic and Acquired Channelopathies in DCT",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_16.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_16.png",
+          "caption": "Detailed cellular consequences of genetic mutations vs pharmacological inhibitions in the DCT.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "drug_autoimmune_gitelman",
+          "title": "Acquired Etiologies of Gitelman-like Syndrome",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/drug_autoimmune_gitelman.jpg",
+          "imagePath": "/server-data/assets/drug_autoimmune_gitelman.jpg",
+          "caption": "Mechanistic diagram showing the impact of Calcineurin Inhibitors, Cisplatin, and autoantibodies (Anti-Ro/SSA) on the DCT.",
+          "sourceBook": "Gemini AI Illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Section 3: Differential Diagnosis & High-Yield Comparison",
+      "content": "針對 Hypokalemic Metabolic Alkalosis 的鑑別診斷，必須以系統化的對比表釐清。Gitelman Syndrome 與 Bartter Syndrome (Types I-IV，包含 NKCC2, ROMK, ClC-Kb, Barttin 突變) 最大的分野在於 Urine Calcium 排泄：Gitelman Syndrome 表現為 Hypocalciuria，而 Bartter Syndrome 通常為 Hypercalciuria。CaSR Activating Mutations (有時被稱為 Bartter Type V) 雖表現類似，但伴隨 Hypocalcemia 與 Suppressed Parathyroid Hormone (PTH)。\n\n另外，臨床上必須區分 Tubular 缺陷與其他病因。Active Vomiting 會呈現極低的 Urine Chloride (UCl < 10 mEq/L)；Thiazide Toxicity 與 Surreptitious Diuretic Abuse 或 Laxative Abuse 在生化上可能與 Gitelman Syndrome 極為相似，但停用後即可恢復；EAST/SESAME Syndrome (KCNJ10 基因突變) 亦會表現類似的電解質異常，但伴隨 Seizures、Sensorineural Deafness、Ataxia 等神經學症狀。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_44_12",
+          "title": "Differential Pathways in Salt-Losing Tubulopathies",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_12.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_12.png",
+          "caption": "Comparison of loop of Henle and DCT transporter defects differentiating Bartter and Gitelman syndromes.",
+          "sourceBook": "Brenner 11e Ch 44"
+        },
+        {
+          "id": "gitelman_vs_bartter",
+          "title": "High-Yield Comparison Chart: Gitelman vs Bartter",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/gitelman_vs_bartter.jpg",
+          "imagePath": "/server-data/assets/gitelman_vs_bartter.jpg",
+          "caption": "Diagnostic table contrasting urinary electrolytes, calcium handling, and associated clinical manifestations.",
+          "sourceBook": "Gemini AI Illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Section 4: Diagnostic Workup & Clinical Management",
+      "content": "針對疑似此症候群的患者，診斷決策樹必須從 Spot Urine 解析開始。首先確認 Urine Chloride：若 UCl < 15 mEq/L 則傾向 Extrarenal Loss (如 Active Vomiting)；若 UCl > 20 mEq/L 則指向 Renal Wasting。接著利用 UCa/UCr 進行區分，< 0.2 mmol/mmol 支持 Gitelman Syndrome，而 > 0.2 mmol/mmol 則傾向 Bartter Syndrome。FEMg (> 4%) 亦為重要佐證指標。若診斷仍有疑慮，可施行 Hydrochlorothiazide (HCTZ) Challenge Test：Gitelman Syndrome 患者因 NCCT 預先受損，給予 HCTZ 後將呈現 Blunted Natriuretic Response。\n\n臨床判讀的常見陷阱 (Conceptual Trap Analysis) 在於 Active Vomiting 初期伴隨 Bicarbonaturia Paradox：此時為了排泄過多的 Bicarbonate，Urine Sodium 可能 > 100 mEq/L，但 Urine Chloride 依然極低 (< 10 mEq/L)，絕不可單憑高 UNa 就誤判為 Renal Wasting。\n\n在處置上，基礎電解質補充是第一線，包含 Magnesium L-threonate、Magnesium Pidolate 或 Magnesium Oxide，加上 Potassium Chloride (KCl)。為減少尿液流失，可選用 Potassium-Sparing Diuretics，如 Amiloride 或 Spironolactone。對於 Secondary Gitelman-like Syndrome，最核心的處置為停用涉事藥物或治療潛在的自體免疫疾病。",
+      "diagrams": [
+        {
+          "id": "brenner_fig_17_11",
+          "title": "Diagnostic Algorithm for Hypokalemia",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/17. Disorders of Potassium Balance/Fig_17_11.png",
+          "imagePath": "/reference-images/Brenner 11e/17. Disorders of Potassium Balance/Fig_17_11.png",
+          "caption": "Decision tree for evaluating hypokalemic states using urinary electrolytes, acid-base status, and blood pressure.",
+          "sourceBook": "Brenner 11e Ch 17"
+        },
+        {
+          "id": "gitelman_algorithm",
+          "title": "Gitelman Workup and Management Pathway",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/gitelman_algorithm.jpg",
+          "imagePath": "/server-data/assets/gitelman_algorithm.jpg",
+          "caption": "Step-by-step diagnostic workflow including HCTZ challenge and therapeutic interventions.",
+          "sourceBook": "Gemini AI Illustration"
+        }
+      ]
+    }
+  ]
+}

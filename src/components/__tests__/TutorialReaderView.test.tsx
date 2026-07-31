@@ -43,6 +43,7 @@ describe('TutorialReaderView Keyboard Shortcuts', () => {
   const defaultProps = {
     tutorial: mockTutorial,
     onBack: vi.fn(),
+    onStartExam: vi.fn(),
     themeMode: 'light' as const,
     onOpenImageModal: vi.fn(),
   };

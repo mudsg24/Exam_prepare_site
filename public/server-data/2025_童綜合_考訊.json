@@ -503,34 +503,34 @@
       "sourceAnswerStatus": "provided",
       "nlmResponses": [
         {
-          "notebookTitle": "TSN：出題 (4-2)",
-          "notebookId": "cfede8f7-956c-47ff-9848-508a8336fa2b",
-          "accountProfile": "mudkaku",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 說明與資料庫限制評估 (Database Limitation Evaluation)\n\n本題描述了一名具有 **`hypertension`** 病史的 29 歲男性，在炎熱環境中工作，吸入類似 **`ammonia`** 的氣味 30 分鐘後出現 **`nausea`**、**`dizziness`**、**`mild dyspnea`**，且急診實驗室數據顯示 **`elevated methemoglobin of 15%`**，而 **`CXR`** 未見活動性病變。\n\n經詳細檢索與比對所有提供的 `notebook sources`（包含 *Brenner & Rector's The Kidney* 與相關 *KDIGO Guidelines*），**現有文獻中完全缺乏與此臨床案例、吸入性暴露毒性、或特定的吸入性化學物質直接導致 `methemoglobinemia` 相關的詳細分析與病理生理敘述**。\n\n雖然在現有文獻的參考書目中，有極為零星地提及相關專有名詞，例如：\n*   在 **Chapter 42** 的參考文獻中提及了 **`Rasburicase-induced methemoglobinemia`** [42:352]。\n*   在 **Chapter 63** 的參考文獻中提及了 **`chloramine`** 作為透析液污染物引發的貧血事件（如 **`an anemia outbreak due to chloramine exposure in a clean hemodialysis unit`** 暨 **`Chloramine, a sneaky contaminant of dialysate`**） [63:492]。\n\n然而，這些文獻僅限於書目名稱，**並無任何關於吸入性 `chloramine gas`（或 options 中其他氣體如 `carbon monoxide`、`cyanide`、`nitrous oxide`）在非血液透析情境下（如炎熱工作環境）引發急性 `methemoglobinemia`、`dyspnea` 與類似 `ammonia` 氣味特徵的臨床病例討論與生理機轉細節**。\n\n為了維護醫學專科考試分析的絕對嚴謹性與對 `notebook sources` 的學術誠實，本處不進行無證據的推測。\n\n---\n📊 雖然目前的 sources 缺乏此特定吸入性中毒病例的直接文獻，但如果您想進一步分析，當慢性腎臟病（**`CKD`**）或接受 **`hemodialysis`** 的患者（依據 **Chapter 63** 規範）因透析用水遭到 **`chloramine`** 污染（見 **Passage 492** 所示）而爆發急性 **`hemolytic anemia`** 與 **`methemoglobinemia`** 時，在細胞與藥理學上應如何進行水質淨化篩檢與防護，我隨時可以為您展開相關的透析化學與水質監測動力學分析。",
+          "accountProfile": "sandbox0505",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "selectedOption": "NONE",
           "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED",
-          "selectedOption": "NONE"
+          "qcStatus": "FAILED"
         },
         {
-          "notebookTitle": "TSN：出題 (4-5)",
-          "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
-          "accountProfile": "mudkaku",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 說明與資料庫限制評估 (Database Limitation Evaluation)\n\n本題描述了一名具有 **`hypertension`** 病史的 29 歲男性，在炎熱環境中工作，吸入類似 **`ammonia`** 的氣味 30 分鐘後出現 **`nausea`**、**`dizziness`**、**`mild dyspnea`**，且急診實驗室數據顯示 **`elevated methemoglobin of 15%`**，而 **`CXR`** 未見活動性病變。\n\n經詳細檢索與比對所有提供的 `notebook sources`（包含 *Brenner & Rector's The Kidney* 與相關 *KDIGO Guidelines*），**現有文獻中完全缺乏與此臨床案例、吸入性暴露毒性、或特定的吸入性化學物質直接導致 `methemoglobinemia` 相關的詳細分析與病理生理敘述**。\n\n雖然在現有文獻的參考書目中，有極為零星地提及相關專有名詞，例如：\n*   在 **Chapter 42** 的參考文獻中提及了 **`Rasburicase-induced methemoglobinemia`** [42:352]。\n*   在 **Chapter 63** 的參考文獻中提及了 **`chloramine`** 作為透析液污染物引發的貧血事件（如 **`an anemia outbreak due to chloramine exposure in a clean hemodialysis unit`** 暨 **`Chloramine, a sneaky contaminant of dialysate`**） [63:492]。\n\n然而，這些文獻僅限於書目名稱，**並無任何關於吸入性 `chloramine gas`（或 options 中其他氣體如 `carbon monoxide`、`cyanide`、`nitrous oxide`）在非血液透析情境下（如炎熱工作環境）引發急性 `methemoglobinemia`、`dyspnea` 與類似 `ammonia` 氣味特徵的臨床病例討論與生理機轉細節**。\n\n為了維護醫學專科考試分析的絕對嚴謹性與對 `notebook sources` 的學術誠實，本處不進行無證據的推測。\n\n---\n📊 雖然目前的 sources 缺乏此特定吸入性中毒病例的直接文獻，但如果您想進一步分析，當慢性腎臟病（**`CKD`**）或接受 **`hemodialysis`** 的患者（依據 **Chapter 63** 規範）因透析用水遭到 **`chloramine`** 污染（見 **Passage 492** 所示）而爆發急性 **`hemolytic anemia`** 與 **`methemoglobinemia`** 時，在細胞與藥理學上應如何進行水質淨化篩檢與防護，我隨時可以為您展開相關的透析化學與水質監測動力學分析。",
+          "accountProfile": "b92401024",
+          "notebookTitle": "TSN：出題 (3-2)",
+          "notebookId": "73af8c23-7f2c-4d36-900b-e59a38e36742",
+          "rawResponse": "`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`\n\n---\n\n### 1. 數據庫證據分析 (Database Evidence Analysis)\n\n根據對 **`notebook sources`**（包括 **`Brenner & Rector's The Kidney`** 的所有章節以及各大 **`KDIGO Guidelines`**）的精密檢索，目前提供的文獻資料中**完全沒有**提及此特定的臨床案例（一個在炎熱環境中運動、吸入氨水氣味後發生 **`methemoglobinemia`** 的 29 歲男性），也未收錄 **`chloramine gas`**、**`carbon monoxide`**、**`cyanide`** 或 **`nitrous oxide`** 導致急性 **`methemoglobinemia`** 的相關毒理學機制與臨床數據。\n\n雖然來源中缺乏該特定中毒疾病的直接證據，但文獻庫在 **`Onconephrology`**、**`Hemodialysis`** 介質污染以及 **`Critical Care Nephrology`** 領域中提供了以下相關的背景資料：\n\n1.  **`Methemoglobinemia` 在文獻中的提及**：\n    *   在 **`Brenner & Rector's The Kidney`** Chapter 42 (\"Onconephrology-Kidney Disease and Cancer\") 的參考文獻部分，提及了因使用特定腫瘤溶解藥物所致的 **`Rasburicase-induced methemoglobinemia`** [Passage 348]。\n    *   在 **`KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Draft)`** Chapter 3 中，指出在兒童心臟手術中，常規使用 **`inhaled nitric oxide`** 以防止 **`cardiac surgery-associated AKI`** 的臨床實證不足，且其可能伴隨嚴重的 **`adverse effects`**，包括 **`methemoglobinemia`** 與 **`nitrogen dioxide toxicity`** [Passage 801, 823]。\n\n2.  **`Chloramine` 在文獻中的提及**：\n    *   在 **`Brenner & Rector's The Kidney`** Chapter 63 (\"Hemodialysis\") 中，**`chloramine`** 被指出是一種有害的 **`dialysate contaminant`**。在透析液處理系統屏障失效時，患者暴露於 **`chloramine`** 會在 **`hemodialysis unit`** 中引發群聚性的 **`anemia outbreak`** [Passage 487]。\n\n---\n\n### 2. 臨床學理與選項對比分析 (Educational Reference Only - Not in Database)\n\n為了學術完整性，以下結合臨床醫學共識（請注意，以下分析內容**未收錄**於提供的 **`notebook sources`** 中，需獨立進行臨床驗證）對本題的臨床生理學與選項設計意圖進行說明：\n\n*   **`Chloramine Gas` (Option B)**：\n    *   *臨床機制*：**`Chloramine gas`**（通常為 **`monochloramine / NH2Cl`**、**`dichloramine / NHCl2`**）是當含有次氯酸鈉（**`sodium hypochlorite`**，即漂白水）的清潔劑與含有 **`ammonia`**（氨水）的清潔劑在密閉或炎熱環境中意外混合時釋放的刺激性氣體。吸入 **`chloramine gas`** 會釋放 **`free radicals`** 並產生強烈的氧化應激（**`oxidative stress`**）。在極端暴露下，該氣體經由肺泡毛細血管膜屏障進入紅細胞，可將血紅蛋白中的二價鐵（$Fe^{2+}$）氧化為三價鐵（$Fe^{3+}$），進而引發 **`methemoglobinemia`**。患者常表現為 **`nausea`**、**`dizziness`**、**`dyspnea`**，且其 **`methemoglobin`** 水平會顯著上升（如本案呈現的 15% 輕度升高）。\n    *   *其他干擾項的切割*：\n        *   **`Carbon monoxide` (Option A)** 結合血紅蛋白形成 **`carboxyhemoglobin`**，引發組織缺氧，但不形成 **`methemoglobin`**。\n        *   **`Cyanide` (Option C)** 主要阻斷線粒體中的 **`cytochrome c oxidase`**，抑制細胞呼吸，其本身不直接引發 **`methemoglobinemia`**（臨床上反而會使用能產生 **`methemoglobin`** 的藥物如 **`amyl nitrite`** 來解毒，利用 **`methemoglobin`** 搶奪 **`cyanide`** 形成 **`cyanomethemoglobin`**）。\n        *   **`Nitrous oxide` (Option D)** 俗稱笑氣，主要引發麻醉及 **`vitamin B12 deficiency`**，不常規引發急性 **`methemoglobinemia`**。\n\n---\n\n### 3. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney* Chapter 42, \"Onconephrology-Kidney Disease and Cancer\"\n        *   Section: \"REFERENCES\" [Passage 348].\n    *   *Brenner & Rector's The Kidney* Chapter 63, \"Hemodialysis\"\n        *   Section: \"REFERENCES\" [Passage 487].\n    *   *KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury and Acute Kidney Disease (Draft)*\n        *   Chapter 3: \"Prevention and Treatment of AKI - Use of nitric oxide in children\" [Passage 801, 823].\n\n*   **Figures, Tables, & Boxes**：\n    *   **Table 11.2 (Chapter 11, B&R)**: \"Substrates of neprilysin\", showcasing nitric oxide and active vasoactive peptides [Passage 28].\n\n---\n\n🔍 **Next Step Nudge**: \n雖然目前的文獻尚未收錄此類環境吸入中毒的詳細診斷流程，但若您需要，我可以針對 **`chloramine gas inhalation`** 引發的急性肺部化學性損傷與 **`methemoglobinemia`** 的一線臨床救治方案（如使用 **`methylene blue`** 進行還原治療，以及如何監測其在合併 **`G6PD deficiency`** 患者中的溶血禁忌，見 Passage 104, 562）進行系統性的網絡檢索（**`web research`**），並為您彙整最新臨床指南與中毒處置規範報告。您是否希望我現在啟動網絡檢索？",
+          "selectedOption": "NONE",
           "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "selectedOption": "NONE"
+          "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
       "resolvedImages": [],
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcNotes": "LLM pure semantic analysis completed (0% Regex)",
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
+      "qcNotes": "NLM responses contained INSUFFICIENT evidence, short response (<200 chars), or duplicate string.",
       "attachedImages": null,
       "selectedOption": "B",
       "databaseSufficiency": "SUFFICIENT",
-      "qcVerifiedAt": "2026-07-28T16:06:10.848Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
     }
   ],
   "updatedAt": "2026-07-29T00:29:30.000Z",

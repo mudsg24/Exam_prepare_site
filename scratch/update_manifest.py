@@ -3,30 +3,30 @@ import json
 manifest_path = "/Users/yuan/Projects/Exam/Exam_prepare_site/public/server-data/exams_manifest.json"
 
 with open(manifest_path, "r", encoding="utf-8") as f:
-    items = json.load(f)
-
-# Remove any existing entry with the same id
-items = [item for item in items if item.get("id") != "2026_ANCA-associated_Glomerulonephritis_(主題備考)"]
+    manifest = json.load(f)
 
 new_item = {
-  "id": "2026_ANCA-associated_Glomerulonephritis_(主題備考)",
-  "paperId": "2026_ANCA-associated_Glomerulonephritis_(主題備考)",
-  "title": "2026 ANCA-Associated Glomerulonephritis (ANCA 相關腎絲球腎炎) 分子機轉、病理分型、KDIGO 2024 指引與臨床實戰",
-  "filename": "2026_ANCA-associated_Glomerulonephritis_(主題備考).json",
-  "sourceCategory": "2026 年主題練習",
-  "year": 2026,
-  "questionCount": 18,
-  "hasTutorial": True,
-  "tutorialFilename": "tutorials/2026_ANCA-associated_Glomerulonephritis_(主題備考)_tutorial.json",
-  "updatedAt": "2026-07-30T09:50:00.000Z",
-  "nlmProcessedCount": 0,
-  "qcVerifiedCount": 0
+    "id": "2026_Aldosterones_angiotensin_neprilysin_(主題備考)",
+    "paperId": "2026_Aldosterones_angiotensin_neprilysin_(主題備考)",
+    "title": "2026 Aldosterones, Angiotensin & Neprilysin System (RAAS & ARNI) 分子機轉、腎臟電解質調控與臨床藥物實戰",
+    "filename": "2026_Aldosterones_angiotensin_neprilysin_(主題備考).json",
+    "sourceCategory": "2026 Electrolytes",
+    "year": 2026,
+    "questionCount": 20,
+    "hasTutorial": True,
+    "tutorialFilename": "tutorials/2026_Aldosterones_angiotensin_neprilysin_(主題備考)_tutorial.json",
+    "nlmProcessedCount": 0,
+    "qcVerifiedCount": 0,
+    "updatedAt": "2026-07-31T13:25:00.000Z"
 }
 
-# Insert at the top of 2026 年主題練習
-items.insert(0, new_item)
+# Remove existing item if present to avoid duplication
+manifest = [item for item in manifest if item.get("id") != new_item["id"]]
+
+# Prepend new item to manifest
+manifest.insert(0, new_item)
 
 with open(manifest_path, "w", encoding="utf-8") as f:
-    json.dump(items, f, ensure_ascii=False, indent=2)
+    json.dump(manifest, f, ensure_ascii=False, indent=2)
 
-print("Successfully updated exams_manifest.json")
+print(f"Updated exams_manifest.json with new item: {new_item['id']}")

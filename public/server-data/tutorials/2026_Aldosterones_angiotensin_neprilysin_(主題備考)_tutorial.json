@@ -1,0 +1,360 @@
+{
+  "id": "2026_Aldosterones_angiotensin_neprilysin_(主題備考)_tutorial",
+  "paperId": "2026_Aldosterones_angiotensin_neprilysin_(主題備考)",
+  "title": "2026 Aldosterones, Angiotensin & Neprilysin System (RAAS & ARNI) 分子機轉、腎臟電解質調控與臨床藥物實戰",
+  "updatedAt": "2026-07-31T13:25:00Z",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "1. Renin-Angiotensin System (RAAS) Enzyme Cascade & Receptor Signaling (AT1R, AT2R, MasR)",
+      "content": "### Renin-Angiotensin System (RAAS) 級聯與受體信號轉導\n\nRenin-Angiotensin System (RAAS) 為調節 systemic blood pressure、extracellular fluid volume 以及 renal hemodynamics 的核心內分泌與自體分泌/旁分泌網絡。Renin 為 Juxtaglomerular (JG) cells 所分泌的 aspartyl protease，其酵素活性為整條 RAAS 級聯的 rate-limiting step。Renin 切割由肝臟合成的 Angiotensinogen (Agt) 產出 inactive decapeptide Angiotensin I (Ang I)。接著，血管內皮細胞表面的 Angiotensin-Converting Enzyme (ACE) 切割 Ang I C-端的 Histidyl-Leucine 雙胜肽，生成八胜肽 Angiotensin II (Ang II)。\n\n#### Angiotensin Receptor Subtypes & Counter-Regulatory Axis\n1. **Angiotensin II Type 1 Receptor (AT1R)**:\n   - 屬於 G-protein coupled receptor (GPCR, Gq/11 耦合)，活化 Phospholipase C (PLC) 生成 IP3 與 DAG，促使 intracellular Ca2+ 釋放並活化 Protein Kinase C (PKC)。\n   - **Renal & Vascular Effects**: 誘發全身與 Efferent Arteriolar vasoconstriction (維持 GFR 於低腎血流量狀態)、促進 Proximal Convoluted Tubule (PCT) 頂端膜 NHE3 (Na+/H+ Exchanger 3) 與基底側 Na+/HCO3- cotransporter (NBCe1) 的轉錄與活性、刺激 Adrenal Zona Glomerulosa 分泌 Aldosterone、促進 Mesangial Cell proliferation 以及 Vascular Smooth Muscle Cell (VSMC) hypertrophy 與 renal tubulointerstitial fibrosis。\n\n2. **Angiotensin II Type 2 Receptor (AT2R)**:\n   - 耦合 Gi 或 Gαi3，活化 Protein Phosphatases (如 SHP-1, MKP-1) 並促進 Nitric Oxide (NO) / cGMP 與 Bradykinin 產生。\n   - 展現與 AT1R 相互對抗的生理作用：Vasodilation、anti-proliferation、anti-fibrosis 與 natriuresis。\n\n3. **ACE2 - Angiotensin-(1-7) - Mas Receptor (MasR) Axis**:\n   - ACE2 為單次跨膜 carboxypeptidase，可將 Ang II 高效切割為七胜肽 Angiotensin-(1-7) [Ang-(1-7)]，或將 Ang I 切割為 Ang-(1-9) 後再經 ACE 轉化為 Ang-(1-7)。\n   - Ang-(1-7) 作用於 G-protein coupled Mas Receptor (MasR)，活化 PI3K/Akt/eNOS 路徑，產生 Vasodilation、Anti-inflammatory、Anti-fibrotic 及 Anti-hypertrophic 效應，構成 RAAS 體系內部的反向調控保護軸心 (Counter-regulatory Arm)。",
+      "topologyMatrix": [
+        {
+          "component": "Angiotensinogen (Agt)",
+          "sourceSite": "Liver Synthesis",
+          "cleavageEnzyme": "Renin (Aspartyl Protease)",
+          "activeProduct": "Angiotensin I (Ang I)",
+          "primaryTarget": "Substrate for ACE / ACE2",
+          "pathophysiologicImpact": "Rate-limiting substrate for RAAS initiation"
+        },
+        {
+          "component": "Angiotensin II (Ang II)",
+          "sourceSite": "Vascular Endothelium / Lung / Kidney",
+          "cleavageEnzyme": "ACE (Dipeptidyl Carboxypeptidase)",
+          "activeProduct": "Ang II -> AT1R / AT2R",
+          "primaryTarget": "AT1R (Gq/11), AT2R (Gi)",
+          "pathophysiologicImpact": "Efferent arteriolar constriction, NHE3 stimulation, Aldosterone synthesis, Fibrosis"
+        },
+        {
+          "component": "Angiotensin-(1-7)",
+          "sourceSite": "Renal & Endothelial Tissue",
+          "cleavageEnzyme": "ACE2 (Monocarboxypeptidase)",
+          "activeProduct": "Ang-(1-7) -> MasR",
+          "primaryTarget": "Mas Receptor (MasR)",
+          "pathophysiologicImpact": "Vasodilation, eNOS activation, anti-fibrotic counter-regulatory protection"
+        }
+      ],
+      "differentialTable": [
+        {
+          "feature": "Receptor Subtype",
+          "at1r": "AT1 Receptor (AT1R)",
+          "at2r": "AT2 Receptor (AT2R)",
+          "masr": "Mas Receptor (MasR)"
+        },
+        {
+          "feature": "G-Protein Coupling",
+          "at1r": "Gq/11 -> PLC -> IP3/DAG -> Ca2+ ↑",
+          "at2r": "Gi / Protein Phosphatases -> NO/cGMP ↑",
+          "masr": "Gαs/Gαi -> PI3K/Akt/eNOS ↑"
+        },
+        {
+          "feature": "Vascular & Renal Hemodynamics",
+          "at1r": "Vasoconstriction (Efferent > Afferent)",
+          "at2r": "Vasodilation, Natriuresis",
+          "masr": "Vasodilation, Renal Protection"
+        },
+        {
+          "feature": "Tubular Sodium Handling",
+          "at1r": "Stimulates NHE3, NBCe1, ENaC",
+          "at2r": "Inhibits Na+ Reabsorption",
+          "masr": "Inhibits PCT Na+ Reabsorption"
+        },
+        {
+          "feature": "Tissue Remodeling",
+          "at1r": "Pro-inflammatory, Pro-fibrotic, Hypertrophic",
+          "at2r": "Anti-inflammatory, Anti-fibrotic",
+          "masr": "Anti-fibrotic, Anti-proliferative"
+        }
+      ],
+      "pathophysiologyTree": "JG Cells Renin Secretion → Angiotensinogen Cleavage → Ang I → ACE Cleavage → Ang II → AT1R Activation → Efferent Arteriolar Vasoconstriction + Proximal Tubule NHE3 Activation + Zona Glomerulosa Aldosterone Release",
+      "conceptualTraps": [
+        "誤認為 ACE Inhibitors (ACEi) 能 100% 阻斷 Ang II 的生成：事實上非 ACE 酵素路徑 (如 Chymase, Cathepsin G) 可持續切出 Ang II，此現象稱為 ACE Escape Phenomenon。",
+        "誤將 Efferent Arteriolar Vasoconstriction 視為有害變異：在 Hypovolemia 或 Renal Artery Stenosis 時，Efferent Arteriolar Constriction 是維持 Glomerular Capillary Hydrostatic Pressure (Pgc) 與 GFR 的主要代償機制；使用 ACEi/ARB 舒張 Efferent Arterioles 會導致 Pgc 下降與 Hyperkalemia / GFR Dip。"
+      ],
+      "diagrams": [
+        {
+          "id": "fig_11_1",
+          "relPath": "/reference-images/Brenner 11e/11. Vasoactive Molecules and the Kidney/Fig_11_1.png",
+          "imagePath": "/reference-images/Brenner 11e/11. Vasoactive Molecules and the Kidney/Fig_11_1.png",
+          "caption": "Fig. 11.1 Schematic depiction of the renin-angiotensin system components and selected actions (Brenner 11e Ch 11).",
+          "sourceBook": "Brenner 11e Ch 11",
+          "type": "micrograph"
+        },
+        {
+          "id": "ai_raas_cascade",
+          "relPath": "/server-data/assets/raas_cascade_diagram.png",
+          "imagePath": "/server-data/assets/raas_cascade_diagram.png",
+          "caption": "Dual-Axis Regulation of RAAS: Classic AT1R Axis vs. Counter-Regulatory ACE2/Ang-(1-7)/MasR Axis in Renal Tubular Signaling.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "2. Aldosterone Biosynthesis, Mineralocorticoid Receptor (MR) & The Aldosterone Paradox",
+      "content": "### Aldosterone 生物合成、MR 作用機轉與 Aldosterone Paradox\n\nAldosterone 為由副腎皮質 Zona Glomerulosa 分泌的立體類固醇激素 (Mineralocorticoid)。其合成的關鍵調節步驟在於 Steroidogenic Acute Regulatory (StAR) Protein 促進 Cholesterol 輸入粒線體內膜，以及由 *CYP11B2* 基因編碼的 Aldosterone Synthase 催化 11-Deoxycorticosterone 經 11β-Hydroxylation、18-Hydroxylation 及 18-Oxidation 最終生成 Aldosterone。*CYP11B2* 的轉錄主要受 Ang II (經 AT1R-PKC-Ca2+) 與 Extracellular K+ 濃度上升所強烈誘發。\n\n#### Mineralocorticoid Receptor (MR) Signaling & ASDN Principal Cells\nAldosterone 穿過 ASDN (Aldosterone-Sensitive Distal Nephron: DCT2, CNT, CCD) 牆壁，結合至 Cytoplasmic Mineralocorticoid Receptor (MR)。\n- **11β-HSD2 Protective Barrier**: ASDN Principal Cells 與 Intercalated Cells 高表達 11β-Hydroxysteroide Dehydrogenase Type 2 (11β-HSD2)，可將高濃度的 Cortisol 代謝為無活性的 Cortisone，防止 Cortisol 佔據並誤活化 MR。當 11β-HSD2 基因突變 (AME syndrome) 或被 Licorice (Glycyrrhizic acid) 抑制時，Cortisol 會過度活化 MR 導致 Severe Hypertension, Hypokalemia 與 Metabolic Alkalosis。\n- **Genomic Actions**: Ligand-bound MR 形成二聚體轉位進入細胞核，促進 **Serum- and Glucocorticoid-Regulated Kinase 1 (SGK1)** 轉錄。SGK1 磷酸化並去除 Nedd4-2 (E3 ubiquitin ligase) 的活性，進而防止 Epithelial Sodium Channel (ENaC) 被 Endocytosis 與 Ubiquitination，極大化 ENaC 在 Apical Membrane 的密度與功能。此外，SGK1 與 MR 可直接促進 Renal Outer Medullary Potassium Channel (ROMK) 與 Basolateral Na+/K+-ATPase 的活化。\n\n#### The Aldosterone Paradox\nAldosterone 在生理學上面臨雙重任務：在 Volume Depletion 時需要留鈉而不排鉀 (Na+ Retention with K+ Sparing)；在 Hyperkalemia 時需要強烈排鉀而不留鈉 (K+ Excretion without Hypervolemia)。這項 Paradox 的分子調節關鍵在於 **WNK4-SPAK/OSR1 Kinase Cascade** 與 **MR Ser-843 Phosphorylation**：\n1. **Volume Depletion (High Ang II, Normal K+)**:\n   - 高濃度 Ang II 活化 WNK4，促使 SPAK/OSR1 磷酸化並強烈活化 DCT 的 Thiazide-Sensitive Na+-Cl- Cotransporter (NCC)，使大部分 Na+ 在 ASDN 上游被 NCC 重吸收，限制水分與 Na+ 進入 CCD，從而防止過度的 ROMK-mediated K+ Secretion。\n   - 同時，Ang II 在 Type A Intercalated Cells 中下調 MR Ser-843 磷酸化 (Dephosphorylation)，使 MR 活化並促進 Cl- 重吸收 (Pendrin) 與 H+-ATPase 外排，達成 Volume Expansion 且不造成 Hypokalemia。\n2. **Hyperkalemia (Low Ang II, High K+)**:\n   - 高血鉀直接抑制 WNK4，導致 NCC 脱磷酸化並被抑制。大量 Na+ 與流速 (Tubular Flow) 進入 CCD。\n   - 進入 CCD 的 Na+ 經由 ENaC 強烈重吸收，在管腔內創造極高的 Lumen-Negative Potential (-40 mV)，極大化驅動 ROMK 與 BK Channels 的 K+ 外排。同時，高血鉀上調 Intercalated Cells 的 MR Ser-843 磷酸化，阻斷其配體結合與 Cl- 重吸收，達成高效排鉀。",
+      "topologyMatrix": [
+        {
+          "component": "CYP11B2 (Aldosterone Synthase)",
+          "sourceSite": "Adrenal Zona Glomerulosa",
+          "cleavageEnzyme": "Mitochondrial P450 Enzyme",
+          "activeProduct": "Aldosterone",
+          "primaryTarget": "Mineralocorticoid Receptor (MR)",
+          "pathophysiologicImpact": "Synthesis stimulated by Ang II & High K+; blocked by Finerenone/Spironolactone"
+        },
+        {
+          "component": "11β-HSD2",
+          "sourceSite": "ASDN Principal & Intercalated Cells",
+          "cleavageEnzyme": "Dehydrogenase",
+          "activeProduct": "Cortisone (Inactive)",
+          "primaryTarget": "Cortisol Inactivation",
+          "pathophysiologicImpact": "Prevents Cortisol from activating MR; deficiency causes AME Syndrome"
+        },
+        {
+          "component": "SGK1 / Nedd4-2 Pathway",
+          "sourceSite": "Principal Cells",
+          "cleavageEnzyme": "Kinase Cascade",
+          "activeProduct": "Apical ENaC Stabilization",
+          "primaryTarget": "ENaC, ROMK, Na+/K+-ATPase",
+          "pathophysiologicImpact": "Increases ENaC cell-surface half-life, creating lumen-negative driving force for K+ secretion"
+        }
+      ],
+      "differentialTable": [
+        {
+          "feature": "Physiologic State",
+          "volumeDepletion": "Volume Depletion (Hypovolemia)",
+          "hyperkalemiaState": "Hyperkalemia (Isolated High K+)"
+        },
+        {
+          "feature": "Ang II & K+ Levels",
+          "volumeDepletion": "High Ang II, Normal/Low K+",
+          "hyperkalemiaState": "Low/Normal Ang II, High K+"
+        },
+        {
+          "feature": "WNK4 & NCC Activity",
+          "volumeDepletion": "WNK4 Active -> NCC Phosphorylated (Active)",
+          "hyperkalemiaState": "WNK4 Inhibited -> NCC Dephosphorylated (Inactive)"
+        },
+        {
+          "feature": "Distal Delivery & Flow Rate",
+          "volumeDepletion": "Low Na+ & Flow delivery to CCD",
+          "hyperkalemiaState": "High Na+ & High Flow delivery to CCD"
+        },
+        {
+          "feature": "Electrolyte Outcome",
+          "volumeDepletion": "Maximal Na+ Retention, Minimal K+ Wasting",
+          "hyperkalemiaState": "Maximal K+ Excretion, Minimal Na+ Retention"
+        },
+        {
+          "feature": "Intercalated Cell MR Ser-843",
+          "volumeDepletion": "Dephosphorylated (MR Active -> Cl- reabsorption)",
+          "hyperkalemiaState": "Phosphorylated (MR Inactive -> Cl- reabsorption blocked)"
+        }
+      ],
+      "pathophysiologyTree": "Hyperkalemia → WNK4 Inhibition → NCC Dephosphorylation → Increased Distal Na+ & Flow to CCD → ENaC Na+ Reabsorption ↑ → Lumen-Negative Potential (-40mV) → ROMK & BK K+ Secretion ↑",
+      "conceptualTraps": [
+        "誤認為 Cortisol 無法結合 MR：事實上 Cortisol 與 Aldosterone 對 MR 的 Affinities 完全相同 (Kd ~1 nM)。正常狀況下係靠 11β-HSD2 將 Cortisol 轉為 Cortisone 才能維持 MR 的 Aldosterone 特異性。",
+        "誤認為 Hyperkalemia 會活化 NCC：相反地，高血鉀會通過 depolarization 下調 Intracellular Cl- 並抑制 WNK4-SPAK 網絡，導致 NCC 抑制，將 Na+ 搬運重負移至 CCD 促進 K+ 瀉出。"
+      ],
+      "diagrams": [
+        {
+          "id": "fig_12_2",
+          "relPath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_2.png",
+          "imagePath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_2.png",
+          "caption": "Fig. 12.2 Overview of aldosterone synthetic pathway showing key regulatory nodes (Brenner 11e Ch 12).",
+          "sourceBook": "Brenner 11e Ch 12",
+          "type": "micrograph"
+        },
+        {
+          "id": "fig_12_8",
+          "relPath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_8.png",
+          "imagePath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_8.png",
+          "caption": "Fig. 12.8 Role of MR LBD Ser-843 Phosphorylation in controlling Chloride Reabsorption and the Aldosterone Paradox (Brenner 11e Ch 12).",
+          "sourceBook": "Brenner 11e Ch 12",
+          "type": "micrograph"
+        },
+        {
+          "id": "ai_aldosterone_paradox",
+          "relPath": "/server-data/assets/aldosterone_paradox_diagram.png",
+          "imagePath": "/server-data/assets/aldosterone_paradox_diagram.png",
+          "caption": "Molecular Switch of Aldosterone Paradox: WNK4 Kinase Modulation & Ser-843 Phosphorylation under Hypovolemia vs Hyperkalemia.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "3. Neprilysin (NEP) Enzymatic Degradation, Natriuretic Peptides & ARNI (Sacubitril/Valsartan) Pharmacology",
+      "content": "### Neprilysin (NEP) 酵素降解、Natriuretic Peptides 與 ARNI 藥理\n\nNeprilysin (Neutral Endopeptidase 3.4.24.11; NEP; CD10) 為一種由多種組織 (包括 Renal Proximal Tubule Brush Border、Vascular Endothelium、Cardiomyocytes) 高表達的 Membrane-Bound Zinc Metallopeptidase。Neprilysin 在生理上負責多種 Vasoactive Peptides 的酵素水解降解。\n\n#### Neprilysin Substrates & Degradation Spectrum\n1. **Natriuretic Peptides (ANP, BNP, CNP)**:\n   - ANP (Atrial Natriuretic Peptide) 與 BNP (B-type Natriuretic Peptide) 經由 Neprilysin 水解其開環二硫鍵 (Ring Structure) 而失活。\n   - Natriuretic Peptides 結合至 Natriuretic Peptide Receptor-A (NPR-A)，活化 Membrane-Bound Particulate Guanylyl Cyclase (pGC)，顯著提升 Intracellular cGMP，引發 Systemic Vasodilation、Inhibition of Renin & Aldosterone Secretion、Afferent Arteriolar Vasodilation 配合 Efferent Arteriolar Vasoconstriction (增加 Single-Nephron GFR) 以及 Inner Medullary Collecting Duct (IMCD) 的 ENaC 抑制 (Natriuresis & Diuresis)。\n2. **Vasoconstrictor Peptides & Other Substrates**:\n   - Neprilysin 同時能降解 Angiotensin I, Angiotensin II, Bradykinin, Substance P, Endothelin-1 以及 Amyloid-beta。\n\n#### ARNI (Angiotensin Receptor-Neprilysin Inhibitor) Mechanism & Combination Rationale\n- **Why Neprilysin Inhibitor Alone Fails**:\n  若單純使用 Neprilysin Inhibitor (如 Candoxatril)，雖然阻止了 ANP/BNP 的降解，但因為 Neprilysin 亦負責降解 Ang II，抑制 Neprilysin 會導致內源性 Angiotensin II 濃度反射性升高 (Reflex Accumulation of Ang II)，經由 AT1R 引發強烈血管收縮與鈉水滯留，完全抵銷 Natriuretic Peptides 的好處。\n- **Sacubitril / Valsartan (ARNI) Solution**:\n  ARNI 將 Sacubitril (Prodrug，經由肝臟 Esterases 轉化為活性 Neprilysin Inhibitor LBQ657) 與 ARB Valsartan 以 1:1 莫耳比例相結合。Valsartan 阻斷了累積之 Ang II 對 AT1R 的有害作用，讓 Sacubitril 提升的 ANP/BNP/cGMP 能夠發揮最大化的 Vasodilation、Natriuresis、Anti-fibrotic 及 Anti-remodeling 作用。\n- **Absolute Contraindication with ACE Inhibitors (ACEi)**:\n  Neprilysin 與 ACE 皆為 Bradykinin 的主要降解酵素。若同時投予 ACEi 與 Neprilysin Inhibitor (如歷史上的 Omapatrilat)，會導致 Bradykinin 於組織中劇烈累積，引發致命性的 **Severe Angioedema (血管神經性水腫)**。因此，從 ACEi 轉換至 ARNI 時，**必須強制執行 36 小時的 Wash-out Period** (以 ARB 為基礎的轉換則無此 36 小時限制)。",
+      "topologyMatrix": [
+        {
+          "component": "Neprilysin (NEP / CD10)",
+          "sourceSite": "Renal PT Brush Border / Endothelium",
+          "cleavageEnzyme": "Zinc Metallopeptidase",
+          "activeProduct": "Cleaves ANP, BNP, CNP, Ang I/II, Bradykinin",
+          "primaryTarget": "Natriuretic & Vasoactive Peptides",
+          "pathophysiologicImpact": "Degrades ANP/BNP; single-agent inhibition causes Ang II accumulation"
+        },
+        {
+          "component": "Sacubitril (LBQ657)",
+          "sourceSite": "Orally Administered Prodrug",
+          "cleavageEnzyme": "Hepatic Esterases Activation",
+          "activeProduct": "Active NEP Inhibitor LBQ657",
+          "primaryTarget": "Neprilysin Catalytic Site",
+          "pathophysiologicImpact": "Increases ANP, BNP, cGMP, and Bradykinin concentrations"
+        },
+        {
+          "component": "Natriuretic Peptide System (NPR-A)",
+          "sourceSite": "Cardiomyocytes (Atrial/Ventricular Stretch)",
+          "cleavageEnzyme": "Particulate Guanylyl Cyclase (pGC)",
+          "activeProduct": "cGMP ↑ -> PKG Activation",
+          "primaryTarget": "Vascular & Renal Epithelial Cells",
+          "pathophysiologicImpact": "Vasodilation, Natriuresis via IMCD ENaC inhibition, GFR maintenance"
+        }
+      ],
+      "differentialTable": [
+        {
+          "feature": "Drug Class / Agent",
+          "acei": "ACE Inhibitor (Enalapril, Ramipril)",
+          "arb": "Angiotensin Receptor Blocker (Valsartan)",
+          "arni": "ARNI (Sacubitril / Valsartan)"
+        },
+        {
+          "feature": "Primary Target",
+          "acei": "ACE (Blocks Ang I -> Ang II conversion)",
+          "arb": "AT1 Receptor (Selective Antagonism)",
+          "arni": "Dual Target: Neprilysin + AT1 Receptor"
+        },
+        {
+          "feature": "Bradykinin Metabolism",
+          "acei": "Inhibits Bradykinin breakdown (Cough, mild Angioedema)",
+          "arb": "No effect on Bradykinin breakdown",
+          "arni": "Inhibits Neprilysin degradation of Bradykinin"
+        },
+        {
+          "feature": "Natriuretic Peptides & cGMP",
+          "acei": "No direct elevation",
+          "arb": "No direct elevation",
+          "arni": "Marked Elevation of ANP/BNP & Urinary cGMP"
+        },
+        {
+          "feature": "Angioedema Risk & Washout",
+          "acei": "Moderate risk; 36-hr washout mandatory before ARNI",
+          "arb": "Very Low risk; no 36-hr washout required before ARNI",
+          "arni": "Low when paired with ARB; strictly contraindicated with ACEi"
+        }
+      ],
+      "pathophysiologyTree": "Heart Failure / Wall Stretch → ANP/BNP Secretion → Sacubitril Inhibits Neprilysin → ANP/BNP Persistence → NPR-A / pGC Activation → Intracellular cGMP ↑ → IMCD ENaC Inhibition + Vasodilation + Anti-Fibrosis",
+      "conceptualTraps": [
+        "誤認為 Sacubitril 可與 ACEi 合用：同時抑制 ACE 與 Neprilysin 會引發致命性 Angioedema，此乃 Omapatrilat 試驗失敗的原因。兩者轉換必須間隔 > 36 小時。",
+        "誤使用 NT-proBNP 或 BNP 評估 ARNI 療效的陷阱：Sacubitril 抑制 Neprilysin 會使 Plasma BNP 濃度上升 (BNP 為 NEP 產物)；然而 **NT-proBNP 不會被 Neprilysin 降解**，因此在接受 ARNI 治療的患者中，必須使用 **NT-proBNP** 作為客觀評估 Heart Failure 改善的 Biomarker！"
+      ],
+      "diagrams": [
+        {
+          "id": "fig_11_7",
+          "relPath": "/reference-images/Brenner 11e/11. Vasoactive Molecules and the Kidney/Fig_11_7.png",
+          "imagePath": "/reference-images/Brenner 11e/11. Vasoactive Molecules and the Kidney/Fig_11_7.png",
+          "caption": "Fig. 11.7 Molecular structure and enzymatic pathways of Natriuretic Peptides (Brenner 11e Ch 11).",
+          "sourceBook": "Brenner 11e Ch 11",
+          "type": "micrograph"
+        },
+        {
+          "id": "ai_arni_mechanism",
+          "relPath": "/server-data/assets/arni_mechanism_diagram.png",
+          "imagePath": "/server-data/assets/arni_mechanism_diagram.png",
+          "caption": "Dual-Mechanism of Sacubitril/Valsartan (ARNI): Neprilysin Inhibition + AT1R Antagonism and cGMP Pathways.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "4. Clinical Therapeutics, Renal Hemodynamics, Hyperkalemia Risk & Landmark Trial Evidence",
+      "content": "### 臨床藥理治療、腎臟血流動力學、高血鉀風險與大型臨床試驗實戰\n\n在 心臟衰竭 (Heart Failure) 與 慢性腎臟病 (CKD) 的治療中，同時調控 RAAS 與 Neprilysin 體系為當代循證醫學的核心。理解其對 Hemodynamics、Glomerular Filtration Rate (GFR) 及 Electrolyte Balance 的影響至為關鍵。\n\n#### Renal Hemodynamic Alterations: ACEi/ARB/ARNI & Hemodynamic Dip\n- **Glomerular Hemodynamics**:\n  Ang II 優先選擇性收縮 Efferent Arterioles。當投予 ACEi、ARB 或 ARNI 時，Efferent Arteriolar Tone 下降，導致 Glomerular Capillary Hydrostatic Pressure (Pgc) 降低。此舉雖然長遠可減少 intraglomerular hypertension 與 proteinuria，但短期內會引發 **Hemodynamic Dip in eGFR** (通常定義為 eGFR 下降 <= 30%)。\n- **Clinical Handling of eGFR Dip**:\n  若開始使用 RASi 或 ARNI 後 eGFR 下降在 30% 以內，且 Serum Potassium 無嚴重過高，此乃超濾作用下降的期望生理效應，**絕對不應停藥**。若 eGFR 下降 > 30%，應優先排除 Intravascular Volume Depletion (如過度使用 Loop Diuretics)、NSAID 使用或 Bilateral Renal Artery Stenosis。\n\n#### Electrolyte Alterations & Hyperkalemia Management\n- **Hyperkalemia Mechanics**:\n  RASi (ACEi/ARB) 與 MRA (Spironolactone, Eplerenone, Finerenone) 或 ARNI 結合使用時，因阻斷了 Aldosterone 對 CCD Principal Cells ENaC/ROMK 的活化，大幅減少了 K+ 瀉出。在 CKD Stage 3b-5 或併用 Potassium Supplements 時，Hyperkalemia (K+ > 5.5 mEq/L) 的風險顯著上升。\n- **Non-Steroidal MRA (Finerenone)**:\n  相較於 Steroidal MRA (Spironolactone)，Finerenone 對 MR 具有更高的 Selectivity 與 Bulk-binding Affinity，在 FIDELIO-DKD 與 FIGARO-DKD 試驗中證實能大幅降低 DKD 患者的 CKD Progression 與 CV events，且 Hyperkalemia 導致停藥的比例顯著低於傳統 MRA。\n\n#### Landmark Clinical Trial Insights\n1. **PARADIGM-HF (HFrEF)**:\n   - 證實 Sacubitril/Valsartan 相較於 Enalapril 可顯著降低 心血管死亡 與 心衰住院 風險達 20%。次要分析顯示 ARNI 亦顯著減緩 eGFR 的衰退速率 (Renal Protection)。\n2. **PARAGON-HF (HFpEF)**:\n   - 在 LVEF >= 45% 的患者中，ARNI 在 LVEF 較低 (45-57%) 及女性族群中展現出更顯著的臨床效益。\n3. **UK HARP-III (CKD Spectrum)**:\n   - 在 eGFR 20-60 mL/min/1.73m2 的 CKD 患者中比對 Sacubitril/Valsartan vs Irbesartan，證實 ARNI 於 CKD 族群中安全且具良好耐受性，且降低血壓與 Cardiac Biomarkers 的效益更佳。",
+      "topologyMatrix": [
+        {
+          "component": "Hemodynamic Dip (eGFR Dip <= 30%)",
+          "sourceSite": "Glomerular Efferent Arterioles",
+          "cleavageEnzyme": "Loss of Ang II-mediated Efferent Tone",
+          "activeProduct": "Intraglomerular Hydrostatic Pressure ↓",
+          "primaryTarget": "Glomerular Ultrafiltration",
+          "pathophysiologicImpact": "Expected therapeutic response reducing long-term hyperfiltration damage; do not discontinue"
+        },
+        {
+          "component": "Finerenone (Non-Steroidal MRA)",
+          "sourceSite": "Synthetic Non-Steroidal Ligand",
+          "cleavageEnzyme": "Bulky MR Binding (Passant Antagonist)",
+          "activeProduct": "MR Nuclear Translocation Blockade",
+          "primaryTarget": "Renal & Cardiac MR Receptors",
+          "pathophysiologicImpact": "Reduces DKD progression (FIDELIO/FIGARO) with lower hyperkalemia risk than spironolactone"
+        },
+        {
+          "component": "Sacubitril/Valsartan in CKD",
+          "sourceSite": "Cardiorenal Axis",
+          "cleavageEnzyme": "Neprilysin + AT1R Dual Blockade",
+          "activeProduct": "ANP/BNP ↑ + Ang II Block",
+          "primaryTarget": "Renal Endothelium & ASDN",
+          "pathophysiologicImpact": "Preserves eGFR slope in HFrEF & CKD; requires serum K+ and eGFR monitoring"
+        }
+      ],
+      "differentialTable": [
+        {
+          "feature": "Clinical Trial / Drug",
+          "trial1": "PARADIGM-HF (Sacubitril/Valsartan vs Enalapril)",
+          "trial2": "FIDELIO-DKD (Finerenone vs Placebo)",
+          "trial3": "UK HARP-III (Sacubitril/Valsartan vs Irbesartan)"
+        },
+        {
+          "feature": "Patient Population",
+          "trial1": "HFrEF (LVEF <= 40%)",
+          "trial2": "CKD Stage 3-4 with Persistent Albuminuria in T2D",
+          "trial3": "CKD (eGFR 20-60 mL/min/1.73m2)"
+        },
+        {
+          "feature": "Primary Endpoint Impact",
+          "trial1": "20% Reduction in CV Death / HF Hospitalization",
+          "trial2": "18% Reduction in CKD Progression Composite Endpoint",
+          "trial3": "Similar eGFR safety, superior BP & Cardiac Troponin reduction"
+        },
+        {
+          "feature": "Renal Function Effect",
+          "trial1": "Slower long-term eGFR decline slope",
+          "trial2": "Sustained reduction in UACR & renal failure risk",
+          "trial3": "Comparable eGFR change with superior hemodynamics"
+        },
+        {
+          "feature": "Key Safety Monitoring",
+          "trial1": "Hypotension, Hyperkalemia (Lower renal discontinuation than Enalapril)",
+          "trial2": "Serum Potassium monitoring at 1 & 4 weeks post-initiation",
+          "trial3": "Serum K+ & Cr monitoring (Well tolerated)"
+        }
+      ],
+      "pathophysiologyTree": "RASi / ARNI Initiation → Efferent Arteriolar Tone ↓ → Intraglomerular Hydrostatic Pressure (Pgc) ↓ → Transient eGFR Dip (<=30%) → Long-term Glomerular Hyperfiltration Mitigation → Renal Survival ↑",
+      "conceptualTraps": [
+        "誤將 eGFR 下降 15-20% 當作急性腎損傷 (AKI) 停藥：只要 eGFR 下降在 30% 以內且無持續上升失控，此為消解 Intraglomerular Hypertension 的保護性化學回應，停藥反會失去長期腎臟保護效益。",
+        "誤診 Hyperkalemia 時直接永久停用 ARNI 或 MRA：臨床指引建議先評估飲食、停用 NSAID、調整 Loop/Thiazide Diuretics，或使用新型 K+ Binders (Patiromer, Sodium Zirconium Cyclosilicate [SZC]) 以維持 ARNI/MRA 的命脈治療。"
+      ],
+      "diagrams": [
+        {
+          "id": "fig_12_7",
+          "relPath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_7.png",
+          "imagePath": "/reference-images/Brenner 11e/12. Aldosterone and Mineralocorticoid Receptors-Renal and Extrarenal Roles/Fig_12_7.png",
+          "caption": "Fig. 12.7 Schematic of principal cells in the aldosterone-sensitive distal nephron ASDN (Brenner 11e Ch 12).",
+          "sourceBook": "Brenner 11e Ch 12",
+          "type": "micrograph"
+        },
+        {
+          "id": "ai_hemodynamic_dip",
+          "relPath": "/server-data/assets/hemodynamic_dip_diagram.png",
+          "imagePath": "/server-data/assets/hemodynamic_dip_diagram.png",
+          "caption": "Glomerular Hemodynamic Response to Efferent Arteriolar Vasodilation: Pgc Dip vs Long-Term Nephron Preservation.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

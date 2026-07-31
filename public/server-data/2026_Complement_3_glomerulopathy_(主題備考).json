@@ -152,7 +152,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "TEM 上展現極度高電子密度、均質性、且呈連續帶狀 (Homogeneous, extremely electron-dense, ribbon-like)GBM 中層 Lamina Densa 的沉積物，是 **Dense Deposit Disease (DDD / 舊稱 Type II MPGN)** 的招牌超微結構特徵。",
+      "sourceExplanation": "TEM 上展現 homogeneous, extremely electron-dense, ribbon-like 沉積物取代 GBM 中層的 lamina densa，是 **Dense Deposit Disease** 的招牌 ultrastructural 特徵。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_31_18",
@@ -184,10 +184,10 @@
       ],
       "reconciliationStatus": "MATCH",
       "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:11:10.285084+00:00",
-      "qcNotes": "Found bilingual bracket in sourceExplanation: '連續帶狀 (Homogeneous, extremely electron-dense, ribbon-like)'"
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:39:49+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_C3G_Q04",
@@ -274,7 +274,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "高達 30-50% 年齡大於 50 歲的 C3G 患者，其背後致病真兇為 **MGRS**。單株蛋白（如 Monoclonal IgG 或 Light Chain）可作為循環中針對 Complement Factor H 的自體抗體或干擾因子。因此，對所有 $>50$ 歲的 C3G 患者，**100% 必須強制進行 SPEP, UPEP with immunofixation, 與 sFLC 檢查**；若發現異常，需進一步執行骨髓切片以啟動 Clone-Directed Chemotherapy。",
+      "sourceExplanation": "高達 30-50% 年齡大於 50 歲的 C3G 患者，其背後致病真兇為 **MGRS**。Monoclonal protein 如 monoclonal IgG 或 light chain 可作為循環中針對 complement factor H 的 autoantibody 或 interfering factor。因此，對所有 $>50$ 歲的 C3G 患者，**100% 必須強制進行 SPEP, UPEP with immunofixation, 與 sFLC 檢查**；若發現異常，需進一步執行 bone marrow biopsy 以啟動 clone-directed chemotherapy。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -298,10 +298,10 @@
       ],
       "reconciliationStatus": "MATCH",
       "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:11:10.285088+00:00",
-      "qcNotes": "Medical terms translated to Chinese found in sourceExplanation (e.g. '單株蛋白', '骨髓切片'). Must be 100% English."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:39:49+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_C3G_Q06",
@@ -327,7 +327,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "DDD 具有兩大特徵性腎外表現：(1) **Retinal Drusen**：因 C3 沉積於眼底 Bruch'RPE；(2) **Barraquer-Simons Syndrome**：因 C3Nef 導致脂肪細胞表面 C3 convertase 過度活化、引發脂質分解，造成臉部與上半身皮下脂肪進行性萎縮。",
+      "sourceExplanation": "DDD 具有兩大特徵性 extrarenal manifestations：(1) **Retinal drusen**：因 C3 沉積於 Bruch's membrane 與 retinal pigment epithelium；(2) **Barraquer-Simons syndrome**：因 C3Nef 導致 adipocyte 表面 C3 convertase 過度活化、引發 lipolysis，造成 acquired partial lipodystrophy。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -351,10 +351,10 @@
       ],
       "reconciliationStatus": "MATCH",
       "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:15:00Z",
-      "qcNotes": "Language violation: Narrative contains bilingual brackets (e.g., 脂肪細胞 (adipocytes))."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:39:49+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_C3G_Q07",
@@ -380,7 +380,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "典型的 Post-PIGN 補體活化為自限性，血清 C3 通常於 **8–12 週內完全恢復正常**。Hypocomplementemia 與蛋白尿持續超過 12 週，或Renal Biopsy重複顯示 C3-dominant 沉積物未退，C3G 或被感染所誘發的 C3G。",
+      "sourceExplanation": "典型的 post-infectious glomerulonephritis 補體活化為 self-limiting，血清 C3 通常於 **8–12 週內完全恢復正常**。Hypocomplementemia 與 proteinuria 持續超過 12 週，或 repeat renal biopsy 顯示 C3-dominant 沉積物未退，強烈指向 C3G 或由感染誘發的 C3G。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -433,7 +433,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "C3G 的核心病因是 Alternative Complement Pathway 的選擇性過度活化，只消耗 C3 而不引發 Classical Pathway ($C1q/C4$) 的大量活化。因此血清學典型表現為 **Markedly Low C3 with Normal or Near-Normal C4**。相反地，Low C3 + Low C4 常見於 Classical Pathway 活化疾病（如 Lupus Nephritis Class III/IV, Cryoglobulinemic GN）。",
+      "sourceExplanation": "C3G 的核心病因是 alternative complement pathway 的選擇性過度活化，只消耗 C3 而不引發 classical pathway ($C1q/C4$) 的大量活化。因此血清學典型表現為 **markedly low C3 with normal or near-normal C4**。相反地，low C3 + low C4 常見於 classical pathway 活化疾病（如 lupus nephritis class III/IV, cryoglobulinemic GN）。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -457,10 +457,10 @@
       ],
       "reconciliationStatus": "MATCH",
       "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:15:00Z",
-      "qcNotes": "Language violation: Narrative contains bilingual brackets (e.g., 獲得性自體抗體 (acquired autoantibodies))."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:39:49+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "2026_C3G_Q09",

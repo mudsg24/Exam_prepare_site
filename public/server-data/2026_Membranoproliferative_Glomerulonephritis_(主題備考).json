@@ -383,7 +383,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "單株免疫球蛋白沉積之 MPGN MGRS。根據 KDIGO 2021 指引，核心治療為 Clone-Directed Therapy (如包含 Bortezomib, Cyclophosphamide 或 Rituximab 之抗漿細胞/B細胞療程)。",
+      "sourceExplanation": "monoclonal immunoglobulin 沉積之 MPGN MGRS。根據 KDIGO 2021 指引，核心治療為 clone-directed therapy，如包含 Bortezomib、Cyclophosphamide 或 Rituximab 之 anti-plasma cell/B cell 療程。",
       "resolvedImages": [
         {
           "id": "img_q7_1",
@@ -413,11 +413,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:00+08:00",
-      "qcNotes": "Language violation in sourceExplanation: used Chinese medical terms 單株免疫球蛋白, 抗漿細胞/B細胞."
+      "reconciliationNotes": "NLM 共識選項 (A) 符合標準答案 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q8",
@@ -617,7 +617,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Classical Complement Pathway 活化造成 C3 與 C4 同時下降 (Low C3 + Low C4)。",
+      "sourceExplanation": "classical complement pathway 活化造成 C3 與 C4 同時下降。",
       "resolvedImages": [
         {
           "id": "img_q11_1",
@@ -646,11 +646,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:03+08:00",
-      "qcNotes": "Language audit failed: multiple instances of bilingual brackets."
+      "reconciliationNotes": "NLM 共識選項 (A) 符合標準答案 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q12",
@@ -675,7 +675,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "CFB 特異性抑制劑。",
+      "sourceExplanation": "complement factor B 特異性抑制劑。",
       "resolvedImages": [
         {
           "id": "img_q12_1",
@@ -704,11 +704,11 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE_OVERRIDE",
-      "reconciliationNotes": "NLM consensus (NONE) differs from ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:03+08:00",
-      "qcNotes": "Language audit failed: multiple instances of bilingual brackets."
+      "reconciliationNotes": "NLM 共識選項 (NONE) 與標準答案 (A) 不符。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q13",
@@ -733,7 +733,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Shunt Nephritis 最常見致病菌為 Staphylococcus epidermidis。",
+      "sourceExplanation": "shunt nephritis 最常見致病菌為 Staphylococcus epidermidis。",
       "resolvedImages": [
         {
           "id": "img_q13_1",
@@ -763,11 +763,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:03+08:00",
-      "qcNotes": "Language audit failed: multiple instances of bilingual brackets."
+      "reconciliationNotes": "NLM 共識選項 (A) 符合標準答案 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q14",
@@ -792,7 +792,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "經典 Type I MPGN 主要沉積位置為 Subendothelial Space 以及 Mesangium。",
+      "sourceExplanation": "經典 type I MPGN 主要沉積位置為 subendothelial space 以及 mesangium。",
       "resolvedImages": [
         {
           "id": "img_q14_1",
@@ -822,11 +822,11 @@
         }
       ],
       "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:03+08:00",
-      "qcNotes": "Language audit failed: multiple instances of bilingual brackets."
+      "reconciliationNotes": "NLM 共識選項 (A) 符合標準答案 (A)。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q15",

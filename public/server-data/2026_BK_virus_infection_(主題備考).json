@@ -30,7 +30,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "BK Polyomavirus (BKV) 屬於 non-enveloped double-stranded DNA polyomavirus。在幼童時期發生 primary infection 後，會在 Renal Tubular Epithelial Cells 與 Urothelium 建立終身 latency。當器官移植後給予 Tacrolimus 與 Mycophenolate Mofetil (MMF) 等強效 Immunosuppression 時，BKV 會重新活化發病。",
+      "sourceExplanation": "BK Polyomavirus (BKV) 屬於 non-enveloped double-stranded DNA polyomavirus。在 early childhood 發生 primary infection 後，會在 Renal Tubular Epithelial Cells 與 Urothelium 建立終身 latency。當 kidney transplantation 後給予 Tacrolimus 與 Mycophenolate Mofetil (MMF) 等強效 Immunosuppression 時，BKV 會重新活化發病。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -84,7 +84,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Decoy cells 為脫落於尿液中受 BKV 感染複製之 Renal Tubular Epithelial Cells 或 Urothelial Cells。細胞學特徵為 Karyomegaly，充斥單一均勻之 ground-glass basophilic intranuclear inclusion bodies，染色質周邊邊緣化成 thin chromatin margins。惡性 Urothelial Carcinoma 則表現為染色質深染粗糙與高核質比。",
+      "sourceExplanation": "Decoy cells 為脫落於 urine 中受 BKV 感染複製之 Renal Tubular Epithelial Cells 或 Urothelial Cells。Cytology 特徵為 Karyomegaly，充斥單一均勻之 ground-glass basophilic intranuclear inclusion bodies，chromatin 周邊邊緣化成 thin chromatin margins。惡性 Urothelial Carcinoma 則表現為 hyperchromasia, coarse chromatin 與 high nuclear-to-cytoplasmic ratio。",
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "resolvedImages": [
         {
@@ -138,7 +138,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "根據 2024 International Consensus Guidelines 與 KDIGO 指引，腎移植受術者應接受系統化 quantitative plasma BK virus DNA PCR 篩檢。建議時程為：術後前 3 至 6 個月每個月篩檢 1 次 (monthly)，術後 6 至 24 個月每 3 個月篩檢 1 次。",
+      "sourceExplanation": "根據 2024 International Consensus Guidelines 與 KDIGO Guidelines，kidney transplant recipients 應接受系統化 quantitative plasma BK virus DNA PCR 篩檢。建議時程為：Post-transplant 前 3 至 6 個月每個月篩檢 1 次 (monthly)，Post-transplant 6 至 24 個月每 3 個月篩檢 1 次。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -192,7 +192,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "Presumptive BKVN 之國際標準臨床門檻為：持續 2 至 3 週以上定量 plasma BK viral load >= 10,000 copies/mL (或 >= 4 log10 copies/mL)。此門檻對於組織學 BKVN 具備高度 PPV (> 50-80%)，臨床在此階段即應啟動預防性調降 Immunosuppression (RIS)。",
+      "sourceExplanation": "Presumptive BKVN 之國際標準臨床門檻為：持續 2 至 3 週以上 quantitative plasma BK viral load >= 10,000 copies/mL (或 >= 4 log10 copies/mL)。此門檻對於 histological BKVN 具備高度 PPV (> 50-80%)，臨床在此階段即應啟動預防性 Reduction of Immunosuppression (RIS)。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -246,7 +246,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Urinary Haufen 為在 Electron Microscopy 下觀察尿液沉渣所見之三維 polyomavirus 顆粒聚合物。研究顯示 Urinary Haufen 出現於尿液中代表 Renal Tubular Epithelial Cells 嚴重受損與大量病毒出芽，對切片確診之 active BKVN 具備高達 95% 以上之 PPV。",
+      "sourceExplanation": "Urinary Haufen 為在 Electron Microscopy 下觀察 urine sediment 所見之三維 polyomavirus aggregate 結構。研究顯示 Urinary Haufen 出現代表 Renal Tubular Epithelial Cells 嚴重受損與大量 viral budding，對 biopsy-confirmed active BKVN 具備高達 95% 以上之 PPV。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -300,7 +300,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "當腎移植 Renal Allograft Biopsy 顯示 Tubulitis 與間質發炎時，確診 BKVN 的金標準免疫組織化學染色為 SV40 Large T-Antigen IHC。SV40 單株抗體可與 BK polyomavirus 之 Large T-antigen 產生強烈交叉反應，使受感染小管細胞核呈現特異性陽性染色。",
+      "sourceExplanation": "當 Renal Allograft Biopsy 顯示 Tubulitis 與 interstitial inflammation 時，確診 BKVN 的 gold standard immunohistochemical stain 為 SV40 Large T-Antigen IHC。SV40 monoclonal antibody 可與 BK polyomavirus 之 Large T-antigen 產生強烈 cross-reactivity，使 infected tubular epithelial cell nuclei 呈現特異性陽性染色。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -354,7 +354,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Banff 國際組織學分級對 BKVN (Class 1, 2, 3) 的定義，主要取決於兩大核心參數：(1) Renal Allograft Biopsy 中 SV40 陽性小管的比例與分佈範圍 (intra-renal polyomavirus load)，以及 (2) 伴隨之 interstitial fibrosis and tubular atrophy (IFTA / ci score) 嚴重程度。",
+      "sourceExplanation": "Banff 國際組織學分級對 BKVN (Class 1, 2, 3) 的定義，主要取決於兩大核心參數：(1) Renal Allograft Biopsy 中 SV40 陽性小管的比例與分佈範圍 (intra-renal polyomavirus load)，以及 (2) 伴隨之 Interstitial Fibrosis and Tubular Atrophy (IFTA / ci score) 嚴重程度。",
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "resolvedImages": [
         {
@@ -408,7 +408,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "BKVN 與 Acute TCMR 在光鏡下均可見顯著之 Tubulitis 與單核細胞浸潤。鑑別兩者的關鍵病理特徵為：BKVN 小管細胞出現 ground-glass intranuclear inclusion bodies 且 SV40 IHC 呈陽性。若 Renal Allograft Biopsy 出現 Intimal Arteritis (v-score >= 1)，則提示合併 TCMR。",
+      "sourceExplanation": "BKVN 與 Acute TCMR 在光鏡下均可見顯著之 Tubulitis 與 mononuclear cell infiltration。鑑別兩者的關鍵病理特徵為：BKVN 小管細胞出現 ground-glass intranuclear inclusion bodies 且 SV40 IHC 呈陽性。若 Renal Allograft Biopsy 出現 Intimal Arteritis (v-score >= 1)，則提示 concurrent TCMR。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -462,7 +462,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "對於 Presumptive 或 Biopsy-proven BKVN，國際指引一致推薦的第一線標準治療為漸進式調降維護性免疫抑制劑 (Stepwise Reduction of Immunosuppression, RIS)。給予高劑量 Pulse Steroids 只會進一步摧毀抗病毒免疫並導致病毒複製失控。",
+      "sourceExplanation": "對於 Presumptive 或 Biopsy-proven BKVN，國際指引一致推薦的第一線標準治療為 Stepwise Reduction of Immunosuppression (RIS)。給予高劑量 Pulse Steroids 只會進一步摧毀 antiviral immunity 並導致 viral replication 失控。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -516,7 +516,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "在執行 RIS 協定時，維持 Tacrolimus + MMF + Prednisone 的患者應優先將 MMF 劑量減半或停用，或將 Tacrolimus target trough level 降低至 <4-6 ng/mL。此目標濃度能在維持適度抗排斥作用下最大限度恢復抗病毒細胞免疫。",
+      "sourceExplanation": "在執行 RIS 協定時，維持 Tacrolimus + MMF + Prednisone 的患者應優先將 MMF 劑量減半或停用，或將 Tacrolimus target trough level 降低至 <4-6 ng/mL。此目標濃度能在維持適度 antirejection effect 下最大限度恢復 antiviral cellular immunity。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -570,7 +570,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Leflunomide 的活性代謝物 A77 1726 為一強效 Dihydroorotate Dehydrogenase (DHODH) 抑制劑，阻斷 de novo pyrimidine synthesis。除了可抑制 T/B 淋巴球增殖外，亦能干擾 Polyomavirus 衣殼蛋白合成與病毒 DNA 複製，兼具 Immunosuppression 與抗病毒雙重效果。",
+      "sourceExplanation": "Leflunomide 的活性代謝物 A77 1726 為一強效 Dihydroorotate Dehydrogenase (DHODH) 抑制劑，阻斷 de novo pyrimidine synthesis。除了可抑制 T/B lymphocytes 增殖外，亦能干擾 Polyomavirus capsid protein Synthesis 與 viral DNA replication，兼具 Immunosuppression 與 antiviral 雙重效果。",
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "resolvedImages": [
         {
@@ -678,7 +678,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "IVIG 含有市售血清中天然存在的抗 BKV 中和抗體，兼具抗發炎與免疫調節功效。最適合用於高排斥風險患者在極度調降 Immunosuppression 後仍有高病毒血症，或同時合併 ABMR 的救援治療情境。",
+      "sourceExplanation": "IVIG 含有市售血清中天然存在的 anti-BKV neutralizing antibodies，兼具 anti-inflammatory 與 immunomodulatory 功效。最適合用於 high immunological risk 患者在極度調降 Immunosuppression 後仍有 high-grade viremia，或同時合併 ABMR 的 rescue therapy 情境。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -732,7 +732,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "多項 RCT 評估 Fluoroquinolones (Ciprofloxacin / Levofloxacin) 用於 BKV 預防或治療，結果顯示其未能顯著降低血清病毒量或預防 BKVN，且增加 Tendonitis、QTc 延長及 C. difficile 腸炎風險，故不建議使用。",
+      "sourceExplanation": "多項 RCT 評估 Fluoroquinolones (Ciprofloxacin / Levofloxacin) 用於 BKV 預防或治療，結果顯示其未能顯著降低 plasma BK viral load 或預防 BKVN，且增加 Tendonitis、QTc prolongation 及 C. difficile colitis 風險，故不建議使用。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -786,7 +786,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "在積極調降 Immunosuppression 以控制 BKVN 後，若病毒量下降但 Serum Creatinine 顯著上升，最需緊急排查的併發症為：因免疫抑制不足誘發的 de novo DSA 產生及急性同種異體排斥 (TCMR 或 ABMR)。",
+      "sourceExplanation": "在積極調降 Immunosuppression 以控制 BKVN 後，若 viral load 下降但 Serum Creatinine 顯著上升，最需緊急排查的併發症為：因免疫抑制不足誘發的 de novo DSA 產生及 acute allograft rejection (TCMR 或 ABMR)。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -840,7 +840,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
-      "sourceExplanation": "因末期 BKVN 導致移植物失能並返透析之患者，在進行第二次腎移植前，最關鍵之先決條件為血清 BK 病毒血症已完全清除 (Plasma BK PCR 達 Undetectable) 並停止高劑量 Immunosuppression，以避免新移植物再次發生 BKV 感染。",
+      "sourceExplanation": "因 end-stage BKVN 導致 allograft loss 並 returned to hemodialysis 之患者，在進行第二次 kidney transplantation 前，最關鍵之先決條件為 plasma BK viremia 已完全清除 (Plasma BK PCR 達 Undetectable) 並停止高劑量 Immunosuppression，以避免新 allograft 再次發生 BKV 感染。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -894,7 +894,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "將 CNI 轉換為 mTOR inhibitors (Sirolimus / Everolimus) 的理據為：mTOR inhibitors 具備抗增殖與抑癌特性，且多項臨床試驗顯示其配伍方案之 BKV reactivation 與 BKVN 發生率顯著低於傳統 CNI 主導之方案。",
+      "sourceExplanation": "將 CNI 轉換為 mTOR inhibitors (Sirolimus / Everolimus) 的理據為：mTOR inhibitors 具備 antiproliferative 與 antineoplastic 特性，且多項臨床試驗顯示其配伍方案之 BKV reactivation 與 BKVN 發生率顯著低於傳統 CNI 主導之方案。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {
@@ -948,7 +948,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "在移植前 BKV 血清學篩檢中，Donor Seropositive / Recipient Seronegative (D+/R-) 組合具備最高的相對風險。因為來自捐贈者腎小管之 Latent BKV 進入缺乏特異性抗體保護之受者體內後，極易爆發大量複製。",
+      "sourceExplanation": "在 pre-transplant BKV serological screening 中，Donor Seropositive / Recipient Seronegative (D+/R-) 組合具備最高的 relative risk。因為來自 donor 之 renal tubular epithelial cells 之 Latent BKV 進入缺乏 specific antibodies 保護之 recipient 體內後，極易爆發大量 replication。",
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "resolvedImages": [
         {
@@ -1002,7 +1002,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "BK polyomavirus 引起的 Hemorrhagic Cystitis 主要見於 HSCT 患者，表現為 Gross Hematuria 與 Dysuria；而 BKVN 則是 Kidney Transplantation 受術者的特徵性併發症。",
+      "sourceExplanation": "BK polyomavirus 引起的 Hemorrhagic Cystitis 主要見於 HSCT recipients，表現為 Gross Hematuria 與 Dysuria；而 BKVN 則是 Kidney Transplantation recipients 的特徵性併發症。",
       "reconciliationStatus": "MATCHED",
       "resolvedImages": [
         {

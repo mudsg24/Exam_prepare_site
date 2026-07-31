@@ -1,0 +1,161 @@
+{
+  "id": "2026_Embryology_of_the_Kidney_(主題備考)",
+  "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+  "title": "Embryology of the Kidney Masterclass",
+  "description": "整合腎臟胚胎發育三階段（Pronephros, Mesonephros, Metanephros）、 reciprocal induction 與 GDNF-RET 雙向訊號網絡、腎臟生成與 Podocyte/Slit Diaphragm 成熟機制、CAKUT 基因突變病理及 Horseshoe Kidney / VUR 臨床解剖決策與處置之高階專科講堂。",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "updatedAt": "2026-07-31T06:36:52.257128+00:00",
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Three Stages of Renal Development & Reciprocal Inductive Signaling",
+      "content": "### 1. Developmental Lineage Matrix\n\nHuman Kidney 發育歷經三個連續的時間與空間階段：Pronephros 、Mesonephros  與 Metanephros (後腎/永久腎)。Metanephric Kidney 之形成依賴 Metanephric Mesenchyme (MM / Cap Mesenchyme) 與 Ureteric Bud (UB) 之間的 Reciprocal Inductive Signaling Network。\n\n| Stage / Tissue | Embryonic Timing | Primitive Derivatives | Definitive Adult Structures |\n| --- | --- | --- | --- |\n| Pronephros | Early Week 4 | Non-functional vestigial nephrotomes | Fully regresses by end of Week 4 |\n| Mesonephros | Late Week 4 to Week 8 | Mesonephric Tubules & Wolffian Duct (Nephric Duct) | Male: Vas Deferens, Epididymis, Seminal Vesicles; Female: Regregesses (Gärtner Duct cyst) |\n| Metanephros (MM) | Week 5 onwards | Cap Mesenchyme / Metanephric Blastema | Glomeruli, Bowman Capsule, Proximal Convoluted Tubule, Loop of Henle, Distal Convoluted Tubule |\n| Metanephros (UB) | Week 5 onwards | Outgrowth from distal Wolffian Duct | Ureter, Renal Pelvis, Major & Minor Calyces, Collecting Ducts |\n\n### 2. High-Yield Differential Comparison Table\n\n| Signaling Factor / Receptor | Expression Domain | Biological Function | Loss-of-Function Phenotype |\n| --- | --- | --- | --- |\n| GDNF | Metanephric Mesenchyme (MM) | Ligand for RET/GFRa1; triggers UB budding & branching | Renal Agenesis (Complete absence of UB outgrowth) |\n| RET / GFRa1 | Ureteric Bud Tip (UB) | Receptor Tyrosine Kinase for GDNF; drives UB cell proliferation | Bilateral Renal Agenesis or Severe Dysplasia |\n| Spry1 (Sprouty1) | Ureteric Bud Epithelium | Negative feedback inhibitor of RET post-receptor signaling | Supernumerary Ureteric Buds, Duplex Kidneys, Ectopic Ureters |\n| Foxc1 / Slit2-Robo2 | Anterior Nephrogenic Mesenchyme | Restricts spatial domain of GDNF expression to caudal MM | Broadened GDNF domain leading to Ectopic UB outgrowth |\n\n### 3. Pathophysiological Decision Tree\n\nSpatial Restriction of GDNF in Caudal Metanephric Mesenchyme ➔ GDNF Secretion ➔ Binds RET/GFRa1 Complex at Distal Wolffian Duct ➔ Focal Ureteric Bud (UB) Outgrowth ➔ UB Penetration into Cap Mesenchyme ➔ Secretion of FGF2 & WNT11 by UB ➔ Mutual Survival & Proliferation ➔ Branching Morphogenesis of Renal Pelvis & Collecting System.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Collecting Ducts  與 Distal Convoluted Tubules  皆源自 Metanephric Mesenchyme。\n**Analysis**: Collecting Ducts 源自 Ureteric Bud (Wolffian Duct 衍生物)；而 Distal Convoluted Tubules, Proximal Convoluted Tubules, Loop of Henle 與 Glomeruli 則源自 Metanephric Mesenchyme ( Cap Mesenchyme 經由 MET 轉化而來)。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_1_2",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_2.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_2.png",
+          "caption": "Brenner 11e Fig. 1.2: Three stages of mammalian kidney development (Pronephros, Mesonephros, Metanephros).",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Brenner_Fig_1_14",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_14.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_14.png",
+          "caption": "Brenner 11e Fig. 1.14: Genetic regulatory network controlling GDNF and RET signaling in ureteric bud induction.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Embryology_Module1_AI",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/cakut_embryology_gene_pathway.png",
+          "imagePath": "/server-data/assets/cakut_embryology_gene_pathway.png",
+          "caption": "Reciprocal Inductive Signaling: GDNF-RET axis, Spry1 negative feedback, and Ureteric Bud branching morphogenesis."
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Molecular Regulation of Branching Morphogenesis & Mesenchymal-to-Epithelial Transition (MET)",
+      "content": "### 1. Morphogenetic Stage Matrix\n\nMetanephric Mesenchyme 在接獲 Ureteric Bud 刺激後，Condensation 與 Mesenchymal-to-Epithelial Transition (MET)，轉化為具備極性與管腔結構的成熟 Nephron。\n\n| Stage | Key Molecular Drivers | Structural Morphology | Segmental Fate Mapping |\n| --- | --- | --- | --- |\n| Cap Mesenchyme (CM) | SIX2, CITED1, WT1, PAX2 | Multipotent self-renewing nephron progenitor pool surrounding UB tips | Progenitor pool for all nephron segments |\n| Pretubular Aggregate (PA) | WNT4, FGF8, LHX1 (LIM1) | Condensed mesenchyme undergoing early epithelialization | Nascent nephron primordium |\n| Renal Vesicle (RV) | WNT4, E-cadherin (Cdh1) | Polarized hollow epithelial sphere | Early proximodistal patterning |\n| Comma-shaped & S-shaped Body | Notch signaling, DLL1, Jagged1 | Invaginated double-looped epithelial tubular structure | Distal: Connecting tubule; Medial: Tubular segments; Proximal: Podocytes |\n\n### 2. High-Yield Differential Comparison Table\n\n| Molecule / Factor | Source & Site of Action | Key Developmental Function | Clinical / Mutant Significance |\n| --- | --- | --- | --- |\n| SIX2 | Cap Mesenchyme Progenitors | Maintains progenitor self-renewal; represses premature differentiation | Premature nephron progenitor depletion -> Renal Hypoplasia |\n| WNT4 | Pretubular Aggregates | Autocrine driver of MET and tubular lumen formation | Failure of MET; arrest at pretubular aggregate stage |\n| Notch / Jagged1 / DLL1 | S-shaped Body Medial Segment | Specifies Proximal Tubule and Podocyte cell fate | Alagille Syndrome (JAG1 mutation) with renal dysplasia |\n| Foxd1 | Cortical Stromal Mesenchyme | Suppresses Decorin (Dcn); regulates retinoic acid (Aldh1a2) | Disrupted stromal signaling causes uncoordinated nephrogenesis |\n\n### 3. Pathophysiological Decision Tree\n\nCap Mesenchyme SIX2+ Progenitors ➔ WNT9b Signal from UB Tip ➔ Downregulation of SIX2 ➔ Upregulation of WNT4 & FGF8 ➔ Pretubular Aggregate ➔ Mesenchymal-to-Epithelial Transition (MET) ➔ Expression of E-cadherin (Cdh1) ➔ Renal Vesicle ➔ Comma-shaped Body ➔ S-shaped Body ➔ Vascular Cleft Invaginated by Endothelial Cells ➔ Mature Glomerulus & Tubules.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 SIX2 主要作用在推進 Renal Vesicle 向 S-shaped Body 轉化。\n**Analysis**: SIX2 是 Cap Mesenchyme Self-renewal 的關鍵轉錄因子，作用在維持 Nephron Progenitor Pool 的未分化狀態。真正推動 MET 轉化為 Renal Vesicle 的主要驅動因子是 WNT4 與 FGF8。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_1_5",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_5.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_5.png",
+          "caption": "Brenner 11e Fig. 1.5: Morphologic progression of nephrogenesis (Cap Mesenchyme -> Pretubular Aggregate -> Renal Vesicle -> Comma/S-shaped Body).",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Brenner_Fig_1_18",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_18.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_18.png",
+          "caption": "Brenner 11e Fig. 1.18: Tripartite inductive interactions between Cap Mesenchyme (Six2/Cited1), Ureteric Bud (Wnt9b/Ret), and Stroma (Foxd1).",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Embryology_Module2_AI",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png",
+          "imagePath": "/server-data/assets/cakut_parenchymal_mcdk_horseshoe.png",
+          "caption": "Mesenchymal-to-Epithelial Transition (MET): SIX2 progenitor maintenance vs WNT4 epithelialization pathway."
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Glomerulogenesis, Vascularization & Slit Diaphragm Maturation",
+      "content": "### 1. Glomerular Assembly & Filtration Barrier Matrix\n\nGlomerulogenesis 在 S-shaped Body 階段展開。Proximal Cleft 招募 Endothelial Cells 與 Mesangial Progenitors，轉化為 Capillary Loop Stage，最終成熟為包含 三層濾過結構 (GEC, GBM, Podocyte Foot Processes) 的 Glomerulus。\n\n| Barrier Component | Primary Cell Origin | Key Structural Proteins | Associated Genetic Diseases |\n| --- | --- | --- | --- |\n| Glomerular Endothelial Cells (GEC) | Vasculogenesis / Angiogenesis recruited by Podocyte VEGF-A | CD31, CD34, Endothelial ESL | Loss of VEGF-A -> Endothelial detachment & thrombotic microangiopathy |\n| Glomerular Basement Membrane (GBM) | Dual synthesis by Podocytes & GECs | Collagen alpha-3/4/5(IV), Laminin-521, Agrin | Alport Syndrome (COL4A3/4/5), Pierson Syndrome (LAMB2) |\n| Slit Diaphragm (SD) | Interdigitating Podocyte Foot Processes | Nephrin (NPHS1), Podocin (NPHS2), CD2AP, TRPC6 | Congenital Nephrotic Syndrome (Finnish type NPHS1, FSGS NPHS2) |\n\n### 2. High-Yield Differential Comparison Table\n\n| Gene Mutation | Inherited Disease | Protein Location & Function | Clinical Pathological Presentation |\n| --- | --- | --- | --- |\n| NPHS1 | Congenital Nephrotic Syndrome of Finnish Type | Nephrin; Transmembrane SD component forming porous zipper | Severe proteinuria in utero / at birth, massive edema, microcystic renal tubules |\n| NPHS2 | Steroid-Resistant Nephrotic Syndrome (SRNS) | Podocin; Hairpin membrane protein organizing Lipid Rafts at SD | Early-onset SRNS, FSGS histology, poor response to immunosuppression |\n| LAMB2 | Pierson Syndrome | Laminin beta-2; Major component of mature GBM | Congenital Nephrotic Syndrome + Microcoria / Ocular defects + Neuromuscular deficits |\n| COL4A5 | X-linked Alport Syndrome | Collagen alpha-5(IV); Structural framework of GBM | Hematuria, progressive sensorineural hearing loss, anterior lenticonus, GBM splitting |\n\n### 3. Pathophysiological Decision Tree\n\nDeveloping Podocytes in S-shaped Body ➔ High Secretion of VEGF-A ➔ VEGFR2 Activation on Neighboring Endothelial Progenitors ➔ Endothelial Migration into Vascular Cleft ➔ Capillary Loop Stage ➔ GBM Fusion (Podocyte Laminin-521 + Endothelial Collagen IV) ➔ Podocyte Foot Process Interdigitation ➔ Slit Diaphragm Assembly (Nephrin/Podocin) ➔ Mature Glomerular Filtration Barrier.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Podocyte Specific Vegfa Gene Knockout 只會影響 Endothelial Cells，對 Podocyte 本身無結構破壞。\n**Analysis**: Vegfa 在 Podocyte 缺失不僅導致 Glomerular Endothelial Cells 無法形成 Fenestrae 並發生 Detachment，還會連帶造成 Podocyte Foot Process Effacement 與 Glomerulosclerosis。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_1_19",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_19.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_19.png",
+          "caption": "Brenner 11e Fig. 1.19: VEGF-A is essential for glomerular endothelial recruitment, fenestration, and peritubular capillary maintenance.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Brenner_Fig_1_22",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_22.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_22.png",
+          "caption": "Brenner 11e Fig. 1.22: Ultrastructural maturation of the Glomerular Filtration Barrier from S-shaped body to interdigitating foot processes and Slit Diaphragm.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Embryology_Module3_AI",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/podocyte_slit_diaphragm_architecture.jpg",
+          "imagePath": "/server-data/assets/podocyte_slit_diaphragm_architecture.jpg",
+          "caption": "Glomerular Filtration Barrier Assembly: Podocyte VEGF-A signaling, GBM fusion, and Slit Diaphragm protein network."
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: Congenital Anomalies of Kidney Development & Gene Mutations (CAKUT & Genetic Syndromes)",
+      "content": "### 1. Syndromic CAKUT & Gene Mutation Matrix\n\nCAKUT (Congenital Anomalies of the Kidney and Urinary Tract) 包含從單側/雙側 Renal Agenesis、Renal Dysplasia/Hypoplasia 到 Multicystic Dysplastic Kidney (MCDK) 的廣泛表型。\n\n| Genetic Syndrome | Mutated Gene | Extrarenal Clinical Manifestations | Classic CAKUT Phenotype |\n| --- | --- | --- | --- |\n| Renal Coloboma Syndrome | PAX2 | Optic nerve coloboma / Optic disc dysplasia, Sensorineural hearing loss | Renal hypoplasia, Dysplasia, Vesicoureteral Reflux (VUR) |\n| Renal Cysts and Diabetes (RCAD) | HNF1B (TCF2) | MODY5, Pancreatic hypoplasia, Early-onset Gout, Hypomagnesemia | Multicystic Dysplastic Kidney (MCDK), Bilateral renal hypodysplasia |\n| Branchio-Oto-Renal (BOR) Syndrome | EYA1, SIX1, SIX5 | Branchial cleft cysts/fistulae, Preauricular pits, Hearing loss | Renal agenesis, Dysplasia, Ureteropelvic Junction Obstruction (UPJO) |\n| Fraser Syndrome | FRAS1, FREM1, FREM2 | Cryptophthalmos, Syndactyly, Laryngeal stenosis | Bilateral or unilateral Renal Agenesis, Dysplasia |\n| Townes-Brocks Syndrome | SALL1 | Dysplastic triphalangeal thumbs, Imperforate anus, Sensorineural deafness | Renal hypoplasia, Dysplastic kidneys, Duplex collecting system |\n\n### 2. High-Yield Differential Comparison Table\n\n| Condition | Primary Histopathology | Functional Status | Clinical Management |\n| --- | --- | --- | --- |\n| Multicystic Dysplastic Kidney (MCDK) | Non-communicating cysts, primitive ducts with fibromuscular collars, dysplastic cartilage | Non-functioning affected kidney | Conservative ultrasound monitoring for involution; VCUG to check contralateral kidney for VUR |\n| Autosomal Recessive Polycystic Kidney Disease (ARPKD) | Fusiform non-obstructive dilatation of collecting ducts (PKHD1 mutation) | Bilateral impaired renal function at birth | Respiratory support, BP control, monitoring for Congenital Hepatic Fibrosis |\n| Unilateral Renal Agenesis | Complete absence of one kidney due to failed UB induction | Single functioning kidney with compensatory hyperfiltration | Long-term monitoring for microalbuminuria, hypertension, and focal segmental glomerulosclerosis (FSGS) |\n\n### 3. Pathophysiological Decision Tree\n\nHNF1B (TCF2) Loss-of-Function Mutation ➔ Impaired Transcription of Frizzled-4, PKHD1, and UMOD ➔ Disrupted Ureteric Branching & Tubular Patterning ➔ Formation of Primitive Non-communicating Cysts ➔ Multicystic Dysplastic Kidney (MCDK) + Pancreatic Beta-Cell Dysgenesis ➔ MODY5 Diabetes Mellitus + Defective DCT Magnesium Transport ➔ Hypomagnesemia & Early-Onset Hyperuricemia/Gout.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為對單側 Multicystic Dysplastic Kidney (MCDK) 的無症狀新生兒，Surgical Nephrectomy。\n**Analysis**: 現行臨床指引強烈推薦 對單側無症狀 MCDK 採用 Conservative Management (定期 超音波追蹤)，因為絕大多數 MCDK 隨時間會發生 Involution。管理的重點是利用 VCUG 或 Ultrasound 仔細排查 對側正常腎臟 是否存在 Vesicoureteral Reflux (VUR) 或 UPJO。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_1_16",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_16.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_16.png",
+          "caption": "Brenner 11e Fig. 1.16: Fraser syndrome molecular model: Fras1/Frem1/Frem2 complex anchors nephronectin to alpha-8 beta-1 integrin to maintain GDNF expression.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Brenner_Fig_1_10",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_10.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_10.png",
+          "caption": "Brenner 11e Fig. 1.10: Recapitulation of branching morphogenesis and WT1/E-cadherin markers in dysplastic renal explants.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Embryology_Module4_AI",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/cakut_puv_keyhole_potter_sequence.png",
+          "imagePath": "/server-data/assets/cakut_puv_keyhole_potter_sequence.png",
+          "caption": "Syndromic CAKUT Gene Network: PAX2, HNF1B, EYA1, and FRAS1 mutation pathways."
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "title": "Module 5: Positional Anomalies, Fusion Defects & Clinical Management",
+      "content": "### 1. Positional & Duplication Anomaly Matrix\n\n在胚胎第 5 至 8 週，Pelvic cavity L1-L2，並旋轉 90 度使 Medial Hilum 朝向內側。此上升過程若發生異常，將導致 Horseshoe Kidney、Ectopic Kidney 或 Ectopic Ureter / VUR。\n\n| Anomaly | Anatomical Pathophysiology | Classic Vascular / Structural Feature | Major Clinical Complications |\n| --- | --- | --- | --- |\n| Horseshoe Kidney | Fusion of lower poles (95%) across midline at 4-6 weeks gestation | Ascent trapped beneath Inferior Mesenteric Artery (IMA) at L3 level | Ureteropelvic Junction Obstruction (UPJO), Nephrolithiasis, Infection, Wilms Tumor |\n| Duplex Collecting System | Two Ureteric Buds emerge from single Wolffian Duct | Weigert-Meyer Law: Upper pole inserts inferomedial; Lower pole inserts superolateral | Upper pole: Ureterocele & Obstruction; Lower pole: Vesicoureteral Reflux (VUR) |\n| Pelvic Ectopic Kidney | Failure of renal ascent out of pelvic cavity | Retains embryonic blood supply from Iliac Vessels or distal Aorta | Impaired urinary drainage, predisposed to trauma during pregnancy, UPJO |\n| Vesicoureteral Reflux (VUR) | Inadequate submucosal intravesical ureteral tunnel length (short C/D ratio) | Incompetent flap-valve mechanism at ureterovesical junction (UVJ) | Recurrent Pyelonephritis, Renal Scarring (Reflux Nephropathy), Secondary HTN, CKD |\n\n### 2. High-Yield Differential Comparison Table\n\n| VUR Grade | Radiological Findings on VCUG | Clinical Significance & Management |\n| --- | --- | --- |\n| Grade I | Contrast refluxes into Ureter only; no calyceal dilation | High spontaneous resolution rate; Conservative observation |\n| Grade II | Contrast refluxes into Ureter, Pelvis, and Calyces without dilation | Spontaneous resolution common; Antibiotic prophylaxis as indicated |\n| Grade III | Mild dilation and tortuosity of Ureter and Renal Pelvis | Moderate resolution rate; Monitor for renal scarring via DMSA scan |\n| Grade IV | Moderate dilation/tortuosity of Ureter; blunting of Calyces | High risk of renal scarring; Consider endoscopic Deflux injection or ureteral re-implantation |\n| Grade V | Severe dilation/tortuosity of Ureter; loss of papillary impressions; intrarenal reflux | Very high risk of irreversible reflux nephropathy; Surgical intervention indicated |\n\n### 3. Pathophysiological Decision Tree\n\nEctopic Rostral Budding from Wolffian Duct ➔ Ectopic Ureteric Bud ➔ Enters Bladder caudal/medial to normal trigone ➔ Delayed Incorporation into Trigone ➔ Upper Pole Ureter inserts inferomedially with Ureterocele ➔ Lower Pole Ureter inserts superolaterally with short submucosal tunnel ➔ Incompetent Ureterovesical Valve ➔ Vesicoureteral Reflux (VUR) into Lower Pole ➔ Recurrent Pyelonephritis & Reflux Nephropathy.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 Horseshoe Kidney 的 Ureteropelvic Junction Obstruction (UPJO) 是由於 Renal Artery 壓迫所致。\n**Analysis**: Horseshoe Kidney 的 UPJO 主因是 Ureter 必須在高位跨越 融合的 Isthmus，加上 Ureter High Insertion，導致重力引流受阻與 Urinary Stasis，進而引發 UPJO、結石與感染。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_1_7",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_7.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_7.png",
+          "caption": "Brenner 11e Fig. 1.7: Corrosion resin cast and scanning electron micrograph of renal vascular architecture during embryonic ascent.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Brenner_Fig_1_13",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_13.png",
+          "imagePath": "/reference-images/Brenner 11e/01. Embryology of the Kidney/Fig_1_13.png",
+          "caption": "Brenner 11e Fig. 1.13: Ret-deficient cell segregation during Wolffian duct swelling and ectopic ureteric bud outgrowth.",
+          "sourceBook": "Brenner 11e Ch 1"
+        },
+        {
+          "id": "Embryology_Module5_AI",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png",
+          "imagePath": "/server-data/assets/cakut_weigert_meyer_vur_duplex.png",
+          "caption": "Anatomical diagram of Horseshoe Kidney IMA trapping, Weigert-Meyer law in duplex collecting systems, and VUR grading."
+        }
+      ]
+    }
+  ]
+}

@@ -86,6 +86,17 @@
 >     - **Absolute Ban on Missing Path Prefixes**: `relPath` MUST start with `/reference-images/` (for KDIGO/Brenner figures) or `/server-data/assets/` (for generated/attached diagrams). Raw filenames without leading web path or missing `/reference-images/` are strictly prohibited.
 >     - **Disk Existence Verification**: The file referenced by `relPath` MUST exist on disk in `public/`.
 >     - **Pre-Publish Verification Gate**: Before publishing, execute `node scripts/lint_exam_json.mjs && node scripts/check_assets.mjs`. Any invalid path or missing `relPath` will fail the lint check.
+>
+> 12. **ABSOLUTE BAN ON FAKED/SYNTHETIC NLM RESPONSES & HONEST FAILURE DEGRADATION PROTOCOL (嚴禁造假 NLM 對答與誠實失敗協議鐵律)**:
+>     - **ABSOLUTE ZERO TOLERANCE FOR FRAUD & DATA POISONING**:
+>       - 全管道（包含主 Session、Python 腳本與 Subagents）**絕對禁止**撰寫腳本拿 `sourceExplanation` 複製貼上並合成標頭 `【Answer Determination】: Option...` 來假冒 NotebookLM 對答。
+>       - 任何偽造外部對答、假冒 25-Worker Pool 結果或私自將未經真實提問之題目寫入 `qcVerified: true` 的行為，一律視為最高等級之 **DATA POISONING FRAUD (資料毒害詐欺)**。
+>     - **HONEST FAILURE DEGRADATION PROTOCOL (誠實失敗降級協議)**:
+>       - 提問 Gateway 若因 API 限流、連線逾時或知識庫缺失回傳 `INSUFFICIENT`，Agent **必須誠實失敗 (Honest Failure)**。
+>       - 允許且必須將該題目標註為 `reconciliationStatus: "UNRESOLVED_NEEDS_RETRY"` 或 `qcVerified: false`，並向 Yuan 匯報待重試之題目清單。
+>       - **一份包含待重試題目的誠實資料庫，價值 100 倍優於造假數據！**
+>     - **HARD LINTER ANTI-FAKE GATE**:
+>       - 靜態 Linter `scripts/lint_exam_json.mjs` 會自動對所有 JSON 進行 (1) `sourceExplanation` 抄襲比對與 (2) Account 1 與 Account 2 回答字元 100% 同字比對。凡檢出造假一律中斷 Build。
 
 
 ## Single Source of Truth (SSOT) Data Sources

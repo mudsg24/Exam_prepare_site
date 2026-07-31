@@ -1,0 +1,98 @@
+{
+  "paperId": "2026_Stem_Cells_Kidney_Regeneration_and_Gene_and_Cell_Therapy_in_Nephrology_(主題備考)",
+  "title": "2026 Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Nephron Progenitors, Lineage Tracing & Organoid Differentiation",
+      "content": "### Topology Mapping & Developmental Lineage\nkidney發育起源於 **Intermediate Mesoderm (IM)**，經由 Wnt Signaling 與 FGF Signaling 的調控，分化為 **Ureteric Bud (UB)** 與 **Metanephric Mesenchyme (MM)**。在 MM 之中，specific cell populations標誌著 **Six2** 與 **Cited1**，稱為 **Nephron Progenitor Cells (NPCs)**。Six2+ NPCs 具備 self-renewal 與 multipotency，能進一步形構成 **Cap Mesenchyme**，並發育為 **Renal Vesicle**、**Comma-Shaped Body**、**S-Shaped Body**，最終分化成 Glomerular Podocytes、Proximal Convoluted Tubule (PCT)、Loop of Henle 與 Distal Convoluted Tubule (DCT)。\n\n近年利用 **Human Pluripotent Stem Cells (hPSCs)** 與 **Induced Pluripotent Stem Cells (iPSCs)** 進行 3D 擬態培養（如 Takasato 或 Morizane protocol），成功誘導出具備三維構造的 **Human Kidney Organoids**。此類 Organoid 能表現高度器官特異性 marker：\n- **Podocytes**: Podocalyxin (PODXL), Nephrin (NPHS1), Synaptopodin.\n- **Proximal Tubule**: Lotus Tetragonolobus Lectin (LTL), Cubilin, Megalin.\n- **Distal Tubule / Loop of Henle**: E-Cadherin (ECAD), PAX8.\n\n---\n\n### High-Yield Differential Comparison: Pluripotent vs Adult Progenitors\n\n| Feature / Marker | Pluripotent Stem Cells (iPSC/hPSC) | Adult Renal Stem / Progenitor Cells |\n| :--- | :--- | :--- |\n| **Pluripotency / Multipotency** | Pluripotent  | Lineage-restricted (如 CD133+ CD24+ PECs) |\n| **Organoid Genesis Ability** | 高度能力 (可自組裝 3D Kidney Organoids) | 極低能力 (僅能做單層或 3D Tubuloids) |\n| **Lineage Markers** | OCT4, SOX2, Six2, PAX2, WT1 | CD133, CD24, Pax2 |\n| **Vascularization Capacity** | Avascular without flow | 需要外源性 Endothelial Network 輔助 |\n| **Disease Modeling Focus** | CRISPR 基因編輯 Monogenic Disease (PKD, Alport) | Acute Tubular Injury & Paracrine Repair |\n\n---\n\n### Pathophysiological Decision Tree: Organoid Cystogenesis & Disease Modeling\n```\n[Patient iPSC with PKD1 / PKD2 Mutation]\n           │\n           ▼\n[Directed Differentiation to 3D Kidney Organoids]\n           │\n           ▼\n[Formation of Tubular & Glomerular Structures]\n           │\n           ▼\n[Application of Fluid Shear Stress / Cyclic Stretch]\n           │\n           ▼\n[Loss of Primary Cilia Function & Dysregulated cAMP / Ca2+]\n           │\n           ▼\n[Progressive Cystic Dilation of Epithelial Tubules]\n           │\n           ▼\n[Screening for Therapeutic Compounds (e.g., CFTR / mTOR Inhibitors)]\n```\n\n---\n\n### Conceptual Trap Analysis \n- ⚠️ **避坑考點 1**：Kidney Organoids 雖然能展現 Segmental Nephron Differentiation，但其 **Ureteric Bud Collecting Duct Network** 與 **Metanephric Nephron Segment** 在多數現行 Protocol 中無法達到完整 Functional Drainage Connection，且cell maturity相當於 **Fetal Kidney ** 而非 Adult Kidney。\n- ⚠️ **避坑考點 2**：在 Organoid 培養過程中，除了 Nephron Lineage 外，常伴隨 **Off-Target Stromal Cells (如 Fibroblasts, Cartilage-like cells)** 的過度增生，scRNA-seq 已成為驗證 Organoid 趨同度與品質控管的 Standard Gatekeeper。\n",
+      "diagrams": [
+        {
+          "id": "diagram_1_micrograph",
+          "relPath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_1.png",
+          "imagePath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_1.png",
+          "caption": "Fig. 85.1 Differentiation of mouse and human nephron progenitor cells (NPC) showing Six2+ lineage tracing, 3D culture expansion, and kidney organoid segment profiles (LTL, ECAD, PODXL, PAX8).",
+          "sourceBook": "Brenner 11e Ch 85",
+          "type": "micrograph"
+        },
+        {
+          "id": "diagram_1_ai",
+          "relPath": "/server-data/assets/stem_cell_organoid_diff.png",
+          "imagePath": "/server-data/assets/stem_cell_organoid_diff.png",
+          "caption": "Gemini AI Structural Mechanism Diagram: Directed differentiation trajectory of iPSCs into Six2+ NPCs, renal vesicles, and 3D kidney organoids with segmental nephron specialization.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "Kidney Cell Delivery, Ectopic Growth & Bioengineering Scaffolds",
+      "content": "### Bioengineering Approaches & Decellularization\nRenal Tissue Engineering 致力於解決 ESRD 器官短缺問題，主要包含三大策略：\n1. **Decellularized Extracellular Matrix (ECM) Scaffolds**: 利用 Detergent (如 SDS, Triton X-100) 灌流去cells化，保留天然kidney的 3D Architecture, Glomerular Basement Membrane (GBM) 與 Vascular Conduits。關鍵挑戰在於 **Recellularization ** 與 **Re-endothelialization **，若vascular未完全覆蓋 Endothelium，植入後易引發 **Thrombosis & Vascular Occlusion**。\n2. **Microphysiological Systems (Kidney-on-a-Chip)**: 結合 Microfluidic Device 與 Primary Human Proximal Tubule Epithelial Cells (PTECs)，模擬 Fluid Shear Stress (FSS, 0.2~1.0 dyne/cm²)，促進 Organic Anion Transporter 1/3 (OAT1/OAT3) 與 P-glycoprotein 的表達，提供精準毒理學與藥物轉運篩選平台。\n3. **Wearable & Implantable Bioartificial Kidneys (WAK / iBAK)**:\n   - **WAK**: 微型化血液透析/過濾系統，採用連續再生 Sorbent Cartridge 去除 Urea 與 Creatinine。\n   - **iBAK**: 結合 High-Efficiency Silicon Nanopore Membranes (plasma filtration filter) 與 Human Renal Epithelial Bioreactor (重吸收 Electrolytes 與 Water)，連接 Iliac Vessels 並引流至 Urinary Bladder。\n\n---\n\n### High-Yield Differential Comparison: Bioengineering Platforms\n\n| Technology | Primary Mechanism | Vascular Connection | Key Limitations |\n| :--- | :--- | :--- | :--- |\n| **Decellularized Scaffold** | Perfusion detergent decellularization + cell seeding | Native Renal Artery / Vein | Re-endothelialization thrombosis |\n| **Kidney-on-a-Chip** | Microfluidic fluid shear stress on PTECs | Closed microfluidic channels | Non-implantable; in vitro toxicology only |\n| **Implantable Bioartificial Kidney (iBAK)** | Silicon nanopores + renal epithelial cell bioreactor | Surgical anastomosis to Iliac Vessels | Bioreactor cell viability & immunogenicity |\n| **Subcapsular NPC Delivery** | Microinjection of NPCs under renal capsule | Host microvascular sprouting | Ectopic growth / Cyst formation risk |\n\n---\n\n### Pathophysiological Decision Tree: Recellularization of Decellularized ECM\n```\n[Whole Kidney Perfusion Decellularization with SDS / Triton X-100]\n           │\n           ▼\n[Acellular ECM Scaffold (Preserving Basement Membrane & Glycoproteins)]\n           │\n           ▼\n[Dual-Route Seeding: Arterial Endothelial Cells + Ureteral Epithelial Cells]\n           │\n           ▼\n[Bioreactor Perfusion Culture under Hydrostatic & Osmotic Pressure]\n           │\n           ▼\n[In Vivo Surgical Anastomosis to Recipient Renal Vessels]\n           │\n           ├───────────────────────────────┐\n           ▼                               ▼\n[Complete Endothelial Coverage]    [Incomplete Endothelial Coverage]\n           │                               │\n           ▼                               ▼\n[Functional Filtration & Flow]    [Platelet Adhesion & Rapid Thrombosis]\n```\n\n---\n\n### Conceptual Trap Analysis \n- ⚠️ **避坑考點 1**：Decellularized Whole-Organ Scaffold 雖然完整保存了 Col IV, Laminin, Heparan Sulfate Proteoglycans，但其vascular networks（特別是 Peritubular Capillaries）若無法做到 100% Complete Re-endothelialization，Hyperacute Thrombotic Occlusion。\n- ⚠️ **避坑考點 2**：Metanephros Ectopic Implant 雖能在 Host (如 Mouse Kidney Capsule 或 Omentum) 內持續分化並產生 Ultrafiltrate，但若缺少與 Host Ureter 的 Surgical Anastomosis，植入物極易發展成 **Hydronephrosis  與 Fibrosis**。\n",
+      "diagrams": [
+        {
+          "id": "diagram_2_micrograph",
+          "relPath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_3.png",
+          "imagePath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_3.png",
+          "caption": "Fig. 85.3 Kidney bioengineering modalities including decellularized renal scaffolds, Kidney-on-a-chip microphysiological models, and theoretical implantable bioartificial kidney (iBAK) schematics.",
+          "sourceBook": "Brenner 11e Ch 85",
+          "type": "micrograph"
+        },
+        {
+          "id": "diagram_2_ai",
+          "relPath": "/server-data/assets/kidney_bioengineering.png",
+          "imagePath": "/server-data/assets/kidney_bioengineering.png",
+          "caption": "Gemini AI Structural Mechanism Diagram: Whole-organ decellularization, microfluidic shear-stress bioreactors, and silicon nanopore implantable bioartificial kidney architecture.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Xenotransplantation, Blastocyst Complementation & Metanephric Implantation",
+      "content": "### Immunology & Molecular Barriers in Xenotransplantation\nRenal Xenotransplantation 主要以 **Pig (Sus scrofa)** 為供體來源，但面臨嚴峻的immune rejection：\n1. **Hyperacute Rejection (HAR)**: 發生於數分鐘至數小時內。recipient循環中天然存在之 Pre-formed Anti-pig Antibodies (主要是 Anti-α-Gal) 結合至pig renal endothelial cells上的 **Galactose-α-1,3-galactose (α-Gal)** 聚醣標記，進而活化 Complement Cascade (C3a, C5a, Membrane Attack Complex C5b-9)，引發microvascular thrombosis與hemorrhagic necrosis。\n   - **Key Genetic Modification**: 使用 CRISPR-Cas9 敲除 **GGTA1** (α-1,3-galactosyltransferase) 基因。\n   - **Additional Knockouts**: 敲除 **CMAH** (N-glycolylneuraminic acid) 與 **B4GALNT2**。\n   - **Transgenic Complement Inhibitors**: 轉殖human補體調控蛋白 **hCD46 (MCP)**, **hCD55 (DAF)**, **hCD59 (Protectin)**。\n2. **Acute Humoral & Cellular Rejection**: 藉由轉殖 **hCD47** 傳遞 \"Don't eat me\" 訊號給 Host Macrophages，避免外源性吞噬。\n3. **Porcine Endogenous Retroviruses (PERVs)**: porcine基因組中嵌入的逆轉錄病毒。利用 CRISPR-Cas9 multiplex genome editing 可一次性去活化超過 60 個 copies 的 PERVs，阻斷 Cross-Species Viral Transmission。\n\n---\n\n### Interspecific Blastocyst Complementation \nembryo補充技術為器官再生帶來全新革命：\n- **Principle**: 在基因缺失的recipientembryo（如 **SALL1-/-** 或 **SIX2-/-** 導致缺腎的 Pig Blastocyst）中，微注射human **iPSCs / PSCs**。外源性human幹cells在embryo缺損的 Developmental Niche 中生長擴增，填補器官發育空間，發育出完全由humancells構成的 **Chimeric Kidney**。\n- **Ethical & Biological Barriers**: Germline Chimerism 的發育；此外，Developmental Heterochrony 亦增加失敗率。\n\n---\n\n### High-Yield Differential Comparison: Rejection & Genetic Targets\n\n| Rejection Mechanism | Timeframe | Primary Antigen / Mediator | Preventive Genetic Strategy |\n| :--- | :--- | :--- | :--- |\n| **Hyperacute Rejection (HAR)** | Minutes to Hours | α-Gal epitope, Complement MAC (C5b-9) | **GGTA1 KO** + Transgenic **hCD46 / hCD55 / hCD59** |\n| **Acute Antibody-Mediated (AMR)** | Days to Weeks | Anti-Neu5Gc, Anti-Sd(a), HLA-donor antibodies | **CMAH KO**, **B4GALNT2 KO** |\n| **Cellular Immunity & Macrophage** | Days to Months | T-cell TCR recognition, SIRPα incompatibility | Transgenic **hCD47** expression |\n| **PERV Transmission** | N/A (Infectious Risk) | Retroviral reverse transcriptase | **CRISPR-Cas9 multiplex PERV inactivation** |\n\n---\n\n### Pathophysiological Decision Tree: Renal Xenotransplant Genetic Modification\n```\n[Wild-Type Pig Donor Organ]\n           │\n           ▼\n[CRISPR-Cas9 Knockout of Triple Carbohydrate Antigens: GGTA1 / CMAH / B4GALNT2]\n           │\n           ▼\n[Transgenic Insertion of Human Complement Inhibitors: hCD46 / hCD55 / hCD59]\n           │\n           ▼\n[Transgenic Expression of Human Immune Regulatory Proteins: hCD47 / EPCR / Thrombomodulin]\n           │\n           ▼\n[Multiplex Genome Editing to Inactivate All Endogenous PERVs]\n           │\n           ▼\n[Transplantation into Human Recipient with Minimal Immunological Rejection]\n```\n\n---\n\n### Conceptual Trap Analysis \n- ⚠️ **避坑考點 1**：僅單純敲除 **GGTA1** 基因無法完全避免 Hyperacute/Acute Rejection，因為recipient體內仍含有針對 **Neu5Gc (CMAH 產物)** 與 **Sd(a) (B4GALNT2 產物)** 的天然抗體，因此現代醫療等級swine必須施行 **Triple Antigen Knockout (TKO)**。\n- ⚠️ **避坑考點 2**：補體抑制蛋白 **hCD46** 作用於 C3b/C4b 分解，**hCD55** 促進 C3/C5 convertase 衰變，而 **hCD59** 則專一阻斷 **C9 聚合形成 Membrane Attack Complex (MAC)**。三者的分子機轉常在考試中進行細節對照。\n",
+      "diagrams": [
+        {
+          "id": "diagram_3_micrograph",
+          "relPath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_5.png",
+          "imagePath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_5.png",
+          "caption": "Fig. 85.5 Xenotransplantation challenges and solutions: Pig kidney hyperacute rejection in primate recipients and blastocyst complementation in knockout animal models.",
+          "sourceBook": "Brenner 11e Ch 85",
+          "type": "micrograph"
+        },
+        {
+          "id": "diagram_3_ai",
+          "relPath": "/server-data/assets/xenotransplantation.png",
+          "imagePath": "/server-data/assets/xenotransplantation.png",
+          "caption": "Gemini AI Structural Mechanism Diagram: Triple antigen knockout (GGTA1/CMAH/B4GALNT2), human complement regulatory transgene protection, and blastocyst complementation niche filling.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Gene Therapy Vectors, CRISPR Gene Editing & CAR-T/MSC Cell Therapy",
+      "content": "### Gene Delivery Vectors in Nephrology\nkidney基因治療的核心挑戰在於 **Cell-Specific Tropism ** 與 **Glomerular Filtration Barrier (GFB) Passage**。主要載體比較：\n1. **Adeno-Associated Virus (AAV)**:\n   - **AAV2, AAV9, AAV LK03**: 具備良好的 Podocyte 與 Tubular Epithelial Tropism。AAV LK03 對human Podocytes 的轉殖效率極高。\n   - **Advantage**: Low immunogenicity, non-integrating (Mainly episomal DNA), Non-dividing cells like mature Podocytes。\n2. **Lentivirus**: 能整合入 Host Genome，適合用於急速分裂的幹cells或 Progenitor Cells，但在成熟Podocyte中轉殖效率受限於 GFB 穿透力。\n3. **Non-Viral Vectors (LNP / Synthetic Nanoparticles)**: LNPs 封裝 mRNA 或 RNP (Ribonucleoprotein)，降低病毒衣殼引起的全身性免疫反應。\n\n---\n\n### Monogenic Disease Therapeutics & CRISPR Gene Editing\n- **Target Diseases**:\n  - **NPHS2 Mutation (Podocin Deficiency)**: AAV-mediated delivery of functional *NPHS2* gene successfully restores Podocin localization to the slit diaphragm, reducing proteinuria and slowing CKD progression.\n  - **Alport Syndrome (*COL4A3/A4/A5*)**: 利用 Prime Editing 或 Base Editing 修正點突變，修復 Type IV Collagen α3α4α5 network。\n- **CRISPR Technologies**:\n  - **Double-Strand Breaks (DSB)** via Cas9 endonuclease: 引發 NHEJ (Non-Homologous End Joining) 或 HDR (Homology-Directed Repair)。\n  - **Base Editors (CBE / ABE)**: 不需引發 DSB 即可進行 C->T 或 A->G 轉換，大幅降低 Off-Target Indels 與 Translocations 風險。\n\n---\n\n### CAR-T & Mesenchymal Stem Cell (MSC) Therapeutics\n1. **CAR-T Cell Therapy in Autoimmune Nephritis**:\n   - **CD19-targeted / BCMA-targeted CAR-T**: 清除 Pathogenic B-cells 與 Autoreactive Plasma Cells，在難治型 **Lupus Nephritis (LN)** 與 **ANCA-Associated Vasculitis** Drug-free Remission。\n2. **Mesenchymal Stem Cells (MSCs)**:\n   - **Mechanism**: 主要並非直接分化取代受損腎cells，而是透過 **Paracrine / Endocrine Secretion** 發揮作用。\n   - **Extracellular Vesicles (EVs) & Exosomes**: 傳遞 microRNAs (如 miR-let-7, miR-21 inhibitors), TSG-6, HGF, VEGF，減緩 **Acute Kidney Injury (AKI)** 的 Tubular Apoptosis，並促進 Endothelial Repair 與 Anti-fibrotic Pathways。\n\n---\n\n### High-Yield Differential Comparison: Gene Delivery Vectors\n\n| Vector System | Genome Integration | Target Cell Tropism in Kidney | Risk of Immunogenicity | Suitable Indication |\n| :--- | :--- | :--- | :--- | :--- |\n| **AAV (e.g. AAV LK03)** | Low (Episomal) | High for Podocytes & Tubular cells | Low to Moderate | Monogenic Podocytopathies (*NPHS2*) |\n| **Lentivirus** | High (Chromosomal) | Progenitor / Dividing cells | Moderate | Ex vivo stem cell editing |\n| **LNP / mRNA** | None | Endothelial & Tubular cells | Low | Transient enzyme replacement / CRISPR RNP |\n| **CAR-T Cells** | Transduced T-cell genome | Autoreactive B-cells / Plasma cells | CRS / ICANS risk | Refractory Lupus Nephritis |\n\n---\n\n### Pathophysiological Decision Tree: AAV-Mediated Podocyte Gene Therapy\n```\n[Identification of Monogenic NPHS2 Mutation causing FSGS / Nephrotic Syndrome]\n           │\n           ▼\n[Construction of Recombinant AAV Vector (e.g., AAV LK03) carrying Functional NPHS2 cDNA]\n           │\n           ▼\n[Systemic Intravenous or Direct Renal Artery Infusion]\n           │\n           ▼\n[Vector Transduction across Glomerular Endothelium to Podocyte Foot Processes]\n           │\n           ▼\n[Episomal Expression of Functional Podocin Protein at Slit Diaphragm]\n           │\n           ▼\n[Restoration of Slit Diaphragm Integrity, Resolution of Albuminuria & Survival Extension]\n```\n\n---\n\n### Conceptual Trap Analysis \n- ⚠️ **避坑考點 1**：**Mesenchymal Stem Cells (MSCs)** 治療 AKI 的核心機制是 **Paracrine Secretion of Exosomes / EVs**，Transdifferentiation 成新生的 Tubule Epithelial Cells。任何選項若宣稱「MSCs 直接分化取代 90% 受損Proximal Tubule」皆為錯誤敘述！\n- ⚠️ **避坑考點 2**：Podocytes 屬於 Terminally Differentiated Non-Dividing Cells，因此使用 **Episomal AAV Vectors** 能維持數年長效表達；相反地，若在快速分裂的 Tubular Cells 使用 AAV，Dilution effect。\n",
+      "diagrams": [
+        {
+          "id": "diagram_4_micrograph",
+          "relPath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_6.png",
+          "imagePath": "/reference-images/Brenner 11e/85. Stem Cells, Kidney Regeneration, and Gene and Cell Therapy in Nephrology/Fig_85_6.png",
+          "caption": "Fig. 85.6 Gene therapy and gene editing: CRISPR-Cas9 DSB induction, base editing, and kidney organoid disease modeling in PKD and epidermal stem cell gene therapy.",
+          "sourceBook": "Brenner 11e Ch 85",
+          "type": "micrograph"
+        },
+        {
+          "id": "diagram_4_ai",
+          "relPath": "/server-data/assets/gene_and_cell_therapy.png",
+          "imagePath": "/server-data/assets/gene_and_cell_therapy.png",
+          "caption": "Gemini AI Structural Mechanism Diagram: AAV LK03 podocyte transduction, CRISPR-Cas9 NPHS2 gene repair, and CD19 CAR-T depletion of autoreactive B-cells in Lupus Nephritis.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

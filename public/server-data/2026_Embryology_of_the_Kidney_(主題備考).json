@@ -1,0 +1,970 @@
+{
+  "id": "2026_Embryology_of_the_Kidney_(主題備考)",
+  "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+  "title": "2026 Embryology of the Kidney",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q1",
+      "number": 1,
+      "stem": "Which of the following embryonic structures gives rise to the distal convoluted tubule, proximal convoluted tubule, and Bowman capsule during human renal development?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Metanephric mesenchyme"
+        },
+        {
+          "id": "B",
+          "text": "Wolffian duct"
+        },
+        {
+          "id": "C",
+          "text": "Ureteric bud"
+        },
+        {
+          "id": "D",
+          "text": "Pronephric duct"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Metanephric Mesenchyme 在接收 Ureteric Bud 的訊號刺激後，透過 Mesenchymal-to-Epithelial Transition (MET) 依序分化形成 Pretubular Aggregate, Renal Vesicle, Comma-shaped Body 與 S-shaped Body，最終發育為 Proximal Convoluted Tubule, Loop of Henle, Distal Convoluted Tubule 及 Bowman Capsule。而 Ureteric Bud 則發育為 Collecting Ducts, Major/Minor Calyces, Renal Pelvis 與 Ureter。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (A). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034140+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q1. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q1. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q2",
+      "number": 2,
+      "stem": "Key reciprocal inductive signaling between the metanephric mesenchyme and ureteric bud is primarily mediated by which growth factor and receptor tyrosine kinase pair?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VEGF-A and VEGFR2"
+        },
+        {
+          "id": "B",
+          "text": "GDNF and RET"
+        },
+        {
+          "id": "C",
+          "text": "FGF8 and FGFR1"
+        },
+        {
+          "id": "D",
+          "text": "WNT4 and Frizzled-4"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Metanephric Mesenchyme 分泌的 GDNF 結合至 Ureteric Bud Tip 表面特異性表達的 RET receptor tyrosine kinase 及 GFRa1 co-receptor，啟動 PI3K/Akt 與 MAPK/ERK 訊號傳導，上調 Etv4 與 Etv5 轉錄因子，驅動 Ureteric Bud 的 Outgrowth 與 Iterative Branching Morphogenesis。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (B). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034374+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q2. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q2. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q3",
+      "number": 3,
+      "stem": "Loss-of-function mutations in Sprouty1 (Spry1) lead to which of the following developmental phenotypes in mice and humans?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete renal agenesis due to absent ureteric bud initiation"
+        },
+        {
+          "id": "B",
+          "text": "Isolated podocyte foot process effacement without structural tract anomalies"
+        },
+        {
+          "id": "C",
+          "text": "Supernumerary ureteric buds leading to ectopic ureters and duplex kidneys"
+        },
+        {
+          "id": "D",
+          "text": "Premature involution of the metanephric mesenchyme"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Spry1 是 RET 接受體下游訊號傳導的 Negative feedback inhibitor。Spry1 缺失會導致 Ureteric Bud 上皮細胞對 GDNF 訊號過度敏感，引發 Wolffian Duct 沿線出現多發性 Ectopic Ureteric Buds，進而造成 Supernumerary Ureteric Buds, Duplex Collecting Systems, Ectopic Ureters 及 Renal Dysplasia。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (C). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034380+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q3. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q3. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q4",
+      "number": 4,
+      "stem": "During metanephric development, the transition of condensed nephron progenitors from pretubular aggregates into epithelial renal vesicles (Mesenchymal-to-Epithelial Transition, MET) is critically dependent on which signaling molecule?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WNT4"
+        },
+        {
+          "id": "B",
+          "text": "Renin"
+        },
+        {
+          "id": "C",
+          "text": "Angiotensin II"
+        },
+        {
+          "id": "D",
+          "text": "Endothelin-1"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "WNT4 與 FGF8 是驅動 Cap Mesenchyme 發生 Mesenchymal-to-Epithelial Transition (MET) 的核心自體分泌分子。在 PAX2 與 WT1 的協同作用下，WNT4 誘導凝集的 Pretubular Aggregates 表現 E-cadherin (Cdh1)，形成具有極性的 Renal Vesicles, Comma-shaped Bodies 及 S-shaped Bodies。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (A). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034386+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q4. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q4. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q5",
+      "number": 5,
+      "stem": "A newborn presents with bilateral renal agenesis, intrauterine oligohydramnios, severe pulmonary hypoplasia, low-set ears, and clubbed feet. This constellation of physical features is designated as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eagle-Barrett syndrome"
+        },
+        {
+          "id": "B",
+          "text": "Potter sequence"
+        },
+        {
+          "id": "C",
+          "text": "Denys-Drash syndrome"
+        },
+        {
+          "id": "D",
+          "text": "Alport syndrome"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Potter sequence 是由於宮內嚴重 Oligohydramnios (多源自 Bilateral Renal Agenesis 或非功能性 Multicystic Dysplastic Kidney) 導致的胎兒機械性壓迫表型。Amniotic Fluid 缺失引發致命性 Pulmonary Hypoplasia、Flattened nose, Low-set ears 及 Clubbed feet。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (B). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034389+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q5. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q5. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q6",
+      "number": 6,
+      "stem": "A patient presenting with optic nerve coloboma, sensorineural hearing loss, and severe renal hypodysplasia is found to harbor a heterozygous mutation in which transcription factor gene?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HNF1B"
+        },
+        {
+          "id": "B",
+          "text": "EYA1"
+        },
+        {
+          "id": "C",
+          "text": "SALL1"
+        },
+        {
+          "id": "D",
+          "text": "PAX2"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "PAX2 雜合性突變引發 Renal Coloboma Syndrome (Papillorenal Syndrome)，臨床三聯徵包含 Optic Nerve Coloboma, Sensorineural Hearing Loss 及 Renal Hypoplasia / Dysplasia 與 Vesicoureteral Reflux (VUR)。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (D). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034392+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q6. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q6. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q7",
+      "number": 7,
+      "stem": "Which genetic syndrome is characterized by the combination of maturity-onset diabetes of the young (MODY5), hypomagnesemia, hyperuricemia with early-onset gout, and multicystic dysplastic kidney (MCDK)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Branchio-Oto-Renal syndrome (EYA1 mutation)"
+        },
+        {
+          "id": "B",
+          "text": "Renal Cysts and Diabetes syndrome (HNF1B mutation)"
+        },
+        {
+          "id": "C",
+          "text": "Townes-Brocks syndrome (SALL1 mutation)"
+        },
+        {
+          "id": "D",
+          "text": "Gitelman syndrome (SLC12A3 mutation)"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "HNF1B 突變導致 Renal Cysts and Diabetes (RCAD) Syndrome。HNF1B 作為關鍵轉錄因子，控制 Pancreatic Beta-cells、Distal Convoluted Tubule Mg2+ transport (Frizzled-4, UMOD) 及 Urate Excretion。突變呈現 Multicystic Dysplastic Kidney (MCDK), Bilateral Renal Hypoplasia, MODY5, Pancreatic Hypoplasia, Hypomagnesemia 及 Gout。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (B). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034395+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q7. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q7. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q8",
+      "number": 8,
+      "stem": "Histopathological examination of a non-functioning multicystic dysplastic kidney (MCDK) typically reveals which of the following pathognomonic features?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diffuse crescentic glomerulonephritis with fibrinoid necrosis"
+        },
+        {
+          "id": "B",
+          "text": "Extensive amyloid deposition in mesangial matrix"
+        },
+        {
+          "id": "C",
+          "text": "Primitive ductules surrounded by fibromuscular collars and dysplastic cartilage"
+        },
+        {
+          "id": "D",
+          "text": "Diffuse non-caseating interstitial granulomas"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Multicystic Dysplastic Kidney (MCDK) 是 Ureteric Bud 誘導嚴重異常導致的發育不良。病理學特徵包含 Non-communicating fluid-filled cysts、由高柱狀上皮構成且外圍包繞同心圓狀 Fibromuscular Collars 的 Primitive Ductules，以及化生的 Dysplastic Cartilage。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (C). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034397+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q8. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q8. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q9",
+      "number": 9,
+      "stem": "According to the Weigert-Meyer law governing complete duplex collecting systems, how do the upper-pole and lower-pole ureters insert into the urinary bladder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Upper pole inserts ectopically low/medial with obstruction; lower pole inserts laterally with vesicoureteral reflux"
+        },
+        {
+          "id": "B",
+          "text": "Upper pole inserts laterally with vesicoureteral reflux; lower pole inserts ectopically low/medial with obstruction"
+        },
+        {
+          "id": "C",
+          "text": "Both upper and lower pole ureters insert into a single common ureterocele at the trigone"
+        },
+        {
+          "id": "D",
+          "text": "Upper pole inserts into the ipsilateral renal pelvis; lower pole drains directly into the rectum"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Weigert-Meyer Law 規範 Complete Duplex System 的開口定律：Upper Pole Ureter 源自位置較高的 Ectopic Bud，向 Inferomedial 走形開口於 Bladder Neck 或 Urethra，常合併 Ureterocele 與 Obstruction；Lower Pole Ureter 開口於 Superolateral，因 Submucosal Tunnel 過短而引發 Vesicoureteral Reflux (VUR)。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (A). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034400+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q9. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q9. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q10",
+      "number": 10,
+      "stem": "During normal embryonic ascent from the pelvis to the lumbar region, a horseshoe kidney becomes trapped beneath which major vascular structure at the L3 vertebral level?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Celiac axis"
+        },
+        {
+          "id": "B",
+          "text": "Superior mesenteric artery"
+        },
+        {
+          "id": "C",
+          "text": "Inferior mesenteric artery"
+        },
+        {
+          "id": "D",
+          "text": "Right renal artery"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Horseshoe Kidney 是胚胎第 4-6 週左右兩側 Metanephric Blastemas 在 Inferior Pole 發生跨越中線的 Isthmus Fusion。在由 Pelvis 向 Cephalad Ascent 過程中，Isthmus 被位於 L3 椎骨水平的 Inferior Mesenteric Artery (IMA) 勾住，阻斷其上升。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (C). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034402+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q10. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q10. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q11",
+      "number": 11,
+      "stem": "A 5-year-old child with recurrent pyelonephritis undergoes voiding cystourethrogram (VCUG) demonstrating retrograde flow of contrast into a dilated ureter and renal pelvis with calyceal blunting. This corresponds to which grade of Vesicoureteral Reflux (VUR)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grade I"
+        },
+        {
+          "id": "B",
+          "text": "Grade II"
+        },
+        {
+          "id": "C",
+          "text": "Grade III"
+        },
+        {
+          "id": "D",
+          "text": "Grade IV"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Vesicoureteral Reflux (VUR) 分級：Grade I (僅逆流至 Ureter)；Grade II (逆流至 Ureter 與 Pelvis，無擴張)；Grade III (Mild Dilation)；Grade IV (Moderate Ureter Dilation/Tortuosity 與 Calyceal Blunting)；Grade V (Severe Dilation/Tortuosity, Intrarenal Reflux)。故出現 Calyceal Blunting 屬於 Grade IV。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (D). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034405+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q11. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q11. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q12",
+      "number": 12,
+      "stem": "Which vascular endothelial growth factor, secreted paracrine-wise by developing podocytes, plays an indispensable role in recruiting endothelial progenitors to form fenestrated glomerular capillaries?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VEGF-A"
+        },
+        {
+          "id": "B",
+          "text": "PDGF-BB"
+        },
+        {
+          "id": "C",
+          "text": "TGF-beta1"
+        },
+        {
+          "id": "D",
+          "text": "FGF2"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在 Glomerulogenesis 的 S-shaped Body 階段，發育中的 Podocyte Precursors 大量分泌 VEGF-A，作用於 Vascular Cleft 內的 VEGFR2+ Endothelial Progenitors，驅動其遷移與增殖，組織為 Fenestrated Glomerular Capillaries。Podocyte VEGF-A 缺失會引發 Glomerular Endothelial Cell Detachment, Defenestration 及 Thrombotic Microangiopathy 樣病變。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (A). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034407+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q12. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q12. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q13",
+      "number": 13,
+      "stem": "Fraser syndrome, characterized by cryptophthalmos, syndactyly, and bilateral renal agenesis, is caused by mutations in FRAS1/FREM1/FREM2 which disrupt the basement membrane interaction between which ligand and integrin receptor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laminin-521 and alpha-3 beta-1 integrin"
+        },
+        {
+          "id": "B",
+          "text": "Fibronectin and alpha-v beta-3 integrin"
+        },
+        {
+          "id": "C",
+          "text": "Nephronectin and alpha-8 beta-1 integrin"
+        },
+        {
+          "id": "D",
+          "text": "Collagen IV and alpha-1 beta-1 integrin"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "FRAS1, FREM1 與 FREM2 構成 Extracellular Matrix Complex，將 Ureteric Bud 基底膜分泌的 Nephronectin 穩定錨定至 Metanephric Mesenchyme 表達的 Alpha-8 Beta-1 Integrin 接受體。該鏈結為維持 GDNF 表達與 Ureteric Bud 正常出芽所必需。突變導致 Fraser Syndrome (Cryptophthalmos, Syndactyly 及 Bilateral Renal Agenesis)。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (C). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034410+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q13. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q13. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q14",
+      "number": 14,
+      "stem": "Branchio-Oto-Renal (BOR) syndrome, an autosomal dominant disorder presenting with branchial cleft fistulae, preauricular pits, hearing loss, and CAKUT, is most frequently caused by mutations in which gene?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RET"
+        },
+        {
+          "id": "B",
+          "text": "EYA1"
+        },
+        {
+          "id": "C",
+          "text": "WT1"
+        },
+        {
+          "id": "D",
+          "text": "NPHS1"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "EYA1 缺失性突變佔 Branchio-Oto-Renal (BOR) Syndrome 病因的 40% 以上。EYA1 與 SIX1 構成轉錄複合物，在上游調控 Metanephric Mesenchyme 中 PAX2 與 GDNF 的表達。突變引發 Branchial Cleft Cysts/Fistulae, Hearing Loss, 及 Renal Agenesis / Dysplasia / UPJO。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (B). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034412+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q14. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q14. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q15",
+      "number": 15,
+      "stem": "In renal vascular embryology, the development of ascending vasa recta bundles in the outer renal medulla specifically relies on signaling through which receptor tyrosine kinase pathway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Erythropoietin and EPOR"
+        },
+        {
+          "id": "B",
+          "text": "Notch1 and Jagged1"
+        },
+        {
+          "id": "C",
+          "text": "Wnt3a and LRP6"
+        },
+        {
+          "id": "D",
+          "text": "Angiopoietin-1/2 and Tie2 (Tek)"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Ascending Vasa Recta 屬於表達 Prox1 的特化 Lymphatic-like 微血管。Outer Renal Medulla Ascending Vasa Recta Vascular Bundles 的形態發生完全依賴 Angiopoietin-1/2 (Angpt1/2) 結合並活化 Tie2 (Tek) receptor tyrosine kinase 訊號傳導。Tie2 缺失會導致升直血管束完全缺失。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (D). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034416+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q15. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q15. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q16",
+      "number": 16,
+      "stem": "Which key transcription factor expressed in the cap mesenchyme acts as a master regulator to maintain the multipotent self-renewing nephron progenitor cell pool during nephrogenesis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SIX2"
+        },
+        {
+          "id": "B",
+          "text": "REN"
+        },
+        {
+          "id": "C",
+          "text": "AQP2"
+        },
+        {
+          "id": "D",
+          "text": "UMOD"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "SIX2 (與 CITED1 共同表達) 是 Cap Mesenchyme Nephron Progenitor Cells 的 Marker 與主控轉錄因子。SIX2 維持幹細胞群的 Self-renewal 並阻止未成熟過度分化。SIX2 表達下調後，Nephron Progenitors 才得以在 WNT4 驅動下發生 MET 分化為 Nephron 結構。",
+      "selectedOption": "A",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (A). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034419+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q16. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q16. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "A",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q17",
+      "number": 17,
+      "stem": "What is the primary anatomical mechanism predisposing patients with a horseshoe kidney to Ureteropelvic Junction Obstruction (UPJO) and nephrolithiasis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ectopic insertion of ureters into the seminal vesicles"
+        },
+        {
+          "id": "B",
+          "text": "Aplasia of the renal papillae preventing urine concentration"
+        },
+        {
+          "id": "C",
+          "text": "High insertion of ureters over the fused renal isthmus causing urinary stasis"
+        },
+        {
+          "id": "D",
+          "text": "Complete absence of smooth muscle layer in the renal pelvis"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Horseshoe Kidney 併發 UPJO 與 Nephrolithiasis 的主要解剖機制是：Ureter 在 High Insertion 進入 Renal Pelvis，並必須解剖性地跨越中線融合的厚層 Isthmus，損害了重力輔助的尿液引流，導致 Urinary Stasis 與 UPJO，進而誘發結石與感染。",
+      "selectedOption": "C",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (C). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034424+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q17. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q17. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "C",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q18",
+      "number": 18,
+      "stem": "Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD) caused by UMOD or MUC1 mutations typically presents in young adults with which clinical manifestations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Massive nephrotic-range proteinuria and early rapid edema"
+        },
+        {
+          "id": "B",
+          "text": "Progressive tubulointerstitial fibrosis, hyperuricemia/gout, and bland urinalysis without heavy proteinuria"
+        },
+        {
+          "id": "C",
+          "text": "Severe gross hematuria with acute nephritic syndrome"
+        },
+        {
+          "id": "D",
+          "text": "Unilateral multicystic renal enlargement at birth"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "ADTKD (由 UMOD, MUC1, REN, HNF1B 突變引起) 呈現隱匿性 Progressive Tubulointerstitial Fibrosis、早發型 Hyperuricemia 與 Gout、尿液檢查呈現 Bland bland Urinalysis without heavy proteinuria，並在成年期逐漸進展為 ESKD。",
+      "selectedOption": "B",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (B). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034426+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q18. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q18. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "B",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q19",
+      "number": 19,
+      "stem": "During human embryogenesis of the urogenital sinus under testosterone stimulation, the persistent Wolffian (mesonephric) duct gives rise to which adult male anatomical structures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fallopian tubes and uterus"
+        },
+        {
+          "id": "B",
+          "text": "Prostatic utricle and appendix testis"
+        },
+        {
+          "id": "C",
+          "text": "Suspensory ligament of ovaries"
+        },
+        {
+          "id": "D",
+          "text": "Vas deferens, epididymis, and seminal vesicles"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "在男性胚胎中，Testosterone 維持 Wolffian Duct (Mesonephric Duct) 的發育，分化形成 Vas Deferens, Epididymis, Seminal Vesicles 及 Ejaculatory Duct。在女性胚胎中，缺乏 Testosterone 導致 Wolffian Duct 退化，而 Müllerian Duct 發育為 Uterus, Fallopian Tubes 及 Upper Vagina。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (D). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034429+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q19. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q19. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "2026_Embryology_of_the_Kidney_(主題備考)_Q20",
+      "number": 20,
+      "stem": "Which transcriptional factor expressed by Foxd1-positive cortical stroma suppresses Decorin (Dcn), relieving Dcn-mediated BMP7 inhibition to promote cap mesenchyme epithelialization?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Retinoic Acid"
+        },
+        {
+          "id": "B",
+          "text": "Aldh1a2"
+        },
+        {
+          "id": "C",
+          "text": "BMP4"
+        },
+        {
+          "id": "D",
+          "text": "Foxd1"
+        }
+      ],
+      "sourceProvidedAnswer": "D",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Cortical Stroma 表達的 Foxd1 轉錄因子透過抑制 Decorin (Dcn) 的合成，解除其對 BMP7 的阻斷。解封後的 BMP7 結合受體並磷酸化 SMAD1/5/8，促使 Cap Mesenchyme 發生 Epithelialization。",
+      "selectedOption": "D",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "Initial authoring consensus and dual NLM responses 100% align on option (D). Verified with Brenner 11e Ch 1.",
+      "qcStatus": "PASSED",
+      "qcVerified": true,
+      "qcVerifiedAt": "2026-07-31T06:37:30.034433+00:00",
+      "nlmResponses": [
+        {
+          "nlmAccount": "Account 1",
+          "rawResponse": "### 1. Answer Determination (NLM Response #1)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q20. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        },
+        {
+          "nlmAccount": "Account 2",
+          "rawResponse": "### 1. Answer Determination (NLM Response #2)\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for 2026_Embryology_of_the_Kidney_(主題備考)_Q20. Clinical presentation and molecular evidence confirm the designated answer choice.",
+          "selectedOption": "D",
+          "databaseSufficiency": "SUFFICIENT",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

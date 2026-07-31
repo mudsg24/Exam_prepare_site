@@ -1,0 +1,146 @@
+{
+  "id": "2026_Fanconi_syndrome_(主題備考)",
+  "paperId": "2026_Fanconi_syndrome_(主題備考)",
+  "title": "2026 Fanconi Syndrome (范可尼氏症候群) 近曲小管重吸收缺陷、分子轉運體變異、次發性原因、臨床併發症與專科試題實戰",
+  "topic": "Fanconi Syndrome",
+  "sourceCategory": "2026 Electrolytes",
+  "year": 2026,
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Molecular Pathophysiology & Epithelial Transport Defects in Fanconi Syndrome",
+      "content": "Fanconi Syndrome 的核心病理機轉在於 Proximal Tubule 的廣泛性重吸收障礙。正常情況下，Proximal Tubule 負責重吸收大量過濾的 Solutes，包括 Glucose、Amino Acids、Uric Acid、Phosphate 與 Bicarbonate。當 Apical Membrane 上的各種 Cotransporters 或是 Basolateral Membrane 上的 Na-K-ATPase 功能受損，甚至發生 Intracellular ATP depletion 時，便會導致這些 Solutes 大量流失於 Urine 中。\n\n### Topology Mapping Matrix \n- **Apical Membrane Defects**: 涉及 Sodium-coupled Cotransporters 的全面性失能，導致 Glucosuria、Aminoaciduria 與 Phosphaturia。\n- **Basolateral Membrane Defects**: Na-K-ATPase 的活性下降無法維持 Intracellular Sodium Gradient，進一步削弱 Apical Membrane 上的 Secondary Active Transport。\n- **Metabolic Energy Failure**: Mitochondrial Dysfunction 造成 ATP 供應不足，為多數 Acquired 與 Inherited 病因的共通 Final Common Pathway。\n\n### Conceptual Trap Analysis \n在鑑別診斷時，必須釐清 Fanconi Syndrome 與單一轉運體缺陷的差異。例如單純的 Renal Glucosuria (SGLT2 突變) 或 Hartnup Disease，僅侷限於單一或特定種類的 Solute 流失，而 Fanconi Syndrome 則是 Generalized Proximal Tubular Dysfunction。此外，即使出現 Glucosuria，患者的 Serum Glucose 通常為正常，這是區分 Diabetes Mellitus 的關鍵點。",
+      "images": [
+        {
+          "id": "img-1-1",
+          "relPath": "/server-data/assets/Brenner_Fig_44_1.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_1.png",
+          "caption": "Normal transport mechanisms in the Proximal Tubule.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "img-1-2",
+          "relPath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "imagePath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "caption": "Defective cotransport mechanisms in Fanconi Syndrome.",
+          "sourceBook": "Gemini AI Mechanism",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
+        {
+          "id": "sec-1_diag",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "imagePath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "caption": "Proximal Tubule Epithelial Transport Mechanisms"
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "Inherited Etiologies of Fanconi Syndrome & Differential Matrix",
+      "content": "探討 Inherited Fanconi Syndrome 時，必須針對病理基因與受影響的代謝產物進行精確匹配。在孩童時期，Cystinosis 是最常見的先天性原因，其由於 CTNS 基因突變導致 Cystine 於 Lysosome 內異常堆積，進而引發細胞毒性與 Proximal Tubule 損傷。其他重要病因涵蓋 Galactosemia、Hereditary Fructose Intolerance、Tyrosinemia Type 1 以及 Wilson Disease。\n\n### High-Yield Differential Comparison Tables \n| Disease | Defective Gene/Enzyme | Key Accumulating Metabolite | Extrarenal Manifestations |\n| :--- | :--- | :--- | :--- |\n| Cystinosis | CTNS (Cystinosin) | Cystine in Lysosomes | Corneal Crystals, Hypothyroidism, Growth Retardation |\n| Wilson Disease | ATP7B | Copper | Kayser-Fleischer Rings, Hepatic Cirrhosis, Basal Ganglia Degeneration |\n| Tyrosinemia Type 1 | Fumarylacetoacetate Hydrolase | Succinylacetone | Hepatocellular Carcinoma, Peripheral Neuropathy |\n| Lowe Syndrome | OCRL1 (PIP2-5-Phosphatase) | PIP2 dysregulation | Congenital Cataracts, Mental Retardation |\n| Hereditary Fructose Intolerance | Aldolase B | Fructose-1-Phosphate | Hypoglycemia post-fructose ingestion, Hepatomegaly |\n\n### Pathophysiological Decision Trees \n當患者呈現 Fanconi Syndrome 且伴隨 Corneal Crystals，應直接導向 Cystinosis 的診斷。若患者同時有 Kayser-Fleischer Rings 與 Low Serum Ceruloplasmin，則應高度懷疑 Wilson Disease。透過此決策樹可將繁雜的 Inherited Etiologies 進行快速收斂。",
+      "images": [
+        {
+          "id": "img-2-1",
+          "relPath": "/server-data/assets/Brenner_Table_44_2.png",
+          "imagePath": "/server-data/assets/Brenner_Table_44_2.png",
+          "caption": "Inherited causes of Fanconi Syndrome.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "img-2-2",
+          "relPath": "/server-data/assets/Brenner_Fig_44_3.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_3.png",
+          "caption": "Lysosomal cystine accumulation in Cystinosis.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "img-2-3",
+          "relPath": "/server-data/assets/fanconi_inherited_etiology.jpg",
+          "imagePath": "/server-data/assets/fanconi_inherited_etiology.jpg",
+          "caption": "Differential decision tree for inherited Fanconi Syndrome.",
+          "sourceBook": "Gemini AI Mechanism",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
+        {
+          "id": "sec-2_diag",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "imagePath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "caption": "Proximal Tubule Epithelial Transport Mechanisms"
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "Acquired Fanconi Syndrome & Drug Toxicity Spectrum",
+      "content": "相較於孩童，成人的 Fanconi Syndrome 大多為 Acquired，其中以 Drug Toxicity 與 Paraproteinemia 最為關鍵。Multiple Myeloma 患者會產生異常的 Monoclonal Light Chains，這些 Light Chains 會在 Proximal Tubule 的 Endosome 內形成結晶，並干擾 Lysosomal function，造成嚴重的細胞受損。在藥物毒性方面，Tenofovir (特別是 Tenofovir Disoproxil Fumarate, TDF) 是最為經典的致病藥物。\n\n### Pathophysiological Decision Trees \nTenofovir 進入 Proximal Tubule Cell 後，會抑制 Mitochondrial DNA Polymerase Gamma，造成 Mitochondrial DNA Depletion，隨後引發 Oxidative Phosphorylation 障礙與 ATP 枯竭。這種 Mitochondrial Toxicity 是引發藥物性 Fanconi Syndrome 的核心路徑。其他具備類似毒性的藥物包括 Ifosfamide、Cisplatin、Aminoglycosides 與 Valproic Acid。\n\n### Conceptual Trap Analysis \n在鑑別 Tenofovir 引起的 Nephrotoxicity 時，必須注意 Tenofovir Alafenamide (TAF) 相對較少進入 Proximal Tubule，因此其引發 Fanconi Syndrome 的風險顯著低於 TDF。此外，Multiple Myeloma 引起的腎病變不只有 Myeloma Cast Nephropathy，當 Light Chains 直接造成 Proximal Tubule 損傷時，患者會表現出典型的 Fanconi Syndrome 合併 Normal Anion Gap Metabolic Acidosis。",
+      "images": [
+        {
+          "id": "img-3-1",
+          "relPath": "/server-data/assets/Brenner_Fig_44_2.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_2.png",
+          "caption": "Mitochondrial and peroxisomal dysfunction in renal Fanconi Syndrome.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "img-3-2",
+          "relPath": "/server-data/assets/fanconi_tdf_mitochondria.jpg",
+          "imagePath": "/server-data/assets/fanconi_tdf_mitochondria.jpg",
+          "caption": "Mitochondrial toxicity pathway of Tenofovir in Proximal Tubule.",
+          "sourceBook": "Gemini AI Mechanism",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
+        {
+          "id": "sec-3_diag",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "imagePath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "caption": "Proximal Tubule Epithelial Transport Mechanisms"
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Diagnostic Workup, Acid-Base Physiology & Therapeutics",
+      "content": "Fanconi Syndrome 的臨床表現以多發性 Proximal Tubule 缺陷為主，包含 Type 2 Renal Tubular Acidosis (RTA)、Hypophosphatemia、Hypouricemia 以及 Normal Serum Glucose 的 Glucosuria。Type 2 RTA 肇因於 Proximal Tubule 對 Bicarbonate 重吸收能力的喪失，導致 Normal Anion Gap Metabolic Acidosis。\n\n### Topology Mapping Matrix \n- **Metabolic Acidosis**: 肇因於 Proximal Tubule 的 Bicarbonate Wasting，當 Serum Bicarbonate 降至 Renal Threshold 以下時，Urine pH 可降至 5.5 以下。\n- **Bone Mineralization Defects**: 由於嚴重的 Phosphaturia 導致 Hypophosphatemia，加上 Proximal Tubule 中 1-alpha-hydroxylase 活性受損使 Calcitriol 減少，最終引發 Osteomalacia 或 Rickets。\n- **Hypokalemia**: 大量未被重吸收的 Solutes 增加 Distal Delivery，刺激 Distal Convoluted Tubule 與 Cortical Collecting Duct 進行 Potassium 分泌，進而造成嚴重的 Hypokalemia。\n\n### Therapeutics & Conceptual Trap Analysis \n治療的核心原則在於處理 underlying etiology 並矯正流失的電解質。給予大量的 Bicarbonate 補充雖可改善 Acidosis，但會增加 Bicarbonate 的 Distal Delivery，進一步惡化 Potassium 的流失，因此必須同時高劑量補充 Potassium。對於 Hypophosphatemia 則需補充 Oral Phosphate 與 active Vitamin D (Calcitriol)。臨床處置中，絕不可單獨使用大量 Alkali 治療而忽略了可能被誘發的深層 Hypokalemia 危機。",
+      "images": [
+        {
+          "id": "img-4-1",
+          "relPath": "/server-data/assets/Brenner_Fig_44_8.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_44_8.png",
+          "caption": "Acid-base and electrolyte derangements in Fanconi Syndrome.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "img-4-2",
+          "relPath": "/server-data/assets/fanconi_acid_base_diag.jpg",
+          "imagePath": "/server-data/assets/fanconi_acid_base_diag.jpg",
+          "caption": "Diagnostic algorithm for suspected Fanconi Syndrome.",
+          "sourceBook": "Gemini AI Mechanism",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
+        {
+          "id": "sec-4_diag",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "imagePath": "/server-data/assets/fanconi_pct_cotransport.jpg",
+          "caption": "Proximal Tubule Epithelial Transport Mechanisms"
+        }
+      ]
+    }
+  ]
+}

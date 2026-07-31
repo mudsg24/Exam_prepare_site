@@ -106,10 +106,22 @@ function lintExamFile(filePath) {
           if (!resp.selectedOption || typeof resp.selectedOption !== 'string' || !resp.selectedOption.trim()) {
             errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but nlmResponse #${rIdx + 1} selectedOption is null/empty.`);
           }
+
+          // Check for Synthetic / Faked NLM Responses (copy of sourceExplanation)
+          const cleanExpl = (q.sourceExplanation || '').trim();
+          if (cleanExpl.length > 50 && resp.rawResponse.includes(cleanExpl)) {
+            errors.push(`[${fileName} -> ${qLabel}] FAKED NLM RESPONSE DETECTED! nlmResponse #${rIdx + 1} rawResponse contains verbatim copy of sourceExplanation.`);
+          }
         });
 
-        // Check NLM discrepancy reconciliation
+        // Check NLM discrepancy reconciliation & Anti-Fake Identical Response Check
         if (q.nlmResponses.length === 2) {
+          const resp1 = (q.nlmResponses[0].rawResponse || '').trim();
+          const resp2 = (q.nlmResponses[1].rawResponse || '').trim();
+          if (resp1.length > 50 && resp1 === resp2) {
+            errors.push(`[${fileName} -> ${qLabel}] FAKED NLM RESPONSE DETECTED! Account 1 and Account 2 rawResponse are 100% identical verbatim strings.`);
+          }
+
           const sel1 = q.nlmResponses[0].selectedOption;
           const sel2 = q.nlmResponses[1].selectedOption;
           if (sel1 && sel2 && sel1 !== sel2) {

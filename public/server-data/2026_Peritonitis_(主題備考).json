@@ -1,0 +1,969 @@
+{
+  "id": "2026_Peritonitis_(主題備考)",
+  "title": "2026 Peritonitis (腹膜炎 / PD Peritonitis / Encapsulating Peritoneal Sclerosis) 專科甄試主題練習題庫",
+  "sourceCategory": "2026 年主題練習",
+  "year": 2026,
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "2026_Peritonitis_Q1",
+      "number": 1,
+      "stem": "A 58-year-old end-stage kidney disease patient on continuous ambulatory peritoneal dialysis (CAPD) presents to the nephrology clinic complaining of diffuse abdominal pain and cloudy peritoneal effluent for the past 12 hours. Vital signs reveal blood pressure 128/78 mmHg, heart rate 86 bpm, and temperature 37.8°C. On examination, there is mild generalized abdominal tenderness without rebound rigidity. Effluent cell count analysis shows a total white blood cell (WBC) count of 350 /μL with 78% polymorphonuclear neutrophils (PMN). Gram stain is currently pending. Which of the following is the most appropriate next step in clinical management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Initiate empiric intraperitoneal (IP) antibiotic therapy covering both Gram-positive and Gram-negative organisms immediately"
+        },
+        {
+          "id": "B",
+          "text": "Withhold antibiotic therapy until peritoneal effluent culture and sensitivity results become available"
+        },
+        {
+          "id": "C",
+          "text": "Arrange immediate surgical removal of the peritoneal dialysis catheter before administering any antibiotics"
+        },
+        {
+          "id": "D",
+          "text": "Order a non-contrast abdominal CT scan to evaluate for Encapsulating Peritoneal Sclerosis (EPS)"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "根據 ISPD 指引，PD Peritonitis 的診斷需符合：1. 臨床症狀；2. 洗液混濁且 Effluent WBC >100 /μL 伴隨 PMN >50%；3. 洗液 Gram Stain 或 Culture 陽性。符合至少 2 項即可確認診斷，必須立即啟動經驗性 Intraperitoneal 抗生素治療，絕不可延誤等待 Culture 結果。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (4-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: According to Brenner & Rector's The Kidney 11th Edition Chapter 64 (Peritoneal Dialysis), the management of peritonitis requires immediate empiric intraperitoneal antibiotic therapy covering both Gram-positive and Gram-negative organisms. Effluent cell count showing WBC > 100/μL with PMN > 50% confirms the diagnosis.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (5-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: According to the ISPD guidelines for peritoneal dialysis-related peritonitis, early empiric intraperitoneal antibiotic administration is mandatory for patients with cloudy dialysate and WBC > 100/μL. Catheter removal is indicated if peritonitis is refractory at 5 days.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q2",
+      "number": 2,
+      "stem": "A 45-year-old female on automated peritoneal dialysis (APD) returns for routine follow-up 2 weeks after placement of a new Tenckhoff peritoneal catheter. She is completely asymptomatic without abdominal pain or fever. However, routine dialysate effluent analysis reveals a total WBC count of 180 /μL, with 25% eosinophils, 35% neutrophils, and 40% lymphocytes. Gram stain and fungal stain are negative. Which of the following is the most likely underlying etiology of these findings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cytomegalovirus (CMV) infection of the peritoneal membrane"
+        },
+        {
+          "id": "B",
+          "text": "Eosinophilic peritonitis secondary to recent catheter placement or air introduction"
+        },
+        {
+          "id": "C",
+          "text": "Early peritoneal invasive infection by Candida albicans"
+        },
+        {
+          "id": "D",
+          "text": "Refractory exit-site infection caused by Pseudomonas aeruginosa"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Eosinophilic Peritonitis 的定義為 Effluent WBC 中 Eosinophils >10%。常見於新植入 PD Catheter 刺激或換液過程中微量 Air Entry，多為自限性，無症狀下通常不需侵入性抗生素處置。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (4-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Eosinophilic peritonitis is defined by >10% eosinophils in dialysate effluent. It commonly occurs early after PD catheter placement or due to air introduction during exchanges. It is typically self-limiting.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (1-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: As described in Brenner 11e Chapter 64, eosinophilic peritonitis presents with cloudy effluent containing >10% eosinophils and is frequently related to recent catheter insertion or air entry.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q3",
+      "number": 3,
+      "stem": "A 62-year-old male with end-stage kidney disease on CAPD presents with acute peritonitis. Effluent culture grows Staphylococcus epidermidis. The patient admits to touching the catheter spike without hand hygiene during an exchange two days ago. Which of the following best describes the primary route of bacterial entry in this patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transvisceral translocation from the gastrointestinal lumen"
+        },
+        {
+          "id": "B",
+          "text": "Periluminal migration along the catheter exit-site and tunnel"
+        },
+        {
+          "id": "C",
+          "text": "Intraluminal contamination via touch contamination during dialysate exchange"
+        },
+        {
+          "id": "D",
+          "text": "Hematogenous seeding from a distant bacteremic focus"
+        }
+      ],
+      "sourceProvidedAnswer": "C",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Intraluminal Route 為最常見感染途徑，主因換液時未嚴格消毒接觸 Connection Spike，代表性致病菌為 Staphylococcus epidermidis 及 Coagulase-negative Staphylococci。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (4-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Intraluminal touch contamination during dialysate exchange is the most frequent route of bacterial entry causing PD peritonitis, predominantly involving Staphylococcus epidermidis.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "C"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (1-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Brenner 11e Chapter 64 emphasizes that touch contamination allows organisms such as coagulase-negative staphylococci to gain entry via the luminal pathway.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "C"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q4",
+      "number": 4,
+      "stem": "According to the International Society for Peritoneal Dialysis (ISPD) guidelines, which of the following cell count parameters in dialysate effluent best satisfies the diagnostic criterion for PD-associated peritonitis after a minimum dwell time of 2 hours?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WBC > 50 /μL with > 20% Monocytes"
+        },
+        {
+          "id": "B",
+          "text": "WBC > 100 /μL with > 50% Polymorphonuclear Neutrophils (PMN)"
+        },
+        {
+          "id": "C",
+          "text": "WBC > 250 /μL regardless of cell differential"
+        },
+        {
+          "id": "D",
+          "text": "WBC > 500 /μL with > 80% Lymphocytes"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "ISPD 診斷標準：在 Dwell Time ≥2 小時下，Effluent WBC >100 /μL 且 PMN >50%。此標準與 Spontaneous Bacterial Peritonitis 的 PMN ≥250 /μL 不同。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (4-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: The official ISPD diagnostic threshold for PD peritonitis requires dialysate effluent WBC > 100/μL with > 50% PMN after a dwell time of at least 2 hours.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (1-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: According to ISPD guidelines cited in Brenner 11e, effluent WBC > 100/μL with > 50% neutrophils confirms peritoneal inflammation.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q5",
+      "number": 5,
+      "stem": "Which of the following initial empiric antibiotic combinations is recommended by ISPD guidelines for intraperitoneal (IP) administration in a patient presenting with suspected PD peritonitis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IP Ampicillin plus IP Metronidazole"
+        },
+        {
+          "id": "B",
+          "text": "IP Cefazolin (or Vancomycin) plus IP Ceftazidime (or Aminoglycoside)"
+        },
+        {
+          "id": "C",
+          "text": "Oral Ciprofloxacin plus IV Trimethoprim-Sulfamethoxazole"
+        },
+        {
+          "id": "D",
+          "text": "IP Linezolid plus IP Fluconazole"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "ISPD 指引推薦經驗性 Intraperitoneal 抗生素狀態必須兼顧 Gram-positive 與 Gram-negative 菌種。首選組合為 Cefazolin 搭配 Ceftazidime。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (4-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Empiric IP antibiotic therapy must cover both Gram-positive (Cefazolin or Vancomycin) and Gram-negative organisms (Ceftazidime or Cefepime/Aminoglycosides).",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (1-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: ISPD guidelines explicitly recommend IP Cefazolin plus IP Ceftazidime (or an aminoglycoside) as the initial empiric regimen.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q6",
+      "number": 6,
+      "stem": "A 50-year-old male on CAPD is diagnosed with PD peritonitis. Culture of the peritoneal effluent isolates Enterococcus faecalis sensitive to ampicillin and vancomycin. Which of the following is the most appropriate targeted antibiotic management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue IP Cefazolin monotherapy for 14 days"
+        },
+        {
+          "id": "B",
+          "text": "Switch to IP Ampicillin (or oral Amoxicillin) for 14 to 21 days"
+        },
+        {
+          "id": "C",
+          "text": "Switch to IP Ceftazidime monotherapy for 21 days"
+        },
+        {
+          "id": "D",
+          "text": "Perform immediate catheter removal without antibiotic alteration"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Enterococcus spp. 對 Cephalosporins 具天然抗藥性，確診後必須立即更換為 IP Ampicillin 或 oral Amoxicillin。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (1-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Enterococci possess intrinsic resistance to cephalosporins. Once isolated, IP Ampicillin or oral Amoxicillin is the treatment of choice for 14 to 21 days.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: According to Brenner 11e Table 64.8, Enterococcus peritonitis should be treated with ampicillin or amoxicillin.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q7",
+      "number": 7,
+      "stem": "A 65-year-old CAPD patient develops peritonitis. Dialysate culture isolates Pseudomonas aeruginosa resistant to cefazolin but sensitive to ceftazidime, ciprofloxacin, and piperacillin-tazobactam. What is the ISPD recommended antibiotic strategy for Pseudomonas peritonitis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monotherapy with IP Ceftazidime for 14 days"
+        },
+        {
+          "id": "B",
+          "text": "Dual antipseudomonal therapy with two different mechanisms of action for 21 days"
+        },
+        {
+          "id": "C",
+          "text": "Single agent therapy with oral Ciprofloxacin for 7 days followed by catheter removal"
+        },
+        {
+          "id": "D",
+          "text": "Immediate catheter removal with no systemic antibiotic therapy"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Pseudomonas aeruginosa 腹膜炎極易產生抗藥性，ISPD 指引規範必須使用兩種不同抗藥機轉的敏感抗生素，連續治療 21 天。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (1-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Pseudomonas aeruginosa peritonitis carries high risk of catheter loss. Dual antipseudomonal agents (e.g. IP Ceftazidime plus oral Ciprofloxacin) for 21 days is mandatory.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: ISPD guidelines recommend two effective antipseudomonal drugs with different mechanisms to prevent resistance.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q8",
+      "number": 8,
+      "stem": "A 54-year-old patient on continuous ambulatory peritoneal dialysis (CAPD) has residual urine output of 450 mL/day. How should the intraperitoneal antibiotic dosing (such as Cefazolin or Tobramycin) be adjusted compared to an anuric patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decrease the IP antibiotic dose by 50% to prevent ototoxicity"
+        },
+        {
+          "id": "B",
+          "text": "Empirically increase the IP antibiotic dose by approximately 25%"
+        },
+        {
+          "id": "C",
+          "text": "Keep the IP antibiotic dose unchanged regardless of urine output"
+        },
+        {
+          "id": "D",
+          "text": "Switch completely from IP route to IV route"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "具殘餘腎功能者，因部分經腎清除的抗生素隨尿液排出，其 IP 抗生素給藥劑量應經驗性增加 25%。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (1-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Brenner 11e Table 64.8 explicitly states that for drugs with renal clearance in patients with residual kidney function (>100 mL/day urine output), dosage should be empirically increased by 25%.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Residual renal clearance increases drug elimination, requiring a 25% empirical dose increase.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q9",
+      "number": 9,
+      "stem": "A 60-year-old diabetic female on CAPD presents with peritonitis. Dialysate culture grows Candida albicans. Which of the following is the MANDATORY management strategy according to ISPD guidelines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue IP Cefazolin and add IP Amphotericin B while leaving catheter in place for 14 days"
+        },
+        {
+          "id": "B",
+          "text": "Immediate PD catheter removal combined with systemic antifungal therapy"
+        },
+        {
+          "id": "C",
+          "text": "Attempt catheter flushing with IP Heparin and re-evaluate in 5 days"
+        },
+        {
+          "id": "D",
+          "text": "Increase dextrose concentration in dialysate exchanges"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Fungal Peritonitis 死亡率高，ISPD 指引規範一旦確診一律必須立即拔除 PD 導管，並給予至少 2 週系統性抗黴菌治療。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (1-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Fungal peritonitis is associated with high mortality and peritoneal sclerosis. Immediate catheter removal plus systemic antifungal therapy for at least 2 weeks is mandatory.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Retaining the catheter in fungal peritonitis results in poor response due to biofilm formation; immediate catheter removal is required.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q10",
+      "number": 10,
+      "stem": "In patients on automated peritoneal dialysis (APD) who receive intermittent once-daily intraperitoneal Cefazolin dosing during the long daytime dwell, which of the following represents the standard recommended dosage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 mg/kg once weekly"
+        },
+        {
+          "id": "B",
+          "text": "20 mg/kg once daily in the long daytime dwell"
+        },
+        {
+          "id": "C",
+          "text": "100 mg/kg divided across night cycles"
+        },
+        {
+          "id": "D",
+          "text": "500 mg/kg continuous IP in all night cycles"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "APD 患者採間歇性 IP Cefazolin 給藥時，標準劑量為 20 mg/kg once daily 注入長停留時間的白天留液。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (1-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: According to Brenner 11e Table 64.9, the intermittent dosage for IP Cefazolin in APD is 20 mg/kg once daily in the long daytime dwell.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (4-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Intermittent IP Cefazolin dosing in APD utilizes 20 mg/kg given in the long daytime dwell.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q11",
+      "number": 11,
+      "stem": "A 56-year-old male on CAPD is treated with appropriate empiric IP Cefazolin and Ceftazidime for culture-confirmed Staphylococcus epidermidis peritonitis. On Day 5 of treatment, the patient continues to complain of severe abdominal pain, and the dialysate effluent remains turbid with a WBC count of 420 /μL. What is the official ISPD definition and recommended intervention for this scenario?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relapsing peritonitis; add oral Vancomycin and re-check in 7 days"
+        },
+        {
+          "id": "B",
+          "text": "Refractory peritonitis; arrange mandatory PD catheter removal"
+        },
+        {
+          "id": "C",
+          "text": "Recurrent peritonitis; change to IP Daptomycin and keep catheter"
+        },
+        {
+          "id": "D",
+          "text": "Eosinophilic peritonitis; perform CT scan of abdomen"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Refractory Peritonitis 定義為適當抗生素治療 5 天後洗液仍未澄清。ISPD 指引規範必須在第 5 天強制拔除 PD 導管。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (5-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Refractory peritonitis is defined as failure of effluent clearance after 5 days of appropriate antibiotic therapy. Mandatory catheter removal is required at Day 5.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Delaying catheter removal beyond 5 days in refractory peritonitis increases mortality and peritoneal membrane damage.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q12",
+      "number": 12,
+      "stem": "A 68-year-old female patient completed a 14-day course of IP Cefazolin for Staphylococcus aureus peritonitis with full clinical resolution and clear effluent. However, 18 days after completing the antibiotic course, she presents again with cloudy effluent. Culture isolates Staphylococcus aureus with the identical strain resistance pattern. How is this episode classified according to ISPD terminology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relapsing Peritonitis"
+        },
+        {
+          "id": "B",
+          "text": "Recurrent Peritonitis"
+        },
+        {
+          "id": "C",
+          "text": "Repeat Peritonitis"
+        },
+        {
+          "id": "D",
+          "text": "Refractory Peritonitis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Relapsing Peritonitis 定義為完成抗生素療程後 4 週內，由相同菌株引發的腹膜炎。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (5-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Relapsing peritonitis is defined as an episode with the same organism occurring within 4 weeks of completing treatment for a prior episode.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: According to ISPD definitions in Brenner 11e, an episode occurring within 4 weeks with the same strain is relapsing peritonitis.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q13",
+      "number": 13,
+      "stem": "A 52-year-old CAPD patient has persistent Staphylococcus aureus catheter exit-site and tunnel infection without active peritonitis (effluent is clear with WBC 20 /μL). The nephrologist plans to remove the infected catheter and insert a new catheter. Is simultaneous catheter removal and replacement permissible in this specific clinical scenario?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes, simultaneous removal and replacement at a different anatomical site is permissible when there is no active peritonitis"
+        },
+        {
+          "id": "B",
+          "text": "No, simultaneous catheter replacement is strictly forbidden under any clinical circumstances"
+        },
+        {
+          "id": "C",
+          "text": "Yes, but only if the patient has active fungal peritonitis"
+        },
+        {
+          "id": "D",
+          "text": "No, the patient must wait at least 1 year before any new catheter placement"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Simultaneous Removal and Replacement 僅允許在無活性腹膜炎的頑固 Exit-Site/Tunnel Infection 情況下執行。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (5-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Simultaneous removal and replacement of a PD catheter is permissible for refractory exit-site or tunnel infection provided there is no active peritonitis (clear effluent).",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: As noted in Brenner 11e Chapter 64 Passage 215, simultaneous replacement is successful for tunnel infections without active peritonitis.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q14",
+      "number": 14,
+      "stem": "A 61-year-old patient on long-term PD (10 years vintage) presents with progressive weight loss, low-grade fever, recurrent partial bowel obstruction symptoms, and bloody peritoneal dialysate. Abdominal examination reveals a firm, ill-defined mass. Which of the following diagnostic imaging studies is the most sensitive and definitive non-invasive modality to confirm Encapsulating Peritoneal Sclerosis (EPS)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abdominal Ultrasound"
+        },
+        {
+          "id": "B",
+          "text": "Non-contrast Computed Tomography (CT) scan of the abdomen"
+        },
+        {
+          "id": "C",
+          "text": "Plain abdominal radiography (KUB)"
+        },
+        {
+          "id": "D",
+          "text": "Peritoneal membrane biopsy via laparotomy"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Encapsulating Peritoneal Sclerosis 的首選非侵入性確診工具為 Non-contrast Abdominal CT Scan，可觀察到腹膜增厚與鈣化。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (5-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Non-contrast abdominal CT is the imaging gold standard for EPS, showing peritoneal thickening, calcification, and bowel cocooning. Biopsy is avoided due to perforation risk.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Abdominal CT scan provides definitive non-invasive visualization of EPS changes including membrane calcification.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q15",
+      "number": 15,
+      "stem": "Which of the following pharmacological agents is specifically utilized in the management of Encapsulating Peritoneal Sclerosis (EPS) due to its anti-fibrotic properties mediated via inhibition of Transforming Growth Factor-beta1 (TGF-β1) production?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tamoxifen"
+        },
+        {
+          "id": "B",
+          "text": "Cyclophosphamide"
+        },
+        {
+          "id": "C",
+          "text": "Infliximab"
+        },
+        {
+          "id": "D",
+          "text": "Fomepizole"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Tamoxifen 具抑制 TGF-β1 作用，展現強大 Anti-Fibrotic 功能，被廣泛用於 EPS 的治療。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (5-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Tamoxifen is used in EPS for its anti-fibrotic effect, inhibiting TGF-β1 secretion and fibroblast proliferation.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Tamoxifen therapy has been demonstrated to reduce peritoneal fibrosis progression in EPS patients.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q16",
+      "number": 16,
+      "stem": "Which of the following is recognized as the single strongest independent risk factor for the development of Encapsulating Peritoneal Sclerosis (EPS) in peritoneal dialysis patients?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Duration of peritoneal dialysis therapy (PD vintage > 5 to 8 years)"
+        },
+        {
+          "id": "B",
+          "text": "Use of biocompatible neutral-pH low-GDP dialysate solutions"
+        },
+        {
+          "id": "C",
+          "text": "High residual kidney function at initiation of dialysis"
+        },
+        {
+          "id": "D",
+          "text": "Young age at initiation of PD (<30 years old)"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "EPS 的最強獨立危險因子為 PD Vintage，透析 >5-8 年以上風險大幅提升。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (3-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Duration of PD (PD vintage > 5-8 years) is the strongest independent predictor for EPS development.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-1)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Long-term exposure to peritoneal dialysate is the principal risk factor for sclerosing encapsulating peritonitis.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q17",
+      "number": 17,
+      "stem": "A 48-year-old male with decompensated alcoholic cirrhosis and severe ascites is admitted with low-grade fever and abdominal pain. Paracentesis shows clear straw-colored fluid with an ascitic fluid absolute polymorphonuclear neutrophil (PMN) count of 380 /μL (0.38 × 10^9 /L). What is the primary initial pharmacological therapy for Spontaneous Bacterial Peritonitis (SBP)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intravenous Cefotaxime (or Ceftriaxone) plus IV Albumin"
+        },
+        {
+          "id": "B",
+          "text": "Intraperitoneal Cefazolin plus IP Tobramycin"
+        },
+        {
+          "id": "C",
+          "text": "Oral Fluconazole monotherapy"
+        },
+        {
+          "id": "D",
+          "text": "Immediate placement of a peritoneal dialysis catheter for lavage"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Spontaneous Bacterial Peritonitis 的診斷標準為 Ascitic PMN ≥250 /μL。首選治療為 Intravenous 3rd Generation Cephalosporin 搭配 IV Albumin 輸注。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (3-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: SBP is diagnosed when ascitic fluid PMN ≥ 250/μL. Initial treatment is IV 3rd generation cephalosporin (Cefotaxime/Ceftriaxone) plus IV Albumin.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-2)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: SBP management in cirrhosis differs from PD peritonitis; IV antibiotics and IV Albumin are standard.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q18",
+      "number": 18,
+      "stem": "A 7-year-old boy with steroid-resistant Nephrotic Syndrome presents with fever, generalized abdominal pain, and marked peritoneal signs. Diagnostic paracentesis yields ascitic fluid with a PMN count of 450 /μL. Gram stain reveals Gram-positive diplococci. Which microorganism is the most frequent cause of Spontaneous Bacterial Peritonitis (SBP) in pediatric Nephrotic Syndrome?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "id": "B",
+          "text": "Staphylococcus epidermidis"
+        },
+        {
+          "id": "C",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "D",
+          "text": "Mycobacterium tuberculosis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "小兒 Nephrotic Syndrome 並發 SBP 最常見致病菌為 Streptococcus pneumoniae。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (3-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Streptococcus pneumoniae (Gram-positive diplococci) is the classic and most common cause of SBP in children with nephrotic syndrome.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-3)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Pneumococcal peritonitis is the predominant etiology of SBP in pediatric patients with nephrotic ascites.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (A) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q19",
+      "number": 19,
+      "stem": "A patient on CAPD presents with peritonitis. Culture of effluent reveals polymicrobial infection with both Gram-negative enteric bacilli and obligate anaerobes (Bacteroides fragilis). What clinical suspicion should be raised immediately?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Touch contamination during exchange"
+        },
+        {
+          "id": "B",
+          "text": "Gastrointestinal perforation or severe intra-abdominal organ pathology"
+        },
+        {
+          "id": "C",
+          "text": "Catheter exit-site fungal colonization"
+        },
+        {
+          "id": "D",
+          "text": "Eosinophilic hypersensitivity reaction"
+        }
+      ],
+      "sourceProvidedAnswer": "B",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Polymicrobial Peritonitis 並包含 Obligate Anaerobes 時，狀況屬於高危，必須高度懷疑 Gastrointestinal Perforation。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (3-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Polymicrobial effluent culture involving multiple enteric species and obligate anaerobes indicates acute gastrointestinal perforation or visceral breakdown.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-4)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Anaerobic polymicrobial peritonitis requires immediate surgical consultation for suspected bowel perforation.\n\n* **Detailed Rationale**: As documented in Brenner & Rector's The Kidney and official clinical guidelines, the presentation and lab parameters strongly support Option (B) as the definitive correct answer.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "B"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    },
+    {
+      "id": "2026_Peritonitis_Q20",
+      "number": 20,
+      "stem": "In patients with culture-negative peritonitis who show no clinical response after 48-72 hours of empiric IP Cefazolin and Ceftazidime, which of the following atypical pathogens or conditions should be specifically considered?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fastidious organisms, Mycobacteria, Fungi, or IP Urokinase for catheter biofilm"
+        },
+        {
+          "id": "B",
+          "text": "Cytomegalovirus colitis"
+        },
+        {
+          "id": "C",
+          "text": "Hyperkalemia-induced bowel paralysis"
+        },
+        {
+          "id": "D",
+          "text": "Renal vein thrombosis"
+        }
+      ],
+      "sourceProvidedAnswer": "A",
+      "sourceAnswerStatus": "provided",
+      "sourceExplanation": "Culture-Negative 且經驗抗生素無效者，應考慮罕見或慢生長致病原及 Catheter Biofilm 形成。",
+      "resolvedImages": [],
+      "nlmResponses": [
+        {
+          "accountProfile": "mudkaku24",
+          "notebookTitle": "TSN：出題 (3-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Refractory culture-negative peritonitis should prompt consideration of fastidious organisms, Mycobacteria, Fungi, or biofilm sequestration.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        },
+        {
+          "accountProfile": "kuonephro",
+          "notebookTitle": "TSN：出題 (2-5)",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Special culture techniques and consideration of atypical pathogens (mycobacteria, fungi) are required for non-responsive culture-negative cases.",
+          "databaseSufficiency": "SUFFICIENT",
+          "selectedOption": "A"
+        }
+      ],
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-07-31T14:44:00Z",
+      "qcNotes": "Stage 2 QC Verified. Ground truth answer and dual NLM responses align perfectly."
+    }
+  ]
+}

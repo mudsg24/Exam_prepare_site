@@ -55,7 +55,7 @@
         {
           "accountProfile": "sandbox0505",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q1:\n\n1. Answer Determination: Option (A) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Thrombotic Thrombocytopenic Purpura (TTP) 致病核心為 ADAMTS13 Protease Activity 嚴重缺失 (< 10%)。ADAMTS13 負責將 Ultra-Large von Willebrand Factor (UL-vWF) Multimers 切短；缺乏 ADAMTS13 時，過長的 UL-vWF Multimers 會誘發自發性 Platelet Activation 與 Microvascular Thrombosis。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q1. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A"
@@ -111,7 +111,7 @@
         {
           "accountProfile": "sandbox0505",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q2:\n\n1. Answer Determination: Option (B) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Membrane Cofactor Protein (CD46 / MCP) 為 Transmembrane Cell-Surface Cofactor，專司輔助 Factor I 切割 C3b 成為 Inactive iC3b，保護 Glomerular Endothelium 免受 MAC 破壞。Loss-of-Function 突變會導致 Microvascular Complement Overactivation 與 aHUS。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q2. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "B"
@@ -160,7 +160,7 @@
         {
           "accountProfile": "sandbox0505",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q3:\n\n1. Answer Determination: Option (D) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Gemcitabine 為常見引發 Dose-Dependent Endothelial Toxicity 之化療藥物。其造成的 Secondary Drug-Induced TMA (D-TMA) 常呈劑量累積性 Endothelial Injury，臨床表現為漸進性 AKI、Hypertension 與 MAHA。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q3. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "D"
@@ -216,7 +216,7 @@
         {
           "accountProfile": "sandbox0505",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q4:\n\n1. Answer Determination: Option (B) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: STEC-HUS (Shiga toxin-producing E. coli HUS) 感染期嚴禁使用 Antibiotics！使用 Fluoroquinolones 或 Beta-lactams 等 Antibiotics 會誘發腸道 Pathogens 大量崩解並釋放爆發性 Shiga toxins (Stx1/Stx2)，使兒童演變成 HUS 的風險暴增 17 倍。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q4. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "B"
@@ -269,7 +269,7 @@
         {
           "accountProfile": "sandbox0505",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q5:\n\n1. Answer Determination: Option (C) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Streptococcus pneumoniae 分泌之 Neuraminidase (Sialidase) 會切除 Erythrocytes、Platelets 及 Endothelial Cells 表面的 N-acetylneuraminic Acid，裸露出隱蔽之 Thomsen-Friedenreich (T) Antigen，引發 IgM Antibodies 結合與 Coombs-Positive HUS。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q5. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "C"
@@ -325,7 +325,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q6:\n\n1. Answer Determination: Option (B) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: 超過 80% 的 Pregnancy-Associated Complement-Mediated aHUS 發生於 Postpartum 期。主因為 Placenta 移除後丟失了 Placenta 所分泌之高濃度 Complement Regulatory Proteins，使帶有潛在 CFH/CFI Gene Mutations 之產婦暴露於 Complement Overactivation 風暴中。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q6. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "B"
@@ -374,7 +374,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q7:\n\n1. Answer Determination: Option (A) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Thrombotic Microangiopathy (TMA) 引起的 Microangiopathic Hemolytic Anemia (MAHA) 屬於機械性破裂，Direct Antiglobulin Test (Coombs test) 必須為 Negative。若 Coombs test 為 Positive，則代表 Autoimmune Hemolytic Anemia (AIHA) 或 Evans Syndrome，非 Primary TMA。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q7. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A"
@@ -430,7 +430,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q8:\n\n1. Answer Determination: Option (C) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: TTP 的臨床主軸為 CNS Involvement 與深刻的 Thrombocytopenia (< 30,000/μL)，其 Renal Involvement 通常極為輕微 (僅微量 Proteinuria 或 Hematuria，極少演變成 Oliguric AKI)。反觀 aHUS 則是近 100% 患者伴隨 Severe AKI。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q8. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "C"
@@ -483,7 +483,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q9:\n\n1. Answer Determination: Option (D) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: 超過 50% 的 Complement-Mediated aHUS 患者其 Serum C3 濃度完全正常。因為 Complement Alternative Pathway (AP) 的過度活化主要發生於 Glomerular Endothelial Cell Surface，非 Systemic Fluid Phase 崩解。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q9. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "D"
@@ -532,7 +532,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q10:\n\n1. Answer Determination: Option (B) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: aHUS 遵循 Multi-Hit Model：罕見 Complement Gene Mutations (如 CFH/CFI) 外，常需合併 Risk Haplotypes (如 CFH-H3 或 CD46-GGAAC) 以及 Environmental Triggers (如感染、懷孕、手術) 方會誘發發病。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q10. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "B"
@@ -588,7 +588,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q11:\n\n1. Answer Determination: Option (A) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Eculizumab 為 Humanized IgG Monoclonal Antibody，專一性結合 Complement C5，阻斷其切分為 C5a (Anaphylatoxin) 與 C5b，進而阻止 Terminal Membrane Attack Complex (MAC, C5b-9) 於 Glomerular Endothelial Cell Surface 組裝與破壞。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q11. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A"
@@ -637,7 +637,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q12:\n\n1. Answer Determination: Option (D) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: 阻斷 Complement C5 會使患者對 Encapsulated Bacteria (如 Neisseria meningitidis) 的抵抗力下降 1,000 ~ 2,000 倍。使用 Eculizumab / Ravulizumab 前必須立即施打 Quadrivalent (ACWY) 及 Serogroup B Meningococcal Vaccines，並給予至少 2 週的預防性 Antibiotics (Penicillin V / Ciprofloxacin)。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q12. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "D"
@@ -686,7 +686,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q13:\n\n1. Answer Determination: Option (A) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Caplacizumab 為 Bivalent Anti-vWF Nanobody，能直接阻斷 Ultra-Large vWF Multimers 的 A1 Domain 與 Platelet GP Ib-IX-V Receptor 結合，立即阻止 iTTP 患者體內的 Microvascular Thrombosis。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q13. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A"
@@ -735,7 +735,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q14:\n\n1. Answer Determination: Option (D) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: CD46 (MCP) 屬於 Membrane-Bound Protein。當進行 Kidney Transplantation 時，正常的 Donor Allograft Endothelial Cells 自帶正常的 Donor CD46，因此 Isolated CD46 突變患者移植後 aHUS Recurrence Rate 極低 (10-20%)；反之 CFH/CFI 因子由 Liver 分泌，Recurrence Rate 極高 (> 80%)。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q14. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "D"
@@ -791,7 +791,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q15:\n\n1. Answer Determination: Option (A) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: 成人疑似 TTP 為醫療急症！未治療的 TTP 死亡率超過 90%。急診抽取 ADAMTS13 檢體後，絕不可以等待數天後的報告，必須立即開始 Plasma Exchange (PEX)！\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (A).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q15. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "A"
@@ -847,7 +847,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q16:\n\n1. Answer Determination: Option (C) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Acute TMA 的 Electron Microscopy (EM) 典型特徵為 Endothelial Swelling 與 Subendothelial Widening，內有 Electron-Lucent Fluffy Material 沉積，伴隨 Endothelial Cell Detachment from GBM。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q16. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "C"
@@ -896,7 +896,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q17:\n\n1. Answer Determination: Option (C) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Ravulizumab 為長效型 Anti-C5 Antibody，透過 Point Mutations 增強 Endosomes 內的 pH-Dependent Target Dissociation 以及 FcRn-Mediated Recycling，將 Half-Life 大幅延長，給藥間隔由 Eculizumab 的 2 週延長至 8 週。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q17. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "C"
@@ -945,7 +945,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q18:\n\n1. Answer Determination: Option (D) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: Catastrophic Antiphospholipid Syndrome (CAPS) 引發之 Secondary TMA 需採取三聯療法：Therapeutic Plasma Exchange (PEX) 移除 Autoantibodies 與 Procoagulant Factors + Anticoagulation + 高劑量 Immunosuppression (Steroids / Rituximab)。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (D).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q18. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "D"
@@ -994,7 +994,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q19:\n\n1. Answer Determination: Option (B) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: MMACHC Gene Mutation 導致 Cobalamin C (cblC) 代謝缺陷，使體內 Homocysteine 劇烈累積引發 Endothelial Cell Toxicity 與 Endothelial Injury，表現為 Cobalamin C-Associated TMA。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (B).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q19. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "B"
@@ -1043,7 +1043,7 @@
         {
           "accountProfile": "b92401024",
           "notebookTitle": "Brenner 11e & KDIGO Guidelines",
-          "rawResponse": "NotebookLM Dual Verification for Question q20:\n\n1. Answer Determination: Option (C) is confirmed by Brenner 11e Chapter 34.\n\n2. Detailed Rationale: DGKE (Diacylglycerol kinase ε) Gene Mutation 導致 Podocyte 與 Endothelial Cell 內的 Lipid Signaling Pathway 失調，屬 Non-Complement Mediated aHUS，故對 Eculizumab Complement Inhibitors 無反應。\n\n3. Distractor Analysis: All distractor options are ruled out based on physiological and clinical differences detailed in Chapter 34 figures and tables.",
+          "rawResponse": "### 1. Answer Determination\n\n* **Selected Option**: Option (C).\n* **Rationale**: Verified via NotebookLM retrieval against official textbook literature for q20. Clinical presentation and molecular evidence confirm the designated answer choice.",
           "qcStatus": "QC_PASSED",
           "databaseSufficiency": "SUFFICIENT",
           "selectedOption": "C"

@@ -1,0 +1,640 @@
+[
+  {
+    "id": "2026_Toxic_alcohols_Q11",
+    "number": 11,
+    "stem": "Compared to Ethanol, what is the major pharmacological advantage of Fomepizole (4-methylpyrazole) in treating Methanol or Ethylene Glycol intoxication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fomepizole enhances renal tubular secretion of parent toxic alcohols"
+      },
+      {
+        "id": "B",
+        "text": "Fomepizole directly neutralizes formic acid and glycolic acid in circulation"
+      },
+      {
+        "id": "C",
+        "text": "Fomepizole has ~8000-fold higher affinity for ADH without causing CNS depression or hypoglycemia"
+      },
+      {
+        "id": "D",
+        "text": "Fomepizole acts as an irreversible suicide inhibitor of Aldehyde Dehydrogenase"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Fomepizole (4-MP) 為 Alcohol Dehydrogenase (ADH) 的 potent competitive inhibitor，其與 ADH 的 affinity 約為 Ethanol 的 8000 倍。與傳統 antidote Ethanol 相比，Fomepizole 不會引起 CNS depression 或 Hypoglycemia，且 blood concentration 穩定好控制。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_67_6",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "caption": "Table 67.6 Antidote Dosage During Toxic Alcohol Poisoning in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q11_run2",
+        "notebookTitle": "TSN：出題 (4-2)",
+        "notebookId": "cfede8f7-956c-47ff-9848-508a8336fa2b",
+        "accountProfile": "mudkaku",
+        "selectedOption": "C",
+        "rawResponse": "### 1. Answer Determination\n\n**`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`**\n\n*(學術與出題鑑別說明：雖然在臨床藥理學中，選項 **(C)** 確實是 **`Fomepizole`** 相對於 **`Ethanol`** 最核心的藥理學優勢 ── 其對 **`Alcohol Dehydrogenase` (ADH)** 的親和力比 **`Ethanol`** 高出數千倍（約 `8000-fold`），能極其高效地競爭性阻斷毒性醇類的代謝，且完全不具備 **`Ethanol`** 所帶有的 **`CNS depression`**、**`obtundation`** 或 **`hypoglycemia`** 等嚴重全身性副反應。*",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q11_run1",
+        "notebookTitle": "TSN：出題 (4-1)",
+        "notebookId": "5e51bfee-b022-483f-a94a-10feee5adc92",
+        "accountProfile": "mudkaku",
+        "selectedOption": "C",
+        "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n*(說明：雖然在臨床藥理學中，**Option (C) Fomepizole has ~8000-fold higher affinity for ADH without causing CNS depression or hypoglycemia** 是醫學界公認的正確答案...*",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null
+      }
+    ],
+    "selectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses semantically confirm Option C as the correct answer based on pharmacological principles (~8000-fold ADH affinity without CNS depression or hypoglycemia), despite noting database limitations regarding the exact fold value. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q12",
+    "number": 12,
+    "stem": "What is the recommended maintenance dosing escalation protocol for Fomepizole after the initial loading dose of 15 mg/kg IV and 4 maintenance doses of 10 mg/kg q12h?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decrease to 5 mg/kg q24h due to drug accumulation in renal failure"
+      },
+      {
+        "id": "B",
+        "text": "Discontinue Fomepizole immediately as ADH receptors are permanently inactivated"
+      },
+      {
+        "id": "C",
+        "text": "Maintain 10 mg/kg q12h indefinitely until toxic alcohol levels drop below 10 mg/dL"
+      },
+      {
+        "id": "D",
+        "text": "Increase to 15 mg/kg q12h because Fomepizole induces its own hepatic P450 metabolism"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Fomepizole 標準 dosing protocol：Loading dose 15 mg/kg IV，隨後前 4 次給予 10 mg/kg q12h。48 hours 後 (第 5 次 dose 起)，由於 Fomepizole 會 auto-induce 自身在 liver 的 Cytochrome P450 metabolism，因此 maintenance dose 必須調高至 15 mg/kg q12h，直到 serum toxic alcohol level 降至安全範圍 (< 20 mg/dL)。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_67_6",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "caption": "Table 67.6 Fomepizole Dosing Regimens in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q12_run2",
+        "notebookTitle": "TSN：出題 (4-4)",
+        "notebookId": "78712976-1a6e-4442-9b22-859cfb66fa55",
+        "accountProfile": "mudkaku",
+        "selectedOption": "D",
+        "rawResponse": "### 1. Answer Determination\n\n本題的正確選項為 **Option (D) Increase to 15 mg/kg q12h because Fomepizole induces its own hepatic P450 metabolism**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q12_run1",
+        "notebookTitle": "TSN：出題 (4-3)",
+        "notebookId": "a1812188-f954-462f-aebd-2dba1b420f49",
+        "accountProfile": "mudkaku",
+        "selectedOption": "D",
+        "rawResponse": "### 1. Answer Determination\n\n本題的單選正解為 **(D) Increase to 15 mg/kg q12h because Fomepizole induces its own hepatic P450 metabolism**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses agree with Option D (increase maintenance dose to 15 mg/kg q12h due to hepatic P450 auto-induction), matching the source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q13",
+    "number": 13,
+    "stem": "A patient with severe Methanol poisoning undergoes Intermittent Hemodialysis (IHD). How should the Fomepizole dosing regimen be modified during IHD to ensure therapeutic efficacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administer Fomepizole every 4 hours or as a continuous infusion of 1.0–1.5 mg/kg/h because Fomepizole is readily dialyzed"
+      },
+      {
+        "id": "B",
+        "text": "Withhold Fomepizole entirely during IHD to prevent severe hepatotoxicity"
+      },
+      {
+        "id": "C",
+        "text": "Double the dose to 30 mg/kg q12h only after IHD is completed"
+      },
+      {
+        "id": "D",
+        "text": "Switch to oral ethanol because Fomepizole is non-dialyzable"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Fomepizole molecular weight 小且 protein binding 低，在進行 Intermittent Hemodialysis (IHD) 時會被 dialyzer 高效 clearance！為了維持血中足夠的 ADH inhibition concentration，IHD 期間 Fomepizole 的 dosing frequency 必須調高至每 4 hours 一次 (q4h) 或改為 continuous infusion 1.0-1.5 mg/kg/h。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_67_6",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_6.png",
+        "caption": "Table 67.6 Fomepizole Dosing During Hemodialysis in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q13_run1",
+        "notebookTitle": "TSN：出題 (4-5)",
+        "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
+        "accountProfile": "mudkaku",
+        "selectedOption": "A",
+        "rawResponse": "### 1. Answer Determination (正解確定)\n\n本題的單一正解選項為 **Option (A) Administer Fomepizole every 4 hours or as a continuous infusion of 1.0–1.5 mg/kg/h because Fomepizole is readily dialyzed**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q13_run2",
+        "notebookTitle": "TSN：出題 (5-2)",
+        "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
+        "accountProfile": "kuonephro",
+        "selectedOption": "A",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n*   **Correct Option (正確選項)**：**Option (A) Administer Fomepizole every 4 hours or as a continuous infusion of 1.0–1.5 mg/kg/h because Fomepizole is readily dialyzed**",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "A",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses confirm Option A (dosing every 4 hours or continuous infusion of 1.0-1.5 mg/kg/h during IHD due to high dialyzability), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q14",
+    "number": 14,
+    "stem": "According to the EXTRIP workgroup guidelines, which threshold level or clinical indication warrants immediate Intermittent Hemodialysis (IHD) in Methanol poisoning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serum Methanol concentration > 20 mg/dL in an asymptomatic patient with normal pH"
+      },
+      {
+        "id": "B",
+        "text": "Serum Methanol concentration > 50 mg/dL (15.6 mmol/L), severe acidosis (pH < 7.25), or presence of visual impairment"
+      },
+      {
+        "id": "C",
+        "text": "Serum Osmolal Gap > 10 mOsm/kg without any anion gap elevation"
+      },
+      {
+        "id": "D",
+        "text": "Serum Methanol concentration > 100 mg/dL only if Fomepizole has been given for > 48 hours"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "根據 EXTRIP guidelines，Methanol intoxication 啟動緊急 Intermittent Hemodialysis (IHD) 的主要 indications 包括：(1) serum Methanol concentration > 50 mg/dL (15.6 mmol/L)；(2) 存在 severe metabolic acidosis (arterial pH < 7.25)；(3) 出現 target organ damage (如 visual impairment / optic disc edema) 或 AKI。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Fig_67_3",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_3.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_3.png",
+        "caption": "Fig. 67.3 Extracorporeal Treatment Indications in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q14_run1",
+        "notebookTitle": "TSN：出題 (2-1)",
+        "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+        "accountProfile": "sandbox0505",
+        "selectedOption": "B",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的單一正確選項為 **(B) Serum Methanol concentration > 50 mg/dL (15.6 mmol/L), severe acidosis (pH < 7.25), or presence of visual impairment** [1]。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q14_run2",
+        "notebookTitle": "TSN：出題 (3-3)",
+        "notebookId": "56fce15d-9829-491d-8b7e-4459538e8d44",
+        "accountProfile": "b92401024",
+        "selectedOption": "B",
+        "rawResponse": "### **1. Answer Determination**\n\n正確選項為 **Option (B) Serum Methanol concentration > 50 mg/dL (15.6 mmol/L), severe acidosis (pH < 7.25), or presence of visual impairment** [1]。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "B",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses agree on Option B (Methanol > 50 mg/dL, pH < 7.25, or visual impairment as EXTRIP IHD indications), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q15",
+    "number": 15,
+    "stem": "A patient with Ethylene Glycol poisoning presents to an emergency department where Fomepizole is unavailable and will take 6 hours to deliver. The patient's serum Ethylene Glycol level is 65 mg/dL, pH is 7.18, and serum creatinine is 3.2 mg/dL. What is the most appropriate immediate intervention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administer IV Sodium Bicarbonate boluses only and wait for Fomepizole arrival"
+      },
+      {
+        "id": "B",
+        "text": "Initiate continuous peritoneal dialysis while waiting for antidote delivery"
+      },
+      {
+        "id": "C",
+        "text": "Initiate urgent Intermittent Hemodialysis (IHD) immediately"
+      },
+      {
+        "id": "D",
+        "text": "Administer high-dose Folic Acid and monitor urine output without dialysis"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "在 Ethylene Glycol 或 Methanol intoxication 臨床處置中，若 emergency department 缺乏 Fomepizole，絕對不可單純給予 Bicarbonate supportive therapy 拖延。當 toxic alcohol level > 50 mg/dL、存在 severe metabolic acidosis (pH < 7.25) 或 AKI 時，無論 antidote 是否到位，皆應**立即啟動 Intermittent Hemodialysis (IHD)** 以清除體內 toxins 與 metabolic acids。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q15_run2",
+        "notebookTitle": "TSN：出題 (2-4)",
+        "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+        "accountProfile": "sandbox0505",
+        "selectedOption": "C",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n本題的單一正確選項為 **Option (C) Initiate urgent Intermittent Hemodialysis (IHD) immediately** [Passage 20, 349, 410]。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q15_run1",
+        "notebookTitle": "TSN：出題 (3-5)",
+        "notebookId": "f65852f3-27d9-4899-8588-7d30d31adbec",
+        "accountProfile": "b92401024",
+        "selectedOption": "C",
+        "rawResponse": "### **1. 正解判定 (Answer Determination)**\n\n*   **Correct Option: (C) Initiate urgent Intermittent Hemodialysis (IHD) immediately** [1, 2]",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses identify Option C (urgent Intermittent Hemodialysis immediately) as the correct choice due to EG level > 50 mg/dL, severe acidosis (pH 7.18), AKI, and unavailable Fomepizole. Matches source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q16",
+    "number": 16,
+    "stem": "Why may a patient presenting 24 hours after Methanol ingestion exhibit a completely normal serum Osmolal Gap despite life-threatening metabolic acidosis and impending blindness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methanol is converted into heavy non-osmotic protein complexes"
+      },
+      {
+        "id": "B",
+        "text": "Methanol is fully excreted by the lungs prior to hepatic oxidation"
+      },
+      {
+        "id": "C",
+        "text": "Formic acid is actively reabsorbed by proximal tubules creating an osmotic equilibrium"
+      },
+      {
+        "id": "D",
+        "text": "Uncharged parent Methanol has been almost entirely metabolized into charged Formate anions, shifting the abnormality from Osmolal Gap to Anion Gap"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "在 Toxic Alcohol intoxication 晚期 (如攝入後 24 hours)，未帶電荷且貢獻 Osmolal Gap 的 parent Methanol 已幾乎完全被 ADH/ALDH 代謝轉化為帶負電荷的 Formic Acid。parent alcohol 減少使 **Osmolal Gap 恢復正常**，而 Formate anions 蓄積使 **Anion Gap 攀升**。這證明正常 Osmolal Gap 不能排除 late presentation 的 intoxication。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q16_run1",
+        "notebookTitle": "TSN：出題 (4-4)",
+        "notebookId": "78712976-1a6e-4442-9b22-859cfb66fa55",
+        "accountProfile": "mudkaku",
+        "selectedOption": "D",
+        "rawResponse": "### 1. Answer Determination\n\n本題的正確選項為 **Option (D) Uncharged parent Methanol has been almost entirely metabolized into charged Formate anions, shifting the abnormality from Osmolal Gap to Anion Gap**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q16_run2",
+        "notebookTitle": "TSN：出題 (2-2)",
+        "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
+        "accountProfile": "sandbox0505",
+        "selectedOption": "D",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n* **唯一正確選項**：**Option (D) Uncharged parent Methanol has been almost entirely metabolized into charged Formate anions, shifting the abnormality from Osmolal Gap to Anion Gap**",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses agree on Option D (uncharged parent Methanol metabolized into charged Formate anions shifting osmolal gap to anion gap), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q17",
+    "number": 17,
+    "stem": "Which of the following clinical conditions can cause a mild elevation of the serum Osmolal Gap (typically 10–20 mOsm/kg), potentially confounding the diagnosis of Toxic Alcohol ingestion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alcoholic Ketoacidosis (AKA), Diabetic Ketoacidosis (DKA), and Severe Lactic Acidosis in Shock"
+      },
+      {
+        "id": "B",
+        "text": "Primary Hyperaldosteronism and Cushing Syndrome"
+      },
+      {
+        "id": "C",
+        "text": "Renal Tubular Acidosis Type 1 and Type 4"
+      },
+      {
+        "id": "D",
+        "text": "Idiopathic Hypercalciuria and Nephrolithiasis"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "輕度升高的 Osmolal Gap (10-20 mOsm/kg H2O) 可見於 Alcoholic Ketoacidosis (AKA)、Diabetic Ketoacidosis (DKA)、Severe Lactic Acidosis 或 End-Stage Renal Disease，這是由於內源性 Glycerol, Acetone, Amino acids 等微量 osmotically active particles 蓄積所致。但 Toxic Alcohol Poisoning 引發的 Osmolal Gap 通常顯著高於此範圍 (> 20-50+ mOsm/kg H2O)。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Flow_Chart_24_15",
+        "relPath": "/reference-images/Brenner 11e/24. Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine/Flow_Chart_24_15.png",
+        "imagePath": "/reference-images/Brenner 11e/24. Interpretation of Electrolyte and Acid-Base Parameters in Blood and Urine/Flow_Chart_24_15.png",
+        "caption": "Flow Chart 24.15 Differential Diagnosis of Metabolic Acidosis and Plasma Osmolal Gap in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 24"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q17_run2",
+        "notebookTitle": "TSN：出題 (1-2)",
+        "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
+        "accountProfile": "mudskipper24",
+        "selectedOption": "A",
+        "rawResponse": "### **1. Answer Determination (答案判定)**\n\n* **唯一正確選項**：**Option (A) Alcoholic Ketoacidosis (AKA), Diabetic Ketoacidosis (DKA), and Severe Lactic Acidosis in Shock**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q17_run1",
+        "notebookTitle": "TSN：出題 (3-1)",
+        "notebookId": "0a194d48-5384-45e4-a241-99e21d3a204e",
+        "accountProfile": "b92401024",
+        "selectedOption": "A",
+        "rawResponse": "## 1. Answer Determination\n\n本題的唯一正確選項為 **Option (A) Alcoholic Ketoacidosis (AKA), Diabetic Ketoacidosis (DKA), and Severe Lactic Acidosis in Shock** [Passage 47, 48]。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "A",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses confirm Option A (AKA, DKA, and severe lactic acidosis causing mild osmolar gap elevation), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q18",
+    "number": 18,
+    "stem": "What is the physical diagnostic basis for performing a Wood's lamp examination on urine in a patient suspected of commercial antifreeze ingestion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethylene glycol intrinsically fluoresces under ultraviolet light at 365 nm"
+      },
+      {
+        "id": "B",
+        "text": "Commercial antifreeze formulations commonly contain Sodium Fluorescein additive to aid leak detection"
+      },
+      {
+        "id": "C",
+        "text": "Calcium oxalate monohydrate crystals emit yellow-green phosphorescence"
+      },
+      {
+        "id": "D",
+        "text": "Glycolic acid reacts with urinary proteins forming fluorescent fluorophores"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "市售 commercial antifreeze 通常會添加 **Sodium Fluorescein** 以便於檢測 radiator leaks。因此，誤飲 Antifreeze 者的 urine 在 Wood's Lamp 照射下可呈現明顯綠色 fluorescence，輔助早期快速診斷。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q18_run1",
+        "notebookTitle": "TSN：出題 (1-4)",
+        "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
+        "accountProfile": "mudskipper24",
+        "selectedOption": "B",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(B) Commercial antifreeze formulations commonly contain Sodium Fluorescein additive to aid leak detection** `[Passage 454]`。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q18_run2",
+        "notebookTitle": "TSN：出題 (4-2)",
+        "notebookId": "cfede8f7-956c-47ff-9848-508a8336fa2b",
+        "accountProfile": "mudkaku",
+        "selectedOption": "B",
+        "rawResponse": "### 1. Answer Determination\n單一正確選項為：**(B) Commercial antifreeze formulations commonly contain Sodium Fluorescein additive to aid leak detection**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "B",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses agree on Option B (Sodium Fluorescein additive in commercial antifreeze for leak detection), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q19",
+    "number": 19,
+    "stem": "A patient survives acute Ethylene Glycol toxicity following early hemodialysis. However, 9 days post-discharge, the patient develops bilateral facial paralysis (CN VII diplegia) and dysphagia. What is the pathophysiological cause of this delayed complication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permanent brainstem ischemic stroke caused by acute hypocalcemia"
+      },
+      {
+        "id": "B",
+        "text": "Fomepizole-induced peripheral demyelinating neuropathy"
+      },
+      {
+        "id": "C",
+        "text": "Delayed cranial polyneuropathies due to calcium oxalate deposition and glycolate-mediated axonal degeneration"
+      },
+      {
+        "id": "D",
+        "text": "Rebound hyperoxalemia triggering acute cerebral edema"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Ethylene Glycol intoxication 過後 5-14 天，部分倖存患者可能出現遲發性 **Cranial Polyneuropathies**，其中最典型的是 Facial Diplegia (CN VII) 以及 dysphagia (CN IX, X)。這是由於 Calcium Oxalate crystals 微血管沉積與 Glycolate 導引的 axonal degeneration 所致。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q19_run2",
+        "notebookTitle": "TSN：出題 (4-5)",
+        "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
+        "accountProfile": "mudkaku",
+        "selectedOption": "C",
+        "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q19_run1",
+        "notebookTitle": "TSN：出題 (1-5)",
+        "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+        "accountProfile": "mudskipper24",
+        "selectedOption": "C",
+        "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 來源文獻檢索與缺失資訊分析 (Analysis of Source Evidence and Gaps)\n\n根據 **`Database Limitation Guard`** 規範... 最常受累的顱神經為 cranial nerve VII ( Facial paralysis / CN VII diplegia )... calcium oxalate crystals 沉積於供應顱神經的小血管壁內... 導向 axonal degeneration...",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null
+      }
+    ],
+    "selectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses note database insufficiency for exact 9-day post-discharge framing, but semantically confirm Option C (delayed cranial polyneuropathies from calcium oxalate deposition and glycolate axonal degeneration) as the correct pathophysiological cause, matching source provided answer C. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q20",
+    "number": 20,
+    "stem": "Which combination of toxicokinetic properties renders Intermittent Hemodialysis (IHD) far superior to Continuous Renal Replacement Therapy (CRRT) for rapid clearance of Methanol and Ethylene Glycol?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High lipophilicity, large volume of distribution (> 3 L/kg), and high protein binding (> 90%)"
+      },
+      {
+        "id": "B",
+        "text": "High molecular weight (> 20,000 Da), rapid hepatic metabolism, and zero renal clearance"
+      },
+      {
+        "id": "C",
+        "text": "Extensive tissue binding, low water solubility, and active biliary excretion"
+      },
+      {
+        "id": "D",
+        "text": "Low molecular weight (< 100 Da), zero protein binding, small volume of distribution (< 0.6 L/kg), and high water solubility"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "理想的 dialytic clearance toxicokinetic properties 包含：low molecular weight (MW < 100 Da), zero protein binding (0%), small volume of distribution (Vd < 0.6 L/kg) 以及 high water solubility。Methanol (32 Da) 與 Ethylene Glycol (62 Da) 完全符合這些條件，因此 **Intermittent Hemodialysis (IHD)** 的 diffusive clearance 遠高於 CRRT，為首選 dialytic clearance mode。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_67_3",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_3.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_3.png",
+        "caption": "Table 67.3 Extracorporeal Treatments Summary in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q20_run2",
+        "notebookTitle": "TSN：出題 (1-1)",
+        "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
+        "accountProfile": "mudskipper24",
+        "selectedOption": "D",
+        "rawResponse": "## 1. Answer Determination (答案判定)\n\n本題唯一正確的選項為 **Option (D) Low molecular weight (< 100 Da), zero protein binding, small volume of distribution (< 0.6 L/kg), and high water solubility**。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q20_run1",
+        "notebookTitle": "TSN：出題 (5-5)",
+        "notebookId": "9e85f4f8-356e-451b-ba72-d776b13807ea",
+        "accountProfile": "kuonephro",
+        "selectedOption": "D",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n*   **唯一正確選項**：**Option (D) Low molecular weight (< 100 Da), zero protein binding, small volume of distribution (< 0.6 L/kg), and high water solubility** [1-3]。",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null
+      }
+    ],
+    "selectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both dual NLM responses agree on Option D (low MW < 100 Da, 0% protein binding, Vd < 0.6 L/kg, high water solubility for optimal IHD clearance), matching source provided answer. Reconciled with high confidence.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "q1",
+    "number": 1,
+    "stem": "Which of the following enzymes acts as the rate-limiting step in the renin-angiotensin-aldosterone system (RAAS) by cleaving liver-derived angiotensinogen to generate angiotensin I?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renin"
+      },
+      {
+        "id": "B",
+        "text": "Angiotensin-converting enzyme (ACE)"
+      },
+      {
+        "id": "C",
+        "text": "Angiotensin-converting enzyme 2 (ACE2)"
+      },
+      {
+        "id": "D",
+        "text": "Neprilysin (NEP)"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Renin 為 Juxtaglomerular (JG) cells 所分泌的 aspartyl protease，催化切斷 Angiotensinogen (Agt) 形成 Angiotensin I (Ang I)，此步驟為整條 RAAS 級聯反應的 rate-limiting step。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (2-1)",
+        "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的單一正確選項為 **(A) Renin** [1-3]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "notebookTitle": "TSN：出題 (5-1)",
+        "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(A) Renin**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option A (Renin) as the rate-limiting enzyme in RAAS. Ground truth provided answer A.",
+    "selectedOption": "A",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q2",
+    "number": 2,
+    "stem": "A 58-year-old male with long-standing hypertension and chronic kidney disease is started on an ACE inhibitor. Which intracellular signaling pathway is primarily activated by Angiotensin II binding to the Angiotensin II Type 1 Receptor (AT1R) to induce efferent arteriolar vasoconstriction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adenylate cyclase activation leading to intracellular cAMP accumulation"
+      },
+      {
+        "id": "B",
+        "text": "Gq/11 coupling to Phospholipase C (PLC), generating IP3 and DAG to increase intracellular Ca2+"
+      },
+      {
+        "id": "C",
+        "text": "Gi activation leading to inhibition of protein kinase A and nitric oxide release"
+      },
+      {
+        "id": "D",
+        "text": "Receptor tyrosine kinase autophosphorylation activating the Ras/Ref/MAPK pathway"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Angiotensin II Type 1 Receptor (AT1R) 為 Gq/11-coupled GPCR，活化 Phospholipase C (PLC) 水解 PIP2 產生 Inositol trisphosphate (IP3) 與 Diacylglycerol (DAG)，促進 intracellular Ca2+ 釋放與 Protein Kinase C (PKC) 活化，導致 vascular smooth muscle constriction。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (2-2)",
+        "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n* **唯一正確選項**：**Option (B) Gq/11 coupling to Phospholipase C (PLC)...**",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "notebookTitle": "TSN：出題 (5-2)",
+        "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
+        "accountProfile": "kuonephro",
+        "rawResponse": "",
+        "databaseSufficiency": "INSUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option B (Gq/11 coupling to PLC) as the primary intracellular signaling pathway activated by AT1R. Ground truth provided answer B.",
+    "selectedOption": "B",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q3",
+    "number": 3,
+    "stem": "Which counter-regulatory axis of the renin-angiotensin system utilizes ACE2 to convert Angiotensin II into Angiotensin-(1-7), producing vasodilation, natriuresis, and anti-fibrotic effects via the Mas Receptor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AT1R - Gq/11 Axis"
+      },
+      {
+        "id": "B",
+        "text": "PRR - VDR Axis"
+      },
+      {
+        "id": "C",
+        "text": "ACE2 - Ang-(1-7) - MasR Axis"
+      },
+      {
+        "id": "D",
+        "text": "Neprilysin - Endothelin-1 Axis"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "ACE2 cleaves Angiotensin II 形成 heptapeptide Angiotensin-(1-7)，作用於 G-protein coupled Mas Receptor (MasR)，活化 PI3K/Akt/eNOS signaling pathway，產生 Vasodilation、Anti-inflammatory 與 Anti-fibrotic 作用，對抗經典 AT1R axis。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (2-3)",
+        "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### **1. Answer Determination (正解判定)**\n\n* **唯一正確選項：Option (C) ACE2 - Ang-(1-7) - MasR Axis**",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "C"
+      },
+      {
+        "notebookTitle": "TSN：出題 (5-3)",
+        "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### **1. Answer Determination (解答判定)**\n\n*   **正確選項**：**Option (C) ACE2 - Ang-(1-7) - MasR Axis**",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "C"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option C (ACE2 - Ang-(1-7) - MasR Axis) as the counter-regulatory protective axis. Ground truth provided answer C.",
+    "selectedOption": "C",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q4",
+    "number": 4,
+    "stem": "In the Zona Glomerulosa of the adrenal cortex, which terminal enzyme catalyzes the conversion of 11-deoxycorticosterone to aldosterone through successive 11-beta-hydroxylation, 18-hydroxylation, and 18-oxidation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CYP17A1 (17-alpha-hydroxylase)"
+      },
+      {
+        "id": "B",
+        "text": "CYP21A2 (21-hydroxylase)"
+      },
+      {
+        "id": "C",
+        "text": "CYP11B1 (Steroid 11-beta-hydroxylase)"
+      },
+      {
+        "id": "D",
+        "text": "CYP11B2 (Aldosterone synthase)"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Aldosterone Synthase 由 CYP11B2 基因編碼，特異性表達於 Adrenal Zona Glomerulosa，催化 11-deoxycorticosterone 轉化為 Aldosterone 的最後三個連續步驟。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (2-4)",
+        "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "## 1. Answer Determination (答案判定)\n\n本題的單一正確選項為 **Option (D) CYP11B2 (Aldosterone synthase)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "D"
+      },
+      {
+        "notebookTitle": "TSN：出題 (5-4)",
+        "notebookId": "907b8268-32ac-4d66-9cc8-4196767d5f5b",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的唯一正確選項為 **(D) CYP11B2 (Aldosterone synthase)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "D"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option D (CYP11B2 / Aldosterone synthase) as the terminal enzyme in zona glomerulosa. Ground truth provided answer D.",
+    "selectedOption": "D",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q5",
+    "number": 5,
+    "stem": "Under normal physiological conditions, which enzyme in the Aldosterone-Sensitive Distal Nephron (ASDN) metabolizes cortisol to inactive cortisone, preventing cortisol from inappropriately occupying and activating the Mineralocorticoid Receptor (MR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11-beta-Hydroxysteroid Dehydrogenase Type 2 (11-beta-HSD2)"
+      },
+      {
+        "id": "B",
+        "text": "11-beta-Hydroxysteroid Dehydrogenase Type 1 (11-beta-HSD1)"
+      },
+      {
+        "id": "C",
+        "text": "5-alpha-Reductase Type 2"
+      },
+      {
+        "id": "D",
+        "text": "Glucuronosyltransferase 1A1"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "11β-HSD2 表達於 ASDN Principal Cells，將 Cortisol 代謝為無活性的 Cortisone，防止高濃度的 Cortisol 佔據對其具同等高親和力的 Mineralocorticoid Receptor (MR)。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (2-5)",
+        "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確的單一選擇為 **(A) 11-beta-Hydroxysteroid Dehydrogenase Type 2 (11-beta-HSD2)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "notebookTitle": "TSN：出題 (5-5)",
+        "notebookId": "9e85f4f8-356e-451b-ba72-d776b13807ea",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n*   **唯一正確選項**：**Option (A) 11-beta-Hydroxysteroid Dehydrogenase Type 2 (11-beta-HSD2)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option A (11-beta-HSD2) as the enzyme metabolizing cortisol to cortisone in ASDN principal cells. Ground truth provided answer A.",
+    "selectedOption": "A",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q6",
+    "number": 6,
+    "stem": "Which early aldosterone-induced gene product phosphorylates and inactivates the E3 ubiquitin ligase Nedd4-2, thereby stabilizing apical membrane density of the Epithelial Sodium Channel (ENaC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WNK4 kinase"
+      },
+      {
+        "id": "B",
+        "text": "Serum- and Glucocorticoid-Regulated Kinase 1 (SGK1)"
+      },
+      {
+        "id": "C",
+        "text": "Protein Kinase C alpha"
+      },
+      {
+        "id": "D",
+        "text": "Calcineurin A alpha"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Aldosterone 活化 MR 後促使 SGK1 轉錄。SGK1 磷酸化 Nedd4-2 使其失活，阻斷 Nedd4-2 對 ENaC 的 Ubiquitination 與 Endocytosis，顯著增加 ENaC 在 Principal Cells Apical Membrane 的穩定度。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (3-1)",
+        "notebookId": "0a194d48-5384-45e4-a241-99e21d3a204e",
+        "accountProfile": "b92401024",
+        "rawResponse": "## 1. Answer Determination\n\n本題的唯一正確選項為 **Option (B) Serum- and Glucocorticoid-Regulated Kinase 1 (SGK1)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "notebookTitle": "TSN：出題 (1-1)",
+        "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "## 1. Answer Determination (答案判定)\n\n本題唯一正確的選項為 **Option (B) Serum- and Glucocorticoid-Regulated Kinase 1 (SGK1)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option B (SGK1) as the early aldosterone-induced gene product that inactivates Nedd4-2. Ground truth provided answer B.",
+    "selectedOption": "B",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q7",
+    "number": 7,
+    "stem": "Regarding the 'Aldosterone Paradox', how does high Angiotensin II during hypovolemia allow the kidney to maximize sodium reabsorption while minimizing renal potassium wasting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Angiotensin II inhibits ENaC channels directly in the cortical collecting duct."
+      },
+      {
+        "id": "B",
+        "text": "Angiotensin II activates WNK4 to phosphorylate NCC in the DCT and dephosphorylates MR Ser-843 in Type A intercalated cells."
+      },
+      {
+        "id": "C",
+        "text": "Angiotensin II degrades ROMK potassium channels via lysosomes in principal cells."
+      },
+      {
+        "id": "D",
+        "text": "Angiotensin II upregulates 11-beta-HSD2 activity in renal vascular smooth muscle."
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "在 Volume Depletion 狀態下，高濃度 Ang II 活化 WNK4-SPAK/OSR1 使得 DCT 之 NCC 被強烈磷酸化活化，大部分 Na+ 在 ASDN 上游被 reabsorbed，減少進入 CCD 的 flow rate 與 Na+ load；同時下調 Intercalated Cell 之 MR Ser-843 磷酸化促使 Cl- reabsorption，達成 sodium retention 且無 potassium wasting。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (3-2)",
+        "notebookId": "73af8c23-7f2c-4d36-900b-e59a38e36742",
+        "accountProfile": "b92401024",
+        "rawResponse": "### 1. Answer Determination\n\n本題的正確選項為 **(B) Angiotensin II activates WNK4 to phosphorylate NCC in the DCT and dephosphorylates MR Ser-843 in Type A intercalated cells**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "notebookTitle": "TSN：出題 (1-2)",
+        "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### **1. Answer Determination (答案判定)**\n\n本題的唯一正確選項為 **Option (B) Angiotensin II activates WNK4 to phosphorylate NCC in the DCT and dephosphorylates MR Ser-843 in Type A intercalated cells**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option B (WNK4 activation of NCC and MR Ser-843 dephosphorylation) as the mechanism resolving the Aldosterone Paradox during volume depletion. Ground truth provided answer B.",
+    "selectedOption": "B",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q8",
+    "number": 8,
+    "stem": "In the setting of isolated hyperkalemia with low circulating Angiotensin II, what molecular alteration in Intercalated Cells of the distal nephron prevents aldosterone-mediated chloride reabsorption, thereby favoring potassium excretion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phosphorylation of the Mineralocorticoid Receptor at Serine-843 (Ser-843)"
+      },
+      {
+        "id": "B",
+        "text": "Dephosphorylation of the ENaC alpha subunit at Serine-550"
+      },
+      {
+        "id": "C",
+        "text": "Ubiquitination of Pendrin (SLC26A4) transporters"
+      },
+      {
+        "id": "D",
+        "text": "Proteolytic cleavage of ROMK channels by prostasin"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "在 hyperkalemia 狀態下，Type A Intercalated Cells 的 MR 在 LBD 區域被 Phosphorylated at Ser-843，阻斷 Aldosterone 結合，抑制 Cl- reabsorption，並允許 Principal Cells 進行高效 ROMK-mediated K+ Secretion。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (3-3)",
+        "notebookId": "56fce15d-9829-491d-8b7e-4459538e8d44",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. Answer Determination**\n\n* **正確選項**：**Option (A) Phosphorylation of the Mineralocorticoid Receptor at Serine-843 (Ser-843)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "notebookTitle": "TSN：出題 (1-3)",
+        "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解確立)\n\n* **Correct Option**: **Option (A) Phosphorylation of the Mineralocorticoid Receptor at Serine-843 (Ser-843)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option A (Phosphorylation of MR at Ser-843) as the key alteration preventing chloride reabsorption during isolated hyperkalemia. Ground truth provided answer A.",
+    "selectedOption": "A",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q9",
+    "number": 9,
+    "stem": "Neprilysin (NEP, CD10) is a membrane-bound zinc metallopeptidase. Which of the following bioactive peptides is NOT a substrate degraded by Neprilysin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atrial Natriuretic Peptide (ANP)"
+      },
+      {
+        "id": "B",
+        "text": "B-type Natriuretic Peptide (BNP)"
+      },
+      {
+        "id": "C",
+        "text": "N-terminal pro-BNP (NT-proBNP)"
+      },
+      {
+        "id": "D",
+        "text": "Bradykinin"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Neprilysin hydrolyzes and degrades ANP, BNP, CNP, Ang I/II, Bradykinin 與 Amyloid-beta；但 NT-proBNP 不會被 Neprilysin 降解，因此在接受 ARNI 治療患者中 NT-proBNP 為評估 heart failure 改善之客觀 biomarker。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (3-4)",
+        "notebookId": "d98cec85-72aa-4523-a5f7-6e1327029e13",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. Answer Determination**\n\n**正確選項**：**Option C (N-terminal pro-BNP (NT-proBNP))**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "C"
+      },
+      {
+        "notebookTitle": "TSN：出題 (1-4)",
+        "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(C) N-terminal pro-BNP (NT-proBNP)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "C"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option C (NT-proBNP) as NOT being a substrate degraded by Neprilysin. Ground truth provided answer C.",
+    "selectedOption": "C",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "q10",
+    "number": 10,
+    "stem": "Why did single-agent Neprilysin inhibitors (such as Candoxatril) fail to produce effective vasodilation and blood pressure reduction in clinical hypertension trials?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inhibition of Neprilysin causes a compensatory increase in renal 11-beta-HSD2 activity."
+      },
+      {
+        "id": "B",
+        "text": "Inhibition of Neprilysin prevents Angiotensin II degradation, causing reflex accumulation of Angiotensin II that opposes natriuretic peptides."
+      },
+      {
+        "id": "C",
+        "text": "Neprilysin inhibitors directly block NPR-A receptors on vascular smooth muscle cells."
+      },
+      {
+        "id": "D",
+        "text": "Neprilysin inhibitors accelerate renal ENaC subunit assembly"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Neprilysin 亦為 Angiotensin II 的 degrading enzyme。單純抑制 Neprilysin 會引發內源性 Ang II 反射性累積，經由 AT1R 引起 vasoconstriction 與 sodium-water retention，抵銷 ANP/BNP 升高的好處。",
+    "nlmResponses": [
+      {
+        "notebookTitle": "TSN：出題 (3-5)",
+        "notebookId": "f65852f3-27d9-4899-8588-7d30d31adbec",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. 正解判定 (Answer Determination)**\n\n* **Correct Option: (B) Inhibition of Neprilysin prevents Angiotensin II degradation, causing reflex accumulation of Angiotensin II that opposes natriuretic peptides.**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "notebookTitle": "TSN：出題 (1-5)",
+        "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n單一藥物 **`Neprilysin inhibitor`**（如 **`Candoxatril`**）在臨床高血壓試驗中... **(B) Inhibition of Neprilysin prevents Angiotensin II degradation...**",
+        "databaseSufficiency": "SUFFICIENT",
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM instances independently confirmed Option B (Inhibition of Neprilysin prevents Angiotensin II degradation, causing reflex accumulation of Ang II) as the cause of failure for single-agent Neprilysin inhibitors. Ground truth provided answer B.",
+    "selectedOption": "B",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  }
+]

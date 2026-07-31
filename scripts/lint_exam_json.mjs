@@ -89,6 +89,60 @@ function lintExamFile(filePath) {
         }
       }
     });
+
+    // Check 7: QC Verification Integrity Gate (Zero Fake QC / Zero Null SelectedOption)
+    if (q.qcVerified === true) {
+      if (!Array.isArray(q.nlmResponses) || q.nlmResponses.length < 2) {
+        errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but nlmResponses count is ${q.nlmResponses ? q.nlmResponses.length : 0} (must be exactly 2).`);
+      } else {
+        q.nlmResponses.forEach((resp, rIdx) => {
+          const rawLen = (resp.rawResponse || '').length;
+          if (rawLen < 200) {
+            errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but nlmResponse #${rIdx + 1} rawResponse length is ${rawLen} (< 200 chars).`);
+          }
+          if (resp.error) {
+            errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but nlmResponse #${rIdx + 1} contains RPC/connection error: "${resp.error}".`);
+          }
+          if (!resp.selectedOption || typeof resp.selectedOption !== 'string' || !resp.selectedOption.trim()) {
+            errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but nlmResponse #${rIdx + 1} selectedOption is null/empty.`);
+          }
+        });
+
+        // Check NLM discrepancy reconciliation
+        if (q.nlmResponses.length === 2) {
+          const sel1 = q.nlmResponses[0].selectedOption;
+          const sel2 = q.nlmResponses[1].selectedOption;
+          if (sel1 && sel2 && sel1 !== sel2) {
+            if (!q.reconciliationStatus || !q.qcNotes) {
+              errors.push(`[${fileName} -> ${qLabel}] qcVerified is true but NLM #1 (${sel1}) and NLM #2 (${sel2}) disagree without explicit reconciliationStatus/qcNotes.`);
+            }
+          }
+        }
+      }
+    }
+
+    // Check 8: Pure English Medical Terms & Anti-Bilingual Brackets Gate
+    const FORBIDDEN_ZH_MED_TERMS = [
+      '高草酸尿症', '近曲小管', '足細胞', '軟水器', '雙折射', '腎切片', '前列腺',
+      '滲透壓', '高血鈉', '低血鈉', '高血鉀', '低血鉀', '血管收縮', '利尿劑', '尿崩症'
+    ];
+    const BILINGUAL_BRACKET_REGEX = /([\u4e00-\u9fa5]{2,}\s*\([A-Za-z\s\/]{2,}\)|[A-Za-z]{2,}\s*\([\u4e00-\u9fa5]{2,}\))/g;
+
+    const explanationTexts = [String(q.sourceExplanation || ''), String(q.codexExplanation || '')];
+    explanationTexts.forEach((text, tIdx) => {
+      if (!text || typeof text !== 'string') return;
+      FORBIDDEN_ZH_MED_TERMS.forEach(term => {
+        if (text.includes(term)) {
+          errors.push(`[${fileName} -> ${qLabel}] Chinese medical term "${term}" detected in explanation #${tIdx + 1}. Must be pure English.`);
+        }
+      });
+
+      BILINGUAL_BRACKET_REGEX.lastIndex = 0;
+      let bMatch;
+      while ((bMatch = BILINGUAL_BRACKET_REGEX.exec(text)) !== null) {
+        errors.push(`[${fileName} -> ${qLabel}] Prohibited bilingual bracket "${bMatch[0]}" detected in explanation #${tIdx + 1}. Must use pure English term.`);
+      }
+    });
   });
 
   return { errors, warnings };

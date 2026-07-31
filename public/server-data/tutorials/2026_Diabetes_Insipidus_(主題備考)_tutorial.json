@@ -25,12 +25,52 @@
           "sourceBook": "Gemini AI Illustration",
           "type": "ai_illustration"
         }
+      ],
+      "diagrams": [
+        {
+          "id": "brenner_fig_15_12",
+          "title": "Relationship between Plasma AVP and Plasma Osmolality in Polyuria",
+          "relPath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Fig_15_12.png",
+          "imagePath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Fig_15_12.png",
+          "caption": "Plasma AVP vs Plasma Osmolality after dehydration distinguishing Central DI, Nephrogenic DI, and Primary Polydipsia.",
+          "sourceBook": "Brenner 11e Ch 15",
+          "type": "micrograph"
+        },
+        {
+          "id": "di_pathophysiology",
+          "title": "Molecular Pathophysiology of Diabetes Insipidus",
+          "relPath": "/server-data/assets/di_pathophysiology.jpg",
+          "imagePath": "/server-data/assets/di_pathophysiology.jpg",
+          "caption": "Molecular signaling pathway of V2R, AQP2, and cellular targets of Lithium toxicity.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
       ]
     },
     {
       "title": "Section 2: Diagnostic Workup: Water Deprivation Test, DDAVP Challenge, and Copeptin Assay",
       "content": "Comprehensive protocol for Water Deprivation Test. Endpoint criteria: Body weight loss >= 3%, Plasma Osmolality > 300 mOsm/kg H2O, Serum Na > 145 mEq/L, or Urine Osmolality plateau (<10% change). Post-DDAVP (5 U AVP or 1 mcg DDAVP) response: Uosm increase > 50% = Central DI; Uosm increase < 10% = Nephrogenic DI or Primary Polydipsia. Differentiation using Plasma Copeptin (stable C-terminal cleavage product of prepro-AVP): Baseline Copeptin without water deprivation > 21.4 pmol/L unequivocally indicates Nephrogenic DI. Stimulated Copeptin < 4.9 pmol/L after hypertonic saline infusion supports Central DI vs Primary Polydipsia (> 4.9 pmol/L).",
       "images": [
+        {
+          "id": "brenner_fig_15_13",
+          "title": "Relationship between Urine Osmolality and Plasma AVP",
+          "relPath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Fig_15_13.png",
+          "imagePath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Fig_15_13.png",
+          "caption": "Urine osmolality vs concurrent plasma AVP distinguishing polyuric disorders.",
+          "sourceBook": "Brenner 11e Ch 15",
+          "type": "micrograph"
+        },
+        {
+          "id": "di_deprivation_algo",
+          "title": "Diabetes Insipidus Diagnostic Algorithm",
+          "relPath": "/server-data/assets/di_deprivation_algo.jpg",
+          "imagePath": "/server-data/assets/di_deprivation_algo.jpg",
+          "caption": "Step-by-step clinical decision algorithm for fluid deprivation, DDAVP challenge, and copeptin interpretation.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
         {
           "id": "brenner_fig_15_13",
           "title": "Relationship between Urine Osmolality and Plasma AVP",
@@ -73,12 +113,52 @@
           "sourceBook": "Gemini AI Illustration",
           "type": "ai_illustration"
         }
+      ],
+      "diagrams": [
+        {
+          "id": "brenner_box_15_1",
+          "title": "Causes of Hypotonic Polyuria",
+          "relPath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Box_15_1.png",
+          "imagePath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Box_15_1.png",
+          "caption": "Etiological classification of Central DI, Osmoreceptor Dysfunction, Nephrogenic DI, and Primary Polydipsia.",
+          "sourceBook": "Brenner 11e Ch 15",
+          "type": "micrograph"
+        },
+        {
+          "id": "di_diff_chart",
+          "title": "High-Yield Comparison of Hypotonic Polyuria Types",
+          "relPath": "/server-data/assets/di_diff_chart.jpg",
+          "imagePath": "/server-data/assets/di_diff_chart.jpg",
+          "caption": "Comparative summary table contrasting AVP, Copeptin, baseline/post-DDAVP Uosm, and therapeutic responses.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
       ]
     },
     {
       "title": "Section 4: Therapeutic Strategies & Clinical Management Pathways",
       "content": "Comprehensive therapeutic management. Central DI: Desmopressin (DDAVP) via intranasal spray, oral tablets, or subcutaneous injection. Nephrogenic DI: Treatment of underlying cause (e.g. discontinue Lithium if possible). Pharmacological therapy for Lithium-induced NDI: Amiloride (blocks ENaC, preventing Lithium entry into principal cells) combined with Thiazides (Hydrochlorothiazide, causing mild ECF volume contraction to enhance proximal tubule Sodium and Water reabsorption, decreasing distal fluid delivery) and Indomethacin/NSAIDs (inhibiting renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation). Gestational DI: DDAVP administration. Free water deficit calculation and cautious hypernatremia correction rate (< 10-12 mEq/L/24h) to avoid cerebral edema.",
       "images": [
+        {
+          "id": "brenner_box_15_3",
+          "title": "Therapies for the Treatment of Diabetes Insipidus",
+          "relPath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Box_15_3.png",
+          "imagePath": "/reference-images/Brenner 11e/15. Disorders of Water Balance/Box_15_3.png",
+          "caption": "Pharmacological agents for Central and Nephrogenic DI including antidiuretics and natriuretic agents.",
+          "sourceBook": "Brenner 11e Ch 15",
+          "type": "micrograph"
+        },
+        {
+          "id": "di_tx_pathway",
+          "title": "Therapeutic Management of Diabetes Insipidus",
+          "relPath": "/server-data/assets/di_tx_pathway.jpg",
+          "imagePath": "/server-data/assets/di_tx_pathway.jpg",
+          "caption": "Mechanism of action of DDAVP, Amiloride, Thiazides, and NSAIDs in Central, Nephrogenic, and Gestational DI.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ],
+      "diagrams": [
         {
           "id": "brenner_box_15_3",
           "title": "Therapies for the Treatment of Diabetes Insipidus",

@@ -1,39 +1,65 @@
 import json
+import re
 
-with open('/Users/yuan/Projects/Exam/Exam_prepare_site/scratch/ncku_cases_all28_dual_nlm_output.json', 'r') as f:
-    nlm_data = json.load(f)
+with open('/Users/yuan/.gemini/antigravity/brain/48b5db70-6fe4-4ebe-ad75-db0022514ac7/scratch/batch_2.json', 'r') as f:
+    batch = json.load(f)
 
-with open('/Users/yuan/Projects/Exam/Exam_prepare_site/public/server-data/2026_成大_Cases_(重點轉化).json', 'r') as f:
-    db_data = json.load(f)
+with open('/Users/yuan/Projects/Exam/Exam_prepare_site/public/server-data/2026_Diabetes_Insipidus_(主題備考).json', 'r') as f:
+    exam = json.load(f)
 
-# Collect nlm responses
-nlm_map = {}
-for item in nlm_data:
-    q_id = item['q_id']
-    if q_id not in nlm_map:
-        nlm_map[q_id] = item
-    else:
-        # handle suffix
-        pass
+q_map = {q['id']: q for q in exam['questions']}
+res = []
+
+def extract_option(text):
+    match = re.search(r'(?:Option|選項)\s*[\(（]?([A-E])[\)）]?', text, re.IGNORECASE)
+    if match:
+        return match.group(1).upper()
+    match2 = re.search(r'\(([A-E])\)', text[:200])
+    if match2:
+        return match2.group(1).upper()
+    if 'ALL' in text[:200]: return 'ALL'
+    if 'NONE' in text[:200]: return 'NONE'
+    return 'UNKNOWN'
+
+for q_id in ['di_006', 'di_007', 'di_008', 'di_009', 'di_010']:
+    if q_id not in batch:
+        continue
+    runs = batch[q_id]
+    r1 = runs.get('run1', {}).get('raw_response', '')
+    r2 = runs.get('run2', {}).get('raw_response', '')
+    
+    o1 = extract_option(r1)
+    o2 = extract_option(r2)
+    
+    source_ans = q_map[q_id]['sourceProvidedAnswer']
+    
+    status = ""
+    notes = ""
+    consensus = source_ans
+    
+    if o1 == o2 == source_ans:
+        status = "HIGH_CONFIDENCE"
+        notes = ""
+    elif o1 == o2 and o1 != source_ans:
+        status = "HIGH_CONFIDENCE"
+        notes = "Corrected by dual NLM consensus"
+        consensus = o1
+    elif o1 != o2:
+        status = "DISPUTED"
+        notes = "Discrepancy between NLM run 1 and run 2"
+        consensus = source_ans
         
-for item in nlm_data:
-    qid_full = item['q_id']
-    q_id = qid_full.split('_run')[0]
-    run_idx = qid_full.split('_run')[1]
-    if q_id not in nlm_map:
-        nlm_map[q_id] = {}
-    nlm_map[q_id][f'run{run_idx}'] = item
+    out_q = q_map[q_id].copy()
+    out_q['selectedOption'] = consensus
+    out_q['sourceProvidedAnswer'] = consensus
+    out_q['reconciliationStatus'] = status
+    out_q['reconciliationNotes'] = notes
+    out_q['nlmResponses'] = [runs.get('run1', {}), runs.get('run2', {})]
+    
+    res.append(out_q)
 
-q_list = [f"2026_成大_Cases_Q{str(i).zfill(2)}" for i in range(1, 11)]
+with open('/Users/yuan/.gemini/antigravity/brain/48b5db70-6fe4-4ebe-ad75-db0022514ac7/scratch/parsed_batch_2.json', 'w') as f:
+    json.dump(res, f, ensure_ascii=False, indent=2)
 
-output = []
-for q in q_list:
-    run1_text = nlm_map.get(q, {}).get('run1', {}).get('raw_response', '')
-    run2_text = nlm_map.get(q, {}).get('run2', {}).get('raw_response', '')
-    output.append({
-        'q_id': q,
-        'run1': run1_text[:300], # just a snippet to find the answer determination
-        'run2': run2_text[:300]
-    })
-
-print(json.dumps(output, ensure_ascii=False, indent=2))
+for r in res:
+    print(f"{r['id']}: R1={extract_option(runs.get('run1',{}).get('raw_response',''))}, R2={extract_option(runs.get('run2',{}).get('raw_response',''))}, Source={q_map[r['id']]['sourceProvidedAnswer']} -> Final={r['selectedOption']}, Status={r['reconciliationStatus']}")

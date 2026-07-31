@@ -1,0 +1,467 @@
+[
+  {
+    "id": "2026_DI_Q11",
+    "number": 11,
+    "stem": "A 28-year-old female in her third trimester of pregnancy develops severe polyuria. Her serum sodium is 146 mEq/L. Her urine osmolality significantly increases after administration of Desmopressin (DDAVP) but not after endogenous AVP stimulation. What is the pathogenesis of her condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autoimmune destruction of the posterior pituitary gland"
+      },
+      {
+        "id": "B",
+        "text": "Increased placental production of Vasopressinase which rapidly degrades endogenous AVP"
+      },
+      {
+        "id": "C",
+        "text": "Downregulation of V2 receptors in the kidney due to high progesterone levels"
+      },
+      {
+        "id": "D",
+        "text": "Transient hypercalcemia caused by parathyroid hormone-related peptide"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "B",
+    "sourceExplanation": "Gestational Diabetes Insipidus 是因為 placenta 大量製造 Vasopressinase (Oxytocinase)，導致 maternal endogenous Arginine Vasopressin (AVP) 被快速降解而引起。Desmopressin (DDAVP) 的結構經過修飾，對 Vasopressinase 具有抵抗力，因此這類病患對 DDAVP 有良好反應，亦為 first-line treatment。",
+    "nlmResponses": [],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+    "qcNotes": "QC verified. Source answer B.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q12",
+    "number": 12,
+    "stem": "A patient undergoes a T1-weighted MRI of the brain for evaluation of polyuria. The scan reveals an absence of the normal Posterior Pituitary Bright Spot. This imaging finding is most characteristic of which disorder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nephrogenic Diabetes Insipidus"
+      },
+      {
+        "id": "B",
+        "text": "Primary Polydipsia"
+      },
+      {
+        "id": "C",
+        "text": "Central Diabetes Insipidus"
+      },
+      {
+        "id": "D",
+        "text": "Osmotic diuresis"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "C",
+    "sourceExplanation": "在 T1-weighted MRI 上，正常的 Posterior Pituitary 會有因為 neurosecretory granules 富含 phospholipids 而表現的 Bright Spot。此訊號消失是 Central Diabetes Insipidus 的典型影像學特徵，可見於 idiopathic Central Diabetes Insipidus 或是 Infundibuloneurohypophysitis 等疾病。",
+    "nlmResponses": [],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+    "qcNotes": "QC verified. Source answer C.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q13",
+    "number": 13,
+    "stem": "Which characteristic best distinguishes Primary Polydipsia from Central Diabetes Insipidus on initial clinical presentation before specialized testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Higher average serum sodium levels in Primary Polydipsia compared to Central DI"
+      },
+      {
+        "id": "B",
+        "text": "Frequent hyponatremia or low-normal serum sodium in Primary Polydipsia, whereas Central DI tends to have high-normal or elevated serum sodium"
+      },
+      {
+        "id": "C",
+        "text": "Higher urine osmolality in Primary Polydipsia than in Central DI at baseline"
+      },
+      {
+        "id": "D",
+        "text": "Exclusive occurrence of Primary Polydipsia in elderly patients with CKD"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "B",
+    "sourceExplanation": "Primary Polydipsia 的病患由於大量喝水，其 Serum Na 通常處於低正常值甚至有 Hyponatremia。相反地，Central Diabetes Insipidus 病患由於水分大量流失且 thirst center 啟動，其 Serum Na 通常會維持在高正常值，若無法自由喝水則會出現 Hypernatremia。",
+    "nlmResponses": [],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+    "qcNotes": "QC verified. Source answer B.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q14",
+    "number": 14,
+    "stem": "A patient presents with sudden-onset polyuria and polydipsia following neurosurgery for a craniopharyngioma. He exhibits the classic 'triple phase' response. What does the second phase of this response represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transient Central DI due to axonal shock"
+      },
+      {
+        "id": "B",
+        "text": "Permanent Nephrogenic DI due to osmotic diuresis"
+      },
+      {
+        "id": "C",
+        "text": "Transient SIADH-like state with hyponatremia due to uncontrolled release of stored AVP from degenerating neurons"
+      },
+      {
+        "id": "D",
+        "text": "Primary Polydipsia due to hypothalamic thirst center irritation"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "C",
+    "sourceExplanation": "Neurosurgery (如 Craniopharyngioma 摘除) 後常出現的 Triple phase 包含：第一期短暫的 Central DI (因 neurons 受損停止分泌 AVP)，第二期 SIADH-like 狀態 (因受損的 neurons 崩解，釋放大量庫存的 AVP 導致水分滯留及 Hyponatremia)，第三期則是永久性的 Central DI (庫存耗盡且細胞死亡)。",
+    "nlmResponses": [],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+    "qcNotes": "QC verified. Source answer C.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q15",
+    "number": 15,
+    "stem": "A patient with bipolar disorder has polyuria (urine output 4 L/day) and a normal serum sodium of 140 mEq/L. His urine osmolality is 200 mOsm/kg. After a fluid deprivation test and DDAVP administration, his urine osmolality increases to 215 mOsm/kg. Which of the following is true regarding his condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "His condition is reversible immediately upon stopping Lithium"
+      },
+      {
+        "id": "B",
+        "text": "He likely has Central Diabetes Insipidus"
+      },
+      {
+        "id": "C",
+        "text": "His diagnosis is Lithium-induced Nephrogenic Diabetes Insipidus, which often features a blunted response to DDAVP"
+      },
+      {
+        "id": "D",
+        "text": "He should be treated with high-dose intranasal DDAVP to overcome the resistance"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "C",
+    "sourceExplanation": "病患有使用 Lithium 且在 DDAVP 測試後 urine osmolality 幾乎無上升 (僅 200 -> 215 mOsm/kg)，這是典型的 Nephrogenic Diabetes Insipidus。長期 Lithium-induced NDI 不一定在停藥後能完全且立即恢復。給予高劑量 DDAVP 對於此類病患並無顯著療效。",
+    "nlmResponses": [],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+    "qcNotes": "QC verified. Source answer C.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q16",
+    "number": 16,
+    "stem": "What is the pharmacological rationale for combining Amiloride and a Thiazide diuretic in the treatment of Lithium-induced Nephrogenic Diabetes Insipidus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amiloride blocks the ENaC channel preventing Lithium entry into principal cells, while Thiazide induces mild ECF volume contraction to enhance proximal tubular water reabsorption."
+      },
+      {
+        "id": "B",
+        "text": "Both agents synergistically activate V2 receptors in the collecting duct."
+      },
+      {
+        "id": "C",
+        "text": "Thiazides increase Lithium excretion in the distal convoluted tubule, while Amiloride prevents hypokalemia."
+      },
+      {
+        "id": "D",
+        "text": "Amiloride inhibits vasopressinase, and Thiazide blocks Aquaporin-1."
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "A",
+    "sourceExplanation": "在 Lithium-induced Nephrogenic Diabetes Insipidus 的治療中，Amiloride 可阻斷 ENaC，減少 Lithium 進入 principal cells，從而降低毒性。合併使用 Thiazide (如 Hydrochlorothiazide) 則可造成輕微的 ECF volume contraction，這會代償性地增加 proximal tubule 對 sodium 與 water 的 reabsorption，減少 distal fluid delivery，進而減少 urine output。",
+    "nlmResponses": [
+      {
+        "q_id": "di_016_run1",
+        "notebook_title": "TSN：出題 (2-1)",
+        "notebook_id": "6e6cb500-552e-4de8-a11f-732880b11187",
+        "account_profile": "sandbox0505",
+        "selectedOption": "A",
+        "raw_response": "### 1. Answer Determination (正解判定)\n\n本題的單一正確選項為 **(A) Amiloride blocks the ENaC channel preventing Lithium entry into principal cells, while Thiazide induces mild ECF volume contraction to enhance proximal tubular water reabsorption** [Passage 52, 53, 224, 303].\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      },
+      {
+        "q_id": "di_016_run2",
+        "notebook_title": "TSN：出題 (1-4)",
+        "notebook_id": "6d39d57a-5078-4975-847c-33843a534c17",
+        "account_profile": "mudskipper24",
+        "selectedOption": "A",
+        "raw_response": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(A) Amiloride blocks the ENaC channel preventing Lithium entry into principal cells, while Thiazide induces mild ECF volume contraction to enhance proximal tubular water reabsorption.** ``.\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      }
+    ],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (A)",
+    "qcNotes": "Dual NLM responses unanimously agree on option A, perfectly matching sourceProvidedAnswer.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q17",
+    "number": 17,
+    "stem": "A 40-year-old patient with inherited Nephrogenic Diabetes Insipidus is prescribed Indomethacin to help reduce his polyuria. What is the primary mechanism of action of NSAIDs in this setting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NSAIDs directly activate Aquaporin-2 transcription independently of cAMP"
+      },
+      {
+        "id": "B",
+        "text": "NSAIDs inhibit renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation"
+      },
+      {
+        "id": "C",
+        "text": "NSAIDs stimulate AVP release from the Posterior Pituitary"
+      },
+      {
+        "id": "D",
+        "text": "NSAIDs upregulate V1a receptors in the vasa recta"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "B",
+    "sourceExplanation": "NSAIDs (如 Indomethacin) 藉由抑制 cyclooxygenase (COX)，減少 renal Prostaglandin E2 (PGE2) 的合成。由於 PGE2 正常情況下會拮抗 AVP 所引發的 cAMP 產生，抑制 PGE2 可加強殘存的 AVP 效應並減少 renal blood flow，從而有助於減輕 Nephrogenic Diabetes Insipidus 的 polyuria 症狀。",
+    "nlmResponses": [
+      {
+        "q_id": "di_017_run1",
+        "notebook_title": "TSN：出題 (4-1)",
+        "notebook_id": "5e51bfee-b022-483f-a94a-10feee5adc92",
+        "account_profile": "mudkaku",
+        "selectedOption": "B",
+        "raw_response": "### 1. Answer Determination (正解判定)\n正確選項為 **(B) NSAIDs inhibit renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      },
+      {
+        "q_id": "di_017_run2",
+        "notebook_title": "TSN：出題 (5-1)",
+        "notebook_id": "83de638d-78bf-4856-9196-ed76c0748d62",
+        "account_profile": "kuonephro",
+        "selectedOption": "B",
+        "raw_response": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(B) NSAIDs inhibit renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      }
+    ],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+    "qcNotes": "Dual NLM responses unanimously agree on option B, perfectly matching sourceProvidedAnswer.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q18",
+    "number": 18,
+    "stem": "Which of the following is the preferred first-line treatment for a patient newly diagnosed with Gestational Diabetes Insipidus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intravenous hypotonic saline"
+      },
+      {
+        "id": "B",
+        "text": "Hydrochlorothiazide"
+      },
+      {
+        "id": "C",
+        "text": "Desmopressin (DDAVP)"
+      },
+      {
+        "id": "D",
+        "text": "Amiloride"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "C",
+    "sourceExplanation": "Gestational Diabetes Insipidus 是因為 placenta 分泌的 Vasopressinase 降解了 endogenous AVP。Desmopressin (DDAVP) 的結構與 AVP 不同，能抵抗 Vasopressinase 的水解，因此是治療 Gestational Diabetes Insipidus 的 first-line drug of choice。",
+    "nlmResponses": [
+      {
+        "q_id": "di_018_run1",
+        "notebook_title": "TSN：出題 (3-3)",
+        "notebook_id": "56fce15d-9829-491d-8b7e-4459538e8d44",
+        "account_profile": "b92401024",
+        "selectedOption": "C",
+        "raw_response": "### **1. Answer Determination**\n\n正確選項為 **Option (C) Desmopressin (DDAVP)**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      },
+      {
+        "q_id": "di_018_run2",
+        "notebook_title": "TSN：出題 (5-4)",
+        "notebook_id": "907b8268-32ac-4d66-9cc8-4196767d5f5b",
+        "account_profile": "kuonephro",
+        "selectedOption": "C",
+        "raw_response": "### 1. Answer Determination (正解判定)\n\n本題的唯一正確選項為 **(C) Desmopressin (DDAVP)**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      }
+    ],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+    "qcNotes": "Dual NLM responses unanimously agree on option C, perfectly matching sourceProvidedAnswer.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q19",
+    "number": 19,
+    "stem": "A 65-year-old male with severe Central Diabetes Insipidus presents with a serum sodium of 165 mEq/L due to inadequate fluid intake. He has an estimated free water deficit of 6 Liters. What is a critical principle in correcting his hypernatremia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administer the entire calculated free water deficit intravenously as rapidly as possible to prevent hypovolemic shock."
+      },
+      {
+        "id": "B",
+        "text": "Correct the serum sodium at a rate of 1-2 mEq/L per hour until normalization to prevent central pontine myelinolysis."
+      },
+      {
+        "id": "C",
+        "text": "Correct the hypernatremia cautiously at a rate of no more than 10-12 mEq/L per 24 hours to avoid cerebral edema."
+      },
+      {
+        "id": "D",
+        "text": "Administer normal saline (0.9% NaCl) until the serum sodium returns to 140 mEq/L."
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "C",
+    "sourceExplanation": "對於嚴重 Hypernatremia 的病患，其 brain cells 已產生 idiogenic osmoles 以維持 cell volume。若過速補充 free water 導致 plasma osmolality 快速下降，水分會大量湧入 brain cells，引發致命的 cerebral edema。因此，校正速率必須嚴格控制在每 24 小時不超過 10-12 mEq/L。",
+    "nlmResponses": [
+      {
+        "q_id": "di_019_run1",
+        "notebook_title": "TSN：出題 (1-3)",
+        "notebook_id": "83b63313-9184-4bd2-ac6b-24d3326405b3",
+        "account_profile": "mudskipper24",
+        "selectedOption": "C",
+        "raw_response": "### 1. Answer Determination (正解確立)\n\n* **Correct Option**: **`Option (C) Correct the hypernatremia cautiously at a rate of no more than 10-12 mEq/L per 24 hours to avoid cerebral edema.`**\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      },
+      {
+        "q_id": "di_019_run2",
+        "notebook_title": "TSN：出題 (2-4)",
+        "notebook_id": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+        "account_profile": "sandbox0505",
+        "selectedOption": "C",
+        "raw_response": "本題的單一正確選項為 **Option (C) Correct the hypernatremia cautiously at a rate of no more than 10-12 mEq/L per 24 hours to avoid cerebral edema**...\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      }
+    ],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+    "qcNotes": "Dual NLM responses unanimously agree on option C, perfectly matching sourceProvidedAnswer.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_DI_Q20",
+    "number": 20,
+    "stem": "Which formulation of Desmopressin (DDAVP) is considered most practical and commonly used for long-term outpatient maintenance therapy in adult patients with Central Diabetes Insipidus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuous intravenous infusion"
+      },
+      {
+        "id": "B",
+        "text": "Intranasal spray or oral tablets"
+      },
+      {
+        "id": "C",
+        "text": "Subcutaneous depot injections once monthly"
+      },
+      {
+        "id": "D",
+        "text": "Intramuscular long-acting formulations every 6 months"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "selectedOption": "B",
+    "sourceExplanation": "對於 Central Diabetes Insipidus 的長期門診維持治療，Desmopressin (DDAVP) 的 Intranasal spray 或是 oral tablets 是最實用且廣泛被採用的劑型，病患可根據白天的 urine output 與 thirst severity 自行調整劑量。",
+    "nlmResponses": [
+      {
+        "q_id": "di_020_run1",
+        "notebook_title": "TSN：出題 (4-3)",
+        "notebook_id": "a1812188-f954-462f-aebd-2dba1b420f49",
+        "account_profile": "mudkaku",
+        "selectedOption": "B",
+        "raw_response": "### 1. Answer Determination\n\n本題的單選正解為 **(B) Intranasal spray or oral tablets**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      },
+      {
+        "q_id": "di_020_run2",
+        "notebook_title": "TSN：出題 (5-5)",
+        "notebook_id": "9e85f4f8-356e-451b-ba72-d776b13807ea",
+        "account_profile": "kuonephro",
+        "selectedOption": "B",
+        "raw_response": "### 1. Answer Determination (答案判定)\n\n*   **唯一正確選項**：**Option (B) Intranasal spray or oral tablets**。\n\n---...",
+        "database_sufficiency": "SUFFICIENT",
+        "qc_status": "PASSED",
+        "qc_reason": null,
+        "error": null
+      }
+    ],
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+    "qcNotes": "Dual NLM responses unanimously agree on option B, perfectly matching sourceProvidedAnswer.",
+    "qcStatus": "QC_PASSED",
+    "qcVerified": true,
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  }
+]

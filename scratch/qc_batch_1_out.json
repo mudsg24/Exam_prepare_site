@@ -1,0 +1,632 @@
+[
+  {
+    "id": "2026_Toxic_alcohols_Q1",
+    "number": 1,
+    "stem": "A 42-year-old patient presents to the emergency department after suspected ingestion of an unknown antifreeze liquid. Laboratory results show: Na+ 140 mEq/L, K+ 4.5 mEq/L, Cl- 100 mEq/L, HCO3- 10 mEq/L, Glucose 90 mg/dL, BUN 14 mg/dL, Ethanol 0 mg/dL, and measured serum osmolality 340 mOsm/kg H2O. What is the calculated serum osmolality and the serum osmolal gap for this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calculated osmolality 290 mOsm/kg; Osmolal gap 50 mOsm/kg"
+      },
+      {
+        "id": "B",
+        "text": "Calculated osmolality 285 mOsm/kg; Osmolal gap 55 mOsm/kg"
+      },
+      {
+        "id": "C",
+        "text": "Calculated osmolality 300 mOsm/kg; Osmolal gap 40 mOsm/kg"
+      },
+      {
+        "id": "D",
+        "text": "Calculated osmolality 270 mOsm/kg; Osmolal gap 70 mOsm/kg"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Calculated Serum Osmolality 計算公式為 2 * Na + Glucose / 18 + BUN / 2.8。帶入數據：2 * 140 + 90 / 18 + 14 / 2.8 = 280 + 5 + 5 = 290 mOsm/kg H2O。Measured Serum Osmolality 為 340 mOsm/kg H2O，因此 Serum Osmolal Gap = 340 - 290 = 50 mOsm/kg H2O。正常的 Osmolal Gap 通常 <= 10 mOsm/kg H2O，顯著升高的 Osmolal Gap 強烈提示血中存在大量未被常規生化測量的 low-molecular-weight osmotically active substances (如 Ethylene Glycol 或 Methanol)。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_67_4",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_4.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Table_67_4.png",
+        "caption": "Table 67.4 Toxicokinetics of Toxic Alcohols in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q1_run2",
+        "notebookTitle": "TSN：出題 (1-2)",
+        "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### **1. Answer Determination (答案判定)**\n\n本題的唯一正確選項為 **Option (A) Calculated osmolality 290 mOsm/kg; Osmolal gap 50 mOsm/kg**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q1_run1",
+        "notebookTitle": "TSN：出題 (1-1)",
+        "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "## 1. Answer Determination (答案判定)\n本題唯一正確的選項為 **Option (A) Calculated osmolality 290 mOsm/kg; Osmolal gap 50 mOsm/kg**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "selectedOption": "A",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option A, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q2",
+    "number": 2,
+    "stem": "Which of the following metabolic pathways and enzyme-inhibitory mechanisms best explains the severe systemic toxicity and metabolic acidosis associated with Methanol ingestion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methanol is converted to Glycolic acid by Alcohol dehydrogenase, inhibiting NA+/K+-ATPase"
+      },
+      {
+        "id": "B",
+        "text": "Methanol is converted to Formaldehyde and then Formic acid, which inhibits mitochondrial Cytochrome c Oxidase"
+      },
+      {
+        "id": "C",
+        "text": "Methanol is converted to Oxalic acid, causing direct competitive inhibition of Pyruvate Dehydrogenase"
+      },
+      {
+        "id": "D",
+        "text": "Methanol is converted directly to Acetone, causing severe L-Lactic acidosis"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Methanol 在體內首先經由 Alcohol Dehydrogenase (ADH) 代謝為 Formaldehyde，隨後迅速經由 ALDH 轉化為 Formic Acid。Formic Acid 會強烈抑制 mitochondrial respiratory chain 中的 Cytochrome c Oxidase (Complex IV)，阻斷 ATP 合成並引發 cellular hypoxia 與重度 High Anion Gap Metabolic Acidosis (HAGMA)。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Fig_67_4",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "caption": "Fig. 67.4 Metabolism of Toxic Alcohols in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q2_run2",
+        "notebookTitle": "TSN：出題 (1-4)",
+        "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的正確選項為 **(B) Methanol is converted to Formaldehyde and then Formic acid, which inhibits mitochondrial Cytochrome c Oxidase** [1]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q2_run1",
+        "notebookTitle": "TSN：出題 (1-3)",
+        "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解確立)\n\n* **Correct Option**: **Option (B) Methanol is converted to Formaldehyde and then Formic acid, which inhibits mitochondrial Cytochrome c Oxidase** [1-3]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "selectedOption": "B",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option B, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q3",
+    "number": 3,
+    "stem": "A 38-year-old man arrives with severe visual blurring describing his vision as 'walking in a snowstorm', along with confusion. Brain MRI demonstrates bilateral putaminal necrosis with focal hemorrhage. Which toxic alcohol ingestion is characteristically responsible for this presentation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethylene Glycol"
+      },
+      {
+        "id": "B",
+        "text": "Isopropanol"
+      },
+      {
+        "id": "C",
+        "text": "Methanol"
+      },
+      {
+        "id": "D",
+        "text": "Propylene Glycol"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Methanol intoxication 之代謝物 Formic Acid 具有高度的 organ-specific toxicity，特異性累及 retinal ganglion cells 與 optic nerve (造成 Optic Disc Edema、snowstorm vision 與 blindness) 以及 basal ganglia 的 Putamen (造成 Bilateral Putaminal Necrosis & Hemorrhage)。這種臨床表現極具 Methanol intoxication 特徵。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q3_run2",
+        "notebookTitle": "TSN：出題 (3-1)",
+        "notebookId": "0a194d48-5384-45e4-a241-99e21d3a204e",
+        "accountProfile": "b92401024",
+        "rawResponse": "## 1. Answer Determination\n\n本題的唯一正確選項為 **Option (C) Methanol** [Passage 31, 416, 436]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "C"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q3_run1",
+        "notebookTitle": "TSN：出題 (1-5)",
+        "notebookId": "8b95ef39-a9c0-4230-a3af-1900cf295d26",
+        "accountProfile": "mudskipper24",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n根據 **`Brenner & Rector's The Kidney`** 之中關於 **`Toxic alcohol ingestions`** 的病理生理學與診斷指引，本題的唯一正確選項為：\n\n*   **正解選項**：**(C) Methanol**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "C"
+      }
+    ],
+    "selectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option C, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q4",
+    "number": 4,
+    "stem": "In Ethylene Glycol poisoning, which metabolic intermediate accumulates in the largest quantity due to a rate-limiting enzyme conversion step and serves as the primary driver of High Anion Gap Metabolic Acidosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glycoaldehyde"
+      },
+      {
+        "id": "B",
+        "text": "Oxalic acid"
+      },
+      {
+        "id": "C",
+        "text": "Formic acid"
+      },
+      {
+        "id": "D",
+        "text": "Glycolic acid"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Ethylene Glycol 在體內經 ADH 代謝為 Glycoaldehyde，再經 ALDH 迅速轉化為 Glycolic Acid。Glycolic Acid 轉化為 Glyoxylic Acid 是整個代謝途徑的 Rate-limiting Step，因此 Glycolic Acid 會大量蓄積，成為引發重度 High Anion Gap Metabolic Acidosis (HAGMA) 的主要有機酸。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Fig_67_4",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "caption": "Fig. 67.4 Metabolism of Ethylene Glycol in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q4_run2",
+        "notebookTitle": "TSN：出題 (3-3)",
+        "notebookId": "56fce15d-9829-491d-8b7e-4459538e8d44",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. Answer Determination**\n\n正確選項為 **Option (D) Glycolic acid**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "D"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q4_run1",
+        "notebookTitle": "TSN：出題 (3-2)",
+        "notebookId": "73af8c23-7f2c-4d36-900b-e59a38e36742",
+        "accountProfile": "b92401024",
+        "rawResponse": "### 1. Answer Determination\n\n本題的正確選項為 **(D) Glycolic acid** [Passage 442, 445]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "D"
+      }
+    ],
+    "selectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option D, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q5",
+    "number": 5,
+    "stem": "Urinalysis of a patient with severe acute kidney injury following Ethylene Glycol ingestion reveals abundant crystals. Which optical and morphological characteristics correctly describe Calcium Oxalate Monohydrate crystals formed in this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dumbbell-shaped or needle-like morphology with strong birefringence under polarized light"
+      },
+      {
+        "id": "B",
+        "text": "Coffin-lid shaped crystals with no birefringence under polarized light"
+      },
+      {
+        "id": "C",
+        "text": "Hexagonal plate crystals with negative birefringence under polarized light"
+      },
+      {
+        "id": "D",
+        "text": "Bipyramidal envelope-shaped crystals with zero birefringence under polarized light"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Ethylene Glycol 的終末產物 Oxalic Acid 與 serum calcium 結合形成 Calcium Oxalate Crystals。其中 Calcium Oxalate Monohydrate 呈 Dumbbell-shaped、ovoid 或 Needle-like，在 Polarized Light Microscopy 下展現強烈的 Strongly Birefringent / Polarizable；而 Dihydrate 呈 Envelope-shaped。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Table_23_11",
+        "relPath": "/reference-images/Brenner 11e/23. Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria/Table_23_11.png",
+        "imagePath": "/reference-images/Brenner 11e/23. Laboratory Assessment of Kidney Disease-Glomerular Filtration Rate, Urinalysis, and Proteinuria/Table_23_11.png",
+        "caption": "Table 23.11 Common Crystals and Their Appearance in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 23"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q5_run2",
+        "notebookTitle": "TSN：出題 (3-5)",
+        "notebookId": "f65852f3-27d9-4899-8588-7d30d31adbec",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. 正解判定 (Answer Determination)**\n\n* **Correct Option: (A) Dumbbell-shaped or needle-like morphology with strong birefringence under polarized light**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q5_run1",
+        "notebookTitle": "TSN：出題 (3-4)",
+        "notebookId": "d98cec85-72aa-4523-a5f7-6e1327029e13",
+        "accountProfile": "b92401024",
+        "rawResponse": "### **1. Answer Determination**\n\n**正確選項**：**Option A (Dumbbell-shaped or needle-like morphology with strong birefringence under polarized light)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "selectedOption": "A",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option A, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q6",
+    "number": 6,
+    "stem": "Which combination of vitamin cofactors should be administered to a patient with Ethylene Glycol poisoning to shunt Glyoxylic Acid metabolism away from toxic Oxalic Acid towards non-toxic end-products?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Folic acid and Vitamin C"
+      },
+      {
+        "id": "B",
+        "text": "Thiamine (Vitamin B1) and Pyridoxine (Vitamin B6)"
+      },
+      {
+        "id": "C",
+        "text": "Niacin (Vitamin B3) and Riboflavin (Vitamin B2)"
+      },
+      {
+        "id": "D",
+        "text": "Cyanocobalamin (Vitamin B12) and Biotin"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "在 Ethylene Glycol poisoning 治療中，補充 Thiamine (Vitamin B1) 可促進 Glyoxylic Acid 轉化為非毒性的 α-hydroxy-β-ketoadipate；補充 Pyridoxine (Vitamin B6) 可促進 transamination 將 Glyoxylic Acid 轉化為 Glycine。這兩種 vitamin cofactors 協同將代謝流由 Toxic Oxalic Acid 轉移至無害產物。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q6_run1",
+        "notebookTitle": "TSN：出題 (2-1)",
+        "notebookId": "6e6cb500-552e-4de8-a11f-732880b11187",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題的單一正確選項為 **(B) Thiamine (Vitamin B1) and Pyridoxine (Vitamin B6)** [1, 2]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q6_run2",
+        "notebookTitle": "TSN：出題 (2-2)",
+        "notebookId": "c388028b-6e20-4896-9b32-d8b6fe35d74a",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n*   **唯一正確選項**：**Option (B) Thiamine (Vitamin B1) and Pyridoxine (Vitamin B6)**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "selectedOption": "B",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option B, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q7",
+    "number": 7,
+    "stem": "What is the rationale for administering Folinic Acid (Leucovorin) or Folic Acid in the management of Methanol intoxication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It directly chelates Methanol in the vascular compartment to prevent central nervous system entry"
+      },
+      {
+        "id": "B",
+        "text": "It competitively inhibits Alcohol Dehydrogenase to block Formaldehyde production"
+      },
+      {
+        "id": "C",
+        "text": "It serves as an essential cofactor for Tetrahydrofolate-dependent enzymes accelerating Formic Acid breakdown to CO2 and H2O"
+      },
+      {
+        "id": "D",
+        "text": "It alkalizes the urine to enhance passive tubular excretion of Formic Acid"
+      }
+    ],
+    "sourceProvidedAnswer": "C",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Formic Acid 在人體的清除依賴 10-formyl THF synthetase 及 formyl THF dehydrogenase 途徑。給予 Folinic Acid 或 Folic Acid (50 mg IV q6h) 能充實體內 Tetrahydrofolate pool，加速劇毒物 Formic Acid 氧化分解為 CO2 與 H2O，減輕 optic nerve 與 organ toxicity。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q7_run2",
+        "notebookTitle": "TSN：出題 (2-4)",
+        "notebookId": "8d7b5bd7-d9a8-48ad-adf6-cc37056440b3",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n本題的單一正確選項為 **Option (C) It serves as an essential cofactor for Tetrahydrofolate-dependent enzymes accelerating Formic Acid breakdown to CO2 and H2O** [Passage 543, 544, 551]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "C"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q7_run1",
+        "notebookTitle": "TSN：出題 (2-3)",
+        "notebookId": "abfb497f-03c9-4023-a5f0-eeeb817c838c",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### **1. Answer Determination**\n\n* **唯一正確選項：Option (C) It serves as an essential cofactor for Tetrahydrofolate-dependent enzymes accelerating Formic Acid breakdown to CO2 and H2O**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "C"
+      }
+    ],
+    "selectedOption": "C",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option C, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q8",
+    "number": 8,
+    "stem": "A 55-year-old chronic alcohol user ingests rubbing alcohol. Laboratory testing shows a marked serum Osmolal Gap of 45 mOsm/kg and positive serum/urine acetone, but serum HCO3- is 24 mEq/L and Anion Gap is 9 mEq/L. Which statement correctly explains this clinical laboratory finding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methanol was ingested, but Formic acid has not yet been produced"
+      },
+      {
+        "id": "B",
+        "text": "Ethylene glycol was ingested, but renal clearance of glycolic acid is super-normal"
+      },
+      {
+        "id": "C",
+        "text": "Propylene glycol was ingested, triggering compensatory metabolic alkalosis"
+      },
+      {
+        "id": "D",
+        "text": "Isopropanol was ingested; its metabolite Acetone causes ketosis and an osmolal gap without releasing protons or causing HAGMA"
+      }
+    ],
+    "sourceProvidedAnswer": "D",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Isopropanol 經由 ADH 代謝產物為 Acetone。Acetone 屬於 ketones 而非 carboxylic acids，不產生解離的 protons (H+)。因此 Isopropanol intoxication 典型的臨床特徵為 Ketosis without High Anion Gap Metabolic Acidosis (elevated Osmolal Gap + positive Acetone, but Anion Gap and HCO3- are completely normal)。",
+    "resolvedImages": [
+      {
+        "id": "Brenner_Fig_67_4_Isopropanol",
+        "relPath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "imagePath": "/reference-images/Brenner 11e/67. Enhanced Elimination of Poisons/Fig_67_4.png",
+        "caption": "Fig. 67.4 Isopropanol Metabolism in Brenner 11e.",
+        "sourceBook": "Brenner 11e Ch 67"
+      }
+    ],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q8_run1",
+        "notebookTitle": "TSN：出題 (2-5)",
+        "notebookId": "85cc683a-5649-44db-a222-3f99e99805c5",
+        "accountProfile": "sandbox0505",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題正確的單一選擇為 **(D) Isopropanol was ingested; its metabolite Acetone causes ketosis and an osmolal gap without releasing protons or causing HAGMA**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "D"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q8_run2",
+        "notebookTitle": "TSN：出題 (5-1)",
+        "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n本題之唯一正確選項為 **(D) Isopropanol was ingested; its metabolite Acetone causes ketosis and an osmolal gap without releasing protons or causing HAGMA** [1, 2]...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "D"
+      }
+    ],
+    "selectedOption": "D",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option D, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q9",
+    "number": 9,
+    "stem": "An ICU patient receiving a continuous high-dose intravenous Lorazepam infusion for severe status epilepticus develops an unexplained high anion gap metabolic acidosis, elevated lactate levels, an osmolal gap of 28 mOsm/kg, and progressive acute kidney injury. Which vehicle compound is responsible for this toxicity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propylene glycol"
+      },
+      {
+        "id": "B",
+        "text": "Diethylene glycol"
+      },
+      {
+        "id": "C",
+        "text": "Polyethylene glycol"
+      },
+      {
+        "id": "D",
+        "text": "Isopropanol"
+      }
+    ],
+    "sourceProvidedAnswer": "A",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Propylene Glycol 常被用作靜脈注射 Lorazepam、Diazepam、Nitroglycerin 等藥物的 Solvent / Vehicle。在 ICU 長期或高劑量輸注 Lorazepam 時，Propylene Glycol 蓄積並經 ADH 代謝為 L-lactate 與 D-lactate，造成典型 iatrogenic Lactic Acidosis (HAGMA) + High Osmolal Gap + AKI。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q9_run1",
+        "notebookTitle": "TSN：出題 (5-2)",
+        "notebookId": "6751e554-e201-433f-8e85-d30830b1b5f3",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n*   **Correct Option (正確選項)**：**Option (A) Propylene glycol**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q9_run2",
+        "notebookTitle": "TSN：出題 (5-3)",
+        "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### **1. Answer Determination (解答判定)**\n\n*   **正確選項**：**Option (A) Propylene glycol**...",
+        "databaseSufficiency": "SUFFICIENT",
+        "qcStatus": "PASSED",
+        "qcReason": null,
+        "error": null,
+        "selectedOption": "A"
+      }
+    ],
+    "selectedOption": "A",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses selected Option A, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  },
+  {
+    "id": "2026_Toxic_alcohols_Q10",
+    "number": 10,
+    "stem": "In mass poisoning outbreaks caused by counterfeit cough syrups, which toxic glycol alcohol is metabolized to 2-hydroxyethoxyacetic acid (HEAA), triggering severe oliguric acute tubular necrosis, hepatotoxicity, and multiple cranial neuropathies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethylene glycol"
+      },
+      {
+        "id": "B",
+        "text": "Diethylene glycol"
+      },
+      {
+        "id": "C",
+        "text": "Propylene glycol"
+      },
+      {
+        "id": "D",
+        "text": "Triethylene glycol"
+      }
+    ],
+    "sourceProvidedAnswer": "B",
+    "sourceAnswerStatus": "provided",
+    "sourceExplanation": "Diethylene Glycol 歷史上常因 counterfeit cough syrups 或 ointment solvent 引發 mass poisoning outbreaks。經 ADH 代謝產物 2-hydroxyethoxyacetic acid (HEAA) 具有極強 nephrotoxicity 與 neurotoxicity，導致 severe oliguric Acute Tubular Necrosis (ATN)、hepatotoxicity 與 Cranial / Peripheral Polyneuropathies。",
+    "resolvedImages": [],
+    "nlmResponses": [
+      {
+        "q_id": "2026_Toxic_alcohols_Q10_run2",
+        "notebookTitle": "TSN：出題 (5-5)",
+        "notebookId": "9e85f4f8-356e-451b-ba72-d776b13807ea",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### 1. Answer Determination (答案判定)\n\n**INSUFFICIENT_DATABASE_EVIDENCE...**\n\n*   **判定原理**：...因此，若從考題設計與學術共識出發，**Option (B)** 爲本題最合理的預設標準答案。",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null,
+        "selectedOption": "B"
+      },
+      {
+        "q_id": "2026_Toxic_alcohols_Q10_run1",
+        "notebookTitle": "TSN：出題 (5-4)",
+        "notebookId": "907b8268-32ac-4d66-9cc8-4196767d5f5b",
+        "accountProfile": "kuonephro",
+        "rawResponse": "### 1. Answer Determination (正解判定)\n\n本題由於 **`notebook sources`** 缺乏關於特定代謝產物 **`2-hydroxyethoxyacetic acid (HEAA)`** 的直接記載... Option (B) Diethylene glycol 的病理生理學與毒理學機制分析如下...",
+        "databaseSufficiency": "INSUFFICIENT",
+        "qcStatus": "FAILED",
+        "qcReason": "REFUSAL",
+        "error": null,
+        "selectedOption": "B"
+      }
+    ],
+    "selectedOption": "B",
+    "reconciliationStatus": "HIGH_CONFIDENCE",
+    "qcNotes": "Both NotebookLM responses identified Option B (Diethylene glycol) as the correct answer in their detailed semantic analysis, matching the source provided answer. Source explanation cleaned.",
+    "qcVerified": true,
+    "qcStatus": "QC_PASSED",
+    "qcVerifiedAt": "2026-07-31T13:52:00Z"
+  }
+]

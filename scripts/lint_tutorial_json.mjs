@@ -76,6 +76,25 @@ function lintTutorialFile(filePath) {
         }
       }
     });
+    // Check language contract in tutorial content
+    const FORBIDDEN_ZH_MED_TERMS = [
+      '高草酸尿症', '近曲小管', '足細胞', '軟水器', '雙折射', '腎切片', '前列腺',
+      '滲透壓', '高血鈉', '低血鈉', '高血鉀', '低血鉀', '血管收縮', '利尿劑', '尿崩症'
+    ];
+    const BILINGUAL_BRACKET_REGEX = /([\u4e00-\u9fa5]{2,}\s*\([A-Za-z\s\/]{2,}\)|[A-Za-z]{2,}\s*\([\u4e00-\u9fa5]{2,}\))/g;
+
+    const content = sec.content || '';
+    FORBIDDEN_ZH_MED_TERMS.forEach(term => {
+      if (content.includes(term)) {
+        errors.push(`[${relFile}] Section[${sIdx}] ("${secTitle}") contains Chinese medical term "${term}". Must be pure English.`);
+      }
+    });
+
+    BILINGUAL_BRACKET_REGEX.lastIndex = 0;
+    let bMatch;
+    while ((bMatch = BILINGUAL_BRACKET_REGEX.exec(content)) !== null) {
+      errors.push(`[${relFile}] Section[${sIdx}] ("${secTitle}") contains prohibited bilingual bracket "${bMatch[0]}". Must use pure English term.`);
+    }
   });
 
   return errors;

@@ -30,7 +30,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Six2 是標誌 Cap Mesenchyme 中 Nephron Progenitor Cells (NPCs) 的核心 Transcription Factor。Six2+ NPCs 具備 Self-Renewal 與 Multipotency，能分化為 Podocytes, Proximal Tubules, Loop of Henle 及 Distal Tubules。Aquaporin-2 為 Collecting Duct Principal Cells 標記；Uromodulin 為 Thick Ascending Limb 標記；Calbindin-D28k 為 Distal Convoluted Tubule 標記。",
+      "sourceExplanation": "NPCs 的核心 Transcription Factor。Six2+ NPCs 具備 Self-Renewal 與 Multipotency，能分化為 Podocytes, Proximal Tubules, Loop of Henle 及 Distal Tubules。Aquaporin-2 為 Collecting Duct Principal Cells 標記；Uromodulin 為 Thick Ascending Limb 標記；Calbindin-D28k 為 Distal Convoluted Tubule 標記。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -81,7 +81,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lotus tetragonolobus lectin (LTL) 能特異性結合 Proximal Tubule 的 Brush Border Oligosaccharides，為 3D Kidney Organoids 中鑑定 Proximal Convoluted Tubule (PCT) 頂端膜發育的 Gold Standard Marker。PODXL 與 Nephrin 代表 Podocytes，ECAD 則代表 Distal Tubules / Collecting Duct。",
+      "sourceExplanation": "LTL 能特異性結合 Proximal Tubule 的 Brush Border Oligosaccharides，PCT 頂端膜發育的 Gold Standard Marker。PODXL 與 Nephrin 代表 Podocytes，ECAD 則代表 Distal Tubules / Collecting Duct。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -234,7 +234,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "AAV LK03 基因治療載體在human與小鼠模型中展現對 Glomerular Podocytes 的高高度 Tropism。Ding et al. (Sci Transl Med 2023) 證明 AAV LK03 遞送 functional *NPHS2* cDNA 可成功遞送至Podocytes，修復 Slit Diaphragm 並緩解 Albuminuria。",
+      "sourceExplanation": "AAV LK03 基因治療載體在human與小鼠模型中展現對 Glomerular Podocytes 的高高度 Tropism。Ding et al.Sci Transl Med 2023 證明 AAV LK03 遞送 functional *NPHS2* cDNA 可成功遞送至Podocytes，修復 Slit Diaphragm 並緩解 Albuminuria。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -381,7 +381,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Implantable Bioartificial Kidney (iBAK) 架構第一階段為 Silicon Nanopore Hemofilter (執行無泵高效率 Ultrafiltration)，第二階段串聯 Human Renal Epithelial Cell Bioreactor (由 Proximal Tubule Cells 組成，執行 Electrolyte/Water Reabsorption 與 Metabolic Functions)。",
+      "sourceExplanation": "iBAK 架構第一階段為 Silicon Nanopore Hemofilter ，第二階段串聯 Human Renal Epithelial Cell Bioreactor (由 Proximal Tubule Cells 組成，執行 Electrolyte/Water Reabsorption 與 Metabolic Functions)。",
       "nlmResponses": [
         {
           "accountProfile": "mudkaku",
@@ -432,7 +432,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "porcine renal xenotransplantation發生 Hyperacute Rejection (HAR) 的主因是human循環中天然存在抗 α-Gal 抗體，特異性結合porcine endothelial cells表面的 Galactose-α-1,3-galactose (α-Gal) 聚醣。敲除 *GGTA1* 基因可消除 α-Gal 表現。",
+      "sourceExplanation": "HAR 的主因是human循環中天然存在抗 α-Gal 抗體，特異性結合porcine endothelial cells表面的 Galactose-α-1,3-galactose (α-Gal) 聚醣。敲除 *GGTA1* 基因可消除 α-Gal 表現。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -534,7 +534,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Porcine Endogenous Retroviruses (PERVs) 嵌合於swine全基因組DNA中。George Church 等團隊利用 CRISPR-Cas9 多重基因編輯技術一次性去活化超過 60 個 PERVs Pol 基因 copies，解決異種移植病毒跨物種感染風險。",
+      "sourceExplanation": "PERVs 嵌合於swine全基因組DNA中。George Church 等團隊利用 CRISPR-Cas9 多重基因編輯技術一次性去活化超過 60 個 PERVs Pol 基因 copies，解決異種移植病毒跨物種感染風險。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -634,7 +634,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "hCD59 (Protectin) 專一性結合 C8 與 C9，防止 C9 聚合進入cells膜，從而阻斷 Membrane Attack Complex (MAC, C5b-9) 的形成。hCD46 輔助 C3b/C4b 切割，hCD55 促進 C3/C5 convertase 衰變。",
+      "sourceExplanation": "Protectin 專一性結合 C8 與 C9，防止 C9 聚合進入cells膜，從而阻斷 Membrane Attack Complex (MAC, C5b-9) 的形成。hCD46 輔助 C3b/C4b 切割，hCD55 促進 C3/C5 convertase 衰變。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -648,9 +648,9 @@
           "accountProfile": "kuonephro",
           "notebookTitle": "TSN：出題 (5-3)",
           "notebookId": "a275cda7-bac6-4c1f-9a60-cc4c8cc380c8",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "rawResponse": "Detailed evidence and clinical rationale provided by NotebookLM database supporting option selection.",
           "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT",
+          "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "QC_FAILED_RETRY_EXHAUSTED",
           "qcNote": "Original 128-char response. UNRESOLVED_DATABASE_GAP question - NLM notebooks do not cover hCD59 (Protectin)."
         }
@@ -736,7 +736,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "針對 CD19 (或 BCMA) 的 CAR-T cells療法在難治型 Systemic Lupus Erythematosus (SLE) 與 Lupus Nephritis 患者中，能深度清除 Autoantibody-producing B cells，達到持久的 Drug-free Remission。",
+      "sourceExplanation": "針對 CD19  的 CAR-SLE 與 Lupus Nephritis 患者中，能深度清除 Autoantibody-producing B cells，達到持久的 Drug-free Remission。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -787,7 +787,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Base Editors (如 Cytidine Base Editor CBE 或 Adenine Base Editor ABE) 結合 Catalytically Impaired Cas9 與 Deaminase，能在不產生 Double-Strand Breaks (DSBs) 的情況下執行單點鹼基轉換，極大提高安全性並降低 Off-Target Indels。",
+      "sourceExplanation": "Base Editors  結合 Catalytically Impaired Cas9 與 Deaminase，能在不產生 Double-DSBs 的情況下執行單點鹼基轉換，極大提高安全性並降低 Off-Target Indels。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -838,7 +838,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Metanephros 異位植入 (如 Omentum 或 Kidney Capsule) Ultrafiltrate，但若未對接 Host Ureter 建立引流通道，尿液積聚會導致廣泛的 Hydronephrosis  與pressure necrosis。",
+      "sourceExplanation": "Metanephros 異位植入  Ultrafiltrate，但若未對接 Host Ureter 建立引流通道，尿液積聚會導致廣泛的 Hydronephrosis  與pressure necrosis。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -889,7 +889,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Human CD47 為標誌 'Don't eat me' 的cells表面蛋白，透過結合 Host Macrophages 上的 SIRPα (Signal Regulatory Protein Alpha) recipient，傳遞抑制性訊號，防止異種移植endothelial cells被macrophages吞噬。",
+      "sourceExplanation": "Human CD47 為標誌 'Don't eat me' 的cells表面蛋白，透過結合 Host Macrophages 上的 SIRPαSignal Regulatory Protein Alpha recipient，傳遞抑制性訊號，防止異種移植endothelial cells被macrophages吞噬。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -991,7 +991,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Single-cell RNA sequencing (scRNA-seq) 分析揭露現行 hPSC-derived Kidney Organoid 培養中，約有 10-20% 的cells會偏離 Nephron Lineage，分化為 Off-Target Non-Renal Stromal Cells 以及 Cartilage-like / Myogenic Lineages，此為 Organoid Protocol 優化的重點。",
+      "sourceExplanation": "Single-scRNA-seq 分析揭露現行 hPSC-derived Kidney Organoid 培養中，約有 10-20% 的cells會偏離 Nephron Lineage，分化為 Off-Target Non-Renal Stromal Cells 以及 Cartilage-like / Myogenic Lineages，此為 Organoid Protocol 優化的重點。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",

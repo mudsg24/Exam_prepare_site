@@ -1,0 +1,99 @@
+{
+  "paperId": "2026_BK_virus_infection_(主題備考)",
+  "title": "2026 BK virus infection",
+  "sourceCategory": "2026 年主題練習",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Section 1: Virology, Epidemiology & Reactivation Cascades",
+      "content": "### 1.1 Virology & Latency Tropism\n/BKV 屬於 **Polyomaviridae** 家族之 Non-enveloped double-stranded DNA virus。在大眾人群中 Primary Infection 多發生於幼童時期，臨床表現通常為輕微無症狀或 Upper Respiratory Tract Infection，成人 Seroprevalence 高達 80% 至 90%。Primary Infection 消退後，BK Virus 並不會被完全清除，而是建立終身 Latency。其主要 Latency Microenvironment 為 **Renal Tubular Epithelial Cells**  以及 **Urothelium**。\n\n### 1.2 Risk Factors for Post-Transplant Reactivation\n\n在 Kidney Transplantation 受術者中，當強效 Immunosuppressive Therapy 啟動後，原本潛伏於 Allograft 或 Recipient 體內的 BK Virus 會從 Dormant State 被重新活化。高風險因素包含：\n- **Immunosuppression Intensity**: 使用 Lymphocyte-depleting induction agents (如 Antithymocyte Globulin / ATG) 及高劑量 Maintenance Immunosuppressive Regimen (如 Tacrolimus 搭配 Mycophenolate Mofetil / MMF)。\n- **Donor & Recipient Serostatus**: Donor Seropositive / Recipient Seronegative ($D^+/R^-$) 的組合具備最高風險。\n- **Graft Injury**: Ischemia-Reperfusion Injury、Acute Rejection Episodes 或 Severe Ureteral Stenting 造成的 Urothelial and Tubular Injury，均可觸發 Viral Replication。\n\n### 1.3 Natural History & Disease Progression Timeline\n\nBK Virus Reactivation 遵循極度規律的 Sequential Cascade，時間軸通常集中於移植後 **1 至 6 個月 **：\n1. **Asymptomatic BK Viruria (30-40%)**: 最早發生的表現，病毒在 Renal Tubular Epithelial Cells 大量複製並脫落至 Urine。\n2. **BK Viremia (10-20%)**: 當 Viral Replication 突破 Tubular Basement Membrane 進入 Peritubular Capillaries 後，出現血漿 Viral Load 升高。\n3. **Polyomavirus-PVAN / BKVN (5-10%)**: 病毒引起嚴重的 Tubulointerstitial Nephritis 與 Nephron Loss。若未適當介入，高達 50% 的 BKVN 患者將面臨 Allograft Loss。\n\n### 1.4 Topology Mapping Matrix\n\n| Progression Phase | Primary Microenvironment | Biomarker & Clinical Feature | Temporal Window | Risk of Allograft Failure |\n| :--- | :--- | :--- | :--- | :--- |\n| **Latent State** | Renal Tubular Cells & Urothelium | Seropositive antibody, zero viral shedding | Pre-transplant | 0% |\n| **BK Viruria** | Tubular Epithelium & Bladder Urine | Urine Decoy Cells (>10/cytospin), Urine PCR >10^7 copies/mL | 1-3 Months Post-Tx | Very Low (<5%) |\n| **BK Viremia** | Peritubular Capillaries & Blood | Plasma BK PCR >10^4 copies/mL | 2-6 Months Post-Tx | Moderate (15-30%) |\n| **Biopsy-Proven BKVN** | Tubulointerstitial Cortex & Medulla | SV40(+) IHC, Intranuclear Inclusions, Graft Dysfunction | 3-12 Months Post-Tx | High (30-50%) |\n\n### 1.5 High-Yield Differential Comparison\n\n| Parameter | BK Viruria | BK Viremia | Polyomavirus-BKVN |\n| :--- | :--- | :--- | :--- |\n| **Diagnostic Modality** | Urine Cytology / Urine PCR | Quantitative Plasma BKV PCR | Renal Allograft Biopsy |\n| **Cutoff Threshold** | Urine PCR >10^7 copies/mL | Plasma PCR >10^4 copies/mL | SV40 Large T Antigen(+) IHC |\n| **PPV** | Low (~40%) for PVAN | High (>50-80%) for PVAN | Gold Standard (100%) |\n| **Serum Creatinine** | Normal | Normal or Mildly Elevated |Allograft Dysfunction |\n| **Management Action** | Close serial monitoring | Initial IS reduction | Stepwise IS reduction & biopsy confirmation |\n\n### 1.6 Pathophysiological Decision Tree\n\n```\nKidney Transplantation with Tacrolimus + MMF + ATG\n   │\n   ├─► Latent BK Virus in Renal Tubules Reactivates\n   │      │\n   │      └─► Lytic Cycle in Epithelial Cells ──►Urine Decoy Cells\n   │             │\n   │             └─► Tubular Basement Membrane Disruption ──► Plasma Viremia (>10^4 copies/mL)\n   │                    │\n   │                    └─► Interstitial Inflammation & Tubular Necrosis ──► Biopsy-Proven BKVN\n   │                           │\n   │                           └─► Progressive Interstitial Fibrosis &IFTA ──► Allograft Loss\n```\n\n### 1.7 Conceptual Trap Analysis\n\n- ⚠️ **Trap 1**: 誤以為 BK Viruria 等於 BKVN。事實上高達 40% 的移植患者出現 BK Viruria，但僅有 5-10% 真正進展為 BKVN。單純 Decoy Cells 的 PPV 偏低，絕對不可僅憑尿液篩檢即對所有患者進行激進的免疫抑制劑調降！\n- ⚠️ **Trap 2**: 混淆 BK Virus 與 CMV 的感染時間點。兩者均好發於 1-6 個月，但 BK Virus 主要侵犯 Urothelium 與 Renal Tubules，引起 Interstitial Nephritis 與 Hemorrhagic Cystitis；而 CMV 則常引起 Systemic Viremia、Leukopenia、Gastrointestinal Ulceration 及 Adrenalitis。",
+      "diagrams": [
+        {
+          "id": "bkvn_fig_70_6",
+          "relPath": "/server-data/assets/Brenner_Fig_70_6.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_70_6.png",
+          "caption": "Pathogenesis of chronic allograft injury incorporating BK virus nephropathy.",
+          "sourceBook": "Brenner 11e Ch 70",
+          "type": "micrograph"
+        },
+        {
+          "id": "bkvn_ai_pathogenesis",
+          "relPath": "/server-data/assets/bkv_reactivation.jpg",
+          "imagePath": "/server-data/assets/bkv_reactivation.jpg",
+          "caption": "Pathophysiological cascade of BK polyomavirus reactivation from urothelial latency to viruria, viremia, and allograft nephropathy.",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Section 2: Diagnostic Screening & Cutoff Thresholds",
+      "content": "### 2.1 Screening Protocols & Recommended Timelines\n\n根據 KDIGO 與 International Transplantation Consensus Guidelines，所有 Renal Transplant Recipients 均應接受定期與系統化之 BK Virus Screening。建議檢測時程為：\n- **Post-Transplant 1 至 6 個月**: Monthly Screening。\n- **Post-Transplant 6 至 24 個月**: Every 3 Months Screening。\n- **Unscheduled / For-cause Screening**: 當 Serum Creatinine 無預警上升，或是進行 Acute Rejection 治療後，必須立即進行 BKV Screening。\n\n### 2.2 Diagnostic Screening Modalities Comparison\n\n1. **Decoy Cells**:\n   - 脫落之 Renal Tubular Epithelial Cells 或 Urothelial Cells 內含有巨大 Intranuclear Inclusion Bodies，使 Cell Nuclei 呈現 Ground-glass Appearance，稱為 **Decoy Cells**。\n   - Cutoff: $>10$ Decoy cells / cytospin。\n   - 特點: Sensitivity 高，但 Specificity 較低 (PPV 約 30-40%)。NPV 近乎 100%，若無 Decoy cells 可基本排除 BKVN。\n2. **Urine Quantitative BK Virus DNA PCR**:\n   - Cutoff: $>1 /times 10^7$ copies/mL ($>7 /log_{10}$ copies/mL)。\n   - 特點: 代表顯著之 BK Viruria，敏感度極高。\n3. **Blood/Plasma Quantitative BK Virus DNA PCR**:\n   - Cutoff: $>1 /times 10^4$ copies/mL ($>4 /log_{10}$ copies/mL) 持續超過 2 至 3 週。\n   - 特點: 與 Biopsy-proven PVAN 呈高度強相關 (PPV $>50-80/%$, Specificity $>90/%$)。在許多中心，顯著且持續之 Plasma BK Viremia 即被視為 Presumptive BKVN 並啟動預防性免疫抑制劑調降。\n\n### 2.3 Diagnostic Cutoff Topology Matrix\n\n| Diagnostic Test | Threshold Value | Sensitivity for PVAN | Specificity for PVAN |PPV | Clinical Role |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Decoy Cells** | >10 cells / cytospin | 75 - 100% | 70 - 85% | 30 - 40% | Initial non-High NPV |\n| **Urine BK DNA PCR** | >1 x 10^7 copies/mL | >95% | 70 - 90% | 40 - 50% | Quantitative assessment of urinary shedding |\n| **Plasma BK DNA PCR** | >1 x 10^4 copies/mL | >95% | 90 - 95% | 50 - 85% | Hallmark for Presumptive BKVN & IS reduction trigger |\n| **Allograft Biopsy** | SV40(+) IHC Stain | 80 - 90%patchy | 100% | 100% | Definitive Gold Standard Diagnosis |\n\n### 2.4 High-Yield Differential Comparison\n\n| Feature | Presumptive BKVN | Biopsy-Proven BKVN |TCMR |\n| :--- | :--- | :--- | :--- |\n| **Plasma BK PCR** | >10^4 copies/mL | >10^4 copies/mL | Typically Negative or <10^3 copies/mL |\n| **Renal Biopsy** | Not performed or non-diagnostic | SV40(+) Intranuclear Inclusions | Tubulitis + Intimal Arteritis,- |\n| **Serum Creatinine** | Normal or Mildly Elevated | Elevated | Elevated |\n| **Primary Treatment** | Stepwise IS Reduction | Stepwise IS Reduction | High-dose Pulse Steroids / ATG |\n\n### 2.5 Screening & Biopsy Indication Decision Tree\n\n```\nRoutine Post-Transplant Screening (Monthly 1-6m, q3m 6-24m)\n   │\n   ├─► Plasma BK PCR <10^4 copies/mL ──► Continue Routine Surveillance\n   │\n   └─► Plasma BK PCR >10^4 copies/mL (Sustained >2-3 weeks)\n          │\n          ├─► Normal Creatinine ──► Presumptive BKVN ──► Initiate Preemptive IS Reduction\n          │\n          └─► Elevated Creatinine ──► Indication for Renal Allograft Biopsy\n                 │\n                 ├─► SV40(+) ──► Definitive BKVN ──► Stepwise IS Reduction Protocol\n                 └─►- & Tubulitis(+) ──► Acute TCMR ──► Anti-rejection Therapy\n```\n\n### 2.6 Conceptual Trap Analysis\n\n- ⚠️ **Trap 1**: 在檢測結果尚未出爐時，將 Plasma BK PCR 的數字單位弄錯。注意關鍵門檻：**Urine 是 $10^7$ copies/mL**，而 **Plasma 是 $10^4$ copies/mL**。考試極常在選項中將兩者數字倒置！\n- ⚠️ **Trap 2**:False Negative。BK Virus Nephropathy 在腎臟組織中的病變呈 Patchy Distribution，Lack of Medullary tissue，可能漏診 BKVN。若臨床強烈懷疑但切片 SV40 陰性，應重複 Biopsy 採樣。",
+      "diagrams": [
+        {
+          "id": "bkvn_table_70_3",
+          "relPath": "/server-data/assets/Brenner_Table_70_8_part1.png",
+          "imagePath": "/server-data/assets/Brenner_Table_70_8_part1.png",
+          "caption": "Banff Diagnostic Categories for Kidney Transplant Histopathology including BK virus nephropathy.",
+          "sourceBook": "Brenner 11e Ch 70 Table 70.8",
+          "type": "micrograph"
+        },
+        {
+          "id": "bkvn_ai_screening",
+          "relPath": "/server-data/assets/bkv_diagnostic.jpg",
+          "imagePath": "/server-data/assets/bkv_diagnostic.jpg",
+          "caption": "Clinical screening algorithm and cutoff thresholds comparing Urine Cytology (Decoy Cells), Urine BK PCR (>10^7 copies/mL), and Plasma BK PCR (>10^4 copies/mL).",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Section 3: Histopathology & Differential Diagnosis vs. TCMR",
+      "content": "### 3.1 Histopathological Hallmarks of BKVN\n\nRenal Allograft Biopsy 為確診 BKVN 的 **Gold Standard**。LMIHC 特徵包含：\n- **Viral Cytopathic Changes**: Renal Tubular Epithelial Cells 出現顯著 Cytomegaly、Karyomegaly 以及特徵性之 **Basophilic Intranuclear Viral Inclusion Bodies**Ground-glass Appearance。\n- **Tubulointerstitial Injury**:Tubular Cell Sloughing、Tubulitis 以及周圍 Mononuclear Interstitial Infiltrates 與 Interstitial Edema。\n- **SV40**: 採用針對 Polyomavirus **SV40 Large T Antigen** 之單株抗體進行 IHC 染色。SV40 陽性呈細胞核強染，此為確診 BKVN 之關鍵佐證。\n- **EM**: 可在小管細胞核內觀察到直徑約 **40 至 45 nm 之圓型 Virion Particles**Paracrystalline Arrays。\n\n### 3.2 Banff Classification of BKVN\n\nBanff 國際組織學分類將 BKVN 歸類於 **Other changes not considered to be caused by acute or chronic rejection**。根據 2018 Banff Working Group 臨床病理分級，BKVN 分為三級：\n- **BKVN Class 1**: 少量 SV40(+) 陽性小管，伴隨輕微 Interstitial Fibrosis (ci $/le$ 1)。\n- **BKVN Class 2**: 中度 SV40(+) 陽性或伴中度 Interstitial Fibrosis。\n- **BKVN Class 3**: 廣泛 SV40(+) 陽性及重度 Interstitial Fibrosis (ci $/ge$ 3)，預後最差。\n\n### 3.3 Topology Mapping Matrix\n\n| Banff Class | Histological SV40(+) Load |ci Score | Clinical Allograft Function | 5-Year Graft Survival Rate |\n| :--- | :--- | :--- | :--- | :--- |\n| **BKVN Class 1** | Low (<1% of cortical tubules) | Minimal /ci 0 - 1 | Well-preserved / Mildly elevated Cr | High (>90%) |\n| **BKVN Class 2** | Moderate (1% - 10% tubules) |ci 2 | Moderate Allograft Dysfunction | Intermediate (60-75%) |\n| **BKVN Class 3** | Diffuse (>10% tubules) |ci 3 | Severe Dysfunction / Chronic Injury | Poor (<40%) |\n\n### 3.4 High-Yield Differential Comparison\n\n| Histopathological Feature |BKVN | Acute T-TCMR |CNI Toxicity |\n| :--- | :--- | :--- | :--- |\n| **SV40 Large T Antigen IHC** | **Diffuse/Patchy nuclear** | **Negative** | **Negative** |\n| **Intranuclear Inclusions** |Ground-glass cytomegaly | Absent | Absent |\n| **Tubulitis & Interstitial Infiltrate**|often over viral foci |prominent in non-atrophic cortex| Mild or absent |\n| **v-score** | Rare / Absent | Present in Grade II TCMR | Absent |\n| **Isometric Tubular Vacuolization**| Absent | Absent | **Proximal Tubules** |\n| **EM** | 40-45 nm intranuclear virions | Immune cells, no virions | Giant dysmorphic mitochondria |\n| **Therapeutic Management** | **Reduce Immunosuppression** | **Increase Immunosuppression** | **Reduce CNI Dose / Target Level** |\n\n### 3.5 Diagnostic Reconciliation Flowchart\n\n```\nRenal Allograft Biopsy with Tubulointerstitial Nephritis\n   │\n   ├─► Perform SV40 Large T Antigen IHC Staining\n   │      │\n   │      ├─► SV40 Positive ──► Diagnosis:BKVN\n   │      │                      │\n   │      │                      └─► Action: Reduce Immunosuppression (Stop MMF, Reduce CNI)\n   │      │\n   │      └─► SV40 Negative\n   │             │\n   │             ├─► Intimal Arteritis (v>0) or Tubulitis in non-atrophic cortex ──► TCMR\n   │             │                                                                   │\n   │             │                                                                   └─► Action: Pulse Steroids\n   │             │\n   │             └─► Isometric Vacuolization & Striped Fibrosis ──► CNI Nephrotoxicity\n   │                                                                    │\n   │                                                                    └─► Action: Lower CNI Trough\n```\n\n### 3.6 Conceptual Trap Analysis\n\n- ⚠️ **Trap 1**: 將 BKVN 誤診為 Acute TCMR 並給予 Pulse Steroids。若給予高劑量 Steroids 或 ATG，會使 BK Virus 複製失控，加速全腎毀損！任何擬診 TCMR 的切片必須強制執行 SV40 IHC 染色。\n- ⚠️ **Trap 2**: 忽視 Concurrent BKVN and TCMR。大約 5-10% 的病例可同時存在 BKVN 與 TCMR。此時病理切片可見 SV40 陽性小管，v1/v2。對此類複雜患者，需在嚴密血清 Viral Load 監測下極謹慎地平衡 Steroid Pulse 與 CNI 微調。",
+      "diagrams": [
+        {
+          "id": "bkvn_cni_electrolytes",
+          "relPath": "/server-data/assets/Brenner_Table_70_3.png",
+          "imagePath": "/server-data/assets/Brenner_Table_70_3.png",
+          "caption": "Histopathological hallmarks of BK virus nephropathy showing SV40 positive intranuclear inclusions.",
+          "sourceBook": "Renal Pathology Atlas",
+          "type": "micrograph"
+        },
+        {
+          "id": "bkvn_ai_histopathology",
+          "relPath": "/server-data/assets/bkv_pathology.jpg",
+          "imagePath": "/server-data/assets/bkv_pathology.jpg",
+          "caption": "Histopathology comparison between BK virus nephropathy (BKVN) showing SV40 immunohistochemistry positivity versus Acute T-Cell Mediated Rejection (TCMR).",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Section 4: Evidence-Based Therapeutic Strategies & Management Protocols",
+      "content": "### 4.1 Stepwise Immunosuppression Reduction Protocol\n\n目前國際共識指引 (KDIGO & Transplantation Society Guidelines) 一致認定，治療 BK Viruria、Viremia 及 BKVN 的最主要且具備最高實證等級的措施為 **Reduction of Maintenance Immunosuppression**。臨床介入採 Stepwise 漸進式調降原則：\n\n- **Step 1: First-Line Anti-Metabolite Dose Reduction / Discontinuation**\n  -MMFMPA 劑量調降 **50%**，或直接 **Discontinue MMF / MPA**。\n  - 配合定期 Plasma BK PCR 監測 。\n- **Step 2: Second-CNI Reduction**\n  - 若在停用或減量 MMF 4 週後 Plasma Viral Load 仍未顯著下降，進一步調降 CNI  的 Target Trough Level 達 **30% 至 50%**。\n  - Tacrolimus Target Trough Level 建議降至 **$<4-6$ ng/mL**；Cyclosporine Target Trough Level 降至 **$<100-150$ ng/mL**。\n- **CNI First**:\n  - 部分中心採先調降 CNI 劑量 25-50%，若無改善再調降 MMF 劑量。兩者臨床效益相當。\n\n### 4.2 Secondary &Controversial / Rescue Options\n\n當單純調降免疫抑制劑無法有效控制 Viral Replication，或患者屬於 High Immunological Rejection Risk 無法進一步降低免疫抑制強度時，可考慮次級救濟藥物：\n1. **IVIG**:\n   - 含有天然抗 BKV Neutralizing Antibodies，同時具備 Anti-inflammatory 與 Immunomodulatory 效果，可用於高 Rejection 風險且伴隨 BKVN 之救援治療。\n2. **Cidofovir**:\n   - Cytosine Analog，低劑量 ($0.25 - 1.0$ mg/kg q1-2w) 使用。具有強烈之 Nephrotoxicity，實證療效尚存爭議。\n3. **Leflunomide**:\n   - Pyrimidine Synthesis Inhibitor，其活性代謝物 A77 1726 同時具備 Immunosuppressive 與 Anti-BKV 雙重效果。臨床常用來替代 MMF。\n4. **Ciprofloxacin / Levofloxacin**:\n   - 具備弱 Topoisomerase II 抑制效果，但多項 RCT 研究顯示未能有效改善長期 BKV 清除率，且增加 QTc Prolongation 及 Tendonitis 風險，不建議常規使用。\n\n### 4.3 Management Protocol Topology Matrix\n\n| Clinical Scenario | Initial Action | Secondary Action | Target Endpoint | Risk Management |\n| :--- | :--- | :--- | :--- | :--- |\n| **Sustained BK Viremia (>10^4 copies/mL, Normal Cr)** | Reduce MMF dose by 50% or stop | If unresolved in 4w, reduce CNI target by 30-50% | Clearance of Plasma BKV DNA | Monitor DSA & Creatinine q2-4w |\n| **Biopsy-Proven BKVN (Elevated Cr, SV40+)** | Discontinue MMF & reduce CNI target to lower limit | Consider Leflunomide switch or IVIG rescue | Viral clearance & Cr stabilization |Check DSA |\n| **Concurrent BKVN & Acute TCMR** | Pulse Steroids + CNI optimization | Cautious MMF weaning after TCMR resolution | Resolution of Arteritis & BKV clearance | Tight rope balance |\n| **Refractory BKVN with High DSA** | IVIG therapy +Sirolimus | Avoid aggressive CNI withdrawal | Prevent ABMR while suppressing BKV | Monitor Graft Function weekly |\n\n### 4.4 High-Yield Treatment Comparison\n\n| Therapeutic Option | Mechanism of Action | Clinical Efficacy Evidence | Primary Toxicity / Limitation |\n| :--- | :--- | :--- | :--- |\n| **MMF/CNI Down** | Restores Host T-cell Mediated Immunity | **Proven First-line Standard** | Risk of Precipitating Acute Rejection |\n| **Leflunomide** | Inhibits Pyrimidine Synthesis & BKV capsid | Weak / Observational | Hepatotoxicity, Hemolysis, Peripheral Neuropathy |\n| **Cidofovir** | DNA Polymerase Inhibitor | Low / Observational | **Severe Nephrotoxicity**, Uveitis |\n| **IVIG** | Neutralizing Abs & Anti-inflammatory | Moderate in Rescue Cases | Volume Overload, Acute Kidney Injury |\n| **Fluoroquinolones** | Weak Topoisomerase Inhibition | **Not recommended**| QTc Prolongation, Tendon Rupture |\n\n### 4.5 Therapeutic Clinical Algorithm Flowchart\n\n```\nDiagnosed BK Viremia (>10^4 copies/mL) or Biopsy-Proven BKVN\n   │\n   ├─► STEP 1: Discontinue or Reduce MMF/MPA Dose by 50%\n   │      │\n   │      ├─► Re-evaluate Plasma BKV PCR in 2-4 Weeks\n   │      │      │\n   │      │      ├─► BKV PCR Decreasing/Negative ──► Continue Current Adjusted IS & Monitor\n   │      │      │\n   │      │      └─► BKV PCR Persistently High (>10^4 copies/mL)\n   │                     │\n   │                     └─► STEP 2: Reduce CNI Target Trough by 30-50%\n   │                            (Tacrolimus Target <4-6 ng/mL; Cyclosporine <100-150 ng/mL)\n   │                            │\n   │                            ├─► BKV Cleared ──► Maintain Minimal Effective IS\n   │                            │\n   │                            └─► STEP 3: Consider IVIG / Leflunomide Conversion\n```\n\n### 4.6 Conceptual Trap Analysis\n\n- ⚠️ **Trap 1**: Overly Aggressive Immunosuppression Reduction。這將極高機率引發 **Acute Antibody-ABMR** 或 Severe TCMR。調降藥物必須 Stepwise 進行，且需頻密追蹤 **Donor-DSA** 與 Serum Creatinine。\n- ⚠️ **Trap 2**: 將 Quinolones 作為第一線抗 BK 病毒藥物。RCT 已證實 Fluoroquinolones 並無法降低 BKV 病毒量或保護腎功能，試題中若出現將 Ciprofloxacin 列為 BKVN 首選治療之選項，一律判定為錯誤誘答！",
+      "diagrams": [
+        {
+          "id": "bkvn_table_70_5",
+          "relPath": "/server-data/assets/Brenner_Table_70_17.png",
+          "imagePath": "/server-data/assets/Brenner_Table_70_17.png",
+          "caption": "Immunosuppressive drug dosing and risk monitoring in kidney transplant recipients.",
+          "sourceBook": "Brenner 11e Ch 70",
+          "type": "micrograph"
+        },
+        {
+          "id": "bkvn_ai_protocol",
+          "relPath": "/server-data/assets/bkv_management.jpg",
+          "imagePath": "/server-data/assets/bkv_management.jpg",
+          "caption": "Evidence-based stepwise immunosuppression reduction protocol for BK virus nephropathy and viremia management.",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

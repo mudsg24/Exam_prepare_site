@@ -30,7 +30,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 是一項體染色體隱性遺傳疾病，病因在於編碼 Distal Convoluted Tubule (DCT) Apical Membrane上 Thiazide-sensitive Na-Cl cotransporter (NCCT) 的 SLC12A3 基因發生失能型突變。此轉運體負責 DCT 主要的 NaCl 重吸收，其失能直接導致顯著的 Salt Wasting 與續發性Electrolyte Derangements。",
+      "sourceExplanation": "Gitelman Syndrome 是一項體染色體隱性遺傳疾病，DCT Apical Membrane上 Thiazide-sensitive Na-NCCT 的 SLC12A3 基因發生失能型突變。此轉運體負責 DCT 主要的 NaCl 重吸收，其失能直接導致顯著的 Salt Wasting 與續發性Electrolyte Derangements。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-1)",
@@ -82,7 +82,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Distal Convoluted Tubule (DCT) 中，Apical Membrane的跨細胞 Mg2+ 重吸收主要依賴 TRPM6 Magnesium Channels。在 Gitelman Syndrome 中，由於 NCCT 缺失導致 DCT 細胞結構萎縮及 EGF 調控異常，TRPM6 通道表現量被顯著下調，進而引發嚴重的 Renal Magnesium Wasting 與持續性 Hypomagnesemia。",
+      "sourceExplanation": "DCT 中，Apical Membrane的跨細胞 Mg2+ 重吸收主要依賴 TRPM6 Magnesium Channels。在 Gitelman Syndrome 中，由於 NCCT 缺失導致 DCT 細胞結構萎縮及 EGF 調控異常，TRPM6 通道表現量被顯著下調，進而引發嚴重的 Renal Magnesium Wasting 與持續性 Hypomagnesemia。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-2)",
@@ -134,7 +134,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "NCCT 在 DCT Apical Membrane的磷酸化與膜表達高度仰賴 WNK Kinases (如 WNK4) 及其下游 SPAK (Ste20-related Proline/Alanine-rich Kinase) 與 OSR1 (Oxidative Stress-Responsive Kinase 1) 激酶信號傳遞鏈。此 WNK4-SPAK/OSR1 Kinase Cascade 突變可引發 Pseudohypoaldosteronism Type II (PHA II / Gordon Syndrome)。",
+      "sourceExplanation": "NCCT 在 DCT Apical Membrane的磷酸化與膜表達高度仰賴 WNK Kinases Ste20-related Proline/Alanine-rich KinaseOxidative Stress-Responsive Kinase 1 激酶信號傳遞鏈。此 WNK4-SPAK/PHA II / Gordon Syndrome。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-3)",
@@ -446,7 +446,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Aminoglycosides (如 Gentamicin, Amikacin) 帶有高陽電荷，經 Megalin Endocytosis進入Tubular Cells後會引發 Acute Tubular Injury；同時Aminoglycosides 可活化 Calcium-Sensing Receptor (CaSR)，進而抑制小管Ion Reabsorption Channels，誘發 Gitelman-like Electrolyte Imbalance。",
+      "sourceExplanation": "Aminoglycosides (如 Gentamicin, Amikacin) 帶有高陽電荷，經 Megalin Endocytosis進入Tubular Cells後會引發 Acute Tubular Injury；同時Aminoglycosides 可活化 Calcium-CaSR，進而抑制小管Ion Reabsorption Channels，誘發 Gitelman-like Electrolyte Imbalance。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-4)",
@@ -498,7 +498,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "長期使用 Proton Pump Inhibitors (PPIs) 會改變Intestinal MucosaMicroenvironment pH 值，進而下調Intestinal MucosaEpithelial Cells (Intestinal Mucosa) Apical Membrane TRPM6/TRPM7 Magnesium Channel的活性與表現，引發Intestinal MucosaMagnesium Malabsorption與深度的 Hypomagnesemia，臨床上可伴隨 Secondary Gitelman 樣表現。",
+      "sourceExplanation": "PPIs 會改變Intestinal MucosaMicroenvironment pH 值，Intestinal Mucosa Apical Membrane TRPM6/TRPM7 Magnesium Channel的活性與表現，引發Intestinal MucosaMagnesium Malabsorption與深度的 Hypomagnesemia，臨床上可伴隨 Secondary Gitelman 樣表現。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-5)",
@@ -550,7 +550,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "鑑別 Gitelman Syndrome (病變在 DCT) 與 Bartter Syndrome (病變在 TAL) 最關鍵且可靠的生化分水嶺為 Spot Urine Calcium-to-Creatinine Ratio (UCa/UCr)。 Gitelman 典型表現為 Hypocalciuria (UCa/UCr < 0.2 mmol/mmol 或 < 0.04 mg/mg)；而 Bartter 典型表現為 Hypercalciuria (UCa/UCr > 0.2 mmol/mmol)，常併發 Nephrocalcinosis。",
+      "sourceExplanation": "鑑別 Gitelman Syndrome  與 Bartter Syndrome  最關鍵且可靠的生化分水嶺為 Spot Urine Calcium-to-UCa/UCr。 Gitelman 典型表現為 Hypocalciuria (UCa/UCr < 0.2 mmol/mmol 或 < 0.04 mg/mg)；而 Bartter 典型表現為 Hypercalciuria (UCa/UCr > 0.2 mmol/mmol)，常併發 Nephrocalcinosis。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-1)",
@@ -602,7 +602,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Calcium-Sensing Receptor (CaSR) 發生 Gain-of-function (Activating) Mutations 會持續抑制 TAL 的 ROMK 與 NKCC2，引發 Bartter Type V；同時過度活化的 CaSR 會持續抑制Parathyroid Gland釋放 PTH，造成特徵性的 Hypocalcemia 伴隨 Suppressed PTH。相反地，Loss-of-function 突變則導致 Familial Hypocalciuric Hypercalcemia (FHH)。",
+      "sourceExplanation": "Calcium-CaSR 發生 Gain-of-Activating Mutations 會持續抑制 TAL 的 ROMK 與 NKCC2，引發 Bartter Type V；同時過度活化的 CaSR 會持續抑制Parathyroid Gland釋放 PTH，造成特徵性的 Hypocalcemia 伴隨 Suppressed PTH。相反地，Loss-of-FHH。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-2)",
@@ -706,7 +706,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Thiazide Diuretics 的藥理作用正是在 DCT Apical Membrane競爭性抑制 NCCT (SLC12A3)。因此，長期使用 Thiazides 所產生的藥理副作用生化譜 (Hypokalemic, Hypochloremic Metabolic Alkalosis、Hypomagnesemia、Hypocalciuria) 與遺傳性 Gitelman Syndrome 的病理生理表現完全一致。",
+      "sourceExplanation": "SLC12A3。因此，長期使用 Thiazides 所產生的藥理副作用生化譜 (Hypokalemic, Hypochloremic Metabolic Alkalosis、Hypomagnesemia、Hypocalciuria) 與遺傳性 Gitelman Syndrome 的病理生理表現完全一致。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-4)",
@@ -758,7 +758,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在面對 Hypokalemic Metabolic Alkalosis 時，Spot Urine Chloride 是分辨 Chloride-Responsive (Extrarenal Loss) 與 Chloride-Unresponsive (Renal Salt Wasting) 的黃金指標。 Active Vomiting 的 UCl 典型降至 < 10-15 mEq/L；而 Gitelman Syndrome 由於自體 NCCT 缺陷無法吸收氯，即便體內嚴重缺鹽，其 UCl 仍會持續升高 (> 20 mEq/L)。",
+      "sourceExplanation": "在面對 Hypokalemic Metabolic Alkalosis 時，Spot Urine Chloride 是分辨 Chloride-Extrarenal Loss 與 Chloride-Renal Salt Wasting 的黃金指標。 Active Vomiting 的 UCl 典型降至 < 10-15 mEq/L；而 Gitelman Syndrome 由於自體 NCCT 缺陷無法吸收氯，即便體內嚴重缺鹽，其 UCl 仍會持續升高 (> 20 mEq/L)。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -810,7 +810,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "當患者處於 Hypomagnesemia 狀態時，健全的腎臟應將 Fractional Excretion of Magnesium (FEMg) 壓低至 < 2% (甚至 < 1%)。若在Hypomagnesemia下 FEMg 仍 > 4%，強烈提示存在病理性的 Renal Magnesium Wasting，此為 Gitelman 及 Gitelman-like Syndrome 的重要指標。",
+      "sourceExplanation": "當患者處於 Hypomagnesemia 狀態時，FEMg 壓低至 < 2% (甚至 < 1%)。若在Hypomagnesemia下 FEMg 仍 > 4%，強烈提示存在病理性的 Renal Magnesium Wasting，此為 Gitelman 及 Gitelman-like Syndrome 的重要指標。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-1)",
@@ -862,7 +862,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Hydrochlorothiazide (HCTZ) Challenge Test 可用於評估 DCT 的 NCCT 功能。正常人在給予 HCTZ 後尿鈉與尿氯排泄量會劇烈增加；而 Gitelman Syndrome 患者由於 NCCT 基因缺陷早已失去功能，給予 HCTZ 後呈現 Blunted or Absent Natriuretic and Chloruretic Response。",
+      "sourceExplanation": "HCTZ Challenge Test 可用於評估 DCT 的 NCCT 功能。正常人在給予 HCTZ 後尿鈉與尿氯排泄量會劇烈增加；而 Gitelman Syndrome 患者由於 NCCT 基因缺陷早已失去功能，給予 HCTZ 後呈現 Blunted or Absent Natriuretic and Chloruretic Response。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-2)",
@@ -914,7 +914,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 患者需終生補充鎂離子。相比於無機鎂鹽 (如 Magnesium Oxide 易引發嚴重 Diarrhea)，臨床首選生質利用度較高且Intestinal Mucosa副作用較低的 Organic Magnesium Salts (如 Magnesium L-threonate, Pidolate, Aspartate, Gluconate)，並採每日分次給藥。",
+      "sourceExplanation": "Gitelman Syndrome 患者需終生補充鎂離子。相比於無機鎂鹽 ，臨床首選生質利用度較高且Intestinal Mucosa副作用較低的 Organic Magnesium Salts (如 Magnesium L-threonate, Pidolate, Aspartate, Gluconate)，並採每日分次給藥。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-3)",
@@ -1018,7 +1018,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "對於 Secondary / Acquired Gitelman-like Syndrome，除了補充電解質之外，Treating Underlying Secondary Etiology。若為 Sjögren's Syndrome 引發，給予 Immunosuppressive Therapy (如 Corticosteroids 或 DDMARDs) 可控制 Tubulointerstitial Nephritis 浸潤，改善 DCT 功能。",
+      "sourceExplanation": "對於 Secondary / Acquired Gitelman-like Syndrome，除了補充電解質之外，Treating Underlying Secondary Etiology。若為 Sjögren's Syndrome 引發，給予 Immunosuppressive Therapy  可控制 Tubulointerstitial Nephritis 浸潤，改善 DCT 功能。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-5)",

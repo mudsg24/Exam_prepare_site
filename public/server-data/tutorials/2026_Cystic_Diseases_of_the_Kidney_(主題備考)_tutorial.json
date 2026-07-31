@@ -1,0 +1,155 @@
+{
+  "id": "2026_Cystic_Diseases_of_the_Kidney_(主題備考)",
+  "paperId": "2026_Cystic_Diseases_of_the_Kidney_(主題備考)",
+  "title": "Cystic Diseases of the Kidney: Genetics, Ciliary Pathophysiology, Mayo Imaging Classification, Tolvaptan Protocol & Differential Diagnosis",
+  "description": "整合 ADPKD PKD1/PKD2, GANAB, ALG8, Primary Ciliary Mechanosensation, cAMP/V2R Signaling, Mayo Imaging Classification 1A-1E, Tolvaptan TEMPO/REPRISE 指引, ARPKD PKHD1, Nephronophthisis NPHP, ADTKD UMOD/MUC1, MSK, ACKD 與 TSC/VHL 之專科講堂。",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "updatedAt": "2026-08-01T03:15:00.000Z",
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: ADPKD Molecular Genetics, Ciliary Pathophysiology & cAMP/V2R Signaling Matrix",
+      "content": "### 1. Molecular Genetics &ADPKD 為最常見之單基因遺傳性腎臟疾病。致病基因主要包含 `PKD1` (16p13.3，編碼 Polycystin-1 / PC1) 與 `PKD2` (4q21，編碼 Polycystin-2 / PC2)。近年研究發現，ER N-glycosylation 與 Quality Control 途徑的微小基因 (如 `GANAB`, `DNAJB11`, `ALG8`, `ALG5`, `ALG9`, `SEC63`, `SEC61B`) 突變，會干擾 PC1 於 ER 內之成熟折疊與修飾，ADPLD。\n\n| Gene & Locus | Encoded Protein & Domain Structure | Disease Frequency & Phenotypic Severity | Subcellular Localization & Biological Role |\n| --- | --- | --- | --- |\n| `PKD1` (16p13.3) | Polycystin-PC1: Large 11-TM glycoprotein with GPS autoproteolysis site, REJ, PLAT, & PKD domains | 78–85% of ADPKD cases; Severe phenotype; Median age of ESRD ~53–Truncating mutations worst | Apical Primary Cilium axoneme (9+0 structure), Plasma membrane & Focal Adhesions; Acts as a mechanosensor |\n| `PKD2`4q21 | Polycystin-PC2: 6-TM TRP-TRPP2 with EF-hand Ca²⁺-binding domain | ~15% of ADPKD cases; Milder phenotype; Median age of ESRD ~74–79 years | Primary Cilium & Endoplasmic Reticulum membrane; Acts as intracellular & ciliary Ca²⁺ release channel |\n| `GANAB` & `ALG8` | Glucosidase II αGANAB & α-1,3-ALG8 | Rare cause of ADPKD / ADPLD; Mild cystic burden, late-onset renal insufficiency | Endoplasmic Reticulum lumen; Catalyzes initial N-glycan processing required for proper PC1 folding & ciliary trafficking |\n| `DNAJB11` | Endoplasmic Reticulum Co-BiP partner | Atypical ADPKD / ADTKD overlap; Small kidney size, interstitial fibrosis, late ESRD | ER lumen; Regulates BiP-mediated protein folding; Loss leads to defective PC1/PC2 maturation |\n\n### 2. High-Yield Differential Comparison Table\n\n| Pathophysiological Parameter | Normal Tubular Epithelium | ADPKD Cystic Epithelium | Therapeutic Target & Intervention |\n| --- | --- | --- | --- |\n| Ciliary Shear Stress & Intracellular Ca²⁺ | Fluid flow bends Primary Cilium ➔ PC1/PC2 complex triggers Ca²⁺ influx ➔ Normal intracellular [Ca²⁺]i | PC1 or PC2 functional loss ➔ Ciliary mechanosensation blunted ➔ Depressed intracellular [Ca²⁺]i | Re-establishing intracellular Ca²⁺Calcimimetics / TRPP activation - Under investigation |\n| Intracellular cAMP & Adenylyl Cyclase | Low [cAMP]i suppressed by baseline Ca²⁺AC6 | Low [Ca²⁺]i disinhibits AC6 ➔ Elevated [cAMP]V2R stimulation | Vasopressin V2 Receptor Antagonist (**Tolvaptan**); Somatostatin Receptor Agonists (Octreotide, Pasireotide) |\n| Fluid Secretion & Electrolyte Transport | Net fluid absorption driven by Basolateral Na+/K+-ATPase and Apical ENaC | cAMP/PKA activates CFTR & Anoctamin-ANO1 Cl⁻ channels ➔ Apical Cl⁻ & water secretion into cyst lumen | CFTR Inhibitors & Anoctamin-1 channel blockers |\n| Proliferation & Intracellular Signaling | AKT inhibits B-Raf ➔ MEK/ERK pathway quiescent; Normal mTOR control | Low Ca²⁺ releases B-Raf from AKT inhibition ➔ B-Raf/MEK/ERK & AMPK/mTOR pathways hyperactivated |Sirolimus/Everolimus - Blunted by systemic toxicity; Tyrosine Kinase Inhibitors |\n\n### 3. Pathophysiological Decision Tree\n\nSingle Tubular Epithelial Cell carrying Germline Heterozygous `PKD1`/`PKD2` Mutation ➔ Somatic Second-or subthreshold polycystin expression ➔ Disruption of Ciliary PC1/PC2 Mechanosensory Complex ➔ Intracellular Ca²⁺ Depletion ➔AC6 ➔ Accumulation of Intracellular cAMP ➔PKA Hyperactivation ➔ Dual Downstream Pathologic Effects:1 PKA phosphorylates CFTR & Anoctamin-1 Cl⁻ channels, driving active transepithelial fluid secretion into cyst lumen;2 PKA activates B-Raf/MEK/ERK & mTOR cascades, driving cell proliferation & micro-polyp formation ➔ Expansion of cyst sac ➔ Separation of cyst from parent nephron ➔ Progressive parenchymal compression, interstitial inflammation & renal fibrosis.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 ADPKD 囊腫形成是全身每一個腎小管細胞同時發生管腔擴張。\n**Analysis**: 雖然 ADPKD 患者每一個體細胞都帶有單套 Germline Heterozygous Mutation，但一生中僅有不到 1–2% 的腎小管會演變為囊腫。這是因為囊腫的起始遵守 Two-Hit Hypothesis：特定小管細胞必須發生 Somatic Mutation 使正常對立基因失能，或是當細胞內 functional polycystin 濃度降至低於 Dosage Threshold Model 時，該單一細胞才會開始異型增生並膨脹成獨立囊腫。囊腫在擴大至數公厘後會與母腎小管管腔徹底 Separation，後續蓄積之囊腫液完全依賴囊腫上皮細胞主動之 Cl⁻ 與水份分泌。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_45_1",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_1.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_1.png",
+          "caption": "Brenner 11e Fig. 45.1: Evolution of cysts from renal tubules following a second-hit process, showing epithelial proliferation, basement membrane thickening, interstitial inflammation, and complete separation from parent tubule.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "Brenner_Fig_45_2",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_2.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_2.png",
+          "caption": "Brenner 11e Fig. 45.2: Primary cilium structure (9+0 axoneme) and polycystin mechanosensory signaling complex (PC1 and PC2) mediating fluid shear stress Ca²⁺ entry.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "Brenner_Fig_45_4",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_4.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_4.png",
+          "caption": "Brenner 11e Fig. 45.4: Dysregulated intracellular signaling pathways in polycystic kidney disease (AC6, cAMP, PKA, CFTR, B-Raf/MEK/ERK, mTOR) and pharmacological targets.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "adpkd_ciliary_camp_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/adpkd_ciliary_camp_ai.png",
+          "imagePath": "/server-data/assets/adpkd_ciliary_camp_ai.png",
+          "caption": "Molecular Mechanism of ADPKD: Ciliary PC1/PC2 Complex Disruption, AC6 Disinhibition, cAMP Accumulation, CFTR Fluid Secretion, and B-Raf/MEK/ERK Proliferation Cascade."
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Diagnostic Criteria, Mayo Imaging Classification & htTKV Disease Progression",
+      "content": "### 1.Pei-Ravine Criteria\n\n對於 Family History Positive 之 ADPKD 高風險族群，超音波為首選非侵入性診斷工具。Pei 等人於 2009 年更新之 Unified Diagnostic Criteria 依據年齡分層建立精確之診斷與排除標準。對於無家族史或表型不典型個體，MRI 提供更高之敏感度。\n\n| Age Stratification Group |Family History Positive |Negative Predictive Value | Diagnostic Sensitivity & Notes |\n| --- | --- | --- | --- |\n| Age 15–29 years | ≥Unilateral or Bilateral | <Total 0 cysts in both kidneys | Sensitivity 94.3% for `PKD1`; Negative predictive value >99% for excluding ADPKD |\n| Age 30–39 years | ≥Unilateral or Bilateral | <Total 0 cysts in both kidneys | High diagnostic specificity; MRI recommended if equivocal |\n| Age 40–59 years | ≥ 2 Renal Cysts in **EACH** kidney (Bilateral ≥2) | < 2 Renal Cysts per kidney | Prevents misdiagnosing multiple simple age-related renal cysts |\n| Age ≥ 60 years | ≥ 4 Renal Cysts in **EACH** kidney (Bilateral ≥4) | < 4 Renal Cysts per kidney | High threshold required due to high background prevalence of simple renal cysts |\n\n### 2. High-Yield Differential Comparison Table\n\n| Progression Parameter / Tool |MIC | PROPKD Score | Serum Creatinine & eGFR |\n| --- | --- | --- | --- |\n| Assessment Modality | Height-htTKV measured by MRI / CT | Genetic mutation type + Early clinical event history |eGFR equations |\n| Subclasses & Stratification | **Typical**: 1A (<1.5%/yr), 1B (1.5-3%), **1C (3-4.5%)**, **1D (4.5-6%)**, **1E (>6%/yr)**. Class 2: Atypical | **Low Risk**0-3 pts, **Intermediate Risk**4-6 pts, **High Risk**7-9 pts | Compensatory hyperfiltration keeps eGFR normal for decades until >50% nephrons lost |\n| Predictability of ESRD Risk | Class 1C, 1D, 1E represent **Rapid Progression**; Highly predictive of early ESRD | `PKD1`3 pts + Early HTN <2 pts + Early urologic event <2 pts predicts early ESRD | Poor monitoring sensitivity in early/precipitous late fall |\n| Role in Treatment Selection | Mandatory requirement for prescribing Vasopressin V2 Antagonist (**Tolvaptan**) | Validates candidate selection for early disease-modifying therapy | Used for monitoring eGFR trajectory & dose adjustments |\n\n### 3. Pathophysiological Decision Tree\n\nPatient with Suspected ADPKD ➔ Check Family History ➔ Positive Family History ➔ Perform Renal Ultrasound ➔ Assess Age & Cyst Count ➔ Age 15-39 & ≥3 Cysts OR Age 40-59 & ≥2 Cysts per kidney OR Age ≥60 & ≥4 Cysts per kidney ➔ Diagnosis Confirmed ➔ Obtain Abdominal MRI to measure Height-htTKV ➔ Calculate Mayo Imaging Class ➔ Class 1A or 1B ➔ Slow Progressor (Routine BP & lifestyle management) ➔ Class 1C, 1D, or 1E ➔ Rapid Progressor ➔ Evaluate for Tolvaptan Therapy Eligibility.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為患者 Serum Creatinine 與 eGFR 完全正常，就代表 ADPKD 疾病處於早期且無明顯腎臟組織損傷。\n**Analysis**: 這是臨床上極度危險的誤解！如 Brenner 11e Fig 45.13 所展現，ADPKD 患者在 10 歲起即開始出現持續性的腎小管囊腫擴張與正常腎單位破壞。然而，殘存的健全腎小元會啟動極強的 Compensatory Hyperfiltration，SNGFR 增加高達兩倍，從而將 Total GFR 長期維持在正常範圍內 (常長達 20–30 年)。當疾病進展至極後期、代償機制達到極限時，eGFR 會呈現 Precipitous Drop。因此，eGFR 是監測 ADPKD 早期疾病進展極不敏感的指標；Height-adjusted Total Kidney Volume 作為預測疾病進展之權威 Biomarker。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_45_10",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_10.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_10.png",
+          "caption": "Brenner 11e Fig. 45.10: Total kidney and cyst volume expansion in ADPKD patients in relation to age, demonstrating exponential growth kinetics.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "Brenner_Fig_45_13",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_13.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_13.png",
+          "caption": "Brenner 11e Fig. 45.13: Pattern of compensatory maintenance of GFR masking progressive parenchymal loss in ADPKD, leading to late precipitous GFR decline.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "KDIGO_ADPKD_Fig_8",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_8.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_8.png",
+          "caption": "KDIGO 2025 ADPKD Guideline Fig. 8: Mayo Imaging Classification of ADPKD (Classes 1A through 1E based on htTKV and patient age).",
+          "sourceBook": "KDIGO 2025 ADPKD Guideline"
+        },
+        {
+          "id": "mayo_class_httkv_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/mayo_class_httkv_ai.png",
+          "imagePath": "/server-data/assets/mayo_class_httkv_ai.png",
+          "caption": "Mayo Imaging Classification & Disease Progression Trajectory: Height-adjusted Total Kidney Volume (htTKV) Subclasses 1A to 1E and Rapid Progressor Stratification."
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Disease-Modifying Therapeutics, Tolvaptan Protocol & Clinical Complication Management",
+      "content": "### 1. Tolvaptan Therapeutic Protocol & Safety Monitoring Matrix\n\n**Tolvaptan** 為第一款獲核准用於延緩 ADPKD 疾病進展之口服 Vasopressin V2 Receptor Antagonist。其在地標性臨床試驗 **TEMPO 3:4**  與 **REPRISE** (中晚期 ADPKD, eGFR 25-65 mL/min/1.73m²) 中證實能降低 TKV 增加速率約 50%，並延緩 eGFR 下降速率約 1.0–1.2 mL/min/1.73m²/year。然因其具潛在嚴重 Drug-DILI 風險，必須實施嚴格之肝功能監測。\n\n| Protocol Component | Clinical Guidance &KDIGO 2025 | Clinical Trials Evidence (TEMPO 3:4 & REPRISE) | Safety Monitoring & Pitfalls |\n| --- | --- | --- | --- |\n| Patient Selection Criteria | Adult ADPKD patients with evidence of **Rapid Progression** (Mayo Class 1C, 1D, 1E; PROPKD Score ≥7; eGFR decline ≥3 mL/min/yr) | TEMPO 3:4 (eGFR >60, TKV >750 mL); REPRISE (eGFR 25–65 mL/min/1.73m²) | Not indicated in Mayo Class 1A/1B, CKD stage 5 (eGFR <15), or uncooperative patients |\n| Dosing & Split Regimen | Split daily oral dosing: **45/15 mg**, **60/30 mg**, or **90/30 mg** (Morning dose upon awakening, 2nd dose 8 hours later) | Highest tolerated dose achieves maximal V2R blockade & TKV suppression | Split dosing ensures 24-hour V2R inhibition while minimizing night nocturia |\n|DILI REMS | **Baseline LFTs** ➔ **Monthly LFTs for first 18 months** ➔ **Quarterly LFTs thereafter** | 4.4% in Tolvaptan vs 1.0% in placebo developed ALT >reversible upon stopping | Stop Tolvaptan IMMEDIATELY if ALT/AST >3x ULN with Bilirubin >2x ULN or ALT/AST >5x ULN |\n| Aquatic Adverse Effects | Intense Aquaporesis: Thirst,often 5-7 L/day, Nycturia, Hypernatremia | Driven by blockage of AQP2 channel insertion in collecting ducts | Must ensure unrestricted access to drinking water; Avoid fluid restriction or concomitant loop diuretics |\n\n### 2. High-Yield Differential Comparison Table\n\n| Complication Category | Pathophysiology & Clinical Presentation | Diagnostic Imaging Modality | Preferred Pharmacotherapy & Management |\n| --- | --- | --- | --- |\n| Cyst Infection | Bacterial colonization of isolated cyst sac; Severe localized flank pain, fever, neutrophilia, elevated CRP | MRI with Diffusion-DWI or 18F-FDG PET-CT | **Lipid-soluble antibiotics**:Ciprofloxacin/Levofloxacin or TMP-SMX for 4–6 weeks |\n| Cyst Hemorrhage | Rupture of fragile cyst wall blood vessels into cyst lumen or collecting duct; Gross hematuria, flank pain | Non-contrast CT (High-density fluid >60 HU inside cyst) | Bed rest, hydration,Avoid NSAIDs; Transcatheter arterial embolization if persistent bleeding |\n| Nephrolithiasis | Uric acid or Calcium oxalate stones (Prevalence 20-30%); Intrarenal stasis, low urinary citrate, low urine pH | Non-contrast CT (Gold standard; Contrast obscures stones) | High fluid intake (>3 L/day); Potassium Citrate alkalinization for uric acid/citrate deficiency |\n|ICA | Saccular aneurysm of Circle of Willis (Prevalence 8-12%); Family history of ICA/SAH is major risk factor | Non-MRA | Presymptomatic MRA screening for patients with +family history of ICA/SAH or high-risk professions |\n\n### 3. Pathophysiological Decision Tree\n\nADPKD Patient presenting with Acute Flank Pain & Fever ➔ Perform Blood/Urine Cultures &CRP ➔ Is Urine Culture Positive & Blood Culture Negative without localizing sign? ➔ Suspect Pyelonephritis ➔ Is Urine Culture Negative but CRP markedly elevated with localized cyst tenderness? ➔ Suspect Cyst Infection ➔ Perform DWI-MRI or 18F-FDG PET-CT ➔ Confirmed Infected Renal Cyst ➔Ciprofloxacin 500mg BID or Levofloxacin 500mg QD ➔ Re-evaluate after 1 week ➔ Improvement ➔ Continue antibiotic therapy for 4-6 weeks ➔ Refractory to antibiotics (>5 cm infected cyst) ➔ Perform Percutaneous Image-Guided Cyst Drainage.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 對於 ADPKD 併發 Cyst Infection 的患者，處方 Ampicillin, Ceftriaxone 或 Aminoglycosides 等廣效性抗生素。\n**Analysis**: 這是嚴重的臨床用藥陷阱！水溶性抗生素 (如 Penicillins, Cephalosporins, Aminoglycosides) 在親水性組織分佈良好，但完全無法穿越已與腎小管斷開的 Cyst Wall Epithelium，致使囊腫內部無法達到有效殺菌濃度。對於囊腫感染，金標準必須選擇 Lipophilic 且具主動擴散穿越囊腫壁能力之抗生素，Ciprofloxacin / Levofloxacin 或 Trimethoprim-TMP-SMX，且療程必須維持 4 至 6 週 以防止復發與膿瘍形成。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_45_12",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_12.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_12.png",
+          "caption": "Brenner 11e Fig. 45.12: Contrast-enhanced CT demonstrating infected renal cyst with perirenal fat stranding and resolution following lipid-soluble antibiotic therapy.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "KDIGO_ADPKD_Fig_25",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_25.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2025-ADPKD-Guideline/Fig_25.png",
+          "caption": "KDIGO 2025 ADPKD Guideline Fig. 25: Decision tree for initiating Vasopressin V2 Receptor Antagonist (Tolvaptan) in rapid progressor ADPKD.",
+          "sourceBook": "KDIGO 2025 ADPKD Guideline"
+        },
+        {
+          "id": "tolvaptan_rem_lft_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/tolvaptan_rem_lft_ai.png",
+          "imagePath": "/server-data/assets/tolvaptan_rem_lft_ai.png",
+          "caption": "Tolvaptan Therapeutic Protocol & Liver Safety (DILI) REMS: Monthly LFT Monitoring Protocol and Dual V2R Receptor Blockade Mechanism."
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: Other Inherited & Acquired Cystic Kidney Diseases (ARPKD, NPHP, ADTKD, MSK, ACKD & RCC, TSC/VHL)",
+      "content": "### 1. Non-ADPKD Cystic & Ciliopathy Spectrum Matrix\n\n除了 ADPKD 外，非 ADPKD 囊腫性腎臟疾病涵蓋自體隱性遺傳 ciliopathies (ARPKD, Nephronophthisis NPHP)、ADTKD、發育異常 (MSK, Multicystic Dysplastic Kidney) 以及 ACKD 與腫瘤症候群 (TSC, VHL)。正確認識其遺傳基因、組織病理特徵與額外器官表現為專科醫師甄試之核心考點。\n\n| Disease Category | Key Mutated Gene & Protein | Histopathologic & Diagnostic Hallmarks | Extrarenal Manifestations & Clinical Features |\n| --- | --- | --- | --- |\n|ARPKD | `PKHD1` (6p12.2) ➔ Fibrocystin /FPC | Symmetrical enlarged kidneys; Fusiform radial cysts arising **exclusively from Collecting Ducts** | **CHF** with portal hypertension (splenomegaly, esophageal varices); Potter sequence in neonates |\n|NPHP | Recessive mutations in >20 genes (`NPHP1` deletion ~20%) ➔ Transition zone cilioproteins | Small/normal shrunken kidneys; Corticomedullary junction cysts; Tubular BM thickening & attenuation | Senior-LøRetinitis Pigmentosa;Molar Tooth Sign on brain MRI |\n| ADTKD (`UMOD`, `MUC1`, `REN`, `SEC61A1`) | Autosomal dominant mutations in Uromodulin (`UMOD`), Mucin-1 (`MUC1`), Renin (`REN`) | Normal/small kidneys; Interstitial fibrosis, tubular atrophy, absence of large cysts | Early-onset **Hyperuricemia & Gout** (especially `UMOD` & `REN`); Anemia in child (`REN`) |\n|MSK |GDNF/RET signaling implicated | Precalyceal collecting duct ectasia; Papillary brush pattern on CT urography | Recurrent Calcium Oxalate nephrolithiasis,type 1, Nephrocalcinosis |\n|ACKD | Acquired consequence of prolonged uremia/dialysis (>3 years) | ≥ 3 Cysts per kidney in shrunken native kidneys of ESRD patient | **RCC** risk increased 100-fold (frequently bilateral & multifocal) |\n|TSC | `TSC1` (Hamartin, 9q34) or `TSC2` (Tuberin, 16p13.3) | Multiple **AML**, renal cysts, clear cell RCC | Facial Angiofibromas, Ash-leaf macules, Shagreen patches,SEGA |\n| von Hippel-VHL | `VHL` (3p25.3) ➔ VHL E3 ubiquitin ligase component | Epithelial cysts & multiple **ccRCC** | CNS & Retinal Hemangioblastomas, Pheochromocytoma, Pancreatic neuroendocrine tumors |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical Parameter | ADPKD | ARPKD |NPHP |ACKD |\n| --- | --- | --- | --- | --- |\n| Mode of Inheritance | Autosomal Dominant (`PKD1`, `PKD2`) | Autosomal Recessive (`PKHD1`) | Autosomal Recessive (`NPHP1-20`) |Uremia / Long-term Dialysis |\n| Typical Age of Presentation | Adults (30–50 years) | Neonates, Infants, Children | Children &Median ESRD 13y | ESRD Patients on Dialysis > 3–5 years |\n| Kidney Size | Markedly Enlarged | Markedly Enlarged | Small to Normal Shrunken | Small shrunken native kidneys with cysts |\n| Hepatic Involvement |PLD - Cysts |Ductal plate malformation |unless NPHP3/NPHP11 liver fibrosis overlap | None |\n| Risk of Malignancy | No significant increase vs general population | No increased RCC risk | No increased RCC risk | **Markedly Increased RCC Risk**100x baseline |\n\n### 3. Pathophysiological Decision Tree\n\nPatient on Maintenance Hemodialysis for > 5 years presenting with Hematuria or Flank Pain ➔ Perform Non-contrast & Contrast CT Scan of Native Kidneys ➔ Are there ≥ 3 cysts in each shrunken native kidney? ➔ YES ➔ACKD ➔ Search for Solid Soft-Tissue Enhancing Mass inside cysts or parenchyma ➔ Solid Enhancing Mass detected ➔RCC ➔ Perform Radical Nephrectomy or Partial Resection.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為洗腎多年後發生的 ACKD 與 ADPKD 一樣只會導致囊腫擴大，不會增加癌症風險。\n**Analysis**: 這是專科甄試極常見的考點陷阱！ADPKD 患者雖然腎臟充滿巨大囊腫，RCC 的風險與一般大眾無異。相反地，ACKD (定義為非囊腫性 ESRD 患者在長期洗腎 >3–5 年後，原位腎臟出現 ≥3 個囊腫) 具有極高的癌變傾向，其演變為 RCC 之風險比一般大眾高出 100 倍，且常呈現 Bilateral 與 Multifocal。因此，對洗腎 >3 年以上的 ACKD 患者出現無痛性肉眼血尿或腰痛時，必須高度警惕 RCC 之可能性。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_45_15",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_15.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_15.png",
+          "caption": "Brenner 11e Fig. 45.15: Autosomal Recessive Polycystic Kidney Disease (ARPKD) fetal sonogram, gross pathology, and radial fusiform collecting duct cysts.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "Brenner_Fig_45_20",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_20.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_20.png",
+          "caption": "Brenner 11e Fig. 45.20: Primary ciliary architecture and ciliopathy protein complexes (Transition zone MKS/JBTS/NPHP, Inversin segment, BBSome, IFT).",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "Brenner_Fig_45_25",
+          "type": "micrograph",
+          "relPath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_25.png",
+          "imagePath": "/reference-images/Brenner 11e/45. Cystic Diseases of the Kidney/Fig_45_25.png",
+          "caption": "Brenner 11e Fig. 45.25: Acquired Cystic Kidney Disease (ACKD) in a patient on 10-year hemodialysis showing diffuse cysts and multifocal Renal Cell Carcinoma.",
+          "sourceBook": "Brenner 11e Ch 45"
+        },
+        {
+          "id": "ackd_rcc_ciliopathy_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/ackd_rcc_ciliopathy_ai.png",
+          "imagePath": "/server-data/assets/ackd_rcc_ciliopathy_ai.png",
+          "caption": "Differential Diagnosis Spectrum of Renal Cystic Diseases: ARPKD Congenital Hepatic Fibrosis, Nephronophthisis Ciliary Transition Zone Defects, and ACKD Dialysis-Associated RCC."
+        }
+      ]
+    }
+  ]
+}

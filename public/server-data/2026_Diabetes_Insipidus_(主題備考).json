@@ -32,7 +32,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Arginine Vasopressin 主要作用於 collecting duct 的 principal cells 上之 V2 Receptor。V2 Receptor 透過 Gs-protein 啟動 adenylyl cyclase 產生 cAMP，進而活化 PKA。PKA 會促進含有 Aquaporin-2 (AQP2) 的 vesicles 穿梭至 apical membrane，增加 water reabsorption。",
+      "sourceExplanation": "Arginine Vasopressin 主要作用於 collecting duct 的 principal cells 上之 V2 Receptor。V2 Receptor 透過 Gs-protein 啟動 adenylyl cyclase 產生 cAMP，進而活化 PKA。PKA 會促進含有 Aquaporin-AQP2 的 vesicles 穿梭至 apical membrane，增加 water reabsorption。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -191,7 +191,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Congenital Nephrogenic Diabetes Insipidus 最常見 (佔 90%) 的原因是位於 X chromosome 的 V2 Receptor (AVPR2) 發生 gene mutation。其餘少數則為 autosomal recessive 或 autosomal dominant 的 Aquaporin-2 (AQP2) mutation。Neurophysin II mutation 則與 familial Central Diabetes Insipidus 有關。",
+      "sourceExplanation": "Congenital Nephrogenic Diabetes Insipidus 最常見 (佔 90%)AVPR2 發生 gene mutation。其餘少數則為 autosomal recessive 或 autosomal dominant 的 Aquaporin-AQP2 mutation。Neurophysin II mutation 則與 familial Central Diabetes Insipidus 有關。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -244,7 +244,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Arginine Vasopressin 主要於 hypothalamus 的 Supraoptic nuclei (SON) 與 Paraventricular nuclei (PVN) 的 magnocellular neurons 中合成，隨後經由 Neurophysin II 運送至 Posterior Pituitary 進行 storage and release。",
+      "sourceExplanation": "SONPVN 的 magnocellular neurons 中合成，隨後經由 Neurophysin II 運送至 Posterior Pituitary 進行 storage and release。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -297,7 +297,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "在 Water Deprivation Test 中，給予 Desmopressin (DDAVP) 後 urine osmolality 上升超過 50%，代表 kidney 對 AVP 有良好反應，但 endogenous AVP 分泌不足，此為典型的 Complete Central Diabetes Insipidus。若是 Nephrogenic Diabetes Insipidus，則給予 DDAVP 後 urine osmolality 上升會小於 10%。",
+      "sourceExplanation": "在 Water Deprivation Test 中，DDAVP 後 urine osmolality 上升超過 50%，代表 kidney 對 AVP 有良好反應，但 endogenous AVP 分泌不足，此為典型的 Complete Central Diabetes Insipidus。若是 Nephrogenic Diabetes Insipidus，則給予 DDAVP 後 urine osmolality 上升會小於 10%。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -562,7 +562,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Gestational Diabetes Insipidus 是因為 placenta 大量製造 Vasopressinase (Oxytocinase)，導致 maternal endogenous Arginine Vasopressin (AVP) 被快速降解而引起。Desmopressin (DDAVP) 的結構經過修飾，對 Vasopressinase 具有抵抗力，因此這類病患對 DDAVP 有良好反應，亦為 first-line treatment。",
+      "sourceExplanation": "Oxytocinase，AVP 被快速降解而引起。DDAVP 的結構經過修飾，對 Vasopressinase 具有抵抗力，因此這類病患對 DDAVP 有良好反應，亦為 first-line treatment。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -721,7 +721,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Neurosurgery (如 Craniopharyngioma 摘除) 後常出現的 Triple phase 包含：第一期短暫的 Central DI (因 neurons 受損停止分泌 AVP)，第二期 SIADH-like 狀態 (因受損的 neurons 崩解，釋放大量庫存的 AVP 導致水分滯留及 Hyponatremia)，第三期則是永久性的 Central Central DI with depleted neurohypophyseal stores and neuronal cell death。",
+      "sourceExplanation": "Neurosurgery  後常出現的 Triple phase 包含：第一期短暫的 Central DI ，第二期 SIADH-like 狀態 (因受損的 neurons 崩解，釋放大量庫存的 AVP 導致水分滯留及 Hyponatremia)，第三期則是永久性的 Central Central DI with depleted neurohypophyseal stores and neuronal cell death。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -827,7 +827,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "在 Lithium-induced Nephrogenic Diabetes Insipidus 的治療中，Amiloride 可阻斷 ENaC，減少 Lithium 進入 principal cells，從而降低毒性。合併使用 Thiazide (如 Hydrochlorothiazide) 則可造成輕微的 ECF volume contraction，這會代償性地增加 proximal tubule 對 sodium 與 water 的 reabsorption，減少 distal fluid delivery，進而減少 urine output。",
+      "sourceExplanation": "在 Lithium-induced Nephrogenic Diabetes Insipidus 的治療中，Amiloride 可阻斷 ENaC，減少 Lithium 進入 principal cells，從而降低毒性。合併使用 Thiazide  則可造成輕微的 ECF volume contraction，這會代償性地增加 proximal tubule 對 sodium 與 water 的 reabsorption，減少 distal fluid delivery，進而減少 urine output。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -880,7 +880,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "NSAIDs (如 Indomethacin) 藉由抑制 cyclooxygenase (COX)，減少 renal Prostaglandin E2 (PGE2) 的合成。由於 PGE2 正常情況下會拮抗 AVP 所引發的 cAMP 產生，抑制 PGE2 可加強殘存的 AVP 效應並減少 renal blood flow，從而有助於減輕 Nephrogenic Diabetes Insipidus 的 polyuria 症狀。",
+      "sourceExplanation": "NSAIDs COX，PGE2 的合成。由於 PGE2 正常情況下會拮抗 AVP 所引發的 cAMP 產生，抑制 PGE2 可加強殘存的 AVP 效應並減少 renal blood flow，從而有助於減輕 Nephrogenic Diabetes Insipidus 的 polyuria 症狀。",
       "nlmResponses": [
         {
           "accountProfile": "mudkaku",
@@ -933,7 +933,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "Gestational Diabetes Insipidus 是因為 placenta 分泌的 Vasopressinase 降解了 endogenous AVP。Desmopressin (DDAVP) 的結構與 AVP 不同，能抵抗 Vasopressinase 的水解，因此是治療 Gestational Diabetes Insipidus 的 first-line drug of choice。",
+      "sourceExplanation": "Gestational Diabetes Insipidus 是因為 placenta 分泌的 Vasopressinase 降解了 endogenous AVP。DDAVP 的結構與 AVP 不同，能抵抗 Vasopressinase 的水解，因此是治療 Gestational Diabetes Insipidus 的 first-line drug of choice。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -1039,7 +1039,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "對於 Central Diabetes Insipidus 的長期門診維持治療，Desmopressin (DDAVP) 的 Intranasal spray 或是 oral tablets 是最實用且廣泛被採用的劑型，病患可根據白天的 urine output 與 thirst severity 自行調整劑量。",
+      "sourceExplanation": "對於 Central Diabetes Insipidus 的長期門診維持治療，DDAVP 的 Intranasal spray 或是 oral tablets 是最實用且廣泛被採用的劑型，病患可根據白天的 urine output 與 thirst severity 自行調整劑量。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",

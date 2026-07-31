@@ -31,7 +31,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 藉由 Collecting Duct 上的 Epithelial Sodium Channel (ENaC) 進入細胞內，隨後抑制 Glycogen Synthase Kinase-3beta (GSK-3beta) 活性，導致 Aquaporin-2 (AQP2) 表現量下降以及頂端膜轉運障礙，進而引發 Nephrogenic Diabetes Insipidus (NDI)。此過程為主要的致病機轉。",
+      "sourceExplanation": "ENaC 進入細胞內，隨後抑制 Glycogen Synthase Kinase-GSK-3beta 活性，導致 Aquaporin-AQP2 表現量下降以及頂端膜轉運障礙，NDI。此過程為主要的致病機轉。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -86,7 +86,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "患者在使用 Lithium 後出現 Polyuria，且給予 Desmopressin (DDAVP) 挑戰測試後 Urine Osmolality 未見顯著上升，加上 Copeptin 濃度偏高，完全符合 Nephrogenic Diabetes Insipidus (NDI) 的診斷。",
+      "sourceExplanation": "患者在使用 Lithium 後出現 Polyuria，DDAVP 挑戰測試後 Urine Osmolality 未見顯著上升，加上 Copeptin 濃度偏高，NDI 的診斷。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -141,7 +141,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 acute hypovolemia 與 Nephrogenic Diabetes Insipidus (NDI) 導致的 hypernatremia 下，初期應先恢復容積，隨後給予 0.45% Sodium Chloride 或 hypotonic fluids 來補充 Free Water Deficit，以緩慢修正 Serum Sodium。",
+      "sourceExplanation": "NDI 導致的 hypernatremia 下，初期應先恢復容積，隨後給予 0.45% Sodium Chloride 或 hypotonic fluids 來補充 Free Water Deficit，以緩慢修正 Serum Sodium。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -196,7 +196,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Amiloride 可以特異性地阻斷 Collecting Duct 上的 Epithelial Sodium Channel (ENaC)，進而減少 Lithium 進入細胞內，是針對 Lithium-induced Nephrogenic Diabetes Insipidus (NDI) 的有效標靶藥物。",
+      "sourceExplanation": "ENaC，進而減少 Lithium 進入細胞內，是針對 Lithium-NDI 的有效標靶藥物。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -251,7 +251,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "長期使用 Lithium 最典型的腎臟病理變化為 Chronic Tubulointerstitial Nephritis (CTIN)，常伴隨有 Interstitial Fibrosis 與 Tubular Atrophy。",
+      "sourceExplanation": "CTIN，常伴隨有 Interstitial Fibrosis 與 Tubular Atrophy。",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/Brenner_Fig_35_4.png"
@@ -369,7 +369,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "即使停用 Lithium，Prolonged duration of Lithium therapy 以及已經存在一定程度的 Chronic Kidney Disease (CKD)，是預測其進展至 End-Stage Renal Disease (ESRD) 最關鍵的危險因子。",
+      "sourceExplanation": "即使停用 Lithium，CKD，是預測其進展至 End-ESRD 最關鍵的危險因子。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -424,7 +424,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 除了造成間質受損，也可引起絲球體病變，臨床上最常見的 Lithium-associated Podocytopathies 為 Minimal Change Disease (MCD) 與 Focal Segmental Glomerulosclerosis (FSGS)。",
+      "sourceExplanation": "Lithium 除了造成間質受損，也可引起絲球體病變，臨床上最常見的 Lithium-MCDFSGS。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -479,7 +479,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 會干擾 parathyroid gland 上的 Calcium-Sensing Receptor (CaSR)，使其 Set-point 向右偏移，導致需要更高的 serum calcium level 才能有效抑制 Parathyroid Hormone (PTH) 的分泌，進而引發 Hypercalcemia。",
+      "sourceExplanation": "Lithium 會干擾 parathyroid gland 上的 Calcium-CaSR，使其 Set-point 向右偏移，PTH 的分泌，進而引發 Hypercalcemia。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -534,7 +534,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "由於 Lithium 會改變 Calcium-Sensing Receptor (CaSR) 的敏感度，患者在 Hypercalcemia 時，其 Parathyroid Hormone (PTH) 通常呈現不適當的正常或偏高狀態。",
+      "sourceExplanation": "由於 Lithium 會改變 Calcium-CaSR 的敏感度，患者在 Hypercalcemia 時，PTH 通常呈現不適當的正常或偏高狀態。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -589,7 +589,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 對 Calcium-Sensing Receptor (CaSR) 的作用不僅發生在 parathyroid gland，也影響 renal tubules，導致 urinary calcium excretion 減少。因此其生化表現高度類似 Familial Hypocalciuric Hypercalcemia (FHH-like phenotype)，出現低 Fractional Excretion of Calcium。",
+      "sourceExplanation": "Lithium 對 Calcium-CaSR 的作用不僅發生在 parathyroid gland，也影響 renal tubules，導致 urinary calcium excretion 減少。FHH-like phenotype，出現低 Fractional Excretion of Calcium。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -644,7 +644,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 會損害遠端 renal tubules 的酸化功能，因此典型相關的酸鹼異常為 Type 1 Distal Renal Tubular Acidosis (dRTA Type 1)。",
+      "sourceExplanation": "Lithium 會損害遠端 renal tubules 的酸化功能，dRTA Type 1。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -699,7 +699,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Lithium 分子量 7 Da、沒有與 protein binding (0% protein binding)，且 volume of distribution 較小 (Vd ~0.8 L/kg)，這些特性使其非常容易透過 Hemodialysis (HD) 被清除。",
+      "sourceExplanation": "Lithium 分子量 7 Da、沒有與 protein binding (0% protein binding)，且 volume of distribution 較小 (Vd ~0.8 L/kg)，HD 被清除。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -754,7 +754,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 toxicology 與 KDIGO 指引，當血中 Lithium 濃度超過 5.0 mEq/L，或是大於 2.5 mEq/L 且合併有嚴重的 neurologic symptoms 或 Acute Kidney Injury (AKI) 時，為執行緊急 Hemodialysis (HD) 的絕對適應症。",
+      "sourceExplanation": "根據 toxicology 與 KDIGO 指引，當血中 Lithium 濃度超過 5.0 mEq/L，或是大於 2.5 mEq/AKI 時，HD 的絕對適應症。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -864,7 +864,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "為了應對 Lithium 的 Intracellular Rebound 現象，在初期使用 Intermittent Hemodialysis (iHD) 快速降低濃度後，常會銜接 Continuous Renal Replacement Therapy (CRRT) 來提供持續的清除力，避免血藥濃度再度竄升。",
+      "sourceExplanation": "為了應對 Lithium 的 Intracellular Rebound 現象，iHD 快速降低濃度後，CRRT 來提供持續的清除力，避免血藥濃度再度竄升。",
       "resolvedImages": [],
       "nlmResponses": [
         {

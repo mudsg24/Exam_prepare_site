@@ -29,7 +29,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題患者呈現 Autosomal Dominant CKD 家族史、Early-Onset Gout、Hyperuricemia 以及顯著下降之 Fractional Excretion of Uric Acid (< 4%)，尿液檢查呈 Bland Sediment。此為經典之 ADTKD-UMOD (過去稱為 Familial Juvenile Hyperuricemic Nephropathy Type 1, FJHN1 或 Medullary Cystic Kidney Disease Type 2, MCKD2)。*UMOD* 突變引發 Uromodulin 於 Thick Ascending Limb (TAL) 之 ER 內 Misfolding 與蓄積，並導致 PCT 補償性增加Uric acid重吸收。",
+      "sourceExplanation": "本題患者呈現 Autosomal Dominant CKD 家族史、Early-Onset Gout、Hyperuricemia 以及顯著下降之 Fractional Excretion of Uric Acid (< 4%)，尿液檢查呈 Bland Sediment。此為經典之 ADTKD-UMOD (過去稱為 Familial Juvenile Hyperuricemic Nephropathy Type 1, FJHN1 或 Medullary Cystic Kidney Disease Type 2, MCKD2)。*UMOD*TAL 之 ER 內 Misfolding 與蓄積，並導致 PCT 補償性增加Uric acid重吸收。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
@@ -87,7 +87,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-REN (過去稱為 FJHN Type 2) 突變部位於 *REN* Gene，編碼 Preprorenin。突變蛋白質滯留於 Juxtaglomerular Apparatus (JGA) 細胞之 ER 中引發 JGA 凋亡，導致 Renin 與 Erythropoietin 分泌嚴重缺乏。臨床核心診斷標記為 Childhood-Onset Anemia (與 CKD 期數不不成比例)、Hyperkalemia、Mild Hypotension 以及 Hyperuricemia。",
+      "sourceExplanation": "ADTKD-REN  突變部位於 *REN* Gene，編碼 Preprorenin。JGA 細胞之 ER 中引發 JGA 凋亡，導致 Renin 與 Erythropoietin 分泌嚴重缺乏。臨床核心診斷標記為 Childhood-Onset Anemia 、Hyperkalemia、Mild Hypotension 以及 Hyperuricemia。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
@@ -145,7 +145,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-MUC1 的致病突變絕大多數為 *MUC1* 基因內 Variable Number Tandem Repeat (VNTR) 區域的單一 Cytosine 插入或刪除。由於 VNTR 具高 GC 含量與高度長片段重複特性，傳統 Short-Read NGS 無法精準 Mapping，常產生假陰性。確定診斷需採用 Single Molecule Real-Time (SMRT) Long-Read Sequencing 或 Mass Spectrometry 分析 fs-MUC1 Frameshift Protein。",
+      "sourceExplanation": "ADTKD-MUC1 的致病突變絕大多數為 *MUC1*VNTR 區域的單一 Cytosine 插入或刪除。由於 VNTR 具高 GC 含量與高度長片段重複特性，傳統 Short-Read NGS 無法精準 Mapping，常產生假陰性。確定診斷需採用 Single Molecule Real-SMRT Long-Read Sequencing 或 Mass Spectrometry 分析 fs-MUC1 Frameshift Protein。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -197,7 +197,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "*UMOD* 突變導致 Misfolded Uromodulin 滯留於 ER，無法轉運至 Thick Ascending Limb (TAL) 之 Apical Membrane。Apical UMOD 缺失損害 Na-K-2Cl Cotransporter (NKCC2) 之穩定性，引發輕微 Volume Depletion。Proximal Convoluted Tubule (PCT) 被迫上調 Sodium 與 Urate 之 Reabsorption (經由 URAT1/GLUT9)，導致 Fractional Excretion of Uric Acid 降至 < 4%，引發Early-onset gout。",
+      "sourceExplanation": "*UMOD* 突變導致 Misfolded Uromodulin 滯留於 ER，TAL 之 Apical Membrane。Apical UMOD 缺失損害 Na-K-NKCC2 之穩定性，引發輕微 Volume Depletion。PCT 被迫上調 Sodium 與 Urate 之 Reabsorption (經由 URAT1/GLUT9)，導致 Fractional Excretion of Uric Acid 降至 < 4%，引發Early-onset gout。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -249,7 +249,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-HNF1B (又稱為 MODY5 或 Renal Cyst and Diabetes Syndrome) 係由 *HNF1B* Gene 突變所致。HNF1β 為控制腎臟、胰臟與生殖道發育之核心轉錄因子。典型臨床合辦症包含 Early-Onset Diabetes Mellitus、Renal Cysts、Hypomagnesemia、Pancreatic Atrophy 以及 Genital Tract Malformations。",
+      "sourceExplanation": "ADTKD-HNF1B  係由 *HNF1B* Gene 突變所致。HNF1β 為控制腎臟、胰臟與生殖道發育之核心轉錄因子。典型臨床合辦症包含 Early-Onset Diabetes Mellitus、Renal Cysts、Hypomagnesemia、Pancreatic Atrophy 以及 Genital Tract Malformations。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
@@ -359,7 +359,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-UMOD (突變 UMOD) 與 ADTKD-MUC1 (移碼蛋白 fs-MUC1) 皆屬於 Protein Misfolding Diseases。毒性蛋白於 ER/Endosomal system 中無法正常分泌並大量堆積，引發慢性 Endoplasmic Reticulum (ER) Stress 與 Unfolded Protein Response (UPR)，啟動 Apoptotic Signaling Pathways，最終造成 Tubular Atrophy 與 Interstitial Fibrosis。",
+      "sourceExplanation": "ADTKD-UMOD  與 ADTKD-MUC1 (移碼蛋白 fs-MUC1) 皆屬於 Protein Misfolding Diseases。毒性蛋白於 ER/Endosomal system 中無法正常分泌並大量堆積，ERUPR，啟動 Apoptotic Signaling Pathways，最終造成 Tubular Atrophy 與 Interstitial Fibrosis。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -463,7 +463,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD 的傳統 H&E 與 PAS 光學顯微鏡切片僅顯示非特異性 Tubular Atrophy 與 Interstitial Fibrosis。然而，專門之 Immunohistochemistry (IHC) 可以特異性染色，於 ADTKD-UMOD 可見 TAL 上皮細胞內 UMOD 堆積，於 ADTKD-MUC1 可見遠端腎管內 fs-MUC1 Frameshift Protein 堆積，具高度亞型確認價值。",
+      "sourceExplanation": "ADTKD 的傳統 H&E 與 PAS 光學顯微鏡切片僅顯示非特異性 Tubular Atrophy 與 Interstitial Fibrosis。然而，IHC 可以特異性染色，於 ADTKD-UMOD 可見 TAL 上皮細胞內 UMOD 堆積，於 ADTKD-MUC1 可見遠端腎管內 fs-MUC1 Frameshift Protein 堆積，具高度亞型確認價值。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
@@ -625,7 +625,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-REN 突變造成 Preprorenin 在 JGA 細胞內 ER 中 Misfolding 並引發 JGA 細胞凋亡。於切片執行 Immunohistochemistry (IHC) 時，可觀察到 JGA 細胞內 Renin Staining 顯著減弱或完全缺失，此為診斷 ADTKD-REN 之專一性病理表現。",
+      "sourceExplanation": "ADTKD-REN 突變造成 Preprorenin 在 JGA 細胞內 ER 中 Misfolding 並引發 JGA 細胞凋亡。IHC 時，可觀察到 JGA 細胞內 Renin Staining 顯著減弱或完全缺失，此為診斷 ADTKD-REN 之專一性病理表現。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/35. Tubulointerstitial Diseases/Table_35_2.png",
@@ -683,7 +683,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "對於 ADTKD-UMOD 患者之 Hyperuricemia 與 Gout，首選處置為 Xanthine Oxidase Inhibitors (Allopurinol 或 Febuxostat)。Uricosuric agents (Uricosuric Agents, 如 Probenecid) 效果有限且可能增加Uric acid結石風險；Loop Diuretics 會加重體液流失與 Hyperuricemia，應避免使用。",
+      "sourceExplanation": "對於 ADTKD-UMOD 患者之 Hyperuricemia 與 Gout，首選處置為 Xanthine Oxidase Inhibitors 。Uricosuric agents (Uricosuric Agents, 如 Probenecid) 效果有限且可能增加Uric acid結石風險；Loop Diuretics 會加重體液流失與 Hyperuricemia，應避免使用。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -845,7 +845,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Uromodulin (Tamm-Horsfall Protein) 專一性由 Henle Thick Ascending Limb (TAL) 上皮細胞合成與分泌。它在尿液中形成凝膠基質，維護 TAL Apical Membrane 水通透性、穩定 NKCC2，UTI defense 與抑制鈣結石形成之生理功能。",
+      "sourceExplanation": "Tamm-Horsfall ProteinTAL 上皮細胞合成與分泌。它在尿液中形成凝膠基質，維護 TAL Apical Membrane 水通透性、穩定 NKCC2，UTI defense 與抑制鈣結石形成之生理功能。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -949,7 +949,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ADTKD-UMOD 患者本身因 TAL 鈉重吸收功能輕度下降，proximal tubule (PCT) 補償性重吸收Uric acid已處於高壓狀態。若過度使用 Loop 或 Thiazide Diuretics，會加重 Effective Circulating Volume Depletion，刺激 PCT 進一步狂飆重吸收Uric acid，誘發急性Gout發作與 GFR 快速下降。",
+      "sourceExplanation": "ADTKD-UMOD 患者本身因 TAL 鈉重吸收功能輕度下降，PCT 補償性重吸收Uric acid已處於高壓狀態。若過度使用 Loop 或 Thiazide Diuretics，會加重 Effective Circulating Volume Depletion，刺激 PCT 進一步狂飆重吸收Uric acid，誘發急性Gout發作與 GFR 快速下降。",
       "resolvedImages": [],
       "nlmResponses": [
         {

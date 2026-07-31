@@ -30,7 +30,7 @@
       "providedAnswer": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Urinary Tract Obstruction 的後天性病因分類與 Retroperitoneal Fibrosis 特徵。\n1. **Retroperitoneal Fibrosis**: 經典包覆 Ureter Middle Segment 伴隨 Medial Deviation。因纖維化組織緊密包覆輸尿管外壁限制其腔內擴張，經常在早期 Renal Ultrasound 呈現 Hydronephrosis False-Negative Ultrasound。\n2. **Acquired Etiologies**: Multiple Myeloma (Intraluminal cast / uric acid), Retroperitoneal Fibrosis (Extrinsic), 以及 Abdominal Aortic Aneurysm (Extrinsic) 均為 Brenner 11e Chapter 37 表列之明確後天阻塞病因。\n3. **Ankylosing Spondylitis**: 為中軸關節炎，與 HLA-B27 相關，絕非引發 Urinary Tract Obstruction 的後天性病因。",
+      "sourceExplanation": "本題考查 Urinary Tract Obstruction 的後天性病因分類與 Retroperitoneal Fibrosis 特徵。\n1. **Retroperitoneal Fibrosis**: 經典包覆 Ureter Middle Segment 伴隨 Medial Deviation。因纖維化組織緊密包覆輸尿管外壁限制其腔內擴張，經常在早期 Renal Ultrasound 呈現 Hydronephrosis False-Negative Ultrasound。\n2. **Acquired Etiologies**:Intraluminal cast / uric acid,Extrinsic,Extrinsic 均為 Brenner 11e Chapter 37 表列之明確後天阻塞病因。\n3. **Ankylosing Spondylitis**: 為中軸關節炎，與 HLA-B27 相關，絕非引發 Urinary Tract Obstruction 的後天性病因。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_3",
@@ -99,7 +99,7 @@
       "providedAnswer": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Doppler Ultrasonography 之 Resistive Index (RI) 在急診診斷 Acute Obstructive Nephropathy 的診斷標準。\n1. **Doppler Resistive Index (RI)**: 計算公式為 $(\\text{Peak Systolic Velocity} - \\text{End Diastolic Velocity}) / \\text{Peak Systolic Velocity}$。在 Acute Ureteral Obstruction 發生時，受腎內vasoconstriction影響，End Diastolic Flow 顯著降低，導致 RI 升高。\n2. **Diagnostic Threshold**: RI 顯著升高 ($\\text{RI} > 0.70$) 或患側與健側之 $\\Delta\\text{RI} > 0.05$ 為確診 Acute Obstructive Nephropathy 的黃金診斷指標，特別適用於 Renal Ultrasound 尚末看到明顯 Hydronephrosis 的早期阻塞或 Retroperitoneal Fibrosis 患者。",
+      "sourceExplanation": "RI 在急診診斷 Acute Obstructive Nephropathy 的診斷標準。\n1. **RI**: 計算公式為 $(\\text{Peak Systolic Velocity} - \\text{End Diastolic Velocity}) / \\text{Peak Systolic Velocity}$。在 Acute Ureteral Obstruction 發生時，受腎內vasoconstriction影響，End Diastolic Flow 顯著降低，導致 RI 升高。\n2. **Diagnostic Threshold**: RI 顯著升高 ($\\text{RI} > 0.70$) 或患側與健側之 $\\Delta\\text{RI} > 0.05$ 為確診 Acute Obstructive Nephropathy 的黃金診斷指標，特別適用於 Renal Ultrasound 尚末看到明顯 Hydronephrosis 的早期阻塞或 Retroperitoneal Fibrosis 患者。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_1",
@@ -168,7 +168,7 @@
       "providedAnswer": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Diuretic Renography (MAG3 Scan + Furosemide) UPJ Obstruction 的功能性診斷指標。\n1. **Diuretic Renography ($T_{1/2}$)**: 給予 Furosemide 後，MAG3 自 Pelvicalyceal System 洗刷排出的半衰期 ($T_{1/2}$) 為區分 True Mechanical Obstruction 與 Non-obstructed Dilated Collecting System (Megaureter) 的標準測試。\n2. **Diagnostic Criteria**:\n   - **$T_{1/2} > 20\\text{ minutes}$**: 代表存在明確之 True Mechanical Obstruction。\n   - **$T_{1/2} < 10\\text{ minutes}$**: Normal or non-obstructed dilatation。\n   - **$T_{1/2} 10-20\\text{ minutes}$**: 代表 Equivocal / Indeterminate，需進一步追蹤。",
+      "sourceExplanation": "本題考查 Diuretic Renography (MAG3 Scan + Furosemide) UPJ Obstruction 的功能性診斷指標。\n1. **Diuretic Renography ($T_{1/2}$)**: 給予 Furosemide 後，MAG3 自 Pelvicalyceal System 洗刷排出的半衰期 ($T_{1/2}$) 為區分 True Mechanical Obstruction 與 Non-Megaureter 的標準測試。\n2. **Diagnostic Criteria**:\n   - **$T_{1/2} > 20\\text{ minutes}$**: 代表存在明確之 True Mechanical Obstruction。\n   - **$T_{1/2} < 10\\text{ minutes}$**: Normal or non-obstructed dilatation。\n   - **$T_{1/2} 10-20\\text{ minutes}$**: 代表 Equivocal / Indeterminate，需進一步追蹤。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_6",
@@ -237,7 +237,7 @@
       "providedAnswer": "D",
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Acute Unilateral Ureteral Obstruction (UUO) Phase 1 (0-2 Hours) 的 Glomerular Hemodynamics 演變。\n1. **Phase 1 (0-2 Hours)**: 急性輸尿管阻塞引發 Intratubular Pressure / Bowman Space Pressure ($P_T$) 劇烈上升。受強烈張力刺激，腎臟 Medullary Interstitial Cells 釋放內源性 Prostaglandin $E_2$ ($\text{PGE}_2$) 與 Nitric Oxide (NO)。\n2. **Hemodynamic Effect**: $\text{PGE}_2$ 與 NO 誘發強烈之 Afferent Arteriolar Vasodilation ($R_A \\downarrow$)，使得 Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 反常上升 ($\\uparrow$)，暫時抵銷了 $P_T$ 的反向阻力，維持 SNGFR 與 RBF 不致潰敗。NSAIDs 會抑制 COX-2 / $\text{PGE}_2$，阻斷此代償反應而加重早期 Obstructive AKI。",
+      "sourceExplanation": "UUO0-2 Hours 的 Glomerular Hemodynamics 演變。\n1. **0-2 Hours**: 急性輸尿管阻塞引發 Intratubular Pressure / Bowman Space Pressure ($P_T$) 劇烈上升。受強烈張力刺激，腎臟 Medullary Interstitial Cells 釋放內源性 Prostaglandin $E_2$ ($\text{PGE}_2$)NO。\n2. **Hemodynamic Effect**: $\text{PGE}_2$ 與 NO 誘發強烈之 Afferent Arteriolar Vasodilation ($R_A \\downarrow$)，使得 Glomerular Capillary Hydraulic Pressure ($P_{GC}$) 反常上升 ($\\uparrow$)，暫時抵銷了 $P_T$ 的反向阻力，維持 SNGFR 與 RBF 不致潰敗。NSAIDs 會抑制 COX-2 / $\text{PGE}_2$，阻斷此代償反應而加重早期 Obstructive AKI。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_1",
@@ -306,7 +306,7 @@
       "providedAnswer": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Unilateral Ureteral Obstruction (UUO) Phase 2 (2-5 Hours) 與Phase 3 (>5-24 Hours) 的腎vasoconstriction分子。\n1. **Phase 2 & Phase 3 Hemodynamics**: 在阻塞持續 2 小時後，$\text{PGE}_2$ 的擴血管作用被強烈的vasoconstriction因子超越。內源性 Angiotensin II (ANG II) 與局部浸潤 Macrophages 釋放的 Thromboxane $A_2$ ($\text{TXA}_2$) 開始佔據主導地位。\n2. **Vascular Impact**: ANG II 與 $\text{TXA}_2$ 引發極度強烈之 Afferent Arteriolar Vasoconstriction ($R_A \\uparrow\\uparrow$)，使 $P_{GC}$ 下降，引發 RBF 與 SNGFR 的嚴重衰退與缺血性損害。",
+      "sourceExplanation": "UUO2-5 Hours 與Phase 3 (>5-24 Hours) 的腎vasoconstriction分子。\n1. **Phase 2 & Phase 3 Hemodynamics**: 在阻塞持續 2 小時後，$\text{PGE}_2$ 的擴血管作用被強烈的vasoconstriction因子超越。ANG II 與局部浸潤 Macrophages 釋放的 Thromboxane $A_2$ ($\text{TXA}_2$) 開始佔據主導地位。\n2. **Vascular Impact**: ANG II 與 $\text{TXA}_2$ 引發極度強烈之 Afferent Arteriolar Vasoconstriction ($R_A \\uparrow\\uparrow$)，使 $P_{GC}$ 下降，引發 RBF 與 SNGFR 的嚴重衰退與缺血性損害。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_1",
@@ -376,7 +376,7 @@
       "providedAnswer": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Bilateral Ureteral Obstruction (BUO) 與 Unilateral Ureteral Obstruction (UUO) 血流力學的生理差異。\n1. **Hemodynamic Difference**: 在 UUO 中，對側正常腎臟可持續排尿排鈉，體液無蓄積；但在 BUO 中，由於完全無尿，發生顯著之 Extracellular Fluid Volume Expansion 與 Volume Overload。\n2. **ANP Accumulation**: 體液過多刺激心房大量釋放 Atrial Natriuretic Peptide (ANP)。高濃度 ANP 作用於腎臟引發 Pre-glomerular Vasodilation，部分抵銷了 ANG II 引發的 $R_A$ 升幅，使得 BUO 釋放後容易引發更劇烈的 Post-Obstructive Diuresis 與 Natriuresis。",
+      "sourceExplanation": "BUOUUO 血流力學的生理差異。\n1. **Hemodynamic Difference**: 在 UUO 中，對側正常腎臟可持續排尿排鈉，體液無蓄積；但在 BUO 中，由於完全無尿，發生顯著之 Extracellular Fluid Volume Expansion 與 Volume Overload。\n2. **ANP Accumulation**:ANP。高濃度 ANP 作用於腎臟引發 Pre-glomerular Vasodilation，部分抵銷了 ANG II 引發的 $R_A$ 升幅，使得 BUO 釋放後容易引發更劇烈的 Post-Obstructive Diuresis 與 Natriuresis。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_1",
@@ -445,7 +445,7 @@
       "providedAnswer": "D",
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Obstructive Nephropathy 引發 Nephrogenic Diabetes Insipidus (NDI) 與濃縮功能障礙的分子轉運體機制。\n1. **Transporter Downregulation**: 阻塞發生後，Medullary Thick Ascending Limb (mTAL) 上之 $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-transporter (NKCC2) 重吸收降至低谷，Medullary Hypertonicity 喪失；同時 Collecting Duct 上皮細胞膜之 Aquaporin-2 (AQP2) 水通道蛋白高度下調。\n2. **Vasopressin-Resistant NDI**: 缺乏髓質高osmolality梯度與 AQP2 水通道，腎小管對 ADH Vasopressin Resistance，導致尿液無法濃縮 (Hyposthenuria, Urine Osm < 200 mOsm/kg)，呈現 Vasopressin-Resistant NDI。",
+      "sourceExplanation": "NDI 與濃縮功能障礙的分子轉運體機制。\n1. **Transporter Downregulation**: 阻塞發生後，mTAL 上之 $\text{Na}^+-\text{K}^+-2\text{Cl}^-$ Co-NKCC2 重吸收降至低谷，Medullary Hypertonicity 喪失；同時 Collecting Duct 上皮細胞膜之 Aquaporin-AQP2 水通道蛋白高度下調。\n2. **Vasopressin-Resistant NDI**: 缺乏髓質高osmolality梯度與 AQP2 水通道，腎小管對 ADH Vasopressin Resistance，導致尿液無法濃縮 (Hyposthenuria, Urine Osm < 200 mOsm/kg)，呈現 Vasopressin-Resistant NDI。",
       "resolvedImages": [
         {
           "id": "brenner_table_37_3",
@@ -514,7 +514,7 @@
       "providedAnswer": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 2022 亞東醫院考訊高頻題：Obstructive Uropathy 引發 Voltage-Dependent Type 4 RTA 的電位與離子機制。\n1. **Clinical Vignette**: Cervical Cancer 壓迫雙側輸尿管引發 Bilateral Hydronephrosis，呈現 AKI 伴隨 Hyperkalemia 與 Hyperchloremic Metabolic Acidosis。\n2. **Electrophysiological Mechanism**: 阻塞損害 Distal Nephron，使膜上 Epithelial Sodium Channel (ENaC) 下調。$\text{Na}^+$ 重吸收受阻導致無法建立正常的 Lumen-Negative Potential。缺少腔內負電位的驅動，Principal Cells 的 $\text{K}^+$ 分泌與 Intercalated Cells 的 $\text{H}^+$ 分泌被極度抑制，引發 Aldosterone Resistance / Voltage-Dependent Type 4 RTA (Hyperkalemic Distal RTA)。",
+      "sourceExplanation": "本題考查 2022 亞東醫院考訊高頻題：Obstructive Uropathy 引發 Voltage-Dependent Type 4 RTA 的電位與離子機制。\n1. **Clinical Vignette**: Cervical Cancer 壓迫雙側輸尿管引發 Bilateral Hydronephrosis，呈現 AKI 伴隨 Hyperkalemia 與 Hyperchloremic Metabolic Acidosis。\n2. **Electrophysiological Mechanism**: 阻塞損害 Distal Nephron，ENaC 下調。$\text{Na}^+$ 重吸收受阻導致無法建立正常的 Lumen-Negative Potential。缺少腔內負電位的驅動，Principal Cells 的 $\text{K}^+$ 分泌與 Intercalated Cells 的 $\text{H}^+$ 分泌被極度抑制，引發 Aldosterone Resistance / Voltage-Hyperkalemic Distal RTA。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_4",
@@ -652,7 +652,7 @@
       "providedAnswer": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 2026 奇美醫院考訓：Post-Obstructive Diuresis (POD) 生理性與病理性分型觀念。\n1. **Physiologic POD**: 為生理性清除阻塞期間蓄積的 High Retained Urea (Osmotic Diuresis) 與 Extracellular Volume Expansion，隨水鹽負擔回歸正常即自動停止。\n2. **Pathologic POD**: 為腎小管結構受損後，AQP2 / ENaC 持續下調造成的 Tubular ADH Resistance 與 Severe Salt-Wasting。即使體液量與 Urea 已恢復正常，尿量仍持續高於 200 mL/h (或 > 3 L/24h)，若未處置會引發 Severe Dehydration, Electrolyte Collapse 與 Hypovolemic Shock。",
+      "sourceExplanation": "本題考查 2026 奇美醫院考訓：Post-POD 生理性與病理性分型觀念。\n1. **Physiologic POD**:Osmotic Diuresis 與 Extracellular Volume Expansion，隨水鹽負擔回歸正常即自動停止。\n2. **Pathologic POD**: 為腎小管結構受損後，AQP2 / ENaC 持續下調造成的 Tubular ADH Resistance 與 Severe Salt-Wasting。即使體液量與 Urea 已恢復正常，尿量仍持續高於 200 mL/h (或 > 3 L/24h)，若未處置會引發 Severe Dehydration, Electrolyte Collapse 與 Hypovolemic Shock。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_4",
@@ -721,7 +721,7 @@
       "providedAnswer": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題考查 Pathologic Post-Obstructive Diuresis (POD) 臨床輸液處置的黃金準則與避坑防線。\n1. **100% Replacement Fallacy**: 若採取 1:1 (100%) 完全等量補水，會持續維持腔內 Osmotic & Fluid Burden，Iatrogenic Diuresis，使得 POD 永不停止。\n2. **50-75% Hypotonic Replacement Rule**: 正確處置為點滴給予 0.45% Saline (Hypotonic Fluid)，補充前一小時尿量的 **50% 至 75%**，並密切監測 Serum Electrolytes ($Na^+, K^+, Mg^{2+}$)。此舉可在防範 Hypovolemia 的同時，允許體內水鹽負擔逐步降至生理平衡。",
+      "sourceExplanation": "本題考查 Pathologic Post-POD 臨床輸液處置的黃金準則與避坑防線。\n1. **100% Replacement Fallacy**: 若採取 1:1 (100%) 完全等量補水，會持續維持腔內 Osmotic & Fluid Burden，Iatrogenic Diuresis，使得 POD 永不停止。\n2. **50-75% Hypotonic Replacement Rule**: 正確處置為點滴給予 0.45%Hypotonic Fluid，補充前一小時尿量的 **50% 至 75%**，並密切監測 Serum Electrolytes ($Na^+, K^+, Mg^{2+}$)。此舉可在防範 Hypovolemia 的同時，允許體內水鹽負擔逐步降至生理平衡。",
       "resolvedImages": [
         {
           "id": "brenner_fig_37_4",

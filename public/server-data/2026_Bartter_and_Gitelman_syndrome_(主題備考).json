@@ -31,7 +31,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Bartter Syndrome Type I 是由於 SLC12A1 基因突變導致 Thick Ascending Limb (TAL) 的 Na-K-2Cl Cotransporter 2 (NKCC2) 功能喪失。臨床表現為嚴重的 Antenatal Polyhydramnios、Premature Labor、Polyuria、Severe Hypercalciuria 與 Medullary Nephrocalcinosis。",
+      "sourceExplanation": "TAL 的 Na-K-NKCC2 功能喪失。臨床表現為嚴重的 Antenatal Polyhydramnios、Premature Labor、Polyuria、Severe Hypercalciuria 與 Medullary Nephrocalcinosis。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_10.png"
       ],
@@ -88,7 +88,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Bartter Syndrome Type II 係由 KCNJ1 基因突變引發 Renal Outer Medullary Potassium Channel (ROMK) 失能。由於 ROMK 同時負責 TAL 的 K+ recycling 與 Cortical Collecting Duct (CCD) 的 K+ secretion，新生兒初期會出現 Transient Neonatal Hyperkalemia 與 Aldosterone Resistance，數週後轉變為典型的 Hypokalemic Metabolic Alkalosis 伴隨 Hypercalciuria。",
+      "sourceExplanation": "ROMK 失能。由於 ROMK 同時負責 TAL 的 K+CCD 的 K+ secretion，新生兒初期會出現 Transient Neonatal Hyperkalemia 與 Aldosterone Resistance，數週後轉變為典型的 Hypokalemic Metabolic Alkalosis 伴隨 Hypercalciuria。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_10.png"
       ],
@@ -145,7 +145,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Bartter Syndrome Type III (Classic Bartter) 係由 CLCNKB 基因缺失導致 Basolateral Chloride Channel Kb (CLC-Kb) 缺陷。因為 CLC-Kb 同時存在於 TAL 與 Distal Convoluted Tubule (DCT)，部分患者會出現與 Gitelman Syndrome 重疊之臨床表徵 (Mild Hypocalciuria 或 Hypomagnesemia)。",
+      "sourceExplanation": "Classic BartterCLC-Kb 缺陷。因為 CLC-DCT，部分患者會出現與 Gitelman Syndrome 重疊之臨床表徵 。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_10.png"
       ],
@@ -259,7 +259,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Bartter Syndrome Type V 係因 Calcium-Sensing Receptor (CaSR) 發生 Gain-of-Function Mutation (Autosomal Dominant Hypocalcemia with Hypercalciuria, ADH)。活化的 CaSR 在 TAL 會抑制 NKCC2 與 ROMK 的運作，引發 Secondary Salt Wasting 與 Hypokalemic Metabolic Alkalosis 伴隨 Suppressed PTH。",
+      "sourceExplanation": "Bartter Syndrome Type V 係因 Calcium-CaSR 發生 Gain-of-Function Mutation (Autosomal Dominant Hypocalcemia with Hypercalciuria, ADH)。活化的 CaSR 在 TAL 會抑制 NKCC2 與 ROMK 的運作，引發 Secondary Salt Wasting 與 Hypokalemic Metabolic Alkalosis 伴隨 Suppressed PTH。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_10.png"
       ],
@@ -316,7 +316,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 係由 SLC12A3 基因突變導致 Distal Convoluted Tubule (DCT) 的 Thiazide-sensitive Na-Cl Cotransporter (NCCT / NCC) 機能完全喪失。其三大臨床招牌特徵為：Hypokalemic Metabolic Alkalosis、Severe Hypomagnesemia 以及 Marked Hypocalciuria (FECa < 0.2%)。",
+      "sourceExplanation": "DCT 的 Thiazide-sensitive Na-NCCT / NCC 機能完全喪失。其三大臨床招牌特徵為：Hypokalemic Metabolic Alkalosis、Severe Hypomagnesemia 以及 Marked Hypocalciuria (FECa < 0.2%)。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_11.png"
       ],
@@ -373,7 +373,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 患者之所以普遍出現極度嚴重的 Renal Magnesium Wasting 與 Hypomagnesemia，是因為 NCCT 缺失引發 Distal Convoluted Tubule (DCT) 的 Structural Atrophy，次發性地使 Apical Magnesium Channel (TRPM6) 的表達量劇烈下調。",
+      "sourceExplanation": "Gitelman Syndrome 患者之所以普遍出現極度嚴重的 Renal Magnesium Wasting 與 Hypomagnesemia，DCT 的 Structural Atrophy，TRPM6 的表達量劇烈下調。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_16.png"
       ],
@@ -430,7 +430,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 產生特異性 Hypocalciuria (FECa < 0.2%) 的細胞學機制為：NCCT 阻斷使 DCT 細胞內 Na+ 濃度下降，進而加速 Basolateral Na-Ca Exchanger 1 (NCX1) 的轉運效率，並促使 Apical TRPV5 鈣通道大量再吸收 Ca²⁺。",
+      "sourceExplanation": "Gitelman Syndrome 產生特異性 Hypocalciuria (FECa < 0.2%) 的細胞學機制為：NCCT 阻斷使 DCT 細胞內 Na+ 濃度下降，進而加速 Basolateral Na-NCX1 的轉運效率，並促使 Apical TRPV5 鈣通道大量再吸收 Ca²⁺。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_11.png"
       ],
@@ -487,7 +487,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "EAST / SeSAME Syndrome 係由 KCNJ10 基因突變導致 Kir4.1 Potassium Channel 功能喪失。臨床呈現 4 大核心表現：Epilepsy (E), Ataxia (A), Sensorineural Deafness (S), and Tubulopathy (T, 類似 Gitelman 之 hypokalemia、hypomagnesemia、hypocalciuria)。",
+      "sourceExplanation": "EAST / SeSAME Syndrome 係由 KCNJ10 基因突變導致 Kir4.1 Potassium Channel 功能喪失。臨床呈現 4 大核心表現：E,A,S, and Tubulopathy (T, 類似 Gitelman 之 hypokalemia、hypomagnesemia、hypocalciuria)。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_44_8.png"
       ],
@@ -544,7 +544,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在鑑別 Bartter Syndrome 與 Gitelman Syndrome 時，最可靠且專一的生化指標為 Fractional Excretion of Calcium (FECa)。Bartter 患者呈現 Hypercalciuria (FECa > 0.5%)，而 Gitelman 患者呈現特異性 Hypocalciuria (FECa < 0.2%)。",
+      "sourceExplanation": "在鑑別 Bartter Syndrome 與 Gitelman Syndrome 時，FECa。Bartter 患者呈現 Hypercalciuria (FECa > 0.5%)，而 Gitelman 患者呈現特異性 Hypocalciuria (FECa < 0.2%)。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_12.png"
       ],
@@ -715,7 +715,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Antenatal Bartter 患兒體內 Renal Prostaglandin E2 (PGE2) 大量暴增，PGE2 會擴張 Afferent Arterioles 並抑制 TAL 鹽類重吸收，加重 Polyuria 與 Volume Depletion。投與 NSAIDs (如 Indomethacin) 可抑制 COX-2 與 PGE2 合成，有效緩解 polyuria 與 hyperfiltration。",
+      "sourceExplanation": "PGE2 大量暴增，PGE2 會擴張 Afferent Arterioles 並抑制 TAL 鹽類重吸收，加重 Polyuria 與 Volume Depletion。投與 NSAIDs  可抑制 COX-2 與 PGE2 合成，有效緩解 polyuria 與 hyperfiltration。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_10.png"
       ],
@@ -772,7 +772,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman 患者補充大量 Potassium Chloride (KCl) 仍呈 Refractory Hypokalemia 的主因為：Intracellular Magnesium Deficiency 會解除對 ROMK 通道的內向整流抑制，導致 ROMK 通道被鎖定於開啟狀態，大量 K+ 被漏入尿液。必須優先矯正 Hypomagnesemia 才能補成功 K+。",
+      "sourceExplanation": "KCl 仍呈 Refractory Hypokalemia 的主因為：Intracellular Magnesium Deficiency 會解除對 ROMK 通道的內向整流抑制，導致 ROMK 通道被鎖定於開啟狀態，大量 K+ 被漏入尿液。必須優先矯正 Hypomagnesemia 才能補成功 K+。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_44_16.png"
       ],
@@ -829,7 +829,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "對於 Antenatal Bartter Syndrome 嬰幼兒患者，除了積極補充水份與電解質外，首選之標靶藥物治療為 Indomethacin 或 Ibuprofen (NSAIDs)，用以遏制 Prostaglandin 暴增並促進成長發育。",
+      "sourceExplanation": "對於 Antenatal Bartter Syndrome 嬰幼兒患者，除了積極補充水份與電解質外，NSAIDs，用以遏制 Prostaglandin 暴增並促進成長發育。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_44_8.png"
       ],
@@ -886,7 +886,7 @@
       "sourceProvidedAnswer": "D",
       "selectedOption": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 的長期黃金治療方案為：口服高劑量 Magnesium (首選 Organic salts 如 Magnesium Chloride / Aspartate)，配合口服 KCl，並於頑固性 hypokalemia 時加用 Potassium-Sparing Diuretics (Amiloride 或 Spironolactone)。",
+      "sourceExplanation": "Gitelman Syndrome 的長期黃金治療方案為：口服高劑量 Magnesium (首選 Organic salts 如 Magnesium Chloride / Aspartate)，配合口服 KCl，並於頑固性 hypokalemia 時加用 Potassium-Sparing Diuretics 。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_44_8.png"
       ],
@@ -943,7 +943,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Gitelman Syndrome 患者因長期嚴重 Hypomagnesemia，會抑制 Pyrophosphatase 活性，致使 Calcium Pyrophosphate Dihydrate (CPPD) 晶體沉積於 articular cartilage，引發 Chondrocalcinosis / Pseudogout（synovial fluid 可見 weakly positively birefringent rhomboid crystals）。",
+      "sourceExplanation": "Gitelman Syndrome 患者因長期嚴重 Hypomagnesemia，會抑制 Pyrophosphatase 活性，CPPD 晶體沉積於 articular cartilage，引發 Chondrocalcinosis / Pseudogout（synovial fluid 可見 weakly positively birefringent rhomboid crystals）。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_44_8.png"
       ],
@@ -1000,7 +1000,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "對於 Bartter / Gitelman Growth Failure 患者，給予 Recombinant Human Growth Hormone (rhGH) 的首要前提與必要條件是：必須先透過電解質與體液補充，完整矯正 Hypokalemia、Metabolic Alkalosis 與 Chronic Volume Depletion，方能發揮 growth hormone 之療效。",
+      "sourceExplanation": "對於 Bartter / Gitelman Growth Failure 患者，rhGH 的首要前提與必要條件是：必須先透過電解質與體液補充，完整矯正 Hypokalemia、Metabolic Alkalosis 與 Chronic Volume Depletion，方能發揮 growth hormone 之療效。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_44_8.png"
       ],

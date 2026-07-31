@@ -29,7 +29,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Under normoxic conditions, Prolyl Hydroxylase Domain (PHD1-3) enzymes act as 2-oxoglutarate-dependent dioxygenases. Hydroxylation of HIF-1alpha at Pro402 and Pro564 requires molecular oxygen (O2) as a cosubstrate, 2-oxoglutarate (alpha-ketoglutarate) as a co-substrate, Fe2+ at the active site, and ascorbate (Vitamin C) to maintain iron in its reduced Fe2+ state. Accumulation of TCA cycle intermediates such as succinate or fumarate competitively inhibits PHD, inducing pseudohypoxia.",
+      "sourceExplanation": "Under normoxic conditions,PHD1-3 enzymes act as 2-oxoglutarate-dependent dioxygenases. Hydroxylation of HIF-O2 as a cosubstrate, 2-alpha-ketoglutarate as a co-substrate, Fe2+ at the active site,Vitamin C to maintain iron in its reduced Fe2+ state. Accumulation of TCA cycle intermediates such as succinate or fumarate competitively inhibits PHD, inducing pseudohypoxia.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -82,7 +82,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "The von Hippel-Lindau tumor suppressor protein (pVHL) forms a multi-protein E3 ubiquitin ligase complex with Elongin B, Elongin C, Cullin-2, and RBX1. pVHL specifically recognizes and binds the hydroxylated proline residues (Pro402 and Pro564) within the Oxygen-Dependent Degradation Domain (ODDD) of HIF-1alpha, targeting it for polyubiquitination and rapid degradation by the 26S proteasome.",
+      "sourceExplanation": "The von Hippel-pVHL forms a multi-protein E3 ubiquitin ligase complex with Elongin B, Elongin C, Cullin-2, and RBX1.Pro402 and Pro564 within the Oxygen-ODDD of HIF-1alpha, targeting it for polyubiquitination and rapid degradation by the 26S proteasome.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -131,7 +131,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Factor Inhibiting HIF-1 (FIH-1) is an asparaginyl hydroxylase. Under normoxia and mild hypoxia, FIH-1 hydroxylates Asparagine-803 (Asn803) located in the C-terminal Transactivation Domain (C-TAD) of HIF-1alpha. This hydroxylation creates steric hindrance that prevents recruitment of p300 and CBP transcriptional coactivators, thereby silencing transcriptional activity even if HIF-1alpha escapes proteasomal degradation.",
+      "sourceExplanation": "Factor Inhibiting HIF-FIH-1 is an asparaginyl hydroxylase. Under normoxia and mild hypoxia, FIH-1 hydroxylates Asparagine-Asn803 located in the C-C-TAD of HIF-1alpha. This hydroxylation creates steric hindrance that prevents recruitment of p300 and CBP transcriptional coactivators, thereby silencing transcriptional activity even if HIF-1alpha escapes proteasomal degradation.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -180,7 +180,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Renal Erythropoietin-Producing (REP) cells are specialized peritubular interstitial neural crest-derived fibroblasts concentrated near the corticomedullary junction. Under hypoxic stimulation or PHD inhibition, HIF-2alpha (rather than HIF-1alpha) stabilizes in REPs and drives high-level EPO gene transcription.",
+      "sourceExplanation": "Renal Erythropoietin-REP cells are specialized peritubular interstitial neural crest-derived fibroblasts concentrated near the corticomedullary junction. Under hypoxic stimulation or PHD inhibition, HIF-rather than HIF-1alpha stabilizes in REPs and drives high-level EPO gene transcription.",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "nlmResponses": [
@@ -233,7 +233,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "HIF-PHIs stabilize HIF-2alpha in hepatocytes and enterocytes, leading to transcriptional suppression of Hepcidin (HAMP gene). Reduced Hepcidin alleviates internal degradation of Ferroportin (SLC40A1), thereby unblocking iron efflux from macrophages and duodenal enterocytes into circulation. HIF-2alpha also directly upregulates Transferrin, Transferrin Receptor 1, and Duodenal Cytochrome b (DCYTB).",
+      "sourceExplanation": "HIF-PHIs stabilize HIF-2alpha in hepatocytes and enterocytes,HAMP gene.SLC40A1, thereby unblocking iron efflux from macrophages and duodenal enterocytes into circulation. HIF-2alpha also directly upregulates Transferrin, Transferrin Receptor 1,DCYTB.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -282,7 +282,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Injectable ESAs (e.g., epoetin alfa, darbepoetin) produce transient, massive supraphysiological plasma EPO spikes (10- to 100-fold above baseline). In contrast, HIF-PHIs stimulate endogenous EPO synthesis in REPs, maintaining plasma EPO levels within a physiological, moderate range while simultaneously coordinating systemic iron mobilization.",
+      "sourceExplanation": "Injectable ESAs (e.g., epoetin alfa, darbepoetin) produce transient,10- to 100-fold above baseline. In contrast, HIF-PHIs stimulate endogenous EPO synthesis in REPs, maintaining plasma EPO levels within a physiological, moderate range while simultaneously coordinating systemic iron mobilization.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -331,7 +331,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Uremic inflammation increases IL-6, which stimulates hepatic Hepcidin production and induces functional iron deficiency (trapping iron in reticuloendothelial stores). HIF-PHIs downregulate Hepcidin gene transcription and upregulate iron transport machinery (Ferroportin, Transferrin, DMT1), overcoming inflammatory iron block and maintaining erythropoiesis without requiring massive ESA dosage escalation.",
+      "sourceExplanation": "Uremic inflammation increases IL-6,trapping iron in reticuloendothelial stores. HIF-PHIs downregulate Hepcidin gene transcription and upregulate iron transport machinery (Ferroportin, Transferrin, DMT1), overcoming inflammatory iron block and maintaining erythropoiesis without requiring massive ESA dosage escalation.",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "nlmResponses": [
@@ -384,7 +384,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Clinical trials and KDIGO guidelines note that Roxadustat induces a consistent reduction in total and LDL cholesterol levels. This effect is mediated by HIF-dependent degradation of 3-hydroxy-3-methylglutaryl-coenzyme A reductase (HMG-CoA reductase) and enhanced clearance pathways.",
+      "sourceExplanation": "Clinical trials and KDIGO guidelines note that Roxadustat induces a consistent reduction in total and LDL cholesterol levels. This effect is mediated by HIF-dependent degradation of 3-hydroxy-3-methylglutaryl-HMG-CoA reductase and enhanced clearance pathways.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -437,7 +437,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "HIF-PHIs are structural analogues of 2-oxoglutarate (alpha-ketoglutarate). They act as reversible competitive inhibitors targeting the 2-oxoglutarate cosubstrate binding pocket of PHD1, PHD2, and PHD3 enzymes. Inhibiting PHD prevents HIF-alpha proline hydroxylation, thereby preventing pVHL binding and proteasomal degradation.",
+      "sourceExplanation": "HIF-PHIs are structural analogues of 2-alpha-ketoglutarate. They act as reversible competitive inhibitors targeting the 2-oxoglutarate cosubstrate binding pocket of PHD1, PHD2, and PHD3 enzymes. Inhibiting PHD prevents HIF-alpha proline hydroxylation, thereby preventing pVHL binding and proteasomal degradation.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -486,7 +486,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Proximal Tubular (PT) epithelial cells perform massive active solute reabsorption (reabsorbing ~65% of filtered Na+ and water) driven by basolateral Na+/K+-ATPase pumps. PT cells have low glycolytic capacity and depend heavily on mitochondrial oxidative phosphorylation, rendering them acutely vulnerable to oxygen deprivation when peritubular perfusion declines.",
+      "sourceExplanation": "PT epithelial cells perform massive active solute reabsorption (reabsorbing ~65% of filtered Na+ and water) driven by basolateral Na+/K+-ATPase pumps. PT cells have low glycolytic capacity and depend heavily on mitochondrial oxidative phosphorylation, rendering them acutely vulnerable to oxygen deprivation when peritubular perfusion declines.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -535,7 +535,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Glomerular injury and glomerulosclerosis lead to loss downstream efferent arterioles and loss of peritubular capillary networks (peritubular capillary rarefaction). This reduction in capillary density impairs oxygen delivery to tubulointerstitial cells, causing chronic hypoxia, tubular cell G2/M arrest, SASP cytokine secretion, and myofibroblast activation.",
+      "sourceExplanation": "peritubular capillary rarefaction. This reduction in capillary density impairs oxygen delivery to tubulointerstitial cells, causing chronic hypoxia, tubular cell G2/M arrest, SASP cytokine secretion, and myofibroblast activation.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -633,7 +633,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Biallelic inactivation of the VHL tumor suppressor gene (via mutation, deletion, or hypermethylation) occurs in germline VHL disease and in >80% of sporadic Clear Cell Renal Cell Carcinoma (ccRCC). Loss of pVHL prevents HIF degradation, producing a constitutive pseudohypoxic state driving angiogenesis and tumor proliferation.",
+      "sourceExplanation": "Biallelic inactivation of the VHL tumor suppressor gene (via mutation, deletion, or hypermethylation) occurs in germline VHL disease and in >80%ccRCC. Loss of pVHL prevents HIF degradation, producing a constitutive pseudohypoxic state driving angiogenesis and tumor proliferation.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -682,7 +682,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "In ccRCC biology, HIF-2alpha (encoded by EPAS1) is the predominant oncogenic driver promoting tumor growth, cell cycle progression, and transcription of VEGF-A, PDGF-B, GLUT1, and Cyclin D1. In contrast, HIF-1alpha can act as a tumor suppressor in certain ccRCC contexts.",
+      "sourceExplanation": "In ccRCC biology, HIF-encoded by EPAS1 is the predominant oncogenic driver promoting tumor growth, cell cycle progression, and transcription of VEGF-A, PDGF-B, GLUT1, and Cyclin D1. In contrast, HIF-1alpha can act as a tumor suppressor in certain ccRCC contexts.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -735,7 +735,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Belzutifan (MK-6482 / PT2977) is a first-in-class selective small-molecule inhibitor of HIF-2alpha. It binds specifically to a hydrophobic pocket within the PAS-B domain of HIF-2alpha, inducing a conformational change that prevents HIF-2alpha from heterodimerizing with HIF-1beta (ARNT). This blocks transcription of downstream target genes (VEGF, PDGF, GLUT1).",
+      "sourceExplanation": "MK-6482 / PT2977 is a first-in-class selective small-molecule inhibitor of HIF-2alpha. It binds specifically to a hydrophobic pocket within the PAS-B domain of HIF-2alpha, inducing a conformational change that prevents HIF-2alpha from heterodimerizing with HIF-ARNT. This blocks transcription of downstream target genes (VEGF, PDGF, GLUT1).",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -788,9 +788,9 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Because HIF-2alpha is the principal transcription factor driving EPO gene expression in renal interstitial REPs, selective pharmacological inhibition of HIF-2alpha by Belzutifan suppresses renal EPO synthesis. Anemia (often requiring ESA or transfusion support) and fatigue are the most frequent on-target adverse events.",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "sourceExplanation": "Because HIF-2alpha is the principal transcription factor driving EPO gene expression in renal interstitial REPs, selective pharmacological inhibition of HIF-2alpha by Belzutifan suppresses renal EPO synthesis.often requiring ESA or transfusion support and fatigue are the most frequent on-target adverse events.",
+      "qcVerified": false,
+      "qcStatus": "PENDING",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -805,13 +805,13 @@
           "accountProfile": "mudkaku",
           "notebookTitle": "TSN：出題 (4-5)",
           "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "rawResponse": "Detailed evidence and clinical rationale provided by NotebookLM database supporting option selection.",
           "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT",
+          "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "SINGLE_RESPONSE_ONLY",
+      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcNotes": "僅一筆 NLM 成功判定答案",
       "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00",
       "selectedOption": "B"
@@ -841,7 +841,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "In the renal vasculature, pre-glomerular interlobular arteries and veins, as well as medullary descending and ascending vasa recta, lie in close anatomical proximity. Highly diffusible molecular oxygen diffuses directly from arterial vessels with high pO2 into venous vessels with lower pO2 before reaching the capillary beds (countercurrent oxygen shunting), leaving the deep corticomedullary junction and medulla in a state of relative hypoxia.",
+      "sourceExplanation": "In the renal vasculature, pre-glomerular interlobular arteries and veins, as well as medullary descending and ascending vasa recta, lie in close anatomical proximity.countercurrent oxygen shunting, leaving the deep corticomedullary junction and medulla in a state of relative hypoxia.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -890,7 +890,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "HIF-2alpha stabilization upregulates VEGF-A (inducing robust tumor angiogenesis and prominent capillary networks) and GLUT1 (driving glucose uptake and accumulation of glycogen and lipids), producing the classic hypervascular clear cell histological appearance of ccRCC.",
+      "sourceExplanation": "HIF-2alpha stabilization upregulates VEGF-inducing robust tumor angiogenesis and prominent capillary networksdriving glucose uptake and accumulation of glycogen and lipids, producing the classic hypervascular clear cell histological appearance of ccRCC.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [

@@ -1,0 +1,122 @@
+{
+  "paperId": "2026_Renal_transplant_rejection_(主題備考)",
+  "title": "2026 Renal Transplant Rejection (腎臟移植排斥) 移植免疫、Banff 病理分型、TCMR/ABMR 診斷與臨床處置",
+  "sourceCategory": "2026 年主題練習",
+  "sections": [
+    {
+      "id": "sec_1",
+      "title": "Section 1: Immunobiology of Allorecognition & T-Cell Activation Signals",
+      "content": "### Topology Mapping Matrix\n\n| Allorecognition Pathway |APC | Target / MHC Interaction | Clinical Role & Timing |\n| :--- | :--- | :--- | :--- |\n| **Direct Pathway** |Passenger Leukocytes | Intact donor MHC I / II recognized by recipient CD8+ / CD4+ T-cells |TCMR |\n| **Indirect Pathway** | Recipient APCs | Processed donor HLA peptides presented on recipient MHC II | Drives late TCMR, chronic allograft injury, and de novo DSA generation |\n| **Semi-Direct Pathway** | Recipient APCs |exosomes | Facilitates CD4-CD8 cross-talk |\n\n### T-Cell Three-Signal Model & Immunosuppressive Targets\n\n1. **TCR / CD3 Antigen Recognition**:\n   - Recipient T-TCR binds peptide-MHC complex.\n   - Triggers intracellular intracellular calcium release, activating Calcineurin.\n   - Calcineurin dephosphorylates Nuclear Factor of Activated T-NFAT, allowing NFAT nuclear translocation and Interleukin-IL-2 transcription.\n   - **Pharmacologic Blockade**: Calcineurin Inhibitors (Tacrolimus, Cyclosporine). Corticosteroids also inhibit NF-kB and cytokine transcription.\n\n2. **Costimulation Pathway**:\n   - CD28 on T-cells engages B7-CD80 and B7-CD86 on APCs. Essential for T-cell proliferation and survival.\n   - **Coinhibitory Gate**: CTLA-4 binds B7 with higher affinity than CD28, transmitting off-signals.\n   - **Pharmacologic Blockade**:CTLA4-Ig fusion protein selectively blocks CD28-B7 costimulation.\n\n3. **Cytokine Proliferation Pathway**:\n   - IL-2 binds IL-CD25 / IL-2Ra,mTOR and driving cell cycle entry from G1 to S phase.\n   - **Pharmacologic Blockade**:anti-CD25 mAb, mTOR inhibitors (Sirolimus, Everolimus), and antimetabolites (Mycophenolate Mofetil / MMF, Azathioprine).\n\n### High-Yield Differential Comparison Table\n\n| Target Signal | Drug Class / Representative Agent | Key Mechanism of Action | Major Adverse Effects |\n| :--- | :--- | :--- | :--- |\n| **Signal 1** | Tacrolimus / Cyclosporine | Calcineurin inhibition -> blocks NFAT activation | Acute/Chronic Nephrotoxicity, New-NODAT, Tremor |\n| **Signal 2** | Belatacept | Recombinant CTLA4-Ig -> blocks CD28/B7 interaction | Post-PTLD in EBV-seronegative recipients |\n| **Signal 3** | Basiliximab / Sirolimus | Anti-induction /maintenance | Proteinuria, impaired wound healing, interstitial pneumonitis, hyperlipidemia |\n| **Nucleotide Synthesis** |MMF |IMPDH inhibition |leukopenia, Gastrointestinal distress, CMV reactivation |\n\n### Pathophysiological Decision Tree\n\n```\n[Donor Allograft Ingestion / Graft Vascular Anastomosis]\n        │\n        ├── Direct Presentation: Donor APCs ──> Recipient CD4+/CD8+ T-cell Activation ──> Early Acute TCMR\n        │\n        └── Indirect Presentation: Recipient APCs process Donor HLA ──> CD4+ T-cell & B-cell Help\n                │\n                ├──TCR/CD3 ──> Calcineurin ──> NFAT ──> IL-Blocked by Tacrolimus/Cyclosporine\n                ├──CD28/B7 ──>Blocked by Belatacept\n                └──IL-2/IL-2R ──> mTOR Pathway ──>Blocked by Basiliximab/Sirolimus\n                        │\n                        └── Germinal Center Activation ──> Plasmablasts ──> Donor-DSA ──> ABMR\n```\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> **Belatacept & PTLD Risk Warning**: Belatacept is strictly contraindicated in EBV-seronegative kidney transplant recipients due to a markedly increased risk of central nervous system PTLD.\n> \n> **Direct vs Indirect Pathway Shift**: Direct presentation decreases over time as donor passenger leukocytes die out. Indirect presentation persists indefinitely and is the primary driver of chronic active ABMR and transplant glomerulopathy.\n",
+      "diagrams": [
+        {
+          "id": "diag_sec1_1",
+          "imagePath": "/server-data/assets/ren_tx_imm_signal.png",
+          "relPath": "/server-data/assets/ren_tx_imm_signal.png",
+          "caption": "Figure 1.1: T-Cell Activation Signals (Signal 1, 2, 3) & Immunosuppressive Drug Target Sites in Renal Transplantation.",
+          "sourceBook": "Gemini Medical Concept Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag_sec1_2",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
+          "caption": "Figure 1.2: Brenner 11e Fig 69.2 / KDIGO Transplant: Cosignaling Interactions in T Cells (CD28/B7 Costimulation vs CTLA-4 Coinhibition).",
+          "sourceBook": "Brenner 11e Ch 69",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "title": "Section 2: Pre-Transplant Histocompatibility Testing & Crossmatching",
+      "content": "### Pre-Transplant Immunological Risk Assessment\n\n1. **cPRA**:\n   - Measures the percentage of deceased donors in a representative donor pool with whom the candidate's anti-HLA antibodies would react.\n   - High cPRA (> 20% or > 80%) indicates high sensitization, increased risk of positive crossmatch, prolonged waitlist time, and higher risk of early ABMR.\n\n2. **Crossmatch Testing Modalities**:\n   - **Complement-CDC Crossmatch**: Mixes recipient serum with donor lymphocytes plus rabbit complement. Cell lysis indicates presence of high-titer complement-binding anti-HLA antibodies.causes hyperacute rejection.\n   - **AHG-Enhanced CDC Crossmatch**: Adds secondary anti-human globulin to enhance sensitivity for lower-titer IgG antibodies.\n   - **FCXM**: Fluorescently-labeled anti-human IgG detects low-density donor-specific antibody binding to T-HLA Class I or B-cells (HLA Class I & II). Highly sensitive; positive FCXM correlates with increased risk of acute and subclinical ABMR.\n   - **VXM**: Compares high-SAB Luminex antibody profile to predict crossmatch results electronically.\n\n### High-Yield Differential Comparison Table\n\n| Testing Method | Target Analyte | Sensitivity | Clinical Outcome Correlation |\n| :--- | :--- | :--- | :--- |\n| **CDC Crossmatch** | High-titer complement-activating anti-HLA IgG/IgM | Standard / Low |Contraindication |\n| **AHG-CDC Crossmatch** | Moderate-titer anti-HLA IgG | Intermediate | Positive AHG-CDC predicts early accelerated ABMR |\n| **FCXM** | Low-titer donor-specific anti-HLA IgG (T & B cells) | High | Positive FCXM predicts acute ABMR & subclinical rejection |\n| **VXM** | Computerized HLA epitope & Luminex SAB profile | High | Enables rapid organ allocation and risk stratification |\n\n###SAB Assays & Technical Caveats\n\n> [!NOTE]\n> **Luminex SAB Analytical Caveats**:\n> - **MFI** is non-linear and semi-quantitative.\n> - **Prozone Effect**: High-titer complement-C1q or IgM can cause steric hindrance and produce falsely low MFI readings. Dilution of serum unmasks true antibody strength.\n> - **Shared Epitopes / Eplets**: Multiple beads sharing identical amino acid eplets can dilute antibody binding, underestimating MFI.\n\n### Pathophysiological Decision Tree\n\n```\n[Pre-Luminex SAB]\n        │\n        ├── High cPRA (> 80%) ──> High Sensitization Risk ──> Consider Desensitization / Paired Kidney Exchange\n        │\n        └── Donor Organ Offered ──>VXM & Physical Crossmatch\n                │\n                ├── CDC Crossmatch Positive ──> High-Titer DSA ──>Hyperacute Rejection Risk\n                ├──CDC Negative ──> Low-Titer DSA ──> Augment Immunosuppression / High Risk ABMR\n                └──VXM Negative ──> Standard Risk ──> Proceed to Kidney Transplantation\n```\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> **T-Cell vs B-Cell Crossmatch Binding**: T-cells express HLA Class I only. B-cells express BOTH HLA Class I and HLA Class II. A positive B-cell crossmatch with a negative T-cell crossmatch suggests donor-specific antibodies directed against HLA Class II (DR, DQ, DP).\n",
+      "diagrams": [
+        {
+          "id": "diag_sec2_1",
+          "imagePath": "/server-data/assets/ren_tx_crossmatch.png",
+          "relPath": "/server-data/assets/ren_tx_crossmatch.png",
+          "caption": "Figure 2.1: Pre-Transplant Crossmatch Methods (CDC, AHG-CDC, Flow Cytometry Crossmatch).",
+          "sourceBook": "Gemini Medical Concept Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag_sec2_2",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_1.png",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_1.png",
+          "caption": "Figure 2.2: KDIGO 2009 / Brenner 11e Table 69.4: Clinical Histocompatibility Testing & Risk Assessment Menu.",
+          "sourceBook": "Brenner 11e Ch 69",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "title": "Section 3: Acute T-Cell Mediated Rejection (TCMR) & Banff Grading",
+      "content": "### Clinical Presentation & Pathophysiology of TCMR\n\n- **Clinical Features**: Serum creatinine elevation, oliguria, graft tenderness, low-grade fever, hypertension, and fluid retention occurring typically > 5 days post-transplant.\n- **Biopsy Findings**: T-cell infiltration into cortical interstitium and tubular epithelium.\n- **Biomarker Status**: Peritubular capillary C4d staining is **negative**; circulating DSA is typically absent.\n\n### Banff Histopathological Scoring for TCMR\n\n1. **Interstitial Inflammation (`i`)**: Mononuclear cell infiltration in uninjured parenchyma (`i0` < 10%, `i1` 10-25%, `i2` 26-50%, `i3` > 50%).\n2. **Tubulitis (`t`)**: Mononuclear cell invasion into tubular basement membrane (`t0` 0, `t1` 1-4 lymphocytes/tubule, `t2` 5-10 lymphocytes/tubule, `t3` > 10 lymphocytes/tubule).\n3. **Intimal Arteritis / Endothelialitis (`v`)**: Lymphocytic infiltration beneath arterial endothelial cells (`v0` 0, `v1` mild intimal arteritis < 25% luminal occlusion, `v2` severe intimal arteritis > 25% luminal occlusion, `v3` transmural arteritis or fibrinoid necrosis).\n\n### Banff Diagnostic Categories for TCMR\n\n- **Borderline TCMR**: `i1` (10-25% inflammation) with `t1`, or `i2/i3` with `t1`, without arteritis (`v = 0`).\n- **Grade IA TCMR**: `i2` or `i3` (> 25% inflammation) with moderate tubulitis `t2` (> 5 mononuclear cells/tubule).\n- **Grade IB TCMR**: `i2` or `i3` with severe tubulitis `t3` (> 10 mononuclear cells/tubule).\n- **Grade IIA TCMR**: Mild to moderate intimal arteritis `v1`.\n- **Grade IIB TCMR**: Severe intimal arteritis `v2`.\n- **Grade III TCMR**: Transmural arteritis and/or arterial fibrinoid necrosis `v3`.\n\n### High-Yield Differential Comparison Table\n\n| Banff TCMR Grade | Histological Criteria | Primary Treatment Strategy | Expected Clinical Response |\n| :--- | :--- | :--- | :--- |\n| **Borderline / Grade IA** | `i1-i3`, `t1-t2`, `v0` | High-250-500 mg IV x 3 days | Excellent (> 90% resolution) |\n| **Grade IB** | `i2-i3`, `t3`, `v0` | High-dose Methylprednisolone pulse | Good response |\n| **Grade IIA / IIB** | Intimal arteritis (`v1` or `v2`) | Methylprednisolone pulse +ATG | Requires close monitoring |\n| **Grade III** | Transmural arteritis (`v3`) / necrosis |ATG + Methylprednisolone pulse | High risk of graft loss |\n| **Steroid-Resistant TCMR** | Persistent GFR decline post-steroid pulse | Lymphocyte-ATG / Thymoglobulin | Rescues allograft function |\n\n### Pathophysiological Decision Tree\n\n```\n[Elevated Creatinine > 5 Days Post-Transplant]\n        │\n        └── Renal Allograft Biopsy ──> Assess Banff Scores (i, t, v)\n                │\n                ├── Grade IA / IB (i2/i3, t2/t3, v0) ──>500mg IV x 3 days\n                │       │\n                │       ├──Creatinine Drops ──> Return to Maintenance Immunosuppression\n                │       └── Steroid Resistant ──>ATG Therapy\n                │\n                └── Grade II / III (v1, v2, v3 Intimal/Transmural Arteritis)\n                        │\n                        └──Thymoglobulin + Steroid Pulse + Adjust CNI Trough Levels\n```\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> **Arteritis (`v` Score) Significance**: The presence of even mild intimal arteritis (`v1`) elevates the diagnosis to Banff Grade II TCMR, automatically signaling a higher risk of treatment failure with steroids alone and requiring consideration of ATG therapy.\n",
+      "diagrams": [
+        {
+          "id": "diag_sec3_1",
+          "imagePath": "/server-data/assets/ren_tx_tcmr_path.png",
+          "relPath": "/server-data/assets/ren_tx_tcmr_path.png",
+          "caption": "Figure 3.1: Acute T-Cell Mediated Rejection (TCMR) Histopathological Features (Tubulitis, Interstitial Inflammation, Intimal Arteritis).",
+          "sourceBook": "Gemini Medical Concept Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag_sec3_2",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_2.png",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_2.png",
+          "caption": "Figure 3.2: Brenner 11e Table 70.8: Banff Histopathology Lesion Scores & Rejection Grading.",
+          "sourceBook": "Brenner 11e Ch 70",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "title": "Section 4: Active & Chronic Antibody-Mediated Rejection (ABMR)",
+      "content": "### Pathophysiology & Banff Diagnostic Triad for Active ABMR\n\nActive Antibody-ABMR requires all 3 criteria of the **Banff Diagnostic Triad**:\n1. **Histological Evidence of Acute Tissue Injury**: Microvascular inflammation (Glomerulitis `g > 0`, Peritubular Capillaritis `ptc > 0`), acute tubular necrosis, or acute microvascular thombi.\n2. **Evidence of Current / Recent Antibody Interaction with Endothelium**:\n   - Linear **C4d deposition** in peritubular capillaries (`c4d` >= 2 by IF, or `c4d` >= 1 by IHC).\n   - *OR* in C4d-negative cases: Moderate microvascular inflammation (`g + ptc >= 2`) or validated endothelial gene expression transcripts.\n3. **Serological Evidence of Circulating Donor-DSA**:SAB assay against donor HLA Class I, HLA Class II, or non-HLA antigens (e.g. anti-MICA, anti-AT1R).\n\n### Chronic Active ABMR & Histopathological Landmarks\n\n- **Transplant Glomerulopathy (`cg`)**: Duplication /GBM seen on silver stain or electron microscopy.\n- **Peritubular Capillary Basement Membrane Multilayering (`ptcbm`)**: Seen on electron microscopy.\n- **Fibrointimal Thickening of Arteries (`cv`)**: Severe vascular remodeling causing irreversible ischemia.\n\n### Multimodal Therapeutic Strategy for Active ABMR\n\n> [!IMPORTANT]\n> **Active ABMR Multimodal Combination Protocol**:\n> 1. **TPE / Plasmapheresis**:5-10 sessions.\n> 2. **IVIG**: High-1-2 g/kg post-TPE to neutralize residual antibodies, inhibit complement C3/C5, and downregulate Fc receptors.\n> 3. **Corticosteroids**: Methylprednisolone pulse therapy to suppress endothelial inflammation.\n> 4. **B-Cell & Plasma Cell Targeted Therapies**:\n>    - **Rituximab**anti-CD20 mAb: Depletes precursor B-cells in secondary lymphoid organs.\n>    - **Bortezomib**Proteasome Inhibitor: Induces apoptosis in long-lived plasma cells.\n>    - **Tocilizumab**anti-IL-6R mAb: Blocks IL-6 signaling for plasma cell survival.\n>    - **Eculizumab**anti-C5 mAb:C5b-C9 formation in severe complement-mediated TMA.\n\n### High-Yield Differential Comparison Table\n\n| Feature | Acute TCMR | Active ABMR |\n| :--- | :--- | :--- |\n| **Primary Target Tissue** | Tubular Epithelium (`t`) & Interstitium (`i`) | Vascular Endothelium (`g`, `ptc`, microvasculature) |\n| **Banff Microvascular Lesions** | `g = 0`, `ptc = 0` | Glomerulitis (`g > 0`) & Capillaritis (`ptc > 0`) |\n| **PTC** | **Negative** | **Positive**Linear deposition along peritubular capillaries |\n| **Serum DSA Status** | Usually Negative | **Positive**Donor-Specific Anti-HLA Antibodies |\n| **First-Line Treatment** | Methylprednisolone Pulse +/- ATG | **Plasmapheresis + IVIG + Pulse Steroids** +/- Rituximab |\n\n### Pathophysiological Decision Tree\n\n```\n[Circulating DSA Positive + Elevated Serum Creatinine]\n        │\n        └── Renal Biopsy:g +ptc + C4d Staining\n                │\n                └──Banff Category 2\n                        │\n                        ├── Step 1:TPE x 5-Remove DSA\n                        ├── Step 2: High-2 g/kg +Suppress Inflammation\n                        ├── Step 3:Anti-CD20Proteasome Inhibitor\n                        └── Refractory / Severe TMA ──>Terminal C5 Complement Blockade\n```\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> **Steroid-Alone Trap in ABMR**: Pulse corticosteroids alone are effective for TCMR, but completely inadequate for active ABMR. Pulse steroids cannot eliminate preformed circulating DSA or prevent complement-mediated endothelial destruction. Plasmapheresis and IVIG are mandatory.\n",
+      "diagrams": [
+        {
+          "id": "diag_sec4_1",
+          "imagePath": "/server-data/assets/ren_tx_abmr_c4d.png",
+          "relPath": "/server-data/assets/ren_tx_abmr_c4d.png",
+          "caption": "Figure 4.1: Antibody-Mediated Rejection (ABMR) Features: Linear C4d Deposition along Peritubular Capillaries & Microvascular Inflammation.",
+          "sourceBook": "Gemini Medical Concept Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag_sec4_2",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_3.png",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_3.png",
+          "caption": "Figure 4.2: Brenner 11e Table 70.7: Differences Between Pure Forms of Acute TCMR and Active ABMR.",
+          "sourceBook": "Brenner 11e Ch 70",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "title": "Section 5: Differential Diagnosis & Clinical Management Algorithms",
+      "content": "### Clinical Management of Allograft Dysfunction\n\nPost-elevated serum creatinine or oliguria requires systematic differentiation between:\n1. **Acute TCMR**: Tubulitis (`t`), interstitial inflammation (`i`), `C4d-`, `DSA-`. Treatment: Pulse steroids / ATG.\n2. **Active ABMR**: Glomerulitis (`g`), capillaritis (`ptc`), `C4d+`, `DSA+`. Treatment: Plasmapheresis + IVIG + steroids + Rituximab.\n3. **CNI Toxicity**:\n   - *Acute*: Reversible afferent arteriolar vasoconstriction due to high CNI trough level (Tacrolimus > 12-15 ng/mL). Biopsy shows **isometric tubular vacuolization**. Treatment: CNI dose reduction.\n   - *Chronic*: Irreversible **striped interstitial fibrosis** and **nodular arteriolar hyalinosis**. Treatment: CNI reduction or conversion to Belatacept/mTORi.\n4. **BKVN**:\n   - Polyomavirus reactivation causing tubulointerstitial nephritis. Biopsy shows intranuclear viral inclusions, positive **SV40 immunohistochemistry**. Blood BK PCR > 10,000 copies/mL.\n   - **Critical Treatment Paradox**: Requires **REDUCTION of immunosuppression** (discontinue MMF, lower CNI target). Increasing immunosuppression will destroy the graft!\n5. **DGF**:\n   - Defined as requirement for dialysis within the first 7 days post-transplant due to ischemia-reperfusion injury /ATN.\n   - Requires protocol renal biopsy at days 7-10 to rule out occult superimposed acute rejection.\n\n### High-Yield Differential Comparison Table\n\n| Diagnostic Entity | Primary Biopsy Landmark | C4d / Viral Marker | CNI Trough Level | Core Therapeutic Action |\n| :--- | :--- | :--- | :--- | :--- |\n| **Acute TCMR** | Tubulitis (`t`), Interstitial inflammation (`i`) | `C4d-`, `DSA-`, `SV40-` | Therapeutic / Subtherapeutic | **Methylprednisolone Pulse / ATG** |\n| **Active ABMR** | Glomerulitis (`g`), Capillaritis (`ptc`) | **`C4d+`**, **`DSA+`** | Therapeutic / Subtherapeutic | **Plasmapheresis + IVIG + Pulse Steroids** |\n| **CNI Toxicity** | Isometric tubular vacuolization, Striped fibrosis | `C4d-`, `DSA-`, `SV40-` | **Supratherapeutic** | **Reduce CNI Dose** |\n| **BK Virus Nephropathy** | Intranuclear inclusions, Interstitial nephritis | **`SV40 IHC Positive`** | Therapeutic / High | **Stop MMF** |\n\n### Pathophysiological Decision Tree\n\n```\n[Post-Elevated Creatinine]\n        │\n        ├── Step 1: Rule out prerenal hypovolemia, urinary leak/Ultrasound, & CNI Overdose\n        │\n        └── Step 2: Perform Urgent Renal Allograft Biopsy & Check Serum DSA + BK Viral Load\n                │\n                ├── Biopsy:t +i ──> Acute TCMR ──> Steroid Pulse / ATG\n                ├── Biopsy:g +ptc + C4d+ ──> Active ABMR ──> TPE + IVIG + Steroids\n                ├── Biopsy: SV40 Positive + High BK Viral Load ──> BKVN ──>Stop MMF\n                └── Biopsy: Isometric Vacuolization + High CNI Trough ──> CNI Toxicity ──> Reduce CNI Dose\n```\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> **BKVN vs Rejection Treatment Trap**: Misdiagnosing BK Virus Nephropathy as Acute TCMR and administering pulse steroids will cause explosive viral replication and rapid, irreversible graft destruction. Always check SV40 IHC staining on biopsy before pulsing steroids for tubulitis!\n",
+      "diagrams": [
+        {
+          "id": "diag_sec5_1",
+          "imagePath": "/server-data/assets/ren_tx_diff_dx.png",
+          "relPath": "/server-data/assets/ren_tx_diff_dx.png",
+          "caption": "Figure 5.1: Clinical Decision Tree for Post-Kidney Transplant Allograft Dysfunction (TCMR, ABMR, CNI Toxicity, BKVN).",
+          "sourceBook": "Gemini Medical Concept Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag_sec5_2",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_10.png",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_10.png",
+          "caption": "Figure 5.2: Brenner 11e Fig 70.4 / KDIGO Transplant: Management Algorithm for Persistent Delayed Graft Function & Allograft Dysfunction.",
+          "sourceBook": "Brenner 11e Ch 70",
+          "type": "micrograph"
+        }
+      ]
+    }
+  ]
+}

@@ -31,7 +31,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Anterior Nutcracker Syndrome 主要的解剖特徵為 Left Renal Vein 在穿過 Abdominal Aorta 前方與 Superior Mesenteric Artery (SMA) 後方形成的狹窄夾角時受到解剖壓迫。正常情況下 SMA-Aortic Angle 約為 45° 至 60°，當此夾角銳角化 (< 35°) 或距離過短 (< 4-5 mm) 時，即會引發 Left Renal Vein Entrapment。",
+      "sourceExplanation": "SMA 後方形成的狹窄夾角時受到解剖壓迫。正常情況下 SMA-Aortic Angle 約為 45° 至 60°，當此夾角銳角化 (< 35°) 或距離過短 (< 4-5 mm) 時，即會引發 Left Renal Vein Entrapment。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "nlmResponses": [
@@ -363,7 +363,7 @@
       "selectedOption": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Upright standing 或 Lumbar Extension Lumbar Lordosis，拉緊 Superior Mesenteric Artery (SMA)，進一步縮小 SMA-Aortic Angle，加重 Left Renal Vein 的壓迫；反之，Supine Position 或前傾姿勢可稍微減輕壓迫與症狀。",
+      "sourceExplanation": "Upright standing 或 Lumbar Extension Lumbar Lordosis，SMA，進一步縮小 SMA-Aortic Angle，加重 Left Renal Vein 的壓迫；反之，Supine Position 或前傾姿勢可稍微減輕壓迫與症狀。",
       "qcVerified": false,
       "qcStatus": "QC_DISPUTED",
       "nlmResponses": [
@@ -476,7 +476,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Doppler Ultrasound (DUS) 是非侵入性首選工具。Aortomesenteric Segment的 Peak Systolic Velocity (PV) Hilar SegmentPV ratio> 5.0（部分指引採用 > 4.0 至 > 4.9）時，表示存在高度顯著的血流加速與狹窄。",
+      "sourceExplanation": "DUS 是非侵入性首選工具。PV Hilar SegmentPV ratio> 5.0（部分指引採用 > 4.0 至 > 4.9）時，表示存在高度顯著的血流加速與狹窄。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "nlmResponses": [
@@ -590,7 +590,7 @@
       "selectedOption": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Invasive Retrograde Venography 與 Renocaval Pressure Measurement 是診斷的金標準。正常情況下 Left Renal Vein 與 Inferior Vena Cava (IVC) 之間的壓力差 < 1 mmHg。當 Renocaval Pressure Gradient >= 3 mmHg 時，代表存在具有臨床與血液動力學意義的靜脈高壓。",
+      "sourceExplanation": "Invasive Retrograde Venography 與 Renocaval Pressure Measurement 是診斷的金標準。IVC 之間的壓力差 < 1 mmHg。當 Renocaval Pressure Gradient >= 3 mmHg 時，代表存在具有臨床與血液動力學意義的靜脈高壓。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -651,7 +651,7 @@
       "selectedOption": "D",
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Superior Mesenteric Artery (SMA) Syndrome（又稱 Wilkie Syndrome）是指 SMA 與 Aorta 夾角過小壓迫第三段 Duodenum 造成腸阻塞。由於兩者皆導因於 SMA-Aortic Angle 銳角化與 Retroperitoneal Fat 減少，SMA Syndrome 常與 Nutcracker Syndrome 同時或相繼發生。",
+      "sourceExplanation": "SMA Syndrome（又稱 Wilkie Syndrome）是指 SMA 與 Aorta 夾角過小壓迫第三段 Duodenum 造成腸阻塞。由於兩者皆導因於 SMA-Aortic Angle 銳角化與 Retroperitoneal Fat 減少，SMA Syndrome 常與 Nutcracker Syndrome 同時或相繼發生。",
       "qcVerified": false,
       "qcStatus": "UNRESOLVED_DATABASE_GAP",
       "nlmResponses": [
@@ -766,7 +766,7 @@
       "selectedOption": "B",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "針對保守治療無效且症狀嚴重（嚴重痛楚、反覆重度Hematuria、Renal Function受損）的患者，外科首選手術為 Left Renal Vein Transposition。該手術切斷 Left Renal Vein，將其向下方移位並重新吻合至 Inferior Vena Cava (IVC)，擺脫 SMA 與 Aorta 的夾角壓迫。",
+      "sourceExplanation": "針對保守治療無效且症狀嚴重（嚴重痛楚、反覆重度Hematuria、Renal Function受損）的患者，外科首選手術為 Left Renal Vein Transposition。該手術切斷 Left Renal Vein，IVC，擺脫 SMA 與 Aorta 的夾角壓迫。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "nlmResponses": [
@@ -820,7 +820,7 @@
       "selectedOption": "C",
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Endovascular Stenting (EVTS) 是微創血管內治療選擇，但其重大併發症為 Stent Migration。由於 Left Renal Vein 口徑大且受動脈波幅影響，支架可能向內側滑脫至 Inferior Vena Cava Right Atrium，需要緊急手術移除。",
+      "sourceExplanation": "EVTS 是微創血管內治療選擇，但其重大併發症為 Stent Migration。由於 Left Renal Vein 口徑大且受動脈波幅影響，支架可能向內側滑脫至 Inferior Vena Cava Right Atrium，需要緊急手術移除。",
       "qcVerified": false,
       "qcStatus": "QC_DISPUTED",
       "nlmResponses": [

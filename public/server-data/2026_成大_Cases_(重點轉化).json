@@ -93,7 +93,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "文獻中詳細記載了 acute or chronic renal failure 合併 respiratory distress 與 hemoptysis 的經典 differential diagnosis，如由 autoantibodies 驅動的 anti-GBM disease (Goodpasture syndrome) 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
+      "sourceExplanation": "文獻中詳細記載了 acute or chronic renal failure 合併 respiratory distress 與 hemoptysis 的經典 differential diagnosis，如由 autoantibodies 驅動的 anti-Goodpasture syndrome 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -224,7 +224,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：對於懷疑 pleuroperitoneal communication 的患者，進行 Tc-99m peritoneal scintigraphy 能夠直接觀察到 radiotracer 穿過 diaphragm 游移至 pleural cavity，是確診的最佳檢查。在治療方面，除了保守策略（如暫停 peritoneal dialysis 並改用 hemodialysis 以期自發性癒合）之外，若無效則可透過 video-assisted thoracoscopic surgery (VATS) 進行 diaphragmatic defect 的直接修補或實施 pleurodesis。手術成功後，患者通常能在數週內恢復 peritoneal dialysis。",
+      "sourceExplanation": "本題解析：對於懷疑 pleuroperitoneal communication 的患者，進行 Tc-99m peritoneal scintigraphy 能夠直接觀察到 radiotracer 穿過 diaphragm 游移至 pleural cavity，是確診的最佳檢查。在治療方面，除了保守策略（如暫停 peritoneal dialysis 並改用 hemodialysis 以期自發性癒合）之外，若無效則可透過 video-VATS 進行 diaphragmatic defect 的直接修補或實施 pleurodesis。手術成功後，患者通常能在數週內恢復 peritoneal dialysis。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -292,7 +292,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：患者表現出 resistant hypertension、severe hypokalemia、metabolic alkalosis 以及 renal potassium wasting。血液檢查顯示 plasma aldosterone concentration (PAC) 升高且 plasma renin concentration (PRC) 受到抑制，這些都是 primary aldosteronism 的典型特徵。雖然 Liddle syndrome 也會出現 hypokalemia 和 hypertension，但其 aldosterone concentration 通常是低下的。Cushing syndrome 通常會伴隨 hypercortisolemia 及其他典型外觀變化。",
+      "sourceExplanation": "本題解析：患者表現出 resistant hypertension、severe hypokalemia、metabolic alkalosis 以及 renal potassium wasting。PACPRC 受到抑制，這些都是 primary aldosteronism 的典型特徵。雖然 Liddle syndrome 也會出現 hypokalemia 和 hypertension，但其 aldosterone concentration 通常是低下的。Cushing syndrome 通常會伴隨 hypercortisolemia 及其他典型外觀變化。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -360,7 +360,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：primary aldosteronism 的 diagnosis 分為三個階段：screening、confirmatory test 及 subtype classification。當 screening 發現高 aldosterone-to-renin ratio (ARR) 後，必須透過 dynamic confirmatory test（如 saline infusion test 或 captopril challenge test）來證明 plasma aldosterone concentration (PAC) 無法被正常抑制。一旦確診，對於考慮手術的患者，應進行 adrenal venous sampling (AVS) 以確定病變是否為 unilateral（如 aldosterone-producing adenoma (APA)）或 bilateral。",
+      "sourceExplanation": "本題解析：primary aldosteronism 的 diagnosis 分為三個階段：screening、confirmatory test 及 subtype classification。當 screening 發現高 aldosterone-to-ARR 後，必須透過 dynamic confirmatory test（如 saline infusion test 或 captopril challenge test）PAC 無法被正常抑制。一旦確診，對於考慮手術的患者，AVS 以確定病變是否為 unilateral（如 aldosterone-APA）或 bilateral。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -428,7 +428,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題解析：區分 primary aldosteronism 的 subtypes 至關重要，因為 unilateral lesions（如 aldosterone-producing adenoma (APA)）可透過 unilateral adrenalectomy 治癒，有效改善 hypertension 及 hypokalemia。相對而言，若為 bilateral adrenal hyperplasia 或不適合手術的患者，則首選以 mineralocorticoid receptor antagonists (MRAs) 進行 medical therapy。",
+      "sourceExplanation": "本題解析：區分 primary aldosteronism 的 subtypes 至關重要，因為 unilateral lesions（如 aldosterone-APA）可透過 unilateral adrenalectomy 治癒，有效改善 hypertension 及 hypokalemia。相對而言，若為 bilateral adrenal hyperplasia 或不適合手術的患者，MRAs 進行 medical therapy。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -496,7 +496,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "雖然提供的文獻包含 diabetic kidney disease、acute kidney injury (AKI) 與 hyperglycemia 驅動的 osmotic diuresis 機制，但缺乏此特定病例數據與選項內容。在 hyperosmolar hyperglycemic state 合併 rhabdomyolysis 時，極端 hyperosmolality 與 extracellular fluid volume depletion 易誘發 rhabdomyolysis，進展為 pigment nephropathy 或 ischemic acute tubular necrosis (ATN)。",
+      "sourceExplanation": "雖然提供的文獻包含 diabetic kidney disease、AKI 與 hyperglycemia 驅動的 osmotic diuresis 機制，但缺乏此特定病例數據與選項內容。在 hyperosmolar hyperglycemic state 合併 rhabdomyolysis 時，極端 hyperosmolality 與 extracellular fluid volume depletion 易誘發 rhabdomyolysis，ATN。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -557,7 +557,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "HHS 與 rhabdomyolysis 會產生嚴重協同效應誘發 AKI。HHS 造成 osmotic diuresis 與 extracellular fluid volume contraction，導致 renal hypoperfusion 與 acute tubular necrosis (ATN)。Rhabdomyolysis 釋放 myoglobin，在 hypoperfusion 下引發 heme pigment nephropathy。兩者疊加易誘發嚴重 hyperkalemia。治療首選 intravenous crystalloids 擴展，並需嚴密監控 fluid overload，忌用 potassium-containing IV fluids。",
+      "sourceExplanation": "HHS 與 rhabdomyolysis 會產生嚴重協同效應誘發 AKI。HHS 造成 osmotic diuresis 與 extracellular fluid volume contraction，ATN。Rhabdomyolysis 釋放 myoglobin，在 hypoperfusion 下引發 heme pigment nephropathy。兩者疊加易誘發嚴重 hyperkalemia。治療首選 intravenous crystalloids 擴展，並需嚴密監控 fluid overload，忌用 potassium-containing IV fluids。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -618,7 +618,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "本題考查 erythropoiesis-stimulating agent (ESA) 誘發之 pure red cell aplasia (PRCA) 的典型臨床表現。患者接受 subcutaneous injection ESA 兩年，隨後出現嚴重的 normocytic normochromic anemia 與極低的 reticulocytopenia。bone marrow biopsy 顯示 erythropoiesis 受抑制 (<5% erythroblasts) 但 leukocytes 與 thrombopoiesis 正常。此為 EPO-Induced PRCA 的經典表現，故 option (B) 正確。",
+      "sourceExplanation": "本題考查 erythropoiesis-ESAPRCA 的典型臨床表現。患者接受 subcutaneous injection ESA 兩年，隨後出現嚴重的 normocytic normochromic anemia 與極低的 reticulocytopenia。bone marrow biopsy 顯示 erythropoiesis 受抑制 (<5% erythroblasts) 但 leukocytes 與 thrombopoiesis 正常。此為 EPO-Induced PRCA 的經典表現，B 正確。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -783,7 +783,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "Tenofovir disoproxil fumarate (TDF) 可引發 renal Fanconi syndrome 與 Type 2 RTA。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等 active transport 停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。Pathological features 包含 acute tubular injury、megamitochondria 與 loss of cristae。",
+      "sourceExplanation": "TDF 可引發 renal Fanconi syndrome 與 Type 2 RTA。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等 active transport 停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。Pathological features 包含 acute tubular injury、megamitochondria 與 loss of cristae。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -978,7 +978,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "該名 86 歲男性患者呈現 nephrotic-range proteinuria 與 hematuria。Renal biopsy 的 electron microscopy 顯示 subendothelial electron-dense deposits 與 cellular interposition，且 immunofluorescence 呈現 IgG、C1q、IgM 與 C3 的 granular deposition，這是 membranoproliferative glomerulonephritis type I (MPGN type I) 的典型表現。其他 options 如 membranous nephropathy 會有 subepithelial deposits；IgA nephropathy 會有 mesangial IgA deposition。",
+      "sourceExplanation": "該名 86 歲男性患者呈現 nephrotic-range proteinuria 與 hematuria。Renal biopsy 的 electron microscopy 顯示 subendothelial electron-dense deposits 與 cellular interposition，且 immunofluorescence 呈現 IgG、C1q、IgM 與 C3 的 granular deposition，MPGN type I 的典型表現。其他 options 如 membranous nephropathy 會有 subepithelial deposits；IgA nephropathy 會有 mesangial IgA deposition。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1031,7 +1031,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "根據 KDIGO 2021 guidelines，針對合併 abnormal kidney function 的 idiopathic immune complex-mediated membranoproliferative glomerulonephritis (idiopathic ICGN) 患者，本題所提供的 options 中無完全正確的選項。在 standard clinical guidelines 下，除了給予 renin-angiotensin system inhibition 等 optimal supportive care 之外，首選的 first-line initial immunosuppressive therapy 應為 oral glucocorticoid monotherapy（具體為 oral prednisone or prednisolone，持續 12-16 weeks）。Option A 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為 routine recommendation，因為長期給予 alkylating agents 並未優於 steroid monotherapy，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動 combination therapy。Option B 錯誤，plasma exchange therapy 缺乏 randomized controlled trials 的 evidence of benefit，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。Option C 錯誤，high-dose intravenous pulse methylprednisolone 通常保留給呈 rapidly progressive glomerulonephritis (RPGN)、pathology 呈廣泛 crescentic glomerulonephritis 或伴有嚴重 extrarenal involvement 的患者。Option D 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20（例如 rituximab）的應用仍缺乏大型 prospective clinical trials 支持，並非初始推薦首選。",
+      "sourceExplanation": "根據 KDIGO 2021 guidelines，針對合併 abnormal kidney function 的 idiopathic immune complex-idiopathic ICGN 患者，本題所提供的 options 中無完全正確的選項。在 standard clinical guidelines 下，除了給予 renin-angiotensin system inhibition 等 optimal supportive care 之外，首選的 first-line initial immunosuppressive therapy 應為 oral glucocorticoid monotherapy（具體為 oral prednisone or prednisolone，持續 12-16 weeks）。Option A 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為 routine recommendation，因為長期給予 alkylating agents 並未優於 steroid monotherapy，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動 combination therapy。Option B 錯誤，plasma exchange therapy 缺乏 randomized controlled trials 的 evidence of benefit，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。Option C 錯誤，high-RPGN、pathology 呈廣泛 crescentic glomerulonephritis 或伴有嚴重 extrarenal involvement 的患者。Option D 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20（例如 rituximab）的應用仍缺乏大型 prospective clinical trials 支持，並非初始推薦首選。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1110,7 +1110,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "此患者長期接受 peritoneal dialysis (PD) 高達 19 年，並在嚴重的 peritonitis 後出現 recurrent adhesive ileus、abdominal imaging 顯示 dilated bowel loops 及 peri-bowel calcification，這些都是 encapsulating peritoneal sclerosis (EPS) 的典型特徵。EPS 是長期 PD 罕見但致命的 complication。",
+      "sourceExplanation": "PD 高達 19 年，並在嚴重的 peritonitis 後出現 recurrent adhesive ileus、abdominal imaging 顯示 dilated bowel loops 及 peri-bowel calcification，EPS 的典型特徵。EPS 是長期 PD 罕見但致命的 complication。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1239,7 +1239,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "對於處於 active inflammatory phase 且合併 severe malnutrition 與 bowel obstruction 的 encapsulating peritoneal sclerosis (EPS) 患者，首要的 medical management 包括透過 total parenteral nutrition (TPN) 進行 systemic nutritional support，並給予 tamoxifen 與 corticosteroids 以 inhibit active fibrinogenesis。Surgical enterolysis 應保留至 resolution of inflammation 後的 non-inflammatory ileus stage 進行。",
+      "sourceExplanation": "EPS 患者，TPN 進行 systemic nutritional support，並給予 tamoxifen 與 corticosteroids 以 inhibit active fibrinogenesis。Surgical enterolysis 應保留至 resolution of inflammation 後的 non-inflammatory ileus stage 進行。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [

@@ -1,0 +1,109 @@
+{
+  "id": "2026_Membranoproliferative_Glomerulonephritis_(主題備考)_tutorial",
+  "paperId": "2026_Membranoproliferative_Glomerulonephritis_(主題備考)",
+  "title": "2026 Membranoproliferative Glomerulonephritis (膜狀增殖性腎絲球腎炎) 機轉分類、C3G 與 Ig-mediated 鑑別、KDIGO 指引與臨床實戰",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "sections": [
+    {
+      "id": "sec_1",
+      "title": "Histopathologic Paradigm & IF Classification of MPGN Pattern of Injury",
+      "content": "MPGN 並非單一特異性疾病，Pattern of Injury。LM 下，典型表現為 Glomerular Lobular Accentuation、Mesangial Hypercellularity、GBMGBM Doubling or Tram-Track Appearance。此 Tram-Track 景象係由於 Mesangial Cytoplasm 延伸入 Subendothelial Space  並伴隨新 GBM 物質沉積所致。\n\n現代腎病理學 EM 切分之 Type I, Type II, Type III 機械分類，IF 為核心之機轉分類學：\n\n###Topology Mapping Matrix\n\n| Classification Category |IF Profile | Pathophysiologic Mechanism | Representative Etiologies |\n| :--- | :--- | :--- | :--- |\n| **Immune-Complex / Ig-Mediated MPGN** |IgG/IgA/IgM +C3/C4 co-deposition | Classical Complement Pathway activation via Antigen-Antibody complexes or Monoclonal Ig | Chronic Infections (HCV, HBV, Infective Endocarditis), Autoimmune (SLE, Cryoglobulinemia), Monoclonal Gammopathy (MGRS, PGNMID) |\n| **Complement-C3G** | C3 Dominant (C3 intensity $\\ge 2$ orders higher than Ig) |AP dysregulation / uncontrolled amplification | Autoantibodies (C3NeF, Anti-Factor H), Genetic mutations (CFH, CFI, CFHR1-5) |\n| **Dense Deposit Disease (DDD, former MPGN Type II)** | C3 Dominant with intramembranous osmiophilic ribbon-like deposits | Severe AP C3 convertase stabilization | C3NeF, Acquired Partial Lipodystrophy, Retinal Drusen |\n| **C3GN** | C3 Dominant with mesangial/subendothelial/subepithelial deposits | AP C3/C5 convertase dysregulation | C3NeF, C5NeF, Anti-Factor H, CFHR gene duplication |\n\n此 IF 分型架構直接決定臨床排查與標靶治療方向。若 IF 證實為 Ig 陽性，應立即著手排查 Infections, Autoimmune 及 Monoclonal Gammopathy；C3 Dominant，則代表替代補體途徑失調，需進行補體基因與自體抗體分析。",
+      "diagrams": [
+        {
+          "id": "diag_1_1",
+          "relPath": "/server-data/assets/Brenner_Fig_31_11.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_11.png",
+          "caption": "Algorithm for the histopathologic classification of MPGN by IF microscopy findings: Immune-complex MPGN (Ig + C3) vs C3 Glomerulopathy (C3 Dominant: DDD vs C3GN).",
+          "sourceBook": "Brenner 11e Ch 31",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_1_2",
+          "relPath": "/server-data/assets/Brenner_Fig_31_12.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_12.png",
+          "caption": "Light micrograph of a glomerular segment from a patient with MPGN demonstrating GBM doubling (tram-track appearance) and mesangial cytoplasm interposition.",
+          "sourceBook": "Brenner 11e Ch 31",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_1_3",
+          "relPath": "/server-data/assets/mpgn_classification_pathway.jpg",
+          "imagePath": "/server-data/assets/mpgn_classification_pathway.jpg",
+          "caption": "Immunofluorescence-driven diagnostic classification pathway of MPGN pattern of injury into Immune-complex MPGN vs C3 Glomerulopathy.",
+          "sourceBook": "Gemini Mechanism Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "title": "Immunoglobulin-Mediated MPGN: Etiologies, Pathogenesis & Workup",
+      "content": "Immunoglobulin-Classical Complement Pathway 激活。循環中或局部形成之 Immune Complexes 沉積於 Subendothelial Space 與 Mesangium，吸引 C1q 結合，啟動 C4 及 C2 切割，C4b2a，進而大量消耗 C3 與 C4。因此血清學特徵為 **Low C3 + Low C4**。\n\n###High-Yield Differential Comparison Table\n\n| Etiologic Subtype | Primary Triggers | Serologic & Laboratory Markers | Characteristic Renal Biopsy Findings |\n| :--- | :--- | :--- | :--- |\n| **Hepatitis C-Associated MPGN** | HCV RNA infection, Type II Mixed Cryoglobulinemia | HCV RNA(+), Low C4,RF(+), IgM kappa cryoglobulins | Subendothelial deposits, Cryoglobulin plugs in capillary lumens, MPGN pattern |\n| **Class IV** |SLE | Anti-dsDNA(+), ANA(+), Low C3 & C4 | Full-house IF (IgG, IgA, IgM, C3, C1q), Subendothelial wire-loop lesions |\n| **Infective Endocarditis & Shunt Nephritis** | Staphylococcal / Streptococcal bacteremia, Ventriculovascular shunts | High ASO, positive blood cultures, Low C3 & C4 | Acute exudative MPGN pattern, Subendothelial deposits |\n| **MGRS / PGNMID** | Monoclonal Plasma cell / B-cell clone | Serum/Urine SPEP/IFE, sFLR ratio abnormal | Light-typically IgG3 kappa in mesangium and subendothelial space |\n\n###Conceptual Trap Analysis\n- **Trap 1**: 勿將 HCV 引起的 Mixed Cryoglobulinemia 誤判為純 C3G！Cryoglobulinemia 會大量消耗 C4，造成極低的 C4 與低/正常 C3；C4 Normal。\n- **Trap 2**: 於年長者 (Age > 50) 發現原因不明之 Ig-mediated MPGN 時，即使 SPEP/UPEP 呈陰性，MGRSPGNMID，需進一步執行 Bone Marrow Biopsy 與 IF Light Chain Staining。",
+      "diagrams": [
+        {
+          "id": "diag_2_1",
+          "relPath": "/server-data/assets/Brenner_Fig_31_13.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_13.png",
+          "caption": "Diagram depicting ultrastructural features of Type I MPGN: Subendothelial dense deposits, mesangial cytoplasm interposition, and new basement membrane production.",
+          "sourceBook": "Brenner 11e Ch 31",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_2_2",
+          "relPath": "/server-data/assets/ig_mediated_mpgn_cascade.jpg",
+          "imagePath": "/server-data/assets/ig_mediated_mpgn_cascade.jpg",
+          "caption": "Pathophysiology and etiologies of Immunoglobulin-Mediated MPGN: Classical complement pathway activation leading to low serum C3 and C4.",
+          "sourceBook": "Gemini Mechanism Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "title": "Complement-Mediated Glomerulopathy (C3G: C3GN & Dense Deposit Disease)",
+      "content": "C3G 為替代補體途徑 (Alternative Complement Pathway, AP) 液相與表面調節失衡所致之嚴重的補體過度激活疾病。Tick-over process，CFHCFI 等 Complement Regulatory Proteins 嚴格抑制。當調節功能崩解，C3bBb 被持續激活並放大，大量消耗血清 C3，而 C4 消耗微乎其微，故典型血清學為 **Low C3 + Normal C4**。\n\n###Pathophysiological Decision Tree\n\n```\nAlternative Complement Pathway Dysregulation\n ├── Acquired Autoantibodies\n │    ├──C3NeF: IgG autoantibody binding to C3bBb convertase → Prevents Factor H-mediated decay → Continuous C3 cleavage\n │    ├── Anti-Factor H Autoantibodies: Inhibits regulatory function of Factor H\n │    └── Anti-Factor B / Anti-C3b Autoantibodies\n └── Genetic Aberrations\n      ├── Loss-of-function mutations in CFH, CFI,MCP\n      ├── Gain-of-function mutations in C3, CFB\n      └── Genomic rearrangements in CFHR1-5 gene cluster\n```\n\n### DDD vs C3GN 亞型對比\n\n1. **Dense Deposit Disease (DDD, 舊稱 Type II MPGN)**:\n   - **EM 特徵**: 於 GBM 之 Lamina Densa 內部呈現極度緻密、連續性、Ribbon-like 之 Osmiophilic Dense Deposits。\n   - **全身性表現**: 常伴隨 **Acquired Partial Lipodystrophy** (上半身皮下脂肪萎縮，與 C3NeF 促進脂肪細胞 C3 切割有關) 及 **Retinal Drusen** (視網膜黃斑部沉積物，易引起視力受損)。\n2. **C3GN**:\n   - **EM 特徵**:Non-ribbon-like，顆粒狀分佈於 Mesangium、Subendothelium 及 Subepithelium。\n   - **補體標靶**: 多數伴隨 C5 Convertase 激活與 C5NeF 陽性。",
+      "diagrams": [
+        {
+          "id": "diag_3_1",
+          "relPath": "/server-data/assets/Brenner_Fig_31_14.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_14.png",
+          "caption": "Electron micrograph of Dense Deposit Disease (DDD) showing continuous ribbon-like osmiophilic deposits within the lamina densa of the GBM.",
+          "sourceBook": "Brenner 11e Ch 31",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_3_2",
+          "relPath": "/server-data/assets/c3g_alternative_pathway_tree.jpg",
+          "imagePath": "/server-data/assets/c3g_alternative_pathway_tree.jpg",
+          "caption": "Alternative Complement Pathway dysregulation in C3G: C3NeF autoantibody mechanism, DDD vs C3GN EM differences, and retinal drusen / partial lipodystrophy.",
+          "sourceBook": "Gemini Mechanism Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "title": "KDIGO 2021 Guidelines & Targeted Therapeutic Strategies",
+      "content": "KDIGO 2021 Glomerular Diseases Guidelines 針對 MPGN 與 C3G 之處置強調以 **Etiology-Targeted Therapy** 為核心：\n\n### KDIGO 處置指引決策流程\n\n1. **General Supportive Care **:\n   - 嚴格控制血壓 (Systolic BP $< 120$ mmHg via standardized measurement)。\n   -ACEi / ARB 滴定至最大可耐受劑量，搭配 SGLT2 Inhibitors 控制尿蛋白。\n   - 限制飲食鈉鹽 ($< 2.0$ g/day) 與低脂控制。\n\n2. **Immunoglobulin-Mediated MPGN 標靶處置**:\n   - **HCV-Associated MPGN**: 首選 Direct-DAAs 根除病毒。若伴隨嚴重 Cryoglobulinemic Vasculitis 或 Nephrotic Syndrome，Plasma Exchange。\n   - **MGRS-Associated MPGN**: 應由跨科別團隊進行 Clone-Directed Therapy (例如 Bortezomib, Cyclophosphamide, Rituximab 或 Daratumumab)，清除致病性單株 B 淋巴球/漿細胞 clone。\n   - **Idiopathic Ig-MPGN**: 僅在伴有 Nephrotic Syndrome 且腎功能持續惡化時，MMF。\n\n3. **C3G 標靶處置**:\n   - **中重度疾病 (Proteinuria $> 1.0$ g/day despite supportive care or eGFR decline)**:MMF 作為第一線免疫抑制治療。\n   - **頑固性或重症患者**: 考慮使用末端補體抑制劑 **Eculizumab**Anti-C5 monoclonal antibody；新一代補體標靶藥物包括 **Pegcetacoplan**C3/C3b Inhibitor 與 **Iptacopan**Oral Factor B Inhibitor 已在臨床試驗展現顯著療效。\n   - **Kidney Transplantation 考量**: C3G 與 DDD 於腎移植後之復發率高達 $50\\% - 80\\%$。移植前應完整完成補體基因組與自體抗體掃描。",
+      "diagrams": [
+        {
+          "id": "diag_4_1",
+          "relPath": "/server-data/assets/KDIGO_Glomerular_2021_Fig_1.png",
+          "imagePath": "/server-data/assets/KDIGO_Glomerular_2021_Fig_1.png",
+          "caption": "KDIGO 2021 Clinical practice guidelines general treatment algorithm for glomerular diseases and complement-mediated GN.",
+          "sourceBook": "KDIGO 2021 Guidelines",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_4_2",
+          "relPath": "/server-data/assets/mpgn_kdigo_therapeutic_targets.jpg",
+          "imagePath": "/server-data/assets/mpgn_kdigo_therapeutic_targets.jpg",
+          "caption": "KDIGO 2021 therapeutic algorithms for Immune-complex MPGN and C3 Glomerulopathy (C3G): Direct-Acting Antivirals, Clone-Directed Therapy, MMF, and Complement Inhibitors.",
+          "sourceBook": "Gemini Mechanism Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

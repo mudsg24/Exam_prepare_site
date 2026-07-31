@@ -5,7 +5,7 @@
   "sections": [
     {
       "title": "Section 1: Molecular Pathophysiology & Etiology of Central and Nephrogenic Diabetes Insipidus",
-      "content": "Deep dive into Arginine Vasopressin (AVP) synthesis in magnocellular neurons of Supraoptic (SON) and Paraventricular (PVN) nuclei, transport via Neurophysin II, release from Posterior Pituitary, V2 Receptor (V2R) Gs-protein-cAMP-PKA cascade, Aquaporin-2 (AQP2) apical membrane translocation. Autosomal dominant/recessive genetic mutations (AVPR2 X-linked, AQP2), drug-induced NDI (Lithium inhibiting GSK3b/cAMP, Demeclocycline, Cisplatin), electrolyte derangements (Hypercalcemia downregulating AQP2/calcium-sensing receptor activation, Hypokalemia impairing urine concentrating ability).",
+      "content": "AVPSONPVN nuclei, transport via Neurophysin II, release from Posterior Pituitary,V2R Gs-protein-cAMP-PKA cascade, Aquaporin-AQP2 apical membrane translocation. Autosomal dominant/recessive genetic mutations (AVPR2 X-linked, AQP2), drug-induced NDI (Lithium inhibiting GSK3b/cAMP, Demeclocycline, Cisplatin), electrolyte derangements (Hypercalcemia downregulating AQP2/calcium-sensing receptor activation, Hypokalemia impairing urine concentrating ability).",
       "images": [
         {
           "id": "brenner_fig_15_12",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Section 2: Diagnostic Workup: Water Deprivation Test, DDAVP Challenge, and Copeptin Assay",
-      "content": "Comprehensive protocol for Water Deprivation Test. Endpoint criteria: Body weight loss >= 3%, Plasma Osmolality > 300 mOsm/kg H2O, Serum Na > 145 mEq/L, or Urine Osmolality plateau (<10% change). Post-DDAVP (5 U AVP or 1 mcg DDAVP) response: Uosm increase > 50% = Central DI; Uosm increase < 10% = Nephrogenic DI or Primary Polydipsia. Differentiation using Plasma Copeptin (stable C-terminal cleavage product of prepro-AVP): Baseline Copeptin without water deprivation > 21.4 pmol/L unequivocally indicates Nephrogenic DI. Stimulated Copeptin < 4.9 pmol/L after hypertonic saline infusion supports Central DI vs Primary Polydipsia (> 4.9 pmol/L).",
+      "content": "Comprehensive protocol for Water Deprivation Test. Endpoint criteria: Body weight loss >= 3%, Plasma Osmolality > 300 mOsm/kg H2O, Serum Na > 145 mEq/L, or Urine Osmolality plateau (<10% change). Post-5 U AVP or 1 mcg DDAVP response: Uosm increase > 50% = Central DI; Uosm increase < 10% = Nephrogenic DI or Primary Polydipsia.stable C-terminal cleavage product of prepro-AVP: Baseline Copeptin without water deprivation > 21.4 pmol/L unequivocally indicates Nephrogenic DI. Stimulated Copeptin < 4.9 pmol/L after hypertonic saline infusion supports Central DI vs Primary Polydipsia (> 4.9 pmol/L).",
       "images": [
         {
           "id": "brenner_fig_15_13",
@@ -93,7 +93,7 @@
     },
     {
       "title": "Section 3: Differential Diagnosis & Clinical Comparison of Hypotonic Polyuric States",
-      "content": "Systemic comparison of Central DI, Nephrogenic DI, Primary Polydipsia, and Gestational Diabetes Insipidus. Primary Polydipsia features intact AVP secretion and renal response, but chronically washed-out medullary concentration gradient leading to blunted post-DDAVP response (10-50%). Gestational DI is caused by increased placental production of Vasopressinase (Oxytocinase), which rapidly degrades circulating endogenous AVP; Desmopressin (DDAVP) is resistant to vasopressinase cleavage and is the drug of choice. Pituitary MRI findings: absence of normal Posterior Pituitary Bright Spot on T1-weighted MRI indicates Central DI or Infundibuloneurohypophysitis.",
+      "content": "Systemic comparison of Central DI, Nephrogenic DI, Primary Polydipsia, and Gestational Diabetes Insipidus. Primary Polydipsia features intact AVP secretion and renal response, but chronically washed-out medullary concentration gradient leading to blunted post-DDAVP response (10-50%).Oxytocinase, which rapidly degrades circulating endogenous AVP;DDAVP is resistant to vasopressinase cleavage and is the drug of choice. Pituitary MRI findings: absence of normal Posterior Pituitary Bright Spot on T1-weighted MRI indicates Central DI or Infundibuloneurohypophysitis.",
       "images": [
         {
           "id": "brenner_box_15_1",
@@ -137,7 +137,7 @@
     },
     {
       "title": "Section 4: Therapeutic Strategies & Clinical Management Pathways",
-      "content": "Comprehensive therapeutic management. Central DI: Desmopressin (DDAVP) via intranasal spray, oral tablets, or subcutaneous injection. Nephrogenic DI: Treatment of underlying cause (e.g. discontinue Lithium if possible). Pharmacological therapy for Lithium-induced NDI: Amiloride (blocks ENaC, preventing Lithium entry into principal cells) combined with Thiazides (Hydrochlorothiazide, causing mild ECF volume contraction to enhance proximal tubule Sodium and Water reabsorption, decreasing distal fluid delivery) and Indomethacin/NSAIDs (inhibiting renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation). Gestational DI: DDAVP administration. Free water deficit calculation and cautious hypernatremia correction rate (< 10-12 mEq/L/24h) to avoid cerebral edema.",
+      "content": "Comprehensive therapeutic management. Central DI:DDAVP via intranasal spray, oral tablets, or subcutaneous injection. Nephrogenic DI: Treatment of underlying cause (e.g. discontinue Lithium if possible). Pharmacological therapy for Lithium-induced NDI: Amiloride (blocks ENaC, preventing Lithium entry into principal cells) combined with Thiazides (Hydrochlorothiazide, causing mild ECF volume contraction to enhance proximal tubule Sodium and Water reabsorption, decreasing distal fluid delivery) and Indomethacin/NSAIDs (inhibiting renal Prostaglandin E2 synthesis, which normally antagonizes AVP-mediated cAMP generation). Gestational DI: DDAVP administration. Free water deficit calculation and cautious hypernatremia correction rate (< 10-12 mEq/L/24h) to avoid cerebral edema.",
       "images": [
         {
           "id": "brenner_box_15_3",

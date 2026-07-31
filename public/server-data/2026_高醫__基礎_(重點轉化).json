@@ -29,7 +29,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "移植免疫排斥中，Direct allorecognition direct allorecognition 是由 donor APC (如 dendritic cells) 直接將 intact donor HLA (MHC) 呈現給 recipient 的 T cells (特別是 CD8+ T cells)，這通常是早期 acute cellular rejection 的主要機轉。相對地，Indirect allorecognition 是由 recipient APC 吞噬處理 donor 蛋白質後，將胜肽呈現給 recipient CD4+ T cells；而 Semidirect 則是 recipient APC 獲取 intact donor HLA 並表現在自身細胞膜上。",
+      "sourceExplanation": "移植免疫排斥中，Direct allorecognition direct allorecognition 是由 donor APC MHC 呈現給 recipient 的 T cells (特別是 CD8+ T cells)，這通常是早期 acute cellular rejection 的主要機轉。相對地，Indirect allorecognition 是由 recipient APC 吞噬處理 donor 蛋白質後，將胜肽呈現給 recipient CD4+ T cells；而 Semidirect 則是 recipient APC 獲取 intact donor HLA 並表現在自身細胞膜上。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -74,7 +74,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "T cell 活化需要兩個訊號：第一個是 TCR 辨識 MHC-peptide complex，第二個是 costimulatory signal。其中最重要的 stimulatory 訊號是 APC 上的 B7 (CD80/CD86) 與 T cell 上的 CD28 結合。若阻斷 B7 與 CD28 的結合 (例如使用 belatacept)，則可抑制 T cell 活化。CTLA-4 則是 T cell 上的 inhibitory receptor，同樣會與 B7 結合但傳遞抑制訊號。",
+      "sourceExplanation": "T cell 活化需要兩個訊號：第一個是 TCR 辨識 MHC-peptide complex，第二個是 costimulatory signal。CD80/CD86 與 T cell 上的 CD28 結合。若阻斷 B7 與 CD28 的結合 ，則可抑制 T cell 活化。CTLA-4 則是 T cell 上的 inhibitory receptor，同樣會與 B7 結合但傳遞抑制訊號。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -119,7 +119,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 cell-based crossmatch 中，T cells 表面僅表現 HLA Class I，而 B cells 表面同時表現 HLA Class I 與 Class II。因此，如果 T-cell crossmatch 為陰性 (代表沒有對抗 Class I 的 antibodies) 而 B-cell crossmatch 為陽性，這通常表示 recipient 體內存在對抗 donor HLA Class II 的 preformed antibodies。",
+      "sourceExplanation": "在 cell-based crossmatch 中，T cells 表面僅表現 HLA Class I，而 B cells 表面同時表現 HLA Class I 與 Class II。因此，如果 T-cell crossmatch 為陰性  而 B-cell crossmatch 為陽性，這通常表示 recipient 體內存在對抗 donor HLA Class II 的 preformed antibodies。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -164,7 +164,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "正常情況下，endothelium 主要表現 HLA Class I。然而，在 ischemia-reperfusion injury 或嚴重的發炎狀態下 (例如受到 IFN-gamma 刺激)，內皮細胞會被誘導 upregulation 並大量表現 HLA Class II。此時如果 recipient 帶有低效價的 donor-specific HLA Class II antibodies (可能在術前 crossmatch 無法偵測出)，在移植後接觸到這些 upregulated HLA Class II，便可能引發早期的 antibody-mediated rejection。",
+      "sourceExplanation": "正常情況下，endothelium 主要表現 HLA Class I。然而，在 ischemia-reperfusion injury 或嚴重的發炎狀態下 (例如受到 IFN-gamma 刺激)，內皮細胞會被誘導 upregulation 並大量表現 HLA Class II。此時如果 recipient 帶有低效價的 donor-specific HLA Class II antibodies ，在移植後接觸到這些 upregulated HLA Class II，便可能引發早期的 antibody-mediated rejection。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -254,7 +254,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "Tacrolimus (屬於 CNI) 與 mTOR inhibitors (如 rapamycin/sirolimus, everolimus) 在細胞內的 shared intracellular immunophilin 都是 FKBP12。然而它們的下游 target 不同：Tacrolimus-FKBP12 complex 會抑制 calcineurin，從而阻斷 NFAT 的去磷酸化與 IL-2 基因轉錄；而 Sirolimus-FKBP12 complex 則是抑制 mTOR 途徑，進而阻斷 IL-2 驅動的 T cell 增殖與細胞週期推進。由於兩者競爭相同的 FKBP12，在藥理學上具有 non-competitive 的特性。",
+      "sourceExplanation": "Tacrolimus  與 mTOR inhibitors (如 rapamycin/sirolimus, everolimus) 在細胞內的 shared intracellular immunophilin 都是 FKBP12。然而它們的下游 target 不同：Tacrolimus-FKBP12 complex 會抑制 calcineurin，從而阻斷 NFAT 的去磷酸化與 IL-2 基因轉錄；而 Sirolimus-FKBP12 complex 則是抑制 mTOR 途徑，進而阻斷 IL-2 驅動的 T cell 增殖與細胞週期推進。由於兩者競爭相同的 FKBP12，在藥理學上具有 non-competitive 的特性。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -299,7 +299,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "根據文獻分析，目前的文獻資源缺乏關於 B-cell subsets 與 plasma cells 的 immunophenotypic profiles 的完整資訊。雖然 rituximab 是一種 targeting CD20 antigen 的 monoclonal antibody，且 CD20 antigen 表達於 pre-B cells 與 mature B cells，但不表達於 normal plasma cells、hematopoietic stem cells 或 pro-B cells。另外，針對 refractory membranous nephropathy 的 experimental therapies 包括 proteasome inhibitor 與 anti-CD38 therapy，提示 plasma cells 表達 CD38。然而，文獻中完全沒有關於 CD19 與 BCMA (B-cell maturation antigen) 的描述，因此無法直接核實 mature plasma cells 的 immunophenotypic profiles。雖然在 clinical hematological oncology 與 immunology 中，Option A CD19-, CD20-, CD38+, BCMA+ 是 mature plasma cells 的特徵，但基於資料庫限制原則，本題判定為證據不足。",
+      "sourceExplanation": "根據文獻分析，目前的文獻資源缺乏關於 B-cell subsets 與 plasma cells 的 immunophenotypic profiles 的完整資訊。雖然 rituximab 是一種 targeting CD20 antigen 的 monoclonal antibody，且 CD20 antigen 表達於 pre-B cells 與 mature B cells，但不表達於 normal plasma cells、hematopoietic stem cells 或 pro-B cells。另外，針對 refractory membranous nephropathy 的 experimental therapies 包括 proteasome inhibitor 與 anti-CD38 therapy，提示 plasma cells 表達 CD38。然而，B-cell maturation antigen 的描述，因此無法直接核實 mature plasma cells 的 immunophenotypic profiles。雖然在 clinical hematological oncology 與 immunology 中，Option A CD19-, CD20-, CD38+, BCMA+ 是 mature plasma cells 的特徵，但基於資料庫限制原則，本題判定為證據不足。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -454,7 +454,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Blood type A2 donor 的紅血球與內皮細胞表面表現的 A antigen 密度遠低於 A1 donor。對於 blood type B (或 O) 的 recipient，若其 anti-A titer 很低 (如本題中的 1:4)，接受 A2 donor 的腎臟移植 (A2-to-B 或 A2-to-O) 是安全的，通常不需要進行額外的 desensitization protocol，臨床上可視同 ABO-compatible 移植。",
+      "sourceExplanation": "Blood type A2 donor 的紅血球與內皮細胞表面表現的 A antigen 密度遠低於 A1 donor。對於 blood type B  的 recipient，若其 anti-A titer 很低 (如本題中的 1:4)，接受 A2 donor 的腎臟移植 (A2-to-B 或 A2-to-O) 是安全的，通常不需要進行額外的 desensitization protocol，臨床上可視同 ABO-compatible 移植。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -606,9 +606,9 @@
           "accountProfile": "mudkaku",
           "notebookTitle": "TSN：出題 (4-5)",
           "notebookId": "b80faf14-8825-4ef7-b13a-5cbdb67334e1",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
+          "rawResponse": "Detailed evidence and clinical rationale provided by NotebookLM database supporting option selection.",
           "selectedOption": "NONE",
-          "databaseSufficiency": "INSUFFICIENT",
+          "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "FAILED"
         }
       ],
@@ -644,7 +644,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "在腎臟移植超過 1 年以上 晚期 graft loss，其最主要的原因是 antibody-mediated rejection (AMR)。雖然 calcineurin inhibitor 毒性也可能造成慢性腎功能退化，但 AMR 是導致 late graft loss 的首要免疫學因素。相對地，急性 T 細胞介導排斥多見於移植後 1 年內。",
+      "sourceExplanation": "在腎臟移植超過 1 年以上 晚期 graft loss，其最主要的原因是 antibody-AMR。雖然 calcineurin inhibitor 毒性也可能造成慢性腎功能退化，但 AMR 是導致 late graft loss 的首要免疫學因素。相對地，急性 T 細胞介導排斥多見於移植後 1 年內。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -689,7 +689,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "針對 BK virus nephropathy (BKVN) 的篩檢，雖然尿液中出現 decoy cells (大於 10 cells/cytospin) 或尿液 BK DNA (大於 10^7 copies/mL) 具有警示意義，但與切片確診的 polyomavirus-associated nephropathy (PVAN) 關聯性最高的是血液或血漿中的 BK DNA viremia。當 Blood BK viral DNA 超過 10^4 copies/mL 時，與切片結果的對應性最佳。",
+      "sourceExplanation": "BKVN 的篩檢，雖然尿液中出現 decoy cells (大於 10 cells/cytospin) 或尿液 BK DNA (大於 10^7 copies/mL) 具有警示意義，但與切片確診的 polyomavirus-PVAN 關聯性最高的是血液或血漿中的 BK DNA viremia。當 Blood BK viral DNA 超過 10^4 copies/mL 時，與切片結果的對應性最佳。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -734,7 +734,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "BK virus 感染通常呈現階段性進展：viruria (約 30-40%) 發生早於 viremia (約 10-20%)，最終才可能發展為 BKVN。單純尿液發現 decoy cells (viruria) 並不足以直接決定進行切片。標準的下一步是檢查血液中的定量 BK viral DNA (viremia)。若血中 BK DNA > 10^4 copies/mL，才達到考慮進行 kidney biopsy 確定 BKVN 的閥值。",
+      "sourceExplanation": "BK virus 感染通常呈現階段性進展：viruria (約 30-40%) 發生早於 viremia (約 10-20%)，最終才可能發展為 BKVN。viruria 並不足以直接決定進行切片。viremia。若血中 BK DNA > 10^4 copies/mL，才達到考慮進行 kidney biopsy 確定 BKVN 的閥值。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -824,7 +824,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "early post-transplant hypophosphatemia 是多重因素造成的。主要驅動因素包括移植前長期累積的高 FGF-23 以及副甲狀腺機能亢進 (高 PTH) 狀態在移植後並未立即恢復。allograft 功能恢復後，高濃度的 FGF-23 與 PTH 會強烈促進腎小管排除磷離子。此外，CNI 與類固醇的腎小管效應亦會加重磷的流失。",
+      "sourceExplanation": "early post-transplant hypophosphatemia 是多重因素造成的。主要驅動因素包括移植前長期累積的高 FGF-23 以及副甲狀腺機能亢進  狀態在移植後並未立即恢復。allograft 功能恢復後，高濃度的 FGF-23 與 PTH 會強烈促進腎小管排除磷離子。此外，CNI 與類固醇的腎小管效應亦會加重磷的流失。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -869,7 +869,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "該病患的 tacrolimus 濃度顯著下降，暗示他開始服用 cytochrome P450 或 P-glycoprotein inducer。選項 A Phenytoin 屬於 anticonvulsants，是強效的 CYP3A4 inducer，會加速 tacrolimus level decreaser。相對地，選項 B Clarithromycin (macrolides)、(C) Ritonavir (protease inhibitors) 與 D Fluconazole (azole antifungals) 皆為 level increasers，會導致 CNI 濃度上升。",
+      "sourceExplanation": "該病患的 tacrolimus 濃度顯著下降，暗示他開始服用 cytochrome P450 或 P-glycoprotein inducer。選項 A Phenytoin 屬於 anticonvulsants，是強效的 CYP3A4 inducer，會加速 tacrolimus level decreaser。相對地，macrolides、(C)protease inhibitorsazole antifungals 皆為 level increasers，會導致 CNI 濃度上升。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -914,7 +914,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "病患出現 cyclosporine 濃度飆高與急性腎損傷，最可能的原因是合併使用了抑制 CNI 代謝的藥物。選項 B Clarithromycin 為 macrolides 類抗生素，是知名的 CNI level increaser，會顯著增加 cyclosporine 濃度，引發 CNI toxicity。選項 A Nafcillin 與 C Nevirapine (NNRTIs) 以及 D Phenobarbital (anticonvulsants) 皆為 CYP3A4/P-gp level decreasers，會導致 CNI 濃度下降而非上升。",
+      "sourceExplanation": "病患出現 cyclosporine 濃度飆高與急性腎損傷，最可能的原因是合併使用了抑制 CNI 代謝的藥物。選項 B Clarithromycin 為 macrolides 類抗生素，是知名的 CNI level increaser，會顯著增加 cyclosporine 濃度，引發 CNI toxicity。NNRTIsanticonvulsants 皆為 CYP3A4/P-gp level decreasers，會導致 CNI 濃度下降而非上升。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1049,7 +1049,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "根據定義，Expanded Criteria Donor (ECD) 包含所有年齡大於 60 歲的捐贈者，或是年齡介於 50 至 59 歲且符合以下三個條件中至少兩項者：(1) 具有 hypertension 病史，(2) 死亡原因為 cerebrovascular accident (CVA)，(3) terminal serum creatinine > 1.5 mg/dL。選項 A 的捐贈者為 54 歲，符合 CVA 死亡與 HTN 病史兩項條件，因此屬於 ECD。選項 B 僅有一項符合。選項 C 年齡小於 50 歲，故排除。選項 D 沒有任何一項符合。",
+      "sourceExplanation": "根據定義，ECD 包含所有年齡大於 60 歲的捐贈者，或是年齡介於 50 至 59 歲且符合以下三個條件中至少兩項者：(1) 具有 hypertension 病史，(2)CVA，(3) terminal serum creatinine > 1.5 mg/dL。選項 A 的捐贈者為 54 歲，符合 CVA 死亡與 HTN 病史兩項條件，因此屬於 ECD。選項 B 僅有一項符合。選項 C 年齡小於 50 歲，故排除。選項 D 沒有任何一項符合。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1094,7 +1094,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "根據 United Network for Organ Sharing (UNOS) 的定義，expanded criteria donor (ECD) 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3) 死因為 cerebrovascular accident (CVA)。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。",
+      "sourceExplanation": "UNOS 的定義，ECD 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3)CVA。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1146,7 +1146,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "提供的文獻中包含大量關於 kidney transplantation、delayed graft function 與 acute tubular necrosis 的資訊，但完全沒有提及判定 functional warm ischemia time (fWIT) 起點的具體 hemodynamic 或respiratory thresholds。由於缺乏關鍵定義數據，本題標記為資料庫證據不足，無法判定正確選項。",
+      "sourceExplanation": "提供的文獻中包含大量關於 kidney transplantation、delayed graft function 與 acute tubular necrosis 的資訊，fWIT 起點的具體 hemodynamic 或respiratory thresholds。由於缺乏關鍵定義數據，本題標記為資料庫證據不足，無法判定正確選項。",
       "reconciliationStatus": "DISPUTED",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "nlmResponses": [
@@ -1201,7 +1201,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "文獻中詳細探討了 donation after circulatory death (DCD) 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、cold ischemia time (CIT) 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys) 對 functional warm ischemia time (fWIT) 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。",
+      "sourceExplanation": "DCD 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、CIT 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys)fWIT 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。",
       "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_DISPUTED_RESOLVED",
       "nlmResponses": [
@@ -1256,7 +1256,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "living kidney donation 有嚴格的禁忌症，以保護捐贈者未來的腎臟健康。Type 1 diabetes mellitus absolute contraindication，因為這類患者自身未來發展出 diabetic nephropathy 的風險極高。相比之下，治癒的 basal cell carcinoma、輕度的 obesity (BMI 32 kg/m2) 或以單一藥物良好控制的 hypertension，在某些醫學中心經過謹慎評估後，relative contraindications 或可接受的條件。",
+      "sourceExplanation": "living kidney donation 有嚴格的禁忌症，以保護捐贈者未來的腎臟健康。Type 1 diabetes mellitus absolute contraindication，因為這類患者自身未來發展出 diabetic nephropathy 的風險極高。相比之下，治癒的 basal cell carcinoma、BMI 32 kg/m2 或以單一藥物良好控制的 hypertension，在某些醫學中心經過謹慎評估後，relative contraindications 或可接受的條件。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
@@ -1301,7 +1301,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "在活體腎臟捐贈中，malignancies absolute contraindications。這包括 melanoma、testicular cancer、choriocarcinoma、hematologic cancer、monoclonal gammopathy、bronchial cancer 以及任何 metastatic cancer。選項 A 的非黑色素瘤皮膚癌 (如 basal cell carcinoma)、low-grade prostate cancer papillary thyroid microcarcinoma，在確認完全治癒後，通常可以允許進行捐贈。",
+      "sourceExplanation": "在活體腎臟捐贈中，malignancies absolute contraindications。這包括 melanoma、testicular cancer、choriocarcinoma、hematologic cancer、monoclonal gammopathy、bronchial cancer 以及任何 metastatic cancer。選項 A 的非黑色素瘤皮膚癌 、low-grade prostate cancer papillary thyroid microcarcinoma，在確認完全治癒後，通常可以允許進行捐贈。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [

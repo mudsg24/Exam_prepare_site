@@ -26,7 +26,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "NaPi-IIc (SLC34A3) 屬於 100% Electroneutral cotransporter，運送 2 個 Na+ 與 1 個 H2PO4-。相反地，NaPi-IIa (SLC34A1) 屬於 Electrogenic cotransporter，運送 3 個 Na+ 與 1 個 H2PO4-。NaPi-IIc 的基因突變會導致 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)。",
+      "sourceExplanation": "NaPi-SLC34A3 屬於 100% Electroneutral cotransporter，運送 2 個 Na+ 與 1 個 H2PO4-。相反地，NaPi-SLC34A1 屬於 Electrogenic cotransporter，運送 3 個 Na+ 與 1 個 H2PO4-。NaPi-HHRH。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
@@ -79,7 +79,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "此患者表現典型的 Hereditary Hypophosphatemic Rickets with Hypercalciuria (HHRH)，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,25(OH)2D 顯著上升。高濃度的 1,25(OH)2D 促進Intestinal大量吸收鈣質，引起Hypercalciuria 與Nephrolithiasis。",
+      "sourceExplanation": "HHRH，其致病基因為 SLC34A3 (編碼 NaPi-IIc)。由於非 FGF23 媒介的失磷導致血磷低下，進而解除對 CYP27B1 (1-α-hydroxylase) 的抑制，使 1,OH2D 顯著上升。高濃度的 1,OH2D 促進Intestinal大量吸收鈣質，引起Hypercalciuria 與Nephrolithiasis。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -136,7 +136,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "在 HHRH 患者中，Calcitriol 屬於嚴格Contraindication (Strictly Contraindicated)！因為 HHRH 患者體內的 1,25(OH)2D 原本就因Hypophosphatemia刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化Intestinal鈣吸收，導致極度嚴重的Hypercalciuria、Nephrolithiasis與Nephrocalcinosis，最終破壞Renal Function。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。",
+      "sourceExplanation": "在 HHRH 患者中，Strictly Contraindicated！因為 HHRH 患者體內的 1,OH2D 原本就因Hypophosphatemia刺激 CYP27B1 而處於高檔，若再給予外源性 Calcitriol，會劇烈惡化Intestinal鈣吸收，導致極度嚴重的Hypercalciuria、Nephrolithiasis與Nephrocalcinosis，最終破壞Renal Function。HHRH 僅需使用 Oral Soluble Phosphate 治療即可。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -250,7 +250,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "患者罹患的是 Autosomal Dominant Hypophosphatemic Rickets (ADHR)，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。Iron Deficiency 會刺激Osteocytes轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。",
+      "sourceExplanation": "ADHR，由 FGF23 基因 R176Q 或 R179Q 突變引發（破壞 Furin 切割位點 RXXR）。ADHR 具不完全顯性且發病年齡跨度大。Iron Deficiency 會刺激Osteocytes轉錄 FGF23；在正常人中增加的 FGF23 會被 Furin 切割降解，但在 ADHR 患者中由於變異 FGF23 抗拒 Furin 切割，導致完整的 Intact FGF23 暴增而引發成人期發病。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -307,7 +307,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Dent disease 1 (CLCN5 突變) 與 XLH (PHEX 突變) 皆為 X-linked 遺傳，但 Dent disease 屬於Proximal TubuleEndosomal Acidification Defect，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的Hypercalciuria 以及早發性Nephrocalcinosis 與Renal Function衰竭。XLH 則無 LMWP，且一般無自發性Hypercalciuria。",
+      "sourceExplanation": "Dent disease 1  與 XLH  皆為 X-linked 遺傳，但 Dent disease 屬於Proximal TubuleEndosomal Acidification Defect，典型特徵為 Low-Molecular-Weight Proteinuria (LMWP，如 β2-microglobulin、α1-microglobulin)、顯著的Hypercalciuria 以及早發性Nephrocalcinosis 與Renal Function衰竭。XLH 則無 LMWP，且一般無自發性Hypercalciuria。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -364,7 +364,7 @@
         }
       ],
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Burosumab 是一種全人類源化 IgG1 Human Recombinant Monoclonal Antibody，可特異性結合並中和過量的 Intact FGF23，進而解除其對Proximal Tubule NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,25(OH)2D 濃度，促進Rickets與Osteomalacia的癒合。",
+      "sourceExplanation": "Burosumab 是一種全人類源化 IgG1 Human Recombinant Monoclonal Antibody，可特異性結合並中和過量的 Intact FGF23，進而解除其對Proximal Tubule NaPi-IIa / NaPi-IIc 以及 CYP27B1 (1-α-hydroxylase) 的抑制，恢復血磷與 1,OH2D 濃度，促進Rickets與Osteomalacia的癒合。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -421,7 +421,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的Scaffolding Protein，負責將 NaPi-IIa 穩定錨定在Proximal TubuleBrush Border的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的Apical Membrane表達，引起Renal失磷、血磷低下、1,25(OH)2D 繼發性升高與Nephrolithiasis。",
+      "sourceExplanation": "NHERF1 (Na+/H+ Exchanger Regulatory Factor 1，由 SLC9A3R1 編碼) 是一種含 PDZ 領域的Scaffolding Protein，負責將 NaPi-IIa 穩定錨定在Proximal TubuleBrush Border的 Actin Cytoskeleton 上。NHERF1 突變會破壞 NaPi-IIa 的Apical Membrane表達，引起Renal失磷、血磷低下、1,OH2D 繼發性升高與Nephrolithiasis。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_3.png"
@@ -478,7 +478,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "患者表現為典型的 Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、Proximal TubuleHyperphosphatemia 及 1,25(OH)2D 升高，導致關節周圍Tumoral Calcinosis。",
+      "sourceExplanation": "HFTC。GALNT3 編碼 UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3，負責將 Intact FGF23 的 Thr178 進行 O-Glycosylation，防止其被 Furin 切割。GALNT3 突變導致 Intact FGF23 無法被糖基化保護而被快速切割破壞，引發功能性 FGF23 缺乏、Proximal TubuleHyperphosphatemia 及 1,OH2D 升高，導致關節周圍Tumoral Calcinosis。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
@@ -535,7 +535,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO Loss-of-function mutation 會導致Proximal Tubule對 FGF23 產生完全的End-organ Resistance，表現為極高濃度的 Intact FGF23、Hyperphosphatemia、高 1,25(OH)2D 以及 Familial Tumoral Calcinosis。",
+      "sourceExplanation": "FGF23 必須與單次跨膜蛋白 αKlotho 以及 FGFR1c 結合形成 High-affinity binary complex 才能啟動細胞內下游訊息傳導。KLOTHO Loss-of-function mutation 會導致Proximal Tubule對 FGF23 產生完全的End-organ Resistance，表現為極高濃度的 Intact FGF23、Hyperphosphatemia、高 1,OH2D 以及 Familial Tumoral Calcinosis。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/07. The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney/Table_7_4.png"
@@ -649,7 +649,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。OCRL1 突變亦是 Lowe syndrome (Oculocerebrorenal syndrome) 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響Renal而缺少眼部與中樞神經系統症狀。",
+      "sourceExplanation": "Dent disease 2 是由 OCRL1 (編碼 inositol 5-phosphatase) 突變引發的 X-linked 隱性遺傳疾病。Oculocerebrorenal syndrome 的致病基因素。Dent disease 1 則由 CLCN5 (編碼 ClC-5 Cl-/H+ exchanger) 突變引發，主要影響Renal而缺少眼部與中樞神經系統症狀。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -706,7 +706,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "ARHR1 是由於 Dentin Matrix Protein 1 (DMP1) 發生體體隱性失能突變所致。DMP1 正常時可在Osteocytes中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致Osteocytes分泌大量 Intact FGF23，表現為與 XLH 極為相似的Hypophosphatemia性Rickets。",
+      "sourceExplanation": "DMP1 發生體體隱性失能突變所致。DMP1 正常時可在Osteocytes中抑制 FGF23 的過度轉錄。DMP1 缺失會解除此抑制作用，導致Osteocytes分泌大量 Intact FGF23，表現為與 XLH 極為相似的Hypophosphatemia性Rickets。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -877,7 +877,7 @@
         }
       ],
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "Raine syndrome (ARHR3) 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、Osteosclerosis、過度分泌 Intact FGF23 及嚴重失磷。",
+      "sourceExplanation": "ARHR3 是由 FAM20C 基因突變引起的體染色體隱性遺傳疾病。FAM20C 是一種位於高基氏體內的專一性 Serine/Threonine Kinase，負責對 Extracellular Matrix Proteins (如 DMP1、Osteopontin 及 FGF23) 進行磷酸化。FAM20C 失能會導致骨骼發育不良、Osteosclerosis、過度分泌 Intact FGF23 及嚴重失磷。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -934,7 +934,7 @@
         }
       ],
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "A 完全正確：XLH (PHEX 突變) 的典型特徵為高 FGF23、Hypophosphatemia、不適當的低/正常 1,25(OH)2D 以及正常/低尿鈣。B HHRH 應為低 FGF23、高 1,25(OH)2D、Hypercalciuria；C Dent disease 應為正常 FGF23、Hypercalciuria、LMWP；D FTC 應為Hyperphosphatemia。",
+      "sourceExplanation": "A 完全正確：XLH  的典型特徵為高 FGF23、Hypophosphatemia、不適當的低/正常 1,OH2D 以及正常/低尿鈣。B HHRH 應為低 FGF23、高 1,OH2D、Hypercalciuria；C Dent disease 應為正常 FGF23、Hypercalciuria、LMWP；D FTC 應為Hyperphosphatemia。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Table_44_5.png"
@@ -991,7 +991,7 @@
         }
       ],
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Tumor-Induced Osteomalacia (TIO) 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性Osteomalacia。徹底切除腫瘤可獲得 100% 治癒。",
+      "sourceExplanation": "Tumor-TIO 主要是由良性的 Phosphaturic Mesenchymal Tumor (PMT，通常為混合結締組織亞型) 所引起。這些微小的間質腫瘤會過度表達並分泌大量的 Intact FGF23，臨床上引起嚴重的失磷性Osteomalacia。徹底切除腫瘤可獲得 100% 治癒。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Box_18_2.png"

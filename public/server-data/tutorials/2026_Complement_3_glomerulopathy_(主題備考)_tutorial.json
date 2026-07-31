@@ -1,0 +1,129 @@
+{
+  "id": "2026_Complement_3_glomerulopathy_(主題備考)",
+  "paperId": "2026_Complement_3_glomerulopathy_(主題備考)",
+  "title": "Complement 3 Glomerulopathy (C3G: C3GN & Dense Deposit Disease) 替代補體路徑調控異常、病理與 EM 鑑別診斷、KDIGO 2024 指引與新型 Complement Inhibitor 臨床實戰",
+  "description": "整合 C3G Alternative Pathway 異常、C3Nef 自體抗體、CFH/CFI/CFHR 基因突變、DDD vs C3GN 之 光鏡/IF/電鏡 鑑別診斷、MGRS 關聯性評估、KDIGO 2024 指引與 Eculizumab, Pegcetacoplan, Iptacoplan 新型補體抑制劑治療之專科講堂。",
+  "sourceCategory": "2026 GN",
+  "year": 2026,
+  "updatedAt": "2026-08-01T00:00:00.000Z",
+  "sections": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Molecular Pathophysiology & Alternative Complement Pathway Dysregulation",
+      "content": "### 1. Alternative Complement Pathway Dysregulation &C3G 為一組因 Alternative Complement Pathway 異常持續活化，導致補體 C3 裂解產物 (C3b, iC3b, C3c, C3dg)GBM 與 Mesangium 的腎絲球疾病。其核心機轉為 Fluid-phase C3 Convertase ($C3bBb$)Amplification Loop。致病原因可分為 Autoantibodies 及 Genetic Mutations 兩大類：前者以 C3 Nephritic Factor ($C3Nef$) 最為常見（為 IgG 或 IgM 自體抗體，可結合並穩定 $C3bBb$，將其半衰期延長 10 倍以上，防止被 Complement Factor H 裂解）；後者包含 *CFH*, *CFI*, *CFHR1-5*, *C3*, *CFB* 等基因失能型或功能增強型變異。此外，年長患者 (Age > 50)MGRS 相關，Monoclonal Immunoglobulin 可直接作用為抗 Factor H 之自體抗體或抑制補體調控蛋白。\n\n| Pathophysiologic Factor | Molecular Nature & Target | Mechanism of Action | C3G Subtype Predominance | Clinical & Therapeutic Significance |\n| --- | --- | --- | --- | --- |\n|C3Nef |IgG/IgM against C3 Convertase ($C3bBb$) | Stabilizes $C3bBb$ convertase complex; Prevents decay mediated by Factor H | Predominant in Dense Deposit Disease (DDD, ~80%); Also present in C3GN (~50%) | Causes persistent low serum C3; Does not correlate directly with clinical disease activity |\n|C5Nef | Autoantibody against C5 Convertase ($C3bBbC3b$) | Stabilizes C5 convertase; Drives Terminal Pathway activation ($C5a$ & $MAC / C5b-9$) |C3GN |Eculizumab / Ravulizumab |\n|Anti-CFH Ab | Autoantibody against Factor H SCR domains | Blocks Factor H binding to C3b and cell surfaces; Impairs decay-accelerating activity | Seen in both DDD and C3GN; Often associated with *CFHR1/CFHR3* deletion |TPE or Immunosuppression |\n| *CFH* Genetic Mutations / Variants | Loss-of-function mutation in Complement Factor H | Impaired degradation of C3b in plasma and on basement membranes | DDD and familial C3GN | High risk of post-transplant recurrence in allograft |\n| *CFHR1-5* Genomic Rearrangements | Internal duplication or fusion genes (e.g., *CFHR5* nephropathy) | Hybrid CFHR proteins compete with CFH for C3b binding without regulatory capacity | Endemic C3GN (e.g., Cypriot *CFHR5* nephropathy) | Requires genetic sequencing; Defines specific inherited complement spectrum |\n\n### 2. High-Yield Differential Comparison Table\n\n| Parameter |C3G |IC-MPGN / Lupus |IgAN | Post-PIGN |\n| --- | --- | --- | --- | --- |\n| Primary Complement Activation | Alternative Pathway ($C3bBb$) | Classical Pathway ($C1q \\rightarrow C4b2a$) | MBL / MASP-2 Activation | Alternative + Classical Pathway |\n| Serum Complement Pattern | Low C3, Normal C4 | Low C3,Hypocomplementemia | Normal C3 &or transient mild low C3 | Transiently Low C3 &Normalizes in 8-12 weeks |\n| Immunofluorescence Staining | Dominant C3 ($\\ge 2$ orders brighter than Ig) | Co-dominant IgG, IgM, C1q, C3 (\"Full-House\" in Lupus) | Dominant IgA & C3 in mesangium | Bright C3 +/– sparse IgG (\"Starry Sky\" / Capillary Wall) |\n| Autoantibody Driver | $C3Nef$, $C5Nef$, Anti-CFH, Monoclonal Ig | Anti-dsDNA, Anti-Sm, Cryoglobulins, Immune Complexes | Galactose-Gd-IgA1 autoantibodies | Streptococcal Endostreptosin / NAPlr |\n| Duration of Complement Suppression | Chronic / Persistent (> 12 weeks) | Dependent on underlying autoimmune activity | Normal / Transient | Self-limiting (Normalizes within 8–12 weeks) |\n\n### 3. Pathophysiological Decision Tree\n\nComplement Activation Cascade Suspected ➔ Measure Serum C3 and C4 ➔ Low Serum C3 with Normal C4 ➔ Alternative Pathway Selectively Activated ➔ Evaluate Kidney Biopsy IF Staining ➔ Bright Glomerular C3 with Absent / Trace Immunoglobulins ($\\ge 2$ orders of magnitude brighter) ➔ Diagnosis:C3G ➔ Perform Complement Serology Panel ➔ Test for C3Nef & C5Nef Autoantibodies ➔ Present in ~80% DDD and ~50% C3GN ➔ Order Genetic Testing for *CFH*, *CFI*, *CFHR1-5* ➔ Identify underlying hereditary vs acquired complement regulation failure.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**:MPGN 樣貌就可直接診斷為傳統 Type I MPGN 並給予類固醇治療。\n**Analysis**: 過去的 MPGN 分型 (Type I, II, III) 僅基於電鏡下的沉積位置，已無法反映病因學。現代分類學強制要求根據 **IF** 結果進行分組：IgG/IgM/IgA 與 C3 共沉積，屬於 Immune Complex-IC-MPGN，多由 Hepatitis B/C, Autoimmune, 或 Monoclonal Gammopathy 驅動；唯有當 IF 為 **C3-Dominant Staining (C3 強度比其他免疫反應物高出 2 個等級以上，且 Ig 缺失或微量)** 時，C3G。誤將 C3G 當作 IC-MPGN 治療會遺漏替代路徑補體過度活化的真兇。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_20",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_20.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_20.png",
+          "caption": "Brenner 11e Fig. 31.20: Regulators of the alternative complement pathway and abnormalities that cause C3 glomerulopathy (CFH, CFI, C3Nef).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "c3g_alternative_pathway_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/c3g_alternative_pathway_ai.jpg",
+          "imagePath": "/server-data/assets/c3g_alternative_pathway_ai.jpg",
+          "caption": "Molecular Pathophysiology of Complement 3 Glomerulopathy (C3G): Alternative Pathway Amplification Loop, C3 Convertase (C3bBb) Dysregulation, and C3Nef Action."
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Renal Histopathology & Electron Microscopy Differentiation (DDD vs C3GN)",
+      "content": "### 1. Histopathology &DDD vs C3GN\n\nC3 Glomerulopathy 在病理學上根據 **EM** 的超微結構特徵，分為兩大實體：**DDD** 與 **C3GN**。光鏡下兩者皆可展現多樣化的型態，MPGN pattern（表現為 Endocapillary Hypercellularity, Mesangial Proliferation, 及 GBM Double Contours / Tram-Track Appearance），亦可為 Mesangioproliferative, Crescentic, 或 Sclerotic GN。IF 均呈現強烈 C3 陽性。EM 為終極鑑別診斷依據：DDD 的特徵為 Lamina Densa 被極度高電子密度、極度緻密且呈現帶狀 (Extremely Electron-dense, Homogeneous, Ribbon-like) 的沉積物所取代；而 C3GN 則展現較非緻密、斑塊狀 (Mesangial, Subendothelial, Intramembranous, or Subepithelial) 的電子沉積物。\n\n| Pathologic Dimension |DDD |C3GN |IC-MPGN | Post-PIGN |\n| --- | --- | --- | --- | --- |\n|LM | MPGN pattern, Mesangioproliferative, Crescentic | MPGN pattern, Mesangioproliferative, Crescentic |Lobular accentuation | Acute Diffuse Proliferative, Neutrophil-rich |\n|IF | Bright C3 (discontinuous band-like capillary wall & mesangium); Ig negative | Bright C3 (mesangial & capillary granular); Ig negative / trace | Co-dominant IgG, IgM, C3 along capillary walls | Coarse granular C3 along capillary wall (\"Starry Sky\") |\n|TEM | **Ribbon-like, extremely dense intramembranous deposits** in Lamina Densa | **Mesangial, Subendothelial, Subepithelial** electron-dense deposits | Subendothelial and Mesangial deposits | Large Subepithelial \"Humps\" |\n| Age of Onset | Children & Young Adults (Peak age 5–15 years) | Older Adults (Peak age 30–60 years) | Adults (Associated with HCV, Autoimmune, MGRS) | Children & Elderly |\n| Extrarenal Features | Retinal Drusen (Bruch's membrane deposits), Partial Lipodystrophy | Rare extrarenal manifestations | Cryoglobulinemia purpura, Raynaud, Arthralgia | Recent Streptococcal Pharyngitis / Impetigo |\n\n### 2. High-Yield Differential Comparison Table\n\n| Diagnostic Parameter |DDD |C3GN |\n| --- | --- | --- |\n| Primary EM Ultrastructural Site |Lamina Densa replacement | Mesangial, Subendothelial, Subepithelial |\n| Deposit Morphology | Homogeneous, extremely electron-dense, continuous ribbon-like | Discrete, heterogenous, granular, moderate electron density |\n| C3Nef Autoantibody Frequency | Very High (~80-90%) | Moderate (~40-50%) |\n| Retinal Drusen Association | High (Basal laminar deposits in RPE & Bruch's membrane) | Absent or extremely rare |\n| Partial Lipodystrophy |Acquired Partial Lipodystrophy / Barraquer-Simons | Absent |\n\n### 3. Pathophysiological Decision Tree\n\nRenal Biopsy Staining Completed ➔ Immunofluorescence Microscopy ➔ Dominant C3 Staining ($\\ge 2$ orders of magnitude brighter than Ig) ➔TEM ➔GBM Lamina Densa ➔ Homogeneous, ribbon-like, extremely electron-dense intramembranous deposits replacing Lamina Densa ➔ Diagnosis:DDD / Type II MPGN ➔ Heterogeneous mesangial, subendothelial, or subepithelial electron-dense deposits without ribbon-like transformation ➔ Diagnosis:C3GN.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為切片看到 Subepithelial Hump-PIGN，因而告訴患者幾週後就會自然完全康復。\n**Analysis**: 某些 C3GN 或 DDD 患者在光鏡與電鏡初期亦可出現大型 Subepithelial Humps（與 PIGN 非常相似，甚至歷史上被稱為 Atypical PIGN）。然而，PIGN 的補體活化是自限性的，血清 C3 在 8~12 週內必會恢復正常且尿液異常改善；反之，Hypocomplementemia 或血尿/蛋白尿持續超過 12 週，或電鏡沉積物無清空跡象，必須重新進行Renal Biopsy IF 與補體替代路徑基因/自體抗體檢測，C3G 的表現！",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_11",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_11.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_11.png",
+          "caption": "Brenner 11e Fig. 31.11: Algorithm for the histopathologic classification of MPGN by IF findings (C3-dominant vs Immunoglobulin-present).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "Brenner_Fig_31_14",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_14.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_14.png",
+          "caption": "Brenner 11e Fig. 31.14: C3 glomerulonephritis variant of C3G demonstrating Light Microscopy (A), IF with granular C3 (B), and EM with mesangial/subepithelial deposits (C).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "Brenner_Fig_31_18",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_18.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_18.png",
+          "caption": "Brenner 11e Fig. 31.18: Electron micrograph of Dense Deposit Disease (DDD) showing ribbon-like intramembranous dense deposits replacing GBM.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "c3g_em_pathology_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/c3g_em_pathology_ai.jpg",
+          "imagePath": "/server-data/assets/c3g_em_pathology_ai.jpg",
+          "caption": "Comparative Ultrastructural Characteristics of Dense Deposit Disease (DDD) vs C3 Glomerulonephritis (C3GN) on Transmission Electron Microscopy."
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Clinical Manifestations, Diagnostic Evaluation & MGRS Screening Protocol",
+      "content": "### 1. Clinical Manifestations & MGRS Evaluation Matrix\n\nC3 Glomerulopathy 的臨床表現高度多樣，可呈現為 Nephrotic Syndrome, Nephritic Syndrome, Proteinuria,RPGN。DDD 常伴隨腎外表型：(1) **Retinal Drusen**：因 C3 沉積於 Bruch'RPE，導致早期盲點或無視力影響之眼底黃斑部病變；(2) **Barraquer-Simons Syndrome**：臉部與上半身皮下脂肪皮下進行性萎縮，與 C3Nef 造成脂肪細胞表面 C3 convertase 過度活化有關。對所有年齡 $> 50$ 歲診斷為 C3G 的患者，必須強制啟動 **MGRS** 的篩檢流程，因為高達 30-50% 的年長 C3G 患者是由 Monoclonal Immunoglobulin  作用為抗 Factor H 抗體或破壞補體調控所驅動。\n\n| Diagnostic Workup Step | Specific Laboratory Test | Pathologic / Clinical Significance | Expected Abnormal Finding in C3G | Follow-Up Action |\n| --- | --- | --- | --- | --- |\n| Initial Serology | Serum C3 and C4 levels | Evaluates complement pathway selectively | **Low Serum C3 with Normal C4** | Confirms Alternative Pathway specificity |\n| Autoantibody Panel | C3Nef, C4Nef, C5Nef, Anti-CFH Ab, Anti-CFB Ab | Identifies acquired autoantibody drivers | $C3Nef$ positive in ~80% DDD and ~50% C3GN | Guides prognosis & therapeutic plasma exchange decision |\n| Complement Genetics | Genetic sequencing for *CFH*, *CFI*, *CFHR1-5*, *C3*, *CFB* | Detects hereditary complement regulatory gene mutations | Rare variants or *CFHR* fusion genes | Essential for family counseling & transplant planning |\n| Terminal Pathway Activity | Plasma Soluble C5b-sC5b-9 | Measures Terminal Complement Pathway activation | Elevated sC5b-9 |Eculizumab |\n| **MGRS Screening** (Mandatory if Age > 50) | SPEP with immunofixation, UPEP with immunofixation,sFLC | Detects hidden monoclonal gammopathy driving C3G | Abnormal sFLC ratio or monoclonal band | Mandatory Bone Marrow Biopsy + Clone-directed therapy |\n\n### 2. High-Yield Differential Comparison Table\n\n| Clinical Parameter | Young C3G Patient (< 30 Years) | Older C3G Patient (> 50 Years) |\n| --- | --- | --- |\n| Predominant Etiology | Autoantibodies ($C3Nef$) or Hereditary Gene Variants |MGRS |\n| Associated Extrarenal Findings | Retinal Drusen, Acquired Partial Lipodystrophy | Asymptomatic or Plasma Cell / B-cell Dyscrasia symptoms |\n| Renal Biopsy IF Finding | C3 Dominant, Ig Negative | C3 Dominant,Monoclonal Ig hidden or absent in renal deposit |\n| First-Line Therapeutic Focus | Supportive + MMF/Steroids or Complement Inhibitors | Clone-Directed Chemotherapy (e.g., Bortezomib, Cyclophosphamide, Daratumumab) |\n| Prognosis Determinant | Complement inhibition efficacy & genetic mutation profile | Eradication of underlying pathogenic B-cell / Plasma Cell clone |\n\n### 3.C3-Dominant IF ➔ Assess Patient Age at Diagnosis ➔ Patient Age > 50 Years ➔ Mandatory Monoclonal Gammopathy Screening ➔SPEP,UPEP with Immunofixation,sFLC ➔ Monoclonal Band or Abnormal sFLC Ratio Detected ➔ Perform Bone Marrow Biopsy & Hematology Consultation ➔ Diagnosis: MGRS-Associated C3G ➔ Initiate Clone-Bortezomib-based ➔ Normal MGRS Screen or Age < 50 ➔ Perform C3Nef/Anti-CFH Autoantibodies and Genetic Panel ➔ Guide Complement-Targeted Therapy.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為老人的 C3G Renal Biopsy螢光沒看到 Immunoglobulin (IgG/IgM/IgA 均陰性)，MGRS，不需要做 SPEP/sFLC 或骨髓檢查。\n**Analysis**: 此為臨床與病理考題的常見陷阱！MGRS 引起的 C3G 其Renal Biopsy **IF 本身就是 C3-Dominant 而 Ig 陰性**，Monoclonal Ig / Free Light Chain 並非直接沉積在腎絲球內，Autoantibody 結合並破壞 Factor H 等補體調控蛋白，導致替代路徑全身性活化與純 C3 沉積。因此，所有 $>50$ 歲的 C3G 患者，無論切片 Ig 有無沉積，**100% 必須強制進行 SPEP, UPEP with immunofixation, 與 sFLC 檢查**；Monoclonal Clone，給予傳統免疫抑制劑或純補體抑制劑治療皆無法阻止腎病變快速惡化！",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_19",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_19.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_19.png",
+          "caption": "Brenner 11e Fig. 31.19: Immunofluorescence micrograph of dense deposit disease showing discontinuous bandlike capillary wall staining for C3.",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "c3g_clinical_workup_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/c3g_clinical_workup_ai.jpg",
+          "imagePath": "/server-data/assets/c3g_clinical_workup_ai.jpg",
+          "caption": "Comprehensive Clinical Workup and Diagnostic Algorithm for Complement 3 Glomerulopathy (C3G), including MGRS Screening in Patients Over 50."
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4: KDIGO Guidelines & Emerging Complement-Targeted Therapeutics",
+      "content": "### 1. KDIGO Therapeutic Recommendations &C3G 的治療採用階梯式策略。Optimal Supportive Care：ACEi / ARB 控制血壓 ($< 120/80$ mmHg) 與降低蛋白尿、低鹽飲食、以及 SGLT2 Inhibitor 的考量。對具備中度至重度疾病活性（如蛋白尿 $> 1.5$ g/day、eGFR 進行性下降、或切片顯示活性發炎）Native Kidney 患者，KDIGO 推薦 **MMF 結合 Glucocorticoids** 作為一線免疫抑制治療。對傳統治療無效、難治型或重症患者，新型 **Complement-Targeted Therapeutics** 提供了精準治療的管道。\n\n| Therapeutic Agent | Pharmacologic Class & Target | Mechanism of Action in C3G | Clinical Indication & KDIGO Place in Therapy | Special Adverse Effects & Monitoring |\n| --- | --- | --- | --- | --- |\n|MMF + Steroids |Inosine Monophosphate Dehydrogenase Inhibitor | Suppresses pathogenic autoantibody ($C3Nef$) production by B-cells | **KDIGO First-Line Immunosuppressive Therapy** for native C3G with progressive eGFR decline or high proteinuria | Leukopenia, Gastrointestinal distress, Opportunistic infections |\n| Eculizumab / Ravulizumab | Monoclonal Anti-Terminal Complement Inhibitor | Inhibits C5 cleavage into C5a and C5b;MAC / C5b-9 assembly | Refractory C3G with high sC5b-9 or prominent crescentic / acute inflammation | High risk of *Neisseria meningitidis* infection; Mandatory meningococcal vaccination prior to initiation |\n| Pegcetacoplan | Targeted C3 /PEGylated Peptide | Binds C3 and C3b; Inhibits both C3 convertase ($C3bBb$) and C5 convertase proximal activation | Approved for C3G; Targets proximal alternative pathway overactivation | Requires meningococcal & pneumococcal vaccination; Risk of systemic complement-mediated breakthrough |\n| Iptacoplan |Alternative Pathway Inhibitor | Selectively binds Factor B; Blocks formation of alternative pathway C3 convertase ($C3bBb$) |Phase 3 trials showing profound proteinuria reduction | Selective alternative pathway suppression; Encapsulated bacterial infection monitoring |\n| Avacopan |C5aR / CD88 Antagonist | Blocks C5a-mediated neutrophil priming & chemoattraction without blocking MAC assembly | Adjunctive therapy for crescentic / necrotizing active C3G | Transaminase elevation; No increased risk of meningococcal infection |\n\n### 2. High-Yield Differential Comparison Table\n\n| Therapeutic Strategy |Pegcetacoplan / Iptacoplan |Eculizumab / Ravulizumab |\n| --- | --- | --- |\n| Primary Molecular Target | C3 /PegcetacoplanIptacoplan |Terminal pathway |\n| Inhibition Impact on C3b Deposition | Prevents initial C3b generation & tissue C3b deposition | Does NOT block C3b generation; C3b deposition on capillary wall continues |\n| Effect on Serum C3 Levels | Restores serum C3 levels toward normal | Serum C3 remains persistently low |\n| Efficacy Profile in C3G Trials | High efficacy in clearing tissue C3 deposits & reducing proteinuria |Effective primarily in acute crescentic disease or high sC5b-9 |\n| Meningococcal Infection Risk | Required vaccination (Meningococcal A, C, W, Y, B & Pneumococcal) | Mandatory meningococcal vaccination + prophylactic antibiotics |\n\n### 3. Pathophysiological Decision Tree\n\nDiagnosis of Active C3G Confirmed ➔ Step 1: Initiate Optimal Supportive Care (RAS Blockade, Target BP <120/80, Low Sodium, SGLT2i) ➔ Assess Response at 3–6 Months ➔ Persistent Proteinuria >1.5 g/day or Progressive eGFR Decline ➔ Step 2: Initiate Immunosuppressive Therapy (MMF + Glucocorticoids per KDIGO) ➔ Re-evaluate Response at 6–12 Months ➔ Remission Achieved ➔ Maintenance MMF & Steroid Taper ➔ Refractory or Severe Progression ➔ Step 3: Evaluate Complement Profile & Consider Targeted Complement Inhibitors ➔ Elevated sC5b-9 / Rapid RPGN ➔Eculizumab ➔ Persistent Alternative Pathway Hyperactivity ➔ Proximal C3/Pegcetacoplan or Iptacoplan.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為只要使用 Eculizumab  治療 C3G，就一定能完全清除腎絲球上的 C3 沉積物並完全治癒疾病。\n**Analysis**: 這是補體作用層級的重大概念陷阱！Eculizumab 阻斷的是補體瀑布底端的 **MAC / C5b-9**，對於頂端失控活化的 **Alternative Pathway C3 Convertase ($C3bBb$) 毫無抑制效果**。因此，在使用 Eculizumab 期間，血管內與腎絲球 GBM 上仍然會持續產生並沉積大量的 C3b / iC3b，血清 C3 濃度亦不會升回正常。Eculizumab 主要減緩由 C5a 引發的發炎反應與 MAC 造成的細胞損傷；欲徹底阻斷 C3b 沉積，Proximal 的新型補體抑制劑，如 **Pegcetacoplan ** 或 **Iptacoplan **。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_31_21",
+          "type": "micrograph",
+          "relPath": "/server-data/assets/Brenner_Fig_31_21.png",
+          "imagePath": "/server-data/assets/Brenner_Fig_31_21.png",
+          "caption": "Brenner 11e Fig. 31.21: A framework for the diagnosis and management of C3 glomerulopathies, C3GN, and dense deposit disease (DDD).",
+          "sourceBook": "Brenner 11e Ch 31"
+        },
+        {
+          "id": "c3g_treatment_kdigo_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/c3g_treatment_kdigo_ai.jpg",
+          "imagePath": "/server-data/assets/c3g_treatment_kdigo_ai.jpg",
+          "caption": "Treatment Algorithm for Complement 3 Glomerulopathy (C3G): Stepwise Management Based on KDIGO Guidelines and Modern Complement-Targeted Therapeutics."
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "title": "Module 5: Allograft Recurrence & Kidney Transplantation Management",
+      "content": "### 1. Allograft Recurrence &C3G 在腎臟移植後具有**極高之 Allograft Recurrence Risk**。DDD 的移植後復發率高達 80% 以上，C3GN 的復發率亦達 50-70%。復發多發生於移植後早期，表現為蛋白尿重現、微血尿及移植腎功能衰退，Graft Loss。移植前評估必須精準測定病人的自體抗體狀態（如 $C3Nef$ 滴度）與基因突變譜系。特別是帶有 *CFH*, *CFI* 或 *CFHR* 融合基因缺陷的受者，因其替代路徑調節異常是由系統性（肝臟合成）補體蛋白缺乏所致，單純移植正常腎臟無法修正全身性補體活化，移植腎必定遭受攻擊。\n\n| Clinical Phase | Diagnostic & Management Task | Clinical Rationale & Key Considerations | Recommended Action / Intervention |\n| --- | --- | --- | --- |\n| Pre-Transplant Evaluation | Comprehensive Genetic & Autoantibody Profiling | Identifies systemic complement regulation failure vs autoantibody drivers | Test for *CFH*, *CFI*, *CFHR* mutations and persistent $C3Nef$ autoantibodies |\n| Donor Selection |LRD if genetic variant present | Relatives may harbor subclinical complement gene mutations (*CFH/CFI*) |DD unless living donor genetically screened & negative |\n| Post-Transplant Monitoring | Protocol Allograft Biopsy & Urinalysis Monitoring | Early detection of subclinical C3 recurrence prior to irreversible damage | Monitor uPCR & dipstick monthly; Protocol biopsy at 3–6 months |\n|Autoantibody-Mediated |TPE + Immunosuppression | Removes circulating $C3Nef$ or anti-CFH autoantibodies; Reduces IgG synthesis | TPE sessions + Pulse Steroids / Rituximab / MMF |\n|Genetic / Refractory | Proximal / Terminal Complement Inhibitors | Inhibits alternative pathway hyperactivity in allograft microcirculation | Initiate Pegcetacoplan, Iptacoplan, or Eculizumab early upon recurrence |\n\n### 2. High-Yield Differential Comparison Table\n\n| Post-Transplant Disease |DDD Recurrence |C3GN Recurrence | Anti-GBM Disease Recurrence | IgA Nephropathy Recurrence |\n| --- | --- | --- | --- | --- |\n| Recurrence Rate in Allograft | **Extremely High (> 80%)** | High (50–70%) | Low (< 5–10% if circulating Anti-GBM negative) | Moderate (30–50%, usually indolent) |\n| Graft Loss Rate from Recurrence | High (~50% at 5 years) | Moderate-High (~30–40%) | High if active antibody present |Rare cause of early graft loss |\n| Primary Recurrence Risk Factor | Persistent high-titer $C3Nef$ & *CFH/CFI* genetic defects | *CFHR* gene mutations & persistent complement activation | Circulating Anti-GBM antibodies at time of transplant | High pre-transplant serum IgA levels |\n| Optimal Preventive Strategy | Pre-transplant complement profiling; Avoid living related donor without genetic clearance | Pre-transplant complement profiling; Early post-transplant complement inhibition | Postpone transplant until Anti-GBM antibody negative for > 6 months | Optimize RAS blockade post-transplant |\n\n### 3. Pathophysiological Decision Tree\n\nCandidate with End-ESKD due to C3G Evaluated for Kidney Transplantation ➔ Pre-Transplant Workup ➔ Perform Genetic Panel (*CFH, CFI, CFHR*) and Serology ($C3Nef$) ➔ High-Risk Profile Identified ➔ Advise Living Donor Genetic Clearance or Select Deceased Donor ➔ Post-Transplant Surveillance ➔ Monthly Urinalysis & uPCR Monitoring ➔ Onset of New Hematuria or Proteinuria >1 g/day ➔ Perform Early Allograft Kidney Biopsy ➔C3-dominant IF ➔ Autoantibody Driven ($C3Nef$) ➔TPE + Steroid/MMF Adjustment ➔ Genetic / Refractory Recurrence ➔Pegcetacoplan / Iptacoplan / Eculizumab.\n\n### 4. Conceptual Trap Analysis\n\n**Trap**: 認為 C3G 患者進入洗腎後，只要等待 1-Living Related Donor Transplant，不需要對捐贈者做基因檢測。\n**Analysis**: 這在腎臟移植中屬於高風險失誤！C3G 的基因突變（如 *CFH*, *CFI*, *CFHR* 重排）Autosomal DominantIncomplete Penetrance 的特性。患者的親屬（父母或兄弟姊妹）看似健康無腎臟病，但極可能帶有相同的致病性補體基因變異。若未經基因定序即盲目採取活體親屬捐腎，捐贈者可能在單腎狀態下誘發 C3G 或 HUS，且受者的移植腎復發率極高。因此，C3G 患者的親屬捐贈者 **100% 必須先進行完整的 Complement Genetic Screening**，確認完全未帶有相同基因變異後，方可考慮捐贈。",
+      "diagrams": [
+        {
+          "id": "c3g_transplant_recurrence_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/c3g_transplant_recurrence_ai.jpg",
+          "imagePath": "/server-data/assets/c3g_transplant_recurrence_ai.jpg",
+          "caption": "Kidney Transplant Recurrence Spectrum in Complement 3 Glomerulopathy (C3G): Risk Stratification, Allograft Monitoring, and Targeted Therapeutic Interventions."
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "Thiazide 類diuretic的核心作用部位為 Distal Convoluted Tubule (DCT，特別是 DCT1)，其分子標的為位於 Apical Membrane 的 Na+-Cl- Cotransporter (NCC)，對應基因名稱為 SLC12A3。Thiazide 藥物會競爭性結合至 NCC 的 Cl- 結合位點，進而阻斷 Na+ 與 Cl- 的等電位重吸收。B 為 Loop Diuretics (作用於 TAL 之 NKCC2)；C 為 Acetazolamide (作用於 PCT 之 CA II)；D 為 Amiloride / Triamterene (作用於 CCD 之 ENaC)。",
+      "sourceExplanation": "Thiazide 類diuretic的核心作用部位為 Distal Convoluted Tubule (DCT，特別是 DCT1)，其分子標的為位於 Apical Membrane 的 Na+-Cl-NCC，對應基因名稱為 SLC12A3。Thiazide 藥物會競爭性結合至 NCC 的 Cl- 結合位點，進而阻斷 Na+ 與 Cl- 的等電位重吸收。B 為 Loop Diuretics ；C 為 Acetazolamide ；D 為 Amiloride / Triamterene 。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -89,7 +89,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "解剖與功能上，DCT 可分為 DCT1 與 DCT2 兩段。DCT1 僅單純表現 Na+-Cl- Cotransporter (NCC)，因此其跨膜電位接近 0 mV (Electroneutral)；而 DCT2 則為過渡區，同時表現 NCC、ENaC 鈉通道以及鈣離子通道 TRPV5。因為 DCT2 表現 ENaC，使其呈現 Lumen-Negative 的電位差，並受 Aldosterone 的調控。A 錯在 NKCC2 僅表現於 TAL；B 電位敘述顛倒；D 醛固酮調控排鉀主戰場在 DCT2, CNT 及 CCD。",
+      "sourceExplanation": "解剖與功能上，DCT 可分為 DCT1 與 DCT2 兩段。DCT1 僅單純表現 Na+-Cl-NCC，Electroneutral；而 DCT2 則為過渡區，同時表現 NCC、ENaC 鈉通道以及鈣離子通道 TRPV5。因為 DCT2 表現 ENaC，使其呈現 Lumen-Negative 的電位差，並受 Aldosterone 的調控。A 錯在 NKCC2 僅表現於 TAL；B 電位敘述顛倒；D 醛固酮調控排鉀主戰場在 DCT2, CNT 及 CCD。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",
@@ -270,7 +270,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
-      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類diuretic (如 HCTZ) 因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone (以及部分高劑量 Chlorthalidone) 即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade Diuretic Resistance。",
+      "sourceExplanation": "當 eGFR < 30 mL/min/1.73 m² 時，多數 Thiazide 類diuretic  因無法有效分泌至小管腔內而失去利尿效果；然而 Metolazone  即使在 eGFR 10-20 mL/min 甚至更低時，依然保有強效的利尿與排鈉能力。Metolazone 亦具有近端小管作用，臨床上常用於與 Loop Diuretics 併用實施 Sequential Nephron Blockade Diuretic Resistance。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -330,7 +330,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "全基因體關聯研究 (GWAS, Ware et al. JCI 2017) 發現，Thiazide-Induced Hyponatremia (TIH) 的主要易感基因失能突變位於 SLCO2A1 (編碼 Prostaglandin Transporter, PGT)，特定變異位點為 A396T。攜帶此風險等位基因的患者在服用 Thiazide 後極易發生嚴重hyponatremia。A SLC12A3 為 NCC 基因；B AVPR2 為 V2 受體基因；D KCNJ1 為 ROMK 基因。",
+      "sourceExplanation": "全基因體關聯研究 (GWAS, Ware et al. JCI 2017) 發現，Thiazide-TIH 的主要易感基因失能突變位於 SLCO2A1 (編碼 Prostaglandin Transporter, PGT)，特定變異位點為 A396T。攜帶此風險等位基因的患者在服用 Thiazide 後極易發生嚴重hyponatremia。A SLC12A3 為 NCC 基因；B AVPR2 為 V2 受體基因；D KCNJ1 為 ROMK 基因。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_18",
@@ -390,7 +390,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "SLCO2A1 基因編碼 Prostaglandin Transporter (PGT)。在正常低 ADH 狀態下，集尿管頂膜的 PGT 會主動清除管腔內的 PGE2，使 AQP2 水通道維持在細胞內；當 SLCO2A1 突變導致 PGT 失能時，管腔內積聚過量的 PGE2，持續刺激 Apical EP4 受體，誘發 ADH-independent 的 Aquaporin-2 (AQP2) 移位並插入細胞膜，導致水份非適當重吸收，TIH。",
+      "sourceExplanation": "PGT。在正常低 ADH 狀態下，集尿管頂膜的 PGT 會主動清除管腔內的 PGE2，使 AQP2 水通道維持在細胞內；當 SLCO2A1 突變導致 PGT 失能時，管腔內積聚過量的 PGE2，持續刺激 Apical EP4 受體，誘發 ADH-independent 的 Aquaporin-AQP2 移位並插入細胞膜，導致水份非適當重吸收，TIH。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_19",
@@ -574,7 +574,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
-      "sourceExplanation": "治療 TIH 的核心原則為：(1) 立即停用 Thiazide 藥物；(2) 積極補充電解質 (特別是 KCl)。補充 K+ 可使移入細胞內的 Na+ 重新移回血漿，迅速提升血清鈉濃度。若未矯正缺鉀，Option B Option A 無法維持血鈉矯正成果。",
+      "sourceExplanation": "治療 TIH 的核心原則為：(1) 立即停用 Thiazide 藥物；(2) 積極補充電解質 。補充 K+ 可使移入細胞內的 Na+ 重新移回血漿，迅速提升血清鈉濃度。若未矯正缺鉀，Option B Option A 無法維持血鈉矯正成果。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_20",
@@ -1054,7 +1054,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
-      "sourceExplanation": "Gitelman Syndrome 為 SLC12A3 (NCC 基因) 的體隱性失能突變，其臨床表徵（hypokalemia、低血鎂、低尿鈣、代謝性鹼中毒、正常或偏低血壓）與使用 Thiazide 完全相同，因此 Thiazide 作用常被稱為 Gitelman Phenocopy。本例患者尿液diuretic篩檢為陰性，且基因檢測證實 SLC12A3 突變，故診斷為 Gitelman Syndrome。A Bartter 為 NKCC2/ROMK/ClC-Kb 突變，呈現 Hypercalciuria；D Gordon 為 WNK1/4 突變，呈現高血壓與hyperkalemia。",
+      "sourceExplanation": "Gitelman Syndrome 為 SLC12A3  的體隱性失能突變，其臨床表徵（hypokalemia、低血鎂、低尿鈣、代謝性鹼中毒、正常或偏低血壓）與使用 Thiazide 完全相同，因此 Thiazide 作用常被稱為 Gitelman Phenocopy。本例患者尿液diuretic篩檢為陰性，且基因檢測證實 SLC12A3 突變，故診斷為 Gitelman Syndrome。A Bartter 為 NKCC2/ROMK/ClC-Kb 突變，呈現 Hypercalciuria；D Gordon 為 WNK1/4 突變，呈現高血壓與hyperkalemia。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_9",

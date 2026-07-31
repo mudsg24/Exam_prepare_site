@@ -1,0 +1,82 @@
+{
+  "paperId": "2026_CMV_infection_(主題備考)",
+  "title": "2026 CMV infection (主題備考)",
+  "sections": [
+    {
+      "id": "sec-01",
+      "title": "Topology Mapping Matrix: CMV Virology & Risk Pathway",
+      "content": "###Topology Mapping Matrix\n\nCytomegalovirus 屬於 Herpesviridae 家族，是一種 dsDNA 病毒。在腎臟移植受贈者中，CMV Infection 是最常見且最具影響力的 Opportunistic Infection 之一。Serostatus 以及 Immunosuppressive Therapy 強度的雙重影響。\n\n#### 風險分級陣列\n- **High Risk (D+/R-)**：Donor 具有潛伏的 CMV 病毒，而 Recipient 為血清學陰性，缺乏 pre-existing immunity。此類病患在移植後發生 Primary CMV Infection 的機率與嚴重度最高，強烈建議進行 Universal Prophylaxis。\n- **Intermediate Risk (D+/R+, D-/R+)**：Reactivation risk 或面臨 Superinfection。通常表現為 Secondary Infection，預後較 Primary Infection 佳，但仍需視 Induction Therapy 的強度 (如使用 Anti-thymocyte Globulin) 來決定預防策略。\n- **D-/R-**：雙方皆未曾感染，主要風險來自於輸注未經 Leukoreduction 的血液製品。若未使用高風險免疫抑制劑，通常僅需 Clinical Monitoring。\n\n#### 病毒活化機制\n病毒的 Reactivation 受到免疫系統壓制的觸發，特別是 T-cell Mediated Immunity 受到嚴重削弱時。病毒會在 Myeloid Progenitor Cells 中潛伏，並在分化為 Macrophages 或 Dendritic Cells 時活化，進而引發 Systemic Viremia 甚至 Tissue Invasive Disease。",
+      "diagrams": [
+        {
+          "id": "diag-1-1",
+          "relPath": "/server-data/assets/ajkd_cmv_fig3.png",
+          "imagePath": "/server-data/assets/ajkd_cmv_fig3.png",
+          "caption": "CMV Virology & Risk Pathway Micrograph",
+          "sourceBook": "AJKD Atlas of Renal Pathology",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag-1-2",
+          "relPath": "/server-data/assets/cmv_virology_risk_pathway.jpg",
+          "imagePath": "/server-data/assets/cmv_virology_risk_pathway.jpg",
+          "caption": "CMV Virology & Risk Pathway Overview",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec-02",
+      "title": "High-Yield Differential Comparison Table: CMV Organ Invasiveness Spectrum",
+      "content": "###High-Yield Differential Comparison Table\n\nCMV 感染可分為無症狀的 CMV Infection  與伴隨器官受損的 CMV Syndrome 或 Tissue Invasive Disease。不同器官的侵犯表現與診斷標準需嚴格區分。\n\n| Clinical Entity | Characteristics & Organ Involvement | Diagnostic Hallmarks |\n| :--- | :--- | :--- |\n| **CMV Syndrome** | 全身性非特異性症狀：Fever, Malaise, Leukopenia, Thrombocytopenia, Atypical Lymphocytosis。無特定器官受損證據。 |Quantitative NAT 加上典型臨床症狀，排除其他細菌或真菌感染。 |\n| **Gastrointestinal Disease** | Colitis, Esophagitis。表現為 Diarrhea, Abdominal Pain, Gastrointestinal Bleeding, Ulceration。 | Endoscopy 發現 Ulcers；Biopsy 組織學可見 Cytomegaly 與 Owl's Eye Inclusion。 |\n| **Pneumonitis** | Interstitial Infiltrates, Hypoxia, Cough, Dyspnea。在腎臟移植中相對少見，但致死率高。 | Bronchoalveolar Lavage 檢測到病毒，Ground Glass Opacities 及組織切片證據。 |\n| **Hepatitis / Nephritis** | Elevated Liver Enzymes / Graft Dysfunction。在移植腎上可能表現為 Tubulointerstitial Nephritis。 | Biopsy 確診，血清病毒量不一定與器官受損程度完全平行。 |\n| **Retinitis** | 視力模糊、飛蚊症、視野缺損。通常發生在免疫抑制極度嚴重的晚期病患。 |Pizza Pie Retinopathy。 |\n\n#### 臨床應用重點\n判斷 Tissue Invasive Disease 必須具備 Organ Dysfunction 的臨床證據，並且強烈建議結合 Tissue Biopsy 找出病毒實質破壞組織的病理證據，不能單靠 Blood Quantitative NAT 來確診器官侵犯。",
+      "diagrams": [
+        {
+          "id": "diag-2-2",
+          "relPath": "/server-data/assets/cmv_organ_invasiveness_spectrum.jpg",
+          "imagePath": "/server-data/assets/cmv_organ_invasiveness_spectrum.jpg",
+          "caption": "CMV Organ Invasiveness Spectrum Overview",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec-03",
+      "title": "Pathophysiological Decision Tree: Diagnostic Algorithm & Histopathology",
+      "content": "###Pathophysiological Decision Tree\n\n針對移植術後發燒或肝腎功能異常的患者，CMV 診斷策略應依循嚴謹的 Decision Tree，結合 Molecular Diagnostics 與 Histopathology。\n\n#### 診斷決策流程\n1. **Screening & Baseline Evaluation**：\n   - 定期監測：利用 Quantitative NAT 測量 Plasma 或 Whole Blood 中的 CMV DNA load。相較於早期的 PP65 Antigenemia，NAT 具備更高的 Sensitivity 與 Reproducibility。\n   - 閾值判定：若病毒量超過 Threshold ，需進行 Clinical Assessment。\n2. **Clinical Syndromic Differentiation**：\n   -Asymptomatic Viremia：考慮 Pre-emptive Therapy 或調整 Immunosuppressive Therapy。\n   - 具備 CMV Syndrome：啟動 Antiviral Therapy。\n   - 懷疑 Tissue Invasive Disease：進入下一步侵入性檢查。\n3. **Histopathology**：\n   - 執行 Endoscopy 取得 Gastrointestinal Mucosa 或 Ultrasound-guided Renal Allograft Biopsy。\n   - 尋找標誌性病理特徵：Cytomegaly，並伴隨嗜酸性的 Intranuclear Inclusions，即典型的 Owl's Eye Inclusion。\n   - 輔助染色：IHC 針對 CMV Early Antigens 進行特異性標記，以提高 Sensitivity。\n\n#### 鑑別診斷機轉\n在 Graft Biopsy 中，Polyomavirus 進行區別。BKV 影響 Tubular Epithelial Cells 產生不同型態的 Inclusions ，而 CMV 則傾向影響 Endothelial Cells 與 Tubular Cells，且伴隨不同程度的 Microvascular Inflammation。",
+      "diagrams": [
+        {
+          "id": "diag-3-1",
+          "relPath": "/server-data/assets/bkvn_sv40_histopathology_tcmr.jpg",
+          "imagePath": "/server-data/assets/bkvn_sv40_histopathology_tcmr.jpg",
+          "caption": "CMV vs BKV Histopathology Micrograph",
+          "sourceBook": "Brenner & Rector 11e / BK & CMV Differential",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag-3-2",
+          "relPath": "/server-data/assets/cmv_diagnostic_algorithm_owls_eye.jpg",
+          "imagePath": "/server-data/assets/cmv_diagnostic_algorithm_owls_eye.jpg",
+          "caption": "Diagnostic Algorithm & Histopathology Overview",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec-04",
+      "title": "Conceptual Trap Analysis: Antiviral Therapeutics & Resistance",
+      "content": "###Conceptual Trap Analysis\n\n在 CMV 治療中，抗病毒藥物的選擇、劑量調整以及抗藥性的判斷是臨床決策中最常出現陷阱的領域。\n\n#### 治療策略與藥理陷阱\n- **First-line Therapy**：Valganciclovir  與 Ganciclovir  是首選。兩者皆需經過病毒的 Ul97 Kinase 進行初次磷酸化，隨後抑制病毒的 Ul54 DNA Polymerase。\n- **Trap 1: Renal Dosing**：兩者皆由腎臟排泄，必須根據 Glomerular Filtration Rate 嚴格進行 Dose Adjustment。忽略劑量調整會導致嚴重的 Bone Marrow Suppression (如 Leukopenia, Neutropenia)。\n- **Trap 2: Prophylaxis vs Pre-emptive**：Universal Prophylaxis 雖然能有效降低早期 CMV 發病率，但可能會延遲 Late-onset CMV Disease 的發生；而 Pre-emptive Therapy 則依賴頻繁的 NAT 監控，需極高的 Patient Compliance。\n\n####Antiviral Resistance 的研判\n- **Suspected Resistance**：若在使用適當劑量與療程的 Ganciclovir 治療超過兩週後，血清病毒量不降反升或症狀無改善，應高度懷疑 Resistance。\n- **Genotypic Testing**：確認是否發生 Ul97 Kinase Mutation  或 Ul54 DNA Polymerase Mutation (引發 Cross-resistance)。\n- **Trap 3: Alternative Agents**：\n  - Foscarnet：直接抑制 DNA Polymerase，不依賴 Ul97。主要副作用為嚴重的 Nephrotoxicity 與 Electrolyte Imbalance (如 Hypocalcemia, Hypomagnesemia)。\n  - Maribavir：針對 Ul97 Kinase，為 Refractory/Resistant CMV 的新選擇。\n  - Letermovir：針對 CMV Terminase Complex，主要用於 Prophylaxis，缺乏治療 Established Disease 的充分數據，不可誤用於 Active Infection 的治療。\n- **Management Rule**：在處理抗藥性或難治型 CMV 時，首要步驟永遠是盡可能降低 Immunosuppressive Therapy 的強度 。",
+      "diagrams": [
+        {
+          "id": "diag-4-2",
+          "relPath": "/server-data/assets/cmv_antiviral_therapeutics_resistance.jpg",
+          "imagePath": "/server-data/assets/cmv_antiviral_therapeutics_resistance.jpg",
+          "caption": "CMV Antiviral Therapeutics & Resistance Overview",
+          "sourceBook": "Gemini AI Masterclass Diagram",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

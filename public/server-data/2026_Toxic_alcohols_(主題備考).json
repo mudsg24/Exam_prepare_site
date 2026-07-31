@@ -29,7 +29,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Calculated Serum Osmolality 計算公式為 2 * Na + Glucose / 18 + BUN / 2.8。帶入數據：2 * 140 + 90 / 18 + 14 / 2.8 = 280 + 5 + 5 = 290 mOsm/kg H2O。Measured Serum Osmolality 為 340 mOsm/kg H2O，因此 Serum Osmolal Gap = 340 - 290 = 50 mOsm/kg H2O。正常的 Osmolal Gap 通常 <= 10 mOsm/kg H2O，顯著升高的 Osmolal Gap 強烈提示血中存在大量未被常規生化測量的 low-molecular-weight osmotically active substances (如 Ethylene Glycol 或 Methanol)。",
+      "sourceExplanation": "Calculated Serum Osmolality 計算公式為 2 * Na + Glucose / 18 + BUN / 2.8。帶入數據：2 * 140 + 90 / 18 + 14 / 2.8 = 280 + 5 + 5 = 290 mOsm/kg H2O。Measured Serum Osmolality 為 340 mOsm/kg H2O，因此 Serum Osmolal Gap = 340 - 290 = 50 mOsm/kg H2O。正常的 Osmolal Gap 通常 <= 10 mOsm/kg H2O，顯著升高的 Osmolal Gap 強烈提示血中存在大量未被常規生化測量的 low-molecular-weight osmotically active substances 。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_67_4",
@@ -92,7 +92,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Methanol 在體內首先經由 Alcohol Dehydrogenase (ADH) 代謝為 Formaldehyde，隨後迅速經由 ALDH 轉化為 Formic Acid。Formic Acid 會強烈抑制 mitochondrial respiratory chain 中的 Cytochrome c Oxidase (Complex IV)，阻斷 ATP 合成並引發 cellular hypoxia 與重度 High Anion Gap Metabolic Acidosis (HAGMA)。",
+      "sourceExplanation": "ADH 代謝為 Formaldehyde，隨後迅速經由 ALDH 轉化為 Formic Acid。Complex IV，HAGMA。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_67_4",
@@ -210,7 +210,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Ethylene Glycol 在體內經 ADH 代謝為 Glycoaldehyde，再經 ALDH 迅速轉化為 Glycolic Acid。Glycolic Acid 轉化為 Glyoxylic Acid 是整個代謝途徑的 Rate-limiting Step，因此 Glycolic Acid 會大量蓄積，成為引發重度 High Anion Gap Metabolic Acidosis (HAGMA) 的主要有機酸。",
+      "sourceExplanation": "Ethylene Glycol 在體內經 ADH 代謝為 Glycoaldehyde，再經 ALDH 迅速轉化為 Glycolic Acid。Glycolic Acid 轉化為 Glyoxylic Acid 是整個代謝途徑的 Rate-limiting Step，因此 Glycolic Acid 會大量蓄積，HAGMA 的主要有機酸。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_67_4",
@@ -336,7 +336,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Ethylene Glycol poisoning 治療中，補充 Thiamine (Vitamin B1) 可促進 Glyoxylic Acid 轉化為非毒性的 α-hydroxy-β-ketoadipate；補充 Pyridoxine (Vitamin B6) 可促進 transamination 將 Glyoxylic Acid 轉化為 Glycine。這兩種 vitamin cofactors 協同將代謝流由 Toxic Oxalic Acid 轉移至無害產物。",
+      "sourceExplanation": "在 Ethylene Glycol poisoning 治療中，Vitamin B1 可促進 Glyoxylic Acid 轉化為非毒性的 α-hydroxy-β-ketoadipate；Vitamin B6 可促進 transamination 將 Glyoxylic Acid 轉化為 Glycine。這兩種 vitamin cofactors 協同將代謝流由 Toxic Oxalic Acid 轉移至無害產物。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -390,7 +390,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Formic Acid 在人體的清除依賴 10-formyl THF synthetase 及 formyl THF dehydrogenase 途徑。給予 Folinic Acid 或 Folic Acid (50 mg IV q6h) 能充實體內 Tetrahydrofolate pool，加速劇毒物 Formic Acid 氧化分解為 CO2 與 H2O，減輕 optic nerve 與 organ toxicity。",
+      "sourceExplanation": "Formic Acid 在人體的清除依賴 10-formyl THF synthetase 及 formyl THF dehydrogenase 途徑。50 mg IV q6h 能充實體內 Tetrahydrofolate pool，加速劇毒物 Formic Acid 氧化分解為 CO2 與 H2O，減輕 optic nerve 與 organ toxicity。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -506,7 +506,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Propylene Glycol 常被用作靜脈注射 Lorazepam、Diazepam、Nitroglycerin 等藥物的 Solvent / Vehicle。在 ICU 長期或高劑量輸注 Lorazepam 時，Propylene Glycol 蓄積並經 ADH 代謝為 L-lactate 與 D-lactate，造成典型 iatrogenic Lactic Acidosis (HAGMA) + High Osmolal Gap + AKI。",
+      "sourceExplanation": "Propylene Glycol 常被用作靜脈注射 Lorazepam、Diazepam、Nitroglycerin 等藥物的 Solvent / Vehicle。在 ICU 長期或高劑量輸注 Lorazepam 時，Propylene Glycol 蓄積並經 ADH 代謝為 L-lactate 與 D-lactate，HAGMA + High Osmolal Gap + AKI。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -560,7 +560,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Diethylene Glycol 歷史上常因 counterfeit cough syrups 或 ointment solvent 引發 mass poisoning outbreaks。經 ADH 代謝產物 2-hydroxyethoxyacetic acid (HEAA) 具有極強 nephrotoxicity 與 neurotoxicity，導致 severe oliguric Acute Tubular Necrosis (ATN)、hepatotoxicity 與 Cranial / Peripheral Polyneuropathies。",
+      "sourceExplanation": "Diethylene Glycol 歷史上常因 counterfeit cough syrups 或 ointment solvent 引發 mass poisoning outbreaks。經 ADH 代謝產物 2-HEAA 具有極強 nephrotoxicity 與 neurotoxicity，ATN、hepatotoxicity 與 Cranial / Peripheral Polyneuropathies。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -615,7 +615,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Fomepizole (4-MP) 為 Alcohol Dehydrogenase (ADH) 的 potent competitive inhibitor，其與 ADH 的 affinity 約為 Ethanol 的 8000 倍。與傳統 antidote Ethanol 相比，Fomepizole 不會引起 CNS depression 或 Hypoglycemia，且 blood concentration 穩定好控制。",
+      "sourceExplanation": "4-MPADH 的 potent competitive inhibitor，其與 ADH 的 affinity 約為 Ethanol 的 8000 倍。與傳統 antidote Ethanol 相比，Fomepizole 不會引起 CNS depression 或 Hypoglycemia，且 blood concentration 穩定好控制。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_67_6",
@@ -678,7 +678,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Fomepizole 標準 dosing protocol：Loading dose 15 mg/kg IV，隨後前 4 次給予 10 mg/kg q12h。48 hours 後 (第 5 次 dose 起)，由於 Fomepizole 會 auto-induce 自身在 liver 的 Cytochrome P450 metabolism，因此 maintenance dose 必須調高至 15 mg/kg q12h，直到 serum toxic alcohol level 降至安全範圍 (< 20 mg/dL)。",
+      "sourceExplanation": "Fomepizole 標準 dosing protocol：Loading dose 15 mg/kg IV，隨後前 4 次給予 10 mg/kg q12h。48 hours 後 ，由於 Fomepizole 會 auto-induce 自身在 liver 的 Cytochrome P450 metabolism，因此 maintenance dose 必須調高至 15 mg/kg q12h，直到 serum toxic alcohol level 降至安全範圍 (< 20 mg/dL)。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_67_6",
@@ -741,7 +741,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Fomepizole molecular weight 小且 protein binding 低，在進行 Intermittent Hemodialysis (IHD) 時會被 dialyzer 高效 clearance！為了維持血中足夠的 ADH inhibition concentration，IHD 期間 Fomepizole 的 dosing frequency 必須調高至每 4 hours q4h 或改為 continuous infusion 1.0-1.5 mg/kg/h。",
+      "sourceExplanation": "Fomepizole molecular weight 小且 protein binding 低，IHD 時會被 dialyzer 高效 clearance！為了維持血中足夠的 ADH inhibition concentration，IHD 期間 Fomepizole 的 dosing frequency 必須調高至每 4 hours q4h 或改為 continuous infusion 1.0-1.5 mg/kg/h。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_67_6",
@@ -803,7 +803,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 EXTRIP guidelines，Methanol intoxication 啟動緊急 Intermittent Hemodialysis (IHD) 的主要 indications 包括：(1) serum Methanol concentration > 50 mg/dL (15.6 mmol/L)；(2) 存在 severe metabolic acidosis (arterial pH < 7.25)；(3) 出現 target organ damage (如 visual impairment / optic disc edema) 或 AKI。",
+      "sourceExplanation": "根據 EXTRIP guidelines，IHD 的主要 indications 包括：(1) serum Methanol concentration > 50 mg/dL (15.6 mmol/L)；(2) 存在 severe metabolic acidosis (arterial pH < 7.25)；(3) 出現 target organ damage (如 visual impairment / optic disc edema) 或 AKI。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_67_3",
@@ -866,7 +866,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Ethylene Glycol 或 Methanol intoxication 臨床處置中，若 emergency department 缺乏 Fomepizole，絕對不可單純給予 Bicarbonate supportive therapy 拖延。當 toxic alcohol level > 50 mg/dL、存在 severe metabolic acidosis (pH < 7.25) 或 AKI 時，無論 antidote 是否到位，皆應**立即啟動 Intermittent Hemodialysis (IHD)** 以清除體內 toxins 與 metabolic acids。",
+      "sourceExplanation": "在 Ethylene Glycol 或 Methanol intoxication 臨床處置中，若 emergency department 缺乏 Fomepizole，絕對不可單純給予 Bicarbonate supportive therapy 拖延。當 toxic alcohol level > 50 mg/dL、存在 severe metabolic acidosis (pH < 7.25) 或 AKI 時，無論 antidote 是否到位，皆應**IHD** 以清除體內 toxins 與 metabolic acids。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -920,7 +920,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Toxic Alcohol intoxication 晚期 (如攝入後 24 hours)，未帶電荷且貢獻 Osmolal Gap 的 parent Methanol 已幾乎完全被 ADH/ALDH 代謝轉化為帶負電荷的 Formic Acid。parent alcohol 減少使 **Osmolal Gap 恢復正常**，而 Formate anions 蓄積使 **Anion Gap 攀升**。這證明正常 Osmolal Gap 不能排除 late presentation 的 intoxication。",
+      "sourceExplanation": "在 Toxic Alcohol intoxication 晚期 ，未帶電荷且貢獻 Osmolal Gap 的 parent Methanol 已幾乎完全被 ADH/ALDH 代謝轉化為帶負電荷的 Formic Acid。parent alcohol 減少使 **Osmolal Gap 恢復正常**，而 Formate anions 蓄積使 **Anion Gap 攀升**。這證明正常 Osmolal Gap 不能排除 late presentation 的 intoxication。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -975,7 +975,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "輕度升高的 Osmolal Gap (10-20 mOsm/kg H2O) 可見於 Alcoholic Ketoacidosis (AKA)、Diabetic Ketoacidosis (DKA)、Severe Lactic Acidosis 或 End-Stage Renal Disease，這是由於內源性 Glycerol, Acetone, Amino acids 等微量 osmotically active particles 蓄積所致。但 Toxic Alcohol Poisoning 引發的 Osmolal Gap 通常顯著高於此範圍 (> 20-50+ mOsm/kg H2O)。",
+      "sourceExplanation": "10-20 mOsm/kg H2OAKA、DKA、Severe Lactic Acidosis 或 End-Stage Renal Disease，這是由於內源性 Glycerol, Acetone, Amino acids 等微量 osmotically active particles 蓄積所致。但 Toxic Alcohol Poisoning 引發的 Osmolal Gap 通常顯著高於此範圍 (> 20-50+ mOsm/kg H2O)。",
       "resolvedImages": [
         {
           "id": "Brenner_Flow_Chart_24_15",
@@ -1093,7 +1093,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Ethylene Glycol intoxication 過後 5-14 天，部分倖存患者可能出現遲發性 **Cranial Polyneuropathies**，其中最典型的是 Facial Diplegia (CN VII) 以及 dysphagia (CN IX, X)。這是由於 Calcium Oxalate crystals 微血管沉積與 Glycolate 導引的 axonal degeneration 所致。",
+      "sourceExplanation": "Ethylene Glycol intoxication 過後 5-14 天，部分倖存患者可能出現遲發性 **Cranial Polyneuropathies**，CN VII 以及 dysphagia (CN IX, X)。這是由於 Calcium Oxalate crystals 微血管沉積與 Glycolate 導引的 axonal degeneration 所致。",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1148,7 +1148,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "理想的 dialytic clearance toxicokinetic properties 包含：low molecular weight (MW < 100 Da), zero protein binding (0%), small volume of distribution (Vd < 0.6 L/kg) 以及 high water solubility。Methanol (32 Da) 與 Ethylene Glycol (62 Da) 完全符合這些條件，因此 **Intermittent Hemodialysis (IHD)** 的 diffusive clearance 遠高於 CRRT，為首選 dialytic clearance mode。",
+      "sourceExplanation": "理想的 dialytic clearance toxicokinetic properties 包含：low molecular weight (MW < 100 Da), zero protein binding (0%), small volume of distribution (Vd < 0.6 L/kg) 以及 high water solubility。32 Da62 Da 完全符合這些條件，因此 **IHD** 的 diffusive clearance 遠高於 CRRT，為首選 dialytic clearance mode。",
       "resolvedImages": [
         {
           "id": "Brenner_Table_67_3",

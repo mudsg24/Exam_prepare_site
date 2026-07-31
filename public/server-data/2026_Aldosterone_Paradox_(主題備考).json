@@ -257,7 +257,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Acute K+ Loading 時，為了迅速將鈉負載轉移至遠端以排鉀，NCC 必須被快速去磷酸化而失去活性。此過程涉及磷酸酶如 Calcineurin (PP3) 及 PP2A 的活化，同時 GILZ 等調節蛋白的參與也有助於 NCC 的去磷酸化與失活。",
+      "sourceExplanation": "在 Acute K+ Loading 時，為了迅速將鈉負載轉移至遠端以排鉀，NCC 必須被快速去磷酸化而失去活性。PP3 及 PP2A 的活化，同時 GILZ 等調節蛋白的參與也有助於 NCC 的去磷酸化與失活。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -371,7 +371,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 CCD 中，Type B Intercalated Cells 透過 apical membrane 的 Pendrin (SLC26A4) 執行 Cl-/HCO3- exchange，與 SLC4A8 (NDCBE) 執行 Na+-dependent Cl-/HCO3- exchange 協同運作，達成 Electroneutral NaCl Reabsorption。因為此過程不產生跨膜電位差 lumen-negative potential，故不會驅使 K+ 透過 ROMK 流失。",
+      "sourceExplanation": "在 CCD 中，SLC26A4 執行 Cl-/HCO3- exchange，NDCBE 執行 Na+-dependent Cl-/HCO3- exchange 協同運作，達成 Electroneutral NaCl Reabsorption。因為此過程不產生跨膜電位差 lumen-negative potential，故不會驅使 K+ 透過 ROMK 流失。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_21",
@@ -485,7 +485,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "Gordon Syndrome (FHHt) 的病理機轉為 NCC 過度活化。因此，這類患者對極低劑量的 Thiazides 展現 exquisite sensitivity，使用 Thiazides 能迅速且有效地矯正其 hypertension 與 hyperkalemia。Fludrocortisone 無效且可能惡化 hypertension。",
+      "sourceExplanation": "FHHt 的病理機轉為 NCC 過度活化。因此，這類患者對極低劑量的 Thiazides 展現 exquisite sensitivity，使用 Thiazides 能迅速且有效地矯正其 hypertension 與 hyperkalemia。Fludrocortisone 無效且可能惡化 hypertension。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_50_13",
@@ -599,7 +599,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Potassium Restriction 時，為了減少 K+ 流失，ROMK 必須從 apical membrane 移除。此過程受 non-receptor tyrosine kinases (such as c-Src and c-Yes) 調控；這些激酶將 ROMK 磷酸化後，會誘發 ROMK endocytosis，從而降低 K+ excretion。",
+      "sourceExplanation": "在 Potassium Restriction 時，為了減少 K+ 流失，ROMK 必須從 apical membrane 移除。此過程受 non-such as c-Src and c-Yes 調控；這些激酶將 ROMK 磷酸化後，會誘發 ROMK endocytosis，從而降低 K+ excretion。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_23",
@@ -770,7 +770,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "在 Primary Hyperaldosteronism (such as Conn Syndrome) 中，患者通常呈現 volume expansion，使得 proximal tubule 的 Na+ reabsorption 減少，大量 Na+ 流向 distal nephron，加上 Aldosterone 活化 ENaC 產生強大的 lumen-negative potential，造成嚴重 hypokalemia。相反地，在 Heart Failure 引起的 Secondary Hyperaldosteronism 時，Effective Arterial Blood Volume (EABV) 降低，proximal tubule 的 Na+ reabsorption 極高，導致 decreased distal delivery of sodium，因此即使 Aldosterone 顯著升高，也無法產生足夠電位差驅動 K+ wasting。",
+      "sourceExplanation": "such as Conn Syndrome 中，患者通常呈現 volume expansion，使得 proximal tubule 的 Na+ reabsorption 減少，大量 Na+ 流向 distal nephron，加上 Aldosterone 活化 ENaC 產生強大的 lumen-negative potential，造成嚴重 hypokalemia。相反地，在 Heart Failure 引起的 Secondary Hyperaldosteronism 時，EABV 降低，proximal tubule 的 Na+ reabsorption 極高，導致 decreased distal delivery of sodium，因此即使 Aldosterone 顯著升高，也無法產生足夠電位差驅動 K+ wasting。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_12_1",
@@ -941,7 +941,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceProvidedAnswerReason": "",
-      "sourceExplanation": "長期使用 Thiazides 或 NCC gene knockout (such as Gitelman Syndrome model) 會導致 DCT 萎縮與功能低下。作為代償，更遠端節段如 CNT 與 CCD 會發生 hypertrophy，且 ENaC 的表現量發生 upregulation，以試圖回收流失的 Na+。這種 intersegmental crosstalk 是造成長期 diuretic resistance 的主因之一。",
+      "sourceExplanation": "such as Gitelman Syndrome model 會導致 DCT 萎縮與功能低下。作為代償，更遠端節段如 CNT 與 CCD 會發生 hypertrophy，且 ENaC 的表現量發生 upregulation，以試圖回收流失的 Na+。這種 intersegmental crosstalk 是造成長期 diuretic resistance 的主因之一。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_6_19",

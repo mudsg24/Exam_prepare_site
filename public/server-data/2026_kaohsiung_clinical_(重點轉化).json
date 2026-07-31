@@ -445,7 +445,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "在 Percutaneous Renal Biopsy 的禁忌症中，uncorrectable bleeding diathesis 與 uncontrolled hypertension 通常被視為 absolute contraindications。而 solitary kidney、anatomical anomalies (如 Horseshoe Kidney) 以及 active pyelonephritis 等多被歸類為 relative contraindications，在經評估風險與效益後仍可考慮執行。",
+      "sourceExplanation": "在 Percutaneous Renal Biopsy 的禁忌症中，uncorrectable bleeding diathesis 與 uncontrolled hypertension 通常被視為 absolute contraindications。而 solitary kidney、anatomical anomalies  以及 active pyelonephritis 等多被歸類為 relative contraindications，在經評估風險與效益後仍可考慮執行。",
       "resolvedImages": [
         {
           "caption": "Clinical case image for Question 8",
@@ -506,7 +506,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "這位病患表現出 Encapsulating Peritoneal Sclerosis (EPS) 的典型 radiologic diagnosis 特徵，包含 peritoneal calcification 與 bowel cocooning。在眾多 risk factors 中，最關鍵的是 Peritoneal Dialysis (PD) vintage 超過 5 至 8 年，長期暴露於高濃度 glucose 以及曾經暴露於 chlorhexidine 等都會增加發生率。",
+      "sourceExplanation": "EPS 的典型 radiologic diagnosis 特徵，包含 peritoneal calcification 與 bowel cocooning。在眾多 risk factors 中，PD vintage 超過 5 至 8 年，長期暴露於高濃度 glucose 以及曾經暴露於 chlorhexidine 等都會增加發生率。",
       "resolvedImages": [
         {
           "caption": "Clinical case image for Question 9",
@@ -567,7 +567,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "針對 Encapsulating Peritoneal Sclerosis (EPS) 的 management，首要步驟是停止 PD 並 transition to Hemodialysis (HD)。Pharmacotherapy 方面，常使用 Tamoxifen、Corticosteroids 與 Immunosuppressants 來抑制發炎與纖維化。若發生嚴重的 bowel obstruction，則需要考慮外科的 surgical enterolysis。",
+      "sourceExplanation": "EPS 的 management，HD。Pharmacotherapy 方面，常使用 Tamoxifen、Corticosteroids 與 Immunosuppressants 來抑制發炎與纖維化。若發生嚴重的 bowel obstruction，則需要考慮外科的 surgical enterolysis。",
       "resolvedImages": [
         {
           "caption": "Clinical case image for Question 10",
@@ -872,7 +872,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "本題探討 Tuberous Sclerosis Complex (TSC) 之腎臟 Angiomyolipomas (AMLs) 臨床特徵與內分泌反應。根據 Brenner & Rector's The Kidney (11th ed, Ch 45)，TSC 相關之 AMLs 富含 Estrogen 與 Progesterone Receptors，因此在女性、懷孕期間或接受 Estrogen 治療時，腫瘤體積會加速顯著增大，且 Retroperitoneal Hemorrhage 風險急劇上升。Option B 錯誤，因為在整體與兒童 TSC 患者中，Central Nervous System (CNS) 病變（如癲癇、SEGA）才是第一大死因，Renal Involvement 居第二；Option C 錯誤，對於無症狀之 AML，首選為觀察追蹤或使用 mTOR Inhibitors (Everolimus)，非直接執行全腎切除；Option D 錯誤，AMLs 為良性 PEComas 錯構瘤，非惡性 Renal Cell Carcinoma (RCC)。",
+      "sourceExplanation": "TSCAMLs 臨床特徵與內分泌反應。根據 Brenner & Rector's The Kidney (11th ed, Ch 45)，TSC 相關之 AMLs 富含 Estrogen 與 Progesterone Receptors，因此在女性、懷孕期間或接受 Estrogen 治療時，腫瘤體積會加速顯著增大，且 Retroperitoneal Hemorrhage 風險急劇上升。Option B 錯誤，因為在整體與兒童 TSC 患者中，CNS 病變（如癲癇、SEGA）才是第一大死因，Renal Involvement 居第二；Option C 錯誤，對於無症狀之 AML，Everolimus，非直接執行全腎切除；Option D 錯誤，AMLs 為良性 PEComas 錯構瘤，RCC。",
       "resolvedImages": [
         {
           "caption": "Clinical case image for Question 15",
@@ -994,7 +994,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
-      "sourceExplanation": "該病患呈現 FHHNC 的典型特徵，並合併 Severe Myopia 與 Macular Coloboma 等 Ocular Abnormalities。FHHNC 是一種 Autosomal Recessive 遺傳疾病。若僅有 Renal Manifestations，通常為 CLDN16 (Paracellin-1) Mutation 引起；若合併 Ocular Abnormalities，則分類為 Type 2，最可能為 CLDN19 Mutation。",
+      "sourceExplanation": "該病患呈現 FHHNC 的典型特徵，並合併 Severe Myopia 與 Macular Coloboma 等 Ocular Abnormalities。FHHNC 是一種 Autosomal Recessive 遺傳疾病。若僅有 Renal Manifestations，Paracellin-1 Mutation 引起；若合併 Ocular Abnormalities，則分類為 Type 2，最可能為 CLDN19 Mutation。",
       "resolvedImages": [],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",

@@ -35,7 +35,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "原發性Membranous NephropathyPrimary Membranous Nephropathy 最主要的 Target Autoantigen 為 M-type Phospholipase A2 Receptor (PLA2R)，占約 70-80%。typical Immunofluorescence (IF) 呈現極為特異的 Diffuse Granular Capillary Wall 沉積，且 Immunoglobulin Subclass 以 IgG4 及 C3 為主。相反地，Secondary MN (如 Solid Tumor 或 Lupus Class V) 則常呈現 IgG1/IgG2 沉積或 Full-house (C1q (+)) 沉積。",
+      "sourceExplanation": "原發性Membranous NephropathyPrimary Membranous Nephropathy 最主要的 Target Autoantigen 為 M-PLA2R，占約 70-80%。IF 呈現極為特異的 Diffuse Granular Capillary Wall 沉積，且 Immunoglobulin Subclass 以 IgG4 及 C3 為主。相反地，Secondary MN  則常呈現 IgG1/IgG2 沉積或 Full-house (C1q (+)) 沉積。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_31_9.png"
       ],
@@ -143,7 +143,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Membranous Nephropathy under Electron Microscopy (EM) 下分為 4 個演進階段：Stage I 為單純 Subepithelial Deposits 無基底膜反應；Stage II 沉積物之間出現 GBM 材質突出，即銀染色可見的『Spike Formation』；Stage III 沉積物被 GBM Encircled；Stage IV Lucent moth-eaten spaces。",
+      "sourceExplanation": "EM 下分為 4 個演進階段：Stage I 為單純 Subepithelial Deposits 無基底膜反應；Stage II 沉積物之間出現 GBM 材質突出，即銀染色可見的『Spike Formation』；Stage III 沉積物被 GBM Encircled；Stage IV Lucent moth-eaten spaces。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_31_7.png",
         "/server-data/assets/Brenner_Fig_31_8.png"
@@ -306,7 +306,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "NELL1 (Neural EGFL-Like 1) 是近年發現的重要抗原標的，占Membranous Nephropathy變約 5-10%。NELL1-associated MN 的重要臨床特點在於其高度關聯二次性原因，特別是服用 Traditional Medicine (草藥/中藥)、Lipoic Acid 補充劑，或伴隨 Solid Organ Malignancy。",
+      "sourceExplanation": "Neural EGFL-Like 1 是近年發現的重要抗原標的，占Membranous Nephropathy變約 5-10%。NELL1-associated MN 的重要臨床特點在於其高度關聯二次性原因，特別是服用 Traditional Medicine (草藥/中藥)、Lipoic Acid 補充劑，或伴隨 Solid Organ Malignancy。",
       "resolvedImages": [
         "/server-data/assets/mn_autoantigens_mechanism.jpg"
       ],
@@ -360,7 +360,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "EXT1/EXT2 (Exostosin 1 / Exostosin 2) 是 Lupus Nephritis Class V (Membranous Lupus Nephropathy) 最具特異性的 Biomarker (約占 30-40%)。此類患者 IF 呈 Full-house C1q +，且 EM 常見 Tubuloreticular Inclusions。",
+      "sourceExplanation": "EXT1/Exostosin 1 / Exostosin 2Membranous Lupus Nephropathy 最具特異性的 Biomarker (約占 30-40%)。此類患者 IF 呈 Full-house C1q +，且 EM 常見 Tubuloreticular Inclusions。",
       "resolvedImages": [
         "/server-data/assets/mn_autoantigens_mechanism.jpg"
       ],
@@ -414,7 +414,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Calcineurin Inhibitors (Tacrolimus / Cyclosporine) 能藉由穩定 Podocyte Actin Cytoskeleton 及抑制 T-cell activation 迅速減少蛋白尿。然而其最大的臨床缺陷為 停藥後的高復發率 (Relapse rate 達 40-50%)，因此 KDIGO 指引建議 CNI 應維持治療至少 12 個月，或考慮與 Rituximab 聯合使用。",
+      "sourceExplanation": "Tacrolimus / Cyclosporine 能藉由穩定 Podocyte Actin Cytoskeleton 及抑制 T-cell activation 迅速減少蛋白尿。然而其最大的臨床缺陷為 停藥後的高復發率 (Relapse rate 達 40-50%)，因此 KDIGO 指引建議 CNI 應維持治療至少 12 個月，或考慮與 Rituximab 聯合使用。",
       "resolvedImages": [
         "/server-data/assets/mn_kdigo_algorithm_treatment.jpg"
       ],
@@ -468,7 +468,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Modified Ponticelli Regimen 是治療 High-risk / Very High-risk Primary MN 的古典強效方案，總療程為 6 個月，採用單雙數月份交替：第 1, 3, 5 個月給予 IV Methylprednisolone + Oral Prednisolone；第 2, 4, 6 個月給予 Oral Cyclophosphamide (2 mg/kg/day)。",
+      "sourceExplanation": "Modified Ponticelli Regimen 是治療 High-risk / Very High-risk Primary MN 的古典強效方案，總療程為 6 個月，採用單雙數月份交替：第 1, 3, 5 個月給予 IV Methylprednisolone + Oral Prednisolone；第 2, 4,2 mg/kg/day。",
       "resolvedImages": [
         "/server-data/assets/mn_kdigo_algorithm_treatment.jpg"
       ],
@@ -630,7 +630,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Primary Membranous Nephropathy under Light Microscopy (LM) 下的典型特徵為『純粹的 GBM 均勻彌漫增厚』，NO endothelial or mesangial proliferation。若切片出現顯著的 Endocapillary hypercellularity 或 Mesangial proliferation，應高度懷疑 Secondary MN (如 SLE Class V, Cancer, Sjogren)。",
+      "sourceExplanation": "LM 下的典型特徵為『純粹的 GBM 均勻彌漫增厚』，NO endothelial or mesangial proliferation。若切片出現顯著的 Endocapillary hypercellularity 或 Mesangial proliferation，應高度懷疑 Secondary MN (如 SLE Class V, Cancer, Sjogren)。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Table_31_5.png"
       ],
@@ -684,7 +684,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 KDIGO 2021 指引，該患者 eGFR 正常且蛋白尿 < 3.5 g/day，屬於 Low Risk 分組。Low Risk 患者有相當高比例 (> 30-40%) 會發生 Spontaneous Remission，首選治療為使用最高耐受劑量的 RASi (ACEi/ARB) 進行保守治療並追蹤至少 6 個月，暫不需啟動免疫抑制劑。",
+      "sourceExplanation": "根據 KDIGO 2021 指引，該患者 eGFR 正常且蛋白尿 < 3.5 g/day，屬於 Low Risk 分組。Low Risk 患者有相當高比例 (> 30-40%) 會發生 Spontaneous Remission，ACEi/ARB 進行保守治療並追蹤至少 6 個月，暫不需啟動免疫抑制劑。",
       "resolvedImages": [
         "/server-data/assets/mn_kdigo_algorithm_treatment.jpg"
       ],
@@ -792,7 +792,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 Membranous Nephropathy 中，In situ 原位免疫複合物形成後會激活Complement路徑，最終生成 C5b-9 Membrane Attack Complex (MAC)。C5b-9 插入 Podocyte 膜上致使 Podocyte 產生 Reactive Oxygen Species (ROS)、Podocytes骨架重排及 Slit Diaphragm 破壞，進而導致蛋白尿。",
+      "sourceExplanation": "在 Membranous Nephropathy 中，In situ 原位免疫複合物形成後會激活Complement路徑，最終生成 C5b-MAC。C5b-ROS、Podocytes骨架重排及 Slit Diaphragm 破壞，進而導致蛋白尿。",
       "resolvedImages": [
         "/server-data/assets/mn_autoantigens_mechanism.jpg"
       ],
@@ -900,7 +900,7 @@
       "selectedOption": "A",
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "THSD7A (Thrombospondin Type-1 Domain-Containing 7A) 是第二個被確定的 Primary MN 自體抗原 (占 3-5%)。臨床上 THSD7A 陽性患者中約有 高達 20% 被發現伴隨 Occult Malignancy，因此 THSD7A 陽性者仍應維持適當的癌症篩檢。",
+      "sourceExplanation": "Thrombospondin Type-1 Domain-Containing 7A 是第二個被確定的 Primary MN 自體抗原 (占 3-5%)。臨床上 THSD7A 陽性患者中約有 高達 20% 被發現伴隨 Occult Malignancy，因此 THSD7A 陽性者仍應維持適當的癌症篩檢。",
       "resolvedImages": [
         "/server-data/assets/mn_autoantigens_mechanism.jpg"
       ],

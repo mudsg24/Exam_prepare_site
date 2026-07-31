@@ -1,0 +1,103 @@
+{
+  "paperId": "2026_Immunosuppression_for_kidney_transplant_(主題備考)",
+  "title": "2026 Immunosuppression for kidney transplant",
+  "sourceCategory": "2026 年主題練習",
+  "sections": [
+    {
+      "id": "section_1_induction",
+      "title": "Induction Therapy & Immunological Risk Stratification",
+      "summary": "完整統整腎臟移植 Induction Agents (rATG vs Basiliximab vs Alemtuzumab) 之作用機轉、T-cell Depletion 差異與免疫風險分層決策。",
+      "content": "## Induction Therapy 拓撲結構與免疫風險分層\n\nInduction Therapy  旨在腎臟移植手術初期提供強效的早期免疫抑制，以預防早期 Acute Rejection  與 Delayed Graft Function (DGF，延遲性移植物功能恢復)。\n\n### Topology Mapping Matrix\n| 藥物分類 | 代表藥物 | 主要分子標的 | Mechanism of Action | 臨床適應症與風險分層 |\n|---|---|---|---|---|\n| **Lymphocyte-Depleting Antibodies** | Rabbit Anti-Thymocyte Globulin (rATG, Thymoglobulin) | Polyclonal anti-CD2, CD3, CD4, CD8, CD11a, CD28 | Complement-dependent lysis 與 ADCC (Antibody-dependent cellular cytotoxicity) 造成 T-cell 全數清除 | High Immunological Risk (PRA > 20%, DSA (+), Re-transplant, High-risk donor) |\n| **Interleukin-2 Receptor Antagonists (IL-2RA)** | Basiliximab | Monoclonal anti-CD25 (IL-2R alpha subunit) | 非清除性 (Non-depleting) 競爭性阻斷 IL-2 驅動之 T-cell 增殖 | Low-to-moderate Immunological Risk (首度移植、Fully matched、Non-sensitized) |\n| **Anti-CD52 Monoclonal Antibody** | Alemtuzumab | Monoclonal anti-CD52 | 造成極顯著且持久之 Pan-lymphocyte depletion (T-cells, B-cells, NK cells) | High-risk induction 或 Steroid-sparing maintenance 方案 |\n\n### 核心鑑別比較：rATG vs. Basiliximab\n| Features | Rabbit Anti-Thymocyte Globulin (rATG) | Basiliximab (Simulect) |\n|---|---|---|\n| **Depletion 狀態** | Lymphocyte-depleting (T-cell 數量降至接近零) | Non-depleting (僅阻斷 CD25，不破壞細胞) |\n| **Cytokine Release Syndrome 風險** | 極高 (輸注期間易發燒、寒顫、低血壓；輸注前必須使用 Steroids, Acetaminophen, Antihistamines 預防) | 極低 (耐受性極佳，無 CRS) |\n| **Leukopenia 與 Thrombocytopenia** | 常見 (具 Dose-limiting myelosuppression) | 極罕見 |\n| **CMV / BKV** | 顯著上升 (強制需實施預防性 Valganciclovir 治療) | 低基準感染風險 |\n| **Late Malignancy (PTLD) 風險** | 較高 PTLD (Post-Transplant Lymphoproliferative Disorder) 發生率 | 無增加 PTLD 風險 |\n\n### 臨床決策樹：Induction 藥物選擇流程\n```\n[ Recipient Risk Assessment ]\n       |\n       +---> High Immunological Risk (High PRA, DSA (+), 既往移植失能, 年輕受者)\n       |        |\n       |        +---> 選擇 rATG (Thymoglobulin) 1.5 mg/kg/day 連續 3-5 天\n       |                +---> 輸注前預防用藥：Methylprednisolone + Acetaminophen + Diphenhydramine\n       |                +---> 強制常規預防：Valganciclovir (CMV) + TMP-SMX (PCP)\n       |\n       +---> Low/Moderate Immunological Risk (首度移植, DSA 陰性, 低 PRA)\n                |\n                +---> 選擇 Basiliximab 20 mg IV (Day 0 與 Day 4)\n                        +---> Non-depleting, 耐受性極佳且無 CRS 風險\n```\n\n### Conceptual Trap Analysis\n> [!WARNING]\n> **避坑點 1：Serum Sickness vs. Cytokine Release Syndrome 之鑑別**\n> CRS 發生於 rATG 輸注中或輸注後數小時內 (Day 1-3)；而 Serum Sickness  則發生於 rATG 治療後 7-14 天，係因 Immune Complex Deposition 沉積於組織所致 (表現為發燒、關節痛、蕁麻疹與 Glomerulonephritis)。急性血清病須以高劑量 Corticosteroids 治療，嚴重者需 Plasma Exchange。\n> \n> **避坑點 2：高風險患者誤用 Basiliximab**\n> Basiliximab 對於帶有預防性 Donor-Specific Antibodies (DSA) 或 Positive Crossmatch 的高風險受者效果不足；若於高風險受者使用 Non-depleting 誘導，會大幅增加 Acute Antibody-Mediated Rejection (AMR) 發生率。",
+      "diagrams": [
+        {
+          "id": "diag_induction_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/transplant_induction_pathway.png",
+          "imagePath": "/server-data/assets/transplant_induction_pathway.png",
+          "caption": "Molecular mechanisms of induction immunosuppression: rATG mediated T-cell lysis vs Basiliximab CD25 IL-2 receptor blockade.",
+          "sourceBook": "Gemini AI Masterclass Visuals"
+        },
+        {
+          "id": "diag_kdigo_fig1",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_1.png",
+          "caption": "KDIGO Guideline Overview: Immunological Risk Stratification and Early Induction Protocols in Kidney Transplantation.",
+          "sourceBook": "KDIGO 2009 Transplant Recipient Guideline"
+        }
+      ]
+    },
+    {
+      "id": "section_2_cni_costimulation",
+      "title": "Calcineurin Inhibitors & Co-stimulation Blockade",
+      "summary": "深入解析 Tacrolimus, Cyclosporine 與 Belatacept 之細胞內 Immunophilin Binding、Signal 1/2 阻斷機轉、腎毒性與臨床 Trough Target 監測。",
+      "content": "## Calcineurin Inhibitors 與 Co-stimulation Blockade\n\nCalcineurin Inhibitors (CNIs) 為腎臟移植 Maintenance Immunosuppression  之核心基石。Belatacept 則提供切斷 Signal 2 Co-stimulation 的無腎毒性替代方案。\n\n### Topology Mapping Matrix\n| Drug | 細胞內 Binding Partner | 下游標的酵素 | 主要細胞效應 | 治療性血中濃度 Target (1-3 months) |\n|---|---|---|---|---|\n| **Tacrolimus (FK506)** | FK506-Binding Protein 12 (FKBP-12) | 抑制 Calcineurin Phosphatase | 阻斷 NFAT Dephosphorylation 與 IL-2 轉錄 | 8 - 12 ng/mL (Whole blood C0) |\n| **Cyclosporine A (CsA)** | Cyclophilin | 抑制 Calcineurin Phosphatase | 阻斷 NFAT Dephosphorylation 與 IL-2 轉錄 | 150 - 300 ng/mL (C0) 或 800-1200 ng/mL (C2) |\n| **Belatacept** | CTLA-4 Fusion Protein (直接結合 CD80/CD86) | 阻斷 Signal 2 (CD28 Engagement) | 誘導 T-cell Anergy 與 Apoptosis | 體重依賴性 IV 靜脈給藥 (D0, 4, 8, 12, 之後 q4w) |\n\n### 核心鑑別比較：Tacrolimus vs. Cyclosporine vs. Belatacept\n| Features | Tacrolimus (Prograf/Envarsus) | Cyclosporine (Neoral/Gengraf) | Belatacept (Nulojix) |\n|---|---|---|---|\n| **抗排斥強度** | 優異 (Acute Rejection 發生率顯著低於 CsA) | 中等 | 移植腎存活率與 CNI 相當，但早期 T-Cell Mediated Rejection (TCMR) 發生率稍高 |\n| **Nephrotoxicity ** | Afferent Arteriolar Vasoconstriction (急性與慢性 Arteriolopathy) | Afferent Arteriolar Vasoconstriction (Striated Interstitial Fibrosis) | 零腎毒性 (Long-term GFR 顯著高出 +15 mL/min) |\n| **NODAT** | 發生率較高 (抑制胰臟 Beta-cell 胰島素分泌) | 發生率較低 | 最低代謝風險 (對血糖與血脂呈 Neutral) |\n| **Cosmetic Side Effects** | Alopecia、Tremor | Hirsutism、Gingival Gingival Hyperplasia | 無 |\n| **PTLD / EBV 限制** | 標準風險 | 標準風險 | **EBV-seronegative 受者絕對禁忌** (高 CNS PTLD 風險) |\n\n### 臨床決策樹：CNI Nephrotoxicity vs. Rejection Biopsy 鑑別\n```\n[ Tacrolimus 維持治療患者出現 Serum Creatinine 無預警上升 ]\n       |\n       +---> 檢測 Tacrolimus Trough Level (C0)\n                |\n                +---> Trough > 15 ng/mL ---> 懷疑 Acute CNI Nephrotoxicity\n                |        +---> 機轉：可逆性 Afferent Arteriolar Vasoconstriction\n                |        +---> Biopsy 病理：Proximal Tubules 出現 Isometric Vacuolization\n                |        +---> 處置：調降 Tacrolimus 劑量，48-72 小時後複查 GFR\n                |\n                +---> Trough 在治療區間 (5-8 ng/mL) 或偏低\n                         +---> 懷疑 Acute Rejection (TCMR 或 AMR)\n                         +---> 安排緊急 Renal Allograft Biopsy (依照 Banff Criteria 判定)\n```\n\n### Conceptual Trap Analysis\n> [!WARNING]\n> **避坑點 1：Belatacept 之 EBV Serostatus 強制前提**\n> Belatacept 絕對禁止使用於 EBV-seronegative (EBV IgG 陰性) 之移植受者！臨床研究顯示，EBV 陰性受者使用 Belatacept 會面臨高達 9 倍之 Central Nervous System (CNS) Post-Transplant Lymphoproliferative Disorder (PTLD) 致死性風險。\n> \n> **避坑點 2：CNI 經由 CYP3A4 / P-glycoprotein 之交互作用**\n> Tacrolimus 與 Cyclosporine 廣泛經由肝臟與腸道 CYP3A4 及 P-gp 代謝。\n> - **CYP3A4 Inhibitors (升高 CNI 濃度 -> 引發毒性)**：Azole Antifungals (Fluconazole, Voriconazole, Posaconazole)、Macrolides (Erythromycin, Clarithromycin; 但 Azithromycin 除外)、Diltiazem, Verapamil, Grapefruit Juice。\n> - **CYP3A4 Inducers (降低 CNI 濃度 -> 引發排斥)**：Rifampin, Phenytoin, Carbamazepine, St. John's Wort。",
+      "diagrams": [
+        {
+          "id": "diag_cni_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/transplant_cni_costimulation.png",
+          "imagePath": "/server-data/assets/transplant_cni_costimulation.png",
+          "caption": "T-cell Signal 1 & Signal 2 molecular activation pathways: Calcineurin inhibition by Tacrolimus/Cyclosporine vs Signal 2 blockade by Belatacept.",
+          "sourceBook": "Gemini AI Masterclass Visuals"
+        },
+        {
+          "id": "diag_kdigo_fig2",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_2.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Fig_2.png",
+          "caption": "KDIGO Maintenance Therapy Protocol: CNI trough monitoring and target ranges in renal transplantation.",
+          "sourceBook": "KDIGO 2009 Transplant Recipient Guideline"
+        }
+      ]
+    },
+    {
+      "id": "section_3_antimetabolite_mtor",
+      "title": "Antimetabolites & mTOR Inhibitors",
+      "summary": "詳細統整 Mycophenolic Acid (MPA), Azathioprine, Sirolimus 與 Everolimus 之 De Novo Purine 抑制、mTORC1 訊號阻斷與轉換策略。",
+      "content": "## Antimetabolites 與 mTOR Inhibitors\n\nAntimetabolites (Mycophenolate / Azathioprine) 與 Mammalian Target of Rapamycin (mTOR) Inhibitors (Sirolimus / Everolimus) 為維持性免疫抑制之核心輔助藥物。\n\n### Topology Mapping Matrix\n| 藥物分類 | 代表藥物 | 主要酵素標的 | 細胞學機轉 | 臨床 Dose-Limiting Toxicity |\n|---|---|---|---|---|\n| **Antimetabolite (Purine 擬態抑制劑)** | Mycophenolate Mofetil (MMF) / EC-MPS (Myfortic) | Inosine Monophosphate Dehydrogenase (IMPDH) | 選擇性阻斷 T 與 B Lymphocytes 之 De Novo Purine Synthesis | 嚴重 GI Distress (腹瀉、腹痛)、Leukopenia、Anemia |\n| **Antimetabolite (Purine 類似物)** | Azathioprine (AZA) | 摻入 DNA 成為 6-Thioguanine Nucleotides | 非選擇性抑制 DNA/RNA 合成 | 骨髓抑制 (Leukopenia, Thrombocytopenia) |\n| **mTOR Inhibitor** | Sirolimus (Rapamune) / Everolimus (Zortress) | mTORC1 Complex (經由結合 FKBP-12) | 阻斷 IL-2 Signal 3 下游之 Cell Cycle Progression (G1 -> S phase) | Proteinuria, Impaired Wound Healing, Hyperlipidemia, Pneumonitis |\n\n### 核心鑑別比較：MMF vs. Azathioprine vs. mTOR Inhibitors\n| Features | Mycophenolate Mofetil (MMF) | Azathioprine (AZA) | Sirolimus / Everolimus |\n|---|---|---|---|\n| **酵素標的** | IMPDH type II | HGPRT (Hypoxanthine-guanine phosphoribosyltransferase) | mTORC1 Kinase |\n| **Lymphocyte 選擇性** | 高 (Lymphocytes 缺乏 Purine Salvage Pathway) | 低  | 高 (阻斷 T 與 B 淋巴球細胞週期增殖) |\n| **Allopurinol 交互作用** | 無交互作用 | **致死性交互作用** (抑制 Xanthine Oxidase 導致 6-MP 蓄積 -> 嚴重 Bone Marrow Aplasia；併用時 AZA 必須強制減量 75%) | 無交互作用 |\n| **Wound Healing 影響** | 極微 | 極微 | **嚴重抑制** (抑制 VEGF 與 PDGF；移植術後早期傷口未癒合前絕對禁忌) |\n| **Proteinuria 效應** | Neutral | Neutral | 易誘發 New-onset Nephrotic Proteinuria (因 Downregulation Podocyte Podocin/Nephrin) |\n\n### 臨床決策樹：MMF 耐受不良與 Conversion 流程\n```\n[ 接受 Tacrolimus + MMF 1000 mg BID 治療患者出現嚴重 Diarrhea 與 Leukopenia ]\n       |\n       +---> 檢測 WBC Count 並採集糞便排查 C. difficile 與 CMV PCR\n                |\n                +---> CMV PCR (+) ---> 給予 Valganciclovir 治療 + MMF 劑量減半 50%\n                |\n                +---> CMV (-) 且確診為 MMF 相關 GI Distress\n                         |\n                         +---> Step 1：500 mg QID 或轉換為 EC-MPS (Myfortic 720 mg BID)\n                         |\n                         +---> Step 2：若腸胃症狀持續，適度調降 MMF 劑量\n                         |\n                         +---> Step 3：若持續無法耐受，轉換為 Azathioprine 1.5-2 mg/kg/day\n                                 +---> 啟動 AZA 前必須先檢測 TPMT 酵素活性！\n```\n\n### Conceptual Trap Analysis\n> [!WARNING]\n> **避坑點 1：Azathioprine + Allopurinol 併用之致死性風險**\n> Xanthine Oxidase (XO) 為代謝 6-Mercaptopurine (6-MP) 之主要途徑。Allopurinol 或 Febuxostat 抑制 XO 後，會驅使 6-MP 大量轉向 HGPRT 途徑生成 6-Thioguanine Nucleotides，引發致死性 Pancytopenia。若臨床必須併用，AZA 劑量必須強制削減 75% 並密切監測 CBC。\n> \n> **避坑點 2：早期 Conversion 至 mTOR Inhibitors 與 De Novo Proteinuria**\n> 於移植術後立即使用 Sirolimus/Everolimus 會增加 Surgical Wound Wound Dehiscence、Incisional Hernia 及 Lymphocele 發生率。此外，若患者原本即帶有 Proteinuria (> 800 mg/day)，轉換至 mTOR inhibitors 會加速 Glomerular Injury 並引發極嚴重蛋白尿。",
+      "diagrams": [
+        {
+          "id": "diag_mtor_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/transplant_antimetabolite_mtor.png",
+          "imagePath": "/server-data/assets/transplant_antimetabolite_mtor.png",
+          "caption": "Molecular pathways of Lymphocyte Antiproliferatives: Mycophenolic Acid IMPDH inhibition vs mTORC1 Signal 3 inhibition by Sirolimus/Everolimus.",
+          "sourceBook": "Gemini AI Masterclass Visuals"
+        },
+        {
+          "id": "diag_kdigo_table10",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_10.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_10.png",
+          "caption": "KDIGO Guideline Summary: Comparative Side Effect Profiles of Maintenance Immunosuppressive Drugs.",
+          "sourceBook": "KDIGO 2009 Transplant Recipient Guideline"
+        }
+      ]
+    },
+    {
+      "id": "section_4_toxicity_prophylaxis",
+      "title": "Adverse Effects, TDM & Viral Infection Prophylaxis",
+      "summary": "完整統整免疫抑制劑毒性 (CNI Nephrotoxicity, NODAT, Dyslipidemia)、Therapeutic Drug Monitoring (TDM) 與系統化 BK Virus / CMV 預防與治療指引。",
+      "content": "## 副作用、TDM 與病毒感染預防處置\n\n腎臟移植受者之長期照護，必須在預防 Graft Graft Rejection 與降低 Drug Drug Toxicity、Metabolic Metabolic Disease 及 Opportunistic Viral Opportunistic Viral Infections 之間取得精準平衡。\n\n### Topology Mapping Matrix\n| 併發症 / 感染症 | 主要致病藥物 | 篩檢與診斷黃金標準 | 臨床治療處置策略 |\n|---|---|---|---|\n| **Acute CNI Nephrotoxicity** | Tacrolimus, Cyclosporine | Renal Biopsy (Isometric Tubule Vacuolization) 與高 Trough Level | 調降 CNI 劑量；維持最低安全 Trough Target |\n| **NODAT** | Tacrolimus > Cyclosporine, Corticosteroids | HbA1c, Fasting Plasma Glucose | Steroid Tapering，考慮將 Tacrolimus 轉換為 Belatacept 或 CsA；使用 Metformin / SGLT2i / GLP-1RA |\n| **BK Virus Nephropathy (BKVN)** | 過度免疫抑制 (rATG + Tacrolimus + MMF) | Plasma BKV-DNA PCR > 10,000 copies/mL；Biopsy 確定 (SV40 Stain (+)) | 階梯式調降免疫抑制劑 (MMF 劑量減半 50% -> 調降 Tacrolimus Trough 至 3-5 ng/mL) |\n| **Cytomegalovirus (CMV) Disease** | 最高風險為 Donor (+)/Recipient (-) | Quantitative Plasma CMV-DNA PCR | 最高風險群給予 Valganciclovir 預防性治療 3-6 個月；發病時以 IV Ganciclovir 或 Oral Valganciclovir 治療 |\n| **PCP Pneumocystis Jirovecii Pneumonia** | T-cell Depletion / 三重免疫抑制 | Induced Sputum / BAL PCR / DFA | 常規給予 TMP-SMX (Single Strength daily) 預防性治療 3-6 個月 |\n\n### 核心鑑別比較：BK Virus Nephropathy vs. Acute T-Cell Rejection\n| 臨床Features | BK Virus Nephropathy (BKVN) | Acute T-Cell Mediated Rejection (TCMR) |\n|---|---|---|\n| **Serum Creatinine** | Elevated | Elevated |\n| **Urinary Cytology** | 出現 Decoy Decoy Cells | 無 Decoy Cells |\n| **Plasma BKV PCR** | 高病毒載量 (> 10,000 copies/mL) | 陰性或極低拷貝數 |\n| **Renal Biopsy 病理** | 腎小管上皮細胞出現 Intranuclear Viral Inclusions；SV40 免疫染色呈陽性 (+) | Tubulitis (i2, i3) 與 Interstitial Inflammation，無病毒包涵體；SV40 染色呈陰性 (-) |\n| **Clinical Management** | **REDUCE IMMUNOSUPPRESSION** | **INCREASE IMMUNOSUPPRESSION** (給予高劑量 IV Methylprednisolone Pulse) |\n\n### 臨床決策樹：移植後病毒預防與監測流程\n```\n[ 腎臟移植受者感染預防處置 Protocol ]\n       |\n       +---> CMV Risk Stratification\n       |        |\n       |        +---> D(+) / R(-) [High Risk] ---> Valganciclovir 900 mg daily 預防 6 個月\n       |        +---> R(+) [Moderate Risk]   ---> Valganciclovir 450-900 mg daily 預防 3 個月\n       |        +---> D(-) / R(-) [Low Risk]  ---> 定期 PCR 監測或 Oral Acyclovir\n       |\n       +---> PCP PCP Prophylaxis\n       |        |\n       |        +---> TMP-SMX 80/400 mg daily 預防 6-12 個月 (同時雙重預防 Nocardia 與 細菌性 UTI!)\n       |\n       +---> BK Virus Surveillance Protocol\n                |\n                +---> 定期監測 Plasma BKV PCR (前 3-6 個月每月一次，之後每 3 個月一次)\n                +---> 若 BKV PCR > 10,000 copies/mL ---> 立即將 MMF 劑量減半 50%！\n```\n\n### Conceptual Trap Analysis\n> [!WARNING]\n> **避坑點 1：誤將 BKVN Biopsy 診斷為 TCMR 進行類固醇衝擊**\n> BKVN 的 Interstitial Inflammation 與 Tubulitis 與 Banff grade IA/IB TCMR 極度相似！若未進行 SV40 染色檢查而誤診為排斥並給予高劑量 Pulse Steroids，引發的爆炸性病毒複製會導致移植腎永久性失能。於治療急性移植物功能異常前，務必先確認 BKV PCR 與 SV40 染色。\n> \n> **避坑點 2：Recurrent CMV 之 Ganciclovir 藥物抗藥性**\n> 若受者於高劑量 Valganciclovir 治療下仍持續發燒、Leukopenia 與高 CMV Viremia，應高度懷疑 UL97 Protein Kinase Gene Mutation 所致之 Ganciclovir Resistance。此時應立即更換治療藥物為 Foscarnet 或 Cidofovir。",
+      "diagrams": [
+        {
+          "id": "diag_toxicity_ai",
+          "type": "ai_illustration",
+          "relPath": "/server-data/assets/transplant_toxicity_prophylaxis.png",
+          "imagePath": "/server-data/assets/transplant_toxicity_prophylaxis.png",
+          "caption": "Infographic of Immunosuppressive Toxicity Profiles (CNI nephrotoxicity, NODAT, dyslipidemia) & BK Virus/CMV Prophylaxis Algorithms.",
+          "sourceBook": "Gemini AI Masterclass Visuals"
+        },
+        {
+          "id": "diag_kdigo_table15",
+          "type": "micrograph",
+          "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_15.png",
+          "imagePath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_15.png",
+          "caption": "KDIGO Recommendations on Opportunistic Infection Prophylaxis (CMV, PCP, BKV) in Kidney Transplantation.",
+          "sourceBook": "KDIGO 2009 Transplant Recipient Guideline"
+        }
+      ]
+    }
+  ]
+}

@@ -32,7 +32,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "患者呈現 Rapidly Progressive Glomerulonephritis (RPGN)、Normal Serum C3 and C4、High-Titer PR3-ANCA (c-ANCA Positive) 以及 Bilateral Pulmonary Cavitary Nodules，此為 Granulomatosis with Polyangiitis (GPA) 的典型三聯表現。Microscopic Polyangiitis (MPA) 多為 MPO-ANCA (p-ANCA Positive) 且無 Granulomatous Cavitary Lesions；Lupus Nephritis 會伴隨 Hypocomplementemia 與 Full-House Immunofluorescence Deposits；Anti-GBM Disease 則為 Anti-α3(IV)NC1 Antibodies Positive 且呈 Linear IF Pattern。",
+      "sourceExplanation": "RPGN、Normal Serum C3 and C4、High-Titer PR3-c-ANCA Positive 以及 Bilateral Pulmonary Cavitary Nodules，GPA 的典型三聯表現。MPA 多為 MPO-p-ANCA Positive 且無 Granulomatous Cavitary Lesions；Lupus Nephritis 會伴隨 Hypocomplementemia 與 Full-House Immunofluorescence Deposits；Anti-GBM Disease 則為 Anti-αIVNC1 Antibodies Positive 且呈 Linear IF Pattern。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_32_14.png"
       ],
@@ -91,7 +91,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ANCA-Associated Vasculitis 的核心分子致病機轉中，Alternative Complement Pathway 的活化會產生 Complement C5a，C5a 結合至 Neutrophils 表面之 C5a Receptor (C5aR / CD88)，驅動強烈之 Chemoattraction、Priming 以及 ANCA Autoantigens (PR3 and MPO) Translocation 至細胞膜上。這是 Novel Targeted Agent Avacopan (C5aR Antagonist) 作用的標的部位。C1q 與 C5b-9 則屬於 Classical Pathway 或 Membrane Attack Complex (C5b-9)，在 Pauci-Immune Glomerulonephritis 中不扮演主導的角色。",
+      "sourceExplanation": "ANCA-Associated Vasculitis 的核心分子致病機轉中，Alternative Complement Pathway 的活化會產生 Complement C5a，C5aR / CD88，驅動強烈之 Chemoattraction、PR3 and MPO Translocation 至細胞膜上。C5aR Antagonist 作用的標的部位。C1q 與 C5b-C5b-9，在 Pauci-Immune Glomerulonephritis 中不扮演主導的角色。",
       "resolvedImages": [
         "/server-data/assets/anca_netosis_ai.jpg"
       ],
@@ -150,7 +150,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "患者呈現 MPO-ANCA (p-ANCA Positive)、Necrotizing Crescentic GN 且 Immunofluorescence 下缺乏或僅有微量 Immunoglobulin and Complement Deposits，定義上即為典型的 Pauci-Immune Necrotizing Crescentic Glomerulonephritis。Linear IF Pattern 為 Anti-GBM Disease 的標誌；Full-House Immunofluorescence 為 Lupus Nephritis 的特徵；MPGN 則伴隨大量 Subendothelial Immune Deposits 與 Hypocomplementemia。",
+      "sourceExplanation": "患者呈現 MPO-p-ANCA Positive、Necrotizing Crescentic GN 且 Immunofluorescence 下缺乏或僅有微量 Immunoglobulin and Complement Deposits，定義上即為典型的 Pauci-Immune Necrotizing Crescentic Glomerulonephritis。Linear IF Pattern 為 Anti-GBM Disease 的標誌；Full-House Immunofluorescence 為 Lupus Nephritis 的特徵；MPGN 則伴隨大量 Subendothelial Immune Deposits 與 Hypocomplementemia。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_32_16.png"
       ],
@@ -268,7 +268,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "KDIGO 2024 Guidelines 強烈推薦 Rituximab (RTX) 作為 ANCA-Associated Vasculitis 達成 Remission 後的首選 Maintenance Therapy 藥物。MAINRITSAN Trial 實證顯示 RTX 在預防 Relapse 之效果顯著優於 Azathioprine。Cyclophosphamide 僅用於 Induction，不推薦用於 Maintenance；High-Dose Corticosteroids 會產生嚴重 Steroid Toxicity。",
+      "sourceExplanation": "RTX 作為 ANCA-Associated Vasculitis 達成 Remission 後的首選 Maintenance Therapy 藥物。MAINRITSAN Trial 實證顯示 RTX 在預防 Relapse 之效果顯著優於 Azathioprine。Cyclophosphamide 僅用於 Induction，不推薦用於 Maintenance；High-Dose Corticosteroids 會產生嚴重 Steroid Toxicity。",
       "resolvedImages": [
         "/server-data/assets/KDIGO_2024_ANCA_Fig_2.png"
       ],
@@ -327,7 +327,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "PEXIVAS Trial (Largest AAV Randomized Controlled Trial) 的核心結論為：在未經篩選的 ANCA-Associated Vasculitis 患者中，加用 Plasma Exchange (PLEX) 並未能降低 Composite Outcome of ESRD or Death 風險。因此 KDIGO 2024 Guidelines 已取消 PLEX 的 Routine Recommendation，僅保留於 Severe DAH with Hypoxemia, Dual-Positive Anti-GBM and ANCA, 或 Severe AKI (Serum Creatinine ≥ 5.7 mg/dL) 患者。",
+      "sourceExplanation": "Largest AAV Randomized Controlled Trial 的核心結論為：在未經篩選的 ANCA-Associated Vasculitis 患者中，PLEX 並未能降低 Composite Outcome of ESRD or Death 風險。因此 KDIGO 2024 Guidelines 已取消 PLEX 的 Routine Recommendation，僅保留於 Severe DAH with Hypoxemia, Dual-Positive Anti-GBM and ANCA, 或 Severe AKI (Serum Creatinine ≥ 5.7 mg/dL) 患者。",
       "resolvedImages": [
         "/server-data/assets/KDIGO_2024_ANCA_Table_1.png"
       ],
@@ -386,7 +386,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Avacopan 為一 Highly Selective Oral Complement C5a Receptor (C5aR / CD88) Antagonist。基於 ADVOCATE Trial 成果，Avacopan 能精準阻斷 C5a 趨化與活化 Neutrophils 的發炎迴路，成功替代或大幅減少 Oral Corticosteroids 劑量，同時保留 C5b-9 MAC 的 Host Defense Against Pathogens。CD20 為 Rituximab Target；IMPDH 為 Mycophenolate Target。",
+      "sourceExplanation": "C5aR / CD88 Antagonist。基於 ADVOCATE Trial 成果，Avacopan 能精準阻斷 C5a 趨化與活化 Neutrophils 的發炎迴路，成功替代或大幅減少 Oral Corticosteroids 劑量，同時保留 C5b-9 MAC 的 Host Defense Against Pathogens。CD20 為 Rituximab Target；IMPDH 為 Mycophenolate Target。",
       "resolvedImages": [
         "/server-data/assets/anca_avacopan_ai.jpg"
       ],
@@ -445,7 +445,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "此患者呈特徵性 Drug-Induced ANCA Vasculitis (Hydralazine-Induced)，典型特徵包含：Dual ANCA Positivity (Dual MPO-ANCA and PR3-ANCA Positivity)、Anti-Histone Antibodies Positive 及 Cutaneous, Articular, and Renal Involvement。處置的最高優先且必要的首要步驟為 Discontinuation of Hydralazine。大部分患者在停藥後症狀與 ANCA Titers 會逐漸消退；僅在 Organ Failure 嚴重時才需短期輔助 Immunosuppressive Agents。",
+      "sourceExplanation": "此患者呈特徵性 Drug-Hydralazine-Induced，典型特徵包含：Dual MPO-ANCA and PR3-ANCA Positivity、Anti-Histone Antibodies Positive 及 Cutaneous, Articular, and Renal Involvement。處置的最高優先且必要的首要步驟為 Discontinuation of Hydralazine。大部分患者在停藥後症狀與 ANCA Titers 會逐漸消退；僅在 Organ Failure 嚴重時才需短期輔助 Immunosuppressive Agents。",
       "resolvedImages": [
         "/server-data/assets/anca_maintenance_ai.jpg"
       ],
@@ -504,7 +504,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 Brenner & Rector's The Kidney 統計，在所有年齡層中（特別是 >60 歲的中老年族群中），Pauci-Immune Crescentic Glomerulonephritis (ANCA-Associated) 是引發 Crescentic GN / RPGN 最常見的病因 (>60% 以上)。Anti-GBM Disease 反而是 Crescentic GN 中佔比最少的類型。",
+      "sourceExplanation": "根據 Brenner & Rector's The Kidney 統計，在所有年齡層中（特別是 >60 歲的中老年族群中），Pauci-ANCA-Associated 是引發 Crescentic GN / RPGN 最常見的病因 (>60% 以上)。Anti-GBM Disease 反而是 Crescentic GN 中佔比最少的類型。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_32_16.png"
       ],
@@ -563,7 +563,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Severe Asthma, Asthma-associated Nasal Polyps, Marked Peripheral Eosinophilia, Mononeuritis Multiplex 加上 Eosinophil-Rich Granulomatous Inflammation，為 Eosinophilic Granulomatosis with Polyangiitis (EGPA / Churg-Strauss Syndrome) 的三大典型臨床階段。約 40-50% 的 EGPA 患者呈現 MPO-ANCA / p-ANCA Positive。",
+      "sourceExplanation": "Severe Asthma, Asthma-associated Nasal Polyps, Marked Peripheral Eosinophilia, Mononeuritis Multiplex 加上 Eosinophil-Rich Granulomatous Inflammation，EGPA / Churg-Strauss Syndrome 的三大典型臨床階段。約 40-50% 的 EGPA 患者呈現 MPO-ANCA / p-ANCA Positive。",
       "resolvedImages": [
         "/server-data/assets/Brenner_Fig_32_17.png"
       ],
@@ -681,7 +681,7 @@
       "sourceProvidedAnswer": "C",
       "selectedOption": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 KDIGO 2024 Guidelines，Isolated Serum ANCA Titer Increase (Seroconversion or Rising Titer) 在缺乏 Clinical Inflammatory Signs (No Hematuria, No Proteinuria, No eGFR Decline, or Systemic Symptoms) 時，絕對不能作為自動加強 Immunosuppressive Agents 的唯一理由！過度治療會顯著增加 Fatal Infections 與副作用。正確作為是維持密切臨床追蹤。",
+      "sourceExplanation": "根據 KDIGO 2024 Guidelines，Seroconversion or Rising Titer 在缺乏 Clinical Inflammatory Signs (No Hematuria, No Proteinuria, No eGFR Decline, or Systemic Symptoms) 時，絕對不能作為自動加強 Immunosuppressive Agents 的唯一理由！過度治療會顯著增加 Fatal Infections 與副作用。正確作為是維持密切臨床追蹤。",
       "resolvedImages": [
         "/server-data/assets/KDIGO_2024_ANCA_Fig_3.png"
       ],
@@ -740,7 +740,7 @@
       "sourceProvidedAnswer": "B",
       "selectedOption": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "在 ANCA-Associated Vasculitis 中，PR3-ANCA (c-ANCA) Positivity、既往有 Relapse 史以及 Upper Respiratory Tract / Pulmonary Involvement 是預測 High Relapse Risk 最顯著的臨床因子。這類患者在 KDIGO 2024 Guidelines 中被建議延長 Rituximab Maintenance 期間 (> 24 個月)。MPO-ANCA 及 Renal-Limited Disease 的復發率相對較低。",
+      "sourceExplanation": "在 ANCA-Associated Vasculitis 中，PR3-c-ANCA Positivity、既往有 Relapse 史以及 Upper Respiratory Tract / Pulmonary Involvement 是預測 High Relapse Risk 最顯著的臨床因子。這類患者在 KDIGO 2024 Guidelines 中被建議延長 Rituximab Maintenance 期間 (> 24 個月)。MPO-ANCA 及 Renal-Limited Disease 的復發率相對較低。",
       "resolvedImages": [
         "/server-data/assets/anca_maintenance_ai.jpg"
       ],
@@ -1036,7 +1036,7 @@
       "sourceProvidedAnswer": "A",
       "selectedOption": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Brix Renal Risk Score (建立於 2018 年) 結合了三項核心參數：(1) Percentage of Normal Glomeruli；(2) Percentage of Tubular Atrophy and Interstitial Fibrosis (TA/IF)；(3) Baseline eGFR (≥15 vs <15 mL/min)。此算式能比 Renal Biopsy Histology alone 更精準地將患者分層為 Low, Medium, High Risk of ESRD。",
+      "sourceExplanation": "Brix Renal Risk Score  結合了三項核心參數：(1) Percentage of Normal Glomeruli；(2)TA/IF；(3) Baseline eGFR (≥15 vs <15 mL/min)。此算式能比 Renal Biopsy Histology alone 更精準地將患者分層為 Low, Medium, High Risk of ESRD。",
       "resolvedImages": [
         "/server-data/assets/anca_berden_ai.jpg"
       ],

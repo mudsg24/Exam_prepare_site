@@ -219,7 +219,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "根據 KDIGO 2025 指引，tolvaptan 作為 vasopressin V2 receptor 拮抗劑可抑制細胞內 cyclic adenosine monophosphate (cAMP) 的累積，從而減緩囊腫生長與總腎體積 (Total Kidney Volume, TKV) 增加。適應症包含腎功能尚存 (estimated glomerular filtration rate, eGFR ≥ 25 mL/min/1.73 m²，包含 CKD stage 3)、Mayo Imaging Classification 屬於 1C-1E（快速進展型），或是 eGFR 出現快速衰退者（臨床常見為 1 年內下降 ≥ 5.0 mL/min/1.73 m²）。然而，若 eGFR 長期下降幅度每年僅 ≥ 2.0 mL/min/1.73 m²，通常被歸類為進展相對緩慢，不符合現行起始 tolvaptan 治療之強烈適應症與常規給付規範。",
+      "sourceExplanation": "根據 KDIGO 2025 指引，cAMP 的累積，從而減緩囊腫生長與總腎體積 (Total Kidney Volume, TKV) 增加。適應症包含腎功能尚存 (estimated glomerular filtration rate, eGFR ≥ 25 mL/min/1.73 m²，包含 CKD stage 3)、Mayo Imaging Classification 屬於 1C-1E（快速進展型），或是 eGFR 出現快速衰退者（臨床常見為 1 年內下降 ≥ 5.0 mL/min/1.73 m²）。然而，若 eGFR 長期下降幅度每年僅 ≥ 2.0 mL/min/1.73 m²，通常被歸類為進展相對緩慢，不符合現行起始 tolvaptan 治療之強烈適應症與常規給付規範。",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -472,7 +472,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "# Avila Bernabeu AI, Cavero Escribano T, Cao Vilarino M. Atypical Hemolytic Uremic Syndrome: New Challenges in the Complement Blockage Era. Nephron. 2020;144(11):537-549. # Goodship TH, Cook HT, Fakhouri F, Fervenza FC, Frémeaux-Bacchi V, Kavanagh D, Nester CM, Noris M, Pickering MC, Rodríguez de Córdoba S, Roumenina LT, Sethi S, Smith RJ; Conference Participants. Atypical hemolytic uremic syndrome and C3 glomerulopathy: conclusions from a \"Kidney Disease: Improving Global Outcomes\" (KDIGO) Controversies Conference. Kidney Int. 2017 Mar;91(3):539-551. - All patients with a clinical diagnosis of primary aHUS are eligible for treatment with a complement inhibitor.",
+      "sourceExplanation": "# Avila Bernabeu AI, Cavero Escribano T, Cao Vilarino M. Atypical Hemolytic Uremic Syndrome: New Challenges in the Complement Blockage Era. Nephron. 2020;11:537-549. # Goodship TH, Cook HT, Fakhouri F, Fervenza FC, Frémeaux-Bacchi V, Kavanagh D, Nester CM, Noris M, Pickering MC, Rodríguez de Córdoba S, Roumenina LT, Sethi S, Smith RJ; Conference Participants. Atypical hemolytic uremic syndrome and C3 glomerulopathy: conclusions from a \"Kidney Disease: Improving Global Outcomes\"KDIGO Controversies Conference. Kidney Int. 2017 Mar;3:539-551. - All patients with a clinical diagnosis of primary aHUS are eligible for treatment with a complement inhibitor.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -532,7 +532,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "1. Like GPA, MPA often features sinonasal disease, lower respiratory tract involvement with pulmonary hemorrhage, and nephritis. [3,4] However, MPA is predominantly associated with MPO-ANCA , whereas GPA is usually associated with leukocyte proteinase 3 ANCA (PR3-ANCA), and MPA is associated with more severe renal disease. 2. A study of a representative patient cohort recruited into four randomized trials found that advancing age, eGFR < 15 mL/min, higher disease activity, lower hemoglobin, and higher white blood cells over time were significant predictors of mortality.",
+      "sourceExplanation": "1. Like GPA, MPA often features sinonasal disease, lower respiratory tract involvement with pulmonary hemorrhage, and nephritis. [3,4] However, MPA is predominantly associated with MPO-ANCA ,PR3-ANCA, and MPA is associated with more severe renal disease. 2. A study of a representative patient cohort recruited into four randomized trials found that advancing age, eGFR < 15 mL/min, higher disease activity, lower hemoglobin, and higher white blood cells over time were significant predictors of mortality.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-2)",
@@ -599,7 +599,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "Hypovolemic status FeNa=12% Renal sodium loss , Bicarbonaturia in metabolic alkalosis leads to osmotic diuresis Blood osmolality(mOsm/kg): 281 Blood K(mmol/L): 2.4 Urine K/Cr=103.45 mmol/g, TTKG: 11 Renal K loss with active distal K secretion",
+      "sourceExplanation": "Hypovolemic status FeNa=12% Renal sodium loss ,mOsm/kg:mmol/L: 2.4 Urine K/Cr=103.45 mmol/g, TTKG: 11 Renal K loss with active distal K secretion",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-4)",
@@ -666,7 +666,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "Delaying RRT initiation, with close patient monitoring, might lead to a reduced use of RRT, thereby saving health resources. References: Curr Opin Nephrol Hypertens . 2021 May 1;30(3):332-338.",
+      "sourceExplanation": "Delaying RRT initiation, with close patient monitoring, might lead to a reduced use of RRT, thereby saving health resources. References: Curr Opin Nephrol Hypertens . 2021 May 1;3:332-338.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -724,7 +724,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Subepithelial electron-dense deposits References: Am J Kidney Dis . 2021 Mar;77(3):465-468.",
+      "sourceExplanation": "Subepithelial electron-dense deposits References: Am J Kidney Dis . 2021 Mar;3:465-468.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-4)",
@@ -872,7 +872,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "The patient’s clinical and pathological findings indicated the diagnosis of membranous nephropathy (MGN). High levels of proteinuria, PLA2Rab, or low molecular weight (LMW) proteinuria are poor prognostic factors for renal disease progression.",
+      "sourceExplanation": "The patient’MGN. High levels of proteinuria, PLA2Rab,LMW proteinuria are poor prognostic factors for renal disease progression.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-3)",
@@ -1072,7 +1072,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "D。\n\n根據 continuous renal replacement therapy (CRRT) 的物理學與數學計算公式，患者的 filtration fraction (FF) 計算如下：\n\nplasma flow rate：已知患者的 blood flow rate 為 150 mL/min，hematocrit 為 30%，因此血漿在未經稀釋前的基礎流速為 $150 \\times 60 \\times (1 - 0.30) = 6300 \\text{ mL/hr}$。\n\ntotal ultrafiltration rate：在 continuous venovenous hemodiafiltration (CVVHDF) 模式下，跨越 hemofilter total convective volume 為 replacement fluid (pre-dilution)、replacement fluid (post-dilution) 與 patient net fluid removal rate 的總和，即 $750 + 750 + 0 = 1500 \\text{ mL/hr}$。需注意，effluent flow 中包含的 dialysate flow 走的是 diffusion 途徑，並不計入超濾液計算。\n\n在計算 filtration fraction 時，若未校正 pre-dilution，其值為 $1500 / 6300 = 23.81\\%$；若採用經 pre-dilution 校正的精確生理公式，其值為 $1500 / (6300 + 750) = 21.28\\%$。兩者計算結果均落於 21% 至 24% 之間，這符合 KDIGO 指引所建議之小於 25% 的安全上限，能有效預防 hemofilter 內部發生極端的 hemoconcentration 並避免 filter clotting。因此，D 24.1% 為唯一合理之解答。",
+      "sourceExplanation": "D。CRRT 的物理學與數學計算公式，FF 計算如下：\n\nplasma flow rate：已知患者的 blood flow rate 為 150 mL/min，hematocrit 為 30%，因此血漿在未經稀釋前的基礎流速為 $150 \\times 60 \\times (1 - 0.30) = 6300 \\text{ mL/hr}$。\n\ntotal ultrafiltration rate：CVVHDF 模式下，pre-dilution、post-dilution 與 patient net fluid removal rate 的總和，即 $750 + 750 + 0 = 1500 \\text{ mL/hr}$。需注意，effluent flow 中包含的 dialysate flow 走的是 diffusion 途徑，並不計入超濾液計算。\n\n在計算 filtration fraction 時，若未校正 pre-dilution，其值為 $1500 / 6300 = 23.81\\%$；若採用經 pre-dilution 校正的精確生理公式，其值為 $1500 / (6300 + 750) = 21.28\\%$。兩者計算結果均落於 21% 至 24% 之間，這符合 KDIGO 指引所建議之小於 25% 的安全上限，能有效預防 hemofilter 內部發生極端的 hemoconcentration 並避免 filter clotting。因此，D 24.1% 為唯一合理之解答。",
       "nlmResponses": [
         {
           "account": "kuonephro",
@@ -1467,7 +1467,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Polyomavirus allograft nephropathy with tubulointerstitial nephritis(BK virus) Biospy EM: Intranuclear Virions Urine cytology(Decoy Cells)",
+      "sourceExplanation": "BK virus Biospy EM:Decoy Cells",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-3)",
@@ -1667,7 +1667,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Studies best support (A) a reduction in UACR after addition of a GLP-1 receptor agonist. There is an increased risk of hypoglycemia when used concurrently with insulin, and a reduction in the rate of progression to kidney failure with replacement therapy has not been shown. While GLP-1 receptor agonists may result in a small reduction in BP, lowering to <120/ 80 mm Hg has not been shown to slow CKD progression. Initiating metformin would be inappropriate at this eGFR. In a meta-analysis of 5 cardiovascular outcome trials (ELIXA, LEADER, SUSTAIN-6, EXSCEL, and REWIND), Kristensen et al reported that GLP-1 receptor agonists were associated with a 17% lower risk of a composite kidney outcome (new-onset UACR of >300 mg/g, a doubling of serum creatinine, and a ≥40% decline in eGFR, kidney failure with replacement therapy, or death from kidney disease), with an HR of 0.83 (95% CI, 0.78-0.89). However, when considering the more restrictive outcome of worsening kidney function, defined by a doubling of serum creatinine or a ≥40% eGFR decline (except for EXSCEL, which also included kidney failure with replacement therapy or death from kidney disease), there was no statistically significant protective effect of GLP-1 receptor agonists (HR, 0.87 [95% CI, 0.73-1.03]). The most frequent side effect of GLP-1 receptor agonists is nausea, which usually resolves after 4 to 8 weeks of continued therapy. Diarrhea, hypoglycemia (particularly if used in combination with insulin therapy), tachycardia, gallbladder disease, pancreatitis, and retinopathy may also occur.",
+      "sourceExplanation": "A a reduction in UACR after addition of a GLP-1 receptor agonist. There is an increased risk of hypoglycemia when used concurrently with insulin, and a reduction in the rate of progression to kidney failure with replacement therapy has not been shown. While GLP-1 receptor agonists may result in a small reduction in BP, lowering to <120/ 80 mm Hg has not been shown to slow CKD progression. Initiating metformin would be inappropriate at this eGFR. In a meta-analysis of 5 cardiovascular outcome trials (ELIXA, LEADER, SUSTAIN-6, EXSCEL, and REWIND), Kristensen et al reported that GLP-1 receptor agonists were associated with a 17% lower risk of a composite kidney outcome (new-onset UACR of >300 mg/g, a doubling of serum creatinine, and a ≥40% decline in eGFR, kidney failure with replacement therapy, or death from kidney disease), with an HR of 0.83 (95% CI, 0.78-0.89). However, when considering the more restrictive outcome of worsening kidney function, defined by a doubling of serum creatinine or a ≥40% eGFR decline (except for EXSCEL, which also included kidney failure with replacement therapy or death from kidney disease), there was no statistically significant protective effect of GLP-1 receptor agonists (HR, 0.87 [95% CI, 0.73-1.03]). The most frequent side effect of GLP-1 receptor agonists is nausea, which usually resolves after 4 to 8 weeks of continued therapy. Diarrhea,particularly if used in combination with insulin therapy, tachycardia, gallbladder disease, pancreatitis, and retinopathy may also occur.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -1971,7 +1971,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Panel reactive antibodies (PRA) percentage will be 100% after Rituximab therapy The case is atypical hemolytic uremic syndrome",
+      "sourceExplanation": "PRA percentage will be 100% after Rituximab therapy The case is atypical hemolytic uremic syndrome",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-3)",
@@ -2224,7 +2224,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，B。\n\n根據 KDIGO 指引與常規感染管制規範，hepatitis B virus (HBV) 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg strict isolation，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，dedicated staff，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，B 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，對於 hepatitis C virus (HCV) 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
+      "sourceExplanation": "本題要選出關於血液透析室感染管制指引中不正確的敘述，B。\n\n根據 KDIGO 指引與常規感染管制規範，HBV 具有極高的環境穩定性與傳播力。為防止交叉感染，血液透析單位針對 HBsAg strict isolation，包括使用專屬的 hemodialysis machines 與獨立的透析區域。此外，dedicated staff，照護 HBV 陽性患者的醫護人員絕對不應該同時照護未具免疫力之患者，B 允許同時照護的作法是嚴重違反感管原則的。\n\n相對地，HCV 感染患者，目前的指引則不要求使用專屬機器或嚴格隔離，但全體醫療人員在進行 cannulation 與 de-cannulation 等具暴露風險的程序時，仍需嚴格遵守手部衛生並穿戴包括 mask 與 eye protection 在內的標準 personal protective equipment。",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -2280,7 +2280,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "Cystinosis is a lysosomal storage disease characterized by the abnormal accumulation of cystine, the oxidized dimer of the amino acid cysteine. It is a genetic disorder that follows an autosomal recessive inheritance pattern. The kidney problems lead to the loss of important minerals, salts, fluids, and other nutrients. Glomerulus with multiple multinucleated podocytes and parietal epithelial cells cystine crystals may also be present in the cornea: The buildup of these crystals in the eye causes an increased sensitivity to light (photophobia).",
+      "sourceExplanation": "Cystinosis is a lysosomal storage disease characterized by the abnormal accumulation of cystine, the oxidized dimer of the amino acid cysteine. It is a genetic disorder that follows an autosomal recessive inheritance pattern. The kidney problems lead to the loss of important minerals, salts, fluids, and other nutrients. Glomerulus with multiple multinucleated podocytes and parietal epithelial cells cystine crystals may also be present in the cornea:photophobia.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-1)",
@@ -2347,7 +2347,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "本題現有文獻資料庫並未涵蓋 SARS-CoV-2 誘發 acute kidney injury (AKI) 的確切病理學與流行病學數據，無法明確判定單一正確選項，故標記為無答案。\n\n根據現有醫學知識與相關文獻，SARS-CoV-2 相關的 AKI 主要由 systemic inflammation、hemodynamic instability 與 sepsis 等多重因素引起。在 postmortem autopsies 中，腎臟病理切片最主要的發現為 acute tubular necrosis (ATN) 以及不同程度的 lymphocyte infiltration，B D 的描述吻合。然而，關於病毒對腎臟細胞的 direct cytopathic effect，後續的權威研究多持保留態度，認為缺乏確鑿證據支持其為核心發病機轉；同時，與先前的 SARS 或 MERS-CoV 相比，COVID-19 併發 AKI 的確切相對發生率與臨床嚴重度在不同世代研究中存在較大異質性。基於文獻證據不足以做出絕對判定，本題不予強制選答。",
+      "sourceExplanation": "本題現有文獻資料庫並未涵蓋 SARS-CoV-AKI 的確切病理學與流行病學數據，無法明確判定單一正確選項，故標記為無答案。\n\n根據現有醫學知識與相關文獻，SARS-CoV-2 相關的 AKI 主要由 systemic inflammation、hemodynamic instability 與 sepsis 等多重因素引起。在 postmortem autopsies 中，ATN 以及不同程度的 lymphocyte infiltration，B D 的描述吻合。然而，關於病毒對腎臟細胞的 direct cytopathic effect，後續的權威研究多持保留態度，認為缺乏確鑿證據支持其為核心發病機轉；同時，與先前的 SARS 或 MERS-CoV 相比，COVID-19 併發 AKI 的確切相對發生率與臨床嚴重度在不同世代研究中存在較大異質性。基於文獻證據不足以做出絕對判定，本題不予強制選答。",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -2426,7 +2426,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
-      "sourceExplanation": "3. ACE-2 is highly expressed in the brush border of proximal tubular cells but much less in podocytes. There is no evidence that ACE-2 is present in mesangial or in glomerular endothelial cells and this may explain the absence or the mild glomerular involvement. 4. Surface ACE2 downregulation after virus endocytosis, which lead to type 1 angiotensin receptor activation as well as decreased angiotensin-(1-7) formation and subsequent worsening of AKI. Am J Kidney Dis. 2020 Jul;76(1):4-6.",
+      "sourceExplanation": "3. ACE-2 is highly expressed in the brush border of proximal tubular cells but much less in podocytes. There is no evidence that ACE-2 is present in mesangial or in glomerular endothelial cells and this may explain the absence or the mild glomerular involvement. 4. Surface ACE2 downregulation after virus endocytosis, which lead to type 1 angiotensin receptor activation as well as decreased angiotensin-(1-7) formation and subsequent worsening of AKI. Am J Kidney Dis. 2020 Jul;1:4-6.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-3)",
@@ -2486,7 +2486,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "PET result was D/P Creatinine (4hours)= (6.2-560 x 0.0002) /8.4 = 0.72 (within the range of 0.65 to 0.81, which defined high-average transport)",
+      "sourceExplanation": "PET result was D/4hours= (6.2-560 x 0.0002) /8.4 = 0.72 (within the range of 0.65 to 0.81, which defined high-average transport)",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-5)",
@@ -3115,7 +3115,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "She was diagnosed as having lithium-induced (partial) NDI based on the increase in urine osmolality of 25% and maintaining urine osmolaity <300mOsm/L at the 2 nd hour. (A) She is dehydrated and lack of water. (B) Amiloride use for whem lithium therapy is ongoing. (C) Desmopressin might be considered at “supra-”physiologic level for partial NDI. (D) NSAID be avoided in diminished renal function.",
+      "sourceExplanation": "She was diagnosed as having lithium-partial NDI based on the increase in urine osmolality of 25% and maintaining urine osmolaity <300mOsm/L at the 2 nd hour.A She is dehydrated and lack of water.B Amiloride use for whem lithium therapy is ongoing.C Desmopressin might be considered at “supra-”physiologic level for partial NDI.D NSAID be avoided in diminished renal function.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -3244,7 +3244,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "A",
-      "sourceExplanation": "Based on Brenner’s, page 2168, the American Society of Transplantation suggests that conception could be safely considered as early as 1 year posttransplant for women on stable doses of nonteratogenic immunosuppressive agents, with normal renal function (Cr < 1.5 mg/dL and urine protein excretion of <500 mg/day), no concurrent fetotoxic infections (such as cytomegalovirus), and with no rejection episodes within the past year. Mycophenylate mofetil, and sirolimus are categorized as class D drug in pregnant woman. Both are teratogenic in animal studies. And tacrolimus is OK for pregnancy.",
+      "sourceExplanation": "Based on Brenner’s, page 2168, the American Society of Transplantation suggests that conception could be safely considered as early as 1 year posttransplant for women on stable doses of nonteratogenic immunosuppressive agents, with normal renal function (Cr < 1.5 mg/dL and urine protein excretion of <500 mg/day),such as cytomegalovirus, and with no rejection episodes within the past year. Mycophenylate mofetil, and sirolimus are categorized as class D drug in pregnant woman. Both are teratogenic in animal studies. And tacrolimus is OK for pregnancy.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-3)",
@@ -3360,7 +3360,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "The clinical picture plus thrombocytopenia and MAHA lead to the diagnosis of thrombotic microangiopathy (TMA). Excluding secondary causes of TMA such as malignant hypertension, infection, rheumatoid disorders, etc, we have to differentiate TTP and complement-mediated atypical HUS by first checking ADAMT 13 activity followed by complement screening. The treatment would be plasma exchange but not DFPP till excluding TTP. Plasma exchange not only remove the autoantibody but also replace complement proteins.",
+      "sourceExplanation": "TMA. Excluding secondary causes of TMA such as malignant hypertension, infection, rheumatoid disorders, etc, we have to differentiate TTP and complement-mediated atypical HUS by first checking ADAMT 13 activity followed by complement screening. The treatment would be plasma exchange but not DFPP till excluding TTP. Plasma exchange not only remove the autoantibody but also replace complement proteins.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-5)",
@@ -3418,7 +3418,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "The patient with nephrotic syndrome and renal failure presented with tachycarida, drop of Hb and cold sweating. He had internal bleeding and was in warm shock status following kidney biopsy. Emergency TAE ( Transcatheter renal arterial embolization) is indicated.",
+      "sourceExplanation": "The patient with nephrotic syndrome and renal failure presented with tachycarida, drop of Hb and cold sweating. He had internal bleeding and was in warm shock status following kidney biopsy. Transcatheter renal arterial embolization is indicated.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-2)",
@@ -3476,7 +3476,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "The lady with ESRD under PD has Rt exudative pleural effusion and mild respiratory distress. Finding the causes including TB, is the most important issue for the patient. We may collect fluid via drainage tube for culture and cytology and followed by further thoracoscopic interpretation. (A) No need for switching to HD (B) The glucose in pleural effusion is not compatible with peritoneal leakage. (C) Correct (D) Pleurodesis would be indicated for malignancy related effusion.",
+      "sourceExplanation": "The lady with ESRD under PD has Rt exudative pleural effusion and mild respiratory distress. Finding the causes including TB, is the most important issue for the patient. We may collect fluid via drainage tube for culture and cytology and followed by further thoracoscopic interpretation.AB The glucose in pleural effusion is not compatible with peritoneal leakage.CD Pleurodesis would be indicated for malignancy related effusion.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-2)",
@@ -3534,7 +3534,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "LN is a relapsing disease and long-term immunosuppression is often warranted. The optimal duration of immunosuppression is not currently known. Regarding (A), MMF has not been shown to be superior to cyclophosphamide in large randomized controlled studies. Hydroxychloroquine is essential to management because it is associated with improved response and less disease relapse. Hydroxychloroquine should be used as a part of LN management; thus (C) is wrong. Answer (D) is incorrect because rituximab has not been shown to improve LN outcomes in large RCTs.",
+      "sourceExplanation": "LN is a relapsing disease and long-term immunosuppression is often warranted. The optimal duration of immunosuppression is not currently known.A, MMF has not been shown to be superior to cyclophosphamide in large randomized controlled studies. Hydroxychloroquine is essential to management because it is associated with improved response and less disease relapse. Hydroxychloroquine should be used as a part of LN management;C is wrong.D is incorrect because rituximab has not been shown to improve LN outcomes in large RCTs.",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (5-3)",

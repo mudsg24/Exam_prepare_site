@@ -30,7 +30,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Renin 為 Juxtaglomerular (JG) cells 所分泌的 aspartyl protease，催化切斷 Angiotensinogen (Agt) 形成 Angiotensin I (Ang I)，此步驟為整條 RAAS 級聯反應的 rate-limiting step。",
+      "sourceExplanation": "JG cells 所分泌的 aspartyl protease，AgtAng I，此步驟為整條 RAAS 級聯反應的 rate-limiting step。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -83,7 +83,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Angiotensin II Type 1 Receptor (AT1R) 為 Gq/11-coupled GPCR，活化 Phospholipase C (PLC) 水解 PIP2 產生 Inositol trisphosphate (IP3) 與 Diacylglycerol (DAG)，促進 intracellular Ca2+ 釋放與 Protein Kinase C (PKC) 活化，導致 vascular smooth muscle constriction。",
+      "sourceExplanation": "AT1R 為 Gq/11-coupled GPCR，PLCIP3DAG，促進 intracellular Ca2+PKC 活化，導致 vascular smooth muscle constriction。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -136,7 +136,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ACE2 cleaves Angiotensin II 形成 heptapeptide Angiotensin-(1-7)，作用於 G-protein coupled Mas Receptor (MasR)，活化 PI3K/Akt/eNOS signaling pathway，產生 Vasodilation、Anti-inflammatory 與 Anti-fibrotic 作用，對抗經典 AT1R axis。",
+      "sourceExplanation": "ACE2 cleaves Angiotensin II 形成 heptapeptide Angiotensin-(1-7)，作用於 G-MasR，活化 PI3K/Akt/eNOS signaling pathway，產生 Vasodilation、Anti-inflammatory 與 Anti-fibrotic 作用，對抗經典 AT1R axis。",
       "nlmResponses": [
         {
           "accountProfile": "mudkaku",
@@ -242,7 +242,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "11β-HSD2 表達於 ASDN Principal Cells，將 Cortisol 代謝為無活性的 Cortisone，防止高濃度的 Cortisol 佔據對其具同等高親和力的 Mineralocorticoid Receptor (MR)。",
+      "sourceExplanation": "11β-HSD2 表達於 ASDN Principal Cells，將 Cortisol 代謝為無活性的 Cortisone，MR。",
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -564,7 +564,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ARNI 為 Sacubitril (Prodrug -> LBQ657, Neprilysin Inhibitor) 與 Valsartan (ARB) 1:1 結合。Valsartan 阻斷累積 Ang II 對 AT1R 的作用，發揮 Sacubitril 提升 ANP/BNP/cGMP 的 vasodilation 與 diuretic benefits。",
+      "sourceExplanation": "ARNI 為 Sacubitril (Prodrug -> LBQ657, Neprilysin Inhibitor)ARB 1:1 結合。Valsartan 阻斷累積 Ang II 對 AT1R 的作用，發揮 Sacubitril 提升 ANP/BNP/cGMP 的 vasodilation 與 diuretic benefits。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -617,7 +617,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ACE 與 Neprilysin 同為 Bradykinin 的主要 degradation enzymes。Dual inhibition (如 Omapatrilat) 會引發組織 Bradykinin 劇烈累積，造成 Severe Angioedema。由 ACEi 轉換至 ARNI 須隔離 36 小時。",
+      "sourceExplanation": "ACE 與 Neprilysin 同為 Bradykinin 的主要 degradation enzymes。Dual inhibition  會引發組織 Bradykinin 劇烈累積，造成 Severe Angioedema。由 ACEi 轉換至 ARNI 須隔離 36 小時。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -670,7 +670,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ANP/BNP 結合至 NPR-A，活化 Particulate Guanylyl Cyclase (pGC)，提升 intracellular cGMP，活化 Protein Kinase G (PKG) 引發 vasodilation 與 natriuretic and diuretic actions。",
+      "sourceExplanation": "ANP/BNP 結合至 NPR-A，pGC，提升 intracellular cGMP，PKG 引發 vasodilation 與 natriuretic and diuretic actions。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -723,7 +723,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "RASi dilates Efferent Arterioles 會降低 Intraglomerular Pressure (Pgc)，引發初期的 Hemodynamic Dip in eGFR。當 eGFR 下降 <= 30% 且 Serum K+ 正常時，此為 attenuating hyperfiltration 的 expected effect，應繼續使用藥物。",
+      "sourceExplanation": "Pgc，引發初期的 Hemodynamic Dip in eGFR。當 eGFR 下降 <= 30% 且 Serum K+ 正常時，此為 attenuating hyperfiltration 的 expected effect，應繼續使用藥物。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -829,7 +829,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "UK HARP-III 試驗證實 Sacubitril/Valsartan 於 CKD (eGFR 20-60) 族群中具備與 Irbesartan 相同的 renal safety，且 blood pressure control 與 Cardiac Biomarkers 降低效益更優。",
+      "sourceExplanation": "UK HARP-III 試驗證實 Sacubitril/eGFR 20-60 族群中具備與 Irbesartan 相同的 renal safety，且 blood pressure control 與 Cardiac Biomarkers 降低效益更優。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",
@@ -992,7 +992,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "ANP 經由 cGMP/PKG pathway primarily targets luminal sodium channel ENaC in the Inner Medullary Collecting Duct (IMCD)，thereby promoting Natriuresis & Diuresis。",
+      "sourceExplanation": "ANP 經由 cGMP/IMCD，thereby promoting Natriuresis & Diuresis。",
       "nlmResponses": [
         {
           "accountProfile": "b92401024",
@@ -1045,7 +1045,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "For asymptomatic patients with normal ECG and mild-to-moderate Hyperkalemia (5.7 mEq/L)，guidelines recommend prior dietary assessment, discontinue NSAID, adjust diuretics or add a modern Potassium Binder (SZC / Patiromer)，to maintain life-saving ARNI 與 MRA therapy。",
+      "sourceExplanation": "For asymptomatic patients with normal ECG and mild-to-moderate Hyperkalemia (5.7 mEq/L)，guidelines recommend prior dietary assessment, discontinue NSAID,SZC / Patiromer，to maintain life-saving ARNI 與 MRA therapy。",
       "nlmResponses": [
         {
           "accountProfile": "sandbox0505",

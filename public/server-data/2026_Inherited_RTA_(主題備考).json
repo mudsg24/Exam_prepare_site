@@ -87,8 +87,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected SLC4A1 text matching Option D, matching Ground Truth D.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q02",
@@ -171,8 +172,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q03",
@@ -259,8 +261,9 @@
       "qcStatus": "DISPUTED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "NotebookLM #1 returned INSUFFICIENT_DATABASE_EVIDENCE, while NotebookLM #2 selected Option C matching Ground Truth C.",
-      "reconciliationStatus": "DISPUTED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q04",
@@ -343,8 +346,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q05",
@@ -427,8 +431,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q06",
@@ -511,8 +516,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected SLC4A4 text matching Option B, matching Ground Truth B.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q07",
@@ -595,8 +601,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected CA II text matching Option D, matching Ground Truth D.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q08",
@@ -679,8 +686,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q09",
@@ -763,8 +771,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q10",
@@ -847,8 +856,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q11",
@@ -931,8 +941,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected Dent Disease Type 1 text matching Option B, matching Ground Truth B.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q12",
@@ -1015,8 +1026,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected PHA1A text matching Option C, matching Ground Truth C.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q13",
@@ -1099,8 +1111,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected PHA1B text matching Option B, matching Ground Truth B.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q14",
@@ -1183,8 +1196,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected WNK/KLHL3 text matching Option D, matching Ground Truth D.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q15",
@@ -1267,8 +1281,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected Aldosterone Synthase Deficiency text matching Option C, matching Ground Truth C.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q16",
@@ -1351,8 +1366,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q17",
@@ -1435,8 +1451,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected Urinary Ammonium ~200 mEq/L text matching Option D, matching Ground Truth D.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q18",
@@ -1519,8 +1536,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q19",
@@ -1603,8 +1621,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Inherited_RTA_Q20",
@@ -1687,8 +1706,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Dual NotebookLM responses unanimously selected Glycophorin A interaction text matching Option D, matching Ground Truth D.",
-      "reconciliationStatus": "QC_PASSED",
-      "qcVerifiedBy": "tn-exam-qc"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     }
   ]
 }

@@ -53,8 +53,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "Source provided answer (B) verified.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -106,8 +106,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Source provided answer (B) verified.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -159,8 +159,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Source provided answer (A) verified.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -212,8 +212,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "Source provided answer (C) verified.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -265,8 +265,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Source provided answer (C) verified.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -318,8 +318,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "Both NLM responses selected option A, matching source provided answer A.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -371,8 +371,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Both NLM responses selected option C, matching source provided answer C.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -424,8 +424,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Both NLM responses selected option B, matching source provided answer B.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -477,8 +477,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "Both NLM responses selected option B, matching source provided answer B.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -530,8 +530,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "NLM Run 1 selected B; NLM Run 2 noted <10% vs 10-50% post-DDAVP nuance (NONE), but both confirmed medullary washout mechanism in Primary Polydipsia. Option B accepted.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -583,8 +583,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option B.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -636,8 +636,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcNotes": "Ground Truth (C) and dual NotebookLM responses unanimously agree on Option C.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -689,8 +689,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcNotes": "Ground Truth (B) and dual NotebookLM responses unanimously agree on Option B.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -742,8 +742,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
       "qcNotes": "Ground Truth (C) and dual NotebookLM responses unanimously agree on Option C.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
@@ -795,8 +795,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcNotes": "NotebookLM #1 selected Option A, C while NotebookLM #2 selected Option C.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -848,8 +848,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (A)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -901,8 +901,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option B.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -954,8 +954,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option C.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
@@ -1007,8 +1007,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (C)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcNotes": "Ground Truth (C) and dual NotebookLM responses unanimously agree on Option C.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
@@ -1060,8 +1060,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "run1 == run2 == sourceProvidedAnswer (B)",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A.",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,

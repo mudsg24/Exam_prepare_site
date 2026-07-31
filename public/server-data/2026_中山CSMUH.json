@@ -338,7 +338,7 @@
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -366,7 +366,7 @@
           "qc_status": "PASSED"
         }
       ],
-      "reconciliationNotes": "Source provided answer D respected and confirmed aligned.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (B, D) 不符。",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:26:46.415Z",
       "qcVerifiedBy": "tn-exam-qc",

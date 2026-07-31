@@ -64,7 +64,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q2",
@@ -123,7 +124,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q3",
@@ -182,7 +184,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q4",
@@ -241,7 +244,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q5",
@@ -300,7 +304,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q6",
@@ -359,7 +364,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q7",
@@ -418,7 +424,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q8",
@@ -477,7 +484,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q9",
@@ -536,7 +544,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q10",
@@ -597,7 +606,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "reconciliationStatus": "AGREED"
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "dgf-q11",
@@ -654,7 +664,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q12",
@@ -711,7 +722,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q13",
@@ -768,7 +780,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q14",
@@ -825,7 +838,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "dgf-q15",
@@ -882,7 +896,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q16",
@@ -939,7 +954,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q17",
@@ -996,7 +1012,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "dgf-q18",
@@ -1053,7 +1070,8 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "reconciliationStatus": "MATCH"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     }
   ],
   "qcVerified": true,

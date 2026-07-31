@@ -57,8 +57,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識 (A) 與標準答案 (A) 相符。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
@@ -116,8 +116,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識 (B) 與標準答案 (B) 相符。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
@@ -175,8 +175,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識 (C) 與標準答案 (C) 相符。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
@@ -206,7 +206,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "根據 Pei et al. (2009) 更新之 Unified Ultrasonographic Criteria，Family History Positive 之高風險族群：\n- **15–29 歲**：單側或雙側共存在 **≥ 3 個囊腫** (At least 3 cysts, unilateral or bilateral) 即可確診 (敏感度 94.3%)。\n- **30–39 歲**：單側或雙側共存在 **≥ 3 個囊腫** 即可確診。\n- **40–59 歲**：必須為**雙側各有 ≥ 2 個囊腫** (≥ 2 cysts in EACH kidney)。\n- **≥ 60 歲**：必須為**雙側各有 ≥ 4 個囊腫** (≥ 4 cysts in EACH kidney)。",
+      "sourceExplanation": "根據 Pei et al. (2009) 更新之 Unified Ultrasonographic Criteria，family history positive 之 high-risk 族群：\n- **15–29 歲**：單側或雙側共存在 **≥ 3 個 cysts** 即可確診，sensitivity 達 94.3%。\n- **30–39 歲**：單側或雙側共存在 **≥ 3 個 cysts** 即可確診。\n- **40–59 歲**：必須為雙側各有 **≥ 2 個 cysts**。\n- **≥ 60 歲**：必須為雙側各有 **≥ 4 個 cysts**。",
       "selectedOption": "D",
       "nlmResponses": [
         {
@@ -234,12 +234,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識 (D) 與標準答案 (D) 相符。",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
-      "qcNotes": "sourceExplanation 含有中英文並列括號 (例如: ≥ 3 個囊腫 (At least 3 cysts...))。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:06+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q5",
@@ -293,8 +293,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識 (A) 與標準答案 (A) 相符。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
@@ -352,8 +352,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:31+08:00",
@@ -411,8 +411,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:31+08:00",
@@ -470,8 +470,8 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:31+08:00",
@@ -529,8 +529,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:31+08:00",
@@ -588,8 +588,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:11:31+08:00",
@@ -647,12 +647,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:16:31.461190+08:00",
-      "qcNotes": "Found bilingual brackets like \"estrogens（雌激素）\" and \"early satiety（早飽感）\"."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:06+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q12",
@@ -678,7 +678,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Autosomal Recessive Polycystic Kidney Disease (ARPKD) 由 `PKHD1` 基因 (編碼 Fibrocystin/Polyductin) 雙突變引起。其腎臟病理特徵為雙側極度腫大，Fusiform Radial Cysts，**100% Collecting Ducts**。病患肝臟必定伴隨 **Congenital Hepatic Fibrosis (CHF, 先天性肝纖維化)**，Ductal Plate Malformation，常引發門脈高壓症。",
+      "sourceExplanation": "Autosomal recessive polycystic kidney disease 由 `PKHD1` 基因雙突變引起。其腎臟病理特徵為雙側極度腫大，fusiform radial cysts，**100% collecting ducts**。病患肝臟必定伴隨 **congenital hepatic fibrosis**，ductal plate malformation，常引發 portal hypertension。",
       "selectedOption": "C",
       "nlmResponses": [
         {
@@ -706,12 +706,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:16:31.461190+08:00",
-      "qcNotes": "Found bilingual brackets like \"fusiform（梭形）\" and \"oligohydramnios（羊水過少）\"."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:06+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q13",
@@ -737,7 +737,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Nephronophthisis (NPHP) 為兒童及青少年末期腎病最常見之單基因隱性原因 (中位 ESRD 約 13 歲)。最常見致病基因為 **`NPHP1` 基因純合缺失** (約佔 20%)。腎臟表現為正常或萎縮腎、腎小管間質纖維化、管底膜崩解及**Corticomedullary Junction Cysts**。常伴隨腎外纖毛病變：合併視網膜色素變性稱為 **Senior-Løken Syndrome**；合併 Molar Tooth Sign 稱為 **Joubert Syndrome**。",
+      "sourceExplanation": "Nephronophthisis 為兒童及青少年 end-stage renal disease 最常見之單基因隱性原因。最常見致病基因為 **`NPHP1` 基因 homozygous deletion**。腎臟表現為正常或萎縮腎、tubulointerstitial fibrosis、tubular basement membrane disruption 及 **corticomedullary junction cysts**。常伴隨 extrarenal ciliopathies：合併 retinitis pigmentosa 稱為 **Senior-Løken syndrome**；合併 molar tooth sign 稱為 **Joubert syndrome**。",
       "selectedOption": "B",
       "nlmResponses": [
         {
@@ -765,12 +765,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:16:31.461190+08:00",
-      "qcNotes": "Found bilingual brackets like \"retinitis pigmentosa（視網膜色素變性）\"."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:06+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q14",
@@ -796,7 +796,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Autosomal Dominant Tubulointerstitial Kidney Disease (**ADTKD**) 主要由 `UMOD` (Uromodulin/Henle 氏套粗昇支黏蛋白) 或 `MUC1` (Mucin-1) 等基因顯性突變引起。其臨床特徵為：自體顯性家族史、腎小管間質纖維化、腎臟大小正常或輕度萎縮且無顯著大囊腫。`ADTKD-UMOD` 與 `ADTKD-REN` 的招牌特徵為**早發型高尿酸血症與痛風 (Early-Onset Hyperuricemia & Gout)** (常於 20 多歲即發病)。",
+      "sourceExplanation": "Autosomal dominant tubulointerstitial kidney disease 主要由 `UMOD` 或 `MUC1` 等基因突變引起。其臨床特徵為：autosomal dominant inheritance、tubulointerstitial fibrosis、腎臟大小正常或輕度萎縮且無顯著大 cysts。`ADTKD-UMOD` 與 `ADTKD-REN` 的招牌特徵為**early-onset hyperuricemia and gout**。",
       "selectedOption": "C",
       "nlmResponses": [
         {
@@ -824,12 +824,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:16:31.461190+08:00",
-      "qcNotes": "Found bilingual brackets like \"uromodulin（亦稱為 Tamm-Horsfall protein）\"."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:41:06+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q15",
@@ -883,8 +883,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
@@ -942,8 +942,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (C) 與 `ground truth` (C) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
@@ -1001,8 +1001,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (A) 與 `ground truth` (A) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
@@ -1060,8 +1060,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
@@ -1119,8 +1119,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (C) 與 `ground truth` (C) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",
@@ -1178,8 +1178,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "`NLM consensus` (B) 與 `ground truth` (B) 一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:41:16+08:00",

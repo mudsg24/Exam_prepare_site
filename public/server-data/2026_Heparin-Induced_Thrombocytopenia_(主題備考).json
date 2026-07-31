@@ -62,8 +62,8 @@
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: NONE vs NLM 2: A)。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q2",
@@ -122,8 +122,8 @@
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option B while NotebookLM #2 selected Option A.",
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q3",
@@ -422,8 +422,8 @@
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option C while NotebookLM #2 selected Option NONE.",
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
       "id": "q8",
@@ -722,8 +722,8 @@
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option D while NotebookLM #2 selected Option NONE.",
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q13",
@@ -902,8 +902,8 @@
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Ground Truth (C) and dual NotebookLM responses unanimously agree on Option C.",
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: NONE vs NLM 2: A)。"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q16",
@@ -1136,8 +1136,8 @@
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: A / A",
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "C，但 NotebookLM A。"
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q20",

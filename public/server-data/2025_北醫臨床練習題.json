@@ -118,8 +118,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "NotebookLM 檢索無有效回應。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
       "qcVerifiedAt": "2026-07-30T01:32:00+08:00",
@@ -1290,8 +1290,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "兩組 NotebookLM 回答不一致 (NLM1: C, NLM2: UNKNOWN)",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: C vs NLM 2: D)。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-24T18:31:21.802Z",

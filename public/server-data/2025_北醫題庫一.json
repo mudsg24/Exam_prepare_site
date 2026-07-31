@@ -1492,8 +1492,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (B) 不符。",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q23_1",
@@ -1692,8 +1692,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "A 與 NotebookLM C 不符",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (C) 不符。",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -2245,8 +2245,8 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: B vs NLM 2: A)。",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "PASSED",
@@ -2734,8 +2734,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "C 與 NotebookLM B 不符",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: C vs NLM 2: A)。",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_DISPUTED",
@@ -3443,8 +3443,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "C 與 NotebookLM B 不符",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (B) 不符。",
       "attachedImages": null,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -3758,8 +3758,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "D 與 NotebookLM A 不符",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: C vs NLM 2: A)。",
       "attachedImages": [
         {
           "id": "img_2025_北醫題庫一_q59_1",

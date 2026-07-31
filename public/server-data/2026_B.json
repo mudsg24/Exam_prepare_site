@@ -1290,8 +1290,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [],
       "attachedImages": [
         {

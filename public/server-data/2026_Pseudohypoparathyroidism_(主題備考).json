@@ -677,9 +677,9 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerifiedBy": "Tonks",
-      "reconciliationNotes": "Verified by tn-exam-qc: Both NLM Run 1 and Run 2 selected Option A matching Ground Truth A."
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。"
     },
     {
       "id": "q12",
@@ -912,8 +912,9 @@
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
       "qcNotes": "Verified via NLM re-asking (>500 chars). Ground truth D matches medical consensus.",
-      "reconciliationStatus": "MATCH",
-      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check"
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q16",

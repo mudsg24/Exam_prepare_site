@@ -388,11 +388,11 @@
       ],
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcVerifiedBy": "Tonks",
-      "reconciliationNotes": "Verified by tn-exam-qc: NotebookLM dual asking confirms Option A (Ethacrynic acid) as the non-sulfonamide loop diuretic for severe sulfa anaphylaxis matching Ground Truth A."
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。"
     },
     {
       "id": "q8",

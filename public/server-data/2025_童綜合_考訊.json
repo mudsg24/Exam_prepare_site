@@ -521,8 +521,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "resolvedImages": [],
       "qcStatus": "QC_FAILED",
       "qcVerified": false,

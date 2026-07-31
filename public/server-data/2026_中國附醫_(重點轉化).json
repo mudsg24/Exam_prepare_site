@@ -33,7 +33,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "根據最新 KDIGO Clinical Practice Guidelines 的更新，IgAN disease progression 與 long-term kidney failure risk 最強烈的 surrogate endpoint。持續降至 < 0.5 g/day (或 UPCR < 0.5 g/g) 能顯著減緩 eGFR decline rate 並維持長遠的 kidney survival。當患者經過至少 3–6 個月充分的 supportive care 後 daily proteinuria 仍 ≥ 0.75–1.0 g/day，應評估使用 targeted disease-modifying drugs (如 targeted-release budesonide, sparsentan) 或參加 clinical trials 以將 proteinuria 降至 <0.5 g/day 目標。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_DISPUTED_RESOLVED",
       "qcVerified": true,
       "nlmResponses": [
@@ -49,7 +49,7 @@
         }
       ],
       "resolvedImages": [],
-      "reconciliationNotes": "Dual NLM evaluation 皆一致判決本題 NONE，與 original provided answer A 產生 DISPUTED。根據 KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases，針對 primary IgA nephropathy (IgAN) 之 proteinuria reduction clinical control target 應為 < 1.0 g/day (或 UPCR < 1.0 g/g)，且屬於 ungraded Practice Point；而 Option (A) 將目標誤植為 < 0.5 g/day 並標註為 strongly recommended，且 Option (B) 宣稱 < 1.5 g/day 即足夠，Option (C) 誤指 RAS inhibitor 僅需依據 blood pressure 調整，Option (D) 錯誤主張 proteinuria > 0.5 g/day 應立即啟動 immunosuppressive therapy。因此全數 Option 皆含有 guideline 概念瑕疵。",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcNotes": "雙重 NLM 盲測提問皆一致判定本題無正確選項 (NONE)。原始答案標示 A 存在 KDIGO 2021 指引細節之瑕疵，已被雙重 NLM 標示並詳細解說爭議所在。",
       "qcVerifiedAt": "2026-07-30T02:47:10.490Z",
       "qcVerifiedBy": "tn-exam-qc"

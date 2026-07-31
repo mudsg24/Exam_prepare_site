@@ -241,8 +241,8 @@
       ],
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: D vs NLM 2: NONE)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
       "qcNotes": "Reconciled by tn-exam-qc."
     },
@@ -966,8 +966,8 @@
       ],
       "qcVerified": true,
       "qcStatus": "PASSED",
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
     },
     {

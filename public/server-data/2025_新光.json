@@ -295,8 +295,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "NotebookLM 檢索無有效回應。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

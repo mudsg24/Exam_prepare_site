@@ -33,7 +33,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n標準血液透析水處理 Pre-treatment Train 的淨化流向順序為：\n1. **Multimedia Sediment Filter**：首先過濾自來水中的粗大懸浮微粒與泥沙。\n2. **Water Softener**：經由鈉型陽離子交換樹脂去除水中的 $\\text{Ca}^{2+}$ 與 $\\text{Mg}^{2+}$ 硬度離子，防範結晶沉澱 Scaling。\n3. **Dual Activated Carbon Tanks in Series**：於軟水後吸附有機物並經由化學還原反應去除 Free chlorine & Chloramines。\n4. **5-Micron Depth Filter**：放置於 RO 幫浦正前方，捕捉脫落的 Carbon fines，確保進入 RO 膜的水質粒徑 $< 5\\,\\mu\\text{m}$。\nA 完全正確。\n\n### 3. Distractor Analysis\n- **(B),C,D 錯誤**：將 Activated Carbon 置於沉澱過濾器或 Water Softener 之前會導致活性碳孔隙遭懸浮泥沙堵塞與硬度離子覆蓋而迅速失效；若將 5-Micron Depth Filter 置於活性碳之前，則無法捕捉活性碳槽洩漏出的微小碳粉，會直接造成 RO 膜磨損破壞。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -64,7 +64,7 @@
       ],
       "resolvedImages": [],
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
@@ -94,7 +94,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "因資料庫證據不足，無法進行解析。",
-      "reconciliationStatus": "HIGH_CONFIDENCE_DISAGREES_SOURCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_DISPUTED_DATABASE_LIMITATION",
       "qcVerified": true,
       "nlmResponses": [
@@ -122,7 +122,7 @@
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-08-01T01:49:03.249713+08:00",
       "qcNotes": "台灣 TSN 透析單位認證法規數值屬國內衛福部政策，Brenner/KDIGO 知識庫未收錄。NLM 雙重 INSUFFICIENT 為資料庫文獻限制而非題目瑕疵。維持 sourceProvidedAnswer=B (Ground Truth)。",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q3",
@@ -206,7 +206,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "本題測試血液透析用水處理中 Reverse Osmosis 與 Thin-TFC 膜的流體力學。Cross-Flow Filtration 的機制是利用高壓驅使流體平行於膜表面流動，將水流分為 pure permeate 與 continuous concentrate reject。這種設計能藉由流體的剪切力帶走 foulants，有效減少 fouling，以維持系統的高純化效率。",
-      "reconciliationStatus": "HIGH_CONFIDENCE_DISAGREES_SOURCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_DISPUTED_DATABASE_LIMITATION",
       "qcVerified": true,
       "nlmResponses": [
@@ -234,7 +234,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-08-01T01:49:03.249713+08:00",
       "qcNotes": "Cross-Flow Filtration TFC RO membrane 流體動力學物理機制說明缺乏文獻基礎，且 NLM#2 仍僅 128 字（RETRY_EXHAUSTED）。維持 sourceProvidedAnswer=D (Ground Truth)。",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q5",
@@ -262,7 +262,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "RO water distribution loop 防止細菌附著與 biofilm 形成的工程規格。為避免低流速與停滯點（stagnation points）誘發 biofilm deposition，系統應採用 continuous circulating loop 並嚴禁 dead-ends。同時需配合適當的 fluid velocity 與光滑管材（如 PVDF 或 PEX），藉由物理剪切力阻斷微生物附著。",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerified": true,
       "nlmResponses": [
@@ -290,7 +290,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q6",
@@ -318,7 +318,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "TSN 關於 standard RO water 與 dialysate 中 bacterial colony counts 的具體限制與 Action Level，無法從文獻中確認精確的容許閾值。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "qcStatus": "QC_DISPUTED_DATABASE_LIMITATION",
       "qcVerified": true,
       "nlmResponses": [
@@ -346,7 +346,7 @@
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-08-01T01:49:03.249713+08:00",
       "qcNotes": "台灣 TSN 細菌限值標準（q6）：NLM#1=B(100 CFU/ml), NLM#2=C(200 CFU/ml)，兩者分歧源於 AAMI 版本差異。台灣現行 TSN 標準依 AAMI/ISO 新版為 <100 CFU/ml，維持 sourceProvidedAnswer=B。",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: B vs NLM 2: C)。"
     },
     {
       "id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q7",
@@ -430,7 +430,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(D)**。\n\n### 2. Mechanism & Rationale\n- **致病機轉**：當前處理 Carbon Tanks 穿透失效時，自來水中的 **Chloramines** 或 Free Chlorine 進入透析水。Chloramines 為強 Oxidant agent，穿過透析膜後會引發紅血球膜脂質過氧化與 Heme 氧化，導致 **Acute Intravascular Hemolysis** 及 **Methemoglobinemia**。\n- **急救處置 SOP**：必須**立即停止透析**，並**DISCARD extracorporeal blood**！因為迴路內的血液已受強氧化劑破壞並釋放大量高游離鉀與游離血紅素，趕回體內會引發致命性hyperkalemia與心臟驟停。D 完全正確。\n\n### 3. Distractor Analysis\n- **(A) 錯誤**：Aluminum Toxicity 引發慢性失智與低轉運骨病，不會引發突發性 Acute Intravascular Hemolysis。\n- **(B) 錯誤**：Fluoride Intoxication 引發致命心律不整與低血鈣，且溶血發生時絕不能繼續透析。\n- **(C) 錯誤**：將遭污染破壞的血液趕回體內是極危險的禁忌處置！",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -461,7 +461,7 @@
       ],
       "resolvedImages": [],
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
@@ -491,7 +491,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "A",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(A)**。\n\n### 2. Mechanism & Rationale\n**Aluminum Toxicity** 是早期透析水質處理不佳 如添加明礬淨水或使用含鋁透析水 時典型的重金屬蓄積症狀：\n1. **Dialysis Encephalopathy / Dementia**：鋁沉積於中樞神經系統，表現為 Dyspraxia of speech、Myoclonus、失智與癲癇發作。\n2. **Low-Turnover Osteomalacia / Adynamic Bone Disease**：鋁沉積於 Mineralization front，直接抑制 Osteoblast 活性與 PTH 作用，導致劇烈骨痛與骨折。\n3. **Microcytic Normochromic Anemia**：干擾鐵質在 Heme 合成中的利用，給予高劑量 EPO 治療無效。A。\n\n### 3. Distractor Analysis\n- **(B) 錯誤**：Copper Toxicity 主要表現為 Acute Intravascular Hemolysis、胃腸道症狀與代謝性酸中毒。\n- **(C) 錯誤**：Magnesium Toxicity 引發 Hard Water Syndrome (嗜睡、高血壓、肌無力)。\n- **(D) 錯誤**：Lead Toxicity 引發周邊神經病變與 Saturnine gout。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -522,7 +522,7 @@
       ],
       "resolvedImages": [],
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: A, NLM: A / A"
     },
@@ -608,7 +608,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "### 1. Answer Determination\n正確答案為 **(C)**。\n\n### 2. Mechanism & Rationale\n- **Copper & Zinc Leaching Toxicity**：當透析水處理系統或迴水管線使用銅管、黃銅配件或鍍鋅管時，酸性的純水  會侵蝕金屬管壁，致使 Copper 離子或 Zinc 離子溶出進入透析水。\n- **病理毒性**：Copper 離子為強烈之紅血球毒素，會破壞紅血球細胞膜並抑制 G6PD 活性，引發 **Acute Intravascular Hemolysis**、腹痛、噁心、嘔吐、黃疸與代謝性酸中毒。C 完全正確。\n\n### 3. Distractor Analysis\n- **(A),B,D 錯誤**：Copper / Zinc 重金屬溶出不會直接引發純粹的高鈉高osmolality昏迷或肺纖維化，其特徵性的血球打擊為 Acute Intravascular Hemolysis 與消化道毒性。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -639,7 +639,7 @@
       ],
       "resolvedImages": [],
       "selectedOption": "C",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C"
     },
@@ -669,7 +669,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "本題詢問在 AAMI 2014 與 Taiwan TSN guidelines 規範下，hemodialysis 水進行完整化學與重金屬分析的法定頻率。根據文獻記載，雖然水質標準有嚴格的 microbial 與 endotoxin 規範，但缺乏具體的 chemical contaminants 檢測頻率，且無 Taiwan TSN 的本土指引。儘管如此，透析用水中的化學污染物如 aluminum 會累積引發 dialysis dementia、osteomalacia 與 microcytic anemia，fluoride 洩漏會引起致命的 cardiac arrhythmias，chloramines 則會導致 acute hemolysis。由於選項缺乏明確的文獻支持，本題判定為無明確答案。",
-      "reconciliationStatus": "SINGLE_RESPONSE_ONLY",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -696,7 +696,7 @@
       "selectedOption": "D",
       "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00",
       "qcNotes": "NLM #1 未選出選項 (NONE)，NLM #2 則根據臨床實務支持了選項 D。僅有一筆有效回答，且與原始答案 D 一致。",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致"
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。"
     }
   ],
   "updatedAt": "2026-07-31T06:22:22.582Z",

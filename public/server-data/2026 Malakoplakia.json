@@ -66,9 +66,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Malakoplakia_Q02",
@@ -368,9 +369,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "2026_Malakoplakia_Q07",
@@ -423,9 +425,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NotebookLM #1 selected Option NONE while NotebookLM #2 selected Option C.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Malakoplakia_Q08",
@@ -551,9 +554,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Malakoplakia_Q10",
@@ -661,9 +665,10 @@
       "qcVerified": false,
       "qcStatus": "PENDING",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcNotes": "雙方皆未給出有效答案",
-      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00"
+      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_Malakoplakia_Q12",
@@ -716,9 +721,10 @@
       "qcVerified": false,
       "qcStatus": "PENDING",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "僅一筆 NLM 成功判定答案",
-      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00"
+      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。"
     },
     {
       "id": "2026_Malakoplakia_Q13",
@@ -771,9 +777,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Malakoplakia_Q14",
@@ -826,9 +833,10 @@
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NotebookLM #1 selected Option B while NotebookLM #2 selected Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Malakoplakia_Q15",
@@ -881,9 +889,10 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "confidenceLevel": "HIGH_CONFIDENCE",
-      "reconciliationStatus": "SINGLE_RESPONSE_ONLY",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "僅一筆 NLM 成功判定答案",
-      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00"
+      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
       "id": "2026_Malakoplakia_Q16",

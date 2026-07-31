@@ -94,7 +94,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "文獻中詳細記載了 acute or chronic renal failure 合併 respiratory distress 與 hemoptysis 的經典 differential diagnosis，如由 autoantibodies 驅動的 anti-Goodpasture syndrome 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -125,7 +125,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_成大_Cases_Q03",
@@ -155,7 +155,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "對於 peritoneal dialysis 患者出現 hydrothorax 的 differential diagnosis，文獻中主要探討了與 hypervolemia 相關的 pleural effusions，以及常見的 peritoneal dialysis complications 如 peritonitis、hemoperitoneum 與 encapsulating peritoneal sclerosis。雖然臨床上 pleuroperitoneal communication 是長期 dialysis patients 可能發生的 non-infectious complications，其特徵為 dialysate 經由 diaphragmatic defect 進入 pleural cavity，且可藉由測量 elevated pleural-to-serum glucose gradient 來確立 diagnosis，但此 pathophysiology 機制未在資料庫文獻中詳細描述，故無法從文獻證據中確切判定。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -195,7 +195,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_成大_Cases_Q04",
@@ -784,7 +784,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "TDF 可引發 renal Fanconi syndrome 與 Type 2 RTA。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等 active transport 停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。Pathological features 包含 acute tubular injury、megamitochondria 與 loss of cristae。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -818,7 +818,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
-      "reconciliationNotes": "NotebookLM knowledge base evidence 不足"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_成大_Cases_Q14",
@@ -915,7 +915,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Source literature 不足，無法提供足夠的 analysis。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -949,7 +949,7 @@
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
-      "reconciliationNotes": "NotebookLM knowledge base evidence 不足"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_成大_Cases_Q16",
@@ -1032,7 +1032,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 KDIGO 2021 guidelines，針對合併 abnormal kidney function 的 idiopathic immune complex-idiopathic ICGN 患者，本題所提供的 options 中無完全正確的選項。在 standard clinical guidelines 下，除了給予 renin-angiotensin system inhibition 等 optimal supportive care 之外，首選的 first-line initial immunosuppressive therapy 應為 oral glucocorticoid monotherapy（具體為 oral prednisone or prednisolone，持續 12-16 weeks）。Option A 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為 routine recommendation，因為長期給予 alkylating agents 並未優於 steroid monotherapy，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動 combination therapy。Option B 錯誤，plasma exchange therapy 缺乏 randomized controlled trials 的 evidence of benefit，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。Option C 錯誤，high-RPGN、pathology 呈廣泛 crescentic glomerulonephritis 或伴有嚴重 extrarenal involvement 的患者。Option D 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20（例如 rituximab）的應用仍缺乏大型 prospective clinical trials 支持，並非初始推薦首選。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1066,7 +1066,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.432Z",
       "qcNotes": "NLM 兩次 Run 皆一致判讀為 NONE (No option is correct)。原始答案 C (IV pulse methylprednisolone) 經 KDIGO 2021 Guideline 審查為不合適，NLM 一致修正為 NONE。全解答與敘述符合 100% 繁體中文與 100% Pure English 醫學專有名詞規範。",
-      "reconciliationNotes": "根據 KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases，adult idiopathic immune-complex mediated MPGN (idiopathic ICGN) 伴隨 impaired renal function without crescentic involvement 時，first-line initial immunosuppressive therapy 為 oral glucocorticoids (oral prednisone or prednisolone 1 mg/kg/d)，而非 Option C 所述之 intravenous pulse methylprednisolone，後者嚴格保留給 rapidly progressive crescentic GN。Option A cyclophosphamide、Option B plasma exchange 及 Option D rituximab 亦非 first-line choices。因此本題 four options 皆非標準處置，NLM dual runs 皆一致判定為 NONE，修正原標註之 Option C。",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "responses": [
         {
           "account": "sandbox0505",
@@ -1173,7 +1173,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據目前提供的 literature evidence，無足夠 evidence 確認本題的 correct answer。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1209,7 +1209,7 @@
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.438Z",
       "qcNotes": "NLM 兩次 Run 皆一致標註為 INSUFFICIENT_DATABASE_EVIDENCE (NONE)。與原始 Ground Truth (NONE) 完全一致。全解答與敘述符合 100% 繁體中文與 100% Pure English 醫學專有名詞規範。",
-      "reconciliationNotes": "Encapsulating peritoneal sclerosis (EPS) 之 two-hit hypothesis 探討在 database literature 中資料不足 INSUFFICIENT_DATABASE_EVIDENCE。NLM dual runs 與 sourceProvidedAnswer 皆標示為 NONE，three-way comparison 完全一致。",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -1358,7 +1358,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據臨床與 Brenner 11e 記載，Hodgkin lymphoma 是 adult minimal change disease 極為著名的 secondary trigger。其餘選項：polycystic kidney disease 為 hereditary kidney disease，lead toxicity 引發 chronic tubulointerstitial nephritis，essential hypertension 常伴隨 secondary FSGS，而 Hepatitis C virus 主要引起 MPGN 或 MN。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1394,7 +1394,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足"
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "2026_成大_Cases_Q23",
@@ -1554,7 +1554,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "本題考查 metabolic alkalosis 的 pathophysiological mechanism 與分類。metabolic alkalosis 可依據 urine chloride 濃度分為 saline-responsive (urine chloride < 25 mmol/L) 與 chloride-unresponsive (或 saline-resistant，urine chloride > 40 mmol/L)。該病患 urine chloride 升高至 45 mmol/L，符合 chloride-unresponsive 分類。其 pathophysiology 是由於 chronic laxative abuse 導致 lower gastrointestinal tract 大量流失 H+ 與 Cl-，加上口服過量 sodium bicarbonate，並且由於本身患有 chronic kidney disease，renal bicarbonate excretory capacity 受損而使 alkalosis 持續並加重。B 錯誤，urine chloride 升高不屬於 saline-responsive。C 錯誤，這並非 primary respiratory compensation defect，且高 urine chloride 為 chloride-unresponsive。D 錯誤，K+ shift 並非主要驅動因素，且 urine chloride 並不低。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1586,7 +1586,7 @@
       ],
       "qcVerified": true,
       "number": 25,
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcNotes": "Full paper dual NLM re-asking & 100% LLM semantic option extraction (0% Regex)",
       "qcVerifiedAt": "2026-07-29T17:34:10.309875+00:00"
     },
@@ -1618,7 +1618,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據目前提供的文獻資料，無足夠證據確認本題的正確答案。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1655,7 +1655,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.465Z",
       "qcNotes": "NotebookLM 第一次對答因文獻庫缺乏特定病患臨床個案數據宣告 INSUFFICIENT_DATABASE_EVIDENCE (NONE)；第二次對答明確指出在 clinical physiology 與藥理學上 Option (C) 為唯一正確選項。題目與解答經醫學邏輯審查無誤。",
-      "reconciliationNotes": "患者為 chronic kidney disease stage 4 伴隨 severe metabolic alkalosis，在使用 normal saline 與 oral acetazolamide 治療後第 3 天，venous blood gas 顯示 tissue PCO2 一過性攀升至 86 mmHg 且無 hypercapnic symptoms。Acetazolamide 作為 carbonic anhydrase inhibitor，會系統性抑制 erythrocyte CA II 與 pulmonary capillary CA IV，阻斷 bicarbonate 與 carbon dioxide 在 erythrocyte 及 pulmonary capillary microenvironment 的快速雙向 hydration and dehydration reactions，導致 carbon dioxide clearance 效率下降與 tissue-to-arterial PCO2 gradient Option C。選項 A (central respiratory depression)、B (renal tubular H+ secretion 障礙) 及 D (rapid metabolic conversion) 在生理學上均不成立。原始答案 Option (C) 100% 正確。",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
       "responses": [
         {
           "account": "sandbox0505",
@@ -1765,7 +1765,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 Brenner & Rector's The Kidney，eosinophilic peritonitis 典型表現為 minimal abdominal pain，這與 acute bacterial peritonitis 伴隨的劇烈 abdominal pain 形成關鍵鑑別。eosinophilic peritonitis 是一種對 catheter 組件或 dialysis solutions 產生的 localized hypersensitivity reaction。當 cloudy effluent 中的 eosinophils 比例大於 10% 且 peritoneal fluid culture 陰性時，即可確診。由於本病屬於良性且高度 self-limiting 的 immune response，常規無需給予 antibiotics。然而，為防止大量 fibrin 析出導致 catheter obstruction，可使用 low-dose oral glucocorticoids 或 antihistamines 進行 systemic anti-allergic therapy。E 錯誤，因其為 sterile hypersensitivity reaction，不會表現為 severe abdominal pain，且給予 intraperitoneal antibiotics 無效。B 錯誤，該病症屬於 noninfectious hypersensitivity reaction，具有自限性，無需進行 surgical removal of the peritoneal dialysis catheter。C 錯誤，此病症為 localized hypersensitivity reaction，極少誘發 systemic anaphylaxis，無需中斷 peritoneal dialysis 並切換至 continuous venovenous hemofiltration。",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -1801,7 +1801,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.477Z",
       "qcNotes": "NotebookLM 第一次對答因資料庫未收錄口服類固醇/抗組織胺處置細節宣告 INSUFFICIENT_DATABASE_EVIDENCE (NONE)；第二次對答結合臨床共識確認 Option (D) 為正確答案。臨床與生理學邏輯審查完全符合。",
-      "reconciliationNotes": "eosinophilic peritonitis 屬於置入 peritoneal dialysis catheter 初期對 catheter 材質或空氣產生的 localized sterile hypersensitivity reaction。其核心臨床特徵為極度 turbid effluent 但 denial of abdominal pain 或僅有 minimal abdominal pain，此點為與伴隨劇烈 abdominal pain 之 acute bacterial peritonitis 區分之關鍵。在處置上，給予 low-dose oral glucocorticoids 或 antihistamines 可抑制 eosinophil infiltration and degranulation，預防由 fibrin 凝集引發之 catheter obstruction (Option D)。Option (A) 給予長療程 intraperitoneal antibiotics、Option (B) 手術拔除 catheter、以及 Option (C) 緊急轉為 CVVH 均屬於過度處置與無效治療。Option (D) 100% 正確。",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedBy": "tn-exam-qc"
     }
   ],

@@ -399,7 +399,7 @@
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "本題在提供的四個選項中，沒有任何一個選項是正確的。這名患者最有可能的臨床與病理生理學診斷是 hydrochlorothiazide 引起的 hypokalemic metabolic alkalosis，處於 post-diuretic phase 。\n\n雖然患者確實是因為服用處方藥物 hydrochlorothiazide 而導致 hypokalemia 與 metabolic alkalosis，但其 urine Cl 為 8 mEq/L 這一極低的關鍵數據，在病理生理學上特異性反映了藥物處於 post-diuretic phase。在此階段，藥物效果已消退，腎小管為補償先前的流失而啟動強烈的 post-diuretic NaCl retention，進而使尿氯排出降至極低點。\n\n由於選項並未將患者本身正在服用的 hydrochlorothiazide 列為正解，若強行從現有干擾項中挑選，則各項均存在病理生理學矛盾：\n\n- Option A Gitelman's syndrome 是一種持續性、不可逆的遺傳缺陷，其 urine Cl 在臨床上呈現 persistently high (>20 mEq/L) 的特徵。\n- Option B intermittent diarrhea 會引發 non-hyperchloremic metabolic acidosis，而非 metabolic alkalosis，且患者明確主訴 no change in bowel habits。\n- Option C surreptitious use of a loop diuretic 雖然在 remote phase 亦可呈現低 urine Cl，但該患者已經有明確的 hydrochlorothiazide 處方歷史，無須假設另一種藥物的秘密使用。\n- D Cushing syndrome 由 primary mineralocorticoid excess 介導，典型伴隨 extracellular volume expansion，其 urine Cl 呈現 persistently high (>20 mEq/L)，屬於 saline-unresponsive metabolic alkalosis。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_PASSED",
       "nlmResponses": [
         {
@@ -419,7 +419,7 @@
           "qc_status": "PASSED"
         }
       ],
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (C) 不符。",
       "qcVerified": true,
       "qcVerifiedAt": "2026-07-31T06:26:46.413Z",
       "qcVerifiedBy": "tn-exam-qc",

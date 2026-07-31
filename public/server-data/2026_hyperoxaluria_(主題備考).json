@@ -65,11 +65,11 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 1,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -134,11 +134,11 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 2,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -203,11 +203,11 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 3,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -272,11 +272,11 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 4,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -341,11 +341,11 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 5,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -410,11 +410,11 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 6,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -471,14 +471,14 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 7,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "responses": [
         {
           "account": "b92401024",
@@ -555,14 +555,14 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "number": 8,
       "qcVerified": true,
       "qcStatus": "DISPUTED",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Stage 2 QC verified. NLM dual responses returned INSUFFICIENT_DATABASE_EVIDENCE (NONE) due to Brenner 11e database coverage limitation for Lumasiran mRNA HAO1 mechanism, while ground truth answer is D.",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedBy": "Tonks QC Subagent"
     },
     {
@@ -625,11 +625,11 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 9,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -694,11 +694,11 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 10,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -763,11 +763,11 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 11,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
@@ -832,11 +832,11 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 12,
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
       "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."

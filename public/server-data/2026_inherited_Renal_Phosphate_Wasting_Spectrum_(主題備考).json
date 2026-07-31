@@ -48,8 +48,8 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (A), NLM #1 (A), and NLM #2 (A). Option distribution rebalanced.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
@@ -105,8 +105,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B).",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -390,8 +390,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -561,8 +561,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (B), NLM #1 (B), and NLM #2 (B). Option distribution rebalanced.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -675,8 +675,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (D), NLM #1 (D), and NLM #2 (D). Option distribution rebalanced.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -846,8 +846,8 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "Unanimous agreement across Ground Truth (C), NLM #1 (C), and NLM #2 (C). Option distribution rebalanced.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",

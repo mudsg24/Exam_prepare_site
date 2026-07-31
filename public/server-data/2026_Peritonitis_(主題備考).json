@@ -49,11 +49,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A per ISPD empiric IP antibiotic therapy guidelines."
+      "qcNotes": "Both NLMs selected A per ISPD empiric IP antibiotic therapy guidelines.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q2",
@@ -99,11 +100,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs identified B (eosinophils >10% = eosinophilic peritonitis)."
+      "qcNotes": "Both NLMs identified B (eosinophils >10% = eosinophilic peritonitis).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q3",
@@ -149,11 +151,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs chose C (S. epidermidis via intraluminal touch contamination)."
+      "qcNotes": "Both NLMs chose C (S. epidermidis via intraluminal touch contamination).",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q4",
@@ -199,11 +202,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected B (WBC>100/uL + >50% PMN = ISPD diagnostic criterion)."
+      "qcNotes": "Both NLMs selected B (WBC>100/uL + >50% PMN = ISPD diagnostic criterion).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q5",
@@ -249,11 +253,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected B (IP Cefazolin + Ceftazidime for empiric coverage)."
+      "qcNotes": "Both NLMs selected B (IP Cefazolin + Ceftazidime for empiric coverage).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q6",
@@ -297,11 +302,12 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:07:02.266Z",
-      "qcNotes": "Option B revised to comply with ISPD guideline (IP Ampicillin + aminoglycoside for 21 days). Both NLMs confirmed B after revision. CONFIRMED."
+      "qcNotes": "Option B revised to comply with ISPD guideline (IP Ampicillin + aminoglycoside for 21 days). Both NLMs confirmed B after revision. CONFIRMED.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q7",
@@ -347,11 +353,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs correctly selected B."
+      "qcNotes": "Both NLMs correctly selected B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q8",
@@ -397,11 +404,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs correctly selected B."
+      "qcNotes": "Both NLMs correctly selected B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q9",
@@ -447,11 +455,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs correctly selected B."
+      "qcNotes": "Both NLMs correctly selected B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q10",
@@ -497,11 +506,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs correctly selected B."
+      "qcNotes": "Both NLMs correctly selected B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q11",
@@ -547,11 +557,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs correctly determined B (refractory peritonitis = catheter removal)."
+      "qcNotes": "Both NLMs correctly determined B (refractory peritonitis = catheter removal).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q12",
@@ -597,11 +608,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A (Relapsing Peritonitis)."
+      "qcNotes": "Both NLMs selected A (Relapsing Peritonitis).",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q13",
@@ -645,11 +657,12 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:02:09.434Z",
-      "qcNotes": "Pass 3 re-ask successful. Both NLMs correctly identified Option A: simultaneous catheter replacement permissible when no active peritonitis per ISPD. Matches source=A."
+      "qcNotes": "Pass 3 re-ask successful. Both NLMs correctly identified Option A: simultaneous catheter replacement permissible when no active peritonitis per ISPD. Matches source=A.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q14",
@@ -693,11 +706,12 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:02:09.434Z",
-      "qcNotes": "Pass 3 re-ask successful. Both NLMs correctly identified Option B: Non-contrast CT as optimal modality for EPS confirmation. Matches source=B."
+      "qcNotes": "Pass 3 re-ask successful. Both NLMs correctly identified Option B: Non-contrast CT as optimal modality for EPS confirmation. Matches source=B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q15",
@@ -743,11 +757,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A (Tamoxifen for EPS). Matches source."
+      "qcNotes": "Both NLMs selected A (Tamoxifen for EPS). Matches source.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q16",
@@ -793,11 +808,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A. Matches source."
+      "qcNotes": "Both NLMs selected A. Matches source.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q17",
@@ -843,11 +859,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A. Matches source."
+      "qcNotes": "Both NLMs selected A. Matches source.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q18",
@@ -893,11 +910,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A. Matches source."
+      "qcNotes": "Both NLMs selected A. Matches source.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q19",
@@ -943,11 +961,12 @@
           "qcStatus": "PASS2_REASK_PENDING_STAGE2"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected B. Matches source."
+      "qcNotes": "Both NLMs selected B. Matches source.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Peritonitis_Q20",
@@ -992,11 +1011,12 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T17:51:48.403Z",
-      "qcNotes": "Both NLMs selected A. Matches source."
+      "qcNotes": "Both NLMs selected A. Matches source.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     }
   ]
 }

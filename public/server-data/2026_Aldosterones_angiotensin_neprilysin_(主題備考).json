@@ -53,11 +53,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "A",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q2",
@@ -106,11 +107,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "B",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q3",
@@ -159,11 +161,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "C",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q4",
@@ -212,11 +215,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "D",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q5",
@@ -265,11 +269,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "A",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q6",
@@ -318,11 +323,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "B",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q7",
@@ -371,11 +377,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "B",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q8",
@@ -424,11 +431,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "A",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q9",
@@ -477,11 +485,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "C",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q10",
@@ -534,11 +543,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "selectedOption": "B",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q11",
@@ -587,11 +597,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "A",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q12",
@@ -640,11 +651,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q13",
@@ -693,11 +705,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "C",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q14",
@@ -746,11 +759,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q15",
@@ -799,11 +813,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "A",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q16",
@@ -856,11 +871,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "DISCREPANCY_HIGH_CONFIDENCE",
-      "reconciliationStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答均因資料庫缺乏 UK HARP-III 試驗數據而回傳 INSUFFICIENT_DATABASE_EVIDENCE，雙重對答一致判定為 NONE。因 NLM 兩筆對答高度一致但與原始解答 (B) 不符，標註為 DISCREPANCY_HIGH_CONFIDENCE。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q17",
@@ -909,11 +925,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q18",
@@ -962,11 +979,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "A",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q19",
@@ -1015,11 +1033,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q20",
@@ -1068,11 +1087,12 @@
       ],
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答經 LLM 語意審查 100% 一致且與 Ground Truth 完全吻合，通過 Stage 2 品管驗證。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     }
   ],
   "updatedAt": "2026-07-31T13:30:00Z",

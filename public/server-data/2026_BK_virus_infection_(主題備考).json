@@ -31,7 +31,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
       "sourceExplanation": "BK Polyomavirus (BKV) 屬於 non-enveloped double-stranded DNA polyomavirus。在 early childhood 發生 primary infection 後，會在 Renal Tubular Epithelial Cells 與 Urothelium 建立終身 latency。當 kidney transplantation 後給予 Tacrolimus 與 Mycophenolate Mofetil (MMF) 等強效 Immunosuppression 時，BKV 會重新活化發病。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_reactivation.jpg",
@@ -57,7 +57,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses 100% match ground truth option C."
+      "qcNotes": "Dual NLM responses 100% match ground truth option C.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "BKV_Q02",
@@ -85,7 +86,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
       "sourceExplanation": "Decoy cells 為脫落於 urine 中受 BKV 感染複製之 Renal Tubular Epithelial Cells 或 Urothelial Cells。Cytology 特徵為 Karyomegaly，充斥單一均勻之 ground-glass basophilic intranuclear inclusion bodies，chromatin 周邊邊緣化成 thin chromatin margins。惡性 Urothelial Carcinoma 則表現為 hyperchromasia, coarse chromatin 與 high nuclear-to-cytoplasmic ratio。",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_diagnostic.jpg",
@@ -111,7 +112,8 @@
       ],
       "qcStatus": "QC_DISPUTED",
       "qcVerified": false,
-      "qcNotes": "Database evidence gap: Both NLM returned INSUFFICIENT for cytologic comparison."
+      "qcNotes": "Database evidence gap: Both NLM returned INSUFFICIENT for cytologic comparison.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "BKV_Q03",
@@ -139,7 +141,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
       "sourceExplanation": "根據 2024 International Consensus Guidelines 與 KDIGO Guidelines，kidney transplant recipients 應接受系統化 quantitative plasma BK virus DNA PCR 篩檢。建議時程為：Post-transplant 前 3 至 6 個月每個月篩檢 1 次 (monthly)，Post-transplant 6 至 24 個月每 3 個月篩檢 1 次。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/Brenner_Table_70_3.png",
@@ -165,7 +167,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses 100% match ground truth option B."
+      "qcNotes": "Dual NLM responses 100% match ground truth option B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "BKV_Q04",
@@ -193,7 +196,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
       "sourceExplanation": "Presumptive BKVN 之國際標準臨床門檻為：持續 2 至 3 週以上 quantitative plasma BK viral load >= 10,000 copies/mL (或 >= 4 log10 copies/mL)。此門檻對於 histological BKVN 具備高度 PPV (> 50-80%)，臨床在此階段即應啟動預防性 Reduction of Immunosuppression (RIS)。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_diagnostic.jpg",
@@ -219,7 +222,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses 100% match ground truth option D."
+      "qcNotes": "Dual NLM responses 100% match ground truth option D.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "BKV_Q05",
@@ -247,7 +251,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
       "sourceExplanation": "Urinary Haufen 為在 Electron Microscopy 下觀察 urine sediment 所見之三維 polyomavirus aggregate 結構。研究顯示 Urinary Haufen 出現代表 Renal Tubular Epithelial Cells 嚴重受損與大量 viral budding，對 biopsy-confirmed active BKVN 具備高達 95% 以上之 PPV。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_diagnostic.jpg",
@@ -273,7 +277,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses identify Option A as clinically correct."
+      "qcNotes": "Dual NLM responses identify Option A as clinically correct.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "BKV_Q06",
@@ -301,7 +306,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
       "sourceExplanation": "當 Renal Allograft Biopsy 顯示 Tubulitis 與 interstitial inflammation 時，確診 BKVN 的 gold standard immunohistochemical stain 為 SV40 Large T-Antigen IHC。SV40 monoclonal antibody 可與 BK polyomavirus 之 Large T-antigen 產生強烈 cross-reactivity，使 infected tubular epithelial cell nuclei 呈現特異性陽性染色。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/Brenner_Table_70_8_part1.png",
@@ -327,7 +332,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Both NLM responses match ground truth option C."
+      "qcNotes": "Both NLM responses match ground truth option C.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "BKV_Q07",
@@ -355,7 +361,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
       "sourceExplanation": "Banff 國際組織學分級對 BKVN (Class 1, 2, 3) 的定義，主要取決於兩大核心參數：(1) Renal Allograft Biopsy 中 SV40 陽性小管的比例與分佈範圍 (intra-renal polyomavirus load)，以及 (2) 伴隨之 Interstitial Fibrosis and Tubular Atrophy (IFTA / ci score) 嚴重程度。",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_pathology.jpg",
@@ -381,7 +387,8 @@
       ],
       "qcStatus": "QC_DISPUTED",
       "qcVerified": false,
-      "qcNotes": "Both NLM returned INSUFFICIENT due to missing Banff 2018 BKVN grading in notebook index."
+      "qcNotes": "Both NLM returned INSUFFICIENT due to missing Banff 2018 BKVN grading in notebook index.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "BKV_Q08",
@@ -409,7 +416,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
       "sourceExplanation": "BKVN 與 Acute TCMR 在光鏡下均可見顯著之 Tubulitis 與 mononuclear cell infiltration。鑑別兩者的關鍵病理特徵為：BKVN 小管細胞出現 ground-glass intranuclear inclusion bodies 且 SV40 IHC 呈陽性。若 Renal Allograft Biopsy 出現 Intimal Arteritis (v-score >= 1)，則提示 concurrent TCMR。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_pathology.jpg",
@@ -435,7 +442,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Both NLM responses match ground truth option D."
+      "qcNotes": "Both NLM responses match ground truth option D.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "BKV_Q09",
@@ -463,7 +471,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
       "sourceExplanation": "對於 Presumptive 或 Biopsy-proven BKVN，國際指引一致推薦的第一線標準治療為 Stepwise Reduction of Immunosuppression (RIS)。給予高劑量 Pulse Steroids 只會進一步摧毀 antiviral immunity 並導致 viral replication 失控。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -489,7 +497,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Both NLM responses match ground truth option A."
+      "qcNotes": "Both NLM responses match ground truth option A.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "BKV_Q10",
@@ -517,7 +526,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
       "sourceExplanation": "在執行 RIS 協定時，維持 Tacrolimus + MMF + Prednisone 的患者應優先將 MMF 劑量減半或停用，或將 Tacrolimus target trough level 降低至 <4-6 ng/mL。此目標濃度能在維持適度 antirejection effect 下最大限度恢復 antiviral cellular immunity。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -543,7 +552,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Both NLM responses match ground truth option C."
+      "qcNotes": "Both NLM responses match ground truth option C.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "BKV_Q11",
@@ -571,7 +581,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
       "sourceExplanation": "Leflunomide 的活性代謝物 A77 1726 為一強效 Dihydroorotate Dehydrogenase (DHODH) 抑制劑，阻斷 de novo pyrimidine synthesis。除了可抑制 T/B lymphocytes 增殖外，亦能干擾 Polyomavirus capsid protein Synthesis 與 viral DNA replication，兼具 Immunosuppression 與 antiviral 雙重效果。",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -597,7 +607,8 @@
       ],
       "qcStatus": "QC_DISPUTED",
       "qcVerified": false,
-      "qcNotes": "Both NLM returned INSUFFICIENT due to missing A77 1726 details in PDF index."
+      "qcNotes": "Both NLM returned INSUFFICIENT due to missing A77 1726 details in PDF index.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "BKV_Q12",
@@ -625,7 +636,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
       "sourceExplanation": "低劑量 Cidofovir 雖具體外抗 DNA 病毒活性，但其主要限制性毒性為強烈的 Direct Nephrotoxicity，可引發 Proximal Convoluted Tubule 壞死與 AKI，以及 Anterior Uveitis。因此指引不推薦常規使用。",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/Brenner_Table_70_17.png",
@@ -651,7 +662,8 @@
       ],
       "qcStatus": "QC_DISPUTED",
       "qcVerified": false,
-      "qcNotes": "Both NLM returned INSUFFICIENT due to missing Cidofovir specific toxicity text in PDF index."
+      "qcNotes": "Both NLM returned INSUFFICIENT due to missing Cidofovir specific toxicity text in PDF index.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "BKV_Q13",
@@ -679,7 +691,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
       "sourceExplanation": "IVIG 含有市售血清中天然存在的 anti-BKV neutralizing antibodies，兼具 anti-inflammatory 與 immunomodulatory 功效。最適合用於 high immunological risk 患者在極度調降 Immunosuppression 後仍有 high-grade viremia，或同時合併 ABMR 的 rescue therapy 情境。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -705,7 +717,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option A."
+      "qcNotes": "Dual NLM responses match ground truth option A.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "BKV_Q14",
@@ -733,7 +746,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
       "sourceExplanation": "多項 RCT 評估 Fluoroquinolones (Ciprofloxacin / Levofloxacin) 用於 BKV 預防或治療，結果顯示其未能顯著降低 plasma BK viral load 或預防 BKVN，且增加 Tendonitis、QTc prolongation 及 C. difficile colitis 風險，故不建議使用。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -759,7 +772,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option C."
+      "qcNotes": "Dual NLM responses match ground truth option C.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "BKV_Q15",
@@ -787,7 +801,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
       "sourceExplanation": "在積極調降 Immunosuppression 以控制 BKVN 後，若 viral load 下降但 Serum Creatinine 顯著上升，最需緊急排查的併發症為：因免疫抑制不足誘發的 de novo DSA 產生及 acute allograft rejection (TCMR 或 ABMR)。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/Brenner_Fig_70_6.png",
@@ -813,7 +827,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option A."
+      "qcNotes": "Dual NLM responses match ground truth option A.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "BKV_Q16",
@@ -841,7 +856,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
       "sourceExplanation": "因 end-stage BKVN 導致 allograft loss 並 returned to hemodialysis 之患者，在進行第二次 kidney transplantation 前，最關鍵之先決條件為 plasma BK viremia 已完全清除 (Plasma BK PCR 達 Undetectable) 並停止高劑量 Immunosuppression，以避免新 allograft 再次發生 BKV 感染。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -867,7 +882,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Account 1 NLM response matches ground truth option D."
+      "qcNotes": "Account 1 NLM response matches ground truth option D.",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。"
     },
     {
       "id": "BKV_Q17",
@@ -895,7 +911,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "A",
       "sourceExplanation": "將 CNI 轉換為 mTOR inhibitors (Sirolimus / Everolimus) 的理據為：mTOR inhibitors 具備 antiproliferative 與 antineoplastic 特性，且多項臨床試驗顯示其配伍方案之 BKV reactivation 與 BKVN 發生率顯著低於傳統 CNI 主導之方案。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_management.jpg",
@@ -921,7 +937,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option A."
+      "qcNotes": "Dual NLM responses match ground truth option A.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "BKV_Q18",
@@ -949,7 +966,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "C",
       "sourceExplanation": "在 pre-transplant BKV serological screening 中，Donor Seropositive / Recipient Seronegative (D+/R-) 組合具備最高的 relative risk。因為來自 donor 之 renal tubular epithelial cells 之 Latent BKV 進入缺乏 specific antibodies 保護之 recipient 體內後，極易爆發大量 replication。",
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_reactivation.jpg",
@@ -975,7 +992,8 @@
       ],
       "qcStatus": "QC_DISPUTED",
       "qcVerified": false,
-      "qcNotes": "Both NLM returned INSUFFICIENT due to pre-transplant serology guidelines gap in PDF index."
+      "qcNotes": "Both NLM returned INSUFFICIENT due to pre-transplant serology guidelines gap in PDF index.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "BKV_Q19",
@@ -1003,7 +1021,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "B",
       "sourceExplanation": "BK polyomavirus 引起的 Hemorrhagic Cystitis 主要見於 HSCT recipients，表現為 Gross Hematuria 與 Dysuria；而 BKVN 則是 Kidney Transplantation recipients 的特徵性併發症。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_reactivation.jpg",
@@ -1029,7 +1047,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option B."
+      "qcNotes": "Dual NLM responses match ground truth option B.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "BKV_Q20",
@@ -1057,7 +1076,7 @@
       "sourceAnswerStatus": "provided",
       "selectedOption": "D",
       "sourceExplanation": "當 Renal Allograft Biopsy 同時顯示 SV40-positive BKVN 與 Severe Intimal Arteritis (v2) 提示 Concurrent Acute TCMR Grade IIA 時，處置原則為：先給予短療程 Corticosteroid Pulses 控制血管排斥，隨後在密切監測 BK viral load 下謹慎地調降維護性 Immunosuppression。",
-      "reconciliationStatus": "MATCHED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/bkv_pathology.jpg",
@@ -1083,7 +1102,8 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "qcNotes": "Dual NLM responses match ground truth option D."
+      "qcNotes": "Dual NLM responses match ground truth option D.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     }
   ]
 }

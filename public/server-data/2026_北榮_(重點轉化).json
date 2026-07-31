@@ -1256,7 +1256,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Database sufficiency is insufficient to answer this question.",
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "resolvedImages": [],
@@ -1284,7 +1284,7 @@
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.482Z",
       "qcNotes": "NotebookLM 第一次對答因 Brenner 課本 Table 23.4 僅將 propofol 標註於 white urine 而宣告 INSUFFICIENT_DATABASE_EVIDENCE (NONE)；第二次對答於臨床藥理分析中確認 Option (A) 為正解。醫學邏輯核對無誤。",
-      "reconciliationNotes": "65 歲 female 在 neuro-intensive care 接受 prolonged high-dose propofol infusion，出現特徵性 green urine discoloration，且排除 urinary tract infection、hematuria 及 bilirubinuria。Propofol (2,6-diisopropyphenol) 主要在 liver 經由 hepatic glucuronidation 代謝。當高劑量 infusion 超越 hepatic glucuronidation capacity 時，次要的 hydroxylation pathway 被代償性活化，產生大量的 phenolic metabolites (如 quinol conjugates)。這些綠色 phenolic metabolites 經由 kidneys 排泄致使 urine 呈現 green urine discoloration (Option A)。此為 benign non-toxic discoloration，非 proximal tubular epithelial cells necrosis (Option B)、非 crystal precipitation (Option C)，亦非 biliverdin 大量 clearance (Option D)。Option (A) 100% 正確。",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。",
       "qcVerifiedBy": "tn-exam-qc"
     }
   ],

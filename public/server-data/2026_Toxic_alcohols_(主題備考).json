@@ -60,13 +60,13 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.342Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q2",
@@ -123,13 +123,13 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q3",
@@ -178,13 +178,13 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "雙重 NotebookLM 皆於 Answer Determination 中明確指定 (C) Methanol 為正解，與原題 Ground Truth (C) 完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q4",
@@ -241,13 +241,13 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "NLM 兩次執行之推論邏輯與 Ground Truth 完全吻合，判定為 AGREED。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q5",
@@ -304,13 +304,13 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "經由專責 QC 驗證，題幹無人造標題污染且選項完整。雙重 NLM 語意推論之 selectedOption 皆與 sourceProvidedAnswer 完全一致，未檢出任何矛盾。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "雙重 NotebookLM 皆於 Answer Determination 中明確指定 Option (A) Dumbbell-shaped or needle-like morphology 為正解，與原題 Ground Truth (A) 完全一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q6",
@@ -359,12 +359,13 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "兩次 NotebookLM 測試皆選擇與原始答案一致的選項 B。無人造標題干擾，題幹與選項結構完整。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
-      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check"
+      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q7",
@@ -413,12 +414,13 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified via NLM dual asking re-evaluation (6,757 & 8,140 chars). Dual NLM consensus on C.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
-      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check"
+      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q8",
@@ -475,12 +477,13 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "兩次 NotebookLM 測試皆正確選擇選項 D，與原始答案一致。試題與選項結構完整且無人為竄改。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
-      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check"
+      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q9",
@@ -529,12 +532,13 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "兩次 NotebookLM 測試皆選擇選項 A，完全支持原始答案。選項與題幹完整，符合規範。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
-      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check"
+      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q10",
@@ -583,13 +587,13 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NotebookLM 第一次測試因 database evidence 不足未選擇答案 (NONE)，第二次測試雖然提示證據不足但依據醫學共識選擇了選項 B。由於兩次 NotebookLM 結果不一致，判定為 DISPUTED_NLM_VS_NLM。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "NotebookLM #1 因資料庫無 Diethylene glycol 記載標註 NONE；NotebookLM #2 在 Answer Determination 中基於醫學共識選出 Option (B) 2-hydroxyethoxyacetic acid。與 Ground Truth (B) 吻合。"
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q11",
@@ -646,13 +650,13 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified via NLM dual asking re-evaluation (7,083 & 10,762 chars). Dual NLM consensus on C per ADH competitive inhibition.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
       "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
-      "reconciliationNotes": "雙重 NotebookLM 皆於 Answer Determination 中明確指定 Option (C) (8000-fold higher affinity for ADH without CNS depression) 為正解，與 Ground Truth (C) 完全一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q12",
@@ -709,13 +713,13 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NotebookLM 回應皆明確支持 Option D，指出 Fomepizole 在 48 小時後會因為 hepatic cytochrome P450 系統發生 auto-induction，因此 maintenance dose 必須調高至 15 mg/kg q12h 以維持 effective concentration。與 source provided answer 完美契合，狀態為 AGREED。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED_NLM_VS_NLM",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "雙重 NotebookLM 皆於 Answer Determination 中明確指定 Option (D) (Increase to 15 mg/kg q12h because Fomepizole induces its own P450 metabolism) 為正解，與 Ground Truth (D) 完全一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q13",
@@ -772,12 +776,13 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified via NLM dual asking re-evaluation (7,464 & 8,166 chars). Dual NLM consensus on A.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
-      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check"
+      "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q14",
@@ -834,13 +839,13 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NotebookLM 回應皆明確支持 Option B，確認根據 EXTRIP guidelines，Methanol poisoning 時若出現 serum Methanol concentration > 50 mg/dL、severe metabolic acidosis 或 visual impairment 等指徵，必須立即進行 intermittent hemodialysis (IHD)。與 source provided answer 完美契合，狀態為 AGREED。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED_NLM_VS_NLM",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "雙重 NotebookLM 皆於 Answer Determination 中明確指定 Option (B) (Serum Methanol > 50 mg/dL, severe acidosis, visual impairment) 為正解，與 Ground Truth (B) 完全一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q15",
@@ -889,12 +894,13 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "雙重 NotebookLM 回應皆明確支持 Option C，強調在 Ethylene Glycol poisoning 且缺乏 Fomepizole 時，由於患者出現 severe metabolic acidosis (pH 7.18)、acute kidney injury (AKI) 以及高 concentration，必須立即啟動 intermittent hemodialysis (IHD)。與 source provided answer 完美契合，狀態為 AGREED。",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
-      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check"
+      "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q16",
@@ -943,13 +949,13 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified via NLM dual asking re-evaluation (7,743 & 8,892 chars). Dual NLM consensus on D.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
       "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
-      "reconciliationNotes": "source provided answer 為 D，雙重 NotebookLM 回答皆精確選擇 Option (D)。雙方皆明確指出 parent Methanol 已代謝為 Formic acid，導致 osmolal gap 恢復正常而 anion gap 升高。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q17",
@@ -1006,13 +1012,13 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "題幹與選項結構完整，無任何合成標題污染。所有醫學專有名詞均符合全英文規範，無中譯混用。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "source provided answer 為 A，雙重 NotebookLM 回答皆精確選擇 Option (A)。雙方皆同意 Alcoholic Ketoacidosis、Diabetic Ketoacidosis 與 severe lactic acidosis 均可引起輕度 osmolal gap 升高。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q18",
@@ -1061,13 +1067,13 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "題幹與選項結構完整，無任何合成標題污染。所有醫學專有名詞均符合全英文規範，無中譯混用。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "source provided answer 為 B，雙重 NotebookLM 回答皆精確選擇 Option (B)。雙方皆確認 commercial antifreeze 配方中添加了 Sodium Fluorescein，於 Wood's lamp 照射下會產生 fluorescence。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q19",
@@ -1116,13 +1122,13 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified via NLM dual asking re-evaluation (7,108 & 7,061 chars). Dual NLM consensus on C.",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
       "qcVerifiedBy": "tn-exam-qc 100% LLM dual semantic check",
-      "reconciliationNotes": "NotebookLM #1 於 Answer Determination 中明確選出 Option (C) CN VII (Facial nerve) 雙側麻痺；NotebookLM #2 回應資料庫無該考點直接文獻，判定為 NONE。與 Ground Truth (C) 吻合。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "2026_Toxic_alcohols_Q20",
@@ -1179,13 +1185,13 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "題幹與選項結構完整，無任何合成標題污染。所有醫學專有名詞均符合全英文規範，無中譯混用。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T10:18:47.345Z",
       "qcVerifiedBy": "tn-exam-qc subagent 100% LLM semantic check",
-      "reconciliationNotes": "source provided answer 為 D，雙重 NotebookLM 回答皆精確選擇 Option (D)。雙方皆明確指出 low molecular weight、zero protein binding 與 small volume of distribution 使 intermittent hemodialysis 具有優異的清除效率。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     }
   ],
   "qcVerifiedCount": 20,

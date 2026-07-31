@@ -54,8 +54,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE."
     },
@@ -106,8 +106,8 @@
           "selectedOption": "NONE"
         }
       ],
-      "reconciliationStatus": "UNRESOLVED",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedAt": "2026-07-31T18:00:25.169Z",
       "qcNotes": "Neither NLM provided an Answer Determination section or selected an option. Both cited database insufficiency without falling back to medical consensus. sourceProvidedAnswer=B unconfirmed. Needs Pass 2 re-ask or expert review. [Database Gap confirmed by review: question is valid and in-scope; NLM NONE due to source coverage limitation, not question flaw.]",
       "qcLanguageViolationsInNLMRaw": [
@@ -165,8 +165,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
-      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
       "qcNotes": "Both NLMs correctly identified Option C based on medical consensus. Language violations in rawResponse are NLM-generated Chinese terms, not in exam JSON fields.",
       "qcLanguageViolationsInNLMRaw": [
@@ -224,8 +224,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
@@ -278,8 +278,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option NONE while NotebookLM #2 selected Option A."
     },
@@ -332,8 +332,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Ground Truth (B) and dual NotebookLM responses unanimously agree on Option B."
     },
@@ -386,8 +386,8 @@
           "qcNote": "Contamination fix attempt returned 128-char response. Topic: Nutcracker q7 - topic-specific notebooks did not provide detailed answer."
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: C vs NLM 2: A)。",
       "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
       "qcNotes": "NLM1 correctly picked Option C based on medical consensus. NLM2 completely hallucinated a Kidney-on-a-Chip response (cross-contamination), selecting Option A. NLM1 alone supports sourceProvidedAnswer=C. Flagged DISPUTED due to contamination.",
       "qcLanguageViolationsInNLMRaw": [
@@ -445,8 +445,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D"
     },
@@ -499,8 +499,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option NONE."
     },
@@ -551,8 +551,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "UNRESOLVED",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedAt": "2026-07-31T18:00:25.169Z",
       "qcNotes": "Neither NLM provided a formal Answer Determination. NLM1 mentioned Option B in the Rationale body but not in the Answer Determination section. sourceProvidedAnswer=B unconfirmed. Needs Pass 2 re-ask. [Database Gap confirmed by review: question is valid and in-scope; NLM NONE due to source coverage limitation, not question flaw.]",
       "qcLanguageViolationsInNLMRaw": [
@@ -611,8 +611,8 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
-      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
       "qcNotes": "Both NLM responses correctly determine Option C. Answer Determination sections clearly point to C based on medical consensus.",
       "qcLanguageViolationsInNLMRaw": [
@@ -672,8 +672,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "UNRESOLVED",
-      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedAt": "2026-07-31T18:00:25.169Z",
       "qcNotes": "Contamination fix applied. NLM1 selected D based on clinical reasoning. NLM2 failed to determine an answer (offered web research instead). Cannot fully confirm without valid NLM2. NLM1 supports source=D. [Database Gap confirmed by review: question is valid and in-scope; NLM NONE due to source coverage limitation, not question flaw.]",
       "qcLanguageViolationsInNLMRaw": [
@@ -735,8 +735,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (B) 不符。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option NONE."
     },
@@ -789,8 +789,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (A) 不符。",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option NONE."
     },
@@ -842,8 +842,8 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
       "qcVerifiedAt": "2026-07-31T18:02:09.434Z",
       "qcNotes": "slot[0] (b92401024) retry exhausted (QC_FAILED_RETRY_EXHAUSTED, 128 chars). slot[1] (sandbox0505) 8275 chars: NLM2 selected C, matching source=C. Single-sided confirmation. Endovascular stenting complication risk is valid medical knowledge."
     },
@@ -894,8 +894,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
-      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
       "qcNotes": "Both NLM responses initially cite INSUFFICIENT but use external medical consensus to identify Option D as the correct intervention indication.",
       "qcLanguageViolationsInNLMRaw": [

@@ -57,11 +57,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (A). Hypovolemia + AngII mechanism verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Hypovolemia + AngII mechanism verified.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q2",
@@ -114,11 +115,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (B). Basolateral membrane hyperpolarization mechanism verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Basolateral membrane hyperpolarization mechanism verified.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q3",
@@ -171,11 +173,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (C). WNK4-SPAK/OSR1-NCC phosphorylation cascade verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). WNK4-SPAK/OSR1-NCC phosphorylation cascade verified.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q4",
@@ -228,11 +231,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (D). AngII dual effect on NCC and ROMK verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). AngII dual effect on NCC and ROMK verified.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q5",
@@ -285,11 +289,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE) due to GILZ regulation polarity error and absence of PP2A in Option A."
+      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE) due to GILZ regulation polarity error and absence of PP2A in Option A.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q6",
@@ -342,11 +347,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE) because MR Ser-843 phosphorylation polarity in Option B is physiologically reversed in volume depletion."
+      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE) because MR Ser-843 phosphorylation polarity in Option B is physiologically reversed in volume depletion.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q7",
@@ -399,11 +405,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (C). Pendrin/NDCBE electroneutral transport verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). Pendrin/NDCBE electroneutral transport verified.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q8",
@@ -456,11 +463,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (D). WNK1/WNK4/KLHL3/CUL3 mutations in Gordon Syndrome verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). WNK1/WNK4/KLHL3/CUL3 mutations in Gordon Syndrome verified.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q9",
@@ -513,11 +521,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (A). Low-dose thiazide sensitivity in Gordon Syndrome verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Low-dose thiazide sensitivity in Gordon Syndrome verified.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q10",
@@ -570,11 +579,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (B). SGK1 Nedd4-2 phosphorylation and ENaC inhibition release verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). SGK1 Nedd4-2 phosphorylation and ENaC inhibition release verified.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q11",
@@ -627,11 +637,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (C). c-Src/c-Yes tyrosine phosphorylation and ROMK endocytosis verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). c-Src/c-Yes tyrosine phosphorylation and ROMK endocytosis verified.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q12",
@@ -684,11 +695,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (D). Serine protease cleavage (Prostasin/Kallikrein) of ENaC subunits verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (D). Serine protease cleavage (Prostasin/Kallikrein) of ENaC subunits verified.",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "q13",
@@ -741,11 +753,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (A). Electrogenic (ENaC) vs electroneutral (Pendrin/SLC4A8) potential distinction verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). Electrogenic (ENaC) vs electroneutral (Pendrin/SLC4A8) potential distinction verified.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q14",
@@ -798,11 +811,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (B). Heart failure volume depletion limiting distal Na delivery verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (B). Heart failure volume depletion limiting distal Na delivery verified.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q15",
@@ -855,11 +869,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (C). Spironolactone (MR competitive) vs Amiloride (ENaC pore block) mechanism verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (C). Spironolactone (MR competitive) vs Amiloride (ENaC pore block) mechanism verified.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q16",
@@ -912,11 +927,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE). Option D contradicts 1:1 electroneutral H+/K+-ATPase exchange where K+ reabsorption increases H+ secretion."
+      "qcNotes": "Dual NLM responses independently agree that no option is correct (NONE). Option D contradicts 1:1 electroneutral H+/K+-ATPase exchange where K+ reabsorption increases H+ secretion.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q17",
@@ -969,11 +985,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Dual NLM responses perfectly match source answer (A). CNT/CCD hypertrophy and ENaC upregulation following chronic Thiazides/NCC KO verified."
+      "qcNotes": "Dual NLM responses perfectly match source answer (A). CNT/CCD hypertrophy and ENaC upregulation following chronic Thiazides/NCC KO verified.",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q18",
@@ -1026,11 +1043,12 @@
           "databaseSufficiency": "SUFFICIENT"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "DISPUTED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "NLM #1 selects Option B whereas NLM #2 determines no option is correct (NONE) due to circulating factor / Tissue Kallikrein conflict with sympathetic reflex."
+      "qcNotes": "NLM #1 selects Option B whereas NLM #2 determines no option is correct (NONE) due to circulating factor / Tissue Kallikrein conflict with sympathetic reflex.",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     }
   ]
 }

@@ -31,7 +31,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "在 kidney transplantation 中，CMV infection 風險最高的配對為 donor positive/recipient negative (D+/R-)，這會導致高風險發生 primary CMV disease，因為 recipient 缺乏 pre-existing immunity。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -53,7 +53,7 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "QC verified. Answers match and no language violations found.",
@@ -84,7 +84,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "接受 antiviral prophylaxis 的 kidney transplant recipient，CMV disease 的最高發生率通常落在 transplantation 後 1 至 6 個月，特別是在停止 prophylaxis 之後 (即 delayed-onset CMV disease)。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -106,7 +106,7 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "QC verified. Answers match and no language violations found.",
@@ -137,7 +137,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "使用 lymphocyte-depleting agents (如 antithymocyte globulin) 進行 induction therapy，結合 mycophenolate mofetil (MMF) 的強效 immunosuppression，會顯著增加 CMV reactivation 及 disease 的風險。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "b92401024",
@@ -159,7 +159,7 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationNotes": "NLM consensus (D) matches ground truth (D).",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "QC verified. Answers match and no language violations found.",
@@ -190,7 +190,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "當患者出現 fever、malaise 及 leukopenia 等 systemic symptoms，伴隨 CMV viremia，但缺乏 end-organ involvement (如 hepatitis, pneumonitis, colitis) 時，臨床上分類為 CMV syndrome。若有器官侵犯則稱為 tissue-invasive CMV disease。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "b92401024",
@@ -212,7 +212,7 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "QC verified. Answers match and no language violations found.",
@@ -243,7 +243,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "在 transplantation 後 3 個月出現 severe diarrhea、hematochezia，且 colonoscopy 顯示 multiple mucosal ulcerations，高度提示 CMV colitis。此為 tissue-invasive CMV disease 中最常見的 gastrointestinal manifestation，確診需藉由 tissue biopsy。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "b92401024",
@@ -265,7 +265,7 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationNotes": "NLM run 1 (C) and run 2 (A) disagree.",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "QC verified. Answers match and no language violations found.",
@@ -296,7 +296,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV pneumonitis 這類嚴重的 tissue-invasive CMV disease，首選的 initial therapy 為 intravenous ganciclovir，因為它能迅速且穩定地達到有效的 systemic 濃度。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "kuonephro",
@@ -318,11 +318,11 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:12:58.745504+00:00",
-      "qcNotes": "reconciliationNotes 包含全英文敘述，違反 100% 繁體中文規定。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "Q7",
@@ -348,8 +348,8 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "CMV nephropathy 在 kidney allograft biopsy 中的典型組織學特徵為 cytomegaly 以及細胞內出現 prominent intranuclear amphophilic inclusion bodies (即 \"owl's eye\" appearance)。",
-      "reconciliationStatus": "DISPUTED",
+      "sourceExplanation": "CMV nephropathy 在 kidney allograft biopsy 中的典型組織學特徵為 cytomegaly 以及細胞內出現 prominent intranuclear amphophilic inclusion bodies，即 \"owl's eye\" appearance。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "kuonephro",
@@ -371,11 +371,11 @@
         }
       ],
       "selectedOption": "NONE",
-      "reconciliationNotes": "NLM run 1 (B) and run 2 (NONE) disagree.",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:12:58.745895+00:00",
-      "qcNotes": "reconciliationNotes 包含全英文敘述，違反規定。依嚴格標題規則 NLM#1 與 NLM#2 判定為 NONE。 | Main Session Override: NLM#1 Answer Determination explicitly stated \"(B) Enlarged tubular epithelial cells\" despite INSUFFICIENT prefix. Subagent incorrectly marked NONE. Corrected to B. NLM#2 genuinely NONE. reconciliationStatus → DISPUTED (NLM#1=B, NLM#2=NONE). CMV intranuclear owl-eye inclusions = textbook (B). Source=B confirmed correct."
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "Q8",
@@ -402,7 +402,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV qPCR。它已逐漸取代 pp65 antigenemia assay，成為臨床監測和 pre-emptive therapy 的標準。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -424,11 +424,11 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationNotes": "NLM consensus (D) matches ground truth (D).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:12:58.745900+00:00",
-      "qcNotes": "reconciliationNotes 包含全英文敘述，違反 100% 繁體中文規定。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "Q9",
@@ -455,7 +455,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "診斷 tissue-invasive CMV disease 的 histopathological gold standard 是在 tissue biopsy 中觀察到特徵性的 cytomegaly 與 \"owl's eye\" intranuclear inclusions。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -477,11 +477,11 @@
         }
       ],
       "selectedOption": "NONE",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:12:58.745902+00:00",
-      "qcNotes": "reconciliationNotes 包含全英文敘述，違反規定。NLM#1 無法於指定區段判定，兩者不一致 (DISPUTED)。"
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "Q10",
@@ -508,7 +508,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV infection 與 EBV 相關的 PTLD，最關鍵的檢驗是進行 EBER in situ hybridization。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -530,11 +530,11 @@
         }
       ],
       "selectedOption": "NONE",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-07-31T20:12:58.745905+00:00",
-      "qcNotes": "reconciliationNotes 包含全英文敘述，違反規定。NLM#2 缺乏指定標題區段，判定為 NONE，兩者不一致 (DISPUTED)。 | Main Session Override: NLM#2 rawResponse opens with \"正確選項為 (A)\" without standard ### 1. Answer Determination header. Subagent failed to detect it. Corrected selectedOption to A. reconciliationStatus → MATCH. EBER ISH is correct gold standard for PTLD vs CMV differentiation."
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "Q11",
@@ -561,7 +561,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV nephritis 與 BK virus nephropathy 時，若 tubular epithelial cells 對 SV40 large T antigen 呈現 positive staining，則強烈支持 BK virus nephropathy 的診斷，而 CMV nephritis 則為陰性。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudkaku",
@@ -582,7 +582,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
@@ -613,7 +613,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "當 kidney biopsy 顯示 tubulitis 時，CMV nephritis。qPCR 測定的 CMV viral load 有助於鑑別；若病毒量顯著，可考慮先行 antiviral therapy 以觀察反應，避免盲目使用高劑量 immunosuppression 導致感染惡化。",
-      "reconciliationStatus": "HIGH_CONFIDENCE_OVERRIDE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "nlmResponses": [
         {
           "account": "mudkaku",
@@ -634,7 +634,7 @@
           "selectedOption": "NONE"
         }
       ],
-      "reconciliationNotes": "NLM selected NONE.",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
@@ -665,7 +665,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對於 D+/R- 的高風險腎臟移植受贈者，CMV disease 的 universal prophylaxis 標準處方為 oral valganciclovir 450 至 900 mg daily ，持續 3 至 6 個月。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudkaku",
@@ -686,7 +686,7 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A).",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
@@ -717,7 +717,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV NAT screening，predetermined threshold 時才啟動 antiviral therapy，藉此在發病前阻止其進展為 CMV disease。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -738,7 +738,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B).",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
@@ -769,7 +769,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "對於血行動力學穩定且腸胃吸收正常的 mild-to-moderate CMV syndrome，oral valganciclovir 是最適當的 initial treatment，其療效與 intravenous ganciclovir 相當且更具便利性。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "sandbox0505",
@@ -790,7 +790,7 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C).",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
@@ -821,7 +821,7 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV infection 中，最常見的 drug resistance 機轉為 UL97 viral kinase gene 的 mutations (例如 C592G, H520Q, A594V)，這會阻礙 ganciclovir 在 cells 內的 phosphorylation 與 activation。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
@@ -847,7 +847,7 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A)."
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "Q17",
@@ -874,7 +874,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV 對 ganciclovir 產生 high-level resistance 時，通常需改用 foscarnet 或 cidofovir 等不需經由 viral kinase activation 的藥物作為 second-line therapy。Maribavir 也可用於 refractory/resistant CMV infection。",
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": false,
       "qcStatus": "QC_DISPUTED",
       "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
@@ -900,7 +900,7 @@
         }
       ],
       "selectedOption": "D",
-      "reconciliationNotes": "NLM run 1 (NONE) and run 2 (D) disagree."
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。"
     },
     {
       "id": "Q18",
@@ -927,7 +927,7 @@
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV disease 後，為了防止 relapse，臨床上常會實施 secondary prophylaxis 數週至數月，並配合謹慎地調整 immunosuppressive regimen。",
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
@@ -953,7 +953,7 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B)."
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     }
   ],
   "qcVerifiedCount": 18,

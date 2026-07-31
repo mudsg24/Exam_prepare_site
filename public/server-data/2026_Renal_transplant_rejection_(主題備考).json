@@ -63,8 +63,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM共識 (A) 符合ground truth (A)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:33+08:00",
@@ -127,8 +127,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM共識 (B) 符合ground truth (B)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:33+08:00",
@@ -191,8 +191,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM共識 (C) 符合ground truth (C)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:33+08:00",
@@ -255,8 +255,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM共識 (D) 符合ground truth (D)。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:33+08:00",
@@ -319,8 +319,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM共識 (A) 符合ground truth (A)。兩次NLM執行皆識別出Banff Grade IIA Acute TCMR。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:33+08:00",
@@ -383,8 +383,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "Both NLM runs and ground truth independently identified Option B as correct with high confidence.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-08-01T04:14:04+08:00",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -447,8 +447,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "Both NLM runs and ground truth independently identified Option C as correct with high confidence.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-08-01T04:14:04+08:00",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -511,8 +511,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "兩次 NLM 執行與 ground truth 皆獨立且高信心度地確認選項 D 為正確。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-08-01T04:40:36+08:00",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -575,8 +575,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "兩次 NLM 執行與 ground truth 皆獨立且高信心度地確認選項 A 為正確。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-08-01T04:40:36+08:00",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -639,8 +639,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "兩次 NLM 執行與 ground truth 皆獨立且高信心度地確認選項 B 為正確。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-08-01T04:40:36+08:00",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
@@ -703,8 +703,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識與 ground truth 皆為選項 C。請使用 LLM 語意智能重新閱讀 rawResponse。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "selectedOption": "C",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -768,8 +768,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM 共識與 ground truth 皆為選項 D。請使用 LLM 語意智能重新閱讀 rawResponse。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "selectedOption": "D",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
@@ -800,7 +800,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "equal-sized fine lipid-containing vacuoles in proximal tubular cytoplasm combined with supratherapeutic drug levels (> 15 ng/mL) is the pathognomonic histological hallmark of acute CNI nephrotoxicity, caused by intense afferent arteriolar vasoconstriction.",
+      "sourceExplanation": "在 proximal tubular cytoplasm 中出現 equal-sized fine lipid-containing vacuoles，結合大於 15 ng/mL 的 supratherapeutic drug levels，是 acute CNI nephrotoxicity 的 pathognomonic histological hallmark，這是由強烈的 afferent arteriolar vasoconstriction 所引起。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_2.png",
@@ -833,13 +833,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (A) matches ground truth (A). Re-read rawResponse with 100% LLM semantic intelligence.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "selectedOption": "A",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:09+08:00",
-      "qcNotes": "Language audit failed: sourceExplanation and reconciliationNotes are in English. Narrative must be 100% Traditional Chinese. No synthetic headers in stem."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:39+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q14",
@@ -865,7 +865,7 @@
       ],
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "DGF is defined as the requirement for dialysis within the first 7 days post-transplant, usually caused by ischemia-reperfusion ATN. Because serum creatinine cannot be monitored during dialysis dependence, KDIGO guidelines recommend a protocol allograft biopsy at 7-10 days to detect occult superimposed acute rejection.",
+      "sourceExplanation": "DGF 定義為 post-transplant 前 7 天內需要 dialysis，通常由 ischemia-reperfusion ATN 引起。因為在 dialysis dependence 期間無法監測 serum creatinine，KDIGO guidelines 建議在 7-10 天進行 protocol allograft biopsy，以檢測 occult superimposed acute rejection。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_10.png",
@@ -898,13 +898,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (B) matches ground truth (B). Re-read rawResponse with 100% LLM semantic intelligence.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "selectedOption": "B",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:09+08:00",
-      "qcNotes": "Language audit failed: sourceExplanation and reconciliationNotes are in English. Narrative must be 100% Traditional Chinese. No synthetic headers in stem."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:39+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q15",
@@ -930,7 +930,7 @@
       ],
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "AST pregnancy guidelines require:1 at least 1 year post-transplant,2 stable kidney function (Serum Creatinine < 1.5 mg/dL),3 minimal proteinuria (< 500 mg/day),4 NO acute rejection episodes in the preceding 12 months,5 switching off teratogenic medications (MMF must be stopped at least 6 weeks prior; Sirolimus stopped).",
+      "sourceExplanation": "AST pregnancy guidelines 要求：1. post-transplant 至少 1 年；2. 穩定的 kidney function，即 Serum Creatinine 小於 1.5 mg/dL；3. 極少的 proteinuria，即小於 500 mg/day；4. 過去 12 個月內沒有 acute rejection episodes；5. 停用 teratogenic medications，其中 MMF 必須在至少 6 週前停用，Sirolimus 停用。",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/ren_tx_diff_dx.png",
@@ -963,13 +963,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus (C) matches ground truth (C). Re-read rawResponse with 100% LLM semantic intelligence.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "selectedOption": "C",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:09+08:00",
-      "qcNotes": "Language audit failed: sourceExplanation and reconciliationNotes are in English. Narrative must be 100% Traditional Chinese. No synthetic headers in stem."
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:39+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q16",
@@ -995,7 +995,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Prior acute rejection episodes—especially those occurring late (> 6 months post-transplant),intimal arteritis, or suffering incomplete resolution—are the strongest clinical risk factors for developing chronic active rejection, progressive nephron loss, and late graft failure.",
+      "sourceExplanation": "先前的 acute rejection episodes，特別是那些在 post-transplant 超過 6 個月後發生的、伴隨 intimal arteritis，或是呈現 incomplete resolution 的情況，是發展為 chronic active rejection、progressive nephron loss 以及 late graft failure 最強的 clinical risk factors。",
       "resolvedImages": [
         {
           "relPath": "/reference-images/KDIGO/KDIGO-2009-Transplant-Recipient-Guideline-English/Table_1.png",
@@ -1028,12 +1028,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus aligned with Ground Truth (D). NLM1: D, NLM2: D.",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:10Z",
-      "qcNotes": "Language violation: sourceExplanation is entirely in English narrative, expected Traditional Chinese narrative with English medical terms."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:39+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q17",
@@ -1059,7 +1059,7 @@
       ],
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Post-transplant TMA with microangiopathic hemolytic anemia, thrombocytopenia, and renal microthrombi in the presence of DSA represents severe complement-mediated microvascular injury secondary to active ABMR or CNI toxicity. Immediate intervention with TPE, IVIG, CNI withdrawal,Eculizumab is required to salvage the graft.",
+      "sourceExplanation": "伴隨 microangiopathic hemolytic anemia、thrombocytopenia 以及 renal microthrombi 的 post-transplant TMA，在存在 DSA 的情況下，代表了繼發於 active ABMR 或 CNI toxicity 的嚴重 complement-mediated microvascular injury。需要立即介入 TPE、IVIG、CNI withdrawal 或 Eculizumab 以挽救 graft。",
       "resolvedImages": [
         {
           "relPath": "/server-data/assets/ren_tx_abmr_c4d.png",
@@ -1092,12 +1092,12 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus aligned with Ground Truth (A). NLM1: A, NLM2: A.",
-      "qcVerified": false,
-      "qcStatus": "QC_LANGUAGE_VIOLATION",
-      "qcVerifiedAt": "2026-08-01T04:10:10Z",
-      "qcNotes": "Language violation: sourceExplanation is entirely in English narrative, expected Traditional Chinese narrative with English medical terms."
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
+      "qcVerifiedAt": "2026-08-01T04:40:39+08:00",
+      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
     {
       "id": "q18",
@@ -1156,8 +1156,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus aligned with Ground Truth (B). NLM1: B, NLM2: B.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:42Z",
@@ -1220,8 +1220,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus aligned with Ground Truth (C). NLM1: C, NLM2: C.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:42Z",
@@ -1284,8 +1284,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "MATCH",
-      "reconciliationNotes": "NLM consensus aligned with Ground Truth (D). NLM1: D, NLM2: D.",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-08-01T04:40:42Z",

@@ -537,7 +537,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 NotebookLM 的分析，現有資料庫文獻缺乏足夠資訊來確定正確選項。文獻中雖記錄了 `glomerular endothelial cells` (`GEnCs`) 在遭受急性損傷（如在 `thrombotic microangiopathy` 或 `TMA` 中）時，表現為細胞體腫脹 (`swelling of the cell body`)、內皮糖萼變薄 (`thinning of the glycocalyx`) 以及內皮窗孔喪失 (`loss of fenestrations`)，並會上調如 `CD34` 與 `E-selectin` (`CD62E`) 等標記，但並未具體提及或區分選項中所列分子（如 `Tissue Factor`、`Thrombomodulin`、`CD31`、`Nephrin` 等）的表現變化組合。",
       "resolvedImages": [],
-      "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcStatus": "QC_FAILED",
       "qcVerified": false,
       "nlmResponses": [
@@ -564,7 +564,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "NLM responses contained INSUFFICIENT evidence, short response (<200 chars), or duplicate string.",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (A) 不符。",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -595,7 +595,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 NotebookLM 的分析，資料庫中缺乏足夠的直接證據確認正確答案（未提及 `PV-1` 或 `PLVAP` 作為特異性分子標記）。然而，依據內皮生物學，`PV-1` 是定位於窗孔隔膜 (`diaphragmed fenestrae`) 的 `fenestration marker`，而 `CD31` (`PECAM1`) 是經典的 `pan-endothelial marker`。生理狀態下，成人健康 `GEnCs` 具有缺乏隔膜的窗孔，並表現 `CD31`、`VEGFR2` 等全血管內皮標記，而僅在胚胎期或病理活化時才會產生改變。選項中其他組合（如 `E-selectin` 或 `VE-cadherin`）之功能定位與題意不符。",
       "resolvedImages": [],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcVerified": true,
       "nlmResponses": [
@@ -622,7 +622,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "reconciliationNotes": "原始答案與兩組 NLM 回答一致",
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -951,7 +951,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據文獻，在 diabetic nephropathy 的早期病程中，albumin excretion rate 仍處於 normoalbuminuria 階段時，glomerular basement membrane 與 podocyte 已開始發生病理改變。Podocalyxin 作為 podocyte 的特異性標記蛋白，其在 urine 中的排泄量在 microalbuminuria 發生之前即顯著升高，是評估早期 podocyte injury 的超早期敏感指標。因此，podocyte-specific proteins 的流失顯著早於臨床上 microalbuminuria 的發生。",
       "resolvedImages": [],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
@@ -978,7 +978,7 @@
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {

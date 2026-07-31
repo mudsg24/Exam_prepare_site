@@ -56,8 +56,8 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_7_7",
@@ -126,8 +126,8 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -196,8 +196,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -266,8 +266,8 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -336,8 +336,8 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -406,8 +406,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_5",
@@ -476,8 +476,8 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -546,8 +546,8 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -616,8 +616,8 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -686,8 +686,8 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_7_7",
@@ -748,8 +748,8 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "QC_PASSED",
-      "reconciliationNotes": "原始答案與對照 NLM 盲測結論完全一致",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_4",
@@ -827,8 +827,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
-      "reconciliationNotes": "原始答案與雙重 NLM 對答結果完全一致",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_5",

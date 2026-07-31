@@ -55,10 +55,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (B). ENaC entry, GSK-3beta inhibition, and AQP2 downregulation verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "lithium_q02",
@@ -110,10 +111,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (A). Nephrogenic Diabetes Insipidus association verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "lithium_q03",
@@ -165,10 +167,11 @@
       ],
       "qcStatus": "DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM #1 determines NONE due to hypotonic vs volume resuscitation phase distinction, whereas NLM #2 confirms Option C (0.45% NaCl) for hypernatremia correction.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
       "id": "lithium_q04",
@@ -220,10 +223,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (D). Amiloride ENaC blockade for lithium NDI verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "lithium_q05",
@@ -279,10 +283,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (B). Chronic Tubulointerstitial Nephritis histology verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "lithium_q06",
@@ -338,10 +343,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (C). T2 hyperintense microcysts on renal MRI verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "lithium_q07",
@@ -393,10 +399,11 @@
       ],
       "qcStatus": "DISPUTED",
       "qcVerified": true,
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM #1 selects Option A whereas NLM #2 determines NONE noting that duration of therapy does not predict progression to ESRD.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。"
     },
     {
       "id": "lithium_q08",
@@ -448,10 +455,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (D). MCD and FSGS glomerular presentation with lithium verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "lithium_q09",
@@ -503,10 +511,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (C). CaSR set-point shift to the right causing hypercalcemia verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "lithium_q10",
@@ -558,10 +567,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (B). Inappropriately normal or elevated PTH in lithium hypercalcemia verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "lithium_q11",
@@ -613,10 +623,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (A). Phenotypic similarity to Familial Hypocalciuric Hypercalcemia (FHH) verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "lithium_q12",
@@ -668,10 +679,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (D). Type 1 Distal RTA association with lithium toxicity verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "lithium_q13",
@@ -723,10 +735,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (B). Low MW (7 Da), 0% protein binding, low Vd for HD dialyzability verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "lithium_q14",
@@ -778,10 +791,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (C). Emergent HD indications (Li > 5.0 or > 2.5 with severe symptoms/AKI) verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "lithium_q15",
@@ -833,10 +847,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (A). Post-dialysis lithium rebound from intracellular compartment verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "lithium_q16",
@@ -888,10 +903,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (D). CRRT prevention of intracellular rebound phenomenon verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "lithium_q17",
@@ -943,10 +959,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (B). Discontinuing Lithium with psychiatry consultation verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "lithium_q18",
@@ -998,10 +1015,11 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "QC_PASSED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NLM responses perfectly match source answer (C). Non-nephrotoxic mood stabilizers (Aripiprazole, Lamotrigine, Valproate) verified.",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcVerifiedBy": "tn-exam-qc"
+      "qcVerifiedBy": "tn-exam-qc",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     }
   ],
   "paperId": "2026_Lithium_Nephrotoxicity_(主題備考)"

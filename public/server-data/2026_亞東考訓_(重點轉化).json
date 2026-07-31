@@ -1489,7 +1489,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Tuberculous peritonitis在腹膜透析患者中的典型透析液表現為 lymphocytic predominance。此外，Acid-fast bacilli, AFB smear的敏感度非常低，通常為陰性，因此診斷上高度依賴PCR或 mycobacterial culture來確診。選項 A 錯誤，通常不是嗜中性球為 neutrophilic predominance，且 AFB 抹片極少呈現高度陽性。選項 B 錯誤，Eosinophilia通常與過敏、空氣進入或某些寄生蟲感染有關，非 TB 特徵。選項 C 錯誤，出血性透析液非特異性，且 TB 並非格蘭氏染色陽性的細胞內桿菌（Gram stain 為陰性或不著色）。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcStatus": "QC_PASSED",
       "resolvedImages": [],
       "responses": [
@@ -1518,7 +1518,7 @@
       ],
       "qcVerified": true,
       "number": 26,
-      "reconciliationNotes": "NotebookLM 知識庫證據不足",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcNotes": "Verified by tn-exam-qc subagent: Source provided answer D aligns with board exam consensus for TB peritonitis (lymphocytic predominance, low AFB smear sensitivity). NLM notes PMN nuance in PD effluent. Reconciliation set to HIGH_CONFIDENCE.",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc"

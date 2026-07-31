@@ -51,11 +51,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q2",
@@ -102,11 +103,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcNotes": "Ground Truth (B) and dual NotebookLM responses unanimously agree on Option B.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "q3",
@@ -153,11 +155,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "Ground Truth (C) and dual NotebookLM responses unanimously agree on Option C.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q4",
@@ -204,11 +207,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q5",
@@ -253,11 +257,12 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "Both NLM responses agree on Option B (Glomerular podocytes) despite INSUFFICIENT header. Consistent with sourceProvidedAnswer.",
-      "qcVerifiedAt": "2026-07-31T17:42:58.485Z"
+      "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q6",
@@ -302,11 +307,12 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "Both NLM responses correctly identify Option B via semantic analysis, explicitly overriding the INSUFFICIENT header. Consistent with sourceProvidedAnswer.",
-      "qcVerifiedAt": "2026-07-31T17:42:58.485Z"
+      "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q7",
@@ -351,11 +357,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "Contamination fix verified. Both NLMs selected A (Fluid shear stress) based on medical consensus despite INSUFFICIENT header. Contaminated slot replaced and confirmed correct.",
-      "qcVerifiedAt": "2026-07-31T17:53:41.080Z"
+      "qcVerifiedAt": "2026-07-31T17:53:41.080Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q8",
@@ -402,11 +409,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "NotebookLM #1 selected Option A, C while NotebookLM #2 selected Option C.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q9",
@@ -453,11 +461,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "Ground Truth (A) and dual NotebookLM responses unanimously agree on Option A.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q10",
@@ -504,11 +513,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "q11",
@@ -555,11 +565,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option A.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "q12",
@@ -604,11 +615,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "Contamination fix verified. Both NLMs recognized Option A (Six2/Sall1) for blastocyst complementation. Contaminated slot replaced and confirmed correct.",
-      "qcVerifiedAt": "2026-07-31T17:53:41.080Z"
+      "qcVerifiedAt": "2026-07-31T17:53:41.080Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q13",
@@ -655,11 +667,12 @@
           "qcNote": "Original 128-char response. UNRESOLVED_DATABASE_GAP question - NLM notebooks do not cover hCD59 (Protectin)."
         }
       ],
-      "reconciliationStatus": "UNRESOLVED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": false,
       "qcStatus": "UNRESOLVED_DATABASE_GAP",
       "qcNotes": "Neither NLM selected any option in Answer Determination. Both output only INSUFFICIENT text. source=C unconfirmed. Retry exhausted. [Database Gap confirmed by review: question is valid and in-scope; NLM NONE due to source coverage limitation, not question flaw.]",
-      "qcVerifiedAt": "2026-07-31T18:00:25.169Z"
+      "qcVerifiedAt": "2026-07-31T18:00:25.169Z",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q14",
@@ -706,11 +719,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option C.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "q15",
@@ -757,11 +771,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "NotebookLM #1 selected Option B while NotebookLM #2 selected Option A, B.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "q16",
@@ -808,11 +823,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
       "id": "q17",
@@ -859,11 +875,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "AGREED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_AGREED",
       "qcNotes": "NotebookLM #1 selected Option NONE while NotebookLM #2 selected Option A.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
       "id": "q18",
@@ -910,11 +927,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "q19",
@@ -961,11 +979,12 @@
           "qcStatus": "PASSED"
         }
       ],
-      "reconciliationStatus": "DISPUTED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
       "qcNotes": "NotebookLM #1 selected Option A while NotebookLM #2 selected Option B.",
-      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z"
+      "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
+      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
       "id": "q20",
@@ -1010,11 +1029,12 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "CONFIRMED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "qcNotes": "Both NLM responses overcome the INSUFFICIENT flag through academic rationale and explicitly identify Option A (Non-renal stromal and cartilage-like cells). Matches sourceProvidedAnswer.",
-      "qcVerifiedAt": "2026-07-31T17:42:58.485Z"
+      "qcVerifiedAt": "2026-07-31T17:42:58.485Z",
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     }
   ]
 }

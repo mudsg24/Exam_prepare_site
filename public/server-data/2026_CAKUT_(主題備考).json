@@ -417,9 +417,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
-      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "cakut_q08",
@@ -710,9 +711,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
-      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "cakut_q13",
@@ -826,9 +828,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: B, NLM: B / B",
-      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
       "id": "cakut_q15",
@@ -884,9 +887,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: C, NLM: C / C",
-      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
       "id": "cakut_q16",
@@ -942,9 +946,10 @@
       ],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
-      "reconciliationStatus": "MATCH",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Stage 2 Dual Semantic Audit completed. Ground truth: D, NLM: D / D",
-      "qcVerifiedAt": "2026-07-31T06:22:22.582Z"
+      "qcVerifiedAt": "2026-07-31T06:22:22.582Z",
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
       "id": "cakut_q17",

@@ -1257,8 +1257,8 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
-      "reconciliationNotes": "C 與 NotebookLM A 不符",
+      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "resolvedImages": [],
       "qcStatus": "QC_PASSED",
       "qcVerified": true,

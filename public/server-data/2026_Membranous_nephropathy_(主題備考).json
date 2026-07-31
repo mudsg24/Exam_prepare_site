@@ -111,11 +111,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: B vs NLM 2: A)。"
     },
     {
       "id": "q3",
@@ -166,11 +167,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q4",
@@ -220,11 +222,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q5",
@@ -274,11 +277,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q6",
@@ -328,11 +332,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: A vs NLM 2: B)。"
     },
     {
       "id": "q7",
@@ -382,11 +387,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: A vs NLM 2: B)。"
     },
     {
       "id": "q8",
@@ -436,11 +442,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q9",
@@ -706,11 +713,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_SOURCE_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (A) 不符。"
     },
     {
       "id": "q14",
@@ -760,11 +768,12 @@
           "confidence": "HIGH"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "qcVerified": true,
       "qcStatus": "PASSED",
       "qcVerifiedAt": "2026-07-30T08:28:38.050996+00:00",
-      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines."
+      "qcNotes": "Stage 2 100% Subagent dual semantic verification passed against Brenner 11e Ch 31 & KDIGO 2021 guidelines.",
+      "reconciliationNotes": "兩組 NotebookLM 解析相互分歧 (NLM 1: C vs NLM 2: A)。"
     },
     {
       "id": "q15",

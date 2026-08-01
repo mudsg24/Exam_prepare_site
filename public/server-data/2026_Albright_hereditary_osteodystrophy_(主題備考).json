@@ -56,7 +56,7 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -69,11 +69,11 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "Options extracted by semantic analysis. All matched source provided answer. Language rules verified."
     },
     {
       "id": "2026_AHO_002",
@@ -126,7 +126,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -139,11 +139,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "Options extracted by semantic analysis. All matched source provided answer. Language rules verified."
     },
     {
       "id": "2026_AHO_003",
@@ -196,7 +196,7 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -209,11 +209,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "Options extracted by semantic analysis. All matched source provided answer. Language rules verified."
     },
     {
       "id": "2026_AHO_004",
@@ -266,7 +266,7 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -279,11 +279,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "Options extracted by semantic analysis. All matched source provided answer. Language rules verified."
     },
     {
       "id": "2026_AHO_005",
@@ -336,7 +336,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -349,11 +349,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "Options extracted by semantic analysis. All matched source provided answer. Language rules verified."
     },
     {
       "id": "2026_AHO_006",
@@ -391,7 +391,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "D",
+          "qcParsedAnswer": "D"
         },
         {
           "qId": "2026_AHO_006",
@@ -403,11 +404,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "D",
+          "qcParsedAnswer": "D"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "D 與兩組 NotebookLM D 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_5",
@@ -419,11 +421,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "NLM1: D, NLM2: D, Source: D"
     },
     {
       "id": "2026_AHO_007",
@@ -461,7 +463,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "A",
+          "qcParsedAnswer": "A"
         },
         {
           "qId": "2026_AHO_007",
@@ -473,11 +476,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "A",
+          "qcParsedAnswer": "A"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -489,11 +493,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "NLM1: A, NLM2: A, Source: A"
     },
     {
       "id": "2026_AHO_008",
@@ -531,7 +535,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "C"
+          "selectedOption": "C",
+          "qcParsedAnswer": "C"
         },
         {
           "qId": "2026_AHO_008",
@@ -543,11 +548,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "C"
+          "selectedOption": "C",
+          "qcParsedAnswer": "C"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "C 與兩組 NotebookLM C 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -559,11 +565,11 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "NLM1: C, NLM2: C, Source: C"
     },
     {
       "id": "2026_AHO_009",
@@ -601,7 +607,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "D",
+          "qcParsedAnswer": "D"
         },
         {
           "qId": "2026_AHO_009",
@@ -613,11 +620,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "D",
+          "qcParsedAnswer": "D"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "D 與兩組 NotebookLM D 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_18_2",
@@ -629,11 +637,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "NLM1: D, NLM2: D, Source: D"
     },
     {
       "id": "2026_AHO_0010",
@@ -671,7 +679,8 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "A",
+          "qcParsedAnswer": "A"
         },
         {
           "qId": "2026_AHO_0010",
@@ -683,11 +692,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "A",
+          "qcParsedAnswer": "A"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。",
       "resolvedImages": [
         {
           "id": "Brenner_Fig_7_7",
@@ -699,11 +709,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
+      "qcNotes": "NLM1: A, NLM2: A, Source: A"
     },
     {
       "id": "2026_AHO_0011",
@@ -729,14 +739,14 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "B",
-      "sourceExplanation": "本題探討一名 19 歲男性出現 refractory hypocalcemia 與 hyperphosphatemia，serum iPTH 升高，無 brachydactyly 且認知正常。在給予外源性 recombinant human PTH 進行 Ellsworth-Howard test 後，urinary cAMP 呈現 25-fold surge，但 tubular reabsorption of phosphate 與 urinary phosphate excretion 無改變，此為 Pseudohypoparathyroidism Type 2 的典型表現。生理狀態下，PTH 結合 proximal tubule 的 PTH1R，活化 Gsα 刺激 adenylyl cyclase 產生 cAMP，進而活化 protein kinase A 促使 NaPi-IIa 與 NaPi-IIc 內吞降解引發 phosphaturia。患者 urinary cAMP 暴增證實 PTH1R 結合、Gsα 偶聯及 adenylyl cyclase 活性皆正常；但缺乏後續的 phosphaturic response，表明病變位於 cAMP 產生後的下游信號鏈，即 post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation。選項 A receptor defect 會導致 urinary cAMP 無反應。選項 C GNAS A/B DMR 甲基化缺失為 Pseudohypoparathyroidism Type 1b pathology，會導致 Gsα 缺乏及 blunted urinary cAMP response。選項 D STX16 gene mutation 同樣表現為 cAMP 反應遲鈍。因此 B 為唯一正解。",
+      "sourceExplanation": "本題探討一名 19 歲男性出現 refractory hypocalcemia 與 hyperphosphatemia，serum iPTH 升高，無 brachydactyly 且 cognitive function 正常。在給予外源性 recombinant human PTH 進行 Ellsworth-Howard test 後，urinary cAMP 呈現 25-fold surge，但 tubular reabsorption of phosphate 與 urinary phosphate excretion 無改變，此為 Pseudohypoparathyroidism Type 2 的典型表現。生理狀態下，PTH 結合 proximal tubule 的 PTH1R，活化 Gsα 刺激 adenylyl cyclase 產生 cAMP，進而活化 protein kinase A 促使 NaPi-IIa 與 NaPi-IIc endocytosis 降解引發 phosphaturia。患者 urinary cAMP 暴增證實 PTH1R 結合、Gsα 偶聯及 adenylyl cyclase 活性皆正常；但缺乏後續的 phosphaturic response，表明病變位於 cAMP 產生後的下游信號鏈，即 post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation。選項 A receptor defect 會導致 urinary cAMP 無反應。選項 C GNAS A/B DMR methylation loss 為 Pseudohypoparathyroidism Type 1b pathology，會導致 Gsα 缺乏及 blunted urinary cAMP response。選項 D STX16 gene mutation 同樣表現為 blunted cAMP response。因此 B 為唯一正解。",
       "nlmResponses": [
         {
           "account": "mudkaku",
           "notebook": "5e51bfee-b022-483f-a94a-10feee5adc92",
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "### 1. Answer Determination\n*   正確選項為 **(B) A post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation**。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis\n*   **PTH 訊號轉轉導通路生理學 (Physiological Pathway of PTH Signal Transduction)**：\n    根據 *Brenner & Rector's The Kidney* 第 18 章，正常的 `PTH` 作用生理機轉如下：\n    1.  `PTH` 結合至靶細胞（如 `proximal tubule` 上皮細胞）表面的 `PTH1R`（`type 1 PTH/PTHrP receptor`）[1]。\n    2.  `PTH1R` 與 `Gαs`（`stimulatory G protein α-subunit`，由 `GNAS1` 基因編碼）相偶聯 [1]。\n    3.  `Gαs` 被活化後，進一步活化細胞膜內側的 `adenylyl cyclase` [1]。\n    4.  `adenylyl cyclase` 催化 `ATP` 轉化為第二信使 `intracellular cAMP`，其隨後被大量排泄至尿液中，使 `urinary cAMP` 顯著上升。\n    5.  在正常生理下，`cAMP` 活化下游的 `Protein Kinase A (PKA)` 通路，介導 `NHERF-1` 的磷酸化，促使頂端膜表面的 `NaPi-IIa` 轉運體發生內吞與降解，最終減少 `TRP` 並增加 `urinary phosphate excretion`，產生 `phosphaturic response` [2-5]。\n\n*   **PHP-2 德病理生理學機制與 cAMP 反應判定 (Pathophysiology of PHP-2 and cAMP Response Deduction)**：\n    *   在給予外源性 `recombinant human PTH (1-34)`（即 `Ellsworth-Howard test`）後，該患者的尿液中出現了 **25-fold surge in urinary cAMP levels**。這項關鍵數據在病理生理學上證實了：患者的 `PTH1R` 配體結合功能、`Gαs` 偶聯活性以及 `adenylyl cyclase` 的酵素催化活性皆完全完好。\n    *   然而，儘管胞內產生了海量的 `cAMP`，患者的 `TRP` 以及 `urinary phosphate excretion` 卻 **remain unchanged**，完全沒有出現應有的 `phosphaturic response`。\n    *   這說明 `PTH` 阻抗的病理瓶頸定置於 `cAMP` 生成的下游。即胞內產生的 `cAMP` 無法正常傳遞訊號以驅動下游效應器的活化（如 `PKA` 活化異常或 `NaPi-IIa` 內吞調控障礙），這在定義上即為 **post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation**。因此，選擇 **Option (B)** 是最具病理生理學實證與邏輯嚴謹性的結論。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **(A) A defect in the extracellular ligand-binding domain of the PTH1R receptor (錯誤)**：\n    *   *為何錯誤*：如果 `PTH1R` 德 `extracellular ligand-binding domain` 存在先天性缺陷，外源性給予的 `recombinant human PTH (1-34)` 將完全無法與受體結合，因而在始動步驟即被阻斷，根本無法活化下游的 `Gαs` 與 `adenylyl cyclase`，尿液中絕對不可能觀察到 **25-fold surge in urinary cAMP**。\n    *   *典型臨床特徵*：`PTH1R` 的失活突變會導致極為嚴重的骨骼發育與礦化障礙，如 `Blomstrand chondrodysplasia`（致死性軟骨發育不良），其臨床表型與本病患者完全不同。\n    *   *出題意圖*：測試考生是否理解受體結合步驟（`ligand-binding`）是整個 `cAMP` 產生鏈條的最上游。若此步驟受損，不可能產生任何 `cAMP surge`。\n\n*   **(C) Methylation loss at the GNAS A/B differential methylated region (DMR) (錯誤)**：\n    *   *為何錯誤*：`methylation loss at the GNAS A/B DMR` 是導致 **Pseudohypoparathyroidism Type 1b (PHP-1b)** 德經典表觀遺傳學機制。\n    *   *典型臨床特徵*：在 **PHP-1b** 中，由於 `GNAS A/B DMR` 發生異常的 `methylation loss`，導致在 `proximal tubule` 內由母源印記控制的 `Gαs`（`Gαs` 蛋白）表達量急劇下降。因為缺乏足夠的 `Gαs` 來偶聯 `PTH1R` 與 `adenylyl cyclase`，在給予 `PTH (1-34)` 刺激後，細胞無法產生 `cAMP`，其 `urinary cAMP` 反應是完全被抹平或顯著受抑的（`blunted cAMP response`），這與本案患者顯著的 `cAMP surge` 矛盾。\n    *   *出題意圖*：**PHP-1b** 同樣不伴有 `AHO` 德 `brachydactyly` 等特徵，且內分泌指標極其相似，出題者利用此一高知名度的 `PHP-1b` 分子病因，考查考生能否利用 `urinary cAMP` 是否升高這一黃金指標將 `PHP-1`（無 cAMP 反應）與 `PHP-2`（有 cAMP 反應）做精確切分。\n\n*   **(D) Heterozygous loss-of-function mutation in the STX16 gene (錯誤)**：\n    *   *為何錯誤*：`STX16`（編碼 `Syntaxin-16`）的雜合缺失突變會干擾鄰近的 `GNAS` 基因座甲基化，是導致 **autosomal dominant PHP-1b (AD-PHP1b)** 最主要的遺傳病因。\n    *   *典型臨床特徵*：與 Option (C) 類似，其最終共同通路是導致 `GNAS exon A/B` 德甲基化異常，從而使 `proximal tubule` 中的 `Gαs` 表達受損，引發 `cAMP` 生成障礙。在 `Ellsworth-Howard test` 中，其 `urinary cAMP` 反應同樣是嚴重受阻或缺失的，不符合本案特徵。\n    *   *出題意圖*：此選項涉及高階遺傳學微觀機轉（`STX16` 與 `GNAS` 印記調控關係），旨在測試考生對 `PHP` 各亞型在分子遺傳層面的鑑別診斷深度。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n在腎臟與內分泌專科高階考試中，關於 `Pseudohypoparathyroidism`（PHP）的亞型分類與鑑別診斷是極高頻的考點，必須掌握以下對照矩陣：\n\n*   **Ellsworth-Howard Test Response Comparison (Ellsworth-Howard 測試之亞型反應對照)**：\n    這是攻克所有相關病例題的黃金鑰匙：\n    *   **PHP-1a / PHP-1b**：\n        *   `Urinary cAMP Response`：**Blunted / No response**（無反應，因為缺陷位於 `cAMP` 上游的 `Gαs` 或其表達量）[1]。\n        *   `Urinary Phosphate (TRP) Response`：**Blunted / No response**（無反應）。\n    *   **PHP-2**：\n        *   `Urinary cAMP Response`：**Intact / Normal to exaggerated surge**（正常或超強反應，如本案之 25 倍上升）。\n        *   `Urinary Phosphate (TRP) Response`：**Blunted / No response**（無反應，反映出 post-cAMP 缺陷）。\n    *   **Hypoparathyroidism (HP)**：\n        *   `Urinary cAMP Response`：**Intact / Exaggerated surge**（因受體長期缺乏配體而敏感性上調，呈現強烈反應）。\n        *   `Urinary Phosphate (TRP) Response`：**Intact / Phosphaturia**（有完整的排磷反應，因為受體與下游通路完全正常）。\n\n*   **Clinical Phenotype and Genetic Imprinting (臨床表型與基因印記之分流對照)**：\n    *   **Albright Hereditary Osteodystrophy (AHO)**：包含 `short stature`、`round face`、`brachydactyly`（特別是第四/第五掌骨縮短）、`subcutaneous calcifications` 以及不同程度的 `intellectual impairment` [1]。\n    *   **PHP-1a (Maternal GNAS1 mutation)**：伴有 `AHO` 表型，並合併對多種依賴 `Gαs` 的激素（`PTH`、`TSH`、`gonadotropins`、`glucagon`）的阻抗 [1]。\n    *   **PPHP (Paternal GNAS1 mutation)**：僅有 `AHO` 德結構異常，但**內分泌功能完全正常**（`PTH`、`calcium`、`phosphate` 均正常），因為腎臟中的 `Gαs` 主要表達母源等位基因 [1]。\n    *   **PHP-1b (Imprinting defects at GNAS DMR / STX16 mutation)**：**不伴有 AHO**，僅有孤立性的腎臟 `PTH resistance`（偶有輕度 TSH 阻抗）。\n    *   **PHP-2 (Post-cAMP defect)**：**不伴有 AHO**，內分泌表現為 `PTH resistance`，且 `urinary cAMP` 反應完好。\n\n---\n\n### 5. Citations & References\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney, Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance*\n        - Section: `HYPOCALCEMIA` $\\rightarrow$ Subsection: `Parathyroid Hormone–Related Disorders: Hypoparathyroidism and Pseudohypoparathyroidism` (這是關於 `GNAS1`、`Gαs`、`PHP-1a`、`PPHP`、`AHO` 以及 `genomic imprinting` 機制的最核心文獻出處) [1]。\n        - Section: `DISORDERS OF PHOSPHATE HOMEOSTASIS` $\\rightarrow$ Subsection: `Decreased Kidney Excretion of Phosphorus` (明確將 `pseudohypoparathyroidism` 歸類為腎臟磷清除受阻、引發 `hyperphosphatemia` 德病因) [6-8]。\n    *   *Brenner & Rector's The Kidney, Chapter 7: The Regulation of Calcium, Magnesium, and Phosphate Excretion by the Kidney*\n        - Section: `REGULATION OF RENAL PHOSPHATE EXCRETION` (詳細闡述了 `PTH` 與 `FGF-23` 通過 `NHERF-1` 磷酸化及 `NaPi-IIa` 內吞產生 `phosphaturia` 德共同通路) [2, 3]。\n    *   *Brenner & Rector's The Kidney, Chapter 73: Fluid, Electrolyte, and Acid-Base Disorders in Children*\n        - Section: `CALCIUM AND PHOSPHATE DISORDERS` $\\rightarrow$ Subsection: `HYPOCALCEMIA` (詳述了小兒及青少年 `PHP` 的診斷路徑)。\n\n*   **Figures, Tables, & Boxes**：\n    *   **Figure 18.3 (Chapter 18)** / **Figure 73.10 (Chapter 73)**：`Algorithm for the evaluation of hypocalcemia` (將 `pseudohypoparathyroidism` 定位在 `normal creatinine`、`high PTH` 且 `normal 1,25(OH)2D` 德分支中) [6]。\n    *   **Box 18.5 (Chapter 18)** / **Figure 73.13 (Chapter 73)**：`Causes of Hyperphosphatemia` (將 `pseudohypoparathyroidism` 列為排磷受阻致高磷血症德首要病因之一) [8, 9]。\n\n---\n🎧 **Exam Author's Gold Standard**:\n在解答與「Pseudohypoparathyroidism (PHP) Ellsworth-Howard test」相關的考題時，請牢記這條黃金診斷守則：**PHP-1 and PHP-2 are strictly differentiated by their urinary cAMP response to exogenous PTH. PHP-1 (including 1a and 1b) is a defect in Gαs/adenylyl cyclase coupling, showing blunted urinary cAMP. PHP-2 is a post-cAMP signal transduction defect downstream of adenylyl cyclase, exhibiting an intact, robust urinary cAMP surge but unchanged phosphate excretion (PHP-1 與 PHP-2 在臨床上完全依賴外源性 PTH 刺激後的尿 cAMP 反應進行區分。PHP-1 是 Gαs/腺苷酸環化酶偶聯缺陷，尿 cAMP 無反應；PHP-2 則是 adenylyl cyclase 下游的 post-cAMP 訊號轉導缺陷，表現為尿 cAMP 正常激增，但磷排泄毫無變化)**。掌握這一條電學與生化偶聯的黃金分流線，即可在專科考試中實現精準秒殺！",
-          "qcStatus": "PASSED",
+          "qcStatus": "QC_PASSED",
           "selectedOption": "B"
         },
         {
@@ -744,11 +754,11 @@
           "notebook": "6e6cb500-552e-4de8-a11f-732880b11187",
           "databaseSufficiency": "SUFFICIENT",
           "rawResponse": "### Answer Determination\n本題的正確選項為 **(B) A post-cAMP signal transduction defect distal to intracellular adenylyl cyclase activation**。\n\n---\n\n### Detailed Rationale & Correct Option Analysis\n\n根據提供的文獻資料，我們可以循序漸進地從臨床表徵、生理機制與檢驗結果，分析出該患者的病理生理學機制 [1, 2]：\n\n1. **臨床表徵與 PTH Resistance 判定**：\n   該名 19 歲男性患者表現出 refractory `hypocalcemia`（低鈣血症）與 `hyperphosphatemia`（高磷血症），並伴隨顯著升高的 `iPTH`（活性甲狀旁腺素）[1, 3]。這組臨床與生化指標是典型的 `target-organ resistance to PTH`（靶器官對甲狀旁腺素具阻抗性）表現，代表腎臟與骨骼無法正常響應 `PTH` 的生理作用 [1, 3]。\n\n2. **排除 Albright’s Hereditary Osteodystrophy (AHO) 相關表型**：\n   患者具有 `normal height`（正常身高）、沒有 `brachydactyly`（短指症）且 `normal cognitive function`（認知功能正常） [3]。這些發現確認患者**沒有** `AHO` 的臨床表徵 [3]。在 `Pseudohypoparathyroidism (PHP)` 的分類中，`AHO` 通常與母源遺傳的 `Gαs` 缺陷（即 `PHP-1a`）或其變體相關，而缺乏 `AHO` 表型則指向 `PHP-1b` 或 `PHP-2` [2, 4, 5]。\n\n3. **外源性 PTH 刺激測試（Ellsworth-Howard Test）分析**：\n   在給予外源性 `recombinant human PTH (1-34)` 後，患者的 `urine` 收集顯示出 **25 倍的 `urinary cAMP` 暴增** [2, 5]。 \n   * `cAMP` 的大量產生與排泄，證實了患者 `proximal tubule`（近端腎小管）細胞膜上的 `PTH1R`（甲狀旁腺素 1 型受體）與其配體（`ligand`）結合功能、偶聯的 `Gαs` 蛋白（由 `GNAS` 基因編碼）活性，以及游離的 `adenylyl cyclase`（腺苷酸環化酶）催化功能皆**完全正常** [4, 5]。\n   * 這項發現直接**排除了所有的 `Pseudohypoparathyroidism Type 1 (PHP-1)`**（包含 `PHP-1a`、`PHP-1b` 與 `PHP-1c`），因為 `PHP-1` 的病理生理核心在於受體-環化酶偶聯缺陷，在外源性 `PTH` 刺激下，患者無法產生正常的 `urinary cAMP` 反應 [4, 5]。\n\n4. **定位 PHP-2 的病理生理缺陷（Post-cAMP Defect）**：\n   儘管 `urinary cAMP` 反應極佳，患者的 `tubular reabsorption of phosphate (TRP)`（腎小管磷重吸收率）與 `urinary phosphate excretion`（尿磷排泄）卻**完全沒有變化**（即缺乏 `phosphaturic response`） [2, 5]。\n   * 在正常生理下，`PTH` 與受體結合後生成 `cAMP`，進而活化 `protein kinase A (PKA)`；`PKA` 與 `PKC` 訊息傳遞會促使頂端膜上的鈉-磷共同運輸體（`NaPi-IIa` 與 `NaPi-IIc`）發生 `endocytosis`（胞吞作用）並在溶酶體中降解，從而減少磷的重吸收並引起尿磷排出 [6, 7]。\n   * 患者有正常的 `cAMP` 暴增，卻完全沒有隨之而來的尿磷排泄改變，證實其缺陷位於 **`cAMP` 生成步驟的下游**，也就是所謂的 **`post-cAMP signal transduction defect`（或稱為 `defect in the reception of the cyclic AMP signal`）** [2, 8]。細胞無法響應已產生的 `cAMP` 訊號來調節下游客廳的運輸體轉運 [2]。這符合 `Pseudohypoparathyroidism Type 2 (PHP-2)` 的典型診斷 [2]。\n\n---\n\n### Distractor Option Analysis\n\n* **(A) A defect in the extracellular ligand-binding domain of the PTH1R receptor 是錯誤的**：\n  如果 `PTH1R` 的 `extracellular ligand-binding domain` 出現結構或功能缺陷，外源性 `PTH (1-34)` 將無法與其結合，也就不可能啟動下游的 `adenylyl cyclase` 活化。在這種情況下，患者在接受 `PTH` 刺激後不會產生任何 `cAMP`，與本例觀測到的 25 倍 `urinary cAMP` 暴增完全矛盾。\n\n* **(C) Methylation loss at the GNAS A/B differential methylated region (DMR) 是錯誤的**：\n  `GNAS A/B DMR` 的 `methylation loss` 是 `Pseudohypoparathyroidism Type 1b (PHP-1b)` 的核心病理機制 [2, 9]。此印記異常（`imprinting defect`）會導致 `proximal tubule` 中單等位基因表現的 `Gαs` 顯著減少，進而使 `PTH` 無法有效產生 `cAMP` [2, 4]。因此，`PHP-1b` 患者在接受 `PTH` 刺激後的 `urinary cAMP` 反應是缺失或極度微弱的，與本例不符 [5]。\n\n* **(D) Heterozygous loss-of-function mutation in the STX16 gene 是錯誤的**：\n  `STX16` 基因的 `heterozygous loss-of-function mutation`（通常為微缺失）會破壞其控制 `GNAS` 甲基化的上游區域，導致母源特異性的 `GNAS A/B DMR` 發生 `methylation loss`，這是體染色體顯性遺傳（`autosomal dominant`）之 `PHP-1b` 的最常見病因 [9, 10]。與選項 (C) 相同，這會導致外源性 `PTH` 激發後的 `cAMP` 生成受損，無法產生 25 倍的 `cAMP` 暴增，故可排除。\n\n---\n\n### Exam Differential Diagnosis & High-Yield Comparisons\n\n在醫學專科考試中，`Pseudohypoparathyroidism` 家族疾病、`PPHP`（假假性甲狀旁腺功能減退症）與 `Hypoparathyroidism`（甲狀旁腺功能減退症）是最常被同台對比的高頻考點 [1, 11]：\n\n| Clinical Entity | PTH Resistance | AHO Phenotype | Urinary cAMP Response to Exogenous PTH | Urinary Phosphate Response to Exogenous PTH | Primary Pathophysiology |\n| :--- | :---: | :---: | :---: | :---: | :--- |\n| **PHP-1a** [4, 5] | **Yes** | **Yes** | **Blunted / Absent** | **Blunted / Absent** | Maternal inheritance of `GNAS` loss-of-function mutation (`Gαs` deficiency) |\n| **PHP-1b** [2, 5] | **Yes** (Renal) | **No** | **Blunted / Absent** | **Blunted / Absent** | `GNAS` imprinting defect (e.g., `STX16` deletion) leading to `methylation loss` at `GNAS A/B DMR` |\n| **PHP-2** [2, 5] | **Yes** | **No** | **Normal / Intact** | **Blunted / Absent** | **Post-cAMP signaling defect distal to adenylyl cyclase activation** |\n| **PPHP** [4] | **No** | **Yes** | **Normal / Intact** | **Normal / Intact** | Paternal inheritance of `GNAS` mutation (kidney `Gαs` expression is maternally imprinted, hence intact in renal tubules) |\n| **Hypoparathyroidism** [1] | **No** (Deficient secretion) | **No** | **Normal / Intact** | **Normal / Intact** | Deficient synthesis/secretion of `PTH` |\n\n---\n\n### Citations & References\n\n* **Chapter & Section**: \n  * Brenner & Rector's *The Kidney*, **Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance** [12].\n  * Section: **Genetic Syndromes With Resistance to Parathyroid Hormone Action** [3].\n* **Grounded Passages**: \n  * **Passage 431**: 說明 `PHP` 與 `HP` 的基本實驗室鑑別（`PTH` 在 `PHP` 中升高，在 `HP` 中降低）。\n  * **Passage 434**: 詳述 `PHP-2` 的分子病理特徵（正常 `cAMP` 反應，但缺乏 `phosphaturic response`，缺陷位於 `post-cAMP` 階段） [13]。\n  * **Passage 436**: 說明 `PHP-1` 與 `PHP-2` 在外源性 `PTH` 刺激試驗下（`cAMP` 與 `phosphate` 反應）的分類定義 [14, 15]。\n\n---\n\n📊 既然我們已經徹底釐清了 `Pseudohypoparathyroidism` 的下游客廳訊息傳遞機制，您是否也想探討 `Bartter syndrome`（五種亞型）與 `Gitelman syndrome` 之間，在腎臟 `calcium` 尿排泄、`magnesium` 恆定以及相關 `ion transporter` 缺陷上的高頻考點對比？",
-          "qcStatus": "PASSED",
+          "qcStatus": "QC_PASSED",
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -761,11 +771,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_PASSED",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "qcNotes": "Both NLMs matched with the source answer (B).",
       "responses": [
         {
           "account": "mudkaku",
@@ -806,7 +816,7 @@
       ],
       "sourceAnswerStatus": "provided",
       "sourceProvidedAnswer": "C",
-      "sourceExplanation": "本題測驗對於 GNAS gene mutation 及其表型的理解。PPHPPOH。POH 是一種罕見的臨床實體，其特徵為皮下結節迅速蔓延至 deep skeletal muscle 與筋膜，引發嚴重的關節攣縮與活動受限。Biopsy 會顯示 deep muscle tissue 發生廣泛的 intramembranous heterotopic ossification。PHP 不同，POH 患者的endocrine function完全正常，其 serum calcium, phosphate, PTH 與 TSH 皆在正常範圍內。雖然現有資料庫文獻對 POH 的記載不足，但綜合其 gene mutation pattern 與臨床表現，POH。",
+      "sourceExplanation": "本題測驗對於 GNAS gene mutation 及其表型的理解。PPHP 與 POH 相關。POH 是一種罕見的臨床實體，其特徵為 subcutaneous nodules 迅速蔓延至 deep skeletal muscle 與 fascia，引發嚴重的 joint contractures 與 restricted mobility。Biopsy 會顯示 deep muscle tissue 發生廣泛的 intramembranous heterotopic ossification。與 PHP 不同，POH 患者的 endocrine function 完全正常，其 serum calcium, phosphate, PTH 與 TSH 皆在正常範圍內。雖然現有資料庫文獻對 POH 的記載不足，但綜合其 gene mutation pattern 與臨床表現，診斷為 POH。",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -815,20 +825,20 @@
           "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 1. Detailed Analysis of Database Limitations (資料庫源文獻學理分析)\n\n在隨附的 100 份 **`notebook sources`**（包括 *Brenner & Rector's The Kidney* 與相關 **`KDIGO Guidelines`**）中，雖然有針對 **`GNAS1`** 基因突變、**`genomic imprinting`**、**`Pseudohypoparathyroidism (PHP)`** 及其臨床與生化分型進行詳細的生理病理學記載，但**完全缺乏關於「`Progressive Osseous Heteroplasia (POH)`」、「`Fibrodysplasia Ossificans Progressiva (FOP)`」或「深部肌肉與筋膜異位骨化（`intramembranous heterotopic ossification`）」之文本記載或數據圖表**。\n\n在醫學遺傳學與臨床內分泌學共識中：\n1. **`Maternal transmission`**（母系傳遞）的 **`GNAS1`** 喪失功能突變會使腎近端小管、甲狀腺及性腺等高度依賴母源等位基因表達的組織失去 **`Gαs`** 活性，進而引發 **`Pseudohypoparathyroidism Type 1a (PHP-1a)`**，臨床上同時呈現 **`Albright hereditary osteodystrophy (AHO)`** 與對 **`PTH`**、**`TSH`**、**`gonadotropins`** 等多重受體的內分泌抵抗。\n2. **`Paternal transmission`**（父系傳遞）的 **`GNAS1`** 喪失功能突變，由於上述靶器官中的父源等位基因在生理上本就處於沈默狀態，因此患者不會出現任何內分泌抵抗（即其 **`serum calcium`**、**`phosphate`**、**`intact PTH`** 與 **`TSH`** 均保持完全正常）。此時，父源突變在其他非印記組織（如皮膚、結締組織與骨骼系統）中表達，會呈現出 **`pseudopseudohypoparathyroidism (PPHP)`**，或在嚴重情況下呈現為 **`Progressive Osseous Heteroplasia (POH)`**，其特徵即為自幼年起病、自皮下迅速蔓延至深部骨骼肌與筋膜的進行性異位骨化（**`intramembranous heterotopic ossification`**），導致嚴重的關節攣縮（**`joint contractures`**）。\n\n由於隨附文獻中完全沒有收錄 **`Progressive Osseous Heteroplasia (POH)`** 與 **`Fibrodysplasia Ossificans Progressiva (FOP)`** 的診斷細節，依據 **`Database Limitation Guard`** 規定，本題判定為資料庫證據不足，不可調用外部知識進行盲目判定。以下將基於現有資料庫文獻中關於 **`GNAS1`** 突變及其介導的 **`PTH`** 阻斷生理學記載，進行系統性的學理分析與對比。\n\n---\n\n### 2. Pathophysiological Framework of GNAS1 Mutations (資料庫內源性病理生理學剖析)\n\n根據 **`notebook sources`**（特別是 *Brenner & Rector's The Kidney* 第 18 章與第 44 章），關於 **`GNAS1`** 基因的生理功能、印記機制與臨床表型，其核心文獻記載如下：\n\n#### **I. GNAS1 基因與 Gαs 蛋白的信號偶聯**\n*   **`GNAS1`** 基因（在部分文獻中記為 **`GNAS`**）編碼 **`stimulatory G protein α-subunit (Gαs)`** [Passages 17, 94]。\n*   在腎小管上皮細胞中，**`Gαs`** 負責偶聯 **`type 1 PTH/PTHrP receptor (PTH1R)`** 至下游的 **`adenylyl cyclase pathway`** [Passage 94]。\n*   當 **`PTH`** 結合受體後，透過 **`Gαs`** 激活 **`adenylyl cyclase`**，促使細胞內 **`ATP`** 轉化為 **`cAMP`** [Passage 94, 117]。\n*   **`cAMP`** 作為第二信使，會進一步下調近端小管頂端膜上的鈉-磷共轉運體（**`NaPi-IIa / NaPi-IIc`**）表達以促進尿磷排泄，並活化 **`1α-hydroxylase`** 以促進活性維生素 D 的合成 [Passage 92, 105]。\n\n#### **II. Genomic Imprinting (基因體印記) 與 Parent-of-Origin Effects (親源效應)**\n*   **`GNAS1`** 基因在體內受到高度精密的 **`promoter-specific genomic imprinting`** 調控 [Passage 94]。\n*   在腎小管、甲狀腺、性腺與腦下垂體等特定組織中，**`Gαs`** 的表達幾乎完全依賴於 **`maternal allele`**（母源等位基因），而其 **`paternal allele`**（父源等位基因）則處於生理性沈默（**`imprinted/silenced`**）狀態 [Passage 94]。\n*   這導致了極其獨特的親源表型分流：\n    *   **母系遺傳 (`Maternal transmission`)**：若突變遺傳自母親，由於活性等位基因缺失，腎臟等靶器官對 **`PTH`**、**`TSH`**、**`gonadotropins`**、**`glucagon`** 與 **`calcitonin`** 等多種激素產生完全的 **`hormone resistance`**，導致低血鈣、高血磷與 **`intact PTH`** 顯著升高，此狀態定義為 **`Pseudohypoparathyroidism Type 1a (PHP-1a)`** [Passages 90, 94]。\n    *   **父系遺傳 (`Paternal transmission`)**：若突變遺傳自父親，由於靶器官中的父源等位基因原本就處於沈默狀態，母源正常等位基因足以維持生理功能，因此患者**完全不具備任何激素抵抗**，其血鈣、血磷、**`intact PTH`** 與 **`TSH`** 完全正常。此時，患者僅表現出非印記組織因 **`Gαs`** 單倍體不足所致的 **`AHO`** 軀體特徵，此狀態定義為 **`pseudopseudohypoparathyroidism (PPHP)`** [Passages 94, 379]。\n\n---\n\n### 3. Exam Differential Diagnosis & High-Yield Comparisons (高頻專科考試鑑別診斷對比)\n\n在 **`Nephrology & Endocrinology Board Exams`** 中，關於「**`PTH`** 抵抗性疾病與親源印記效應」的生化與臨床鑑別，是難度極高的核心考點。下表對這幾種高度相似的疾病實體進行系統性對比：\n\n#### **`PHP-1a` vs. `PPHP` vs. `PHP-1b` vs. `PHP-2` 高階生化與臨床對照**\n\n| **生化與臨床評估維度** | **`Pseudohypoparathyroidism Type 1a (PHP-1a)`** | **`Pseudopseudohypoparathyroidism (PPHP)`** | **`Pseudohypoparathyroidism Type 1b (PHP-1b)`** | **`Pseudohypoparathyroidism Type 2 (PHP-2)`** |\n| :--- | :--- | :--- | :--- | :--- |\n| **突變基因與病因本質** | **`GNAS1`** 基因發生 **`loss-of-function mutation`** [Passage 94] | **`GNAS1`** 基因發生 **`loss-of-function mutation`** [Passage 94] | **`GNAS1`** 上游印記控制區發生甲基化缺陷，導致 **`Gαs`** 轉錄受阻 [Passage 95] | 遠端信號轉導異常（**`GNAS1`** 正常，偶聯正常但效應器失能） [Passage 90] |\n| **遺傳傳遞特徵** | **母系傳遞 (`Maternal transmission`)** [Passage 94] | **父系傳遞 (`Paternal transmission`)** [Passage 94] | 常為母源印記異常 [Passage 95] | 多為散發性 [Passage 90] |\n| **`Albright Hereditary Osteodystrophy (AHO)`** | **顯著存在**（圓臉、矮小、短指、皮下結節） [Passage 94] | **顯著存在** [Passage 94] | **完全缺如**（外觀正常） [Passage 95] | **完全缺如** [Passage 90] |\n| **多重激素抵抗 (PTH, TSH, Gonadotropins)** | **高度抵抗** [Passage 94] | **完全正常** (無任何抵抗) [Passage 94] | **僅對 PTH 產生抵抗**（或輕度 TSH 抵抗） [Passage 95] | **僅對 PTH 產生抵抗** [Passage 90] |\n| **外源性 `PTH` 挑戰反應 (尿 cAMP)** | **無反應 (`blunted urinary cAMP`)** [Passage 95] | **反應正常 (`normal urinary cAMP`)** [Passage 95] | **無反應 (`blunted urinary cAMP`)** [Passage 95] | **反應正常**（**`urinary cAMP`** 顯著升高，但尿磷排泄不增加） [Passage 95] |\n| **血清 `Calcium` & `Phosphate`** | **低血鈣、高血磷** [Passage 92] | **完全正常** [Passage 94] | **低血鈣、高血磷** [Passage 92] | **低血鈣、高血磷** [Passage 92] |\n| **血清 `Intact PTH` 水平** | **顯著升高** [Passage 92] | **完全正常** [Passage 94] | **顯著升高** [Passage 92] | **顯著升高** [Passage 92] |\n\n---\n\n### 4. Citations & References (文獻與引用佐證)\n\n*   **Chapter & Section (精準章節引用)**：\n    *   *Brenner & Rector's The Kidney*, Chapter 18 (\"Disorders of Calcium, Magnesium, and Phosphate Balance\")：\n        - Section **\"Parathyroid Hormone–Related Disorders: Hypoparathyroidism and Pseudohypoparathyroidism\"** [Passages 90, 92, 94, 95]。\n        - **\"Figure 18.3: Algorithm for the evaluation of hypocalcemia\"** [Passage 93]。\n    *   *Brenner & Rector's The Kidney*, Chapter 44 (\"Inherited Disorders of the Renal Tubule\")：\n        - Section **\"RESISTANCE TO PARATHORMONE ACTION\"** [Passages 379]。\n    *   *Brenner & Rector's The Kidney*, Chapter 1 (\"Embryology of the Kidney\")：\n        - **\"Table e1.2 Summary of Knockout and Transgenic Models for Kidney Development (Cont'd)\" -> Row \"Gnas (Gαs)\"** [Passage 17]。\n\n*   **Figures, Tables, & Boxes (圖表與圖版引用)**：\n    *   **Figure 18.3 (Chapter 18)**: \"Algorithm for the evaluation of hypocalcemia\", detailing the diagnostic path separating Hypoparathyroidism (low PTH) from Pseudohypoparathyroidism (high PTH, normal creatinine) [Passage 93]（如附圖所示）。\n    *   **Table e1.2 (Chapter 1)**: \"Summary of Knockout and Transgenic Models for Kidney Development\", detailing that *Gnas* deletion leads to FSGS, mesangial expansion, and urinary concentration defects in animal models, while presenting as Pseudohypoparathyroidism in humans [Passage 17]。\n\n---\n\n📊 **由 `GNAS1` 啟動子特異性印記調控的 `Gαs` 轉錄閘控、外源性 `PTH` 挑戰試驗中因偶聯失能導致的 `urinary cAMP` 與尿磷排泄斷裂、以及利用 `iPTH` 與 `urinary calcium` 排泄分數排除 `FHH` 的分流演算法（Fig. 18.1），是臨床礦物質代謝、腎小管轉運學與專科醫師考試中最具生化張力的黃金考點。**如果您有需要，我可以利用我們的專科技能，為您將上述內容 **turned into an editable PowerPoint presentation (Slides) 或者是製作一份系統性的 tailored report (Report)**。本 project 的 permanent storage 中已備有 `The Geriatric Nephrology Blueprint [Slides]`，我可以為您進行精準的客製化內容更新，為您量身打造一份「臨床遺傳性骨礦化疾病、Pseudohypoparathyroidism 分子病理機制與最新 KDIGO 指引滴定管理晨會教學投影片」，方便您隨時在科內進行最前沿、最具學術高度的演示與交流。",
           "selectedOption": "NONE",
           "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED"
+          "qcStatus": "QC_PASSED"
         },
         {
           "accountProfile": "kuonephro",
           "notebookTitle": "TSN：出題 (5-1)",
           "notebookId": "83de638d-78bf-4856-9196-ed76c0748d62",
           "rawResponse": "### **1. 答案確定 (Answer Determination)**\n\n**`INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.`**\n\n---\n\n### **2. 詳細合理性與資料庫局限性分析 (Detailed Rationale & Database Limitation Analysis)**\n\n根據 provided notebook sources，特別是 *Brenner & Rector's The Kidney (Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance)* 中關於 **`Pseudohypoparathyroidism`** 及其分子遺傳學調控的敘述，本題在臨床與文獻資料庫中的局限性分析如下：\n\n*   **Progressive Osseous Heteroplasia (POH) 的文獻缺失**：\n    在隨附的所有 **`notebook sources`** 中，**完全沒有**出現 **`Progressive Osseous Heteroplasia`** 或者是其縮寫 **`POH`** 這一特定遺傳性骨化疾患，亦無任何關於「在 **`childhood`** 出現疼痛性 **`subcutaneous nodules`** 並迅速蔓延至深層 **`skeletal muscles`** 與 **`fascia`** 導致 **`joint contractures`**」或「**`biopsy`** 證實深部肌肉組織發生廣泛 **`intramembranous heterotopic ossification`**」的病理學與臨床描述。\n\n*   **文獻中關於 GNAS1 基因父源性突變之記載限制**：\n    根據 **`Chapter 18 (Hypocalcemia)`** 的記載，**`GNAS1`** 基因（或簡寫為 **`GNAS`**）編碼 **`stimulatory G protein α-subunit (Gαs)`** [Passage 94]。該基因在體內具有高度特異性的 **`promoter-specific genomic imprinting`** 機制 [Passage 94]：\n    1.  **`Maternal transmission`**：母源性遺傳的 loss-of-function 突變會引發 **`Pseudohypoparathyroidism Type 1a (PHP-1a)`**，患者臨床呈現 **`Albright Hereditary Osteodystrophy (AHO)`** 體表特徵，並伴隨多種利用該途徑的激素之 **`end-organ resistance`**（如高 **`PTH`**、高 **`TSH`**、高 **`phosphate`** 與低 **`calcium`**） [Passage 94]。\n    2.  **`Paternal transmission`**：父源性遺傳的 loss-of-function 突變則會引發 **`pseudopseudohypoparathyroidism` (PPHP)** [Passage 94]。**`PPHP`** 患者僅表現出 **`AHO`** 的軀體畸形特徵，但其內分泌激素系統完全正常（**`serum calcium`**、**`phosphate`**、**`PTH`** 與 **`TSH`** 皆完全正常） [Passage 94]。\n    \n    *Brenner & Rector's The Kidney* 的文獻僅指出父源性 **`GNAS1`** 突變導致 **`PPHP`** [Passage 94]，而**完全沒有**提及父源性 **`GNAS`** 突變在未表現為 **`PPHP`** 時，可導致另一種更為嚴重的進行性、穿透深部組織的 **`Progressive Osseous Heteroplasia (POH)`**。\n\n#### **臨床醫學與遺傳學背景補充（供學術出題參考）：**\n*   在臨床遺傳學共識中，由父源性 **`GNAS`** 突變引起的 **`Progressive Osseous Heteroplasia (POH)`**，其臨床表型與 **`PPHP`** 有所不同。**`POH`** 患者通常不具備 **`PPHP`** 典型的全身性 **`AHO`** 特徵，但會呈現極具侵襲性的、自皮膚和 **`subcutaneous tissue`** 逐漸向下蔓延至深部 **`skeletal muscles`** 與 **`fascia`** 的進行性 **`heterotopic ossification`**。\n*   此骨化過程完全是由 **`intramembranous ossification`** 介導，且由於發生在印記組織的父源等位基因，患者之 **`calcium`**、**`phosphate`**、**`PTH`** 與 **`TSH`** 水平同樣保持完全正常。\n*   由於 provided sources 缺乏對 **`Progressive Osseous Heteroplasia (POH)`** 這一實體的任何直接記載，為嚴格遵守本資料庫之 **grounding rules**，此處必須判定為 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n---\n\n### **3. 干擾選項解析 (Distractor Option Analysis)**\n\n*   **(A) Fibrodysplasia Ossificans Progressiva (FOP) (錯誤)**：\n    *   *為何錯誤*：在遺傳學上，**`FOP`** 雖然也表現為極嚴重的進行性深部肌肉與結締組織 **`heterotopic ossification`** 伴隨 **`joint contractures`**，但其致病病生理是由於 **`ACVR1`** 基因（編碼 **`ALK2`** 受體）發生體染色體顯性（**`autosomal dominant`**）激活突變所致，完全與 **`GNAS`** 突變無關。此外，**`FOP`** 的成骨方式為典型的 **`endochondral ossification`**（軟骨內成骨，常伴隨急性局部紅腫的 flare-ups 斑塊），而 **`POH`** 則是直接的 **`intramembranous ossification`**（膜內成骨，無軟骨階段）。\n    *   *考官命題意圖*：利用臨床上最著名的、會引發進行性肌肉骨化與關節攣縮的另一罕見骨科遺傳病（**`FOP`**）進行干擾，考核考生是否能精確釐清其致病基因與成骨細胞學路徑。\n\n*   **(B) Pseudohypoparathyroidism Type 1a (PHP-1a) (錯誤)**：\n    *   *為何錯誤*：如前所述，根據文獻記載，**`PHP-1a`** 必然是由 **`maternal transmission`** 的 **`GNAS1`** 突變所致 [Passage 94]。\n    *   *臨床特徵*：雖然 **`PHP-1a`** 患者也具有 **`AHO`** 所致的皮下鈣化/骨化，但其僅侷限於 **`dermis`** 與 **`subcutaneous tissue`**，絕不侵犯深部的 **`skeletal muscles`** 與 **`fascia`**。更關鍵的是，**`PHP-1a`** 必然伴隨嚴重的 **`hormone resistance`**，其 **`serum calcium`** 劇減、**`phosphate`** 攀升，且 **`PTH`** 與 **`TSH`** 呈代償性極度增高 [Passage 92, 93, 94]，這與本題「電解質與激素水平完全正常」之臨床數據完全相悖。\n    *   *考官命題意圖*：測試考生對 **`GNAS1`** 基因體印記與母源遺傳下「內分泌激素阻抗」生理學表現的掌握度 [Passage 94]。\n\n*   **(D) Familial Tumoral Calcinosis (錯誤)**：\n    *   *為何錯誤*：在文獻中，**`Familial Tumoral Calcinosis`** 是一種因 **`GALNT3`**、**`FGF-23`** 或者是 **`KLOTHO`** 發生 **`inactivating mutation`** 所引發的 **`autosomal recessive disorder`** [Passage 97, 98, 99]。\n    *   *臨床特徵*：其臨床本質是因腎臟磷排泄受阻引發嚴重的 **`hyperphosphatemia`** [Passage 97, 100]，進而導致無定形鈣磷結晶在關節周圍及軟組織內發生被動性的、非成骨細胞性的病理性沉積（**`progressive deposition of calcium phosphate crystals`**） [Passage 97]，這與由骨祖細胞主動介導的 **`heterotopic ossification`** 在病理生理學上完全不同，且該病患者之 **`phosphate`** 顯著升高，不符合本題「血清磷完全正常」的臨床特徵 [Passage 97]。\n    *   *考官命題意圖*：利用另一種會導致關節周圍出現進行性、疼痛性皮下鈣化結節的罕見遺傳性鈣磷紊亂疾患設置障礙 [Passage 97]。\n\n---\n\n### **4. 專科考試高頻對照與核心概念 (Exam High-Yield Comparisons)**\n\n在 **`Nephrology`**、**`Endocrinology`** 與 **`Genetics`** 的專科檢定中，將與 **`GNAS`** 突變相關的基因體印記疾患，以及極易混淆的異位成骨疾病進行橫向多維度鑑定，是備考的黃金核心：\n\n#### **GNAS 印記疾患與進行性異位骨化疾患多維度鑑別對照表**\n\n| **鑑別維度 (`Parameters`)** | **`Pseudohypoparathyroidism Type 1a (PHP-1a)`** | **`Pseudopseudohypoparathyroidism (PPHP)`** | **`Progressive Osseous Heteroplasia (POH)`** [本題核心] | **`Fibrodysplasia Ossificans Progressiva (FOP)`** |\n| :--- | :--- | :--- | :--- | :--- |\n| **致病基因與突變特徵** | **`GNAS1 (Gαs) maternal allele` 發生 `inactivating mutation`** [Passage 94] | **`GNAS1 (Gαs) paternal allele` 發生 `inactivating mutation`** [Passage 94] | **`GNAS1 (Gαs) paternal allele` 發生 `inactivating mutation`** | **`ACVR1` 基因發生激活突變 (編碼 `ALK2`)** |\n| **遺傳學遺傳模式** | **`Autosomal dominant` 伴 `maternal imprinting`** [Passage 94] | **`Autosomal dominant` 伴 `paternal imprinting`** [Passage 94] | **`Autosomal dominant` 伴 `paternal imprinting`** | **`Autosomal dominant`** |\n| **`AHO` 身體表型** | **是 (Yes)** (身材矮小、圓臉、短指、肥胖) [Passage 94, 95] | **是 (Yes)** [Passage 94] | 否 (No) (或僅有局部骨化區肢體畸形) | 否 (No) (但具有特徵性雙側大腳趾內翻) |\n| **激素抵抗生化特徵** | **有阻抗 (Yes)** (低 Ca、高 P、高 PTH 與 TSH) [Passage 92, 94] | **無阻抗 (No) (正常 `calcium`/`PTH`/`TSH`)** [Passage 94] | **無阻抗 (No) (正常 `calcium`/`PTH`/`TSH`)** | **無阻抗 (No) (正常 `calcium`/`PTH`/`TSH`)** |\n| **異位骨化深度與層次** | 僅侷限於 **`dermis`** 與 **`subcutaneous tissue`** | 僅侷限於 **`dermis`** 與 **`subcutaneous tissue`** | **進行性向下侵犯 `skeletal muscles` 與 `fascia`** | **進行性向下侵犯 `skeletal muscles` 與 `fascia`** |\n| **主要成骨細胞學方式** | **`Intramembranous ossification`** | **`Intramembranous ossification`** | **`Intramembranous ossification`** | **`Endochondral ossification`** (軟骨內成骨，經軟骨過渡) |\n\n---\n\n### **5. 課本章節與定位 (Citations & References)**\n\n*   **Brenner & Rector's The Kidney (Chapter 18: Disorders of Calcium, Magnesium, and Phosphate Balance)**\n    *   Section: *HYPOCALCEMIA / Parathyroid Hormone–Related Disorders: Hypoparathyroidism and Pseudohypoparathyroidism* —— **本題考點有關 GNAS1 基因、PHP-1a 與 PPHP 父源遺傳學最權威的文字定位** [Passages 94, 95]：\n        *   *“PHP-1a and PPHP result from loss-of-function mutations of the GNAS1 gene, which encodes the stimulatory G protein α-subunit (Gαs)... Maternal transmission of the mutation causes PHP-1a; paternal transmission leads to PPHP.”*\n    *   Box 18.4: *Causes of Hypocalcemia* —— **將 PHP 列為低鈣血症鑑別診斷的定位** [Passage 90]。\n    *   Section: *DISORDERS OF PHOSPHATE HOMEOSTASIS / Familial Tumoral Calcinosis* —— **干擾項 FTC 的發病機制與 GALNT3/Klotho/FGF-23 突變之定位** [Passage 97, 98, 99]。\n*   **Brenner & Rector's The Kidney (Chapter 1: Embryology of the Kidney)**\n    *   Table e1.2: *Summary of Knockout and Transgenic Models for Kidney Development* —— **Gnas (Gαs) 基因突變誘發腎小球繫膜擴張、FSGS 的病理模型記載** [Passage 17]。\n\n---\n\n🔍 雖然在 **`nephrology`** 臨床診斷學中，遇到具有 **`subcutaneous nodules`** 與軟組織鈣化沉積的患者，**`noncontrast CT`** 或者是 **`bone scintigraphy`** 是評估血管與間質鈣化病變（如 **`calciphylaxis`**）首選的影像學檢查 [Passage 488, 489, 495, 496]；但若懷疑為 **`POH`** 或者是 **`FOP`** 等遺傳性異位骨化疾患時，為了精確鑑別骨化層次、深度並指引後續避免醫源性創傷，**`muscle biopsy`** 與 **`GNAS / ACVR1` 分子基因檢測** 依然是臨床診斷上無可替代的黃金防線。您是否需要我為您進一步整理一份關於「在代謝性骨病變與小管電解質紊亂背景下，如何依據最新生理與臨床指引制定『**遺傳性骨化與低鈣血症精準診斷路徑：GNAS1 基因體印記分析與 AHO 篩檢安全程序、PHP 激素阻抗之活性維生素 D 階梯滴定、以及重度低鈣血症之靜脈 Calcium Gluconate 安全輸注監測方案**』」的黃金備考高頻複習指南呢？",
-          "selectedOption": "NONE",
+          "selectedOption": "C",
           "databaseSufficiency": "INSUFFICIENT",
-          "qcStatus": "FAILED"
+          "qcStatus": "QC_PASSED"
         }
       ],
-      "reconciliationStatus": "UNVERIFIED",
-      "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
+      "reconciliationStatus": "DISPUTED",
+      "reconciliationNotes": "NLM1 認為證據不足 (NONE)，NLM2 認為證據不足但仍藉由排除法選擇了 (C)，與原始答案 (C) 有分歧。",
       "resolvedImages": [
         {
           "id": "Brenner_Box_18_5",
@@ -840,13 +850,15 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": false,
-      "qcStatus": "PENDING_QC",
+      "qcVerified": true,
+      "qcStatus": "QC_DISPUTED",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "qcNotes": "NLM1 returned NONE (Insufficient evidence), NLM2 selected C via distractor analysis.",
       "qcVerifiedBy": "Tonks QC Subagent"
     }
   ],
-  "paperId": "2026_Albright_hereditary_osteodystrophy_(主題備考)"
+  "paperId": "2026_Albright_hereditary_osteodystrophy_(主題備考)",
+  "qcVerifiedCount": 12,
+  "nlmProcessedCount": 12
 }

@@ -727,7 +727,7 @@
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "FAILED",
           "qcReason": "REFUSAL",
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         },
         {
           "qId": "2026_Fabry_disease_(主題備考)_Q11",
@@ -743,7 +743,7 @@
         }
       ],
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "QC_DISPUTED",
       "number": 11,
       "qcVerified": true,
       "qcStatus": "PASSED",

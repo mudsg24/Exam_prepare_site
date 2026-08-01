@@ -1257,8 +1257,8 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Database sufficiency is insufficient to answer this question.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {

@@ -177,8 +177,8 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-08-01T04:11:28+08:00",
       "qcNotes": "無語言違規，選項比對一致。"
     },

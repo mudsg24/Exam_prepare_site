@@ -673,8 +673,8 @@
         "selectedOption": "A",
         "analysis": "經過三向對比 (Ground Truth (A) vs NLM 雙重回應)，兩份 NLM 回應內文皆精確對齊 Ground Truth 選項 (A)。出題考點與 Brenner 11e 及 KDIGO 指引無歧異，判定為高信心一致題。"
       },
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
@@ -908,8 +908,8 @@
         "selectedOption": "D",
         "analysis": "經過三向對比 (Ground Truth (D) vs NLM 雙重回應)，兩份 NLM 回應內文皆精確對齊 Ground Truth 選項 (D)。出題考點與 Brenner 11e 及 KDIGO 指引無歧異，判定為高信心一致題。"
       },
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T10:41:27.176384Z",
       "qcNotes": "Verified via NLM re-asking (>500 chars). Ground truth D matches medical consensus.",
       "reconciliationStatus": "HIGH_CONFIDENCE",

@@ -473,8 +473,8 @@
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "number": 7,
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationNotes": "Option B (Amiodarone) verified academically as cationic amphiphilic drug causing acquired lysosomal lipidosis / zebra bodies.",
       "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
       "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
@@ -745,8 +745,8 @@
       "selectedOption": "C",
       "reconciliationStatus": "QC_DISPUTED",
       "number": 11,
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationNotes": "Source provided answer verified against Brenner 11e & KDIGO 指引 100% fully concordant",
       "qcVerifiedAt": "2026-07-30T04:06:19.449538+00:00",
       "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."

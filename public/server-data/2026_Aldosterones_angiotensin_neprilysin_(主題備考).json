@@ -869,8 +869,8 @@
           "selectedOption": "NONE"
         }
       ],
-      "qcVerified": true,
-      "qcStatus": "DISCREPANCY_HIGH_CONFIDENCE",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "selectedOption": "B",
       "qcNotes": "雙重 NLM 對答均因資料庫缺乏 UK HARP-III 試驗數據而回傳 INSUFFICIENT_DATABASE_EVIDENCE，雙重對答一致判定為 NONE。因 NLM 兩筆對答高度一致但與原始解答 (B) 不符，標註為 DISCREPANCY_HIGH_CONFIDENCE。",

@@ -386,8 +386,8 @@
           "qcStatus": "FAILED"
         }
       ],
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Dual NotebookLM responses unanimously agree on Option NONE.",
       "qcVerifiedAt": "2026-07-31T15:36:42.894880Z",
@@ -604,8 +604,8 @@
           "selectedOption": "B"
         }
       ],
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
       "qcVerifiedAt": "2026-07-30T18:49:19.255Z",

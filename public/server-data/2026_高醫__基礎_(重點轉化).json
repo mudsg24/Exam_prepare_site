@@ -1096,7 +1096,7 @@
       "sourceProvidedAnswer": "B",
       "sourceExplanation": "UNOS 的定義，ECD 的條件包括：供體年齡 $\\ge 60$ years，或年齡 50–59 years 且滿足以下三項條件中的兩項：(1) history of hypertension，(2) terminal serum creatinine $> 1.5$ mg/dL，(3)CVA。本個案中，供體年齡為 57-year-old，terminal serum creatinine 為 1.8 mg/dL（符合一項條件），且死因為 myocardial infarction（不符合 CVA 條件）。因此，必須具備 history of hypertension 才能被歸類為 ECD。然而，由於提供的文獻未包含 UNOS 的精確劃分標準，本題標記為證據不足。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-2)",
@@ -1115,7 +1115,7 @@
         }
       ],
       "number": 24,
-      "qcVerified": true,
+      "qcVerified": false,
       "sourceAnswerStatus": "synthetic_tonks",
       "selectedOption": "B",
       "databaseSufficiency": "INSUFFICIENT",
@@ -1148,7 +1148,7 @@
       "sourceProvidedAnswer": "C",
       "sourceExplanation": "提供的文獻中包含大量關於 kidney transplantation、delayed graft function 與 acute tubular necrosis 的資訊，fWIT 起點的具體 hemodynamic 或respiratory thresholds。由於缺乏關鍵定義數據，本題標記為資料庫證據不足，無法判定正確選項。",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -1170,7 +1170,7 @@
         }
       ],
       "number": 25,
-      "qcVerified": true,
+      "qcVerified": false,
       "sourceAnswerStatus": "synthetic_tonks",
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
@@ -1203,7 +1203,7 @@
       "sourceProvidedAnswer": "D",
       "sourceExplanation": "DCD 中 ischemia-reperfusion injury 與 warm ischemia time 的分期，明確定義了 donor warm ischemia time、CIT 以及 graft warm ischemia time，並分類了 controlled DCD 與 uncontrolled DCD 的情境。然而，文獻中並未記載各個 solid organ (liver, pancreas, lungs, kidneys)fWIT 的具體最大耐受分鐘數。因此，基於資料庫證據不足，本題無法判定何者為正確解答。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_DISPUTED_RESOLVED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -1225,7 +1225,7 @@
         }
       ],
       "number": 26,
-      "qcVerified": true,
+      "qcVerified": false,
       "sourceAnswerStatus": "synthetic_tonks",
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",

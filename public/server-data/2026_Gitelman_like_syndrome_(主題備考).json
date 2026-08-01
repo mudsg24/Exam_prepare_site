@@ -313,8 +313,8 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "C",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-07-31T13:18:00Z",
       "qcNotes": "Stage 2 Subagent QC Verified - 100% Pure English medical terms and dual NLM responses validated."
     },
@@ -417,8 +417,8 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "selectedOption": "A",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-07-31T13:18:00Z",
       "qcNotes": "Stage 2 Subagent QC Verified - 100% Pure English medical terms and dual NLM responses validated."
     },

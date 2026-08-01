@@ -82,30 +82,1022 @@
     "existingNlmCount": 2
   },
   {
-    "q_id": "17",
-    "paperId": "2026_Hearing_loss_in_nephrology_(主題備考)",
-    "paperTitle": "2026 腎臟病學與聽力障礙 (Hearing Loss in Nephrology): 遺傳基因病理、腎小管通道病變與藥物耳毒性",
-    "stem": "To minimize the risk of ototoxicity and nephrotoxicity in a patient receiving high-dose cisplatin therapy, robust intravenous hydration is initiated. Which of the following statements best describes the nature of cisplatin-induced hearing loss?",
+    "q_id": "2026_Malakoplakia_Q16",
+    "paperId": "2026 Malakoplakia",
+    "paperTitle": "2026 Malakoplakia",
+    "stem": "A kidney transplant recipient diagnosed with allograft Malakoplakia is started on oral Ciprofloxacin and Bethanechol. Which modification in maintenance immunosuppressive therapy is critical to support clinical resolution of the lesion?",
     "options": [
       {
         "id": "A",
-        "text": "It is typically irreversible, bilateral, and affects high frequencies first"
+        "text": "Immediate pulse administration of High-Dose Methylprednisolone"
       },
       {
         "id": "B",
-        "text": "It is entirely reversible upon discontinuation of the drug"
+        "text": "Addition of Antithymocyte Globulin (ATG) infusion"
       },
       {
         "id": "C",
-        "text": "It primarily causes conductive hearing loss due to middle ear effusion"
+        "text": "Switching from Tacrolimus to High-Dose Belatacept"
       },
       {
         "id": "D",
-        "text": "It predominantly affects low frequencies and is usually unilateral"
+        "text": "Reduction in the dosage of Calcineurin Inhibitor and/or Antimetabolite agents"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q01",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "Which molecular signaling pathway provides the primary inductive signal from the metanephric mesenchyme to direct ureteric bud outgrowth and branching morphogenesis during early kidney development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GDNF binding to the RET/GFRalpha1 receptor complex"
+      },
+      {
+        "id": "B",
+        "text": "Renin binding to the Prorenin Receptor"
+      },
+      {
+        "id": "C",
+        "text": "Vasopressin binding to the V2 Receptor"
+      },
+      {
+        "id": "D",
+        "text": "Endothelin-1 binding to the ETB Receptor"
       }
     ],
     "chapter": "",
     "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q02",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A 12-year-old child presents with progressive chronic kidney disease and optic nerve coloboma. Genetic testing reveals a heterozygous loss-of-function mutation in PAX2. Which of the following is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Branchio-Oto-Renal (BOR) Syndrome"
+      },
+      {
+        "id": "B",
+        "text": "Renal Coloboma Syndrome (Papillorenal Syndrome)"
+      },
+      {
+        "id": "C",
+        "text": "Renal Cysts and Diabetes (RCAD) Syndrome"
+      },
+      {
+        "id": "D",
+        "text": "Townes-Brocks Syndrome"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q03",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A 16-year-old female presents with hypomagnesemia, young-onset diabetes mellitus (MODY5), early-onset gout, and renal ultrasound showing bilateral small kidneys with cortical microcysts. Mutation in which gene is responsible for this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "EYA1"
+      },
+      {
+        "id": "B",
+        "text": "PAX2"
+      },
+      {
+        "id": "C",
+        "text": "HNF1B (TCF2)"
+      },
+      {
+        "id": "D",
+        "text": "GATA3"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q04",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A patient with branchial cleft fistulas, preauricular pits, sensorineural hearing loss, and unilateral renal agenesis is diagnosed with Branchio-Oto-Renal (BOR) Syndrome. Which gene mutation is most frequently associated with this autosomal dominant disorder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WT1"
+      },
+      {
+        "id": "B",
+        "text": "PKD1"
+      },
+      {
+        "id": "C",
+        "text": "NPHS2"
+      },
+      {
+        "id": "D",
+        "text": "EYA1"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q05",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A newborn delivered at 34 weeks displays pulmonary hypoplasia, compressed facies (low-set ears, flattened nose), and limb positional deformities. Autopsy reveals bilateral renal agenesis. What is the primary pathogenetic cascade leading to these extrarenal deformities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In utero Oligohydramnios leading to mechanical uterine compression of the fetus"
+      },
+      {
+        "id": "B",
+        "text": "Direct systemic toxic effect of unexcreted uremic toxins"
+      },
+      {
+        "id": "C",
+        "text": "Excess maternal progesterone stimulation during organogenesis"
+      },
+      {
+        "id": "D",
+        "text": "Congenital vascular malformation of the umbilical arteries"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q06",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "Antenatal ultrasound detects a non-functioning unilateral kidney composed of multiple large non-communicating cysts separated by dysplastic stroma, with complete absence of normal renal parenchyma. What is the recommended long-term management strategy for this Multicystic Dysplastic Kidney (MCDK)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediate neonatal surgical nephrectomy to prevent malignant transformation"
+      },
+      {
+        "id": "B",
+        "text": "Conservative serial ultrasound observation for involution and screening the contralateral kidney for anomalies"
+      },
+      {
+        "id": "C",
+        "text": "Prophylactic bilateral ureteral reimplantation"
+      },
+      {
+        "id": "D",
+        "text": "High-dose steroid pulse therapy to halt cyst expansion"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q08",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "Which of the following statements regarding Ectopic Kidney and Crossed Fused Ectopia is CORRECT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pelvic kidneys typically have an elongated normal ureter that becomes kinked"
+      },
+      {
+        "id": "B",
+        "text": "Horseshoe kidney is completely free of any increased risk for Nephrolithiasis or UPJO"
+      },
+      {
+        "id": "C",
+        "text": "Renal rotation during embryonic ascent normally causes the renal pelvis to face posteriorly"
+      },
+      {
+        "id": "D",
+        "text": "In Crossed Fused Ectopia, the crossed ectopic kidney lies on the opposite side of its ureteral insertion into the bladder"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q09",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "According to the Weigert-Meyer Law in a complete Duplex Collecting System, what are the typical anatomical insertions and clinical complications of the Upper Pole and Lower Pole ureters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Upper pole ureter inserts medially/inferiorly with Ureterocele/Obstruction; Lower pole ureter inserts laterally/superiorly with Vesicoureteral Reflux (VUR)"
+      },
+      {
+        "id": "B",
+        "text": "Upper pole ureter inserts laterally with VUR; Lower pole ureter inserts medially with Ureterocele"
+      },
+      {
+        "id": "C",
+        "text": "Upper pole ureter has a short submucosal tunnel; Lower pole ureter is prone to ectopic ligation"
+      },
+      {
+        "id": "D",
+        "text": "Both ureters insert into a single orifice with equal obstruction risk"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q10",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A 2-year-old girl evaluated for febrile urinary tract infection undergoes Voiding Cystourethrogram (VCUG), which demonstrates reflux of contrast into a moderately dilated ureter and renal pelvis with blunting of the renal calyces. How is this Vesicoureteral Reflux (VUR) graded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grade I"
+      },
+      {
+        "id": "B",
+        "text": "Grade III"
+      },
+      {
+        "id": "C",
+        "text": "Grade II"
+      },
+      {
+        "id": "D",
+        "text": "Grade V"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q11",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "Which of the following is considered an indication for continuous prophylactic antibiotic therapy (CAP) or surgical intervention in children with Vesicoureteral Reflux (VUR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asymptomatic Grade I VUR in a 6-year-old child"
+      },
+      {
+        "id": "B",
+        "text": "Isolated non-febrile cystitis in an adult female"
+      },
+      {
+        "id": "C",
+        "text": "Recurrent febrile Urinary Tract Infections (fUTIs) despite observation or high-grade VUR (Grade IV-V) with breakthrough infections"
+      },
+      {
+        "id": "D",
+        "text": "Normal renal ultrasound without reflux on VCUG"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q13",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "What is the initial immediate management step for a male infant diagnosed with Posterior Urethral Valves (PUV) presenting with acute urinary retention and electrolyte derangements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediate Urinary Decompression using a feeding tube or transurethral catheter, alongside electrolyte stabilization"
+      },
+      {
+        "id": "B",
+        "text": "Emergency open transabdominal valve resection"
+      },
+      {
+        "id": "C",
+        "text": "High-dose intravenous Furosemide administration"
+      },
+      {
+        "id": "D",
+        "text": "Immediate bilateral nephrectomy"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q17",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A young adult with a history of unilateral renal agenesis and congenital solitary functioning kidney is evaluated for routine checkup. Urinalysis shows trace proteinuria and GFR is 65 mL/min/1.73m2. What is the primary pathophysiological driver of long-term CKD progression in a single functioning kidney?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compensatory Glomerular Hyperfiltration leading to intraglomerular hypertension and secondary FSGS"
+      },
+      {
+        "id": "B",
+        "text": "Immune complex deposition in the subendothelial space"
+      },
+      {
+        "id": "C",
+        "text": "Amyloid fibril accumulation in the interstitium"
+      },
+      {
+        "id": "D",
+        "text": "Recurrent IgA vasculitis"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q18",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A child presents with imperforate anus, triphalangeal thumbs, dysmorphic ears, and bilateral renal hypoplasia. Genetic testing identifies a mutation in the SALL1 gene. What syndrome does this clinical picture represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alagille Syndrome"
+      },
+      {
+        "id": "B",
+        "text": "Townes-Brocks Syndrome"
+      },
+      {
+        "id": "C",
+        "text": "Nail-Patella Syndrome"
+      },
+      {
+        "id": "D",
+        "text": "Fabry Disease"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q19",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A patient evaluated for hypocalcemia and tetany is found to have Primary Hypoparathyroidism, Sensorineural Deafness, and bilateral Renal Dysplasia (HDR Syndrome). Mutation in which gene causes HDR Syndrome?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PAX2"
+      },
+      {
+        "id": "B",
+        "text": "WT1"
+      },
+      {
+        "id": "C",
+        "text": "GATA3"
+      },
+      {
+        "id": "D",
+        "text": "TCF2"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "cakut_q20",
+    "paperId": "2026_CAKUT_(主題備考)",
+    "paperTitle": "2026 Congenital Anomalies of the Kidney and Urinary Tract (CAKUT) 臨床發育病理、基因突變與處置",
+    "stem": "A 22-year-old male with a history of severe uncorrected Vesicoureteral Reflux in childhood presents with hypertension and heavy proteinuria. Renal biopsy demonstrates focal segmental glomerulosclerosis with extensive tubulointerstitial scarring. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acute Interstitial Nephritis"
+      },
+      {
+        "id": "B",
+        "text": "Lupus Nephritis Class IV"
+      },
+      {
+        "id": "C",
+        "text": "Membranous Nephropathy"
+      },
+      {
+        "id": "D",
+        "text": "Reflux Nephropathy"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q1",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 1,
+    "stem": "Which of the following embryonic structures gives rise to the distal convoluted tubule, proximal convoluted tubule, and Bowman capsule during human renal development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metanephric mesenchyme"
+      },
+      {
+        "id": "B",
+        "text": "Wolffian duct"
+      },
+      {
+        "id": "C",
+        "text": "Ureteric bud"
+      },
+      {
+        "id": "D",
+        "text": "Pronephric duct"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q2",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 2,
+    "stem": "Key reciprocal inductive signaling between the metanephric mesenchyme and ureteric bud is primarily mediated by which growth factor and receptor tyrosine kinase pair?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VEGF-A and VEGFR2"
+      },
+      {
+        "id": "B",
+        "text": "GDNF and RET"
+      },
+      {
+        "id": "C",
+        "text": "FGF8 and FGFR1"
+      },
+      {
+        "id": "D",
+        "text": "WNT4 and Frizzled-4"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q3",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 3,
+    "stem": "Loss-of-function mutations in Sprouty1 (Spry1) lead to which of the following developmental phenotypes in mice and humans?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete renal agenesis due to absent ureteric bud initiation"
+      },
+      {
+        "id": "B",
+        "text": "Isolated podocyte foot process effacement without structural tract anomalies"
+      },
+      {
+        "id": "C",
+        "text": "Supernumerary ureteric buds leading to ectopic ureters and duplex kidneys"
+      },
+      {
+        "id": "D",
+        "text": "Premature involution of the metanephric mesenchyme"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q4",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 4,
+    "stem": "During metanephric development, the transition of condensed nephron progenitors from pretubular aggregates into epithelial renal vesicles (Mesenchymal-to-Epithelial Transition, MET) is critically dependent on which signaling molecule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WNT4"
+      },
+      {
+        "id": "B",
+        "text": "Renin"
+      },
+      {
+        "id": "C",
+        "text": "Angiotensin II"
+      },
+      {
+        "id": "D",
+        "text": "Endothelin-1"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q5",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 5,
+    "stem": "A newborn presents with bilateral renal agenesis, intrauterine oligohydramnios, severe pulmonary hypoplasia, low-set ears, and clubbed feet. This constellation of physical features is designated as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eagle-Barrett syndrome"
+      },
+      {
+        "id": "B",
+        "text": "Potter sequence"
+      },
+      {
+        "id": "C",
+        "text": "Denys-Drash syndrome"
+      },
+      {
+        "id": "D",
+        "text": "Alport syndrome"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q6",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 6,
+    "stem": "A patient presenting with optic nerve coloboma, sensorineural hearing loss, and severe renal hypodysplasia is found to harbor a heterozygous mutation in which transcription factor gene?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HNF1B"
+      },
+      {
+        "id": "B",
+        "text": "EYA1"
+      },
+      {
+        "id": "C",
+        "text": "SALL1"
+      },
+      {
+        "id": "D",
+        "text": "PAX2"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q7",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 7,
+    "stem": "Which genetic syndrome is characterized by the combination of maturity-onset diabetes of the young (MODY5), hypomagnesemia, hyperuricemia with early-onset gout, and multicystic dysplastic kidney (MCDK)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Branchio-Oto-Renal syndrome (EYA1 mutation)"
+      },
+      {
+        "id": "B",
+        "text": "Renal Cysts and Diabetes syndrome (HNF1B mutation)"
+      },
+      {
+        "id": "C",
+        "text": "Townes-Brocks syndrome (SALL1 mutation)"
+      },
+      {
+        "id": "D",
+        "text": "Gitelman syndrome (SLC12A3 mutation)"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q8",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 8,
+    "stem": "Histopathological examination of a non-functioning multicystic dysplastic kidney (MCDK) typically reveals which of the following pathognomonic features?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diffuse crescentic glomerulonephritis with fibrinoid necrosis"
+      },
+      {
+        "id": "B",
+        "text": "Extensive amyloid deposition in mesangial matrix"
+      },
+      {
+        "id": "C",
+        "text": "Primitive ductules surrounded by fibromuscular collars and dysplastic cartilage"
+      },
+      {
+        "id": "D",
+        "text": "Diffuse non-caseating interstitial granulomas"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q9",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 9,
+    "stem": "According to the Weigert-Meyer law governing complete duplex collecting systems, how do the upper-pole and lower-pole ureters insert into the urinary bladder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Upper pole inserts ectopically low/medial with obstruction; lower pole inserts laterally with vesicoureteral reflux"
+      },
+      {
+        "id": "B",
+        "text": "Upper pole inserts laterally with vesicoureteral reflux; lower pole inserts ectopically low/medial with obstruction"
+      },
+      {
+        "id": "C",
+        "text": "Both upper and lower pole ureters insert into a single common ureterocele at the trigone"
+      },
+      {
+        "id": "D",
+        "text": "Upper pole inserts into the ipsilateral renal pelvis; lower pole drains directly into the rectum"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q10",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 10,
+    "stem": "During normal embryonic ascent from the pelvis to the lumbar region, a horseshoe kidney becomes trapped beneath which major vascular structure at the L3 vertebral level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celiac axis"
+      },
+      {
+        "id": "B",
+        "text": "Superior mesenteric artery"
+      },
+      {
+        "id": "C",
+        "text": "Inferior mesenteric artery"
+      },
+      {
+        "id": "D",
+        "text": "Right renal artery"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q11",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 11,
+    "stem": "A 5-year-old child with recurrent pyelonephritis undergoes voiding cystourethrogram (VCUG) demonstrating retrograde flow of contrast into a dilated ureter and renal pelvis with calyceal blunting. This corresponds to which grade of Vesicoureteral Reflux (VUR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grade I"
+      },
+      {
+        "id": "B",
+        "text": "Grade II"
+      },
+      {
+        "id": "C",
+        "text": "Grade III"
+      },
+      {
+        "id": "D",
+        "text": "Grade IV"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q12",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 12,
+    "stem": "Which vascular endothelial growth factor, secreted paracrine-wise by developing podocytes, plays an indispensable role in recruiting endothelial progenitors to form fenestrated glomerular capillaries?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VEGF-A"
+      },
+      {
+        "id": "B",
+        "text": "PDGF-BB"
+      },
+      {
+        "id": "C",
+        "text": "TGF-beta1"
+      },
+      {
+        "id": "D",
+        "text": "FGF2"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q13",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 13,
+    "stem": "Fraser syndrome, characterized by cryptophthalmos, syndactyly, and bilateral renal agenesis, is caused by mutations in FRAS1/FREM1/FREM2 which disrupt the basement membrane interaction between which ligand and integrin receptor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laminin-521 and alpha-3 beta-1 integrin"
+      },
+      {
+        "id": "B",
+        "text": "Fibronectin and alpha-v beta-3 integrin"
+      },
+      {
+        "id": "C",
+        "text": "Nephronectin and alpha-8 beta-1 integrin"
+      },
+      {
+        "id": "D",
+        "text": "Collagen IV and alpha-1 beta-1 integrin"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q14",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 14,
+    "stem": "Branchio-Oto-Renal (BOR) syndrome, an autosomal dominant disorder presenting with branchial cleft fistulae, preauricular pits, hearing loss, and CAKUT, is most frequently caused by mutations in which gene?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RET"
+      },
+      {
+        "id": "B",
+        "text": "EYA1"
+      },
+      {
+        "id": "C",
+        "text": "WT1"
+      },
+      {
+        "id": "D",
+        "text": "NPHS1"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q15",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 15,
+    "stem": "In renal vascular embryology, the development of ascending vasa recta bundles in the outer renal medulla specifically relies on signaling through which receptor tyrosine kinase pathway?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Erythropoietin and EPOR"
+      },
+      {
+        "id": "B",
+        "text": "Notch1 and Jagged1"
+      },
+      {
+        "id": "C",
+        "text": "Wnt3a and LRP6"
+      },
+      {
+        "id": "D",
+        "text": "Angiopoietin-1/2 and Tie2 (Tek)"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q16",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 16,
+    "stem": "Which key transcription factor expressed in the cap mesenchyme acts as a master regulator to maintain the multipotent self-renewing nephron progenitor cell pool during nephrogenesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SIX2"
+      },
+      {
+        "id": "B",
+        "text": "REN"
+      },
+      {
+        "id": "C",
+        "text": "AQP2"
+      },
+      {
+        "id": "D",
+        "text": "UMOD"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q17",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 17,
+    "stem": "What is the primary anatomical mechanism predisposing patients with a horseshoe kidney to Ureteropelvic Junction Obstruction (UPJO) and nephrolithiasis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ectopic insertion of ureters into the seminal vesicles"
+      },
+      {
+        "id": "B",
+        "text": "Aplasia of the renal papillae preventing urine concentration"
+      },
+      {
+        "id": "C",
+        "text": "High insertion of ureters over the fused renal isthmus causing urinary stasis"
+      },
+      {
+        "id": "D",
+        "text": "Complete absence of smooth muscle layer in the renal pelvis"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q18",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 18,
+    "stem": "Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD) caused by UMOD or MUC1 mutations typically presents in young adults with which clinical manifestations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Massive nephrotic-range proteinuria and early rapid edema"
+      },
+      {
+        "id": "B",
+        "text": "Progressive tubulointerstitial fibrosis, hyperuricemia/gout, and bland urinalysis without heavy proteinuria"
+      },
+      {
+        "id": "C",
+        "text": "Severe gross hematuria with acute nephritic syndrome"
+      },
+      {
+        "id": "D",
+        "text": "Unilateral multicystic renal enlargement at birth"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q19",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 19,
+    "stem": "During human embryogenesis of the urogenital sinus under testosterone stimulation, the persistent Wolffian (mesonephric) duct gives rise to which adult male anatomical structures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fallopian tubes and uterus"
+      },
+      {
+        "id": "B",
+        "text": "Prostatic utricle and appendix testis"
+      },
+      {
+        "id": "C",
+        "text": "Suspensory ligament of ovaries"
+      },
+      {
+        "id": "D",
+        "text": "Vas deferens, epididymis, and seminal vesicles"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Embryology_of_the_Kidney_(主題備考)_Q20",
+    "paperId": "2026_Embryology_of_the_Kidney_(主題備考)",
+    "paperTitle": "2026 Embryology of the Kidney",
+    "number": 20,
+    "stem": "Which transcriptional factor expressed by Foxd1-positive cortical stroma suppresses Decorin (Dcn), relieving Dcn-mediated BMP7 inhibition to promote cap mesenchyme epithelialization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retinoic Acid"
+      },
+      {
+        "id": "B",
+        "text": "Aldh1a2"
+      },
+      {
+        "id": "C",
+        "text": "BMP4"
+      },
+      {
+        "id": "D",
+        "text": "Foxd1"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "D",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "q_14",
+    "paperId": "2026_Hypoxia_inducible_factor_(主題備考)",
+    "paperTitle": "2026 Hypoxia-Inducible Factor (HIF) 氧氣感應機轉與臨床實戰模擬題庫",
+    "stem": "Which HIF isoform paralog is recognized as the primary oncogenic driver of tumor proliferation, angiogenesis, and VEGF/PDGF overexpression in ccRCC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HIF-1alpha"
+      },
+      {
+        "id": "B",
+        "text": "HIF-2alpha"
+      },
+      {
+        "id": "C",
+        "text": "HIF-3alpha"
+      },
+      {
+        "id": "D",
+        "text": "HIF-1beta (ARNT)"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
     "existingNlmCount": 2
   },
   {
@@ -133,6 +1125,142 @@
     ],
     "chapter": "",
     "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "mcd_q11",
+    "paperId": "2026_Minimal_change_disease_(主題備考)",
+    "paperTitle": "2026 Minimal Change Disease (微小病變腎病) 分子機轉、病理特徵、次發性原因與 KDIGO 指引實戰",
+    "stem": "A 5-year-old child presents with periorbital edema and anasarca following a viral upper respiratory infection. Urinalysis reveals 4+ proteinuria, negative blood, and no casts. The patient is presumed to have Minimal Change Disease and is started on high-dose oral prednisone therapy. However, 8 weeks later, the patient remains heavily nephrotic without any reduction in proteinuria. A kidney biopsy is performed. Which of the following is the most important histopathologic evaluation to prevent the misdiagnosis of Minimal Change Disease in this steroid-resistant patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Staining for circulating anti-PLA2R antibodies by indirect immunofluorescence"
+      },
+      {
+        "id": "B",
+        "text": "Adequate sampling of the juxtamedullary glomeruli to exclude Focal Segmental Glomerulosclerosis"
+      },
+      {
+        "id": "C",
+        "text": "Electron microscopy for the identification of subendothelial electron-dense deposits"
+      },
+      {
+        "id": "D",
+        "text": "Assessment of C3 dominant deposition in the mesangium to rule out C3 Glomerulopathy"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "B",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "mcd_q12",
+    "paperId": "2026_Minimal_change_disease_(主題備考)",
+    "paperTitle": "2026 Minimal Change Disease (微小病變腎病) 分子機轉、病理特徵、次發性原因與 KDIGO 指引實戰",
+    "stem": "A 32-year-old male with recently diagnosed Minimal Change Disease presents with left flank pain, macroscopic hematuria, and a sudden rise in serum creatinine from 0.9 mg/dL to 2.1 mg/dL. He has been taking high-dose prednisone for the past 2 weeks but remains heavily nephrotic (serum albumin 1.6 g/dL, 24-hour urine protein 12 g/day). An urgent Doppler ultrasound of the kidneys is performed. Which of the following mechanisms is the primary driver of this patient's acute vascular complication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Steroid-induced hypercoagulability and endothelial activation in the renal microvasculature"
+      },
+      {
+        "id": "B",
+        "text": "Hypovolemia-induced severe reduction in renal plasma flow causing ischemic tubular necrosis"
+      },
+      {
+        "id": "C",
+        "text": "Urinary loss of Antithrombin III and hepatic overproduction of clotting factors leading to Renal Vein Thrombosis"
+      },
+      {
+        "id": "D",
+        "text": "Autoantibody-mediated activation of the complement cascade causing thrombotic microangiopathy"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "mcd_q13",
+    "paperId": "2026_Minimal_change_disease_(主題備考)",
+    "paperTitle": "2026 Minimal Change Disease (微小病變腎病) 分子機轉、病理特徵、次發性原因與 KDIGO 指引實戰",
+    "stem": "A 25-year-old female with steroid-dependent Minimal Change Disease is planning to become pregnant. She has been in remission for 6 months on a maintenance regimen of Mycophenolate Mofetil (MMF) 1 g twice daily. She is currently 6 weeks pregnant. What is the most appropriate management regarding her immunosuppressive therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continue Mycophenolate Mofetil at the current dose throughout pregnancy to prevent relapse"
+      },
+      {
+        "id": "B",
+        "text": "Switch Mycophenolate Mofetil to Cyclophosphamide to maintain remission"
+      },
+      {
+        "id": "C",
+        "text": "Discontinue Mycophenolate Mofetil immediately and initiate a Calcineurin Inhibitor (e.g., Tacrolimus) or Azathioprine"
+      },
+      {
+        "id": "D",
+        "text": "Taper Mycophenolate Mofetil over 3 months and initiate lifelong Rituximab infusions"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "mcd_q14",
+    "paperId": "2026_Minimal_change_disease_(主題備考)",
+    "paperTitle": "2026 Minimal Change Disease (微小病變腎病) 分子機轉、病理特徵、次發性原因與 KDIGO 指引實戰",
+    "stem": "Which of the following cellular or molecular events is considered the primary initiating mechanism in the pathogenesis of idiopathic Minimal Change Disease?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deposition of circulating immune complexes in the subepithelial space"
+      },
+      {
+        "id": "B",
+        "text": "Direct cytopathic viral infection of glomerular endothelial cells"
+      },
+      {
+        "id": "C",
+        "text": "T-lymphocyte dysfunction leading to the production of a circulating podocyte permeability factor"
+      },
+      {
+        "id": "D",
+        "text": "Genetic mutation in the COL4A5 gene causing defective type IV collagen synthesis"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_Peritonitis_Q20",
+    "paperId": "2026_Peritonitis_(主題備考)",
+    "paperTitle": "2026 Peritonitis (腹膜炎 / PD Peritonitis / Encapsulating Peritoneal Sclerosis) 專科甄試主題練習題庫",
+    "number": 20,
+    "stem": "In patients with culture-negative peritonitis who show no clinical response after 48-72 hours of empiric IP Cefazolin and Ceftazidime, which of the following atypical pathogens or conditions should be specifically considered?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fastidious organisms, Mycobacteria, Fungi, or IP Urokinase for catheter biofilm"
+      },
+      {
+        "id": "B",
+        "text": "Cytomegalovirus colitis"
+      },
+      {
+        "id": "C",
+        "text": "Hyperkalemia-induced bowel paralysis"
+      },
+      {
+        "id": "D",
+        "text": "Renal vein thrombosis"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
     "existingNlmCount": 2
   },
   {
@@ -164,6 +1292,146 @@
     "existingNlmCount": 2
   },
   {
+    "q_id": "2026_SIADH_Q16",
+    "paperId": "2026_Syndrome_of_Inappropriate_Antidiuretic_Hormone_Secretion_(主題備考)",
+    "paperTitle": "2026 Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) 分子水通道機制、臨床診斷標準、鑑別診斷與水鹽調控處置",
+    "number": 16,
+    "stem": "Which of the following primary pulmonary conditions is a well-established cause of SIADH leading to non-osmotic vasopressin release?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bacterial Pneumonia and Pulmonary Tuberculosis"
+      },
+      {
+        "id": "B",
+        "text": "Simple Pneumothorax without tension"
+      },
+      {
+        "id": "C",
+        "text": "Mild Allergic Asthma"
+      },
+      {
+        "id": "D",
+        "text": "Idiopathic Pulmonary Fibrosis without hypoxia"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_SIADH_Q17",
+    "paperId": "2026_Syndrome_of_Inappropriate_Antidiuretic_Hormone_Secretion_(主題備考)",
+    "paperTitle": "2026 Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) 分子水通道機制、臨床診斷標準、鑑別診斷與水鹽調控處置",
+    "number": 17,
+    "stem": "Why does combining oral Sodium Chloride tablets with a Loop Diuretic (such as Furosemide) help correct hyponatremia in SIADH patients?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Furosemide disrupts the medullary osmotic gradient and impairs urinary concentrating ability while salt tabs supply solute"
+      },
+      {
+        "id": "B",
+        "text": "Furosemide stimulates V2 receptors to enhance solute reabsorption"
+      },
+      {
+        "id": "C",
+        "text": "Furosemide decreases urinary sodium excretion while salt tabs induce free water absorption"
+      },
+      {
+        "id": "D",
+        "text": "Furosemide inhibits AVP release directly from the posterior pituitary gland"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_SIADH_Q18",
+    "paperId": "2026_Syndrome_of_Inappropriate_Antidiuretic_Hormone_Secretion_(主題備考)",
+    "paperTitle": "2026 Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) 分子水通道機制、臨床診斷標準、鑑別診斷與水鹽調控處置",
+    "number": 18,
+    "stem": "What key safety warning is associated with the clinical use of Tolvaptan, prompting the US FDA to restrict its continuous duration of use to a maximum of 30 days?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Potential for severe Hepatotoxicity and liver injury"
+      },
+      {
+        "id": "B",
+        "text": "High incidence of acute pulmonary fibrosis"
+      },
+      {
+        "id": "C",
+        "text": "Irreversible nephrocalcinosis and nephrolithiasis"
+      },
+      {
+        "id": "D",
+        "text": "Severe hypercalcemia and metabolic alkalosis"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_SIADH_Q19",
+    "paperId": "2026_Syndrome_of_Inappropriate_Antidiuretic_Hormone_Secretion_(主題備考)",
+    "paperTitle": "2026 Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) 分子水通道機制、臨床診斷標準、鑑別診斷與水鹽調控處置",
+    "number": 19,
+    "stem": "A 68-year-old male presenting with SIADH has a baseline urine osmolality of 750 mOsm/kg H2O. Which of the following lab findings is most consistent with the expected renal response in SIADH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Urine Sodium > 30 mEq/L and Serum Osmolality < 275 mOsm/kg H2O"
+      },
+      {
+        "id": "B",
+        "text": "Urine Sodium < 10 mEq/L and Serum Osmolality > 295 mOsm/kg H2O"
+      },
+      {
+        "id": "C",
+        "text": "Fractional Excretion of Sodium (FE Na) < 0.1% with Serum Uric Acid > 9.0 mg/dL"
+      },
+      {
+        "id": "D",
+        "text": "Urine Osmolality < 80 mOsm/kg H2O during fluid restriction"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_SIADH_Q20",
+    "paperId": "2026_Syndrome_of_Inappropriate_Antidiuretic_Hormone_Secretion_(主題備考)",
+    "paperTitle": "2026 Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) 分子水通道機制、臨床診斷標準、鑑別診斷與水鹽調控處置",
+    "number": 20,
+    "stem": "In the pathological development of Osmotic Demyelination Syndrome (ODS) triggered by overly rapid correction of severe hyponatremia, which central nervous system cell type suffers acute shrinkage and apoptosis due to loss of intracellular organic osmolytes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Astrocytes and Oligodendrocytes in the central pons"
+      },
+      {
+        "id": "B",
+        "text": "Purkinje cells in the cerebellar cortex"
+      },
+      {
+        "id": "C",
+        "text": "Ependymal cells lining the lateral ventricles"
+      },
+      {
+        "id": "D",
+        "text": "Microglial cells in the olfactory bulb"
+      }
+    ],
+    "chapter": "",
+    "sourceProvidedAnswer": "A",
+    "existingNlmCount": 2
+  },
+  {
     "q_id": "2026_mackay_q11",
     "paperId": "2026_mackay_(重點轉化)",
     "paperTitle": "2026 馬偕",
@@ -189,6 +1457,34 @@
     ],
     "chapter": "",
     "sourceProvidedAnswer": "C",
+    "existingNlmCount": 2
+  },
+  {
+    "q_id": "2026_water_treatment_system_in_hemodialysis_(主題備考)_q4",
+    "paperId": "2026_water_treatment_system_in_hemodialysis_(主題備考)",
+    "paperTitle": "2026 透析水處理系統與水質評鑑標準",
+    "number": 4,
+    "stem": "What is the primary physical mechanism of Cross-Flow Filtration in Thin-Film Composite (TFC) Reverse Osmosis membranes, and how does it maintain high purification efficiency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water flows perpendicular into a dead-end membrane pouch to trap all solute ions until the membrane is backwashed"
+      },
+      {
+        "id": "B",
+        "text": "Solutes are removed strictly via electrical charge repulsion without applying hydraulic pressure"
+      },
+      {
+        "id": "C",
+        "text": "Gravity-driven passive osmosis allows pure water to move toward high-salinity concentrate tanks"
+      },
+      {
+        "id": "D",
+        "text": "High pressure drives fluid parallel to the membrane surface, splitting flow into pure permeate and continuous concentrate reject to sweep away foulants"
+      }
+    ],
+    "chapter": "Topic 2: 逆滲透膜原理、迴水管路與消毒",
+    "sourceProvidedAnswer": "D",
     "existingNlmCount": 2
   },
   {

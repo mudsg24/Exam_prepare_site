@@ -242,8 +242,8 @@
           "selectedOption": "NONE"
         }
       ],
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
@@ -977,8 +977,8 @@
           "selectedOption": "NONE"
         }
       ],
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationStatus": "DISPUTED",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",

@@ -197,8 +197,8 @@
         }
       ],
       "number": 4,
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcNotes": "NLM1 returned NONE due to insufficient evidence, NLM2 returned B. Source is B.",
       "sourceProvidedAnswer": "B",
       "sourceAnswerStatus": "provided",

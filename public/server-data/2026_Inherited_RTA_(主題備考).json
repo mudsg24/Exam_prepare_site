@@ -257,8 +257,8 @@
         "verdict": "HIGH_CONFIDENCE",
         "rationale": "雙重 NLM 盲測對答與專業邏輯推論完全一致推導正解選項 (C)，與 Ground Truth 精確吻合。"
       },
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Parsed NLM1=A, NLM2=C, Source=C.",
       "reconciliationStatus": "DISPUTED",

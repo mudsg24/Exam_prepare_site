@@ -61,7 +61,10 @@
           "qcReason": null,
           "selectedOption": "A"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q2",
@@ -118,7 +121,10 @@
           "qcReason": null,
           "selectedOption": "B"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q3",
@@ -175,7 +181,10 @@
           "qcReason": null,
           "selectedOption": "C"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q4",
@@ -232,7 +241,10 @@
           "qcReason": null,
           "selectedOption": "D"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q5",
@@ -289,7 +301,10 @@
           "qcReason": null,
           "selectedOption": "A"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q6",
@@ -340,7 +355,10 @@
           "qcReason": null,
           "selectedOption": "B"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q7",
@@ -367,10 +385,10 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "在年齡 > 80 歲、具重度 Frailty (CFS >= 7) 及高共病的 advanced CKD 病患中，CKM Survival Benefit，反之 Dialysis 會顯著增加 Hospitalization、侵入性處置與功能快速退化風險。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "Dual NLM blind response consensus matching option C.",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -380,7 +398,7 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         },
         {
           "account": "kuonephro",
@@ -389,9 +407,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE."
     },
     {
       "id": "2026_Geriatric_CKD_Q8",
@@ -418,10 +439,10 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Conservative Kidney Management CKM。其核心處置包含：使用 Low-dose Opioids  控制 Dyspnea 與 Uremic Pain、給予 Loop Diuretics 控制 Fluid Overload、使用 Oral Sodium Bicarbonate 校正 Metabolic Acidosis，以及給予 Low-protein diet (0.8 g/kg/day) 搭配 Symptom Relief。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "Dual NLM blind response consensus matching option D.",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -431,7 +452,7 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "NONE"
         },
         {
           "account": "kuonephro",
@@ -440,9 +461,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "D"
+          "selectedOption": "NONE"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE."
     },
     {
       "id": "2026_Geriatric_CKD_Q9",
@@ -493,7 +517,10 @@
           "qcReason": null,
           "selectedOption": "A"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q10",
@@ -544,7 +571,10 @@
           "qcReason": null,
           "selectedOption": "A"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q11",
@@ -595,7 +625,10 @@
           "qcReason": null,
           "selectedOption": "C"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q12",
@@ -646,7 +679,10 @@
           "qcReason": null,
           "selectedOption": "C"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q13",
@@ -673,10 +709,10 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "高齡 CKD 病患常見的 Metabolic Acidosis 會活化 ATP-dependent Ubiquitin-Proteasome Pathway 與 Caspase-3，Proteolysis，同時抗拒 Insulin/IGF-1 的合成作用，導致 Uremic Sarcopenia 與 Protein-PEW。使用 Oral Bicarbonate 校正酸中毒可減緩肌少症。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "Dual NLM blind response consensus matching option A.",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -686,7 +722,7 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "NONE"
         },
         {
           "account": "sandbox0505",
@@ -695,9 +731,12 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "qcReason": null,
-          "selectedOption": "A"
+          "selectedOption": "NONE"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE."
     },
     {
       "id": "2026_Geriatric_CKD_Q14",
@@ -748,7 +787,10 @@
           "qcReason": null,
           "selectedOption": "B"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q15",
@@ -799,7 +841,10 @@
           "qcReason": null,
           "selectedOption": "C"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q16",
@@ -850,7 +895,10 @@
           "qcReason": null,
           "selectedOption": "D"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q17",
@@ -901,7 +949,10 @@
           "qcReason": null,
           "selectedOption": "A"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q18",
@@ -952,7 +1003,10 @@
           "qcReason": null,
           "selectedOption": "B"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q19",
@@ -1003,7 +1057,10 @@
           "qcReason": null,
           "selectedOption": "C"
         }
-      ]
+      ],
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "qcNotes": "NLM responses fully match source provided answer."
     },
     {
       "id": "2026_Geriatric_CKD_Q20",
@@ -1055,8 +1112,9 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "兩筆 NLM 皆選出 A，與原始答案相符。",
-      "qcVerifiedAt": "2026-08-01T01:48:06.496963+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.714Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     }
   ]
 }

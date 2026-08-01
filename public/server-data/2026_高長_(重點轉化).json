@@ -397,8 +397,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc"
@@ -441,8 +441,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcNotes": "Verified by tn-exam-qc subagent: Source provided answer C is confirmed by clinical rationale (TB granulomatous lymph nodes causing false-positive sestamibi & CT imaging). Reconciliation set to HIGH_CONFIDENCE.",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc"
@@ -793,8 +793,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup.",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc"

@@ -225,8 +225,8 @@
         }
       ],
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "QC_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T13:19:00Z",
       "qcNotes": "NLM1 selected D. NLM2 fired INSUFFICIENT_DATABASE_EVIDENCE and did not select an option. Status disputed."
     },
@@ -395,8 +395,8 @@
         }
       ],
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "QC_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.384Z",
       "qcNotes": "NLM1 and NLM2 picked NONE due to insufficient evidence. Source is A.",
       "reconciliationNotes": "NLM1 與 NLM2 皆判定為 INSUFFICIENT_DATABASE_EVIDENCE 且未選擇選項 A，但 sourceProvidedAnswer 為 A，因此產生分歧。",
@@ -628,8 +628,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T13:19:00Z",
       "qcNotes": "Phase 2 Semantic Verification passed. High confidence match."
     },
@@ -684,8 +684,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.392Z",
       "qcNotes": "Phase 2 Semantic Verification passed. False-NONE guard applied, selecting D.",
       "reconciliationNotes": "Medical adjudication: Ground truth (D) matches NLM #2 (D). NLM #1 False-NONE header resolved.",
@@ -798,8 +798,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.396Z",
       "qcNotes": "Phase 2 Semantic Verification passed. False-NONE guard applied, selecting C.",
       "reconciliationNotes": "Medical adjudication: Ground truth (C) matches NLM #2 (C). NLM #1 False-NONE header resolved.",
@@ -1080,8 +1080,8 @@
         }
       ],
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "QC_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.399Z",
       "qcNotes": "NLM1 selected A, NLM2 failed to extract and resulted in NONE.",
       "reconciliationNotes": "NLM1 extracted A despite INSUFFICIENT header. NLM2 resulted in NONE. Mismatch.",

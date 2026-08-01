@@ -953,8 +953,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "disputeStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T17:52:40.414Z",
       "qcNotes": "Both NLMs contained INSUFFICIENT header but identified A from clinical consensus."
     },

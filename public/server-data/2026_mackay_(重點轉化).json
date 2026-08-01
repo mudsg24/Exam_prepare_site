@@ -596,8 +596,8 @@
       "sourceExplanation": "根據 NotebookLM 的分析，資料庫中缺乏足夠的直接證據確認正確答案（未提及 `PV-1` 或 `PLVAP` 作為特異性分子標記）。然而，依據內皮生物學，`PV-1` 是定位於窗孔隔膜 (`diaphragmed fenestrae`) 的 `fenestration marker`，而 `CD31` (`PECAM1`) 是經典的 `pan-endothelial marker`。生理狀態下，成人健康 `GEnCs` 具有缺乏隔膜的窗孔，並表現 `CD31`、`VEGFR2` 等全血管內皮標記，而僅在胚胎期或病理活化時才會產生改變。選項中其他組合（如 `E-selectin` 或 `VE-cadherin`）之功能定位與題意不符。",
       "resolvedImages": [],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "SEMANTIC_REVIEWED_TONKS_DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "nlmResponses": [
         {
           "accountProfile": "kuonephro",
@@ -952,8 +952,8 @@
       "sourceExplanation": "根據文獻，在 diabetic nephropathy 的早期病程中，albumin excretion rate 仍處於 normoalbuminuria 階段時，glomerular basement membrane 與 podocyte 已開始發生病理改變。Podocalyxin 作為 podocyte 的特異性標記蛋白，其在 urine 中的排泄量在 microalbuminuria 發生之前即顯著升高，是評估早期 podocyte injury 的超早期敏感指標。因此，podocyte-specific proteins 的流失顯著早於臨床上 microalbuminuria 的發生。",
       "resolvedImages": [],
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (4-1)",
@@ -2154,8 +2154,8 @@
       "sourceExplanation": "現系統文獻提及 AL amyloidosis 最常侵犯 kidney 與 heart，且在懷疑 amyloidosis 的患者中，echocardiogram 可見 thickening of the septal wall with preserved ejection fraction。然而，文獻並未涵蓋 restrictive cardiomyopathy、NT-proBNP elevation 與 low-voltage QRS complexes 等具體 ECG 與 biomarkers 的特徵性詳細鑑別對照，因此無法從現有資料中確認單一正確選項。",
       "resolvedImages": [],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (1-1)",

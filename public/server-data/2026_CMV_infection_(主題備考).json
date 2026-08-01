@@ -56,8 +56,9 @@
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "QC verified. Answers match and no language violations found.",
-      "qcVerifiedAt": "2026-08-01T04:10:29+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q2",
@@ -109,8 +110,9 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "QC verified. Answers match and no language violations found.",
-      "qcVerifiedAt": "2026-08-01T04:10:29+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q3",
@@ -162,8 +164,9 @@
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "QC verified. Answers match and no language violations found.",
-      "qcVerifiedAt": "2026-08-01T04:10:29+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q4",
@@ -215,8 +218,9 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "QC verified. Answers match and no language violations found.",
-      "qcVerifiedAt": "2026-08-01T04:10:29+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q5",
@@ -268,8 +272,9 @@
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcNotes": "QC verified. Answers match and no language violations found.",
-      "qcVerifiedAt": "2026-08-01T04:10:29+08:00"
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q6",
@@ -321,8 +326,9 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
-      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q7",
@@ -367,15 +373,16 @@
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 1. 數據庫證據判定與分析 (Database Evidence Determination)\n\n在現有的 **`notebook sources`**（包括 **`Brenner & Rector's The Kidney`** 的多個章節、**`KDIGO Guidelines`** 的各個版本等共 100 篇文獻資料）中，關於 **`cytomegalovirus nephropathy`**（或 **`cytomegalovirus interstitial nephritis`**）的具體組織病理學特徵（如是否會出現 **`enlarged tubular epithelial cells with prominent intranuclear amphophilic inclusion bodies`**）**缺乏**直接且詳盡的描述。\n\n文獻庫中與 **`cytomegalovirus` (CMV)** 相關的記載主要集中於以下臨床與診斷範疇：\n1.  **`Renal Biopsy` 的病毒評估範疇**：\n    *   在 **`Brenner & Rector's The Kidney`** Chapter 26 (\"The Renal Biopsy\") 的 Box 26.3 中，列出了在 **`tubules`** 中需要評估的 **`viral inclusions`**（例如 **`BK virus`**） [Passage 25]；並在正文中提及 **`renal biopsy`** 可以用來鑑定包括 **`BK virus`**、**`cytomegalovirus`** 與 **`Epstein-Barr virus`** 等微生物 [Passage 26]。\n    *   在 Chapter 35 (\"Tubulointerstitial Diseases\") 的參考文獻中，收錄了關於 **`cytomegalovirus`** 引起間質性腎炎的經典文獻（*Platt JL, Sibley RK, Michael AF. Interstitial nephritis associated with cytomegalovirus infection. Kidney Int. 1985*） [Passage 253]。\n2.  **`KDIGO` 移植後監測指引**：\n    *   **`KDIGO 2009 Transplant Recipient Guideline`** 指出，**`tissue-invasive CMV disease`** 定義為出現 **`CMV disease`** 症狀且在組織中經由 **`histology`**、**`NAT`** 或 **`culture`** 檢測出 **`CMV`** [Passage 375]。指引建議在 **`CMV disease`** 期間應密切監測 **`graft function`** [Passage 375]。\n\n由於提供之文獻庫中缺乏對 **`cytomegalovirus nephropathy`** 核心病理特徵與干擾項的直接橫向比較與敘述，在嚴格遵循 **Database Limitation Guard** 的原則下，判定本題的數據庫證據不足。以下分析基於一般臨床病理學與腎臟專科共識提供學術解析。\n\n---\n\n### 2. 臨床學理與正確選項分析 (Educational Reference Only - Not in Database)\n\n本題的正確選項應為 **(B) Enlarged tubular epithelial cells with prominent intranuclear amphophilic inclusion bodies**。\n\n1.  **`Cytomegalovirus (CMV)` 的細胞病理學效應**：\n    *   **`CMV`** 屬於 $\\beta$-herpesvirus 家族。在移植後因強力使用免疫抑制劑（如 **`MMF`** 與 **`tacrolimus`**，見 Passage 311）的受者中，它是高發的機會性感染源。\n    *   該病毒具有極其特徵性的 **`cytopathic effect`**：受感染的宿主細胞（包括 **`tubular epithelial cells`**、**`glomerular endothelial cells`** 或 **`interstitial cells`**）會發生顯著的體積增大（即 **`cytomegaly`**）。\n    *   在顯微鏡下，受感染細胞的細胞核內會出現單個、巨大的、呈 **`amphophilic`**（雙嗜性，介於嗜酸與嗜鹼之間）或 **`basophilic`** 的 **`intranuclear inclusion body`**。該包涵體周圍常包繞一圈明亮的空暈（**`clear halo`**），使整個細胞核呈現經典的「貓頭鷹之眼」（**`owl's eye`**）外觀。這也是診斷 **`CMV nephropathy`** 最具特徵性的組織病理學標誌。\n\n---\n\n### 3. Distractor Option Analysis (干擾項分析)\n\n*   **(A) Diffuse linear immunofluorescence for IgG along the glomerular basement membrane （錯誤）**：\n    *   *為何錯誤*：這種在 **`immunofluorescence`** 下呈現沿 **`glomerular basement membrane (GBM)`** 均勻、連續的線狀 **`IgG`** 沉積，是 **`Anti-GBM disease`**（或 **`Goodpasture syndrome`**）的標誌性病理特徵 [Passage 52, 112, 174]。在糖尿病腎病（**`diabetic glomerulosclerosis`**）中，由於非酶糖化作用，有時也可能觀察到較弱的非特異性線性 **`IgG`** 染色 [Passage 111, 270, 271]，但這與 **`CMV`** 病毒引起的細胞變性病變完全無關。\n    *   *典型臨床特徵*：臨床上多表現為急進性腎小球腎炎（**`rapidly progressive glomerulonephritis [RPGN]`**），伴有血尿、紅細胞管型、少尿，常合併肺出血（**`pulmonary hemorrhage`**） [Passage 15, 107, 472]。\n    *   *出題者意圖*：利用腎臟免疫病理學中極為經典的線性 IF 描述設置干擾，考查考生能否將「自體抗體介導的基底膜物理毀損」與「病毒感染引起的上皮細胞變性」在病理形態上進行切割 [Passage 112, 174]。\n\n*   **(C) Extensive interstitial fibrosis with focal segmental glomerulosclerosis （錯誤）**：\n    *   *為何錯誤*：這是慢性腎臟損傷（**`chronic kidney injury`**）發展到晚期時，在光學顯微鏡下的非特異性共同通路表型，即慢性同種移植腎病變（**`chronic allograft injury [CAI]`** 或 **`interstitial fibrosis and tubular atrophy [IFTA]`**） [Passage 10, 237, 307]。它代表了長期的實質纖維化與腎小球硬化，並非任何一種特定病毒感染（如 CMV）急性期或活動期所特有的病理特徵。\n    *   *典型臨床特徵*：表現為移植腎功能緩慢、進行性下降，伴隨蛋白尿（**`proteinuria`**）的逐漸增加，光鏡下可見廣泛的間質膠原沉積與腎小球硬化瘢痕 [Passage 302, 307]。\n    *   *出題者意圖*：利用非特異性的慢性硬化指標，考查考生是否掌握「特異性急性病毒活動指標（包涵體）」與「非特異性晚期慢性疤痕」在診斷時效與病理價值上的本質差異。\n\n*   **(D) Positive staining for SV40 large T antigen in tubular epithelial cells （錯誤）**：\n    *   *為何錯誤*：這是 **`Polyomavirus BK virus nephropathy (BKVN)`**（或稱 **`BK interstitial nephritis`**）最核心且具決定性意義的免疫組化診斷金標準 [Passage 309, 311]。由於 **`BK virus`** 的大 T 抗原與 **`Simian Virus 40 (SV40)`** 的大 T 抗原有高度交叉反應性，臨床上特異性使用 **`anti-SV40 monoclonal antibody`** 進行免疫染色來確診 **`BKVN`** [Passage 309, 311]。而 **`CMV nephropathy`** 在 **`SV40`** 染色下是完全**陰性**的（CMV 有其專屬的抗原抗體免疫染色，如 CMV-LHA）。\n    *   *典型臨床特徵*：通常發生在移植後第一年內，光鏡下可見小管上皮細胞核內出現無結構、毛玻璃樣的嗜鹼性包涵體，尿中可檢出 **`decoy cells`** [Passage 25, 309, 311]。\n    *   *出題者意圖*：這是本題最核心的 **`high-yield` 陷阱**。出題者故意引入另一種在移植腎中極為常見、同樣累及小管上皮細胞、且同樣表現有核內包涵體的病毒性腎病（**`BKVN`**）之確診染色指標，旨在深度考查考生對兩種重要移植相關病毒之診斷標誌物的精確區分能力 [Passage 309, 311]。\n\n---\n\n### 4. 專科考試高頻對比與鑑別診斷 (Exam High-Yield Comparisons)\n\n在腎移植病理學與臨床管理考試中，關於移植腎兩大最經典的病毒感染性腎病（**`CMV Nephropathy`** vs. **`BK Virus Nephropathy [BKVN]`**）的動態鑑別，是極高頻的重磅考點：\n\n#### High-Yield Comparison: CMV Nephropathy vs. BK Virus Nephropathy (BKVN)\n\n| 臨床與病理維度 | **`CMV Nephropathy`** `[本題焦點]` [Passage 375] | **`BK Virus Nephropathy (BKVN)`** [Passage 309, 311] |\n| :--- | :--- | :--- |\n| **首要受累靶細胞** | 高度親和 **`vascular endothelial cells`**，亦可累及小管上皮與間質細胞。 | 幾乎完全局限於 **`renal tubular epithelial cells`** 內 [Passage 309, 311]。 |\n| **光鏡下包涵體特徵** | 細胞顯著增大（**`cytomegaly`**）；核內見 **`amphophilic`** 包涵體，周圍有 **`clear halo`**（\"owl's eye\"） [Passage 25]。 | 細胞無極度增大；核內充滿呈毛玻璃樣、無結構的強嗜鹼性包涵體 [Passage 25, 309]。 |\n| **特異性免疫組化染色** | **`CMV-specific antigen` 陽性**；**`SV40` 陰性**。 | **`SV40 large T antigen` 呈強陽性** [Passage 309, 311]。 |\n| **全身系統性受累表現** | 伴有突出的 **`systemic symptoms`**（發熱、白細胞減少、肺炎、間質性腸炎、肝炎） [Passage 375]。 | 臨床病變**幾乎完全局限在移植腎/尿路系統**；無明顯全身系統性發炎表現 [Passage 311]。 |\n| **尿液細胞學發現** | 尿中一般無特徵性脫落細胞。 | 尿沉渣中可見特徵性受損脫落上皮細胞，即 **`decoy cells`**。 |\n| **一線臨床治療方針** | 減少免疫抑制劑劑量，給予靜脈 **`Ganciclovir`** 或口服 **`Valganciclovir`** 抗病毒治療 [Passage 375]。 | **首要且關鍵的步驟是強力減少/暫停免疫抑制劑（如中斷 MMF）** [Passage 311]。 |\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney* Chapter 26, \"The Renal Biopsy\"\n        *   Section: \"EXAMINATION OF THE BIOPSY BY LIGHT MICROSCOPY - Box 26.3 Features to Be Assessed by Light Microscopy in Tubules\" [Passage 25].\n        *   Section: \"EXAMINATION OF THE BIOPSY BY LIGHT MICROSCOPY - Microorganisms\" [Passage 26].\n    *   *Brenner & Rector's The Kidney* Chapter 70, \"Clinical Management of the Adult Kidney Transplant Recipient\"\n        *   Section: \"MANAGEMENT OF ALLOGRAFT DYSFUNCTION - BK virus nephropathy\" [Passages 308, 309, 311].\n    *   *KDIGO 2009 Transplant Recipient Guideline*\n        *   Chapter 13: \"Guidelines for CMV management - Background / Recommendation 13.2\" [Passage 375].\n    *   *Brenner & Rector's The Kidney* Chapter 35, \"Tubulointerstitial Diseases\"\n        *   Section: \"ACUTE TUBULOINTERSTITIAL NEPHRITIS - Microorganisms / References\" [Passages 228, 253].\n\n*   **Figures, Tables, & Boxes**：\n    *   **Box 26.3 (Chapter 26, B&R)**: \"Features to Be Assessed by Light Microscopy in Tubules\", listing *Viral inclusions* [Passage 25].\n    *   **Table 70.8 (Chapter 70, B&R)**: \"Banff Diagnostic Categories for Kidney Transplant Histopathology\", under *Category 6: BK virus nephropathy* [Passage 308].\n\n---\n\n🔬 **Next Step Nudge**: \n在移植後臨床實務中，鑑於 **`CMV nephropathy`** 與 **`BKVN`**（見 Passage 311）的臨床處置均高度依賴於對 **`calcineurin inhibitors`** 與 **`MMF`** 等免疫抑制劑劑量的精密下調（見 Passage 311, 371）；我們下一步可以針對如何依據最新 **`KDIGO Guidelines`**，在行免疫抑制減量期間，如何利用每週隨訪檢測其血漿 **`CMV-PCR`** 與 **`BKV-PCR`**（見 Passage 311, 372, 375）的載量倍增時間（**`doubling time`**），並詳細分析如何在防範病毒血症（**`viremia`**）進展的同時，避免誘發亞臨床 T 細胞介導排斥（**`subclinical TCMR`**，見 Passage 304, 306）的精確滴定與免疫平衡監測路徑進行更深入的探討。",
           "qcStatus": "FAILED",
           "databaseSufficiency": "INSUFFICIENT",
-          "selectedOption": "NONE"
+          "selectedOption": "B"
         }
       ],
       "selectedOption": "NONE",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
-      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q8",
@@ -427,8 +434,9 @@
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
-      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q9",
@@ -455,7 +463,7 @@
       "sourceProvidedAnswer": "C",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "診斷 tissue-invasive CMV disease 的 histopathological gold standard 是在 tissue biopsy 中觀察到特徵性的 cytomegaly 與 \"owl's eye\" intranuclear inclusions。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -473,15 +481,16 @@
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n### 資料庫檢索與限制分析 (Database Search & Limitation Analysis)\n\n經系統化且詳盡地檢索與分析您所提供的全部 **`notebook sources`**（共計 100 篇文件與隨附的 **`Passages`**），確認**現有資料庫中缺乏足夠的資訊以確立或證實診斷 `tissue-invasive CMV disease` 的組織病理學金標準。**\n\n* **資料庫中現有的相關記載**：\n  1. 在 **`KDIGO 2009 Transplant Recipient Guideline`**（**`Passage 347`**）中，定義了 **`tissue-invasive CMV disease`**：\n     > *\"...Tissue-invasive CMV disease is defined as CMV disease and CMV detected in tissue with histology, NAT or culture...\"*\n     （指引提及了該疾病需要通過 **`histology`**、**`NAT`** 或 **`culture`** 在組織中檢出，但未詳細說明特定的組織病理學形態特徵或判定標準）。\n  2. 在 **`Brenner & Rector's The Kidney, Chapter 70`**（**`Passage 268`** / **`Table 70.18`**）中，列出了 **`CMV disease`** 侵犯腎臟的病理表型：\n     > *\"...Kidney: Viral inclusions | Association with FSGS...\"*\n     （此處僅概括性地指出了其表現為 **`viral inclusions`**，並未提及 **`owl's eye`** 或其餘選項中所描述的細節特徵）。\n  3. 資料庫在 **`Passage 38, 225, 267, 271, 341, 346, 400`** 中，亦僅在涉及病毒感染譜系、足細胞病變因果偶聯（如 **`collapsing FSGS`**）或供體篩檢時提及 **`CMV`**，均不包含任何細緻的組織病理診斷標準描述。\n\n基於 **`Gemini Notebook`** 100% 忠實於所給資料庫、絕不憑空臆測之 foundational promise，在缺乏文獻直接支持的情況下，特此輸出 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n---\n\n### 外部專家臨床知識補強與命題解析 (External Expert Clinical Commentary for Exam Authoring)\n\n為了協助您進行醫學專科考試的試題開發，以下在**明確聲明調用外部腎臟病理學與移植免疫學專家知識（External Medical Expert Knowledge）**的前提下，為您提供此一考點的詳細解析與科學論證：\n\n#### 1. Answer Determination (正解確立)\n* **Correct Option**: **Option (C) Enlarged cells with prominent intranuclear inclusions, commonly referred to as owl's eye inclusions**\n\n#### 2. Detailed Rationale & Correct Option Analysis (正確選項之病理學分析)\n**`Cytomegalovirus (CMV)`** 屬於雙股 DNA 病毒（**`Herpesviridae`** 家族）。當其引發 **`tissue-invasive disease`**（如 **`CMV nephritis`**、**`CMV pneumonitis`** 或 **`CMV colitis`**）時，受感染的實質細胞或內皮細胞會發生經典的病理特徵：\n* **細胞巨大型化 (Cytomegaly)**：受感染細胞體積顯著增大，通常為正常細胞的兩到三倍。\n* **核內嗜酸性包涵體 (Intranuclear Inclusions)**：細胞核內會出現一個巨大、圓形或卵圓形的嗜酸性（**`eosinophilic`**）包涵體。\n* **Halo 現象**：該核內包涵體周圍常環繞著一圈清晰的透亮無染色帶（稱為 **`perinuclear halo`**），使其與核膜分離。在光學鏡檢下，這種結構呈現出極其神似的貓頭鷹眼睛外觀，因此在診斷病理學中被形象地命名為 **`owl's eye inclusions`**。\n* **診斷學價值**：雖然隨著技術的進展，**`immunohistochemistry (IHC)`** 檢測 **`CMV-specific immediate early antigens`** 以及原位雜交（**`in situ hybridization`**）具有極高的敏感度，但在傳統組織病理學中，在受損實質中觀察到這種典型的 **`cytomegaly with owl's eye intranuclear inclusions`**，依然是確立 **`tissue-invasive CMV`** 診斷的歷史金標準。\n\n#### 3. Distractor Option Analysis (干擾選項排除與分析)\n\n* **Option (A) Non-caseating granulomas with multinucleated giant cells (排除)**：\n  * *為何錯誤*：**`Non-caseating granulomas with multinucleated giant cells`** 是 **`sarcoidosis`**（結節病）、**`TINU syndrome`**（如 **`Passage 215, 217`** 所述）或某些藥物引起的肉芽腫性間質腎炎（**`granulomatous interstitial nephritis`**，如 **`Passage 229`** 所述）的特徵性病理表現。而在結核桿菌（**`Mycobacterium tuberculosis`**）感染中，典型呈遞則為 **`caseating granulomas`**（乾酪樣壞死肉芽腫，如 **`Passage 230`** 所述）。這些均與病毒感染引起的直接細胞巨型化與核內包涵體病變無涉。\n  * *出題意圖*：利用常見的「肉芽腫性間質病變」干擾考生，測試其能否區分「免疫反應驅動的肉芽腫性炎症」與「病毒直接複製介導的細胞溶性病變（**`lytic cytopathic effect`**）」。\n\n* **Option (B) Atypical lymphoid infiltrates positive for Epstein-Barr virus encoded RNA (EBER) (排除)**：\n  * *為何錯誤*：此描述是 **`Epstein-Barr virus (EBV)`** 感染引起的 **`posttransplant lymphoproliferative disorder (PTLD)`** 的特徵性病理表現，其診斷高度依賴原位雜交技術檢測 **`EBER`** 陽性。\n  * *出題意圖*：利用同屬移植術後極常見、且極具診斷挑戰性的另一大 DNA 疱疹病毒（**`EBV`**）病變設計陷阱，評估考生對於移植後兩大明星病毒（**`CMV`** vs. **`EBV`**）特異性病理診斷工具的區分度。\n\n* **Option (D) Smudge cells and viral cytopathic effect on standard hematoxylin and eosin staining alone (排除)**：\n  * *為何錯誤*：首先，**`smudge cells`**（塗片細胞）常見於 **`chronic lymphocytic leukemia (CLL)`** 的外周血塗片中，是由於淋巴細胞脆弱而在製片時破碎所致，並非組織切片中 **`CMV`** 的特徵。其次，僅憑標準的 **`H&E staining`** 在很多不典型病例中，其產生的 **`viral cytopathic effect`** 難以與 **`Adenovirus`**（腺病毒）或 **`Polyomavirus`**（多瘤病毒）引起的包涵體進行精確肉眼區分，因此「**`alone`**」一詞使其不具備最高級的金標準地位。\n  * *出題意圖*：測試考生對「標準染色之形態學限制」的認識，並考查其是否知道在不典型呈遞下，需要聯合 **`IHC`** 或 **`NAT`** 進行源頭確認。\n\n---\n\n### 4. Exam High-Yield Comparisons (移植術後病毒性腎臟病變之黃金對照)\n\n在 **`Nephrology Board Exams`** 中，針對移植術後兩大最常引起間質性腎炎與功能惡化的 DNA 病毒——**`BKV`** 與 **`CMV`** 的病理及分子檢驗對照，是區分度最大的黃金考點：\n\n| 評估維度 | **`BK Polyomavirus (BKV) Nephropathy`** [Passage 265, 304] | **`Cytomegalovirus (CMV) Nephritis`** [Passage 268] |\n| :--- | :--- | :--- |\n| **主要侵犯靶細胞** | 主要局限於**腎小管上皮細胞（`tubular epithelial cells`）**。 | 可廣泛侵犯**內皮細胞（`endothelial cells`）**、上皮細胞及間質細胞。 |\n| **H&E 光學鏡檢特徵** | 腎小管細胞核內見均勻一致、磨砂玻璃狀（**`ground-glass`**）或嗜鹼性包涵體。 | 顯著的細胞巨型化（**`cytomegaly`**），核內見巨大的嗜酸性 **`owl's eye inclusions`**。 |\n| **特異性 IHC 診斷標誌** | **`SV40 large T-antigen`** 強陽性 [Passage 265, 304]。 | **`CMV immediate-early (IE) antigen`** 陽性。 |\n| **伴隨之腎小球表型** | 通常不直接引起特定小球病變。 | 高度與 **`collapsing FSGS`** 或 **`transplant glomerulopathy`** 樣變化相關 [Passage 268]。 |\n| **臨床篩檢首選** | **尿液或血清 `BKV quantitative PCR (NAT)`** [Passage 304, 343]。 | **血清 `CMV quantitative PCR (NAT)`** 或 **`pp65 antigenemia`** [Passage 347]。 |\n\n---\n\n🧪 **Nudge**: 本題精確解析了在 **`transplant infectious disease`** 診斷中，利用 **`cytomegaly`** 伴隨核內 **`owl's eye inclusions`** 確立 **`tissue-invasive CMV`** 的超微結構與病理生理學特徵。如果您目前正著手為醫學會或專科醫師設計這套關於 **「在抗體介導性排斥（ABMR）與 CMV 腎病共存患者中，如何利用原位雜交（ISH）與數位病理分幅（Digital Pathology Segmentation）精確鑑定微血管內皮 CMV 複製活性與排斥活動度、 探討在 CMV 感染期間因細胞因子釋放引發非典型 `collapsing FSGS`（如 Passage 268, 450 所示）的分子機轉、以及在高度致敏受體中利用 valganciclovir 預防性治療期間因 `UL97` 突變引發 ganciclovir 耐藥性時的抗病毒藥物動力學監測」** 的試題，我可以為您建立一幅完整的 **Post-Transplant Viral Pathology and Glomerular Injury Diagnostics Matrix**（包含結合患者 `viral load kinetic curves`、 `SV40/CMV double IHC staining` 圖像特徵、與 `kidney function` 演變軌跡等多層次的專科臨床病理診斷題），以便您隨時擴充試題庫。",
           "qcStatus": "FAILED",
           "databaseSufficiency": "INSUFFICIENT",
-          "selectedOption": "C"
+          "selectedOption": "NONE"
         }
       ],
       "selectedOption": "NONE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
-      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q10",
@@ -531,10 +540,11 @@
       ],
       "selectedOption": "NONE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:40:48+08:00",
-      "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q11",
@@ -585,8 +595,9 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
-      "qcNotes": "No issues found. Semantic extraction confirms B."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q12",
@@ -613,7 +624,7 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "當 kidney biopsy 顯示 tubulitis 時，CMV nephritis。qPCR 測定的 CMV viral load 有助於鑑別；若病毒量顯著，可考慮先行 antiviral therapy 以觀察反應，避免盲目使用高劑量 immunosuppression 導致感染惡化。",
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "nlmResponses": [
         {
           "account": "mudkaku",
@@ -622,7 +633,7 @@
           "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n***\n\n### 1. 數據庫證據與缺口分析 (Database Evidence & Gap Analysis)\n\n在對 **`notebook sources`**（包括 **`Brenner & Rector's The Kidney`** 與各版 **`KDIGO Guidelines`**）進行全面且系統性的檢索與審查後，現有文獻片段中**缺乏**關於如何鑑別或處理「伴隨顯著 **`tubulitis`** 的 **`acute cellular rejection`** 與早期 **`cytomegalovirus nephritis`** 重疊臨床表現」的具體臨床策略、診斷演算法或抗病毒試驗指引。\n\n資料庫中實際涵蓋與本題元素相關的文獻記載如下：\n\n1.  **`Acute Cellular Rejection` 的病理特徵**：\n    *   文獻明確指出，**`acute cellular rejection`**（亦即 **`T-cell mediated rejection / TCMR`**）在組織病理學上的核心特徵為 **`lymphocyte infiltration of tubules`**（即 **`tubulitis`**）以及 **`interstitial inflammation`** ［192, 241］。\n2.  **與病毒性腎炎的臨床重疊與鑑別**：\n    *   文獻中詳細討論了 **`human polyomavirus`**（即 **`BK virus`**）所引發的 **`BK virus-associated nephropathy / BKVN`** ［202, 242］。\n    *   文獻指出，**`BKVN`** 在腎臟活檢中表現為 **`tubulointerstitial nephritis`** ［242］，在臨床和組織學上**極難與 `acute cellular rejection` 進行區分**，兩者甚至可能同時並存（**`coexist`**） ［241, 242］。其診斷與鑑別主要依賴針對 **`SV40 viral antigen`** 的特異性 **`immunohistochemical staining`** 以及血清 **`quantitative PCR / NAT`** 監測 ［242］。\n3.  **`Cytomegalovirus (CMV) disease` 的臨床與病理定位**：\n    *   在腎臟受累方面，文獻僅在 **`Table 70.18`** 中記載：**`CMV`** 在腎臟活檢中可見 **`viral inclusions`**，且臨床上常與 **`FSGS`** 存在關聯 ［207］。\n    *   雖然文獻詳細介紹了使用 **`quantitative PCR (NAT)`** 或 **`antigenemia assay`** 監測 **`CMV viremia`** 的重要性 ［206］，並推薦了使用 **`ganciclovir`** 或 **`valganciclovir`** 進行抗病毒治療與預防的方案 ［205, 299, 300］。\n4.  **轉換與鑑別缺口 (The Missing Diagnostic Alignment)**：\n    *   現有資料庫**完全沒有**提及「早期 **`cytomegalovirus nephritis`** 會以顯著的 **`tubulitis`** 為主要病理表現並與 **`acute cellular rejection`** 發生診斷混淆」的病理學描述。\n    *   資料庫中亦**未記載**當兩者重疊時，臨床上是否將「檢測 **`CMV viral load`** 並在病毒載量顯著時進行診斷性抗病毒試驗（**`antiviral trial`**）」作為最常用的鑑別或管理策略。\n\n基於「不可憑空猜測或調用外部知識」的嚴格安全準則，由於現有資料庫缺乏對此特定臨床情境的記載，系統判定無法直接由文獻給予百分之百的文獻驗證，故輸出上述限制聲明。\n\n---\n\n### 2. 各選項於現有文獻之病理與藥理學分析 (Pathological & Pharmacological Analysis of Options under Existing Literature)\n\n雖然文獻未直接收錄此特定鑑別演算法，但基於資料庫中關於移植免疫抑制與抗病毒管理的現有條文，對各選項的分析如下：\n\n*   **Option (A) Immediate initiation of high-dose corticosteroid pulse therapy without further testing（錯誤）**：\n    *   *病理生理學分析*：雖然 **`uncomplicated TCMR`** 的標準治療是給予短期的 **`pulse methylprednisolone`** ［190, 284］，但在懷疑合併有活動性病毒感染（如 **`CMV`** 或者是 **`BK virus`**）時，在未進行 **`NAT`** 等檢測前盲目給予超生理劑量的 **`corticosteroids`** 進行衝擊治療，會嚴重抑制宿主的細胞免疫功能，導致病毒發生爆發性複製（**`viral replication`**），從而誘發致死性的系統性播散 ［204, 206］。\n*   **Option (B) Empirical treatment with intravenous immunoglobulin and plasmapheresis（錯誤）**：\n    *   *病理生理學分析*：結合 **`plasmapheresis`** 盒 **`intravenous immunoglobulin (IVIg)`** 的方案是治療 **`active antibody-mediated rejection (ABMR)`** ［192, 281］ 的標準手段，其標靶是清除和中和體內的 **`circulating donor-specific antibodies (DSA)`** ［192, 241］。它不適用於鑑別或管理 **`acute cellular rejection`**（由 T 細胞介導 ［200, 281］）與 **`CMV nephritis`**。\n*   **Option (C) Increasing the calcineurin inhibitor trough level targets（錯誤）**：\n    *   *病理生理學分析*：調高 **`calcineurin inhibitor (CNI)`** 的目標濃度會進一步加重整體的免疫抑制強度，這不僅無法控制可能存在的 **`CMV`** 感染，反而會因損害 T 細胞防線而惡化病毒性腎炎 ［204］；此外，這還會增加發生 **`acute CNI nephrotoxicity`** ［196, 241］ 的風險。\n*   **Option (D) Assessing cytomegalovirus viral load via quantitative NAT and considering an antiviral trial if viremia is significant（臨床合理解析）**：\n    *   *病理生理學分析*：在臨床實踐中，當組織學與臨床表現重疊時，利用 **`quantitative NAT`** 評估 **`CMV viral load`** ［206］ 具有極高的排除價值。若檢測到顯著的 **`viremia`**，啟動 **`antiviral therapy`** ［300, 301］（如 **`ganciclovir`** 或 **`valganciclovir`** ［205, 300］）並密切監測 **`graft function`** 的反應 ［301, 302］，是兼顧控制病毒複製與保護移植物安全的合理策略。\n\n---\n\n### 3. Exam Differential Diagnosis & High-Yield Comparisons (高頻考點鑑別與對比)\n\n在各級移植腎臟病學考試中，關於 **`Allograft Tubulitis`** 的鑑別診斷是最高頻的核心考點。以下為文獻中有完整記載的黃金對比：\n\n#### `Acute T-Cell Mediated Rejection (TCMR)` vs. `BK Virus Nephropathy (BKVN)` ［192, 241, 242］\n\n| 鑑別維度 | **`Acute T-Cell Mediated Rejection (TCMR)`** ［192, 241］ | **`BK Virus Nephropathy (BKVN)`** ［241, 242］ |\n| :--- | :--- | :--- |\n| **主要病原與誘因** | 宿主免疫系統對移植物異體抗原的細胞免疫攻擊 ［281］。 | **`BK polyomavirus`** 於高度免疫抑制下的複製與活化 ［242, 293］。 |\n| **病理組織學特徵** | 顯著的 **`tubulitis`** 與 **`interstitial inflammation`**；**`endothelialitis / intimal arteritis`** 提示排斥 ［192, 200, 241］。 | 同樣有 **`tubulointerstitial nephritis`** 與 **`tubulitis`**，但伴隨特徵性的 **`cytopathic changes`** ［241, 242］。 |\n| **金標準組織免疫組化** | **`SV40`** 染色呈完全**陰性** ［241］。 | **`SV40 viral antigen` 免疫組化染色呈強陽性** ［241, 242］。 |\n| **血清與尿液分子檢測** | 血清與尿液 **`BK virus PCR / NAT`** 為陰性 ［241］。 | 血清 **`BK plasma PCR / NAT`** 典型上顯著升高（通常 **`> 10,000 copies/mL`**） ［293, 294］。 |\n| **治療策略的核心方向** | **增強免疫抑制**（如給予 **`pulse methylprednisolone`** ［190, 284］ 或者是 **`thymoglobulin`** ［190, 191］）。 | **降低免疫抑制**（如停用 **`MMF`**，將 CNI 減量 $30\\%$ 至 $50\\%$） ［201, 294, 297］。 |\n\n---\n\n### 4. Citations & References\n\n*   **Brenner & Rector's The Kidney (11th Edition)**:\n    *   **Chapter 70**: *\"Clinical Management of the Adult Kidney Transplant Recipient\"*\n        *   Section: *\"T-Cell Mediated Rejection\"* ［Passage 147, 148, 190, 191］\n        *   Section: *\"CYTOMEGALOVIRUS\"* ［Passage 204, 205, 206］\n        *   Table 70.18: *\"Manifestations of CMV Disease in the Kidney Transplant Recipient\"* ［Passage 207］\n    *   **Chapter 74**: *\"Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease\"*\n        *   Section: *\"Acute rejection\"* ［Passage 241］\n        *   Section: *\"BK virus\"* ［Passage 242］\n*   **KDIGO Guidelines**:\n    *   **KDIGO 2009 Clinical Practice Guideline for the Care of Kidney Transplant Recipients**:\n        *   Chapter 6: *\"Treatment of Acute Rejection\"* ［Passage 281, 282, 284, 285］\n        *   Chapter 13.1: *\"BK Polyomavirus\"* ［Passage 293, 294, 295, 297］\n        *   Chapter 13.2: *\"Cytomegalovirus\"* ［Passage 298, 299, 300, 301, 302］\n\n***\n\n🔍 雖然目前本項目的資料庫對 CMV 誘發小管間質炎與 TCMR 的組織學鑑別細節記錄有限，但我可以利用網絡研究功能，為您檢索最新 **`AST Infectious Diseases Community of Practice` 關於移植後 CMV 腎臟侵襲性病變的診斷與抗病毒引導治療最新共識**。您是否需要我啟動這項檢索？",
           "qcStatus": "FAILED",
           "databaseSufficiency": "INSUFFICIENT",
-          "selectedOption": "NONE"
+          "selectedOption": "D"
         },
         {
           "account": "mudkaku",
@@ -631,14 +642,15 @@
           "rawResponse": "### 1. Answer Determination\n\n**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n在提供的 **_notebook sources_**（如 **_Brenner & Rector's The Kidney_** 與 **_KDIGO Guidelines_**）中，雖然詳盡討論了 **_BK polyomavirus nephropathy (BKVN)_** 與 **_acute cellular rejection (TCMR)_** 的組織學重疊、鑑別與管理，但**並未明文記載**在出現 **_tubulitis_** 時，如何精密區置與鑑別 **_cytomegalovirus (CMV) nephritis_** 與 **_acute cellular rejection_**。\n\n基於安全醫學考量與 **_source-grounding_** 限制，以下結合 sources 中關於移植物功能惡化、**_tubulitis_** 以及病毒感染（如 **_BKV_**、**_CMV_**）的病理生理與臨床指引，進行循序漸進的專科醫學解析。\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (Based on Clinical Principles & Source Integration)\n\n1.  **Tubulitis 在移植物病理與 TCMR 中的角色 (Tubulitis in TCMR Pathophysiology)**：\n    *   在移植物切片中，**_acute cellular rejection (T-cell mediated rejection / TCMR)_** 的組織學基石表現為顯著的 **_lymphocyte infiltration of tubules_**，即 **_tubulitis_**，並伴隨 **_interstitial inflammation_** [1]。\n    *   在嚴重的 **_TCMR_**（如 **_Banff Grade II/III_**）中，還會進一步侵犯血管內皮，引發 **_endothelialitis / intimal arteritis_** [1-3]。\n\n2.  **病毒性腎炎的組織形態學重疊 (Histopathological Overlap with Viral Infections)**：\n    *   **_viral tubulointerstitial nephritis_**（最典型代表為 **_BKVN_**，而 **_CMV nephritis_** 也具有相似表現）在光鏡下也會引發強烈的 **_mononuclear cell infiltration_** 與 **_tubulitis_** [1, 4]。\n    *   這種極高的組織形態學相似性，使得單憑常規光鏡下的 **_tubulitis_** 與 **_interstitial nephritis_**，在臨床上極難與 **_acute cellular rejection_** 進行精準區分 [1, 4]。\n\n3.  **不當經驗性免疫抑制的致命風險 (The Danger of Inappropriate Immunosuppression)**：\n    *   若在未排除活動性病毒感染的情況下，盲目給予一線的 **_high-dose corticosteroid pulse therapy_**（Option A），會因進一步人為擴大免疫抑制，劇烈加速 **_opportunistic infections_** 的複製，極易誘發生命威脅的 **_CMV pneumonitis_**、**_GI ulceration_** 或 **_severe BKVN_** [5-8]。\n    *   反之，若在未確診的情況下盲目將 **_TCMR_** 當作病毒感染而調低免疫抑制劑劑量，則會導致免疫反應失控，引發不可逆的移植物破壞 [9, 10]。\n    *   因此，**_KDIGO_** 與臨床指引強烈建議：「多種造成移植物功能惡化的原因，僅能經由切片與特異性檢測與排斥反應進行區置」 [11, 12]。\n\n4.  **Assessing CMV Viral Load 臨床定位（Option D 之合理性）**：\n    *   雖然 sources 中未對 **_CMV nephritis_** 的鑑別滴定進行特異性演算法規範，但指出對於 **_CMV disease_** 的管理，**_quantitative PCR_**（即 **_quantitative NAT_**）是一種極快且極為敏感的檢測手段，能精密監測血液循環中的 **_viral load_** 以引導 **_antiviral therapy_**（如 **_intravenous ganciclovir_** 或 **_oral valganciclovir_**） [6, 13-15]。因此，在臨床實務中，Option (D) 是最具合理性與安全性的排查決策。\n\n---\n\n### 3. Distractor Option Analysis\n\n*   **Option (A) Immediate initiation of high-dose corticosteroid pulse therapy without further testing（錯誤描述）**：\n    *   *排診原因*：雖然高劑量靜脈注射甲強龍（**_methylprednisolone pulse_**）是治療 **_uncomplicated TCMR_** 的首選方案 [16, 17]，但在未開展進一步特異性病毒（如 **_CMV_**、**_BKV_**）排查的情況下盲目使用，會直接消除宿主對病毒的天然免疫控制。這將引發病毒暴發性增殖，誘發嚴重的 **_tissue invasive CMV disease_** [5, 6]，為絕對危險的處方紅線。\n    *   *出題意圖*：測試考生是否具備「在啟動強效免疫抑制前，必須先排除活動性機會性感染」這一最核心的移植管理感控防線。\n\n*   **Option (B) Empirical treatment with intravenous immunoglobulin and plasmapheresis（錯誤描述）**：\n    *   *排診原因*：**_Plasmapheresis (plasma exchange)_** 聯用 **_intravenous immunoglobulin (IVIg)_** 是針對移植物血管內皮急性體液損傷 —— **_active antibody-mediated rejection (ABMR)_** 的特異性一線清除方案 [10, 12, 18]。它對於以淋巴細胞侵入上皮為特徵的 **_TCMR_**，或者是病毒介導的 **_tubulointerstitial nephritis_** 均無直接的病理生理學治療價值，在此情境下屬於完全不對位的醫療資源浪費。\n    *   *出題意圖*：評估考生能否在免疫機制上，精準區分「抗體/補體介導的內皮發炎（**_ABMR_**，需 **_PEX/IVIg_**）」與「細胞毒性 T 細胞/病毒損傷小管（**_TCMR_** / **_viral nephritis_**）」的本質差異。\n\n*   **Option (C) Increasing the calcineurin inhibitor trough level targets（錯誤描述）**：\n    *   *排診原因*：當面臨疑似 **_CMV nephritis_** 或 **_BKVN_** 時，首要處置是減少、而非增加免疫抑制 [19-21]。調高 **_CNI trough level targets_**（如將 **_tacrolimus trough_** 推高至 $>15\\text{ ng/mL}$）非但會加劇病毒複製，更會直接引發嚴重的急性 **_CNI nephrotoxicity_**，進一步惡化本就受損的 **_allograft function_** [1, 22, 23]。\n    *   *出題意圖*：此選項利用了「發生排斥時需加強免疫抑制」這一常規慣性思維設置陷阱，評估考生能否識別出高強度 CNI 本身對病毒清除與腎毒性的雙重負面效應。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在 **_renal transplant evaluation board exams_** 中，圍繞移植物功能惡化伴隨小管間質發炎，以下兩組對照是考場上最具專科深度的鑑別重點：\n\n#### 1) Acute Cellular Rejection (TCMR) vs. BK Polyomavirus Nephropathy (BKVN)\n這是一組在切片上最常發生診斷衝突的臨床雙子星（參照 **_Chapter 74 - Passages 243, 244_**）：\n*   **_Acute TCMR_**：\n    *   *病理特徵*：顯著的 **_tubulitis_** 與 **_interstitial inflammation_** [1]；在 Grade II/III 時可見 T 細胞侵犯動脈內皮下（**_intimal arteritis / endothelialitis_**） [2, 3]。\n    *   *特殊組化*：**_SV40 Large T antigen staining_ 呈絕對陰性** [4]。\n    *   *治療*：**_high-dose corticosteroid pulse therapy_** [16, 17]。\n*   **_BK Polyomavirus Nephropathy (BKVN)_**：\n    *   *病理特徵*：同樣表現為顯著的 **_tubulitis_** 伴 **_interstitial nephritis_** [4]。但上皮細胞核內可見典型的 **_intranuclear viral inclusion bodies_**（或尿中出現 **_decoy cells_**） [4, 21]。\n    *   *特殊組化*：**_SV40 large T antigen immunohistochemical staining_ 呈現特異性強陽性** [4]。\n    *   *治療*：**_reduction of maintenance immunosuppressive medication_**（如停用 MMF 或將 CNI 減量 50%） [21, 24]。\n\n#### 2) Acute Cellular Rejection (TCMR) vs. Acute Allergic Interstitial Nephritis (AIN) in Allograft\n這是小管間質發炎中，極易混淆的免疫介導病變鑑別（參照 **_Chapter 70 - Passage 202_**）：\n*   **_Acute TCMR_**：\n    *   *病生理與形態*：移植物特異性同種異體抗原結合引發。病理上，一旦出現 **_endothelialitis (intimal arteritis)_**，即可明確診斷為排斥 [3]。\n*   **_Acute Allergic Interstitial Nephritis (AIN)_**：\n    *   *病生理與形態*：為排除性診斷，常由藥物（如 **_SMX-TMP_** 或其他抗生素）引發的遲發型超敏反應所致 [3]。雖然切片中同樣可見單核細胞與 **_eosinophils_** 浸潤，但**絕對不伴隨 _endothelialitis_** [3]。其管理完全依賴於立即停用可疑藥物 [3]。\n\n---\n\n### 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, Chapter 70: **Clinical Management of the Adult Kidney Transplant Recipient**，載於 subheadings：\n        *   **ACUTE REJECTION / T-Cell Mediated Rejection** [referencing **Passages 192, 193**]。\n        *   **Table 70.7 Differences Between Pure Forms of Acute TCMR and Active ABMR** [referencing **Passage 194**]。\n        *   **Table 70.8 Banff Diagnostic Categories for Kidney Transplant Histopathology** [referencing **Passages 195, 196**]。\n        *   **Acute Allergic Interstitial Nephritis** [referencing **Passage 202**]。\n        *   **CYTOMEGALOVIRUS / Diagnosis and Treatment** [referencing **Passages 206, 207, 208, 209**]。\n    *   *Brenner & Rector's The Kidney*, Chapter 74: **Renal Replacement Therapy (Dialysis and Transplantation) in Pediatric End-Stage Kidney Disease**，載於 subheadings：\n        *   **TRANSPLANTATION / Graft Dysfunction / Rejection / BKV** [referencing **Passages 243, 244**]。\n    *   *KDIGO 2009 Clinical Practice Guideline for the Care of Kidney Transplant Recipients*, Section I: **Immunosuppression / Chapter 6: Treatment of acute rejection** [referencing **Passages 285, 286, 287, 288, 289**]。\n    *   *KDIGO 2009 Clinical Practice Guideline*, Section II: **Infectious Diseases / Chapter 13: Viral Diseases / BKV / CMV** [referencing **Passages 297, 298, 299, 301, 302, 303, 304, 305**]。\n\n*   **Figures, Tables, & Boxes**：\n    *   *B&R Chapter 70*, **Table 70.7**（對比了 Acute TCMR 與 Active ABMR 在發病時間、小管炎/間質炎、管周毛細血管炎/腎小球炎、C4d 染色、血清 DSA 以及治療方案上的九宮格差異）[referencing **Passage 194**]。\n    *   *B&R Chapter 70*, **Table 70.18**（Manifestations of CMV Disease in the Kidney Transplant Recipient，詳列了 CMV 侵犯各類組織器官的病理與臨床表現，標明了其與 FSGS 的關聯）[referencing **Passage 209**]。\n    *   *KDIGO 2009 Guideline*, **Table 14**（Treatment of BKV nephropathy by modification of maintenance immunosuppression，精密列舉了減量 CNI 與 MMF、轉換至 leflunomide 或 sirolimus 的標準調整路徑）[referencing **Passages 299**]。\n\n---\n\n🔍 **Nudge**: 雖然本題因為 sources 中缺乏針對 **_early CMV nephritis_** 與 **_acute cellular rejection_** 在 **_tubulitis_** 背景下的具體鑑別文字而觸發了資料庫限制保護，但我們結合 **_Banff criteria_** 關於 **_tubulitis_** 的病理定位以及 **_KDIGO_** 對機會性感染與排斥反應的對立處置邏輯，精密重構了體外微環境的診斷決策。要不要我為您開展網路檢索（research on the web），為您蒐集國際最新的移植腎病理學與感控指引（如 **_AST-IDCOP Guidelines_**），深入對照在活檢提示 **_tubulitis_** 且高度懷疑 **_CMV nephritis_** 的重症患者中，如何利用 **_tissue IHC for CMV early antigen_** 與 **_quantitative plasma CMV PCR_** 進行安全排查，並安全引導 **_Ganciclovir_** 滴定與免疫抑制劑調降的最新專科考點？",
           "qcStatus": "FAILED",
           "databaseSufficiency": "INSUFFICIENT",
-          "selectedOption": "NONE"
+          "selectedOption": "D"
         }
       ],
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
-      "qcNotes": "Both NLMs stated INSUFFICIENT_DATABASE_EVIDENCE and did not select any letter. Evaluated as NONE. Agreeing on NONE but differing from source D."
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q13",
@@ -689,8 +701,9 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
-      "qcNotes": "No issues found. Semantic extraction confirms A."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q14",
@@ -741,8 +754,9 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
-      "qcNotes": "No issues found. Semantic extraction confirms B."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q15",
@@ -793,8 +807,9 @@
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:41+08:00",
-      "qcNotes": "No issues found. Semantic extraction confirms C."
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q16",
@@ -824,8 +839,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
-      "qcNotes": "100% semantic agreement on A. Language audit passed.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
       "nlmResponses": [
         {
           "account": "b92401024",
@@ -847,7 +862,8 @@
         }
       ],
       "selectedOption": "A",
-      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
+      "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q17",
@@ -874,11 +890,11 @@
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CMV 對 ganciclovir 產生 high-level resistance 時，通常需改用 foscarnet 或 cidofovir 等不需經由 viral kinase activation 的藥物作為 second-line therapy。Maribavir 也可用於 refractory/resistant CMV infection。",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
-      "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
-      "qcNotes": "NLM1 concluded NONE. NLM2 concluded D. Source is D. Language audit passed.",
+      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -896,11 +912,12 @@
           "rawResponse": "**INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.**\n\n---\n\n### 1. Answer Determination (正解判定)\n\n雖然在臨床病毒學與器官移植醫學中，對於合併 **`UL97`**（激酶）與 **`UL54`**（DNA 聚合酶）突變而導致對 **`Ganciclovir`** 產生高水平抗藥性的活動性 **`Cytomegalovirus (CMV)`** 感染，通常指徵選用 **`(D) Foscarnet`** 作為替代之第二線搶救治療藥物；**然而，經系統性檢索本專案的所有 `notebook sources`，文獻中雖提及了 `ganciclovir`、`valganciclovir` 與 `foscarnet` 用於治療 `CMV` [1-3]、`letermovir` 用於預防之臨床試驗 [4]，但現有資料庫中完全缺乏關於 `UL97` 與 `UL54` 基因突變、抗藥性產生機制以及對應二線用藥選擇的具體文字載錄或指引推薦。**\n\n因此，本處依據 `Database Limitation Guard` 規範，明確輸出 `INSUFFICIENT_DATABASE_EVIDENCE`。以下將結合專科醫學學術共識與現有文獻生理學脈絡，對此臨床考題進行深度剖析：\n\n---\n\n### 2. Detailed Rationale & Correct Option Analysis (正確選項之臨床與生理學機制分析 ── 兼資料庫缺漏分析)\n\n在移植醫學與感染症學中，針對 **`ganciclovir-resistant CMV`** 的分子致病機制與二線治療（**`Foscarnet`**）的生理基礎分析如下：\n\n#### (1) Ganciclovir 活化與 UL97 激酶突變\n*   **`Ganciclovir`** 與其口服前驅藥 **`Valganciclovir`** 在進入受感染細胞後，必須首先經由 **`CMV`** 的 **`UL97` 基因**所編碼的 **`viral protein kinase`** 進行首次磷酸化，轉化為單磷酸形式（**`monophosphate`**）。隨後再利用宿主細胞激酶（**`cellular kinases`**）進一步磷酸化，生成具活性、可直接抑阻病毒 DNA 複製的活性三磷酸形式（**`triphosphate`**） [4, 5]。\n*   當 **`UL97`** 發生突變時，激酶的磷酸化活性喪失，導致 **`ganciclovir`** 無法被有效活化，因而產生對 **`ganciclovir`** 與 **`valganciclovir`** 的原發性抗藥性 [5]。\n\n#### (2) UL54 DNA 聚合酶突變與交叉抗藥性\n*   **`UL54` 基因**編碼 **`viral DNA polymerase`** 本身。當其發生突變時，除了會代償性加重對 **`ganciclovir`** 的抗藥性外，還常常引起對 **`cidofovir`** 乃至 **`foscarnet`** 的交叉抗藥性（**`cross-resistance`**）。\n*   當患者發生 **`combined UL97 and UL54 mutations`** 的雙重突變時，代表病毒株對 **`ganciclovir`**、**`valganciclovir`** 暨 **`cidofovir`** 均呈現高度抗藥性，使得這三種依賴相同或相似聚合酶結合位點的抗病毒藥物理論上完全失效。\n\n#### (3) Foscarnet 的獨特藥理機制與二線首選價值 (Option D)\n*   **`Foscarnet`** 是一種焦磷酸鹽類似物（**`pyrophosphate analog`**），它能直接且非競爭性地結合至 **`viral DNA polymerase`** 的焦磷酸結合位點，從而直接抑阻焦磷酸從核苷三磷酸中分裂，終止鏈延長。\n*   最關鍵的藥理生理特徵在於：**`Foscarnet` 的活化完全不需要經過 `viral UL97 kinase` 的首次磷酸化作用**。\n*   雖然部分 **`UL54`**（聚合酶）的點突變也可能會波及 **`foscarnet`** 的結合，但由於其與核苷類似物（**`ganciclovir`**）及核苷酸類似物（**`cidofovir`**）在聚合酶上的物理結合域不完全相同，因此在 **`combined UL97 and UL54 mutations`** 引發的重度抗藥性情境下，**`Foscarnet`** 依然是臨床指引所推薦的最核心、最關鍵的替代/第二線治療選擇 [1]。這與資料庫載錄的 **`CMV infection responds to treatment with ganciclovir or foscarnet` [1]** 高度吻合。\n\n---\n\n### 3. Distractor Option Analysis (干擾項排除與設題意圖剖析)\n\n*   **(A) Acyclovir** 與 **(C) Valacyclovir**\n    *   *為何錯誤*：首先，**`Acyclovir`** 與其口服前驅藥 **`Valacyclovir`** 在進入細胞後，其首次磷酸化同樣高度依賴病毒的激酶（如 **`HSV thymidine kinase`** 或 **`CMV UL97 kinase`**）。在 **`UL97`** 與 **`UL54`** 雙重突變背景下，這兩種藥物完全無法被有效活化而徹底失效。其次，它們對 **`CMV`** 的體外內置抑阻活性本就極低，指引明確規定：**`The use of acyclovir and valacyclovir should be restricted to situations where ganciclovir / valganciclovir cannot be used`（僅限於無法取得 ganciclovir 時作為預防性替代，Passage 289） [6]**。此外，在高劑量下（如移植術後盲目使用），它們極易在腎小管內析出針狀結晶，誘發 **`crystal-induced AKI` [7]**。\n    *   *出題者意圖*：測試考生對同屬疱疹病毒科抗病毒藥物在對抗 **`CMV`** 時的藥效學活性等級（**`efficacy`**）與耐藥阻抗性（**`resistance profiles`**）的層級劃分。\n\n*   **(B) Letermovir**\n    *   *為何錯誤*：**`Letermovir`** 是一種新型非核苷類抗 **`CMV`** 藥物，其靶點為 **`viral terminase complex`**（由 `UL56` 基因編碼），完全不涉及 **`UL97`**（激酶）與 **`UL54`**（DNA 聚合酶）。雖然其不受這兩類突變的影響，但目前在移植醫學指引中，**`Letermovir` 僅被推薦用於 `CMV prophylaxis`（預防，見 Passage 189：`Letermovir is currently being trialled as CMV prophylaxis in kidney transplant patients`） [4]**，並非用於治療已發生嚴重臟器侵襲（如 **`pneumonitis`** 或 **`enteritis`**）之活動性抗藥性 **`CMV disease`** 的標準二線治療。\n    *   *出題者意圖*：引入近年來在預防醫學中備受關注的新一代終端酶抑制劑（**`Letermovir`**），評估考生能否精確劃分其臨床適應症邊界（**`prophylaxis`** 預防 vs. **`treatment of active clinical disease`** 活動性疾病治療）與資料庫在最新指引中的證據等級。\n\n---\n\n### 4. Exam Differential Diagnosis & High-Yield Comparisons (專科考試高頻對照)\n\n在 **`Nephrology Board Exams`** 中，圍繞 **「腎移植受體術後晚期病毒感染與藥物腎毒性」** 是最具臨床深度的考點，以下對比極具高頻考核價值：\n\n#### (1) CMV (Cytomegalovirus) vs. BKV (BK Polyomavirus) 在移植受體中的精細鑑別\n\n*   **發病時間與臨床特徵**：\n    *   **`CMV disease`**：典型發生在術後 **`1 to 6 months`** 內 [8]。臨床表現為全身性症狀，包括發熱、不適、**`severe leukopenia / neutropenia`**，並常波及特定器官表現為 **`pneumonitis`**（間質性肺炎，可致命）、**`gastrointestinal ulceration`**（腸胃道潰瘍出血）與 **`retinitis`** [2, 8, 9]。\n    *   **`BKV infection`**：發病通常較晚。臨床上多表現為 **`asymptomatic viremia`**，但若不進行早期介入，會病理性進展為 **`BK polyomavirus-associated nephropathy` (BKVAN)**，典型引起無痛性的、緩慢進行性 **`allograft dysfunction`** [10-12]。\n*   **首選處置與藥物調控分流**：\n    *   **`CMV disease`**：一線治療依賴於 **`reduction of immunosuppression`（優先減量 `antimetabolite` 如 `MMF`）聯手足量的 `antiviral therapy`（IV ganciclovir 或 oral valganciclovir）** [2, 9, 13]。\n    *   **`BKVAN`**：其治療核心**完全依賴於** **`reduction of immunosuppression`** [12, 14, 15]。指引強調：**至今無任何 definitive evidence 支持任何抗病毒藥物（如 `cidofovir`、`leflunomide` 或 `quinolones`）能有效預防或治療 BKVAN** [15-18]。\n\n#### (2) Foscarnet Nephrotoxicity vs. CMV Nephropathy (藥物毒性與病毒本身損害的切片鑑別)\n當使用二線藥物治療時，出現腎功能惡化是常見的診斷難題：\n*   **`Foscarnet Nephrotoxicity` (Foscarnet 腎毒性)**：\n    *   *病理特徵*：根據 **`KDIGO 2026 AKI-AKD Guideline` (Passage 787)**，**`Foscarnet`** 會在小管腔內形成特徵性的結晶沉積。鏡下表現為 **`plates and geometric shapes in dilated capillary loops and tubular lumens`**，且在偏光顯微鏡下呈現強烈的 **`positively birefringent on polarization`** [19]。臨床上伴隨 **`AKI`**、**`hematuria`** 與 **`proteinuria`** [19]。\n*",
           "qcStatus": "FAILED",
           "databaseSufficiency": "INSUFFICIENT",
-          "selectedOption": "D"
+          "selectedOption": "NONE"
         }
       ],
       "selectedOption": "D",
-      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。"
+      "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
       "id": "Q18",
@@ -930,8 +947,8 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
-      "qcVerifiedAt": "2026-08-01T04:10:44+08:00",
-      "qcNotes": "100% semantic agreement on B. Language audit passed.",
+      "qcVerifiedAt": "2026-08-01T12:29:06.711Z",
+      "qcNotes": "NLM responses fully match source provided answer.",
       "nlmResponses": [
         {
           "account": "mudskipper24",
@@ -953,7 +970,8 @@
         }
       ],
       "selectedOption": "B",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
+      "qcVerifiedBy": "tn-exam-qc-subagents"
     }
   ],
   "qcVerifiedCount": 18,

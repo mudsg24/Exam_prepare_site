@@ -967,8 +967,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "selectedOption": "D",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",

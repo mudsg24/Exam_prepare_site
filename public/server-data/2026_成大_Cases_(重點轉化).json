@@ -95,7 +95,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "文獻中詳細記載了 acute or chronic renal failure 合併 respiratory distress 與 hemoptysis 的經典 differential diagnosis，如由 autoantibodies 驅動的 anti-Goodpasture syndrome 或是 ANCA-associated vasculitis 所引發的 pulmonary-renal syndrome。此外，任何原因引起的 acute kidney injury 若併發重度 hypervolemia，均可導致 pulmonary edema。然而，對於 uremic pneumonitis 的確切病理生理機制（如 uremic toxins 是否導致 increased alveolar-capillary membrane permeability 並臨床上模仿 autoimmune pulmonary-renal syndrome）並無直接證據支持，故無法明確判定單一選項。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "runIndex": 1,
@@ -119,7 +119,7 @@
         }
       ],
       "resolvedImages": [],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 2,
       "selectedOption": "NONE",
       "databaseSufficiency": "SUFFICIENT",
@@ -156,7 +156,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "對於 peritoneal dialysis 患者出現 hydrothorax 的 differential diagnosis，文獻中主要探討了與 hypervolemia 相關的 pleural effusions，以及常見的 peritoneal dialysis complications 如 peritonitis、hemoperitoneum 與 encapsulating peritoneal sclerosis。雖然臨床上 pleuroperitoneal communication 是長期 dialysis patients 可能發生的 non-infectious complications，其特徵為 dialysate 經由 diaphragmatic defect 進入 pleural cavity，且可藉由測量 elevated pleural-to-serum glucose gradient 來確立 diagnosis，但此 pathophysiology 機制未在資料庫文獻中詳細描述，故無法從文獻證據中確切判定。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "runIndex": 1,
@@ -189,7 +189,7 @@
           "filename": "Fig_64_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 3,
       "selectedOption": "NONE",
       "databaseSufficiency": "SUFFICIENT",
@@ -785,7 +785,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "TDF 可引發 renal Fanconi syndrome 與 Type 2 RTA。TDF 進入 proximal tubule cells 後，抑制 mitochondrial DNA polymerase gamma，導致 mitochondrial DNA depletion 與 ATP depletion。缺乏 ATP 使得 Na+-K+-ATPase 等 active transport 停擺，引發 normoglycemic glycosuria、hypophosphatemia 與 hypouricemia。Pathological features 包含 acute tubular injury、megamitochondria 與 loss of cristae。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -812,7 +812,7 @@
           "filename": "Fig_8_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 13,
       "selectedOption": "NONE",
       "databaseSufficiency": "SUFFICIENT",
@@ -916,7 +916,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Source literature 不足，無法提供足夠的 analysis。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -943,7 +943,7 @@
           "filename": "Fig_8_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 15,
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
@@ -1033,7 +1033,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 KDIGO 2021 guidelines，針對合併 abnormal kidney function 的 idiopathic immune complex-idiopathic ICGN 患者，本題所提供的 options 中無完全正確的選項。在 standard clinical guidelines 下，除了給予 renin-angiotensin system inhibition 等 optimal supportive care 之外，首選的 first-line initial immunosuppressive therapy 應為 oral glucocorticoid monotherapy（具體為 oral prednisone or prednisolone，持續 12-16 weeks）。Option A 錯誤，在 KDIGO 2021 已明確撤銷 immediate initiation of cyclophosphamide 作為 routine recommendation，因為長期給予 alkylating agents 並未優於 steroid monotherapy，反而帶來嚴重毒性，僅在 rapidly progressive crescentic idiopathic ICGN 時方可啟動 combination therapy。Option B 錯誤，plasma exchange therapy 缺乏 randomized controlled trials 的 evidence of benefit，僅在特定病因如合併嚴重的 cryoglobulinemic flare 或極度高危的 anti-glomerular basement membrane disease 與 ANCA-associated vasculitis 中使用。Option C 錯誤，high-RPGN、pathology 呈廣泛 crescentic glomerulonephritis 或伴有嚴重 extrarenal involvement 的患者。Option D 錯誤，針對 idiopathic membranoproliferative glomerulonephritis type I，monoclonal antibody targeting CD20（例如 rituximab）的應用仍缺乏大型 prospective clinical trials 支持，並非初始推薦首選。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -1060,7 +1060,7 @@
           "filename": "Box_31_1_part1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 17,
       "selectedOption": "C",
       "databaseSufficiency": "SUFFICIENT",
@@ -1174,7 +1174,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據目前提供的 literature evidence，無足夠 evidence 確認本題的 correct answer。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "selectedOption": "NONE",
@@ -1203,7 +1203,7 @@
           "filename": "Fig_64_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 19,
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
@@ -1359,7 +1359,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據臨床與 Brenner 11e 記載，Hodgkin lymphoma 是 adult minimal change disease 極為著名的 secondary trigger。其餘選項：polycystic kidney disease 為 hereditary kidney disease，lead toxicity 引發 chronic tubulointerstitial nephritis，essential hypertension 常伴隨 secondary FSGS，而 Hepatitis C virus 主要引起 MPGN 或 MN。",
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (3-5)",
@@ -1388,7 +1388,7 @@
           "filename": "Box_31_1_part1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 22,
       "selectedOption": "NONE",
       "databaseSufficiency": "SUFFICIENT",
@@ -1619,7 +1619,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據目前提供的文獻資料，無足夠證據確認本題的正確答案。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-3)",
@@ -1649,7 +1649,7 @@
           "filename": "Fig_16_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 26,
       "selectedOption": "A",
       "databaseSufficiency": "SUFFICIENT",
@@ -1766,7 +1766,7 @@
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "根據 Brenner & Rector's The Kidney，eosinophilic peritonitis 典型表現為 minimal abdominal pain，這與 acute bacterial peritonitis 伴隨的劇烈 abdominal pain 形成關鍵鑑別。eosinophilic peritonitis 是一種對 catheter 組件或 dialysis solutions 產生的 localized hypersensitivity reaction。當 cloudy effluent 中的 eosinophils 比例大於 10% 且 peritoneal fluid culture 陰性時，即可確診。由於本病屬於良性且高度 self-limiting 的 immune response，常規無需給予 antibiotics。然而，為防止大量 fibrin 析出導致 catheter obstruction，可使用 low-dose oral glucocorticoids 或 antihistamines 進行 systemic anti-allergic therapy。E 錯誤，因其為 sterile hypersensitivity reaction，不會表現為 severe abdominal pain，且給予 intraperitoneal antibiotics 無效。B 錯誤，該病症屬於 noninfectious hypersensitivity reaction，具有自限性，無需進行 surgical removal of the peritoneal dialysis catheter。C 錯誤，此病症為 localized hypersensitivity reaction，極少誘發 systemic anaphylaxis，無需中斷 peritoneal dialysis 並切換至 continuous venovenous hemofiltration。",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
+      "qcStatus": "QC_FAILED",
       "nlmResponses": [
         {
           "notebookTitle": "TSN：出題 (2-5)",
@@ -1795,7 +1795,7 @@
           "filename": "Fig_64_1.png"
         }
       ],
-      "qcVerified": true,
+      "qcVerified": false,
       "number": 28,
       "selectedOption": "D",
       "databaseSufficiency": "SUFFICIENT",

@@ -451,8 +451,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "reconciliationNotes": "醫學判定：標準答案 (D) 與 NLM #1 (D) 及 NLM #2 (D) 一致，且符合 Secondary Syphilis 呈現 Membranous Nephropathy Pattern 之臨床共識。",
       "number": 7,
       "qcVerifiedAt": "2026-07-31T06:15:24.409Z",

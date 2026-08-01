@@ -109,7 +109,7 @@ function lintExamFile(filePath) {
 
           // Check for Synthetic / Faked NLM Responses (copy of sourceExplanation)
           const cleanExpl = (q.sourceExplanation || '').trim();
-          if (cleanExpl.length > 50 && resp.rawResponse.includes(cleanExpl)) {
+          if (cleanExpl.length > 50 && resp.rawResponse && resp.rawResponse.includes(cleanExpl)) {
             errors.push(`[${fileName} -> ${qLabel}] FAKED NLM RESPONSE DETECTED! nlmResponse #${rIdx + 1} rawResponse contains verbatim copy of sourceExplanation.`);
           }
         });

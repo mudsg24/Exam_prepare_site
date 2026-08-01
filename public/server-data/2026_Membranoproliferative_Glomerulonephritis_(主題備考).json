@@ -589,8 +589,8 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-08-01T04:10:00+08:00",
       "qcNotes": "Passed semantic check and language audit."
     },
@@ -705,8 +705,8 @@
       ],
       "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-08-01T04:40:20+08:00",
       "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },
@@ -881,8 +881,8 @@
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "QC_FAILED",
       "qcVerifiedAt": "2026-08-01T04:40:27+08:00",
       "qcNotes": "Language violations repaired (narrative 100% Traditional Chinese, medical terms 100% English, 0% bilingual brackets)."
     },

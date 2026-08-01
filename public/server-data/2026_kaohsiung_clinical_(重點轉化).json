@@ -211,8 +211,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "nlmResponses": [
         {
           "runIndex": 1,
@@ -272,8 +272,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "QC_FAILED",
+      "qcVerified": false,
       "nlmResponses": [
         {
           "runIndex": 1,

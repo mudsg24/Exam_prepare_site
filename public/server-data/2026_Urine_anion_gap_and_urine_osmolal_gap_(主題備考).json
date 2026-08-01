@@ -780,10 +780,10 @@
         }
       ],
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "qcStatus": "QC_DISPUTED",
+      "qcVerified": true,
       "selectedOption": "NONE",
-      "qcNotes": "NLM1 and NLM2 returned INSUFFICIENT_DATABASE_EVIDENCE (NONE), mismatching the source provided answer A.",
+      "qcNotes": "Mismatch. NLM1: NONE, NLM2: A, Src: A",
       "qcVerifiedAt": "2026-08-01T07:11:46.338421+00:00"
     },
     {

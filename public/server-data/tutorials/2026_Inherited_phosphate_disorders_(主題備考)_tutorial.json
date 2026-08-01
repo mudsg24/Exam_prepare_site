@@ -6,11 +6,11 @@
     {
       "title": "Topology Mapping Matrix & Differential Comparison",
       "content": "遺傳性低血磷症可依據 FGF23 依賴性分為兩大類。FGF23 依賴性疾病主要表現為 FGF23 異常升高，導致 Proximal Tubule 的 NPT2a 與 NPT2c 表現下降，引發 Phosphate 浪費，同時抑制 1-alpha-hydroxylase 使 1,25(OH)2D 製造減少。此類包含 XLH (PHEX 突變)、ADHR (FGF23 突變)、ARHR (DMP1 或 ENPP1 突變) 以及後天性的 TIO。FGF23 非依賴性疾病則是由於 Phosphate Transporter 本身異常或吸收障礙所致，例如 HHRH (SLC34A3 突變)，此類患者通常會有 1,25(OH)2D 代償性升高，進一步引發 Hypercalciuria。比較這兩大類，FGF23 依賴性通常伴隨正常或偏低的 1,25(OH)2D 與無 Hypercalciuria，而 FGF23 非依賴性如 HHRH 則有明顯的 Hypercalciuria 與升高的 1,25(OH)2D。",
-      "images": [
+      "diagrams": [
         {
           "id": "Brenner 11e_Table_73_15",
           "relPath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Table_73_15.png",
-          "imagePath": "Table_73_15.png",
+          "imagePath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Table_73_15.png",
           "caption": "Causes of Hypophosphatemia",
           "sourceBook": "Brenner 11e",
           "type": "micrograph"
@@ -18,7 +18,7 @@
         {
           "id": "ai_topology_phosphate",
           "relPath": "/server-data/assets/phosphate_disorders_topology_1785588240322.jpg",
-          "imagePath": "phosphate_disorders_topology_1785588240322.jpg",
+          "imagePath": "/server-data/assets/phosphate_disorders_topology_1785588240322.jpg",
           "caption": "Topology of Inherited Phosphate Disorders",
           "sourceBook": "Gemini AI",
           "type": "ai_illustration"
@@ -28,11 +28,11 @@
     {
       "title": "Pathophysiological Decision Trees",
       "content": "理解 FGF23 的生理作用途徑是診斷這類疾病的核心。Osteocyte 分泌 FGF23，正常情況下它與 Klotho 共同作用於 Kidney，促進 Phosphate 排泄。在 XLH 中，PHEX 基因突變導致 FGF23 過度製造與累積。FGF23 一旦過高，除了引發 Hypophosphatemia，更會抑制 CYP27B1 (1-alpha-hydroxylase)，導致 1,25(OH)2D 的生成被抑制。因此，在測量 FGF23 濃度時，需要特別注意 Assays 的特性，例如 Intact FGF23 與 C-terminal FGF23 之間的差異。在 ADHR 由於 FGF23 本身突變抗拒 Cleavage，兩種 Assays 均會升高；而在 TIO 則是 Tumor 大量分泌。這些病生理機制決定了後續的治療決策不能單純補充 Phosphate，否則容易引起 Secondary Hyperparathyroidism，近年來 Burosumab (抗 FGF23 抗體) 的出現正是直接針對此 Pathophysiology 進行阻斷。",
-      "images": [
+      "diagrams": [
         {
           "id": "Brenner 11e_Fig_53_15",
           "relPath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_15.png",
-          "imagePath": "Fig_53_15.png",
+          "imagePath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_15.png",
           "caption": "FGF-23 assays and processing",
           "sourceBook": "Brenner 11e",
           "type": "micrograph"
@@ -40,7 +40,7 @@
         {
           "id": "ai_xlh_pathophysiology",
           "relPath": "/server-data/assets/xlh_pathophysiology_1785588410655.jpg",
-          "imagePath": "xlh_pathophysiology_1785588410655.jpg",
+          "imagePath": "/server-data/assets/xlh_pathophysiology_1785588410655.jpg",
           "caption": "Pathophysiology of X-Linked Hypophosphatemia (XLH)",
           "sourceBook": "Gemini AI",
           "type": "ai_illustration"
@@ -50,11 +50,11 @@
     {
       "title": "Conceptual Trap Analysis",
       "content": "在診斷 Hypophosphatemia 時，一個常見的 Conceptual Trap 是未正確區分 Renal Wasting 與 Redistribution/Intake 問題。正確的 Diagnostic Algorithm 第一步應當計算 TmP/GFR，以確認是否存在 Renal Phosphate Wasting。一旦確認為腎臟流失，下一步必須測量 FGF23 與 1,25(OH)2D。陷阱在於：如果發現 FGF23 高、1,25(OH)2D 低，則強烈暗示 XLH 或 TIO；如果 FGF23 低、1,25(OH)2D 高，並伴隨 Hypercalciuria，則應懷疑 HHRH 或其他非依賴性 Tubulopathies。臨床上另一個 Trap 是針對 FGF23 依賴性疾病給予單純 Phosphate 補充，這會刺激 PTH 分泌，反而加重 Bone Mineralization 的缺陷，導致 Nephrocalcinosis，這就是為何傳統療法必須同時加上 Calcitriol。唯有嚴格依循 Algorithm，才能避免治療上的錯誤決策。",
-      "images": [
+      "diagrams": [
         {
           "id": "Brenner 11e_Fig_73_12",
           "relPath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Fig_73_12.png",
-          "imagePath": "Fig_73_12.png",
+          "imagePath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Fig_73_12.png",
           "caption": "Algorithm for diagnosis of hypophosphatemia",
           "sourceBook": "Brenner 11e",
           "type": "micrograph"
@@ -62,7 +62,7 @@
         {
           "id": "ai_hypophosphatemia_diagnosis",
           "relPath": "/server-data/assets/hypophosphatemia_diagnosis_algorithm_1785588426456.jpg",
-          "imagePath": "hypophosphatemia_diagnosis_algorithm_1785588426456.jpg",
+          "imagePath": "/server-data/assets/hypophosphatemia_diagnosis_algorithm_1785588426456.jpg",
           "caption": "Diagnostic Algorithm for Hypophosphatemia",
           "sourceBook": "Gemini AI",
           "type": "ai_illustration"

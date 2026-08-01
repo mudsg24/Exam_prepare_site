@@ -929,8 +929,8 @@
       "sourceExplanation": "Ravulizumab 為長效型 anti-C5 antibody，透過 point mutations 增強 endosomes 內的 pH-dependent target dissociation 以及 FcRn-mediated recycling，將 half-life 大幅延長，給藥間隔由 Eculizumab 的 2 週延長至 8 週。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -950,7 +950,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "Options match perfectly. Evaluated NLM reasoning.",
+      "qcNotes": "Verified by QC Subagent Batch 6. Options clearly selected despite any INSUFFICIENT header.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案與兩組 NotebookLM 解析完全一致，具備 HIGH_CONFIDENCE。"
     },

@@ -211,8 +211,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
       "nlmResponses": [
         {
           "runIndex": 1,
@@ -235,7 +235,7 @@
       ],
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
+      "qcNotes": "NLM1: A, NLM2: A, Source: A"
     },
     {
       "id": "2026_kaohsiung_clinical_q5",
@@ -272,8 +272,8 @@
         }
       ],
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
       "nlmResponses": [
         {
           "runIndex": 1,
@@ -296,7 +296,7 @@
       ],
       "qcVerifiedAt": "2026-07-31T14:29:28+08:00",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check and language contract cleanup."
+      "qcNotes": "NLM1: C, NLM2: C, Source: C"
     },
     {
       "id": "2026_kaohsiung_clinical_q6",

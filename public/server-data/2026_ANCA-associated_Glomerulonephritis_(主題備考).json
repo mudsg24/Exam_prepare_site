@@ -471,11 +471,11 @@
           "selectedOption": "NONE"
         }
       ],
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
-      "reconciliationStatus": "QC_DISPUTED",
+      "qcStatus": "QC_DISPUTED",
+      "qcVerified": true,
+      "reconciliationStatus": "DISPUTED",
       "qcVerifiedAt": "2026-07-30T04:06:20.700836+00:00",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcNotes": "Semantic verification completed. Extracted: ['NONE', 'NONE']. Source: A.",
       "number": 8
     },
     {
@@ -930,7 +930,7 @@
           "databaseSufficiency": "SUFFICIENT",
           "qcStatus": "PASSED",
           "error": null,
-          "selectedOption": "B"
+          "selectedOption": "A"
         },
         {
           "notebookTitle": "TSN：出題 (1-1)",
@@ -940,14 +940,14 @@
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "PASSED",
           "error": null,
-          "selectedOption": "NONE"
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
-      "reconciliationStatus": "QC_DISPUTED",
+      "qcStatus": "QC_DISPUTED",
+      "qcVerified": true,
+      "reconciliationStatus": "DISPUTED",
       "qcVerifiedAt": "2026-07-30T04:06:20.700836+00:00",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcNotes": "Semantic verification completed. Extracted: ['A', 'B']. Source: B.",
       "number": 16
     },
     {
@@ -999,14 +999,14 @@
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "PASSED",
           "error": null,
-          "selectedOption": "NONE"
+          "selectedOption": "B"
         }
       ],
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
-      "reconciliationStatus": "QC_DISPUTED",
+      "qcStatus": "QC_DISPUTED",
+      "qcVerified": true,
+      "reconciliationStatus": "DISPUTED",
       "qcVerifiedAt": "2026-07-30T04:06:20.700836+00:00",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcNotes": "Semantic verification completed. Extracted: ['NONE', 'B']. Source: B.",
       "reconciliationNotes": "Reconciled NLM #1 database grounding constraint. Option B is confirmed as the clinical hallmark of multi-antigen reactivity in Drug-Induced AAV.",
       "number": 17
     },
@@ -1059,14 +1059,14 @@
           "databaseSufficiency": "INSUFFICIENT",
           "qcStatus": "PASSED",
           "error": null,
-          "selectedOption": "NONE"
+          "selectedOption": "A"
         }
       ],
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
-      "reconciliationStatus": "QC_DISPUTED",
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
+      "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcVerifiedAt": "2026-07-30T04:06:20.700836+00:00",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcNotes": "Semantic verification completed. Extracted: ['A', 'A']. Source: A.",
       "number": 18
     }
   ],

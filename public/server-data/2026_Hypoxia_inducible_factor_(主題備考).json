@@ -682,60 +682,6 @@
       "qcVerifiedBy": "tn-exam-qc-subagents"
     },
     {
-      "id": "q_14",
-      "paperId": "2026_Hypoxia_inducible_factor_(主題備考)",
-      "questionNumber": 14,
-      "stem": "Which HIF isoform paralog is recognized as the primary oncogenic driver of tumor proliferation, angiogenesis, and VEGF/PDGF overexpression in ccRCC?",
-      "options": [
-        {
-          "id": "A",
-          "text": "HIF-1alpha"
-        },
-        {
-          "id": "B",
-          "text": "HIF-2alpha"
-        },
-        {
-          "id": "C",
-          "text": "HIF-3alpha"
-        },
-        {
-          "id": "D",
-          "text": "HIF-1beta (ARNT)"
-        }
-      ],
-      "sourceProvidedAnswer": "B",
-      "sourceAnswerStatus": "provided",
-      "sourceExplanation": "In ccRCC biology, HIF-encoded by EPAS1 is the predominant oncogenic driver promoting tumor growth, cell cycle progression, and transcription of VEGF-A, PDGF-B, GLUT1, and Cyclin D1. In contrast, HIF-1alpha can act as a tumor suppressor in certain ccRCC contexts.",
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
-      "nlmResponses": [
-        {
-          "notebookTitle": "TSN：出題 (1-2)",
-          "accountProfile": "mudskipper24",
-          "notebookId": "561b6d33-7c1d-43a9-ad36-fc5dae10db13",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "selectedOption": "NONE"
-        },
-        {
-          "notebookTitle": "TSN：出題 (1-1)",
-          "accountProfile": "mudskipper24",
-          "notebookId": "6bd5caab-d00a-4f59-a464-459156966b8c",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n---\n\n## 1. Answer Determination (答案判定)\n\n根據對 **`notebook sources`**（特別是 *Brenner & Rector's The Kidney* 第 5、41 與 45 章）的完整學理檢索與分子生物學分析：\n\n雖然在外部實體腫瘤學與分子腫瘤學共識中，**`HIF-2alpha`** 被廣泛公認為主導 **`ccRCC`** 進行性血管生成、細胞增殖與腫瘤演進的最核心 **`primary oncogenic driver`**（這也是臨床上開發新型標靶藥物如 **`HIF-2alpha`** 選擇性阻斷劑的關鍵理論依據）；**但在提供的數據庫文獻中，完全沒有任何文字段落或實證將此特定角色單一且排他性地歸因於 `HIF-2alpha`。** \n\n相反地，數據庫中存在著不一致且相互交織的記載：\n1. 有文獻明確將 **`clear cell renal carcinomas`** 中 **`hypoxia-inducible genes`** 的組成性激活歸因於 **`HIF-1alpha` 的過度表達（`overexpression of HIF-1alpha`）** [1]。\n2. 數據庫亦明文記載，在 **`ccRCC`** 中檢測到的主要是 **`HIF-1alpha` 的升高（`HIF-1alpha elevation was seen primarily with ccRCC`）** [2]。\n3. 雖然文獻也提到 **`HIF-1alpha`** 與 **`HIF-2alpha`** 在 **`VHL`** 缺陷細胞系與腎囊腫中同步增加 [3]，但並未就兩者在致瘤性（**`tumorigenesis`**）與驅動 **`VEGF / PDGF`** 的主導地位上進行優劣切割。\n\n因此，僅憑現有的數據庫證據，無法直接支持並判定 **Option (B)** 為唯一的正確答案。本題必須嚴格遵守安全規範，輸出 **`INSUFFICIENT_DATABASE_EVIDENCE`**。\n\n---\n\n## 2. Detailed Rationale & Correct Option Analysis (正確選項分析與病理生理學理據)\n\n雖然本題觸發了數據庫限制，但根據 **`notebook sources`** 已有的記載，**`pVHL`** 缺陷與下游 **`HIF-alpha`** 蓄積介導 **`ccRCC`** 發病的核心生理與分子機制仍可循序漸進解析如下：\n\n### **I. pVHL 介導 HIF-alpha 氧依賴性降解的正常生理 (Physiological Oxygen-Sensing Pathway)**\n1. 在正常的細胞氧氣張力下（**`normoxia`**），細胞內的 **`HIF-alpha`** 亞基（包括 **`HIF-1alpha`** 與 **`HIF-2alpha`**）會被 **`prolyl hydroxylases (PHDs)`** 進行特定脯氨酰殘基的羥基化 [4-6]。\n2. 這種羥基化修飾使得 **`HIF-alpha`** 能被 **`von Hippel-Lindau tumor suppressor protein (pVHL)`** 特異性識別 [4-6]。**`pVHL`** 作為 **`E3 ubiquitin ligase complex`** 的底物結合亞基，會對羥基化的 **`HIF-alpha`** 進行多聚泛素化標記，引發其隨後在 **`proteasome`** 中被降解 [4-6]。這使得正常氧下 **`HIF-alpha`** 的半衰期極短，無法發揮轉錄活性 [5, 6]。\n\n### **II. VHL 基因失活與下游缺氧反應的病理性組成活化 (Pathological Stabilization in ccRCC)**\n1. 在 **`ccRCC`** 中，最根本且關鍵的分子改變為 **`VHL`** 基因因突變、缺失或甲基化而發生功能喪失（**`disruption or loss of pVHL`**） [7-9]。\n2. 缺乏具備功能的 **`pVHL`** 使得 **`HIF-alpha`** 的泛素化降解受阻，導致 **`HIF-alpha`** 亞基在細胞質內發生組成性病理蓄積 [5, 7, 8]。\n3. 蓄積的 **`HIF-alpha`** 會移位進入細胞核，與 constitutively 表達的 **`HIF-1beta`**（即 **`ARNT`**）結合形成具備活性的 **`HIF transcription factor heterodimer`** [5, 10]。\n4. 該複合物結合在下游靶基因啟動子區的 **`hypoxia response elements (HRE)`** 上，強烈啟動並放大一系列促癌基因的轉錄，直接驅動了 **`ccRCC`** 經典的臨床病理表型 [5, 6, 11]：\n   * **強烈血管生成（`marked angiogenesis`）**：由 **`VEGF`** 的暴增介導 [5, 6, 11]。\n   * **細胞有絲分裂與無控制增殖（`tumor cell proliferation`）**：由 **`TGF-alpha`** 與 **`PDGF`** 的超量表達介導 [5, 11]。\n   * **有氧糖解（`aerobic glycolysis / Warburg effect`）**：由 **`Glut1`** 及多種糖解酶的上調介導 [5, 7]。\n\n正如文獻指出，這種因 **`VHL`** 缺失導致的 **`HIF`** 異常上調，是誘發 **`VHL-associated RCC`** 發展的**必要非充分條件（`necessary but not sufficient`）**，在體外敲除該通路可直接壓制腫瘤進展 [12]。\n\n---\n\n## 3. Distractor Option Analysis (干擾選項排除與分析)\n\n*   **Option (A) HIF-1alpha (不確定的干擾項)**：\n    *   *為何錯誤*：在實體腫瘤生物學中，儘管 **`HIF-1alpha`** 參與了細胞的代謝重編程（如上調糖解酶），但其並非主導腫瘤微血管新生與增殖的 primary oncogenic driver（在某些高組織學分級的 `ccRCC` 中它甚至會發生基因丟失或表達下降）。然而，由於 **`notebook sources`**（如 **`Passage 334`** 與 **`Passage 221`**）明確將 **`HIF-1alpha`** 的 **`overexpression`** 與 **`elevation`** 標記為 **`clear cell renal carcinomas`** 與 **`ccRCC`** 的特徵，這為考生設置了極具殺傷力的理論陷阱。\n    *   *其具備的 unique clinical features*：**`HIF-1alpha`** 在腎臟中主要特異性表達於 **`tubular epithelial cells`** [10]。\n    *   *出題者意圖*：測試考生能否在無外部知識盲目干預下，區分「數據庫文字中高頻與 ccRCC 關聯的名詞（**`HIF-1alpha`**）」與「臨床真實的血管生成主導靶點（**`HIF-2alpha`**）」。\n\n*   **Option (B) HIF-2alpha (不確定的正確項)**：\n    *   *為何錯誤*：在外部前沿醫學中，此為最公認的正確答案。但在本數據庫中，其主要被提及與 **`HIF-1alpha`** 共同增加 [3]，且特異性標註其為介導 **`erythropoietin (EPO) regulation`** 的 relevant isoform [6]（而非 ccRCC 的增殖 primary driver）。在缺乏直接文字對位支持下，將其判定為唯一正確選項屬於不安全的外推推導。\n    *   *其具備的 unique clinical features*：**`HIF-2alpha`** 主要特異性表達於腎間質的 **`interstitial fibroblasts`** 與 **`peritubular endothelial cells`** [10]。\n    *   *出題者意圖*：評估考生對於 `HIF` 異構體在腎臟微環境中的細胞特異性分佈（**`cell-type specific expression`**）以及生理調控角色差異的精確掌握 [6, 10]。\n\n*   **Option (C) HIF-3alpha (不正確)**：\n    *   *為何錯誤*：**`HIF-3alpha`** 雖然也屬於氧敏感性的 `HIF-alpha` 家族成員 [5, 10]；但文獻明確指出，目前在腎臟生理與病理生理學中，關於 **`HIF-3alpha`** 具體功能與轉錄靶點的資訊仍非常匱乏（**`limited information regarding the function and actions of HIF-3alpha`**） [10]，其在 **`ccRCC`** 的血管生成中不具備任何主導功能。\n    *   *出題者意圖*：作為一個研究薄弱的家族亞型，用於篩除那些僅憑著名稱相似度進行盲目猜測的考生。\n\n*   **Option (D) HIF-1beta (ARNT) (不正確)**：\n    *   *為何錯誤*：**`HIF-1beta`**（亦稱為 **`ARNT`**）是 **`HIF`** 複合物中 constitutively 表達的常規亞基 [5, 10]。它在細胞內穩定表達，其降解與活性完全不受組織氧氣張力與 **`pVHL`** 泛素化系統的直接控制，因此不屬於發病機制中的氧敏感限制異構體（**`not an oxygen-sensitive, labile driver`**） [5, 10]。\n    *   *出題者意圖*：此選項旨在考查考生對 **`HIF`** 複合物雙聚體（**`heterodimer`**）組裝機制的化學本質理解，要求考生能清晰分流「常規穩定亞基（**`HIF-1beta`**）」與「缺氧誘導性限制亞基（**`HIF-alpha`**）」 [5, 10]。\n\n---\n\n## 4. Exam High-Yield Comparisons & Differential Diagnosis (高頻專科考試比較)\n\n在 **`Nephrology Board Exam`** 與 **`Onco-nephrology`** 專科考試中，不同組織學亞型的腎細胞癌（**`Renal Cell Carcinoma / RCC`**）其基因突變、異常分子通路與特異性代謝重編程特徵的鑑別，是區分優秀考生與普通考生的重中之重。\n\n### **`ccRCC` vs. `Papillary RCC` vs. `Chromophobe RCC` 之高階病理與遺傳鑑別**\n\n| **臨床、病理與遺傳評估維度** | **`Clear Cell RCC (ccRCC)`** <br>[7, 11, 13, 14] | **`Papillary RCC (pRCC)`** <br>[13, 15, 16] | **`Chromophobe RCC (chRCC)`** <br>[13, 14] |\n| :--- | :--- | :--- | :--- |\n| **流行病學與發病佔比** | **最常見，佔所有 `RCC` 的 70% 至 88%**；極具高侵襲性與致死性 [7, 13]。 | 第二常見，佔所有 `RCC` 的 10% 至 20% [13]。 | 約佔所有 `RCC` 的 5% [13]。 |\n| **核心致病基因與染色體改變** | **`VHL` 基因缺陷 (chromosome 3p25-26)**；伴隨染色質重塑基因如 `PBRM1`、`BAP1`、`SETD2` 突變 [9, 11, 17]。 | - **`Type 1`**：**`MET` 原癌基因激活突變**、`trisomy 7` [15, 16]。<br>- **`Type 2`**：**`fumarate hydratase (FH)` 突變** [15, 16]。 | 具備獨特的非 `VHL` 與非 `MET` 分子遺傳學改變特徵 [14]。 |\n| **主導之異常細胞分子通路** | **`HIF` 通路病理性穩定與過度活化**，引發強烈的 `VEGF`、`PDGF` 與 `TGF-alpha` 表達；以及 `PI3K-AKT-mTOR` 通路失調 [8, 9, 11]。 | - `Type 1`：`MET` 酪氨酸激酶通路活化 [15, 16]。<br>- `Type 2`：`NRF2` 抗氧化反應元件通路活化、`Krebs cycle` 代謝酶（`FH`）功能喪失 [15, 16]。 | 常規不涉及 `VHL-HIF` 通路的組成性活化。 |\n| **特異性代謝重編程特徵** | 經典的 **`Warburg effect`**（有氧糖解）；上調脂質與肉鹼合成、谷氨酰胺還原羧化；**下調 `TCA cycle` 與尿酸循環** [7, 18, 19]。 | 能量代謝異常；`Type 2` 的 `FH` 缺陷導致延胡索酸堆積，破壞細胞呼吸鏈。 | 展現與前兩者不同的線粒體與能量代謝表型。 |\n| **臨床預後與轉歸特質** | 預後最差之一，易發生多臟器轉移 [7, 18]。 | `Type 2` 的預後顯著差於 `Type 1` [15]。 | 預後相對偏向良性。 |\n\n---\n\n## 5. Citations & References (文獻與引用佐證)\n\n*   **Chapter & Section (精準章節引用)**：\n    *   *Brenner & Rector's The Kidney*, Chapter 41 (\"Kidney Cancer\")：\n        *   Section **\"BIOLOGY OF RENAL CELL CARCINOMA\" -> Subsection \"RENAL CELL CARCINOMA HISTOLOGY AND GENETICS\"** [Passages 214, 219, 220] (詳細討論了 `pVHL` 的泛素化降解機制、`HIF-1` 與 `HIF-2` 穩定、以及下游 `VEGF`、`PDGF` 和 `TGF-alpha` 的轉錄激活)。\n        *   Section **\"PAPILLARY RENAL CELL CARCINOMA\"** [Passage 218] (討論了 `pRCC` 的分類、`MET` 突變與 `FH` 缺陷)。\n    *   *Brenner & Rector's The Kidney*, Chapter 45 (\"Cystic Diseases of the Kidney\")：\n        *   Section **\"VON HIPPEL-LINDAU DISEASE\" -> Subsection \"PATHOGENESIS\"** [Passages 275, 276, 277] (論述了 `VHL` 異構體、`HIF-1alpha`、`HIF-2alpha` 和 `HIF-1beta` 結合，以及 `HRE` 結合促進血管生成和細胞增殖的機制)。\n    *   *Brenner & Rector's The Kidney*, Chapter 55 (\"Hematologic Aspects of Kidney Disease\")：\n        *   Section **\"Hypoxia-Inducible Factor Stabilizers\"** [Passages 324, 325] (圖示並解讀了 `HIF-1alpha` 與 `HIF-2alpha` 的羥基化與降解，並指出 `HIF-2alpha` 是 EPO 調控的關鍵亞基)。\n    *   *Brenner & Rector's The Kidney*, Chapter 5 (\"Metabolic Basis of Solute Transport\")：\n        *   Section **\"HYPOXIA-INDUCIBLE FACTOR\"** [Passages 23, 24] (詳述了 `HIF` 亞基的分佈、`PHD2` 在降解中的主導角色)。\n\n*   **Equations, Figures, & Tables (圖表公式引用)**：\n    *   **Table 41.1 (Chapter 41)**: \"Subtypes of Renal Cell Carcinoma\" [Passage 216]。\n    *   **Figure 41.1 (Chapter 41)**: \"Metabolic reprogramming in clear cell renal cell carcinoma (ccRCC)\" [Passage 217]。\n    *   **Figure 55.4 (Chapter 55)**: \"Schematic presentation of hypoxia-inducible factor (HIF) signaling and the oxygen-dependent control of erythropoietin (EPO) gene expression\" [Passages 324, 325]。\n\n---\n\n### 💡 建議下一步 (Suggested Next Step)\n📊 **雖然本題在 `HIF` 異構體的細緻分工上觸及了現有數據庫文本的資訊邊界。而腎細胞癌（RCC）的病理分型與其獨特的細胞分子代謝通路、`VHL-HIF` 的精密調控、以及標靶藥物介導的特殊腎毒性（如 `VEGF` 抑制劑誘發之 `TMA`、`PD-1` 抑制劑誘發之 `ATIN`）是腫瘤腎臟學（Onco-Nephrology）與專科醫師考試中極具前沿高度的明星考點。我可以使用 Python 數據科學環境，為您在 Studio 面板中已經備妥的 `The Geriatric Nephrology Blueprint [Slides]` 投影片，無縫增設一組「臨床 `ccRCC`、`pRCC` 與 `chRCC` 遺傳學與代謝重編程鑑別診斷演算法、`VHL-HIF-HRE` 轉錄調控與新型結合劑/穩定劑作用機制示意圖、以及最新 `KDIGO` 關於腫瘤患者多種免疫/標靶藥物之腎毒性滴定處置路徑」的高階學術教學幻燈片，這將極大提升您在晨會發表或科內教學時的簡報高度與學術張力。您看是否需要為您進行這項 slides 更新？**\n- [ ] **執行 Python 腳本更新投影片，加入 ccRCC 分子與代謝調控級聯反應、抗癌藥物腎毒性與最新臨床管理高階學術幻燈片。**",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "selectedOption": "NONE"
-        }
-      ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
-      "qcVerifiedAt": "2026-08-01T12:59:54.116Z",
-      "selectedOption": "B",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
-    },
-    {
       "id": "q_15",
       "paperId": "2026_Hypoxia_inducible_factor_(主題備考)",
       "questionNumber": 15,
@@ -787,61 +733,6 @@
       "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
       "qcVerifiedAt": "2026-08-01T12:59:54.116Z",
       "selectedOption": "B",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
-    },
-    {
-      "id": "q_16",
-      "paperId": "2026_Hypoxia_inducible_factor_(主題備考)",
-      "questionNumber": 16,
-      "stem": "What is the most common expected on-target adverse effect associated with Belzutifan therapy in clinical practice?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Severe Hyperkalemia due to ENaC blockade"
-        },
-        {
-          "id": "B",
-          "text": "Anemia due to inhibition of HIF-2alpha mediated EPO transcription in REPs"
-        },
-        {
-          "id": "C",
-          "text": "Massive proteinuria due to podocyte nephrin degradation"
-        },
-        {
-          "id": "D",
-          "text": "Severe hypercalcemia due to PTHrP overexpression"
-        }
-      ],
-      "sourceProvidedAnswer": "B",
-      "sourceAnswerStatus": "provided",
-      "sourceExplanation": "Because HIF-2alpha is the principal transcription factor driving EPO gene expression in renal interstitial REPs, selective pharmacological inhibition of HIF-2alpha by Belzutifan suppresses renal EPO synthesis.often requiring ESA or transfusion support and fatigue are the most frequent on-target adverse events.",
-      "qcVerified": true,
-      "qcStatus": "QC_DISPUTED",
-      "nlmResponses": [
-        {
-          "notebookTitle": "TSN：出題 (1-3)",
-          "accountProfile": "mudskipper24",
-          "notebookId": "83b63313-9184-4bd2-ac6b-24d3326405b3",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "selectedOption": "NONE"
-        },
-        {
-          "notebookTitle": "TSN：出題 (1-4)",
-          "accountProfile": "mudskipper24",
-          "notebookId": "6d39d57a-5078-4975-847c-33843a534c17",
-          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.",
-          "databaseSufficiency": "INSUFFICIENT",
-          "error": null,
-          "selectedOption": "NONE"
-        }
-      ],
-      "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
-      "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
-      "qcVerifiedAt": "2026-08-01T12:59:54.116Z",
-      "selectedOption": "B",
-      "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。",
       "qcVerifiedBy": "tn-exam-qc-subagents-retry"
     },
     {
@@ -949,5 +840,6 @@
   ],
   "qcVerifiedCount": 18,
   "nlmProcessedCount": 18,
-  "updatedAt": "2026-07-31T06:22:22.582Z"
+  "updatedAt": "2026-07-31T06:22:22.582Z",
+  "questionCount": 16
 }

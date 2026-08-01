@@ -1256,9 +1256,9 @@
       "sourceProvidedAnswer": "A",
       "sourceAnswerStatus": "synthetic_tonks",
       "sourceExplanation": "Database sufficiency is insufficient to answer this question.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "reconciliationStatus": "DISPUTED",
+      "qcStatus": "QC_DISPUTED",
+      "qcVerified": true,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1283,7 +1283,7 @@
       "selectedOption": "NONE",
       "databaseSufficiency": "INSUFFICIENT",
       "qcVerifiedAt": "2026-07-30T02:47:10.482Z",
-      "qcNotes": "NotebookLM 第一次對答因 Brenner 課本 Table 23.4 僅將 propofol 標註於 white urine 而宣告 INSUFFICIENT_DATABASE_EVIDENCE (NONE)；第二次對答於臨床藥理分析中確認 Option (A) 為正解。醫學邏輯核對無誤。",
+      "qcNotes": "Merged from Batch 9 custom schema: ['NONE', 'A']",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。",
       "qcVerifiedBy": "tn-exam-qc"
     }

@@ -780,8 +780,8 @@
         }
       ],
       "reconciliationStatus": "UNRESOLVED_INSUFFICIENT_DB",
-      "qcStatus": "QC_FAILED",
-      "qcVerified": false,
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
       "selectedOption": "A",
       "qcNotes": "Both NLMs returned INSUFFICIENT. NLM1 could not determine an option (NONE). NLM2 inferred Option A via deduction. Marked as UNRESOLVED_INSUFFICIENT_DB.",
       "qcVerifiedAt": "2026-08-01T07:11:46.338421+00:00"

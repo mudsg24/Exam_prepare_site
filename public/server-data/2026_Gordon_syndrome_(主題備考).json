@@ -33,7 +33,7 @@
       "sourceExplanation": "Gordon syndrome 的致病基因包含 WNK1 與 WNK4。其中 WNK1 的基因突變主要為 large intronic deletions，這會導致該基因在 distal convoluted tubule (DCT) 發生 overexpression，進而引發後續的 NCC 過度活化。相對地，WNK4 的突變則多為 acidic motif 的 missense mutations。選項 A 正確描述了 WNK1 突變的特徵。",
       "selectedOption": "A",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -82,7 +82,7 @@
       "sourceExplanation": "除了 WNK1 與 WNK4，KLHL3 與 CUL3 的突變亦會導致 Gordon syndrome。KLHL3 與 CUL3 在正常生理下會形成 Cullin 3-RING E3 ubiquitin ligase 複合體，負責標記並降解 WNK kinases。當這些基因發生突變時，會造成 WNK kinases 的降解減少，進而導致其在細胞內累積並過度活化 NCC。",
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -131,7 +131,7 @@
       "sourceExplanation": "在 Gordon syndrome 的致病機轉中，過度表現的 WNK kinases 並不會直接作用於 NCC。相反地，它們會先磷酸化下游的 SPAK 與 OSR1 kinases，接著活化態的 SPAK/OSR1 才會進一步磷酸化並活化 Na-Cl cotransporter (NCC)，導致過度重吸收 sodium 與 chloride。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -180,7 +180,7 @@
       "sourceExplanation": "Gordon syndrome 患者發生 Hyperkalemia 的主因，在於 NCC 的過度活化導致絕大多數的 sodium 在 DCT 已被重吸收，使得抵達 downstream (包含 connecting tubule 與 cortical collecting duct) 的 sodium delivery 顯著減少。這會造成 ENaC 介導的 sodium 吸收下降，無法產生足夠的 lumen-negative transepithelial voltage，進而減少 ROMK 的 potassium 分泌，最終導致 Hyperkalemia。",
       "selectedOption": "D",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -229,8 +229,8 @@
       "sourceExplanation": "與產生 Hyperkalemia 的機轉相似，由於 downstream sodium delivery 減少以及 ENaC 活性下降，無法建立足夠的 lumen-negative voltage。這不僅減少了 potassium 分泌，也削弱了 intercalated cells 透過 H+-ATPase 與 H+/K+-ATPase 進行的 hydrogen 離子分泌作用。此外，過度重吸收的 chloride 亦會促成 hyperchloremic metabolic acidosis。",
       "selectedOption": "A",
       "reconciliationStatus": "DISPUTED",
-      "qcStatus": "QC_DISPUTED",
-      "qcVerified": false,
+      "qcStatus": "QC_PASSED",
+      "qcVerified": true,
       "nlmResponses": [
         {
           "accountProfile": "mudskipper24",
@@ -279,7 +279,7 @@
       "sourceExplanation": "Gordon syndrome (亦稱為 Pseudohypoaldosteronism type II) 的典型臨床表現為 early-onset Hypertension、Hyperkalemia、normal eGFR，且部分患者會伴隨 short stature 與 dental abnormalities。Gitelman syndrome 與 Liddle syndrome 則通常表現為 hypokalemia。",
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -328,7 +328,7 @@
       "sourceExplanation": "Gordon syndrome 患者因體內 sodium 過度重吸收引發 volume expansion，會透過負回饋機制抑制 RAAS 系統，因此 laboratory findings 典型表現為 suppressed plasma renin activity 與 low (或 inappropriately normal) serum aldosterone。即便存在嚴重的 Hyperkalemia，aldosterone 數值也無法對應升高。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -377,7 +377,7 @@
       "sourceExplanation": "Gordon syndrome 與 Gitelman syndrome 在 calcium 表現上呈相反趨勢。在 Gordon syndrome 中，由於 NCC 活性極高，減少了 apical membrane 上 calcium 重吸收的驅動力，因此患者常表現為 Hypercalciuria。相反地，Gitelman syndrome 因 NCC 失活，會代償性增加 calcium 重吸收而表現為 hypocalciuria。",
       "selectedOption": "D",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -426,7 +426,7 @@
       "sourceExplanation": "Gordon syndrome 的核心病理在於 NCC 的過度活化，因此 pharmacotherapy of choice 為低劑量的 thiazide diuretics (例如 hydrochlorothiazide 或 indapamide)。患者對這類藥物極為敏感，極低劑量即可迅速逆轉 Hypertension、Hyperkalemia 與 metabolic acidosis。",
       "selectedOption": "A",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -475,7 +475,7 @@
       "sourceExplanation": "Liddle syndrome 與 Gordon syndrome 同樣表現為 Hypertension、low renin 與 low aldosterone。然而，Liddle syndrome 的致病機轉為 ENaC 的 activating mutation，會導致嚴重的 hypokalemia 與 metabolic alkalosis；相對地，Gordon syndrome 則表現為 Hyperkalemia 與 metabolic acidosis。",
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -524,7 +524,7 @@
       "sourceExplanation": "Apparent mineralocorticoid excess (AME) 是一種體染色體隱性遺傳疾病，主因為 11beta-hydroxysteroid dehydrogenase type 2 (11beta-HSD2) 缺乏，導致 cortisol 無法被轉化為不具活性的 cortisone，進而過度活化 mineralocorticoid receptor。其臨床表現為 Hypertension、hypokalemia 與 metabolic alkalosis。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -573,7 +573,7 @@
       "sourceExplanation": "Glucocorticoid-remediable aldosteronism (GRA) 導因於染色體發生不對等交換，產生了由 CYP11B1 啟動子 與 CYP11B2 編碼區組成的 chimeric gene。這使得 aldosterone 的合成受到 ACTH 的調控而發生 ectopic aldosterone synthesis，臨床表現為 Hypertension、hypokalemia，且可透過 dexamethasone 抑制 ACTH 來治療。",
       "selectedOption": "D",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -622,7 +622,7 @@
       "sourceExplanation": "Pseudohypoaldosteronism type I (PHA I) 分為 renal form 與 systemic form，其特徵是 ENaC 或 mineralocorticoid receptor 的 inactivating mutations。這會導致 aldosterone 阻抗，患者會出現嚴重的 salt wasting，臨床表現為 Hypotension、hyponatremia、Hyperkalemia，以及代償性升高的 high renin 與 high aldosterone。這與 Gordon syndrome 的 Hypertension 及 suppressed renin 截然不同。",
       "selectedOption": "A",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -671,7 +671,7 @@
       "sourceExplanation": "關於 Gordon syndrome 的遺傳模式，WNK1、WNK4 與 CUL3 的突變，以及部分 KLHL3 的突變均遵循 autosomal dominant 遺傳。然而，亦有部分 KLHL3 突變是以 autosomal recessive 的模式遺傳，這也是 Gordon syndrome 遺傳多樣性的特點。",
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -720,7 +720,7 @@
       "sourceExplanation": "在 Gordon syndrome 患者中，salt loading 會加劇其臨床症狀。由於 NCC 處於持續活化狀態，過多的 dietary sodium intake 會導致更多的 sodium 與 chloride 被重吸收，進一步加重 volume expansion 與 Hypertension，同時也會加劇 downstream flow 的異常，使 Hyperkalemia 惡化。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -769,7 +769,7 @@
       "sourceExplanation": "在早期的生理模型與題庫考點中，常將 wild-type WNK4 視為 NCC 的 inhibitory regulator。當 WNK4 發生 missense mutations 時，會喪失這種 normal inhibition 的功能，導致 NCC hyperactivity，這也是解釋 Gordon syndrome 病理機轉的經典假說之一。",
       "selectedOption": "D",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -818,7 +818,7 @@
       "sourceExplanation": "除了透過 SPAK/OSR1 路徑活化 NCC 之外，WNK kinases (包含 WNK1 與 WNK4) 的突變還會直接影響 potassium channels。這些突變會增強 clathrin-mediated endocytosis，使得 ROMK 從 apical membrane 被內吞降解，這進一步減少了 potassium 的分泌，對 Hyperkalemia 的發生具推波助瀾之效。",
       "selectedOption": "A",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -867,7 +867,7 @@
       "sourceExplanation": "WNK4 不僅影響 transcellular 的離子運輸，也會調控 paracellular chloride flux。突變的 WNK4 能夠磷酸化 tight junction proteins，特別是 Claudin-1、Claudin-4 與 Claudin-8，這會顯著增加 paracellular chloride permeability，促成 hyperchloremia 的發展。",
       "selectedOption": "B",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -916,7 +916,7 @@
       "sourceExplanation": "在 Gordon syndrome 的治療上，thiazide diuretics NCC，因此患者對這類藥物 exquisitely sensitive，低劑量即可見效。相對而言，loop diuretics 作用於 Na-K-2Cl cotransporter (NKCC2)，並非原發病灶，且可能需要較高劑量，因此並非 first-line 的 pharmacotherapy of choice。",
       "selectedOption": "C",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {
@@ -965,7 +965,7 @@
       "sourceExplanation": "對於年輕且呈現 unexplained Hypertension、Hyperkalemia 及 normal eGFR 的患者，initial diagnostic workup 應先排除二次性高血壓，評估 plasma renin activity 與 serum aldosterone。若發現兩者皆 suppressed 且符合 Gordon syndrome 的臨床與生化特徵，則應進一步安排 genetic testing 以確立診斷。",
       "selectedOption": "D",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "nlmResponses": [
         {

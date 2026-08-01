@@ -1,0 +1,101 @@
+{
+  "id": "2026_Hyperphosphatemia_(主題備考)_tutorial",
+  "paperId": "2026_Hyperphosphatemia_(主題備考)",
+  "title": "2026 Hyperphosphatemia Masterclass (Electrolyte & CKD-MBD Physiology, Pathophysiology, Calciphylaxis & Pharmacotherapy)",
+  "sourceCategory": "2026 Electrolytes",
+  "year": 2026,
+  "sections": [
+    {
+      "id": "sec_1",
+      "title": "Section 1: Phosphate Homeostasis, Tubular Reabsorption & Endocrine Control (NaPi-2a/2c, FGF23-Klotho Axis & PTH)",
+      "content": "### Renal Phosphate Handling & Epithelial Transporters\n\nPhysiologic Phosphate homeostasis is strictly regulated by renal tubular reabsorption and GI absorption. In the normal human kidney, approximately 80-85% of filtered inorganic Phosphate (Pi) is reabsorbed in the Proximal Convoluted Tubule (PCT).\n\n1. **Apical Transporters**:\n   - **NaPi-2a (SLC34A1)**: Electrogenic sodium-phosphate cotransporter (3 Na+ : 1 HPO42-), accounting for ~70-80% of proximal reabsorption.\n   - **NaPi-2c (SLC34A3)**: Electroneutral sodium-phosphate cotransporter (2 Na+ : 1 HPO42-), predominant in pediatric renal phosphate handling.\n   - **PiT-2 (SLC20A2)**: Housekeeping sodium-dependent phosphate transporter present across nephron segments.\n\n2. **Basolateral Extrusion**:\n   - Driven by basolateral Na+/K+-ATPase keeping intracellular Na+ low, creating an electrochemical gradient for apical entry.\n\n---\n\n### Endocrine Regulation: The FGF23-Klotho Axis & Parathyroid Hormone\n\nRenal Phosphate excretion is controlled by two primary phosphaturic hormones acting on PCT epithelial cells:\n\n| Endocrine Regulator | Cell Source | Receptor Complex | Downstream Signaling | Net Renal & Systemic Effect |\n| :--- | :--- | :--- | :--- | :--- |\n| **FGF23** | Osteocytes / Osteoblasts | FGFR1c + αKlotho (Obligate Co-receptor) | MAPK / ERK Pathway | Downregulates NaPi-2a & NaPi-2c; Inhibits CYP27B1 (1α-hydroxylase); Stimulates CYP24A1 (24-hydroxylase) |\n| **PTH** | Parathyroid Gland Chief Cells | PTHR1 (GPCR) | PKA & PKC Pathways | Internalizes & degrades NaPi-2a & NaPi-2c; Stimulates CYP27B1 (1α-hydroxylase) |\n| **1,25(OH)2D3 (Calcitriol)** | Renal Proximal Tubule | VDR (Nuclear Receptor) | Transcriptional Regulation | Increases intestinal NaPi-2b expression; Stimulates FGF23 secretion in bone; Inhibits PTH synthesis |\n\n#### Pathophysiologic Decision Tree: Response to Elevated Serum Phosphate\n\n```\nIncreased Serum Phosphate (Hyperphosphatemia)\n       │\n       ├───────────────────────────────────────────┐\n       ▼                                           ▼\nOsteocytes: Secretion of FGF23              Parathyroid Chief Cells: Secretion of PTH\n       │                                           │\n       ▼                                           ▼\nTarget: FGFR1c / αKlotho in PCT             Target: PTHR1 in PCT\n       │                                           │\n       ├───────────────────┬───────────────────────┤\n       ▼                   ▼                       ▼\nInternalization of     Suppression of          Internalization of\nNaPi-2a & NaPi-2c      CYP27B1 (1α-OHase)      NaPi-2a & NaPi-2c\n       │                   │                       │\n       ▼                   ▼                       ▼\nPromotes Renal         Reduces Intestinal      Promotes Renal\nPhosphaturia           Pi Absorption           Phosphaturia\n```\n\n---\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> - **Trap 1: Divergence between PTH and FGF23 on Vitamin D Metabolism**: Both PTH and FGF23 promote renal phosphaturia by removing NaPi-2a/2c from PCT microvilli. However, **PTH stimulates 1α-hydroxylase (CYP27B1)**, whereas **FGF23 strongly suppresses CYP27B1 and induces CYP24A1**.\n> - **Trap 2: αKlotho Dependence**: FGF23 requires membrane-bound αKlotho to bind FGFR1c with high affinity. Loss of αKlotho leads to FGF23 resistance, causing marked Hyperphosphatemia despite extremely high circulating FGF23 levels.",
+      "diagrams": [
+        {
+          "id": "diag_sec1_micrograph",
+          "relPath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_13.png",
+          "imagePath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_13.png",
+          "caption": "Brenner 11e Fig 53.13: Regulation of serum phosphorus levels by PTH and FGF-23 feedback loops.",
+          "sourceBook": "Brenner 11e Ch 53",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_sec1_ai",
+          "relPath": "/server-data/assets/hyperphos_sec1_ai.jpg",
+          "imagePath": "/server-data/assets/hyperphos_sec1_ai.jpg",
+          "caption": "Molecular Mechanism of NaPi-2a and NaPi-2c Regulation in Renal Proximal Tubule Epithelium.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "title": "Section 2: Etiology & Pathophysiologic Classification of Hyperphosphatemia (Renal Excretion Failure, Intracellular Shift, Acute Load & Pseudohyperphosphatemia)",
+      "content": "### Etiologic Taxonomy of Hyperphosphatemia\n\nHyperphosphatemia occurs when Phosphate input (GI absorption or cellular release) exceeds renal excretory capacity or when assay interferences generate false elevations.\n\n#### Diagnostic Matrix of Hyperphosphatemia Etiologies\n\n| Mechanism | Primary Causes / Clinical Conditions | Pathophysiologic Hallmark |\n| :--- | :--- | :--- |\n| **Decreased Renal Excretion** | CKD Stage 3b-5/5D, AKI, Hypoparathyroidism, Pseudohypoparathyroidism (GNAS mutation), Acromegaly | GFR drop below 30 mL/min/1.73m2 or loss of phosphaturic hormone action |\n| **Genetic Endocrine Resistance** | Familial Tumoral Calcinosis (FGF23 inactivating mutation, GALNT3 mutation, KLOTHO mutation) | Hyperphosphatemia, high Calcitriol, periarticular ectopic calcification |\n| **Intracellular-to-Extracellular Shift** | Tumor Lysis Syndrome (TLS), Rhabdomyolysis, Hemolysis, Severe Acidosis | Massive cell breakdown releasing intracellular organic & inorganic Phosphate |\n| **Exogenous Phosphate Loading** | Sodium Phosphate Enemas (Fleet Enema), Oral Bowel Prep Toxicity, Parenteral Overload | Acute tubular nephrocalcinosis and severe transient Hyperphosphatemia |\n| **Pseudohyperphosphatemia** | Multiple Myeloma (Hyperglobulinemia), Hyperbilirubinemia, Hyperlipidemia, Liposomal Amphotericin B | Paraprotein interference with phosphomolybdate colorimetric laboratory assays |\n\n---\n\n### High-Yield Differential Comparison: Hypoparathyroidism vs Pseudohypoparathyroidism vs Tumoral Calcinosis\n\n| Etiology | Serum PTH | Serum Calcium | Serum Phosphate | Serum Calcitriol | Serum FGF23 | Key Genetic / Molecular Defect |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Hypoparathyroidism** | Low / Undetectable | Low | High | Low | Low / Normal | Surgical destruction, CaSR activating mutation, DiGeorge syndrome |\n| **Pseudohypoparathyroidism 1a** | High (Elevated) | Low | High | Low | Normal / High | Inactivating mutation of GNAS (Gsα subunit), Resistance to PTH |\n| **Familial Tumoral Calcinosis** | Low / Normal | Normal | High | High | Normal or Inactive | Inactivating mutation in FGF23, GALNT3, or KLOTHO |\n\n---\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> - **Trap 1: Sodium Phosphate Enema Nephropathy**: Fleet enemas contain concentrated Sodium Phosphate. In elderly patients, bowel obstruction, or CKD, absorption leads to fulminant Hyperphosphatemia, Hypocalcemia, and acute Phosphate Nephropathy (intratubular calcium-phosphate precipitation).\n> - **Trap 2: Pseudohyperphosphatemia in Multiple Myeloma**: Monoclonal Immunoglobulins bind molybdate reagents during automated colorimetric testing. Serum inorganic Phosphate is falsely reported as 12-18 mg/dL while the patient is asymptomatic. Deproteinization or enzymatic testing yields true normal values.",
+      "diagrams": [
+        {
+          "id": "diag_sec2_micrograph",
+          "relPath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "imagePath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "caption": "Brenner 11e Fig 18.5: Summary of inherited disorders of renal phosphate transport and endocrine pathways.",
+          "sourceBook": "Brenner 11e Ch 18",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_sec2_ai",
+          "relPath": "/server-data/assets/hyperphos_sec2_ai.jpg",
+          "imagePath": "/server-data/assets/hyperphos_sec2_ai.jpg",
+          "caption": "Comprehensive Etiologic Taxonomy of Hyperphosphatemia.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "title": "Section 3: Clinical Consequences, Calciphylaxis & Vascular Calcification Mechanisms (Medial Sclerosis vs Atherosclerosis, Calcium-Phosphate Product)",
+      "content": "### Clinical Manifestations & Pathophysiologic Cascades\n\nAcute severe Hyperphosphatemia causes rapid binding of ionized Calcium, leading to acute Hypocalcemia and neuromuscular irritability (Tetany, Chvostek/Trousseau signs, QTc prolongation, Seizures).\n\nWhen serum Calcium-Phosphate product (Ca x P) exceeds **55 mg2/dL2**, risk of metastatic calcification in soft tissues, cornea (Band Keratopathy), joints, and systemic vasculature rises exponentially.\n\n---\n\n### Vascular Calcification: Medial Sclerosis vs Intimal Atherosclerosis\n\n| Feature | Monckeberg Medial Sclerosis | Intimal Atherosclerosis |\n| :--- | :--- | :--- |\n| **Anatomic Layer** | Tunica Media (Vascular Smooth Muscle & Elastic Laminae) | Tunica Intima |\n| **Primary Drivers** | Hyperphosphatemia, Hypercalcemia, CKD, Diabetes | Hyperlipidemia, Shear Stress, Smoking, Hypertension |\n| **Pathologic Phenotype** | VSMC Osteogenic Transdifferentiation (Runx2, Msx2, BMP-2) | Lipid Core, Foam Cells, Inflammatory Plaque Rupture |\n| **Hemodynamic Effect** | Increased Arterial Stiffness, Loss of Elasticity, High Pulse Pressure | Luminal Stenosis, Ischemia, Thrombosis |\n\n```\nPathophysiologic Cascade of VSMC Osteogenic Transdifferentiation:\nHigh Extracellular Phosphate (Pi via PiT-1/2 Transporters)\n       │\n       ▼\nUpregulation of Osteogenic Transcription Factors (Runx2, Msx2, Osterix)\n       │\n       ▼\nLoss of Smooth Muscle Lineage Markers (Smooth Muscle α-Actin, SM22α)\n       │\n       ▼\nSecretion of Matrix Vesicles containing Calcium & Hydroxyapatite\n       │\n       ▼\nDepletion of Endogenous Calcification Inhibitors (Fetuin-A, Pyrophosphate, MGP)\n       │\n       ▼\nProgressive Vascular Medial Calcification & Arterial Stiffening\n```\n\n---\n\n### Calciphylaxis (Calcific Uremic Arteriolopathy, CUA)\n\nCalciphylaxis is a life-threatening disorder seen predominantly in ESKD patients.\n\n1. **Pathology**: Small dermal arteriolar medial calcification, microvascular thrombosis, intimal hyperplasia, leading to ischemic skin necrosis.\n2. **Clinical Presentation**: Painful livedo reticularis evolving into violaceous indurated plaques, necrotic non-healing ulcers with black eschar, primarily on subcutaneous adipose-rich areas (thighs, abdomen, buttocks).\n3. **Risk Factors**: Hyperphosphatemia, Hypercalcemia, Warfarin therapy (inhibits Vitamin K-dependent Matrix Gla Protein MGP activation), Female sex, Obesity, Hypoalbuminemia.\n\n---\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> - **Trap 1: Warfarin Exacerbates Calciphylaxis**: Matrix Gla Protein (MGP) is a potent endogenous inhibitor of vascular calcification that requires Vitamin K-dependent γ-glutamyl carboxylation. **Warfarin blocks Vitamin K epoxide reductase**, deactivating MGP and dramatically accelerating arterial calcification and Calciphylaxis.\n> - **Trap 2: Calcium x Phosphate Product Threshold**: KDIGO guidelines emphasize that Calcium x Phosphate product > 55 mg2/dL2 is associated with microvascular calcification and increased cardiovascular mortality in CKD.",
+      "diagrams": [
+        {
+          "id": "diag_sec3_micrograph",
+          "relPath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_11.png",
+          "imagePath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_11.png",
+          "caption": "Brenner 11e Fig 53.11: Overview of the pathophysiology of vascular calcification and VSMC transdifferentiation.",
+          "sourceBook": "Brenner 11e Ch 53",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_sec3_ai",
+          "relPath": "/server-data/assets/hyperphos_sec3_ai.jpg",
+          "imagePath": "/server-data/assets/hyperphos_sec3_ai.jpg",
+          "caption": "Mechanisms of Vascular Smooth Muscle Cell Transdifferentiation and Calciphylaxis.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "title": "Section 4: Evidence-Based Pharmacotherapy & Clinical Management Strategy (Calcium-Based vs Non-Calcium Binders, Nicotinamide, Tenapanor & Dialytic Clearance)",
+      "content": "### Comprehensive Therapeutic Strategy for Hyperphosphatemia in CKD/ESKD\n\nKDIGO CKD-MBD guidelines recommend maintaining serum Phosphate toward the normal range in CKD Stages 3a-5D.\n\n#### 1. Dietary Phosphate Restriction & Bioavailability\n\n- **Target**: 800–1000 mg/day of dietary Phosphate.\n- **Organic vs Inorganic Bioavailability**:\n  - **Plant Organic Phosphate**: Phytate-bound; intestinal absorption is low (**40–50%**).\n  - **Animal Organic Phosphate**: Protein-bound; absorption is moderate (**60–70%**).\n  - **Inorganic Phosphate Additives**: Found in processed foods, carbonated beverages, preserved meats; absorption is extremely high (**90–100%**).\n\n---\n\n#### 2. Comparative Matrix of Intestinal Phosphate Binders\n\n| Phosphate Binder Class | Representative Agents | Mechanism of Action | Main Advantages | Key Adverse Effects / Limitations |\n| :--- | :--- | :--- | :--- | :--- |\n| **Calcium-Based Binders** | Calcium Carbonate, Calcium Acetate | Luminal binding forming insoluble Calcium Phosphate complexes | Low cost; treats Hypocalcemia | Hypercalcemia, Adynamic Bone Disease, Progresses Vascular Calcification |\n| **Non-Calcium Non-Metal Polymers** | Sevelamer Carbonate, Sevelamer Hydrochloride | Non-absorbed cross-linked polymeric amine binding luminal Pi | No calcium load; Lowers LDL-C & Uric Acid; Reduces Mortality | GI side effects (bloating, constipation); Pill burden |\n| **Trivalent Metal Binders** | Lanthanum Carbonate | Rare earth trivalent cation forming insoluble Lanthanum Phosphate | High potency; Low pill burden (chewable) | Nausea, vomiting; Long-term tissue accumulation |\n| **Iron-Based Binders** | Sucroferric Oxyhydroxide, Ferric Citrate | Polynuclear iron(III)-oxyhydroxide binding luminal Phosphate | Restores Iron stores (increases TSAT & Ferritin); Reduces ESAM needs | Dark discolored stools, diarrhea, constipation |\n| **Aluminum-Based (Historic)** | Aluminium Hydroxide | Potent inorganic binding | High efficacy | **Strictly limited < 2 weeks** due to Aluminum Encephalopathy & Osteomalacia |\n\n---\n\n#### 3. Novel Intestinal Targets & Dialysis Kinetics\n\n- **Tenapanor**: First-in-class small molecule inhibitor of intestinal apical **NHE3 (Sodium-Hydrogen Exchanger 3)**. Inhibiting NHE3 increases intracellular proton concentration, closing tight junctions and selectively inhibiting **paracellular Phosphate absorption** by ~30-40%.\n- **Nicotinamide (Vitamin B3 derivative)**: Downregulates apical **NaPi-2b** expression in intestinal enterocytes.\n- **Dialytic Removal Kinetics**:\n  - Standard 4-hour Hemodialysis removes ~600-800 mg Phosphate per session.\n  - Phosphate kinetics follow a two-compartment model: rapid clearance from extracellular fluid followed by slow mobilization from intracellular/bone pools, causing **post-dialysis rebound Hyperphosphatemia**. Long/nocturnal hemodialysis significantly improves Phosphate balance.\n\n---\n\n### Conceptual Trap Analysis\n\n> [!WARNING]\n> - **Trap 1: Calcium Acetate vs Calcium Carbonate**: Calcium Acetate binds Phosphate more effectively at a higher pH range than Calcium Carbonate, releasing less elemental Calcium per mole of bound Phosphate. However, **KDIGO guidelines explicitly advise restricting calcium-based binders** in patients with Hypercalcemia, arterial calcification, or adynamic bone disease.\n> - **Trap 2: Ferric Citrate Iron Absorption**: Ferric Citrate releases elemental iron that is absorbed enterically. Clinicians must monitor Serum Ferritin and Transferrin Saturation (TSAT) to prevent iron overload.",
+      "diagrams": [
+        {
+          "id": "diag_sec4_micrograph",
+          "relPath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_1.png",
+          "imagePath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_1.png",
+          "caption": "Brenner 11e Fig 53.1: Intestinal phosphate transport mechanisms and sodium-dependent vs sodium-independent pathways.",
+          "sourceBook": "Brenner 11e Ch 53",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_sec4_ai",
+          "relPath": "/server-data/assets/hyperphos_sec4_ai.jpg",
+          "imagePath": "/server-data/assets/hyperphos_sec4_ai.jpg",
+          "caption": "Pharmacologic Mechanisms of Intestinal Phosphate Binders, Tenapanor NHE3 Inhibition, and Transcellular Transport.",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2026_Gordon_syndrome_(主題備考)_tutorial",
+  "paperId": "2026_Gordon_syndrome_(主題備考)",
+  "title": "2026 Gordon Syndrome (Pseudohypoaldosteronism Type II) Masterclass Tutorial",
+  "sourceCategory": "2026 Electrolytes",
+  "year": 2026,
+  "sections": [
+    {
+      "id": "sec_1",
+      "title": "Section 1: Molecular Genetics & Pathophysiology of WNK Kinase Signaling in Gordon Syndrome",
+      "content": "Gordon Syndrome，亦稱為 Pseudohypoaldosteronism Type II (PHA II) 或 Familial Hyperkalemic Hypertension (FHHt)，是一種罕見的體染色體顯性遺傳疾病。其核心病理機制源於 Distal Convoluted Tubule (DCT) 中調控離子通道的 WNK Kinase Signaling Network 發生異常。在生理狀態下，WNK1 與 WNK4 會活化下游的 SPAK/OSR1，進而磷酸化並活化 NCC (Na-Cl Cotransporter)。為了防止 NCC 過度活化，CUL3 與 KLHL3 複合物會作為 Ubiquitin Ligase 標記 WNK Kinases 進行蛋白質降解。\n\n在 Gordon Syndrome 患者中，基因突變 (WNK1, WNK4, CUL3, KLHL3) 會導致 WNK Kinases 無法被正常降解，造成 SPAK/OSR1 持續處於高活性狀態。這使得 NCC 發生過度磷酸化與功能亢進，導致大量鈉離子與氯離子在 Distal Convoluted Tubule 被重吸收，進而引發 Volume Expansion 與 Hypertension。此外，WNK4 的突變與異常累積不僅活化 NCC，亦會抑制 ROMK，造成鉀離子排泄障礙，最終引發 Hyperkalemia。",
+      "diagrams": [
+        {
+          "id": "diag_1_1",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_15.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_15.png",
+          "caption": "Molecular mechanism of pseudohypoaldosteronism type II in the distal convoluted tubule.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_1_2",
+          "relPath": "/server-data/assets/gordon_wnk_pathway.jpg",
+          "imagePath": "/server-data/assets/gordon_wnk_pathway.jpg",
+          "caption": "WNK Kinase Signaling Network and Ubiquitin Ligase Degradation in DCT.",
+          "sourceBook": "Gemini AI Masterclass Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "title": "Section 2: Distal Convoluted Tubule Topology Mapping Matrix & Ion Channel Dysregulation",
+      "content": "為了精確理解 Gordon Syndrome 的表現型，我們必須建構 Distal Convoluted Tubule 的 Topology Mapping Matrix。在此區段中，主要涉及三大離子通道的交互作用：NCC、ROMK 以及 ENaC。\n\n在正常的 Volume Depletion 情境下，Aldosterone 會促進 ENaC 吸收鈉離子，並伴隨鉀離子經由 ROMK 進入管腔。然而，在 Gordon Syndrome 中，由於 NCC 異常亢進，大量鈉離子在 Distal Convoluted Tubule 即被重吸收，導致到達 Collecting Duct Distal Delivery of Sodium 顯著下降。這使得 ENaC 缺乏足夠的鈉離子作為交換基質，Electrochemical Gradient。\n\n同時，異常的 WNK4 訊號直接抑制了 ROMK 的細胞膜表現量與活性。因此，即便患者處於 Volume Expansion 狀態下，鉀離子的分泌途徑遭到雙重阻斷：一方面是 ROMK 的直接抑制，另一方面是 ENaC 依賴性的管腔負電位喪失。這種離子通道的失調導致患者同時表現出 Hypertension、Hyperkalemia 以及 Metabolic Acidosis。",
+      "diagrams": [
+        {
+          "id": "diag_2_1",
+          "relPath": "/reference-images/Brenner 11e/06. Transport of Sodium, Chloride, and Potassium/Fig_6_19.png",
+          "imagePath": "/reference-images/Brenner 11e/06. Transport of Sodium, Chloride, and Potassium/Fig_6_19.png",
+          "caption": "Regulation of distal transport by WNK kinases.",
+          "sourceBook": "Brenner 11e Ch 06",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_2_2",
+          "relPath": "/server-data/assets/gordon_romk_paracellular.jpg",
+          "imagePath": "/server-data/assets/gordon_romk_paracellular.jpg",
+          "caption": "ROMK Suppression and ENaC Substrate Depletion in Gordon Syndrome.",
+          "sourceBook": "Gemini AI Masterclass Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "title": "Section 3: High-Yield Differential Comparison Table: Gordon Syndrome vs. Tubulopathies",
+      "content": "在鑑別診斷上，Gordon Syndrome 的臨床表現必須與其他會影響血壓與鉀離子平衡的 Tubulopathies (如 Gitelman Syndrome 與 Liddle Syndrome) 進行嚴格區分。\n\n**High-Yield Differential Comparison Table:**\n\n- **Gordon Syndrome (Pseudohypoaldosteronism Type II):** \n  - **Primary Defect:** WNK1, WNK4, CUL3, KLHL3 突變導致 NCC 功能亢進。\n  - **Clinical Presentation:** Hypertension, Hyperkalemia, Metabolic Acidosis.\n  - **Aldosterone/Renin:** Low Aldosterone, Low Renin (由於 Volume Expansion 的負回饋抑制)。\n  - **Treatment of Choice:** Thiazide Diuretics。\n\n- **Gitelman Syndrome:**\n  - **Primary Defect:** SLC12A3 基因突變導致 NCC 功能喪失 (Loss-of-function)。\n  - **Clinical Presentation:** Normal to Low Blood Pressure, Hypokalemia, Metabolic Alkalosis, Hypocalciuria.\n  - **Aldosterone/Renin:** High Renin, High Aldosterone。\n  - **Note:** 表現型宛如長期使用 Thiazide Diuretics。\n\n- **Liddle Syndrome:**\n  - **Primary Defect:** SCNN1B 或 SCNN1G 突變導致 ENaC 無法降解，功能亢進。\n  - **Clinical Presentation:** Severe Hypertension, Hypokalemia, Metabolic Alkalosis.\n  - **Aldosterone/Renin:** Low Aldosterone, Low Renin。\n  - **Treatment of Choice:** Amiloride 或 Triamterene。\n\n透過此矩陣比較，可以清楚發現 Gordon Syndrome 是唯一同時表現出 Hypertension 與 Hyperkalemia 的原發性腎小管疾病，這也是考題中最常出現的鑑別關鍵。",
+      "diagrams": [
+        {
+          "id": "diag_3_1",
+          "relPath": "/reference-images/Brenner 11e/17. Disorders of Potassium Balance/Fig_17_6.png",
+          "imagePath": "/reference-images/Brenner 11e/17. Disorders of Potassium Balance/Fig_17_6.png",
+          "caption": "Integrated regulation of Na-Cl and K transport in DCT, CNT, CCD.",
+          "sourceBook": "Brenner 11e Ch 17",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_3_2",
+          "relPath": "/server-data/assets/gordon_differential_chart.jpg",
+          "imagePath": "/server-data/assets/gordon_differential_chart.jpg",
+          "caption": "Differential Diagnosis of Tubulopathies Affecting Blood Pressure and Potassium.",
+          "sourceBook": "Gemini AI Masterclass Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "title": "Section 4: Pathophysiological Decision Tree & Conceptual Trap Analysis for Treatment",
+      "content": "Gordon Syndrome 的治療邏輯與常見的 Conceptual Trap 息息相關。在面對 Hypertension 伴隨 Hyperkalemia 的年輕患者時，必須建立精確的 Pathophysiological Decision Tree。\n\n**Pathophysiological Decision Tree:**\n1. **Identify Presentation:** Hypertension + Hyperkalemia + Metabolic Acidosis.\n2. **Check Hormonal Axis:** 測量 Plasma Renin Activity 與 Aldosterone Concentration。若兩者皆受到顯著抑制 (Low Renin, Low Aldosterone)，則高度懷疑 Gordon Syndrome。\n3. **Assess Glomerular Filtration Rate:** 排除 Chronic Kidney Disease 造成的次發性 Hyperkalemia。\n\n**Conceptual Trap Analysis:**\n- **Trap 1:** 誤以為需要使用 Aldosterone Antagonists (如 Spironolactone) 來治療高血壓。由於 Gordon Syndrome 患者的 Aldosterone 本就極低，且病因在於 NCC 亢進而非 ENaC，使用 Aldosterone Antagonists 不僅無效，更會惡化 Hyperkalemia。\n- **Trap 2:** 忽略 Thiazide Diuretics 的特效性。對於 Gordon Syndrome，Thiazide Diuretics 不僅是降壓藥物，更是精準的 Target Therapy。藉由抑制過度活躍的 NCC，Thiazide Diuretics 能同時逆轉 Volume Expansion 並增加到達 Collecting Duct 的鈉離子流量，進而重新啟動 ENaC 介導的鉀離子與氫離子排泄，一舉解決 Hypertension, Hyperkalemia 與 Metabolic Acidosis。\n- **Trap 3:** 將 Gordon Syndrome 與 Pseudohypoaldosteronism Type I (PHA I) 混淆。PHA I 肇因於 ENaC 或 Mineralocorticoid Receptor 的 Loss-of-function，表現為 Salt-wasting、Hypotension 與 Hyperkalemia，與 Gordon Syndrome 的 Hypertension 截然不同。",
+      "diagrams": [
+        {
+          "id": "diag_4_1",
+          "relPath": "/reference-images/Brenner 11e/50. Diuretics/Fig_50_9.png",
+          "imagePath": "/reference-images/Brenner 11e/50. Diuretics/Fig_50_9.png",
+          "caption": "Mechanisms of DCT and CD diuretics.",
+          "sourceBook": "Brenner 11e Ch 50",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag_4_2",
+          "relPath": "/server-data/assets/gordon_thiazide_treatment.jpg",
+          "imagePath": "/server-data/assets/gordon_thiazide_treatment.jpg",
+          "caption": "Mechanism of Thiazide Diuretics in Reversing Gordon Syndrome Phenotype.",
+          "sourceBook": "Gemini AI Masterclass Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

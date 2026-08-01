@@ -1,0 +1,111 @@
+{
+  "id": "2026_Urine_anion_gap_and_urine_osmolal_gap_(主題備考)",
+  "paperId": "2026_Urine_anion_gap_and_urine_osmolal_gap_(主題備考)",
+  "title": "2026 Urine Anion Gap and Urine Osmolal Gap (UAG & UOG: NAGMA 鑑別診斷, NH4+ 估算, 陷阱情境與臨床實戰)",
+  "description": "整合 Urine Anion Gap (UAG) 與 Urine Osmolal Gap (UOG) 之分子排酸機制 (Ammoniagenesis & NH4+ secretion)、NAGMA (Normal Anion Gap Metabolic Acidosis) 鑑別診斷路徑、Unmeasured Anions (Ketoacids, Hippurate, D-Lactate) 與 High NaHCO3 Excretion 導致 UAG 假性升高之陷阱情境，以及運用 UOG 估算尿液 NH4+ 濃度的專科實戰核心講堂。",
+  "sourceCategory": "2026 Electrolytes",
+  "year": 2026,
+  "updatedAt": "2026-08-01T12:00:00.000Z",
+  "sections": [
+    {
+      "id": "section-1-acidification-and-nh4-excretion",
+      "title": "Section 1: Physiological Basis of Urinary Acidification & Renal NH4+ Excretion (尿液酸性化生理與 NH4+ 排泄機制)",
+      "content": "### 1. Topology Mapping Matrix: Nephron Segmental Ammoniagenesis & Transport\n\n| Nephron Segment | Transporters & Enzymes | Biochemical Pathway / Driver | Primary Output / Function |\n| :--- | :--- | :--- | :--- |\n| **Proximal Convoluted Tubule (PCT)** | Glutaminase (GA), PEPCK, NHE3 | Metabolism of Glutamine yielding 2 NH4+ and 2 HCO3- | Generation of new HCO3- into ECF, apical NH4+ secretion via NHE3 |\n| **Thick Ascending Limb (TAL)** | NKCC2 (apical) | Substitution of NH4+ for K+ on NKCC2 | Luminal NH4+ reabsorption, building Medullary Osmotic Gradient |\n| **Medullary Collecting Duct (MCD)** | Rh B Glycoprotein (RhBG), Rh C Glycoprotein (RhCG), H+-ATPase | Parallel NH3 diffusion via RhCG coupled with apical H+ secretion | Non-ionic trapping of NH4+ in lumen, forming NH4Cl |\n\n### 2. High-Yield Differential Comparison Tables: Acid Excretion Components\n\n| Parameter | Titratable Acidity (TA) | Ammonium Excretion (NH4+) | Bicarbonate Reabsorption (HCO3-) |\n| :--- | :--- | :--- | :--- |\n| **Primary Buffer System** | Phosphate (HPO4 2- to H2PO4 -) | Ammonia / Ammonium (NH3 / NH4+) | Filtered HCO3- (Bicarbonate) |\n| **Adaptation to Chronic Acidosis** | Limited capacity (20-40 mEq/day) | Massive adaptive surge (> 300-500 mEq/day) | Reabsorbs > 99.9% of filtered load (~4300 mEq/day) |\n| **Key Limiting Factor** | Rate of urinary phosphate excretion | Renal Glutamine extraction & Ammoniagenesis | GFR & luminal carbonic anhydrase (CA IV) activity |\n| **Clinical Diagnostic Marker** | Cannot be easily measured at bedside | Evaluated indirectly via UAG or UOG | Assessed by Urine pH & Urine PCO2 |\n\n### 3. Pathophysiological Decision Tree: Renal Adaptation to Systemic Metabolic Acidosis\n\n- **Systemic Metabolic Acidemia ➔** Intracellular Acidosis in Proximal Tubule cells.\n- **Upregulation of Enzymes ➔** Acidosis stimulates Glutaminase and PEPCK transcription.\n- **Glutamine Deamination ➔** Glutamine conversion yields $2\text{ NH}_4^+$ and $2\text{ HCO}_3^-$.\n- **New HCO3- Reabsorption ➔** $2\text{ HCO}_3^-$ exit basolaterally via NBCe1 into blood to buffer systemic acid.\n- **Apical Secretion & Countercurrent Multiplication ➔** $\text{NH}_4^+$ secreted via NHE3 into PCT lumen $\rightarrow$ reabsorbed in TAL via NKCC2 $\rightarrow$ accumulates in Medullary Interstitium.\n- **Medullary Trapping ➔** $\text{NH}_3$ diffuses via RhCG into Collecting Duct lumen $\rightarrow$ combines with secreted $\text{H}^+$ (from $\text{H}^+$-ATPase) $\rightarrow$ trapped as $\text{NH}_4^+$ with $\text{Cl}^-$.\n- **Net Acid Excretion (NAE) ➔** $\text{NAE} = [\text{U}_{\text{NH4+}}] + [\text{U}_{\text{TA}}] - [\text{U}_{\text{HCO3-}}]$.\n\n### 4. Conceptual Trap Analysis: 觀念避坑指南\n\n- **Trap**: 認為 Urine pH 越低便代表腎臟 $\text{NH}_4^+$ 總排泄量越高。\n- **Analysis**: Urine pH 反映的是 free $\text{H}^+$ 濃度，而非 Net Acid Excretion 的總量。在急性酸中毒早期，Urine pH 迅速降至 $< 5.0$，但此時 Ammoniagenesis 尚未完全啟動，$\text{NH}_4^+$ 排泄量依然有限。反之在慢性酸中毒（如 Diarrhea），尿中含有高濃度的 $\text{NH}_3/\text{NH}_4^+$ 緩衝對，Urine pH 可能上升至 $6.0$，但 $\text{NH}_4^+$ 總排泄量卻高達 $300\text{ mEq/day}$。因此，切勿以單一 Urine pH 判定腎臟排酸能力，必須結合 UAG 與 UOG。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_16_3",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_3.png",
+          "caption": "Brenner 11e Fig 16.3: Renal Ammoniagenesis and Synchrony of Ammonium Production and Excretion",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "uag_uog_nh4_mechanism",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/uag_uog_nh4_mechanism.jpg",
+          "caption": "Renal Ammonium Excretion & Chloride Coupling in Collecting Duct Intercalated Cells"
+        }
+      ]
+    },
+    {
+      "id": "section-2-urine-anion-gap-concept-and-calc",
+      "title": "Section 2: Urine Anion Gap (UAG): Concept, Calculation & Differential Diagnosis of NAGMA (尿液陰離子間隙 UAG 的計算與 NAGMA 鑑別診斷)",
+      "content": "### 1. Topology Mapping Matrix: UAG Utility in Metabolic Acidosis\n\n| Etiology of NAGMA | Primary Site of Defect | Urinary NH4+ Level | Urinary Cl- vs (Na+ + K+) | UAG Result |\n| :--- | :--- | :--- | :--- | :--- |\n| **Gastrointestinal HCO3- Loss (Diarrhea)** | GI Tract (Intestine / Pancreas) | High (> 100 mEq/L) | $U_{Cl} > (U_{Na} + U_K)$ | **Negative UAG** (-20 to -50 mEq/L) |\n| **Distal RTA (Type 1 RTA)** | Collecting Duct Type A Intercalated Cell | Low (< 20 mEq/L) | $U_{Cl} < (U_{Na} + U_K)$ | **Positive UAG** (+20 to +50 mEq/L) |\n| **Hyperkalemic RTA (Type 4 RTA)** | Collecting Duct (Hypoaldosteronism) | Low (< 20 mEq/L) | $U_{Cl} < (U_{Na} + U_K)$ | **Positive UAG** (+10 to +40 mEq/L) |\n| **Renal Insufficiency (CKD)** | Reduced Nephron Mass | Reduced total output | $U_{Cl} < (U_{Na} + U_K)$ | **Positive or Zero UAG** |\n\n### 2. High-Yield Differential Comparison Tables: Diarrhea vs Distal RTA\n\n| Clinical / Laboratory Feature | Extra-Renal Loss (Diarrhea) | Distal RTA (Type 1 RTA) |\n| :--- | :--- | :--- |\n| **Serum Electrolytes** | Hypokalemic NAGMA | Hypokalemic NAGMA |\n| **Urine pH in Severe Acidemia** | **< 5.5** (intact distal acid secretion) | **> 5.5** (impaired H+-ATPase / H+-K+-ATPase) |\n| **Urine Anion Gap (UAG)** | **Negative** (-20 to -50 mEq/L) | **Positive** (+20 to +50 mEq/L) |\n| **Urine Osmolal Gap (UOG)** | High (> 150 mOsm/kg H2O) | Low (< 100 mOsm/kg H2O) |\n| **Nephrocalcinosis / Nephrolithiasis** | Absent | Present (Calcium Phosphate stones) |\n| **Urinary Citrate** | Variable / Normal | Markedly reduced (Severe Hypocitraturia) |\n\n### 3. Pathophysiological Decision Tree: Derivation of the Urine Anion Gap Equation\n\n- **Principle of Electroneutrality in Urine ➔** Total Cations = Total Anions.\n- **Equation ➔** $U_{Na} + U_K + U_{NH4} + U_{Unmeasured\\ Cations} = U_{Cl} + U_{HCO3} + U_{Unmeasured\\ Anions}$.\n- **Assuming Minimal Urinary HCO3- (Urine pH < 6.5) & Unmeasured Cations ➔** $U_{Na} + U_K + U_{NH4} \u0007pprox U_{Cl} + U_{Unmeasured\\ Anions}$.\n- **Rearranging for UAG ➔** $UAG = (U_{Na} + U_K) - U_{Cl} \u0007pprox U_{Unmeasured\\ Anions} - U_{NH4}$.\n- **Interpretation ➔** Under normal conditions, $U_{Unmeasured\\ Anions}$ (sulfate, phosphate, organic anions) is about $80\text{ mEq/L}$, and baseline $U_{NH4}$ is about $30\text{--}50\text{ mEq/L}$, so baseline UAG is $0 \text{ to } +10\text{ mEq/L}$.\n- **When Acidosis Stimulates NH4+ Excretion (Diarrhea) ➔** $U_{NH4}$ rises to $> 150\text{ mEq/L}$ with $Cl^-$. Since $U_{NH4} > U_{Unmeasured\\ Anions}$, UAG becomes **Negative**.\n- **When Acidosis Fails to Stimulate NH4+ Excretion (RTA) ➔** $U_{NH4}$ remains low ($< 20\text{ mEq/L}$), while $U_{Unmeasured\\ Anions}$ exceeds $U_{NH4}$, making UAG **Positive**.\n\n### 4. Conceptual Trap Analysis: 觀念避坑指南\n\n- **Trap**: 看到 Positive UAG 便武斷判定病患必為 Type 1 RTA。\n- **Analysis**: Positive UAG 僅代表 $U_{Cl}$ 低於 $(U_{Na} + U_K)$。除了 Type 1 RTA，Type 4 RTA (Hypoaldosteronism)、Early CKD，以及存在大量 Unmeasured Anions 的情境（如 Ketoacidosis, Toluene toxicity）均可出現 Positive UAG。必須配合 Urine pH、Serum Potassium 以及 UOG 進行綜合裁決。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_16_6",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_6.png",
+          "caption": "Brenner 11e Fig 16.6: Collecting Duct Type A Intercalated Cell Pathophysiologic Defects in Distal RTA",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "uag_calc_diag",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/uag_calc_diag.jpg",
+          "caption": "Diagnostic Flow: Urine Anion Gap (UAG) Equation and Interpretation in NAGMA"
+        }
+      ]
+    },
+    {
+      "id": "section-3-limitations-and-pitfalls-of-uag",
+      "title": "Section 3: Limitations & Pitfalls of UAG: Five Classic Clinical Failure Scenarios (UAG 的臨床限制與五大失效陷阱)",
+      "content": "### 1. Topology Mapping Matrix: Diagnostic Pitfalls of UAG\n\n| Failure Mechanism | Cause / Clinical Condition | Effect on Urinary Ions | True NH4+ Excretion | UAG Result (Misleading) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Excretion of Unmeasured Anions** | Ketoacidosis (DKA / AKA), Toluene abuse (Hippurate), D-Lactic acidosis | Excretion of Acetoacetate / Hippurate with Na+ and K+ | **High** | **False Positive** (+20 to +60 mEq/L) |\n| **High Bicarbonaturia** | Proximal RTA (Type 2 RTA), NaHCO3 therapy, Acetazolamide | High HCO3- excretion in urine (Urine pH > 7.0) | Variable | **False Positive** (HCO3- acts as unmeasured anion) |\n| **Volume Depletion / Low Urine Cl-** | Vomiting, Dehydration, Low Cl- intake | Selective renal Cl- retention ($U_{Cl} < 20\text{ mEq/L}$) | High | **False Positive** (Cl- unavailable to pair with NH4+) |\n| **Pediatric / Neonatal Urine** | Infants under 1 year old | Organic anion excretion higher per kg | High | **False Positive** |\n| **Polydipsia / Dilute Urine** | Excessive water drinking ($U_{osmol} < 100$) | All electrolyte concentrations diluted | Normal total | **UAG suppressed near zero** |\n\n### 2. High-Yield Differential Comparison Tables: UAG Reliability vs Alternative Tests\n\n| Clinical Scenario | UAG Validity | Preferred Alternative Test | Reason for Choice |\n| :--- | :--- | :--- | :--- |\n| **Standard NAGMA (Diarrhea vs RTA)** | **Valid & Reliable** | Urine Anion Gap (UAG) | Simple, rapid bedside test |\n| **Toluene Inhalation (Glue Sniffing)** | **INVALID (False Positive)** | **Urine Osmolal Gap (UOG)** | Hippurate is an unmeasured anion; UOG detects NH4+ |\n| **Diabetic Ketoacidosis (DKA recovery)** | **INVALID (False Positive)** | **Urine Osmolal Gap (UOG)** | Beta-hydroxybutyrate excreted as Na+/K+ salt |\n| **Proximal RTA with Bicarbonaturia** | **INVALID (False Positive)** | **Urine Osmolal Gap (UOG)** | High urinary HCO3- violates UAG assumptions |\n| **Vomiting with Chloriduria < 20 mEq/L** | **INVALID (False Positive)** | **Urine Osmolal Gap (UOG)** | Low urine Cl- prevents Cl- from acting as NH4+ surrogate |\n\n### 3. Pathophysiological Decision Tree: Toluene Sniffing / Ketoacidosis UAG Trap\n\n- **Toluene / Ketoacid Ingestion ➔** Metabolism generates Hippuric Acid / Acetoacetic Acid.\n- **Renal Excretion ➔** Kidney excretes $\text{NH}_4^+$ to eliminate the acid load.\n- **Unmeasured Anion Accumulation ➔** Hippurate / Acetoacetate excreted into urine with $\text{Na}^+$ and $\text{K}^+$ rather than $\text{Cl}^-$.\n- **Ion Imbalance ➔** $U_{Na}$ and $U_K$ rise significantly due to accompanying unmeasured anions, while $U_{Cl}$ remains low.\n- **Calculated UAG ➔** $(U_{Na} + U_K) - U_{Cl}$ becomes **Strongly Positive** ($+30 \text{ to } +50\text{ mEq/L}$).\n- **Diagnostic Trap ➔** Clinician misinterprets Positive UAG as RTA (impaired NH4+ excretion), whereas renal NH4+ excretion is actually massively increased ($> 200\text{ mEq/L}$).\n- **Resolution ➔** Measure **Urine Osmolal Gap (UOG)**. UOG will be markedly elevated ($> 300\text{ mOsm/kg}$), correctly confirming high urinary $\text{NH}_4^+$.\n\n### 4. Conceptual Trap Analysis: 觀念避坑指南\n\n- **Trap**: 在 Toluene 毒性或 DKA 病患出現 NAGMA 時，使用 UAG 診斷病患為 RTA。\n- **Analysis**: Toluene 代謝產生 Hippurate（馬尿酸），這是極強的 unmeasured anion。Hippurate 在尿中帶走大量 $\text{Na}^+$ 與 $\text{K}^+$，但 $\text{Cl}^-$ 並未增加，導致 UAG 出現 $+40\text{ mEq/L}$ 的假陽性！此時若錯診為 RTA 便完全背離病理。在所有懷疑 Unmeasured Anions 的案例中，一律改用 **Urine Osmolal Gap (UOG)** 作為 SSOT 的排酸評估標準。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_24_8",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_24_8.png",
+          "caption": "Brenner 11e Fig 24.8: Dissociation Between Urine pH and Urinary NH4+ Excretion Rate",
+          "sourceBook": "Brenner 11e Ch 24"
+        },
+        {
+          "id": "uag_pitfalls",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/uag_pitfalls.jpg",
+          "caption": "Pitfalls of UAG: Unmeasured Anions Masking Renal Ammonium Excretion"
+        }
+      ]
+    },
+    {
+      "id": "section-4-urine-osmolal-gap-estimation",
+      "title": "Section 4: Urine Osmolal Gap (UOG): Indirect Estimation of Urinary NH4+ (尿液Osmolality間隙 UOG 的估算公式與進階應用)",
+      "content": "### 1. Topology Mapping Matrix: Osmolal Gap Equations & Conversion Factors\n\n| Component | Standard US Units (mg/dL) | Conventional SI Units (mmol/L) | Osmolal Contribution per Unit |\n| :--- | :--- | :--- | :--- |\n| **Urine Sodium (U_Na) & Potassium (U_K)** | mEq/L | mmol/L | Multiplied by 2 (accounts for paired monovalent anions) |\n| **Urine Urea Nitrogen (UUN)** | mg/dL | Dividied by 2.8 for mmol/L | 1 mOsm per mmol/L |\n| **Urine Glucose** | mg/dL | Divided by 18 for mmol/L | 1 mOsm per mmol/L |\n| **Urine Ammonium (U_NH4)** | mEq/L | Estimated as UOG / 2 | 2 mOsm per mmol of NH4Cl (NH4+ and Cl-) |\n\n### 2. High-Yield Differential Comparison Tables: Normal vs Pathological UOG Values\n\n| Parameter | Normal Healthy State | Intact Acid Excretion (Diarrhea / DKA) | Defective Acid Excretion (Distal RTA) |\n| :--- | :--- | :--- | :--- |\n| **Measured Urine Osmolality** | 300 - 800 mOsm/kg | 500 - 900 mOsm/kg | 300 - 500 mOsm/kg |\n| **Calculated Urine Osmolality** | 280 - 750 mOsm/kg | 300 - 550 mOsm/kg | 280 - 450 mOsm/kg |\n| **Urine Osmolal Gap (UOG)** | **10 - 100 mOsm/kg** | **> 150 - 400 mOsm/kg** | **< 100 mOsm/kg** |\n| **Estimated Urinary NH4+** | **20 - 50 mEq/L** | **> 75 - 200 mEq/L** | **< 20 - 40 mEq/L** |\n| **Diagnostic Impression** | Baseline physiological renal state | Appropriate renal ammoniagenic response | Renal tubular acidification defect |\n\n### 3. Pathophysiological Decision Tree: Stepwise Calculation of UOG and NH4+ Estimation\n\n- **Step 1: Obtain Urine Laboratory Values ➔** Measure $U_{Na}$ (mEq/L), $U_K$ (mEq/L), $U_{Urea}$ (mg/dL), $U_{Glucose}$ (mg/dL), and **Measured $U_{osmol}$** (via freezing-point depression osmometer).\n- **Step 2: Calculate Expected Urine Osmolality ➔** $\text{Calculated } U_{osmol} = 2 \times (U_{Na} + U_K) + \frac{\text{UUN (mg/dL)}}{2.8} + \frac{\text{Urine Glucose (mg/dL)}}{18}$.\n- **Step 3: Calculate Urine Osmolal Gap ➔** $\text{UOG} = \text{Measured } U_{osmol} - \text{Calculated } U_{osmol}$.\n- **Step 4: Estimate Urinary NH4+ Concentration ➔** $\text{Estimated Urinary } \text{NH}_4^+ \u0007pprox \frac{\text{UOG}}{2} \text{ (mEq/L)}$.\n- **Step 5: Clinical Interpretation ➔**\n  - If $\text{UOG} > 150\text{ mOsm/kg}$ ($\text{NH}_4^+ > 75\text{ mEq/L}$): Confirms GI loss, DKA, or Toluene ingestion (Intact renal ammoniagenesis).\n  - If $\text{UOG} < 100\text{ mOsm/kg}$ ($\text{NH}_4^+ < 40\text{ mEq/L}$) in severe acidemia: Confirms RTA (Impaired renal ammoniagenesis).\n\n### 4. Conceptual Trap Analysis: 觀念避坑指南\n\n- **Trap**: 忘記在算 UOG 時將 UOG 除以 2 來換算成 $\text{NH}_4^+$ 濃度。\n- **Analysis**: 每一莫耳的 $\text{NH}_4^+$ 排泄時，必然伴隨一莫耳的陰離子（如 $\text{Cl}^-$ 或 organic anion）。這兩個離子在Osmolality測定儀（Freezing point depression）中各提供 $1\text{ mOsm/kg}$ 的Osmolality，因此每一莫耳 $\text{NH}_4\text{Cl}$ 會產生 $2\text{ mOsm/kg}$ 的 Osmolal Gap。因此 $\text{Estimated Urinary } \text{NH}_4^+ = \frac{\text{UOG}}{2}$。此外，若尿中含有外源性Osmolality物質（如 Mannitol, Ethanol, Isopropyl alcohol），UOG 也會假性升高，需特別留意病史。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_24_7",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_24_7.png",
+          "caption": "Brenner 11e Fig 24.7: Indirect Assessment of Urinary NH4+ Concentration Using Urine Osmolal Gap",
+          "sourceBook": "Brenner 11e Ch 24"
+        },
+        {
+          "id": "uog_estimation",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/uog_estimation.jpg",
+          "caption": "Explaining the Urine Osmolal Gap (UOG) Equation: Estimating Urine Ammonium"
+        }
+      ]
+    },
+    {
+      "id": "section-5-integrated-clinical-algorithm",
+      "title": "Section 5: Integrated Clinical Decision Algorithm & Board Exam Trap Resolution (NAGMA 完整臨床決策樹與專科考題應試指南)",
+      "content": "### 1. Topology Mapping Matrix: Comprehensive NAGMA Board Exam Spectrum\n\n| Condition / Pathology | Serum K+ | Urine pH | UAG | UOG | Distinguishing Board Exam Clues |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Severe Diarrhea** | Low | < 5.5 | **Negative** (-30) | **High** (> 200) | Normal renal stones, low volume, stool loss |\n| **Type 1 RTA (Distal)** | **Low** | **> 5.5** | **Positive** (+30) | **Low** (< 80) | Sjogren's, nephrocalcinosis, low citrate |\n| **Type 2 RTA (Proximal)** | Low | < 5.5 (late) | Positive / Var | Low | Fanconi syndrome, glycosuria, Tenofovir |\n| **Type 4 RTA (Hypoaldo)** | **High** | < 5.5 | **Positive** (+25) | **Low** (< 80) | Diabetic nephropathy, hyporeninemic hypoaldo |\n| **Toluene Sniffing** | Low | Variable | **Positive** (+40) | **High** (> 300) | Glue sniffing history, Hippurate in urine |\n| **DKA (Recovery Phase)** | Normal / Low | < 5.5 | **Positive** (+35) | **High** (> 250) | High BG, Ketones, Beta-hydroxybutyrate |\n\n### 2. High-Yield Differential Comparison Tables: Three RTA Types Master Comparison\n\n| Diagnostic Feature | Type 1 RTA (Distal) | Type 2 RTA (Proximal) | Type 4 RTA (Hyperkalemic) |\n| :--- | :--- | :--- | :--- |\n| **Defect Mechanism** | Impaired H+ secretion in distal tubule | Impaired HCO3- reabsorption in PCT | Aldosterone deficiency or resistance |\n| **Serum Potassium** | **Hypokalemia** | **Hypokalemia** | **Hyperkalemia** |\n| **Urine pH during Acidemia** | **Always > 5.5** | **< 5.5** (when serum HCO3- < threshold) | **< 5.5** |\n| **Urine Anion Gap (UAG)** | **Positive** | Positive / Variable | **Positive** |\n| **Urine PCO2 in Alkaline Urine** | **< 50 mmHg** (impaired H+ pump) | **> 70 mmHg** (intact H+ pump) | **> 70 mmHg** (intact H+ pump) |\n| **Fractional Excretion of HCO3-** | < 5% | **> 15%** (at normal plasma HCO3-) | < 10% |\n| **Daily HCO3- Replacement Need** | Low (1 - 3 mEq/kg/day) | Massive (10 - 20 mEq/kg/day) | Fludrocortisone / Low K+ diet / Loop diuretic |\n\n### 3. Pathophysiological Decision Tree: Master Clinical Decision Tree for NAGMA\n\n- **Confirmed NAGMA (Serum AG = 8-12 mEq/L, Low HCO3-, High Cl-) ➔** Step 1: Check Serum Potassium.\n- **If Serum Potassium is HIGH ➔** Differentiate Type 4 RTA (Hypoaldosteronism) vs Medications (ACEi/ARB, Spironolactone, Trimethoprim, Heparin, CNI).\n  - Check UAG (Positive) & UOG (Low, $< 100\text{ mOsm/kg}$).\n- **If Serum Potassium is LOW ➔** Step 2: Calculate Urine Anion Gap (UAG).\n- **If UAG is NEGATIVE ($U_{Cl} > U_{Na} + U_K$) ➔** Confirms Extra-Renal HCO3- Loss (Diarrhea, Laxative abuse, Pancreatic fistula).\n- **If UAG is POSITIVE ($U_{Na} + U_K > U_{Cl}$) ➔** Step 3: Check for Unmeasured Anions or Measure UOG.\n  - Calculate UOG.\n  - If **UOG is HIGH ($> 150\text{--}200 \text{ mOsm/kg}$)**: Toluene inhalation, Ketoacidosis recovery, or D-Lactic acidosis (Intact renal ammoniagenesis).\n  - If **UOG is LOW ($< 100 \text{ mOsm/kg}$)**: Confirms Renal Tubular Acidosis (RTA).\n- **Step 4: Differentiate RTA Type ➔** Check Urine pH during systemic acidemia.\n  - If **Urine pH > 5.5**: Type 1 RTA (Distal RTA).\n  - If **Urine pH < 5.5**: Type 2 RTA (Proximal RTA) or Type 4 RTA (depending on K+).\n\n### 4. Conceptual Trap Analysis: 觀念避坑指南\n\n- **Trap**: 看到題幹寫年輕男性工廠工人發作嚴重Hypokalemia與酸中毒，UAG 為正值，就直接選 Distal RTA。\n- **Analysis**: 這類題目是國考常考的 Toluene (甲苯/吸膠) 毒性陷阱！甲苯代謝產生 Hippurate，帶走 Na+/K+ 造成 UAG 假陽性（Positive UAG）。但此時腎臟排氨能力完好，UOG 算出來會極高（$> 300\text{ mOsm/kg}$）。在臨床與考試中，若病患有溶劑暴露史或 High UOG，絕對不可盲目歸因於 RTA。",
+      "diagrams": [
+        {
+          "id": "Brenner_Fig_16_2",
+          "type": "micrograph",
+          "imagePath": "/server-data/assets/Brenner_Fig_16_2.png",
+          "caption": "Brenner 11e Fig 16.2: Net Acid Excretion Components (Ammonium vs Titratable Acidity) in Normal vs Acidosis vs CKD",
+          "sourceBook": "Brenner 11e Ch 16"
+        },
+        {
+          "id": "nagma_decision_tree",
+          "type": "ai_illustration",
+          "imagePath": "/server-data/assets/nagma_decision_tree.jpg",
+          "caption": "Comprehensive Clinical Decision Tree: Normal Anion Gap Metabolic Acidosis (NAGMA)"
+        }
+      ]
+    }
+  ]
+}

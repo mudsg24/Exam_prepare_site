@@ -1,0 +1,108 @@
+{
+  "id": "2026_hypophosphatemia_tutorial",
+  "title": "Hypophosphatemia 核心機轉與臨床決策指南",
+  "description": "系統化解析 Hypophosphatemia，涵蓋 FGF23 依賴型/非依賴型病源、細胞內轉移機制與診斷治療準則",
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Molecular Physiology of Renal Phosphate Handling and Endocrine Regulation",
+      "content": "腎臟處理 Phosphate 的核心位於 Proximal Tubule。在 Apical Membrane 上，主要依賴 NaPi-2a 與 NaPi-2c 進行再吸收，這些 Transporters 受到 NHERF1 的結構支撐與調控。全身性的 Phosphate 平衡受到精密的內分泌軸調控。當體內 Phosphate 過高時，Osteocyte 會分泌 FGF23。FGF23 必須與細胞膜上的 Klotho 結合，進而活化 FGFR1 接受器。FGF23-Klotho-FGFR1 Axis 會抑制 NaPi-2a 與 NaPi-2c 的表現，促進 Phosphaturia。此外，FGF23 還會抑制 1α-Hydroxylase，減少 1,25(OH)2D 的合成，進而降低腸道對 Phosphate 的吸收。另一方面，PTH 雖然主要負責調節 Calcium，但也會強烈抑制 NaPi-2a，誘發 Phosphaturia，不過 PTH 與 FGF23 最大的不同在於，PTH 會促進 1,25(OH)2D 的生成。了解這些生理機制是鑑別低磷血症的基石。",
+      "diagrams": [
+        {
+          "id": "diag-1-1",
+          "relPath": "/server-data/assets/hypophosphatemia_fgf23_klotho_axis.jpg",
+          "imagePath": "/server-data/assets/hypophosphatemia_fgf23_klotho_axis.jpg",
+          "caption": "FGF23-Klotho-FGFR1 Axis 在 Phosphate 恆定中的生理機轉",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "diag-1-2",
+          "relPath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "imagePath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "caption": "Summary of the inherited disorders of urinary phosphate wasting in Proximal Convoluted Tubule",
+          "sourceBook": "Brenner 11e Ch 18",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "Inherited and Acquired FGF23-Mediated Hypophosphatemic Disorders",
+      "content": "當 FGF23 不正常升高時，會導致嚴重的腎臟磷流失與 Hypophosphatemia。在遺傳性疾病中，XLH 是最常見的原因，源於 PHEX 基因突變，導致 FGF23 異常累積。ADHR 則是因 FGF23 基因本身突變，使其對蛋白酶的降解產生抗性。ARHR1 與 ARHR2 分別由 DMP1 與 ENPP1 突變引起，這些骨基質蛋白的缺陷最終皆會導致 FGF23 過度分泌。在後天獲得性疾病中，TIO 是由分泌 FGF23 的良性腫瘤引起，這些腫瘤常表現出 PMT 的病理特徵。此外，使用 Ferric Carboxymaltose 進行 IV Iron 補充時，部分病患會出現急性的 iFGF23 降解受阻，引發醫源性的 FGF23-mediated Hypophosphatemia。這類疾病的共通特徵為低磷血症、Phosphaturia，且伴隨不適當偏低的 1,25(OH)2D。",
+      "diagrams": [
+        {
+          "id": "diag-2-1",
+          "relPath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "imagePath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Fig_18_5.png",
+          "caption": "Inherited FGF23-mediated hypophosphatemic disorders in proximal tubule",
+          "sourceBook": "Brenner 11e Ch 18",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag-2-2",
+          "relPath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_15.png",
+          "imagePath": "/reference-images/Brenner 11e/53. Chronic Kidney Disease–Mineral Bone Disorder/Fig_53_15.png",
+          "caption": "Spectrum of serum FGF23 levels across CKD, XLH, ADHR, and TIO",
+          "sourceBook": "Brenner 11e Ch 53",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "Non-FGF23 Renal Phosphate Wasting and Proximal Tubulopathies",
+      "content": "除了 FGF23 依賴型的磷流失外，Proximal Tubule 本身的結構或功能受損也會導致 Hypophosphatemia。遺傳性的 HHRH 是由 SLC34A3 突變 (編碼 NaPi-2c) 引起，與 FGF23 相關疾病不同的是，HHRH 會有代償性升高的 1,25(OH)2D 與 Hypercalciuria。更廣泛的Proximal Convoluted Tubule功能障礙則表現為 Fanconi Syndrome，患者除了磷流失，還會合併 Glycosuria、Aminoaciduria 與 Proximal RTA。臨床上常見引發 Fanconi Syndrome 的藥物包括 Tenofovir 造成的 Mitochondrial Toxicity 以及 Ifosfamide 化療。此外，Post-Kidney Transplant 病患因過去 Hyperparathyroidism 殘留影響或免疫抑制劑毒性，常有顯著的磷流失。在 ATN 進入 Recovery Phase 時，大量排尿也會帶走過多的 Phosphate。這類疾病的核心在於小管細胞無法正常執行重吸收，而與 FGF23 濃度無關。",
+      "diagrams": [
+        {
+          "id": "diag-3-1",
+          "relPath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Box_18_6.png",
+          "imagePath": "/reference-images/Brenner 11e/18. Disorders of Calcium, Magnesium, and Phosphate Balance/Box_18_6.png",
+          "caption": "Causes of Hypophosphatemia and Proximal Tubulopathies",
+          "sourceBook": "Brenner 11e Ch 18",
+          "type": "micrograph"
+        },
+        {
+          "id": "diag-3-2",
+          "relPath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Fig_73_12.png",
+          "imagePath": "/reference-images/Brenner 11e/73. Fluid, Electrolyte, and Acid-Base Disorders in Children/Fig_73_12.png",
+          "caption": "Diagnostic algorithm distinguishing Fanconi syndrome and HHRH",
+          "sourceBook": "Brenner 11e Ch 73",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Transcellular Shift and Intracellular Redistribution Hypophosphatemia",
+      "content": "Hypophosphatemia 經常導因於 Phosphate 在細胞內外的重新分布，而非絕對的總量流失。最經典的例子為 Refeeding Syndrome，當長期營養不良病患重新攝取碳水化合物時，大量分泌的 Insulin Surge 會促進葡萄糖進入細胞，隨之活化 Hexokinase 與 PFK 進行糖解作用，過程中會快速消耗細胞內的 Phosphate 並促使血液中的 Phosphate 湧入細胞，造成致命的低血磷。在 Acute Respiratory Alkalosis 時，細胞內 pH 值上升同樣會強烈刺激 PFK 活性，引發類似的細胞內轉移。在 DKA 治療期間，給予 Insulin Therapy 除了將 Potassium 帶入細胞，也會導致 Phosphate 大量內流。此外，在嚴重 Hyperparathyroidism 術後出現的 Hungry Bone Syndrome，骨骼會瘋狂吸收血液中的 Calcium 與 Phosphate 以進行礦化，產生急遽且深度的 Hypophosphatemia。",
+      "diagrams": [
+        {
+          "id": "diag-4-1",
+          "relPath": "/server-data/assets/hypophosphatemia_refeeding_shift.jpg",
+          "imagePath": "/server-data/assets/hypophosphatemia_refeeding_shift.jpg",
+          "caption": "Refeeding Syndrome and Transcellular Phosphate Shift Pathway",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "Clinical Diagnostics, TmP/GFR Calculation, and Evidence-Based Management",
+      "content": "診斷 Hypophosphatemia 首先必須區分是經由腎臟流失或腸胃/細胞轉移。使用 FE-Pi 公式或查閱 Walton & Bijvoet Nomogram 來計算 TmP/GFR，可精準評估腎臟的磷重吸收閾值。若 TmP/GFR 偏低，代表存在 Renal Phosphate Wasting。檢測 FGF23 濃度時需注意 Intact FGF23 Assay 與 C-terminal Assay 的差異，特別是在 Ferric Carboxymaltose 引發的病灶中，只有 Intact FGF23 會真實反映病況。在治療策略上，對於 XLH 等 FGF23 介導的疾病，傳統上需同時給予 Phosphate 與 Calcitriol 以避免誘發 Hyperparathyroidism；但對於 HHRH，因其 1,25(OH)2D 已偏高，給予 Calcitriol 屬於 Absolute Contraindication，僅需補充 Phosphate 即可。對於嚴重的症狀性 Hypophosphatemia，應小心給予 IV Phosphate 治療，並密切監測 Calcium 與 Potassium。近年來，Burosumab 作為針對 FGF23 的 Anti-FGF23 Monoclonal Antibody，已成為治療 XLH 與 TIO 的劃時代標靶藥物。",
+      "diagrams": [
+        {
+          "id": "diag-5-1",
+          "relPath": "/server-data/assets/hypophosphatemia_diagnostic_algorithm.jpg",
+          "imagePath": "/server-data/assets/hypophosphatemia_diagnostic_algorithm.jpg",
+          "caption": "Clinical decision algorithm for diagnostic evaluation of hypophosphatemia",
+          "sourceBook": "Gemini AI Illustration",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ],
+  "paperId": "2026_hypophosphatemia_(主題備考)",
+  "sourceCategory": "2026 Electrolytes"
+}

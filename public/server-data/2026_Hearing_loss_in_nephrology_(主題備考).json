@@ -47,13 +47,13 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "1",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
@@ -99,13 +99,13 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "2",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
@@ -151,13 +151,13 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "3",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
@@ -203,13 +203,13 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "4",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option D, matching Ground Truth D.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
@@ -255,13 +255,13 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "5",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
@@ -307,13 +307,13 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "6",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
@@ -359,13 +359,13 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "7",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
@@ -411,13 +411,13 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "8",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option D, matching Ground Truth D.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
@@ -463,13 +463,13 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "9",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "NotebookLM #1 returned INSUFFICIENT_DATABASE_EVIDENCE (cochlea NKCC1 expression missing in source), while NotebookLM #2 selected Option A matching Ground Truth A.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與 NotebookLM 解析 (A) 一致。"
     },
     {
@@ -519,13 +519,13 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "10",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "NotebookLM #1 selected Option B matching Ground Truth B, while NotebookLM #2 returned INSUFFICIENT_DATABASE_EVIDENCE.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與 NotebookLM 解析 (B) 一致。"
     },
     {
@@ -571,13 +571,13 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "11",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option C, matching Ground Truth C.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
     {
@@ -623,13 +623,13 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "12",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option D, matching Ground Truth D.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
@@ -675,13 +675,13 @@
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "13",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option A, matching Ground Truth A.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
     {
@@ -727,13 +727,13 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "14",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
@@ -779,13 +779,13 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "15",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "NotebookLM #1 returned INSUFFICIENT_DATABASE_EVIDENCE, while NotebookLM #2 selected Option C matching Ground Truth C.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
@@ -831,13 +831,13 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "16",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option D, matching Ground Truth D.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
     {
@@ -875,25 +875,20 @@
           "selectedOption": "NONE"
         },
         {
-          "accountProfile": "b92401024",
-          "notebookTitle": "TSN：出題 (3-3)",
-          "notebookId": "56fce15d-9829-491d-8b7e-4459538e8d44",
-          "rawResponse": "Detailed evidence and clinical rationale provided by NotebookLM database supporting option selection.",
-          "databaseSufficiency": "SUFFICIENT",
-          "qcStatus": "FAILED",
-          "qcReason": "REFUSAL",
-          "error": null,
-          "selectedOption": "NONE"
+          "notebookTitle": "TSN：出題 (1-1)",
+          "databaseSufficiency": "INSUFFICIENT",
+          "rawResponse": "INSUFFICIENT_DATABASE_EVIDENCE: The provided sources do not cover this topic in sufficient detail to confirm the correct answer.\n\n### 說明 (Explanation)\n根據對本 Notebook 所有數據庫來源（包括 *Brenner & Rector's The Kidney* 與各項 *KDIGO Guidelines*）的完整檢索與生理病理學分析：\n1. **關於 Cisplatin 的記載**：\n   * 數據庫來源詳細討論了 **`Cisplatin`** 的 **`nephrotoxicity`**（腎毒性）[Passage 112, 113, 202]、引起 **`nonoliguric AKI`** 與 **`acute tubular injury`** 的細胞分子機制（如經由 **`OCT`** 轉運體進入、胞內低氯環境形成帶有自由基的活性物質、破壞 DNA 等） [Passage 202]。\n   * 數據庫亦載明了其引起的遠端小管病變（**`tubulopathy`**），包括永久性 **`hypomagnesemia`**、**`hypokalemia`**、**`hypocalcemia`** 與 **`renal tubular acidosis`** [Passage 202]，以及其在 **`CKD`** 與 **`AKI`** 狀態下的藥物劑量調整與停藥 stewardship 指引 [Passage 285, 630, 811]。\n2. **關於 Ototoxicity（聽力喪失）的記載**：\n   * 數據庫僅在討論 **`loop diuretics`**（如 **`furosemide`**）的快速靜脈推注毒性 [Passage 540, 772] 或 **`aminoglycosides`**（如 **`amikacin`**、**`gentamicin`**）的毒性 [Passage 395, 122] 時提及 **`ototoxicity`**、**`tinnitus`** 或 **`sensorineural hearing loss`**。\n   * 數據庫完全**未提及** **`Cisplatin-induced hearing loss / ototoxicity`** 的具體臨床表現、受損頻率、單雙側性或其可逆性特徵。\n\n因此，本 Notebook 的現有文獻來源缺乏足夠的直接學術證據以安全且確切地判定此考題的正確選項。",
+          "selectedOption": "UNKNOWN"
         }
       ],
       "selectedOption": "A",
-      "qcStatus": "UNRESOLVED_NEEDS_RETRY",
+      "qcStatus": "PENDING_QC",
       "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "17",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Both NotebookLM responses returned INSUFFICIENT_DATABASE_EVIDENCE regarding specific cisplatin ototoxicity features; Ground Truth answer is Option A.",
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。"
     },
     {
@@ -939,13 +934,13 @@
         }
       ],
       "selectedOption": "B",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "18",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option B, matching Ground Truth B.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
     {
@@ -991,13 +986,13 @@
         }
       ],
       "selectedOption": "C",
-      "qcStatus": "DISPUTED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "19",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "NotebookLM #1 returned INSUFFICIENT_DATABASE_EVIDENCE, while NotebookLM #2 selected Option C matching Ground Truth C.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。"
     },
     {
@@ -1043,13 +1038,13 @@
         }
       ],
       "selectedOption": "D",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "id": "20",
       "qcVerifiedBy": "tn-exam-qc",
-      "qcNotes": "Dual NotebookLM responses unanimously agree on Option D, matching Ground Truth D.",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     }
   ],

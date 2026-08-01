@@ -64,13 +64,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
       "number": 1,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q02",
@@ -130,13 +130,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
       "number": 2,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q03",
@@ -196,13 +196,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
       "number": 3,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q04",
@@ -260,13 +260,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
       "number": 4,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q05",
@@ -326,13 +326,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
       "number": 5,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q06",
@@ -392,13 +392,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
       "number": 6,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q07",
@@ -450,13 +450,13 @@
           "timestamp": "2026-07-30T02:39:14.243Z"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Medical adjudication: Ground truth (D) matches NLM #2 (D) and clinical consensus for secondary syphilis membranous pattern.",
       "number": 7,
       "qcVerifiedAt": "2026-07-31T06:15:24.409Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedBy": "tn-exam-qc"
     },
     {
@@ -511,13 +511,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
       "number": 8,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q09",
@@ -577,13 +577,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
       "number": 9,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q10",
@@ -643,13 +643,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
       "number": 10,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q11",
@@ -703,13 +703,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
       "number": 11,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q12",
@@ -769,13 +769,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
       "number": 12,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q13",
@@ -829,13 +829,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (B) matches NLM #1 (B) and NLM #2 (B).",
       "number": 13,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q14",
@@ -889,13 +889,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
       "number": 14,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q15",
@@ -949,13 +949,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (C) matches NLM #1 (C) and NLM #2 (C).",
       "number": 15,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q16",
@@ -1009,13 +1009,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
       "number": 16,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q17",
@@ -1069,13 +1069,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
       "number": 17,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q18",
@@ -1129,13 +1129,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
       "number": 18,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q19",
@@ -1195,13 +1195,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (A) matches NLM #1 (A) and NLM #2 (A).",
       "number": 19,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_Nephrotic_Syndrome_(主題備考)_Q20",
@@ -1255,13 +1255,13 @@
           "error": null
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcVerified": true,
-      "qcStatus": "PASSED",
+      "reconciliationStatus": "UNVERIFIED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "reconciliationNotes": "Ground truth (D) matches NLM #1 (D) and NLM #2 (D).",
       "number": 20,
       "qcVerifiedAt": "2026-07-30T04:06:27.055917Z",
-      "qcNotes": "Stage 2 QC Verified: 0% Regex, Pure English terms, nlmResponses verified."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     }
   ],
   "updatedAt": "2026-07-30T04:06:47.263Z",

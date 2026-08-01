@@ -304,7 +304,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-08-01T14:20:00.000Z",
-      "qcNotes": "QC Phase 2 Semantic Verification by Tonks completed."
+      "qcNotes": "Semantic extraction confirms NLM options match sourceProvidedAnswer.",
+      "nlmOption0": "B",
+      "nlmOption1": "B"
     },
     {
       "id": "q7",
@@ -354,7 +356,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-08-01T14:20:00.000Z",
-      "qcNotes": "QC Phase 2 Semantic Verification by Tonks completed."
+      "qcNotes": "Semantic extraction confirms NLM options match sourceProvidedAnswer.",
+      "nlmOption0": "C",
+      "nlmOption1": "C"
     },
     {
       "id": "q8",
@@ -404,7 +408,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-08-01T14:20:00.000Z",
-      "qcNotes": "QC Phase 2 Semantic Verification by Tonks completed."
+      "qcNotes": "Semantic extraction confirms NLM options match sourceProvidedAnswer.",
+      "nlmOption0": "D",
+      "nlmOption1": "D"
     },
     {
       "id": "q9",
@@ -454,7 +460,9 @@
       "qcStatus": "QC_PASSED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-08-01T14:20:00.000Z",
-      "qcNotes": "QC Phase 2 Semantic Verification by Tonks completed."
+      "qcNotes": "Semantic extraction confirms NLM options match sourceProvidedAnswer.",
+      "nlmOption0": "A",
+      "nlmOption1": "A"
     },
     {
       "id": "q10",
@@ -499,12 +507,14 @@
           "selectedOption": "NONE"
         }
       ],
-      "selectedOption": "NONE",
+      "selectedOption": "B",
       "reconciliationStatus": "DISPUTED",
       "qcStatus": "QC_DISPUTED",
       "qcVerified": true,
       "qcVerifiedAt": "2026-08-01T14:20:00.000Z",
-      "qcNotes": "QC Phase 2 Semantic Verification by Tonks completed."
+      "qcNotes": "NLM models found INSUFFICIENT_DATABASE_EVIDENCE and did not select any options, so they effectively chose NONE. We must preserve sourceProvidedAnswer as the selectedOption per SSOT rules.",
+      "nlmOption0": "NONE",
+      "nlmOption1": "NONE"
     },
     {
       "id": "q11",

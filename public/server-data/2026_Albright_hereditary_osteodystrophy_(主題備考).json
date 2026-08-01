@@ -56,7 +56,7 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -69,11 +69,11 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_002",
@@ -126,7 +126,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -139,11 +139,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_003",
@@ -196,7 +196,7 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -209,11 +209,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_004",
@@ -266,7 +266,7 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -279,11 +279,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_005",
@@ -336,7 +336,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -349,11 +349,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_006",
@@ -406,7 +406,7 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -419,11 +419,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_007",
@@ -476,7 +476,7 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -489,11 +489,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_008",
@@ -546,7 +546,7 @@
           "selectedOption": "C"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -559,11 +559,11 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_009",
@@ -616,7 +616,7 @@
           "selectedOption": "D"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -629,11 +629,11 @@
         }
       ],
       "selectedOption": "D",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_0010",
@@ -686,7 +686,7 @@
           "selectedOption": "A"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -699,11 +699,11 @@
         }
       ],
       "selectedOption": "A",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "2026_AHO_0011",
@@ -748,7 +748,7 @@
           "selectedOption": "B"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "resolvedImages": [
         {
@@ -761,11 +761,11 @@
         }
       ],
       "selectedOption": "B",
-      "qcVerified": true,
-      "qcStatus": "QC_PASSED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "responses": [
         {
           "account": "mudkaku",
@@ -827,7 +827,7 @@
           "qcStatus": "FAILED"
         }
       ],
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "reconciliationStatus": "UNVERIFIED",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
       "resolvedImages": [
         {
@@ -840,11 +840,11 @@
         }
       ],
       "selectedOption": "C",
-      "qcVerified": true,
-      "qcStatus": "DISPUTED",
+      "qcVerified": false,
+      "qcStatus": "PENDING_QC",
       "databaseSufficiency": "SUFFICIENT",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses returned INSUFFICIENT_DATABASE_EVIDENCE (NONE) due to Brenner 11e database coverage limitation for POH, while ground truth answer is C.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedBy": "Tonks QC Subagent"
     }
   ],

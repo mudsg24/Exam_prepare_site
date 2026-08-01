@@ -52,9 +52,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM0 and NLM1 matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "selectedOption_nlm0": "A",
+      "selectedOption_nlm1": "A"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q02",
@@ -103,9 +105,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM0 and NLM1 matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "selectedOption_nlm0": "B",
+      "selectedOption_nlm1": "B"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q03",
@@ -154,9 +158,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM0 and NLM1 matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "selectedOption_nlm0": "C",
+      "selectedOption_nlm1": "C"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q04",
@@ -205,9 +211,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM0 and NLM1 matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:21.395Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "selectedOption_nlm0": "D",
+      "selectedOption_nlm1": "D"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q05",
@@ -256,9 +264,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM0 and NLM1 matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:21.396Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "selectedOption_nlm0": "A",
+      "selectedOption_nlm1": "A"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q06",
@@ -281,7 +291,7 @@
           "text": "Distal Renal Tubular Acidosis"
         }
       ],
-      "sourceProvidedAnswer": "B",
+      "sourceProvidedAnswer": "A",
       "selectedOption": "B",
       "sourceExplanation": "TPP 臨床情境。患者為 Asian male，具備 Hyperthyroidism 症狀，包含 Weight loss、Palpitations、Heat intolerance、Sinus tachycardia，並在清晨發生突發性 Paralysis。ECG 顯示 Hypokalemia 變化，包含 ST depression 與 Prominent U waves。Spot urine Potassium 排泄量低，Spot urine K/Cr < 15 mEq/g 證實 Hypokalemia 是源自 Transcellular shift 而非 Renal potassium wasting。",
       "nlmResponses": [
@@ -307,9 +317,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Both NLM responses correctly matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:21.396Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "nlm0": "A",
+      "nlm1": "A"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q07",
@@ -332,7 +344,7 @@
           "text": "Induction of acute kidney injury from potassium crystal nephropathy."
         }
       ],
-      "sourceProvidedAnswer": "C",
+      "sourceProvidedAnswer": "B",
       "selectedOption": "C",
       "sourceExplanation": "在治療 Hypokalemic periodic paralysis  的急性發作時，必須極度謹慎地補充 Potassium。因為患者體內的 Total body potassium 並未減少，Hypokalemia 純粹肇因於 Transcellular shift。當誘發因素消退或給予治療後，Potassium 會迅速從 Intracellular fluid 轉移回 Extracellular fluid，若先前補充過量的 Potassium，極易引發危及生命的 Rebound hyperkalemia。",
       "nlmResponses": [
@@ -360,9 +372,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Both NLM responses correctly matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:21.396Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "nlm0": "B",
+      "nlm1": "B"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q08",
@@ -411,9 +425,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Both NLM responses correctly matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:21.396Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "nlm0": "D",
+      "nlm1": "D"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q09",
@@ -462,9 +478,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Both NLM responses correctly matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "nlm0": "A",
+      "nlm1": "A"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q10",
@@ -513,9 +531,11 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Both NLM responses correctly matched sourceProvidedAnswer.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
-      "qcVerifiedBy": "Tonks"
+      "qcVerifiedBy": "Tonks",
+      "nlm0": "B",
+      "nlm1": "B"
     },
     {
       "id": "2026_Hypokalemic_periodic_paralysis_Q11",
@@ -564,7 +584,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Subagent semantic check verified NLM consensus on option C.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
       "qcVerifiedBy": "Tonks"
     },
@@ -615,7 +635,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Subagent semantic check verified NLM consensus on option D.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
       "qcVerifiedBy": "Tonks"
     },
@@ -666,7 +686,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Subagent semantic check verified NLM consensus on option A.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
       "qcVerifiedBy": "Tonks"
     },
@@ -717,7 +737,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Subagent semantic check verified NLM consensus on option B.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
       "qcVerifiedBy": "Tonks"
     },
@@ -768,7 +788,7 @@
       "qcVerified": true,
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "Subagent semantic check verified NLM consensus on option C.",
       "qcVerifiedAt": "2026-07-30T18:49:19.258Z",
       "qcVerifiedBy": "Tonks"
     }

@@ -32,9 +32,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "TTP 致病核心為 ADAMTS13 Protease Activity 嚴重缺失 (< 10%)。ADAMTS13 負責將 Ultra-UL-vWF Multimers 切短；缺乏 ADAMTS13 時，過長的 UL-vWF Multimers 會誘發自發性 Platelet Activation 與 Microvascular Thrombosis。",
       "selectedOption": "A",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_7.png",
@@ -61,7 +61,7 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
@@ -91,9 +91,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CD46 / MCP 為 Transmembrane Cell-Surface Cofactor，專司輔助 Factor I 切割 C3b 成為 Inactive iC3b，保護 Glomerular Endothelium 免受 MAC 破壞。Loss-of-Function 突變會導致 Microvascular Complement Overactivation 與 aHUS。",
       "selectedOption": "B",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_4.png",
@@ -120,7 +120,7 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
@@ -150,9 +150,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Gemcitabine 為常見引發 Dose-Dependent Endothelial Toxicity 之化療藥物。其造成的 Secondary Drug-D-TMA 常呈劑量累積性 Endothelial Injury，臨床表現為漸進性 AKI、Hypertension 與 MAHA。",
       "selectedOption": "D",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -172,7 +172,7 @@
           "selectedOption": "D"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
@@ -202,9 +202,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "STEC-HUS (Shiga toxin-producing E. coli HUS) 感染期嚴禁使用 Antibiotics！使用 Fluoroquinolones 或 Beta-Stx1/Stx2，使兒童演變成 HUS 的風險暴增 17 倍。",
       "selectedOption": "NONE",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_9.png",
@@ -231,7 +231,7 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "Option B corrected (removed over-absolute \"strictly contraindicated\", replaced with accurate \"should be avoided due to bactericidal SOS response induction\"). NLM#1 and NLM#2 both confirmed B. Q4 fully resolved.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:02:18.428Z",
       "qcVerifiedBy": "tn-exam-qc"
@@ -262,9 +262,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Sialidase 會切除 Erythrocytes、Platelets 及 Endothelial Cells 表面的 N-acetylneuraminic Acid，裸露出隱蔽之 Thomsen-T Antigen，引發 IgM Antibodies 結合與 Coombs-Positive HUS。",
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -284,7 +284,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
@@ -314,9 +314,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "超過 80% 的 Pregnancy-Associated Complement-Mediated aHUS 發生於 Postpartum 期。主因為 Placenta 移除後丟失了 Placenta 所分泌之高濃度 Complement Regulatory Proteins，使帶有潛在 CFH/CFI Gene Mutations 之產婦暴露於 Complement Overactivation 風暴中。",
       "selectedOption": "B",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_10.png",
@@ -343,7 +343,7 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "INSUFFICIENT header present but clear option B identified in Answer Determination",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
@@ -373,9 +373,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "TMAMAHA 屬於機械性破裂，Coombs test 必須為 Negative。若 Coombs test 為 Positive，AIHA 或 Evans Syndrome，非 Primary TMA。",
       "selectedOption": "A",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -395,7 +395,7 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
@@ -425,9 +425,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "TTP 的臨床主軸為 CNS Involvement 與深刻的 Thrombocytopenia (< 30,000/μL)，其 Renal Involvement 通常極為輕微 (僅微量 Proteinuria 或 Hematuria，極少演變成 Oliguric AKI)。反觀 aHUS 則是近 100% 患者伴隨 Severe AKI。",
       "selectedOption": "B, C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_3.png",
@@ -454,7 +454,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "Option B corrected (replaced INCORRECT claim about \"100% aHUS need RRT\" with accurate genotype-dependent prognosis). NLM#1 and NLM#2 both confirmed C as the only INCORRECT statement. Q8 fully resolved.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:02:18.428Z",
       "qcVerifiedBy": "tn-exam-qc"
@@ -485,9 +485,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "超過 50% 的 Complement-Mediated aHUS 患者其 Serum C3 濃度完全正常。AP 的過度活化主要發生於 Glomerular Endothelial Cell Surface，非 Systemic Fluid Phase 崩解。",
       "selectedOption": "D",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -507,7 +507,7 @@
           "selectedOption": "D"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
@@ -537,9 +537,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "aHUS 遵循 Multi-Hit Model：罕見 Complement Gene Mutations (如 CFH/CFI) 外，常需合併 Risk Haplotypes (如 CFH-H3 或 CD46-GGAAC) 以及 Environmental Triggers (如感染、懷孕、手術) 方會誘發發病。",
       "selectedOption": "B",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -559,7 +559,7 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
@@ -589,9 +589,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Eculizumab 為 Humanized IgG Monoclonal Antibody，專一性結合 Complement C5，Anaphylatoxin 與 C5b，進而阻止 Terminal Membrane Attack Complex (MAC, C5b-9) 於 Glomerular Endothelial Cell Surface 組裝與破壞。",
       "selectedOption": "A",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_4.png",
@@ -618,7 +618,7 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
@@ -648,9 +648,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "阻斷 Complement C5 會使患者對 Encapsulated Bacteria  的抵抗力下降 1,000 ~ 2,000 倍。使用 Eculizumab /ACWY 及 Serogroup B Meningococcal Vaccines，Penicillin V / Ciprofloxacin。",
       "selectedOption": "D",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -670,7 +670,7 @@
           "selectedOption": "D"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
@@ -700,9 +700,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Caplacizumab 為 Bivalent Anti-vWF Nanobody，能直接阻斷 Ultra-Large vWF Multimers 的 A1 Domain 與 Platelet GP Ib-IX-V Receptor 結合，立即阻止 iTTP 患者體內的 Microvascular Thrombosis。",
       "selectedOption": "A",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -722,7 +722,7 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
@@ -752,9 +752,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "MCP 屬於 Membrane-Bound Protein。當進行 Kidney Transplantation 時，正常的 Donor Allograft Endothelial Cells 自帶正常的 Donor CD46，因此 Isolated CD46 突變患者移植後 aHUS Recurrence Rate 極低 (10-20%)；反之 CFH/CFI 因子由 Liver 分泌，Recurrence Rate 極高 (> 80%)。",
       "selectedOption": "D",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -774,7 +774,7 @@
           "selectedOption": "D"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
@@ -804,9 +804,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "成人疑似 TTP 為醫療急症！未治療的 TTP 死亡率超過 90%。急診抽取 ADAMTS13 檢體後，絕不可以等待數天後的報告，PEX！",
       "selectedOption": "A",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_3.png",
@@ -833,7 +833,7 @@
           "selectedOption": "A"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。"
     },
@@ -863,9 +863,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "EM 典型特徵為 Endothelial Swelling 與 Subendothelial Widening，內有 Electron-Lucent Fluffy Material 沉積，伴隨 Endothelial Cell Detachment from GBM。",
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [
         {
           "imagePath": "/server-data/assets/Brenner_Fig_34_2.png",
@@ -892,7 +892,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
@@ -922,9 +922,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "Ravulizumab 為長效型 Anti-C5 Antibody，透過 Point Mutations 增強 Endosomes 內的 pH-Dependent Target Dissociation 以及 FcRn-Mediated Recycling，將 Half-Life 大幅延長，給藥間隔由 Eculizumab 的 2 週延長至 8 週。",
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -944,7 +944,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "Both NLMs flagged INSUFFICIENT_DATABASE_EVIDENCE but explicitly provided Option C based on clinical consensus.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     },
@@ -974,9 +974,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "CAPS 引發之 Secondary TMA 需採取三聯療法：PEX 移除 Autoantibodies 與 Procoagulant Factors + Anticoagulation +Steroids / Rituximab。",
       "selectedOption": "D",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -996,7 +996,7 @@
           "selectedOption": "D"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
     },
@@ -1026,9 +1026,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "cblC 代謝缺陷，使體內 Homocysteine 劇烈累積引發 Endothelial Cell Toxicity 與 Endothelial Injury，表現為 Cobalamin C-Associated TMA。",
       "selectedOption": "B",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1048,7 +1048,7 @@
           "selectedOption": "B"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
     },
@@ -1078,9 +1078,9 @@
       "sourceAnswerStatus": "provided",
       "sourceExplanation": "DGKE (Diacylglycerol kinase ε) Gene Mutation 導致 Podocyte 與 Endothelial Cell 內的 Lipid Signaling Pathway 失調，屬 Non-Complement Mediated aHUS，故對 Eculizumab Complement Inhibitors 無反應。",
       "selectedOption": "C",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "resolvedImages": [],
       "nlmResponses": [
         {
@@ -1100,7 +1100,7 @@
           "selectedOption": "C"
         }
       ],
-      "qcNotes": "",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "qcVerifiedAt": "2026-07-31T17:46:40.291Z",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
     }

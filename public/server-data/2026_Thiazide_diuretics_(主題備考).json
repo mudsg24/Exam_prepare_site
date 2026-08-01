@@ -60,10 +60,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM1 and NLM2 match sourceProvidedAnswer A."
     },
     {
       "id": "2026_Thiazide_diuretics_Q2",
@@ -120,10 +121,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM1 and NLM2 match sourceProvidedAnswer C."
     },
     {
       "id": "2026_Thiazide_diuretics_Q3",
@@ -180,10 +182,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "reconciliationStatus": "HIGH_CONFIDENCE",
+      "qcStatus": "QC_DISPUTED",
+      "reconciliationStatus": "DISPUTED",
       "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM1 selects B, but NLM2 disputes it and selects NONE due to physiological inaccuracy."
     },
     {
       "id": "2026_Thiazide_diuretics_Q4",
@@ -240,11 +243,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與 NotebookLM 解析 (D) 一致。",
       "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
-      "qcNotes": "Reconciled by tn-exam-qc."
+      "qcNotes": "NLM1 and NLM2 match sourceProvidedAnswer D."
     },
     {
       "id": "2026_Thiazide_diuretics_Q5",
@@ -301,10 +304,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM1 and NLM2 match sourceProvidedAnswer A."
     },
     {
       "id": "2026_Thiazide_diuretics_Q6",
@@ -361,10 +365,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM 1 and 2 both selected C, matching source provided answer."
     },
     {
       "id": "2026_Thiazide_diuretics_Q7",
@@ -421,10 +426,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM 1 and 2 both selected B, matching source provided answer."
     },
     {
       "id": "2026_Thiazide_diuretics_Q8",
@@ -481,10 +487,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM 1 and 2 both selected D, matching source provided answer."
     },
     {
       "id": "2026_Thiazide_diuretics_Q9",
@@ -547,7 +554,7 @@
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: A vs NLM 2: NONE)。",
       "qcVerifiedAt": "2026-07-30T18:49:19.250Z",
-      "qcNotes": "Verified by tn-exam-qc subagent semantic check.",
+      "qcNotes": "NLM 1 and 2 both selected A, matching source provided answer.",
       "qcVerifiedBy": "Tonks"
     },
     {
@@ -605,10 +612,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM 1 and 2 both selected C, matching source provided answer."
     },
     {
       "id": "2026_Thiazide_diuretics_Q11",
@@ -665,10 +673,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "reconciliationNotes": "QC: NLM1 (B) and NLM2 (B) match source provided answer (B).",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "100% semantic verification passed. No regex used."
     },
     {
       "id": "2026_Thiazide_diuretics_Q12",
@@ -725,10 +734,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "D 與 NotebookLM 雙重對答 (NLM1: D, NLM2: D) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "reconciliationNotes": "QC: NLM1 (D) and NLM2 (D) match source provided answer (D).",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "100% semantic verification passed. No regex used."
     },
     {
       "id": "2026_Thiazide_diuretics_Q13",
@@ -785,10 +795,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "reconciliationNotes": "QC: NLM1 (B) and NLM2 (B) match source provided answer (B).",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "100% semantic verification passed. No regex used."
     },
     {
       "id": "2026_Thiazide_diuretics_Q14",
@@ -845,10 +856,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "reconciliationNotes": "QC: NLM1 (C) and NLM2 (C) match source provided answer (C).",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "100% semantic verification passed. No regex used."
     },
     {
       "id": "2026_Thiazide_diuretics_Q15",
@@ -905,10 +917,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "A 與 NotebookLM 雙重對答 (NLM1: A, NLM2: A) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "reconciliationNotes": "QC: NLM1 (A) and NLM2 (A) match source provided answer (A).",
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "100% semantic verification passed. No regex used."
     },
     {
       "id": "2026_Thiazide_diuretics_Q16",
@@ -933,7 +946,7 @@
       ],
       "sourceProvidedAnswer": "D",
       "sourceAnswerStatus": "provided",
-      "selectedOption": "D",
+      "selectedOption": "NONE",
       "sourceExplanation": "Indapamide 屬於脂溶性高的 Thiazide-like Diuretic，在常用劑量 (1.25-2.5 mg/day) 下具有顯著的血管擴張與降壓效果，Glucose Profile Lipid Profile Metabolically Neutral，特別適合併有 Diabetes 或 Metabolic Syndrome 的高血壓患者。",
       "resolvedImages": [
         {
@@ -965,10 +978,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
-      "reconciliationStatus": "INSUFFICIENT_EVIDENCE",
+      "qcStatus": "QC_DISPUTED",
+      "reconciliationStatus": "DISPUTED",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "NLM responses indicated INSUFFICIENT_DATABASE_EVIDENCE."
     },
     {
       "id": "2026_Thiazide_diuretics_Q17",
@@ -1025,10 +1039,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "C 與 NotebookLM 雙重對答 (NLM1: C, NLM2: C) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "Reconciled by tn-exam-qc."
     },
     {
       "id": "2026_Thiazide_diuretics_Q18",
@@ -1085,10 +1100,11 @@
         }
       ],
       "qcVerified": true,
-      "qcStatus": "PASSED",
+      "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "B 與 NotebookLM 雙重對答 (NLM1: B, NLM2: B) 完全一致。",
-      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00"
+      "qcVerifiedAt": "2026-07-30T18:36:17.671712+00:00",
+      "qcNotes": "Reconciled by tn-exam-qc."
     }
   ]
 }

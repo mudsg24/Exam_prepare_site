@@ -56,10 +56,11 @@
           "accountProfile": "sandbox0505"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q02",
@@ -111,10 +112,11 @@
           "accountProfile": "sandbox0505"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q03",
@@ -166,10 +168,11 @@
           "accountProfile": "sandbox0505"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q04",
@@ -221,10 +224,11 @@
           "accountProfile": "sandbox0505"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q05",
@@ -276,10 +280,11 @@
           "accountProfile": "sandbox0505"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q06",
@@ -331,10 +336,11 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q07",
@@ -386,11 +392,11 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.384Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "Medical adjudication: Ground truth (A) matches NLM #2 (A). NLM #1 False-NONE header resolved.",
       "qcVerifiedBy": "tn-exam-qc"
     },
@@ -444,10 +450,11 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q09",
@@ -499,10 +506,11 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q10",
@@ -554,10 +562,11 @@
           "accountProfile": "kuonephro"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q11",
@@ -609,10 +618,11 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q12",
@@ -664,11 +674,11 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.392Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "Medical adjudication: Ground truth (D) matches NLM #2 (D). NLM #1 False-NONE header resolved.",
       "qcVerifiedBy": "tn-exam-qc"
     },
@@ -722,10 +732,11 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q14",
@@ -777,11 +788,11 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.396Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "Medical adjudication: Ground truth (C) matches NLM #2 (C). NLM #1 False-NONE header resolved.",
       "qcVerifiedBy": "tn-exam-qc"
     },
@@ -835,10 +846,11 @@
           "accountProfile": "mudkaku"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q16",
@@ -890,10 +902,11 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q17",
@@ -945,10 +958,11 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q18",
@@ -1000,10 +1014,11 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     },
     {
       "id": "rvt_ns_q19",
@@ -1055,11 +1070,11 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "QC_PASSED",
-      "qcVerified": true,
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
       "qcVerifiedAt": "2026-07-31T06:15:24.399Z",
-      "qcNotes": "NLM #1 evaluated NONE due to database passage limitation while NLM #2 selected option. Reconciliation verified.",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing.",
       "reconciliationNotes": "Medical adjudication: Ground truth (A) matches NLM #2 (A). NLM #1 False-NONE header resolved.",
       "qcVerifiedBy": "tn-exam-qc"
     },
@@ -1113,10 +1128,11 @@
           "accountProfile": "mudskipper24"
         }
       ],
-      "reconciliationStatus": "HIGH_CONFIDENCE",
-      "qcStatus": "PASSED",
-      "qcVerified": true,
-      "qcVerifiedAt": "2026-07-31T13:19:00Z"
+      "reconciliationStatus": "UNVERIFIED",
+      "qcStatus": "PENDING_QC",
+      "qcVerified": false,
+      "qcVerifiedAt": "2026-07-31T13:19:00Z",
+      "qcNotes": "Reset for full Stage 2 QC semantic option parsing."
     }
   ]
 }

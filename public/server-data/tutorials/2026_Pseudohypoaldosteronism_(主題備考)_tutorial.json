@@ -1,0 +1,77 @@
+{
+  "paperId": "2026_Pseudohypoaldosteronism_(主題備考)",
+  "sections": [
+    {
+      "title": "Introduction and Pathophysiology of Pseudohypoaldosteronism (PHA)",
+      "content": "Pseudohypoaldosteronism (PHA) 是一群以 Aldosterone 阻抗 (Resistance) 或其下游通道調節異常為特徵的遺傳性疾病。正常情況下，Aldosterone 會作用於 Collecting Duct 的 Mineralocorticoid Receptor (MR)，並促進 Epithelial Sodium Channel (ENaC) 表現，以增加鈉離子再吸收與鉀離子分泌。在 PHA-1 中，此路徑發生阻抗，導致嚴重的 Salt Wasting 與 Hyperkalemia；相對地，在 PHA-2 (Gordon Syndrome) 中，問題出現在 Distal Convoluted Tubule (DCT) 的 Na-Cl Cotransporter (NCC) 過度活化，引發與 PHA-1 截然不同的臨床表現。了解這兩個區域 (DCT 與 Collecting Duct) 的離子通道調控，是鑑別不同亞型 PHA 的關鍵核心。",
+      "diagrams": [
+        {
+          "id": "pha_topology_01",
+          "relPath": "/server-data/assets/pha_topology_mapping.jpg",
+          "imagePath": "/server-data/assets/pha_topology_mapping.jpg",
+          "caption": "Topology mapping of the aldosterone-sensitive distal nephron showing ENaC in the collecting duct and NCC in the distal convoluted tubule.",
+          "sourceBook": "AI Generated",
+          "type": "ai_illustration"
+        }
+      ]
+    },
+    {
+      "title": "Pseudohypoaldosteronism Type 1 (PHA-1)",
+      "content": "PHA-1 可分為兩種主要遺傳模式：Autosomal Dominant 與 Autosomal Recessive。Autosomal Dominant 型多由 Mineralocorticoid Receptor (MR) 基因突變引起，臨床表現通常較輕微，且常隨年齡增長而改善。相反地，Autosomal Recessive 型則肇因於 Epithelial Sodium Channel (ENaC) 的 α, β 或 γ 次單位發生 Loss-of-Function 突變，導致嚴重的全系統性 Salt Wasting、Hyperkalemia、Hyponatremia 與 Metabolic Acidosis。患者常呈現 Hypotension，且對高劑量 Fludrocortisone 治療無效，必須依賴大量 NaCl 補充以維持生命徵象。",
+      "diagrams": [
+        {
+          "id": "pha_1_mechanism_01",
+          "relPath": "/server-data/assets/pha_1_mechanism.jpg",
+          "imagePath": "/server-data/assets/pha_1_mechanism.jpg",
+          "caption": "Pathophysiological mechanism of Pseudohypoaldosteronism Type 1 showing ENaC loss-of-function mutation and mineralocorticoid receptor resistance.",
+          "sourceBook": "AI Generated",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "brenner_44_14",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_14.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_14.png",
+          "caption": "Disorders of the epithelial Na channel (ENaC). Mutations in subunits of ENaC cause the autosomal recessive form of pseudohypoaldosteronism type I (PHA I).",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "title": "Pseudohypoaldosteronism Type 2 (PHA-2 / Gordon Syndrome)",
+      "content": "PHA-2 (Gordon Syndrome) 的核心病理機轉為 Distal Convoluted Tubule (DCT) 的 Na-Cl Cotransporter (NCC) 異常活躍。其基因突變牽涉 WNK1, WNK4 以及 KLHL3 與 CUL3 複合體。KLHL3/CUL3 正常負責 Ubiquitination 並降解 WNK 激酶，突變會導致 WNK 累積並持續磷酸化 OSR1/SPAK，最終導致 NCC 過度活化。這種 Gain-of-Function 會造成大量的鈉離子與氯離子再吸收，導致 Hypertension 與 Hyperchloremic Metabolic Acidosis。由於上游鈉離子被過度吸收，到達 Collecting Duct 的鈉離子減少，進而削弱了 ENaC 驅動的鉀離子與氫離子分泌，引發 Hyperkalemia。治療首選為 Thiazide diuretics，可有效抑制過度活化的 NCC 並逆轉臨床症狀。",
+      "diagrams": [
+        {
+          "id": "pha_2_mechanism_01",
+          "relPath": "/server-data/assets/pha_2_mechanism.jpg",
+          "imagePath": "/server-data/assets/pha_2_mechanism.jpg",
+          "caption": "Pathophysiological mechanism of Pseudohypoaldosteronism Type 2 (Gordon Syndrome) showing WNK kinase and NCC overactivation.",
+          "sourceBook": "AI Generated",
+          "type": "ai_illustration"
+        },
+        {
+          "id": "brenner_44_15",
+          "relPath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_15.png",
+          "imagePath": "/reference-images/Brenner 11e/44. Inherited Disorders of the Renal Tubule/Fig_44_15.png",
+          "caption": "Molecular mechanism of pseudohypoaldosteronism type II in the distal convoluted tubule.",
+          "sourceBook": "Brenner 11e Ch 44",
+          "type": "micrograph"
+        }
+      ]
+    },
+    {
+      "title": "Differential Diagnosis of Hyperkalemic Renal Tubular Acidosis (Type 4 RTA)",
+      "content": "面對表現為 Hyperkalemia 與 Non-Anion Gap Metabolic Acidosis 的病患，必須進行 Type 4 Renal Tubular Acidosis (RTA) 的鑑別診斷。關鍵的決策節點包含 Plasma Renin Activity (PRA)、Plasma Aldosterone Concentration (PAC) 與 Blood Pressure。Hyporeninemic Hypoaldosteronism (如 Diabetic Nephropathy 所引起) 表現為 Low PRA 與 Low PAC。Primary Adrenal Insufficiency (如 Addison's Disease) 則表現為 High PRA 與 Low PAC。而 PHA 家族中，PHA-1 表現為 High PRA、High PAC 以及 Hypotension；PHA-2 則呈現 Low PRA、正常或偏高的 PAC，並伴隨 Hypertension。精確測量上述指標並結合臨床血壓特徵，能有效區分這些容易混淆的 Hyperkalemic 疾病群。",
+      "diagrams": [
+        {
+          "id": "type4_rta_algorithm_01",
+          "relPath": "/server-data/assets/type4_rta_algorithm.jpg",
+          "imagePath": "/server-data/assets/type4_rta_algorithm.jpg",
+          "caption": "Diagnostic algorithm flowchart for Type 4 Renal Tubular Acidosis differentiating between Hyporeninemic Hypoaldosteronism, Addison's disease, PHA-1, and PHA-2.",
+          "sourceBook": "AI Generated",
+          "type": "ai_illustration"
+        }
+      ]
+    }
+  ]
+}

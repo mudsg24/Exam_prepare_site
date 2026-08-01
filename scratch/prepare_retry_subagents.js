@@ -21,7 +21,7 @@ for (const file of files) {
   if (!fs.existsSync(p)) continue;
   const data = JSON.parse(fs.readFileSync(p, 'utf8'));
   for (const q of data.questions) {
-    if (q.qcVerified !== true && q.nlmResponses && q.nlmResponses.length >= 2) {
+    if ((q.qcStatus === 'QC_FAILED_RETRY_EXHAUSTED' || q.qcVerified === false) && q.nlmResponses && q.nlmResponses.length >= 2) {
       allQuestions.push({
         paperId: file.replace('.json', ''),
         q_id: q.id,
@@ -42,4 +42,4 @@ for (let i = 0; i < allQuestions.length; i += batchSize) {
   batchIndex++;
 }
 
-console.log(`Created ${batchIndex} retry batch files.`);
+console.log(`Created ${batchIndex} retry batch files. Total questions: ${allQuestions.length}`);

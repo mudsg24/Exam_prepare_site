@@ -13,7 +13,7 @@ export function isNlmResponseAnomalous(resp) {
   if (resp.error) return true;
   if (!resp.rawResponse || typeof resp.rawResponse !== 'string') return true;
   const raw = resp.rawResponse.trim();
-  if (raw.length < 200) return true;
+  if (raw.length < 500) return true;
   // If response is short (<500 chars) and contains a refusal header without rationale
   if (resp.databaseSufficiency === 'INSUFFICIENT' && raw.length < 500 && (raw.includes('[INSUFFICIENT_DATABASE_EVIDENCE]') || raw.includes('INSUFFICIENT_DATABASE_EVIDENCE'))) {
     return true;
@@ -245,7 +245,7 @@ if (process.argv[1] && process.argv[1].endsWith('exam_qc.mjs')) {
   console.log(`Total Papers Scanned: ${report.totalPapers}`);
   console.log(`Total Questions: ${report.totalQuestions}`);
   console.log(`Verified Questions (qcVerified: true): ${report.verifiedQuestions}`);
-  console.log(`Anomalous NLM Questions (< 200 chars / INSUFFICIENT): ${report.anomalousNlmQuestions}`);
+  console.log(`Anomalous NLM Questions (< 500 chars / INSUFFICIENT): ${report.anomalousNlmQuestions}`);
   console.log(`Disputed Questions (Source vs NLM or NLM vs NLM): ${report.disputedQuestions}`);
   console.log(`Total Questions Requiring QC: ${report.pendingQcQuestions.length}`);
 

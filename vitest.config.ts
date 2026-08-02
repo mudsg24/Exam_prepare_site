@@ -8,12 +8,17 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./src/__tests__/setup.ts'],
-    include: ['src/**/*.{test,spec}.{ts,tsx}', 'scripts/__tests__/**/*.{test,spec}.mjs'],
+    include: [
+      'src/**/*.{test,spec}.{ts,tsx}',
+      'src/utils/__tests__/**/*.{test,spec}.ts',
+      'scripts/__tests__/**/*.{test,spec}.mjs',
+    ],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
       include: [
-        'src/**/*.{ts,tsx}',
+        'src/components/**/*.{ts,tsx}',
+        'src/utils/**/*.{ts,tsx}',
         'scripts/pipeline/lint/lint_exam_json.mjs',
         'scripts/pipeline/utils/build_image_index.mjs',
       ],

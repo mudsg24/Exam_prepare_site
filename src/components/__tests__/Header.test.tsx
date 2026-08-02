@@ -14,6 +14,27 @@ describe('Header Component', () => {
       year: 2026,
     },
     {
+      id: 'paper_2026_el',
+      title: '2026 Hyponatremia (主題備考)',
+      sourceCategory: '2026 Electrolytes',
+      questionCount: 15,
+      year: 2026,
+    },
+    {
+      id: 'paper_2026_gn',
+      title: '2026 IgA Nephropathy (主題備考)',
+      sourceCategory: '2026 GN',
+      questionCount: 12,
+      year: 2026,
+    },
+    {
+      id: 'paper_2026_tp',
+      title: '2026 UTI Topic (主題備考)',
+      sourceCategory: '2026 年主題練習',
+      questionCount: 10,
+      year: 2026,
+    },
+    {
       id: 'paper_2025_1',
       title: '2025 年歷年試卷',
       sourceCategory: '歷年考題',
@@ -74,9 +95,13 @@ describe('Header Component', () => {
     expect(defaultProps.onNavigateView).toHaveBeenCalledWith('exam');
   });
 
-  it('should handle paper selection dropdown', () => {
+  it('should handle paper selection dropdown with all category optgroups', () => {
     render(<Header {...defaultProps} />);
     const select = screen.getByRole('combobox');
+    expect(screen.getByText('2026 Hyponatremia (主題備考) (15 題)')).toBeInTheDocument();
+    expect(screen.getByText('2026 IgA Nephropathy (主題備考) (12 題)')).toBeInTheDocument();
+    expect(screen.getByText('2026 UTI Topic (主題備考) (10 題)')).toBeInTheDocument();
+
     fireEvent.change(select, { target: { value: 'paper_2025_1' } });
     expect(defaultProps.onSelectPaper).toHaveBeenCalledWith('paper_2025_1');
   });

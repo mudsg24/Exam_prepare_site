@@ -1,34 +1,92 @@
-import { describe, it, expect } from 'vitest';
-import { preprocessDecisionTrees, renderFormattedMarkdownToHTML } from '../markdownRenderer';
+import { describe, it, expect, vi } from 'vitest';
+import { marked } from 'marked';
+import {
+  preprocessDecisionTrees,
+  renderFormattedMarkdownToHTML,
+} from '../markdownRenderer';
 
-describe('markdownRenderer & decision tree auto-detection', () => {
-  it('should auto-detect unfenced ASCII decision tree lines and wrap them in decision-tree block', () => {
-    const rawMarkdown = `
-### Pathophysiological Decision Trees
+describe('markdownRenderer', () => {
+  describe('preprocessDecisionTrees', () => {
+    it('returns empty string for falsy input', () => {
+      expect(preprocessDecisionTrees('')).toBe('');
+    });
 
-Primary Aldosteronism Diagnostic Protocol
-  └─► Positive ARR & Confirmatory Suppression Test
-        └─► Perform Adrenal Vein Sampling (AVS) with Cosyntropin Stimulation
-              ├─► Post-ACTH A/C Ratio Lateralization >= 4:1 ──► Unilateral APA ──► Adrenalectomy
-              └─► Post-ACTH A/C Ratio Lateralization < 4:1 ──► Bilateral BAH ──► MRA (Spironolactone)
-`;
+    it('wraps unfenced decision tree lines in decision-tree code fence', () => {
+      const input = `Clinical Approach
+Title of Tree
+└─► Step 1: Check Sodium
+├─► Step 2: Check Osmolality
+Treatment Protocol`;
 
-    const preprocessed = preprocessDecisionTrees(rawMarkdown);
-    expect(preprocessed).toContain('```decision-tree');
-    expect(preprocessed).toContain('Primary Aldosteronism Diagnostic Protocol');
-    expect(preprocessed).toContain('└─► Positive ARR & Confirmatory Suppression Test');
+      const processed = preprocessDecisionTrees(input);
+      expect(processed).toContain('```decision-tree');
+      expect(processed).toContain('└─► Step 1: Check Sodium');
+      expect(processed).toContain('Treatment Protocol');
+    });
+
+    it('preserves existing code blocks without double fencing', () => {
+      const input = `\`\`\`js
+console.log('hello');
+\`\`\``;
+      const processed = preprocessDecisionTrees(input);
+      expect(processed).toBe(input);
+    });
+
+    it('flushes pending tree block when encountering a fence or end of text', () => {
+      const input = `Title Line
+└─► Step A
+\`\`\`js
+test
+\`\`\``;
+      const processed = preprocessDecisionTrees(input);
+      expect(processed).toContain('```decision-tree');
+      expect(processed).toContain('└─► Step A');
+      expect(processed).toContain('```js');
+    });
   });
 
-  it('should render HTML with custom decision tree flowchart card', () => {
-    const rawMarkdown = `
-Primary Aldosteronism Diagnostic Protocol
-  └─► Positive ARR & Confirmatory Suppression Test
-        └─► Perform Adrenal Vein Sampling (AVS) with Cosyntropin Stimulation
-`;
+  describe('renderFormattedMarkdownToHTML', () => {
+    it('returns empty string when rawText is falsy', () => {
+      expect(renderFormattedMarkdownToHTML('')).toBe('');
+    });
 
-    const html = renderFormattedMarkdownToHTML(rawMarkdown);
-    expect(html).toContain('Pathophysiological Decision Tree / Clinical Flowchart');
-    expect(html).toContain('overflow-x-auto');
-    expect(html).toContain('Positive ARR &amp; Confirmatory Suppression Test');
+    it('renders normal markdown text into styled HTML', () => {
+      const html = renderFormattedMarkdownToHTML('### Header 3\nThis is **bold** text.');
+      expect(html).toContain('<h3');
+      expect(html).toContain('<strong>bold</strong>');
+    });
+
+    it('renders decision tree blocks into custom HTML visual cards', () => {
+      const input = `\`\`\`decision-tree
+┌─► Hyponatremia
+└─► Euvolemic
+\`\`\``;
+      const html = renderFormattedMarkdownToHTML(input);
+      expect(html).toContain('Pathophysiological Decision Tree / Clinical Flowchart');
+      expect(html).toContain('┌─► Hyponatremia');
+    });
+
+    it('renders standard code blocks into pre container', () => {
+      const input = `\`\`\`ts
+const x = 10;
+\`\`\``;
+      const html = renderFormattedMarkdownToHTML(input);
+      expect(html).toContain('<pre class="font-mono text-xs md:text-sm text-slate-200');
+    });
+
+    it('handles marked.parse throwing an exception via try/catch fallback', () => {
+      const spy = vi.spyOn(marked, 'parse').mockImplementationOnce(() => {
+        throw new Error('Markdown parse error');
+      });
+
+      const spyConsole = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      const result = renderFormattedMarkdownToHTML('some text');
+      expect(result).toBe('some text');
+      expect(spyConsole).toHaveBeenCalled();
+
+      spy.mockRestore();
+      spyConsole.mockRestore();
+    });
   });
 });

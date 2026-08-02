@@ -1,6 +1,6 @@
 import React from 'react';
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, act } from '@testing-library/react';
 import {
   DashboardView,
   sanitizePaperTitle,
@@ -68,6 +68,27 @@ describe('DashboardView Component & Helpers', () => {
   describe('DashboardView Rendering & Interaction', () => {
     const mockManifest: ExamManifestItem[] = [
       {
+        id: 'paper_2026_el1',
+        title: '2026 Electrolytes Paper',
+        sourceCategory: '2026 Electrolytes',
+        questionCount: 18,
+        year: 2026,
+      },
+      {
+        id: 'paper_2026_gn1',
+        title: '2026 IgA Nephropathy',
+        sourceCategory: '2026 GN',
+        questionCount: 15,
+        year: 2026,
+      },
+      {
+        id: 'paper_2026_tp1',
+        title: '2026 UTI Topic',
+        sourceCategory: '2026 年主題練習',
+        questionCount: 10,
+        year: 2026,
+      },
+      {
         id: 'paper_2026_kp1',
         title: '2026 重點轉化 B (重點轉化)',
         sourceCategory: '2026 年重點轉化',
@@ -75,24 +96,10 @@ describe('DashboardView Component & Helpers', () => {
         year: 2026,
       },
       {
-        id: 'paper_2026_kp2',
-        title: '2026 重點轉化 A (重點轉化)',
-        sourceCategory: '2026 年重點轉化',
-        questionCount: 15,
-        year: 2026,
-      },
-      {
         id: 'paper_2025_std1',
         title: '2025 歷年考古題 B',
         sourceCategory: '歷年考題',
         questionCount: 50,
-        year: 2025,
-      },
-      {
-        id: 'paper_2025_std2',
-        title: '2025 歷年考古題 A',
-        sourceCategory: '歷年考題',
-        questionCount: 40,
         year: 2025,
       },
     ];
@@ -124,7 +131,7 @@ describe('DashboardView Component & Helpers', () => {
       render(<DashboardView {...defaultProps} />);
 
       expect(screen.getByText('全站題庫總數')).toBeInTheDocument();
-      expect(screen.getByText('80%')).toBeInTheDocument(); // 28 / 35 = 80%
+      expect(screen.getByText('80%')).toBeInTheDocument();
       expect(screen.getAllByText(/35/).length).toBeGreaterThan(0);
     });
 
@@ -171,7 +178,7 @@ describe('DashboardView Component & Helpers', () => {
       expect(defaultProps.onStartCustomPractice).toHaveBeenCalledWith('unattempted', 15);
     });
 
-    it('should render paper library cards and trigger onSelectPaper when clicking practice button', () => {
+    it('should render paper library cards and trigger onSelectPaper when clicking practice button or card', () => {
       render(<DashboardView {...defaultProps} />);
 
       const continueBtn = screen.getByText('繼續答題');
@@ -181,6 +188,32 @@ describe('DashboardView Component & Helpers', () => {
       const rePracticeBtn = screen.getByText('重新練習試卷');
       fireEvent.click(rePracticeBtn);
       expect(defaultProps.onSelectPaper).toHaveBeenCalledWith('paper_2026_kp1');
+    });
+
+    it('should handle section navigation button clicks and scroll listener', () => {
+      render(<DashboardView {...defaultProps} />);
+
+      const elBtns = screen.getAllByText('2026 Electrolytes');
+      expect(elBtns.length).toBeGreaterThan(0);
+      fireEvent.click(elBtns[0]);
+
+      const gnBtns = screen.getAllByText('2026 GN');
+      expect(gnBtns.length).toBeGreaterThan(0);
+      fireEvent.click(gnBtns[0]);
+
+      const tpBtns = screen.getAllByText('2026 主題練習');
+      expect(tpBtns.length).toBeGreaterThan(0);
+      fireEvent.click(tpBtns[0]);
+
+      // Fire scroll event
+      act(() => {
+        fireEvent.scroll(window, { target: { scrollY: 300 } });
+      });
+    });
+
+    it('should render in dark theme mode without errors', () => {
+      render(<DashboardView {...defaultProps} themeMode="dark" />);
+      expect(screen.getByText('全站題庫總數')).toBeInTheDocument();
     });
 
     it('should render 0% accuracy when completedQuestions is 0', () => {
@@ -196,7 +229,6 @@ describe('DashboardView Component & Helpers', () => {
     it('should render completed paper breakdown (correct/wrong count and accuracy percentage)', () => {
       render(<DashboardView {...defaultProps} />);
 
-      // For paper_2026_kp1: total 20, answered 20, correct 18, wrong 2 => 90%
       expect(screen.getByText('最近完成：')).toBeInTheDocument();
       expect(screen.getByText('正確 18 題')).toBeInTheDocument();
       expect(screen.getByText('錯誤 2 題')).toBeInTheDocument();
@@ -206,7 +238,6 @@ describe('DashboardView Component & Helpers', () => {
     it('should render uncompleted paper progress (answered / total)', () => {
       render(<DashboardView {...defaultProps} />);
 
-      // For paper_2025_std1: total 50, answered 15
       expect(screen.getByText('15 / 50 題')).toBeInTheDocument();
     });
   });

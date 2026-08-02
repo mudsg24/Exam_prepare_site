@@ -21,8 +21,32 @@ describe('App Root Integration', () => {
                 sourceCategory: '2025 年交換題',
                 questionCount: 2,
                 year: 2025,
+                tutorialId: 'demo_2025_zhongshan_tutorial',
               },
             ]),
+        });
+      }
+      if (url.includes('demo_2025_zhongshan_tutorial')) {
+        return Promise.resolve({
+          ok: true,
+          json: () =>
+            Promise.resolve({
+              id: 'demo_2025_zhongshan_tutorial',
+              paperId: 'demo_2025_zhongshan',
+              title: 'Demo Tutorial Lecture',
+              modules: [
+                {
+                  moduleId: 'm1',
+                  moduleTitle: 'Module Title 1',
+                  sections: [
+                    {
+                      heading: 'Section 1',
+                      content: 'Lecture content 1',
+                    },
+                  ],
+                },
+              ],
+            }),
         });
       }
       if (url.includes('demo_2025_zhongshan.json')) {
@@ -145,7 +169,7 @@ describe('App Root Integration', () => {
     expect(screen.getByText('TSN 腎臟專科醫師甄試與歷年考題練習總覽')).toBeInTheDocument();
   });
 
-  it('should support option selection, matrix navigation, and open image modal', async () => {
+  it('should support option selection, matrix navigation, attached image click, and open image modal', async () => {
     render(<App />);
 
     fireEvent.click(screen.getByText('答題測驗室'));
@@ -154,7 +178,18 @@ describe('App Root Integration', () => {
       expect(screen.getByText('Stem Q1')).toBeInTheDocument();
     });
 
-    // Select Option A using keyboard shortcut 'c', 'd', 'e'
+    // Toggle flag using keyboard shortcut 't'
+    act(() => {
+      fireEvent.keyDown(window, { key: 't' });
+    });
+    expect(screen.getByText('已標記')).toBeInTheDocument();
+
+    // Attached image thumbnail click in QuestionPanel
+    const attachedImg = screen.getByAltText('附圖標題');
+    fireEvent.click(attachedImg);
+    expect(screen.getAllByText('附圖標題').length).toBeGreaterThan(0);
+
+    // Select Option C
     act(() => {
       fireEvent.keyDown(window, { key: 'c' });
     });
@@ -189,10 +224,6 @@ describe('App Root Integration', () => {
     fireEvent.click(refImgBtn);
 
     expect(screen.getByText('來源文獻: KDIGO')).toBeInTheDocument();
-
-    // Close image modal
-    const closeBtn = screen.getByRole('button', { name: '' });
-    if (closeBtn) fireEvent.click(closeBtn);
   });
 
   it('should handle work mode toggle and study mode state', async () => {

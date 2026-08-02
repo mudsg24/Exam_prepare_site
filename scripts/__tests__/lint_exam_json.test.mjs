@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import path from 'path';
-import { lintExamFile, runLinter } from '../pipeline/lint/lint_exam_json.mjs';
+import { lintExamFile, runLinter, lintManifestFile } from '../pipeline/lint/lint_exam_json.mjs';
 
 describe('lintExamFile Script Unit Tests', () => {
   const tmpDir = path.resolve(__dirname, './tmp_lint_tests');
@@ -113,12 +113,30 @@ describe('lintExamFile Script Unit Tests', () => {
     expect(result.errors.some((e) => e.includes('Insufficient options'))).toBe(true);
   });
 
+  it('should test lintManifestFile validation', () => {
+    const errors = lintManifestFile();
+    expect(Array.isArray(errors)).toBe(true);
+  });
+
   it('should execute runLinter function with clean and error files', () => {
     const exitSpy = vi.spyOn(process, 'exit').mockImplementation(() => {});
     const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
     const consoleErrSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
+    // Run clean
     runLinter();
+
+    // Mock readdirSync to return a corrupted file to test error logging in runLinter
+    const mockFile = path.join(path.resolve(__dirname, '../../public/server-data'), 'test_corrupt_mock.json');
+    fs.writeFileSync(mockFile, '{ corrupted json ');
+
+    try {
+      runLinter();
+    } finally {
+      if (fs.existsSync(mockFile)) {
+        fs.unlinkSync(mockFile);
+      }
+    }
 
     expect(exitSpy).toHaveBeenCalled();
     exitSpy.mockRestore();

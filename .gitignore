@@ -8,3 +8,10 @@ coverage/
 __pycache__/
 *.pyc
 
+
+# 根目錄腳本禁令 (僅允許特定設定檔)
+/*.py
+/*.cjs
+
+# 暫存與免洗目錄
+/scratch*/

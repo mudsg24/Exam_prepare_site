@@ -12,7 +12,8 @@
     "build:images": "node scripts/build_image_index.mjs",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:py": "pytest --cov=scripts scripts/__tests__/"
+    "test:py": "pytest --cov=scripts scripts/__tests__/",
+    "prepare": "husky"
   },
   "dependencies": {
     "katex": "^0.16.21",
@@ -32,6 +33,7 @@
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
     "@vitest/coverage-v8": "^4.1.10",
+    "husky": "^9.1.7",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.7.3",

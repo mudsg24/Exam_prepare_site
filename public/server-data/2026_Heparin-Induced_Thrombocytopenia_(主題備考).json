@@ -64,7 +64,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q2",
@@ -125,7 +126,8 @@
       "qcNotes": "NLM responses fully match source provided answer.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
-      "qcVerifiedBy": "tn-exam-qc-subagents"
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q3",
@@ -186,7 +188,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: NONE vs NLM 2: C)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q4",
@@ -247,7 +250,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: C vs NLM 2: NONE)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q5",
@@ -308,7 +312,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q6",
@@ -369,7 +374,8 @@
       "qcNotes": "NLM responses fully match source provided answer.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: B vs NLM 2: NONE)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents"
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q7",
@@ -430,7 +436,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與 NotebookLM 解析 (C) 一致。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q8",
@@ -491,7 +498,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q9",
@@ -552,7 +560,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: NONE vs NLM 2: B)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q10",
@@ -613,7 +622,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q11",
@@ -674,7 +684,8 @@
       "qcNotes": "NLM responses fully match source provided answer.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: A vs NLM 2: NONE)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents"
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q12",
@@ -735,7 +746,8 @@
       "qcNotes": "NLM responses fully match source provided answer.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
-      "qcVerifiedBy": "tn-exam-qc-subagents"
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q13",
@@ -796,7 +808,8 @@
       "qcNotes": "NLM1: NONE, NLM2: A. Inconsistent or NONE.",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q14",
@@ -857,7 +870,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q15",
@@ -918,7 +932,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q16",
@@ -979,7 +994,8 @@
       "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: C vs NLM 2: NONE)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q17",
@@ -1040,7 +1056,8 @@
       "qcNotes": "NLM responses fully match source provided answer.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "無明確原廠答案且 NotebookLM 證據待驗證。",
-      "qcVerifiedBy": "tn-exam-qc-subagents"
+      "qcVerifiedBy": "tn-exam-qc-subagents",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q18",
@@ -1101,7 +1118,8 @@
       "qcNotes": "NLM responses fully match source provided answer (after retry).",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: NONE vs NLM 2: C)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q19",
@@ -1156,7 +1174,8 @@
       "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (A) 不符。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q20",
@@ -1214,7 +1233,8 @@
       "qcNotes": "NLM1: NONE, NLM2: NONE. Inconsistent or NONE.",
       "reconciliationStatus": "DISPUTED_NLM_VS_NLM",
       "reconciliationNotes": "兩組 NotebookLM 對答出現分歧 (NLM 1: B vs NLM 2: A)。",
-      "qcVerifiedBy": "tn-exam-qc-subagents-retry"
+      "qcVerifiedBy": "tn-exam-qc-subagents-retry",
+      "sourceAnswerStatus": "provided"
     }
   ],
   "paperId": "2026_Heparin-Induced_Thrombocytopenia_(主題備考)",

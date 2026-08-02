@@ -58,7 +58,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Both NLMs selected the correct source option.",
-      "number": 1
+      "number": 1,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q2",
@@ -115,7 +116,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Both NLMs selected the correct source option.",
-      "number": 2
+      "number": 2,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q3",
@@ -172,7 +174,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "Both NLMs selected the correct source option.",
-      "number": 3
+      "number": 3,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q4",
@@ -229,7 +232,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: D, NLM2: D, Source: D",
-      "number": 4
+      "number": 4,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q5",
@@ -286,7 +290,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: A, NLM2: A, Source: A",
-      "number": 5
+      "number": 5,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q6",
@@ -343,7 +348,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: B, NLM2: B, Source: B",
-      "number": 6
+      "number": 6,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q7",
@@ -400,7 +406,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: C, NLM2: C, Source: C",
-      "number": 7
+      "number": 7,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q8",
@@ -457,7 +464,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: D, NLM2: D, Source: D",
-      "number": 8
+      "number": 8,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q9",
@@ -514,7 +522,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: A, NLM2: A, Source: A",
-      "number": 9
+      "number": 9,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q10",
@@ -571,7 +580,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: B, NLM2: B, Source: B",
-      "number": 10
+      "number": 10,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q11",
@@ -628,7 +638,8 @@
       "qcStatus": "FAILED",
       "reconciliationStatus": "UNRESOLVED_NEEDS_RETRY",
       "qcNotes": "Honest Failure Degradation: Response 0 too short",
-      "number": 11
+      "number": 11,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q12",
@@ -685,7 +696,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: D, NLM2: D, Source: D",
-      "number": 12
+      "number": 12,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q13",
@@ -742,7 +754,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: A, NLM2: A, Source: A",
-      "number": 13
+      "number": 13,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q14",
@@ -799,7 +812,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: B, NLM2: B, Source: B",
-      "number": 14
+      "number": 14,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q15",
@@ -856,7 +870,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: C, NLM2: C, Source: C",
-      "number": 15
+      "number": 15,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q16",
@@ -913,7 +928,8 @@
       "qcStatus": "QC_DISPUTED",
       "reconciliationStatus": "DISPUTED",
       "qcNotes": "NLM1: NONE, NLM2: D, Source: D",
-      "number": 16
+      "number": 16,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q17",
@@ -970,7 +986,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: A, NLM2: A, Source: A",
-      "number": 17
+      "number": 17,
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "q18",
@@ -1027,7 +1044,8 @@
       "qcStatus": "QC_PASSED",
       "reconciliationStatus": "HIGH_CONFIDENCE",
       "qcNotes": "NLM1: B, NLM2: B, Source: B",
-      "number": 18
+      "number": 18,
+      "sourceAnswerStatus": "provided"
     }
   ],
   "title": "2026 inherited Renal Phosphate Wasting Spectrum (主題備考)",

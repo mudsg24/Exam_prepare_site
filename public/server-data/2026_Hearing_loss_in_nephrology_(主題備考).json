@@ -54,7 +54,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Options match across both NLMs and source.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。"
+      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 25-year-old female is evaluated for asymptomatic persistent microscopic hematuria. Her blood pressure and serum creatinine are normal. Her mother and sister also have isolated hematuria. Audiometry reveals normal hearing. Renal biopsy electron microscopy is most likely to show which of the following?",
@@ -106,7 +107,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Options match across both NLMs and source.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "B 與兩組 NotebookLM B 100% 三方一致。"
+      "reconciliationNotes": "B 與兩組 NotebookLM B 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A neonate is born with severe polyhydramnios, polyuria, and profound sensorineural hearing loss. Laboratory findings reveal hypokalemia, metabolic alkalosis, and hyperreninemia. Genetic testing is most likely to reveal a mutation in which of the following genes?",
@@ -158,7 +160,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Options match across both NLMs and source.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "C 與兩組 NotebookLM C 100% 三方一致。"
+      "reconciliationNotes": "C 與兩組 NotebookLM C 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 3-year-old boy presents with failure to thrive, recurrent nephrolithiasis, and bilateral sensorineural hearing loss. Laboratory tests show normal anion gap metabolic acidosis, hypokalemia, and urine pH of 6.8. A defect in which of the following is the most likely cause?",
@@ -210,7 +213,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Options match across both NLMs and source.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "D 與兩組 NotebookLM D 100% 三方一致。"
+      "reconciliationNotes": "D 與兩組 NotebookLM D 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 5-year-old child presents with global developmental delay, ataxia, and sensorineural hearing loss. Laboratory evaluation reveals hypokalemia and metabolic alkalosis. Blood pressure is normal. A mutation in which of the following genes is the underlying cause?",
@@ -262,7 +266,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Options match across both NLMs and source.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。"
+      "reconciliationNotes": "A 與兩組 NotebookLM A 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 30-year-old male presents with proteinuria, angiokeratomas, neuropathic pain in his extremities, and mild sensorineural hearing loss. Urinalysis shows Maltese cross configurations. Deficiency of which of the following enzymes is responsible for this condition?",
@@ -314,7 +319,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Extracted Option B from NLM0 and NLM1 correctly. Verified HIGH_CONFIDENCE match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。"
+      "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 40-year-old female with short stature and a history of type 2 diabetes mellitus since age 25 presents with progressive chronic kidney disease and sensorineural hearing loss. Renal biopsy demonstrates focal segmental glomerulosclerosis. Which of the following genetic abnormalities is most likely present?",
@@ -366,7 +372,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Extracted Option C from NLM0 and NLM1 correctly. Verified HIGH_CONFIDENCE match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。"
+      "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "An infant presents with nephrotic syndrome that does not respond to corticosteroids, accompanied by severe sensorineural hearing loss. Renal biopsy reveals collapsing focal segmental glomerulosclerosis. Genetic testing shows a defect in coenzyme Q10 biosynthesis. Which gene is most likely mutated?",
@@ -418,7 +425,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Extracted Option D from NLM0 and NLM1 correctly. Verified HIGH_CONFIDENCE match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。"
+      "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 55-year-old man receiving chemotherapy for a solid tumor develops acute kidney injury, hypomagnesemia, and irreversible sensorineural hearing loss. Which of the following transporters is essential for the uptake of this chemotherapeutic agent into proximal tubular cells?",
@@ -470,7 +478,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Phase 2 Semantic Verification completed by QC Agent.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 C 與兩組 NotebookLM 解析完全一致。"
+      "reconciliationNotes": "原始答案 C 與兩組 NotebookLM 解析完全一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 45-year-old male presents with hemoptysis, hematuria, and rapidly progressive glomerulonephritis. He also complains of chronic purulent nasal discharge, epistaxis, and bilateral conductive hearing loss. Laboratory tests are positive for PR3-ANCA. What is the most likely diagnosis?",
@@ -522,7 +531,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Phase 2 Semantic Verification completed by QC Agent.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 D 與兩組 NotebookLM 解析完全一致。"
+      "reconciliationNotes": "原始答案 D 與兩組 NotebookLM 解析完全一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 20-year-old male with known Alport syndrome is planning to have children. His wife is healthy. He has an X-linked COL4A5 mutation. What is the risk that his daughters will inherit the mutated gene?",
@@ -574,7 +584,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Phase 2 Semantic Verification completed by QC Agent.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 A 與兩組 NotebookLM 解析完全一致。"
+      "reconciliationNotes": "原始答案 A 與兩組 NotebookLM 解析完全一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "In a patient diagnosed with Bartter syndrome type IV, profound deafness is observed alongside renal salt wasting. The defective protein, Barttin, normally functions as an essential beta subunit for which of the following channels?",
@@ -626,7 +637,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "Phase 2 Semantic Verification completed by QC Agent.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案 B 與兩組 NotebookLM 解析完全一致。"
+      "reconciliationNotes": "原始答案 B 與兩組 NotebookLM 解析完全一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A patient treated with gentamicin develops high-frequency hearing loss. The ototoxicity is primarily thought to result from the accumulation of the drug inside hair cells, which subsequently triggers apoptosis through the generation of which of the following?",
@@ -678,7 +690,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "NLM0=D, NLM1=D, Source=D. High confidence match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組解析皆為 D，高度一致。"
+      "reconciliationNotes": "原始答案與兩組解析皆為 D，高度一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A renal biopsy from a male patient with a known GLA gene mutation and sensorineural hearing loss is examined under electron microscopy. Which of the following ultrastructural findings is highly characteristic of this condition?",
@@ -730,7 +743,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "NLM0=B, NLM1=B, Source=B. High confidence match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組解析皆為 B，高度一致。"
+      "reconciliationNotes": "原始答案與兩組解析皆為 B，高度一致。",
+      "sourceAnswerStatus": "provided"
     },
     {
       "stem": "A 5-year-old girl is evaluated for short stature and bilateral sensorineural hearing loss. She has recurrent episodes of muscle weakness. Laboratory evaluation reveals a serum potassium of 2.8 mEq/L, serum bicarbonate of 14 mEq/L, and a positive urine anion gap. Her condition is caused by a mutation in a subunit of which of the following?",
@@ -782,7 +796,8 @@
       "qcVerifiedBy": "tn-exam-qc",
       "qcNotes": "NLM0=D, NLM1=D, Source=D. High confidence match.",
       "reconciliationStatus": "HIGH_CONFIDENCE",
-      "reconciliationNotes": "原始答案與兩組解析皆為 D，高度一致。"
+      "reconciliationNotes": "原始答案與兩組解析皆為 D，高度一致。",
+      "sourceAnswerStatus": "provided"
     }
   ],
   "qcVerified": true,

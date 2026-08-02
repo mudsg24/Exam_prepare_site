@@ -72,7 +72,8 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_002",
@@ -141,7 +142,8 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_003",
@@ -210,7 +212,8 @@
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_004",
@@ -279,7 +282,8 @@
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_005",
@@ -348,7 +352,8 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_006",
@@ -417,7 +422,8 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_007",
@@ -493,7 +499,8 @@
           "rawResponse": "## 1. Answer Determination\n\n本題的唯一正確選項為 **Option C (GFR decline below 30 mL/min/1.73m² causing plasma oxalate saturation and extrarenal crystal deposition)**。\n\n---\n\n## 2. Detailed Rationale & Correct Option Analysis (Option C)\n\n### 臨床病理生理學與細胞外基質代謝動力學之循序漸進分析：\n\n1. **`Primary Hyperoxaluria Type 1 (PH1)` 的分子病因與生理機制**：\n   * **`PH1`** 是一種 **`autosomal recessive disorder`** [1]，其根本病因在於 **`liver`** 特異性 **`peroxisomal`** 中的 **`alanine:glyoxylate aminotransferase (AGT)`** 活性缺乏或發生 **`mistargeting`** [2, 3]。\n   * 在正常生理狀態下，**`AGT`** 負責將 **`glyoxylate`** 轉氨（**`transaminates`**）為 **`glycine`** [2]。當 **`AGT`** 功能缺陷時，過量的 **`glyoxylate`** 會被氧化為大量的 **`oxalate`**，並隨 **`urine`** 排出 [1, 2]。\n\n2. **`Systemic Oxalosis` 的物理化學與病理生理學機制**：\n   * 在 **`renal function`** 尚處於代償期的早期階段，雖然 **`urine`** 中的 **`calcium oxalate`** 常常處於過飽和（**`supersaturated`**）狀態，並引發反覆的 **`urolithiasis`** 與 **`nephrocalcinosis`**，但此時 **`blood`** 與全身組織液仍處於未飽和（**`undersaturated`**）狀態 [3-5]。\n   * 隨著慢性結晶性損害的持續進行，患者的 **`GFR`** 開始進行性下降，導致 **`oxalate clearance`** 發生障礙 [3]。\n   * 當 **`GFR`** 下降至 **`30 mL/min/1.73m²`** 以下時，**`liver`** 持續合成的 **`oxalate`** 清除速度嚴重受阻，導致其在 **`blood`** 中的濃度發生斷崖式的飆升 [3, 4]。\n   * 當 **`plasma oxalate concentration`** 突破 **`30 µmol/L`**（即 **`30 µM`**）這一臨界閾值時，**`blood`** 與全身 **`extracellular fluid`** 對 **`calcium oxalate`** 達到絕對過飽和狀態 [4]。\n   * 此時，**`calcium oxalate crystals`** 開始在 **`extrarenal tissues`** 中發生不可逆的爆發性結晶與沉積（**`extrarenal crystal deposition`**），此一病理進程在定義上即為 **`Systemic Oxalosis`** [3, 4]。\n\n3. **臨床多器官系統受侵犯之病理學關聯**：\n   * **`Complete heart block`**：由於體循環達到過飽和，**`calcium oxalate crystals`** 選擇性沉積在 **`heart`** 的 **`conduction system`** 中，破壞局部電生理信號傳遞，臨床上引發 **`complete heart block`** 甚至致死性心律不整 [3]。\n   * **`Severe erythropoietin-resistant anemia`**：結晶大量結晶浸潤並填滿 **`skeleton`** 與 **`bone marrow`**，物理性壓迫並摧毀正常的造血微環境，引發臨床上極為棘手、給予最大劑量 **`erythropoietin`** 仍無法糾正的 **`erythropoietin-resistant anemia`** [3, 5]。\n   * **`Livedo reticularis`**：結晶沉積於微血管與 **`blood vessels`** 壁，引發透壁性炎症與繼發性局部組織缺血壞死，臨床上表現為雙下肢特徵性的 **`livedo reticularis`**，嚴重者可進展為 **`peripheral gangrene`** [3, 5]。\n\n---\n\n## 3. Distractor Option Analysis\n\n*   **Option A (Serum uric acid concentration exceeding 12 mg/dL) 錯誤分析**：\n    *   *為何錯誤*：**`uric acid`** 的蓄積與 **`calcium oxalate`** 的超微結晶物理化學沉積動力學完全無關。雖然 **`hyperuricemia`** 會導致 **`gout`** 或尿酸結石，但它絕非觸發 **`systemic oxalosis`** 的病理生理閾值 [6, 7]。\n    *   *臨床特徵*：通常表現為急性關節炎（**`gouty arthritis`**）、間質性腎臟病變或 **`uric acid nephrolithiasis`** [6, 7]。\n    *   *出題者意圖*：此選項利用同屬於「結晶性/沉積性腎病變」的另一經典代謝物指標進行干擾，測試考生能否在分子層面上將 **`oxalate`** 與 **`urate`** 的病理生理過程進行精確分離。\n\n*   **Option B (Urinary pH dropping below 4.5) 錯誤分析**：\n    *   *為何錯誤*：\n        1. **物理化學特性不符**：與高度依賴酸性尿的 **`uric acid stones`** 不同，**`calcium oxalate`** 在 **`urine`** 中的溶解度在生理 **`pH`** 波動範圍內幾乎是恆定且不隨 **`pH`** 改變的 [8]。\n        2. **解剖學定位錯誤**：**`Systemic Oxalosis`** 的本質是 **`extrarenal compartments`** 中的沉積，這與 **`urine`** 腔內的 **`urinary pH`** 毫無關係。\n    *   *臨床特徵*：極低 **`urinary pH`** 是 **`uric acid stones`** 的強效誘因，而高 **`urinary pH`**（例如在 **`dRTA`** 中）則會促使 **`calcium phosphate`** 沉積 [7, 8]。\n    *   *出題者意圖*：此選項利用常見的「結石與 **`urinary pH`** 調節」假象進行干擾，測試考生是否混淆了「尿液管腔內結晶物理化學」與「體循環系統性晶體沉著動力學」的本質差異。\n\n*   **Option D (Loss of intestinal Slc26a6 secretion coupled with acute hyperkalemia) 錯誤分析**：\n    *   *為何錯誤*：\n        1. **病因學錯位**：**`Slc26a6`** 是一種介道腸道 **`oxalate`** 主動分泌、防止過度重吸收的轉運蛋白。雖然其功能缺失會使膳食草酸重吸收增加，引發 **`enteric hyperoxaluria`**（如見於 **`orlistat`** 或是胃繞道手術後） [9, 10]；但 **`PH1`** 患者體內的草酸累積是源於**內源性肝臟 AGT 缺陷導致的超速合成** [2, 5]，與腸道 **`Slc26a6`** 的丟失無涉。\n        2. **臨床後後果不符**：雖然晚期 **`CKD`** 患者極易並發急性 **`hyperkalemia`** [11]；但高鉀血症主要干擾心肌動作電位，並不是引發 **`calcium oxalate`** 結晶沉積與微血管炎症的病生理觸發因素。\n    *   *臨床特徵*：**`enteric hyperoxaluria`** 常在 **`fat malabsorption`** 後表現為腸源性草酸鈣結石；**`hyperkalemia`** 則主要引發 **`ECG`** 異常或致死性心律不整 [11]。\n    *   *出題者意圖*：此選項使用高深的「腸道草酸鹽分泌生理轉運體」搭配危急的「尿毒症電解質危象」進行高難度干擾，評估考生是否因追求「生僻機制」而忽視了 **`PH1`** 內源性合成與 **`GFR`** 清除極限的黃金主導因果鏈。\n\n---\n\n## 4. Exam Differential Diagnosis & High-Yield Comparisons\n\n在專科與病理學考試中，關於 **`Systemic Oxalosis`** 及其臨床類似物的鑑別，是極高頻的硬核考點：\n\n### 1. Systemic Oxalosis vs. Calciphylaxis / Calcific Uremic Arteriolopathy (CUA)\n這兩種病症均可在晚期 **`CKD`** / **`ESKD`** 中呈現嚴重的皮膚壞死、網狀青斑與多器官衰竭，但在病理與化學性質上具有根本區別 [3, 12]：\n*   **`Systemic Oxalosis`** [3, 5]：\n    *   *沉積化學物*：**`Calcium oxalate crystals`**。\n    *   *偏振光顯微鏡*：呈現高度特徵性的**強正雙折射性（`positively birefringent`）、呈透明扇形（`fan-like`）或向日葵狀晶體** [3, 10]。\n    *   *特異性前體*：**`plasma oxalate concentration > 30 µM`** [4]。\n*   **`Calciphylaxis (CUA)`** [12]：\n    *   *沉積化學物*：**`Calcium phosphate`**，選擇性沉積在 **`skin`** 與皮下小動脈的 **`medial layer`** [13]。\n    *   *偏振光顯微鏡*：**無雙折射性（`negative birefringence`）**；但 **`von Kossa` 染色呈現強陽性（深黑色/深紫色沉積）** [14]。\n    *   *誘發危險因子*：高度伴隨高磷、高鈣、嚴重繼發性甲旁亢、以及長期口服 **`warfarin`**（會阻斷 **`Matrix Gla Protein`** 活化） [12]。\n\n### 2. Primary Hyperoxaluria Type 1 (PH1) vs. Primary Hyperoxaluria Type 2 (PH2)\n這是考查遺傳性結晶性腎病變時，最經典的遺傳與化學鑑定對照 [1, 2, 15]：\n*   **`PH1`**：最嚴重亞型；**`alanine:glyoxylate aminotransferase (AGT)` 缺陷** [2, 5]；尿中同時排出高水平的 **`oxalate`** 與 **`glycolate`** [9, 16]；會進展至嚴重的 **`systemic oxalosis`**，移植**必須進行「`combined liver-kidney transplantation`」**以糾正 **`liver`** 補救酶缺陷 [3, 5]。\n*   **`PH2`**：中等嚴重度；**`glyoxylate reductase/hydroxypyruvate reductase (GRHPR)` 缺陷** [2, 15]；尿中排出高水平的 **`oxalate`** 與 **`L-glycerate`** [9, 16]；**`pyridoxine`** 治療無效 [15]，不建議行 **`liver`** 移植，僅需行單純 **`isolated renal transplantation`** [15]。\n\n---\n\n## 5. Citations & References\n\n*   **Chapter & Section**：\n    *   *Brenner & Rector's The Kidney*, Chapter 72: \"Diseases of the Kidney and Upper Urinary Tract in Children\"\n        *   Section: \"Primary Hyperoxalurias\" [Passage 183] & \"Systemic Oxalosis\" [Passage 185].\n    *   *Brenner & Rector's The Kidney*, Chapter 38: \"Urolithiasis\"\n        *   Section: \"Primary Hyperoxaluria\" [Passages 118, 119, 123, 125, 126].\n    *   *KDIGO 2009 Clinical Practice Guideline on the Monitoring, Management, and Treatment of Kidney Transplant Recipients*\n        *   Chapter 10: \"Primary Hyperoxaluria\" — Section 10.5.4 & Rationale [Passages 213, 215].\n    *   *KDIGO 2026 Clinical Practice Guideline for AKI/AKD (Public Review Draft)*\n        *   Chapter 4: \"Drug- and nephrotoxin-associated AKI\" — Table 31: \"Drug-induced crystalline nephropathies\" — entry: ethylene glycol / orlistat / systemic oxalosis [Passages 291, 293, 294].\n    *   *Brenner & Rector's The Kidney*, Chapter 53: \"Chronic Kidney Disease–Mineral Bone Disorder\"\n        *   Section: \"Calciphylaxis\" — Board Review Question 1 & Rationale [Passage 160].\n\n*   **Figures, Tables, & Boxes**：\n    *   *KDIGO 2026 Draft*, **Table 31** [Passage 293, 294]：`Drug-induced crystalline nephropathies`（詳細對照了 `orlistat` 引發 `enteric hyperoxaluria` 與 `ethylene glycol` 代謝為草酸，在病理上皆會產生 `positively birefringent` 的草酸鈣結晶沉積與 `interstitial inflammation`）。\n    *   *Chapter 53*, **Board Review Question 1 Rationale** [Passage 160]：詳細對照了 `calcific uremic arteriolopathy (calciphylaxis)` 活檢中血管內膜/中膜鈣化、栓塞與缺血性面板壞死的典型病理學診斷。\n\n---\n🔍 本題深入考查了 **`Primary Hyperoxaluria Type 1`** 在腎功能衰竭背景下引發 **`Systemic Oxalosis`** 的物理化學臨界閾值，強調了當 **`GFR`** 降至 **`30 mL/min/1.73m²`** 以下時，**`plasma oxalate`** 超過 **`30 µM`** 飽和界限進而引發全身結晶性器官損害的分子動力學機制。"
         }
       ],
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_008",
@@ -563,7 +570,8 @@
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcNotes": "Stage 2 QC verified. NLM dual responses returned INSUFFICIENT_DATABASE_EVIDENCE (NONE) due to Brenner 11e database coverage limitation for Lumasiran mRNA HAO1 mechanism, while ground truth answer is D.",
       "reconciliationNotes": "NotebookLM 知識庫對答證據不足，無法完成自動驗證。",
-      "qcVerifiedBy": "Tonks QC Subagent"
+      "qcVerifiedBy": "Tonks QC Subagent",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_009",
@@ -632,7 +640,8 @@
       "reconciliationNotes": "原始答案 (A) 與兩組 NotebookLM 解析 (A) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_010",
@@ -701,7 +710,8 @@
       "reconciliationNotes": "原始答案 (B) 與兩組 NotebookLM 解析 (B) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_011",
@@ -770,7 +780,8 @@
       "reconciliationNotes": "原始答案 (C) 與兩組 NotebookLM 解析 (C) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     },
     {
       "id": "2026_hyperoxaluria_012",
@@ -839,7 +850,8 @@
       "reconciliationNotes": "原始答案 (D) 與兩組 NotebookLM 解析 (D) 100% 三方一致。",
       "qcVerifiedAt": "2026-07-31T18:42:00Z",
       "qcVerifiedBy": "Tonks QC Subagent",
-      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer."
+      "qcNotes": "Stage 2 QC verified. NLM dual responses match ground truth answer.",
+      "sourceAnswerStatus": "provided"
     }
   ],
   "paperId": "2026_hyperoxaluria_(主題備考)"

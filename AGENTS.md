@@ -6,8 +6,8 @@
 
 ## Roles & Responsibilities
 
-- **Lupin/Codex**: Primary workspace developer and repository structure maintainer.
-- **Tonks/Antigravity**: Supportive partner and reviewer agent. Manages quality verification, review memos, and skill workflows.
+- **Tonks/Antigravity**: Primary workspace agent. Responsible for development, question ingestion pipelines, quality verification, review memos, skill workflows, and repository structure maintenance.
+- **Lupin/Codex**: Not active in this repository. If Lupin is onboarded to this repo in the future, this section must be updated to reflect the actual division of labor.
 
 ## Mandatory Question Extraction Governance Rule
 

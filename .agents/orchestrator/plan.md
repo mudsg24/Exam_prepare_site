@@ -1,33 +1,29 @@
-# Project Plan: Exam_prepare_site Phase 2 Script Modularization
+# Project: Refactoring 7 /tn-exam-* Skills (Phase 3)
 
 ## Architecture
-- Target directory: `scripts/pipeline/`
-- Subdirectories:
-  - `scripts/pipeline/lint/`: `lint_exam_json.mjs`, `lint_tutorial_json.mjs`, `check_assets.mjs`
-  - `scripts/pipeline/ingest/`: `ingest_exam.mjs`, `extract_and_attach_images.py`
-  - `scripts/pipeline/qc/`: `exam_qc.mjs`, `merge_qc_results.mjs`, `apply_qc_updates.py`
-  - `scripts/pipeline/nlm/`: `ask_nlm_for_*.mjs`, `process_nlm_results.py`
-  - `scripts/pipeline/utils/`: `build_image_index.mjs`
+- Working directory for skills: `/Users/yuan/.gemini/config/skills/`
+- Target skills:
+  - `tn-exam-prepare`
+  - `tn-exam-qc`
+  - `tn-exam-expert`
+  - `tn-exam-producer`
+  - `tn-exam-tutor`
+  - `tn-exam-lecture-and-practice`
+  - `tn-exam-query`
 
 ## Milestones
-
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | Script Migration & Internal Path Resolution | Move scripts into `scripts/pipeline/{lint,ingest,qc,nlm,utils}/` and update internal `__dirname` / `os.path.dirname(__file__)` references | none | DONE |
-| 2 | External Path & Config Updates | Update `package.json`, `AGENTS.md`, `scripts/__tests__/`, `vitest.config.ts` | Milestone 1 | DONE |
-| 3 | Full Pipeline Verification & Integrity Audit | Execute `npm run lint:exams`, `npm run test`, `npm run test:py` and run Forensic Integrity Audit | Milestone 1, 2 | DONE |
+| 1 | Exploration & Audit | Read and audit all 7 SKILL.md files to locate legacy script paths and duplicate rules | None | DONE |
+| 2 | Skill Refactoring Implementation | Update package.json & SKILL.md files per Remediation Pass 4 (Facade script cleanup & query wrapping) | M1 | DONE |
+| 3 | Verification & Quality Gate | Re-verify package.json scripts, npm run commands, zero facade aliases, zero legacy paths, and forensic integrity | M2 | DONE |
 
-## Interface & Path Contracts
-- Scripts moved 1 level deeper into subdirectories under `scripts/pipeline/`.
-- Relative imports from scripts to root/public must add `../` or calculate root correctly (`path.join(__dirname, '../../public/server-data')` etc.).
-- External scripts/tests importing pipeline scripts must use updated relative paths.
-- `package.json` scripts (`lint:exams`, `check:assets`, `build`, `build:images`) updated to point to `scripts/pipeline/lint/...`.
-- `AGENTS.md` rules 10 and 11 updated to point to `scripts/pipeline/lint/lint_exam_json.mjs` and `scripts/pipeline/lint/check_assets.mjs`.
-
-## Code Layout
-- `scripts/pipeline/lint/`
-- `scripts/pipeline/ingest/`
-- `scripts/pipeline/qc/`
-- `scripts/pipeline/nlm/`
-- `scripts/pipeline/utils/`
-- `scripts/__tests__/`
+## Interface Contracts & Requirements
+- `tn-exam-prepare`: Ingestion entry point. Pure NLP semantic extraction. Trigger `npm run pipeline:ingest`.
+- `tn-exam-qc`: Quality Gate. NLM completeness & semantic review. Trigger `npm run pipeline:qc`. Remove duplicate prepare rules.
+- `tn-exam-expert`: Pre-processing tool. De-walling & LaTeX/Markdown fix. NO QC calls. Static verification via `npm run pipeline:lint`.
+- `tn-exam-producer`: MCQs generation from study notes (pure English). Static verification via `npm run pipeline:lint`.
+- `tn-exam-tutor`: Textbook-style lectures generation from study notes. Static verification via `npm run pipeline:lint`.
+- `tn-exam-lecture-and-practice`: Pure Orchestrator / Dispatcher. NO content generation inside. Parse user input and call `invoke_subagent` to dispatch `tn-exam-producer` and `tn-exam-tutor`. Trigger `npm run pipeline:lint` and `npm run build`.
+- `tn-exam-query`: Semantic search / RAG role. Trigger `npm run pipeline:query` and `npm run pipeline:indexer`. Remove raw python invocations.
+- General Cleanup: Remove duplicate governance rules across all 7 skills. All facade script aliases removed from `package.json`. Authentic pipeline scripts declared: `pipeline:lint`, `pipeline:ingest`, `pipeline:qc`, `pipeline:query`, `pipeline:indexer`.

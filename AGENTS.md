@@ -118,6 +118,7 @@
    - Directory: `/Users/yuan/Projects/Notebooklm/NLM_MCQs`
    - Gateway Command: `uv run --directory /Users/yuan/Projects/Notebooklm/NLM_MCQs python -m MCQ_manufacturer.nlm_asking_gateway`
    - Architecture: 25-Worker pool across 5 accounts / 25 Notebooks.
+   - **Happy Path**: NLM 提問必須透過 `/tn-nlm-asking-mcqs` skill 進行派發。NLM gateway 返回的 `rawResponse` 必須且只能交由具備 NLP 語意分析能力的 Subagent 閱讀並寫入 JSON，**絕不可交由 Python script 或 Regex 處理**。`selectedOption` 一律尊奉原始試卷的 `sourceProvidedAnswer` (Ground Truth)。
 
 ## Web Application Architecture
 
@@ -132,5 +133,10 @@
 
 ## Key Skills
 
-- `/tn-exam-prepare`: Ingestion skill for scanning question directories, requesting Yuan confirmation, dispatching subagents for semantic question extraction directly from source files (No Regex! Source First!), executing dedicated QC Subagent verification, dispatching dual NLM asking via `/tn-nlm-asking-mcqs`, matching images, and updating the web database.
-- `/tn-exam-qc`: Dedicated quality control skill for scanning anomalous NLM answers (< 200 chars or `INSUFFICIENT`), triggering NLM re-asking, dispatching subagents for source-first and full-text semantic option re-evaluation, and persisting QC verification flags (`qcVerified: true`, `qcStatus`) in the web database.
+- `/tn-exam-prepare`: Ingestion gateway. Scans question directories, dispatches subagents for semantic question extraction directly from source files (No Regex! Source First!), executes dedicated QC Subagent verification, dispatches dual NLM asking via `/tn-nlm-asking-mcqs`, matches images, and calls `npm run pipeline:ingest` to update the web database.
+- `/tn-exam-qc`: Quality control authority. Stage 1 detects technical failures (< 200 chars, INSUFFICIENT, connection errors) and triggers NLM re-asking via `npm run pipeline:qc`. Stage 2 dispatches subagents for source-first semantic re-evaluation, persisting `qcVerified: true` flags.
+- `/tn-exam-lecture-and-practice`: Pure Orchestrator / Dispatcher. Receives a topic from Yuan, then dispatches `/tn-exam-producer` (MCQs) and `/tn-exam-tutor` (lectures) in parallel. Does NOT generate content itself.
+- `/tn-exam-producer`: Reads non-MCQ study notes and transforms each key point into 2-3 high-quality MCQs (pure English stem & options, Traditional Chinese + English medical terms in sourceExplanation). Dispatches NLM dual-blind testing and triangulation reconciliation.
+- `/tn-exam-tutor`: Transforms study notes into textbook-grade thematic tutorial lectures. Embeds 1-3 authoritative Brenner/KDIGO figures per section. Must NOT be written as answer explanations or option-by-option breakdowns.
+- `/tn-exam-query`: Semantic search gateway for historical exam questions, key points, and reference images. Invokes `npm run pipeline:query`.
+- `/tn-exam-expert`: Pre-exam formatting preprocessor. Performs text-wall de-walling, Markdown strikethrough repair, and LaTeX/Markdown syntax polarization. Does NOT perform QC.

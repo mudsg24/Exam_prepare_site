@@ -43,3 +43,40 @@ Integrity mode: development
 ### [Code Quality]
 - [ ] 腳本內的相對路徑 (`__dirname`, `os.path.dirname`) 必須能成功指向正確的根目錄與 `public/server-data` 實體檔案位置。
 </USER_REQUEST>
+
+## 2026-08-02T22:24:35Z
+
+<USER_REQUEST>
+# Teamwork Project Prompt — Draft
+
+> Status: Launched
+> Goal: Delegate to teamwork_preview to execute Phase 3
+
+執行 `Exam_prepare_site` 的 Phase 3 重構：針對 7 個 `/tn-exam-*` Skills 進行 Atomic Transaction 改寫，落實單一職責與 Pipeline 呼叫對齊。
+
+Working directory: `/Users/yuan/.gemini/config/skills/`
+Integrity mode: development
+
+## Requirements
+
+### R1. Skill Boundary & Interface Contract (Group A: Ingestion & QC)
+- **`tn-exam-prepare`**: 改寫為單純的 Ingestion 入口。專注發派 Subagents 進行 NLP 語意抽取。嚴格禁止內建繁雜的腳本邏輯，資料抽離完成後，一律改為觸發 `npm run pipeline:ingest`。
+- **`tn-exam-qc`**: 改寫為權威的 Quality Gate。負責 NLM 完整度與語意審查，並統一呼叫 `npm run pipeline:qc` 來處理 retry loops 與狀態輪轉。清除所有與 prepare 重疊的 governance rules。
+
+### R2. Skill Boundary & Interface Contract (Group B: Content Generation)
+- **`tn-exam-expert`**: 降級為純粹的 Pre-processing 工具，專職負責文字牆 De-walling 與 LaTeX/Markdown 損毀修復。明文禁止呼叫 QC。
+- **`tn-exam-producer`**: 專注於從 study notes 生成純英文 MCQs。
+- **`tn-exam-tutor`**: 專注於從 study notes 生成 textbook-style lectures。
+- **`tn-exam-lecture-and-practice`**: 改寫為純粹的 Orchestrator / Dispatcher。**本身禁止撰寫內容**，專職解析使用者需求後，透過 `invoke_subagent` 發派 `tn-exam-producer` 與 `tn-exam-tutor` 進行並行處理。清除其內部所有 duplicate 的 tutor/producer 治理條文。
+
+### R3. General Skill Cleanup
+- `tn-exam-query`: 確認維持 Semantic search/RAG 的角色，並移除任何已經作廢的相依。
+- **全局清理**：移除上述 7 個 Skills 的重複治理條文 (Duplicate Governance Rules)，確保所有 `SKILL.md` 中對 Node.js / Python 的腳本呼叫，100% 取代為 `npm run pipeline:*` 的新架構呼叫，絕對不可殘留寫死的舊 `scripts/...` 實體路徑。
+
+## Acceptance Criteria
+
+### [Linter & Dependency Verification]
+- [ ] 所有修改後的 `SKILL.md` 檔案必須能正常被平台解析 (YAML frontmatter 格式正確且不受損)。
+- [ ] 使用 `grep -r "scripts/" ~/.gemini/config/skills/tn-exam-*` 必須找不到任何舊的直接腳本呼叫 (必須全部換成 `npm run pipeline:*`)。
+- [ ] `tn-exam-lecture-and-practice/SKILL.md` 內容必須證實不再包含自己產生內容的 Prompt 邏輯，僅保留 `invoke_subagent` 派發邏輯。
+</USER_REQUEST>

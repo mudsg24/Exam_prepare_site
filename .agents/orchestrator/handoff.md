@@ -1,40 +1,24 @@
-# Orchestrator Handoff & Victory Report — Phase 2 Script Modularization
+# Soft Handoff Report — Orchestrator Generation 1
 
-## 1. Observation
-All requirements specified in ORIGINAL_REQUEST.md for Phase 2 script modularization of `Exam_prepare_site` have been implemented and verified:
+## Milestone State
+- **Milestone 1**: Exploration & Audit of 7 `/tn-exam-*` skills — **DONE**
+- **Milestone 2**: Skill Refactoring Implementation (Remediation Pass 3 - package.json aligned) — **DONE**
+- **Milestone 3**: Verification & Quality Gate (Iteration 3 Re-verification) — **PENDING** (To be executed by Successor)
 
-1. **R1: Pipeline Module Migration**:
-   - `scripts/pipeline/lint/`: `lint_exam_json.mjs`, `lint_tutorial_json.mjs`, `check_assets.mjs`
-   - `scripts/pipeline/ingest/`: `ingest_exam.mjs`, `extract_and_attach_images.py`
-   - `scripts/pipeline/qc/`: `exam_qc.mjs`, `merge_qc_results.mjs`, `apply_qc_updates.py`
-   - `scripts/pipeline/nlm/`: `ask_nlm_for_2026.mjs`, `ask_nlm_for_renal_transplant.mjs`, `process_nlm_results.py`
-   - `scripts/pipeline/utils/`: `build_image_index.mjs`
+## Active Subagents
+- None. All 16 subagents (3 Explorers, 5 Workers, 3 Reviewers, 3 Challengers, 2 Auditors) completed work successfully.
+- All heartbeat cron tasks terminated.
 
-2. **R2: Internal Path Resolution Fixes**:
-   - `scripts/pipeline/lint/lint_exam_json.mjs`: `__dirname` lookups updated (`../public` -> `../../../public`).
-   - `scripts/pipeline/lint/lint_tutorial_json.mjs` & `check_assets.mjs`: updated `__dirname` relative paths to `../../../public`.
-   - `scripts/pipeline/nlm/ask_nlm_for_*.mjs`: updated imports to `../ingest/ingest_exam.mjs`.
-   - `scripts/pipeline/utils/build_image_index.mjs`: fixed ESM export collision (`export { scanDir }`).
+## Pending Decisions
+- None.
 
-3. **R3: External Path Updates & Governance**:
-   - `package.json`: Updated `lint:exams`, `check:assets`, `build`, `build:images` to point to `scripts/pipeline/{lint,utils}/...`.
-   - `AGENTS.md`: Updated Rules 10-12 path references, expanded Rule 1 Memory Guard to explicitly define "Red Zone" (Regex manipulation on stem/options/explanations banned) vs "Green Zone" (JSON schema & asset checkers in `scripts/pipeline/` permitted).
-   - `vitest.config.ts`: Updated `coverage.include` paths.
-   - `scripts/__tests__/`: Updated JS & Python test imports.
-   - Non-moved script callers in `scripts/`: Updated relative imports to `./pipeline/{ingest,qc}/...`.
+## Remaining Work for Successor
+- Successor will spawn Milestone 3 Iteration 3 Quality Gate subagents (Reviewer, Challenger, Forensic Auditor) to verify that `package.json` contains all 7 `pipeline:*` scripts (`pipeline:lint`, `pipeline:ingest`, `pipeline:qc`, `pipeline:expert`, `pipeline:producer`, `pipeline:tutor`, `pipeline:query`) and that all 7 `npm run pipeline:*` commands execute cleanly with 0 errors in bash.
+- Verify that `grep -rn "scripts/" ~/.gemini/config/skills/tn-exam-*` returns 0 legacy matches.
+- Obtain final CLEAN audit verdict and report victory to Sentinel / Parent.
 
----
-
-## 2. Verification Outcomes
-All acceptance criteria verified empirically:
-- `npm run build:images` — **PASSED** (Exit code 0; 2,762 images indexed into `public/server-data/image_index.json`)
-- `npm run lint:exams` — **PASSED** (Exit code 0; 103 exam JSONs, 77 tutorial JSONs, 180 database JSON files verified)
-- `npm run check:assets` — **PASSED** (Exit code 0)
-- `npm run test` (Vitest) — **PASSED** (Exit code 0; 14 test files, 98 unit tests passed)
-- `npm run test:py` (Pytest) — **PASSED** (Exit code 0; 2 unit tests passed)
-- **Forensic Integrity Audit** — **CLEAN** (Zero facade scripts, zero hardcoded test outputs)
-
----
-
-## 3. Conclusion & Team Sign-off
-Phase 2 script modularization of `Exam_prepare_site` is 100% complete and fully verified.
+## Key Artifacts
+- `/Users/yuan/Projects/Exam/Exam_prepare_site/.agents/orchestrator/plan.md` — Project Plan & Milestone Tracker
+- `/Users/yuan/Projects/Exam/Exam_prepare_site/.agents/orchestrator/progress.md` — Liveness & Execution Log
+- `/Users/yuan/Projects/Exam/Exam_prepare_site/.agents/orchestrator/BRIEFING.md` — Briefing & Roster Index
+- `/Users/yuan/Projects/Exam/Exam_prepare_site/.agents/worker_m2_5/handoff.md` — Remediation Worker 5 Handoff (Verified package.json scripts)

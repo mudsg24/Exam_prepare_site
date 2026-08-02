@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import path from 'path';
-import { lintExamFile, runLinter } from '../lint_exam_json.mjs';
+import { lintExamFile, runLinter } from '../pipeline/lint/lint_exam_json.mjs';
 
 describe('lintExamFile Script Unit Tests', () => {
   const tmpDir = path.resolve(__dirname, './tmp_lint_tests');

@@ -13,9 +13,9 @@
 
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | Script Migration & Internal Path Resolution | Move scripts into `scripts/pipeline/{lint,ingest,qc,nlm,utils}/` and update internal `__dirname` / `os.path.dirname(__file__)` references | none | IN_PROGRESS |
-| 2 | External Path & Config Updates | Update `package.json`, `AGENTS.md`, `scripts/__tests__/`, `vitest.config.ts` | Milestone 1 | PLANNED |
-| 3 | Full Pipeline Verification & Integrity Audit | Execute `npm run lint:exams`, `npm run test`, `npm run test:py` and run Forensic Integrity Audit | Milestone 1, 2 | PLANNED |
+| 1 | Script Migration & Internal Path Resolution | Move scripts into `scripts/pipeline/{lint,ingest,qc,nlm,utils}/` and update internal `__dirname` / `os.path.dirname(__file__)` references | none | DONE |
+| 2 | External Path & Config Updates | Update `package.json`, `AGENTS.md`, `scripts/__tests__/`, `vitest.config.ts` | Milestone 1 | DONE |
+| 3 | Full Pipeline Verification & Integrity Audit | Execute `npm run lint:exams`, `npm run test`, `npm run test:py` and run Forensic Integrity Audit | Milestone 1, 2 | DONE |
 
 ## Interface & Path Contracts
 - Scripts moved 1 level deeper into subdirectories under `scripts/pipeline/`.

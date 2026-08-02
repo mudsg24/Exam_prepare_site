@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import path from 'path';
-import { scanDir, buildImageIndex } from '../build_image_index.mjs';
+import { scanDir, buildImageIndex } from '../pipeline/utils/build_image_index.mjs';
 
 describe('build_image_index Script Unit Tests', () => {
   const tmpSrcDir = path.resolve(__dirname, './tmp_img_src');

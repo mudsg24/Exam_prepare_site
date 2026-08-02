@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SERVER_DATA_DIR = path.resolve(__dirname, '../public/server-data');
+const SERVER_DATA_DIR = path.resolve(__dirname, '../../../public/server-data');
 
 // Regex matching synthetic standalone section headers inserted by subagents (e.g. **History & Clinical Presentation:** or \nQuestion:)
 const SYNTHETIC_HEADER_REGEX = /(\*\*|^\s*|\n\s*)(History & Clinical Presentation|Physical Examination & Vitals|Physical Examination & Imaging|Physical Examination|Laboratory Evaluation \(ABG\)|Laboratory & Genetic Evaluation|Laboratory Evaluation|Laboratory Studies|Laboratory & Imaging|Urine Diagnostics|24-hour Urine Collection|Arterial blood gas|Clinical Course|Clinical Decision & Question|Question)\s*(\*\*:?|:\s*\n)/gi;
@@ -205,7 +205,7 @@ function lintManifestFile() {
 
     // Disk File Resolution Check
     const filename = item.filename || `${item.id}.json`;
-    const targetPath = filename.startsWith('/') ? path.join(__dirname, '../public', filename) : path.join(SERVER_DATA_DIR, filename);
+    const targetPath = filename.startsWith('/') ? path.join(__dirname, '../../../public', filename) : path.join(SERVER_DATA_DIR, filename);
     const fallbackPath = path.join(SERVER_DATA_DIR, `${item.id}.json`);
     if (!fs.existsSync(targetPath) && !fs.existsSync(fallbackPath)) {
       errors.push(`[${itemLabel}] Targeted JSON file does not exist: ${filename}`);

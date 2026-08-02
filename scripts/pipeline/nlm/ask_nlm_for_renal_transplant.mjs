@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
-import { reconcileResponses } from './ingest_exam.mjs';
+import { reconcileResponses } from '../ingest/ingest_exam.mjs';
 
 const NLM_GATEWAY_DIR = '/Users/yuan/Projects/Notebooklm/NLM_MCQs';
 const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');

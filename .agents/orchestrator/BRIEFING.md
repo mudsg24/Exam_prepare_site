@@ -47,11 +47,23 @@ Orchestrate Phase 2 script modularization of Exam_prepare_site: migrate scripts 
 ## Team Roster
 | Agent | Type | Work Item | Status | Conv ID |
 |-------|------|-----------|--------|---------|
+| Explorer 1 | teamwork_preview_explorer | R1 & R2 Script Path Mapping | completed | 158ca852-dfa2-42a9-95aa-082867c985b5 |
+| Explorer 2 | teamwork_preview_explorer | R3 External References Mapping | completed | d08c6b43-e336-42c2-8785-950a0703f4f9 |
+| Explorer 3 | teamwork_preview_explorer | Test Baseline & Verification Mapping | completed | 8c7f8f16-079b-4c57-b0f9-9ffae9776a22 |
+| Worker | teamwork_preview_worker | R1, R2, R3 Pipeline Migration & Fixes | completed | 916922e0-cb82-4f95-8907-f332a7319e1d |
+| Reviewer 1 | teamwork_preview_reviewer | Code & Path Verification | completed | 73649653-6597-4913-be38-31df7276a966 |
+| Reviewer 2 | teamwork_preview_reviewer | Governance & Safety Verification | completed | 9c2127f3-4dfb-4ee3-bda7-036f317cd7b0 |
+| Challenger 1 | teamwork_preview_challenger | Empirical Stress Testing | completed | 0903e6e2-bbee-4253-bef6-11f2ac85a53a |
+| Challenger 2 | teamwork_preview_challenger | Empirical Coverage Testing | completed | 8cb87321-fa04-4f2d-a58d-987e7ae80496 |
+| Auditor | teamwork_preview_auditor | Forensic Integrity Audit | completed | 3b91e95e-5deb-4822-8582-0a232d4a144c |
+| Worker Fix | teamwork_preview_worker | Fix buildImageIndex duplicate ESM export | completed | 0e00eed2-3542-4a2a-95a0-74777e49f78a |
+| Challenger Final | teamwork_preview_challenger | Final Empirical Verification | in-progress | 2781587b-ced7-4885-a8ce-753b45e58bf0 |
+| Auditor Final | teamwork_preview_auditor | Final Forensic Audit | in-progress | 3672e40b-02c4-4476-8189-3761d9855d3b |
 
 ## Succession Status
 - Succession required: no
-- Spawn count: 0 / 16
-- Pending subagents: none
+- Spawn count: 12 / 16
+- Pending subagents: 2781587b-ced7-4885-a8ce-753b45e58bf0, 3672e40b-02c4-4476-8189-3761d9855d3b
 - Predecessor: none
 - Successor: not yet spawned
 

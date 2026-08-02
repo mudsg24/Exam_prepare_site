@@ -14,8 +14,8 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
       include: [
         'src/**/*.{ts,tsx}',
-        'scripts/lint_exam_json.mjs',
-        'scripts/build_image_index.mjs',
+        'scripts/pipeline/lint/lint_exam_json.mjs',
+        'scripts/pipeline/utils/build_image_index.mjs',
       ],
       exclude: [
         'src/main.tsx',

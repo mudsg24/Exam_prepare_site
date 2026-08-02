@@ -68,7 +68,7 @@ export function buildImageIndex() {
 
 import { fileURLToPath } from 'url';
 
-export { scanDir, buildImageIndex };
+export { scanDir };
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   buildImageIndex();

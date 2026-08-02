@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { inspectQuestionForQc } from './exam_qc.mjs';
+import { inspectQuestionForQc } from './pipeline/qc/exam_qc.mjs';
 
 const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');
 

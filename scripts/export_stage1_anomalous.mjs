@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { isNlmResponseAnomalous } from './exam_qc.mjs';
+import { isNlmResponseAnomalous } from './pipeline/qc/exam_qc.mjs';
 
 const SERVER_DATA_DIR = path.join(process.cwd(), 'public', 'server-data');
 

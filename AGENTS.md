@@ -19,6 +19,9 @@
 > 
 > 1. **LIFECYCLE ABSOLUTE BAN ON REGEX & SCRIPTS (全生命週期全管道嚴禁 Regex 與腳本改檔鐵律)**:
 >    - **全管道（包含主 Session、Python 腳本與 Subagents）絕對禁止**撰寫或執行任何 Regex 正則表達式 (`re.sub()`, `re.compile()`, `sed`, `awk`) 或批次取代腳本進行考題內文 (`stem`)、選項 (`options`)、解說 (`sourceExplanation`) 之抓取、段落切分、換行插入或排版修復。
+>    - **Red Zone vs. Green Zone 治理邊界**:
+>      - **Red Zone (絕對禁區)**: 對考題內文 (`stem`)、選項 (`options`)、解說 (`sourceExplanation`) 等文字內容進行 Regex 抓取、段落切分、換行插入或機械取代為嚴格禁止之紅線。
+>      - **Green Zone (合規系統工具)**: 置於 `scripts/pipeline/` 下的 JSON schema linters (`scripts/pipeline/lint/lint_exam_json.mjs`)、靜態資產檢查器 (`scripts/pipeline/lint/check_assets.mjs`) 與管道狀態腳本為合法且合規之系統工具，不屬於 Red Zone 切分改寫行為。
 >    - 主 Session 在呼叫 `run_command` 前必須強制執行 Pre-Execution Audit，禁止執行任何以腳本或 Regex 改寫考題內文的命令。
 >    - 所有考題解析、結構化提取與文字牆優化，**一律且只能派發 Subagents 透過 LLM 語言能力與語意理解進行判斷與調整**。
 >
@@ -79,13 +82,13 @@
 >     - **Exam Paper JSON Mandatory Schema**:
 >       - Every question bank JSON MUST contain top-level `paperId` (string), `title` (string), `sourceCategory` (string), `year` (number), `questionCount` (number), and `questions` array.
 >       - Each question inside `questions` MUST contain `id`, `number`, `stem`, `options` (array of `{id, text}`), `sourceProvidedAnswer`, `sourceAnswerStatus`, `nlmResponses` array, and `reconciliationStatus`.
->     - **PRE-PUBLISH LINTER GATE**: Before committing or publishing any generated JSON to `public/server-data/`, main session and subagents MUST execute `node scripts/lint_exam_json.mjs`. Any schema key violation will fail the build.
+>     - **PRE-PUBLISH LINTER GATE**: Before committing or publishing any generated JSON to `public/server-data/`, main session and subagents MUST execute `node scripts/pipeline/lint/lint_exam_json.mjs`. Any schema key violation will fail the build.
 >
 > 11. **MANDATORY IMAGE SCHEMA & PATH INTEGRITY RULE (圖表 Schema 與實體路徑雙重硬性門閥鐵律)**:
 >     - **Mandatory Property**: Every image object in `resolvedImages`, `stemImages`, and `sections[i].images` MUST contain `relPath` (string).
 >     - **Absolute Ban on Missing Path Prefixes**: `relPath` MUST start with `/reference-images/` (for KDIGO/Brenner figures) or `/server-data/assets/` (for generated/attached diagrams). Raw filenames without leading web path or missing `/reference-images/` are strictly prohibited.
 >     - **Disk Existence Verification**: The file referenced by `relPath` MUST exist on disk in `public/`.
->     - **Pre-Publish Verification Gate**: Before publishing, execute `node scripts/lint_exam_json.mjs && node scripts/check_assets.mjs`. Any invalid path or missing `relPath` will fail the lint check.
+>     - **Pre-Publish Verification Gate**: Before publishing, execute `node scripts/pipeline/lint/lint_exam_json.mjs && node scripts/pipeline/lint/check_assets.mjs`. Any invalid path or missing `relPath` will fail the lint check.
 >
 > 12. **ABSOLUTE BAN ON FAKED/SYNTHETIC NLM RESPONSES & HONEST FAILURE DEGRADATION PROTOCOL (嚴禁造假 NLM 對答與誠實失敗協議鐵律)**:
 >     - **ABSOLUTE ZERO TOLERANCE FOR FRAUD & DATA POISONING**:
@@ -96,7 +99,7 @@
 >       - 允許且必須將該題目標註為 `reconciliationStatus: "UNRESOLVED_NEEDS_RETRY"` 或 `qcVerified: false`，並向 Yuan 匯報待重試之題目清單。
 >       - **一份包含待重試題目的誠實資料庫，價值 100 倍優於造假數據！**
 >     - **HARD LINTER ANTI-FAKE GATE**:
->       - 靜態 Linter `scripts/lint_exam_json.mjs` 會自動對所有 JSON 進行 (1) `sourceExplanation` 抄襲比對與 (2) Account 1 與 Account 2 回答字元 100% 同字比對。凡檢出造假一律中斷 Build。
+>       - 靜態 Linter `scripts/pipeline/lint/lint_exam_json.mjs` 會自動對所有 JSON 進行 (1) `sourceExplanation` 抄襲比對與 (2) Account 1 與 Account 2 回答字元 100% 同字比對。凡檢出造假一律中斷 Build。
 
 
 ## Single Source of Truth (SSOT) Data Sources

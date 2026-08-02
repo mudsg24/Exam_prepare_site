@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PUBLIC_DIR = path.resolve(__dirname, '../public');
+const PUBLIC_DIR = path.resolve(__dirname, '../../../public');
 const TUTORIALS_DIR = path.resolve(PUBLIC_DIR, 'server-data/tutorials');
 
 function lintTutorialFile(filePath) {

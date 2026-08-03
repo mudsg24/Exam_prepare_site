@@ -135,8 +135,7 @@
 
 - `/tn-exam-prepare`: Ingestion gateway. Scans question directories, dispatches subagents for semantic question extraction directly from source files (No Regex! Source First!), executes dedicated QC Subagent verification, dispatches dual NLM asking via `/tn-nlm-asking-mcqs`, matches images, and calls `npm run pipeline:ingest` to update the web database.
 - `/tn-exam-qc`: Quality control authority. Stage 1 detects technical failures (< 200 chars, INSUFFICIENT, connection errors) and triggers NLM re-asking via `npm run pipeline:qc`. Stage 2 dispatches subagents for source-first semantic re-evaluation, persisting `qcVerified: true` flags.
+- `/tn-exam-expert`: Pre-exam formatting preprocessor. Performs text-wall de-walling, Markdown strikethrough repair, and LaTeX/Markdown syntax polarization. Does NOT perform QC.
 - `/tn-exam-lecture-and-practice`: Pure Orchestrator / Dispatcher. Receives a topic from Yuan, then dispatches `/tn-exam-producer` (MCQs) and `/tn-exam-tutor` (lectures) in parallel. Does NOT generate content itself.
 - `/tn-exam-producer`: Reads non-MCQ study notes and transforms each key point into 2-3 high-quality MCQs (pure English stem & options, Traditional Chinese + English medical terms in sourceExplanation). Dispatches NLM dual-blind testing and triangulation reconciliation.
 - `/tn-exam-tutor`: Transforms study notes into textbook-grade thematic tutorial lectures. Embeds 1-3 authoritative Brenner/KDIGO figures per section. Must NOT be written as answer explanations or option-by-option breakdowns.
-- `/tn-exam-query`: Semantic search gateway for historical exam questions, key points, and reference images. Invokes `npm run pipeline:query`.
-- `/tn-exam-expert`: Pre-exam formatting preprocessor. Performs text-wall de-walling, Markdown strikethrough repair, and LaTeX/Markdown syntax polarization. Does NOT perform QC.

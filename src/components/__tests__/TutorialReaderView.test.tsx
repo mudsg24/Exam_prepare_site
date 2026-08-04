@@ -5,9 +5,12 @@ import { TutorialReaderView } from '../TutorialReaderView';
 import { ExamTutorial } from '../../types/exam';
 
 const mockTutorial: ExamTutorial = {
+  id: 'tutorial_demo',
   paperId: 'tutorial_demo',
   year: 2026,
   title: 'Nephrology Study Tutorial',
+  sourceCategory: 'test',
+  updatedAt: '2026-08-04T00:00:00.000Z',
   modules: [
     {
       moduleId: 'mod_1',
@@ -19,6 +22,7 @@ const mockTutorial: ExamTutorial = {
           content: 'Hyponatremia is defined as serum sodium < 135 mEq/L.',
           diagram: {
             id: 'diag_1',
+            type: 'micrograph',
             sourceBook: 'Brenner 11e',
             imagePath: '/reference-images/Brenner_Fig_1.png',
             caption: 'Hyponatremia algorithm',
@@ -31,12 +35,14 @@ const mockTutorial: ExamTutorial = {
       diagrams: [
         {
           id: 'diag_standalone_1',
+          type: 'micrograph',
           sourceBook: 'KDIGO 2024',
           imagePath: '/reference-images/KDIGO_Fig_1.png',
           caption: 'KDIGO Overview Figure 1',
         },
         {
           id: 'diag_standalone_2',
+          type: 'micrograph',
           sourceBook: 'KDIGO 2024',
           imagePath: '/reference-images/KDIGO_Fig_2.png',
           caption: 'KDIGO Overview Figure 2',
@@ -47,6 +53,7 @@ const mockTutorial: ExamTutorial = {
       moduleId: 'mod_2',
       moduleTitle: 'Module 2: Glomerular Diseases',
       studyGuide: 'Focus on nephrotic vs nephritic syndromes.',
+      diagrams: [],
       sections: [
         {
           heading: 'Section 2.1 IgA Nephropathy',
